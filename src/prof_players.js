@@ -38,7 +38,7 @@ function hostStatusHtml(){
 var HC_T=null;
 function openHostCode(){
   if(!G)return;
-  $("hc-code").textContent=hostCode();openModal("m-hostcode");
+  $("hc-code").textContent=hostCode();$("hc-rev").textContent="Code des aventuriers : "+G.code+"  →  à l’envers : "+hostCode()+" (fermez cette fenêtre avant de projeter)";openModal("m-hostcode");
   var n=10;$("hc-t").textContent="Masqué automatiquement dans "+n+" s.";
   clearInterval(HC_T);HC_T=setInterval(function(){n--;if(n<=0||$("m-hostcode").classList.contains("hidden")){clearInterval(HC_T);closeModal("m-hostcode");$("hc-code").textContent="····";return;}$("hc-t").textContent="Masqué automatiquement dans "+n+" s.";},1000);
 }

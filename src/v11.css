@@ -1,0 +1,39 @@
+/* ═══ v1.1 — identité des pages, couleurs des modes, blocs (chargé après prof.css / eleve.css) ═══ */
+body[data-mode="solo"]{--mc:var(--mode-solo)}
+body[data-mode="duel"]{--mc:var(--mode-duel)}
+body[data-mode="boss"]{--mc:var(--mode-boss)}
+body.pg-mj{--pg:var(--pg-mj)}
+body.pg-pl{--pg:var(--pg-pl)}
+.top{box-shadow:inset 0 -4px 0 -1px color-mix(in srgb,var(--pg,transparent) 70%,transparent)}
+.brand small{background:var(--pg,var(--chip));color:#fff;border-radius:999px;padding:.05rem .6rem;font-size:.72rem;font-weight:700;letter-spacing:.04em;margin-left:.5rem}
+.steps li.on{background:var(--pg,var(--ink));color:#fff;border-color:var(--pg,var(--ink))}
+/* blocs de couleurs douces et cohérentes */
+.mode{background:color-mix(in srgb,var(--mc,var(--line)) 11%,var(--card));border-color:color-mix(in srgb,var(--mc,var(--line)) 45%,var(--line))}
+.mode[data-m="solo"]{--mc:var(--mode-solo)}.mode[data-m="duel"]{--mc:var(--mode-duel)}.mode[data-m="boss"]{--mc:var(--mode-boss)}
+.mode.on{border-color:var(--mc);box-shadow:0 0 0 3px color-mix(in srgb,var(--mc) 35%,transparent)}
+.mode .mi{background:color-mix(in srgb,var(--mc) 22%,var(--card));color:var(--mc)}
+.mode.on .mi{background:var(--mc);color:#fff}
+body.pg-mj .mode-card{background-color:color-mix(in srgb,#B8892F 8%,var(--card))}
+body.pg-mj #acc-set{background-color:color-mix(in srgb,#5560A8 8%,var(--card))}
+body.pg-mj #s-pick .card:not(.mode-card){background-color:color-mix(in srgb,#5E8A5A 9%,var(--card))}
+body.pg-mj .pv-head{background-color:color-mix(in srgb,#8F6AA0 9%,var(--card))}
+body.pg-mj .join-card{background:linear-gradient(150deg,#2F5D6B,#3E7C8E);color:#F6EEDA;border-color:#D9B45A}
+body.pg-mj .join-card .jc-l,body.pg-mj .join-card .jc-code-l,body.pg-mj .join-card .jc-count{color:#F6EEDA;opacity:1}
+body.pg-mj .join-card .jc-url{background:rgba(0,0,0,.22);color:#F6EEDA}
+body.pg-pl .ps-card,body.pg-pl #s-train .card{background-color:color-mix(in srgb,#3E8068 9%,var(--card))}
+body.pg-pl .q-card{background-color:color-mix(in srgb,var(--mc,#B8892F) 9%,var(--card))}
+body.pg-pl .end-me,body.pg-pl #carnet .pgb{background-color:color-mix(in srgb,#B8892F 9%,var(--card))}
+body.pg-pl #s-carnet .pgb:first-child{background-color:color-mix(in srgb,#5560A8 8%,var(--card))}
+.tag.t-theme{background:color-mix(in srgb,var(--mc,#5E8A5A) 18%,var(--card));color:var(--ink);border:1px solid color-mix(in srgb,var(--mc,#5E8A5A) 45%,transparent);margin-left:.3rem;font-size:.78rem;max-width:100%;white-space:normal}
+.rv-th{margin-bottom:.5rem}
+.rv-src{display:block;margin-top:.9rem;padding-top:.5rem;border-top:1px dashed var(--line2);font-size:.82rem;line-height:1.35;color:var(--ink3);font-style:italic}
+.boss-help{background-color:color-mix(in srgb,var(--mode-boss) 9%,var(--card));border-color:color-mix(in srgb,var(--mode-boss) 40%,var(--line2));margin-bottom:.8rem;padding:.9rem 1.1rem}
+.boss-help h3{margin:0 0 .3rem}.boss-help p{margin:.2rem 0}.boss-help ol{margin:.3rem 0 .2rem 1.1rem;padding:0}.boss-help li{margin:.35rem 0}
+.bh-ic svg{width:1.1em;height:1.1em;vertical-align:-.2em}
+/* codes : une seule police, très lisible */
+.jc-code,.qf-code,.hc-code,.slots span,.hexpad button{font-family:var(--code-font);font-weight:900}
+/* rideau (écran MJ masqué) */
+.curtain{position:fixed;inset:0;z-index:400;background:#111827;color:#F2E6C8;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem;cursor:pointer}
+.curtain.hidden{display:none}
+.cu-logo{width:7rem;height:7rem;border-radius:18px;margin-bottom:1rem}
+.curtain h2{font-size:2.4rem;margin:.2rem 0 .6rem;color:#D9B45A}.curtain p{font-size:1.15rem;opacity:.85;line-height:1.5}

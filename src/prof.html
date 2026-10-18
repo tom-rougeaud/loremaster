@@ -15,7 +15,7 @@
 /*@@PROFCSS@@*/
 </style>
 </head>
-<body class="v-proj">
+<body class="v-proj pg-mj">
 <header class="top">
   <span id="brand"></span>
   <span class="pill wait" id="netpill" title="État de la connexion à la base"><i></i><span>connexion…</span></span>
@@ -23,6 +23,7 @@
   <div class="tools">
     <div class="zoom" id="zoom"></div>
     <div class="vsw" id="vsw" role="group" aria-label="Affichage"><button type="button" data-v="proj">Projection</button><button type="button" data-v="mob">Mobile</button></div>
+    <button type="button" class="ibtn" id="b-curtain" title="Masquer l’écran : plus rien n’est projeté (la partie continue)"></button>
     <button type="button" class="ibtn" id="b-sound" title="Couper / remettre le son"></button>
     <button type="button" class="ibtn" id="b-full" title="Plein écran"></button>
     <div class="menu-w">
@@ -39,6 +40,10 @@
     </div>
   </div>
 </header>
+
+<div class="curtain hidden" id="curtain" role="dialog" aria-label="Écran masqué">
+  <div class="cu-in"><img class="cu-logo" id="cu-logo" alt=""><h2>Écran masqué</h2><p>La partie continue normalement sur les téléphones.<br>Cliquez n’importe où ou appuyez sur Échap pour réafficher.</p></div>
+</div>
 
 <main id="app">
   <div id="dbwarn" class="hidden"></div>
@@ -59,7 +64,7 @@
           <div><label class="lbl">Ordre des questions</label><div class="seg" id="seg-ord"></div></div>
           <div><label class="lbl">Types de questions</label><div class="seg multi" id="seg-tp"></div></div>
           <div><label class="lbl">Difficulté</label><div class="seg multi" id="seg-df"></div></div>
-          <div id="w-teams"><label class="lbl">Nombre d’guildes</label><div class="seg" id="seg-nt"></div></div>
+          <div id="w-teams"><label class="lbl">Nombre de guildes ennemies</label><div class="seg" id="seg-nt"></div></div>
           <div id="w-boss" class="set-full boss-set"><label class="lbl">Handicap du MJ (Aventuriers VS MJ) : la question s’affiche plus tard sur son téléphone</label><div class="seg" id="seg-hd"></div>
             <label class="sw" style="margin-top:.5rem"><input type="checkbox" id="o-hpen"><i></i>Handicap supplémentaire : chaque erreur ou absence de réponse du MJ abîme sa propre jauge</label></div>
           <div class="set-full opts">
@@ -123,6 +128,19 @@
       </div>
       <div class="lobby-r">
         <div class="lb-head"><h2 id="lb-title">Les guildes</h2><div class="lb-tools" id="lb-tools"></div></div>
+        <div class="card boss-help hidden" id="boss-help">
+          <h3>Comment jouer le MJ ?</h3>
+          <p>Le MJ joue depuis <b>son propre téléphone</b>, pas depuis cet écran : cliquez sur <b>« Afficher le code MJ »</b> (il se masque seul au bout de 10 s) et suivez la consigne.</p>
+          <details class="acc" id="bh-one"><summary>Je n’ai qu’un seul appareil</summary><div class="acc-b">
+            <p>Le MJ répond en secret : si vous jouez sur l’écran projeté, tout le monde voit vos réponses. Trois solutions :</p>
+            <ol>
+              <li><b>Écran étendu</b> : faites glisser une fenêtre « joueur » sur l’écran non projeté.</li>
+              <li><b>Masquer l’écran</b> (bouton <span class="bh-ic" id="bh-ic"></span> en haut à droite) : plus rien n’est projeté le temps de répondre ; les aventuriers continuent sur leurs téléphones. Réaffichez pour la correction.</li>
+              <li><b>Plus simple :</b> passez en <b>Duel de guildes</b> à deux guildes ennemies. Vous (MJ) rejoignez la guilde 1 avec votre téléphone, tous les autres rejoignent la guilde 2.
+                <div style="margin-top:.4rem"><button type="button" class="btn btn-sm btn-soft" id="bh-duel">Passer en duel : le MJ contre tous</button></div></li>
+            </ol>
+          </div></details>
+        </div>
         <div id="lb-zone"></div>
         <div class="lb-actions">
           <button type="button" class="btn btn-ghost" id="lb-close">Fermer le donjon</button>
@@ -222,8 +240,9 @@
 <div class="modal hidden" id="m-hostcode"><div class="box">
   <button type="button" class="x" aria-label="Fermer">✕</button>
   <h2>Votre code MJ</h2>
-  <p class="muted">Sur votre téléphone, ouvrez la page joueur et tapez ce code : vous jouez contre les aventuriers. Fermez cette fenêtre avant de projeter.</p>
+  <p class="muted">Sur votre téléphone, ouvrez la page joueur et tapez <b>le code des aventuriers à l’envers</b> : c’est le code ci-dessous. Vous jouez alors contre les aventuriers.</p>
   <div class="hc-code" id="hc-code">····</div>
+  <p class="small muted center" id="hc-rev"></p>
   <p class="small muted center" id="hc-t">Masqué automatiquement dans 10 s.</p>
 </div></div>
 

@@ -51,6 +51,11 @@ async def run(mode):
         names=['Ysolde','Gimli','Aragorn','Eowyn','Faramir']
         studs=[await join(ctx,code,n) for n in names]
         await prof.wait_for_timeout(600);await prof.screenshot(path=OUT+mode+'_lobby.png');await studs[0].screenshot(path=OUT+mode+'_s_lobby.png')
+        await prof.click('#lb-qrbig');await prof.wait_for_timeout(400);await prof.screenshot(path=OUT+mode+'_qrbig.png');await prof.click('#qf-x')
+        if mode=='boss':
+            await prof.click('#lb-hostcode');await prof.wait_for_timeout(300);await prof.screenshot(path=OUT+'boss_hostcode.png');await prof.keyboard.press('Escape')
+            await prof.click('#bh-one summary');await prof.wait_for_timeout(200);await prof.screenshot(path=OUT+'boss_lobby_help.png')
+            await prof.click('#b-curtain');await prof.wait_for_timeout(200);await prof.screenshot(path=OUT+'boss_curtain.png');await prof.click('#curtain')
         boss=None
         if mode=='boss':
             boss=await ctx.new_page();watch(boss,'BOSS');await boss.set_viewport_size({'width':390,'height':844})

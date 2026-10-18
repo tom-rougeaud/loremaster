@@ -2,7 +2,7 @@
 --  LORE MASTER v1.0 — base de données Supabase (schéma version 1) (à coller UNE FOIS dans
 --  Supabase › SQL Editor › New query, puis cliquer « Run »).
 --  Les tables sont préfixées lm_ : elles cohabitent sans conflit avec celles d’autres applis
---  (par exemple Flash Maths, préfixe fm_) dans le même projet Supabase.
+--  (d’autres applications avec leurs propres préfixes) dans le même projet Supabase.
 --
 --  Ce que la base conserve :
 --   • lm_rooms   : les donjons ouverts (salles) (code à 4 caractères, mode, état).

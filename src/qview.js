@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════
-   AFFICHAGE DES FORMATS (commun prof / élève) :
+   AFFICHAGE DES FORMATS (commun MJ / aventuriers) :
    curseur d’estimation (le jeu n’a plus ni figures, ni tuiles).
    Tout le texte passe par rt() (échappé).
 ═══════════════════════════════════════════════════════════════ */

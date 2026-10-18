@@ -74,7 +74,7 @@ function nextQuestion(){
   G.phase="q";G.cur=true;G.ans={};G.hostAns=null;G.qStart=Date.now()+G.rd;G.dur=qDur(q)*1000;G.extra=0;G.bub=0;G.lowS=-1;
   liveReset();
   $("g-qn").textContent="Question "+(G.i+1)+" / "+G.qs.length;
-  $("g-meta").innerHTML=kindTagHtml(q)+'<span class="tag">'+esc(q.titre||"")+"</span>";
+  $("g-meta").innerHTML=kindTagHtml(q)+'<span class="tag t-theme">'+esc(q.titre||"")+"</span>";
   setGameQ(q);
   var kd=qKind(q);
   if(wideKind(q))$("g-choices").innerHTML='<div class="g-wide">'+scaleHtml(q.sl,{big:true})+'<div class="g-how">Estimez avec le curseur sur votre téléphone</div></div>';
@@ -235,7 +235,7 @@ function renderReveal(h,boost,dmg){
     '<div class="rv-ans"><span class="lbl2">Bonne réponse</span><span class="val">'+rt(h.ans)+"</span></div>"+
     (h.nPart?'<div class="rv-part">'+ICO.star+h.nPart+" réponse"+(h.nPart>1?"s":"")+" presque juste"+(h.nPart>1?"s":"")+" (points partiels)</div>":"")+
     (kd==="slider"&&h.sv&&h.sv.length?'<div class="rv-part">Estimation médiane des aventuriers : <b>'+esc(fmtSl(q.sl,medianOf(h.sv.map(function(d){return d.v;}))))+"</b></div>":"")+errTopHtml(h.errs,h.nAns);
-  if(h.expl)r+='<div class="rv-x">'+rt(h.expl)+(h.src?'<small class="rv-src">Source : '+esc(h.src)+"</small>":"")+"</div>";
+  if(h.expl)r+='<div class="rv-x">'+rt(h.expl)+(h.src?'<div class="rv-src">Source : '+esc(h.src)+"</div>":"")+"</div>";
   if(P.names!==false)r+=whoHtml(h);
   r+='<div class="rv-btns"><button type="button" class="btn btn-sm btn-soft" id="g-ansall">'+ICO.users+"Voir la réponse de chaque joueur"+(G.mode==="duel"?" (par guilde)":"")+"</button></div>";
   if(h.fast)r+='<div class="rv-fast"><span class="chip" style="background:var(--sun-l);color:#8A5A00">'+ICO.bolt+"Le plus rapide : "+esc(h.fast.p)+" ("+f(h.fast.t/1000,1)+" s)</span></div>";

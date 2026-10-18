@@ -15,6 +15,9 @@ VERSION=re.search(r'LM_VERSION="([^"]+)"',rd('src/common.js')).group(1)
 # polices : sous-ensemble français en woff2/base64, produit par build_assets.py (OFL, @fontsource)
 import build_assets
 fonts=build_assets.fonts_css()
+# police unique des codes (QR, code du donjon, pavé de saisie) : Nunito 800/900
+for _w in (800,900):
+    fonts+='@font-face{font-family:"Nunito";font-weight:%d;font-style:normal;font-display:swap;src:url(data:font/woff2;base64,%s) format("woff2")}\n'%(_w,b64(NM+'@fontsource/nunito/files/nunito-latin-%d-normal.woff2'%_w))
 theme=rd('src/theme.css').replace('/*@@FONTS@@*/',fonts)
 
 # banque de questions
@@ -50,10 +53,10 @@ for pg in ['index.html','contact.html','confidentialite.html']:
 def game(h):
     return (js(base(h)).replace('/*@@FXCSS@@*/',rd('src/fx.css')).replace('/*@@QUIZ@@*/',quiz)
             .replace('/*@@SUPABASE@@*/',supa).replace('/*@@FXJS@@*/',fx).replace('/*@@BANK@@*/',bankjs).replace('/*@@ICONSJS@@*/',iconsjs))
-prof=game(rd('src/prof.html')).replace('/*@@PROFCSS@@*/',rd('src/prof.css')).replace('/*@@QRJS@@*/',qrjs)
+prof=game(rd('src/prof.html')).replace('/*@@PROFCSS@@*/',rd('src/prof.css')+rd('src/v11.css')).replace('/*@@QRJS@@*/',qrjs)
 profjs='\n'.join(safe_js(rd('src/'+n)) for n in ['prof_pick.js','prof_preview.js','prof_room.js','prof_game.js','prof_end.js','prof_players.js','prof_init.js'])
 w('mj.html',prof.replace('/*@@PROFJS@@*/',profjs))
-el=game(rd('src/eleve.html')).replace('/*@@ELEVECSS@@*/',rd('src/eleve.css')).replace('/*@@PROGRESS@@*/',progress).replace('/*@@ELEVEJS@@*/',safe_js(rd('src/eleve.js')))
+el=game(rd('src/eleve.html')).replace('/*@@ELEVECSS@@*/',rd('src/eleve.css')+rd('src/v11.css')).replace('/*@@PROGRESS@@*/',progress).replace('/*@@ELEVEJS@@*/',safe_js(rd('src/eleve.js')))
 w('joueur.html',el)
 cfg=rd('src/config.js')
 if len(sys.argv)>2:

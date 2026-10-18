@@ -35,11 +35,11 @@ td:last-child{border-radius:0 12px 12px 0}
     <h2 id="h1"></h2>
     <table>
       <tr><th>Donnée</th><th>Où ?</th><th>Durée</th></tr>
-      <tr><td>Code du donjon, mode de jeu</td><td>Base de données Supabase de l’enseignant</td><td>Effacé 4 h après la dernière activité, ou dès la fermeture de la salle</td></tr>
+      <tr><td>Code du donjon, mode de jeu</td><td>Base de données Supabase de l’éditeur de l’outil</td><td>Effacé 4 h après la dernière activité, ou dès la fermeture de la salle</td></tr>
       <tr><td>Nom d’aventurier du joueur</td><td>Même base (pour limiter le donjon à 30 et éviter les doublons)</td><td>Effacé avec le donjon</td></tr>
       <tr><td>Bilan de partie (noms d’aventurier, scores, taux de réussite)</td><td>Même base, rattaché à la « clé du MJ » (enregistrée sous forme hachée, donc illisible)</td><td>30 jours, puis effacement automatique</td></tr>
       <tr><td>Réponses pendant le jeu, alerte « page quittée »</td><td>Transmises en direct au MJ (canal temps réel), jamais enregistrées dans la base</td><td>Le temps de la partie</td></tr>
-      <tr><td>Fiche d’aventurier (points, badges), apparence, réglages</td><td>Uniquement dans le navigateur de l’appareil</td><td>Jusqu’à ce que l’élève l’efface (bouton « Effacer mes données »)</td></tr>
+      <tr><td>Fiche d’aventurier (points, badges), apparence, réglages</td><td>Uniquement dans le navigateur de l’appareil</td><td>Jusqu’à ce que le joueur l’efface (bouton « Effacer mes données »)</td></tr>
       <tr><td>Historique des questions déjà jouées (côté MJ)</td><td>Uniquement dans le navigateur de l’ordinateur du MJ</td><td>Jusqu’à ce que le MJ l’efface (menu › Historique)</td></tr>
     </table>
     <p class="small">Aucun nom de famille, aucune adresse e-mail, aucune photo et aucune adresse IP ne sont enregistrés dans les tables de Lore Master.</p>
@@ -48,9 +48,9 @@ td:last-child{border-radius:0 12px 12px 0}
   <section class="card">
     <h2 id="h2"></h2>
     <ul>
-      <li>Un <b>surnom</b> suffit (jamais de nom de famille). Un <b>surnom tiré au sort</b> est proposé pour rester discret. Le MJ peut renommer ou retirer un nom inapproprié.</li>
+      <li>Un <b>surnom</b> suffit (jamais de nom de famille). Un <b>nom de légende tiré au sort</b> est proposé pour rester discret. Le MJ peut renommer ou retirer un nom inapproprié.</li>
       <li>Les noms grossiers les plus courants sont refusés automatiquement.</li>
-      <li>Si un élève quitte la page du jeu pendant une partie (autre onglet, autre application), le MJ en est averti. L’application <b>ne sait pas</b> quelle page a été ouverte et n’enregistre rien.</li>
+      <li>Si un joueur quitte la page du jeu pendant une partie (autre onglet, autre application), le MJ en est averti. L’application <b>ne sait pas</b> quelle page a été ouverte et n’enregistre rien.</li>
       <li>La fiche garde aussi, sur l’appareil seulement, les derniers résultats par thème pour proposer « À revoir ». Rien de cela n’est envoyé au MJ ni à la base.</li>
       <li>L’export de la fiche est un fichier que le joueur garde et protège lui-même.</li>
     </ul>
@@ -67,7 +67,7 @@ td:last-child{border-radius:0 12px 12px 0}
 
   <section class="card">
     <h2 id="h4"></h2>
-    <p>La personne qui met Lore Master en ligne et l’utilise avec un groupe (classe, club, association) est responsable de cet usage. Il est conseillé d’en informer les participants et, en milieu scolaire, si besoin, le délégué à la protection des données (DPO) de l’établissement ou de l’académie.</p>
+    <p>La personne qui met Lore Master en ligne et l’utilise avec un groupe (soirée jeux, club, association…) est responsable de cet usage. Il est conseillé d’en informer les participants et, en milieu scolaire, si besoin, le délégué à la protection des données (DPO) de l’établissement ou de l’académie.</p>
     <p>Pour toute question ou demande d’effacement anticipé, adressez-vous à votre MJ. Pour une question sur l’outil lui-même, utilisez la page <a href="contact.html">Contact</a>.</p>
     <p class="small">Dernière mise à jour : octobre 2026 · Lore Master v1.</p>
   </section>

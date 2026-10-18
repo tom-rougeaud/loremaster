@@ -115,7 +115,7 @@ $("b-surprise").addEventListener("click",function(){
 function segHtml(list,cur){return list.map(function(x){var v=Array.isArray(x)?x[0]:x,l=Array.isArray(x)?x[1]:x;return '<button type="button" data-v="'+v+'"'+(String(cur)===String(v)?' class="on"':"")+">"+esc(l)+"</button>";}).join("");}
 /* sélection multiple (types, difficultés) : au moins une case reste cochée */
 function multiHtml(list,cur){return list.map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(cur.indexOf(x[0])>=0?' class="on"':"")+">"+esc(x[1])+"</button>";}).join("");}
-var MODE_IC={solo:ICO.user,duel:ICO.users,boss:ICO.shield},MODE_C={solo:"#B8892F",duel:"#4D6F9A",boss:"#7A5E96"};
+var MODE_IC={solo:ICO.user,duel:ICO.users,boss:ICO.shield},MODE_C={solo:"var(--mode-solo)",duel:"var(--mode-duel)",boss:"var(--mode-boss)"};
 function renderSettings(){
   $("modes").innerHTML=["solo","duel","boss"].map(function(m){var M=MODES[m];return '<button type="button" class="mode'+(P.mode===m?" on":"")+'" data-m="'+m+'"><span class="mi" style="--mc:'+MODE_C[m]+'">'+MODE_IC[m]+'</span><span><b>'+esc(M.nom)+"</b><small>"+esc(M.desc)+"</small></span></button>";}).join("");
   $("seg-nq").innerHTML=segHtml(NQS,P.nq);
@@ -132,7 +132,7 @@ function renderSettings(){
   $("o-dark").checked=!!P.dark;
   updateSel();
 }
-$("modes").addEventListener("click",function(e){var b=e.target.closest(".mode");if(!b)return;P.mode=b.getAttribute("data-m");saveSetup();renderSettings();});
+$("modes").addEventListener("click",function(e){var b=e.target.closest(".mode");if(!b)return;P.mode=b.getAttribute("data-m");setBodyMode(P.mode);saveSetup();renderSettings();});
 [["seg-nq","nq",true],["seg-dur","dur",true],["seg-ord","ord",false],["seg-nt","nt",true],["seg-read","read",true],["seg-pts","pts",false],["seg-hd","hd",true]].forEach(function(x){
   $(x[0]).addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;var v=b.getAttribute("data-v");P[x[1]]=x[2]?+v:v;saveSetup();renderSettings();});
 });

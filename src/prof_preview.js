@@ -2,7 +2,7 @@
    PAGE MJ — 2. « Tirer les questions » : aperçu, remplacement, ordre
 ═══════════════════════════════════════════════════════════════ */
 var QS=[];
-function show(id){["s-pick","s-prev","s-lobby","s-game","s-end"].forEach(function(s){$(s).classList.toggle("hidden",s!==id);});document.body.classList.toggle("ingame",id==="s-game");window.scrollTo(0,0);fitScreen(id==="s-game",{min:0.55,max:document.body.classList.contains("v-mob")?1.7:2.3});}
+function show(id){["s-pick","s-prev","s-lobby","s-game","s-end"].forEach(function(s){$(s).classList.toggle("hidden",s!==id);});document.body.classList.toggle("ingame",id==="s-game");setBodyMode((id==="s-pick"||id==="s-prev"||typeof G==="undefined"||!G)?P.mode:G.mode);window.scrollTo(0,0);fitScreen(id==="s-game",{min:0.55,max:document.body.classList.contains("v-mob")?1.7:2.3});}
 function qDur(q){return dureeQuestion(q,P.dur);}
 /* mémoire des questions déjà jouées : un même MJ ne retombe sur une question qu’une fois toutes les autres épuisées
    (clé = identifiant de la question ; rang = ordre de jeu, le plus grand est le plus récent) */
@@ -42,7 +42,7 @@ function previewCard(q,i){
     '<div class="qt">'+rt(q.q)+"</div>";
   if(t==="slider")h+='<div class="ansz"><div class="ans-hide">'+scaleHtml(q.sl)+'</div><div class="ans-show">'+scaleHtml(q.sl,{zone:{a:q.sl.ans,t:q.sl.tol},ans:q.sl.ans})+"</div></div>";
   else h+='<div class="chs">'+q.choices.map(function(c,k){return '<div class="ch a'+k+(k===q.ans?" ok":"")+'"><span class="sh">'+SHAPES[k]+"</span><span>"+rt(c.t)+"</span></div>";}).join("")+"</div>";
-  h+='<div class="pq-x ans-show">'+(q.expl?rt(q.expl):"")+(q.src?'<small class="rv-src">Source : '+esc(q.src)+"</small>":"")+"</div>";
+  h+='<div class="pq-x ans-show">'+(q.expl?rt(q.expl):"")+(q.src?'<div class="rv-src">Source : '+esc(q.src)+"</div>":"")+"</div>";
   h+='<div class="acts"><button type="button" class="btn btn-sm btn-soft" data-a="redraw">'+ICO.refresh+"Remplacer</button>"+
     '<button type="button" class="btn btn-sm btn-ghost del" data-a="del">'+ICO.trash+"Retirer</button></div></div></div>";
   return h;

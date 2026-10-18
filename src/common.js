@@ -107,7 +107,7 @@ var MODES={
 var MAX_PLAYERS=30;
 var VOC={salle:"donjon",joueur:"aventurier",joueurs:"aventuriers",mj:"le MJ"};
 
-/* ─── règles affichées avant chaque partie (prof et élèves) ─── */
+/* ─── règles affichées avant chaque partie (MJ et aventuriers) ─── */
 var RULES={
   common:[["bolt","De 500 à 1 000 points par bonne réponse : plus on répond vite, plus on gagne."],["flame","Série : +50 points par bonne réponse d’affilée (jusqu’à +250)."],["target","Estimation au curseur : zone verte = tous les points, zone orange = la moitié."],["cross","Erreur ou pas de réponse : 0 point, mais aucune pénalité."]],
   solo:[["user","Chacun joue pour soi, sans guilde."],["trophy","Le classement change à chaque question ; à la fin, le podium couronne les 3 meilleurs."]],
@@ -131,15 +131,20 @@ function rulesHtml(mode,o){
 }
 
 
+function setBodyMode(m){try{document.body.setAttribute("data-mode",m||"");}catch(e){}}
+
 /* ─── Pseudos ─── */
-var ADJ=[["rusé","rusée"],["brave","brave"],["sombre","sombre"],["agile","agile"],["téméraire","téméraire"],["sage","sage"],["farouche","farouche"],["rapide","rapide"],["mystique","mystique"],["errant","errante"],["fourbe","fourbe"],["noble","noble"],["curieux","curieuse"],["épique","épique"],["gris","grise"],["ardent","ardente"],["discret","discrète"],["légendaire","légendaire"]];
-var NOUN=[["Gobelin","m"],["Dragon","m"],["Elfe","m"],["Nain","m"],["Orque","m"],["Mage","m"],["Paladin","m"],["Rôdeur","m"],["Barde","m"],["Voleur","m"],["Druide","m"],["Griffon","m"],["Sirène","f"],["Sorcière","f"],["Licorne","f"],["Chimère","f"],["Harpie","f"],["Naine","f"],["Elfe noire","f"],["Valkyrie","f"],["Hydre","f"],["Liche","f"],["Gnome","m"],["Troll","m"]];
+var FN_M=["Aldric","Bran","Caelan","Dorn","Eldrin","Faelar","Garrick","Hadrik","Ivar","Joryn","Kaelen","Lothar","Merrick","Norin","Orin","Perrin","Rodrik","Soren","Thalor","Ulric","Varyn","Wulfric","Yorick","Zephyr","Gorak","Thrain","Baldur","Alaric","Eryndor","Fenris"];
+var FN_F=["Aelith","Brisa","Cassia","Delwyn","Elowen","Freya","Gwen","Hilda","Isolde","Jora","Kira","Lyra","Maelis","Nyra","Orsha","Petra","Rhea","Sylva","Thessa","Una","Vesper","Wynn","Yselda","Zara","Elara","Sigrid","Rowena","Alia"];
+var EP_M=["le Brave","le Sage","le Rusé","l’Errant","le Mage","le Rôdeur","le Preux","le Barde","Sombrelame","Brisefer","Cœur-Lige","Mille-Lames","Pierre-Vive","le Sans-Peur","Lancedor","Flammevive","Œil-de-Lynx","Barbe-Rousse","Tonnerre","Corbeau"];
+var EP_F=["la Brave","la Sage","la Rusée","l’Errante","l’Archère","la Mage","la Rôdeuse","la Barde","Sombrelame","Aube-Claire","Cœur-Lige","Mille-Lames","Lune-Vive","Sans-Peur","Flammevive","Œil-de-Lynx","Rose-Épine","Tempête","Corbeau","l’Enchanteresse"];
 function genPseudo(){
-  for(var i=0;i<20;i++){
-    var n=NOUN[Math.floor(Math.random()*NOUN.length)],a=ADJ[Math.floor(Math.random()*ADJ.length)],s=n[0]+" "+(n[1]==="f"?a[1]:a[0]);
+  for(var i=0;i<40;i++){
+    var f=Math.random()<0.5,N=f?FN_F:FN_M,E=f?EP_F:EP_M;
+    var n=N[Math.floor(Math.random()*N.length)],e=E[Math.floor(Math.random()*E.length)],s=n+" "+e;
     if(s.length<=16)return s;
   }
-  return "Joueur "+Math.floor(10+Math.random()*89);
+  return FN_M[Math.floor(Math.random()*FN_M.length)];
 }
 var BANNED=["con","conne","connard","connasse","pute","salope","encule","enculé","bite","couille","merde","nique","niquer","ntm","fdp","pd","batard","bâtard","nazi","hitler","negro","negre","nègre","bougnoul","bougnoule","chienne","putain","cul","teub","zizi","enfoire","enfoiré","abruti","debile","débile","gogol","mongol"];
 function normWord(s){return s.toLowerCase().normalize?s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,""):s.toLowerCase();}
@@ -240,7 +245,7 @@ function fitScreen(on,o){
   fitNow();fitSoon(250);
   clearTimeout(FIT.T2);FIT.T2=setTimeout(function(){if(FIT.on)fitNow();},850);   /* après les animations (secousse, apparition) */
 }
-/* le contenu d’un écran change (élève qui arrive, correction, liste…) : on réajuste ; les simples changements de texte (chrono) sont ignorés */
+/* le contenu d’un écran change (aventurier qui arrive, correction, liste…) : on réajuste ; les simples changements de texte (chrono) sont ignorés */
 function fitWatch(root){
   if(!root||!window.MutationObserver)return;
   new MutationObserver(function(ms){

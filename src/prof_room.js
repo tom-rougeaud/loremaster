@@ -197,7 +197,7 @@ function renderLobby(){
   if(edK!==null){var ni=$("lb-zone").querySelector('[data-tn="'+edK+'"]');if(ni){ni.value=edV;ni.focus({preventScroll:true});try{ni.setSelectionRange(edS,edE);}catch(x){}}}
   $("lb-start").disabled=!n;
   $("lb-start").innerHTML=ICO.play+(G.phase==="lobby"?"Lancer la partie":"Reprendre");
-  $("lb-hostcode").classList.toggle("hidden",G.mode!=="boss");
+  $("lb-hostcode").classList.toggle("hidden",G.mode!=="boss");$("boss-help").classList.toggle("hidden",G.mode!=="boss");
   $("lb-players").innerHTML=ICO.users+"Gérer les joueurs ("+n+")";
 }
 $("lb-zone").addEventListener("click",function(e){var k=e.target.closest("[data-kick]");if(k)kickPlayer(k.getAttribute("data-kick"));});

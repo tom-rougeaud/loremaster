@@ -3,7 +3,7 @@
 ═══════════════════════════════════════════════════════════════ */
 var S={code:"",pid:null,pseudo:"",ch:null,mode:null,phase:null,team:-1,score:0,lb:null,q:null,ans:null,ping:null,timer:null,train:null};
 var SCREENS=["s-code","s-pseudo","s-lobby","s-cd","s-q","s-rv","s-end","s-train","s-carnet"];
-function show(id){SCREENS.forEach(function(s){$(s).classList.toggle("hidden",s!==id);});var g=/^s-(q|rv|cd)$/.test(id);document.body.classList.toggle("ingame",g);window.scrollTo(0,0);S.screen=id;fitView();}
+function show(id){SCREENS.forEach(function(s){$(s).classList.toggle("hidden",s!==id);});var g=/^s-(q|rv|cd)$/.test(id);document.body.classList.toggle("ingame",g);setBodyMode(S.mode||"");window.scrollTo(0,0);S.screen=id;fitView();}
 /* répartition de la place restante (après l’ajustement de la taille) */
 FIT.unfill=function(){$$("#app .screen").forEach(function(e){e.style.paddingTop="";});["q-ans","kpad","q-wid"].forEach(function(id){var e=$(id);if(e)e.style.minHeight="";});};
 FIT.fill=function(gap){
@@ -246,7 +246,8 @@ function countdown(){
 }
 /* q = {i,N,q,kd,ch|sl,dur,rem?,vf} ; done = réponse déjà envoyée */
 function pubKind(q){return q.kd||(q.vf?"vf":"qcm");}
-function pubTag(q){var k=pubKind(q);return kindTagHtml({kind:k==="slider"?"slider":undefined,vf:k==="vf"});}
+function themeTag(q){var it=q&&q.id&&ITEM_BY_ID[q.id];return it?'<span class="tag t-theme">'+esc(it.titre)+"</span>":"";}
+function pubTag(q){var k=pubKind(q);return kindTagHtml({kind:k==="slider"?"slider":undefined,vf:k==="vf"})+themeTag(q);}
 function showQuestion(q,done){
   clearInterval(S.timer);
   S.phase="q";S.q=q;S.ans=done?{done:true}:null;S.typed="";
@@ -383,7 +384,7 @@ function showReveal(m){
     (r&&r[3]>=2?'<div class="streak">'+ICO.flame+"Série de "+r[3]+"</div>":"")+
     (st!==1?'<div class="rv-good"><small>La bonne réponse</small><span class="v">'+rt(m.at)+"</span></div>":"");
   var x=det;
-  if(m.ex)x+='<details class="acc rv-info"><summary>Voir l’explication</summary><div class="acc-b">'+rt(m.ex)+(m.sr?'<small class="rv-src">Source : '+esc(m.sr)+"</small>":"")+"</div></details>";
+  if(m.ex)x+='<details class="acc rv-info"><summary>Voir l’explication</summary><div class="acc-b">'+(themeTag(S.q)?'<div class="rv-th">'+themeTag(S.q)+"</div>":"")+rt(m.ex)+(m.sr?'<div class="rv-src">Source : '+esc(m.sr)+"</div>":"")+"</div></details>";
   if(S.mode==="solo"&&r&&r[4])x+='<div class="card rv-info center"><b>Tu es '+r[4]+(r[4]===1?"ᵉʳ":"ᵉ")+"</b> · "+fmtInt(S.score)+" pts</div>";
   if(S.mode==="duel"&&m.tm){
     var ord=m.tm.map(function(s,k){return {k:k,s:s};}).sort(function(a,b){return b.s-a.s;});
@@ -559,10 +560,10 @@ $("go-carnet").addEventListener("click",openCarnet);
 
 /* ═══ DÉMARRAGE ═══ */
 (function init(){
-  $("brand").outerHTML=brandHtml("Joueur","index.html");
+  $("brand").outerHTML=brandHtml("Aventurier","index.html");
   $("foot").innerHTML=footHtml();
   $("b-menu").innerHTML=ICO.menu;
-  $("ps-dice").innerHTML=ICO.dice+"Prendre un pseudo au hasard";
+  $("ps-dice").innerHTML=ICO.dice+"Me donner un nom de légende";
   $("go-train").innerHTML=TICO.epee+"S’entraîner en solo";
   $("go-carnet").innerHTML=TICO.parchemin+"Ma fiche d’aventurier";
   initZoom("joueur",$("zoom"));fitWatch($("app"));

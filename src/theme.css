@@ -477,3 +477,13 @@ body.fit .top,body.fit #foot{zoom:var(--tz,1)}
 #pwa-bar img,#pwa-bar svg{width:2.4rem;height:2.4rem;flex:none}
 #pwa-bar span{flex:1;min-width:10rem;font-size:.92rem;line-height:1.25}
 #pwa-bar .btn{padding:.45rem .85rem;font-size:.85rem}
+
+/* ═══ v1.1 — identité des pages, couleurs des modes, blocs, codes ═══ */
+:root{
+  --mode-solo:#B8892F;      /* Chacun sa quête : or ancien */
+  --mode-duel:#3E7C8E;      /* Duel de guildes : bleu-vert marin */
+  --mode-boss:#9B4A5C;      /* Les Aventuriers contre le MJ : lie-de-vin */
+  --pg-mj:#5560A8;          /* page MJ : indigo doux */
+  --pg-pl:#3E8068;          /* page aventurier : vert sapin doux */
+  --code-font:"Nunito",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}

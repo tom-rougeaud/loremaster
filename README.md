@@ -3,11 +3,11 @@
 Quiz fantasy en direct : un **MJ** ouvre un **donjon** (code à 4 caractères + QR code), jusqu’à 30 **aventuriers** le rejoignent depuis leur téléphone.
 Trois modes : *Chacun sa quête*, *Duel de guildes*, *Les Aventuriers contre le MJ*. Questions en QCM, vrai ou faux et estimation au curseur, rangées par royaumes et par thèmes, chacune avec sa source.
 
-Dérivé de Flash Maths (même architecture : pages statiques + Supabase). Licence CC BY-NC 4.0. « D&D » est une marque de Wizards of the Coast, sans lien avec cet outil.
+Licence CC BY-NC 4.0. « D&D » est une marque de Wizards of the Coast, sans lien avec cet outil.
 
 ## Déploiement (GitHub Pages)
 1. Déposer le contenu de `dist/` (ou le site déjà construit à la racine du dépôt) sur la branche `main`, puis *Settings › Pages › Deploy from a branch › main / (root)*.
-2. Supabase (même projet que Flash Maths, tables préfixées `lm_`) : SQL Editor › coller `lore_master.sql` › Run. À faire une seule fois (rejouable sans risque).
+2. Supabase (tables préfixées `lm_`, compatibles avec un projet déjà utilisé par d’autres applications) : SQL Editor › coller `lore_master.sql` › Run. À faire une seule fois (rejouable sans risque).
 3. `config.js` contient l’URL et la clé publique `anon`/`publishable` du projet. Jamais de clé `service_role`.
 4. Ouvrir `mj.html` : la pastille doit afficher « Base connectée ».
 

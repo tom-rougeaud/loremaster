@@ -66,3 +66,16 @@ $("g-players").innerHTML=ICO.users+"Joueurs";
   window.addEventListener("beforeunload",function(e){if(G&&G.phase!=="lobby"&&G.phase!=="end"){snapshot();e.preventDefault();e.returnValue="";}});
   document.addEventListener("visibilitychange",function(){if(!document.hidden&&G)hostPing(false);});
 })();
+
+/* ─── rideau : masque l’écran projeté (la partie continue sur les téléphones) ─── */
+$("b-curtain").innerHTML=ICO.eyeoff;$("bh-ic").innerHTML=ICO.eyeoff;
+try{$("cu-logo").src=LOGO_URI;}catch(e){}
+function curtain(on){$("curtain").classList.toggle("hidden",!on);}
+$("b-curtain").addEventListener("click",function(){curtain(true);});
+$("curtain").addEventListener("click",function(){curtain(false);});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!$("curtain").classList.contains("hidden"))curtain(false);});
+$("bh-duel").addEventListener("click",function(){
+  if(!G||G.phase!=="lobby")return;
+  P.mode="duel";P.nt=2;saveSetup();relaunchSameRoom();
+  toast("Duel de guildes : le MJ rejoint la guilde 1 avec son téléphone, tous les autres la guilde 2.");
+});
