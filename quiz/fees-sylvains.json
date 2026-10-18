@@ -1,0 +1,1061 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "fees-sylvains",
+  "nom": "Fées, sylvains et créatures des bois",
+  "royaume": "Bestiaire de D&D",
+  "icone": "feuille",
+  "sombre": false
+ },
+ "sources": [
+  "Manuel des Monstres (5e édition)",
+  "Folklore et contes (Perrault, Shakespeare, traditions celtiques)"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "fee-001",
+   "concept": "fee-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel plan est la demeure des fées en D&D ?",
+   "choix": [
+    "La Féerie (Feywild)",
+    "Le Plan Astral",
+    "Le Gisombre",
+    "Les Abysses"
+   ],
+   "rep": 0,
+   "expl": "Le Feywild est le plan des fées.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-002",
+   "concept": "fee-002",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "À quel métal les fées sont-elles traditionnellement sensibles ?",
+   "choix": [
+    "L’or",
+    "L’argent",
+    "Le fer froid",
+    "Le bronze"
+   ],
+   "rep": 2,
+   "expl": "Le fer froid est le point faible classique des fées.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-003",
+   "concept": "fee-003",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle fée est liée à un arbre dont elle ne peut s’éloigner ?",
+   "choix": [
+    "La sylphide",
+    "La naïade",
+    "La pixie",
+    "La dryade"
+   ],
+   "rep": 3,
+   "expl": "La dryade est l’esprit d’un arbre.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-004",
+   "concept": "fee-004",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle créature mi-homme mi-bouc joue de la flûte et aime la fête ?",
+   "choix": [
+    "Le centaure",
+    "Le gnoll",
+    "Le satyre",
+    "Le minotaure"
+   ],
+   "rep": 2,
+   "expl": "Le satyre est un fêtard à cornes.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-005",
+   "concept": "fee-005",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle minuscule fée peut devenir invisible et lancer des sorts en 5e édition ?",
+   "choix": [
+    "La sylphide",
+    "La pixie",
+    "La dryade",
+    "La harpie"
+   ],
+   "rep": 1,
+   "expl": "La pixie est minuscule et magique.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-006",
+   "concept": "fee-006",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle fée minuscule porte un arc et voit au loin ?",
+   "choix": [
+    "La dryade",
+    "Le sprite",
+    "La pixie",
+    "Le satyre"
+   ],
+   "rep": 1,
+   "expl": "Le sprite est un minuscule archer féerique.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-007",
+   "concept": "fee-007",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle sorcière change son apparence par illusion ?",
+   "choix": [
+    "La liche",
+    "La guenaude verte",
+    "La guenaude marine",
+    "La guenaude nocturne"
+   ],
+   "rep": 1,
+   "expl": "La green hag se déguise.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-008",
+   "concept": "fee-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle fée ressemble à un chien capable de se téléporter ?",
+   "choix": [
+    "Le chien de l’enfer",
+    "Le chien clignotant",
+    "Le loup sanguinaire",
+    "Le worg"
+   ],
+   "rep": 1,
+   "expl": "Le blink dog se téléporte par clignement.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-009",
+   "concept": "fee-009",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Qui est le roi des fées dans Le Songe d’une nuit d’été ?",
+   "choix": [
+    "Bottom",
+    "Puck",
+    "Lysandre",
+    "Obéron"
+   ],
+   "rep": 3,
+   "expl": "Obéron est le roi des fées.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-010",
+   "concept": "fee-010",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Qui est la reine des fées dans Le Songe d’une nuit d’été ?",
+   "choix": [
+    "Hermia",
+    "Hélène",
+    "Titania",
+    "Mélusine"
+   ],
+   "rep": 2,
+   "expl": "Titania est la reine des fées.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-011",
+   "concept": "fee-011",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel auteur a écrit Le Songe d’une nuit d’été ?",
+   "choix": [
+    "Molière",
+    "Shakespeare",
+    "Perrault",
+    "Tolkien"
+   ],
+   "rep": 1,
+   "expl": "Pièce de Shakespeare, v. 1595.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-012",
+   "concept": "fee-012",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel personnage espiègle sert Obéron ?",
+   "choix": [
+    "Lysandre",
+    "Démétrius",
+    "Puck",
+    "Bottom"
+   ],
+   "rep": 2,
+   "expl": "Puck est le lutin d’Obéron.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-013",
+   "concept": "fee-013",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle petite fée est l’amie de Peter Pan ?",
+   "choix": [
+    "Titania",
+    "Wendy",
+    "Clochette",
+    "Mélusine"
+   ],
+   "rep": 2,
+   "expl": "Clochette est la fée de Peter Pan.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-014",
+   "concept": "fee-014",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle fée du folklore français est mi-femme mi-serpente ?",
+   "choix": [
+    "Viviane",
+    "Titania",
+    "Mélusine",
+    "Morgane"
+   ],
+   "rep": 2,
+   "expl": "Mélusine est une fée à queue de serpent.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-015",
+   "concept": "fee-015",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle fée arthurienne est la Dame du Lac ?",
+   "choix": [
+    "Titania",
+    "Morgane",
+    "Mélusine",
+    "Viviane"
+   ],
+   "rep": 3,
+   "expl": "Viviane est la Dame du Lac.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-016",
+   "concept": "fee-016",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle fée arthurienne est la demi-sœur du roi Arthur ?",
+   "choix": [
+    "Viviane",
+    "Guenièvre",
+    "Mélusine",
+    "Morgane"
+   ],
+   "rep": 3,
+   "expl": "Morgane est la demi-sœur d’Arthur.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-017",
+   "concept": "fee-017",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Comment appelle-t-on les deux grandes cours féeriques de la tradition écossaise ?",
+   "choix": [
+    "Seelie et Unseelie",
+    "Elfe et Nain",
+    "Sidhe et Sylvains",
+    "Brownie et Boggart"
+   ],
+   "rep": 0,
+   "expl": "Cours des Seelie (bienveillante) et Unseelie.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-018",
+   "concept": "fee-018",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel esprit irlandais annonce une mort par ses cris ?",
+   "choix": [
+    "La nymphe",
+    "La dryade",
+    "La kelpie",
+    "La banshee"
+   ],
+   "rep": 3,
+   "expl": "La banshee annonce une mort.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-019",
+   "concept": "fee-019",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel esprit des eaux écossais prend la forme d’un cheval ?",
+   "choix": [
+    "La banshee",
+    "Le kelpie",
+    "Le boggart",
+    "Le brownie"
+   ],
+   "rep": 1,
+   "expl": "Le kelpie hante les rivières.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-020",
+   "concept": "fee-020",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel esprit domestique aide aux tâches ménagères la nuit ?",
+   "choix": [
+    "La guenaude",
+    "Le boggart",
+    "Le brownie",
+    "Le kelpie"
+   ],
+   "rep": 2,
+   "expl": "Le brownie est un lutin domestique.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-021",
+   "concept": "fee-021",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Comment appelle-t-on les elfes de lumière dans la mythologie nordique ?",
+   "choix": [
+    "Les Dökkálfar",
+    "Les Nornes",
+    "Les Jötnar",
+    "Les Ljósálfar"
+   ],
+   "rep": 3,
+   "expl": "Elfes de lumière.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-022",
+   "concept": "fee-022",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Comment appelle-t-on les elfes noirs nordiques ?",
+   "choix": [
+    "Les Ljósálfar",
+    "Les Valkyries",
+    "Les Jötnar",
+    "Les Dökkálfar"
+   ],
+   "rep": 3,
+   "expl": "Elfes sombres.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-023",
+   "concept": "fee-023",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Que ne faut-il pas faire chez les fées selon les contes ?",
+   "choix": [
+    "Manger leur nourriture",
+    "Chanter",
+    "Dormir sous un arbre",
+    "Les saluer"
+   ],
+   "rep": 0,
+   "expl": "La nourriture des fées retient le visiteur.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-024",
+   "concept": "fee-024",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Comment appelle-t-on un cercle de champignons dans la tradition ?",
+   "choix": [
+    "Un cercle de sorciers",
+    "Un cercle de fées",
+    "Un cercle de druides",
+    "Un cercle de trolls"
+   ],
+   "rep": 1,
+   "expl": "Les fées y dansent.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-025",
+   "concept": "fee-025",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel peuple surnaturel irlandais vit sous les collines (sídhe) ?",
+   "choix": [
+    "Les Milésiens",
+    "Les Tuatha Dé Danann",
+    "Les Fir Bolg",
+    "Les Fomoires"
+   ],
+   "rep": 1,
+   "expl": "Les Tuatha Dé Danann.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-026",
+   "concept": "fee-026",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel peuple monstrueux affronte les Tuatha Dé Danann ?",
+   "choix": [
+    "Les Fomoires",
+    "Les Fir Bolg",
+    "Les druides",
+    "Les Milésiens"
+   ],
+   "rep": 0,
+   "expl": "Les Fomoires sont leurs ennemis.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-027",
+   "concept": "fee-027",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans quel conte une fée transforme-t-elle une citrouille en carrosse ?",
+   "choix": [
+    "Cendrillon",
+    "La Belle au bois dormant",
+    "Barbe bleue",
+    "Le Petit Chaperon rouge"
+   ],
+   "rep": 0,
+   "expl": "Cendrillon, conte de Perrault.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-028",
+   "concept": "fee-028",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel lutin irlandais garde un pot d’or ?",
+   "choix": [
+    "Le leprechaun",
+    "Le kelpie",
+    "Le boggart",
+    "Le brownie"
+   ],
+   "rep": 0,
+   "expl": "Le leprechaun est un lutin cordonnier.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-029",
+   "concept": "fee-029",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle créature de D&D 5e est un petit dragon facétieux ?",
+   "choix": [
+    "Le dragon féerique",
+    "Le pseudo-dragon",
+    "La wyverne",
+    "Le dragonnet"
+   ],
+   "rep": 0,
+   "expl": "Le dragon féerique est un farceur.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-030",
+   "concept": "fee-030",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle créature marine attire les marins par son chant ?",
+   "choix": [
+    "La sirène",
+    "La dryade",
+    "La nymphe des bois",
+    "La sylphide"
+   ],
+   "rep": 0,
+   "expl": "La sirène envoûte par sa voix.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-031",
+   "concept": "fee-031",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Les fées craignent traditionnellement le fer froid.",
+   "rep": true,
+   "expl": "Le fer froid est leur faiblesse.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-032",
+   "concept": "fee-032",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le fer froid est inoffensif pour les fées.",
+   "rep": false,
+   "expl": "Il les repousse ou les blesse.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-033",
+   "concept": "fee-033",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Obéron est le roi des fées dans Le Songe d’une nuit d’été.",
+   "rep": true,
+   "expl": "Obéron règne sur les fées.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-034",
+   "concept": "fee-034",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Titania est une sorcière dans Le Songe d’une nuit d’été.",
+   "rep": false,
+   "expl": "Titania est la reine des fées.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-035",
+   "concept": "fee-035",
+   "niveau": 1,
+   "type": "vf",
+   "q": "La dryade est liée à un arbre.",
+   "rep": true,
+   "expl": "Elle est l’esprit d’un arbre.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-036",
+   "concept": "fee-036",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Le satyre est mi-homme mi-poisson.",
+   "rep": false,
+   "expl": "Le satyre est mi-homme mi-bouc.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-037",
+   "concept": "fee-037",
+   "niveau": 2,
+   "type": "vf",
+   "q": "La pixie peut devenir invisible en 5e édition.",
+   "rep": true,
+   "expl": "La pixie peut s’invisibiliser.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-038",
+   "concept": "fee-038",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le chien clignotant est un mort-vivant.",
+   "rep": false,
+   "expl": "C’est une fée.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-039",
+   "concept": "fee-039",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Mélusine est une fée du folklore français.",
+   "rep": true,
+   "expl": "Mélusine est une fée à queue de serpent.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-040",
+   "concept": "fee-040",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Viviane est la demi-sœur du roi Arthur.",
+   "rep": false,
+   "expl": "Morgane est la demi-sœur d’Arthur.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-041",
+   "concept": "fee-041",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Morgane est parfois une magicienne rivale d’Arthur.",
+   "rep": true,
+   "expl": "Morgane est ambiguë selon les récits.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-042",
+   "concept": "fee-042",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le kelpie est un esprit du feu.",
+   "rep": false,
+   "expl": "Le kelpie est un esprit des eaux.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-043",
+   "concept": "fee-043",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le brownie est un esprit domestique.",
+   "rep": true,
+   "expl": "Il aide aux tâches ménagères.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-044",
+   "concept": "fee-044",
+   "niveau": 2,
+   "type": "vf",
+   "q": "La banshee est une fée portugaise.",
+   "rep": false,
+   "expl": "La banshee est irlandaise.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-045",
+   "concept": "fee-045",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Les Tuatha Dé Danann sont un peuple surnaturel irlandais.",
+   "rep": true,
+   "expl": "Ils vivent sous les collines.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-046",
+   "concept": "fee-046",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Les Fomoires sont des fées bienveillantes.",
+   "rep": false,
+   "expl": "Ce sont des êtres monstrueux.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-047",
+   "concept": "fee-047",
+   "niveau": 1,
+   "type": "vf",
+   "q": "La Féerie (Feywild) est un plan des fées en D&D.",
+   "rep": true,
+   "expl": "Plan des fées.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-048",
+   "concept": "fee-048",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Les sprites sont des fées géantes.",
+   "rep": false,
+   "expl": "Les sprites sont minuscules.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-049",
+   "concept": "fee-049",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Un cercle de champignons est appelé cercle de fées dans la tradition.",
+   "rep": true,
+   "expl": "Le cercle de fées est un phénomène réel.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-050",
+   "concept": "fee-050",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le leprechaun est un lutin gallois.",
+   "rep": false,
+   "expl": "Le leprechaun est irlandais.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-051",
+   "concept": "fee-051",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Clochette apparaît dans Peter Pan.",
+   "rep": true,
+   "expl": "Clochette est la fée de Peter.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-052",
+   "concept": "fee-052",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le dragon féerique est un dragon gigantesque et sérieux.",
+   "rep": false,
+   "expl": "Il est petit et espiègle.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-053",
+   "concept": "fee-053",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Combien de guenaudes composent un sabbat (coven) ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "guenaudes",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Un sabbat compte trois guenaudes.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-054",
+   "concept": "fee-054",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quel est le FP de la dryade ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "FP 1.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-055",
+   "concept": "fee-055",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quel est le FP de la guenaude verte ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "FP 3.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-056",
+   "concept": "fee-056",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quel est le FP de la guenaude marine ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "FP 2.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-057",
+   "concept": "fee-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP de la guenaude nocturne ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "FP 5.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-058",
+   "concept": "fee-058",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a une guenaude verte ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 82,
+   "expl": "82 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-059",
+   "concept": "fee-059",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a une guenaude nocturne ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 112,
+   "expl": "112 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-060",
+   "concept": "fee-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a une guenaude marine ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 52,
+   "expl": "52 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-061",
+   "concept": "fee-061",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a un satyre ?",
+   "min": 10,
+   "max": 100,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 31,
+   "expl": "31 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-062",
+   "concept": "fee-062",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a une dryade ?",
+   "min": 10,
+   "max": 100,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 22,
+   "expl": "22 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-063",
+   "concept": "fee-063",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quelle est la CA de la guenaude verte ?",
+   "min": 10,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 17,
+   "expl": "CA 17.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-064",
+   "concept": "fee-064",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quelle est la CA de la guenaude nocturne ?",
+   "min": 10,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 17,
+   "expl": "CA 17.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-065",
+   "concept": "fee-065",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a une pixie ?",
+   "min": 1,
+   "max": 20,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "1 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-066",
+   "concept": "fee-066",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année Perrault a-t-il publié ses contes (Cendrillon) ?",
+   "min": 1600,
+   "max": 1800,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1697,
+   "expl": "Histoires ou contes du temps passé, 1697.",
+   "src": "Charles Perrault",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-067",
+   "concept": "fee-067",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année les frères Grimm publient-ils le premier volume de leurs contes ?",
+   "min": 1700,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1812,
+   "expl": "1812.",
+   "src": "Frères Grimm",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-068",
+   "concept": "fee-068",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année Andersen publie-t-il La Petite Sirène ?",
+   "min": 1700,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1837,
+   "expl": "1837.",
+   "src": "Hans Christian Andersen",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-069",
+   "concept": "fee-069",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année la pièce Peter Pan est-elle créée ?",
+   "min": 1850,
+   "max": 1950,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1904,
+   "expl": "1904.",
+   "src": "J. M. Barrie",
+   "conf": "probable"
+  },
+  {
+   "id": "fee-070",
+   "concept": "fee-070",
+   "niveau": 3,
+   "type": "slider",
+   "q": "En quelle année Jean d’Arras écrit-il le Roman de Mélusine ?",
+   "min": 1200,
+   "max": 1500,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1393,
+   "expl": "1393.",
+   "src": "Jean d’Arras",
+   "conf": "probable"
+  }
+ ]
+}

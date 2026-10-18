@@ -1,0 +1,1061 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "classes-dnd",
+  "nom": "Classes de D&D",
+  "royaume": "Règles et univers de D&D",
+  "icone": "epee",
+  "sombre": false
+ },
+ "sources": [
+  "Manuel des Joueurs (5e édition)",
+  "SRD 5.1 (CC BY 4.0)"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "cla-001",
+   "concept": "cla-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle classe se bat au corps à corps avec armes et armures ?",
+   "choix": [
+    "Le barde",
+    "L’ensorceleur",
+    "Le guerrier",
+    "Le magicien"
+   ],
+   "rep": 2,
+   "expl": "Guerrier.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-002",
+   "concept": "cla-002",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle classe lance des sorts appris dans un grimoire ?",
+   "choix": [
+    "Le barbare",
+    "Le magicien",
+    "Le roublard",
+    "Le guerrier"
+   ],
+   "rep": 1,
+   "expl": "Magicien.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-003",
+   "concept": "cla-003",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle classe soigne ses alliés grâce à un dieu ?",
+   "choix": [
+    "Le clerc",
+    "Le barbare",
+    "Le magicien",
+    "Le roublard"
+   ],
+   "rep": 0,
+   "expl": "Clerc.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-004",
+   "concept": "cla-004",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle classe se spécialise dans la discrétion et l’attaque sournoise ?",
+   "choix": [
+    "Le guerrier",
+    "Le paladin",
+    "Le roublard",
+    "Le clerc"
+   ],
+   "rep": 2,
+   "expl": "Roublard.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-005",
+   "concept": "cla-005",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle classe entre en rage au combat ?",
+   "choix": [
+    "Le barbare",
+    "Le barde",
+    "Le druide",
+    "Le magicien"
+   ],
+   "rep": 0,
+   "expl": "Barbare.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-006",
+   "concept": "cla-006",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle classe tire sa magie de la musique ?",
+   "choix": [
+    "Le rôdeur",
+    "Le druide",
+    "Le barde",
+    "Le clerc"
+   ],
+   "rep": 2,
+   "expl": "Barde.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-007",
+   "concept": "cla-007",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle classe manie la magie de la nature et peut prendre une forme animale ?",
+   "choix": [
+    "Le barde",
+    "Le clerc",
+    "Le magicien",
+    "Le druide"
+   ],
+   "rep": 3,
+   "expl": "Druide.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-008",
+   "concept": "cla-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle classe est un guerrier saint qui prête serment ?",
+   "choix": [
+    "Le moine",
+    "Le barbare",
+    "Le clerc",
+    "Le paladin"
+   ],
+   "rep": 3,
+   "expl": "Paladin.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-009",
+   "concept": "cla-009",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle classe est experte en pistage et en survie ?",
+   "choix": [
+    "Le roublard",
+    "Le barbare",
+    "Le barde",
+    "Le rôdeur"
+   ],
+   "rep": 3,
+   "expl": "Rôdeur.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-010",
+   "concept": "cla-010",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle classe combat à mains nues et utilise le ki ?",
+   "choix": [
+    "Le moine",
+    "Le barbare",
+    "Le paladin",
+    "Le guerrier"
+   ],
+   "rep": 0,
+   "expl": "Moine.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-011",
+   "concept": "cla-011",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle classe tire sa magie d’une lignée innée ?",
+   "choix": [
+    "Le clerc",
+    "L’ensorceleur",
+    "Le druide",
+    "Le magicien"
+   ],
+   "rep": 1,
+   "expl": "Ensorceleur.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-012",
+   "concept": "cla-012",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle classe a un pacte avec une entité puissante ?",
+   "choix": [
+    "L’ensorceleur",
+    "Le druide",
+    "Le clerc",
+    "L’occultiste"
+   ],
+   "rep": 3,
+   "expl": "Occultiste (warlock).",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-013",
+   "concept": "cla-013",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel archétype de guerrier combine épée et magie ?",
+   "choix": [
+    "Maître de guerre",
+    "Champion",
+    "Chevalier occulte",
+    "Berserker"
+   ],
+   "rep": 2,
+   "expl": "Eldritch Knight.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-014",
+   "concept": "cla-014",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle classe peut dépenser des emplacements de sorts pour des Châtiments divins ?",
+   "choix": [
+    "Le paladin",
+    "Le clerc",
+    "Le barde",
+    "Le rôdeur"
+   ],
+   "rep": 0,
+   "expl": "Divine Smite.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-015",
+   "concept": "cla-015",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle capacité du roublard inflige des dégâts supplémentaires ?",
+   "choix": [
+    "Second souffle",
+    "Frappe divine",
+    "Rage",
+    "Attaque sournoise"
+   ],
+   "rep": 3,
+   "expl": "Sneak Attack.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-016",
+   "concept": "cla-016",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle capacité du guerrier permet de récupérer des PV ?",
+   "choix": [
+    "Second souffle",
+    "Forme sauvage",
+    "Rage",
+    "Attaque sournoise"
+   ],
+   "rep": 0,
+   "expl": "Second Wind.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-017",
+   "concept": "cla-017",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle capacité du barde soutient ses alliés avec un dé ?",
+   "choix": [
+    "Rage",
+    "Ki",
+    "Second souffle",
+    "Inspiration bardique"
+   ],
+   "rep": 3,
+   "expl": "Bardic Inspiration.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-018",
+   "concept": "cla-018",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle capacité du clerc repousse les morts-vivants ?",
+   "choix": [
+    "Forme sauvage",
+    "Rage",
+    "Renvoi des morts-vivants",
+    "Attaque sournoise"
+   ],
+   "rep": 2,
+   "expl": "Turn Undead.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-019",
+   "concept": "cla-019",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle classe ne peut pas porter d’armure lourde pour lancer ses sorts ?",
+   "choix": [
+    "Le guerrier",
+    "Le magicien",
+    "Le clerc",
+    "Le paladin"
+   ],
+   "rep": 1,
+   "expl": "Magicien.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-020",
+   "concept": "cla-020",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel dé de vie utilise le barbare ?",
+   "choix": [
+    "d10",
+    "d8",
+    "d12",
+    "d6"
+   ],
+   "rep": 2,
+   "expl": "Le barbare a un d12.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-021",
+   "concept": "cla-021",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel dé de vie utilise le magicien ?",
+   "choix": [
+    "d8",
+    "d6",
+    "d10",
+    "d12"
+   ],
+   "rep": 1,
+   "expl": "d6.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-022",
+   "concept": "cla-022",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel dé de vie utilise le guerrier ?",
+   "choix": [
+    "d8",
+    "d10",
+    "d12",
+    "d6"
+   ],
+   "rep": 1,
+   "expl": "d10.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-023",
+   "concept": "cla-023",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel dé de vie utilise le clerc ?",
+   "choix": [
+    "d6",
+    "d8",
+    "d10",
+    "d12"
+   ],
+   "rep": 1,
+   "expl": "d8.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-024",
+   "concept": "cla-024",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "À quel niveau un personnage obtient-il généralement sa sous-classe ?",
+   "choix": [
+    "1",
+    "5",
+    "3",
+    "10"
+   ],
+   "rep": 2,
+   "expl": "Niveau 3 (selon la classe).",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-025",
+   "concept": "cla-025",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel niveau maximum un personnage peut-il atteindre en 5e ?",
+   "choix": [
+    "10",
+    "12",
+    "30",
+    "20"
+   ],
+   "rep": 3,
+   "expl": "Niveau 20.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-026",
+   "concept": "cla-026",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel livre présente les classes de base ?",
+   "choix": [
+    "Le Manuel des Monstres",
+    "Le Manuel des Joueurs",
+    "Xanathar",
+    "Le Guide du Maître"
+   ],
+   "rep": 1,
+   "expl": "PHB.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-027",
+   "concept": "cla-027",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle classe d’artisan magique apparaît dans Eberron ?",
+   "choix": [
+    "L’artificier",
+    "L’occultiste",
+    "Le moine",
+    "Le barde"
+   ],
+   "rep": 0,
+   "expl": "Artificer.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-028",
+   "concept": "cla-028",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle classe obtient la capacité Lancer de sorts à partir du niveau 2 seulement (sauf sous-classe) ?",
+   "choix": [
+    "Le paladin",
+    "Le clerc",
+    "Le magicien",
+    "Le barde"
+   ],
+   "rep": 0,
+   "expl": "Le paladin lance ses sorts dès le niveau 2.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-029",
+   "concept": "cla-029",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle classe peut invoquer un familier au niveau 1 ?",
+   "choix": [
+    "Le magicien",
+    "Le moine",
+    "Le barbare",
+    "Le guerrier"
+   ],
+   "rep": 0,
+   "expl": "Find Familiar.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-030",
+   "concept": "cla-030",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle caractéristique est principale pour le magicien ?",
+   "choix": [
+    "Force",
+    "Intelligence",
+    "Charisme",
+    "Sagesse"
+   ],
+   "rep": 1,
+   "expl": "INT.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-031",
+   "concept": "cla-031",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Le barbare entre en rage.",
+   "rep": true,
+   "expl": "Rage.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-032",
+   "concept": "cla-032",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Le magicien est une classe de combat rapproché.",
+   "rep": false,
+   "expl": "Il lance des sorts.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-033",
+   "concept": "cla-033",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le moine peut se battre sans arme.",
+   "rep": true,
+   "expl": "Arts martiaux.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-034",
+   "concept": "cla-034",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le paladin ne lance aucun sort.",
+   "rep": false,
+   "expl": "Il lance des sorts.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-035",
+   "concept": "cla-035",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le rôdeur est spécialisé dans la survie.",
+   "rep": true,
+   "expl": "Rôdeur.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-036",
+   "concept": "cla-036",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le druide peut prendre une forme animale.",
+   "rep": true,
+   "expl": "Forme sauvage.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-037",
+   "concept": "cla-037",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le barde est une classe de lanceur de sorts.",
+   "rep": true,
+   "expl": "Barde.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-038",
+   "concept": "cla-038",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le barbare utilise un d6 comme dé de vie.",
+   "rep": false,
+   "expl": "d12.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-039",
+   "concept": "cla-039",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le magicien utilise un d12 comme dé de vie.",
+   "rep": false,
+   "expl": "d6.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-040",
+   "concept": "cla-040",
+   "niveau": 2,
+   "type": "vf",
+   "q": "L’ensorceleur apprend ses sorts depuis un grimoire.",
+   "rep": false,
+   "expl": "Pouvoir inné.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-041",
+   "concept": "cla-041",
+   "niveau": 2,
+   "type": "vf",
+   "q": "L’occultiste a conclu un pacte.",
+   "rep": true,
+   "expl": "Occultiste.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-042",
+   "concept": "cla-042",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le clerc peut soigner.",
+   "rep": true,
+   "expl": "Clerc.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-043",
+   "concept": "cla-043",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le roublard obtient l’attaque sournoise au niveau 1.",
+   "rep": true,
+   "expl": "Niveau 1.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-044",
+   "concept": "cla-044",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le niveau maximum en 5e est 30.",
+   "rep": false,
+   "expl": "20.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-045",
+   "concept": "cla-045",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le guerrier peut obtenir plusieurs attaques par action.",
+   "rep": true,
+   "expl": "Attaque supplémentaire.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-046",
+   "concept": "cla-046",
+   "niveau": 3,
+   "type": "vf",
+   "q": "L’artificier est une classe du Manuel des Joueurs.",
+   "rep": false,
+   "expl": "Introduit dans Eberron.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-047",
+   "concept": "cla-047",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le paladin tire sa force d’un serment.",
+   "rep": true,
+   "expl": "Serment.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-048",
+   "concept": "cla-048",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le moine utilise des points de ki.",
+   "rep": true,
+   "expl": "Ki.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-049",
+   "concept": "cla-049",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le clerc ne peut pas porter d’armure.",
+   "rep": false,
+   "expl": "Il peut porter armure.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-050",
+   "concept": "cla-050",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le druide ne peut pas lancer de sorts.",
+   "rep": false,
+   "expl": "Il lance des sorts.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-051",
+   "concept": "cla-051",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quel est le niveau maximum d’un personnage en 5e ?",
+   "min": 1,
+   "max": 30,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 20,
+   "expl": "Niveau 20.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-052",
+   "concept": "cla-052",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Combien de classes le Manuel des Joueurs 2014 présente-t-il ?",
+   "min": 5,
+   "max": 20,
+   "pas": 1,
+   "unite": "classes",
+   "tolerance": 0,
+   "rep": 12,
+   "expl": "12 classes.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-053",
+   "concept": "cla-053",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quelle est la taille du dé de vie du barbare (nombre de faces) ?",
+   "min": 4,
+   "max": 20,
+   "pas": 1,
+   "unite": "faces",
+   "tolerance": 0,
+   "rep": 12,
+   "expl": "d12.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-054",
+   "concept": "cla-054",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quelle est la taille du dé de vie du magicien (nombre de faces) ?",
+   "min": 4,
+   "max": 20,
+   "pas": 1,
+   "unite": "faces",
+   "tolerance": 0,
+   "rep": 6,
+   "expl": "d6.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-055",
+   "concept": "cla-055",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quelle est la taille du dé de vie du guerrier (nombre de faces) ?",
+   "min": 4,
+   "max": 20,
+   "pas": 1,
+   "unite": "faces",
+   "tolerance": 0,
+   "rep": 10,
+   "expl": "d10.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-056",
+   "concept": "cla-056",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quelle est la taille du dé de vie du roublard (nombre de faces) ?",
+   "min": 4,
+   "max": 20,
+   "pas": 1,
+   "unite": "faces",
+   "tolerance": 0,
+   "rep": 8,
+   "expl": "d8.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-057",
+   "concept": "cla-057",
+   "niveau": 2,
+   "type": "slider",
+   "q": "À quel niveau le guerrier obtient-il sa seconde attaque ?",
+   "min": 1,
+   "max": 20,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Niveau 5.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-058",
+   "concept": "cla-058",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Combien de sous-classes de barde existe-t-il dans le Manuel des Joueurs ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "sous-classes",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "Collège du savoir et de la vaillance.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-059",
+   "concept": "cla-059",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quel est le niveau de sort maximal en 5e ?",
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 9,
+   "expl": "Sorts de niveau 9.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-060",
+   "concept": "cla-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "À quel niveau le magicien obtient-il sa sous-classe ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "Niveau 2 (école).",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-061",
+   "concept": "cla-061",
+   "niveau": 3,
+   "type": "slider",
+   "q": "À quel niveau le clerc obtient-il son domaine ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "Niveau 1.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-062",
+   "concept": "cla-062",
+   "niveau": 3,
+   "type": "slider",
+   "q": "À quel niveau l’ensorceleur choisit-il son origine ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "Niveau 1.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-063",
+   "concept": "cla-063",
+   "niveau": 3,
+   "type": "slider",
+   "q": "À quel niveau le paladin prête-t-il serment ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Niveau 3.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-064",
+   "concept": "cla-064",
+   "niveau": 3,
+   "type": "slider",
+   "q": "À quel niveau le barbare choisit-il sa voie primitive ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Niveau 3.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-065",
+   "concept": "cla-065",
+   "niveau": 3,
+   "type": "slider",
+   "q": "À quel niveau l’occultiste choisit-il son patron ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "Niveau 1.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-066",
+   "concept": "cla-066",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le magicien obtient sa sous-classe au niveau 2.",
+   "rep": true,
+   "expl": "Tradition arcanique au niveau 2.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-067",
+   "concept": "cla-067",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le rôdeur utilise un d10 comme dé de vie.",
+   "rep": true,
+   "expl": "d10.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-068",
+   "concept": "cla-068",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quelle est la taille du dé de vie du paladin (nombre de faces) ?",
+   "min": 4,
+   "max": 20,
+   "pas": 1,
+   "unite": "faces",
+   "tolerance": 0,
+   "rep": 10,
+   "expl": "d10.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-069",
+   "concept": "cla-069",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quelle est la taille du dé de vie du clerc (nombre de faces) ?",
+   "min": 4,
+   "max": 20,
+   "pas": 1,
+   "unite": "faces",
+   "tolerance": 0,
+   "rep": 8,
+   "expl": "d8.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "cla-070",
+   "concept": "cla-070",
+   "niveau": 3,
+   "type": "slider",
+   "q": "À quel niveau le rôdeur obtient-il son archétype ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Niveau 3.",
+   "src": "Manuel des Joueurs (5e édition)",
+   "conf": "probable"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Lore Master : quiz fantasy en direct. Un MJ ouvre un donjon, les aventuriers rejoignent avec un code ou un QR code. Mythes, bestiaires, jeux de rôle, cinéma de fantasy…">
+<meta name="theme-color" content="#111827">
+<!--@@MANIFEST@@-->
+<title>Lore Master</title>
+<!--@@FAVICON@@-->
+<style>
+/*@@THEMECSS@@*/
+.wrap{max-width:62rem;margin:0 auto;padding:1rem}
+.hero{text-align:center;padding:2rem 1rem 1.2rem}
+.hero .lg{width:min(30rem,88%);margin:0 auto .4rem}
+.hero .lg img{width:100%;height:auto;display:block;filter:drop-shadow(0 3px 6px var(--s2))}
+.hero p{font-size:1.2rem;color:var(--ink2);max-width:40rem;margin:.6rem auto 0}
+.doors{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin:1.4rem 0}
+@media (max-width:640px){.doors{grid-template-columns:1fr}}
+.door{display:block;text-decoration:none;border-radius:var(--r-lg);padding:1.6rem 1.5rem;box-shadow:var(--frame),var(--sh);transition:transform .15s,box-shadow .15s;position:relative;overflow:hidden;border:1px solid var(--gold);background:var(--card);background-image:var(--tex);color:var(--ink)}
+.door:hover{transform:translateY(-3px);box-shadow:var(--frame),var(--sh-lg)}
+.door:active{transform:translateY(2px)}
+.door h2{font-size:1.9rem;margin:.4rem 0 .3rem}
+.door p{margin:0;color:var(--ink2)}
+.door .ic{width:3.4rem;height:3.4rem;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--bulb-l);color:var(--gold-d);border:1px solid var(--gold)}
+.door .ic svg{width:2rem;height:2rem}
+.door .go{display:inline-flex;margin-top:1rem;border-radius:999px;padding:.55rem 1.1rem;font-weight:700;background:var(--go);color:var(--go-t)}
+.feats{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:1rem 0 1.6rem}
+@media (max-width:760px){.feats{grid-template-columns:1fr}}
+.feat{background:var(--card);border:1px solid var(--line2);border-radius:var(--r);box-shadow:var(--sh);padding:1rem 1.1rem}
+.feat b{display:block;font-size:1.1rem;margin-bottom:.2rem}
+.feat span{color:var(--ink2);font-size:.98rem}
+.apropos h2{font-size:1.5rem;margin-bottom:.6rem}
+.apropos h3{font-size:1.1rem;margin:1rem 0 .3rem}
+.apropos p,.apropos li{color:var(--ink2)}
+.apropos ul{padding-left:1.2rem}
+</style>
+</head>
+<body>
+<header class="top"><span id="brand"></span><span class="sp"></span><div class="tools"><div class="zoom" id="zoom"></div><button type="button" class="btn btn-soft btn-sm" id="b-look">Apparence</button></div></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="lg" id="biglogo"></div>
+    <p>Le quiz fantasy en direct : un Maître du Jeu ouvre un donjon, les aventuriers le rejoignent avec un code ou un QR code, et la quête commence.</p>
+  </section>
+  <div class="doors">
+    <a class="door" href="mj.html"><span class="ic" id="ic-mj"></span><h2>Je suis MJ</h2><p>Je choisis les thèmes, je vérifie les questions et j’ouvre un donjon pour mes aventuriers.</p><span class="go">Espace MJ →</span></a>
+    <a class="door" href="joueur.html"><span class="ic" id="ic-pl"></span><h2>Je suis aventurier</h2><p>Je tape le code du donjon, je choisis mon nom d’aventurier et je joue !</p><span class="go">Rejoindre une quête →</span></a>
+  </div>
+  <div class="feats">
+    <div class="feat"><b>3 modes de jeu</b><span>Chacun sa quête, Duel de guildes, Les Aventuriers contre le MJ.</span></div>
+    <div class="feat"><b>Des thèmes par royaumes</b><span>Bestiaires, mythes et légendes, jeux de rôle, cinéma et littérature de fantasy… en QCM, vrai ou faux et estimation au curseur.</span></div>
+    <div class="feat"><b>Respect des joueurs</b><span>Un surnom suffit, aucun compte, aucune publicité, aucun traceur.</span></div>
+  </div>
+
+  <section class="card apropos" id="apropos">
+    <h2>À propos</h2>
+    <p>Lore Master est un outil libre conçu par Tom Rougeaud, enseignant en lycée professionnel. C’est un jeu de quiz, pas un outil pédagogique : il sert à animer une pause, une soirée jeux, une fin d’heure ou une sortie de club.</p>
+    <h3>Choix de conception</h3>
+    <ul>
+      <li>Des pages web autonomes : polices, images et bibliothèques sont intégrées, aucun appel à un site extérieur hormis la base de données du MJ.</li>
+      <li>Jusqu’à 30 aventuriers par donjon, plusieurs donjons possibles en même temps ; l’historique des parties est gardé 30 jours.</li>
+      <li>Chaque question est rattachée à une source citée en fin de correction. Une question déjà jouée par un MJ ne revient qu’une fois toutes les autres de sa sélection épuisées.</li>
+      <li>Neuf thèmes visuels et quatre jeux de polices, au choix de chacun (menu Apparence). Les thèmes de contenu sombres (horreur, occulte…) sont désactivés par défaut.</li>
+    </ul>
+    <h3>Limites connues</h3>
+    <ul>
+      <li>Le jeu en donjon demande une connexion Internet ; l’entraînement en solo fonctionne hors ligne.</li>
+      <li>Les noms ne sont pas vérifiés : le MJ peut renommer ou retirer un aventurier à tout moment.</li>
+      <li>Les questions ont été rédigées avec l’aide d’une IA et ne sont pas toutes vérifiées : signalez toute erreur via la page Contact.</li>
+      <li>La fiche d’aventurier et l’historique restent dans le navigateur de l’appareil utilisé (export / import possible).</li>
+    </ul>
+  </section>
+  <div id="foot"></div>
+</main>
+<script>
+/*@@COMMONJS@@*/
+/*@@LOOKJS@@*/
+$("brand").outerHTML=brandHtml("","index.html");
+$("biglogo").innerHTML='<img src="'+LOGO_FULL_URI+'" alt="Lore Master">';
+$("ic-mj").innerHTML=ICO.crown;$("ic-pl").innerHTML=ICO.shield;
+$("foot").innerHTML=footHtml();
+initZoom("index",$("zoom"));
+$("b-look").addEventListener("click",openLook);
+try{pwaInit();}catch(e){}
+</script>
+</body>
+</html>

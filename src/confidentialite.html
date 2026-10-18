@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<!--@@MANIFEST@@-->
+<meta name="theme-color" content="#111827">
+<title>Lore Master — Confidentialité</title>
+<!--@@FAVICON@@-->
+<style>
+/*@@THEMECSS@@*/
+.wrap{max-width:50rem;margin:0 auto;padding:1rem}
+h1{font-size:2rem;margin:1rem 0}
+section{margin-top:1rem}
+h2{font-size:1.2rem;margin-bottom:.5rem;display:flex;align-items:center;gap:.5rem}
+h2 svg{width:1.4rem;height:1.4rem;color:var(--violet)}
+p,li{color:var(--ink2)}
+ul{padding-left:1.2rem}
+table{width:100%;border-collapse:separate;border-spacing:0 .35rem;font-size:.92rem}
+th{text-align:left;color:var(--ink2);font-size:.8rem;padding:0 .6rem}
+td{background:var(--tint);padding:.55rem .6rem;vertical-align:top}
+td:first-child{border-radius:12px 0 0 12px;font-weight:900;color:var(--ink)}
+td:last-child{border-radius:0 12px 12px 0}
+@media (max-width:600px){table,tbody,tr,td,th{display:block}th{display:none}td{border-radius:0!important}tr{margin-bottom:.6rem;border-radius:14px;overflow:hidden}}
+</style>
+</head>
+<body>
+<header class="top"><span id="brand"></span><span class="sp"></span><div class="tools"><div class="zoom" id="zoom"></div></div></header>
+<main class="wrap">
+  <h1>Confidentialité</h1>
+  <div class="okbox"><b>En bref :</b> pas de compte, pas de nom de famille, pas d’adresse e-mail, pas de publicité, pas de cookie, pas de mesure d’audience. Les joueurs choisissent leur nom d’aventurier (un surnom suffit). Les données de jeu sont effacées automatiquement.</div>
+
+  <section class="card">
+    <h2 id="h1"></h2>
+    <table>
+      <tr><th>Donnée</th><th>Où ?</th><th>Durée</th></tr>
+      <tr><td>Code du donjon, mode de jeu</td><td>Base de données Supabase de l’enseignant</td><td>Effacé 4 h après la dernière activité, ou dès la fermeture de la salle</td></tr>
+      <tr><td>Nom d’aventurier du joueur</td><td>Même base (pour limiter le donjon à 30 et éviter les doublons)</td><td>Effacé avec le donjon</td></tr>
+      <tr><td>Bilan de partie (noms d’aventurier, scores, taux de réussite)</td><td>Même base, rattaché à la « clé du MJ » (enregistrée sous forme hachée, donc illisible)</td><td>30 jours, puis effacement automatique</td></tr>
+      <tr><td>Réponses pendant le jeu, alerte « page quittée »</td><td>Transmises en direct au MJ (canal temps réel), jamais enregistrées dans la base</td><td>Le temps de la partie</td></tr>
+      <tr><td>Fiche d’aventurier (points, badges), apparence, réglages</td><td>Uniquement dans le navigateur de l’appareil</td><td>Jusqu’à ce que l’élève l’efface (bouton « Effacer mes données »)</td></tr>
+      <tr><td>Historique des questions déjà jouées (côté MJ)</td><td>Uniquement dans le navigateur de l’ordinateur du MJ</td><td>Jusqu’à ce que le MJ l’efface (menu › Historique)</td></tr>
+    </table>
+    <p class="small">Aucun nom de famille, aucune adresse e-mail, aucune photo et aucune adresse IP ne sont enregistrés dans les tables de Lore Master.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="h2"></h2>
+    <ul>
+      <li>Un <b>surnom</b> suffit (jamais de nom de famille). Un <b>surnom tiré au sort</b> est proposé pour rester discret. Le MJ peut renommer ou retirer un nom inapproprié.</li>
+      <li>Les noms grossiers les plus courants sont refusés automatiquement.</li>
+      <li>Si un élève quitte la page du jeu pendant une partie (autre onglet, autre application), le MJ en est averti. L’application <b>ne sait pas</b> quelle page a été ouverte et n’enregistre rien.</li>
+      <li>La fiche garde aussi, sur l’appareil seulement, les derniers résultats par thème pour proposer « À revoir ». Rien de cela n’est envoyé au MJ ni à la base.</li>
+      <li>L’export de la fiche est un fichier que le joueur garde et protège lui-même.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="h3"></h2>
+    <ul>
+      <li><b>Hébergement des pages</b> : GitHub Pages. Comme tout hébergeur, GitHub peut conserver des journaux techniques de connexion (adresse IP) ; voir la politique de confidentialité de GitHub.</li>
+      <li><b>Base de données et temps réel</b> : Supabase, dans le projet créé par l’auteur de l’outil (région Union européenne recommandée). Seules les données du tableau ci-dessus y sont enregistrées ; comme tout hébergeur, Supabase garde aussi des journaux techniques de connexion pendant une courte durée.</li>
+      <li>Aucun autre service : polices, images et bibliothèques sont intégrées aux pages. Aucun traceur, aucun compteur de visites.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="h4"></h2>
+    <p>La personne qui met Lore Master en ligne et l’utilise avec un groupe (classe, club, association) est responsable de cet usage. Il est conseillé d’en informer les participants et, en milieu scolaire, si besoin, le délégué à la protection des données (DPO) de l’établissement ou de l’académie.</p>
+    <p>Pour toute question ou demande d’effacement anticipé, adressez-vous à votre MJ. Pour une question sur l’outil lui-même, utilisez la page <a href="contact.html">Contact</a>.</p>
+    <p class="small">Dernière mise à jour : octobre 2026 · Lore Master v1.</p>
+  </section>
+  <div id="foot"></div>
+</main>
+<script>
+/*@@COMMONJS@@*/
+/*@@LOOKJS@@*/
+$("brand").outerHTML=brandHtml("confidentialité","index.html");
+$("foot").innerHTML=footHtml();
+initZoom("conf",$("zoom"));
+$("h1").innerHTML=ICO.lock+"Quelles données, où, et combien de temps ?";
+$("h2").innerHTML=ICO.user+"Côté joueurs";
+$("h3").innerHTML=ICO.shield+"Services utilisés";
+$("h4").innerHTML=ICO.help+"Responsabilité et contact";
+</script>
+</body>
+</html>

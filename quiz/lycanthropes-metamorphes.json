@@ -1,0 +1,1061 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "lycanthropes-metamorphes",
+  "nom": "Lycanthropes et métamorphes",
+  "royaume": "Bestiaire de D&D",
+  "icone": "loup",
+  "sombre": false
+ },
+ "sources": [
+  "Manuel des Monstres (5e édition)",
+  "Folklore et littérature (Perrault, Kipling, Stoker, Rowling)"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "lyc-001",
+   "concept": "lyc-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle créature se transforme en loup les nuits de pleine lune ?",
+   "choix": [
+    "Le gnoll",
+    "Le loup-garou",
+    "Le vampire",
+    "Le worg"
+   ],
+   "rep": 1,
+   "expl": "Le loup-garou est lié à la pleine lune.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-002",
+   "concept": "lyc-002",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel métal est classiquement fatal au loup-garou ?",
+   "choix": [
+    "L’argent",
+    "L’or",
+    "Le cuivre",
+    "Le fer"
+   ],
+   "rep": 0,
+   "expl": "L’argent est son point faible légendaire.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-003",
+   "concept": "lyc-003",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel astre déclenche la transformation selon la légende ?",
+   "choix": [
+    "Une comète",
+    "Une éclipse",
+    "La pleine lune",
+    "Le soleil"
+   ],
+   "rep": 2,
+   "expl": "La pleine lune.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-004",
+   "concept": "lyc-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Comment appelle-t-on la maladie de l’homme-loup ?",
+   "choix": [
+    "La lycanthropie",
+    "La pétrification",
+    "Le vampirisme",
+    "La nécrose"
+   ],
+   "rep": 0,
+   "expl": "Lycanthropie.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-005",
+   "concept": "lyc-005",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "D’où vient le mot « lycanthrope » ?",
+   "choix": [
+    "Du latin lupus et homo",
+    "Du grec lykos et anthropos",
+    "De l’anglo-saxon wulf et man",
+    "Du nordique ulfr et madr"
+   ],
+   "rep": 1,
+   "expl": "Lykos = loup, anthropos = homme.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-006",
+   "concept": "lyc-006",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel roi de la mythologie grecque fut changé en loup ?",
+   "choix": [
+    "Midas",
+    "Minos",
+    "Lycaon",
+    "Œdipe"
+   ],
+   "rep": 2,
+   "expl": "Lycaon fut métamorphosé par Zeus.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-007",
+   "concept": "lyc-007",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle bête a terrorisé la France entre 1764 et 1767 ?",
+   "choix": [
+    "La Bête du Gévaudan",
+    "Le Chupacabra",
+    "La Bête de Bodmin",
+    "La Tarasque"
+   ],
+   "rep": 0,
+   "expl": "La Bête du Gévaudan.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-008",
+   "concept": "lyc-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans quelle région la Bête du Gévaudan a-t-elle sévi ?",
+   "choix": [
+    "La Bretagne",
+    "Le Massif central (Lozère)",
+    "La Normandie",
+    "L’Alsace"
+   ],
+   "rep": 1,
+   "expl": "Le Gévaudan correspond à la Lozère.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-009",
+   "concept": "lyc-009",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Au loup-garou de D&D 5e, quelles armes sont inefficaces ?",
+   "choix": [
+    "Les armes en or",
+    "Les armes de jet",
+    "Les armes non magiques et non argentées",
+    "Les armes en bois"
+   ],
+   "rep": 2,
+   "expl": "Résistance aux attaques ordinaires.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-010",
+   "concept": "lyc-010",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel lycanthrope est un homme-ours en 5e édition ?",
+   "choix": [
+    "Le rat-garou",
+    "Le sanglier-garou",
+    "Le tigre-garou",
+    "L’ours-garou"
+   ],
+   "rep": 3,
+   "expl": "Werebear.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-011",
+   "concept": "lyc-011",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel lycanthrope est un homme-rat ?",
+   "choix": [
+    "Le sanglier-garou",
+    "Le rat-garou",
+    "Le tigre-garou",
+    "Le loup-garou"
+   ],
+   "rep": 1,
+   "expl": "Wererat.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-012",
+   "concept": "lyc-012",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel lycanthrope est un homme-sanglier ?",
+   "choix": [
+    "Le loup-garou",
+    "Le sanglier-garou",
+    "Le tigre-garou",
+    "Le rat-garou"
+   ],
+   "rep": 1,
+   "expl": "Wereboar.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-013",
+   "concept": "lyc-013",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel lycanthrope est un homme-tigre ?",
+   "choix": [
+    "Le rat-garou",
+    "Le sanglier-garou",
+    "Le tigre-garou",
+    "L’ours-garou"
+   ],
+   "rep": 2,
+   "expl": "Weretiger.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-014",
+   "concept": "lyc-014",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel changeur de forme imite l’apparence d’un humanoïde dans D&D 5e ?",
+   "choix": [
+    "Le lycanthrope",
+    "Le mimique",
+    "Le caméléon",
+    "Le doppelgänger"
+   ],
+   "rep": 3,
+   "expl": "Doppelganger.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-015",
+   "concept": "lyc-015",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle race jouable est capable de changer d’apparence ?",
+   "choix": [
+    "Les changelins",
+    "Les drakéides",
+    "Les gnomes",
+    "Les halflings"
+   ],
+   "rep": 0,
+   "expl": "Changelins d’Eberron.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-016",
+   "concept": "lyc-016",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle capacité de druide permet de prendre la forme d’une bête ?",
+   "choix": [
+    "Appel animal",
+    "Pelage de pierre",
+    "Danse sauvage",
+    "Forme sauvage"
+   ],
+   "rep": 3,
+   "expl": "Forme sauvage.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-017",
+   "concept": "lyc-017",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel sort transforme une créature en une autre ?",
+   "choix": [
+    "Nuage nauséabond",
+    "Illusion mineure",
+    "Image miroir",
+    "Métamorphose"
+   ],
+   "rep": 3,
+   "expl": "Polymorph.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-018",
+   "concept": "lyc-018",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel animal est lié à la selkie du folklore ?",
+   "choix": [
+    "Le loup",
+    "Le phoque",
+    "Le cygne",
+    "Le cheval"
+   ],
+   "rep": 1,
+   "expl": "La selkie est une femme-phoque.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-019",
+   "concept": "lyc-019",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel esprit japonais prend la forme d’un renard ?",
+   "choix": [
+    "Le kappa",
+    "Le tengu",
+    "Le kitsune",
+    "L’oni"
+   ],
+   "rep": 2,
+   "expl": "Le kitsune est un renard magique.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-020",
+   "concept": "lyc-020",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel esprit japonais ressemble à un blaireau et change de forme ?",
+   "choix": [
+    "Le tanuki",
+    "Le tengu",
+    "Le kappa",
+    "Le kitsune"
+   ],
+   "rep": 0,
+   "expl": "Le tanuki est un yokai.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-021",
+   "concept": "lyc-021",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel roman de Stoker met en scène un vampire se changeant en chauve-souris ?",
+   "choix": [
+    "Frankenstein",
+    "Le Horla",
+    "Carmilla",
+    "Dracula"
+   ],
+   "rep": 3,
+   "expl": "Dracula, 1897.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-022",
+   "concept": "lyc-022",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel conte met en scène un loup déguisé en grand-mère ?",
+   "choix": [
+    "Le Petit Chaperon rouge",
+    "Les Trois Petits Cochons",
+    "Le Chat botté",
+    "Barbe bleue"
+   ],
+   "rep": 0,
+   "expl": "Conte de Perrault.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-023",
+   "concept": "lyc-023",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel loup mythique nordique est enchaîné jusqu’au Ragnarök ?",
+   "choix": [
+    "Sköll",
+    "Geri",
+    "Garm",
+    "Fenrir"
+   ],
+   "rep": 3,
+   "expl": "Fenrir est le grand loup.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-024",
+   "concept": "lyc-024",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel loup poursuit le soleil dans la mythologie nordique ?",
+   "choix": [
+    "Hati",
+    "Garm",
+    "Sköll",
+    "Fenrir"
+   ],
+   "rep": 2,
+   "expl": "Sköll chasse le soleil.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-025",
+   "concept": "lyc-025",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel loup poursuit la lune dans la mythologie nordique ?",
+   "choix": [
+    "Garm",
+    "Sköll",
+    "Hati",
+    "Fenrir"
+   ],
+   "rep": 2,
+   "expl": "Hati chasse la lune.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-026",
+   "concept": "lyc-026",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Qui a allaité Romulus et Rémus selon la légende ?",
+   "choix": [
+    "Une ourse",
+    "Une louve",
+    "Une lionne",
+    "Une chèvre"
+   ],
+   "rep": 1,
+   "expl": "La louve capitoline.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-027",
+   "concept": "lyc-027",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel personnage de Kipling est élevé par des loups ?",
+   "choix": [
+    "Oliver Twist",
+    "Mowgli",
+    "Peter Pan",
+    "Tarzan"
+   ],
+   "rep": 1,
+   "expl": "Le Livre de la jungle.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-028",
+   "concept": "lyc-028",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel professeur de Poudlard est un loup-garou ?",
+   "choix": [
+    "Remus Lupin",
+    "Sirius Black",
+    "Peter Pettigrow",
+    "Severus Rogue"
+   ],
+   "rep": 0,
+   "expl": "Remus Lupin.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-029",
+   "concept": "lyc-029",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel esprit japonais prend l’apparence d’un chat ?",
+   "choix": [
+    "Le kappa",
+    "Le kitsune",
+    "Le tengu",
+    "Le bakeneko"
+   ],
+   "rep": 3,
+   "expl": "Le bakeneko est un chat yokai.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-030",
+   "concept": "lyc-030",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel esprit des eaux écossais prend la forme d’un cheval ?",
+   "choix": [
+    "Le kelpie",
+    "Le brownie",
+    "Le boggart",
+    "Le lutin"
+   ],
+   "rep": 0,
+   "expl": "Le kelpie.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-031",
+   "concept": "lyc-031",
+   "niveau": 2,
+   "type": "vf",
+   "q": "La lycanthropie se transmet par morsure dans la tradition.",
+   "rep": true,
+   "expl": "Morsure.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-032",
+   "concept": "lyc-032",
+   "niveau": 1,
+   "type": "vf",
+   "q": "L’or tue les loups-garous.",
+   "rep": false,
+   "expl": "C’est l’argent.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-033",
+   "concept": "lyc-033",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Lycaon est changé en loup par Zeus.",
+   "rep": true,
+   "expl": "Mythe grec.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-034",
+   "concept": "lyc-034",
+   "niveau": 2,
+   "type": "vf",
+   "q": "La Bête du Gévaudan sévissait en Bretagne.",
+   "rep": false,
+   "expl": "En Gévaudan (Massif central).",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-035",
+   "concept": "lyc-035",
+   "niveau": 2,
+   "type": "vf",
+   "q": "La Bête du Gévaudan sévit à partir de 1764.",
+   "rep": true,
+   "expl": "1764-1767.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-036",
+   "concept": "lyc-036",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dracula est un loup-garou.",
+   "rep": false,
+   "expl": "Dracula est un vampire.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-037",
+   "concept": "lyc-037",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le rat-garou est un lycanthrope.",
+   "rep": true,
+   "expl": "Wererat.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-038",
+   "concept": "lyc-038",
+   "niveau": 2,
+   "type": "vf",
+   "q": "L’ours-garou est un mort-vivant.",
+   "rep": false,
+   "expl": "C’est un lycanthrope.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-039",
+   "concept": "lyc-039",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le doppelgänger imite des humanoïdes.",
+   "rep": true,
+   "expl": "Il change d’apparence.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-040",
+   "concept": "lyc-040",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le kitsune est un esprit chat.",
+   "rep": false,
+   "expl": "Le kitsune est un renard.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-041",
+   "concept": "lyc-041",
+   "niveau": 3,
+   "type": "vf",
+   "q": "La selkie est liée au phoque.",
+   "rep": true,
+   "expl": "Femme-phoque.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-042",
+   "concept": "lyc-042",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Fenrir poursuit le soleil.",
+   "rep": false,
+   "expl": "C’est Sköll.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-043",
+   "concept": "lyc-043",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Sköll poursuit le soleil.",
+   "rep": true,
+   "expl": "Sköll chasse le soleil.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-044",
+   "concept": "lyc-044",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Remus Lupin est un vampire.",
+   "rep": false,
+   "expl": "C’est un loup-garou.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-045",
+   "concept": "lyc-045",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Remus Lupin est un loup-garou.",
+   "rep": true,
+   "expl": "Personnage de Harry Potter.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-046",
+   "concept": "lyc-046",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Mowgli est élevé par des loups.",
+   "rep": true,
+   "expl": "Le Livre de la jungle.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-047",
+   "concept": "lyc-047",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Lycaon est un dieu de la mer.",
+   "rep": false,
+   "expl": "C’est un roi d’Arcadie.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-048",
+   "concept": "lyc-048",
+   "niveau": 2,
+   "type": "vf",
+   "q": "La forme sauvage est une capacité du druide.",
+   "rep": true,
+   "expl": "Druide.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-049",
+   "concept": "lyc-049",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Métamorphose est un sort de nécromancie.",
+   "rep": false,
+   "expl": "École de transmutation.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-050",
+   "concept": "lyc-050",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Les changelins peuvent changer d’apparence.",
+   "rep": true,
+   "expl": "Changelins.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-051",
+   "concept": "lyc-051",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le tanuki est un esprit-poisson.",
+   "rep": false,
+   "expl": "Le tanuki est un blaireau-yokai.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-052",
+   "concept": "lyc-052",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans Le Petit Chaperon rouge, le loup se déguise en grand-mère.",
+   "rep": true,
+   "expl": "Conte de Perrault.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-053",
+   "concept": "lyc-053",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quel est le FP du loup-garou ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "FP 3.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-054",
+   "concept": "lyc-054",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a un loup-garou ?",
+   "min": 10,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 58,
+   "expl": "58 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-055",
+   "concept": "lyc-055",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quel est le FP du rat-garou ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "FP 2.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-056",
+   "concept": "lyc-056",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du tigre-garou ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "FP 4.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-057",
+   "concept": "lyc-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du sanglier-garou ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "FP 4.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-058",
+   "concept": "lyc-058",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP de l’ours-garou ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "FP 5.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-059",
+   "concept": "lyc-059",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du doppelgänger ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "FP 3.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-060",
+   "concept": "lyc-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a un doppelgänger ?",
+   "min": 10,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 52,
+   "expl": "52 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-061",
+   "concept": "lyc-061",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quelle est la CA du doppelgänger ?",
+   "min": 8,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 14,
+   "expl": "CA 14.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-062",
+   "concept": "lyc-062",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année débute la Bête du Gévaudan ?",
+   "min": 1700,
+   "max": 1800,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1764,
+   "expl": "1764.",
+   "src": "Histoire de France",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-063",
+   "concept": "lyc-063",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année s’achève la Bête du Gévaudan ?",
+   "min": 1700,
+   "max": 1800,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1767,
+   "expl": "1767.",
+   "src": "Histoire de France",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-064",
+   "concept": "lyc-064",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Le Livre de la jungle ?",
+   "min": 1850,
+   "max": 1950,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1894,
+   "expl": "1894.",
+   "src": "Kipling",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-065",
+   "concept": "lyc-065",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Dracula ?",
+   "min": 1850,
+   "max": 1950,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1897,
+   "expl": "1897.",
+   "src": "Bram Stoker",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-066",
+   "concept": "lyc-066",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année Perrault publie-t-il ses contes ?",
+   "min": 1600,
+   "max": 1800,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1697,
+   "expl": "1697.",
+   "src": "Charles Perrault",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-067",
+   "concept": "lyc-067",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quelle est la durée approximative d’un cycle lunaire (en jours, à 1 près) ?",
+   "min": 20,
+   "max": 40,
+   "pas": 1,
+   "unite": "jours",
+   "tolerance": 1,
+   "rep": 29,
+   "expl": "Environ 29,5 jours.",
+   "src": "Astronomie",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-068",
+   "concept": "lyc-068",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Harry Potter et le Prisonnier d’Azkaban ?",
+   "min": 1990,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1999,
+   "expl": "1999.",
+   "src": "J. K. Rowling",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-069",
+   "concept": "lyc-069",
+   "niveau": 1,
+   "type": "slider",
+   "q": "Combien de phases principales la Lune compte-t-elle classiquement ?",
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "phases",
+   "tolerance": 0,
+   "rep": 8,
+   "expl": "Huit phases.",
+   "src": "Astronomie",
+   "conf": "probable"
+  },
+  {
+   "id": "lyc-070",
+   "concept": "lyc-070",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Sous combien de formes le loup-garou de D&D 5e existe-t-il ?",
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "formes",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Humaine, hybride, loup.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  }
+ ]
+}

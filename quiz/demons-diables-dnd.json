@@ -1,0 +1,1061 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "demons-diables-dnd",
+  "nom": "Démons et diables de D&D",
+  "royaume": "Bestiaire de D&D",
+  "icone": "cornes",
+  "sombre": true
+ },
+ "sources": [
+  "Manuel des Monstres (5e édition)",
+  "SRD 5.1 (CC BY 4.0)"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "dem-001",
+   "concept": "dem-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel plan est le domaine des diables ?",
+   "choix": [
+    "Le Mont Céleste",
+    "Les Abysses",
+    "Les Limbes",
+    "Les Neuf Enfers"
+   ],
+   "rep": 3,
+   "expl": "Les Neuf Enfers abritent les diables.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-002",
+   "concept": "dem-002",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel plan chaotique abrite les démons ?",
+   "choix": [
+    "Arcadie",
+    "Les Neuf Enfers",
+    "Les Abysses",
+    "Mechanus"
+   ],
+   "rep": 2,
+   "expl": "Les démons vivent dans l’Abîme.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-003",
+   "concept": "dem-003",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel alignement général ont les diables ?",
+   "choix": [
+    "Neutre mauvais",
+    "Loyal bon",
+    "Chaotique mauvais",
+    "Loyal mauvais"
+   ],
+   "rep": 3,
+   "expl": "Les diables sont loyaux mauvais.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-004",
+   "concept": "dem-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel alignement général ont les démons ?",
+   "choix": [
+    "Loyal mauvais",
+    "Chaotique mauvais",
+    "Chaotique bon",
+    "Neutre strict"
+   ],
+   "rep": 1,
+   "expl": "Les démons sont chaotiques mauvais.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-005",
+   "concept": "dem-005",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Qui règne sur les Neuf Enfers ?",
+   "choix": [
+    "Orcus",
+    "Asmodeus",
+    "Tiamat",
+    "Demogorgon"
+   ],
+   "rep": 1,
+   "expl": "Asmodeus est le maître des Neuf Enfers.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-006",
+   "concept": "dem-006",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel Seigneur démon est le Prince des Démons, doté de deux têtes ?",
+   "choix": [
+    "Baphomet",
+    "Demogorgon",
+    "Orcus",
+    "Yeenoghu"
+   ],
+   "rep": 1,
+   "expl": "Demogorgon a deux têtes de babouin.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-007",
+   "concept": "dem-007",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel Seigneur démon commande les gnolls ?",
+   "choix": [
+    "Juiblex",
+    "Yeenoghu",
+    "Baphomet",
+    "Zuggtmoy"
+   ],
+   "rep": 1,
+   "expl": "Yeenoghu est le Seigneur des Gnolls.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-008",
+   "concept": "dem-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel Seigneur démon est associé aux minotaures ?",
+   "choix": [
+    "Baphomet",
+    "Yeenoghu",
+    "Graz’zt",
+    "Orcus"
+   ],
+   "rep": 0,
+   "expl": "Baphomet est le Prince des Bêtes.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-009",
+   "concept": "dem-009",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle Dame des champignons est un Seigneur démon ?",
+   "choix": [
+    "Juiblex",
+    "Zuggtmoy",
+    "Graz’zt",
+    "Lolth"
+   ],
+   "rep": 1,
+   "expl": "Zuggtmoy règne sur les fongus.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-010",
+   "concept": "dem-010",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle petite créature infernale sert souvent de familier à un sorcier ?",
+   "choix": [
+    "Un diablotin",
+    "Un vrock",
+    "Un balor",
+    "Un glabrezu"
+   ],
+   "rep": 0,
+   "expl": "Le diablotin (imp) est un petit diable.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-011",
+   "concept": "dem-011",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel démon manie un fouet de foudre et une épée de feu ?",
+   "choix": [
+    "Le vrock",
+    "Le glabrezu",
+    "Le balor",
+    "Le hezrou"
+   ],
+   "rep": 2,
+   "expl": "Le balor est un puissant démon.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-012",
+   "concept": "dem-012",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quels sont les anciens noms des démons et des diables ?",
+   "choix": [
+    "Slaadi et modrons",
+    "Tanar’ri et baatezu",
+    "Daemons et yugoloths",
+    "Aasimars et tieffelins"
+   ],
+   "rep": 1,
+   "expl": "Tanar’ri = démons, baatezu = diables.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-013",
+   "concept": "dem-013",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel peuple descend d’un lien avec les Neuf Enfers ?",
+   "choix": [
+    "Les drakéides",
+    "Les gnomes",
+    "Les tieffelins",
+    "Les aasimars"
+   ],
+   "rep": 2,
+   "expl": "Les tieffelins ont une ascendance infernale.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-014",
+   "concept": "dem-014",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle est la première couche des Neuf Enfers ?",
+   "choix": [
+    "Cania",
+    "Nessus",
+    "Dis",
+    "Avernus"
+   ],
+   "rep": 3,
+   "expl": "Avernus est la couche supérieure.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-015",
+   "concept": "dem-015",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle est la neuvième couche des Neuf Enfers ?",
+   "choix": [
+    "Nessus",
+    "Stygie",
+    "Malbolge",
+    "Avernus"
+   ],
+   "rep": 0,
+   "expl": "Nessus est la couche d’Asmodeus.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-016",
+   "concept": "dem-016",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle aventure 5e de 2019 se déroule en Avernus ?",
+   "choix": [
+    "Baldur’s Gate : Descent into Avernus",
+    "La Malédiction de Strahd",
+    "Tomb of Annihilation",
+    "Out of the Abyss"
+   ],
+   "rep": 0,
+   "expl": "Descent into Avernus date de 2019.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-017",
+   "concept": "dem-017",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Comment appelle-t-on la guerre éternelle entre démons et diables ?",
+   "choix": [
+    "La Guerre du Sang",
+    "La Guerre des Dragons",
+    "La Guerre des Ombres",
+    "La Guerre de Troie"
+   ],
+   "rep": 0,
+   "expl": "La Blood War oppose démons et diables.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-018",
+   "concept": "dem-018",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel démon à pinces est connu pour exaucer des souhaits perfides ?",
+   "choix": [
+    "Le marilith",
+    "Le hezrou",
+    "Le glabrezu",
+    "Le vrock"
+   ],
+   "rep": 2,
+   "expl": "Le glabrezu a de grandes pinces.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-019",
+   "concept": "dem-019",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel démon ressemble à un crapaud humanoïde puant ?",
+   "choix": [
+    "Le hezrou",
+    "Le glabrezu",
+    "Le vrock",
+    "Le nalfeshnee"
+   ],
+   "rep": 0,
+   "expl": "Le hezrou dégage une puanteur.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-020",
+   "concept": "dem-020",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel démon ressemble à un vautour humanoïde ?",
+   "choix": [
+    "Le balor",
+    "Le marilith",
+    "Le hezrou",
+    "Le vrock"
+   ],
+   "rep": 3,
+   "expl": "Le vrock a une tête de vautour.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-021",
+   "concept": "dem-021",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel démon a une tête de sanglier et un corps obèse ?",
+   "choix": [
+    "Le glabrezu",
+    "Le nalfeshnee",
+    "Le balor",
+    "Le vrock"
+   ],
+   "rep": 1,
+   "expl": "Le nalfeshnee a une tête de sanglier.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-022",
+   "concept": "dem-022",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel diable à ailes est une tentatrice armée d’une corde enchantée ?",
+   "choix": [
+    "Un diable à glace",
+    "Un diablotin",
+    "Une érinye",
+    "Un diable barbu"
+   ],
+   "rep": 2,
+   "expl": "L’érinye est un diable ailé.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-023",
+   "concept": "dem-023",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quels fiélons peuvent changer de forme pour séduire ?",
+   "choix": [
+    "Quasits",
+    "Balors",
+    "Succubes et incubes",
+    "Vrocks"
+   ],
+   "rep": 2,
+   "expl": "Ils prennent forme humanoïde.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-024",
+   "concept": "dem-024",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel petit fiélon chaotique sert de familier ?",
+   "choix": [
+    "Un vrock",
+    "Un diablotin",
+    "Un quasit",
+    "Un glabrezu"
+   ],
+   "rep": 2,
+   "expl": "Le quasit est un petit démon.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-025",
+   "concept": "dem-025",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel Seigneur démon est lié aux limons et gelées ?",
+   "choix": [
+    "Juiblex",
+    "Zuggtmoy",
+    "Demogorgon",
+    "Graz’zt"
+   ],
+   "rep": 0,
+   "expl": "Juiblex est le Seigneur Sans-Visage.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-026",
+   "concept": "dem-026",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel sort protège contre les fiélons ?",
+   "choix": [
+    "Boule de feu",
+    "Protection contre le Mal et le Bien",
+    "Soin",
+    "Bouclier"
+   ],
+   "rep": 1,
+   "expl": "Il empêche les fiélons d’attaquer facilement.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-027",
+   "concept": "dem-027",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel diable est armé de griffes de lames et a une barbe ?",
+   "choix": [
+    "Le diable cornu",
+    "Le diable des os",
+    "Le diable à chaînes",
+    "Le diable barbu"
+   ],
+   "rep": 3,
+   "expl": "Le diable barbu (barbazu) est un soldat infernal.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-028",
+   "concept": "dem-028",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel diable manie des chaînes hérissées de crochets ?",
+   "choix": [
+    "Le diablotin",
+    "Le diable à glace",
+    "Le diable barbu",
+    "Le diable à chaînes"
+   ],
+   "rep": 3,
+   "expl": "Il contrôle des chaînes vivantes.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-029",
+   "concept": "dem-029",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel diable du plus haut rang a un FP de 20 ?",
+   "choix": [
+    "Le pit fiend",
+    "Le diable à chaînes",
+    "Le diablotin",
+    "Le diable barbu"
+   ],
+   "rep": 0,
+   "expl": "Le pit fiend est un puissant diable.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-030",
+   "concept": "dem-030",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel démon a six bras et manie plusieurs armes ?",
+   "choix": [
+    "Le hezrou",
+    "Le vrock",
+    "Le balor",
+    "Le marilith"
+   ],
+   "rep": 3,
+   "expl": "Le marilith a six bras.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-031",
+   "concept": "dem-031",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Les diables sont d’alignement loyal mauvais.",
+   "rep": true,
+   "expl": "Les diables suivent une hiérarchie stricte.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-032",
+   "concept": "dem-032",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Les démons sont organisés en hiérarchie stricte et loyale.",
+   "rep": false,
+   "expl": "Les démons sont chaotiques.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-033",
+   "concept": "dem-033",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Asmodeus règne sur les Neuf Enfers.",
+   "rep": true,
+   "expl": "Il est le maître des Neuf Enfers.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-034",
+   "concept": "dem-034",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Demogorgon commande les gnolls.",
+   "rep": false,
+   "expl": "Les gnolls suivent Yeenoghu.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-035",
+   "concept": "dem-035",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Les tieffelins ont une ascendance infernale.",
+   "rep": true,
+   "expl": "Ils descendent d’un pacte infernal.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-036",
+   "concept": "dem-036",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Avernus est la dernière couche des Neuf Enfers.",
+   "rep": false,
+   "expl": "Avernus est la première couche.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-037",
+   "concept": "dem-037",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Nessus est la neuvième couche des Neuf Enfers.",
+   "rep": true,
+   "expl": "Nessus est la couche profonde d’Asmodeus.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-038",
+   "concept": "dem-038",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le diablotin est un démon.",
+   "rep": false,
+   "expl": "Le diablotin est un diable.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-039",
+   "concept": "dem-039",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le quasit est un démon.",
+   "rep": true,
+   "expl": "Le quasit est un petit démon.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-040",
+   "concept": "dem-040",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le balor est un diable.",
+   "rep": false,
+   "expl": "Le balor est un démon.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-041",
+   "concept": "dem-041",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Baphomet est lié aux minotaures.",
+   "rep": true,
+   "expl": "Baphomet est un Seigneur démon des bêtes.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-042",
+   "concept": "dem-042",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Lolth est un dieu du soleil.",
+   "rep": false,
+   "expl": "Lolth est la déesse des drows et des araignées.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-043",
+   "concept": "dem-043",
+   "niveau": 2,
+   "type": "vf",
+   "q": "La Guerre du Sang oppose démons et diables.",
+   "rep": true,
+   "expl": "La Blood War est leur guerre.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-044",
+   "concept": "dem-044",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Les démons et les diables s’entendent bien.",
+   "rep": false,
+   "expl": "Ils sont ennemis jurés.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-045",
+   "concept": "dem-045",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le vrock a un aspect de vautour.",
+   "rep": true,
+   "expl": "Le vrock est un démon vautour.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-046",
+   "concept": "dem-046",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le hezrou est un démon aux ailes de papillon.",
+   "rep": false,
+   "expl": "Le hezrou est un démon crapaud.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-047",
+   "concept": "dem-047",
+   "niveau": 3,
+   "type": "vf",
+   "q": "La marilith possède six bras.",
+   "rep": true,
+   "expl": "Ses six bras manient des armes.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-048",
+   "concept": "dem-048",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le diable barbu est un démon.",
+   "rep": false,
+   "expl": "Le diable barbu est un diable.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-049",
+   "concept": "dem-049",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Orcus est associé aux morts-vivants.",
+   "rep": true,
+   "expl": "Il est le Prince des Morts-vivants.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-050",
+   "concept": "dem-050",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Zuggtmoy est la Dame des limons.",
+   "rep": false,
+   "expl": "Zuggtmoy est la Dame des champignons.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-051",
+   "concept": "dem-051",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le pit fiend est l’un des diables les plus puissants.",
+   "rep": true,
+   "expl": "Son FP est de 20.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-052",
+   "concept": "dem-052",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D, les fiélons sont toujours d’alignement bon.",
+   "rep": false,
+   "expl": "Les fiélons sont mauvais.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-053",
+   "concept": "dem-053",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Combien de bras a la marilith ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "bras",
+   "tolerance": 0,
+   "rep": 6,
+   "expl": "La marilith a six bras.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-054",
+   "concept": "dem-054",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Combien de couches comptent les Neuf Enfers ?",
+   "min": 1,
+   "max": 15,
+   "pas": 1,
+   "unite": "couches",
+   "tolerance": 0,
+   "rep": 9,
+   "expl": "Neuf couches.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-055",
+   "concept": "dem-055",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du balor ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 19,
+   "expl": "Le balor a un FP de 19.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-056",
+   "concept": "dem-056",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du pit fiend ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 20,
+   "expl": "Le pit fiend a un FP de 20.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-057",
+   "concept": "dem-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP de la marilith ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 16,
+   "expl": "La marilith a un FP de 16.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-058",
+   "concept": "dem-058",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quel est le FP du diablotin ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "Le diablotin a un FP de 1.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-059",
+   "concept": "dem-059",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du succube ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "Le succube a un FP de 4.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-060",
+   "concept": "dem-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du vrock ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 6,
+   "expl": "Le vrock a un FP de 6.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-061",
+   "concept": "dem-061",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du hezrou ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 8,
+   "expl": "Le hezrou a un FP de 8.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-062",
+   "concept": "dem-062",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du glabrezu ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 9,
+   "expl": "Le glabrezu a un FP de 9.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-063",
+   "concept": "dem-063",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du nalfeshnee ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 13,
+   "expl": "Le nalfeshnee a un FP de 13.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-064",
+   "concept": "dem-064",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP de l’érinye ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 12,
+   "expl": "L’érinye a un FP de 12.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-065",
+   "concept": "dem-065",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a un pit fiend (à 20 près) ?",
+   "min": 100,
+   "max": 500,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 20,
+   "rep": 300,
+   "expl": "Il a 300 PV en moyenne.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-066",
+   "concept": "dem-066",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a un balor (à 20 près) ?",
+   "min": 100,
+   "max": 400,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 20,
+   "rep": 262,
+   "expl": "Il a 262 PV en moyenne.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-067",
+   "concept": "dem-067",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Combien de têtes a Demogorgon ?",
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "têtes",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "Demogorgon a deux têtes.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-068",
+   "concept": "dem-068",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Baldur’s Gate : Descent into Avernus ?",
+   "min": 2010,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 2019,
+   "expl": "Il est paru en 2019.",
+   "src": "Wizards of the Coast, 2019",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-069",
+   "concept": "dem-069",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du diable barbu ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Le diable barbu a un FP de 3.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "dem-070",
+   "concept": "dem-070",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du diable à glace ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 14,
+   "expl": "Le diable à glace a un FP de 14.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  }
+ ]
+}

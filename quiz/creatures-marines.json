@@ -1,0 +1,1061 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "creatures-marines",
+  "nom": "Créatures marines et aquatiques",
+  "royaume": "Bestiaire de D&D",
+  "icone": "vague",
+  "sombre": false
+ },
+ "sources": [
+  "Manuel des Monstres (5e édition)",
+  "Mythologie et littérature (Homère, Verne, Melville)"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "mar-001",
+   "concept": "mar-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel monstre géant à tentacules attaque les navires ?",
+   "choix": [
+    "Le basilic",
+    "La tarasque",
+    "Le léviathan",
+    "Le kraken"
+   ],
+   "rep": 3,
+   "expl": "Le kraken est un monstre de légende.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-002",
+   "concept": "mar-002",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "De quelle tradition vient le kraken ?",
+   "choix": [
+    "La grecque",
+    "La légende scandinave",
+    "L’égyptienne",
+    "La japonaise"
+   ],
+   "rep": 1,
+   "expl": "Marins scandinaves.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-003",
+   "concept": "mar-003",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel monstre marin apparaît dans la Bible ?",
+   "choix": [
+    "Léviathan",
+    "Béhémoth",
+    "Ziz",
+    "Tiamat"
+   ],
+   "rep": 0,
+   "expl": "Léviathan.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-004",
+   "concept": "mar-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel monstre grec forme un tourbillon dévorant ?",
+   "choix": [
+    "Typhon",
+    "Charybde",
+    "Cerbère",
+    "Scylla"
+   ],
+   "rep": 1,
+   "expl": "Charybde.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-005",
+   "concept": "mar-005",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel monstre grec à six têtes menace les marins ?",
+   "choix": [
+    "La Chimère",
+    "Charybde",
+    "L’Hydre",
+    "Scylla"
+   ],
+   "rep": 3,
+   "expl": "Scylla.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-006",
+   "concept": "mar-006",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Entre quels deux périls Ulysse doit-il passer ?",
+   "choix": [
+    "Sirènes et Cyclope",
+    "Méduse et Minotaure",
+    "Scylla et Charybde",
+    "Hydre et Chimère"
+   ],
+   "rep": 2,
+   "expl": "Détroit de Messine.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-007",
+   "concept": "mar-007",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quelle créature est mi-femme mi-poisson ?",
+   "choix": [
+    "La gorgone",
+    "La harpie",
+    "La naïade",
+    "La sirène"
+   ],
+   "rep": 3,
+   "expl": "Sirène.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-008",
+   "concept": "mar-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel conte d’Andersen met en scène une sirène ?",
+   "choix": [
+    "Le Vilain Petit Canard",
+    "La Reine des neiges",
+    "La Petite Sirène",
+    "La Petite Fille aux allumettes"
+   ],
+   "rep": 2,
+   "expl": "Andersen, 1837.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-009",
+   "concept": "mar-009",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel capitaine poursuit une baleine blanche ?",
+   "choix": [
+    "Nemo",
+    "Achab",
+    "Ismaël",
+    "Crochet"
+   ],
+   "rep": 1,
+   "expl": "Moby Dick.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-010",
+   "concept": "mar-010",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Comment s’appelle la baleine blanche du roman de Melville ?",
+   "choix": [
+    "Willy",
+    "Monstro",
+    "Moby Dick",
+    "Shamu"
+   ],
+   "rep": 2,
+   "expl": "Moby-Dick.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-011",
+   "concept": "mar-011",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel auteur a écrit Vingt mille lieues sous les mers ?",
+   "choix": [
+    "Jules Verne",
+    "R. L. Stevenson",
+    "Victor Hugo",
+    "Alexandre Dumas"
+   ],
+   "rep": 0,
+   "expl": "Verne, 1870.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-012",
+   "concept": "mar-012",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel capitaine commande le Nautilus ?",
+   "choix": [
+    "Haddock",
+    "Nemo",
+    "Crochet",
+    "Achab"
+   ],
+   "rep": 1,
+   "expl": "Capitaine Nemo.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-013",
+   "concept": "mar-013",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel monstre attaque le Nautilus ?",
+   "choix": [
+    "Des baleines",
+    "Des requins",
+    "Des poulpes géants",
+    "Des serpents"
+   ],
+   "rep": 2,
+   "expl": "Un calmar géant.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-014",
+   "concept": "mar-014",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel dieu nordique est associé à la mer et aux marins ?",
+   "choix": [
+    "Baldr",
+    "Thor",
+    "Tyr",
+    "Njörd"
+   ],
+   "rep": 3,
+   "expl": "Njörd.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-015",
+   "concept": "mar-015",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle déesse nordique tient un filet pour attraper les marins ?",
+   "choix": [
+    "Freyja",
+    "Frigg",
+    "Rán",
+    "Hel"
+   ],
+   "rep": 2,
+   "expl": "Rán.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-016",
+   "concept": "mar-016",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle guenaude est liée à la mer ?",
+   "choix": [
+    "La guenaude verte",
+    "La liche",
+    "La guenaude marine",
+    "La guenaude nocturne"
+   ],
+   "rep": 2,
+   "expl": "Sea hag.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-017",
+   "concept": "mar-017",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle tortue géante de D&D souffle de la vapeur ?",
+   "choix": [
+    "Le kraken",
+    "La tortue-dragon",
+    "L’aboleth",
+    "La wyverne"
+   ],
+   "rep": 1,
+   "expl": "Dragon turtle.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-018",
+   "concept": "mar-018",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Comment Ulysse résiste-t-il au chant des sirènes ?",
+   "choix": [
+    "Il dort",
+    "Il joue de la lyre",
+    "Il plonge",
+    "Il se fait attacher au mât"
+   ],
+   "rep": 3,
+   "expl": "Odyssée.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-019",
+   "concept": "mar-019",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel est le plus grand animal marin ?",
+   "choix": [
+    "La baleine bleue",
+    "L’orque",
+    "Le requin-baleine",
+    "Le cachalot"
+   ],
+   "rep": 0,
+   "expl": "Baleine bleue.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-020",
+   "concept": "mar-020",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel calmar géant a été photographié vivant en 2004 ?",
+   "choix": [
+    "Nautilus",
+    "Poulpe commun",
+    "Seiche",
+    "Architeuthis"
+   ],
+   "rep": 3,
+   "expl": "Premières images en 2004.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-021",
+   "concept": "mar-021",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel navire fantôme est condamné à naviguer éternellement ?",
+   "choix": [
+    "Le Titanic",
+    "Le Hollandais volant",
+    "Le Black Pearl",
+    "Le Nautilus"
+   ],
+   "rep": 1,
+   "expl": "Légende maritime.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-022",
+   "concept": "mar-022",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel pirate se faisait appeler Barbe-Noire ?",
+   "choix": [
+    "Edward Teach",
+    "William Kidd",
+    "Bartholomew Roberts",
+    "Henry Morgan"
+   ],
+   "rep": 0,
+   "expl": "Edward Teach.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-023",
+   "concept": "mar-023",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel peuple marin est jouable en D&D 5e ?",
+   "choix": [
+    "Les nains",
+    "Les elfes",
+    "Les tritons",
+    "Les orques"
+   ],
+   "rep": 2,
+   "expl": "Tritons.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-024",
+   "concept": "mar-024",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle baleine avale Pinocchio ?",
+   "choix": [
+    "Monstro",
+    "Willy",
+    "Nessie",
+    "Moby Dick"
+   ],
+   "rep": 0,
+   "expl": "Monstro.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-025",
+   "concept": "mar-025",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel monstre lacustre est célèbre en Écosse ?",
+   "choix": [
+    "Charybde",
+    "Nessie",
+    "Léviathan",
+    "Le kraken"
+   ],
+   "rep": 1,
+   "expl": "Loch Ness.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-026",
+   "concept": "mar-026",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel monstre norvégien est un serpent gigantesque des mers ?",
+   "choix": [
+    "Le serpent de mer",
+    "Le dragon de feu",
+    "Le basilic",
+    "La tarasque"
+   ],
+   "rep": 0,
+   "expl": "Serpent de mer.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-027",
+   "concept": "mar-027",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel serpent géant nordique entoure le monde ?",
+   "choix": [
+    "Jörmungandr",
+    "Fenrir",
+    "Hydra",
+    "Níðhöggr"
+   ],
+   "rep": 0,
+   "expl": "Serpent de Midgard.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-028",
+   "concept": "mar-028",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel dieu affronte Jörmungandr au Ragnarök ?",
+   "choix": [
+    "Thor",
+    "Frey",
+    "Tyr",
+    "Odin"
+   ],
+   "rep": 0,
+   "expl": "Thor.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-029",
+   "concept": "mar-029",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Qui est le père de Polyphème ?",
+   "choix": [
+    "Hadès",
+    "Poséidon",
+    "Zeus",
+    "Cronos"
+   ],
+   "rep": 1,
+   "expl": "Polyphème.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-030",
+   "concept": "mar-030",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel sort permet de respirer sous l’eau ?",
+   "choix": [
+    "Forme gazeuse",
+    "Marche sur l’eau",
+    "Vol",
+    "Respiration aquatique"
+   ],
+   "rep": 3,
+   "expl": "Water Breathing.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-031",
+   "concept": "mar-031",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le kraken est une légende scandinave.",
+   "rep": true,
+   "expl": "Marins scandinaves.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-032",
+   "concept": "mar-032",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le kraken est une légende grecque.",
+   "rep": false,
+   "expl": "Scandinave.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-033",
+   "concept": "mar-033",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Léviathan est un monstre marin de la Bible.",
+   "rep": true,
+   "expl": "Léviathan.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-034",
+   "concept": "mar-034",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Charybde a six têtes.",
+   "rep": false,
+   "expl": "Charybde est un tourbillon.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-035",
+   "concept": "mar-035",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Scylla a six têtes.",
+   "rep": true,
+   "expl": "Scylla.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-036",
+   "concept": "mar-036",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Achab poursuit un requin blanc.",
+   "rep": false,
+   "expl": "Une baleine blanche.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-037",
+   "concept": "mar-037",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Moby Dick est une baleine blanche.",
+   "rep": true,
+   "expl": "Moby Dick.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-038",
+   "concept": "mar-038",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Nemo est le capitaine du Black Pearl.",
+   "rep": false,
+   "expl": "Du Nautilus.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-039",
+   "concept": "mar-039",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Rán est une déesse de la mer.",
+   "rep": true,
+   "expl": "Rán.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-040",
+   "concept": "mar-040",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Njörd est un dieu du feu.",
+   "rep": false,
+   "expl": "Njörd est lié à la mer.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-041",
+   "concept": "mar-041",
+   "niveau": 2,
+   "type": "vf",
+   "q": "La tortue-dragon souffle de la vapeur.",
+   "rep": true,
+   "expl": "Dragon turtle.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-042",
+   "concept": "mar-042",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Les tritons sont des orques marins.",
+   "rep": false,
+   "expl": "Les tritons sont un peuple marin.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-043",
+   "concept": "mar-043",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Le Hollandais volant est un navire fantôme.",
+   "rep": true,
+   "expl": "Légende.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-044",
+   "concept": "mar-044",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Jörmungandr est un loup.",
+   "rep": false,
+   "expl": "C’est un serpent.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-045",
+   "concept": "mar-045",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Jörmungandr entoure le monde.",
+   "rep": true,
+   "expl": "Serpent de Midgard.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-046",
+   "concept": "mar-046",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Polyphème est le fils de Poséidon.",
+   "rep": true,
+   "expl": "Odyssée.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-047",
+   "concept": "mar-047",
+   "niveau": 1,
+   "type": "vf",
+   "q": "La sirène a des pattes de cheval.",
+   "rep": false,
+   "expl": "Queue de poisson.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-048",
+   "concept": "mar-048",
+   "niveau": 1,
+   "type": "vf",
+   "q": "La Petite Sirène est un conte d’Andersen.",
+   "rep": true,
+   "expl": "Andersen.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-049",
+   "concept": "mar-049",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Vingt mille lieues sous les mers est de Dumas.",
+   "rep": false,
+   "expl": "Verne.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-050",
+   "concept": "mar-050",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Vingt mille lieues sous les mers est de Jules Verne.",
+   "rep": true,
+   "expl": "Verne.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-051",
+   "concept": "mar-051",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Nessie vit en pleine mer.",
+   "rep": false,
+   "expl": "Loch Ness.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-052",
+   "concept": "mar-052",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Moby-Dick est un roman de Melville.",
+   "rep": true,
+   "expl": "Herman Melville.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-053",
+   "concept": "mar-053",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du kraken ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 23,
+   "expl": "FP 23.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-054",
+   "concept": "mar-054",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a un kraken (à 20 près) ?",
+   "min": 200,
+   "max": 700,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 20,
+   "rep": 472,
+   "expl": "472 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-055",
+   "concept": "mar-055",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quelle est la CA du kraken ?",
+   "min": 10,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 18,
+   "expl": "CA 18.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-056",
+   "concept": "mar-056",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Quel est le FP de la pieuvre géante ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "FP 1.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-057",
+   "concept": "mar-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP du requin géant ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "FP 5.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-058",
+   "concept": "mar-058",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP de l’orque (épaulard) ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "FP 3.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-059",
+   "concept": "mar-059",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP de la tortue-dragon ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 17,
+   "expl": "FP 17.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-060",
+   "concept": "mar-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a une tortue-dragon (à 20 près) ?",
+   "min": 100,
+   "max": 500,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 20,
+   "rep": 341,
+   "expl": "341 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-061",
+   "concept": "mar-061",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quelle est la CA de la tortue-dragon ?",
+   "min": 10,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 20,
+   "expl": "CA 20.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-062",
+   "concept": "mar-062",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Moby-Dick ?",
+   "min": 1800,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1851,
+   "expl": "1851.",
+   "src": "Herman Melville",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-063",
+   "concept": "mar-063",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Vingt mille lieues sous les mers ?",
+   "min": 1800,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1870,
+   "expl": "1870.",
+   "src": "Jules Verne",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-064",
+   "concept": "mar-064",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année Andersen publie-t-il La Petite Sirène ?",
+   "min": 1800,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1837,
+   "expl": "1837.",
+   "src": "H. C. Andersen",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-065",
+   "concept": "mar-065",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Combien de têtes a Scylla ?",
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "têtes",
+   "tolerance": 0,
+   "rep": 6,
+   "expl": "Six têtes.",
+   "src": "Homère, Odyssée",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-066",
+   "concept": "mar-066",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de fois par jour Charybde engloutit-elle la mer ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "fois",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Trois fois.",
+   "src": "Homère, Odyssée",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-067",
+   "concept": "mar-067",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien d’hommes d’Ulysse Scylla dévore-t-elle ?",
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "hommes",
+   "tolerance": 0,
+   "rep": 6,
+   "expl": "Six.",
+   "src": "Homère, Odyssée",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-068",
+   "concept": "mar-068",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quelle longueur atteint la baleine bleue (en mètres, à 3 près) ?",
+   "min": 10,
+   "max": 50,
+   "pas": 1,
+   "unite": "m",
+   "tolerance": 3,
+   "rep": 30,
+   "expl": "Jusqu’à 30 m.",
+   "src": "Biologie",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-069",
+   "concept": "mar-069",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de points de vie moyens a un requin géant ?",
+   "min": 20,
+   "max": 300,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 126,
+   "expl": "126 PV.",
+   "src": "Manuel des Monstres (5e édition)",
+   "conf": "probable"
+  },
+  {
+   "id": "mar-070",
+   "concept": "mar-070",
+   "niveau": 3,
+   "type": "slider",
+   "q": "En quelle année la photographie de Nessie dite du chirurgien est-elle publiée ?",
+   "min": 1900,
+   "max": 1980,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1934,
+   "expl": "1934.",
+   "src": "Histoire",
+   "conf": "probable"
+  }
+ ]
+}

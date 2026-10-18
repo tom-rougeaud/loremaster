@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<!--@@MANIFEST@@-->
+<meta name="theme-color" content="#111827">
+<title>Lore Master — Contact</title>
+<!--@@FAVICON@@-->
+<style>
+/*@@THEMECSS@@*/
+.wrap{max-width:46rem;margin:0 auto;padding:1rem}
+h1{font-size:2rem;margin:1rem 0}
+.ccard{display:flex;gap:1rem;align-items:center;background:linear-gradient(150deg,#3B2A1A,#6A4B2A);color:#F8F0DB;border:1px solid var(--gold);border-radius:26px;padding:1.2rem 1.3rem;box-shadow:var(--sh-lg)}
+.ccard .av{width:4.4rem;height:4.4rem;border-radius:50%;background:var(--card);color:var(--violet-d);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1.6rem;flex:none;box-shadow:0 0 0 4px rgba(255,255,255,.3)}
+.ccard .nm{font-weight:900;font-size:1.35rem}
+.ccard .rl{opacity:.9;font-weight:700}
+.ccard .ml{margin-top:.3rem;font-weight:800;background:rgba(255,255,255,.18);border-radius:10px;padding:.2rem .6rem;display:inline-block}
+.ccard .ml button{border:0;background:var(--card);color:var(--violet-d);border-radius:999px;padding:.15rem .6rem;font-weight:900;font-size:.8rem;margin-left:.4rem}
+section{margin-top:1.2rem}
+h2{font-size:1.25rem;margin-bottom:.5rem}
+.form{display:flex;flex-direction:column;gap:.2rem}
+.li{display:inline-flex;align-items:center;gap:.5rem;text-decoration:none}
+.lic{margin-top:1.2rem}
+</style>
+</head>
+<body>
+<header class="top"><span id="brand"></span><span class="sp"></span><div class="tools"><div class="zoom" id="zoom"></div></div></header>
+<main class="wrap">
+  <h1>Contact</h1>
+  <div class="ccard">
+    <div class="av">TR</div>
+    <div>
+      <div class="nm">Tom Rougeaud</div>
+      <div class="rl">Professeur de Maths-Sciences · Académie de Dijon</div>
+      <div class="ml"><span id="mail">tom.rougeaud [at] ac-dijon.fr</span><button type="button" id="reveal">Afficher</button></div>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2>M’écrire</h2>
+    <div class="info small" style="margin-bottom:.8rem">Indiquez comme objet <b>« LORE MASTER »</b>. Pour signaler un bug, précisez votre navigateur (Chrome, Edge, Firefox, Safari…), votre appareil (ordinateur, téléphone, tablette) et ce que vous faisiez au moment du problème.</div>
+    <div class="form">
+      <label class="lbl" for="cf-name">Votre nom</label><input class="inp" id="cf-name" maxlength="80" placeholder="Votre nom">
+      <label class="lbl" for="cf-subj">Sujet</label><input class="inp" id="cf-subj" maxlength="120" value="LORE MASTER">
+      <label class="lbl" for="cf-msg">Message</label><textarea class="inp" id="cf-msg" rows="6" placeholder="Votre message…"></textarea>
+    </div>
+    <p style="margin-top:.8rem"><button type="button" class="btn btn-primary" id="cf-send"></button></p>
+    <p class="small muted" id="cf-ok" style="display:none">Votre logiciel de messagerie s’est ouvert avec le message prérempli : il ne reste qu’à l’envoyer.</p>
+    <p class="small muted">Ce formulaire n’envoie rien lui-même : il prépare un e-mail dans votre messagerie. Aucune donnée n’est enregistrée par Lore Master.</p>
+  </section>
+
+  <section class="card">
+    <h2>Mes autres ressources</h2>
+    <p class="muted">Retrouvez mes autres outils et ressources pour la voie professionnelle dans mon casier en ligne.</p>
+    <a class="btn btn-primary li" href="https://tom-rougeaud.github.io/casier/" target="_blank" rel="noopener noreferrer">Ouvrir le Casier de Tom Rougeaud →</a>
+  </section>
+
+  <section class="card">
+    <h2>LinkedIn</h2>
+    <a class="btn btn-soft li" href="https://linkedin.com/in/tomrougeaud" target="_blank" rel="noopener noreferrer">linkedin.com/in/tomrougeaud</a>
+  </section>
+
+  <section class="card">
+    <h2>Suggestions bienvenues</h2>
+    <ul class="muted">
+      <li>un thème de quiz à ajouter ;</li>
+      <li>une question mal formulée ou une réponse discutable ;</li>
+      <li>une idée de mode de jeu ou d’animation ;</li>
+      <li>une erreur de fait : citez la question et, si possible, une source.</li>
+    </ul>
+    <div class="okbox lic"><b>Outil libre</b> — licence CC BY-NC 4.0 : utilisation, adaptation et partage libres, sans usage commercial, en citant l’auteur. Pour tout autre usage, écrivez-moi.</div>
+  </section>
+  <div id="foot"></div>
+</main>
+<script>
+/*@@COMMONJS@@*/
+/*@@LOOKJS@@*/
+$("brand").outerHTML=brandHtml("contact","index.html");
+$("foot").innerHTML=footHtml();
+initZoom("contact",$("zoom"));
+$("cf-send").innerHTML=ICO.mail+"Préparer l’e-mail";
+/* adresse reconstituée à la demande (protection contre les robots) */
+function addr(){return ["tom","rougeaud"].join(".")+"@"+["ac-dijon","fr"].join(".");}
+$("reveal").addEventListener("click",function(){$("mail").textContent=addr();this.remove();});
+$("cf-send").addEventListener("click",function(){
+  var n=$("cf-name").value.trim(),s=$("cf-subj").value.trim()||"LORE MASTER",m=$("cf-msg").value.trim();
+  if(!m){toast("Écrivez d’abord votre message.","ko");return;}
+  location.href="mailto:"+addr()+"?subject="+encodeURIComponent(s)+"&body="+encodeURIComponent((n?"De : "+n+"\n\n":"")+m);
+  $("cf-ok").style.display="";
+});
+</script>
+</body>
+</html>

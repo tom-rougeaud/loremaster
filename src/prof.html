@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#111827">
+<!--@@MANIFEST@@-->
+<title>Lore Master — Espace MJ</title>
+<!--@@FAVICON@@-->
+<style>
+/*@@THEMECSS@@*/
+/*@@FXCSS@@*/
+/*@@PROFCSS@@*/
+</style>
+</head>
+<body class="v-proj">
+<header class="top">
+  <span id="brand"></span>
+  <span class="pill wait" id="netpill" title="État de la connexion à la base"><i></i><span>connexion…</span></span>
+  <span class="sp"></span>
+  <div class="tools">
+    <div class="zoom" id="zoom"></div>
+    <div class="vsw" id="vsw" role="group" aria-label="Affichage"><button type="button" data-v="proj">Projection</button><button type="button" data-v="mob">Mobile</button></div>
+    <button type="button" class="ibtn" id="b-sound" title="Couper / remettre le son"></button>
+    <button type="button" class="ibtn" id="b-full" title="Plein écran"></button>
+    <div class="menu-w">
+      <button type="button" class="ibtn" id="b-menu" title="Menu" aria-haspopup="true"></button>
+      <div class="menu hidden" id="menu">
+        <button type="button" data-m="hist">Historique des parties</button>
+        <button type="button" data-m="look">Apparence (thème, police)</button>
+        <button type="button" data-m="diag">Diagnostic de la base</button>
+        <button type="button" data-m="help">Aide rapide</button>
+        <a href="contact.html">Contact</a>
+        <a href="confidentialite.html">Confidentialité</a>
+        <a href="index.html">Accueil</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <div id="dbwarn" class="hidden"></div>
+
+  <!-- ═══ 1. CHOISIR ═══ -->
+  <section id="s-pick" class="screen">
+    <ol class="steps"><li class="on">Choisir</li><li>Vérifier</li><li>Donjon</li><li>Jouer</li></ol>
+    <div id="resume"></div>
+    <div class="card mode-card"><h2 class="mc-h">Mode de jeu</h2><div class="modes" id="modes"></div></div>
+    <details class="acc" id="acc-set">
+      <summary><span>Réglages de la partie</span><span class="muted small" id="set-sum"></span></summary>
+      <div class="acc-b">
+        <div class="set-grid">
+          <div><label class="lbl">Nombre de questions</label><div class="seg" id="seg-nq"></div></div>
+          <div><label class="lbl">Temps de réponse</label><div class="seg" id="seg-dur"></div></div>
+          <div><label class="lbl">Temps de lecture avant les propositions</label><div class="seg" id="seg-read"></div></div>
+          <div><label class="lbl">Points</label><div class="seg" id="seg-pts"></div></div>
+          <div><label class="lbl">Ordre des questions</label><div class="seg" id="seg-ord"></div></div>
+          <div><label class="lbl">Types de questions</label><div class="seg multi" id="seg-tp"></div></div>
+          <div><label class="lbl">Difficulté</label><div class="seg multi" id="seg-df"></div></div>
+          <div id="w-teams"><label class="lbl">Nombre d’guildes</label><div class="seg" id="seg-nt"></div></div>
+          <div id="w-boss" class="set-full boss-set"><label class="lbl">Handicap du MJ (Aventuriers VS MJ) : la question s’affiche plus tard sur son téléphone</label><div class="seg" id="seg-hd"></div>
+            <label class="sw" style="margin-top:.5rem"><input type="checkbox" id="o-hpen"><i></i>Handicap supplémentaire : chaque erreur ou absence de réponse du MJ abîme sa propre jauge</label></div>
+          <div class="set-full opts">
+            <label class="sw"><input type="checkbox" id="o-dark"><i></i>Contenus sombres : morts-vivants, démons, aberrations… (désactivé par défaut, à réserver à un public prêt)</label>
+            <label class="sw"><input type="checkbox" id="o-hide"><i></i>Masquer les propositions à l’écran (elles restent sur les téléphones)</label>
+            <label class="sw"><input type="checkbox" id="o-auto"><i></i>Enchaîner automatiquement les questions (10 s après la correction) — toujours activé au départ en « Aventuriers VS MJ », modifiable pendant la partie</label>
+            <label class="sw"><input type="checkbox" id="o-names"><i></i>Afficher qui a bien ou mal répondu après chaque question</label>
+            <label class="sw"><input type="checkbox" id="o-early"><i></i>Corriger dès que tout le monde a répondu</label>
+          </div>
+        </div>
+      </div>
+    </details>
+    <div class="card pick-head">
+      <h1>Quelle quête ce soir ?</h1>
+      <div class="lvl-row"><span class="lbl-in">Royaume</span><div class="seg" id="lvls"></div></div>
+      <div class="search"><input class="inp" id="q-search" type="search" placeholder="Rechercher un thème : dragons, mythologie, sorts…" autocomplete="off"></div>
+      <div class="pick-actions">
+        <button type="button" class="btn btn-soft" id="b-surprise"></button>
+        <button type="button" class="btn btn-ghost" id="b-clear">Tout décocher</button>
+      </div>
+      <div id="tree" class="tree"></div>
+    </div>
+
+    <div class="genbar">
+      <span id="sel-count" class="muted">Aucun thème coché</span>
+      <button type="button" class="btn btn-go btn-big" id="b-gen" disabled></button>
+    </div>
+  </section>
+
+  <!-- ═══ 2. VÉRIFIER / MODIFIER ═══ -->
+  <section id="s-prev" class="screen hidden">
+    <ol class="steps"><li class="done">Choisir</li><li class="on">Vérifier</li><li>Donjon</li><li>Jouer</li></ol>
+    <div class="card pv-head">
+      <div><h1 id="pv-title">Vos questions</h1><div class="muted" id="pv-sub"></div></div>
+      <div class="pv-tools">
+        <button type="button" class="btn btn-ghost" id="pv-back">← Modifier la sélection</button>
+        <button type="button" class="btn btn-soft" id="pv-regen"></button>
+        <label class="sw"><input type="checkbox" id="pv-show"><i></i>Afficher les réponses</label>
+      </div>
+    </div>
+    <div class="muted small pv-hint">Glissez la poignée pour réordonner · « Remplacer » tire une autre question · « Afficher les réponses » pour vérifier avant de jouer.</div>
+    <div id="pv-list" class="hideans"></div>
+    <div class="genbar">
+      <span id="pv-count" class="muted"></span>
+      <button type="button" class="btn btn-go btn-big" id="b-open"></button>
+    </div>
+  </section>
+
+  <!-- ═══ 3. SALLE ═══ -->
+  <section id="s-lobby" class="screen hidden">
+    <ol class="steps"><li class="done">Choisir</li><li class="done">Vérifier</li><li class="on">Donjon</li><li>Jouer</li></ol>
+    <div class="lobby">
+      <div class="card join-card">
+        <div class="jc-l">Rejoignez la partie sur</div>
+        <div class="jc-url" id="lb-url"></div>
+        <div class="jc-code-l">avec le code</div>
+        <div class="jc-code" id="lb-code">····</div>
+        <button type="button" class="jc-qr" id="lb-qr" title="Agrandir le QR code"></button>
+        <button type="button" class="btn btn-sm jc-big" id="lb-qrbig">Agrandir le QR code en plein écran</button>
+        <div class="jc-count"><b id="lb-n">0</b> / <span id="lb-max">30</span> aventuriers</div>
+      </div>
+      <div class="lobby-r">
+        <div class="lb-head"><h2 id="lb-title">Les guildes</h2><div class="lb-tools" id="lb-tools"></div></div>
+        <div id="lb-zone"></div>
+        <div class="lb-actions">
+          <button type="button" class="btn btn-ghost" id="lb-close">Fermer le donjon</button>
+          <button type="button" class="btn btn-soft" id="lb-players"></button>
+          <button type="button" class="btn btn-soft hidden" id="lb-hostcode"></button>
+          <button type="button" class="btn btn-go btn-xl" id="lb-start"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ 4. JEU ═══ -->
+  <section id="s-game" class="screen hidden">
+    <div class="g-top">
+      <div class="g-qn" id="g-qn">Question 1 / 10</div>
+      <div class="g-ans" id="g-ans"></div>
+      <div class="g-host hidden" id="g-host"></div>
+      <span class="sp"></span>
+      <button type="button" class="btn btn-sm btn-soft" id="g-players"></button>
+      <button type="button" class="btn btn-sm btn-soft hidden" id="g-media" title="Afficher la figure ou la formule en plein écran pour les aventuriers"></button><button type="button" class="btn btn-sm btn-soft" id="g-plus">+30 s</button>
+      <button type="button" class="btn btn-sm btn-primary" id="g-next"></button>
+      <button type="button" class="btn btn-sm btn-soft g-auto" id="g-auto" title="Enchaîner automatiquement 10 s après chaque correction"></button>
+      <button type="button" class="btn btn-sm btn-ghost" id="g-short">Écourter</button>
+    </div>
+    <div class="away-bar hidden" id="g-away"></div>
+    <div class="g-stage">
+      <div class="g-qbox card" id="g-qbox">
+        <div class="g-timer" id="g-timer"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" class="tr-bg"/><circle cx="50" cy="50" r="44" class="tr-fg" id="g-ring"/></svg><b id="g-sec">20</b></div>
+        <div class="g-meta" id="g-meta"></div>
+        <div class="g-q" id="g-q"></div>
+        <div class="g-fig" id="g-fig" title="Cliquer pour agrandir"></div>
+        <div class="g-choices" id="g-choices"></div>
+        <div class="g-rev hidden" id="g-rev"></div>
+      </div>
+      <aside class="g-live" id="g-live" aria-live="polite"><div class="gl-h"><span class="gl-bulb" aria-hidden="true"></span><span><b id="gl-n">0</b> <span id="gl-t">réponse</span></span></div><ol class="gl-list" id="gl-list"></ol></aside>
+      <div class="g-scene card" id="g-scene"></div>
+    </div>
+    <div class="g-rules hidden" id="g-rules" data-fit><div class="rules-box" id="rules-box"></div></div>
+    <div class="g-cd hidden" id="g-cd"><div class="cd-bulbs" id="g-cdb" aria-hidden="true"><i></i><i></i><i></i></div><span id="g-cdt">Prêts ?</span></div>
+    <div class="mm hidden" id="m-media" role="dialog" aria-label="Média agrandi"><div class="mm-h"><span class="mm-n" id="mm-n"></span><button type="button" class="btn btn-soft" id="mm-x">Fermer (Échap)</button></div><div class="mm-b" id="mm-b"><div class="mm-t" id="mm-t"></div><div class="mm-f" id="mm-f"></div></div></div>
+  </section>
+
+  <!-- ═══ 5. FIN ═══ -->
+  <section id="s-end" class="screen hidden">
+    <div class="end-head"><h1 id="end-title">Et le grand gagnant est…</h1><div class="muted" id="end-sub"></div></div>
+    <div id="end-anim"></div>
+    <div class="end-body hidden" id="end-body">
+      <div class="end-actions">
+        <button type="button" class="btn btn-go btn-big" id="end-again">Rejouer dans le même donjon</button>
+        <button type="button" class="btn btn-soft btn-big" id="end-new">Nouvelle partie</button>
+      </div>
+      <details class="acc" open><summary>Classement complet</summary><div class="acc-b" id="end-rank"></div></details>
+      <details class="acc" open><summary>Bilan : questions ratées et thèmes à retravailler</summary><div class="acc-b" id="end-diag"></div></details>
+      <details class="acc"><summary>Bilan question par question</summary><div class="acc-b" id="end-qs"></div></details>
+      <details class="acc"><summary>Exporter les résultats</summary><div class="acc-b">
+        <p class="muted">Fichiers CSV (tableur), pseudonymes uniquement.</p>
+        <button type="button" class="btn btn-soft" id="end-csv1">Résultats par aventurier</button>
+        <button type="button" class="btn btn-soft" id="end-csv2">Bilan par question</button>
+      </div></details>
+    </div>
+  </section>
+  <div id="foot"></div>
+</main>
+
+<!-- ═══ FENÊTRES ═══ -->
+<div class="modal hidden" id="m-players"><div class="box wide">
+  <button type="button" class="x" aria-label="Fermer">✕</button>
+  <h2>Joueurs du donjon <span id="mp-code"></span></h2>
+  <div class="mp-top">
+    <div class="mp-late"><div class="mp-qr" id="mp-qr"></div><div><b>Un retardataire ?</b><br><span class="muted small">Il scanne le QR code ou tape le code sur la page joueur ; il rejoint la partie à la question en cours.</span><div class="mp-code" id="mp-code2"></div></div></div>
+    <div class="mp-host hidden" id="mp-host"></div>
+  </div>
+  <div id="mp-list"></div>
+</div></div>
+
+<div class="qrfull hidden" id="m-qrbig" role="dialog" aria-label="QR code en plein écran">
+  <button type="button" class="qf-x" id="qf-x" aria-label="Fermer">✕ Fermer</button>
+  <div class="qf-in">
+    <div class="qf-qr" id="qf-qr"></div>
+    <div class="qf-side">
+      <div class="qf-l">Scannez le QR code<br>ou allez sur</div>
+      <div class="qf-url" id="qf-url"></div>
+      <div class="qf-l">avec le code</div>
+      <div class="qf-code" id="qf-code"></div>
+      <div class="qf-n" id="qf-n"></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal hidden" id="m-ans"><div class="box wide">
+  <button type="button" class="x" aria-label="Fermer">✕</button>
+  <h2 id="ma-h">Réponses de chaque joueur</h2>
+  <div class="ma-q" id="ma-q"></div>
+  <div id="ma-list"></div>
+</div></div>
+
+<div class="modal hidden" id="m-hostcode"><div class="box">
+  <button type="button" class="x" aria-label="Fermer">✕</button>
+  <h2>Votre code MJ</h2>
+  <p class="muted">Sur votre téléphone, ouvrez la page joueur et tapez ce code : vous jouez contre les aventuriers. Fermez cette fenêtre avant de projeter.</p>
+  <div class="hc-code" id="hc-code">····</div>
+  <p class="small muted center" id="hc-t">Masqué automatiquement dans 10 s.</p>
+</div></div>
+
+<div class="modal hidden" id="m-hist"><div class="box wide">
+  <button type="button" class="x" aria-label="Fermer">✕</button>
+  <h2>Historique des parties</h2>
+  <div class="seg" id="h-tabs"><button type="button" data-h="local" class="on">Sur cet ordinateur</button><button type="button" data-h="db">En ligne (30 jours)</button></div>
+  <div id="h-body"></div>
+</div></div>
+
+<div class="modal hidden" id="m-diag"><div class="box">
+  <button type="button" class="x" aria-label="Fermer">✕</button>
+  <h2>Diagnostic de la base</h2>
+  <div id="diag-body"></div>
+  <div class="m-actions"><button type="button" class="btn btn-primary" id="diag-run">Relancer le test</button></div>
+</div></div>
+
+<div class="modal hidden" id="m-look"><div class="box wide">
+  <button type="button" class="x" aria-label="Fermer">✕</button>
+  <h2>Apparence</h2>
+  <div id="look-body"></div>
+</div></div>
+
+<div class="modal hidden" id="m-help"><div class="box">
+  <button type="button" class="x" aria-label="Fermer">✕</button>
+  <h2>Aide rapide</h2>
+  <ol class="help">
+    <li><b>Choisir</b> : le mode de jeu et les réglages (types de questions, difficulté, temps de lecture, points), puis les thèmes à jouer, rangés par royaume. Cochez un thème, un royaume entier, ou tentez « Surprends-moi ».</li>
+    <li><b>Vérifier</b> : les questions sont tirées au sort parmi les thèmes cochés. Une question déjà jouée avec ce navigateur ne revient qu’une fois toutes les autres épuisées. Vous pouvez remplacer, retirer ou réordonner (réponses masquées tant que vous ne cochez pas « Afficher les réponses »).</li>
+    <li><b>Ouvrir le donjon</b> : les aventuriers vont sur la page joueur (QR code ou adresse), tapent le code et leur pseudo (30 maximum).</li>
+    <li><b>Duel de guildes</b> : chaque aventurier glisse son jeton dans une guilde ; vous pouvez renommer les guildes et déplacer les joueurs.</li>
+    <li><b>Aventuriers VS MJ</b> : « Afficher le code MJ » donne le code à taper sur votre téléphone pour jouer contre le groupe.</li>
+    <li><b>Jouer</b> : les règles s’affichent, puis les questions. « Joueurs » permet de renommer, d’exclure ou de faire entrer un retardataire (QR code). « +30 s » rallonge, « Écourter » passe directement aux gagnants.</li>
+  </ol>
+  <p class="muted small">Plusieurs donjons peuvent être ouverts en même temps sur des ordinateurs différents : chaque donjon a son propre code.</p>
+</div></div>
+
+<script type="application/json" id="lm-quiz">/*@@QUIZ@@*/</script>
+<script>/*@@SUPABASE@@*/</script>
+<script>/*@@QRJS@@*/</script>
+<script src="config.js"></script>
+<script>
+/*@@COMMONJS@@*/
+/*@@FXJS@@*/
+/*@@LOOKJS@@*/
+/*@@BANK@@*/
+/*@@ICONSJS@@*/
+/*@@PROFJS@@*/
+</script>
+</body>
+</html>
