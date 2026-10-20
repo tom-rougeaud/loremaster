@@ -102,12 +102,12 @@
    "concept": "mar-004",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle guenaude des mers peut réduire à 0 PV une créature effrayée d’un simple regard ?",
+   "q": "Dans D&D 5e, quelle créature des côtes peut réduire à 0 PV une créature déjà effrayée d’un simple regard ?",
    "choix": [
-    "La guenaude des mers (sea hag)",
-    "La guenaude verte",
-    "La guenaude nocturne",
-    "La banshee"
+    "La guenaude des mers",
+    "La harpie",
+    "Le merrow",
+    "Le sahuagin"
    ],
    "rep": 0,
    "expl": "Le regard de mort (Death Glare) de la guenaude des mers vise une créature effrayée dans les 9 m ; en cas d’échec au jet de Sagesse, elle tombe à 0 PV. C’est une fée, pas un humanoïde.",
@@ -316,23 +316,6 @@
    "rep": 0,
    "expl": "Le merrow est un ogre amphibie aux écailles verdâtres, qui chasse les marins près des côtes.",
    "src": "Manuel des Monstres 5e (2014), entrée « Merrow »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-017",
-   "concept": "mar-017",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel troll aquatique régénère tant qu’il se trouve dans l’eau ?",
-   "choix": [
-    "Le scrag",
-    "Le merrow",
-    "L’hydre",
-    "Le marid"
-   ],
-   "rep": 0,
-   "expl": "Le scrag (FP 5) regagne 10 PV par tour tant qu’il est dans l’eau, sauf s’il subit de l’acide ou du feu ; sa régénération ne fonctionne pas hors de l’eau.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Scrag (troll) »",
    "conf": "probable"
   },
   {
@@ -656,17 +639,6 @@
    "conf": "probable"
   },
   {
-   "id": "mar-040",
-   "concept": "mar-040",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le scrag régénère tant qu’il est dans l’eau.",
-   "rep": true,
-   "expl": "Vrai : 10 PV par tour dans l’eau, sauf après un dégât d’acide ou de feu.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Scrag (troll) »",
-   "conf": "probable"
-  },
-  {
    "id": "mar-041",
    "concept": "mar-041",
    "niveau": 1,
@@ -831,22 +803,6 @@
    "conf": "probable"
   },
   {
-   "id": "mar-055",
-   "concept": "mar-055",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la classe d’armure du kraken ?",
-   "min": 10,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 18,
-   "expl": "CA 18, grâce à son armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Kraken »",
-   "conf": "probable"
-  },
-  {
    "id": "mar-056",
    "concept": "mar-056",
    "niveau": 1,
@@ -927,54 +883,6 @@
    "conf": "probable"
   },
   {
-   "id": "mar-061",
-   "concept": "mar-061",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la classe d’armure de la tortue-dragon ?",
-   "min": 10,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 20,
-   "expl": "CA 20, grâce à sa carapace.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-062",
-   "concept": "mar-062",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la vitesse de nage de la pieuvre géante (en pieds) ?",
-   "min": 0,
-   "max": 120,
-   "pas": 5,
-   "unite": "pieds",
-   "tolerance": 0,
-   "rep": 60,
-   "expl": "60 pieds (18 m) à la nage, contre 10 pieds (3 m) à pied.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Pieuvre géante »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-063",
-   "concept": "mar-063",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la vitesse de nage de la tortue-dragon (en pieds) ?",
-   "min": 0,
-   "max": 120,
-   "pas": 5,
-   "unite": "pieds",
-   "tolerance": 0,
-   "rep": 40,
-   "expl": "40 pieds (12 m) à la nage, 20 pieds (6 m) sur terre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
-   "conf": "probable"
-  },
-  {
    "id": "mar-064",
    "concept": "mar-064",
    "niveau": 3,
@@ -1003,22 +911,6 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "Niveau 3, avec le composant matériel d’un roseau ou d’une paille.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-066",
-   "concept": "mar-066",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de créatures peut affecter Respiration aquatique (maximum) ?",
-   "min": 1,
-   "max": 20,
-   "pas": 1,
-   "unite": "créatures",
-   "tolerance": 0,
-   "rep": 10,
-   "expl": "Jusqu’à dix créatures consentantes à portée.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
    "conf": "probable"
   },

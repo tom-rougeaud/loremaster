@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 45–60 % de classiques (QCM + vrai/faux).
 
-**10 / 99 thèmes terminés — 2046 questions au total.**
+**10 / 99 thèmes terminés — 2109 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -16,7 +16,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 | 8 | Monstres de donjon | 150 | 56 | 26 (13) | 14 | 12 | 11 | 11 | 8 | 8 | 4 | 55 % | 24/86/40 | 33 | terminé |
 | 9 | Élémentaires et créatures planaires | 151 | 60 | 22 (11) | 13 | 12 | 11 | 11 | 8 | 8 | 6 | 54 % | 23/65/63 | 40 | terminé |
 | 10 | Lycanthropes et métamorphes | 150 | 56 | 22 (10) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 22/73/55 | 41 | terminé |
-| 11 | Créatures marines et aquatiques | 87 | 30 | 22 (12) | 18 | 3 | 3 | 3 | 2 | 2 | 4 | 60 % | 11/35/41 | 37 | base |
+| 11 | Créatures marines et aquatiques | 150 | 59 | 22 (12) | 13 | 11 | 11 | 11 | 8 | 8 | 7 | 54 % | 22/80/48 | 57 | en cours |
 | 12 | Bêtes et monstruosités | 87 | 22 | 26 (13) | 22 | 3 | 3 | 3 | 2 | 2 | 4 | 55 % | 14/31/42 | 72 | base |
 | 13 | Golems, constructions et animés | 86 | 29 | 23 (10) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 8/30/48 | 22 | base |
 | 14 | L’art du Maître du Jeu | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -373,12 +373,11 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - lycanthropes-metamorphes : niveaux déséquilibrés [22, 73, 55]
 - mar-037 : explication absente ou trop courte
 - mar-054 : explication absente ou trop courte
-- mar-055 : explication absente ou trop courte
 - mar-057 : explication absente ou trop courte
 - mar-060 : explication absente ou trop courte
-- mar-061 : explication absente ou trop courte
 - mar-069 : explication absente ou trop courte
 - mar-070 : explication absente ou trop courte
+- creatures-marines : niveaux déséquilibrés [22, 80, 48]
 - bet-034 : explication absente ou trop courte
 - bet-056 : explication absente ou trop courte
 - bet-058 : explication absente ou trop courte
