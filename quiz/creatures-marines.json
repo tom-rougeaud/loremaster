@@ -69,12 +69,12 @@
    "concept": "mar-004",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle guenaude des mers peut réduire à 0 PV une créature effrayée d’un simple regard ?",
+   "q": "Dans D&D 5e, quelle créature des côtes peut réduire à 0 PV une créature déjà effrayée d’un simple regard ?",
    "choix": [
-    "La guenaude des mers (sea hag)",
-    "La guenaude verte",
-    "La guenaude nocturne",
-    "La banshee"
+    "La guenaude des mers",
+    "La harpie",
+    "Le merrow",
+    "Le sahuagin"
    ],
    "rep": 0,
    "expl": "Le regard de mort (Death Glare) de la guenaude des mers vise une créature effrayée dans les 9 m ; en cas d’échec au jet de Sagesse, elle tombe à 0 PV. C’est une fée, pas un humanoïde.",
@@ -283,23 +283,6 @@
    "rep": 0,
    "expl": "Le merrow est un ogre amphibie aux écailles verdâtres, qui chasse les marins près des côtes.",
    "src": "Manuel des Monstres 5e (2014), entrée « Merrow »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-017",
-   "concept": "mar-017",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel troll aquatique régénère tant qu’il se trouve dans l’eau ?",
-   "choix": [
-    "Le scrag",
-    "Le merrow",
-    "L’hydre",
-    "Le marid"
-   ],
-   "rep": 0,
-   "expl": "Le scrag (FP 5) regagne 10 PV par tour tant qu’il est dans l’eau, sauf s’il subit de l’acide ou du feu ; sa régénération ne fonctionne pas hors de l’eau.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Scrag (troll) »",
    "conf": "probable"
   },
   {
@@ -623,17 +606,6 @@
    "conf": "probable"
   },
   {
-   "id": "mar-040",
-   "concept": "mar-040",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le scrag régénère tant qu’il est dans l’eau.",
-   "rep": true,
-   "expl": "Vrai : 10 PV par tour dans l’eau, sauf après un dégât d’acide ou de feu.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Scrag (troll) »",
-   "conf": "probable"
-  },
-  {
    "id": "mar-041",
    "concept": "mar-041",
    "niveau": 1,
@@ -800,23 +772,6 @@
    "tol_pct": 3
   },
   {
-   "id": "mar-055",
-   "concept": "mar-055",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la classe d’armure du kraken ?",
-   "min": 10,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 18,
-   "expl": "CA 18, grâce à son armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Kraken »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
    "id": "mar-056",
    "concept": "mar-056",
    "niveau": 1,
@@ -902,57 +857,6 @@
    "tol_pct": 3
   },
   {
-   "id": "mar-061",
-   "concept": "mar-061",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la classe d’armure de la tortue-dragon ?",
-   "min": 10,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 20,
-   "expl": "CA 20, grâce à sa carapace.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "mar-062",
-   "concept": "mar-062",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la vitesse de nage de la pieuvre géante (en pieds) ?",
-   "min": 0,
-   "max": 120,
-   "pas": 5,
-   "unite": "pieds",
-   "tolerance": 0,
-   "rep": 60,
-   "expl": "60 pieds (18 m) à la nage, contre 10 pieds (3 m) à pied.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Pieuvre géante »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "mar-063",
-   "concept": "mar-063",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la vitesse de nage de la tortue-dragon (en pieds) ?",
-   "min": 0,
-   "max": 120,
-   "pas": 5,
-   "unite": "pieds",
-   "tolerance": 0,
-   "rep": 40,
-   "expl": "40 pieds (12 m) à la nage, 20 pieds (6 m) sur terre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
    "id": "mar-064",
    "concept": "mar-064",
    "niveau": 3,
@@ -982,23 +886,6 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "Niveau 3, avec le composant matériel d’un roseau ou d’une paille.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "mar-066",
-   "concept": "mar-066",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de créatures peut affecter Respiration aquatique (maximum) ?",
-   "min": 1,
-   "max": 20,
-   "pas": 1,
-   "unite": "créatures",
-   "tolerance": 0,
-   "rep": 10,
-   "expl": "Jusqu’à dix créatures consentantes à portée.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
    "conf": "probable",
    "tol_pct": 0
@@ -1396,6 +1283,1214 @@
    "id": "mar-087",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel peuple marin a une queue de poisson à la place des jambes ?",
+   "choix": [
+    "Les merfolk",
+    "Les sahuagins",
+    "Les kuo-toa",
+    "Les locathah"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les merfolk ont le haut du corps humain et une queue de poisson ; ils vivent en clans près des côtes et sont plutôt pacifiques.",
+   "id": "mar-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel trait permet aux sahuagins de communiquer avec les requins ?",
+   "choix": [
+    "Télépathie requine",
+    "Langage des bêtes",
+    "Chant des marées",
+    "Appel des profondeurs"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Grâce à la Télépathie requine, un sahuagin peut commander par la pensée un requin proche ; ils chevauchent parfois des requins géants.",
+   "id": "mar-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de temps un sahuagin peut-il rester hors de l’eau sans souffrir ?",
+   "choix": [
+    "Environ 4 heures",
+    "1 minute",
+    "1 semaine",
+    "Indéfiniment"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le trait Amphibie limité permet au sahuagin de respirer l’air, mais il doit se plonger dans l’eau au moins une fois toutes les 4 heures.",
+   "id": "mar-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle créature marine ressemble à un ogre aux mains palmées et aux harpons ?",
+   "choix": [
+    "Le merrow",
+    "Le sahuagin",
+    "Le kuo-toa",
+    "Le locathah"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le merrow (FP 2) est un ogre des mers corrompu ; il attaque les navires et noie ses victimes avec son harpon.",
+   "id": "mar-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans les Royaumes Oubliés, quel kraken légendaire dirige la Société du Kraken depuis la mer sans Piste ?",
+   "choix": [
+    "Slarkrethel",
+    "Iymrith",
+    "Umberlee",
+    "Valkur"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "Slarkrethel, kraken ancien, manipule la Société du Kraken, un réseau d’espions et de sorciers ; il apparaît dans Storm King’s Thunder.",
+   "id": "mar-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quel dieu protège les marins contre les colères d’Umberlee ?",
+   "choix": [
+    "Valkur",
+    "Tempus",
+    "Lathandre",
+    "Bane"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Divinités »",
+   "expl": "Valkur, le Puissant, est le patron des marins et des navigateurs ; on l’invoque pour traverser les tempêtes.",
+   "id": "mar-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans les Royaumes Oubliés, quel dieu les merfolk vénèrent-ils ?",
+   "choix": [
+    "Eadro",
+    "Sekolah",
+    "Blibdoolpoolp",
+    "Umberlee"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016) ; Locathah Rising (2019)",
+   "expl": "Eadro, divinité marine, est vénéré par les merfolk et les locathah ; il serait leur créateur.",
+   "id": "mar-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel objet magique, un sous-marin en forme de homard géant, permet d’explorer les fonds ?",
+   "choix": [
+    "L’appareil de Kwalish",
+    "La barque pliante",
+    "L’armure du marin",
+    "Le trident de commandement des poissons"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "L’appareil de Kwalish ressemble à un tonneau de fer qui, une fois actionné, devient un homard mécanique capable de marcher et nager sous l’eau.",
+   "id": "mar-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel objet magique est une petite boîte qui se déplie en bateau ?",
+   "choix": [
+    "La barque pliante",
+    "L’appareil de Kwalish",
+    "Le sac sans fond",
+    "La flasque de fer"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "La barque pliante (folding boat) passe d’une boîte en bois à une barque, ou à un navire avec voile, sur un mot de commande.",
+   "id": "mar-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel objet magique donne une vitesse de nage de 18 m et la respiration aquatique sous forme de raie ?",
+   "choix": [
+    "La cape de la raie manta",
+    "L’anneau de nage",
+    "Le chapeau de respiration aquatique",
+    "Le collier d’adaptation"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Avec la capuche relevée, la cape de la raie manta permet de respirer sous l’eau et donne une vitesse de nage de 18 m (60 pieds).",
+   "id": "mar-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel récipient magique déverse des litres d’eau sur commande, jusqu’à un geyser ?",
+   "choix": [
+    "La carafe intarissable",
+    "La flasque de fer",
+    "La gourde de Murlynd",
+    "Le chaudron d’abondance"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "La carafe intarissable (decanter of endless water) produit un filet, une fontaine ou un geyser selon le mot de commande.",
+   "id": "mar-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 3 permet de marcher sur l’eau comme sur la terre ferme ?",
+   "choix": [
+    "Marche sur l’eau",
+    "Respiration aquatique",
+    "Contrôle de l’eau",
+    "Feuille morte"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Marche sur l’eau (water walk) permet à dix créatures de se déplacer sur n’importe quel liquide pendant une heure.",
+   "id": "mar-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que coûte la nage à un personnage qui n’a pas de vitesse de nage ?",
+   "choix": [
+    "1 mètre de mouvement en plus par mètre nagé",
+    "Rien de plus",
+    "Toute son action",
+    "Un test de Force par round"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 8 « Aventure »",
+   "expl": "Sans vitesse de nage, chaque mètre parcouru en nageant coûte un mètre supplémentaire (le déplacement compte double).",
+   "id": "mar-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien de rounds un personnage qui n’a plus d’air peut-il survivre avant de tomber à 0 PV ?",
+   "choix": [
+    "Autant que son modificateur de Constitution (minimum 1)",
+    "Exactement dix rounds, quelle que soit sa Constitution",
+    "Une minute entière avant de s’évanouir",
+    "Aucun : il tombe aussitôt à 0 PV"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 8 « Aventure »",
+   "expl": "À court de souffle, une créature survit un nombre de rounds égal à son modificateur de Constitution (minimum 1), puis tombe à 0 PV et agonise.",
+   "id": "mar-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Ghosts of Saltmarsh, dans quel monde de campagne se trouve Saltmarsh ?",
+   "choix": [
+    "Greyhawk",
+    "Les Royaumes Oubliés",
+    "Eberron",
+    "Dragonlance"
+   ],
+   "rep": 0,
+   "src": "Ghosts of Saltmarsh (2019), introduction",
+   "expl": "Saltmarsh est un port du royaume de Keoland, dans l’univers de Greyhawk ; le supplément propose de l’adapter à d’autres mondes.",
+   "id": "mar-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel module de 1981 a inspiré le supplément maritime de 2019, avec sa maison hantée d’alchimiste ?",
+   "choix": [
+    "The Sinister Secret of Saltmarsh",
+    "Tomb of Horrors",
+    "Keep on the Borderlands",
+    "Ravenloft"
+   ],
+   "rep": 0,
+   "src": "Dave J. Browne et Don Turnbull, U1 The Sinister Secret of Saltmarsh (TSR, 1981)",
+   "expl": "U1 The Sinister Secret of Saltmarsh (1981) met en scène une maison prétendument hantée qui cache des contrebandiers.",
+   "id": "mar-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans la série U de Saltmarsh, quels monstres sont l’ennemi final dans The Final Enemy ?",
+   "choix": [
+    "Les sahuagins",
+    "Les hommes-lézards",
+    "Les kuo-toa",
+    "Les merrows"
+   ],
+   "rep": 0,
+   "src": "U3 The Final Enemy (TSR, 1983) ; Ghosts of Saltmarsh (2019)",
+   "expl": "U3 The Final Enemy (1983) révèle que les sahuagins préparent un assaut contre Saltmarsh ; les héros infiltrent leur forteresse.",
+   "id": "mar-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la série U de Saltmarsh, avec quel peuple les héros négocient-ils dans Danger at Dunwater ?",
+   "choix": [
+    "Les hommes-lézards",
+    "Les sahuagins",
+    "Les gobelins",
+    "Les kuo-toa"
+   ],
+   "rep": 0,
+   "src": "U2 Danger at Dunwater (TSR, 1982) ; Ghosts of Saltmarsh (2019)",
+   "expl": "U2 Danger at Dunwater (1982) : les « monstres » de Dunwater, des hommes-lézards, se révèlent des alliés possibles contre les sahuagins.",
+   "id": "mar-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel requin ordinaire, plus petit que le requin géant, a un FP de 2 ?",
+   "choix": [
+    "Le requin chasseur",
+    "Le requin de récif",
+    "Le grand requin blanc",
+    "Le requin-marteau"
+   ],
+   "rep": 0,
+   "src": "U2 Danger at Dunwater (TSR, 1982) ; Ghosts of Saltmarsh (2019)",
+   "expl": "Le requin chasseur (FP 2) chasse seul ; le requin de récif (FP 1/2) vit en groupes et le requin géant atteint FP 5.",
+   "id": "mar-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel reptile marin préhistorique au long cou figure dans le Manuel des Monstres ?",
+   "choix": [
+    "Le plésiosaure",
+    "Le tyrannosaure",
+    "Le tricératops",
+    "Le ptéranodon"
+   ],
+   "rep": 0,
+   "src": "U2 Danger at Dunwater (TSR, 1982) ; Ghosts of Saltmarsh (2019)",
+   "expl": "Le plésiosaure (FP 2) fait partie des dinosaures du Manuel des Monstres ; il retient sa respiration une heure.",
+   "id": "mar-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable de 2019, ressemblant à des poissons, est apparu dans une aventure de 2019 qui porte son nom ?",
+   "choix": [
+    "Les locathah",
+    "Les tritons",
+    "Les kenku",
+    "Les grungs"
+   ],
+   "rep": 0,
+   "src": "Locathah Rising (2019)",
+   "expl": "Locathah Rising (2019) a rendu jouables les locathah, peuple marin longtemps asservi par les sahuagins et les aboleths.",
+   "id": "mar-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelle sous-race elfique de Mordenkainen’s Tome of Foes vit sous les vagues ?",
+   "choix": [
+    "L’elfe marin",
+    "L’eladrin",
+    "L’elfe des bois",
+    "Le shadar-kai"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Elfe marin »",
+   "expl": "L’elfe marin respire sous l’eau, a une vitesse de nage et parle aux bêtes aquatiques ; il est l’ennemi juré des sahuagins.",
+   "id": "mar-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle créature mi-poisson mi-humanoïde, à l’esprit dérangé, vénère des dieux nés de sa foi ?",
+   "choix": [
+    "Le kuo-toa",
+    "Le merfolk",
+    "Le triton",
+    "Le merrow"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Elfe marin »",
+   "expl": "Les kuo-toa, rendus à moitié fous par les aboleths, peuvent donner corps à leurs dieux par la force de leur croyance.",
+   "id": "mar-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le FP du sahuagin de base ?",
+   "choix": [
+    "1/2",
+    "2",
+    "5",
+    "1/8"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Elfe marin »",
+   "expl": "Le sahuagin ordinaire a un FP de 1/2 ; la prêtresse est à 2 et le baron à 5.",
+   "id": "mar-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle tactique utilise la pieuvre géante pour fuir ?",
+   "choix": [
+    "Un nuage d’encre",
+    "Une explosion d’eau",
+    "La téléportation",
+    "L’invisibilité"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Elfe marin »",
+   "expl": "Une fois par repos court, la pieuvre géante libère un nuage d’encre qui obscurcit la zone, puis s’échappe en nageant.",
+   "id": "mar-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le plus grand prédateur parmi ces bêtes marines ?",
+   "choix": [
+    "Le requin géant",
+    "Le requin de récif",
+    "La pieuvre géante",
+    "L’orque"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Elfe marin »",
+   "expl": "Le requin géant (FP 5, 126 PV) est le plus redoutable de ces bêtes ; l’orque est à FP 3 et la pieuvre géante à FP 1.",
+   "id": "mar-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel sort de niveau 3 permet de respirer sous l’eau ?",
+   "choix": [
+    "Respiration aquatique",
+    "Marche sur l’eau",
+    "Contrôle de l’eau",
+    "Brume"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Respiration aquatique fonctionne 24 heures pour dix créatures au maximum, sans gêner la respiration à l’air libre.",
+   "id": "mar-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel sort de niveau 3 de Xanathar’s Guide fait déferler une vague qui renverse les créatures ?",
+   "choix": [
+    "Raz-de-marée",
+    "Tsunami",
+    "Contrôle de l’eau",
+    "Mur d’eau"
+   ],
+   "rep": 0,
+   "src": "Xanathar’s Guide to Everything (2017), « Sorts »",
+   "expl": "Raz-de-marée (tidal wave) projette une vague de 9 m sur 3 m : les créatures touchées subissent des dégâts contondants et tombent à terre.",
+   "id": "mar-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel objet magique permet d’influencer les bêtes aquatiques ?",
+   "choix": [
+    "Le trident de commandement des poissons",
+    "Le bâton des serpents",
+    "La baguette de métamorphose",
+    "Le cor de destruction"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Le trident de commandement des poissons lance Domination de bête sur une bête qui a une vitesse de nage innée.",
+   "id": "mar-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le type de créature du kraken ?",
+   "choix": [
+    "Monstruosité (titan)",
+    "Dragon",
+    "Aberration",
+    "Bête"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Le kraken est une monstruosité de sous-type titan, comme la tarasque : un être ancien d’une puissance démesurée.",
+   "id": "mar-117",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, une arbalète peut tirer normalement sous l’eau dans sa portée normale.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 9 « Combat sous l’eau »",
+   "expl": "Vrai : sous l’eau, les attaques à distance ont le désavantage, sauf avec une arbalète, un filet ou une arme de lancer comme la javeline, la lance, le trident ou la fléchette.",
+   "id": "mar-118",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ est un monstre marin de FP 23 qui coule les navires avec ses tentacules.",
+   "choix": [
+    "kraken",
+    "léviathan",
+    "plésiosaure",
+    "requin géant"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 9 « Combat sous l’eau »",
+   "expl": "Le kraken, titan des profondeurs, peut saisir un navire entier et invoquer des éclairs.",
+   "id": "mar-119",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les sahuagins entrent en frénésie à l’odeur du ____.",
+   "choix": [
+    "sang",
+    "sel",
+    "feu",
+    "poisson"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 9 « Combat sous l’eau »",
+   "expl": "Le trait Frénésie sanguinaire donne l’avantage aux sahuagins contre toute créature qui n’a pas tous ses points de vie.",
+   "id": "mar-120",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, Umberlee est la reine des ____.",
+   "choix": [
+    "flots",
+    "glaces",
+    "vents",
+    "volcans"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Divinités »",
+   "expl": "Umberlee, déesse capricieuse et cruelle de la mer, reçoit offrandes et prières des marins qui craignent ses tempêtes.",
+   "id": "mar-121",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, une créature entièrement immergée a la résistance aux dégâts de ____.",
+   "choix": [
+    "feu",
+    "froid",
+    "foudre",
+    "poison"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 9 « Combat sous l’eau »",
+   "expl": "Sous l’eau, les flammes perdent leur force : toute créature ou objet entièrement immergé résiste au feu.",
+   "id": "mar-122",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le premier module de la série de Saltmarsh, en 1981, s’intitule The Sinister ____ of Saltmarsh.",
+   "choix": [
+    "Secret",
+    "Shadow",
+    "Smuggler",
+    "Siren"
+   ],
+   "rep": 0,
+   "src": "U1 (TSR, 1981)",
+   "expl": "The Sinister Secret of Saltmarsh (U1) a lancé la série, reprise en 5e dans Ghosts of Saltmarsh.",
+   "id": "mar-123",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le dieu-requin vénéré par les sahuagins s’appelle ____.",
+   "choix": [
+    "Sekolah",
+    "Eadro",
+    "Valkur",
+    "Kurtulmak"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Sekolah, le Grand Requin, est la seule divinité des sahuagins ; ses prêtresses dirigent la vie religieuse des tribus.",
+   "id": "mar-124",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la cape de la ____ manta donne une vitesse de nage et permet de respirer sous l’eau.",
+   "choix": [
+    "raie",
+    "baleine",
+    "pieuvre",
+    "sirène"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Il suffit de relever la capuche de la cape de la raie manta pour respirer sous l’eau et nager à 18 m par tour.",
+   "id": "mar-125",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, la pieuvre géante s’enfuit en libérant un nuage d’____.",
+   "choix": [
+    "encre",
+    "eau",
+    "sable",
+    "bulles"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Le nuage d’encre obscurcit fortement la zone et permet à la pieuvre de fuir à la nage.",
+   "id": "mar-126",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces peuples ne vit pas dans l’eau ?",
+   "choix": [
+    "Gnoll",
+    "Sahuagin",
+    "Merfolk",
+    "Locathah"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Le gnoll est un humanoïde des plaines. Sahuagins, merfolk et locathah sont des peuples aquatiques.",
+   "id": "mar-127",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux ne protège ni les marins ni les peuples de la mer ?",
+   "choix": [
+    "Lathandre",
+    "Eadro",
+    "Valkur",
+    "Deep Sashelas"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Lathandre est le dieu de l’aube. Eadro (merfolk), Valkur (marins) et Deep Sashelas (elfes marins) sont des divinités marines.",
+   "id": "mar-128",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets magiques n’aide pas à se déplacer ou à respirer sous l’eau ?",
+   "choix": [
+    "Bottes de célérité",
+    "Cape de la raie manta",
+    "Anneau de nage",
+    "Collier d’adaptation"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Les bottes de célérité accélèrent sur terre. La cape de la raie manta, l’anneau de nage et le collier d’adaptation aident en milieu aquatique.",
+   "id": "mar-129",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces modules n’appartient pas à la série U de Saltmarsh ?",
+   "choix": [
+    "Against the Giants",
+    "The Sinister Secret of Saltmarsh",
+    "Danger at Dunwater",
+    "The Final Enemy"
+   ],
+   "rep": 0,
+   "src": "Catalogue TSR",
+   "expl": "Against the Giants est la série G. Les trois autres forment la série U (1981-1983).",
+   "id": "mar-130",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces armes n’est pas pénalisée au corps à corps sous l’eau ?",
+   "choix": [
+    "Trident",
+    "Épée longue",
+    "Hache d’armes",
+    "Masse d’armes"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 9 « Combat sous l’eau »",
+   "expl": "Sous l’eau, une créature sans vitesse de nage a le désavantage au corps à corps, sauf avec une dague, une javeline, une épée courte, une lance ou un trident.",
+   "id": "mar-131",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres n’est pas une bête ordinaire ?",
+   "choix": [
+    "Kraken",
+    "Requin géant",
+    "Pieuvre géante",
+    "Orque"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 9 « Combat sous l’eau »",
+   "expl": "Le kraken est une monstruosité (titan). Le requin géant, la pieuvre géante et l’orque sont des bêtes.",
+   "id": "mar-132",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces peuples marins n’est pas jouable dans un supplément officiel de D&D 5e ?",
+   "choix": [
+    "Sahuagin",
+    "Triton",
+    "Locathah",
+    "Elfe marin"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 9 « Combat sous l’eau »",
+   "expl": "Les sahuagins restent des monstres. Les tritons (Volo, 2016), les locathah (2019) et les elfes marins (Mordenkainen, 2018) sont jouables.",
+   "id": "mar-133",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces sorts n’a aucun rapport avec l’eau ?",
+   "choix": [
+    "Boule de feu",
+    "Respiration aquatique",
+    "Marche sur l’eau",
+    "Contrôle de l’eau"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Boule de feu est une explosion de flammes. Les trois autres sorts concernent l’eau.",
+   "id": "mar-134",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels de ces monstres vivent dans l’eau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Kraken",
+    "Merrow",
+    "Plésiosaure",
+    "Bulette",
+    "Ankheg"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le kraken, le merrow et le plésiosaure sont aquatiques. Le bulette et l’ankheg creusent la terre.",
+   "id": "mar-135",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts concernent l’eau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Marche sur l’eau",
+    "Raz-de-marée",
+    "Tsunami",
+    "Lumière",
+    "Projectile magique"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014) ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Marche sur l’eau, Raz-de-marée et Tsunami agissent sur l’eau. Lumière et Projectile magique n’ont aucun lien avec elle.",
+   "id": "mar-136",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles armes ne subissent pas de désavantage au corps à corps sous l’eau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dague",
+    "Lance",
+    "Trident",
+    "Hache à deux mains",
+    "Fléau d’armes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 9 « Combat sous l’eau »",
+   "expl": "Dague, javeline, épée courte, lance et trident fonctionnent sous l’eau ; les armes lourdes ou contondantes y sont gênées.",
+   "id": "mar-137",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels modules forment la série U de Saltmarsh ? (plusieurs bonnes réponses)",
+   "choix": [
+    "The Sinister Secret of Saltmarsh",
+    "Danger at Dunwater",
+    "The Final Enemy",
+    "Tomb of Horrors",
+    "Ravenloft"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Catalogue TSR ; Ghosts of Saltmarsh (2019)",
+   "expl": "La série U (1981-1983) comprend ces trois modules, repris en 2019 dans Ghosts of Saltmarsh.",
+   "id": "mar-138",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets magiques aident sous l’eau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Anneau de nage",
+    "Cape de la raie manta",
+    "Appareil de Kwalish",
+    "Bottes elfiques",
+    "Sac sans fond"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "L’anneau de nage, la cape de la raie manta et l’appareil de Kwalish servent en mer. Les bottes elfiques et le sac sans fond non.",
+   "id": "mar-139",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels êtres sont des sahuagins dans le Manuel des Monstres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sahuagin",
+    "Prêtresse sahuagin",
+    "Baron sahuagin",
+    "Merrow",
+    "Kuo-toa"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Le Manuel des Monstres décrit le sahuagin, sa prêtresse et son baron. Le merrow est un ogre marin, le kuo-toa un autre peuple.",
+   "id": "mar-140",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels peuples jouables respirent sous l’eau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Triton",
+    "Génasi de l’eau",
+    "Elfe marin",
+    "Nain",
+    "Halfelin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Les tritons, les génasi de l’eau et les elfes marins sont amphibies. Nains et halfelins ne le sont pas.",
+   "id": "mar-141",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles bêtes marines figurent dans le Manuel des Monstres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Orque",
+    "Requin chasseur",
+    "Pieuvre géante",
+    "Baleine bleue",
+    "Narval"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "L’orque (killer whale), le requin chasseur et la pieuvre géante sont dans le Manuel des Monstres ; la baleine bleue et le narval n’y sont pas.",
+   "id": "mar-142",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces créatures marines de la moins à la plus redoutable (FP).",
+   "items": [
+    "Requin de récif",
+    "Requin chasseur",
+    "Requin géant",
+    "Tortue-dragon",
+    "Kraken"
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "FP : requin de récif 1/2, requin chasseur 2, requin géant 5, tortue-dragon 17, kraken 23.",
+   "id": "mar-143",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sahuagins par FP croissant.",
+   "items": [
+    "Sahuagin",
+    "Prêtresse sahuagin",
+    "Baron sahuagin"
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "FP : sahuagin 1/2, prêtresse 2, baron 5.",
+   "id": "mar-144",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe les modules de la série U dans l’ordre.",
+   "items": [
+    "The Sinister Secret of Saltmarsh",
+    "Danger at Dunwater",
+    "The Final Enemy"
+   ],
+   "src": "Catalogue TSR",
+   "expl": "U1 The Sinister Secret of Saltmarsh (1981), U2 Danger at Dunwater (1982), puis U3 The Final Enemy (1983), qui conclut la menace sahuagin.",
+   "id": "mar-145",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sorts liés à l’eau par niveau croissant.",
+   "items": [
+    "Création ou destruction d’eau",
+    "Respiration aquatique",
+    "Contrôle de l’eau",
+    "Tsunami"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Création ou destruction d’eau est de niveau 1, Respiration aquatique de niveau 3, Contrôle de l’eau de niveau 4 et Tsunami de niveau 8.",
+   "id": "mar-146",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces peuples marins jouables par date d’apparition en 5e.",
+   "items": [
+    "Triton",
+    "Elfe marin",
+    "Locathah"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Les tritons dans le Guide de Volo (2016), l’elfe marin dans Mordenkainen’s Tome of Foes (2018), les locathah dans Locathah Rising (2019).",
+   "id": "mar-147",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces bêtes par points de vie moyens croissants.",
+   "items": [
+    "Pieuvre géante",
+    "Requin géant",
+    "Tortue-dragon",
+    "Kraken"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "PV moyens : pieuvre géante 52, requin géant 126, tortue-dragon 341, kraken 472.",
+   "id": "mar-148",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque divinité à ses fidèles.",
+   "paires": [
+    [
+     "Sekolah",
+     "Sahuagins"
+    ],
+    [
+     "Eadro",
+     "Merfolk"
+    ],
+    [
+     "Deep Sashelas",
+     "Elfes marins"
+    ],
+    [
+     "Blibdoolpoolp",
+     "Kuo-toa"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Chaque peuple marin a son dieu : le requin Sekolah, Eadro, Deep Sashelas et la Mère des mers des kuo-toa.",
+   "id": "mar-149",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque module U à son ennemi.",
+   "paires": [
+    [
+     "The Sinister Secret of Saltmarsh",
+     "Contrebandiers"
+    ],
+    [
+     "Danger at Dunwater",
+     "Hommes-lézards"
+    ],
+    [
+     "The Final Enemy",
+     "Sahuagins"
+    ]
+   ],
+   "src": "Catalogue TSR ; Ghosts of Saltmarsh (2019)",
+   "expl": "La maison hantée cache des contrebandiers ; à Dunwater, les hommes-lézards ; enfin, l’assaut des sahuagins.",
+   "id": "mar-150",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet magique à son effet.",
+   "paires": [
+    [
+     "Barque pliante",
+     "Devient un bateau"
+    ],
+    [
+     "Carafe intarissable",
+     "Déverse de l’eau"
+    ],
+    [
+     "Appareil de Kwalish",
+     "Sous-marin"
+    ],
+    [
+     "Trident de commandement des poissons",
+     "Domine les bêtes nageuses"
+    ]
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7 « Trésors »",
+   "expl": "Ces objets magiques du Guide du Maître sont précieux pour toute campagne maritime.",
+   "id": "mar-151",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sort à son niveau.",
+   "paires": [
+    [
+     "Marche sur l’eau",
+     "3"
+    ],
+    [
+     "Contrôle de l’eau",
+     "4"
+    ],
+    [
+     "Tsunami",
+     "8"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Marche sur l’eau est de niveau 3, Contrôle de l’eau de niveau 4 et Tsunami de niveau 8.",
+   "id": "mar-152",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque créature à son FP.",
+   "paires": [
+    [
+     "Merfolk",
+     "1/8"
+    ],
+    [
+     "Sahuagin",
+     "1/2"
+    ],
+    [
+     "Merrow",
+     "2"
+    ],
+    [
+     "Requin géant",
+     "5"
+    ],
+    [
+     "Kraken",
+     "23"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Des merfolk paisibles au kraken titanesque, la mer couvre toute l’échelle de danger.",
+   "id": "mar-153",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque peuple à son trait.",
+   "paires": [
+    [
+     "Sahuagin",
+     "Télépathie requine"
+    ],
+    [
+     "Kuo-toa",
+     "Foi qui crée des dieux"
+    ],
+    [
+     "Triton",
+     "Gardien des profondeurs"
+    ],
+    [
+     "Merfolk",
+     "Queue de poisson"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Les sahuagins parlent aux requins, les kuo-toa façonnent leurs dieux, les tritons veillent sur les abysses, les merfolk nagent grâce à leur queue.",
+   "id": "mar-154",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un ogre des mers\n2. Je porte un harpon\n3. Je coule les barques des pêcheurs",
+   "choix": [
+    "Merrow",
+    "Sahuagin",
+    "Kuo-toa",
+    "Locathah"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le merrow, ogre corrompu par la magie démoniaque, hante les côtes.",
+   "id": "mar-155",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un kraken ancien\n2. Je dirige une société secrète d’espions\n3. Je hante la mer sans Piste",
+   "choix": [
+    "Slarkrethel",
+    "Iymrith",
+    "Umberlee",
+    "Sekolah"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "Slarkrethel et la Société du Kraken tirent les ficelles dans Storm King’s Thunder.",
+   "id": "mar-156",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un dieu-requin\n2. Les sahuagins me vénèrent\n3. Mes prêtresses dirigent mon culte",
+   "choix": [
+    "Sekolah",
+    "Eadro",
+    "Valkur",
+    "Umberlee"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Sekolah est le Grand Requin, unique dieu des sahuagins.",
+   "id": "mar-157",
+   "conf": "probable"
   }
  ],
  "sources": []
