@@ -518,3 +518,8 @@ body.fit .top,body.fit #foot{zoom:var(--tz,1)}
   --pg-pl:#3E8068;          /* page aventurier : vert sapin doux */
   --code-font:"Nunito",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
 }
+
+/* v1.3 : logo d’en-tête (icône + mot-symbole) identique sur toutes les pages, en px (le joueur change la taille de police racine) */
+.brand img.logo{width:46px;height:46px;flex:none}
+.brand img.wm{width:auto!important;height:46px!important;max-width:62vw;object-fit:contain}
+@media (max-width:640px){.brand img.logo{width:38px;height:38px}.brand img.wm{height:40px!important;max-width:62vw}}
