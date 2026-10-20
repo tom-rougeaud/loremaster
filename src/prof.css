@@ -452,7 +452,7 @@ button.jc-qr{border:0;cursor:zoom-in}
 
 /* v3.4 : temps de lecture (propositions voilées, chrono en attente) */
 .g-choices.veil{position:relative}
-.g-choices.veil>*{filter:blur(8px);opacity:.4;transition:filter .4s,opacity .4s}
+.g-choices.veil>*{filter:blur(18px);opacity:.15;transition:filter .4s,opacity .4s}
 .g-choices.veil:after{content:"Lisez bien l’énoncé…";position:absolute;top:0;right:0;bottom:0;left:0;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1.7rem;color:var(--ink)}
 body.v-mob .g-choices.veil:after{font-size:1.1rem}
 .g-timer.read .tr-fg{stroke:var(--sun)}

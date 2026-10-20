@@ -4,16 +4,18 @@
 ═══════════════════════════════════════════════════════════════ */
 
 var PALIERS=[
-  {n:"Page",xp:0},{n:"Écuyer",xp:150},{n:"Vagabond",xp:400},{n:"Aventurier",xp:800},
-  {n:"Éclaireur",xp:1400},{n:"Chevalier",xp:2200},{n:"Ménestrel",xp:3300},{n:"Maître d’armes",xp:4800},
-  {n:"Archimage",xp:6800},{n:"Légende du donjon",xp:9500}
+  {n:"Page",xp:0},{n:"Écuyer",xp:100},{n:"Apprenti",xp:250},{n:"Vagabond",xp:500},{n:"Ménestrel",xp:777},
+  {n:"Aventurier",xp:1000},{n:"Éclaireur",xp:1500},{n:"Chasseur de monstres",xp:2000},{n:"Chevalier",xp:3000},{n:"Maître d’armes",xp:4000},
+  {n:"Capitaine",xp:5000},{n:"Enchanteur",xp:7500},{n:"Paladin",xp:10000},{n:"Archimage",xp:15000},{n:"Seigneur des runes",xp:20000},
+  {n:"Gardien du donjon",xp:30000},{n:"Champion des royaumes",xp:40000},{n:"Dragonnier",xp:50000},{n:"Sage éternel",xp:75000},{n:"Légende du donjon",xp:100000}
 ];
+function qType(q){return q&&q.vf?"v":(q&&(q.kd==="slider"||q.sl))?"s":"c";}
 function today(){var d=new Date(),z=function(n){return (n<10?"0":"")+n;};return d.getFullYear()+"-"+z(d.getMonth()+1)+"-"+z(d.getDate());}
-function emptyProg(){return {v:3,podium:0,wins:0,xp:0,games:0,ok:0,na:0,best:0,maxScore:0,perfect:0,expertOk:0,solo:0,days:[],badges:{},themes:{}};}
+function emptyProg(){return {v:4,podium:0,wins:0,xp:0,games:0,ok:0,na:0,best:0,maxScore:0,perfect:0,expertOk:0,solo:0,days:[],badges:{},themes:{},vfOk:0,vfN:0,qcOk:0,qcN:0,slOk:0,slN:0,mates:0,maxP:0,gm:{solo:0,duel:0,boss:0}};}
 function loadProg(){
   var p=store.get("prog",null);
   if(!p){try{p=JSON.parse(store.raw("flash_prog")&&null||"null");}catch(x){p=null;}}   /* reprise de la version précédente */
-  if(p&&typeof p==="object"){var e=emptyProg();for(var k in e)if(p[k]===undefined)p[k]=e[k];p.v=3;return p;}
+  if(p&&typeof p==="object"){var e=emptyProg();for(var k in e)if(p[k]===undefined)p[k]=e[k];p.v=4;if(!p.gm)p.gm={solo:0,duel:0,boss:0};return p;}
   return emptyProg();
 }
 function saveProg(p){store.set("prog",p);}
@@ -51,10 +53,10 @@ var BADGES=[
   {id:"master", n:"Maître du thème",   d:"90 % de réussite sur un thème joué 10 fois",   t:function(s,p){for(var k in p.themes){var a=p.themes[k];if(a[1]>=10&&a[0]/a[1]>=0.9)return true;}return false;}},
   {id:"wide",   n:"Érudit",            d:"Avoir réussi des questions dans 10 thèmes différents",t:function(s,p){var n=0;for(var k in p.themes)if(p.themes[k][0]>0)n++;return n>=10;}},
   {id:"pts",    n:"Butin de légende",  d:"Plus de 6 000 points sur une partie",          t:function(s,p){return s.pts>=6000;}},
-  {id:"lvl5",   n:"Chevalier",         d:"Atteindre le palier « Chevalier »",            t:function(s,p){return levelOf(p.xp).i>=5;}},
-  {id:"lvl3",   n:"Aventurier confirmé",d:"Atteindre le palier « Aventurier »",           t:function(s,p){return levelOf(p.xp).i>=3;}},
-  {id:"lvl7",   n:"Maître d’armes",    d:"Atteindre le palier « Maître d’armes »",       t:function(s,p){return levelOf(p.xp).i>=7;}},
-  {id:"lvl9",   n:"Légende vivante",   d:"Atteindre le palier « Légende du donjon »",    t:function(s,p){return levelOf(p.xp).i>=9;}},
+  {id:"lvl5",   n:"Chevalier",         d:"Atteindre le palier « Chevalier »",            t:function(s,p){return levelOf(p.xp).i>=8;}},
+  {id:"lvl3",   n:"Aventurier confirmé",d:"Atteindre le palier « Aventurier »",           t:function(s,p){return levelOf(p.xp).i>=5;}},
+  {id:"lvl7",   n:"Maître d’armes",    d:"Atteindre le palier « Maître d’armes »",       t:function(s,p){return levelOf(p.xp).i>=19;}},
+  {id:"lvl9",   n:"Légende vivante",   d:"Atteindre le palier « Légende du donjon »",    t:function(s,p){return levelOf(p.xp).i>=19;}},
   {id:"s15",    n:"Série de 15",       d:"15 bonnes réponses d’affilée",                 t:function(s,p){return p.best>=15;}},
   {id:"s20",    n:"Imbattable",        d:"20 bonnes réponses d’affilée",                 t:function(s,p){return p.best>=20;}},
   {id:"c250",   n:"Chasseur de savoir",d:"250 bonnes réponses au total",                 t:function(s,p){return p.ok>=250;}},
@@ -72,6 +74,40 @@ var BADGES=[
   {id:"master3",n:"Triple maître",     d:"90 % de réussite sur 3 thèmes joués 10 fois",  t:function(s,p){var n=0;for(var k in p.themes){var a=p.themes[k];if(a[1]>=10&&a[0]/a[1]>=0.9)n++;}return n>=3;}},
   {id:"pts10",  n:"Trésor du dragon",  d:"Plus de 10 000 points sur une partie",         t:function(s,p){return s.pts>=10000;}}
 ];
+/* ── Badges de compteurs (v1.3) : générés à partir de tables ── */
+(function(){
+  function add(id,n,d,f){BADGES.push({id:id,n:n,d:d,t:f});}
+  function tab(pref,key,vals,names,txt){vals.forEach(function(v,i){add(pref+v,names[i],txt.replace("%",fmtInt(v)),function(s,p){return (typeof key==="function"?key(p):p[key]||0)>=v;});});}
+  tab("vfa","vfN",[25,50,100,250,500,1000],["Vrai ou faux ?","Pile ou face","Jongleur de vérités","Arbitre des royaumes","Juge suprême","Oracle du vrai"],"Répondre à % questions vrai ou faux");
+  tab("vfo","vfOk",[25,100,250,500],["Nez fin","Détecteur de mensonges","Inquisiteur","Œil de lynx"],"% bonnes réponses à des vrai ou faux");
+  tab("qca","qcN",[50,250,500,1000],["Choix éclairé","Stratège des choix","Maître des parchemins","Grand érudit"],"Répondre à % QCM");
+  tab("sla","slN",[10,50,150],["Doigts de fée","Funambule du curseur","Maître des échelles"],"Répondre à % questions à curseur");
+  tab("slo","slOk",[10,50],["Tir groupé","Pile dans le mille"],"% bonnes réponses à des questions à curseur");
+  tab("qn","na",[50,100,250,500,1000,2500],["Curieux","Bavard du donjon","Questionneur","Infatigable","Mille et une questions","Bibliothèque vivante"],"Répondre à % questions au total");
+  tab("mt","mates",[5,25,50,100,250],["Premiers compagnons","Joyeuse bande","Taverne pleine","Armée de camarades","Foule des royaumes"],"Avoir joué avec % autres aventuriers (cumul)");
+  tab("mp","maxP",[10,20,30],["Grande tablée","Salle comble","Donjon complet"],"Jouer une partie à % joueurs ou plus");
+  function tmax(p){var m=0;for(var k in p.themes){var a=p.themes[k];m=Math.max(m,a[4]||0);}return m;}
+  tab("ts","@",[3,10,25],["Habitué du thème","Passionné","Fidèle entre les fidèles"],"Jouer un même thème % fois");
+  BADGES.slice(-3).forEach(function(b,i){var v=[3,10,25][i];b.t=function(s,p){return tmax(p)>=v;};});
+  function nth(p){var n=0;for(var k in p.themes)if(p.themes[k][1]>0)n++;return n;}
+  tab("tn","@",[5,10,18],["Curieux des royaumes","Voyageur","Tour du monde"],"Avoir joué % thèmes différents");
+  BADGES.slice(-3).forEach(function(b,i){var v=[5,10,18][i];b.t=function(s,p){return nth(p)>=v;};});
+  [["solo","Chacun sa quête"],["duel","Duel de guildes"],["boss","Les Aventuriers contre le MJ"]].forEach(function(m,i){
+    add("gm"+m[0],["Quêteur assidu","Guerrier de guilde","Briseur de MJ"][i],"Jouer 5 parties en mode « "+m[1]+" »",function(s,p){return (p.gm&&p.gm[m[0]]||0)>=5;});});
+  [[2,"Apprenti confirmé"],[4,"Ménestrel"],[11,"Enchanteur"],[13,"Archimage"],[15,"Gardien du donjon"],[17,"Dragonnier"]].forEach(function(x){
+    add("lv"+x[0],x[1]+" ✦","Atteindre le palier « "+PALIERS[x[0]].n+" »",function(s,p){return levelOf(p.xp).i>=x[0];});});
+  add("s30","Série de 30","30 bonnes réponses d’affilée",function(s,p){return p.best>=30;});
+  add("s50","Série de 50","50 bonnes réponses d’affilée",function(s,p){return p.best>=50;});
+  add("g100","Légende de la taverne","Terminer 100 parties",function(s,p){return p.games>=100;});
+  add("g250","Doyen des royaumes","Terminer 250 parties",function(s,p){return p.games>=250;});
+  add("wins25","Conquérant","Gagner 25 parties",function(s,p){return p.wins>=25;});
+  add("wins50","Seigneur de guerre","Gagner 50 parties",function(s,p){return p.wins>=50;});
+  add("pod15","Roi du podium","15 podiums au total",function(s,p){return p.podium>=15;});
+  add("pod30","Éternel finaliste","30 podiums au total",function(s,p){return p.podium>=30;});
+  add("perf5","Cinq sans-faute","5 parties sans aucune erreur",function(s,p){return p.perfect>=5;});
+  add("perf10","Perfection","10 parties sans aucune erreur",function(s,p){return p.perfect>=10;});
+  add("reg30","Gardien de la flamme","Jouer 30 jours de suite",function(s,p){return streakDays(p.days)>=30;});
+})();
 /* s = {pts,ok,na,nq,best,tavg,expert,solo,reached3,teamWin,bossWin,comeback,items:[[id,ok,n]]} */
 function awardSession(s){
   var p=loadProg(),before=levelOf(p.xp);
@@ -83,7 +119,11 @@ function awardSession(s){
   if(s.solo)p.solo++;
   var t=today();if(p.days.indexOf(t)<0){p.days.push(t);if(p.days.length>90)p.days.shift();}
   /* par thème : [réussites, essais, 6 derniers résultats « 1/0 », jour du dernier essai] */
-  (s.items||[]).forEach(function(x){if(!x[0])return;var a=p.themes[x[0]]||(p.themes[x[0]]=[0,0,"",0]);a[0]+=x[1];a[1]+=x[2];a[2]=(String(a[2]||"")+(x[1]?"1":"0")).slice(-6);a[3]=t;});
+  var seen={};
+  (s.items||[]).forEach(function(x){var ty=x[3];if(ty==="v"){p.vfN+=x[2];p.vfOk+=x[1];}else if(ty==="s"){p.slN+=x[2];p.slOk+=x[1];}else{p.qcN+=x[2];p.qcOk+=x[1];}});
+  if(s.mode&&p.gm[s.mode]!==undefined)p.gm[s.mode]++;
+  if((s.nplayers||0)>1){p.mates+=s.nplayers-1;p.maxP=Math.max(p.maxP,s.nplayers);}
+  (s.items||[]).forEach(function(x){if(!x[0])return;var a=p.themes[x[0]]||(p.themes[x[0]]=[0,0,"",0]);a[0]+=x[1];a[1]+=x[2];a[2]=(String(a[2]||"")+(x[1]?"1":"0")).slice(-6);a[3]=t;if(!seen[x[0]]){seen[x[0]]=1;a[4]=(a[4]||0)+1;}});
   var nb=[];
   BADGES.forEach(function(b){if(!p.badges[b.id]&&b.t(s,p)){p.badges[b.id]=Date.now();nb.push(b);}});
   saveProg(p);

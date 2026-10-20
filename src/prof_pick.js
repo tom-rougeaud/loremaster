@@ -1,8 +1,8 @@
 /* ═══════════════════════════════════════════════════════════════
    PAGE MJ — 1. Choisir les thèmes et régler la partie
 ═══════════════════════════════════════════════════════════════ */
-var P={lvl:"all",sel:[],mode:"duel",nq:10,dur:0,ord:"rand",tp:"cvs",df:"123",dark:false,nt:2,tnames:null,hide:false,auto:false,early:true,names:true,view:null,mute:false,read:3,pts:"vite",hd:3,hpen:false};
-function loadSetup(){var s=store.get("mj",null);if(s&&typeof s==="object")for(var k in P)if(s[k]!==undefined)P[k]=s[k];P.sel=(P.sel||[]).filter(function(id){return !!ITEM_BY_ID[id];});if(!P.dark)P.sel=P.sel.filter(function(id){return !ITEM_BY_ID[id].dark;});if(!P.tp)P.tp="cvs";if(!P.df)P.df="123";}
+var P={v:0,lvl:"all",sel:[],mode:"solo",nq:10,dur:0,ord:"rand",tp:"cvs",df:"123",dark:false,nt:2,tnames:null,hide:false,auto:false,early:true,names:true,view:null,mute:false,read:3,pts:"vite",hd:3,hpen:false};
+function loadSetup(){var s=store.get("mj",null);if(s&&typeof s==="object")for(var k in P)if(s[k]!==undefined)P[k]=s[k];P.sel=(P.sel||[]).filter(function(id){return !!ITEM_BY_ID[id];});if(!P.dark)P.sel=P.sel.filter(function(id){return !ITEM_BY_ID[id].dark;});if(!s||s.v!==12){P.mode="solo";P.v=12;}if(!P.tp)P.tp="cvs";if(!P.df)P.df="123";}
 function saveSetup(){store.set("mj",P);}
 function teamNames(){var a=P.tnames&&P.tnames.length?P.tnames:[];return TEAMS.map(function(t,i){return a[i]||t.n;});}
 

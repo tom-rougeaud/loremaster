@@ -375,7 +375,7 @@ function showReveal(m){
   S.phase="rv";
   var r=m.rs&&m.rs[S.train?"me":S.pid],st=r?r[0]:-1,pts=r?r[1]:0;
   /* fiche d’aventurier : thème joué en direct (une seule fois par question) */
-  if(!S.train&&!S.host&&S.q&&S.q.id&&S.q.i===m.i&&r){S.qlog=S.qlog||[];if(!S.qlog.some(function(x){return x[3]===S.round+"|"+m.i;}))S.qlog.push([S.q.id,st===1?1:0,1,S.round+"|"+m.i]);}
+  if(!S.train&&!S.host&&S.q&&S.q.id&&S.q.i===m.i&&r){S.qlog=S.qlog||[];if(!S.qlog.some(function(x){return x[3]===S.round+"|"+m.i;}))S.qlog.push([S.q.id,st===1?1:0,1,S.round+"|"+m.i,qType(S.q)]);}
   if(r)S.score=r[2];
   var card=$("rv-card"),cls=st===1?"ok":st===2?"pa":st===0?"ko":"na",kd=S.q?pubKind(S.q):"qcm",det=revealDetail(m);
   card.className="rv-card "+cls;
@@ -427,8 +427,8 @@ function showEnd(m){
   if(r&&S.awarded!==(S.round||0)){
     S.awarded=S.round||0;
     var won=(m.m==="duel"&&m.ts&&m.ts.indexOf(Math.max.apply(null,m.ts))===S.team)||false;
-    var items=(S.qlog||[]).filter(function(x){return String(x[3]).split("|")[0]===String(S.round);}).map(function(x){return [x[0],x[1],1];});S.qlog=[];
-    var res=awardSession({pts:r[1],ok:r[2],na:r[3],nq:r[3],best:r[4]||0,tavg:null,expertOk:r[5]||0,wire:(r[6]||0)>0,teamWin:won,bossWin:m.m==="boss"&&m.win==="class",rank:m.m==="solo"?r[0]:0,nplayers:m.np||0,items:items});
+    var items=(S.qlog||[]).filter(function(x){return String(x[3]).split("|")[0]===String(S.round);}).map(function(x){return [x[0],x[1],1,x[4]];});S.qlog=[];
+    var res=awardSession({pts:r[1],ok:r[2],na:r[3],nq:r[3],best:r[4]||0,tavg:null,expertOk:r[5]||0,wire:(r[6]||0)>0,teamWin:won,bossWin:m.m==="boss"&&m.win==="class",rank:m.m==="solo"?r[0]:0,nplayers:m.np||0,mode:m.m,items:items});
     setTimeout(function(){$("end-prog").innerHTML=progBlockHtml(res);},3200);
   }
 }
@@ -524,7 +524,7 @@ function trainResult(res,a){
   if(ok){T.streak++;T.ok++;pts=Math.round(ptsFor(a.ms/1000,dur,T.streak)*kindMult(q));if(a.fx==="wire")T.wire=true;T.up++;T.dn=0;}
   else{T.streak=0;T.dn++;T.up=0;if(part>0&&a)pts=Math.round(ptsFor(a.ms/1000,dur,0)*kindMult(q)*part);}
   T.best=Math.max(T.best,T.streak);T.score+=pts;S.score=T.score;
-  T.hist.push([q.id,ok?1:0,1]);
+  T.hist.push([q.id,ok?1:0,1,qType(q)]);
   var msg="";
   if(TR.prog&&TR.lv==="all"){
     if(T.up>=2&&T.lvl<3){T.lvl++;T.up=0;msg="Palier "+T.lvl+" débloqué !";if(T.lvl===3)T.reached3=true;}

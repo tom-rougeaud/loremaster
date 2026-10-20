@@ -39,8 +39,8 @@ body.pg-pl #s-carnet .pgb:first-child{background-color:color-mix(in srgb,#5560A8
 .curtain h2{font-size:2.4rem;margin:.2rem 0 .6rem;color:#D9B45A}.curtain p{font-size:1.15rem;opacity:.85;line-height:1.5}
 
 /* v1.2 — logo d’en-tête (wordmark transparent) */
-.brand img.wm{width:auto;height:1.75rem;max-width:42vw;object-fit:contain;filter:drop-shadow(0 1px 1px rgba(60,40,15,.35))}
-@media (max-width:640px){.brand img.wm{height:1.45rem}}
+.brand img.wm{width:auto;height:2.5rem;max-width:58vw;object-fit:contain;filter:drop-shadow(0 1px 1px rgba(60,40,15,.35))}
+@media (max-width:640px){.brand img.wm{height:1.95rem;max-width:50vw}}
 html[data-theme="sombre"] .brand img.wm,html[data-theme="foret"] .brand img.wm,html[data-theme="crypte"] .brand img.wm,html[data-theme="forge"] .brand img.wm,html[data-theme="dragon"] .brand img.wm{filter:drop-shadow(0 0 1px #F6EBCF) drop-shadow(0 0 5px rgba(246,235,207,.75))}
 
 
