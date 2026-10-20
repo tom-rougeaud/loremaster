@@ -691,23 +691,6 @@
    "tol_pct": 0
   },
   {
-   "id": "bet-050",
-   "concept": "bet-050",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un griffon ?",
-   "min": 10,
-   "max": 200,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 59,
-   "expl": "59 PV (7d10 + 21) : assez pour tenir quelques coups d’un groupe de niveau 3-4.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Griffon",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
    "id": "bet-051",
    "concept": "bet-051",
    "niveau": 3,
@@ -720,23 +703,6 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "FP 3 : sa salve de piques à distance et ses morsures la rendent dangereuse pour des aventuriers de niveau 3-4.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Manticore",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "bet-052",
-   "concept": "bet-052",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une manticore ?",
-   "min": 10,
-   "max": 200,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 68,
-   "expl": "Une manticore a 68 points de vie en moyenne (8d8 + 32), ce qui la rend assez résistante pour son niveau.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Manticore",
    "conf": "probable",
    "tol_pct": 0
@@ -793,23 +759,6 @@
    "tol_pct": 0
   },
   {
-   "id": "bet-056",
-   "concept": "bet-056",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une wyverne ?",
-   "min": 50,
-   "max": 300,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 3,
-   "rep": 110,
-   "expl": "110 PV (13d10 + 39).",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Wyverne",
-   "conf": "probable",
-   "tol_pct": 3
-  },
-  {
    "id": "bet-057",
    "concept": "bet-057",
    "niveau": 3,
@@ -825,23 +774,6 @@
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Chimère",
    "conf": "probable",
    "tol_pct": 0
-  },
-  {
-   "id": "bet-058",
-   "concept": "bet-058",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une chimère ?",
-   "min": 50,
-   "max": 300,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 3,
-   "rep": 114,
-   "expl": "114 PV (12d10 + 48).",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Chimère",
-   "conf": "probable",
-   "tol_pct": 3
   },
   {
    "id": "bet-059",
@@ -874,23 +806,6 @@
    "rep": 11,
    "expl": "FP 11 : un grand serpent aux nombreux membres, crachant la foudre.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Behir",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "bet-061",
-   "concept": "bet-061",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le FP du remorhaz ?",
-   "min": 0,
-   "max": 30,
-   "pas": 1,
-   "unite": "FP",
-   "tolerance": 0,
-   "rep": 11,
-   "expl": "FP 11 : environ 195 PV et un corps brûlant qui inflige des dégâts de feu au contact.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Remorhaz",
    "conf": "probable",
    "tol_pct": 0
   },
@@ -929,23 +844,6 @@
    "tol_pct": 0
   },
   {
-   "id": "bet-064",
-   "concept": "bet-064",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le FP de la gynosphinx ?",
-   "min": 0,
-   "max": 30,
-   "pas": 1,
-   "unite": "FP",
-   "tolerance": 0,
-   "rep": 11,
-   "expl": "FP 11 : elle connaît beaucoup de sorts et pose des énigmes, avec environ 136 PV.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Gynosphinx",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
    "id": "bet-065",
    "concept": "bet-065",
    "niveau": 3,
@@ -959,40 +857,6 @@
    "rep": 17,
    "expl": "FP 17 : un sphinx masculin, bien plus puissant que la gynosphinx, avec environ 199 PV et un rugissement dévastateur.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Androsphinx",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "bet-066",
-   "concept": "bet-066",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le FP du centaure ?",
-   "min": 0,
-   "max": 30,
-   "pas": 1,
-   "unite": "FP",
-   "tolerance": 0,
-   "rep": 2,
-   "expl": "FP 2 : bon archer et combattant au corps à corps, avec environ 45 PV.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Centaure",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "bet-067",
-   "concept": "bet-067",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le FP du pégase ?",
-   "min": 0,
-   "max": 30,
-   "pas": 1,
-   "unite": "FP",
-   "tolerance": 0,
-   "rep": 2,
-   "expl": "FP 2 : une monture rapide et intelligente d’alignement chaotique bon, avec environ 59 PV.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Pégase",
    "conf": "probable",
    "tol_pct": 0
   },
@@ -1372,6 +1236,1243 @@
    "id": "bet-087",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, que se passe-t-il quand on tranche une tête de l’hydre sans la brûler ?",
+   "choix": [
+    "Deux têtes repoussent",
+    "Elle meurt aussitôt",
+    "Elle se pétrifie",
+    "Rien de particulier"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Chaque tête tranchée repousse en deux nouvelles têtes au tour suivant, sauf si l’hydre a subi des dégâts de feu entre-temps.",
+   "id": "bet-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de têtes a une hydre au début du combat ?",
+   "choix": [
+    "5",
+    "3",
+    "7",
+    "9"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’hydre du Manuel des Monstres commence avec cinq têtes ; chacune lui donne une attaque de morsure et une réaction supplémentaire.",
+   "id": "bet-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle tête de la chimère crache du feu ?",
+   "choix": [
+    "La tête de dragon",
+    "La tête de lion",
+    "La tête de chèvre",
+    "Aucune"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La chimère a des têtes de lion, de chèvre et de dragon ; c’est la tête de dragon qui souffle un cône de feu.",
+   "id": "bet-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de piques porte la queue d’une manticore ?",
+   "choix": [
+    "24",
+    "6",
+    "12",
+    "100"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La manticore a 24 piques de queue qu’elle peut lancer en volée ; elles repoussent après un repos long.",
+   "id": "bet-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle viande le griffon apprécie-t-il plus que tout ?",
+   "choix": [
+    "La chair de cheval",
+    "Le poisson",
+    "Les baies",
+    "La chair de gobelin"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le griffon raffole de la chair de cheval ; on ne peut le dresser comme monture que s’il est élevé depuis l’œuf.",
+   "id": "bet-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel monstre ailé projette l’ombre d’un humain et arrache le cœur de ses proies ?",
+   "choix": [
+    "Le péryton",
+    "La harpie",
+    "Le griffon",
+    "La manticore"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le péryton, mi-cerf mi-oiseau, projette l’ombre d’un humanoïde ; il chasse les humanoïdes pour dévorer leur cœur.",
+   "id": "bet-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle sphinge pose des énigmes et collectionne le savoir ?",
+   "choix": [
+    "La gynosphinx",
+    "L’androsphinx",
+    "La lamie",
+    "La méduse"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La gynosphinx (FP 11) adore les énigmes et le savoir ; l’androsphinx (FP 17), lui, garde les secrets des dieux et pousse un rugissement terrible.",
+   "id": "bet-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien de fois par jour l’androsphinx peut-il pousser son rugissement ?",
+   "choix": [
+    "3",
+    "1",
+    "5",
+    "À volonté"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’androsphinx rugit trois fois par jour, chaque rugissement étant plus terrible que le précédent : la peur, puis la surdité et la paralysie des créatures effrayées, enfin une onde de tonnerre qui renverse.",
+   "id": "bet-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle monstruosité au corps de lion et au buste de femme enivre ses victimes d’un toucher ?",
+   "choix": [
+    "La lamie",
+    "La gynosphinx",
+    "La méduse",
+    "La harpie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La lamie (FP 4) règne sur les ruines du désert ; son Toucher enivrant maudit la Sagesse de sa victime.",
+   "id": "bet-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, en quoi Lolth transforme-t-elle les drows qui échouent à son épreuve ?",
+   "choix": [
+    "En drider",
+    "En araignée géante",
+    "En ettercap",
+    "En yochlol"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le drider (FP 6), mi-drow mi-araignée, est un drow jugé indigne par Lolth et condamné à cette forme hybride.",
+   "id": "bet-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle araignée peut passer dans le Plan Éthéré pour surprendre ses proies ?",
+   "choix": [
+    "L’araignée de phase",
+    "L’araignée géante",
+    "L’ettercap",
+    "Le drider"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’araignée de phase (FP 3) entre et sort du Plan Éthéré : elle surgit de nulle part, mord, puis disparaît.",
+   "id": "bet-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel chien à deux têtes transmet une maladie par sa morsure ?",
+   "choix": [
+    "Le chien de la mort",
+    "Le molosse infernal",
+    "Le worg",
+    "Le chien clignotant"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le chien de la mort (death dog, FP 1) a deux têtes ; sa morsure peut transmettre une maladie qui réduit les points de vie maximum.",
+   "id": "bet-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle monstruosité des neiges paralyse ses proies d’un regard glacial ?",
+   "choix": [
+    "Le yéti",
+    "Le loup arctique",
+    "Le rémorhaz",
+    "Le géant du givre"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le yéti (FP 3) a un Regard glaçant ; le yéti abominable (FP 9) est encore plus redoutable.",
+   "id": "bet-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que se passe-t-il quand on touche un rémorhaz à mains nues ou avec une arme métallique ?",
+   "choix": [
+    "On se brûle sur son corps chauffé",
+    "On est paralysé",
+    "On est empoisonné",
+    "On se change en glace"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le corps du rémorhaz est si chaud qu’il brûle quiconque le touche ; les armes métalliques chauffent dans la main de leur porteur.",
+   "id": "bet-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel trait du minotaure lui permet de ne jamais se perdre dans un dédale ?",
+   "choix": [
+    "Mémoire du labyrinthe",
+    "Odorat aiguisé",
+    "Vision aveugle",
+    "Charge"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Avec Mémoire du labyrinthe, le minotaure se souvient parfaitement de tout chemin parcouru ; il charge aussi ses ennemis tête baissée.",
+   "id": "bet-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est l’origine de nombreuses monstruosités selon le Manuel des Monstres ?",
+   "choix": [
+    "Des expériences magiques ou des malédictions",
+    "Les plans élémentaires et leurs génies",
+    "Les dieux du Bien qui les ont façonnées",
+    "La Féerie et ses archifées uniquement"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les monstruosités sont souvent nées d’expériences magiques (le hibours) ou de malédictions (le minotaure, les yuan-ti).",
+   "id": "bet-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est la différence majeure entre une bête et une monstruosité ?",
+   "choix": [
+    "La bête fait partie de la nature ordinaire",
+    "La bête est toujours plus faible",
+    "La monstruosité ne peut pas voler",
+    "La bête est toujours domestique"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les bêtes sont des créatures naturelles (loups, ours, dinosaures…), tandis que les monstruosités sont surnaturelles ou contre nature.",
+   "id": "bet-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel dinosaure géant a un FP de 8 ?",
+   "choix": [
+    "Le tyrannosaure",
+    "Le tricératops",
+    "Le ptéranodon",
+    "L’ankylosaure"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le tyrannosaure (FP 8) est le plus redoutable des dinosaures du Manuel des Monstres ; le tricératops est à FP 5.",
+   "id": "bet-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le FP du mammouth ?",
+   "choix": [
+    "6",
+    "2",
+    "10",
+    "1"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le mammouth (FP 6) piétine ses ennemis et charge avec ses défenses.",
+   "id": "bet-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel grand oiseau intelligent sert souvent d’allié aux bons aventuriers ?",
+   "choix": [
+    "L’aigle géant",
+    "Le roc",
+    "Le péryton",
+    "La harpie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’aigle géant (FP 1) comprend le commun et l’aérien et s’allie volontiers aux créatures bonnes.",
+   "id": "bet-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel oiseau incapable de voler ressemble à une autruche au bec tranchant ?",
+   "choix": [
+    "Le bec-de-hache",
+    "Le péryton",
+    "Le roc",
+    "L’hippogriffe"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le bec-de-hache (axe beak, FP 1/4) est un grand oiseau coureur au bec en forme de hache.",
+   "id": "bet-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle araignée humanoïde tisse des toiles en forêt et commande aux araignées ?",
+   "choix": [
+    "L’ettercap",
+    "Le drider",
+    "L’araignée de phase",
+    "La lamie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’ettercap (FP 2) élève des araignées géantes et piège les voyageurs dans ses toiles ; ses crocs sont venimeux.",
+   "id": "bet-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le type de la licorne ?",
+   "choix": [
+    "Céleste",
+    "Monstruosité",
+    "Bête",
+    "Fée"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La licorne est un céleste : elle soigne, se téléporte et protège les forêts sacrées.",
+   "id": "bet-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le type du pégase ?",
+   "choix": [
+    "Céleste",
+    "Bête",
+    "Monstruosité",
+    "Fée"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le pégase est un céleste ; il n’accepte comme cavalier qu’une créature bonne.",
+   "id": "bet-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle monstruosité aux cheveux de serpents pétrifie d’un regard ?",
+   "choix": [
+    "La méduse",
+    "La lamie",
+    "La harpie",
+    "La gorgone"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La méduse de D&D (FP 6) a un regard pétrifiant ; voir son propre reflet peut la pétrifier elle-même.",
+   "id": "bet-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle arme sonore la harpie utilise-t-elle pour attirer ses proies ?",
+   "choix": [
+    "Un chant envoûtant",
+    "Un cri de terreur",
+    "Un sifflement hypnotique",
+    "Une berceuse soporifique"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le Chant envoûtant de la harpie charme les humanoïdes qui l’entendent : ils marchent vers elle, même au bord d’un précipice.",
+   "id": "bet-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel monstre déteste particulièrement les dragons et peut avaler sa proie ?",
+   "choix": [
+    "Le behir",
+    "Le rémorhaz",
+    "Le roc",
+    "La chimère"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le behir hait les dragons, ses ennemis ancestraux ; il peut avaler une créature entière après l’avoir enserrée.",
+   "id": "bet-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 1 permet d’obtenir un compagnon magique, comme un hibou ou un chat ?",
+   "choix": [
+    "Appel de familier",
+    "Amitié avec les animaux",
+    "Communication avec les animaux",
+    "Convocation d’animaux"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Appel de familier (find familiar) convoque un esprit sous forme de chat, hibou, crapaud, araignée, etc. ; il peut transmettre les sorts de contact.",
+   "id": "bet-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de paladin de niveau 2 appelle une monture fidèle ?",
+   "choix": [
+    "Appel de destrier",
+    "Appel de familier",
+    "Monture fantôme",
+    "Amitié avec les animaux"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Appel de destrier (find steed) convoque un cheval de guerre, un poney, un chameau, un élan ou un mastiff, lié télépathiquement au paladin.",
+   "id": "bet-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle sous-classe de rôdeur combat aux côtés d’un compagnon animal ?",
+   "choix": [
+    "Le Maître des bêtes",
+    "Le Chasseur",
+    "Le Tueur de monstres",
+    "Le Vagabond féerique"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Rôdeur »",
+   "expl": "Le Maître des bêtes (Manuel des Joueurs) lie son destin à une bête qui combat à ses côtés.",
+   "id": "bet-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel grand primate a un FP de 7 ?",
+   "choix": [
+    "Le singe géant",
+    "Le gorille",
+    "Le babouin",
+    "L’orang-outan"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Rôdeur »",
+   "expl": "Le singe géant (giant ape, FP 7) lance des rochers comme un géant et frappe avec ses poings.",
+   "id": "bet-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle bête préhistorique au FP 2 est un grand félin aux crocs démesurés ?",
+   "choix": [
+    "Le tigre à dents de sabre",
+    "Le lion",
+    "La panthère",
+    "Le tigre"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Rôdeur »",
+   "expl": "Le tigre à dents de sabre (FP 2) surprend ses proies et les renverse avant de les mordre.",
+   "id": "bet-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel reptile volant préhistorique de FP 1/4 plane au-dessus des mers ?",
+   "choix": [
+    "Le ptéranodon",
+    "Le plésiosaure",
+    "L’allosaure",
+    "La wyverne"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Rôdeur »",
+   "expl": "Le ptéranodon est un reptile volant du Manuel des Monstres ; il pique sur ses proies puis s’éloigne sans subir d’attaque d’opportunité.",
+   "id": "bet-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel est le type de créature du griffon ?",
+   "choix": [
+    "Monstruosité",
+    "Bête",
+    "Céleste",
+    "Fée"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Rôdeur »",
+   "expl": "Le griffon, mi-lion mi-aigle, est une monstruosité : une créature surnaturelle, même si on peut le dresser comme monture.",
+   "id": "bet-121",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, la ____ est un monstre à plusieurs têtes qui repoussent quand on les coupe.",
+   "choix": [
+    "hydre",
+    "chimère",
+    "manticore",
+    "méduse"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’hydre perd une tête… et en gagne deux, sauf si on cautérise la blessure par le feu.",
+   "id": "bet-122",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le drider est un ____ transformé par Lolth en créature mi-araignée.",
+   "choix": [
+    "drow",
+    "duergar",
+    "gnome",
+    "elfe des bois"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les drows qui échouent à l’épreuve de Lolth deviennent des driders, rejetés par leur peuple.",
+   "id": "bet-123",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la chimère a trois têtes : lion, chèvre et ____.",
+   "choix": [
+    "dragon",
+    "aigle",
+    "serpent",
+    "ours"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Sa tête de dragon souffle le feu, celle de lion mord et celle de chèvre encorne.",
+   "id": "bet-124",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la manticore peut lancer une volée de ____ de sa queue.",
+   "choix": [
+    "piques",
+    "plumes",
+    "écailles",
+    "flammes"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La manticore projette jusqu’à trois piques par attaque ; elle en possède 24 qui repoussent avec le temps.",
+   "id": "bet-125",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le ____ est un cerf ailé qui arrache le cœur de ses proies.",
+   "choix": [
+    "péryton",
+    "pégase",
+    "griffon",
+    "hippogriffe"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le péryton, avec ses bois de cerf et ses ailes d’oiseau, projette une ombre humaine.",
+   "id": "bet-126",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, l’androsphinx dispose d’un ____ terrible qu’il peut utiliser trois fois par jour.",
+   "choix": [
+    "rugissement",
+    "regard",
+    "souffle",
+    "chant"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le rugissement de l’androsphinx terrifie, paralyse puis renverse ceux qui l’entendent.",
+   "id": "bet-127",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ est un grand oiseau qui peut emporter un éléphant dans ses serres.",
+   "choix": [
+    "roc",
+    "griffon",
+    "péryton",
+    "aigle géant"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le roc (FP 11), oiseau titanesque, est connu depuis les récits de Sinbad dans les Mille et Une Nuits.",
+   "id": "bet-128",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’araignée de ____ apparaît et disparaît en passant par le Plan Éthéré.",
+   "choix": [
+    "phase",
+    "brume",
+    "nuit",
+    "toile"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’araignée de phase chasse en franchissant la frontière éthérée, ce qui la rend presque impossible à fuir.",
+   "id": "bet-129",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le corps du ____ est si brûlant qu’il fait fondre la glace où il vit.",
+   "choix": [
+    "rémorhaz",
+    "yéti",
+    "behir",
+    "roc"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le rémorhaz vit dans les terres glacées, mais son dos rougeoyant est d’une chaleur extrême.",
+   "id": "bet-130",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces créatures n’est pas une monstruosité dans D&D 5e ?",
+   "choix": [
+    "Licorne",
+    "Manticore",
+    "Chimère",
+    "Hydre"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La licorne est un céleste. La manticore, la chimère et l’hydre sont des monstruosités.",
+   "id": "bet-131",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces animaux est une bête et non une monstruosité ?",
+   "choix": [
+    "Mammouth",
+    "Griffon",
+    "Behir",
+    "Rémorhaz"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le mammouth est une bête naturelle, même géante. Le griffon, le behir et le rémorhaz sont des monstruosités.",
+   "id": "bet-132",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures n’a pas de lien avec les araignées ?",
+   "choix": [
+    "Péryton",
+    "Drider",
+    "Ettercap",
+    "Araignée de phase"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le péryton est un cerf ailé. Le drider, l’ettercap et l’araignée de phase sont liés aux araignées.",
+   "id": "bet-133",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres ne pétrifie pas ?",
+   "choix": [
+    "Lamie",
+    "Méduse",
+    "Basilic",
+    "Cockatrice"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La lamie enivre l’esprit. La méduse et le basilic pétrifient d’un regard, la cockatrice d’une morsure.",
+   "id": "bet-134",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces dinosaures n’a pas un FP supérieur ou égal à 3 ?",
+   "choix": [
+    "Ptéranodon",
+    "Tyrannosaure",
+    "Tricératops",
+    "Ankylosaure"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le ptéranodon n’est qu’à FP 1/4. Le tyrannosaure (8), le tricératops (5) et l’ankylosaure (3) sont bien plus robustes.",
+   "id": "bet-135",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces créatures ne vole pas ?",
+   "choix": [
+    "Minotaure",
+    "Griffon",
+    "Roc",
+    "Péryton"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le minotaure combat à pied. Le griffon, le roc et le péryton volent.",
+   "id": "bet-136",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts ne concerne pas les animaux ?",
+   "choix": [
+    "Mur de feu",
+    "Appel de familier",
+    "Amitié avec les animaux",
+    "Communication avec les animaux"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Mur de feu est une évocation. Les trois autres sorts permettent d’appeler, de charmer ou de comprendre les animaux.",
+   "id": "bet-137",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces créatures n’est pas un céleste ?",
+   "choix": [
+    "Hippogriffe",
+    "Licorne",
+    "Pégase",
+    "Couatl"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "L’hippogriffe est une monstruosité. La licorne, le pégase et le couatl sont des célestes.",
+   "id": "bet-138",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquelles de ces créatures sont des monstruosités ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Griffon",
+    "Manticore",
+    "Hippogriffe",
+    "Licorne",
+    "Pégase"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Griffon, manticore et hippogriffe sont des monstruosités ; la licorne et le pégase sont des célestes.",
+   "id": "bet-139",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels monstres ont plusieurs têtes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hydre",
+    "Chimère",
+    "Chien de la mort",
+    "Manticore",
+    "Behir"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "L’hydre (5 têtes au départ), la chimère (3) et le chien de la mort (2) ont plusieurs têtes.",
+   "id": "bet-140",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces dinosaures sont dans le Manuel des Monstres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tyrannosaure",
+    "Tricératops",
+    "Ankylosaure",
+    "Diplodocus",
+    "Vélociraptor"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le Manuel des Monstres présente tyrannosaure, tricératops, ankylosaure, allosaure, plésiosaure et ptéranodon. Pas de diplodocus ni de vélociraptor.",
+   "id": "bet-141",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels monstres ont un FP de 11 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Roc",
+    "Behir",
+    "Gynosphinx",
+    "Androsphinx",
+    "Hydre"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le roc, le behir et la gynosphinx sont à FP 11. L’androsphinx est à 17 et l’hydre à 8.",
+   "id": "bet-142",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles créatures peuvent servir de monture volante dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Griffon",
+    "Hippogriffe",
+    "Pégase",
+    "Behir",
+    "Mammouth"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Griffon, hippogriffe et pégase font de bonnes montures volantes. Le behir ne vole pas, le mammouth non plus.",
+   "id": "bet-143",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels animaux peut appeler le sort Appel de destrier ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cheval de guerre",
+    "Poney",
+    "Élan",
+    "Griffon",
+    "Dragon"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Appel de destrier offre un cheval de guerre, un poney, un chameau, un élan ou un mastiff ; ni griffon ni dragon.",
+   "id": "bet-144",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures sont liées à Lolth ou aux drows ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Drider",
+    "Araignée géante",
+    "Péryton",
+    "Rémorhaz",
+    "Roc"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le drider est un drow maudit par Lolth, et les araignées géantes sont ses créatures sacrées.",
+   "id": "bet-145",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles monstruosités sont nées de malédictions ou d’expériences selon le Manuel des Monstres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Minotaure",
+    "Drider",
+    "Hibours",
+    "Griffon",
+    "Roc"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le minotaure vient d’une malédiction, le drider de la punition de Lolth, le hibours d’une expérience de magicien.",
+   "id": "bet-146",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces monstruosités par FP croissant.",
+   "items": [
+    "Harpie",
+    "Griffon",
+    "Manticore",
+    "Chimère",
+    "Hydre"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "FP : harpie 1, griffon 2, manticore 3, chimère 6, hydre 8.",
+   "id": "bet-147",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces dinosaures par FP croissant.",
+   "items": [
+    "Ptéranodon",
+    "Allosaure",
+    "Ankylosaure",
+    "Tricératops",
+    "Tyrannosaure"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "FP : ptéranodon 1/4, allosaure 2, ankylosaure 3, tricératops 5, tyrannosaure 8.",
+   "id": "bet-148",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sphinges et grands monstres par FP croissant.",
+   "items": [
+    "Lamie",
+    "Méduse",
+    "Gynosphinx",
+    "Androsphinx"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "FP : lamie 4, méduse 6, gynosphinx 11, androsphinx 17.",
+   "id": "bet-149",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces rugissements de l’androsphinx dans l’ordre.",
+   "items": [
+    "Le premier terrifie",
+    "Le deuxième rend sourd et paralyse les effrayés",
+    "Le troisième renverse dans un fracas de tonnerre"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Les rugissements de l’androsphinx montent en puissance au fil de la journée.",
+   "id": "bet-150",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces araignées par FP croissant.",
+   "items": [
+    "Araignée géante",
+    "Ettercap",
+    "Araignée de phase",
+    "Drider"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "FP : araignée géante 1, ettercap 2, araignée de phase 3, drider 6.",
+   "id": "bet-151",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces bêtes par FP croissant.",
+   "items": [
+    "Bec-de-hache",
+    "Aigle géant",
+    "Tigre à dents de sabre",
+    "Mammouth",
+    "Singe géant"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "FP : bec-de-hache 1/4, aigle géant 1, tigre à dents de sabre 2, mammouth 6, singe géant 7.",
+   "id": "bet-152",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque monstre à ses parties.",
+   "paires": [
+    [
+     "Chimère",
+     "Lion, chèvre et dragon"
+    ],
+    [
+     "Péryton",
+     "Cerf et oiseau"
+    ],
+    [
+     "Lamie",
+     "Lion et femme"
+    ],
+    [
+     "Drider",
+     "Drow et araignée"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Chacune de ces monstruosités assemble plusieurs créatures.",
+   "id": "bet-153",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque monstre à son pouvoir.",
+   "paires": [
+    [
+     "Harpie",
+     "Chant envoûtant"
+    ],
+    [
+     "Méduse",
+     "Regard pétrifiant"
+    ],
+    [
+     "Lamie",
+     "Toucher enivrant"
+    ],
+    [
+     "Yéti",
+     "Regard glaçant"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Chacun neutralise ses proies à sa manière : chant, regard ou toucher.",
+   "id": "bet-154",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque monstre à son FP.",
+   "paires": [
+    [
+     "Harpie",
+     "1"
+    ],
+    [
+     "Griffon",
+     "2"
+    ],
+    [
+     "Minotaure",
+     "3"
+    ],
+    [
+     "Hydre",
+     "8"
+    ],
+    [
+     "Roc",
+     "11"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Ces FP vont du monstre de début d’aventure au géant des airs.",
+   "id": "bet-155",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sort ou classe à son animal.",
+   "paires": [
+    [
+     "Appel de familier",
+     "Hibou"
+    ],
+    [
+     "Appel de destrier",
+     "Cheval de guerre"
+    ],
+    [
+     "Maître des bêtes",
+     "Compagnon animal"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014)",
+   "expl": "Le magicien appelle un familier, le paladin un destrier, le rôdeur Maître des bêtes combat avec son compagnon.",
+   "id": "bet-156",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monstre à son milieu de prédilection.",
+   "paires": [
+    [
+     "Lamie",
+     "Ruines du désert"
+    ],
+    [
+     "Yéti",
+     "Montagnes enneigées"
+    ],
+    [
+     "Rémorhaz",
+     "Terres glacées"
+    ],
+    [
+     "Drider",
+     "Outreterre"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014)",
+   "expl": "La lamie règne sur les ruines du désert, le yéti hante les sommets, le rémorhaz les étendues glacées et le drider l’Outreterre.",
+   "id": "bet-157",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque dinosaure à son trait.",
+   "paires": [
+    [
+     "Tyrannosaure",
+     "Mâchoire géante"
+    ],
+    [
+     "Tricératops",
+     "Cornes"
+    ],
+    [
+     "Ptéranodon",
+     "Vol"
+    ],
+    [
+     "Plésiosaure",
+     "Long cou"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014)",
+   "expl": "Des dinosaures reconnaissables, présents dans le Manuel des Monstres.",
+   "id": "bet-158",
+   "conf": "probable"
   }
  ],
  "sources": []

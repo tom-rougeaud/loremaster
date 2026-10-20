@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 45–60 % de classiques (QCM + vrai/faux).
 
-**11 / 99 thèmes terminés — 2109 questions au total.**
+**12 / 99 thèmes terminés — 2172 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -17,7 +17,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 | 9 | Élémentaires et créatures planaires | 151 | 60 | 22 (11) | 13 | 12 | 11 | 11 | 8 | 8 | 6 | 54 % | 23/65/63 | 40 | terminé |
 | 10 | Lycanthropes et métamorphes | 150 | 56 | 22 (10) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 22/73/55 | 41 | terminé |
 | 11 | Créatures marines et aquatiques | 150 | 59 | 22 (12) | 13 | 11 | 11 | 11 | 8 | 8 | 7 | 54 % | 22/80/48 | 57 | terminé |
-| 12 | Bêtes et monstruosités | 87 | 22 | 26 (13) | 22 | 3 | 3 | 3 | 2 | 2 | 4 | 55 % | 14/31/42 | 72 | base |
+| 12 | Bêtes et monstruosités | 150 | 56 | 26 (13) | 14 | 12 | 11 | 11 | 8 | 8 | 4 | 55 % | 25/83/42 | 72 | terminé |
 | 13 | Golems, constructions et animés | 86 | 29 | 23 (10) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 8/30/48 | 22 | base |
 | 14 | L’art du Maître du Jeu | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 15 | Races jouables et peuples d’aventuriers | 69 | 29 | 26 (13) | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 80 % | 5/52/12 | 17 | base |
@@ -379,8 +379,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - mar-070 : explication absente ou trop courte
 - creatures-marines : niveaux déséquilibrés [22, 80, 48]
 - bet-034 : explication absente ou trop courte
-- bet-056 : explication absente ou trop courte
-- bet-058 : explication absente ou trop courte
 - gol-033 : explication absente ou trop courte
 - gol-034 : explication absente ou trop courte
 - gol-035 : explication absente ou trop courte
