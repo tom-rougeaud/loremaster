@@ -779,23 +779,25 @@
    "rep": 23,
    "expl": "FP 23 : un monstre de niveau épique (aventuriers de niveau 18 et plus).",
    "src": "Manuel des Monstres 5e (2014), entrée « Kraken »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-054",
    "concept": "mar-054",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un kraken (à 20 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un kraken ?",
    "min": 200,
    "max": 700,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 20,
+   "tolerance": 14,
    "rep": 472,
    "expl": "472 PV (27d20 + 189).",
    "src": "Manuel des Monstres 5e (2014), entrée « Kraken »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "mar-055",
@@ -811,7 +813,8 @@
    "rep": 18,
    "expl": "CA 18, grâce à son armure naturelle.",
    "src": "Manuel des Monstres 5e (2014), entrée « Kraken »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-056",
@@ -827,7 +830,8 @@
    "rep": 1,
    "expl": "FP 1 : un monstre de petit niveau, avec 52 PV.",
    "src": "Manuel des Monstres 5e (2014), entrée « Pieuvre géante »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-057",
@@ -843,7 +847,8 @@
    "rep": 5,
    "expl": "FP 5 : 126 PV et une morsure puissante.",
    "src": "Manuel des Monstres 5e (2014), entrée « Requin géant »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-058",
@@ -859,7 +864,8 @@
    "rep": 3,
    "expl": "FP 3 : 90 PV, un prédateur marin rapide qui chasse en groupe.",
    "src": "Manuel des Monstres 5e (2014), entrée « Orque (killer whale) »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-059",
@@ -875,23 +881,25 @@
    "rep": 17,
    "expl": "FP 17 : 341 PV et un souffle de vapeur dévastateur.",
    "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-060",
    "concept": "mar-060",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une tortue-dragon (à 20 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a une tortue-dragon ?",
    "min": 100,
    "max": 500,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 20,
+   "tolerance": 10,
    "rep": 341,
    "expl": "341 PV (22d20 + 110).",
    "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "mar-061",
@@ -907,7 +915,8 @@
    "rep": 20,
    "expl": "CA 20, grâce à sa carapace.",
    "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-062",
@@ -923,7 +932,8 @@
    "rep": 60,
    "expl": "60 pieds (18 m) à la nage, contre 10 pieds (3 m) à pied.",
    "src": "Manuel des Monstres 5e (2014), entrée « Pieuvre géante »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-063",
@@ -939,7 +949,8 @@
    "rep": 40,
    "expl": "40 pieds (12 m) à la nage, 20 pieds (6 m) sur terre.",
    "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-064",
@@ -955,7 +966,8 @@
    "rep": 22,
    "expl": "22 PV (4d8 + 4) : un adversaire modeste, dangereux en nombre.",
    "src": "Manuel des Monstres 5e (2014), entrée « Sahuagin »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-065",
@@ -971,7 +983,8 @@
    "rep": 3,
    "expl": "Niveau 3, avec le composant matériel d’un roseau ou d’une paille.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-066",
@@ -987,7 +1000,8 @@
    "rep": 10,
    "expl": "Jusqu’à dix créatures consentantes à portée.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-067",
@@ -1003,7 +1017,8 @@
    "rep": 24,
    "expl": "24 heures : de quoi explorer un récif sans souci.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-068",
@@ -1019,39 +1034,42 @@
    "rep": 40,
    "expl": "40 pieds (12 m), soit largement plus que les 30 pieds de marche normale.",
    "src": "Dans D&D 5e, Guide du Maître (2014), chap. 7 « Trésors »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mar-069",
    "concept": "mar-069",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un requin géant (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un requin géant ?",
    "min": 20,
    "max": 300,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 4,
    "rep": 126,
    "expl": "126 PV (11d12 + 55).",
    "src": "Manuel des Monstres 5e (2014), entrée « Requin géant »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "mar-070",
    "concept": "mar-070",
    "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une pieuvre géante (à 5 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a une pieuvre géante ?",
    "min": 10,
    "max": 150,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 5,
+   "tolerance": 0,
    "rep": 52,
    "expl": "52 PV (8d10 + 8).",
    "src": "Manuel des Monstres 5e (2014), entrée « Pieuvre géante »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "type": "intrus",

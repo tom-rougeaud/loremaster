@@ -779,7 +779,8 @@
    "rep": 13,
    "expl": "Le vampire a un FP de 13.",
    "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-054",
@@ -795,7 +796,8 @@
    "rep": 21,
    "expl": "La liche a un FP de 21.",
    "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-055",
@@ -811,7 +813,8 @@
    "rep": 15,
    "expl": "Le seigneur momie a un FP de 15.",
    "src": "Manuel des Monstres 5e (2014), entrée « Seigneur momie »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-056",
@@ -827,7 +830,8 @@
    "rep": 5,
    "expl": "Le wraith a un FP de 5.",
    "src": "Manuel des Monstres 5e (2014), entrée « Spectre »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-057",
@@ -843,7 +847,8 @@
    "rep": 4,
    "expl": "Le fantôme a un FP de 4.",
    "src": "Manuel des Monstres 5e (2014), entrée « Fantôme »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-058",
@@ -859,7 +864,8 @@
    "rep": 22,
    "expl": "Le zombie a 22 PV en moyenne.",
    "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-059",
@@ -875,23 +881,25 @@
    "rep": 13,
    "expl": "Le squelette a 13 PV en moyenne.",
    "src": "Manuel des Monstres 5e (2014), entrée « Squelette »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-060",
    "concept": "mor-060",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un vampire (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un vampire ?",
    "min": 50,
    "max": 300,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 4,
    "rep": 144,
    "expl": "Le vampire a 144 PV en moyenne.",
    "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "mor-061",
@@ -907,7 +915,8 @@
    "rep": 18,
    "expl": "La liche lance des sorts comme un magicien de niveau 18.",
    "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-062",
@@ -923,7 +932,8 @@
    "rep": 17,
    "expl": "Le chevalier de la mort a un FP de 17.",
    "src": "Manuel des Monstres 5e (2014), entrée « Chevalier de la mort »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-063",
@@ -939,7 +949,8 @@
    "rep": 4,
    "expl": "La banshee a un FP de 4.",
    "src": "Manuel des Monstres 5e (2014), entrée « Banshee »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-064",
@@ -955,7 +966,8 @@
    "rep": 3,
    "expl": "La momie a un FP de 3.",
    "src": "Manuel des Monstres 5e (2014), entrée « Momie »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-065",
@@ -971,7 +983,8 @@
    "rep": 15,
    "expl": "Strahd a un FP de 15.",
    "src": "Curse of Strahd (2016), chap. 1",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-066",
@@ -987,7 +1000,8 @@
    "rep": 1978,
    "expl": "Tomb of Horrors est paru en 1978.",
    "src": "Tomb of Horrors (TSR, 1978)",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-067",
@@ -1003,7 +1017,8 @@
    "rep": 1983,
    "expl": "I6 Ravenloft est paru en 1983.",
    "src": "I6 Ravenloft (TSR, 1983)",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-068",
@@ -1019,7 +1034,8 @@
    "rep": 20,
    "expl": "20 dégâts d’acide.",
    "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-069",
@@ -1035,7 +1051,8 @@
    "rep": 3,
    "expl": "La liche a 3 actions légendaires.",
    "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "mor-070",
@@ -1051,7 +1068,8 @@
    "rep": 8,
    "expl": "Le zombie a une CA de 8.",
    "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "type": "intrus",

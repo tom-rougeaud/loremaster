@@ -779,7 +779,8 @@
    "rep": 3,
    "expl": "Trois guenaudes : elles partagent des sorts de sabbat.",
    "src": "Manuel des Monstres 5e (2014), entrée « Sabbat de guenaudes »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-054",
@@ -795,7 +796,8 @@
    "rep": 1,
    "expl": "FP 1 : 22 PV et des sorts innés (Charme de la nature, Entrave...).",
    "src": "Manuel des Monstres 5e (2014), entrée « Dryade »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-055",
@@ -811,7 +813,8 @@
    "rep": 3,
    "expl": "FP 3 : 82 PV et une CA de 17.",
    "src": "Manuel des Monstres 5e (2014), entrée « Guenaude verte »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-056",
@@ -827,7 +830,8 @@
    "rep": 2,
    "expl": "FP 2 : 52 PV et un regard horrible.",
    "src": "Manuel des Monstres 5e (2014), entrée « Guenaude des mers »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-057",
@@ -843,87 +847,93 @@
    "rep": 5,
    "expl": "FP 5 : 112 PV, très dangereuse pour un groupe de niveau 4-5.",
    "src": "Manuel des Monstres 5e (2014), entrée « Guenaude nocturne »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-058",
    "concept": "fee-058",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une guenaude verte (à 5 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a une guenaude verte ?",
    "min": 20,
    "max": 200,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 5,
+   "tolerance": 0,
    "rep": 82,
    "expl": "82 PV (11d8 + 33).",
    "src": "Manuel des Monstres 5e (2014), entrée « Guenaude verte »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-059",
    "concept": "fee-059",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une guenaude nocturne (à 5 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a une guenaude nocturne ?",
    "min": 20,
    "max": 200,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 5,
+   "tolerance": 3,
    "rep": 112,
    "expl": "112 PV (15d8 + 45).",
    "src": "Manuel des Monstres 5e (2014), entrée « Guenaude nocturne »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "fee-060",
    "concept": "fee-060",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une guenaude des mers (à 5 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a une guenaude des mers ?",
    "min": 20,
    "max": 200,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 5,
+   "tolerance": 0,
    "rep": 52,
    "expl": "52 PV (7d8 + 21).",
    "src": "Manuel des Monstres 5e (2014), entrée « Guenaude des mers »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-061",
    "concept": "fee-061",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un satyre (à 3 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un satyre ?",
    "min": 10,
    "max": 100,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 3,
+   "tolerance": 0,
    "rep": 31,
    "expl": "31 PV (7d8).",
    "src": "Manuel des Monstres 5e (2014), entrée « Satyre »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-062",
    "concept": "fee-062",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une dryade (à 3 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a une dryade ?",
    "min": 10,
    "max": 100,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 3,
+   "tolerance": 0,
    "rep": 22,
    "expl": "22 PV (5d8).",
    "src": "Manuel des Monstres 5e (2014), entrée « Dryade »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-063",
@@ -939,7 +949,8 @@
    "rep": 17,
    "expl": "CA 17, grâce à sa peau épaisse (armure naturelle).",
    "src": "Manuel des Monstres 5e (2014), entrée « Guenaude verte »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-064",
@@ -955,7 +966,8 @@
    "rep": 17,
    "expl": "CA 17, grâce à sa peau épaisse (armure naturelle).",
    "src": "Manuel des Monstres 5e (2014), entrée « Guenaude nocturne »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-065",
@@ -971,7 +983,8 @@
    "rep": 1,
    "expl": "1 PV (1d4 − 1) : elle est fragile mais dangereuse par sa magie.",
    "src": "Manuel des Monstres 5e (2014), entrée « Pixie »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-066",
@@ -987,7 +1000,8 @@
    "rep": 2,
    "expl": "2 PV (1d4) : un minuscule archer.",
    "src": "Manuel des Monstres 5e (2014), entrée « Sprite »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-067",
@@ -1003,7 +1017,8 @@
    "rep": 2021,
    "expl": "Septembre 2021, comme aventure phare de la 5e édition.",
    "src": "The Wild Beyond the Witchlight (2021), crédits",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-068",
@@ -1019,7 +1034,8 @@
    "rep": 6,
    "expl": "Niveau 6 : il convoque une fée de FP 6 au plus.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Convocation de fée",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-069",
@@ -1035,7 +1051,8 @@
    "rep": 4,
    "expl": "Niveau 4 : des fées combattent aux côtés du lanceur pendant 1 heure.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Convocation d’êtres sylvestres",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "fee-070",
@@ -1051,7 +1068,8 @@
    "rep": 40,
    "expl": "40 pieds (12 m) en vol, contre 10 pieds (3 m) sur terre.",
    "src": "Manuel des Monstres 5e (2014), entrée « Sprite »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "type": "intrus",
@@ -1372,6 +1390,1097 @@
    "id": "fee-087",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quelle reine de la Féerie dirige la Cour d’été (Cour Seelie) ?",
+   "choix": [
+    "Titania",
+    "La Reine de l’air et des ténèbres",
+    "Zybilna",
+    "Baba Lysaga"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), « La Féerie » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Titania, la Reine d’été, règne sur la Cour Seelie ; sa rivale, la Reine de l’air et des ténèbres, dirige la Cour du crépuscule (Unseelie).",
+   "id": "fee-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle archifée règne sur la Cour du crépuscule, l’équivalent de la Cour Unseelie ?",
+   "choix": [
+    "La Reine de l’air et des ténèbres",
+    "Titania, la Reine d’été",
+    "Oberon, le Roi des fées",
+    "Hyrsam, le Prince des fous"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), « La Féerie »",
+   "expl": "La Reine de l’air et des ténèbres, mystérieuse et invisible, gouverne la Cour du crépuscule (Gloaming Court) depuis un palais d’ombres.",
+   "id": "fee-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans The Wild Beyond the Witchlight, quelle célèbre sorcière se cache sous l’identité de l’archifée Zybilna ?",
+   "choix": [
+    "Iggwilv, alias Tasha",
+    "Baba Yaga",
+    "Lolth",
+    "Vecna"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Zybilna est en réalité Iggwilv, la Mère des sorcières, plus connue sous le nom de Tasha (celle du Chaudron de Tasha et du Fou rire de Tasha).",
+   "id": "fee-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans The Wild Beyond the Witchlight, quel domaine féerique les aventuriers explorent-ils ?",
+   "choix": [
+    "Prismeer",
+    "Barovie",
+    "Sigil",
+    "Thay"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "Prismeer, domaine de l’archifée Zybilna, a été découpé en trois royaumes par la Cabale du sablier, un sabbat de guenaudes.",
+   "id": "fee-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans The Wild Beyond the Witchlight, comment s’appelle le sabbat de guenaudes qui a pris le domaine de Zybilna ?",
+   "choix": [
+    "Le sabbat du Sablier",
+    "Le sabbat de la Lune",
+    "Le cercle des Ronces",
+    "La cabale des Cendres"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "Bavlorna, Skabatha et Endelyn forment le sabbat du Sablier (Hourglass Coven) ; chacune gouverne une région de Prismeer.",
+   "id": "fee-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui sont les deux propriétaires du carnaval de Witchlight ?",
+   "choix": [
+    "Mister Witch et Mister Light",
+    "Oberon et Titania",
+    "Bavlorna et Skabatha",
+    "Strahd et Rahadin"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "Mister Witch et Mister Light dirigent ce carnaval itinérant aux attractions féeriques, porte d’entrée vers le domaine de Prismeer.",
+   "id": "fee-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que risque un voyageur qui quitte la Féerie selon le Guide du Maître ?",
+   "choix": [
+    "Que le temps ait passé différemment chez lui",
+    "Qu’il ait oublié sa propre langue",
+    "Qu’il soit devenu une fée lui-même",
+    "Qu’il ait perdu son ombre en route"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), « La Féerie : distorsion du temps »",
+   "expl": "La règle optionnelle de distorsion du temps prévoit qu’un séjour en Féerie peut correspondre à des jours, voire des années, dans le monde normal.",
+   "id": "fee-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel trait des elfes les protège du charme et du sommeil magique ?",
+   "choix": [
+    "Ascendance féerique",
+    "Transe",
+    "Vision dans le noir",
+    "Sens aiguisés"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Elfe »",
+   "expl": "L’Ascendance féerique donne l’avantage contre les charmes, et la magie ne peut pas endormir un elfe : un héritage de leur origine féerique.",
+   "id": "fee-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel serment de paladin est lié à la lumière, à la nature et aux fées ?",
+   "choix": [
+    "Serment des anciens",
+    "Serment de dévotion",
+    "Serment de vengeance",
+    "Serment de conquête"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Paladin »",
+   "expl": "Le Serment des anciens protège la lumière et la vie ; le paladin y gagne des sorts de nature et une Aura de protection contre les sorts.",
+   "id": "fee-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Xanathar’s Guide to Everything, quel collège de barde tire sa magie de la Féerie ?",
+   "choix": [
+    "Le collège du Glamour",
+    "Le collège du Savoir",
+    "Le collège des Épées",
+    "Le collège de la Bravoure"
+   ],
+   "rep": 0,
+   "src": "Xanathar’s Guide to Everything (2017), « Barde »",
+   "expl": "Le collège du Glamour enseigne la magie séduisante des fées : le barde peut envoûter son public et commander à ses ennemis.",
+   "id": "fee-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Xanathar’s Guide to Everything, quel cercle de druide est lié à la Féerie et à la Cour d’été ?",
+   "choix": [
+    "Le cercle des Rêves",
+    "Le cercle de la Lune",
+    "Le cercle de la Terre",
+    "Le cercle des Bergers"
+   ],
+   "rep": 0,
+   "src": "Xanathar’s Guide to Everything (2017), « Druide »",
+   "expl": "Les druides du cercle des Rêves ont des liens avec la Féerie : ils soignent avec le Baume de la Cour d’été et empruntent des chemins cachés entre deux points proches.",
+   "id": "fee-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel pouvoir de niveau 1 l’occultiste de l’Archifée reçoit-il ?",
+   "choix": [
+    "Présence féerique",
+    "Fuite brumeuse",
+    "Défenses envoûtantes",
+    "Délire obscur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Occultiste »",
+   "expl": "Présence féerique charme ou effraie les créatures proches. Fuite brumeuse vient au niveau 6, Défenses envoûtantes au 10, Délire obscur au 14.",
+   "id": "fee-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel sort de niveau 1 entoure les créatures d’une lueur qui les rend plus faciles à toucher ?",
+   "choix": [
+    "Lueurs féeriques",
+    "Lumière",
+    "Lumières dansantes",
+    "Flamme sacrée"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Lueurs féeriques (faerie fire) dessine les créatures d’une lumière colorée : les attaques contre elles ont l’avantage et elles ne peuvent plus être invisibles.",
+   "id": "fee-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 2 permet de se téléporter de 9 m dans une brume argentée ?",
+   "choix": [
+    "Pas brumeux",
+    "Porte dimensionnelle",
+    "Saut",
+    "Pas de l’ombre"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Pas brumeux (misty step), en action bonus, fait disparaître le lanceur dans une brume pour réapparaître à 9 m ; les eladrins ont un pouvoir semblable, le Pas féerique.",
+   "id": "fee-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le Guide de Volo, quelle fée cruelle dépérit si son couvre-chef trempé de sang finit par sécher ?",
+   "choix": [
+    "Le bonnet-rouge",
+    "Le korred",
+    "Le boggle",
+    "Le quickling"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Bonnet-rouge »",
+   "expl": "Le bonnet-rouge (redcap) est un petit tueur aux bottes de fer ; il doit tremper sans cesse son bonnet dans le sang de ses victimes.",
+   "id": "fee-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le Guide de Volo, quelle petite fée est si rapide qu’elle semble disparaître ?",
+   "choix": [
+    "Le quickling",
+    "Le korred",
+    "Le pixie",
+    "Le satyre"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Quickling »",
+   "expl": "Le quickling a une vitesse de 36 m (120 pieds) et une CA élevée grâce à son agilité ; c’est un farceur malveillant au service des archifées.",
+   "id": "fee-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans le Guide de Volo, quelle petite fée crasseuse naît de la solitude d’un enfant et peut ouvrir des passages entre deux endroits proches ?",
+   "choix": [
+    "Le boggle",
+    "Le korred",
+    "Le meenlock",
+    "Le bonnet-rouge"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Boggle »",
+   "expl": "Le boggle apparaît là où un enfant se sent seul ; il sécrète une huile glissante ou collante et ouvre de petites failles spatiales.",
+   "id": "fee-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans le Guide de Volo, quelle fée naine des pierres a une chevelure magique qu’elle peut faire pousser comme des cordes ?",
+   "choix": [
+    "Le korred",
+    "Le boggle",
+    "Le darkling",
+    "Le quickling"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Korred »",
+   "expl": "Le korred aime la danse et la pierre ; il peut traverser la roche et sa chevelure, coupée, devient une corde animée.",
+   "id": "fee-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, comment une guenaude engendre-t-elle une fille, selon le Manuel des Monstres ?",
+   "choix": [
+    "En enlevant un nourrisson humain",
+    "En pondant un œuf",
+    "En pactisant avec un démon",
+    "En maudissant une dryade"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Korred »",
+   "expl": "Les guenaudes volent et dévorent des nourrissons ; elles donnent ensuite naissance à une fille qui deviendra guenaude à son treizième anniversaire.",
+   "id": "fee-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel pouvoir de la guenaude des mers peut tuer d’un simple coup d’œil ?",
+   "choix": [
+    "Regard mortel",
+    "Apparence horrifique",
+    "Charme féerique",
+    "Cri strident"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Korred »",
+   "expl": "La guenaude des mers peut, d’un Regard mortel, réduire à 0 PV une créature déjà effrayée ; son Apparence horrifique sert à terrifier d’abord.",
+   "id": "fee-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle guenaude peut imiter les voix et se rendre invisible ?",
+   "choix": [
+    "La guenaude verte",
+    "La guenaude des mers",
+    "La guenaude nocturne",
+    "L’annis"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Korred »",
+   "expl": "La guenaude verte imite les cris d’animaux et les voix, prend des apparences trompeuses et peut devenir invisible : elle hante les marais et les forêts.",
+   "id": "fee-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel pouvoir de la guenaude nocturne lui permet de tourmenter un dormeur ?",
+   "choix": [
+    "Hantise des cauchemars",
+    "Regard mortel",
+    "Pas de l’arbre",
+    "Charme féerique"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Korred »",
+   "expl": "Grâce à Hantise des cauchemars, la guenaude nocturne visite les rêves d’une créature depuis le Plan Éthéré et l’empêche de récupérer.",
+   "id": "fee-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable lapin, venu de la Féerie, saute avec agilité ?",
+   "choix": [
+    "Les harengons",
+    "Les tabaxi",
+    "Les kenku",
+    "Les aarakocra"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021), « Harengon »",
+   "expl": "Les harengons, humanoïdes à l’allure de lièvre, ont un Saut de lapin et une bonne Perception. Ils sont apparus dans The Wild Beyond the Witchlight.",
+   "id": "fee-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel supplément les satyres sont-ils devenus un peuple jouable officiel ?",
+   "choix": [
+    "Mythic Odysseys of Theros",
+    "Volo’s Guide to Monsters",
+    "Player’s Handbook",
+    "Eberron: Rising from the Last War"
+   ],
+   "rep": 0,
+   "src": "Mythic Odysseys of Theros (2020) ; Mordenkainen Presents: Monsters of the Multiverse (2022)",
+   "expl": "Les satyres jouables sont apparus dans Mythic Odysseys of Theros (2020), univers inspiré de la Grèce antique, avant d’être repris en 2022.",
+   "id": "fee-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que permet le Charme féerique de la dryade ?",
+   "choix": [
+    "Charmer un humanoïde ou une bête",
+    "Endormir une forêt",
+    "Se changer en arbre",
+    "Voler dans les airs"
+   ],
+   "rep": 0,
+   "src": "Mythic Odysseys of Theros (2020) ; Mordenkainen Presents: Monsters of the Multiverse (2022)",
+   "expl": "La dryade peut charmer un humanoïde ou une bête qui la voit ; la créature charmée la considère comme une amie de confiance.",
+   "id": "fee-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle fée ailée minuscule possède l’Invisibilité supérieure et lance Métamorphose ?",
+   "choix": [
+    "Le pixie",
+    "Le sprite",
+    "Le satyre",
+    "La dryade"
+   ],
+   "rep": 0,
+   "src": "Mythic Odysseys of Theros (2020) ; Mordenkainen Presents: Monsters of the Multiverse (2022)",
+   "expl": "Le pixie (FP 1/4) est presque toujours invisible ; parmi ses sorts innés figurent Confusion, Sommeil et Métamorphose.",
+   "id": "fee-113",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, les elfes sont originaires du plan de la ____.",
+   "choix": [
+    "Féerie",
+    "Gisombre",
+    "Mont Céleste",
+    "Mechanus"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Elfe » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Les elfes sont liés à la Féerie, d’où leur Ascendance féerique ; les eladrins y vivent encore au rythme des saisons.",
+   "id": "fee-114",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Titania dirige la Cour d’____, aussi appelée Cour Seelie.",
+   "choix": [
+    "été",
+    "hiver",
+    "automne",
+    "aurore"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Elfe » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "La Cour d’été de Titania s’oppose à la Cour du crépuscule de la Reine de l’air et des ténèbres.",
+   "id": "fee-115",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la guenaude nocturne garde précieusement sa ____ de cœur, qui lui permet de voyager dans le Plan Éthéré.",
+   "choix": [
+    "pierre",
+    "perle",
+    "rose",
+    "flamme"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Elfe » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "La pierre de cœur de la guenaude nocturne lui donne l’accès au Plan Éthéré et soigne les maladies ; sans elle, elle perd ce pouvoir.",
+   "id": "fee-116",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Trois guenaudes réunies forment un ____, qui leur permet de lancer des sorts plus puissants.",
+   "choix": [
+    "sabbat",
+    "cercle",
+    "conclave",
+    "concile"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Elfe » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Un sabbat (coven) de trois guenaudes partage des sorts comme Éclair ou Mauvais œil ; les guenaudes y fabriquent souvent un œil de guenaude.",
+   "id": "fee-117",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans The Wild Beyond the Witchlight, le domaine de Prismeer a été divisé en trois régions : Hither, Thither et ____.",
+   "choix": [
+    "Yon",
+    "Beyond",
+    "Here",
+    "Elsewhere"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "Bavlorna règne sur Hither, Skabatha sur Thither et Endelyn sur Yon ; Zybilna, elle, est figée dans le temps au palais du Cœur.",
+   "id": "fee-118",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ est un chien de la Féerie capable de se téléporter.",
+   "choix": [
+    "chien clignotant",
+    "chien de l’ombre",
+    "molosse féerique",
+    "loup des fées"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "Le chien clignotant (blink dog), loyal bon, apparaît et disparaît pour dérouter ses proies ; il chasse en meute et déteste les chiens esquiveurs.",
+   "id": "fee-119",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’eladrin peut se téléporter sur une courte distance grâce au Pas ____.",
+   "choix": [
+    "féerique",
+    "lunaire",
+    "brumeux",
+    "sylvestre"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Eladrin »",
+   "expl": "Le Pas féerique permet à l’eladrin de se téléporter de 9 m ; selon sa saison, il produit en plus un effet de charme, de peur, de feu ou de froid.",
+   "id": "fee-120",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’occultiste de l’Archifée a pactisé avec un puissant seigneur de la ____.",
+   "choix": [
+    "Féerie",
+    "Gisombre",
+    "Mont Céleste",
+    "Neuf Enfers"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Occultiste »",
+   "expl": "Les protecteurs de la Féerie sont capricieux : ils accordent charme, illusions et fuites brumeuses à leurs occultistes.",
+   "id": "fee-121",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans le Guide de Volo, le ____ est une fée qui se nourrit de la peur et paralyse ses victimes avant de les emmener dans ses tunnels.",
+   "choix": [
+    "meenlock",
+    "korred",
+    "quickling",
+    "boggle"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Meenlock »",
+   "expl": "Le meenlock est un être cauchemardesque qui terrorise ses proies par télépathie et les paralyse de ses griffes.",
+   "id": "fee-122",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces créatures n’est pas une fée ?",
+   "choix": [
+    "Licorne",
+    "Pixie",
+    "Sprite",
+    "Satyre"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Meenlock »",
+   "expl": "La licorne est un céleste. Le pixie, le sprite et le satyre sont des fées.",
+   "id": "fee-123",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas une archifée ?",
+   "choix": [
+    "Asmodeus",
+    "Titania",
+    "La Reine de l’air et des ténèbres",
+    "Zybilna"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Meenlock »",
+   "expl": "Asmodeus est un archidiable. Titania, la Reine de l’air et des ténèbres et Zybilna sont des archifées.",
+   "id": "fee-124",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces guenaudes n’appartient pas au sabbat du Sablier ?",
+   "choix": [
+    "Baba Lysaga",
+    "Bavlorna",
+    "Skabatha",
+    "Endelyn"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021) ; Curse of Strahd (2016)",
+   "expl": "Baba Lysaga est une sorcière de Barovie (Curse of Strahd). Bavlorna, Skabatha et Endelyn forment le sabbat du Sablier.",
+   "id": "fee-125",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces pouvoirs n’appartient pas à la dryade ?",
+   "choix": [
+    "Souffle de feu",
+    "Charme féerique",
+    "Pas d’arbre",
+    "Communication avec les bêtes et les plantes"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021) ; Curse of Strahd (2016)",
+   "expl": "La dryade charme, passe d’un arbre à l’autre et parle aux plantes et aux bêtes, mais n’a évidemment aucun souffle de feu.",
+   "id": "fee-126",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces fées n’apparaît pas dans le Guide de Volo des monstres ?",
+   "choix": [
+    "Dryade",
+    "Bonnet-rouge",
+    "Korred",
+    "Quickling"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "La dryade est dans le Manuel des Monstres. Le bonnet-rouge, le korred et le quickling ont été ajoutés par le Guide de Volo (2016).",
+   "id": "fee-127",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces sorts n’est pas lié aux fées ?",
+   "choix": [
+    "Boule de feu",
+    "Lueurs féeriques",
+    "Convocation de fée",
+    "Convocation d’êtres sylvestres"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Boule de feu est un sort d’évocation de feu. Les trois autres font appel à la magie ou aux créatures féeriques.",
+   "id": "fee-128",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces pouvoirs n’appartient pas à l’occultiste de l’Archifée ?",
+   "choix": [
+    "Bénédiction du ténébreux",
+    "Présence féerique",
+    "Fuite brumeuse",
+    "Défenses envoûtantes"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Occultiste »",
+   "expl": "Bénédiction du ténébreux appartient à l’occultiste du Fiélon. Présence féerique, Fuite brumeuse et Défenses envoûtantes viennent de l’Archifée.",
+   "id": "fee-129",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces peuples jouables n’est pas lié à la Féerie ?",
+   "choix": [
+    "Goliath",
+    "Eladrin",
+    "Harengon",
+    "Fée"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Occultiste »",
+   "expl": "Les goliaths descendent des géants des montagnes. Eladrins, harengons et fées sont des peuples de la Féerie.",
+   "id": "fee-130",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquelles de ces créatures sont des fées dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dryade",
+    "Satyre",
+    "Chien clignotant",
+    "Treant",
+    "Licorne"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), « Occultiste »",
+   "expl": "Dryade, satyre et chien clignotant sont des fées. Le treant est une plante et la licorne un céleste.",
+   "id": "fee-131",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles guenaudes du Manuel des Monstres 5e sont de type fée ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Guenaude verte",
+    "Guenaude des mers",
+    "Guenaude nocturne",
+    "Baba Lysaga"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Monstres 5e (2014) ; Curse of Strahd (2016)",
+   "expl": "Les guenaudes verte et des mers sont des fées. La guenaude nocturne est un fiélon ; Baba Lysaga est une humaine (sorcière) de Curse of Strahd.",
+   "id": "fee-132",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles sous-classes sont liées à la Féerie ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Collège du Glamour",
+    "Cercle des Rêves",
+    "Vagabond féerique",
+    "Voie du Berserker",
+    "École d’évocation"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le barde du Glamour, le druide des Rêves et le rôdeur Vagabond féerique puisent dans la magie des fées. Le berserker et l’évocateur non.",
+   "id": "fee-133",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts innés le pixie peut-il lancer ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sommeil",
+    "Confusion",
+    "Métamorphose",
+    "Boule de feu",
+    "Éclair"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le pixie lance entre autres Sommeil, Confusion, Métamorphose et Lueurs féeriques, mais aucun sort de destruction.",
+   "id": "fee-134",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels sont des personnages de The Wild Beyond the Witchlight ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Zybilna",
+    "Bavlorna",
+    "Mister Witch",
+    "Strahd",
+    "Acererak"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "Zybilna, la guenaude Bavlorna et Mister Witch appartiennent à Witchlight. Strahd et Acererak sont les méchants d’autres aventures.",
+   "id": "fee-135",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles capacités possède la guenaude verte ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mimétisme",
+    "Apparence illusoire",
+    "Passage invisible",
+    "Regard mortel",
+    "Hantise des cauchemars"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "Mimétisme, Apparence illusoire et Passage invisible sont à la guenaude verte. Le Regard mortel est à la guenaude des mers, la Hantise des cauchemars à la nocturne.",
+   "id": "fee-136",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels peuples jouables sont apparus dans The Wild Beyond the Witchlight ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fée",
+    "Harengon",
+    "Eladrin",
+    "Satyre",
+    "Tabaxi"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "Witchlight a introduit la fée et le harengon. L’eladrin venait de Mordenkainen’s Tome of Foes, le satyre de Theros, le tabaxi du Guide de Volo.",
+   "id": "fee-137",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles cours règnent sur la Féerie ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cour d’été",
+    "Cour du crépuscule",
+    "Cour de fer",
+    "Cour des Abysses"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "La Cour d’été (Seelie) de Titania et la Cour du crépuscule (Unseelie) de la Reine de l’air et des ténèbres se partagent la Féerie.",
+   "id": "fee-138",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces créatures des bois par FP croissant.",
+   "items": [
+    "Chien clignotant",
+    "Satyre",
+    "Dryade",
+    "Guenaude verte",
+    "Treant"
+   ],
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "FP : chien clignotant 1/4, satyre 1/2, dryade 1, guenaude verte 3, treant 9 (une plante, gardienne des forêts).",
+   "id": "fee-139",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces suppléments par date de parution.",
+   "items": [
+    "Mordenkainen’s Tome of Foes",
+    "Tasha’s Cauldron of Everything",
+    "The Wild Beyond the Witchlight"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast (D&D 5e)",
+   "expl": "Mordenkainen’s Tome of Foes (2018) présente les eladrins, Tasha (2020) le Vagabond féerique, Witchlight (2021) les fées et harengons jouables.",
+   "id": "fee-140",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces pouvoirs de l’occultiste de l’Archifée par niveau d’obtention croissant.",
+   "items": [
+    "Présence féerique",
+    "Fuite brumeuse",
+    "Défenses envoûtantes",
+    "Délire obscur"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), « Occultiste »",
+   "expl": "Présence féerique arrive au niveau 1, Fuite brumeuse au niveau 6, Défenses envoûtantes au niveau 10 et Délire obscur au niveau 14.",
+   "id": "fee-141",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces guenaudes par FP croissant.",
+   "items": [
+    "Guenaude des mers",
+    "Guenaude verte",
+    "Guenaude nocturne"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), « Occultiste »",
+   "expl": "FP : guenaude des mers 2, guenaude verte 3, guenaude nocturne 5.",
+   "id": "fee-142",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces fées par points de vie moyens croissants.",
+   "items": [
+    "Pixie",
+    "Sprite",
+    "Dryade",
+    "Satyre",
+    "Guenaude verte"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), « Occultiste »",
+   "expl": "PV moyens : pixie 1, sprite 2, dryade 22, satyre 31, guenaude verte 82.",
+   "id": "fee-143",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe les saisons des eladrins dans l’ordre de l’année, à partir du printemps.",
+   "items": [
+    "Printemps",
+    "Été",
+    "Automne",
+    "Hiver"
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018), « Eladrin »",
+   "expl": "Les eladrins changent de saison selon leur humeur : printemps (joie), été (colère), automne (paix), hiver (tristesse).",
+   "id": "fee-144",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque fée à son trait.",
+   "paires": [
+    [
+     "Satyre",
+     "Flûte enchantée"
+    ],
+    [
+     "Dryade",
+     "Liée à un arbre"
+    ],
+    [
+     "Pixie",
+     "Invisibilité"
+    ],
+    [
+     "Bonnet-rouge",
+     "Bonnet trempé de sang"
+    ]
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018), « Eladrin »",
+   "expl": "Le satyre joue de la flûte, la dryade vit pour son arbre, le pixie reste invisible et le bonnet-rouge se nourrit de violence.",
+   "id": "fee-145",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque guenaude à son pouvoir.",
+   "paires": [
+    [
+     "Guenaude verte",
+     "Mimétisme"
+    ],
+    [
+     "Guenaude des mers",
+     "Regard mortel"
+    ],
+    [
+     "Guenaude nocturne",
+     "Hantise des cauchemars"
+    ]
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018), « Eladrin »",
+   "expl": "Chaque guenaude a sa spécialité : imitation, regard qui tue, tourment des rêves.",
+   "id": "fee-146",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque saison d’eladrin à l’humeur qu’elle reflète.",
+   "paires": [
+    [
+     "Printemps",
+     "Joie"
+    ],
+    [
+     "Été",
+     "Colère"
+    ],
+    [
+     "Automne",
+     "Sérénité"
+    ],
+    [
+     "Hiver",
+     "Mélancolie"
+    ]
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018), « Eladrin »",
+   "expl": "La saison d’un eladrin traduit son état émotionnel et change le pouvoir de son Pas féerique.",
+   "id": "fee-147",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque archifée à sa cour ou à son domaine.",
+   "paires": [
+    [
+     "Titania",
+     "Cour d’été"
+    ],
+    [
+     "Reine de l’air et des ténèbres",
+     "Cour du crépuscule"
+    ],
+    [
+     "Zybilna",
+     "Prismeer"
+    ]
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018), « Eladrin »",
+   "expl": "Titania règne sur la Cour d’été, la Reine de l’air et des ténèbres sur la Cour du crépuscule, Zybilna sur Prismeer.",
+   "id": "fee-148",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque guenaude du sabbat du Sablier à sa région.",
+   "paires": [
+    [
+     "Bavlorna",
+     "Hither"
+    ],
+    [
+     "Skabatha",
+     "Thither"
+    ],
+    [
+     "Endelyn",
+     "Yon"
+    ]
+   ],
+   "src": "The Wild Beyond the Witchlight (2021)",
+   "expl": "Les trois guenaudes se sont partagé Prismeer : Hither pour Bavlorna, Thither pour Skabatha, Yon pour Endelyn.",
+   "id": "fee-149",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sous-classe à sa classe.",
+   "paires": [
+    [
+     "Collège du Glamour",
+     "Barde"
+    ],
+    [
+     "Cercle des Rêves",
+     "Druide"
+    ],
+    [
+     "Vagabond féerique",
+     "Rôdeur"
+    ],
+    [
+     "Archifée",
+     "Occultiste"
+    ]
+   ],
+   "src": "Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Ces quatre sous-classes tirent leurs pouvoirs de la Féerie.",
+   "id": "fee-150",
+   "conf": "probable"
   }
  ],
  "sources": []

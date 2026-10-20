@@ -755,23 +755,8 @@
    "rep": 7,
    "expl": "Un gobelin a 7 PV (2d6).",
    "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
-   "conf": "probable"
-  },
-  {
-   "id": "gob-054",
-   "concept": "gob-054",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du gobelin ?",
-   "min": 8,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 15,
-   "expl": "CA 15, grâce à son armure de cuir et à son bouclier.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-055",
@@ -787,7 +772,8 @@
    "rep": 11,
    "expl": "Un hobgobelin a 11 PV (2d8 + 2).",
    "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-056",
@@ -803,7 +789,8 @@
    "rep": 18,
    "expl": "CA 18, grâce à sa cotte de mailles et à son bouclier.",
    "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-057",
@@ -819,23 +806,8 @@
    "rep": 27,
    "expl": "Un gobelours a 27 PV (5d8 + 5).",
    "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
-   "conf": "probable"
-  },
-  {
-   "id": "gob-058",
-   "concept": "gob-058",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du gobelours ?",
-   "min": 8,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 16,
-   "expl": "CA 16 : armure de peau et bouclier.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-059",
@@ -851,23 +823,8 @@
    "rep": 15,
    "expl": "Un orque a 15 PV (2d8 + 6).",
    "src": "Manuel des Monstres 5e (2014), entrée « Orque »",
-   "conf": "probable"
-  },
-  {
-   "id": "gob-060",
-   "concept": "gob-060",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA de l’orque ?",
-   "min": 8,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 13,
-   "expl": "CA 13 : armure de peau.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Orque »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-061",
@@ -883,23 +840,8 @@
    "rep": 5,
    "expl": "Un kobold a 5 PV (2d6 − 2).",
    "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
-   "conf": "probable"
-  },
-  {
-   "id": "gob-062",
-   "concept": "gob-062",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du kobold ?",
-   "min": 8,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 12,
-   "expl": "CA 12 : armure naturelle et agilité.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-063",
@@ -915,39 +857,8 @@
    "rep": 22,
    "expl": "Un gnoll a 22 PV (5d8).",
    "src": "Manuel des Monstres 5e (2014), entrée « Gnoll »",
-   "conf": "probable"
-  },
-  {
-   "id": "gob-064",
-   "concept": "gob-064",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du gnoll ?",
-   "min": 8,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 15,
-   "expl": "CA 15 : armure de peau et bouclier.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Gnoll »",
-   "conf": "probable"
-  },
-  {
-   "id": "gob-065",
-   "concept": "gob-065",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un homme-lézard ?",
-   "min": 1,
-   "max": 60,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 22,
-   "expl": "Un homme-lézard a 22 PV (4d8 + 4).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Homme-lézard »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-066",
@@ -963,7 +874,8 @@
    "rep": 1,
    "expl": "Le gobelours est de FP 1 (200 XP).",
    "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-067",
@@ -979,7 +891,8 @@
    "rep": 7,
    "expl": "L’abomination yuan-ti est de FP 7.",
    "src": "Manuel des Monstres 5e (2014), entrée « Abomination yuan-ti »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-068",
@@ -995,7 +908,8 @@
    "rep": 2014,
    "expl": "L’aventure est parue en 2014, avec le D&D Starter Set.",
    "src": "D&D Starter Set (2014), Lost Mine of Phandelver",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-069",
@@ -1011,7 +925,8 @@
    "rep": 1,
    "expl": "Gruumsh n’a qu’un œil : il a perdu l’autre contre Corellon.",
    "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gob-070",
@@ -1027,7 +942,8 @@
    "rep": 22,
    "expl": "Un sahuagin a 22 PV (4d8 + 4).",
    "src": "Manuel des Monstres 5e (2014), entrée « Sahuagin »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "type": "intrus",
@@ -1337,6 +1253,1232 @@
    "id": "gob-086",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quels sont les trois peuples gobelinoïdes ?",
+   "choix": [
+    "Gobelins, hobgobelins et gobelours",
+    "Gobelins, kobolds et orques",
+    "Orques, gnolls et ogres",
+    "Kobolds, gnolls et gobelours"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des humanoïdes ; Volo’s Guide to Monsters (2016)",
+   "expl": "Les gobelinoïdes regroupent les gobelins, les hobgobelins et les gobelours, tous liés au dieu Maglubiyet.",
+   "id": "gob-087",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel trait du gobelours lui inflige 2d6 dégâts de plus contre une créature prise au dépourvu au premier round ?",
+   "choix": [
+    "Attaque surprise",
+    "Avantage martial",
+    "Attaque sournoise",
+    "Furie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des humanoïdes ; Volo’s Guide to Monsters (2016)",
+   "expl": "L’Attaque surprise ajoute 2d6 dégâts si le gobelours frappe une créature surprise au premier round. Ses longs bras lui donnent aussi plus d’allonge.",
+   "id": "gob-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel trait permet au gnoll d’attaquer à nouveau après avoir abattu un ennemi ?",
+   "choix": [
+    "Saccage",
+    "Agressif",
+    "Fuite agile",
+    "Tactique de meute"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des humanoïdes ; Volo’s Guide to Monsters (2016)",
+   "expl": "Avec Saccage, quand le gnoll réduit une créature à 0 PV au corps à corps, il peut se déplacer et mordre en action bonus.",
+   "id": "gob-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon le Manuel des Monstres, comment naissent les premiers gnolls ?",
+   "choix": [
+    "Des hyènes ayant dévoré les proies de Yeenoghu",
+    "D’un pacte sanglant conclu avec Gruumsh",
+    "D’œufs abandonnés dans un nid de dragon",
+    "De loups frappés d’une malédiction lunaire"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des humanoïdes ; Volo’s Guide to Monsters (2016)",
+   "expl": "La légende veut que les hyènes qui dévorèrent les restes laissés par Yeenoghu se transformèrent en gnolls ; ils ne vivent que pour tuer.",
+   "id": "gob-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon la légende des orques, qui a crevé l’œil de Gruumsh ?",
+   "choix": [
+    "Corellon Larethian",
+    "Moradin",
+    "Maglubiyet",
+    "Lolth"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Orques »",
+   "expl": "Lors de la guerre des dieux, Corellon, dieu des elfes, perça l’œil de Gruumsh d’une flèche : la haine des orques pour les elfes vient de là.",
+   "id": "gob-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle déesse est la mère des orques et la gardienne des cavernes ?",
+   "choix": [
+    "Luthic",
+    "Lolth",
+    "Hiatea",
+    "Tymora"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Orques : les dieux »",
+   "expl": "Luthic, épouse de Gruumsh, protège les foyers et les cavernes des orques ; ses prêtresses sont des guérisseuses.",
+   "id": "gob-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel orque élevé dans l’Outreterre est plus fort et plus discipliné que ses cousins ?",
+   "choix": [
+    "L’orog",
+    "Le demi-orque",
+    "Le chef de guerre",
+    "L’œil de Gruumsh"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Orques : les dieux »",
+   "expl": "L’orog (FP 2) est un orque des profondeurs, puissant et réputé pour sa discipline au combat.",
+   "id": "gob-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, comment s’appelle le prêtre orque qui se crève un œil pour honorer son dieu borgne ?",
+   "choix": [
+    "L’œil de Gruumsh",
+    "Le chef de guerre",
+    "L’orog",
+    "Le shaman"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Orques : les dieux »",
+   "expl": "L’œil de Gruumsh (FP 2) se sacrifie un œil en hommage à son dieu borgne ; il lance des sorts de clerc.",
+   "id": "gob-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, comment s’appelle l’État orque fondé par le roi Obould ?",
+   "choix": [
+    "Le royaume des Mille-Flèches",
+    "La Marche d’argent",
+    "Le royaume de Thay",
+    "Les terres de Zhentil"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Orc King (2007) et The Thousand Orcs (2002) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Le roi Obould Mille-Flèches unifia les orques du Nord et fonda un royaume orque reconnu par un traité, ce qui bouleversa la région.",
+   "id": "gob-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel trait du demi-orque lui permet de rester à 1 PV au lieu de tomber à 0 ?",
+   "choix": [
+    "Endurance implacable",
+    "Attaques sauvages",
+    "Menaçant",
+    "Robustesse"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Demi-orque »",
+   "expl": "Une fois par repos long, l’Endurance implacable laisse le demi-orque à 1 PV quand il devrait tomber à 0.",
+   "id": "gob-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel trait du demi-orque ajoute un dé de dégâts à ses coups critiques ?",
+   "choix": [
+    "Attaques sauvages",
+    "Endurance implacable",
+    "Rage",
+    "Attaque sournoise"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Demi-orque »",
+   "expl": "Avec Attaques sauvages, le demi-orque relance un des dés de dégâts de l’arme lors d’un coup critique et l’ajoute.",
+   "id": "gob-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le Guide de Volo, quels sont les dieux des gobelours ?",
+   "choix": [
+    "Hruggek et Grankhul",
+    "Gruumsh et Luthic",
+    "Kurtulmak et Tiamat",
+    "Nilbog et Bargrivyek"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Gobelinoïdes »",
+   "expl": "Les gobelours vénèrent Hruggek, dieu de la violence, et Grankhul, dieu de la chasse et de la discrétion, sous l’autorité de Maglubiyet.",
+   "id": "gob-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans le Guide de Volo, quel dieu gobelin farceur prend le pouvoir quand on se moque de lui ?",
+   "choix": [
+    "Nilbog",
+    "Hruggek",
+    "Kurtulmak",
+    "Bahgtru"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Gobelinoïdes »",
+   "expl": "Nilbog, dieu de la farce, possède un gobelin dans la tribu : tant qu’il est là, il faut tout faire à l’envers pour l’apaiser.",
+   "id": "gob-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans Lost Mine of Phandelver, quel gobelours règne sur le château Cragmaw ?",
+   "choix": [
+    "Le roi Grol",
+    "Klarg",
+    "Yeemik",
+    "Glasstaff"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (boîte d’initiation, 2014), partie 3",
+   "expl": "Le roi Grol, chef de la tribu Cragmaw, détient Gundren Rockseeker dans le château Cragmaw.",
+   "id": "gob-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Lost Mine of Phandelver, quel drow manipule les gobelins pour trouver la caverne de l’Écho de la vague ?",
+   "choix": [
+    "Nezznar l’Araignée noire",
+    "Jarlaxle",
+    "Drizzt",
+    "Gromph Baenre"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014), introduction",
+   "expl": "Nezznar, l’Araignée noire, veut s’emparer de la Forge des sorts ; il paie la tribu Cragmaw pour capturer Gundren.",
+   "id": "gob-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans Lost Mine of Phandelver, comment s’appelle la bande de malfrats qui terrorise Phandaline ?",
+   "choix": [
+    "Les Capes rouges",
+    "Les Ménestrels",
+    "Le Zhentarim",
+    "Le Culte du Dragon"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014), partie 2",
+   "expl": "Les Capes rouges (Redbrands), dirigés par Glasstaff, ont leur repaire sous le manoir Tresendar.",
+   "id": "gob-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans Lost Mine of Phandelver, quel nain engage les héros au début de l’aventure ?",
+   "choix": [
+    "Gundren Rockseeker",
+    "Bruenor",
+    "Sildar Hallwinter",
+    "Klarg"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014), introduction",
+   "expl": "Gundren Rockseeker et ses frères ont retrouvé la caverne de l’Écho de la vague ; il demande aux héros d’escorter un chariot jusqu’à Phandaline.",
+   "id": "gob-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel trait permet à l’homme-lézard de fabriquer armes et boucliers à partir des os de ses proies ?",
+   "choix": [
+    "Artisan rusé",
+    "Morsure",
+    "Retenir son souffle",
+    "Peau épaisse"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Avec Artisan rusé, l’homme-lézard transforme les restes d’une créature en bouclier, gourdin ou javelines.",
+   "id": "gob-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de temps un homme-lézard peut-il retenir sa respiration ?",
+   "choix": [
+    "15 minutes",
+    "1 minute",
+    "1 heure",
+    "5 minutes"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Le trait Retenir son souffle permet à l’homme-lézard de rester 15 minutes sous l’eau.",
+   "id": "gob-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle créature humanoïde aveugle de l’Outreterre chasse à l’odorat et à l’ouïe ?",
+   "choix": [
+    "Le grimlock",
+    "Le troglodyte",
+    "Le kuo-toa",
+    "Le duergar"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Les grimlocks sont aveugles mais perçoivent les créatures proches grâce à leur vision aveugle ; leur peau grise se confond avec la roche.",
+   "id": "gob-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel humanoïde reptilien répand une puanteur qui empoisonne ?",
+   "choix": [
+    "Le troglodyte",
+    "Le bullywug",
+    "Le kobold",
+    "L’homme-lézard"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Le troglodyte dégage une Puanteur qui empoisonne les créatures proches ; sa peau change de couleur comme celle d’un caméléon.",
+   "id": "gob-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, avec quels animaux le bullywug peut-il communiquer ?",
+   "choix": [
+    "Grenouilles et crapauds",
+    "Serpents et lézards",
+    "Rats et chauves-souris",
+    "Poissons et crabes"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Les bullywugs communiquent avec les grenouilles et crapauds, qu’ils élèvent parfois comme montures géantes.",
+   "id": "gob-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel yuan-ti ressemble presque à un humain ?",
+   "choix": [
+    "Le sang-pur",
+    "L’abomination",
+    "Le maudit",
+    "Le chef"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Le sang-pur (pureblood) peut se faire passer pour un humain ; les maudits (malisons) mêlent davantage de traits de serpent, et les abominations sont presque des serpents géants.",
+   "id": "gob-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans les Royaumes Oubliés, quel dieu serpent les yuan-ti vénèrent-ils ?",
+   "choix": [
+    "Sseth",
+    "Kurtulmak",
+    "Semuanya",
+    "Yig"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Yuan-ti »",
+   "expl": "Sseth, le dieu serpent ailé, est vénéré par les yuan-ti de Faerûn ; Semuanya est le dieu des hommes-lézards.",
+   "id": "gob-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le dieu des hommes-lézards ?",
+   "choix": [
+    "Semuanya",
+    "Sseth",
+    "Kurtulmak",
+    "Maglubiyet"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Semuanya, divinité de la survie, n’attend de ses fidèles qu’une chose : rester en vie et se reproduire.",
+   "id": "gob-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quelle arme porte typiquement le hobgobelin du Manuel des Monstres ?",
+   "choix": [
+    "Une épée longue",
+    "Une hache à deux mains",
+    "Une fronde",
+    "Un fouet"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Le hobgobelin manie une épée longue et un arc long ; sa cotte de mailles et son bouclier lui donnent une CA de 18.",
+   "id": "gob-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel petit chef peut détourner une attaque vers l’un de ses sbires ?",
+   "choix": [
+    "Le chef gobelin",
+    "Le roi Grol",
+    "Le capitaine hobgobelin",
+    "Le seigneur de guerre"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Avec Rediriger une attaque, le chef gobelin (FP 1) échange de place avec un gobelin proche qui prend le coup à sa place.",
+   "id": "gob-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel gobelinoïde est le plus grand ?",
+   "choix": [
+    "Le gobelours",
+    "Le hobgobelin",
+    "Le gobelin",
+    "Le chef gobelin"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Homme-lézard »",
+   "expl": "Le gobelours, de taille Moyenne mais imposant, est le plus grand des gobelinoïdes ; le gobelin est Petit.",
+   "id": "gob-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans quel module de 2000, premier de la 3e édition, apparaît le kobold Meepo, gardien d’un dragon blanc ?",
+   "choix": [
+    "The Sunless Citadel",
+    "La Tombe des Horreurs",
+    "Ravenloft",
+    "Against the Giants"
+   ],
+   "rep": 0,
+   "src": "The Sunless Citadel (2000) ; Tales from the Yawning Portal (2017)",
+   "expl": "Dans The Sunless Citadel (2000), Meepo, un kobold attachant, demande aux héros de retrouver le dragonnet blanc Calcryx. Le module a été adapté en 5e dans Tales from the Yawning Portal (2017).",
+   "id": "gob-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel supplément a rendu jouables les gobelins, hobgobelins, kobolds et orques ?",
+   "choix": [
+    "Volo’s Guide to Monsters",
+    "Player’s Handbook",
+    "Dungeon Master’s Guide",
+    "Monster Manual"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), chapitre 2",
+   "expl": "Le Guide de Volo (2016) propose ces peuples en option jouable, avec des traits comme Fuite agile ou Tactique de meute.",
+   "id": "gob-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le Guide de Volo, quelle capacité gênante a le kobold jouable : « ramper, se cacher et… » ?",
+   "choix": [
+    "Supplier",
+    "Fuir",
+    "Mordre",
+    "Rugir"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Kobold »",
+   "expl": "« Ramper, se cacher et supplier » (Grovel, Cower, and Beg) : le kobold s’abaisse pour donner l’avantage à ses alliés contre les ennemis proches.",
+   "id": "gob-117",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, Maglubiyet est le dieu des ____.",
+   "choix": [
+    "gobelinoïdes",
+    "kobolds",
+    "gnolls",
+    "orques"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des humanoïdes ; Volo’s Guide to Monsters (2016)",
+   "expl": "Maglubiyet, le Puissant, a conquis les dieux des gobelins et des gobelours ; les hobgobelins le servent comme des soldats.",
+   "id": "gob-118",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le trait Agressif permet à l’orque de se rapprocher d’un ennemi en action ____.",
+   "choix": [
+    "bonus",
+    "réaction",
+    "légendaire",
+    "gratuite"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des humanoïdes ; Volo’s Guide to Monsters (2016)",
+   "expl": "En action bonus, l’orque peut se déplacer jusqu’à sa vitesse vers un ennemi qu’il voit : il charge sans perdre son attaque.",
+   "id": "gob-119",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Lost Mine of Phandelver, la tribu gobeline qui attaque le chariot de Gundren s’appelle la tribu ____.",
+   "choix": [
+    "Cragmaw",
+    "Redbrand",
+    "Bloodfang",
+    "Thundertree"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014), partie 1",
+   "expl": "La tribu Cragmaw, dirigée par le roi Grol, tend une embuscade sur la piste de Triboar au début de l’aventure.",
+   "id": "gob-120",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Lost Mine of Phandelver, le chef des Capes rouges se fait appeler ____.",
+   "choix": [
+    "Glasstaff",
+    "Klarg",
+    "Nezznar",
+    "Grol"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014), partie 2",
+   "expl": "Glasstaff (Bâton de verre) est le surnom d’Iarno Albrek, un magicien traître de l’Alliance des Seigneurs.",
+   "id": "gob-121",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans Lost Mine of Phandelver, la forge magique au cœur de la caverne de l’Écho de la vague s’appelle la Forge des ____.",
+   "choix": [
+    "sorts",
+    "âmes",
+    "géants",
+    "rois"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014), partie 4",
+   "expl": "La Forge des sorts, créée par les nains, les gnomes et les mages du Pacte de Phandelver, permettait d’enchanter armes et objets.",
+   "id": "gob-122",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, les kobolds ont l’avantage en attaque quand un allié est près de leur cible grâce à la Tactique de ____.",
+   "choix": [
+    "meute",
+    "groupe",
+    "horde",
+    "guerre"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014), partie 4",
+   "expl": "La Tactique de meute rend les kobolds dangereux en nombre ; isolés, ce sont des combattants faibles.",
+   "id": "gob-123",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les gnolls servent Yeenoghu, un seigneur démon à tête de ____.",
+   "choix": [
+    "hyène",
+    "chacal",
+    "loup",
+    "lion"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), annexe D",
+   "expl": "Yeenoghu, le Seigneur des gnolls, est un démon décharné à tête de hyène qui incarne la destruction sauvage et gratuite.",
+   "id": "gob-124",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le hobgobelin bénéficie de l’____ martial quand un allié se trouve près de sa cible.",
+   "choix": [
+    "Avantage",
+    "Élan",
+    "Esprit",
+    "Ordre"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), annexe D",
+   "expl": "L’Avantage martial ajoute 2d6 dégâts une fois par tour si un allié du hobgobelin est à côté de la cible.",
+   "id": "gob-125",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le gobelin jouable inflige des dégâts supplémentaires aux créatures plus grandes grâce à la Furie des ____.",
+   "choix": [
+    "petits",
+    "faibles",
+    "lâches",
+    "ombres"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Gobelin »",
+   "expl": "La Furie des petits ajoute des dégâts égaux au niveau du gobelin contre une créature plus grande que lui, une fois par repos.",
+   "id": "gob-126",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces monstres n’est pas un gobelinoïde ?",
+   "choix": [
+    "Gnoll",
+    "Gobelin",
+    "Hobgobelin",
+    "Gobelours"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Gobelin »",
+   "expl": "Le gnoll est un humanoïde à tête de hyène lié à Yeenoghu. Les trois autres sont des gobelinoïdes.",
+   "id": "gob-127",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas un dieu orque ?",
+   "choix": [
+    "Hruggek",
+    "Gruumsh",
+    "Luthic",
+    "Ilneval"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Hruggek est un dieu des gobelours. Gruumsh, Luthic et Ilneval appartiennent au panthéon orque.",
+   "id": "gob-128",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’apparaît pas dans Lost Mine of Phandelver ?",
+   "choix": [
+    "Strahd",
+    "Gundren Rockseeker",
+    "Sildar Hallwinter",
+    "Nezznar"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014)",
+   "expl": "Strahd est le vampire de Curse of Strahd. Gundren, Sildar et Nezznar sont des personnages de Lost Mine of Phandelver.",
+   "id": "gob-129",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces humanoïdes ne vit pas dans l’Outreterre ?",
+   "choix": [
+    "Homme-lézard",
+    "Grimlock",
+    "Kuo-toa",
+    "Duergar"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014)",
+   "expl": "L’homme-lézard vit dans les marais de la surface. Le grimlock, le kuo-toa et le duergar habitent l’Outreterre.",
+   "id": "gob-130",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces traits n’appartient pas au demi-orque du Manuel des Joueurs ?",
+   "choix": [
+    "Fuite agile",
+    "Endurance implacable",
+    "Attaques sauvages",
+    "Menaçant"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Demi-orque »",
+   "expl": "Fuite agile est un trait des gobelins. Endurance implacable, Attaques sauvages et Menaçant sont ceux du demi-orque.",
+   "id": "gob-131",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces humanoïdes n’est pas reptilien ?",
+   "choix": [
+    "Gnoll",
+    "Kobold",
+    "Homme-lézard",
+    "Yuan-ti"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Demi-orque »",
+   "expl": "Le gnoll a une tête de hyène. Kobold, homme-lézard et yuan-ti ont des écailles.",
+   "id": "gob-132",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres n’est pas de type humanoïde dans D&D 5e ?",
+   "choix": [
+    "Ogre",
+    "Gobelin",
+    "Orque",
+    "Gnoll"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Demi-orque »",
+   "expl": "L’ogre est de type géant. Le gobelin, l’orque et le gnoll sont des humanoïdes.",
+   "id": "gob-133",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces dieux n’appartient pas aux gobelinoïdes ?",
+   "choix": [
+    "Kurtulmak",
+    "Maglubiyet",
+    "Nilbog",
+    "Grankhul"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Kurtulmak est le dieu des kobolds. Maglubiyet, Nilbog et Grankhul sont des dieux gobelinoïdes.",
+   "id": "gob-134",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels de ces humanoïdes sont d’alignement chaotique mauvais dans le Manuel des Monstres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Orque",
+    "Gnoll",
+    "Hobgobelin",
+    "Kobold",
+    "Gobelin"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Orques et gnolls sont chaotiques mauvais. Hobgobelins et kobolds sont loyaux mauvais, les gobelins neutres mauvais.",
+   "id": "gob-135",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels traits possède le gobelours ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Attaque surprise",
+    "Bras longs",
+    "Avantage martial",
+    "Saccage"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Le gobelours a l’Attaque surprise et des Bras longs (allonge accrue). L’Avantage martial appartient au hobgobelin, le Saccage au gnoll.",
+   "id": "gob-136",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces personnages sont des chefs de Lost Mine of Phandelver ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Klarg",
+    "Le roi Grol",
+    "Glasstaff",
+    "Szass Tam",
+    "Xanathar"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Lost Mine of Phandelver (2014)",
+   "expl": "Klarg dirige la cachette Cragmaw, Grol le château Cragmaw, Glasstaff les Capes rouges. Szass Tam et Xanathar appartiennent à d’autres aventures.",
+   "id": "gob-137",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces peuples sont jouables grâce au Guide de Volo ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gobelin",
+    "Kobold",
+    "Homme-lézard",
+    "Gnoll",
+    "Grimlock"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Volo’s Guide to Monsters (2016), chapitre 2",
+   "expl": "Le Guide de Volo rend jouables gobelins, kobolds et hommes-lézards, entre autres. Gnolls et grimlocks n’y sont pas jouables.",
+   "id": "gob-138",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels dieux font partie du panthéon des orques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gruumsh",
+    "Luthic",
+    "Bahgtru",
+    "Moradin",
+    "Semuanya"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Orques »",
+   "expl": "Gruumsh, Luthic et Bahgtru (dieu de la force) sont des dieux orques. Moradin est le dieu des nains, Semuanya celui des hommes-lézards.",
+   "id": "gob-139",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels humanoïdes sont sensibles à la lumière du soleil ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Kobold",
+    "Drow",
+    "Hobgobelin",
+    "Homme-lézard",
+    "Gnoll"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Orques »",
+   "expl": "Kobolds et drows ont la Sensibilité au soleil. Les hobgobelins, hommes-lézards et gnolls n’en souffrent pas.",
+   "id": "gob-140",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels humanoïdes vivent près de l’eau ou dans l’eau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bullywug",
+    "Sahuagin",
+    "Kuo-toa",
+    "Gnoll",
+    "Hobgobelin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Orques »",
+   "expl": "Les bullywugs des marais, les sahuagins des mers et les kuo-toa des lacs souterrains sont liés à l’eau.",
+   "id": "gob-141",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels formes de yuan-ti existent dans le Manuel des Monstres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sang-pur",
+    "Maudit",
+    "Abomination",
+    "Naga",
+    "Méduse"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Orques »",
+   "expl": "Le Manuel des Monstres présente le sang-pur, le maudit (malison) et l’abomination. Le naga et la méduse sont d’autres monstres.",
+   "id": "gob-142",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces gobelinoïdes du plus petit au plus grand.",
+   "items": [
+    "Gobelin",
+    "Hobgobelin",
+    "Gobelours"
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Orques »",
+   "expl": "Le gobelin est Petit (environ 1 m), le hobgobelin de taille humaine et le gobelours le plus massif (plus de 2 m).",
+   "id": "gob-143",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces humanoïdes du moins au plus redoutable (FP croissant).",
+   "items": [
+    "Kobold",
+    "Gobelin",
+    "Orque",
+    "Gobelours",
+    "Chef de guerre orque"
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Orques »",
+   "expl": "FP : kobold 1/8, gobelin 1/4, orque 1/2, gobelours 1, chef de guerre orque 4.",
+   "id": "gob-144",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces chefs par FP croissant.",
+   "items": [
+    "Chef gobelin",
+    "Œil de Gruumsh",
+    "Chef de guerre orque",
+    "Seigneur de guerre hobgobelin"
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Orques »",
+   "expl": "FP : chef gobelin 1, œil de Gruumsh 2, chef de guerre orque 4, seigneur de guerre hobgobelin 6.",
+   "id": "gob-145",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de Lost Mine of Phandelver dans l’ordre de l’aventure.",
+   "items": [
+    "Embuscade des gobelins",
+    "Phandaline et les Capes rouges",
+    "Château Cragmaw",
+    "Caverne de l’Écho de la vague"
+   ],
+   "src": "Lost Mine of Phandelver (2014)",
+   "expl": "Les héros sont attaqués sur la piste, arrivent à Phandaline, délivrent Gundren au château Cragmaw et finissent à la caverne de l’Écho de la vague.",
+   "id": "gob-146",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces yuan-ti du plus humain au plus serpentin.",
+   "items": [
+    "Sang-pur",
+    "Maudit",
+    "Abomination"
+   ],
+   "src": "Lost Mine of Phandelver (2014)",
+   "expl": "Le sang-pur passe pour humain, le maudit (malison) mêle traits humains et serpentins, l’abomination est presque un serpent géant.",
+   "id": "gob-147",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces parutions par date.",
+   "items": [
+    "The Sunless Citadel",
+    "Lost Mine of Phandelver",
+    "Volo’s Guide to Monsters"
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "The Sunless Citadel (2000), Lost Mine of Phandelver (2014), Volo’s Guide to Monsters (2016).",
+   "id": "gob-148",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque peuple à la divinité qu’il vénère.",
+   "paires": [
+    [
+     "Hommes-lézards",
+     "Semuanya"
+    ],
+    [
+     "Yuan-ti",
+     "Sseth"
+    ],
+    [
+     "Kuo-toa",
+     "Blibdoolpoolp"
+    ],
+    [
+     "Gobelours",
+     "Hruggek"
+    ]
+   ],
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Chaque peuple « monstrueux » a son panthéon : Semuanya, Sseth, Blibdoolpoolp, Hruggek.",
+   "id": "gob-149",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque humanoïde à son trait.",
+   "paires": [
+    [
+     "Gnoll",
+     "Saccage"
+    ],
+    [
+     "Gobelours",
+     "Attaque surprise"
+    ],
+    [
+     "Troglodyte",
+     "Puanteur"
+    ],
+    [
+     "Homme-lézard",
+     "Retenir son souffle"
+    ]
+   ],
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Saccage, Attaque surprise, Puanteur et Retenir son souffle sont les signatures de ces humanoïdes.",
+   "id": "gob-150",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage de Lost Mine of Phandelver à son rôle.",
+   "paires": [
+    [
+     "Gundren",
+     "Nain commanditaire"
+    ],
+    [
+     "Nezznar",
+     "Drow manipulateur"
+    ],
+    [
+     "Glasstaff",
+     "Chef des Capes rouges"
+    ],
+    [
+     "Klarg",
+     "Gobelours de la cachette"
+    ]
+   ],
+   "src": "Lost Mine of Phandelver (2014)",
+   "expl": "Gundren lance l’aventure, Nezznar tire les ficelles, Glasstaff commande les Capes rouges et Klarg garde la cachette Cragmaw.",
+   "id": "gob-151",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque monstre à son milieu.",
+   "paires": [
+    [
+     "Bullywug",
+     "Marais"
+    ],
+    [
+     "Grimlock",
+     "Outreterre"
+    ],
+    [
+     "Sahuagin",
+     "Mer"
+    ],
+    [
+     "Gnoll",
+     "Plaines sauvages"
+    ]
+   ],
+   "src": "Lost Mine of Phandelver (2014)",
+   "expl": "Bullywugs des marais, grimlocks des profondeurs, sahuagins des mers et gnolls des plaines.",
+   "id": "gob-152",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque trait jouable du Guide de Volo à son peuple.",
+   "paires": [
+    [
+     "Fuite agile",
+     "Gobelin"
+    ],
+    [
+     "Sauvegarde de la face",
+     "Hobgobelin"
+    ],
+    [
+     "Artisan rusé",
+     "Homme-lézard"
+    ],
+    [
+     "Supplier",
+     "Kobold"
+    ]
+   ],
+   "src": "Volo’s Guide to Monsters (2016), chapitre 2",
+   "expl": "Ces traits viennent du Guide de Volo : la Fuite agile du gobelin, la Sauvegarde de la face du hobgobelin, l’Artisan rusé de l’homme-lézard, « ramper, se cacher et supplier » du kobold.",
+   "id": "gob-153",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque monstre à son alignement habituel.",
+   "paires": [
+    [
+     "Gobelin",
+     "Neutre mauvais"
+    ],
+    [
+     "Hobgobelin",
+     "Loyal mauvais"
+    ],
+    [
+     "Orque",
+     "Chaotique mauvais"
+    ]
+   ],
+   "src": "Volo’s Guide to Monsters (2016), chapitre 2",
+   "expl": "Les gobelins sont neutres mauvais, les hobgobelins loyaux mauvais et les orques chaotiques mauvais.",
+   "id": "gob-154",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un gobelours\n2. Je dirige la cachette Cragmaw\n3. J’ai un loup apprivoisé appelé Ripper",
+   "choix": [
+    "Klarg",
+    "Grol",
+    "Yeemik",
+    "Gundren"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014), partie 1",
+   "expl": "Klarg, gobelours vaniteux, garde la cachette Cragmaw avec son loup Ripper ; son lieutenant gobelin Yeemik rêve de le remplacer.",
+   "id": "gob-155",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu borgne\n2. Les orques me vénèrent\n3. Un elfe m’a crevé l’œil",
+   "choix": [
+    "Gruumsh",
+    "Maglubiyet",
+    "Kurtulmak",
+    "Yeenoghu"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Gruumsh, dieu des orques, a perdu son œil face à Corellon ; ses prêtres, les yeux de Gruumsh, s’en arrachent un en son honneur.",
+   "id": "gob-156",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un petit humanoïde reptilien\n2. Je suis devenu célèbre en 2000\n3. Je cherche le dragonnet Calcryx",
+   "choix": [
+    "Meepo",
+    "Klarg",
+    "Yeemik",
+    "Kurtulmak"
+   ],
+   "rep": 0,
+   "src": "The Sunless Citadel (2000)",
+   "expl": "Meepo, le gardien de dragon de The Sunless Citadel, est l’un des kobolds les plus aimés des joueurs.",
+   "id": "gob-157",
+   "conf": "probable"
   }
  ],
  "sources": []

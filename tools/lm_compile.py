@@ -7,7 +7,7 @@ et content/PROGRESS.md (tableau de suivi). Arrête tout en cas d’erreur ; affi
 Format .lm (une question = une ligne-type, puis « = explication », puis « % sources » (facultatif : reprend la précédente)
   Q2 Énoncé ? | Bonne | Fausse | Fausse | Fausse                 QCM (la bonne en premier : l’ordre est mélangé au jeu)
   V1 Affirmation. | V        (ou | F)                            vrai / faux
-  S3 Énoncé ? | réponse | min | max | pas | tolérance | unité      curseur
+  S3 Énoncé ? | réponse | min | max | pas | tolérance | unité      curseur (tolérance : 0 = exacte, « 3% », ou « auto » = règle par défaut)
   H2 Phrase avec ____ . | Bonne | Fausse | Fausse | Fausse        texte à trous
   I2 Lequel… ? | Intrus | Autre | Autre | Autre                   intrus
   W2 [intro facultative] indice ; indice ; indice | Bonne | F | F | F   qui suis-je ?
@@ -86,7 +86,11 @@ def parse(path, errs):
             elif ty == 'slider':
                 if len(parts) != 7: raise ValueError('curseur : énoncé | réponse | min | max | pas | tolérance | unité')
                 num = lambda x: float(x.replace(',', '.')) if '.' in x or ',' in x else int(x)
-                q.update(q=typo(parts[0]), rep=num(parts[1]), min=num(parts[2]), max=num(parts[3]), pas=num(parts[4]), tolerance=num(parts[5]), unite=typo(parts[6]))
+                tl = parts[5].replace(' ', '')
+                q.update(q=typo(parts[0]), rep=num(parts[1]), min=num(parts[2]), max=num(parts[3]), pas=num(parts[4]), unite=typo(parts[6]))
+                if tl == 'auto': pass
+                elif tl.endswith('%'): q['_tolpct'] = float(tl[:-1].replace(',', '.'))
+                else: q['tolerance'] = num(tl)
             elif ty == 'multi':
                 if len(parts) != 3: raise ValueError('multi : énoncé | bonnes ; … | fausses ; …')
                 b = [typo(x) for x in parts[1].split(' ; ')]; f = [typo(x) for x in parts[2].split(' ; ')]
@@ -144,6 +148,27 @@ def check(theme, qs, errs, warns):
             if not (q['min'] <= q['rep'] <= q['max']) or q['max'] <= q['min'] or q['pas'] <= 0: errs.append(w + ' : curseur : bornes incohérentes')
             if q['tolerance'] > (q['max'] - q['min']) / 4: warns.append(w + ' : curseur : tolérance très large')
 
+def slider_policy(q):
+    """Tolérance des curseurs (v1.5) : exacte pour les petits nombres (FP, niveaux, dés, comptes) et les années ;
+    sinon pourcentage de la réponse : 3 % (centaines), 1 % (milliers et plus), ou le pourcentage écrit dans le .lm (1, 3, 5 %).
+    Les mentions « (à N près) » des énoncés hérités sont retirées : le jeu affiche désormais la tolérance."""
+    st = q['q']
+    q['q'] = re.sub(r'\s*\((?:à|a) [\d\s\u202f]+(?:[a-zéèû]+\s)?près\)', '', st)
+    q['q'] = re.sub(r',\s*(?:à|a) [\d\s\u202f]+(?:[a-zéèû]+\s)?près', '', q['q'])
+    rep, pas = q['rep'], q['pas']
+    ns = norm(st)
+    year = 'annee' in ns or 'en quel siecle' in ns or norm(q.get('unite', '')) in ('an', 'annee') or (1000 <= rep <= 2100 and ('paru' in ns or 'publi' in ns or 'sorti' in ns))
+    rule = any(k in ns.split() for k in ('portee', 'vitesse', 'rayon', 'niveau', 'fp', 'ca', 'dd', 'bonus'))
+    if '_tolpct' in q: pct = q.pop('_tolpct')
+    elif 'tolerance' in q and q.get('_where'): return       # tolérance absolue écrite à la main
+    elif year or rule or abs(rep) < 100: pct = 0
+    elif abs(rep) < 1000: pct = 3
+    else: pct = 1
+    t = abs(rep) * pct / 100.0
+    t = round(t / pas) * pas if pas else t
+    if isinstance(pas, int) and isinstance(rep, int): t = int(round(t))
+    q['tolerance'] = t; q['tol_pct'] = pct
+
 def stats(qs):
     st = {k: 0 for k in TARGET}
     for q in qs: st[q['type']] += 1
@@ -166,6 +191,8 @@ def main():
         mx = max([int(q['id'].split('-')[-1]) for q in base] + [70 if base else 0])
         for k, q in enumerate(new): q['id'] = '%s-%03d' % (pre, mx + 1 + k); q['conf'] = 'probable'
         qs = base + new
+        for q in qs:
+            if q['type'] == 'slider': slider_policy(q)
         check(tid, qs, errs, warns)
         st = stats(qs); tot = len(qs); cl = st['qcm'] + st['vf']
         vft = sum(1 for q in qs if q['type'] == 'vf' and q['rep'])

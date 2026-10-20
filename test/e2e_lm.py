@@ -20,6 +20,9 @@ async def answer(s,good,q):
         v=ans if good else ans+8*tol
         await s.evaluate('(function(v){WG.v=Math.max(WG.q.sl.min,Math.min(WG.q.sl.max,v));WG.moved=true;})(%r)'%v)
         await s.click('#w-ok')
+    elif kind in ('multi','ordre','assoc'):
+        # formats à liste : on remplit l’état du widget (bonne réponse ou réponse fausse) puis on valide
+        await s.evaluate('(function(g,want){if(WG.k==="multi")WG.sel=g?want.slice():[0];else if(WG.k==="ordre")WG.seq=g?want.slice():want.slice().reverse();else WG.v=g?want.slice():want.map(function(){return 0;});submitWidget();})(%s,%r)'%('true' if good else 'false',q['want']))
     else:
         n=q['n'];k=q['ans'] if good else (q['ans']+1)%n
         await s.click('#q-ans .ab[data-k="%d"]'%k)
@@ -27,7 +30,7 @@ async def play(prof,studs,tag):
     N=await prof.evaluate('G.qs.length');kinds={}
     for qi in range(N):
         await prof.wait_for_timeout(700)
-        q=await prof.evaluate('(function(){var q=G.qs[G.i];var k=qKind(q);return {kind:k,ans:k==="slider"?q.sl.ans:q.ans,tol:k==="slider"?q.sl.tol:0,n:q.choices?q.choices.length:0,id:q.qid}})()')
+        q=await prof.evaluate('(function(){var q=G.qs[G.i];var k=qKind(q);return {kind:k,ans:k==="slider"?q.sl.ans:q.ans,tol:k==="slider"?q.sl.tol:0,n:q.choices?q.choices.length:0,id:q.qid,want:k==="multi"?q.set:k==="ordre"?q.seq:k==="assoc"?q.map:null}})()')
         kinds[q['kind']]=kinds.get(q['kind'],0)+1
         for k,s in enumerate(studs):
             try: await answer(s,(k*7+qi*3)%10<6,q)

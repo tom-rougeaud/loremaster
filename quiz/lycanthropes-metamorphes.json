@@ -779,7 +779,8 @@
    "rep": 3,
    "expl": "Le loup-garou est de FP 3.",
    "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-054",
@@ -795,7 +796,8 @@
    "rep": 58,
    "expl": "58 PV (9d8 + 18).",
    "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-055",
@@ -811,7 +813,8 @@
    "rep": 2,
    "expl": "Le rat-garou est de FP 2.",
    "src": "Manuel des Monstres 5e (2014), entrée « Rat-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-056",
@@ -827,7 +830,8 @@
    "rep": 4,
    "expl": "Le tigre-garou est de FP 4.",
    "src": "Manuel des Monstres 5e (2014), entrée « Tigre-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-057",
@@ -843,7 +847,8 @@
    "rep": 4,
    "expl": "Le sanglier-garou est de FP 4.",
    "src": "Manuel des Monstres 5e (2014), entrée « Sanglier-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-058",
@@ -859,7 +864,8 @@
    "rep": 5,
    "expl": "L’ours-garou est de FP 5.",
    "src": "Manuel des Monstres 5e (2014), entrée « Ours-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-059",
@@ -875,7 +881,8 @@
    "rep": 3,
    "expl": "Le doppelgänger est de FP 3.",
    "src": "Manuel des Monstres 5e (2014), entrée « Doppelgänger »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-060",
@@ -891,7 +898,8 @@
    "rep": 52,
    "expl": "52 PV (8d8 + 16).",
    "src": "Manuel des Monstres 5e (2014), entrée « Doppelgänger »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-061",
@@ -907,7 +915,8 @@
    "rep": 14,
    "expl": "Le doppelgänger a une CA de 14.",
    "src": "Manuel des Monstres 5e (2014), entrée « Doppelgänger »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-062",
@@ -923,55 +932,59 @@
    "rep": 60,
    "expl": "60 PV (11d8 + 11).",
    "src": "Manuel des Monstres 5e (2014), entrée « Rat-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-063",
    "concept": "lyc-063",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un tigre-garou (à 5 près) ?",
+   "q": "Dans D&D 5e, combien de PV moyens a un tigre-garou ?",
    "min": 50,
    "max": 250,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 5,
+   "tolerance": 4,
    "rep": 120,
    "expl": "120 PV (16d8 + 48).",
    "src": "Manuel des Monstres 5e (2014), entrée « Tigre-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "lyc-064",
    "concept": "lyc-064",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un ours-garou (à 5 près) ?",
+   "q": "Dans D&D 5e, combien de PV moyens a un ours-garou ?",
    "min": 50,
    "max": 250,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 5,
+   "tolerance": 4,
    "rep": 135,
    "expl": "135 PV (18d8 + 54).",
    "src": "Manuel des Monstres 5e (2014), entrée « Ours-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "lyc-065",
    "concept": "lyc-065",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un sanglier-garou (à 5 près) ?",
+   "q": "Dans D&D 5e, combien de PV moyens a un sanglier-garou ?",
    "min": 30,
    "max": 200,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 5,
+   "tolerance": 0,
    "rep": 78,
    "expl": "78 PV (12d8 + 24).",
    "src": "Manuel des Monstres 5e (2014), entrée « Sanglier-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-066",
@@ -987,7 +1000,8 @@
    "rep": 12,
    "expl": "Le DD du jet de Constitution est de 12.",
    "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-067",
@@ -1003,7 +1017,8 @@
    "rep": 4,
    "expl": "Métamorphose est de niveau 4.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11, Métamorphose",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-068",
@@ -1019,7 +1034,8 @@
    "rep": 2016,
    "expl": "Publié en 2016.",
    "src": "Curse of Strahd (2016), crédits",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-069",
@@ -1035,7 +1051,8 @@
    "rep": 3,
    "expl": "Délivrance des malédictions est un sort de niveau 3.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11, Délivrance des malédictions",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "lyc-070",
@@ -1051,7 +1068,8 @@
    "rep": 3,
    "expl": "Le loup arctique est de FP 3.",
    "src": "Manuel des Monstres 5e (2014), entrée « Loup arctique »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "type": "intrus",

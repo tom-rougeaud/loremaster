@@ -762,7 +762,8 @@
    "rep": 5,
    "expl": "Le golem de chair est de FP 5.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-053",
@@ -778,7 +779,8 @@
    "rep": 9,
    "expl": "Le golem d’argile est de FP 9.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-054",
@@ -794,7 +796,8 @@
    "rep": 10,
    "expl": "Le golem de pierre est de FP 10.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-055",
@@ -810,7 +813,8 @@
    "rep": 16,
    "expl": "Le golem de fer est de FP 16.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-056",
@@ -826,7 +830,8 @@
    "rep": 93,
    "expl": "93 PV (11d8 + 44).",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-057",
@@ -838,11 +843,12 @@
    "max": 300,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 0,
+   "tolerance": 4,
    "rep": 133,
    "expl": "133 PV (14d10 + 56).",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "gol-058",
@@ -854,27 +860,29 @@
    "max": 300,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 0,
+   "tolerance": 5,
    "rep": 178,
    "expl": "178 PV (17d10 + 85).",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "gol-059",
    "concept": "gol-059",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un golem de fer (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de PV moyens a un golem de fer ?",
    "min": 50,
    "max": 350,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 6,
    "rep": 210,
    "expl": "210 PV (20d10 + 100).",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "gol-060",
@@ -890,7 +898,8 @@
    "rep": 9,
    "expl": "CA 9 : armure naturelle.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-061",
@@ -906,7 +915,8 @@
    "rep": 14,
    "expl": "CA 14 : armure naturelle.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-062",
@@ -922,7 +932,8 @@
    "rep": 17,
    "expl": "CA 17 : armure naturelle.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-063",
@@ -938,7 +949,8 @@
    "rep": 20,
    "expl": "CA 20 : armure naturelle.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-064",
@@ -954,7 +966,8 @@
    "rep": 33,
    "expl": "33 PV (6d8 + 6).",
    "src": "Manuel des Monstres 5e (2014), entrée « Armure animée »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-065",
@@ -970,7 +983,8 @@
    "rep": 7,
    "expl": "Le gardien-bouclier est de FP 7.",
    "src": "Manuel des Monstres 5e (2014), entrée « Gardien-bouclier »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-066",
@@ -986,7 +1000,8 @@
    "rep": 20,
    "expl": "CA 20 : armure complète.",
    "src": "Manuel des Monstres 5e (2014), entrée « Horreur casquée »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-067",
@@ -1002,7 +1017,8 @@
    "rep": 5,
    "expl": "Animation d’objets est un sort de niveau 5.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation d’objets",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-068",
@@ -1018,7 +1034,8 @@
    "rep": 2019,
    "expl": "Le livre est paru en 2019.",
    "src": "Eberron: Rising from the Last War (2019), crédits",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-069",
@@ -1034,7 +1051,8 @@
    "rep": 33,
    "expl": "33 PV (6d10).",
    "src": "Manuel des Monstres 5e (2014), entrée « Tapis étouffeur »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "gol-070",

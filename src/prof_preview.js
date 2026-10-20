@@ -25,7 +25,7 @@ function generate(){
   var avoid=recentSet();QS.forEach(function(q){avoid.n++;avoid.t[histKey(q)]=avoid.n;});
   var ctx=drawCtx();
   var list=drawQuestions(P.sel,P.nq,ctx,seed,avoid);
-  if(P.ord==="prog")list=list.map(function(q,i){return {q:q,i:i};}).sort(function(a,b){return (a.q.d-b.q.d)||(a.i-b.i);}).map(function(x){return x.q;});
+  if(P.df==="prog")list=list.map(function(q,i){return {q:q,i:i};}).sort(function(a,b){return (a.q.d-b.q.d)||(a.i-b.i);}).map(function(x){return x.q;});
   list.forEach(function(q,i){q.seed=seed+i;q.uid=genId();});
   QS=list;
   if(!QS.length){toast("Aucune question avec cette sélection : élargissez les types, les difficultés ou les thèmes.","ko");return;}

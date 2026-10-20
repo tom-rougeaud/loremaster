@@ -779,7 +779,8 @@
    "rep": 7,
    "expl": "Sept. (voir la source)",
    "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-054",
@@ -795,7 +796,8 @@
    "rep": 1994,
    "expl": "1994. (voir la source)",
    "src": "Planescape (TSR, 1994) / Planescape: Adventures in the Multiverse (2023)",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-055",
@@ -811,7 +813,8 @@
    "rep": 2015,
    "expl": "2015. (voir la source)",
    "src": "Princes of the Apocalypse (2015), introduction",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-056",
@@ -827,7 +830,8 @@
    "rep": 5,
    "expl": "FP 5. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire d’air »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-057",
@@ -843,7 +847,8 @@
    "rep": 90,
    "expl": "90 PV. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire d’air »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-058",
@@ -855,43 +860,12 @@
    "max": 200,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 0,
+   "tolerance": 4,
    "rep": 126,
    "expl": "126 PV. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire de terre »",
-   "conf": "probable"
-  },
-  {
-   "id": "pla-059",
-   "concept": "pla-059",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un élémentaire de feu ?",
-   "min": 20,
-   "max": 200,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 102,
-   "expl": "102 PV. (voir la source)",
-   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire de feu »",
-   "conf": "probable"
-  },
-  {
-   "id": "pla-060",
-   "concept": "pla-060",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un élémentaire d’eau ?",
-   "min": 20,
-   "max": 200,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 114,
-   "expl": "114 PV. (voir la source)",
-   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire d’eau »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "pla-061",
@@ -907,55 +881,8 @@
    "rep": 11,
    "expl": "FP 11. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Djinn »",
-   "conf": "probable"
-  },
-  {
-   "id": "pla-062",
-   "concept": "pla-062",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le FP de l’éfrit ?",
-   "min": 0,
-   "max": 30,
-   "pas": 1,
-   "unite": "FP",
-   "tolerance": 0,
-   "rep": 11,
-   "expl": "FP 11. (voir la source)",
-   "src": "Manuel des Monstres 5e (2014), entrée « Éfrit »",
-   "conf": "probable"
-  },
-  {
-   "id": "pla-063",
-   "concept": "pla-063",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le FP du dao ?",
-   "min": 0,
-   "max": 30,
-   "pas": 1,
-   "unite": "FP",
-   "tolerance": 0,
-   "rep": 11,
-   "expl": "FP 11. (voir la source)",
-   "src": "Manuel des Monstres 5e (2014), entrée « Dao »",
-   "conf": "probable"
-  },
-  {
-   "id": "pla-064",
-   "concept": "pla-064",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le FP du marid ?",
-   "min": 0,
-   "max": 30,
-   "pas": 1,
-   "unite": "FP",
-   "tolerance": 0,
-   "rep": 11,
-   "expl": "FP 11. (voir la source)",
-   "src": "Manuel des Monstres 5e (2014), entrée « Marid »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-065",
@@ -971,7 +898,8 @@
    "rep": 5,
    "expl": "FP 5. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Salamandre »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-066",
@@ -987,7 +915,8 @@
    "rep": 5,
    "expl": "FP 5. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Xorn »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-067",
@@ -1003,7 +932,8 @@
    "rep": 21,
    "expl": "FP 21. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Solar »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-068",
@@ -1019,7 +949,8 @@
    "rep": 16,
    "expl": "FP 16. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Planétaire »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-069",
@@ -1035,23 +966,25 @@
    "rep": 10,
    "expl": "FP 10. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Deva »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "pla-070",
    "concept": "pla-070",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un éfrit (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un éfrit ?",
    "min": 100,
    "max": 300,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 6,
    "rep": 200,
    "expl": "200 PV. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Éfrit »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "type": "intrus",
@@ -1360,6 +1293,1222 @@
    "id": "pla-086",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quelle cité des éfrits se trouve sur le Plan élémentaire du Feu ?",
+   "choix": [
+    "La Cité d’airain",
+    "La Cité des Portes",
+    "Le Grand Puits lugubre",
+    "La Citadelle des Dix Mille Perles"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chapitre 2 « Création d’un multivers » ; Manuel des Monstres 5e (2014)",
+   "expl": "La Cité d’airain, gouvernée par le sultan des éfrits, est un marché de merveilles et d’esclaves au cœur du Plan du Feu.",
+   "id": "pla-087",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Sur quel plan élémentaire se trouve la Citadelle des Dix Mille Perles des marids ?",
+   "choix": [
+    "Le Plan de l’Eau",
+    "Le Plan de l’Air",
+    "Le Plan de la Terre",
+    "Le Plan du Feu"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chapitre 2 « Création d’un multivers » ; Manuel des Monstres 5e (2014)",
+   "expl": "La Citadelle des Dix Mille Perles est le palais des marids, génies capricieux du Plan élémentaire de l’Eau.",
+   "id": "pla-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment s’appelle le vaste domaine souterrain des dao sur le Plan de la Terre ?",
+   "choix": [
+    "Le Grand Puits lugubre",
+    "La Cité d’airain",
+    "Mechanus",
+    "La Gueule béante"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chapitre 2 « Création d’un multivers » ; Manuel des Monstres 5e (2014)",
+   "expl": "Le Grand Puits lugubre (Great Dismal Delve) est un labyrinthe de mines creusé par les dao et leurs esclaves.",
+   "id": "pla-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le Guide du Maître 5e, combien de plans extérieurs compte la Grande Roue (hors Terres extérieures) ?",
+   "choix": [
+    "16",
+    "9",
+    "7",
+    "24"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chapitre 2 « Création d’un multivers » ; Manuel des Monstres 5e (2014)",
+   "expl": "La Grande Roue compte seize plans extérieurs, du Mont Céleste à Arcadie ; les Terres extérieures, avec Sigil, se trouvent en leur centre.",
+   "id": "pla-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D, quel plan relie tous les plans extérieurs et où flottent des cadavres de dieux ?",
+   "choix": [
+    "Le Plan Astral",
+    "Le Plan Éthéré",
+    "La Gisombre",
+    "Les Limbes"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chapitre 2 « Création d’un multivers » ; Manuel des Monstres 5e (2014)",
+   "expl": "Le Plan Astral, vide argenté et silencieux, est parcouru par les githyanki et parsemé des corps pétrifiés de dieux morts.",
+   "id": "pla-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 9 envoie la conscience du lanceur dans le Plan Astral, reliée par un cordon d’argent ?",
+   "choix": [
+    "Projection astrale",
+    "Portail",
+    "Changement de plan",
+    "Forme éthérée"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Projection astrale crée un corps astral relié au corps physique par un cordon d’argent ; si on le tranche, le voyageur meurt.",
+   "id": "pla-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel objet faut-il pour lancer Changement de plan vers un plan précis ?",
+   "choix": [
+    "Un diapason accordé sur ce plan",
+    "Une carte des plans",
+    "Une plume d’ange",
+    "Un anneau de téléportation"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le composant matériel de Changement de plan est une baguette de métal fourchue, accordée à un plan donné, comme un diapason.",
+   "id": "pla-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le niveau du sort Portail (gate), qui ouvre un passage vers un autre plan ?",
+   "choix": [
+    "9",
+    "5",
+    "7",
+    "3"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Portail est un sort de niveau 9 : il peut même appeler une créature précise de l’autre plan en prononçant son nom.",
+   "id": "pla-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Planescape, quelle est la forme de la cité de Sigil ?",
+   "choix": [
+    "Un anneau",
+    "Une sphère",
+    "Une pyramide",
+    "Un cube"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (TSR, 1994) ; Planescape: Adventures in the Multiverse (2023)",
+   "expl": "Sigil a la forme d’un tore (un anneau) qui flotte au-dessus de la Flèche infinie, au centre des Terres extérieures ; ses rues courent sur la face intérieure.",
+   "id": "pla-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Planescape, comment entre-t-on dans Sigil ?",
+   "choix": [
+    "Par des portails qui demandent une clé",
+    "Par la mer",
+    "Par un tunnel des Enfers",
+    "En volant à dos de dragon"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Sigil n’est reliée au multivers que par d’innombrables portails ; chacun a sa « clé », un objet ou un geste qui l’active.",
+   "id": "pla-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelles créatures silencieuses entretiennent les rues de Sigil pour la Dame de la Douleur ?",
+   "choix": [
+    "Les dabus",
+    "Les modrons",
+    "Les slaadi",
+    "Les mephits"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Les dabus flottent dans Sigil et réparent la ville ; ils communiquent par des rébus et servent la Dame de la Douleur.",
+   "id": "pla-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu vidéo culte de 1999 suit le Sans-Nom dans la cité de Sigil ?",
+   "choix": [
+    "Planescape: Torment",
+    "Baldur’s Gate",
+    "Diablo II",
+    "Icewind Dale"
+   ],
+   "rep": 0,
+   "src": "Planescape: Torment (Black Isle Studios, 1999)",
+   "expl": "Planescape: Torment (Black Isle Studios, 1999) suit le Sans-Nom, un immortel amnésique qui se réveille dans une morgue de Sigil.",
+   "id": "pla-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel coffret de 2023 a ramené la cité de Sigil et les Terres extérieures en D&D 5e ?",
+   "choix": [
+    "Planescape: Adventures in the Multiverse",
+    "Spelljammer: Adventures in Space",
+    "Journeys through the Radiant Citadel",
+    "Planes of Fire"
+   ],
+   "rep": 0,
+   "src": "Planescape: Adventures in the Multiverse (2023)",
+   "expl": "Planescape: Adventures in the Multiverse (2023) réunit un guide de Sigil et des Terres extérieures, un bestiaire et une aventure.",
+   "id": "pla-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Selon la tradition de Planescape, tous les combien d’années a lieu la Grande Marche des modrons ?",
+   "choix": [
+    "289 ans",
+    "100 ans",
+    "1 000 ans",
+    "13 ans"
+   ],
+   "rep": 0,
+   "src": "The Great Modron March (TSR, 1997) ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Tous les 289 ans, les modrons quittent Mechanus pour une immense marche à travers les plans extérieurs ; c’est le thème de l’aventure The Great Modron March (1997).",
+   "id": "pla-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels êtres géométriques peuplent Mechanus, le plan de l’ordre absolu ?",
+   "choix": [
+    "Les modrons",
+    "Les slaadi",
+    "Les githzerai",
+    "Les dabus"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Les modrons (monodrone, duodrone, tridrone…) obéissent à une hiérarchie parfaite ; leur chef suprême est Primus.",
+   "id": "pla-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel élémentaire de feu ressemble à un serpent humanoïde enflammé ?",
+   "choix": [
+    "La salamandre",
+    "L’azer",
+    "Le magmin",
+    "Le mephit de magma"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "La salamandre (FP 5) a le haut du corps humanoïde et une queue de serpent brûlante ; elle sert souvent les éfrits.",
+   "id": "pla-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel élémentaire du feu ressemble à un nain à la barbe de flammes ?",
+   "choix": [
+    "L’azer",
+    "La salamandre",
+    "Le dao",
+    "Le galeb duhr"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Les azers, forgerons du Plan du Feu, ressemblent à des nains de bronze aux cheveux et barbe enflammés.",
+   "id": "pla-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel élémentaire de l’air est un chasseur que l’on ne peut pas voir ?",
+   "choix": [
+    "Le traqueur invisible",
+    "Le mephit de poussière",
+    "L’élémentaire d’air",
+    "Le djinn"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Le traqueur invisible (FP 6) est lié par magie à une mission ; il poursuit sa cible sans relâche jusqu’à l’accomplir.",
+   "id": "pla-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle petite créature d’eau ressemble à un serpent liquide gardant une fontaine ou un bassin ?",
+   "choix": [
+    "Le water weird",
+    "Le marid",
+    "Le mephit de vapeur",
+    "Le kraken"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Le water weird (FP 3) est un élémentaire lié à un plan d’eau, invisible dans l’eau ; il tente de noyer les intrus.",
+   "id": "pla-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle créature de la terre ressemble à un rocher et peut animer d’autres rochers ?",
+   "choix": [
+    "Le galeb duhr",
+    "Le xorn",
+    "La gargouille",
+    "Le dao"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Le galeb duhr (FP 6) se confond avec une pierre ; il peut animer des rochers proches pour combattre à ses côtés.",
+   "id": "pla-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel sort de niveau 5 fait apparaître une créature de feu, d’air, d’eau ou de terre qui obéit au lanceur ?",
+   "choix": [
+    "Invocation d’élémentaire",
+    "Portail",
+    "Animation d’objets",
+    "Changement de plan"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Invocation d’élémentaire appelle un élémentaire de FP 5 ou moins ; si la concentration est rompue, il devient hostile.",
+   "id": "pla-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est l’autre nom du dieu emprisonné surnommé l’Œil élémentaire ancien ?",
+   "choix": [
+    "Tharizdun",
+    "Asmodeus",
+    "Tiamat",
+    "Vecna"
+   ],
+   "rep": 0,
+   "src": "Princes of the Apocalypse (2015)",
+   "expl": "L’Œil élémentaire ancien (Elder Elemental Eye) est une forme de Tharizdun, dieu enchaîné ; les cultes élémentaires de Princes of the Apocalypse le vénèrent.",
+   "id": "pla-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Princes of the Apocalypse, quel culte sert Imix, prince du feu ?",
+   "choix": [
+    "Le culte de la Flamme éternelle",
+    "Le culte de la Terre noire",
+    "Le culte de la Vague écrasante",
+    "Le culte de la Haine hurlante"
+   ],
+   "rep": 0,
+   "src": "Princes of the Apocalypse (2015)",
+   "expl": "La Flamme éternelle sert Imix ; la Terre noire sert Ogremoch, la Vague écrasante Olhydra et la Haine hurlante Yan-C-Bin.",
+   "id": "pla-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel module classique de 1985, de Gygax et Mentzer, se déroule autour du village de Hommlet et d’un sanctuaire maléfique ?",
+   "choix": [
+    "The Temple of Elemental Evil",
+    "Tomb of Horrors",
+    "Against the Giants",
+    "Ravenloft"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Frank Mentzer, The Temple of Elemental Evil (TSR, 1985)",
+   "expl": "T1-4 The Temple of Elemental Evil (1985) est l’ancêtre de Princes of the Apocalypse ; il a aussi été adapté en jeu vidéo en 2003.",
+   "id": "pla-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel supplément de 2015 les génasi sont-ils devenus jouables en 5e ?",
+   "choix": [
+    "Elemental Evil Player’s Companion",
+    "Volo’s Guide to Monsters",
+    "Player’s Handbook",
+    "Eberron: Rising from the Last War"
+   ],
+   "rep": 0,
+   "src": "Elemental Evil Player’s Companion (2015)",
+   "expl": "L’Elemental Evil Player’s Companion, publié avec Princes of the Apocalypse, propose les génasi de l’air, de la terre, du feu et de l’eau.",
+   "id": "pla-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle aventure de 2022 fait voyager les héros dans l’espace sauvage de la Mer astrale ?",
+   "choix": [
+    "Spelljammer: Adventures in Space",
+    "Planescape: Adventures in the Multiverse",
+    "Journeys through the Radiant Citadel",
+    "Candlekeep Mysteries"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "Spelljammer: Adventures in Space (2022) emmène les héros à bord de navires volants dans l’Espace sauvage et la Mer astrale.",
+   "id": "pla-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quels plans sont des « échos » du Plan Matériel ?",
+   "choix": [
+    "La Féerie et la Gisombre",
+    "Le Plan Astral et le Plan Éthéré",
+    "Les Abysses et les Neuf Enfers",
+    "Mechanus et les Limbes"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "La Féerie, lumineuse et sauvage, et la Gisombre, morne et sinistre, reflètent toutes deux le Plan Matériel.",
+   "id": "pla-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que se passe-t-il quand un génie noble exauce des vœux ?",
+   "choix": [
+    "Il peut accorder trois souhaits à un mortel",
+    "Il meurt aussitôt",
+    "Il devient mortel",
+    "Il retourne dans sa lampe pour mille ans"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "Un génie noble (djinn, éfrit, dao ou marid rare) peut accorder trois souhaits à un mortel qui l’a capturé ou lui a rendu service.",
+   "id": "pla-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel céleste de FP 23, enfant d’un dieu, est plus puissant que le solar ?",
+   "choix": [
+    "L’empyréen",
+    "Le planétaire",
+    "Le deva",
+    "Le couatl"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "L’empyréen (FP 23) est un titan céleste, enfant d’une divinité ; il surpasse même le solar (FP 21).",
+   "id": "pla-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel serpent céleste à plumes est un messager bienveillant des dieux ?",
+   "choix": [
+    "Le couatl",
+    "Le naga",
+    "La licorne",
+    "Le pégase"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "Le couatl (FP 4) est un céleste ailé au corps de serpent ; il protège les innocents et peut lire les pensées.",
+   "id": "pla-116",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, l’éfrit est un génie du ____.",
+   "choix": [
+    "feu",
+    "vent",
+    "sable",
+    "métal"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chapitre 2 ; Manuel des Monstres 5e (2014)",
+   "expl": "L’éfrit, génie du feu cruel et orgueilleux, vit dans la Cité d’airain sur le Plan élémentaire du Feu.",
+   "id": "pla-117",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le modèle cosmologique classique de D&D, avec ses plans extérieurs en cercle, s’appelle la Grande ____.",
+   "choix": [
+    "Roue",
+    "Spirale",
+    "Échelle",
+    "Sphère"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chapitre 2 ; Manuel des Monstres 5e (2014)",
+   "expl": "La Grande Roue range les plans extérieurs en cercle selon leur alignement, avec les Terres extérieures au centre.",
+   "id": "pla-118",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Planescape, la Dame de la Douleur punit ses ennemis en les enfermant dans des ____.",
+   "choix": [
+    "labyrinthes",
+    "miroirs",
+    "tours",
+    "puits"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Les labyrinthes de la Dame de la Douleur sont des demi-plans sans issue apparente où elle exile ceux qui la défient.",
+   "id": "pla-119",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Imix, Ogremoch, Olhydra et Yan-C-Bin sont les princes du Mal ____.",
+   "choix": [
+    "élémentaire",
+    "infernal",
+    "abyssal",
+    "astral"
+   ],
+   "rep": 0,
+   "src": "Princes of the Apocalypse (2015)",
+   "expl": "Ces quatre princes incarnent le pire de chaque élément ; Princes of the Apocalypse (2015) raconte la montée de leurs cultes.",
+   "id": "pla-120",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le chef suprême des modrons de Mechanus s’appelle ____.",
+   "choix": [
+    "Primus",
+    "Monodrone",
+    "Tertius",
+    "Omnis"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Primus est l’être unique au sommet de la hiérarchie des modrons ; tous les autres lui obéissent.",
+   "id": "pla-121",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le sort Projection ____ permet de voyager dans le Plan Astral.",
+   "choix": [
+    "astrale",
+    "éthérée",
+    "stellaire",
+    "divine"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Projection astrale (niveau 9) envoie le lanceur et ses compagnons dans le Plan Astral sous forme spirituelle.",
+   "id": "pla-122",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les petits élémentaires facétieux, comme ceux de magma ou de vapeur, s’appellent les ____.",
+   "choix": [
+    "mephits",
+    "azers",
+    "magmins",
+    "xorns"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Les mephits (de poussière, de glace, de magma, de boue, de fumée, de vapeur) sont de petits élémentaires impertinents.",
+   "id": "pla-123",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le génie de la terre s’appelle le ____.",
+   "choix": [
+    "dao",
+    "djinn",
+    "marid",
+    "éfrit"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le dao, avide et cruel, vit dans le Grand Puits lugubre du Plan de la Terre.",
+   "id": "pla-124",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans Planescape, Sigil flotte au-dessus d’une montagne sans fin appelée la ____ infinie.",
+   "choix": [
+    "Flèche",
+    "Tour",
+    "Colonne",
+    "Pointe"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (TSR, 1994)",
+   "expl": "La Flèche infinie se dresse au centre des Terres extérieures ; Sigil, en forme d’anneau, flotte à son sommet.",
+   "id": "pla-125",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces êtres n’est pas un élémentaire ?",
+   "choix": [
+    "Deva",
+    "Salamandre",
+    "Azer",
+    "Xorn"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Le deva est un ange (céleste). La salamandre, l’azer et le xorn sont des élémentaires.",
+   "id": "pla-126",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces plans n’est pas un plan extérieur de la Grande Roue ?",
+   "choix": [
+    "Plan Éthéré",
+    "Ysgard",
+    "Arborée",
+    "Carcères"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Le Plan Éthéré est un plan de transition. Ysgard, Arborée et Carcères sont des plans extérieurs.",
+   "id": "pla-127",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux ne se trouve pas sur un plan élémentaire ?",
+   "choix": [
+    "Sigil",
+    "La Cité d’airain",
+    "Le Grand Puits lugubre",
+    "La Citadelle des Dix Mille Perles"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Sigil flotte au-dessus des Terres extérieures. Les trois autres sont des domaines de génies sur les plans élémentaires.",
+   "id": "pla-128",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces cultes n’apparaît pas dans Princes of the Apocalypse ?",
+   "choix": [
+    "Le Culte du Dragon",
+    "La Flamme éternelle",
+    "La Terre noire",
+    "La Haine hurlante"
+   ],
+   "rep": 0,
+   "src": "Princes of the Apocalypse (2015) ; Hoard of the Dragon Queen (2014)",
+   "expl": "Le Culte du Dragon est l’antagoniste de la Tyrannie des Dragons. Les trois autres sont des cultes élémentaires.",
+   "id": "pla-129",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces êtres n’est pas un céleste ?",
+   "choix": [
+    "Slaad",
+    "Deva",
+    "Couatl",
+    "Licorne"
+   ],
+   "rep": 0,
+   "src": "Princes of the Apocalypse (2015) ; Hoard of the Dragon Queen (2014)",
+   "expl": "Le slaad est une aberration des Limbes. Le deva, le couatl et la licorne sont des célestes.",
+   "id": "pla-130",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces êtres n’est pas un génie ?",
+   "choix": [
+    "Salamandre",
+    "Éfrit",
+    "Djinn",
+    "Marid"
+   ],
+   "rep": 0,
+   "src": "Princes of the Apocalypse (2015) ; Hoard of the Dragon Queen (2014)",
+   "expl": "La salamandre est un élémentaire du feu. L’éfrit, le djinn et le marid sont des génies.",
+   "id": "pla-131",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces plans n’est pas lié au Bien dans la Grande Roue ?",
+   "choix": [
+    "Gehenne",
+    "Mont Céleste",
+    "Élysée",
+    "Arborée"
+   ],
+   "rep": 0,
+   "src": "Princes of the Apocalypse (2015) ; Hoard of the Dragon Queen (2014)",
+   "expl": "Gehenne est un plan neutre mauvais, foyer des yugoloths. Le Mont Céleste, l’Élysée et Arborée sont des plans bons.",
+   "id": "pla-132",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces modrons n’existe pas ?",
+   "choix": [
+    "Septadrone",
+    "Monodrone",
+    "Duodrone",
+    "Pentadrone"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Les modrons de base sont monodrone, duodrone, tridrone, quadrone et pentadrone. Il n’y a pas de « septadrone ».",
+   "id": "pla-133",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels êtres sont des génies ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dao",
+    "Éfrit",
+    "Djinn",
+    "Mephit",
+    "Salamandre"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Le dao, l’éfrit et le djinn sont des génies, comme le marid. Le mephit et la salamandre sont des élémentaires ordinaires.",
+   "id": "pla-134",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels plans sont des plans extérieurs de la Grande Roue ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ysgard",
+    "Limbes",
+    "Mechanus",
+    "Plan Astral",
+    "Plan du Feu"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Ysgard, les Limbes et Mechanus sont des plans extérieurs. Le Plan Astral est un plan de transition, le Plan du Feu un plan intérieur.",
+   "id": "pla-135",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels élémentaires sont liés au feu ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Salamandre",
+    "Azer",
+    "Magmin",
+    "Galeb duhr",
+    "Water weird"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "La salamandre, l’azer et le magmin sont des créatures du feu. Le galeb duhr est de la terre, le water weird de l’eau.",
+   "id": "pla-136",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels sorts permettent de voyager entre les plans ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Changement de plan",
+    "Portail",
+    "Projection astrale",
+    "Boule de feu",
+    "Porte dimensionnelle"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Changement de plan, Portail et Projection astrale franchissent les frontières entre plans. Porte dimensionnelle ne téléporte que sur le même plan.",
+   "id": "pla-137",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels prophètes mènent les cultes élémentaires de Princes of the Apocalypse ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vanifer",
+    "Aerisi Kalinoth",
+    "Marlos Urnrayle",
+    "Sammaster",
+    "Nezznar"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Princes of the Apocalypse (2015)",
+   "expl": "Vanifer (feu), Aerisi Kalinoth (air) et Marlos Urnrayle (terre), avec Gar Shatterkeel (eau), sont les prophètes. Sammaster et Nezznar viennent d’autres aventures.",
+   "id": "pla-138",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels êtres sont des célestes dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Solar",
+    "Couatl",
+    "Pégase",
+    "Slaad",
+    "Modron"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Princes of the Apocalypse (2015)",
+   "expl": "Le solar, le couatl et le pégase sont des célestes. Le slaad est une aberration et le modron une construction.",
+   "id": "pla-139",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels éléments de Planescape sont liés à Sigil ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dame de la Douleur",
+    "Dabus",
+    "Portails",
+    "Modrons",
+    "Princes élémentaires"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Planescape Campaign Setting (TSR, 1994)",
+   "expl": "La Dame de la Douleur gouverne Sigil, les dabus l’entretiennent et ses portails la relient au multivers.",
+   "id": "pla-140",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels peuples jouables ont un lien avec les plans élémentaires ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Génasi du feu",
+    "Génasi de l’eau",
+    "Halfelin",
+    "Nain des collines",
+    "Gnome des forêts"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Elemental Evil Player’s Companion (2015)",
+   "expl": "Les génasi descendent de génies ou d’élémentaires ; les halfelins, nains et gnomes n’ont pas ce lien.",
+   "id": "pla-141",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces anges par FP croissant.",
+   "items": [
+    "Deva",
+    "Planétaire",
+    "Solar"
+   ],
+   "src": "Elemental Evil Player’s Companion (2015)",
+   "expl": "FP : deva 10, planétaire 16, solar 21. Les anges du Manuel des Monstres servent les dieux du Bien comme messagers et guerriers.",
+   "id": "pla-142",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces modrons du plus bas au plus haut rang.",
+   "items": [
+    "Monodrone",
+    "Duodrone",
+    "Tridrone",
+    "Quadrone",
+    "Pentadrone"
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Le nom de chaque modron indique son rang : de 1 (monodrone) à 5 (pentadrone), puis viennent les modrons hiérarchiques jusqu’à Primus.",
+   "id": "pla-143",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces publications de Planescape et des plans par date de parution.",
+   "items": [
+    "Planescape Campaign Setting",
+    "Planescape: Torment",
+    "Princes of the Apocalypse",
+    "Planescape: Adventures in the Multiverse"
+   ],
+   "src": "Catalogue TSR, Black Isle Studios et Wizards of the Coast",
+   "expl": "Planescape (1994), le jeu vidéo Planescape: Torment (1999), Princes of the Apocalypse (2015) et le coffret Planescape 5e (2023).",
+   "id": "pla-144",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sorts de voyage planaire par niveau croissant.",
+   "items": [
+    "Bannissement",
+    "Changement de plan",
+    "Projection astrale"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Bannissement est de niveau 4, Changement de plan de niveau 7, Projection astrale de niveau 9.",
+   "id": "pla-145",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces élémentaires par FP croissant.",
+   "items": [
+    "Mephit de magma",
+    "Azer",
+    "Salamandre",
+    "Traqueur invisible",
+    "Éfrit"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "FP : mephit de magma 1/2, azer 2, salamandre 5, traqueur invisible 6, éfrit 11.",
+   "id": "pla-146",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces célestes du plus faible au plus puissant (FP).",
+   "items": [
+    "Pégase",
+    "Couatl",
+    "Licorne",
+    "Deva",
+    "Empyréen"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "FP : pégase 2, couatl 4, licorne 5, deva 10, empyréen 23.",
+   "id": "pla-147",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque plan élémentaire à son domaine de génies.",
+   "paires": [
+    [
+     "Plan du Feu",
+     "Cité d’airain"
+    ],
+    [
+     "Plan de l’Eau",
+     "Citadelle des Dix Mille Perles"
+    ],
+    [
+     "Plan de la Terre",
+     "Grand Puits lugubre"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Les éfrits règnent sur la Cité d’airain, les marids sur la Citadelle des Dix Mille Perles, les dao sur le Grand Puits lugubre.",
+   "id": "pla-148",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque plan à ses habitants typiques.",
+   "paires": [
+    [
+     "Mechanus",
+     "Modrons"
+    ],
+    [
+     "Limbes",
+     "Slaadi"
+    ],
+    [
+     "Plan Astral",
+     "Githyanki"
+    ],
+    [
+     "Sigil",
+     "Dabus"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Les modrons vivent dans l’ordre de Mechanus, les slaadi dans le chaos des Limbes, les githyanki dans l’Astral, les dabus à Sigil.",
+   "id": "pla-149",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque prophète à son élément.",
+   "paires": [
+    [
+     "Vanifer",
+     "Feu"
+    ],
+    [
+     "Aerisi Kalinoth",
+     "Air"
+    ],
+    [
+     "Marlos Urnrayle",
+     "Terre"
+    ],
+    [
+     "Gar Shatterkeel",
+     "Eau"
+    ]
+   ],
+   "src": "Princes of the Apocalypse (2015)",
+   "expl": "Les quatre prophètes servent chacun un prince élémentaire dans Princes of the Apocalypse.",
+   "id": "pla-150",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque culte à son prince.",
+   "paires": [
+    [
+     "Flamme éternelle",
+     "Imix"
+    ],
+    [
+     "Terre noire",
+     "Ogremoch"
+    ],
+    [
+     "Vague écrasante",
+     "Olhydra"
+    ],
+    [
+     "Haine hurlante",
+     "Yan-C-Bin"
+    ]
+   ],
+   "src": "Princes of the Apocalypse (2015)",
+   "expl": "Chacun des quatre cultes élémentaires sert un prince du Mal élémentaire.",
+   "id": "pla-151",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque sort à son niveau.",
+   "paires": [
+    [
+     "Invocation d’élémentaire",
+     "5"
+    ],
+    [
+     "Changement de plan",
+     "7"
+    ],
+    [
+     "Portail",
+     "9"
+    ],
+    [
+     "Bannissement",
+     "4"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Bannissement 4, Invocation d’élémentaire 5, Changement de plan 7, Portail 9.",
+   "id": "pla-152",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque créature à son élément.",
+   "paires": [
+    [
+     "Salamandre",
+     "Feu"
+    ],
+    [
+     "Galeb duhr",
+     "Terre"
+    ],
+    [
+     "Water weird",
+     "Eau"
+    ],
+    [
+     "Traqueur invisible",
+     "Air"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Chacune de ces créatures appartient à l’un des quatre plans élémentaires.",
+   "id": "pla-153",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un génie\n2. Je vis dans la Cité d’airain\n3. Je suis orgueilleux et cruel",
+   "choix": [
+    "Éfrit",
+    "Djinn",
+    "Dao",
+    "Marid"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "L’éfrit, génie du feu, règne sur la Cité d’airain et méprise les mortels.",
+   "id": "pla-154",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un être géométrique\n2. Je vis dans le plan de l’ordre absolu\n3. Tous les 289 ans, je pars en marche avec les miens",
+   "choix": [
+    "Modron",
+    "Slaad",
+    "Dabu",
+    "Githzerai"
+   ],
+   "rep": 0,
+   "src": "The Great Modron March (TSR, 1997)",
+   "expl": "Les modrons de Mechanus entreprennent la Grande Marche tous les 289 ans.",
+   "id": "pla-155",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville en forme d’anneau\n2. On m’appelle la Cité des Portes\n3. Une dame mystérieuse me gouverne",
+   "choix": [
+    "Sigil",
+    "Cité d’airain",
+    "Tu’narath",
+    "Menzoberranzan"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Sigil, la Cité des Portes, flotte au-dessus de la Flèche infinie, sous l’autorité de la Dame de la Douleur.",
+   "id": "pla-156",
+   "conf": "probable"
   }
  ],
  "sources": []

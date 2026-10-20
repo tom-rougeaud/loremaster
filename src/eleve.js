@@ -352,7 +352,7 @@ function drawWidget(){
     var sl=q.sl;
     h='<div class="wsl"><div class="wsl-v" id="wsl-v">'+esc(fmtSl(sl,WG.v))+'</div><div class="wsl-r"><input type="range" id="wsl" min="'+sl.min+'" max="'+sl.max+'" step="'+sl.step+'" value="'+WG.v+'" aria-label="Ton estimation"></div>'+
       '<div class="sc-ticks">'+slTicks(sl).map(function(v,i){return '<span style="left:'+(i*25)+'%">'+esc(f(v,sl.d))+"</span>";}).join("")+"</div>"+
-      '<div class="wsl-b"><button type="button" class="ibtn" data-sl="-1" aria-label="Diminuer">−</button><span class="small muted">Glisse le curseur sur ton estimation</span><button type="button" class="ibtn" data-sl="1" aria-label="Augmenter">+</button></div></div>'+wValid(true,"Valider mon estimation");
+      '<div class="wsl-b"><button type="button" class="ibtn" data-sl="-1" aria-label="Diminuer">−</button><span class="small muted">Glisse le curseur sur ton estimation</span><button type="button" class="ibtn" data-sl="1" aria-label="Augmenter">+</button></div>'+(tolText(sl)?'<div class="center"><span class="sl-tol">'+esc(tolText(sl))+'</span></div>':"")+'</div>'+wValid(true,"Valider mon estimation");
   }else if(WG.k==="multi"){
     h='<div class="wlist"><p class="small muted center">Touche toutes les bonnes réponses, puis valide.</p>'+q.ch.map(function(c,k){var on=WG.sel.indexOf(k)>=0;return wRow(k,c,on?"on":"",on?ICO.check:"","data-m");}).join("")+"</div>"+
       wValid(WG.sel.length>0,WG.sel.length?"Valider ("+WG.sel.length+" choisie"+(WG.sel.length>1?"s":"")+")":"Choisis au moins une réponse");
@@ -529,10 +529,11 @@ setInterval(function(){
 },30000);
 
 /* ═══ 7. ENTRAÎNEMENT AUTONOME (hors ligne) ═══ */
-var TR={niv:"all",chap:"",nq:10,fmt:"mix",prog:true,dark:false,lv:"all"};
+var TR={niv:"all",chap:"",nq:10,fmt:"mix",prog:false,dark:false,lv:"mix"};
 function openTrain(){
   var t=store.get("train2",null);if(t)for(var k in TR)if(t[k]!==undefined)TR[k]=t[k];
   if(TR.niv!=="all"&&!ROY_BY_ID[TR.niv])TR.niv="all";
+  if(["mix","prog","1","2","3"].indexOf(String(TR.lv))<0)TR.lv="mix";TR.lv=String(TR.lv);TR.prog=TR.lv==="prog";
   renderTrain();show("s-train");
 }
 function trThemes(){return BANK.filter(function(it){return (TR.niv==="all"||it.roy===TR.niv)&&(TR.dark||!it.dark);});}
@@ -544,15 +545,14 @@ function renderTrain(){
   $("tr-chap").innerHTML=(wk.length?'<option value="__rev"'+(TR.chap==="__rev"?" selected":"")+">★ À revoir : mes "+wk.length+" thème"+(wk.length>1?"s":"")+" fragile"+(wk.length>1?"s":"")+"</option>":"")+'<option value=""'+(TR.chap===""?" selected":"")+'>Tous les thèmes</option>'+ths.map(function(it){return '<option value="'+it.id+'"'+(TR.chap===it.id?" selected":"")+">"+esc(it.titre)+"</option>";}).join("");
   $("tr-nq").innerHTML=[5,10,20].map(function(n){return '<button type="button" data-v="'+n+'"'+(TR.nq===n?' class="on"':"")+">"+n+"</button>";}).join("");
   $("tr-fmt").innerHTML=[["mix","Mixte"],["c","QCM"],["v","Vrai ou faux"],["s","Curseur"],["i","Intrus"],["h","Texte à trous"],["w","Qui suis-je ?"],["m","Réponses multiples"],["o","Remettre dans l’ordre"],["a","Association"]].map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(TR.fmt===x[0]?' class="on"':"")+">"+x[1]+"</button>";}).join("");
-  $("tr-lv").innerHTML=[["all","Tous"],["1","★ Débutant"],["2","★★ Initié"],["3","★★★ Expert"]].map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(String(TR.lv)===x[0]?' class="on"':"")+">"+x[1]+"</button>";}).join("");
-  $("tr-prog").checked=TR.prog&&TR.lv==="all";$("tr-prog").disabled=TR.lv!=="all";$("tr-dark").checked=TR.dark;
+  $("tr-lv").innerHTML=[["mix","Mélangé"],["prog","Progressif"],["1","★ Débutant"],["2","★★ Initié"],["3","★★★ Expert"]].map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(String(TR.lv)===x[0]?' class="on"':"")+">"+x[1]+"</button>";}).join("");
+  $("tr-dark").checked=TR.dark;
 }
 $("tr-niv").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.niv=b.getAttribute("data-v");TR.chap="";renderTrain();});
-$("tr-lv").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.lv=b.getAttribute("data-v");renderTrain();});
+$("tr-lv").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.lv=b.getAttribute("data-v");TR.prog=TR.lv==="prog";renderTrain();});
 $("tr-nq").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.nq=+b.getAttribute("data-v");renderTrain();});
 $("tr-fmt").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.fmt=b.getAttribute("data-v");renderTrain();});
 $("tr-chap").addEventListener("change",function(){TR.chap=this.value;});
-$("tr-prog").addEventListener("change",function(){TR.prog=this.checked;});
 $("tr-dark").addEventListener("change",function(){TR.dark=this.checked;renderTrain();});
 $("tr-back").addEventListener("click",function(){show(S.ch?"s-lobby":"s-code");});
 $("tr-go").addEventListener("click",function(){store.set("train2",TR);SND.unlock();startTrain();});
@@ -574,7 +574,7 @@ function startTrain(){
   });
 }
 function startTrainWith(items){
-  S.train={items:items,i:-1,N:TR.nq,lvl:(TR.lv&&TR.lv!=="all"?+TR.lv:1),up:0,dn:0,score:0,ok:0,streak:0,best:0,seen:{},hist:[],reached3:false,wire:false};
+  S.train={items:items,i:-1,N:TR.nq,lvl:(+TR.lv>=1?+TR.lv:1),up:0,dn:0,score:0,ok:0,streak:0,best:0,seen:{},hist:[],reached3:false,wire:false};
   S.score=0;S.mode="train";
   nextTrain();
 }
@@ -585,9 +585,10 @@ function trainPickQuestion(){
   var pool=[];
   T.items.forEach(function(it){(it.Q||[]).forEach(function(q){if(!T.seen[q.i]&&(TR.fmt==="mix"||q.t===TR.fmt))pool.push({q:q,it:it,rank:H.t[q.i]||0});});});
   if(!pool.length)return null;
-  if(TR.lv&&TR.lv!=="all"){var L=+TR.lv,fl=pool.filter(function(p){return p.q.n===L;});if(fl.length<3)fl=pool.filter(function(p){return Math.abs(p.q.n-L)<=1;}).sort(function(a,b){return Math.abs(a.q.n-L)-Math.abs(b.q.n-L);}).slice(0,Math.max(6,fl.length));if(fl.length)pool=fl;}
+  /* niveau précis : strictement ce niveau */
+  if(+TR.lv>=1){var L=+TR.lv;pool=pool.filter(function(p){return p.q.n===L;});if(!pool.length)return null;}
   var cand=pool;
-  if(TR.prog&&TR.lv==="all"&&TR.chap!=="__rev"){var at=pool.filter(function(p){return p.q.n===T.lvl;});if(!at.length)at=pool.filter(function(p){return Math.abs(p.q.n-T.lvl)<=1;});if(at.length)cand=at;}
+  if(TR.lv==="prog"&&TR.chap!=="__rev"){var at=pool.filter(function(p){return p.q.n===T.lvl;});if(!at.length)at=pool.filter(function(p){return Math.abs(p.q.n-T.lvl)<=1;});if(at.length)cand=at;}
   var mn=Math.min.apply(null,cand.map(function(p){return p.rank;}));
   cand=cand.filter(function(p){return p.rank===mn;});
   var p=cand[Math.floor(Math.random()*cand.length)];
@@ -603,7 +604,7 @@ function nextTrain(){
   var dur=dureeQuestion(q,0)*1000*1.5,pub=qPublic(q);
   pub.i=T.i;pub.N=T.N;pub.dur=dur;
   showQuestion(pub,false);
-  $("q-tag").innerHTML+=(TR.prog&&TR.lv==="all")?'<span class="tag t-mint">Palier '+T.lvl+" / 3</span>":"";
+  $("q-tag").innerHTML+=(TR.lv==="prog")?'<span class="tag t-mint">Palier '+T.lvl+" / 3</span>":"";
 }
 function trainAnswer(k,v){
   var T=S.train,q=T.cur;
@@ -619,7 +620,7 @@ function trainResult(res,a){
   T.best=Math.max(T.best,T.streak);T.score+=pts;S.score=T.score;
   T.hist.push([q.id,ok?1:0,1,qType(q)]);
   var msg="";
-  if(TR.prog&&TR.lv==="all"){
+  if(TR.lv==="prog"){
     if(T.up>=2&&T.lvl<3){T.lvl++;T.up=0;msg="Palier "+T.lvl+" débloqué !";if(T.lvl===3)T.reached3=true;}
     else if(T.dn>=2&&T.lvl>1){T.lvl--;T.dn=0;msg="On revient au palier "+T.lvl+" pour consolider.";}
   }

@@ -687,39 +687,8 @@
    "rep": 2,
    "expl": "Le cube gélatineux est de FP 2.",
    "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-051",
-   "concept": "don-051",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un cube gélatineux ?",
-   "min": 20,
-   "max": 200,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 84,
-   "expl": "84 PV (8d10 + 40).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-052",
-   "concept": "don-052",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du cube gélatineux ?",
-   "min": 1,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 6,
-   "expl": "CA 6 : très faible.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-053",
@@ -735,23 +704,8 @@
    "rep": 2,
    "expl": "Le mimique est de FP 2.",
    "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-054",
-   "concept": "don-054",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un mimique ?",
-   "min": 20,
-   "max": 200,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 58,
-   "expl": "58 PV (9d8 + 18).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-055",
@@ -767,39 +721,8 @@
    "rep": 3,
    "expl": "Le hibours est de FP 3.",
    "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-056",
-   "concept": "don-056",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un hibours ?",
-   "min": 20,
-   "max": 200,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 59,
-   "expl": "59 PV (7d10 + 21).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-057",
-   "concept": "don-057",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un rouilleur ?",
-   "min": 10,
-   "max": 100,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 27,
-   "expl": "27 PV (5d8 + 5).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-058",
@@ -815,7 +738,8 @@
    "rep": 3,
    "expl": "La displacer beast est de FP 3.",
    "src": "Manuel des Monstres 5e (2014), entrée « Displacer beast »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-059",
@@ -831,23 +755,8 @@
    "rep": 3,
    "expl": "Le basilic est de FP 3.",
    "src": "Manuel des Monstres 5e (2014), entrée « Basilic »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-060",
-   "concept": "don-060",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un basilic ?",
-   "min": 20,
-   "max": 200,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 52,
-   "expl": "52 PV (8d8 + 16).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Basilic »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-061",
@@ -863,7 +772,8 @@
    "rep": 5,
    "expl": "Le roper est de FP 5.",
    "src": "Manuel des Monstres 5e (2014), entrée « Roper »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-062",
@@ -879,7 +789,8 @@
    "rep": 4,
    "expl": "Le pudding noir est de FP 4.",
    "src": "Manuel des Monstres 5e (2014), entrée « Pudding noir »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-063",
@@ -895,39 +806,25 @@
    "rep": 30,
    "expl": "La tarasque est de FP 30.",
    "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-064",
    "concept": "don-064",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a la tarasque (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de PV moyens a la tarasque ?",
    "min": 300,
    "max": 900,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 20,
    "rep": 676,
    "expl": "676 PV (33d20 + 330).",
    "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-065",
-   "concept": "don-065",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA de la tarasque ?",
-   "min": 10,
-   "max": 30,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 25,
-   "expl": "CA 25 : armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "don-066",
@@ -943,7 +840,8 @@
    "rep": 2,
    "expl": "L’ankheg est de FP 2.",
    "src": "Manuel des Monstres 5e (2014), entrée « Ankheg »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-067",
@@ -959,7 +857,8 @@
    "rep": 5,
    "expl": "Le bulette est de FP 5.",
    "src": "Manuel des Monstres 5e (2014), entrée « Bulette »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-068",
@@ -975,7 +874,8 @@
    "rep": 15,
    "expl": "Le ver pourpre est de FP 15.",
    "src": "Manuel des Monstres 5e (2014), entrée « Ver pourpre »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-069",
@@ -991,7 +891,8 @@
    "rep": 2,
    "expl": "La gargouille est de FP 2.",
    "src": "Manuel des Monstres 5e (2014), entrée « Gargouille »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "don-070",
@@ -1007,7 +908,8 @@
    "rep": 2018,
    "expl": "Il est paru en novembre 2018.",
    "src": "Waterdeep: Dungeon of the Mad Mage (2018), Crédits",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "type": "intrus",
@@ -1334,6 +1236,1239 @@
    "id": "don-087",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, que fait le cube gélatineux d’une créature qu’il recouvre ?",
+   "choix": [
+    "Il l’engloutit et la dissout",
+    "Il la pétrifie sur place",
+    "Il l’endort profondément",
+    "Il la téléporte ailleurs"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Avec Engloutir, le cube aspire les créatures dans son corps : elles suffoquent et subissent des dégâts d’acide à chaque tour.",
+   "id": "don-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est la CA très basse du cube gélatineux ?",
+   "choix": [
+    "6",
+    "10",
+    "12",
+    "3"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le cube gélatineux a une CA de 6 : il est facile à toucher, mais ses 84 PV et son acide le rendent dangereux.",
+   "id": "don-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, pourquoi le cube gélatineux est-il difficile à repérer ?",
+   "choix": [
+    "Il est transparent",
+    "Il est invisible par magie",
+    "Il vit au plafond",
+    "Il se cache dans l’eau"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le trait Transparent impose un test de Sagesse (Perception) DD 15 pour repérer un cube immobile : les aventuriers marchent souvent dedans.",
+   "id": "don-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel trait rend le mimique collant ?",
+   "choix": [
+    "Adhésif",
+    "Visqueux",
+    "Étreinte",
+    "Glu magique"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le mimique Adhésif colle à tout ce qui le touche ; une créature collée est agrippée et ne peut se libérer qu’avec un test de Force.",
+   "id": "don-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que sent le rouilleur grâce à son Flair du fer ?",
+   "choix": [
+    "Les métaux ferreux",
+    "La magie",
+    "Les créatures invisibles",
+    "L’or et l’argent"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le rouilleur flaire le fer à 9 m ; ses antennes rouillent les armes et armures non magiques, qu’il dévore ensuite.",
+   "id": "don-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel champignon pousse un cri strident quand une lumière ou une créature approche ?",
+   "choix": [
+    "Le criard",
+    "Le champignon violet",
+    "La spore gazeuse",
+    "Le myconide"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le criard (shrieker, FP 0) hurle quand il perçoit lumière ou mouvement, ce qui attire les monstres voisins.",
+   "id": "don-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle plante fongique frappe avec des filaments qui font pourrir la chair ?",
+   "choix": [
+    "Le champignon violet",
+    "Le criard",
+    "La spore gazeuse",
+    "Le myconide"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le champignon violet (FP 1/4) attaque avec des filaments au Toucher pourrissant, qui infligent des dégâts nécrotiques.",
+   "id": "don-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelle créature flottante ressemble à un tyrannœil mais explose à sa mort ?",
+   "choix": [
+    "La spore gazeuse",
+    "Le spectateur",
+    "Le gauth",
+    "Le criard"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La spore gazeuse imite un tyrannœil ; quand elle meurt, elle éclate et peut infecter les créatures proches, qui risquent de mourir et de donner naissance à de nouvelles spores.",
+   "id": "don-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, comment les myconides communiquent-ils ?",
+   "choix": [
+    "Par des spores télépathiques",
+    "Par des chants",
+    "Par la langue des signes",
+    "Par des cris aigus"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les myconides, champignons intelligents et souvent pacifiques, relient leurs esprits grâce aux spores de rapport.",
+   "id": "don-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Out of the Abyss, comment s’appelle le refuge souterrain des myconides ?",
+   "choix": [
+    "Le Bosquet de Nuit-Jamais",
+    "Menzoberranzan",
+    "Gracklstugh",
+    "Blingdenstone"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le Bosquet de Nuit-Jamais (Neverlight Grove) abrite des myconides, menacés par l’arrivée de Zuggtmoy, la Dame des champignons.",
+   "id": "don-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle créature tombe du plafond en forme de stalactite sur ses proies ?",
+   "choix": [
+    "Le piercer",
+    "Le roper",
+    "Le manteau noir",
+    "Le grick"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le piercer (FP 1/2) attend accroché au plafond, puis se laisse tomber de tout son poids sur la créature située dessous.",
+   "id": "don-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de vrilles le roper projette-t-il ?",
+   "choix": [
+    "4",
+    "2",
+    "6",
+    "8"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le roper lance quatre vrilles qui agrippent et affaiblissent ; il ramène ses victimes vers sa gueule.",
+   "id": "don-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel monstre de donjon ressemble à une pieuvre plate qui s’abat du plafond et crée des ténèbres ?",
+   "choix": [
+    "Le darkmantle",
+    "Le piercer",
+    "Le cloaker",
+    "Le roper"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le darkmantle (FP 1/2) se laisse tomber sur sa proie, l’enveloppe et projette une aura de ténèbres magiques.",
+   "id": "don-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel ver à tentacules se camoufle sur la pierre des cavernes ?",
+   "choix": [
+    "Le grick",
+    "Le ver pourpre",
+    "L’ankheg",
+    "Le stirge"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le grick (FP 2) a quatre tentacules autour d’un bec ; son camouflage le rend presque invisible contre la roche.",
+   "id": "don-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que se passe-t-il quand on frappe un pudding noir avec une arme tranchante ?",
+   "choix": [
+    "Il se divise en deux",
+    "Il explose",
+    "Il fond",
+    "Il se téléporte"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le pudding noir de taille Moyenne ou plus se divise en deux puddings quand il subit des dégâts tranchants ou de foudre.",
+   "id": "don-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel autre limon se divise sous les coups tranchants ou la foudre ?",
+   "choix": [
+    "La gelée ocre",
+    "Le limon gris",
+    "Le cube gélatineux",
+    "Le criard"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "La gelée ocre (FP 2), comme le pudding noir, se scinde quand elle subit des dégâts tranchants ou de foudre.",
+   "id": "don-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que peut corroder le pudding noir en plus du métal ?",
+   "choix": [
+    "Le bois",
+    "La pierre",
+    "Le verre",
+    "La magie"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le pudding noir ronge le métal et le bois : armes et armures non magiques se dégradent au contact.",
+   "id": "don-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel monstre à carapace pousse des cliquetis pour se repérer dans le noir ?",
+   "choix": [
+    "L’horreur à crochets",
+    "Le grick",
+    "L’ankheg",
+    "Le rouilleur"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "L’horreur à crochets (hook horror) chasse en meute dans l’Outreterre ; elle communique et s’oriente grâce aux claquements de sa carapace.",
+   "id": "don-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel monstre fouisseur sème la confusion d’un simple regard ?",
+   "choix": [
+    "L’umber hulk",
+    "Le bulette",
+    "L’ankheg",
+    "Le ver pourpre"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le regard confondant de l’umber hulk trouble l’esprit des créatures qui le voient ; il creuse la roche comme de la terre meuble.",
+   "id": "don-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, où se trouve le dard venimeux du ver pourpre ?",
+   "choix": [
+    "Au bout de sa queue",
+    "Dans sa gueule",
+    "Sur son dos",
+    "Sur sa tête"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le ver pourpre avale ses proies d’une bouchée et pique avec le dard de sa queue, dont le poison inflige de lourds dégâts.",
+   "id": "don-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel félin tentaculaire est l’ennemi juré des chiens clignotants ?",
+   "choix": [
+    "La bête éclipsante",
+    "Le hibours",
+    "Le grick",
+    "Le worg"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "La bête éclipsante (displacer beast) semble se trouver à côté de sa position réelle ; elle voue une haine ancienne aux chiens clignotants.",
+   "id": "don-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, comment la cockatrice pétrifie-t-elle ?",
+   "choix": [
+    "Par sa morsure",
+    "Par son regard",
+    "Par son souffle",
+    "Par son chant"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "La morsure de la cockatrice entrave sa victime, puis la change en pierre pendant 24 heures si elle rate son second jet de Constitution.",
+   "id": "don-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, comment la gorgone (taureau de métal) pétrifie-t-elle ?",
+   "choix": [
+    "Par son souffle",
+    "Par son regard",
+    "Par sa morsure",
+    "Par ses cornes"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "La gorgone de D&D, un taureau aux écailles de fer, exhale un gaz pétrifiant. Elle n’a rien à voir avec les Gorgones de la mythologie.",
+   "id": "don-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle créature de la terre dévore pierres précieuses et métaux rares ?",
+   "choix": [
+    "Le xorn",
+    "Le rouilleur",
+    "L’ankheg",
+    "Le bulette"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le xorn traverse la roche comme un nageur et se nourrit de gemmes et de métaux précieux ; il peut les sentir sur les aventuriers.",
+   "id": "don-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, que fait le stirge à ses proies ?",
+   "choix": [
+    "Il leur draine le sang",
+    "Il les paralyse",
+    "Il les engloutit",
+    "Il les ronge"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015), chapitre 5",
+   "expl": "Le stirge s’accroche avec sa trompe et aspire le sang de sa victime à chaque tour, jusqu’à être repu.",
+   "id": "don-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans Waterdeep, quelle taverne abrite le puits qui mène à Undermountain ?",
+   "choix": [
+    "Le Portail béant",
+    "Le Dragon ivre",
+    "La Lanterne éclatée",
+    "L’Auberge du Pied-Rapide"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018) ; Tales from the Yawning Portal (2017)",
+   "expl": "Le Portail béant (Yawning Portal), tenu par l’ancien aventurier Durnan, est construit autour du puits d’accès à Undermountain.",
+   "id": "don-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de niveaux compte Undermountain dans Waterdeep: Dungeon of the Mad Mage ?",
+   "choix": [
+    "23",
+    "9",
+    "13",
+    "30"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018)",
+   "expl": "Dungeon of the Mad Mage (2018) décrit 23 niveaux de donjon, conçus pour des personnages du niveau 5 au niveau 20.",
+   "id": "don-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui tient la taverne du Portail béant à Waterdeep ?",
+   "choix": [
+    "Durnan",
+    "Volothamp Geddarm",
+    "Elminster",
+    "Halaster"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018)",
+   "expl": "Durnan, ancien aventurier revenu riche d’Undermountain, tient la taverne et surveille le puits.",
+   "id": "don-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans la Tombe des Horreurs, que cache la bouche de la célèbre face de démon verte ?",
+   "choix": [
+    "Une sphère d’annihilation",
+    "Un trésor",
+    "Un portail vers les Enfers",
+    "Une liche"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, S1 Tomb of Horrors (TSR, 1978) ; Tales from the Yawning Portal (2017)",
+   "expl": "La bouche du visage de démon vert contient une sphère d’annihilation : tout ce qui y entre est détruit.",
+   "id": "don-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel module de 1979 les héros explorent-ils les Cavernes du Chaos ?",
+   "choix": [
+    "Keep on the Borderlands",
+    "Tomb of Horrors",
+    "Ravenloft",
+    "The Sunless Citadel"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, B2 The Keep on the Borderlands (TSR, 1979)",
+   "expl": "Le module B2 Keep on the Borderlands (Gary Gygax, 1979), livré avec la boîte de base, envoie les débutants dans les Cavernes du Chaos.",
+   "id": "don-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel recueil de 2017 rassemble sept donjons classiques de D&D adaptés en 5e ?",
+   "choix": [
+    "Tales from the Yawning Portal",
+    "Ghosts of Saltmarsh",
+    "Candlekeep Mysteries",
+    "Xanathar’s Guide"
+   ],
+   "rep": 0,
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Tales from the Yawning Portal contient notamment The Sunless Citadel, White Plume Mountain, Dead in Thay, Against the Giants et Tomb of Horrors.",
+   "id": "don-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel monstre de donjon fait sortir de terre ses victimes d’un bond mortel ?",
+   "choix": [
+    "Le bulette",
+    "L’ankheg",
+    "Le ver pourpre",
+    "L’umber hulk"
+   ],
+   "rep": 0,
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Avec Bond mortel, le bulette jaillit du sol et retombe sur ses proies ; on le surnomme le requin des terres.",
+   "id": "don-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle attaque l’ankheg peut-il utiliser à distance ?",
+   "choix": [
+    "Un jet d’acide",
+    "Une toile",
+    "Des épines",
+    "Un cri"
+   ],
+   "rep": 0,
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "L’ankheg crache un jet d’acide en ligne (recharge 6) ; il chasse surtout en surgissant du sol des champs.",
+   "id": "don-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le type de créature du mimique ?",
+   "choix": [
+    "Monstruosité",
+    "Vase",
+    "Aberration",
+    "Construction"
+   ],
+   "rep": 0,
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Le mimique est une monstruosité métamorphe : malgré sa texture, ce n’est pas une vase.",
+   "id": "don-121",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ ressemble à un coffre au trésor et colle à ceux qui le touchent.",
+   "choix": [
+    "mimique",
+    "roper",
+    "piercer",
+    "grick"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le mimique prend l’apparence d’un objet banal ; ses victimes restent collées à son corps adhésif.",
+   "id": "don-122",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le roper ressemble à une ____ dans les cavernes.",
+   "choix": [
+    "stalagmite",
+    "statue",
+    "colonne",
+    "flaque"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Grâce à Fausse apparence, le roper immobile est indiscernable d’une stalagmite ordinaire.",
+   "id": "don-123",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le criard est un ____ qui hurle pour alerter les monstres.",
+   "choix": [
+    "champignon",
+    "oiseau",
+    "crapaud",
+    "fantôme"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le criard est un grand champignon : il ne peut pas se déplacer, mais son cri attire les prédateurs vers les intrus.",
+   "id": "don-124",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le limon ____ ressemble à une flaque de pierre humide et ronge le métal.",
+   "choix": [
+    "gris",
+    "noir",
+    "ocre",
+    "vert"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le limon gris (gray ooze) se confond avec la roche mouillée ; son contact corrode les armes et armures en métal.",
+   "id": "don-125",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la gelée ____ se divise en deux sous les coups tranchants ou la foudre.",
+   "choix": [
+    "ocre",
+    "grise",
+    "violette",
+    "blanche"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La gelée ocre se scinde quand elle subit des dégâts tranchants ou de foudre, comme le pudding noir.",
+   "id": "don-126",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La taverne du Portail béant de Waterdeep est tenue par l’ancien aventurier ____.",
+   "choix": [
+    "Durnan",
+    "Volo",
+    "Elminster",
+    "Laeral"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018)",
+   "expl": "Durnan, revenu fortuné d’Undermountain, garde l’œil sur le puits qui y mène depuis sa taverne.",
+   "id": "don-127",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans le module B2 de 1979, les aventuriers partent d’un fortin pour explorer les Cavernes du ____.",
+   "choix": [
+    "Chaos",
+    "Mal",
+    "Néant",
+    "Désespoir"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, B2 The Keep on the Borderlands (TSR, 1979)",
+   "expl": "Keep on the Borderlands mène les débutants du fortin frontalier aux Cavernes du Chaos, pleines de gobelins, d’orques et de kobolds.",
+   "id": "don-128",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ est un petit monstre volant qui suce le sang.",
+   "choix": [
+    "stirge",
+    "piercer",
+    "criard",
+    "grick"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, B2 The Keep on the Borderlands (TSR, 1979)",
+   "expl": "Le stirge, à mi-chemin entre la chauve-souris et le moustique, s’accroche à sa proie et la vide de son sang.",
+   "id": "don-129",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, les myconides partagent leurs pensées grâce aux spores de ____.",
+   "choix": [
+    "rapport",
+    "sommeil",
+    "lien",
+    "mémoire"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, B2 The Keep on the Borderlands (TSR, 1979)",
+   "expl": "Les spores de rapport créent un lien télépathique entre myconides et autres créatures proches pendant une heure.",
+   "id": "don-130",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces monstres n’est pas une vase (ooze) ?",
+   "choix": [
+    "Grick",
+    "Cube gélatineux",
+    "Pudding noir",
+    "Gelée ocre"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, B2 The Keep on the Borderlands (TSR, 1979)",
+   "expl": "Le grick est une monstruosité à tentacules. Le cube gélatineux, le pudding noir et la gelée ocre sont des vases.",
+   "id": "don-131",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres ne vit pas caché au plafond ou dans le décor ?",
+   "choix": [
+    "Bulette",
+    "Piercer",
+    "Darkmantle",
+    "Roper"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, B2 The Keep on the Borderlands (TSR, 1979)",
+   "expl": "Le bulette surgit du sol. Le piercer et le darkmantle tombent du plafond, le roper imite une stalagmite.",
+   "id": "don-132",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres n’est pas un champignon ?",
+   "choix": [
+    "Grick",
+    "Criard",
+    "Champignon violet",
+    "Myconide"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, B2 The Keep on the Borderlands (TSR, 1979)",
+   "expl": "Le grick est une monstruosité. Le criard, le champignon violet et le myconide sont des plantes fongiques.",
+   "id": "don-133",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces monstres ne ronge pas le métal ?",
+   "choix": [
+    "Mimique",
+    "Rouilleur",
+    "Limon gris",
+    "Pudding noir"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, B2 The Keep on the Borderlands (TSR, 1979)",
+   "expl": "Le mimique colle mais ne corrode pas. Le rouilleur, le limon gris et le pudding noir détruisent le métal.",
+   "id": "don-134",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces donjons ne fait pas partie de Tales from the Yawning Portal ?",
+   "choix": [
+    "Curse of Strahd",
+    "Tomb of Horrors",
+    "White Plume Mountain",
+    "The Sunless Citadel"
+   ],
+   "rep": 0,
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Curse of Strahd est une campagne complète de 2016. Les trois autres font partie du recueil de 2017.",
+   "id": "don-135",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces monstres ne creuse pas le sol ?",
+   "choix": [
+    "Stirge",
+    "Bulette",
+    "Ankheg",
+    "Ver pourpre"
+   ],
+   "rep": 0,
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Le stirge vole. Le bulette, l’ankheg et le ver pourpre se déplacent sous terre.",
+   "id": "don-136",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres ne pétrifie pas ?",
+   "choix": [
+    "Umber hulk",
+    "Basilic",
+    "Cockatrice",
+    "Gorgone"
+   ],
+   "rep": 0,
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Le regard de l’umber hulk rend confus. Le basilic (regard), la cockatrice (morsure) et la gorgone (souffle) pétrifient.",
+   "id": "don-137",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces monstres n’est pas une monstruosité ?",
+   "choix": [
+    "Xorn",
+    "Bulette",
+    "Ankheg",
+    "Hibours"
+   ],
+   "rep": 0,
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Le xorn est un élémentaire de terre. Le bulette, l’ankheg et le hibours sont des monstruosités.",
+   "id": "don-138",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels de ces monstres sont des vases (oozes) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cube gélatineux",
+    "Limon gris",
+    "Pudding noir",
+    "Mimique",
+    "Roper"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Cube gélatineux, limon gris et pudding noir sont des vases. Le mimique et le roper sont des monstruosités.",
+   "id": "don-139",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels monstres se divisent quand ils subissent des dégâts tranchants ou de foudre ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pudding noir",
+    "Gelée ocre",
+    "Cube gélatineux",
+    "Limon gris",
+    "Mimique"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Seuls le pudding noir et la gelée ocre se scindent ainsi.",
+   "id": "don-140",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels monstres sont des champignons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Criard",
+    "Champignon violet",
+    "Spore gazeuse",
+    "Stirge",
+    "Darkmantle"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Le criard, le champignon violet et la spore gazeuse sont des plantes fongiques. Le stirge et le darkmantle sont des monstruosités.",
+   "id": "don-141",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels monstres utilisent la pétrification ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Basilic",
+    "Cockatrice",
+    "Gorgone",
+    "Ankheg",
+    "Rouilleur"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Le basilic, la cockatrice et la gorgone pétrifient. L’ankheg crache de l’acide, le rouilleur rouille le métal.",
+   "id": "don-142",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels donjons classiques ont été adaptés dans Tales from the Yawning Portal ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dead in Thay",
+    "Against the Giants",
+    "The Forge of Fury",
+    "Keep on the Borderlands",
+    "Ravenloft"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Dead in Thay, Against the Giants et The Forge of Fury font partie du recueil. Keep on the Borderlands et Ravenloft n’y figurent pas.",
+   "id": "don-143",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels monstres vivent sous terre et creusent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bulette",
+    "Ankheg",
+    "Umber hulk",
+    "Gargouille",
+    "Stirge"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Le bulette, l’ankheg et l’umber hulk creusent des tunnels. La gargouille et le stirge volent.",
+   "id": "don-144",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux sont liés à Undermountain ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Waterdeep",
+    "Le Portail béant",
+    "Halaster",
+    "Barovie",
+    "Chult"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Undermountain s’ouvre sous Waterdeep, par le puits du Portail béant, et appartient au mage fou Halaster. Barovie et le Chult sont ailleurs.",
+   "id": "don-145",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels monstres ont un FP de 1/2 ou moins ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Stirge",
+    "Piercer",
+    "Rouilleur",
+    "Grick",
+    "Ankheg"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "Stirge 1/8, piercer 1/2, rouilleur 1/2. Le grick et l’ankheg ont un FP de 2.",
+   "id": "don-146",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces monstres de donjon du moins au plus redoutable (FP croissant).",
+   "items": [
+    "Stirge",
+    "Rouilleur",
+    "Mimique",
+    "Bulette",
+    "Ver pourpre"
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "FP : stirge 1/8, rouilleur 1/2, mimique 2, bulette 5, ver pourpre 15.",
+   "id": "don-147",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces vases par FP croissant.",
+   "items": [
+    "Limon gris",
+    "Gelée ocre",
+    "Pudding noir"
+   ],
+   "src": "Tales from the Yawning Portal (2017)",
+   "expl": "FP : limon gris 1/2, gelée ocre 2, pudding noir 4.",
+   "id": "don-148",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces modules par date de parution.",
+   "items": [
+    "Tomb of Horrors",
+    "Keep on the Borderlands",
+    "The Sunless Citadel",
+    "Waterdeep: Dungeon of the Mad Mage"
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "Tomb of Horrors (1978), Keep on the Borderlands (1979), The Sunless Citadel (2000), Dungeon of the Mad Mage (2018).",
+   "id": "don-149",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces champignons et monstres fongiques par FP croissant.",
+   "items": [
+    "Criard",
+    "Champignon violet",
+    "Spore gazeuse"
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "FP : criard 0, champignon violet 1/4, spore gazeuse 1/2.",
+   "id": "don-150",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces monstres pétrifiants par FP croissant.",
+   "items": [
+    "Cockatrice",
+    "Basilic",
+    "Gorgone",
+    "Méduse"
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "FP : cockatrice 1/2, basilic 3, gorgone 5, méduse 6.",
+   "id": "don-151",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces monstres fouisseurs du plus faible au plus redoutable (FP).",
+   "items": [
+    "Ankheg",
+    "Bulette",
+    "Ver pourpre"
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "FP : ankheg 2, bulette 5, ver pourpre 15. Ces trois monstres creusent la terre pour surprendre leurs proies.",
+   "id": "don-152",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque monstre à son mode de pétrification.",
+   "paires": [
+    [
+     "Basilic",
+     "Regard"
+    ],
+    [
+     "Cockatrice",
+     "Morsure"
+    ],
+    [
+     "Gorgone",
+     "Souffle"
+    ]
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "Le basilic fige d’un regard, la cockatrice d’une morsure et la gorgone d’un souffle de gaz.",
+   "id": "don-153",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque vase à son effet particulier.",
+   "paires": [
+    [
+     "Cube gélatineux",
+     "Engloutit"
+    ],
+    [
+     "Pudding noir",
+     "Ronge métal et bois"
+    ],
+    [
+     "Limon gris",
+     "Ronge le métal"
+    ],
+    [
+     "Gelée ocre",
+     "Se divise"
+    ]
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "Le cube engloutit, le pudding ronge métal et bois, le limon gris corrode le métal, la gelée ocre se scinde.",
+   "id": "don-154",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque monstre à sa ruse.",
+   "paires": [
+    [
+     "Mimique",
+     "Imite un objet"
+    ],
+    [
+     "Roper",
+     "Imite une stalagmite"
+    ],
+    [
+     "Piercer",
+     "Imite une stalactite"
+    ],
+    [
+     "Criard",
+     "Alerte par un cri"
+    ]
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "Ces monstres de donjon comptent sur le déguisement ou l’alarme pour piéger les aventuriers.",
+   "id": "don-155",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à son donjon.",
+   "paires": [
+    [
+     "Waterdeep",
+     "Undermountain"
+    ],
+    [
+     "Chult",
+     "Tombe des Neuf Dieux"
+    ],
+    [
+     "Barovie",
+     "Château Ravenloft"
+    ],
+    [
+     "Fortin frontalier",
+     "Cavernes du Chaos"
+    ]
+   ],
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018) ; Tomb of Annihilation (2017) ; Curse of Strahd (2016) ; B2 (1979)",
+   "expl": "Undermountain, la Tombe des Neuf Dieux, le château Ravenloft et les Cavernes du Chaos sont de grands donjons de D&D.",
+   "id": "don-156",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monstre à son FP.",
+   "paires": [
+    [
+     "Stirge",
+     "1/8"
+    ],
+    [
+     "Grick",
+     "2"
+    ],
+    [
+     "Roper",
+     "5"
+    ],
+    [
+     "Ver pourpre",
+     "15"
+    ],
+    [
+     "Tarasque",
+     "30"
+    ]
+   ],
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018) ; Tomb of Annihilation (2017) ; Curse of Strahd (2016) ; B2 (1979)",
+   "expl": "Du minuscule stirge à la tarasque, le Manuel des Monstres couvre tous les niveaux de menace.",
+   "id": "don-157",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque monstre à son mode d’attaque.",
+   "paires": [
+    [
+     "Stirge",
+     "Draine le sang"
+    ],
+    [
+     "Ankheg",
+     "Crache de l’acide"
+    ],
+    [
+     "Umber hulk",
+     "Regard confondant"
+    ],
+    [
+     "Bulette",
+     "Bond mortel"
+    ]
+   ],
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018) ; Tomb of Annihilation (2017) ; Curse of Strahd (2016) ; B2 (1979)",
+   "expl": "Chaque monstre de donjon a une attaque signature, à connaître pour survivre.",
+   "id": "don-158",
+   "conf": "probable"
   }
  ],
  "sources": []

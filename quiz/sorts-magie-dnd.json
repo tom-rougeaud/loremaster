@@ -757,7 +757,8 @@
    "rep": 3,
    "expl": "Boule de feu est un sort de niveau 3.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-052",
@@ -773,23 +774,25 @@
    "rep": 8,
    "expl": "Boule de feu inflige 8d6 dégâts de feu, plus 1d6 par niveau d’emplacement supérieur.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-053",
    "concept": "sor-053",
    "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, quel est le rayon de Boule de feu, en pieds (à 5 près) ?",
+   "q": "Dans D&D 5e, quel est le rayon de Boule de feu, en pieds ?",
    "min": 5,
    "max": 60,
    "pas": 1,
    "unite": "pieds",
-   "tolerance": 5,
+   "tolerance": 0,
    "rep": 20,
    "expl": "Boule de feu a un rayon de 20 pieds (6 m).",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-054",
@@ -805,7 +808,8 @@
    "rep": 3,
    "expl": "Trois fléchettes de force.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-055",
@@ -821,7 +825,8 @@
    "rep": 9,
    "expl": "C’est un sort de niveau 9.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mot de pouvoir mortel",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-056",
@@ -837,7 +842,8 @@
    "rep": 7,
    "expl": "Résurrection est un sort de niveau 7.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Résurrection",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-057",
@@ -853,7 +859,8 @@
    "rep": 7,
    "expl": "Téléportation est un sort de niveau 7.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Téléportation",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-058",
@@ -869,7 +876,8 @@
    "rep": 3,
    "expl": "Contresort est un sort de niveau 3.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-059",
@@ -885,7 +893,8 @@
    "rep": 3,
    "expl": "Vol est un sort de niveau 3.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-060",
@@ -901,7 +910,8 @@
    "rep": 9,
    "expl": "Souhait est un sort de niveau 9.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-061",
@@ -917,7 +927,8 @@
    "rep": 1,
    "expl": "Sommeil dure 1 minute.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-062",
@@ -933,7 +944,8 @@
    "rep": 0,
    "expl": "Main du mage est un sort mineur, c’est-à-dire de niveau 0.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Main du mage",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-063",
@@ -949,7 +961,8 @@
    "rep": 1,
    "expl": "Rayon de givre inflige 1d8 dégâts de froid (jusqu’à 4d8 au niveau 17).",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon de givre",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-064",
@@ -965,7 +978,8 @@
    "rep": 9,
    "expl": "Pluie de météores est un sort de niveau 9.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Pluie de météores",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-065",
@@ -981,7 +995,8 @@
    "rep": 9,
    "expl": "Arrêt du temps est un sort de niveau 9.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Arrêt du temps",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-066",
@@ -1019,7 +1034,8 @@
    "rep": 1,
    "expl": "Sommeil est un sort de niveau 1.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-069",
@@ -1035,7 +1051,8 @@
    "rep": 1,
    "expl": "Projectile magique est un sort de niveau 1.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "sor-070",
@@ -1051,7 +1068,8 @@
    "rep": 4,
    "expl": "Mur de feu est un sort de niveau 4.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mur de feu",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   }
  ],
  "sources": []

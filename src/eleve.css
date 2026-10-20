@@ -20,7 +20,7 @@ body.v-pc .big-t{font-size:2.2rem}
 .slots span{width:3.6rem;height:4.4rem;border-radius:18px;background:var(--card);box-shadow:var(--sh);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:2.2rem;border:3px solid transparent;color:var(--violet-t)}
 .slots span.cur{border-color:var(--violet);animation:blink 1.2s infinite}
 .slots span.f{animation:popin .3s both}
-.hexpad{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;max-width:24rem;margin:0 auto}
+.hexpad{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.5rem;max-width:24rem;margin:0 auto}
 .hexpad button{border:0;border-radius:16px;background:var(--card);box-shadow:0 4px 0 var(--line2);height:3.6rem;font-size:1.5rem;font-weight:900;color:var(--ink)}
 .hexpad button:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line2)}
 .hexpad button.l{background:var(--violet-l);color:var(--violet-t)}
@@ -47,8 +47,8 @@ body.v-pc .big-t{font-size:2.2rem}
 .token{display:inline-flex;align-items:center;gap:.5rem;border-radius:999px;padding:.75rem 1.3rem;font-weight:900;font-size:1.25rem;background:var(--violet);color:var(--on);box-shadow:0 6px 0 var(--violet-d),0 10px 24px color-mix(in srgb,var(--violet) 35%,transparent);touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none;animation:floaty 2.4s ease-in-out infinite}
 .token svg{width:1.3rem;height:1.3rem;opacity:.8}
 .token.dragging{opacity:.3}
-.tlist{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
-body.v-pc .tlist{grid-template-columns:repeat(3,1fr)}
+.tlist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}
+body.v-pc .tlist{grid-template-columns:repeat(3,minmax(0,1fr))}
 .tcard{border:0;text-align:left;border-radius:22px;background:var(--card);box-shadow:var(--sh);overflow:hidden;padding:0;display:flex;flex-direction:column;min-height:7rem;border:3px solid transparent;transition:transform .15s,border-color .15s}
 .tcard.over{border-color:var(--tc);transform:scale(1.04)}
 .tcard.mine{border-color:var(--tc);box-shadow:0 0 0 4px var(--tl),var(--sh)}
@@ -83,7 +83,7 @@ body.v-pc .tlist{grid-template-columns:repeat(3,1fr)}
 .q-txt{font-size:1.3rem;font-weight:900;line-height:1.35;word-wrap:break-word;overflow-wrap:anywhere}
 body.v-pc .q-txt{font-size:1.9rem}
 .q-txt .katex-display,.q-txt .katex{max-width:100%}
-.answers{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.answers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}
 .answers.one{grid-template-columns:1fr}
 .ab{position:relative;border:2px solid var(--line);border-left:8px solid var(--ac);border-radius:18px;background:var(--card);color:var(--ink);box-shadow:0 1px 2px var(--s1);min-height:5.6rem;padding:.7rem .6rem;font-weight:900;font-size:1.15rem;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.45rem;text-align:center;transition:transform .08s,background .15s}
 .answers.long .ab{min-height:4.2rem;flex-direction:row;justify-content:flex-start;text-align:left;font-size:1.02rem}
@@ -107,7 +107,7 @@ body.v-mob .fhint{display:none}
 @media (hover:hover) and (pointer:fine){body.v-mob .fhint{display:block}}
 .fbox small{font-size:1.1rem;color:var(--ink2);margin-left:.4rem}
 .fbox.shake{border-color:var(--coral)}
-.kpad{display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;max-width:26rem;margin:0 auto}
+.kpad{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.45rem;max-width:26rem;margin:0 auto}
 .kpad button{border:0;border-radius:16px;background:var(--card);box-shadow:0 4px 0 var(--line2);height:3.5rem;font-size:1.55rem;font-weight:900;color:var(--ink);user-select:none;-webkit-user-select:none}
 .kpad button:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line2)}
 .kpad button.op{background:var(--violet-l);color:var(--violet-t)}
@@ -173,7 +173,7 @@ body.ingame #foot{display:none}
 .rules-mode{display:inline-block;background:linear-gradient(135deg,var(--violet),var(--grape));color:var(--on);border-radius:999px;padding:.25rem .9rem;font-weight:900;font-size:.9rem}
 .rules-card h2{font-size:1.6rem;margin:.4rem 0 .6rem}
 .rules-cols{display:grid;grid-template-columns:1fr;gap:.8rem}
-body.v-pc .rules-cols{grid-template-columns:1fr 1fr}
+body.v-pc .rules-cols{grid-template-columns:repeat(2,minmax(0,1fr))}
 .rules-card h3{font-size:1rem;color:var(--ink2);margin-bottom:.3rem}
 .rules-card ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.45rem}
 .rules-card li{display:flex;gap:.55rem;align-items:flex-start;font-weight:700;font-size:.95rem}
@@ -182,7 +182,7 @@ body.v-pc .rules-cols{grid-template-columns:1fr 1fr}
 
 /* ═══ tuiles, ordre, curseur (élève) ═══ */
 .wid.off{pointer-events:none;opacity:.55}
-.wa{display:grid;grid-template-columns:1fr 1fr;gap:.55rem .8rem}
+.wa{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem .8rem}
 .wcol{display:flex;flex-direction:column;gap:.55rem}
 .wt{position:relative;border:2px solid var(--line2);background:var(--card);border-radius:16px;min-height:3.4rem;padding:.45rem .6rem;font-weight:900;font-size:1.08rem;color:var(--ink);box-shadow:0 4px 0 var(--line2);display:flex;align-items:center;justify-content:center;gap:.4rem;text-align:center;line-height:1.2;overflow-wrap:anywhere;transition:transform .1s,box-shadow .1s}
 .wt.r{background:var(--bg2)}

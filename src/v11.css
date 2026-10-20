@@ -81,7 +81,7 @@ body[data-mode] .card{border-color:color-mix(in srgb,var(--mc) 45%,var(--line2))
 .foot-l{display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem 1rem;max-width:34rem;margin:0 auto}
 .foot-l a{margin:0;padding:.25rem .1rem;white-space:nowrap}
 .foot-t{margin:.8rem auto 0;max-width:30rem;line-height:1.45;font-size:.82rem;color:var(--ink3);text-wrap:balance}
-@media (max-width:480px){.foot-l{display:grid;grid-template-columns:1fr 1fr;gap:.2rem .6rem;max-width:20rem}.foot-l a{text-align:center;padding:.45rem .2rem;border-bottom-width:1px}}
+@media (max-width:480px){.foot-l{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.2rem .6rem;max-width:20rem}.foot-l a{text-align:center;padding:.45rem .2rem;border-bottom-width:1px}}
 /* échelle des paliers d’XP */
 .xp-lad{margin:.4rem 0 0;padding:0;list-style:none;display:grid;gap:.25rem}
 .xp-lad li{display:flex;justify-content:space-between;gap:.6rem;padding:.3rem .6rem;border-radius:8px;background:var(--tint);border:1px solid var(--line);font-size:.9rem}
@@ -124,7 +124,7 @@ body[data-mode] .card{border-color:color-mix(in srgb,var(--mc) 45%,var(--line2))
 .vbtn.on{border-color:var(--violet);background:var(--violet-l);box-shadow:0 0 0 3px var(--violet-l)}
 .vsec{font-weight:800;color:var(--ink2);margin-top:.4rem}
 /* projection MJ */
-.g-assoc{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.g-assoc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}
 .g-assoc.rv{grid-template-columns:1fr}
 .ga-col{display:grid;gap:.6rem;align-content:start}
 .ga-it{display:flex;align-items:center;gap:.8rem;background:var(--card);border:2px solid var(--line2);border-radius:16px;padding:.7rem 1rem;font-weight:900;font-size:1.45rem;min-height:4rem}
@@ -156,3 +156,7 @@ body.v-mob .ga-it{font-size:1.05rem;min-height:3rem;padding:.5rem .7rem}
 .dd-champs small{display:block;font-weight:800;color:var(--ink2);font-size:1.1rem}
 .dd-champs b{font-size:2.4rem;line-height:1.1}
 @media (max-width:700px){.dd-cols,.dd-champs{grid-template-columns:1fr}.dd-vs{justify-self:center}.dd-h{font-size:1.5rem}}
+/* v1.5 : propositions de largeur égale, textes longs coupés proprement (mobile) */
+.ab,.g-choices>*,.wrow,.wa-l,.ga-it,.pq .ch,.betb{min-width:0;overflow-wrap:anywhere;hyphens:auto}
+.sl-tol{display:inline-block;margin:.35rem auto 0;font-size:.85rem;font-weight:800;color:var(--muted);text-align:center}
+.seg .tp-g{flex-basis:100%;font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:.35rem 0 .05rem}

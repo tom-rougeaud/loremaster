@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 45–60 % de classiques (QCM + vrai/faux).
 
-**5 / 99 thèmes terminés — 1725 questions au total.**
+**9 / 99 thèmes terminés — 1982 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -11,10 +11,10 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 | 3 | Démons et diables | 153 | 59 | 22 (11) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 53 % | 23/83/47 | 79 | terminé |
 | 4 | Géants | 150 | 56 | 22 (12) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 24/81/45 | 51 | terminé |
 | 5 | Aberrations | 150 | 56 | 22 (11) | 16 | 12 | 11 | 11 | 8 | 8 | 6 | 52 % | 23/77/50 | 54 | terminé |
-| 6 | Fées, sylvains et créatures des bois | 87 | 30 | 22 (12) | 18 | 3 | 3 | 3 | 2 | 2 | 4 | 60 % | 9/42/36 | 38 | base |
-| 7 | Gobelinoïdes et humanoïdes | 86 | 26 | 26 (13) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 7/53/26 | 23 | base |
-| 8 | Monstres de donjon | 86 | 22 | 26 (13) | 21 | 3 | 3 | 3 | 2 | 2 | 4 | 56 % | 9/40/37 | 24 | base |
-| 9 | Élémentaires et créatures planaires | 86 | 30 | 22 (11) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 8/24/54 | 29 | base |
+| 6 | Fées, sylvains et créatures des bois | 150 | 56 | 22 (12) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 20/81/49 | 64 | terminé |
+| 7 | Gobelinoïdes et humanoïdes | 151 | 57 | 26 (13) | 12 | 12 | 11 | 11 | 8 | 8 | 6 | 55 % | 24/95/32 | 45 | terminé |
+| 8 | Monstres de donjon | 150 | 56 | 26 (13) | 14 | 12 | 11 | 11 | 8 | 8 | 4 | 55 % | 24/86/40 | 33 | terminé |
+| 9 | Élémentaires et créatures planaires | 151 | 60 | 22 (11) | 13 | 12 | 11 | 11 | 8 | 8 | 6 | 54 % | 23/65/63 | 40 | terminé |
 | 10 | Lycanthropes et métamorphes | 86 | 30 | 22 (10) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 12/28/46 | 27 | base |
 | 11 | Créatures marines et aquatiques | 87 | 30 | 22 (12) | 18 | 3 | 3 | 3 | 2 | 2 | 4 | 60 % | 11/35/41 | 37 | base |
 | 12 | Bêtes et monstruosités | 87 | 22 | 26 (13) | 22 | 3 | 3 | 3 | 2 | 2 | 4 | 55 % | 14/31/42 | 72 | base |
@@ -223,6 +223,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - fee-061 : explication absente ou trop courte
 - fee-062 : explication absente ou trop courte
 - fee-066 : explication absente ou trop courte
+- fees-sylvains : niveaux déséquilibrés [20, 81, 49]
 - gob-028 : explication absente ou trop courte
 - gob-031 : explication absente ou trop courte
 - gob-032 : explication absente ou trop courte
@@ -233,14 +234,9 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - gob-053 : explication absente ou trop courte
 - gob-055 : explication absente ou trop courte
 - gob-057 : explication absente ou trop courte
-- gob-058 : explication absente ou trop courte
 - gob-059 : explication absente ou trop courte
-- gob-060 : explication absente ou trop courte
 - gob-061 : explication absente ou trop courte
-- gob-062 : explication absente ou trop courte
 - gob-063 : explication absente ou trop courte
-- gob-064 : explication absente ou trop courte
-- gob-065 : explication absente ou trop courte
 - gob-066 : explication absente ou trop courte
 - gob-067 : explication absente ou trop courte
 - gob-070 : explication absente ou trop courte
@@ -264,21 +260,14 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - don-048 : explication absente ou trop courte
 - don-049 : explication absente ou trop courte
 - don-050 : explication absente ou trop courte
-- don-051 : explication absente ou trop courte
-- don-052 : explication absente ou trop courte
 - don-053 : explication absente ou trop courte
-- don-054 : explication absente ou trop courte
 - don-055 : explication absente ou trop courte
-- don-056 : explication absente ou trop courte
-- don-057 : explication absente ou trop courte
 - don-058 : explication absente ou trop courte
 - don-059 : explication absente ou trop courte
-- don-060 : explication absente ou trop courte
 - don-061 : explication absente ou trop courte
 - don-062 : explication absente ou trop courte
 - don-063 : explication absente ou trop courte
 - don-064 : explication absente ou trop courte
-- don-065 : explication absente ou trop courte
 - don-066 : explication absente ou trop courte
 - don-067 : explication absente ou trop courte
 - don-068 : explication absente ou trop courte
@@ -342,12 +331,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - pla-056 : explication absente ou trop courte
 - pla-057 : explication absente ou trop courte
 - pla-058 : explication absente ou trop courte
-- pla-059 : explication absente ou trop courte
-- pla-060 : explication absente ou trop courte
 - pla-061 : explication absente ou trop courte
-- pla-062 : explication absente ou trop courte
-- pla-063 : explication absente ou trop courte
-- pla-064 : explication absente ou trop courte
 - pla-065 : explication absente ou trop courte
 - pla-066 : explication absente ou trop courte
 - pla-067 : explication absente ou trop courte

@@ -577,7 +577,8 @@
    "rep": 10,
    "expl": "Un tyrannœil dispose de dix rayons oculaires (un par pédoncule), aux effets variés : charme, paralysie, désintégration, mort…",
    "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil », section « Rayons oculaires »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-040",
@@ -593,39 +594,42 @@
    "rep": 13,
    "expl": "Le FP 13 le place parmi les monstres à affronter à haut niveau (environ niveaux 10 à 15 pour un groupe de quatre).",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-042",
    "concept": "abe-042",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un tyrannœil (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un tyrannœil ?",
    "min": 50,
    "max": 300,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 5,
    "rep": 180,
    "expl": "Il a 180 points de vie en moyenne (19d10 + 76 selon le bloc de caractéristiques).",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "abe-043",
    "concept": "abe-043",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, quelle est la portée du cône d’antimagie du tyrannœil (en pieds, à 10 près) ?",
+   "q": "Dans D&D 5e, quelle est la portée du cône d’antimagie du tyrannœil (en pieds) ?",
    "min": 50,
    "max": 300,
    "pas": 10,
    "unite": "pieds",
-   "tolerance": 10,
+   "tolerance": 0,
    "rep": 150,
    "expl": "Le cône d’antimagie de l’œil central porte à 150 pieds (environ 45 m).",
    "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil », section « Cône d’antimagie »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-044",
@@ -641,7 +645,8 @@
    "rep": 7,
    "expl": "Le flagelleur mental est de FP 7, un défi de niveau intermédiaire (aventuriers de niveau 5 à 8).",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Flagelleur mental",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-045",
@@ -657,7 +662,8 @@
    "rep": 71,
    "expl": "71 points de vie en moyenne (13d8 + 13) : fragile pour son FP, il compense par ses pouvoirs mentaux.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Flagelleur mental",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-047",
@@ -673,7 +679,8 @@
    "rep": 60,
    "expl": "L’explosion mentale frappe en cône de 60 pieds (18 m), soit assez pour atteindre tout un groupe d’aventuriers.",
    "src": "D&D Beyond — Monstres : « Flagelleur mental »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-048",
@@ -689,7 +696,8 @@
    "rep": 4,
    "expl": "Quatre tentacules entourent sa bouche ; ils servent à la fois d’armes et d’organes de nutrition pour l’« Extraction du cerveau ».",
    "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-049",
@@ -705,7 +713,8 @@
    "rep": 10,
    "expl": "FP 10 : un adversaire redoutable, capable d’asservir plusieurs créatures à la fois.",
    "src": "SRD 5.1, section Monsters (Aboleth)",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-051",
@@ -721,7 +730,8 @@
    "rep": 3,
    "expl": "Il a trois attaques de tentacule par tour, qui infligent des dégâts et peuvent transformer la peau de la victime en mucus.",
    "src": "SRD 5.1, section Monsters (Aboleth)",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-052",
@@ -737,7 +747,8 @@
    "rep": 4,
    "expl": "FP 4 : un adversaire de niveau modeste pour des aventuriers de niveau 3 à 5.",
    "src": "SRD 5.1, section Monsters (Chuul)",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-053",
@@ -753,7 +764,8 @@
    "rep": 5,
    "expl": "FP 5 : son regard confusant et sa force de creuseur en font un gros danger pour un groupe de niveau 4 à 6.",
    "src": "SRD 5.1, section Monsters (Umber Hulk)",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-055",
@@ -769,7 +781,8 @@
    "rep": 2,
    "expl": "FP 2 : petit mais retors, il remplace le cerveau de sa victime et prend le contrôle de son corps.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dévoreur d’intellect",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-057",
@@ -785,7 +798,8 @@
    "rep": 2,
    "expl": "FP 2 : son babillement, ses morsures et son sol gluant en font un adversaire peu puissant mais très désagréable.",
    "src": "SRD 5.1, section Monsters (Gibbering Mouther)",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-058",
@@ -801,7 +815,8 @@
    "rep": 14,
    "expl": "FP 14 : un peu au-dessus du tyrannœil vivant (FP 13), grâce à ses rayons nécrotiques et à ses vols.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyran de la mort",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-059",
@@ -817,7 +832,8 @@
    "rep": 14,
    "expl": "FP 14 : un cerveau géant télépathe, assisté de toute une colonie, capable de dominer des dizaines d’esprits.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Elder brain",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "abe-061",

@@ -687,7 +687,8 @@
    "rep": 2,
    "expl": "Le griffon est de FP 2 : un adversaire modeste, mais rapide en vol, qui s’attaque en piqué.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Griffon",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-050",
@@ -703,7 +704,8 @@
    "rep": 59,
    "expl": "59 PV (7d10 + 21) : assez pour tenir quelques coups d’un groupe de niveau 3-4.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Griffon",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-051",
@@ -719,7 +721,8 @@
    "rep": 3,
    "expl": "FP 3 : sa salve de piques à distance et ses morsures la rendent dangereuse pour des aventuriers de niveau 3-4.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Manticore",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-052",
@@ -735,7 +738,8 @@
    "rep": 68,
    "expl": "Une manticore a 68 points de vie en moyenne (8d8 + 32), ce qui la rend assez résistante pour son niveau.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Manticore",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-053",
@@ -751,23 +755,25 @@
    "rep": 8,
    "expl": "FP 8 : l’hydre est un adversaire de milieu de campagne avec 5 têtes ; elle perd une tête si elle subit au moins 25 dégâts d’un coup.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Hydre",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-054",
    "concept": "bet-054",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une hydre (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a une hydre ?",
    "min": 50,
    "max": 300,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 5,
    "rep": 172,
    "expl": "172 PV (15d12 + 75), ce qui en fait un adversaire très résistant pour son FP.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Hydre",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "bet-055",
@@ -783,23 +789,25 @@
    "rep": 6,
    "expl": "FP 6 : elle vole, mord et utilise son dard venimeux, avec 110 PV en moyenne.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Wyverne",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-056",
    "concept": "bet-056",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une wyverne (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a une wyverne ?",
    "min": 50,
    "max": 300,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 3,
    "rep": 110,
    "expl": "110 PV (13d10 + 39).",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Wyverne",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "bet-057",
@@ -815,23 +823,25 @@
    "rep": 6,
    "expl": "FP 6 : trois têtes, trois attaques par tour (morsure, corne, griffes) et un souffle de feu.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Chimère",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-058",
    "concept": "bet-058",
    "niveau": 3,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a une chimère (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a une chimère ?",
    "min": 50,
    "max": 300,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 3,
    "rep": 114,
    "expl": "114 PV (12d10 + 48).",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Chimère",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "id": "bet-059",
@@ -847,7 +857,8 @@
    "rep": 5,
    "expl": "FP 5 : elle a des sorts innés (détection du Mal, apaisement des émotions) et peut soigner d’une touche de sa corne.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Licorne",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-060",
@@ -863,7 +874,8 @@
    "rep": 11,
    "expl": "FP 11 : un grand serpent aux nombreux membres, crachant la foudre.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Behir",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-061",
@@ -879,7 +891,8 @@
    "rep": 11,
    "expl": "FP 11 : environ 195 PV et un corps brûlant qui inflige des dégâts de feu au contact.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Remorhaz",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-062",
@@ -895,7 +908,8 @@
    "rep": 11,
    "expl": "FP 11 : un oiseau gigantesque (taille Gigantesque) d’environ 248 PV, capable d’emporter des proies énormes.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Roc",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-063",
@@ -911,7 +925,8 @@
    "rep": 1,
    "expl": "FP 1 : la harpie est faible mais son chant peut piéger toute une troupe de joueurs imprudents.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Harpie",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-064",
@@ -927,7 +942,8 @@
    "rep": 11,
    "expl": "FP 11 : elle connaît beaucoup de sorts et pose des énigmes, avec environ 136 PV.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Gynosphinx",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-065",
@@ -943,7 +959,8 @@
    "rep": 17,
    "expl": "FP 17 : un sphinx masculin, bien plus puissant que la gynosphinx, avec environ 199 PV et un rugissement dévastateur.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Androsphinx",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-066",
@@ -959,7 +976,8 @@
    "rep": 2,
    "expl": "FP 2 : bon archer et combattant au corps à corps, avec environ 45 PV.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Centaure",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-067",
@@ -975,7 +993,8 @@
    "rep": 2,
    "expl": "FP 2 : une monture rapide et intelligente d’alignement chaotique bon, avec environ 59 PV.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Pégase",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-068",
@@ -991,7 +1010,8 @@
    "rep": 3,
    "expl": "FP 3 : sa charge (taureau furieux) inflige de gros dégâts, avec environ 76 PV.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Minotaure",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-069",
@@ -1007,7 +1027,8 @@
    "rep": 6,
    "expl": "FP 6 : son regard pétrifie et elle tire à l’arc avec des flèches empoisonnées ; environ 127 PV.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Méduse",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "id": "bet-070",
@@ -1023,7 +1044,8 @@
    "rep": 8,
    "expl": "Huit : cette particularité vient de sa naissance par Loki métamorphosé en jument.",
    "src": "Snorri Sturluson, Edda (Gylfaginning, ch. 41-42)",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "type": "intrus",

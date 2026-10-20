@@ -80,10 +80,10 @@ function nextQuestion(){
   $("g-meta").innerHTML=metaHtml(q);
   setGameQ(q);
   var kd=qKind(q);
-  if(wideKind(q))$("g-choices").innerHTML='<div class="g-wide">'+scaleHtml(q.sl,{big:true})+'<div class="g-how">Estimez avec le curseur sur votre téléphone</div></div>';
+  if(wideKind(q))$("g-choices").innerHTML='<div class="g-wide">'+scaleHtml(q.sl,{big:true})+'<div class="g-how">Estimez avec le curseur sur votre téléphone'+(tolText(qPublic(q).sl)?" · "+esc(tolText(qPublic(q).sl)):"")+'</div></div>';
   else if(P.hide)$("g-choices").innerHTML='<div class="g-hidden" style="grid-column:1/-1">'+ICO.eyeoff+"Les propositions sont sur vos téléphones</div>";
   else $("g-choices").innerHTML=liveChoicesHtml(q);
-  $("g-choices").style.gridTemplateColumns=(!wideKind(q)&&!P.hide&&q.choices.length===2)?"1fr 1fr":"";
+  $("g-choices").style.gridTemplateColumns=(!wideKind(q)&&!P.hide&&q.choices.length===2)?"repeat(2,minmax(0,1fr))":"";
   $("g-choices").classList.toggle("one",!wideKind(q)&&!P.hide&&(q.kind==="assoc"||q.choices.some(function(c){return String(c.t).length>26;})));
   $("g-rev").classList.add("hidden");$("g-rev").innerHTML="";$("g-qbox").classList.remove("rv");
   $("g-timer").classList.remove("hidden","low");
@@ -279,7 +279,7 @@ function renderReveal(h,boost,dmg){
     $("g-choices").style.gridTemplateColumns="";
   }else{
     $("g-choices").innerHTML=revealChoicesHtml(q,h);
-    $("g-choices").style.gridTemplateColumns=q.choices.length===2?"1fr 1fr":"";
+    $("g-choices").style.gridTemplateColumns=q.choices.length===2?"repeat(2,minmax(0,1fr))":"";
   }
   var pct=Math.round(h.rate*100),r='<div class="rv-grid"><div class="rv-rate" style="--p:'+pct+'">'+pct+'%<small>de réussite</small></div><div>'+
     '<div class="rv-ans"><span class="lbl2">Bonne réponse</span><span class="val">'+rt(h.ans)+"</span></div>"+

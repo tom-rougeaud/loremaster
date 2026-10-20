@@ -1,16 +1,16 @@
 /* ═══════════════════════════════════════════════════════════════
    PAGE MJ — 1. Choisir les thèmes et régler la partie
 ═══════════════════════════════════════════════════════════════ */
-var P={v:0,lvl:"all",sel:[],mode:"solo",nq:10,dur:0,ord:"rand",tp:"achimopsvw",df:"123",dark:false,nt:2,tnames:null,hide:false,auto:false,early:true,names:true,view:null,mute:false,read:3,pts:"vite",hd:3,hpen:false};
-function loadSetup(){var s=store.get("mj",null);if(s&&typeof s==="object")for(var k in P)if(s[k]!==undefined)P[k]=s[k];P.sel=(P.sel||[]).filter(function(id){return !!ITEM_BY_ID[id];});if(!P.dark)P.sel=P.sel.filter(function(id){return !ITEM_BY_ID[id].dark;});if(!s||s.v!==13){if(!s||s.v<12)P.mode="solo";P.tp="achimopsvw";P.v=13;}if(!P.tp)P.tp="cvs";if(!P.df)P.df="123";}
+var P={v:0,lvl:"all",sel:[],mode:"solo",nq:10,dur:0,ord:"rand",tp:"achimopsvw",df:"mix",dark:false,nt:2,tnames:null,hide:false,auto:false,early:true,names:true,view:null,mute:false,read:3,pts:"vite",hd:3,hpen:false};
+function loadSetup(){var s=store.get("mj",null);if(s&&typeof s==="object")for(var k in P)if(s[k]!==undefined)P[k]=s[k];P.sel=(P.sel||[]).filter(function(id){return !!ITEM_BY_ID[id];});if(!P.dark)P.sel=P.sel.filter(function(id){return !ITEM_BY_ID[id].dark;});if(!s||s.v<13){if(!s||s.v<12)P.mode="solo";P.tp="achimopsvw";}if(!s||s.v<14){P.df="mix";P.v=14;}if(!P.tp)P.tp="cvs";if(["mix","prog","1","2","3"].indexOf(P.df)<0)P.df="mix";}
 function saveSetup(){store.set("mj",P);}
 function teamNames(){var a=P.tnames&&P.tnames.length?P.tnames:[];return TEAMS.map(function(t,i){return a[i]||t.n;});}
 
 var DURS=[[0,"Auto"],[15,"15 s"],[30,"30 s"],[60,"1 min"],[120,"2 min"]];
 var NQS=[5,10,15,20];
-var ORDS=[["rand","Mélangé"],["prog","Progressif"]];
 var TPS=[["c","QCM"],["v","Vrai ou faux"],["s","Curseur"],["i","Intrus"],["h","Texte à trous"],["w","Qui suis-je ?"],["m","Réponses multiples"],["o","Remettre dans l’ordre"],["a","Association"],["p","Pari"]];
-var DFS=[["1","★ Débutant"],["2","★★ Initié"],["3","★★★ Expert"]];
+/* niveau : mélangé (défaut), progressif (du plus facile au plus difficile) ou un seul niveau, strictement */
+var DFS=[["mix","Mélangé"],["prog","Progressif"],["1","★ Débutant"],["2","★★ Initié"],["3","★★★ Expert"]];
 var READS=[[0,"Aucun"],[3,"3 s"],[5,"5 s"]];
 var HDS=[[0,"Aucun"],[3,"+3 s"],[5,"+5 s"],[10,"+10 s"]];
 var PTSM=[["vite","Justesse et rapidité"],["juste","Justesse seule"]];
@@ -25,8 +25,8 @@ function themeIcon(it){var t=(typeof TICO!=="undefined"&&TICO)?(TICO[it.ico]||TI
 /* filtres de tirage : types de questions, difficultés, contenus sombres */
 function drawCtx(){
   var types={};TPS.forEach(function(x){types[x[0]]=P.tp.indexOf(x[0])>=0;});
-  var diffs=P.df.split("").map(Number).filter(function(n){return n>=1&&n<=3;});
-  return {types:types,diffs:diffs.length===3?null:diffs,dark:!!P.dark};
+  var lv=+P.df;
+  return {types:types,diffs:lv>=1&&lv<=3?[lv]:null,dark:!!P.dark};
 }
 
 /* ─── royaumes ─── */
@@ -134,9 +134,10 @@ function renderSettings(){
   $("modes").innerHTML=["solo","duel","boss"].map(function(m){var M=MODES[m];return '<button type="button" class="mode'+(P.mode===m?" on":"")+'" data-m="'+m+'"><span class="mi" style="--mc:'+MODE_C[m]+'">'+MODE_IC[m]+'</span><span><b>'+esc(M.nom)+"</b><small>"+esc(M.desc)+"</small></span></button>";}).join("");
   $("seg-nq").innerHTML=segHtml(NQS,P.nq);
   $("seg-dur").innerHTML=segHtml(DURS,P.dur);
-  $("seg-ord").innerHTML=segHtml(ORDS,P.ord);
-  $("seg-tp").innerHTML=multiHtml(TPS,P.tp);
-  $("seg-df").innerHTML=multiHtml(DFS,P.df);
+  /* types : classiques, nouveaux formats, pari ; « Tous » coche tout d’un coup */
+  var allOn=TPS.every(function(x){return P.tp.indexOf(x[0])>=0;});
+  $("seg-tp").innerHTML='<button type="button" data-all="1"'+(allOn?' class="on"':"")+'>Tous les types</button><span class="tp-g">Classiques</span>'+multiHtml(TPS.slice(0,3),P.tp)+'<span class="tp-g">Nouveaux formats</span>'+multiHtml(TPS.slice(3,9),P.tp)+'<span class="tp-g">Option</span>'+multiHtml(TPS.slice(9),P.tp);
+  $("seg-df").innerHTML=segHtml(DFS,P.df);
   $("seg-read").innerHTML=segHtml(READS,P.read);
   $("seg-pts").innerHTML=segHtml(PTSM,P.pts);
   $("seg-nt").innerHTML=segHtml([2,3,4,5,6],P.nt);
@@ -147,12 +148,14 @@ function renderSettings(){
   updateSel();
 }
 $("modes").addEventListener("click",function(e){var b=e.target.closest(".mode");if(!b)return;P.mode=b.getAttribute("data-m");setBodyMode(P.mode);saveSetup();renderSettings();});
-[["seg-nq","nq",true],["seg-dur","dur",true],["seg-ord","ord",false],["seg-nt","nt",true],["seg-read","read",true],["seg-pts","pts",false],["seg-hd","hd",true]].forEach(function(x){
+[["seg-nq","nq",true],["seg-dur","dur",true],["seg-df","df",false],["seg-nt","nt",true],["seg-read","read",true],["seg-pts","pts",false],["seg-hd","hd",true]].forEach(function(x){
   $(x[0]).addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;var v=b.getAttribute("data-v");P[x[1]]=x[2]?+v:v;saveSetup();renderSettings();});
 });
-[["seg-tp","tp"],["seg-df","df"]].forEach(function(x){
+[["seg-tp","tp"]].forEach(function(x){
   $(x[0]).addEventListener("click",function(e){
-    var b=e.target.closest("button");if(!b)return;var v=b.getAttribute("data-v"),cur=P[x[1]];
+    var b=e.target.closest("button");if(!b)return;
+    if(b.getAttribute("data-all")){P.tp=TPS.map(function(t){return t[0];}).sort().join("");saveSetup();renderSettings();return;}
+    var v=b.getAttribute("data-v"),cur=P[x[1]];
     if(cur.indexOf(v)>=0){if(cur.length<=1){toast("Gardez au moins une case cochée.");return;}cur=cur.replace(v,"");}else cur=(cur+v).split("").sort().join("");
     P[x[1]]=cur;saveSetup();renderSettings();
   });

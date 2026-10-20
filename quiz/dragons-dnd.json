@@ -796,7 +796,8 @@
    "expl": "Cinq têtes, une par couleur chromatique : blanc, noir, vert, bleu, rouge.",
    "src": "Fizban’s Treasury of Dragons (2021), chap. 1",
    "id": "dra-054",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 1,
@@ -812,7 +813,8 @@
    "expl": "Cinq : airain, bronze, cuivre, or, argent.",
    "src": "Manuel des Monstres 5e (2014), chap. « Dragons métalliques »",
    "id": "dra-056",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 1,
@@ -828,7 +830,8 @@
    "expl": "Quatre : dragonnet, jeune, adulte, ancien.",
    "src": "Manuel des Monstres 5e (2014), chap. « Dragons »",
    "id": "dra-057",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 2,
@@ -844,7 +847,8 @@
    "expl": "Trois : Détection, Attaque de queue, Attaque d’aile (coût 2).",
    "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge ancien »",
    "id": "dra-058",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 2,
@@ -860,7 +864,8 @@
    "expl": "3 fois par jour : il peut transformer un jet de sauvegarde raté en réussite.",
    "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge ancien »",
    "id": "dra-059",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 3,
@@ -876,7 +881,8 @@
    "expl": "FP 24 : 546 PV et un souffle de 26d6.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
    "id": "dra-060",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 3,
@@ -892,71 +898,76 @@
    "expl": "FP 17 : 256 PV et un souffle de 18d6.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
    "id": "dra-061",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 3,
    "concept": "pv_rouge_adulte",
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un dragon rouge adulte (à 10 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un dragon rouge adulte ?",
    "min": 50,
    "max": 600,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 10,
+   "tolerance": 8,
    "rep": 256,
    "expl": "256 PV (19d12 + 133).",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
    "id": "dra-062",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "niveau": 3,
    "concept": "pv_rouge_ancien",
    "type": "slider",
-   "q": "Dans D&D 5e, combien de points de vie moyens a un dragon rouge ancien (à 20 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un dragon rouge ancien ?",
    "min": 100,
    "max": 800,
    "pas": 1,
    "unite": "PV",
-   "tolerance": 20,
+   "tolerance": 16,
    "rep": 546,
    "expl": "546 PV (28d20 + 252).",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
    "id": "dra-063",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 3
   },
   {
    "niveau": 3,
    "concept": "cone_adulte",
    "type": "slider",
-   "q": "Dans D&D 5e, quelle est la longueur du cône de feu d’un dragon rouge adulte (en pieds, à 5 près) ?",
+   "q": "Dans D&D 5e, quelle est la longueur du cône de feu d’un dragon rouge adulte (en pieds) ?",
    "min": 0,
    "max": 150,
    "pas": 5,
    "unite": "pieds",
-   "tolerance": 5,
+   "tolerance": 0,
    "rep": 60,
    "expl": "60 pieds (18 m) de longueur.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
    "id": "dra-064",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 3,
    "concept": "cone_ancien",
    "type": "slider",
-   "q": "Dans D&D 5e, quelle est la longueur du cône de feu d’un dragon rouge ancien (en pieds, à 5 près) ?",
+   "q": "Dans D&D 5e, quelle est la longueur du cône de feu d’un dragon rouge ancien (en pieds) ?",
    "min": 0,
    "max": 150,
    "pas": 5,
    "unite": "pieds",
-   "tolerance": 5,
+   "tolerance": 0,
    "rep": 90,
    "expl": "90 pieds (27 m) de longueur.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
    "id": "dra-065",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 3,
@@ -972,7 +983,8 @@
    "expl": "CA 22, grâce à ses écailles (armure naturelle).",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
    "id": "dra-066",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 3,
@@ -988,7 +1000,8 @@
    "expl": "CA 19, grâce à ses écailles (armure naturelle).",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
    "id": "dra-067",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 2,
@@ -1004,7 +1017,8 @@
    "expl": "En 1974 chez TSR (Gary Gygax et Dave Arneson).",
    "src": "Jon Peterson, Playing at the World (2012), chap. 9 ; SRD 5.1, préface",
    "id": "dra-068",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 3,
@@ -1020,7 +1034,8 @@
    "expl": "DD 21 : le souffle inflige 18d6 dégâts de feu.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
    "id": "dra-069",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "niveau": 3,
@@ -1036,7 +1051,8 @@
    "expl": "DD 24 : le souffle inflige 26d6 dégâts de feu.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
    "id": "dra-070",
-   "conf": "probable"
+   "conf": "probable",
+   "tol_pct": 0
   },
   {
    "type": "intrus",

@@ -33,3 +33,6 @@ function scaleHtml(sl,o){
 function assocHtml(){return "";}
 function ordreHtml(){return "";}
 function corrOf(q){return qCorr(q);}
+
+/* v1.5 : tolérance du curseur annoncée aux joueurs (0 = réponse exacte) */
+function tolText(sl){if(!sl||sl.tl===undefined||sl.tl===null)return "";return sl.tl>0?"Juste à ± "+f(sl.tl,Math.max(sl.d||0,decOf(sl.tl)))+(sl.u?" "+sl.u:"")+" près":"Réponse exacte attendue";}
