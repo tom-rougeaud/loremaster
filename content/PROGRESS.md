@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 45–60 % de classiques (QCM + vrai/faux).
 
-**9 / 99 thèmes terminés — 1982 questions au total.**
+**10 / 99 thèmes terminés — 2046 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -15,7 +15,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 | 7 | Gobelinoïdes et humanoïdes | 151 | 57 | 26 (13) | 12 | 12 | 11 | 11 | 8 | 8 | 6 | 55 % | 24/95/32 | 45 | terminé |
 | 8 | Monstres de donjon | 150 | 56 | 26 (13) | 14 | 12 | 11 | 11 | 8 | 8 | 4 | 55 % | 24/86/40 | 33 | terminé |
 | 9 | Élémentaires et créatures planaires | 151 | 60 | 22 (11) | 13 | 12 | 11 | 11 | 8 | 8 | 6 | 54 % | 23/65/63 | 40 | terminé |
-| 10 | Lycanthropes et métamorphes | 86 | 30 | 22 (10) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 12/28/46 | 27 | base |
+| 10 | Lycanthropes et métamorphes | 150 | 56 | 22 (10) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 22/73/55 | 41 | terminé |
 | 11 | Créatures marines et aquatiques | 87 | 30 | 22 (12) | 18 | 3 | 3 | 3 | 2 | 2 | 4 | 60 % | 11/35/41 | 37 | base |
 | 12 | Bêtes et monstruosités | 87 | 22 | 26 (13) | 22 | 3 | 3 | 3 | 2 | 2 | 4 | 55 % | 14/31/42 | 72 | base |
 | 13 | Golems, constructions et animés | 86 | 29 | 23 (10) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 8/30/48 | 22 | base |
@@ -363,7 +363,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - lyc-059 : explication absente ou trop courte
 - lyc-060 : explication absente ou trop courte
 - lyc-061 : explication absente ou trop courte
-- lyc-062 : explication absente ou trop courte
 - lyc-063 : explication absente ou trop courte
 - lyc-064 : explication absente ou trop courte
 - lyc-065 : explication absente ou trop courte
@@ -371,6 +370,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - lyc-067 : explication absente ou trop courte
 - lyc-068 : explication absente ou trop courte
 - lyc-070 : explication absente ou trop courte
+- lycanthropes-metamorphes : niveaux déséquilibrés [22, 73, 55]
 - mar-037 : explication absente ou trop courte
 - mar-054 : explication absente ou trop courte
 - mar-055 : explication absente ou trop courte

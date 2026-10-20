@@ -128,7 +128,7 @@
    "concept": "lyc-006",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel monstre est un gobelinoïde métamorphe qui prend l’apparence d’un loup ?",
+   "q": "Dans D&D 5e, quel fiélon métamorphe peut prendre l’apparence d’un gobelin ou d’un loup ?",
    "choix": [
     "Le barghest",
     "Le worg",
@@ -136,8 +136,8 @@
     "Le loup arctique"
    ],
    "rep": 0,
-   "expl": "Le barghest (FP 4) est un fiélon-loup qui peut prendre l’apparence d’un gobelin ou d’un loup ; il est dans Mordenkainen’s Tome of Foes.",
-   "src": "Dans D&D 5e, Mordenkainen’s Tome of Foes (2018), chap. 3 « Barghest »",
+   "expl": "Le barghest (FP 4) est un fiélon qui se cache parmi les gobelins sous forme de gobelin ou de loup ; il dévore les âmes. Il est décrit dans le Guide de Volo (2016).",
+   "src": "Volo’s Guide to Monsters (2016), « Barghest »",
    "conf": "probable"
   },
   {
@@ -332,7 +332,7 @@
    "concept": "lyc-018",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle créature des plans fait partie des « métamorphes » (shapechangers) ?",
+   "q": "Dans D&D 5e, quel monstre de donjon est, comme les lycanthropes, un métamorphe (shapechanger) ?",
    "choix": [
     "Le mimique",
     "Le gobelin",
@@ -434,15 +434,15 @@
    "concept": "lyc-024",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel loup sanguinaire du Manuel des Monstres est plus grand que le loup normal ?",
+   "q": "Dans D&D 5e, quel loup de taille Grande, plus massif qu’un loup ordinaire, peut servir de monture ?",
    "choix": [
-    "Le loup sanguinaire (dire wolf)",
+    "Le loup sanguinaire",
     "Le worg",
     "Le loup arctique",
     "Le loup-garou"
    ],
    "rep": 0,
-   "expl": "Le loup sanguinaire (dire wolf, FP 1) est un grand loup féroce ; le worg est lié aux gobelins.",
+   "expl": "Le loup sanguinaire (dire wolf, FP 1) est un grand loup de taille Grande, parfois monté par des hobgobelins ou des orques.",
    "src": "Manuel des Monstres 5e (2014), entrée « Loup sanguinaire »",
    "conf": "probable"
   },
@@ -495,40 +495,6 @@
    "rep": 0,
    "expl": "Vision véritable (True Seeing, niveau 6) permet de voir la forme réelle des métamorphes.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vision véritable",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-028",
-   "concept": "lyc-028",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quels animaux le loup-garou peut-il convoquer en forme hybride ?",
-   "choix": [
-    "Des loups",
-    "Des corbeaux",
-    "Des rats",
-    "Des serpents"
-   ],
-   "rep": 0,
-   "expl": "Le loup-garou peut appeler des loups pour l’aider au combat.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-029",
-   "concept": "lyc-029",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, que ne peut pas lancer un loup-garou en forme hybride ?",
-   "choix": [
-    "Des sorts de magicien",
-    "Des griffes",
-    "Une morsure",
-    "Une transformation"
-   ],
-   "rep": 0,
-   "expl": "Le loup-garou n’a pas de lancer de sorts ; il frappe avec ses griffes et sa morsure.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
    "conf": "probable"
   },
   {
@@ -945,8 +911,8 @@
    "pas": 1,
    "unite": "PV",
    "tolerance": 0,
-   "rep": 60,
-   "expl": "60 PV (11d8 + 11).",
+   "rep": 33,
+   "expl": "Le rat-garou a 33 PV en moyenne (6d8 + 6) : c’est le plus fragile des lycanthropes du Manuel des Monstres.",
    "src": "Manuel des Monstres 5e (2014), entrée « Rat-garou »",
    "conf": "probable"
   },
@@ -1268,13 +1234,13 @@
    "niveau": 3,
    "q": "Classe ces lycanthropes par points de vie moyens croissants.",
    "items": [
-    "Loup-garou",
     "Rat-garou",
+    "Loup-garou",
     "Sanglier-garou",
     "Tigre-garou",
     "Ours-garou"
    ],
-   "expl": "PV moyens : loup-garou 58, rat-garou 60, sanglier-garou 78, tigre-garou 120, ours-garou 135.",
+   "expl": "PV moyens : rat-garou 33, loup-garou 58, sanglier-garou 78, tigre-garou 120, ours-garou 135.",
    "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
    "id": "lyc-081",
    "conf": "probable",
