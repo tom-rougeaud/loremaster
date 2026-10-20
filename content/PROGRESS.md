@@ -2,13 +2,13 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 45–60 % de classiques (QCM + vrai/faux).
 
-**2 / 99 thèmes terminés — 1528 questions au total.**
+**3 / 99 thèmes terminés — 1595 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Dragons chromatiques et métalliques | 152 | 59 | 23 (11) | 16 | 12 | 11 | 11 | 8 | 9 | 3 | 54 % | 40/79/33 | 83 | terminé |
 | 2 | Morts-vivants | 150 | 56 | 22 (11) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 30/85/35 | 59 | terminé |
-| 3 | Démons et diables | 86 | 30 | 22 (11) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 13/41/32 | 55 | base |
+| 3 | Démons et diables | 153 | 59 | 22 (11) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 53 % | 23/83/47 | 79 | terminé |
 | 4 | Géants | 84 | 29 | 22 (12) | 18 | 3 | 2 | 3 | 2 | 2 | 3 | 61 % | 13/39/32 | 23 | base |
 | 5 | Aberrations | 86 | 26 | 22 (11) | 22 | 3 | 3 | 3 | 2 | 2 | 3 | 56 % | 7/37/42 | 37 | base |
 | 6 | Fées, sylvains et créatures des bois | 87 | 30 | 22 (12) | 18 | 3 | 3 | 3 | 2 | 2 | 4 | 60 % | 9/42/36 | 38 | base |
@@ -178,6 +178,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - dem-066 : explication absente ou trop courte
 - dem-069 : explication absente ou trop courte
 - dem-070 : explication absente ou trop courte
+- content/003/a.lm:19 : bonne réponse nettement plus longue que les autres (indice involontaire)
 - gea-031 : explication absente ou trop courte
 - gea-033 : explication absente ou trop courte
 - gea-034 : explication absente ou trop courte
