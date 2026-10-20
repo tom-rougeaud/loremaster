@@ -596,22 +596,6 @@
    "conf": "probable"
   },
   {
-   "id": "abe-041",
-   "concept": "abe-041",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la classe d’armure (CA) du tyrannœil ?",
-   "min": 10,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 18,
-   "expl": "Sa CA est de 18, grâce à son armure naturelle (peau épaisse).",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
-   "conf": "probable"
-  },
-  {
    "id": "abe-042",
    "concept": "abe-042",
    "niveau": 3,
@@ -676,22 +660,6 @@
    "conf": "probable"
   },
   {
-   "id": "abe-046",
-   "concept": "abe-046",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la classe d’armure (CA) du flagelleur mental ?",
-   "min": 10,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 15,
-   "expl": "Le flagelleur mental a une CA de 15, due à son armure (cuirasse) : il n’a donc pas besoin d’une peau épaisse, car il compte surtout sur ses pouvoirs psioniques.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Flagelleur mental",
-   "conf": "probable"
-  },
-  {
    "id": "abe-047",
    "concept": "abe-047",
    "niveau": 3,
@@ -736,22 +704,6 @@
    "tolerance": 0,
    "rep": 10,
    "expl": "FP 10 : un adversaire redoutable, capable d’asservir plusieurs créatures à la fois.",
-   "src": "SRD 5.1, section Monsters (Aboleth)",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-050",
-   "concept": "abe-050",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la classe d’armure (CA) de l’aboleth ?",
-   "min": 10,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 17,
-   "expl": "CA 17, grâce à sa peau épaisse et visqueuse (armure naturelle).",
    "src": "SRD 5.1, section Monsters (Aboleth)",
    "conf": "probable"
   },
@@ -804,22 +756,6 @@
    "conf": "probable"
   },
   {
-   "id": "abe-054",
-   "concept": "abe-054",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) du cloaker ?",
-   "min": 0,
-   "max": 30,
-   "pas": 1,
-   "unite": "FP",
-   "tolerance": 0,
-   "rep": 8,
-   "expl": "FP 8 : il attaque en s’enroulant autour de sa proie et possède des pouvoirs d’illusion et de gémissement qui terrorisent les groupes.",
-   "src": "SRD 5.1, section Monsters (Cloaker)",
-   "conf": "probable"
-  },
-  {
    "id": "abe-055",
    "concept": "abe-055",
    "niveau": 3,
@@ -833,22 +769,6 @@
    "rep": 2,
    "expl": "FP 2 : petit mais retors, il remplace le cerveau de sa victime et prend le contrôle de son corps.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dévoreur d’intellect",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-056",
-   "concept": "abe-056",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) de l’otyugh ?",
-   "min": 0,
-   "max": 30,
-   "pas": 1,
-   "unite": "FP",
-   "tolerance": 0,
-   "rep": 5,
-   "expl": "FP 5 : ses tentacules l’agrippent et il transmet une maladie, la fièvre putride, par sa morsure.",
-   "src": "SRD 5.1, section Monsters (Otyugh)",
    "conf": "probable"
   },
   {
@@ -897,22 +817,6 @@
    "rep": 14,
    "expl": "FP 14 : un cerveau géant télépathe, assisté de toute une colonie, capable de dominer des dizaines d’esprits.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Elder brain",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-060",
-   "concept": "abe-060",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la classe d’armure (CA) de l’umber hulk ?",
-   "min": 10,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 18,
-   "expl": "CA 18, grâce à sa carapace épaisse (armure naturelle).",
-   "src": "SRD 5.1, section Monsters (Umber Hulk)",
    "conf": "probable"
   },
   {
@@ -1356,6 +1260,1227 @@
    "id": "abe-086",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, combien de pédoncules oculaires porte un tyrannœil ?",
+   "choix": [
+    "10",
+    "6",
+    "8",
+    "12"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des aberrations ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le tyrannœil possède dix pédoncules, chacun capable d’un rayon différent, plus son grand œil central qui crée un cône d’antimagie.",
+   "id": "abe-087",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel rayon du tyrannœil réduit une créature en fine poussière ?",
+   "choix": [
+    "Le rayon de désintégration",
+    "Le rayon de pétrification",
+    "Le rayon de mort",
+    "Le rayon de lenteur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des aberrations ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le rayon de désintégration inflige 10d8 dégâts de force ; une créature réduite à 0 PV est transformée en poussière.",
+   "id": "abe-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, comment naissent souvent de nouveaux tyrannœils ?",
+   "choix": [
+    "Ils apparaissent dans les rêves d’un tyrannœil",
+    "Ils éclosent d’œufs de dragon",
+    "Ils sont créés par des liches",
+    "Ils naissent d’un cerveau ancien"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des aberrations ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le Manuel des Monstres explique qu’un tyrannœil rêve parfois un autre tyrannœil, qui prend alors forme : c’est l’origine des variétés étranges de l’espèce.",
+   "id": "abe-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel tyrannœil dirige une puissante guilde criminelle sous Waterdeep ?",
+   "choix": [
+    "Xanathar",
+    "Halaster",
+    "Manshoon",
+    "Jarlaxle"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018) ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Xanathar, tyrannœil paranoïaque, dirige la guilde du Xanathar ; il adore son poisson rouge, Sylgar. Il donne son nom au Xanathar’s Guide to Everything (2017).",
+   "id": "abe-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le poisson rouge du Xanathar ?",
+   "choix": [
+    "Sylgar",
+    "Bubbles",
+    "Nemo",
+    "Glouglou"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018)",
+   "expl": "Sylgar, le poisson rouge du Xanathar, est son seul véritable « ami » ; sa mort pourrait plonger le tyrannœil dans une rage folle.",
+   "id": "abe-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel petit tyrannœil gardien, aux quatre pédoncules, est souvent invoqué pour protéger un trésor ?",
+   "choix": [
+    "Le spectateur",
+    "Le gauth",
+    "Le nothic",
+    "Le baiser mortel"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018)",
+   "expl": "Le spectateur (FP 3) est un gardien convoqué pour surveiller un lieu ou un objet pendant 101 ans ; il a un œil central et quatre petits pédoncules.",
+   "id": "abe-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel parent du tyrannœil, décrit dans le Guide de Volo, porte dix tentacules sanguinaires ?",
+   "choix": [
+    "Le baiser mortel",
+    "Le spectateur",
+    "Le gauth",
+    "Le nothic"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Tyrannœils »",
+   "expl": "Le baiser mortel (death kiss) remplace les pédoncules par dix tentacules qui sucent le sang et produisent de l’électricité.",
+   "id": "abe-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel monstre borgne est un magicien maudit par sa soif de savoir interdit ?",
+   "choix": [
+    "Le nothic",
+    "Le cyclope",
+    "Le spectateur",
+    "Le grell"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Tyrannœils »",
+   "expl": "Le nothic, à l’œil unique, est un ancien magicien transformé par une magie interdite ; son regard pourrissant et sa Perspicacité étrange révèlent des secrets.",
+   "id": "abe-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans Lost Mine of Phandelver, quel monstre se cache dans les souterrains du manoir Tresendar ?",
+   "choix": [
+    "Un nothic",
+    "Un tyrannœil",
+    "Un flagelleur mental",
+    "Un aboleth"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (boîte d’initiation, 2014), partie 2",
+   "expl": "Un nothic vit dans les caves du manoir Tresendar à Phandaline ; on peut négocier avec lui en lui offrant de la nourriture ou des secrets.",
+   "id": "abe-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, comment s’appelle la transformation d’un hôte en flagelleur mental par un têtard ?",
+   "choix": [
+    "La cérémorphose",
+    "La lycanthropie",
+    "La métempsycose",
+    "La pétrification"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Flagelleurs mentaux »",
+   "expl": "Le têtard est implanté dans un humanoïde et dévore son cerveau ; en une semaine, l’hôte devient un nouveau flagelleur mental. C’est la cérémorphose.",
+   "id": "abe-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels peuples ont été esclaves des flagelleurs mentaux avant de se révolter ?",
+   "choix": [
+    "Les githyanki et githzerai",
+    "Les drows et duergars",
+    "Les kuo-toa",
+    "Les hommes-lézards"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Gith » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Les gith, réduits en esclavage par les illithids, se révoltèrent sous la conduite de Gith ; ils se divisèrent ensuite en githyanki et githzerai.",
+   "id": "abe-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle reine liche gouverne les githyanki ?",
+   "choix": [
+    "Vlaakith",
+    "Lolth",
+    "Zariel",
+    "Tiamat"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Vlaakith, reine liche, règne sur les githyanki depuis Tu’narath, cité bâtie sur le cadavre d’un dieu dans le Plan Astral.",
+   "id": "abe-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel jeu vidéo de 2023 place un têtard de flagelleur mental dans la tête du héros ?",
+   "choix": [
+    "Baldur’s Gate 3",
+    "Neverwinter Nights",
+    "Icewind Dale",
+    "Solasta"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate 3 (Larian Studios, 2023)",
+   "expl": "Dans Baldur’s Gate 3 (Larian Studios, 2023), le personnage est infecté par un têtard d’illithid dès le début et doit éviter la cérémorphose.",
+   "id": "abe-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel flagelleur mental noble, plus grand, possède six tentacules ?",
+   "choix": [
+    "L’ulitharide",
+    "Le neothelid",
+    "L’arcaniste",
+    "Le cerveau ancien"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Flagelleurs mentaux »",
+   "expl": "L’ulitharide est un illithid supérieur à six tentacules qui commande ses semblables ; il apparaît quand un têtard est d’une lignée particulière.",
+   "id": "abe-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel ver gigantesque naît d’un têtard qui n’a jamais trouvé d’hôte ?",
+   "choix": [
+    "Le neothelid",
+    "Le ver pourpre",
+    "Le rémorhaz",
+    "Le flagelleur mental"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "Le neothelid (FP 13) est un têtard affamé devenu ver géant ; il ne connaît que la faim et attaque même les flagelleurs.",
+   "id": "abe-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est l’alignement inhabituel du flumph ?",
+   "choix": [
+    "Loyal bon",
+    "Chaotique mauvais",
+    "Neutre mauvais",
+    "Loyal mauvais"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "Le flumph est une aberration paisible et bienveillante (loyal bon), qui flotte en se nourrissant d’énergie psychique et prévient du danger des illithids.",
+   "id": "abe-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, de quel plan chaotique viennent les slaadi ?",
+   "choix": [
+    "Les Limbes",
+    "Les Abysses",
+    "Mechanus",
+    "L’Achéron"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "Les slaadi sont des aberrations nées dans les Limbes, un chaos en perpétuel changement ; ils se reproduisent en implantant des œufs dans leurs victimes.",
+   "id": "abe-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle aberration aveugle, au corps de cerveau ailé et au bec, attaque avec ses tentacules ?",
+   "choix": [
+    "Le grell",
+    "Le cloaker",
+    "Le flumph",
+    "Le nothic"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "Le grell est un cerveau flottant à bec, sans yeux ; ses tentacules paralysent ses proies qu’il emporte pour les dévorer.",
+   "id": "abe-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel monstre aquatique a été créé à l’origine par les aboleths ?",
+   "choix": [
+    "Le chuul",
+    "Le kraken",
+    "L’otyugh",
+    "Le cloaker"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "Les chuuls, créés jadis par les aboleths, gardent encore leurs anciennes ruines et détectent la magie.",
+   "id": "abe-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, comment s’appelle l’attaque en cône qui étourdit les ennemis du flagelleur mental ?",
+   "choix": [
+    "Explosion mentale",
+    "Cri psychique",
+    "Onde cérébrale",
+    "Regard dément"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "L’Explosion mentale (Mind Blast) est un cône de 18 m qui inflige des dégâts psychiques et étourdit les créatures qui ratent leur jet d’Intelligence.",
+   "id": "abe-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel pouvoir de l’aboleth fait de ses victimes des esclaves ?",
+   "choix": [
+    "Asservissement",
+    "Charme mineur",
+    "Domination des bêtes",
+    "Possession"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "Trois fois par jour, l’aboleth peut asservir une créature par télépathie (jet de Sagesse) ; elle devient son esclave obéissante.",
+   "id": "abe-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que provoque le contact des tentacules de l’aboleth ?",
+   "choix": [
+    "Une maladie qui rend la peau translucide",
+    "Une pétrification lente",
+    "Un sommeil profond et sans rêves",
+    "Une malédiction lunaire"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "La maladie transmise par l’aboleth rend la peau visqueuse et translucide : hors de l’eau, la victime ne récupère plus de points de vie et souffre si sa peau sèche.",
+   "id": "abe-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est la particularité de la mémoire d’un aboleth ?",
+   "choix": [
+    "Il hérite des souvenirs de ses ancêtres",
+    "Il oublie tout chaque nuit",
+    "Il ne se souvient que des rêves",
+    "Il partage la mémoire des dieux"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "Les aboleths transmettent leur mémoire de génération en génération ; ils se souviennent d’une époque où les dieux n’existaient pas.",
+   "id": "abe-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel protecteur d’occultiste vient d’au-delà des étoiles ou des Royaumes Lointains ?",
+   "choix": [
+    "Le Grand Ancien",
+    "Le Fiélon",
+    "L’Archifée",
+    "Le Céleste"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Occultiste »",
+   "expl": "L’occultiste du Grand Ancien a un pacte avec une entité incompréhensible ; il gagne la télépathie (Esprit éveillé) dès le niveau 1.",
+   "id": "abe-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de magicien de niveau 4 fait jaillir du sol des appendices sombres qui agrippent les créatures ?",
+   "choix": [
+    "Tentacules noirs d’Evard",
+    "Toile d’araignée",
+    "Bras d’Hadar",
+    "Mur de pierre"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Tentacules noirs d’Evard (niveau 4, invocation) remplit une zone de tentacules qui entravent et blessent les créatures.",
+   "id": "abe-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel sort d’occultiste de niveau 1 fait surgir des tentacules d’énergie sombre autour du lanceur ?",
+   "choix": [
+    "Bras d’Hadar",
+    "Maléfice",
+    "Représailles infernales",
+    "Décharge occulte"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Bras d’Hadar (arms of Hadar) frappe toutes les créatures autour du lanceur de tentacules d’ombre venus de la Faim noire, Hadar.",
+   "id": "abe-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel effet produit le bavardage du gibbering mouther ?",
+   "choix": [
+    "Il rend confuses les créatures proches",
+    "Il endort les créatures proches",
+    "Il pétrifie ceux qui l’écoutent",
+    "Il charme ceux qui l’écoutent"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le bavardage incessant du gibbering mouther (FP 2) plonge les créatures proches dans la confusion ; son sol devient une boue qui ralentit.",
+   "id": "abe-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que se passe-t-il quand un dévoreur d’intellect réduit l’Intelligence d’une victime à 0 ?",
+   "choix": [
+    "Il prend possession de son corps",
+    "Il meurt",
+    "Il pond un œuf",
+    "Il devient invisible"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Avec Vol de corps, le dévoreur d’intellect dévore le cerveau de sa victime et s’installe dans son crâne pour contrôler son corps.",
+   "id": "abe-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quel peuple aquatique de l’Outreterre, rendu fou par les aboleths, invente ses propres dieux ?",
+   "choix": [
+    "Les kuo-toa",
+    "Les sahuagins",
+    "Les locathah",
+    "Les tritons"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Kuo-toa » ; Out of the Abyss (2015)",
+   "expl": "Les kuo-toa sont si croyants que leur foi peut donner corps à leurs divinités, comme Blibdoolpoolp, la Mère des mers.",
+   "id": "abe-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel monstre ressemble à une cape de cuir et gémit pour effrayer ?",
+   "choix": [
+    "Le cloaker",
+    "Le tapis étouffeur",
+    "Le grell",
+    "Le nothic"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Kuo-toa » ; Out of the Abyss (2015)",
+   "expl": "Le cloaker (manteau noir) se confond avec une cape ; son gémissement terrifie, et il fait apparaître des doubles illusoires de lui-même.",
+   "id": "abe-116",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, la larve d’un flagelleur mental s’appelle un ____.",
+   "choix": [
+    "têtard",
+    "asticot",
+    "œuf",
+    "ver"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des aberrations ; Volo’s Guide to Monsters (2016)",
+   "expl": "Le têtard d’illithid grandit dans le bassin d’un cerveau ancien avant d’être implanté dans un hôte.",
+   "id": "abe-117",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les aberrations sont souvent originaires des Royaumes ____.",
+   "choix": [
+    "Lointains",
+    "Oubliés",
+    "Perdus",
+    "Brisés"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans »",
+   "expl": "Les Royaumes Lointains (Far Realm) sont un plan extérieur à la cosmologie, aux lois incompréhensibles ; leur influence engendre des aberrations.",
+   "id": "abe-118",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le chef d’une colonie de flagelleurs mentaux est un ____ ancien.",
+   "choix": [
+    "cerveau",
+    "œil",
+    "ver",
+    "crâne"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans »",
+   "expl": "Le cerveau ancien (elder brain) vit dans un bassin de saumure et relie télépathiquement toute la colonie.",
+   "id": "abe-119",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Les githyanki et les githzerai doivent leur nom à ____, l’héroïne qui mena la révolte contre les illithids.",
+   "choix": [
+    "Gith",
+    "Zerthimon",
+    "Vlaakith",
+    "Tu’narath"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Gith mena la révolte ; après sa disparition, Zerthimon contesta sa voie, et les githzerai se séparèrent des githyanki.",
+   "id": "abe-120",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le grand œil central du tyrannœil projette un cône d’____ qui annule les sorts.",
+   "choix": [
+    "antimagie",
+    "énergie",
+    "ombre",
+    "lumière"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Le cône d’antimagie empêche toute magie, y compris les rayons du tyrannœil lui-même, ce qui l’oblige à bien choisir l’orientation de son regard.",
+   "id": "abe-121",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le flumph flotte en se nourrissant de l’énergie ____ des autres créatures.",
+   "choix": [
+    "psychique",
+    "solaire",
+    "vitale",
+    "magique"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Le flumph absorbe l’énergie psychique, notamment celle des flagelleurs mentaux, ce qui lui permet de les repérer et d’avertir les autres.",
+   "id": "abe-122",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le dieu des kuo-toa, né de leur foi, est Blibdoolpoolp, la Mère des ____.",
+   "choix": [
+    "mers",
+    "profondeurs",
+    "marées",
+    "sources"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Kuo-toa »",
+   "expl": "Blibdoolpoolp, la Mère des mers, est une divinité à tête de homard ; les kuo-toa croient si fort en leurs dieux qu’ils peuvent les faire exister.",
+   "id": "abe-123",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un spectateur peut garder un trésor pendant ____ ans avant d’être libéré.",
+   "choix": [
+    "101",
+    "99",
+    "50",
+    "1000"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Kuo-toa »",
+   "expl": "Le spectateur invoqué protège ce qu’on lui confie pendant 101 ans ; s’il perd le trésor, il devient fou.",
+   "id": "abe-124",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, la créature sphérique couverte d’yeux s’appelle le ____.",
+   "choix": [
+    "tyrannœil",
+    "spectateur",
+    "flumph",
+    "grell"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Kuo-toa »",
+   "expl": "Le tyrannœil (beholder) est l’aberration emblématique de D&D : une sphère flottante à grand œil central et dix pédoncules oculaires.",
+   "id": "abe-125",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces monstres n’est pas une aberration ?",
+   "choix": [
+    "Basilic",
+    "Tyrannœil",
+    "Aboleth",
+    "Grell"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Kuo-toa »",
+   "expl": "Le basilic est une monstruosité. Le tyrannœil, l’aboleth et le grell sont des aberrations.",
+   "id": "abe-126",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces effets n’est pas un rayon du tyrannœil ?",
+   "choix": [
+    "Rayon de feu",
+    "Rayon de sommeil",
+    "Rayon de mort",
+    "Rayon de pétrification"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Kuo-toa »",
+   "expl": "Les rayons sont : charme, paralysie, terreur, lenteur, affaiblissement, télékinésie, sommeil, pétrification, désintégration et mort. Pas de feu.",
+   "id": "abe-127",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces êtres n’est pas un parent du tyrannœil ?",
+   "choix": [
+    "Grell",
+    "Spectateur",
+    "Gauth",
+    "Baiser mortel"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Tyrannœils »",
+   "expl": "Le grell est une aberration distincte. Le spectateur, le gauth et le baiser mortel sont des tyrannœils mineurs ou apparentés.",
+   "id": "abe-128",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces êtres n’est pas lié aux flagelleurs mentaux ?",
+   "choix": [
+    "Flumph",
+    "Cerveau ancien",
+    "Ulitharide",
+    "Neothelid"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Tyrannœils »",
+   "expl": "Le flumph les combat et les surveille. Le cerveau ancien, l’ulitharide et le neothelid sont des formes de la vie illithide.",
+   "id": "abe-129",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces aberrations n’est pas d’alignement mauvais ?",
+   "choix": [
+    "Flumph",
+    "Aboleth",
+    "Tyrannœil",
+    "Flagelleur mental"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Tyrannœils »",
+   "expl": "Le flumph est loyal bon. L’aboleth, le tyrannœil et le flagelleur mental sont loyaux mauvais.",
+   "id": "abe-130",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces monstres n’a pas d’yeux ?",
+   "choix": [
+    "Grell",
+    "Tyrannœil",
+    "Nothic",
+    "Spectateur"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Tyrannœils »",
+   "expl": "Le grell est aveugle et chasse grâce à ses autres sens. Le tyrannœil et le spectateur sont couverts d’yeux, le nothic n’en a qu’un, énorme.",
+   "id": "abe-131",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces lieux n’est pas lié aux gith ?",
+   "choix": [
+    "Menzoberranzan",
+    "Tu’narath",
+    "Le Plan Astral",
+    "Les Limbes"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Menzoberranzan est la cité des drows. Tu’narath est la cité githyanki du Plan Astral, et les githzerai vivent dans les Limbes.",
+   "id": "abe-132",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts n’évoque pas des tentacules ?",
+   "choix": [
+    "Boule de feu",
+    "Tentacules noirs d’Evard",
+    "Bras d’Hadar",
+    "Main de Bigby"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Boule de feu est une explosion. Les tentacules d’Evard, les bras d’Hadar et même la main de Bigby (une main de force) sont des appendices magiques.",
+   "id": "abe-133",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces monstres sont des aberrations dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Chuul",
+    "Otyugh",
+    "Slaad",
+    "Ver pourpre",
+    "Hibours"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Chuul, otyugh et slaad sont des aberrations. Le ver pourpre et le hibours sont des monstruosités.",
+   "id": "abe-134",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels rayons un tyrannœil peut-il tirer ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Désintégration",
+    "Télékinésie",
+    "Sommeil",
+    "Foudre",
+    "Feu"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Désintégration, télékinésie et sommeil font partie des dix rayons. Le tyrannœil ne lance ni foudre ni feu.",
+   "id": "abe-135",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles créatures ont des tentacules ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Flagelleur mental",
+    "Aboleth",
+    "Grell",
+    "Tyrannœil",
+    "Nothic"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le flagelleur mental (4 tentacules faciaux), l’aboleth et le grell attaquent avec des tentacules. Le tyrannœil a des pédoncules oculaires, le nothic des griffes.",
+   "id": "abe-136",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles formes la vie illithide peut-elle prendre ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Têtard",
+    "Cerveau ancien",
+    "Ulitharide",
+    "Neothelid",
+    "Flumph",
+    "Gauth"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Flagelleurs mentaux »",
+   "expl": "Têtard, cerveau ancien, ulitharide et neothelid sont des stades ou variantes des illithids. Le flumph et le gauth n’en font pas partie.",
+   "id": "abe-137",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages ou lieux sont liés à Waterdeep: Dragon Heist ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Xanathar",
+    "Sylgar",
+    "Vlaakith",
+    "Tu’narath"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Waterdeep: Dragon Heist (2018)",
+   "expl": "Xanathar et son poisson Sylgar sont des figures de Dragon Heist. Vlaakith et Tu’narath appartiennent au monde des githyanki.",
+   "id": "abe-138",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles aberrations ont un FP de 10 ou plus ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aboleth",
+    "Tyrannœil",
+    "Neothelid",
+    "Grell",
+    "Nothic"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Waterdeep: Dragon Heist (2018)",
+   "expl": "FP : aboleth 10, tyrannœil 13, neothelid 13. Le grell (3) et le nothic (2) sont bien plus faibles.",
+   "id": "abe-139",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels peuples ou créatures ont été esclaves ou créations des aboleths ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Chuuls",
+    "Kuo-toa",
+    "Flumphs",
+    "Githyanki",
+    "Gnomes des profondeurs"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Chuul » et « Kuo-toa »",
+   "expl": "Les aboleths ont créé les chuuls et asservi les kuo-toa. Les githyanki furent les esclaves des flagelleurs mentaux, pas des aboleths.",
+   "id": "abe-140",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces sorts sont liés aux tentacules ou aux entités étranges ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bras d’Hadar",
+    "Tentacules noirs d’Evard",
+    "Soins",
+    "Lumière",
+    "Bénédiction"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Bras d’Hadar et Tentacules noirs d’Evard convoquent des tentacules. Soins, Lumière et Bénédiction n’ont rien de tel.",
+   "id": "abe-141",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces aberrations de la plus faible à la plus redoutable (FP croissant).",
+   "items": [
+    "Flumph",
+    "Nothic",
+    "Grell",
+    "Flagelleur mental",
+    "Tyrannœil"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "FP : flumph 1/8, nothic 2, grell 3, flagelleur mental 7, tyrannœil 13.",
+   "id": "abe-142",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces stades de la vie d’un flagelleur mental dans l’ordre.",
+   "items": [
+    "Têtard",
+    "Implantation dans un hôte",
+    "Cérémorphose",
+    "Flagelleur mental adulte"
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Flagelleurs mentaux »",
+   "expl": "Le têtard est implanté dans un hôte, dont le cerveau est dévoré ; au bout d’une semaine, la cérémorphose est achevée et un flagelleur adulte apparaît.",
+   "id": "abe-143",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces tyrannœils et apparentés par FP croissant.",
+   "items": [
+    "Spectateur",
+    "Tyrannœil",
+    "Tyran de la mort"
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Flagelleurs mentaux »",
+   "expl": "FP : spectateur 3, tyrannœil 13, tyran de la mort 14.",
+   "id": "abe-144",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de l’histoire des gith dans l’ordre.",
+   "items": [
+    "Esclavage sous les illithids",
+    "Révolte menée par Gith",
+    "Séparation des githyanki et githzerai",
+    "Règne de la reine liche Vlaakith"
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Esclaves des illithids, les gith se révoltent avec Gith, puis se divisent ; Vlaakith règne plus tard sur les githyanki.",
+   "id": "abe-145",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces aberrations par points de vie moyens croissants.",
+   "items": [
+    "Dévoreur d’intellect",
+    "Flagelleur mental",
+    "Aboleth",
+    "Tyrannœil"
+   ],
+   "src": "SRD 5.1, blocs de caractéristiques",
+   "expl": "PV moyens : dévoreur d’intellect 21, flagelleur mental 71, aboleth 135, tyrannœil 180.",
+   "id": "abe-146",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces publications de D&D 5e par date de parution.",
+   "items": [
+    "Volo’s Guide to Monsters",
+    "Xanathar’s Guide to Everything",
+    "Waterdeep: Dragon Heist"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast (D&D 5e)",
+   "expl": "Volo’s Guide to Monsters (2016), Xanathar’s Guide to Everything (2017), Waterdeep: Dragon Heist (2018).",
+   "id": "abe-147",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque aberration à son trait principal.",
+   "paires": [
+    [
+     "Tyrannœil",
+     "Rayons oculaires"
+    ],
+    [
+     "Aboleth",
+     "Asservissement"
+    ],
+    [
+     "Grell",
+     "Bec et tentacules"
+    ],
+    [
+     "Flumph",
+     "Bienveillant"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast (D&D 5e)",
+   "expl": "Le tyrannœil tire ses rayons, l’aboleth asservit les esprits, le grell saisit ses proies et le flumph est une rare aberration bonne.",
+   "id": "abe-148",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque peuple à son lieu.",
+   "paires": [
+    [
+     "Githyanki",
+     "Plan Astral"
+    ],
+    [
+     "Githzerai",
+     "Limbes"
+    ],
+    [
+     "Illithids",
+     "Outreterre"
+    ],
+    [
+     "Slaadi",
+     "Limbes du chaos"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast (D&D 5e)",
+   "expl": "Les githyanki vivent dans le Plan Astral, les githzerai dans les Limbes, les illithids dans l’Outreterre ; les slaadi naissent dans le chaos des Limbes.",
+   "id": "abe-149",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque rayon du tyrannœil à son effet.",
+   "paires": [
+    [
+     "Pétrification",
+     "Changé en pierre"
+    ],
+    [
+     "Désintégration",
+     "Réduit en poussière"
+    ],
+    [
+     "Télékinésie",
+     "Déplacé à distance"
+    ],
+    [
+     "Sommeil",
+     "Endormi"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast (D&D 5e)",
+   "expl": "Chaque pédoncule a son rayon : pétrification, désintégration, télékinésie, sommeil, entre autres.",
+   "id": "abe-150",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à son peuple.",
+   "paires": [
+    [
+     "Xanathar",
+     "Tyrannœil"
+    ],
+    [
+     "Vlaakith",
+     "Githyanki"
+    ],
+    [
+     "Gith",
+     "Gith"
+    ],
+    [
+     "Blibdoolpoolp",
+     "Dieu des kuo-toa"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast (D&D 5e)",
+   "expl": "Xanathar est un tyrannœil, Vlaakith la reine liche githyanki, Gith l’héroïne fondatrice et Blibdoolpoolp la déesse des kuo-toa.",
+   "id": "abe-151",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monstre à son FP.",
+   "paires": [
+    [
+     "Flumph",
+     "1/8"
+    ],
+    [
+     "Dévoreur d’intellect",
+     "2"
+    ],
+    [
+     "Flagelleur mental",
+     "7"
+    ],
+    [
+     "Aboleth",
+     "10"
+    ],
+    [
+     "Tyrannœil",
+     "13"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast (D&D 5e)",
+   "expl": "Ces FP vont de la créature inoffensive (flumph) au redoutable tyrannœil.",
+   "id": "abe-152",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque aberration à sa forme.",
+   "paires": [
+    [
+     "Tyrannœil",
+     "Sphère flottante"
+    ],
+    [
+     "Dévoreur d’intellect",
+     "Cerveau à pattes"
+    ],
+    [
+     "Aboleth",
+     "Poisson à tentacules"
+    ],
+    [
+     "Cloaker",
+     "Cape vivante"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast (D&D 5e)",
+   "expl": "Les aberrations ont des formes déroutantes, souvent inspirées de la science-fiction et de l’horreur cosmique.",
+   "id": "abe-153",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un tyrannœil\n2. Je dirige une guilde de voleurs sous Waterdeep\n3. J’adore mon poisson rouge",
+   "choix": [
+    "Xanathar",
+    "Manshoon",
+    "Halaster",
+    "Jarlaxle"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018)",
+   "expl": "Xanathar, chef paranoïaque de la guilde du Xanathar, veille jalousement sur son poisson Sylgar.",
+   "id": "abe-154",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis né d’un têtard affamé\n2. Je n’ai jamais trouvé d’hôte\n3. Je suis devenu un ver gigantesque",
+   "choix": [
+    "Neothelid",
+    "Ver pourpre",
+    "Rémorhaz",
+    "Cerveau ancien"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
+   "expl": "Le neothelid est le cauchemar des colonies illithides : un têtard devenu ver géant et vorace.",
+   "id": "abe-155",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. J’ai été l’esclave des illithids\n2. Je vis désormais dans le Plan Astral\n3. Je chevauche des dragons rouges",
+   "choix": [
+    "Githyanki",
+    "Githzerai",
+    "Drow",
+    "Duergar"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Les githyanki, pillards astraux, montent des dragons rouges alliés depuis un pacte ancien.",
+   "id": "abe-156",
+   "conf": "probable"
   }
  ],
  "sources": []

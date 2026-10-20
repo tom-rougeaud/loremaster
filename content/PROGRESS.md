@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 45–60 % de classiques (QCM + vrai/faux).
 
-**4 / 99 thèmes terminés — 1661 questions au total.**
+**5 / 99 thèmes terminés — 1725 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -10,7 +10,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 | 2 | Morts-vivants | 150 | 56 | 22 (11) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 30/85/35 | 59 | terminé |
 | 3 | Démons et diables | 153 | 59 | 22 (11) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 53 % | 23/83/47 | 79 | terminé |
 | 4 | Géants | 150 | 56 | 22 (12) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 24/81/45 | 51 | terminé |
-| 5 | Aberrations | 86 | 26 | 22 (11) | 22 | 3 | 3 | 3 | 2 | 2 | 3 | 56 % | 7/37/42 | 37 | base |
+| 5 | Aberrations | 150 | 56 | 22 (11) | 16 | 12 | 11 | 11 | 8 | 8 | 6 | 52 % | 23/77/50 | 54 | terminé |
 | 6 | Fées, sylvains et créatures des bois | 87 | 30 | 22 (12) | 18 | 3 | 3 | 3 | 2 | 2 | 4 | 60 % | 9/42/36 | 38 | base |
 | 7 | Gobelinoïdes et humanoïdes | 86 | 26 | 26 (13) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 7/53/26 | 23 | base |
 | 8 | Monstres de donjon | 86 | 22 | 26 (13) | 21 | 3 | 3 | 3 | 2 | 2 | 4 | 56 % | 9/40/37 | 24 | base |
@@ -212,6 +212,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - abe-027 : explication absente ou trop courte
 - abe-032 : explication absente ou trop courte
 - abe-069 : explication absente ou trop courte
+- content/005/a.lm:8 : mot de la bonne réponse présent dans l’énoncé (« tyrann ») et absent des autres propositions
 - fee-034 : explication absente ou trop courte
 - fee-048 : explication absente ou trop courte
 - fee-055 : explication absente ou trop courte
