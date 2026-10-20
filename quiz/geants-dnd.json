@@ -698,9 +698,9 @@
    "concept": "gea-048",
    "niveau": 1,
    "type": "vf",
-   "q": "Dans D&D 5e, l’ogre est un géant de type humanoïde.",
+   "q": "Dans D&D 5e, l’ogre est une créature de type géant.",
    "rep": true,
-   "expl": "Vrai : c’est un humanoïde de taille Grande.",
+   "expl": "Vrai : en 5e, l’ogre, le troll et l’ettin sont classés dans le type géant, comme les six grands géants de l’Ordning.",
    "src": "Manuel des Monstres 5e (2014), entrée « Ogre »",
    "conf": "probable"
   },
@@ -720,9 +720,9 @@
    "concept": "gea-050",
    "niveau": 1,
    "type": "vf",
-   "q": "Dans D&D 5e, les trolls sont vulnérables à l’acide.",
+   "q": "Dans D&D 5e, des dégâts d’acide empêchent un troll de se régénérer au début de son tour suivant.",
    "rep": true,
-   "expl": "Vrai : l’acide arrête leur régénération.",
+   "expl": "Vrai : le feu ou l’acide bloquent la Régénération du troll pour un tour. Le troll n’a pourtant aucune vulnérabilité aux dégâts dans son profil.",
    "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
    "conf": "probable"
   },
@@ -1327,6 +1327,1167 @@
    "id": "gea-085",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel est le géant le plus bas dans l’Ordning ?",
+   "choix": [
+    "Le géant des collines",
+    "Le géant de pierre",
+    "Le géant du givre",
+    "Le géant du feu"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; Storm King’s Thunder (2016)",
+   "expl": "L’Ordning place les géants des tempêtes au sommet, puis nuages, feu, givre, pierre et enfin collines, tout en bas.",
+   "id": "gea-086",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Storm King’s Thunder, quel événement plonge les géants dans le chaos ?",
+   "choix": [
+    "Annam brise l’Ordning",
+    "Les dragons attaquent",
+    "Un dieu meurt",
+    "Le soleil s’éteint"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; Storm King’s Thunder (2016)",
+   "expl": "Annam, déçu par ses enfants, a brisé l’Ordning : chaque peuple de géants cherche désormais à prouver qu’il mérite le sommet.",
+   "id": "gea-087",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Storm King’s Thunder, quel chef géant des collines veut grossir pour devenir le plus grand ?",
+   "choix": [
+    "Guh",
+    "Nosnra",
+    "Snurre",
+    "Zalto"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; Storm King’s Thunder (2016)",
+   "expl": "La cheffe Guh rassemble un butin de nourriture pour enfler au point de dominer tous les autres géants des collines.",
+   "id": "gea-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Storm King’s Thunder, quel duc géant du feu reconstruit un colosse antique ?",
+   "choix": [
+    "Zalto",
+    "Snurre",
+    "Storvald",
+    "Hekaton"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; Storm King’s Thunder (2016)",
+   "expl": "Le duc Zalto fait forger dans l’Ironslag le Vonindod, un colosse de guerre destiné à combattre les dragons.",
+   "id": "gea-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Storm King’s Thunder, quel jarl géant du givre cherche à faire régner un hiver éternel ?",
+   "choix": [
+    "Storvald",
+    "Grugnur",
+    "Guh",
+    "Kayalithica"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; Storm King’s Thunder (2016)",
+   "expl": "Le jarl Storvald, depuis la forteresse de Svardborg, veut retrouver l’Anneau de l’hiver pour plonger le monde dans un hiver sans fin.",
+   "id": "gea-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Storm King’s Thunder, quelles sont les trois filles du roi Hekaton ?",
+   "choix": [
+    "Serissa, Mirran et Nym",
+    "Iymrith, Neri et Mirran",
+    "Sansuri, Serissa et Guh",
+    "Nym, Neri et Kayalithica"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; Storm King’s Thunder (2016)",
+   "expl": "Serissa, la cadette, tente de gouverner en l’absence de son père ; ses sœurs aînées Mirran et Nym complotent contre elle.",
+   "id": "gea-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Storm King’s Thunder, comment s’appelle la citadelle sous-marine du roi Hekaton ?",
+   "choix": [
+    "Maelstrom",
+    "Svardborg",
+    "Ironslag",
+    "Lyn Armaal"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; Storm King’s Thunder (2016)",
+   "expl": "Le roi des géants des tempêtes règne depuis Maelstrom, une forteresse au fond de la mer au large de la Côte des Épées.",
+   "id": "gea-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, selon le Guide de Volo, comment les géants de pierre voient-ils le monde de la surface ?",
+   "choix": [
+    "Comme un rêve",
+    "Comme un enfer",
+    "Comme une prison",
+    "Comme un paradis"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Géants »",
+   "expl": "Les géants de pierre considèrent le monde extérieur comme un lieu irréel, presque un rêve, où les actes ont moins d’importance qu’en leurs cavernes.",
+   "id": "gea-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quel ancien empire des géants a combattu les dragons ?",
+   "choix": [
+    "Ostoria",
+    "Netheril",
+    "Myth Drannor",
+    "Calimshan"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016), introduction ; Volo’s Guide to Monsters (2016)",
+   "expl": "L’empire d’Ostoria, fondé par les géants, mena une longue guerre contre les dragons il y a des millénaires ; Storm King’s Thunder en ravive le souvenir.",
+   "id": "gea-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le panthéon des géants, quel dieu est le patron des géants des tempêtes ?",
+   "choix": [
+    "Stronmaus",
+    "Memnor",
+    "Grolantor",
+    "Hiatea"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Géants : les dieux »",
+   "expl": "Stronmaus, fils d’Annam, est le dieu joyeux des tempêtes et des mers vénéré par les géants des tempêtes.",
+   "id": "gea-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans le panthéon des géants, quel dieu rusé et maléfique est associé aux géants des nuages ?",
+   "choix": [
+    "Memnor",
+    "Stronmaus",
+    "Skoraeus",
+    "Thrym"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Géants : les dieux »",
+   "expl": "Memnor, le plus rusé des fils d’Annam, incarne l’intelligence et la tromperie ; certains géants des nuages le vénèrent.",
+   "id": "gea-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel géant à un seul œil a du mal à juger les distances ?",
+   "choix": [
+    "Le cyclope",
+    "L’ettin",
+    "Le fomorien",
+    "L’ogre"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Cyclope »",
+   "expl": "Le cyclope (FP 6) souffre d’une mauvaise perception de la profondeur : il a le désavantage aux attaques à distance au-delà de 9 m.",
+   "id": "gea-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel géant difforme et maudit vit dans l’Outreterre ou en Féerie et lance le Mauvais œil ?",
+   "choix": [
+    "Le fomorien",
+    "Le cyclope",
+    "L’oni",
+    "L’ettin"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Fomorien »",
+   "expl": "Le fomorien (FP 8) est un géant laid et cruel ; son Mauvais œil inflige des dégâts psychiques et peut le maudire de difformités.",
+   "id": "gea-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel géant appelé aussi « ogre mage » change de forme et se régénère ?",
+   "choix": [
+    "L’oni",
+    "Le fomorien",
+    "Le troll",
+    "L’ettin"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Oni »",
+   "expl": "L’oni (FP 7) est un géant capable de prendre forme humanoïde, de devenir invisible et de régénérer 10 PV par tour.",
+   "id": "gea-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que permet le trait « Vigilance » de l’ettin ?",
+   "choix": [
+    "Une tête veille pendant que l’autre dort",
+    "Il voit dans le noir",
+    "Il sent la magie",
+    "Il ne peut pas être surpris par la magie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Ettin »",
+   "expl": "Quand une tête de l’ettin dort, l’autre reste éveillée. Son trait Deux têtes lui donne en plus l’avantage aux tests de Perception et contre plusieurs états (aveuglé, charmé, effrayé…).",
+   "id": "gea-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel peuple jouable de la montagne a le trait « Endurance de la pierre » ?",
+   "choix": [
+    "Les goliaths",
+    "Les nains",
+    "Les firbolgs",
+    "Les demi-orques"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Goliath » ; Elemental Evil Player’s Companion (2015)",
+   "expl": "Les goliaths, apparentés aux géants, peuvent réduire les dégâts subis grâce à l’Endurance de la pierre ; ils ont aussi un Puissant gabarit.",
+   "id": "gea-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable est un lointain cousin des géants vivant en forêt ?",
+   "choix": [
+    "Les firbolgs",
+    "Les goliaths",
+    "Les gnomes",
+    "Les halfelins"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Firbolg »",
+   "expl": "Les firbolgs, grands et paisibles, gardiens des forêts, sont apparentés aux géants ; ils peuvent se rendre invisibles brièvement.",
+   "id": "gea-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la série de modules G (1978), quel géant des collines est le chef de la Fortification (Steading) ?",
+   "choix": [
+    "Nosnra",
+    "Snurre",
+    "Guh",
+    "Grugnur"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, G1 Steading of the Hill Giant Chief (TSR, 1978)",
+   "expl": "G1 « Steading of the Hill Giant Chief » oppose les aventuriers au chef Nosnra ; c’est le début de la série Against the Giants de Gary Gygax.",
+   "id": "gea-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans le module G3 (1978), quel roi géant du feu règne dans sa grande salle ?",
+   "choix": [
+    "Snurre",
+    "Nosnra",
+    "Zalto",
+    "Hekaton"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, G3 Hall of the Fire Giant King (TSR, 1978)",
+   "expl": "G3 « Hall of the Fire Giant King » mène au roi Snurre Iron Belly, allié aux drows : il ouvre la voie à la série D (Descent into the Depths of the Earth).",
+   "id": "gea-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel géant est amphibie et peut lancer la foudre ?",
+   "choix": [
+    "Le géant des tempêtes",
+    "Le géant des nuages",
+    "Le géant du givre",
+    "Le géant de pierre"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, G3 Hall of the Fire Giant King (TSR, 1978)",
+   "expl": "Le géant des tempêtes respire sous l’eau et frappe ses ennemis d’éclairs (Frappe de foudre) ; il vit souvent dans les mers ou au sommet des montagnes.",
+   "id": "gea-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel géant a une vitesse de nage et vit souvent sous les mers ?",
+   "choix": [
+    "Le géant des tempêtes",
+    "Le géant du feu",
+    "Le géant des collines",
+    "Le géant de pierre"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, G3 Hall of the Fire Giant King (TSR, 1978)",
+   "expl": "Le géant des tempêtes nage aussi bien qu’il marche ; certains bâtissent des palais sous-marins, comme Maelstrom.",
+   "id": "gea-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel géant est connu pour son odorat aiguisé et ses sorts innés de brume et de vol ?",
+   "choix": [
+    "Le géant des nuages",
+    "Le géant du givre",
+    "Le géant des tempêtes",
+    "Le géant des collines"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Géant des nuages »",
+   "expl": "Le géant des nuages a un Odorat aiguisé et lance des sorts innés comme Nappe de brouillard, Vol et Forme gazeuse.",
+   "id": "gea-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quel type de dégâts le géant du feu est-il immunisé ?",
+   "choix": [
+    "Feu",
+    "Froid",
+    "Foudre",
+    "Tonnerre"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Géant du feu »",
+   "expl": "Le géant du feu est immunisé aux dégâts de feu, ce qui lui permet de vivre au cœur des volcans et de travailler la lave dans ses forges.",
+   "id": "gea-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quel type de dégâts le géant du givre est-il immunisé ?",
+   "choix": [
+    "Froid",
+    "Feu",
+    "Acide",
+    "Poison"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Géant du givre »",
+   "expl": "Le géant du givre est immunisé au froid ; il vit dans les glaciers et les toundras où il pille les villages.",
+   "id": "gea-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quels géants spéciaux présente le Guide de Volo des monstres (2016) ?",
+   "choix": [
+    "Des champions comme le dreadnought du feu",
+    "Des géants des sables du grand désert",
+    "Des géants de lave des volcans",
+    "Des géants de cristal des cavernes"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), chapitre 2",
+   "expl": "Le Guide de Volo ajoute des géants exceptionnels : dreadnought du feu, géant du givre éternel, géant des nuages souriant, gardien des rêves des géants de pierre, quintessent des tempêtes.",
+   "id": "gea-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel supplément de 2023 est entièrement consacré aux géants ?",
+   "choix": [
+    "Bigby Presents: Glory of the Giants",
+    "Fizban’s Treasury of Dragons",
+    "Van Richten’s Guide to Ravenloft",
+    "Mordenkainen Presents: Monsters of the Multiverse"
+   ],
+   "rep": 0,
+   "src": "Bigby Presents: Glory of the Giants (2023)",
+   "expl": "Bigby Presents: Glory of the Giants (2023) rassemble l’histoire, les sous-classes et les nouveaux géants de D&D 5e.",
+   "id": "gea-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel géant a une CA de 13, la plus basse des six ?",
+   "choix": [
+    "Le géant des collines",
+    "Le géant des nuages",
+    "Le géant du givre",
+    "Le géant de pierre"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "Le géant des collines n’a qu’une peau épaisse et des peaux de bêtes (CA 13). Le géant des nuages est à 14, le givre à 15, les tempêtes à 16.",
+   "id": "gea-112",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le géant des ____ vit dans les glaciers et vénère Thrym.",
+   "choix": [
+    "givre",
+    "collines",
+    "nuages",
+    "tempêtes"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le géant du givre, pillard des terres gelées, honore Thrym, dieu des géants du givre.",
+   "id": "gea-113",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le géant de pierre peut attraper un rocher lancé vers lui grâce à son trait ____ de rocher.",
+   "choix": [
+    "Capture",
+    "Parade",
+    "Saisie",
+    "Esquive"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Grâce à Capture de rocher, le géant de pierre attrape un rocher qui le vise (jet de Dextérité) et peut le relancer.",
+   "id": "gea-114",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans le panthéon des géants, le dieu père de tous les géants s’appelle ____.",
+   "choix": [
+    "Annam",
+    "Stronmaus",
+    "Thrym",
+    "Surtur"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016) ; Storm King’s Thunder (2016)",
+   "expl": "Annam l’Omnipère a engendré les dieux des différents géants ; c’est lui qui a brisé l’Ordning dans Storm King’s Thunder.",
+   "id": "gea-115",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les géants des collines vénèrent ____, dieu de la gloutonnerie.",
+   "choix": [
+    "Grolantor",
+    "Memnor",
+    "Skoraeus",
+    "Hiatea"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Géants : les dieux »",
+   "expl": "Grolantor, dieu brutal et vorace, est vénéré par les géants des collines, qui passent leur vie à manger.",
+   "id": "gea-116",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans Storm King’s Thunder, la reine ____, épouse du roi Hekaton, a été assassinée avant le début de l’aventure.",
+   "choix": [
+    "Neri",
+    "Serissa",
+    "Iymrith",
+    "Sansuri"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "La reine Neri a été tuée, ce qui a déclenché la crise ; son mari Hekaton a ensuite été enlevé.",
+   "id": "gea-117",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le ____ est un géant à deux têtes qui se disputent constamment.",
+   "choix": [
+    "ettin",
+    "cyclope",
+    "fomorien",
+    "oni"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "L’ettin (FP 4) a deux têtes au caractère distinct, chacune avec son propre nom.",
+   "id": "gea-118",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le géant du feu est un maître ____ réputé pour ses armes et ses armures.",
+   "choix": [
+    "forgeron",
+    "joaillier",
+    "architecte",
+    "alchimiste"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "Les géants du feu travaillent le métal près des volcans ; leurs forges sont au cœur de leur société militaire.",
+   "id": "gea-119",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le troll ne repousse plus ses blessures après avoir subi des dégâts de feu ou d’____.",
+   "choix": [
+    "acide",
+    "foudre",
+    "froid",
+    "poison"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "La Régénération du troll (10 PV par tour) s’interrompt pour un tour s’il subit des dégâts d’acide ou de feu.",
+   "id": "gea-120",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans la série Against the Giants, le module G2 se déroule dans la Faille ____ du jarl des géants du givre.",
+   "choix": [
+    "glaciaire",
+    "ardente",
+    "brumeuse",
+    "profonde"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, G2 The Glacial Rift of the Frost Giant Jarl (TSR, 1978)",
+   "expl": "G2 « The Glacial Rift of the Frost Giant Jarl » (1978) mène au jarl Grugnur au fond d’une faille de glace.",
+   "id": "gea-121",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces géants ne fait pas partie des six géants de l’Ordning ?",
+   "choix": [
+    "Cyclope",
+    "Géant du feu",
+    "Géant de pierre",
+    "Géant des nuages"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, G2 The Glacial Rift of the Frost Giant Jarl (TSR, 1978)",
+   "expl": "Le cyclope est un géant, mais il n’a pas de place dans l’Ordning, qui ne concerne que collines, pierre, givre, feu, nuages et tempêtes.",
+   "id": "gea-122",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces divinités n’appartient pas au panthéon des géants ?",
+   "choix": [
+    "Moradin",
+    "Annam",
+    "Stronmaus",
+    "Skoraeus"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016) ; Manuel des Joueurs 5e (2014), annexe B",
+   "expl": "Moradin est le dieu des nains. Annam, Stronmaus et Skoraeus Stonebones sont des dieux des géants.",
+   "id": "gea-123",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages de Storm King’s Thunder n’est pas un géant ?",
+   "choix": [
+    "Iymrith",
+    "Hekaton",
+    "Serissa",
+    "Zalto"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "Iymrith est une dragonne bleue déguisée. Hekaton et sa fille Serissa sont des géants des tempêtes, Zalto un géant du feu.",
+   "id": "gea-124",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres n’est pas de type géant dans D&D 5e ?",
+   "choix": [
+    "Minotaure",
+    "Oni",
+    "Troll",
+    "Fomorien"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "Le minotaure est une monstruosité. L’oni, le troll et le fomorien sont tous de type géant.",
+   "id": "gea-125",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces modules n’appartient pas à la série G (Against the Giants) ?",
+   "choix": [
+    "Tomb of Horrors",
+    "Steading of the Hill Giant Chief",
+    "The Glacial Rift of the Frost Giant Jarl",
+    "Hall of the Fire Giant King"
+   ],
+   "rep": 0,
+   "src": "Catalogue TSR (1978)",
+   "expl": "La Tombe des Horreurs (S1) est un module à part. G1, G2 et G3 forment la série Against the Giants (1978).",
+   "id": "gea-126",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces lieux n’est pas une forteresse de géants dans Storm King’s Thunder ?",
+   "choix": [
+    "Menzoberranzan",
+    "Svardborg",
+    "Ironslag",
+    "Maelstrom"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "Menzoberranzan est la cité des drows. Svardborg (givre), Ironslag (feu) et Maelstrom (tempêtes) sont des repaires de géants.",
+   "id": "gea-127",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces êtres n’a aucun lien avec les géants ?",
+   "choix": [
+    "Halfelin",
+    "Goliath",
+    "Firbolg",
+    "Ogre"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016) ; Manuel des Monstres 5e (2014)",
+   "expl": "Le halfelin est un petit peuple sans parenté géante. Le goliath et le firbolg ont une ascendance géante, et l’ogre est lui-même de type géant.",
+   "id": "gea-128",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces géants n’est pas un chef de Storm King’s Thunder ?",
+   "choix": [
+    "Snurre",
+    "Guh",
+    "Storvald",
+    "Kayalithica"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016) ; G3 (1978)",
+   "expl": "Snurre est le roi du module G3 de 1978. Guh (collines), Storvald (givre) et Kayalithica (pierre) sont des chefs de Storm King’s Thunder.",
+   "id": "gea-129",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces géants n’est pas immunisé à un type de dégâts élémentaire ?",
+   "choix": [
+    "Géant des collines",
+    "Géant du feu",
+    "Géant du givre",
+    "Géant des tempêtes"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016) ; G3 (1978)",
+   "expl": "Le géant des collines n’a aucune immunité. Le géant du feu est immunisé au feu, celui du givre au froid, et celui des tempêtes à la foudre et au tonnerre.",
+   "id": "gea-130",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels de ces géants font partie des six géants de l’Ordning ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Géant des collines",
+    "Géant du givre",
+    "Géant des nuages",
+    "Cyclope",
+    "Fomorien"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; Volo’s Guide to Monsters (2016)",
+   "expl": "Collines, pierre, givre, feu, nuages et tempêtes forment l’Ordning. Le cyclope et le fomorien sont des géants « hors Ordning ».",
+   "id": "gea-131",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquelles de ces créatures sont de type géant dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ogre",
+    "Troll",
+    "Oni",
+    "Minotaure",
+    "Yéti",
+    "Ours-garou"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Géants » ; Volo’s Guide to Monsters (2016)",
+   "expl": "L’ogre, le troll et l’oni sont des géants. Le minotaure et le yéti sont des monstruosités, l’ours-garou un humanoïde métamorphe.",
+   "id": "gea-132",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels géants ont une immunité à un type de dégâts dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Géant du feu",
+    "Géant du givre",
+    "Géant des tempêtes",
+    "Géant des collines",
+    "Géant de pierre"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "Le feu pour le géant du feu, le froid pour celui du givre, la foudre et le tonnerre pour celui des tempêtes. Collines et pierre n’ont pas d’immunité.",
+   "id": "gea-133",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels chefs géants apparaissent dans Storm King’s Thunder ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Guh",
+    "Zalto",
+    "Storvald",
+    "Snurre",
+    "Nosnra"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Storm King’s Thunder (2016) ; série G (TSR, 1978)",
+   "expl": "Guh (collines), Zalto (feu) et Storvald (givre) sont des chefs de Storm King’s Thunder. Snurre et Nosnra viennent de la série G de 1978.",
+   "id": "gea-134",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels géants ont une CA d’au moins 16 dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Géant des tempêtes",
+    "Géant de pierre",
+    "Géant du feu",
+    "Géant des collines",
+    "Géant des nuages"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "CA : tempêtes 16, pierre 17, feu 18. Les géants des collines (13) et des nuages (14) sont moins protégés.",
+   "id": "gea-135",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels dieux appartiennent au panthéon des géants ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Stronmaus",
+    "Memnor",
+    "Grolantor",
+    "Hiatea",
+    "Corellon",
+    "Garl Glittergold"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Volo’s Guide to Monsters (2016) ; Manuel des Joueurs 5e (2014), annexe B",
+   "expl": "Stronmaus, Memnor, Grolantor et Hiatea sont des dieux des géants. Corellon est le dieu des elfes et Garl Glittergold celui des gnomes.",
+   "id": "gea-136",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels géants exceptionnels sont décrits dans le Guide de Volo des monstres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dreadnought du feu",
+    "Géant du givre éternel",
+    "Géant des nuages souriant",
+    "Géant des sables",
+    "Géant de cristal"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Volo’s Guide to Monsters (2016), chapitre 2",
+   "expl": "Le Guide de Volo présente notamment le dreadnought du feu, le géant du givre éternel et le géant des nuages souriant. Les deux autres n’y figurent pas.",
+   "id": "gea-137",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels de ces monstres peuvent lancer des rochers dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Géant des collines",
+    "Géant de pierre",
+    "Géant du givre",
+    "Troll",
+    "Ettin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "Les géants de l’Ordning, comme ceux des collines, de pierre et du givre, lancent des rochers. Le troll et l’ettin combattent au corps à corps.",
+   "id": "gea-138",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces géants du plus bas au plus haut rang de l’Ordning.",
+   "items": [
+    "Géant des collines",
+    "Géant de pierre",
+    "Géant du givre",
+    "Géant du feu",
+    "Géant des nuages"
+   ],
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "L’Ordning monte des collines à la pierre, au givre, au feu, aux nuages, et culmine avec les géants des tempêtes.",
+   "id": "gea-139",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces géants par Force croissante.",
+   "items": [
+    "Géant des collines",
+    "Géant du feu",
+    "Géant des nuages",
+    "Géant des tempêtes"
+   ],
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "Force : collines 21, feu 25, nuages 27, tempêtes 29.",
+   "id": "gea-140",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces géants par points de vie moyens croissants.",
+   "items": [
+    "Géant des collines",
+    "Géant du feu",
+    "Géant des nuages",
+    "Géant des tempêtes"
+   ],
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "PV moyens : collines 105, feu 162, nuages 200, tempêtes 230.",
+   "id": "gea-141",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces géants mineurs par FP croissant.",
+   "items": [
+    "Ogre",
+    "Ettin",
+    "Troll",
+    "Cyclope",
+    "Oni"
+   ],
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "FP : ogre 2, ettin 4, troll 5, cyclope 6, oni 7.",
+   "id": "gea-142",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces géants par classe d’armure croissante.",
+   "items": [
+    "Géant des collines",
+    "Géant des nuages",
+    "Géant du givre",
+    "Géant de pierre",
+    "Géant du feu"
+   ],
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "CA : collines 13, nuages 14, givre 15, pierre 17, feu 18.",
+   "id": "gea-143",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces modules de la série G dans leur ordre de jeu.",
+   "items": [
+    "Steading of the Hill Giant Chief",
+    "The Glacial Rift of the Frost Giant Jarl",
+    "Hall of the Fire Giant King"
+   ],
+   "src": "Gary Gygax, série G (TSR, 1978)",
+   "expl": "G1 (géant des collines), G2 (géant du givre) puis G3 (géant du feu) : la difficulté et la taille des géants augmentent à chaque étape.",
+   "id": "gea-144",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque géant à son milieu de prédilection.",
+   "paires": [
+    [
+     "Géant des collines",
+     "Collines et vallées"
+    ],
+    [
+     "Géant des tempêtes",
+     "Mers et pics isolés"
+    ],
+    [
+     "Géant du feu",
+     "Volcans"
+    ],
+    [
+     "Géant du givre",
+     "Glaciers"
+    ]
+   ],
+   "src": "Gary Gygax, série G (TSR, 1978)",
+   "expl": "Chaque géant a son territoire, reflet de son élément et de son rang dans l’Ordning.",
+   "id": "gea-145",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque géant à son immunité.",
+   "paires": [
+    [
+     "Géant du feu",
+     "Feu"
+    ],
+    [
+     "Géant du givre",
+     "Froid"
+    ],
+    [
+     "Géant des tempêtes",
+     "Foudre et tonnerre"
+    ]
+   ],
+   "src": "SRD 5.1, blocs des géants",
+   "expl": "Le géant du feu ignore les flammes, celui du givre le froid, et celui des tempêtes la foudre comme le tonnerre.",
+   "id": "gea-146",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à ses fidèles.",
+   "paires": [
+    [
+     "Stronmaus",
+     "Géants des tempêtes"
+    ],
+    [
+     "Surtur",
+     "Géants du feu"
+    ],
+    [
+     "Thrym",
+     "Géants du givre"
+    ],
+    [
+     "Grolantor",
+     "Géants des collines"
+    ],
+    [
+     "Skoraeus",
+     "Géants de pierre"
+    ]
+   ],
+   "src": "Volo’s Guide to Monsters (2016), « Géants : les dieux »",
+   "expl": "Les enfants d’Annam patronnent chacun un peuple de géants.",
+   "id": "gea-147",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque chef de Storm King’s Thunder à son peuple.",
+   "paires": [
+    [
+     "Guh",
+     "Géants des collines"
+    ],
+    [
+     "Zalto",
+     "Géants du feu"
+    ],
+    [
+     "Storvald",
+     "Géants du givre"
+    ],
+    [
+     "Kayalithica",
+     "Géants de pierre"
+    ],
+    [
+     "Hekaton",
+     "Géants des tempêtes"
+    ]
+   ],
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "Après la rupture de l’Ordning, chaque chef cherche à prouver la supériorité de son peuple.",
+   "id": "gea-148",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque module de 1978 à son chef géant.",
+   "paires": [
+    [
+     "G1",
+     "Nosnra"
+    ],
+    [
+     "G2",
+     "Grugnur"
+    ],
+    [
+     "G3",
+     "Snurre"
+    ]
+   ],
+   "src": "Gary Gygax, série G (TSR, 1978)",
+   "expl": "Nosnra (géant des collines), Grugnur (jarl du givre) et Snurre (roi du feu) sont les trois chefs de la série Against the Giants.",
+   "id": "gea-149",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque géant mineur à sa particularité.",
+   "paires": [
+    [
+     "Ettin",
+     "Deux têtes"
+    ],
+    [
+     "Cyclope",
+     "Un seul œil"
+    ],
+    [
+     "Troll",
+     "Régénération"
+    ],
+    [
+     "Oni",
+     "Change de forme"
+    ]
+   ],
+   "src": "Gary Gygax, série G (TSR, 1978)",
+   "expl": "Deux têtes pour l’ettin, un œil pour le cyclope, une régénération pour le troll et des métamorphoses pour l’oni.",
+   "id": "gea-150",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un géant de la forêt devenu peuple jouable\n2. Je peux devenir invisible un instant\n3. Je parle aux bêtes et aux plantes",
+   "choix": [
+    "Firbolg",
+    "Goliath",
+    "Ogre",
+    "Ettin"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Firbolg »",
+   "expl": "Les firbolgs, gardiens bienveillants des forêts, ont l’Étape cachée (invisibilité) et la Langue des bêtes et des feuilles.",
+   "id": "gea-151",
+   "conf": "probable"
   }
  ],
  "sources": []

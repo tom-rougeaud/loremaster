@@ -3,6 +3,9 @@
 import json, os
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIX = {
+ 'geants-dnd': {
+   'gea-048': {'q': 'Dans D&D 5e, l’ogre est une créature de type géant.', 'rep': True, 'expl': 'Vrai : en 5e, l’ogre, le troll et l’ettin sont classés dans le type géant, comme les six grands géants de l’Ordning.'},
+   'gea-050': {'q': 'Dans D&D 5e, des dégâts d’acide empêchent un troll de se régénérer au début de son tour suivant.', 'rep': True, 'expl': 'Vrai : le feu ou l’acide bloquent la Régénération du troll pour un tour. Le troll n’a pourtant aucune vulnérabilité aux dégâts dans son profil.'}},
  'morts-vivants-dnd': {
    'mor-008': {'q': 'Dans D&D 5e, sous quelles formes un vampire peut-il se métamorphoser ?', 'choix': ['Chauve-souris ou brume', 'Loup ou corbeau', 'Serpent ou chat', 'Hibou ou rat'], 'rep': 0,
                'expl': 'Le vampire du Manuel des Monstres peut prendre la forme d’une chauve-souris Très petite ou d’un nuage de brume. Il appelle des loups ou des rats à son aide, mais ne s’y transforme pas.'},
