@@ -33,8 +33,9 @@ fav=('<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base6
      '<link rel="apple-touch-icon" href="data:image/png;base64,%s">'%b64(A('apple180.png')))
 MANIFEST='<link rel="manifest" href="manifest.json">'
 LOGO='data:image/png;base64,'+b64(A('lm/icon128.png'))     # icône à fond transparent
+LOGOWORD='data:image/webp;base64,'+b64(A('lm/wordmark.webp'))
 LOGOFULL='data:image/webp;base64,'+b64(A('lm/banner.webp'))   # logo à fond transparent
-common=safe_js(rd('src/common.js').replace('/*@@LOGOURI@@*/',LOGO).replace('/*@@LOGOFULL@@*/',LOGOFULL))
+common=safe_js(rd('src/common.js').replace('/*@@LOGOURI@@*/',LOGO).replace('/*@@LOGOFULL@@*/',LOGOFULL).replace('/*@@LOGOWORD@@*/',LOGOWORD))
 fx=safe_js(rd('src/fx.js'))
 look=safe_js(rd('src/look.js'))
 bankjs=safe_js(rd('src/bank_quiz.js').replace('"use strict";','').split('if(typeof module!=="undefined")module.exports')[0]+'\n'+rd('src/qview.js'))

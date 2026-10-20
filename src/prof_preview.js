@@ -38,7 +38,7 @@ function generate(){
 function previewCard(q,i){
   var t=qKind(q),tag=t==="slider"?kindTagHtml(q):t==="vf"?kindTagHtml(q):'<span class="tag">QCM</span>';
   var h='<div class="pq" data-i="'+i+'"><div class="grip" title="Glisser pour déplacer"><span class="num">'+(i+1)+"</span>"+ICO.grip+'</div><div>'+
-    '<div class="meta">'+tag+'<span class="tag t-mint">'+fmtDur(qDur(q))+'</span><span class="src">'+esc(q.titre||"")+" · "+"★★★".slice(0,q.d||1)+"</span></div>"+
+    '<div class="meta">'+tag+'<span class="tag t-mint">'+fmtDur(qDur(q))+'</span></div><div class="meta">'+themeChip(q.titre,q.id)+lvlTag(q.d)+"</div>"+
     '<div class="qt">'+rt(q.q)+"</div>";
   if(t==="slider")h+='<div class="ansz"><div class="ans-hide">'+scaleHtml(q.sl)+'</div><div class="ans-show">'+scaleHtml(q.sl,{zone:{a:q.sl.ans,t:q.sl.tol},ans:q.sl.ans})+"</div></div>";
   else h+='<div class="chs">'+q.choices.map(function(c,k){return '<div class="ch a'+k+(k===q.ans?" ok":"")+'"><span class="sh">'+SHAPES[k]+"</span><span>"+rt(c.t)+"</span></div>";}).join("")+"</div>";

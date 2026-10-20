@@ -37,3 +37,55 @@ body.pg-pl #s-carnet .pgb:first-child{background-color:color-mix(in srgb,#5560A8
 .curtain.hidden{display:none}
 .cu-logo{width:7rem;height:7rem;border-radius:18px;margin-bottom:1rem}
 .curtain h2{font-size:2.4rem;margin:.2rem 0 .6rem;color:#D9B45A}.curtain p{font-size:1.15rem;opacity:.85;line-height:1.5}
+
+/* v1.2 — logo d’en-tête (wordmark transparent) */
+.brand img.wm{width:auto;height:1.75rem;max-width:42vw;object-fit:contain;filter:drop-shadow(0 1px 1px rgba(60,40,15,.35))}
+@media (max-width:640px){.brand img.wm{height:1.45rem}}
+html[data-theme="sombre"] .brand img.wm,html[data-theme="foret"] .brand img.wm,html[data-theme="crypte"] .brand img.wm,html[data-theme="forge"] .brand img.wm,html[data-theme="dragon"] .brand img.wm{filter:drop-shadow(0 0 1px #F6EBCF) drop-shadow(0 0 5px rgba(246,235,207,.75))}
+
+
+/* ═══ v1.2 — grain de parchemin (fin, léger, sans taches) ═══ */
+:root{--pt-body:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='2' seed='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.3 0 0 0 0 0.18 0 0 0 0 0.07 0 0 0 0.16 0'/></filter><rect width='400' height='400' filter='url(%23g)'/><g fill='rgb(76,45,17)'><circle cx='121' cy='303' r='1.0' fill-opacity='0.05'/><circle cx='189' cy='309' r='0.8' fill-opacity='0.09'/><circle cx='297' cy='33' r='1.0' fill-opacity='0.05'/><circle cx='240' cy='132' r='1.0' fill-opacity='0.05'/><circle cx='98' cy='367' r='0.8' fill-opacity='0.09'/><circle cx='281' cy='243' r='0.8' fill-opacity='0.09'/><circle cx='77' cy='118' r='1.0' fill-opacity='0.05'/><circle cx='267' cy='199' r='1.0' fill-opacity='0.05'/><circle cx='343' cy='397' r='0.6' fill-opacity='0.05'/><circle cx='388' cy='302' r='0.6' fill-opacity='0.07'/></g></svg>");--pt-card:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='2' seed='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.3 0 0 0 0 0.18 0 0 0 0 0.07 0 0 0 0.16 0'/></filter><rect width='400' height='400' filter='url(%23g)'/><g fill='rgb(76,45,17)'><circle cx='121' cy='303' r='1.0' fill-opacity='0.05'/><circle cx='189' cy='309' r='0.8' fill-opacity='0.09'/><circle cx='297' cy='33' r='1.0' fill-opacity='0.05'/><circle cx='240' cy='132' r='1.0' fill-opacity='0.05'/><circle cx='98' cy='367' r='0.8' fill-opacity='0.09'/><circle cx='281' cy='243' r='0.8' fill-opacity='0.09'/><circle cx='77' cy='118' r='1.0' fill-opacity='0.05'/><circle cx='267' cy='199' r='1.0' fill-opacity='0.05'/><circle cx='343' cy='397' r='0.6' fill-opacity='0.05'/><circle cx='388' cy='302' r='0.6' fill-opacity='0.07'/></g></svg>");--aged:rgba(120,78,24,.07)}
+html[data-theme="clair"]{--aged:rgba(120,90,40,.03)}
+html[data-theme="hiver"],html[data-theme="azur"],html[data-theme="lavande"]{--pt-body:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' seed='5' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.18 0 0 0 0 0.28 0 0 0 0 0.4 0 0 0 0.14 0'/></filter><rect width='300' height='300' filter='url(%23g)'/><g fill='rgb(45,71,102)'><circle cx='130' cy='183' r='1.0' fill-opacity='0.09'/><circle cx='271' cy='14' r='0.8' fill-opacity='0.05'/><circle cx='26' cy='80' r='0.6' fill-opacity='0.07'/><circle cx='240' cy='126' r='0.8' fill-opacity='0.09'/><circle cx='52' cy='293' r='0.6' fill-opacity='0.05'/><circle cx='110' cy='208' r='0.8' fill-opacity='0.05'/><circle cx='199' cy='81' r='0.6' fill-opacity='0.05'/><circle cx='227' cy='64' r='0.6' fill-opacity='0.05'/></g></svg>");--pt-card:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' seed='5' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.18 0 0 0 0 0.28 0 0 0 0 0.4 0 0 0 0.14 0'/></filter><rect width='300' height='300' filter='url(%23g)'/><g fill='rgb(45,71,102)'><circle cx='130' cy='183' r='1.0' fill-opacity='0.09'/><circle cx='271' cy='14' r='0.8' fill-opacity='0.05'/><circle cx='26' cy='80' r='0.6' fill-opacity='0.07'/><circle cx='240' cy='126' r='0.8' fill-opacity='0.09'/><circle cx='52' cy='293' r='0.6' fill-opacity='0.05'/><circle cx='110' cy='208' r='0.8' fill-opacity='0.05'/><circle cx='199' cy='81' r='0.6' fill-opacity='0.05'/><circle cx='227' cy='64' r='0.6' fill-opacity='0.05'/></g></svg>");--aged:rgba(30,60,100,.06)}
+html[data-theme="sombre"],html[data-theme="foret"],html[data-theme="crypte"],html[data-theme="forge"],html[data-theme="dragon"]{--pt-body:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='2' seed='9' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.92 0 0 0 0 0.75 0 0 0 0.05 0'/></filter><rect width='400' height='400' filter='url(%23g)'/><g fill='rgb(255,234,191)'><circle cx='237' cy='313' r='0.8' fill-opacity='0.07'/><circle cx='70' cy='95' r='1.0' fill-opacity='0.05'/><circle cx='173' cy='257' r='0.8' fill-opacity='0.09'/><circle cx='41' cy='171' r='1.0' fill-opacity='0.09'/><circle cx='358' cy='20' r='1.0' fill-opacity='0.07'/><circle cx='86' cy='360' r='0.8' fill-opacity='0.09'/><circle cx='216' cy='80' r='0.6' fill-opacity='0.05'/><circle cx='26' cy='56' r='0.6' fill-opacity='0.09'/></g></svg>");--pt-card:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='2' seed='9' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.92 0 0 0 0 0.75 0 0 0 0.05 0'/></filter><rect width='400' height='400' filter='url(%23g)'/><g fill='rgb(255,234,191)'><circle cx='237' cy='313' r='0.8' fill-opacity='0.07'/><circle cx='70' cy='95' r='1.0' fill-opacity='0.05'/><circle cx='173' cy='257' r='0.8' fill-opacity='0.09'/><circle cx='41' cy='171' r='1.0' fill-opacity='0.09'/><circle cx='358' cy='20' r='1.0' fill-opacity='0.07'/><circle cx='86' cy='360' r='0.8' fill-opacity='0.09'/><circle cx='216' cy='80' r='0.6' fill-opacity='0.05'/><circle cx='26' cy='56' r='0.6' fill-opacity='0.09'/></g></svg>");--aged:rgba(0,0,0,.22)}
+body:after{content:"";position:fixed;top:0;right:0;bottom:0;left:0;z-index:-1;pointer-events:none;background-image:var(--pt-body);background-size:400px 400px}
+.card,.modal>.box,.sheet,.q-card,.g-qbox{background-image:var(--pt-card),var(--tex);background-size:300px 300px,260px 260px;box-shadow:var(--frame),var(--sh),inset 0 0 28px var(--aged)}
+/* ═══ v1.2 — couleur propre à chaque thème de questions, niveau en étoiles, contraste renforcé ═══ */
+.tag.t-theme{--tc:#5E8A5A;background:color-mix(in srgb,var(--tc) 24%,var(--card));color:var(--ink);border:1.5px solid var(--tc);border-left-width:6px;font-size:.8rem;margin-left:0;padding:.14rem .55rem;border-radius:7px;font-weight:800}
+.tag.t-lvl{background:var(--tint);color:var(--ink);border:1px solid var(--line2);padding:.1rem .5rem;display:inline-flex;align-items:center;gap:.35rem;font-size:.72rem}
+.tag.t-lvl .stars{color:#C98F12;letter-spacing:.06em;font-size:.95rem;line-height:1}
+.tag.t-lvl .stars .off{color:var(--line2);opacity:.9}
+.tag.t-lvl small{font-size:.7rem;font-weight:800;letter-spacing:.04em}
+.tag.t-lvl.l1{background:color-mix(in srgb,#4E8A5E 18%,var(--card));border-color:#4E8A5E}
+.tag.t-lvl.l2{background:color-mix(in srgb,#C08A2B 20%,var(--card));border-color:#C08A2B}
+.tag.t-lvl.l3{background:color-mix(in srgb,#A33F4F 18%,var(--card));border-color:#A33F4F}
+.q-card,.g-qbox{border-top:6px solid var(--tc,var(--mc,var(--line2)))}
+.rv-meta{display:flex;gap:.4rem;flex-wrap:wrap;justify-content:center;margin:.2rem 0 .6rem}
+#q-tag{display:flex;gap:.35rem;flex-wrap:wrap;align-items:center}
+.g-meta{align-items:center}
+/* modes : blocs plus tranchés sur le fond */
+.mode{background:color-mix(in srgb,var(--mc,var(--line)) 17%,var(--card));border:2px solid color-mix(in srgb,var(--mc,var(--line)) 60%,var(--line));border-left-width:8px}
+body[data-mode]{--blot:radial-gradient(ellipse at 15% 5%,color-mix(in srgb,var(--mc) 16%,transparent),transparent 55%),radial-gradient(ellipse at 90% 95%,color-mix(in srgb,var(--mc) 14%,transparent),transparent 50%)}
+body[data-mode] .card{border-color:color-mix(in srgb,var(--mc) 45%,var(--line2))}
+/* code de salle : toujours lisible, quel que soit le thème visuel */
+.jc-code{color:#FFE08A;text-shadow:0 2px 0 rgba(0,0,0,.4),0 0 14px rgba(0,0,0,.35)}
+.hc-code{color:var(--ink);background:var(--tint);border:2px solid var(--line2);border-radius:14px;padding:.1em .3em}
+.slots span{color:var(--ink);background:var(--card);border:3px solid var(--line2)}
+.slots span.cur{border-color:var(--violet)}
+.ps-room b{color:var(--ink);background:var(--tint);border:1px solid var(--line2);border-radius:8px;padding:.05rem .5rem;font-weight:900}
+.qf-code{color:#FFE08A}
+
+/* pied de page : liens en grille propre sur mobile */
+.foot{padding:1.2rem 1rem calc(2rem + env(safe-area-inset-bottom,0px))}
+.foot-l{display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem 1rem;max-width:34rem;margin:0 auto}
+.foot-l a{margin:0;padding:.25rem .1rem;white-space:nowrap}
+.foot-t{margin:.8rem auto 0;max-width:30rem;line-height:1.45;font-size:.82rem;color:var(--ink3);text-wrap:balance}
+@media (max-width:480px){.foot-l{display:grid;grid-template-columns:1fr 1fr;gap:.2rem .6rem;max-width:20rem}.foot-l a{text-align:center;padding:.45rem .2rem;border-bottom-width:1px}}
+/* échelle des paliers d’XP */
+.xp-lad{margin:.4rem 0 0;padding:0;list-style:none;display:grid;gap:.25rem}
+.xp-lad li{display:flex;justify-content:space-between;gap:.6rem;padding:.3rem .6rem;border-radius:8px;background:var(--tint);border:1px solid var(--line);font-size:.9rem}
+.xp-lad li.ok{background:color-mix(in srgb,var(--mint) 16%,var(--card));border-color:var(--mint-b)}
+.xp-lad li.cur{background:color-mix(in srgb,var(--bulb) 28%,var(--card));border:2px solid var(--gold);font-weight:800}
+.xp-lad li span:last-child{font-variant-numeric:tabular-nums;white-space:nowrap}
+.pgl span{font-variant-numeric:tabular-nums}

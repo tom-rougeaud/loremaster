@@ -4,12 +4,16 @@
 var LOOK_THEMES=[
   ["parchemin","Parchemin","Clair, chaleureux (défaut)"],["sepia","Vieux grimoire","Clair, ton sépia"],
   ["clair","Papier clair","Très lisible, vidéoprojecteur"],["hiver","Givre du Nord","Clair, bleuté"],
+  ["azur","Lac d’argent","Clair, bleu-vert"],["aurore","Aube des royaumes","Clair, rose cuivré"],["lavande","Brume d’améthyste","Clair, violet doux"],
   ["sombre","Veillée","Sombre, doux"],["foret","Forêt elfique","Sombre, vert"],
   ["crypte","Crypte","Sombre, violet"],["forge","Forge naine","Sombre, braise"],["dragon","Antre du dragon","Sombre, rouge"]
 ];
 var LOOK_FONTS=[
-  ["chronique","Chronique","Élégant et sobre (défaut)"],["enluminure","Enluminure","Onciale ancienne"],
-  ["grimoire","Grimoire","Manuscrit médiéval"],["lisible","Lisible","Police système, sans fioriture"]
+  ["chronique","Chronique","Cinzel + Garamond (défaut)","Cinzel","EB Garamond"],["enluminure","Enluminure","Onciale + Almendra","Uncial Antiqua","Almendra"],
+  ["grimoire","Grimoire","MedievalSharp + IM Fell","MedievalSharp","IM Fell English"],["lisible","Lisible","Titres Cinzel, texte système","Cinzel","system-ui"],
+  ["royale","Royale","Cinzel Decorative + Cormorant","Cinzel Decorative","Cormorant Garamond"],["gothique","Gothique","Pirata One + Garamond","Pirata One","EB Garamond"],
+  ["conteur","Conteur","Metamorphous + Garamond","Metamorphous","EB Garamond"],["scribe","Scribe","Onciale + Garamond","Uncial Antiqua","EB Garamond"],
+  ["ancien","Chronique ancienne","Cinzel + IM Fell","Cinzel","IM Fell English"],["taverne","Taverne","MedievalSharp + Cormorant","MedievalSharp","Cormorant Garamond"]
 ];
 var LOOK=(function(){var l=store.get("look",null);return {theme:(l&&l.theme)||"parchemin",font:(l&&l.font)||"chronique"};})();
 function applyLook(){
@@ -18,15 +22,16 @@ function applyLook(){
   try{bg=getComputedStyle(document.body).getPropertyValue("--bg").trim();}catch(e){}
   if(m&&bg)m.setAttribute("content",bg);
 }
-function lookChip(kind,v,name,sub,on){
+function fcss(n){return n==="system-ui"?"system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif":"'"+n+"',Georgia,serif";}
+function lookChip(kind,v,name,sub,on,fam){
   return '<button type="button" class="look-chip'+(on?" on":"")+'" data-k="'+kind+'" data-v="'+v+'"'+(kind==="theme"?"":"")+'>'+
-    (kind==="theme"?'<span class="sw"><i></i><i></i><i></i></span>':'<span class="lk-prev">Les dragons dorment</span>')+
-    '<span class="lk-name">'+esc(name)+'</span><small class="muted">'+esc(sub)+'</small></button>';
+    (kind==="theme"?'<span class="sw"><i></i><i></i><i></i></span>':'<span class="lk-prev" style="font-family:'+(fam?fam[1]:"serif")+'">Les dragons dorment</span>')+
+    '<span class="lk-name"'+(fam?' style="font-family:'+fam[0]+'"':"")+'>'+esc(name)+'</span><small class="muted">'+esc(sub)+'</small></button>';
 }
 function renderLook(){
   var b=$("look-body");if(!b)return;
   b.innerHTML='<h3 class="small-h">Thème</h3><div class="look-grid">'+LOOK_THEMES.map(function(t){return lookChip("theme",t[0],t[1],t[2],LOOK.theme===t[0]);}).join("")+
-    '</div><h3 class="small-h">Police</h3><div class="look-grid">'+LOOK_FONTS.map(function(t){return lookChip("font",t[0],t[1],t[2],LOOK.font===t[0]);}).join("")+
+    '</div><h3 class="small-h">Police</h3><div class="look-grid">'+LOOK_FONTS.map(function(t){return lookChip("font",t[0],t[1],t[2],LOOK.font===t[0],[fcss(t[3]),fcss(t[4])]);}).join("")+
     '</div><p class="muted small">Ce choix est mémorisé sur cet appareil uniquement. Les thèmes sombres conviennent aux pièces peu éclairées ; « Papier clair » et « Lisible » sont les plus confortables en vidéoprojection.</p>';
 }
 function openLook(){

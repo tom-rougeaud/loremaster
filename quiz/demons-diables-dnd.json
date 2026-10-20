@@ -8,8 +8,54 @@
   "sombre": true
  },
  "sources": [
-  "Manuel des Monstres (5e édition)",
-  "SRD 5.1 (CC BY 4.0)"
+  "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence », Les Neuf Enfers",
+  "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence », L’Abîme",
+  "Manuel des Monstres 5e (2014), entrée « Diable »",
+  "Manuel des Monstres 5e (2014), entrée « Démon »",
+  "Guide du Maître 5e (2014), chap. 2 « Les Neuf Enfers » ; Mordenkainen’s Tome of Foes (2018), chap. 1",
+  "Out of the Abyss (2015), chap. 1 ; Manuel des Monstres 5e, entrée « Démon »",
+  "Out of the Abyss (2015) ; Manuel des Monstres 5e, entrée « Gnoll »",
+  "Out of the Abyss (2015), chap. 1 ; Manuel des Monstres 5e, entrée « Minotaure »",
+  "Out of the Abyss (2015), chap. 1 ; Manuel des Monstres 5e, « Zuggtmoy »",
+  "Manuel des Monstres 5e (2014), entrée « Diablotin »",
+  "Manuel des Monstres 5e (2014), entrée « Balor »",
+  "Manuel des Monstres 5e (2014), entrée « Démon » ; Manuel des Joueurs 5e, Annexe",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
+  "Guide du Maître 5e (2014), chap. 2 ; Baldur’s Gate : Descent into Avernus (2019), chap. 1",
+  "Guide du Maître 5e (2014), chap. 2 « Les Neuf Enfers »",
+  "Baldur’s Gate : Descent into Avernus (2019), introduction",
+  "Mordenkainen’s Tome of Foes (2018), chap. 1 « La Guerre du Sang »",
+  "Manuel des Monstres 5e (2014), entrée « Glabrezu »",
+  "Manuel des Monstres 5e (2014), entrée « Hezrou »",
+  "Manuel des Monstres 5e (2014), entrée « Vrock »",
+  "Manuel des Monstres 5e (2014), entrée « Nalfeshnee »",
+  "Manuel des Monstres 5e (2014), entrée « Érinye »",
+  "Manuel des Monstres 5e (2014), entrée « Succube/Incube »",
+  "Manuel des Monstres 5e (2014), entrée « Quasit »",
+  "Out of the Abyss (2015), chap. 1",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Protection contre le Mal et le Bien",
+  "Manuel des Monstres 5e (2014), entrée « Diable barbu »",
+  "Manuel des Monstres 5e (2014), entrée « Diable des chaînes »",
+  "Manuel des Monstres 5e (2014), entrée « Pit fiend »",
+  "Manuel des Monstres 5e (2014), entrée « Marilith »",
+  "Baldur’s Gate : Descent into Avernus (2019), chap. 1",
+  "Guide du Maître 5e (2014), chap. 2",
+  "Out of the Abyss (2015) ; Mordenkainen’s Tome of Foes (2018), chap. 1",
+  "Mordenkainen’s Tome of Foes (2018), chap. 1",
+  "Manuel des Monstres 5e (2014), entrée « Fiélon »",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Balor",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Pit fiend",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Marilith",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Diablotin",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Succube",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Vrock",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Hezrou",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Glabrezu",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Nalfeshnee",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Érinye",
+  "Wizards of the Coast, Baldur’s Gate : Descent into Avernus (2019)",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Diable barbu",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Diable des glaces"
  ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
@@ -22,7 +68,7 @@
    "concept": "dem-001",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quel plan est le domaine des diables ?",
+   "q": "Dans D&D 5e, quel plan est le domaine des diables ?",
    "choix": [
     "Le Mont Céleste",
     "Les Abysses",
@@ -30,8 +76,8 @@
     "Les Neuf Enfers"
    ],
    "rep": 3,
-   "expl": "Les Neuf Enfers abritent les diables.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Les diables règnent sur les Neuf Enfers (Nine Hells), un plan inférieur d’alignement loyal mauvais, divisé en neuf couches gouvernées par Asmodeus.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence », Les Neuf Enfers",
    "conf": "probable"
   },
   {
@@ -39,7 +85,7 @@
    "concept": "dem-002",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quel plan chaotique abrite les démons ?",
+   "q": "Dans D&D 5e, quel plan chaotique abrite les démons ?",
    "choix": [
     "Arcadie",
     "Les Neuf Enfers",
@@ -47,8 +93,8 @@
     "Mechanus"
    ],
    "rep": 2,
-   "expl": "Les démons vivent dans l’Abîme.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Les démons vivent dans l’Abîme (the Abyss), un plan infini de couches chaotiques mauvaises, qui compte autant de royaumes que de Seigneurs démons.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence », L’Abîme",
    "conf": "probable"
   },
   {
@@ -56,7 +102,7 @@
    "concept": "dem-003",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel alignement général ont les diables ?",
+   "q": "Dans D&D 5e, quel alignement général ont les diables ?",
    "choix": [
     "Neutre mauvais",
     "Loyal bon",
@@ -64,8 +110,8 @@
     "Loyal mauvais"
    ],
    "rep": 3,
-   "expl": "Les diables sont loyaux mauvais.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Les diables sont loyaux mauvais : ils suivent une hiérarchie rigide, signent des contrats et manipulent la loi pour dominer.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Diable »",
    "conf": "probable"
   },
   {
@@ -73,7 +119,7 @@
    "concept": "dem-004",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel alignement général ont les démons ?",
+   "q": "Dans D&D 5e, quel alignement général ont les démons ?",
    "choix": [
     "Loyal mauvais",
     "Chaotique mauvais",
@@ -81,8 +127,8 @@
     "Neutre strict"
    ],
    "rep": 1,
-   "expl": "Les démons sont chaotiques mauvais.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Les démons sont chaotiques mauvais : ils agissent par pure destruction, sans hiérarchie stable, et se battent entre eux.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Démon »",
    "conf": "probable"
   },
   {
@@ -90,7 +136,7 @@
    "concept": "dem-005",
    "niveau": 1,
    "type": "qcm",
-   "q": "Qui règne sur les Neuf Enfers ?",
+   "q": "Dans D&D 5e, qui règne sur les Neuf Enfers ?",
    "choix": [
     "Orcus",
     "Asmodeus",
@@ -98,8 +144,8 @@
     "Demogorgon"
    ],
    "rep": 1,
-   "expl": "Asmodeus est le maître des Neuf Enfers.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Asmodeus, le prince des Neuf Enfers, règne depuis la neuvième couche, Nessus ; il est souvent représenté comme un diable rouge, à la fois noble et manipulateur.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les Neuf Enfers » ; Mordenkainen’s Tome of Foes (2018), chap. 1",
    "conf": "probable"
   },
   {
@@ -107,7 +153,7 @@
    "concept": "dem-006",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel Seigneur démon est le Prince des Démons, doté de deux têtes ?",
+   "q": "Dans D&D 5e, quel Seigneur démon, appelé le Prince des Démons, a deux têtes ?",
    "choix": [
     "Baphomet",
     "Demogorgon",
@@ -115,8 +161,8 @@
     "Yeenoghu"
    ],
    "rep": 1,
-   "expl": "Demogorgon a deux têtes de babouin.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Demogorgon, le Prince des Démons, a deux têtes de babouin et des tentacules ; ses deux têtes, Aameul et Hathradiah, sont en rivalité l’une avec l’autre.",
+   "src": "Out of the Abyss (2015), chap. 1 ; Manuel des Monstres 5e, entrée « Démon »",
    "conf": "probable"
   },
   {
@@ -124,7 +170,7 @@
    "concept": "dem-007",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel Seigneur démon commande les gnolls ?",
+   "q": "Dans D&D 5e, quel Seigneur démon commande les gnolls ?",
    "choix": [
     "Juiblex",
     "Yeenoghu",
@@ -132,8 +178,8 @@
     "Zuggtmoy"
    ],
    "rep": 1,
-   "expl": "Yeenoghu est le Seigneur des Gnolls.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Yeenoghu, Seigneur des Gnolls (Demon Lord of Savagery), crée les gnolls à partir des hyènes qui ont mangé ses restes ; il apparaît dans Out of the Abyss.",
+   "src": "Out of the Abyss (2015) ; Manuel des Monstres 5e, entrée « Gnoll »",
    "conf": "probable"
   },
   {
@@ -141,7 +187,7 @@
    "concept": "dem-008",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel Seigneur démon est associé aux minotaures ?",
+   "q": "Dans D&D 5e, quel Seigneur démon est associé aux minotaures et aux bêtes ?",
    "choix": [
     "Baphomet",
     "Yeenoghu",
@@ -149,8 +195,8 @@
     "Orcus"
    ],
    "rep": 0,
-   "expl": "Baphomet est le Prince des Bêtes.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Baphomet, le Prince des Bêtes, a une tête de taureau ; les minotaures le vénèrent, et il règne sur le labyrinthe de l’Abîme.",
+   "src": "Out of the Abyss (2015), chap. 1 ; Manuel des Monstres 5e, entrée « Minotaure »",
    "conf": "probable"
   },
   {
@@ -158,7 +204,7 @@
    "concept": "dem-009",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quelle Dame des champignons est un Seigneur démon ?",
+   "q": "Dans D&D 5e, quelle Dame des champignons est un Seigneur démon ?",
    "choix": [
     "Juiblex",
     "Zuggtmoy",
@@ -166,8 +212,8 @@
     "Lolth"
    ],
    "rep": 1,
-   "expl": "Zuggtmoy règne sur les fongus.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Zuggtmoy, la Dame des champignons (Demon Lady of Fungi), est le moteur de l’intrigue de Out of the Abyss : elle étend ses champignons et ses spores dans l’Outreterre.",
+   "src": "Out of the Abyss (2015), chap. 1 ; Manuel des Monstres 5e, « Zuggtmoy »",
    "conf": "probable"
   },
   {
@@ -175,7 +221,7 @@
    "concept": "dem-010",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quelle petite créature infernale sert souvent de familier à un sorcier ?",
+   "q": "Dans D&D 5e, quelle petite créature infernale sert souvent de familier à un occultiste ou à un magicien ?",
    "choix": [
     "Un diablotin",
     "Un vrock",
@@ -183,8 +229,8 @@
     "Un glabrezu"
    ],
    "rep": 0,
-   "expl": "Le diablotin (imp) est un petit diable.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le diablotin (imp) est un diable minuscule, invisible à volonté, qui peut prendre l’apparence d’un animal ; il peut servir de familier.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Diablotin »",
    "conf": "probable"
   },
   {
@@ -192,7 +238,7 @@
    "concept": "dem-011",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel démon manie un fouet de foudre et une épée de feu ?",
+   "q": "Dans D&D 5e, quel démon manie une épée de foudre et un fouet de feu ?",
    "choix": [
     "Le vrock",
     "Le glabrezu",
@@ -200,8 +246,8 @@
     "Le hezrou"
    ],
    "rep": 2,
-   "expl": "Le balor est un puissant démon.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le balor (FP 19) est l’un des plus puissants démons ; il manie une épée longue de foudre et un fouet de flammes, et explose à sa mort.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Balor »",
    "conf": "probable"
   },
   {
@@ -209,7 +255,7 @@
    "concept": "dem-012",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quels sont les anciens noms des démons et des diables ?",
+   "q": "Dans les anciennes éditions de D&D, quels étaient les noms de race des démons et des diables ?",
    "choix": [
     "Slaadi et modrons",
     "Tanar’ri et baatezu",
@@ -217,8 +263,8 @@
     "Aasimars et tieffelins"
    ],
    "rep": 1,
-   "expl": "Tanar’ri = démons, baatezu = diables.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Les démons s’appelaient tanar’ri et les diables baatezu ; ces noms sont ceux des éditions précédentes, remplacés en 5e par « démon » et « diable ».",
+   "src": "Manuel des Monstres 5e (2014), entrée « Démon » ; Manuel des Joueurs 5e, Annexe",
    "conf": "probable"
   },
   {
@@ -226,7 +272,7 @@
    "concept": "dem-013",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel peuple descend d’un lien avec les Neuf Enfers ?",
+   "q": "Dans D&D 5e, quel peuple jouable est lié à une ascendance infernale ?",
    "choix": [
     "Les drakéides",
     "Les gnomes",
@@ -234,8 +280,8 @@
     "Les aasimars"
    ],
    "rep": 2,
-   "expl": "Les tieffelins ont une ascendance infernale.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Les tieffelins portent la marque d’un pacte avec une puissance infernale ; dans les Neuf Enfers, beaucoup descendent de sombres alliances avec Asmodeus.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
    "conf": "probable"
   },
   {
@@ -243,7 +289,7 @@
    "concept": "dem-014",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle est la première couche des Neuf Enfers ?",
+   "q": "Dans D&D 5e, quelle est la première couche des Neuf Enfers ?",
    "choix": [
     "Cania",
     "Nessus",
@@ -251,8 +297,8 @@
     "Avernus"
    ],
    "rep": 3,
-   "expl": "Avernus est la couche supérieure.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Avernus est la première couche, un désert de roche rouge où se déroule la Guerre du Sang ; elle est gouvernée par Bel, le premier archidiable.",
+   "src": "Guide du Maître 5e (2014), chap. 2 ; Baldur’s Gate : Descent into Avernus (2019), chap. 1",
    "conf": "probable"
   },
   {
@@ -260,7 +306,7 @@
    "concept": "dem-015",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quelle est la neuvième couche des Neuf Enfers ?",
+   "q": "Dans D&D 5e, quelle est la neuvième couche des Neuf Enfers ?",
    "choix": [
     "Nessus",
     "Stygie",
@@ -268,8 +314,8 @@
     "Avernus"
    ],
    "rep": 0,
-   "expl": "Nessus est la couche d’Asmodeus.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Nessus, la couche la plus profonde, est le domaine d’Asmodeus ; c’est une grande mer de glace et de rocs sombres.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les Neuf Enfers »",
    "conf": "probable"
   },
   {
@@ -277,7 +323,7 @@
    "concept": "dem-016",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle aventure 5e de 2019 se déroule en Avernus ?",
+   "q": "Dans D&D 5e, quelle aventure de 2019 se déroule en Avernus ?",
    "choix": [
     "Baldur’s Gate : Descent into Avernus",
     "La Malédiction de Strahd",
@@ -285,8 +331,8 @@
     "Out of the Abyss"
    ],
    "rep": 0,
-   "expl": "Descent into Avernus date de 2019.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Baldur’s Gate : Descent into Avernus (2019) est une aventure de niveaux 1 à 13, qui emmène les joueurs de Baldur’s Gate à la première couche des Neuf Enfers.",
+   "src": "Baldur’s Gate : Descent into Avernus (2019), introduction",
    "conf": "probable"
   },
   {
@@ -294,7 +340,7 @@
    "concept": "dem-017",
    "niveau": 2,
    "type": "qcm",
-   "q": "Comment appelle-t-on la guerre éternelle entre démons et diables ?",
+   "q": "Dans D&D 5e, comment appelle-t-on la guerre éternelle entre démons et diables ?",
    "choix": [
     "La Guerre du Sang",
     "La Guerre des Dragons",
@@ -302,8 +348,8 @@
     "La Guerre de Troie"
    ],
    "rep": 0,
-   "expl": "La Blood War oppose démons et diables.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "La Guerre du Sang (Blood War) oppose depuis des millénaires les légions infernales aux hordes de l’Abîme, sans qu’aucun camp ne l’emporte.",
+   "src": "Mordenkainen’s Tome of Foes (2018), chap. 1 « La Guerre du Sang »",
    "conf": "probable"
   },
   {
@@ -311,7 +357,7 @@
    "concept": "dem-018",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel démon à pinces est connu pour exaucer des souhaits perfides ?",
+   "q": "Dans D&D 5e, quel démon à pinces est connu pour exaucer des souhaits tordus ?",
    "choix": [
     "Le marilith",
     "Le hezrou",
@@ -319,8 +365,8 @@
     "Le vrock"
    ],
    "rep": 2,
-   "expl": "Le glabrezu a de grandes pinces.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le glabrezu (FP 9) peut lancer Souhait une fois par jour, mais il le tourne toujours au désavantage du demandeur ; il a quatre bras, dont deux à pinces.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Glabrezu »",
    "conf": "probable"
   },
   {
@@ -328,7 +374,7 @@
    "concept": "dem-019",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel démon ressemble à un crapaud humanoïde puant ?",
+   "q": "Dans D&D 5e, quel démon ressemble à un crapaud humanoïde puant ?",
    "choix": [
     "Le hezrou",
     "Le glabrezu",
@@ -336,8 +382,8 @@
     "Le nalfeshnee"
    ],
    "rep": 0,
-   "expl": "Le hezrou dégage une puanteur.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le hezrou (FP 8) dégage une puanteur qui rend malade ; il est massif, et sert de brute dans les armées de l’Abîme.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hezrou »",
    "conf": "probable"
   },
   {
@@ -345,7 +391,7 @@
    "concept": "dem-020",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel démon ressemble à un vautour humanoïde ?",
+   "q": "Dans D&D 5e, quel démon ressemble à un vautour humanoïde ?",
    "choix": [
     "Le balor",
     "Le marilith",
@@ -353,8 +399,8 @@
     "Le vrock"
    ],
    "rep": 3,
-   "expl": "Le vrock a une tête de vautour.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le vrock (FP 6) a une tête de vautour ; il crache des spores et pousse un cri étourdissant (Cri étourdissant).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vrock »",
    "conf": "probable"
   },
   {
@@ -362,7 +408,7 @@
    "concept": "dem-021",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel démon a une tête de sanglier et un corps obèse ?",
+   "q": "Dans D&D 5e, quel démon a une tête de sanglier et un corps de singe obèse ?",
    "choix": [
     "Le glabrezu",
     "Le nalfeshnee",
@@ -370,8 +416,8 @@
     "Le vrock"
    ],
    "rep": 1,
-   "expl": "Le nalfeshnee a une tête de sanglier.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le nalfeshnee (FP 13) a une tête de sanglier et d’énormes ailes ; il utilise le Mot d’épouvante, des pouvoirs d’illusion et de Téléportation.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Nalfeshnee »",
    "conf": "probable"
   },
   {
@@ -379,7 +425,7 @@
    "concept": "dem-022",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel diable à ailes est une tentatrice armée d’une corde enchantée ?",
+   "q": "Dans D&D 5e, quel diable ailé manie une corde d’emprisonnement magique ?",
    "choix": [
     "Un diable à glace",
     "Un diablotin",
@@ -387,8 +433,8 @@
     "Un diable barbu"
    ],
    "rep": 2,
-   "expl": "L’érinye est un diable ailé.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "L’érinye (FP 12) est un ange déchu devenu diable ; elle porte une corde d’emprisonnement qu’elle utilise pour entraver ses adversaires.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Érinye »",
    "conf": "probable"
   },
   {
@@ -396,7 +442,7 @@
    "concept": "dem-023",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quels fiélons peuvent changer de forme pour séduire ?",
+   "q": "Dans D&D 5e, quels fiélons peuvent changer de forme pour séduire ?",
    "choix": [
     "Quasits",
     "Balors",
@@ -404,8 +450,8 @@
     "Vrocks"
    ],
    "rep": 2,
-   "expl": "Ils prennent forme humanoïde.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Les succubes et incubes prennent une forme humanoïde ; leur Charme et leur Baiser corrupteur leur permettent de dominer et d’épuiser leurs victimes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Succube/Incube »",
    "conf": "probable"
   },
   {
@@ -413,7 +459,7 @@
    "concept": "dem-024",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel petit fiélon chaotique sert de familier ?",
+   "q": "Dans D&D 5e, quel petit fiélon chaotique sert de familier ?",
    "choix": [
     "Un vrock",
     "Un diablotin",
@@ -421,8 +467,8 @@
     "Un glabrezu"
    ],
    "rep": 2,
-   "expl": "Le quasit est un petit démon.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le quasit est un petit démon (FP 1), qui peut devenir invisible et lancer Frayeur ; c’est la version abyssale du diablotin.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Quasit »",
    "conf": "probable"
   },
   {
@@ -430,7 +476,7 @@
    "concept": "dem-025",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel Seigneur démon est lié aux limons et gelées ?",
+   "q": "Dans D&D 5e, quel Seigneur démon est lié aux limons et aux gelées ?",
    "choix": [
     "Juiblex",
     "Zuggtmoy",
@@ -438,8 +484,8 @@
     "Graz’zt"
    ],
    "rep": 0,
-   "expl": "Juiblex est le Seigneur Sans-Visage.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Juiblex, le Seigneur sans visage (Demon Lord of Slimes and Oozes), est une masse amorphe qui règne sur les limons ; il figure dans Out of the Abyss.",
+   "src": "Out of the Abyss (2015), chap. 1",
    "conf": "probable"
   },
   {
@@ -447,7 +493,7 @@
    "concept": "dem-026",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort protège contre les fiélons ?",
+   "q": "Dans D&D 5e, quel sort protège contre les fiélons, les fées, les morts-vivants, etc. ?",
    "choix": [
     "Boule de feu",
     "Protection contre le Mal et le Bien",
@@ -455,8 +501,8 @@
     "Bouclier"
    ],
    "rep": 1,
-   "expl": "Il empêche les fiélons d’attaquer facilement.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Protection contre le Mal et le Bien (niveau 1) donne un désavantage aux attaques de fiélons et empêche l’envoûtement de la cible protégée.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Protection contre le Mal et le Bien",
    "conf": "probable"
   },
   {
@@ -464,7 +510,7 @@
    "concept": "dem-027",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel diable est armé de griffes de lames et a une barbe ?",
+   "q": "Dans D&D 5e, quel diable fantassin manie un glaive et une barbe griffue ?",
    "choix": [
     "Le diable cornu",
     "Le diable des os",
@@ -472,8 +518,8 @@
     "Le diable barbu"
    ],
    "rep": 3,
-   "expl": "Le diable barbu (barbazu) est un soldat infernal.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le diable barbu (barbazu, FP 3) est un soldat de première ligne des armées infernales ; il fait des attaques de barbe et de glaive.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Diable barbu »",
    "conf": "probable"
   },
   {
@@ -481,7 +527,7 @@
    "concept": "dem-028",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel diable manie des chaînes hérissées de crochets ?",
+   "q": "Dans D&D 5e, quel diable manie des chaînes hérissées de crochets ?",
    "choix": [
     "Le diablotin",
     "Le diable à glace",
@@ -489,8 +535,8 @@
     "Le diable à chaînes"
    ],
    "rep": 3,
-   "expl": "Il contrôle des chaînes vivantes.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le diable des chaînes (kyton, FP 8) fait bouger les chaînes qui l’entourent, qui s’animent pour agripper ses ennemis.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Diable des chaînes »",
    "conf": "probable"
   },
   {
@@ -498,7 +544,7 @@
    "concept": "dem-029",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel diable du plus haut rang a un FP de 20 ?",
+   "q": "Dans D&D 5e, quel diable de haut rang a un FP de 20 ?",
    "choix": [
     "Le pit fiend",
     "Le diable à chaînes",
@@ -506,8 +552,8 @@
     "Le diable barbu"
    ],
    "rep": 0,
-   "expl": "Le pit fiend est un puissant diable.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Le pit fiend (FP 20) est un diable de très haut rang : il dirige des légions et commande ses subalternes. Il est de FP 20 et a 300 PV.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Pit fiend »",
    "conf": "probable"
   },
   {
@@ -515,7 +561,7 @@
    "concept": "dem-030",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel démon a six bras et manie plusieurs armes ?",
+   "q": "Dans D&D 5e, quel démon a six bras et manie plusieurs armes ?",
    "choix": [
     "Le hezrou",
     "Le vrock",
@@ -523,8 +569,8 @@
     "Le marilith"
    ],
    "rep": 3,
-   "expl": "Le marilith a six bras.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "La marilith (FP 16) a six bras et un corps de serpent ; elle manie six armes et dirige les armées de démons.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Marilith »",
    "conf": "probable"
   },
   {
@@ -532,10 +578,10 @@
    "concept": "dem-031",
    "niveau": 1,
    "type": "vf",
-   "q": "Les diables sont d’alignement loyal mauvais.",
+   "q": "Dans D&D 5e, les diables sont d’alignement loyal mauvais.",
    "rep": true,
-   "expl": "Les diables suivent une hiérarchie stricte.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : leur société est une hiérarchie rigide, avec des archidiables, des ducs et des légions.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Diable »",
    "conf": "probable"
   },
   {
@@ -543,10 +589,10 @@
    "concept": "dem-032",
    "niveau": 2,
    "type": "vf",
-   "q": "Les démons sont organisés en hiérarchie stricte et loyale.",
+   "q": "Dans D&D 5e, les démons sont organisés en hiérarchie stricte et loyale.",
    "rep": false,
-   "expl": "Les démons sont chaotiques.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : les démons sont chaotiques mauvais ; chacun cherche son propre pouvoir et ils se battent entre eux.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Démon »",
    "conf": "probable"
   },
   {
@@ -554,10 +600,10 @@
    "concept": "dem-033",
    "niveau": 1,
    "type": "vf",
-   "q": "Asmodeus règne sur les Neuf Enfers.",
+   "q": "Dans D&D 5e, Asmodeus règne sur les Neuf Enfers.",
    "rep": true,
-   "expl": "Il est le maître des Neuf Enfers.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : il siège à Nessus, au fond des Neuf Enfers.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les Neuf Enfers »",
    "conf": "probable"
   },
   {
@@ -565,10 +611,10 @@
    "concept": "dem-034",
    "niveau": 2,
    "type": "vf",
-   "q": "Demogorgon commande les gnolls.",
+   "q": "Dans D&D 5e, Demogorgon commande les gnolls.",
    "rep": false,
-   "expl": "Les gnolls suivent Yeenoghu.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : les gnolls suivent Yeenoghu ; Demogorgon est le Prince des Démons.",
+   "src": "Out of the Abyss (2015), chap. 1",
    "conf": "probable"
   },
   {
@@ -576,10 +622,10 @@
    "concept": "dem-035",
    "niveau": 1,
    "type": "vf",
-   "q": "Les tieffelins ont une ascendance infernale.",
+   "q": "Dans D&D 5e, les tieffelins ont une ascendance infernale.",
    "rep": true,
-   "expl": "Ils descendent d’un pacte infernal.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : leur ascendance vient d’un pacte avec une puissance infernale.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
    "conf": "probable"
   },
   {
@@ -587,10 +633,10 @@
    "concept": "dem-036",
    "niveau": 2,
    "type": "vf",
-   "q": "Avernus est la dernière couche des Neuf Enfers.",
+   "q": "Dans D&D 5e, Avernus est la dernière couche des Neuf Enfers.",
    "rep": false,
-   "expl": "Avernus est la première couche.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : c’est la première ; la dernière est Nessus.",
+   "src": "Baldur’s Gate : Descent into Avernus (2019), chap. 1",
    "conf": "probable"
   },
   {
@@ -598,10 +644,10 @@
    "concept": "dem-037",
    "niveau": 2,
    "type": "vf",
-   "q": "Nessus est la neuvième couche des Neuf Enfers.",
+   "q": "Dans D&D 5e, Nessus est la neuvième couche des Neuf Enfers.",
    "rep": true,
-   "expl": "Nessus est la couche profonde d’Asmodeus.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : c’est la couche d’Asmodeus.",
+   "src": "Guide du Maître 5e (2014), chap. 2",
    "conf": "probable"
   },
   {
@@ -609,10 +655,10 @@
    "concept": "dem-038",
    "niveau": 2,
    "type": "vf",
-   "q": "Le diablotin est un démon.",
+   "q": "Dans D&D 5e, le diablotin est un démon.",
    "rep": false,
-   "expl": "Le diablotin est un diable.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : c’est un diable ; son équivalent démoniaque est le quasit.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Diablotin »",
    "conf": "probable"
   },
   {
@@ -620,10 +666,10 @@
    "concept": "dem-039",
    "niveau": 2,
    "type": "vf",
-   "q": "Le quasit est un démon.",
+   "q": "Dans D&D 5e, le quasit est un démon.",
    "rep": true,
-   "expl": "Le quasit est un petit démon.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : le quasit est un petit démon (FP 1), cousin chaotique du diablotin.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Quasit »",
    "conf": "probable"
   },
   {
@@ -631,10 +677,10 @@
    "concept": "dem-040",
    "niveau": 2,
    "type": "vf",
-   "q": "Le balor est un diable.",
+   "q": "Dans D&D 5e, le balor est un diable.",
    "rep": false,
-   "expl": "Le balor est un démon.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : le balor est un démon, l’un des plus puissants de l’Abîme.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Balor »",
    "conf": "probable"
   },
   {
@@ -642,10 +688,10 @@
    "concept": "dem-041",
    "niveau": 2,
    "type": "vf",
-   "q": "Baphomet est lié aux minotaures.",
+   "q": "Dans D&D 5e, Baphomet est lié aux minotaures.",
    "rep": true,
-   "expl": "Baphomet est un Seigneur démon des bêtes.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : c’est le Prince des Bêtes, vénéré par les minotaures.",
+   "src": "Out of the Abyss (2015), chap. 1",
    "conf": "probable"
   },
   {
@@ -653,10 +699,10 @@
    "concept": "dem-042",
    "niveau": 2,
    "type": "vf",
-   "q": "Lolth est un dieu du soleil.",
+   "q": "Dans D&D 5e, Lolth est un dieu du soleil.",
    "rep": false,
-   "expl": "Lolth est la déesse des drows et des araignées.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : Lolth est la déesse des drows et des araignées (Reine-Araignée).",
+   "src": "Out of the Abyss (2015) ; Mordenkainen’s Tome of Foes (2018), chap. 1",
    "conf": "probable"
   },
   {
@@ -664,10 +710,10 @@
    "concept": "dem-043",
    "niveau": 2,
    "type": "vf",
-   "q": "La Guerre du Sang oppose démons et diables.",
+   "q": "Dans D&D 5e, la Guerre du Sang oppose démons et diables.",
    "rep": true,
-   "expl": "La Blood War est leur guerre.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : cette guerre dure depuis des éons.",
+   "src": "Mordenkainen’s Tome of Foes (2018), chap. 1",
    "conf": "probable"
   },
   {
@@ -675,10 +721,10 @@
    "concept": "dem-044",
    "niveau": 1,
    "type": "vf",
-   "q": "Les démons et les diables s’entendent bien.",
+   "q": "Dans D&D 5e, les démons et les diables s’entendent bien.",
    "rep": false,
-   "expl": "Ils sont ennemis jurés.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : ils se détestent et se livrent la Guerre du Sang.",
+   "src": "Mordenkainen’s Tome of Foes (2018), chap. 1",
    "conf": "probable"
   },
   {
@@ -686,10 +732,10 @@
    "concept": "dem-045",
    "niveau": 3,
    "type": "vf",
-   "q": "Le vrock a un aspect de vautour.",
+   "q": "Dans D&D 5e, le vrock a un aspect de vautour.",
    "rep": true,
-   "expl": "Le vrock est un démon vautour.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : le vrock est un démon à tête de vautour.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vrock »",
    "conf": "probable"
   },
   {
@@ -697,10 +743,10 @@
    "concept": "dem-046",
    "niveau": 3,
    "type": "vf",
-   "q": "Le hezrou est un démon aux ailes de papillon.",
+   "q": "Dans D&D 5e, le hezrou est un démon aux ailes de papillon.",
    "rep": false,
-   "expl": "Le hezrou est un démon crapaud.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : le hezrou est un démon-crapaud.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hezrou »",
    "conf": "probable"
   },
   {
@@ -708,10 +754,10 @@
    "concept": "dem-047",
    "niveau": 3,
    "type": "vf",
-   "q": "La marilith possède six bras.",
+   "q": "Dans D&D 5e, la marilith possède six bras.",
    "rep": true,
-   "expl": "Ses six bras manient des armes.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : six bras maniant autant d’armes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Marilith »",
    "conf": "probable"
   },
   {
@@ -719,10 +765,10 @@
    "concept": "dem-048",
    "niveau": 2,
    "type": "vf",
-   "q": "Le diable barbu est un démon.",
+   "q": "Dans D&D 5e, le diable barbu est un démon.",
    "rep": false,
-   "expl": "Le diable barbu est un diable.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : le diable barbu (barbazu) est un diable, soldat des légions infernales.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Diable barbu »",
    "conf": "probable"
   },
   {
@@ -730,10 +776,10 @@
    "concept": "dem-049",
    "niveau": 2,
    "type": "vf",
-   "q": "Orcus est associé aux morts-vivants.",
+   "q": "Dans D&D 5e, Orcus est associé aux morts-vivants.",
    "rep": true,
-   "expl": "Il est le Prince des Morts-vivants.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : il est le Prince démon des morts-vivants.",
+   "src": "Out of the Abyss (2015), chap. 1",
    "conf": "probable"
   },
   {
@@ -741,10 +787,10 @@
    "concept": "dem-050",
    "niveau": 3,
    "type": "vf",
-   "q": "Zuggtmoy est la Dame des limons.",
+   "q": "Dans D&D 5e, Zuggtmoy est la Dame des limons.",
    "rep": false,
-   "expl": "Zuggtmoy est la Dame des champignons.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : c’est la Dame des champignons ; Juiblex règne sur les limons.",
+   "src": "Out of the Abyss (2015), chap. 1",
    "conf": "probable"
   },
   {
@@ -752,10 +798,10 @@
    "concept": "dem-051",
    "niveau": 3,
    "type": "vf",
-   "q": "Le pit fiend est l’un des diables les plus puissants.",
+   "q": "Dans D&D 5e, le pit fiend est l’un des diables les plus puissants.",
    "rep": true,
-   "expl": "Son FP est de 20.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Vrai : avec FP 20 et 300 PV, il commande légions et seigneurs.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Pit fiend »",
    "conf": "probable"
   },
   {
@@ -763,10 +809,10 @@
    "concept": "dem-052",
    "niveau": 1,
    "type": "vf",
-   "q": "Dans D&D, les fiélons sont toujours d’alignement bon.",
+   "q": "Dans D&D 5e, les fiélons sont toujours d’alignement bon.",
    "rep": false,
-   "expl": "Les fiélons sont mauvais.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Faux : les fiélons sont mauvais par nature (diables, démons, yugoloths…).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Fiélon »",
    "conf": "probable"
   },
   {
@@ -774,15 +820,15 @@
    "concept": "dem-053",
    "niveau": 2,
    "type": "slider",
-   "q": "Combien de bras a la marilith ?",
+   "q": "Dans D&D 5e, combien de bras a la marilith ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "bras",
    "tolerance": 0,
    "rep": 6,
-   "expl": "La marilith a six bras.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Six bras, dont chacun manie une arme.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Marilith »",
    "conf": "probable"
   },
   {
@@ -790,15 +836,15 @@
    "concept": "dem-054",
    "niveau": 2,
    "type": "slider",
-   "q": "Combien de couches comptent les Neuf Enfers ?",
+   "q": "Dans D&D 5e, combien de couches comptent les Neuf Enfers ?",
    "min": 1,
    "max": 15,
    "pas": 1,
    "unite": "couches",
    "tolerance": 0,
    "rep": 9,
-   "expl": "Neuf couches.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Neuf couches : Avernus, Dis, Minauros, Phlégéthos, Stygie, Malbolge, Maladomini, Cania et Nessus.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les Neuf Enfers »",
    "conf": "probable"
   },
   {
@@ -806,15 +852,15 @@
    "concept": "dem-055",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP du balor ?",
+   "q": "Dans D&D 5e, quel est le FP du balor ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 19,
-   "expl": "Le balor a un FP de 19.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 19 : 262 PV et une explosion à sa mort.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Balor",
    "conf": "probable"
   },
   {
@@ -822,15 +868,15 @@
    "concept": "dem-056",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP du pit fiend ?",
+   "q": "Dans D&D 5e, quel est le FP du pit fiend ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 20,
-   "expl": "Le pit fiend a un FP de 20.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 20 : 300 PV et un lancer de Boule de feu.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Pit fiend",
    "conf": "probable"
   },
   {
@@ -838,15 +884,15 @@
    "concept": "dem-057",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP de la marilith ?",
+   "q": "Dans D&D 5e, quel est le FP de la marilith ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 16,
-   "expl": "La marilith a un FP de 16.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 16 : 189 PV.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de la Marilith",
    "conf": "probable"
   },
   {
@@ -854,15 +900,15 @@
    "concept": "dem-058",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le FP du diablotin ?",
+   "q": "Dans D&D 5e, quel est le FP du diablotin ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 1,
-   "expl": "Le diablotin a un FP de 1.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 1 : seulement 10 PV, mais invisible à volonté, avec une piqûre venimeuse.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Diablotin",
    "conf": "probable"
   },
   {
@@ -870,15 +916,15 @@
    "concept": "dem-059",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP du succube ?",
+   "q": "Dans D&D 5e, quel est le FP du succube ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 4,
-   "expl": "Le succube a un FP de 4.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 4 : 66 PV.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Succube",
    "conf": "probable"
   },
   {
@@ -886,15 +932,15 @@
    "concept": "dem-060",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP du vrock ?",
+   "q": "Dans D&D 5e, quel est le FP du vrock ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 6,
-   "expl": "Le vrock a un FP de 6.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 6 : 104 PV.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Vrock",
    "conf": "probable"
   },
   {
@@ -902,15 +948,15 @@
    "concept": "dem-061",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP du hezrou ?",
+   "q": "Dans D&D 5e, quel est le FP du hezrou ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 8,
-   "expl": "Le hezrou a un FP de 8.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 8 : 136 PV.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Hezrou",
    "conf": "probable"
   },
   {
@@ -918,15 +964,15 @@
    "concept": "dem-062",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP du glabrezu ?",
+   "q": "Dans D&D 5e, quel est le FP du glabrezu ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 9,
-   "expl": "Le glabrezu a un FP de 9.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 9 : 157 PV.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Glabrezu",
    "conf": "probable"
   },
   {
@@ -934,15 +980,15 @@
    "concept": "dem-063",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP du nalfeshnee ?",
+   "q": "Dans D&D 5e, quel est le FP du nalfeshnee ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 13,
-   "expl": "Le nalfeshnee a un FP de 13.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 13 : 184 PV.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Nalfeshnee",
    "conf": "probable"
   },
   {
@@ -950,15 +996,15 @@
    "concept": "dem-064",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP de l’érinye ?",
+   "q": "Dans D&D 5e, quel est le FP de l’érinye ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 12,
-   "expl": "L’érinye a un FP de 12.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 12 : 153 PV.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Érinye",
    "conf": "probable"
   },
   {
@@ -966,15 +1012,15 @@
    "concept": "dem-065",
    "niveau": 3,
    "type": "slider",
-   "q": "Combien de points de vie moyens a un pit fiend (à 20 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un pit fiend (à 20 près) ?",
    "min": 100,
    "max": 500,
    "pas": 1,
    "unite": "PV",
    "tolerance": 20,
    "rep": 300,
-   "expl": "Il a 300 PV en moyenne.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "300 PV (24d10 + 168).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Pit fiend",
    "conf": "probable"
   },
   {
@@ -982,15 +1028,15 @@
    "concept": "dem-066",
    "niveau": 3,
    "type": "slider",
-   "q": "Combien de points de vie moyens a un balor (à 20 près) ?",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un balor (à 20 près) ?",
    "min": 100,
    "max": 400,
    "pas": 1,
    "unite": "PV",
    "tolerance": 20,
    "rep": 262,
-   "expl": "Il a 262 PV en moyenne.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "262 PV (21d12 + 126).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Balor",
    "conf": "probable"
   },
   {
@@ -998,15 +1044,15 @@
    "concept": "dem-067",
    "niveau": 2,
    "type": "slider",
-   "q": "Combien de têtes a Demogorgon ?",
+   "q": "Dans D&D 5e, combien de têtes a Demogorgon ?",
    "min": 1,
    "max": 6,
    "pas": 1,
    "unite": "têtes",
    "tolerance": 0,
    "rep": 2,
-   "expl": "Demogorgon a deux têtes.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "Deux têtes de babouin, ce qui le rend quasi imprévisible.",
+   "src": "Out of the Abyss (2015), chap. 1",
    "conf": "probable"
   },
   {
@@ -1014,15 +1060,15 @@
    "concept": "dem-068",
    "niveau": 2,
    "type": "slider",
-   "q": "En quelle année est paru Baldur’s Gate : Descent into Avernus ?",
+   "q": "En quelle année est paru Baldur’s Gate : Descent into Avernus, aventure D&D 5e ?",
    "min": 2010,
    "max": 2025,
    "pas": 1,
    "unite": "année",
    "tolerance": 0,
    "rep": 2019,
-   "expl": "Il est paru en 2019.",
-   "src": "Wizards of the Coast, 2019",
+   "expl": "2019 : il est paru en septembre 2019 comme aventure phare de la 5e édition.",
+   "src": "Wizards of the Coast, Baldur’s Gate : Descent into Avernus (2019)",
    "conf": "probable"
   },
   {
@@ -1030,15 +1076,15 @@
    "concept": "dem-069",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP du diable barbu ?",
+   "q": "Dans D&D 5e, quel est le FP du diable barbu ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 3,
-   "expl": "Le diable barbu a un FP de 3.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 3 : 52 PV.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Diable barbu",
    "conf": "probable"
   },
   {
@@ -1046,15 +1092,15 @@
    "concept": "dem-070",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le FP du diable à glace ?",
+   "q": "Dans D&D 5e, quel est le FP du diable des glaces ?",
    "min": 0,
    "max": 30,
    "pas": 1,
    "unite": "FP",
    "tolerance": 0,
    "rep": 14,
-   "expl": "Le diable à glace a un FP de 14.",
-   "src": "Manuel des Monstres (5e édition)",
+   "expl": "FP 14 : 180 PV.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Diable des glaces",
    "conf": "probable"
   }
  ]

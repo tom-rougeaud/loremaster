@@ -5,7 +5,7 @@
    Les textes français utilisent l’apostrophe typographique ’.
 ═══════════════════════════════════════════════════════════════ */
 "use strict";
-var LM_VERSION="1.0";
+var LM_VERSION="1.2";
 function $(id){return document.getElementById(id);}
 function $$(sel,root){return [].slice.call((root||document).querySelectorAll(sel));}
 function esc(s){return String(s===undefined||s===null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
@@ -82,9 +82,19 @@ var ICO={
 /* logo : emblème Lore Master (image PNG transparente intégrée à la page) */
 var LOGO_URI="/*@@LOGOURI@@*/";
 var LOGO_FULL_URI="/*@@LOGOFULL@@*/";
+var LOGO_WORD_URI="/*@@LOGOWORD@@*/";
 function logoSvg(){return '<img class="logo" src="'+LOGO_URI+'" alt="" width="64" height="64">';}
-function brandHtml(sub,href){return '<a class="brand" href="'+(href||"index.html")+'" title="Accueil Lore Master">'+logoSvg()+'<span><b>Lore</b> <i>Master</i></span>'+(sub?'<small>'+esc(sub)+'</small>':"")+'</a>';}
-function footHtml(){return '<div class="foot"><a href="index.html">Accueil</a><a href="index.html#apropos">À propos</a><a href="contact.html">Contact</a><a href="confidentialite.html">Confidentialité</a><div style="margin-top:.6rem">Lore Master v'+LM_VERSION+' · outil libre CC BY-NC 4.0 · D&amp;D est une marque de Wizards of the Coast, sans lien avec cet outil.</div></div>';}
+/* niveau d’une question : étoiles + nom (1 Débutant · 2 Initié · 3 Expert) */
+var LVL_NOM=["","Débutant","Initié","Expert"];
+function starsHtml(n){n=Math.max(1,Math.min(3,n|0||1));return '<span class="stars" aria-hidden="true">'+"★★★".slice(0,n)+'<span class="off">'+"★★★".slice(n)+"</span></span>";}
+function lvlTag(n){n=Math.max(1,Math.min(3,n|0||1));return '<span class="tag t-lvl l'+n+'" title="Niveau '+n+" sur 3 : "+LVL_NOM[n]+'" aria-label="Niveau '+LVL_NOM[n]+'">'+starsHtml(n)+"<small>"+LVL_NOM[n]+"</small></span>";}
+var TH_COL=["#B5523B","#C08A2B","#6B8E3A","#2F8F83","#3E7CB1","#5B5BAA","#8F5BA8","#B04F7E","#7A6A4A","#4E8A5E","#C26A2E","#4A7F9C","#9A5B3C","#8A8F2F","#A33F4F","#5E7C99","#B36B9A","#6F9A3A"];
+var TH_MAP={"dragons-dnd":0,"classes-dnd":1,"fees-sylvains":2,"creatures-marines":3,"plans-elementaires":4,"sorts-magie-dnd":5,"aberrations-dnd":6,"demons-diables-dnd":7,"golems-constructions":8,"terre-du-milieu":9,"geants-dnd":10,"mythologie-grecque":11,"monstres-donjon":12,"gobelinoides-humanoides":13,"morts-vivants-dnd":14,"races-dnd":15,"lycanthropes-metamorphes":16,"betes-monstruosites":17};
+/* couleur d’un thème de questions : table fixe pour les thèmes d’origine, déterministe (hachage) pour les futurs */
+function themeColor(id){id=String(id||"");if(TH_MAP[id]!==undefined)return TH_COL[TH_MAP[id]];var h=0;for(var i=0;i<id.length;i++)h=(h*31+id.charCodeAt(i))>>>0;return TH_COL[h%TH_COL.length];}
+function themeChip(titre,id){return titre?'<span class="tag t-theme" style="--tc:'+themeColor(id)+'" title="Thème de la question">'+esc(titre)+"</span>":"";}
+function brandHtml(sub,href){return '<a class="brand" href="'+(href||"index.html")+'" title="Accueil Lore Master"><img class="wm" src="'+LOGO_WORD_URI+'" alt="Lore Master" height="28">'+(sub?'<small>'+esc(sub)+'</small>':"")+'</a>';}
+function footHtml(){return '<div class="foot"><nav class="foot-l"><a href="index.html">Accueil</a><a href="index.html#apropos">À propos</a><a href="contact.html">Contact</a><a href="confidentialite.html">Confidentialité</a></nav><div class="foot-t">Lore Master v'+LM_VERSION+' · outil libre CC BY-NC 4.0 · D&amp;D est une marque de Wizards of the Coast, sans lien avec cet outil.</div></div>';}
 
 /* ─── Équipes, réponses, modes ─── */
 var TEAMS=[

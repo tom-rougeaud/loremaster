@@ -51,7 +51,26 @@ var BADGES=[
   {id:"master", n:"Maître du thème",   d:"90 % de réussite sur un thème joué 10 fois",   t:function(s,p){for(var k in p.themes){var a=p.themes[k];if(a[1]>=10&&a[0]/a[1]>=0.9)return true;}return false;}},
   {id:"wide",   n:"Érudit",            d:"Avoir réussi des questions dans 10 thèmes différents",t:function(s,p){var n=0;for(var k in p.themes)if(p.themes[k][0]>0)n++;return n>=10;}},
   {id:"pts",    n:"Butin de légende",  d:"Plus de 6 000 points sur une partie",          t:function(s,p){return s.pts>=6000;}},
-  {id:"lvl5",   n:"Chevalier",         d:"Atteindre le palier « Chevalier »",            t:function(s,p){return levelOf(p.xp).i>=5;}}
+  {id:"lvl5",   n:"Chevalier",         d:"Atteindre le palier « Chevalier »",            t:function(s,p){return levelOf(p.xp).i>=5;}},
+  {id:"lvl3",   n:"Aventurier confirmé",d:"Atteindre le palier « Aventurier »",           t:function(s,p){return levelOf(p.xp).i>=3;}},
+  {id:"lvl7",   n:"Maître d’armes",    d:"Atteindre le palier « Maître d’armes »",       t:function(s,p){return levelOf(p.xp).i>=7;}},
+  {id:"lvl9",   n:"Légende vivante",   d:"Atteindre le palier « Légende du donjon »",    t:function(s,p){return levelOf(p.xp).i>=9;}},
+  {id:"s15",    n:"Série de 15",       d:"15 bonnes réponses d’affilée",                 t:function(s,p){return p.best>=15;}},
+  {id:"s20",    n:"Imbattable",        d:"20 bonnes réponses d’affilée",                 t:function(s,p){return p.best>=20;}},
+  {id:"c250",   n:"Chasseur de savoir",d:"250 bonnes réponses au total",                 t:function(s,p){return p.ok>=250;}},
+  {id:"c1000",  n:"Mémoire de dragon", d:"1 000 bonnes réponses au total",               t:function(s,p){return p.ok>=1000;}},
+  {id:"g25",    n:"Compagnon d’armes", d:"Terminer 25 parties",                          t:function(s,p){return p.games>=25;}},
+  {id:"g50",    n:"Vieux briscard",    d:"Terminer 50 parties",                          t:function(s,p){return p.games>=50;}},
+  {id:"reg14",  n:"Pilier de la taverne",d:"Jouer 14 jours de suite",                    t:function(s,p){return streakDays(p.days)>=14;}},
+  {id:"wins5",  n:"Vainqueur",         d:"Gagner 5 parties (rang 1, guilde ou MJ vaincu)",t:function(s,p){return p.wins>=5;}},
+  {id:"wins10", n:"Héros des royaumes",d:"Gagner 10 parties",                            t:function(s,p){return p.wins>=10;}},
+  {id:"pod5",   n:"Habitué du podium", d:"5 podiums au total",                           t:function(s,p){return p.podium>=5;}},
+  {id:"perf3",  n:"Triple sans-faute", d:"3 parties sans aucune erreur",                 t:function(s,p){return p.perfect>=3;}},
+  {id:"solo20", n:"Ermite du donjon",  d:"20 entraînements en solo",                     t:function(s,p){return p.solo>=20;}},
+  {id:"exp50",  n:"Cerveau du donjon", d:"50 bonnes réponses à des questions ★★★",       t:function(s,p){return (p.expertOk||0)>=50;}},
+  {id:"wide15", n:"Encyclopédiste",    d:"Avoir réussi des questions dans 15 thèmes différents",t:function(s,p){var n=0;for(var k in p.themes)if(p.themes[k][0]>0)n++;return n>=15;}},
+  {id:"master3",n:"Triple maître",     d:"90 % de réussite sur 3 thèmes joués 10 fois",  t:function(s,p){var n=0;for(var k in p.themes){var a=p.themes[k];if(a[1]>=10&&a[0]/a[1]>=0.9)n++;}return n>=3;}},
+  {id:"pts10",  n:"Trésor du dragon",  d:"Plus de 10 000 points sur une partie",         t:function(s,p){return s.pts>=10000;}}
 ];
 /* s = {pts,ok,na,nq,best,tavg,expert,solo,reached3,teamWin,bossWin,comeback,items:[[id,ok,n]]} */
 function awardSession(s){
@@ -73,13 +92,18 @@ function awardSession(s){
 function progBlockHtml(r){
   var a=r.after,up=a.i>r.before.i;
   var h='<div class="pgb"><div class="pgh"><span class="pgx">+'+fmtInt(r.xp)+' XP</span>'+(up?'<span class="pgup">Nouveau palier : '+esc(a.n)+'</span>':"")+'</div>'+
-    '<div class="pgl"><b>'+esc(a.n)+'</b><span>'+(a.next?fmtInt(a.xp)+" / "+fmtInt(a.to)+" XP → "+esc(a.next):fmtInt(a.xp)+" XP · palier maximal")+'</span></div><div class="pgbar"><i style="width:'+a.pct+'%"></i></div>';
+    '<div class="pgl"><b>'+esc(a.n)+'</b><span>'+(a.next?fmtInt(a.xp)+" / "+fmtInt(a.to)+" XP → "+esc(a.next):fmtInt(a.xp)+" XP · palier maximal")+'</span></div><div class="pgbar"><i style="width:'+a.pct+'%"></i></div>'+(a.next?'<div class="small muted" style="margin-top:.25rem">Palier « '+esc(a.next)+' » à '+fmtInt(a.to)+" XP</div>":"");
   if(r.newBadges.length)h+='<div class="pgn">'+r.newBadges.map(function(b){return '<span class="bdg new" title="'+esc(b.d)+'">★ '+esc(b.n)+"</span>";}).join("")+"</div>";
   return h+"</div>";
 }
+function ladderHtml(xp){
+  var l=levelOf(xp);
+  return '<details class="acc" style="margin-top:.7rem"><summary>Échelle des paliers d’XP</summary><div class="acc-b"><ol class="xp-lad">'+PALIERS.map(function(p,i){return '<li class="'+(i<l.i?"ok":i===l.i?"cur":"")+'"><span>'+(i<l.i?"✓ ":i===l.i?"► ":"")+esc(p.n)+"</span><span>"+(i===0?"dès le départ":fmtInt(p.xp)+" XP")+"</span></li>";}).join("")+
+    '</ol><p class="small muted">Tu gagnes de l’XP à chaque partie : 10 XP par bonne réponse, 1 XP tous les 50 points marqués, +40 pour un sans-faute, +30 pour une victoire, +5 par bonne réponse ★★★.</p></div></details>';
+}
 function carnetHtml(){
   var p=loadProg(),l=levelOf(p.xp),n=0;BADGES.forEach(function(b){if(p.badges[b.id])n++;});
-  var h='<div class="pgb"><div class="pgl"><b>'+esc(l.n)+'</b><span>'+(l.next?fmtInt(l.xp)+" / "+fmtInt(l.to)+" XP → "+esc(l.next):fmtInt(l.xp)+" XP")+'</span></div><div class="pgbar"><i style="width:'+l.pct+'%"></i></div>'+
+  var h='<div class="pgb"><div class="pgl"><b>'+esc(l.n)+'</b><span>'+(l.next?fmtInt(l.xp)+" / "+fmtInt(l.to)+" XP → "+esc(l.next):fmtInt(l.xp)+" XP")+'</span></div><div class="pgbar"><i style="width:'+l.pct+'%"></i></div>'+(l.next?'<div class="small muted" style="margin-top:.25rem">Palier suivant à '+fmtInt(l.to)+" XP : encore "+fmtInt(l.to-l.xp)+" XP.</div>":"")+ladderHtml(p.xp)+
     '<div class="pgs"><span><b>'+p.games+'</b> parties</span><span><b>'+p.ok+'</b> bonnes rép.</span><span><b>'+(p.na?Math.round(100*p.ok/p.na):0)+' %</b> réussite</span><span><b>'+streakDays(p.days)+'</b> j. d’affilée</span></div></div>'+
     '<div class="pgt">Badges ('+n+" / "+BADGES.length+')</div><div class="bgrid">'+
     BADGES.map(function(b){var on=!!p.badges[b.id];return '<div class="bdg2'+(on?" on":"")+'"><b>'+(on?"★ ":"")+esc(b.n)+"</b><small>"+esc(b.d)+"</small></div>";}).join("")+"</div>";

@@ -2,14 +2,41 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "sorts-magie-dnd",
-  "nom": "Sorts et écoles de magie",
+  "nom": "Sorts et écoles de magie (D&D)",
   "royaume": "Règles et univers de D&D",
   "icone": "etoile",
   "sombre": false
  },
  "sources": [
-  "Manuel des Joueurs (5e édition)",
-  "SRD 5.1 (CC BY 4.0)"
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Soins",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon ardent",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Résurrection",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Invisibilité",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Immobilisation de personne",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Charme-personne",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Téléportation",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Métamorphose",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation des morts",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Bouclier",
+  "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Écoles de magie",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Arrêt du temps",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Pluie de météores",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mot de pouvoir mortel",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Communication avec les animaux",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mur de feu",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon de givre",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Main du mage",
+  "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Sorts mineurs",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Magicien, Préparation des sorts »",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Magicien, Récupération arcanique »"
  ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
@@ -22,7 +49,7 @@
    "concept": "sor-001",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quel sort lance une boule de feu explosive ?",
+   "q": "Dans D&D 5e, quel sort de niveau 3 lance une boule de feu explosive ?",
    "choix": [
     "Boule de feu",
     "Mur de feu",
@@ -30,8 +57,8 @@
     "Rayon ardent"
    ],
    "rep": 0,
-   "expl": "Fireball.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Boule de feu (Fireball) explose en sphère de 6 m de rayon et inflige 8d6 dégâts de feu.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
    "conf": "probable"
   },
   {
@@ -39,7 +66,7 @@
    "concept": "sor-002",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quel sort permet de voler ?",
+   "q": "Dans D&D 5e, quel sort de niveau 3 permet de voler ?",
    "choix": [
     "Lévitation",
     "Saut",
@@ -47,8 +74,8 @@
     "Pattes d’araignée"
    ],
    "rep": 2,
-   "expl": "Fly.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vol (Fly) donne une vitesse de vol de 18 m à la cible pendant 10 minutes.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
    "conf": "probable"
   },
   {
@@ -56,7 +83,7 @@
    "concept": "sor-003",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quel sort permet de soigner des PV ?",
+   "q": "Dans D&D 5e, quel sort de niveau 1 permet de soigner les PV d’une créature touchée ?",
    "choix": [
     "Soins",
     "Bénédiction",
@@ -64,8 +91,8 @@
     "Sommeil"
    ],
    "rep": 0,
-   "expl": "Cure wounds.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Soins (Cure Wounds) rend 1d8 + modificateur de caractéristique de lanceur de sorts PV.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Soins",
    "conf": "probable"
   },
   {
@@ -73,7 +100,7 @@
    "concept": "sor-004",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quel sort lance des rayons de feu ?",
+   "q": "Dans D&D 5e, quel sort de niveau 2 lance trois rayons de feu ?",
    "choix": [
     "Charme-personne",
     "Armure de mage",
@@ -81,8 +108,8 @@
     "Rayon ardent"
    ],
    "rep": 3,
-   "expl": "Scorching ray.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Rayon ardent (Scorching Ray) projette trois rayons qui infligent chacun 2d6 dégâts de feu.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon ardent",
    "conf": "probable"
   },
   {
@@ -90,7 +117,7 @@
    "concept": "sor-005",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort de niveau 7 ramène un mort à la vie même après des décennies ?",
+   "q": "Dans D&D 5e, quel sort de niveau 7 ramène un mort à la vie, jusqu’à un siècle après la mort ?",
    "choix": [
     "Charme-personne",
     "Soins",
@@ -98,8 +125,8 @@
     "Résurrection"
    ],
    "rep": 3,
-   "expl": "Resurrection : jusqu’à un siècle.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Résurrection ramène à la vie une créature morte depuis moins d’un siècle, avec une grande fatigue.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Résurrection",
    "conf": "probable"
   },
   {
@@ -107,7 +134,7 @@
    "concept": "sor-006",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort rend invisible ?",
+   "q": "Dans D&D 5e, quel sort de niveau 2 rend invisible ?",
    "choix": [
     "Confusion",
     "Flou",
@@ -115,8 +142,8 @@
     "Invisibilité"
    ],
    "rep": 3,
-   "expl": "Invisibility.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Invisibilité (Invisibility) rend une créature invisible jusqu’à ce qu’elle attaque ou lance un sort.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Invisibilité",
    "conf": "probable"
   },
   {
@@ -124,7 +151,7 @@
    "concept": "sor-007",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort immobilise une créature ?",
+   "q": "Dans D&D 5e, quel sort de niveau 2 immobilise un humanoïde ?",
    "choix": [
     "Cécité",
     "Silence",
@@ -132,8 +159,8 @@
     "Immobilisation de personne"
    ],
    "rep": 3,
-   "expl": "Hold person.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Immobilisation de personne (Hold Person) paralyse un humanoïde qui rate sa sauvegarde de Sagesse.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Immobilisation de personne",
    "conf": "probable"
   },
   {
@@ -141,7 +168,7 @@
    "concept": "sor-008",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort fait dormir des créatures faibles ?",
+   "q": "Dans D&D 5e, quel sort de niveau 1 endort des créatures qui ont peu de PV ?",
    "choix": [
     "Charme",
     "Cécité",
@@ -149,8 +176,8 @@
     "Immobilisation"
    ],
    "rep": 2,
-   "expl": "Sleep.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Sommeil (Sleep) endort les créatures par ordre croissant de PV, jusqu’à 5d8 PV au total.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
    "conf": "probable"
   },
   {
@@ -158,7 +185,7 @@
    "concept": "sor-009",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort détecte la magie ?",
+   "q": "Dans D&D 5e, quel sort de niveau 1 détecte la présence de magie à proximité ?",
    "choix": [
     "Détection du mal",
     "Détection des pensées",
@@ -166,8 +193,8 @@
     "Détection de la magie"
    ],
    "rep": 3,
-   "expl": "Detect Magic.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Détection de la magie (Detect Magic) révèle la magie à moins de 9 m et l’école des objets visibles.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
    "conf": "probable"
   },
   {
@@ -175,7 +202,7 @@
    "concept": "sor-010",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort annule un sort lancé ?",
+   "q": "Dans D&D 5e, quel sort de niveau 3 annule le sort qu’une créature est en train de lancer ?",
    "choix": [
     "Silence",
     "Dissipation de la magie",
@@ -183,8 +210,8 @@
     "Bouclier"
    ],
    "rep": 2,
-   "expl": "Counterspell.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Contresort (Counterspell) est lancé en réaction pour interrompre un sort.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
    "conf": "probable"
   },
   {
@@ -192,7 +219,7 @@
    "concept": "sor-011",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort projette un projectile magique qui touche automatiquement ?",
+   "q": "Dans D&D 5e, quel sort de niveau 1 lance des projectiles magiques qui touchent automatiquement ?",
    "choix": [
     "Rayon ardent",
     "Projectile magique",
@@ -200,8 +227,8 @@
     "Boule de feu"
    ],
    "rep": 1,
-   "expl": "Magic Missile.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Projectile magique (Magic Missile) lance trois fléchettes de force, 1d4 + 1 chacune, sans jet d’attaque.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
    "conf": "probable"
   },
   {
@@ -209,7 +236,7 @@
    "concept": "sor-012",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans quelle école se trouve Boule de feu ?",
+   "q": "Dans D&D 5e, dans quelle école de magie se trouve Boule de feu ?",
    "choix": [
     "Abjuration",
     "Divination",
@@ -217,8 +244,8 @@
     "Évocation"
    ],
    "rep": 3,
-   "expl": "Évocation.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Boule de feu est un sort d’évocation, comme Projectile magique et Éclair.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
    "conf": "probable"
   },
   {
@@ -226,7 +253,7 @@
    "concept": "sor-013",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans quelle école se trouve Invisibilité ?",
+   "q": "Dans D&D 5e, dans quelle école de magie se trouve Invisibilité ?",
    "choix": [
     "Transmutation",
     "Illusion",
@@ -234,8 +261,8 @@
     "Évocation"
    ],
    "rep": 1,
-   "expl": "Illusion.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Invisibilité est un sort d’illusion.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Invisibilité",
    "conf": "probable"
   },
   {
@@ -243,7 +270,7 @@
    "concept": "sor-014",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans quelle école se trouve Soins ?",
+   "q": "Dans D&D 5e, dans quelle école de magie se trouve le sort Soins ?",
    "choix": [
     "Divination",
     "Enchantement",
@@ -251,8 +278,8 @@
     "Abjuration"
    ],
    "rep": 2,
-   "expl": "Évocation (soins).",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Soins (Cure Wounds) est un sort d’évocation, malgré son effet de guérison.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Soins",
    "conf": "probable"
   },
   {
@@ -260,7 +287,7 @@
    "concept": "sor-015",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans quelle école se trouve Charme-personne ?",
+   "q": "Dans D&D 5e, dans quelle école de magie se trouve Charme-personne ?",
    "choix": [
     "Invocation",
     "Enchantement",
@@ -268,8 +295,8 @@
     "Illusion"
    ],
    "rep": 1,
-   "expl": "Enchantement.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Charme-personne (Charm Person) est un sort d’enchantement.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Charme-personne",
    "conf": "probable"
   },
   {
@@ -277,7 +304,7 @@
    "concept": "sor-016",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans quelle école se trouve Téléportation ?",
+   "q": "Dans D&D 5e, dans quelle école de magie se trouve Téléportation ?",
    "choix": [
     "Invocation",
     "Divination",
@@ -285,8 +312,8 @@
     "Transmutation"
    ],
    "rep": 0,
-   "expl": "Conjuration.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Téléportation (Teleport) est un sort d’invocation (conjuration).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Téléportation",
    "conf": "probable"
   },
   {
@@ -294,7 +321,7 @@
    "concept": "sor-017",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans quelle école se trouve Métamorphose ?",
+   "q": "Dans D&D 5e, dans quelle école de magie se trouve Métamorphose ?",
    "choix": [
     "Transmutation",
     "Nécromancie",
@@ -302,8 +329,8 @@
     "Abjuration"
    ],
    "rep": 0,
-   "expl": "Transmutation.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Métamorphose (Polymorph) est un sort de transmutation.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Métamorphose",
    "conf": "probable"
   },
   {
@@ -311,7 +338,7 @@
    "concept": "sor-018",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans quelle école se trouve Animation des morts ?",
+   "q": "Dans D&D 5e, dans quelle école de magie se trouve Animation des morts ?",
    "choix": [
     "Nécromancie",
     "Illusion",
@@ -319,8 +346,8 @@
     "Évocation"
    ],
    "rep": 0,
-   "expl": "Nécromancie.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Animation des morts (Animate Dead) est un sort de nécromancie.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation des morts",
    "conf": "probable"
   },
   {
@@ -328,7 +355,7 @@
    "concept": "sor-019",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans quelle école se trouve Détection de la magie ?",
+   "q": "Dans D&D 5e, dans quelle école de magie se trouve Détection de la magie ?",
    "choix": [
     "Divination",
     "Abjuration",
@@ -336,8 +363,8 @@
     "Évocation"
    ],
    "rep": 0,
-   "expl": "Divination.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Détection de la magie est un sort de divination.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
    "conf": "probable"
   },
   {
@@ -345,7 +372,7 @@
    "concept": "sor-020",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans quelle école se trouve Bouclier ?",
+   "q": "Dans D&D 5e, dans quelle école de magie se trouve Bouclier ?",
    "choix": [
     "Illusion",
     "Abjuration",
@@ -353,8 +380,8 @@
     "Évocation"
    ],
    "rep": 1,
-   "expl": "Abjuration.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Bouclier (Shield) est un sort d’abjuration : il protège le lanceur.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Bouclier",
    "conf": "probable"
   },
   {
@@ -362,7 +389,7 @@
    "concept": "sor-021",
    "niveau": 2,
    "type": "qcm",
-   "q": "Combien d’écoles de magie le magicien compte-t-il ?",
+   "q": "Dans D&D 5e, combien d’écoles de magie le magicien compte-t-il ?",
    "choix": [
     "6",
     "12",
@@ -370,8 +397,8 @@
     "8"
    ],
    "rep": 3,
-   "expl": "Huit écoles.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Huit : abjuration, divination, enchantement, évocation, illusion, invocation, nécromancie et transmutation.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Écoles de magie",
    "conf": "probable"
   },
   {
@@ -379,7 +406,7 @@
    "concept": "sor-022",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort de niveau 9 exauce presque tout vœu ?",
+   "q": "Dans D&D 5e, quel sort de niveau 9 exauce presque tout vœu ?",
    "choix": [
     "Souhait",
     "Résurrection",
@@ -387,8 +414,8 @@
     "Métamorphose"
    ],
    "rep": 0,
-   "expl": "Wish.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Souhait (Wish) est le sort le plus puissant, avec la possibilité de reproduire n’importe quel sort de niveau 8 ou moins.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
    "conf": "probable"
   },
   {
@@ -396,7 +423,7 @@
    "concept": "sor-023",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort de niveau 9 arrête le temps pour les autres ?",
+   "q": "Dans D&D 5e, quel sort de niveau 9 arrête le temps pour les autres ?",
    "choix": [
     "Téléportation",
     "Arrêt du temps",
@@ -404,8 +431,8 @@
     "Souhait"
    ],
    "rep": 1,
-   "expl": "Time Stop.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Arrêt du temps (Time Stop) donne au lanceur 1d4 + 1 tours consécutifs pendant que le temps est arrêté.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Arrêt du temps",
    "conf": "probable"
   },
   {
@@ -413,7 +440,7 @@
    "concept": "sor-024",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel sort conjure des météores ?",
+   "q": "Dans D&D 5e, quel sort de niveau 9 fait pleuvoir des météores ?",
    "choix": [
     "Boule de feu",
     "Pluie de météores",
@@ -421,8 +448,8 @@
     "Éclair"
    ],
    "rep": 1,
-   "expl": "Meteor Swarm.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Pluie de météores (Meteor Swarm) inflige jusqu’à 40d6 dégâts de feu et 40d6 contondants.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Pluie de météores",
    "conf": "probable"
   },
   {
@@ -430,7 +457,7 @@
    "concept": "sor-025",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel sort traditionnel tue un personnage instantanément ?",
+   "q": "Dans D&D 5e, quel sort de niveau 9 tue instantanément une créature ayant peu de PV ?",
    "choix": [
     "Mot de pouvoir mortel",
     "Charme",
@@ -438,8 +465,8 @@
     "Silence"
    ],
    "rep": 0,
-   "expl": "Power Word Kill.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Mot de pouvoir mortel (Power Word Kill) tue une créature qui a 100 PV ou moins.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mot de pouvoir mortel",
    "conf": "probable"
   },
   {
@@ -447,7 +474,7 @@
    "concept": "sor-026",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort permet de parler aux animaux ?",
+   "q": "Dans D&D 5e, quel sort de niveau 1 permet de parler avec les animaux ?",
    "choix": [
     "Charme",
     "Communication avec les animaux",
@@ -455,8 +482,8 @@
     "Dissipation"
    ],
    "rep": 1,
-   "expl": "Speak with animals.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Communication avec les animaux (Speak with Animals) permet de comprendre les bêtes et de leur parler.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Communication avec les animaux",
    "conf": "probable"
   },
   {
@@ -464,7 +491,7 @@
    "concept": "sor-027",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort permet de respirer sous l’eau ?",
+   "q": "Dans D&D 5e, quel sort de niveau 3 permet de respirer sous l’eau ?",
    "choix": [
     "Marche sur l’eau",
     "Lévitation",
@@ -472,8 +499,8 @@
     "Vol"
    ],
    "rep": 2,
-   "expl": "Water breathing.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Respiration aquatique (Water Breathing) accorde la respiration sous l’eau pendant 24 heures à dix créatures.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
    "conf": "probable"
   },
   {
@@ -481,7 +508,7 @@
    "concept": "sor-028",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort crée un mur de flammes ?",
+   "q": "Dans D&D 5e, quel sort de niveau 4 crée un mur de flammes ?",
    "choix": [
     "Mur de glace",
     "Mur de feu",
@@ -489,8 +516,8 @@
     "Mur d’épines"
    ],
    "rep": 1,
-   "expl": "Wall of fire.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Mur de feu (Wall of Fire) crée un mur de flammes qui inflige 5d8 dégâts de feu.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mur de feu",
    "conf": "probable"
   },
   {
@@ -498,7 +525,7 @@
    "concept": "sor-029",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort est un sort mineur de magicien lançant un rayon de froid ?",
+   "q": "Dans D&D 5e, quel sort mineur de magicien lance un rayon de froid ?",
    "choix": [
     "Main du mage",
     "Boule de feu",
@@ -506,8 +533,8 @@
     "Éclair"
    ],
    "rep": 2,
-   "expl": "Ray of Frost.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Rayon de givre (Ray of Frost) inflige 1d8 dégâts de froid et réduit la vitesse de la cible.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon de givre",
    "conf": "probable"
   },
   {
@@ -515,7 +542,7 @@
    "concept": "sor-030",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel sort mineur crée une main magique ?",
+   "q": "Dans D&D 5e, quel sort mineur crée une main spectrale pour manipuler des objets ?",
    "choix": [
     "Lumière",
     "Message",
@@ -523,8 +550,8 @@
     "Prestidigitation"
    ],
    "rep": 2,
-   "expl": "Mage hand.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Main du mage (Mage Hand) crée une main spectrale pendant 1 minute.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Main du mage",
    "conf": "probable"
   },
   {
@@ -532,10 +559,10 @@
    "concept": "sor-031",
    "niveau": 1,
    "type": "vf",
-   "q": "Boule de feu inflige des dégâts de feu.",
+   "q": "Dans D&D 5e, Boule de feu inflige des dégâts de feu.",
    "rep": true,
-   "expl": "Feu.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : 8d6 dégâts de feu à tous dans la zone.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
    "conf": "probable"
   },
   {
@@ -543,10 +570,10 @@
    "concept": "sor-032",
    "niveau": 1,
    "type": "vf",
-   "q": "Boule de feu soigne les alliés.",
+   "q": "Dans D&D 5e, Boule de feu soigne les alliés.",
    "rep": false,
-   "expl": "Elle blesse.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : elle blesse toutes les créatures de la zone, alliés compris.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
    "conf": "probable"
   },
   {
@@ -554,10 +581,10 @@
    "concept": "sor-033",
    "niveau": 2,
    "type": "vf",
-   "q": "Contresort annule un sort.",
+   "q": "Dans D&D 5e, Contresort annule un sort.",
    "rep": true,
-   "expl": "Counterspell.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : le lanceur réagit pour contrer un sort.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
    "conf": "probable"
   },
   {
@@ -565,10 +592,10 @@
    "concept": "sor-034",
    "niveau": 2,
    "type": "vf",
-   "q": "Il existe 12 écoles de magie.",
+   "q": "Dans D&D 5e, il existe 12 écoles de magie.",
    "rep": false,
-   "expl": "Huit.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : il en existe huit.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Écoles de magie",
    "conf": "probable"
   },
   {
@@ -576,10 +603,10 @@
    "concept": "sor-035",
    "niveau": 2,
    "type": "vf",
-   "q": "Sommeil agit sur des créatures ayant peu de PV.",
+   "q": "Dans D&D 5e, Sommeil agit sur des créatures ayant peu de PV.",
    "rep": true,
-   "expl": "Sleep.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : les créatures de moins de PV tombent d’abord.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
    "conf": "probable"
   },
   {
@@ -587,10 +614,10 @@
    "concept": "sor-036",
    "niveau": 3,
    "type": "vf",
-   "q": "Boule de feu est un sort de niveau 3.",
+   "q": "Dans D&D 5e, Boule de feu est un sort de niveau 3.",
    "rep": true,
-   "expl": "Niveau 3.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : niveau 3, école d’évocation.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
    "conf": "probable"
   },
   {
@@ -598,10 +625,10 @@
    "concept": "sor-037",
    "niveau": 3,
    "type": "vf",
-   "q": "Boule de feu est un sort de niveau 1.",
+   "q": "Dans D&D 5e, Boule de feu est un sort de niveau 1.",
    "rep": false,
-   "expl": "Niveau 3.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : c’est un sort de niveau 3.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
    "conf": "probable"
   },
   {
@@ -609,10 +636,10 @@
    "concept": "sor-038",
    "niveau": 3,
    "type": "vf",
-   "q": "Projectile magique est un sort de niveau 1.",
+   "q": "Dans D&D 5e, Projectile magique est un sort de niveau 1.",
    "rep": true,
-   "expl": "Niveau 1.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : c’est un classique de niveau 1.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
    "conf": "probable"
   },
   {
@@ -620,10 +647,10 @@
    "concept": "sor-039",
    "niveau": 3,
    "type": "vf",
-   "q": "Souhait est un sort de niveau 9.",
+   "q": "Dans D&D 5e, Souhait est un sort de niveau 9.",
    "rep": true,
-   "expl": "Niveau 9.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : le plus haut niveau de sort.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
    "conf": "probable"
   },
   {
@@ -631,10 +658,10 @@
    "concept": "sor-040",
    "niveau": 3,
    "type": "vf",
-   "q": "Souhait est un sort de niveau 5.",
+   "q": "Dans D&D 5e, Souhait est un sort de niveau 5.",
    "rep": false,
-   "expl": "Niveau 9.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : c’est un sort de niveau 9.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
    "conf": "probable"
   },
   {
@@ -642,10 +669,10 @@
    "concept": "sor-041",
    "niveau": 2,
    "type": "vf",
-   "q": "Un sort mineur peut être lancé à volonté.",
+   "q": "Dans D&D 5e, un sort mineur peut être lancé à volonté.",
    "rep": true,
-   "expl": "Cantrip.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : les sorts mineurs (cantrips) ne consomment pas d’emplacement.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Sorts mineurs",
    "conf": "probable"
   },
   {
@@ -653,10 +680,10 @@
    "concept": "sor-042",
    "niveau": 2,
    "type": "vf",
-   "q": "Un sort mineur consomme un emplacement de sort.",
+   "q": "Dans D&D 5e, un sort mineur consomme un emplacement de sort.",
    "rep": false,
-   "expl": "Aucun emplacement.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : un sort mineur n’en consomme aucun.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Sorts mineurs",
    "conf": "probable"
   },
   {
@@ -664,10 +691,10 @@
    "concept": "sor-043",
    "niveau": 3,
    "type": "vf",
-   "q": "Détection de la magie est une divination.",
+   "q": "Dans D&D 5e, Détection de la magie est un sort de divination.",
    "rep": true,
-   "expl": "Divination.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : école de divination.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
    "conf": "probable"
   },
   {
@@ -675,10 +702,10 @@
    "concept": "sor-044",
    "niveau": 3,
    "type": "vf",
-   "q": "Détection de la magie est une nécromancie.",
+   "q": "Dans D&D 5e, Détection de la magie est un sort de nécromancie.",
    "rep": false,
-   "expl": "Divination.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : c’est un sort de divination.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
    "conf": "probable"
   },
   {
@@ -686,10 +713,10 @@
    "concept": "sor-045",
    "niveau": 2,
    "type": "vf",
-   "q": "Invisibilité rend invisible.",
+   "q": "Dans D&D 5e, Invisibilité rend invisible.",
    "rep": true,
-   "expl": "Invisible.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : jusqu’à ce que la cible attaque ou lance un sort.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Invisibilité",
    "conf": "probable"
   },
   {
@@ -697,10 +724,10 @@
    "concept": "sor-046",
    "niveau": 3,
    "type": "vf",
-   "q": "Résurrection est un sort de niveau 7.",
+   "q": "Dans D&D 5e, Résurrection est un sort de niveau 7.",
    "rep": true,
-   "expl": "Niveau 7.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : niveau 7, nécromancie.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Résurrection",
    "conf": "probable"
   },
   {
@@ -708,10 +735,10 @@
    "concept": "sor-047",
    "niveau": 3,
    "type": "vf",
-   "q": "Arrêt du temps est un sort de niveau 5.",
+   "q": "Dans D&D 5e, Arrêt du temps est un sort de niveau 5.",
    "rep": false,
-   "expl": "Niveau 9.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : c’est un sort de niveau 9.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Arrêt du temps",
    "conf": "probable"
   },
   {
@@ -719,10 +746,10 @@
    "concept": "sor-048",
    "niveau": 2,
    "type": "vf",
-   "q": "Le magicien peut préparer des sorts après un repos long.",
+   "q": "Dans D&D 5e, le magicien peut préparer des sorts après un repos long.",
    "rep": true,
-   "expl": "Préparation.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : il prépare une liste de sorts à partir de son grimoire.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Magicien, Préparation des sorts »",
    "conf": "probable"
   },
   {
@@ -730,10 +757,10 @@
    "concept": "sor-049",
    "niveau": 2,
    "type": "vf",
-   "q": "Un emplacement de sort se récupère à chaque tour.",
+   "q": "Dans D&D 5e, un emplacement de sort se récupère à chaque tour.",
    "rep": false,
-   "expl": "Repos long.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : les emplacements se récupèrent après un repos long.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Magicien, Récupération arcanique »",
    "conf": "probable"
   },
   {
@@ -741,10 +768,10 @@
    "concept": "sor-050",
    "niveau": 2,
    "type": "vf",
-   "q": "Lévitation et Vol sont le même sort.",
+   "q": "Dans D&D 5e, Lévitation et Vol sont le même sort.",
    "rep": false,
-   "expl": "Sorts différents.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : Lévitation (niveau 2) et Vol (niveau 3) sont deux sorts distincts.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
    "conf": "probable"
   },
   {
@@ -752,15 +779,15 @@
    "concept": "sor-051",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de Boule de feu ?",
+   "q": "Dans D&D 5e, quel est le niveau de Boule de feu ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 3,
-   "expl": "Niveau 3.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Boule de feu est un sort de niveau 3.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
    "conf": "probable"
   },
   {
@@ -768,15 +795,15 @@
    "concept": "sor-052",
    "niveau": 2,
    "type": "slider",
-   "q": "Combien de dés de dégâts inflige Boule de feu (d6) à l’incantation de base ?",
+   "q": "Dans D&D 5e, combien de d6 de dégâts inflige Boule de feu à l’incantation de base ?",
    "min": 1,
    "max": 20,
    "pas": 1,
    "unite": "d6",
    "tolerance": 0,
    "rep": 8,
-   "expl": "8d6.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Boule de feu inflige 8d6 dégâts de feu, plus 1d6 par niveau d’emplacement supérieur.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
    "conf": "probable"
   },
   {
@@ -784,15 +811,15 @@
    "concept": "sor-053",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le rayon de Boule de feu en pieds (à 5 près) ?",
+   "q": "Dans D&D 5e, quel est le rayon de Boule de feu, en pieds (à 5 près) ?",
    "min": 5,
    "max": 60,
    "pas": 1,
    "unite": "pieds",
    "tolerance": 5,
    "rep": 20,
-   "expl": "20 pieds.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Boule de feu a un rayon de 20 pieds (6 m).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
    "conf": "probable"
   },
   {
@@ -800,15 +827,15 @@
    "concept": "sor-054",
    "niveau": 2,
    "type": "slider",
-   "q": "Combien de projectiles lance Projectile magique au niveau de base ?",
+   "q": "Dans D&D 5e, combien de projectiles lance Projectile magique au niveau de base ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "projectiles",
    "tolerance": 0,
    "rep": 3,
-   "expl": "Trois.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Trois fléchettes de force.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
    "conf": "probable"
   },
   {
@@ -816,15 +843,15 @@
    "concept": "sor-055",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de Mot de pouvoir mortel ?",
+   "q": "Dans D&D 5e, quel est le niveau de Mot de pouvoir mortel ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 9,
-   "expl": "Niveau 9.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "C’est un sort de niveau 9.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mot de pouvoir mortel",
    "conf": "probable"
   },
   {
@@ -832,15 +859,15 @@
    "concept": "sor-056",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de Résurrection ?",
+   "q": "Dans D&D 5e, quel est le niveau de Résurrection ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 7,
-   "expl": "Niveau 7.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Résurrection est un sort de niveau 7.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Résurrection",
    "conf": "probable"
   },
   {
@@ -848,15 +875,15 @@
    "concept": "sor-057",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de Téléportation ?",
+   "q": "Dans D&D 5e, quel est le niveau de Téléportation ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 7,
-   "expl": "Niveau 7.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Téléportation est un sort de niveau 7.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Téléportation",
    "conf": "probable"
   },
   {
@@ -864,15 +891,15 @@
    "concept": "sor-058",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de Contresort ?",
+   "q": "Dans D&D 5e, quel est le niveau de Contresort ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 3,
-   "expl": "Niveau 3.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Contresort est un sort de niveau 3.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
    "conf": "probable"
   },
   {
@@ -880,15 +907,15 @@
    "concept": "sor-059",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de Vol ?",
+   "q": "Dans D&D 5e, quel est le niveau de Vol ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 3,
-   "expl": "Niveau 3.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vol est un sort de niveau 3.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
    "conf": "probable"
   },
   {
@@ -896,15 +923,15 @@
    "concept": "sor-060",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de Souhait ?",
+   "q": "Dans D&D 5e, quel est le niveau de Souhait ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 9,
-   "expl": "Niveau 9.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Souhait est un sort de niveau 9.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
    "conf": "probable"
   },
   {
@@ -912,15 +939,15 @@
    "concept": "sor-061",
    "niveau": 3,
    "type": "slider",
-   "q": "Quelle est la durée de Sommeil en minutes ?",
+   "q": "Dans D&D 5e, quelle est la durée de Sommeil, en minutes ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "minute",
    "tolerance": 0,
    "rep": 1,
-   "expl": "Une minute.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Sommeil dure 1 minute.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
    "conf": "probable"
   },
   {
@@ -928,15 +955,15 @@
    "concept": "sor-062",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le niveau de Main du mage ?",
+   "q": "Dans D&D 5e, quel est le niveau de Main du mage ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 0,
-   "expl": "Sort mineur (niveau 0).",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Main du mage est un sort mineur, c’est-à-dire de niveau 0.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Main du mage",
    "conf": "probable"
   },
   {
@@ -944,15 +971,15 @@
    "concept": "sor-063",
    "niveau": 3,
    "type": "slider",
-   "q": "Combien de dés de dégâts inflige Rayon de givre à bas niveau (d8) ?",
+   "q": "Dans D&D 5e, combien de d8 de dégâts inflige Rayon de givre à bas niveau ?",
    "min": 1,
    "max": 5,
    "pas": 1,
    "unite": "d8",
    "tolerance": 0,
    "rep": 1,
-   "expl": "1d8.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Rayon de givre inflige 1d8 dégâts de froid (jusqu’à 4d8 au niveau 17).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon de givre",
    "conf": "probable"
   },
   {
@@ -960,15 +987,15 @@
    "concept": "sor-064",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le niveau de Pluie de météores ?",
+   "q": "Dans D&D 5e, quel est le niveau de Pluie de météores ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 9,
-   "expl": "Niveau 9.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Pluie de météores est un sort de niveau 9.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Pluie de météores",
    "conf": "probable"
   },
   {
@@ -976,15 +1003,15 @@
    "concept": "sor-065",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le niveau d’Arrêt du temps ?",
+   "q": "Dans D&D 5e, quel est le niveau d’Arrêt du temps ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 9,
-   "expl": "Niveau 9.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Arrêt du temps est un sort de niveau 9.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Arrêt du temps",
    "conf": "probable"
   },
   {
@@ -992,10 +1019,10 @@
    "concept": "sor-066",
    "niveau": 2,
    "type": "vf",
-   "q": "Contresort est un sort de niveau 3.",
+   "q": "Dans D&D 5e, Contresort est un sort de niveau 3.",
    "rep": true,
-   "expl": "Niveau 3.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : niveau 3, abjuration.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
    "conf": "probable"
   },
   {
@@ -1003,10 +1030,10 @@
    "concept": "sor-067",
    "niveau": 2,
    "type": "vf",
-   "q": "Le sort Vol permet de voler.",
+   "q": "Dans D&D 5e, le sort Vol permet de voler.",
    "rep": true,
-   "expl": "Fly.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : vitesse de vol de 18 m.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
    "conf": "probable"
   },
   {
@@ -1014,15 +1041,15 @@
    "concept": "sor-068",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de Sommeil ?",
+   "q": "Dans D&D 5e, quel est le niveau de Sommeil ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 1,
-   "expl": "Niveau 1.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Sommeil est un sort de niveau 1.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
    "conf": "probable"
   },
   {
@@ -1030,15 +1057,15 @@
    "concept": "sor-069",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de Projectile magique ?",
+   "q": "Dans D&D 5e, quel est le niveau de Projectile magique ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 1,
-   "expl": "Niveau 1.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Projectile magique est un sort de niveau 1.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
    "conf": "probable"
   },
   {
@@ -1046,15 +1073,15 @@
    "concept": "sor-070",
    "niveau": 3,
    "type": "slider",
-   "q": "Quel est le niveau de Mur de feu ?",
+   "q": "Dans D&D 5e, quel est le niveau de Mur de feu ?",
    "min": 0,
    "max": 9,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 4,
-   "expl": "Niveau 4.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Mur de feu est un sort de niveau 4.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mur de feu",
    "conf": "probable"
   }
  ]

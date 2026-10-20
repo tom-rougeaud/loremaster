@@ -133,6 +133,13 @@ function drawQuestions(itemIds,n,ctx,seed,avoid){
     var raw=best.c.q;used[raw.i]=1;cnt[best.L.it.id]++;lastT.push(raw.t);
     out.push(buildQ(raw,best.L.it,r));
   }
+  /* pas assez de questions au niveau demandé : on complète avec les niveaux voisins */
+  if(out.length<n&&ctx&&ctx.diffs&&ctx.diffs.length&&ctx.diffs.length<3){
+    var wide=ctx.diffs.slice();
+    ctx.diffs.forEach(function(d){[d-1,d+1].forEach(function(e){if(e>=1&&e<=3&&wide.indexOf(e)<0)wide.push(e);});});
+    var c2={types:ctx.types,dark:ctx.dark,diffs:wide.length>=3?null:wide};
+    out=out.concat(drawQuestions(itemIds,n*2,c2,(seed>>>0)+7,avoid).filter(function(q){return !used[q.qid];}).slice(0,n-out.length));
+  }
   return out;
 }
 /* nombre de questions encore jamais jouées dans une sélection (pour informer le MJ) */
@@ -174,6 +181,7 @@ function answerText(q){
 function qPublic(q){
   var k=qKind(q),o={q:q.q,kd:k};
   if(q.id&&ITEM_BY_ID[q.id])o.id=q.id;
+  if(q.d)o.n=q.d;
   if(k==="slider")o.sl={min:q.sl.min,max:q.sl.max,step:q.sl.step,u:q.sl.u,d:q.sl.d};
   else{o.ch=q.choices.map(function(c){return c.t;});if(q.vf)o.vf=1;}
   return o;

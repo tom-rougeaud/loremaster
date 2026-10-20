@@ -2,7 +2,7 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "mythologie-grecque",
-  "nom": "Mythologie grecque",
+  "nom": "Mythologie grecque (Panthéon et héros)",
   "royaume": "Bestiaires du monde",
   "icone": "colonne"
  },
@@ -16,7 +16,7 @@
    "niveau": 1,
    "concept": "poseidon",
    "type": "qcm",
-   "q": "Quel dieu grec règne sur les mers ?",
+   "q": "Dans la mythologie grecque, quel dieu grec règne sur les mers ?",
    "choix": [
     "Hadès",
     "Poséidon",
@@ -25,16 +25,15 @@
    ],
    "rep": 1,
    "expl": "Poséidon, frère de Zeus, est le maître des mers.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-001",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "athena",
    "type": "qcm",
-   "q": "Quelle déesse incarne la sagesse et la stratégie guerrière ?",
+   "q": "Dans la mythologie grecque, quelle déesse incarne la sagesse et la stratégie guerrière ?",
    "choix": [
     "Artémis",
     "Héra",
@@ -43,16 +42,15 @@
    ],
    "rep": 2,
    "expl": "Athéna est la déesse de la sagesse et de la guerre stratégique.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-002",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "zeus",
    "type": "qcm",
-   "q": "Qui est le roi des dieux de l’Olympe ?",
+   "q": "Dans la mythologie grecque, qui est le roi des dieux de l’Olympe ?",
    "choix": [
     "Zeus",
     "Cronos",
@@ -61,16 +59,15 @@
    ],
    "rep": 0,
    "expl": "Zeus règne sur les dieux olympiens.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-003",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "cerbere",
    "type": "qcm",
-   "q": "Quel monstre garde l’entrée des Enfers ?",
+   "q": "Dans la mythologie grecque, quel monstre garde l’entrée des Enfers ?",
    "choix": [
     "La Chimère",
     "Cerbère",
@@ -79,16 +76,15 @@
    ],
    "rep": 1,
    "expl": "Cerbère, chien à plusieurs têtes, garde les Enfers.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-004",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "hydre",
    "type": "qcm",
-   "q": "Quel héros a vaincu l’Hydre de Lerne ?",
+   "q": "Dans la mythologie grecque, quel héros a vaincu l’Hydre de Lerne ?",
    "choix": [
     "Thésée",
     "Persée",
@@ -97,16 +93,15 @@
    ],
    "rep": 2,
    "expl": "Héraclès tue l’Hydre de Lerne lors de son deuxième travail.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-005",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "meduse",
    "type": "qcm",
-   "q": "Quel héros a tranché la tête de Méduse ?",
+   "q": "Dans la mythologie grecque, quel héros a tranché la tête de Méduse ?",
    "choix": [
     "Persée",
     "Jason",
@@ -115,16 +110,15 @@
    ],
    "rep": 0,
    "expl": "Persée décapite Méduse.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-006",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "labyrinthe",
    "type": "qcm",
-   "q": "Qui a construit le Labyrinthe du Minotaure ?",
+   "q": "Dans la mythologie grecque, qui a construit le Labyrinthe du Minotaure ?",
    "choix": [
     "Thésée",
     "Dédale",
@@ -133,16 +127,15 @@
    ],
    "rep": 1,
    "expl": "Dédale construit le Labyrinthe pour le roi Minos.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-007",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "icare",
    "type": "qcm",
-   "q": "Qu’est-ce qui fond sous le soleil et fait chuter Icare ?",
+   "q": "Dans la mythologie grecque, qu’est-ce qui fond sous le soleil et fait chuter Icare ?",
    "choix": [
     "La cire",
     "Le fer",
@@ -151,10 +144,9 @@
    ],
    "rep": 0,
    "expl": "Les ailes d’Icare, collées à la cire, fondent près du soleil.",
-   "src": "OVI",
+   "src": "Ovide, Métamorphoses",
    "id": "gre-008",
-   "conf": "probable",
-   "src_detail": "Ovide, Métamorphoses"
+   "conf": "probable"
   },
   {
    "niveau": 1,
@@ -169,16 +161,15 @@
    ],
    "rep": 1,
    "expl": "Pégase est le cheval ailé né du sang de Méduse.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-009",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "promethee",
    "type": "qcm",
-   "q": "Quel Titan a volé le feu pour le donner aux humains ?",
+   "q": "Dans la mythologie grecque, quel Titan a volé le feu pour le donner aux humains ?",
    "choix": [
     "Atlas",
     "Cronos",
@@ -187,16 +178,15 @@
    ],
    "rep": 2,
    "expl": "Prométhée dérobe le feu aux dieux au profit des humains.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-010",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "hades",
    "type": "qcm",
-   "q": "Quel dieu règne sur le monde des morts ?",
+   "q": "Dans la mythologie grecque, quel dieu règne sur le monde des morts ?",
    "choix": [
     "Hadès",
     "Poséidon",
@@ -205,16 +195,15 @@
    ],
    "rep": 0,
    "expl": "Hadès règne sur les Enfers.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-011",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "artemis",
    "type": "qcm",
-   "q": "Quelle déesse est la déesse de la chasse ?",
+   "q": "Dans la mythologie grecque, quelle déesse est la déesse de la chasse ?",
    "choix": [
     "Déméter",
     "Héra",
@@ -223,16 +212,15 @@
    ],
    "rep": 3,
    "expl": "Artémis est la déesse de la chasse.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-012",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "apollon",
    "type": "qcm",
-   "q": "Quel dieu est associé à la lyre et à l’oracle de Delphes ?",
+   "q": "Dans la mythologie grecque, quel dieu est associé à la lyre et à l’oracle de Delphes ?",
    "choix": [
     "Hermès",
     "Apollon",
@@ -241,16 +229,15 @@
    ],
    "rep": 1,
    "expl": "Apollon est le dieu de la musique et de l’oracle de Delphes.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-013",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "hermes",
    "type": "qcm",
-   "q": "Quel dieu est le messager des dieux ?",
+   "q": "Dans la mythologie grecque, quel dieu est le messager des dieux ?",
    "choix": [
     "Hermès",
     "Apollon",
@@ -259,16 +246,15 @@
    ],
    "rep": 0,
    "expl": "Hermès est le messager des dieux.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-014",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "ares",
    "type": "qcm",
-   "q": "Quel dieu olympien incarne la guerre ?",
+   "q": "Dans la mythologie grecque, quel dieu olympien incarne la guerre ?",
    "choix": [
     "Héphaïstos",
     "Poséidon",
@@ -277,16 +263,15 @@
    ],
    "rep": 3,
    "expl": "Arès est le dieu de la guerre.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-015",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "aphrodite",
    "type": "qcm",
-   "q": "Quelle déesse incarne l’amour et la beauté ?",
+   "q": "Dans la mythologie grecque, quelle déesse incarne l’amour et la beauté ?",
    "choix": [
     "Héra",
     "Aphrodite",
@@ -295,16 +280,15 @@
    ],
    "rep": 1,
    "expl": "Aphrodite est la déesse de l’amour et de la beauté.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-016",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "hephaistos",
    "type": "qcm",
-   "q": "Quel dieu est le forgeron des dieux ?",
+   "q": "Dans la mythologie grecque, quel dieu est le forgeron des dieux ?",
    "choix": [
     "Arès",
     "Hermès",
@@ -313,16 +297,15 @@
    ],
    "rep": 2,
    "expl": "Héphaïstos est le dieu forgeron.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-017",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "demeter",
    "type": "qcm",
-   "q": "Quelle déesse préside aux moissons ?",
+   "q": "Dans la mythologie grecque, quelle déesse préside aux moissons ?",
    "choix": [
     "Artémis",
     "Héra",
@@ -331,16 +314,15 @@
    ],
    "rep": 3,
    "expl": "Déméter est la déesse des moissons.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-018",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "hera",
    "type": "qcm",
-   "q": "Qui est l’épouse officielle de Zeus ?",
+   "q": "Dans la mythologie grecque, qui est l’épouse officielle de Zeus ?",
    "choix": [
     "Athéna",
     "Héra",
@@ -349,10 +331,9 @@
    ],
    "rep": 1,
    "expl": "Héra est l’épouse de Zeus.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-019",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
@@ -367,10 +348,9 @@
    ],
    "rep": 1,
    "expl": "L’Odyssée raconte le retour d’Ulysse à Ithaque.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-020",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 1,
@@ -385,16 +365,15 @@
    ],
    "rep": 0,
    "expl": "L’Iliade raconte la guerre de Troie.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-021",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "achille",
    "type": "qcm",
-   "q": "Quel est le point faible d’Achille d’après la tradition ?",
+   "q": "Dans la mythologie grecque, quel est le point faible d’Achille d’après la tradition ?",
    "choix": [
     "Le dos",
     "Le talon",
@@ -403,16 +382,15 @@
    ],
    "rep": 1,
    "expl": "Le talon d’Achille est son point vulnérable.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-022",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "polypheme",
    "type": "qcm",
-   "q": "Quel héros aveugle le cyclope Polyphème ?",
+   "q": "Dans la mythologie grecque, quel héros aveugle le cyclope Polyphème ?",
    "choix": [
     "Ulysse",
     "Achille",
@@ -421,16 +399,15 @@
    ],
    "rep": 0,
    "expl": "Ulysse aveugle Polyphème dans l’Odyssée.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-023",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "argo",
    "type": "qcm",
-   "q": "Comment s’appelle le navire de Jason et des Argonautes ?",
+   "q": "Dans la mythologie grecque, comment s’appelle le navire de Jason et des Argonautes ?",
    "choix": [
     "Calypso",
     "Argo",
@@ -439,16 +416,15 @@
    ],
    "rep": 1,
    "expl": "Le navire de Jason est l’Argo.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-024",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "cronos",
    "type": "qcm",
-   "q": "Qui est le père de Zeus ?",
+   "q": "Dans la mythologie grecque, qui est le père de Zeus ?",
    "choix": [
     "Ouranos",
     "Cronos",
@@ -457,16 +433,15 @@
    ],
    "rep": 1,
    "expl": "Cronos est le père de Zeus.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-025",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "oedipe",
    "type": "qcm",
-   "q": "Qui résout l’énigme du Sphinx ?",
+   "q": "Dans la mythologie grecque, qui résout l’énigme du Sphinx ?",
    "choix": [
     "Thésée",
     "Persée",
@@ -475,16 +450,15 @@
    ],
    "rep": 2,
    "expl": "Œdipe résout l’énigme du Sphinx de Thèbes.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-026",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "chimere",
    "type": "qcm",
-   "q": "Quels animaux composent la Chimère ?",
+   "q": "Dans la mythologie grecque, quels animaux composent la Chimère ?",
    "choix": [
     "Aigle, taureau et loup",
     "Lion, aigle et cheval",
@@ -493,16 +467,15 @@
    ],
    "rep": 3,
    "expl": "La Chimère mêle lion, chèvre et serpent.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-027",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "atlas",
    "type": "qcm",
-   "q": "Que porte Atlas sur ses épaules ?",
+   "q": "Dans la mythologie grecque, que porte Atlas sur ses épaules ?",
    "choix": [
     "Le monde souterrain",
     "La voûte du ciel",
@@ -511,16 +484,15 @@
    ],
    "rep": 1,
    "expl": "Atlas soutient la voûte céleste.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-028",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "orphee",
    "type": "qcm",
-   "q": "Qui Orphée tente-t-il de ramener des Enfers ?",
+   "q": "Dans la mythologie grecque, qui Orphée tente-t-il de ramener des Enfers ?",
    "choix": [
     "Pénélope",
     "Eurydice",
@@ -529,16 +501,15 @@
    ],
    "rep": 1,
    "expl": "Orphée descend aux Enfers chercher Eurydice.",
-   "src": "OVI",
+   "src": "Ovide, Métamorphoses",
    "id": "gre-029",
-   "conf": "probable",
-   "src_detail": "Ovide, Métamorphoses"
+   "conf": "probable"
   },
   {
    "niveau": 3,
    "concept": "paris",
    "type": "qcm",
-   "q": "À qui Pâris remet-il la pomme destinée à « la plus belle » ?",
+   "q": "Dans la mythologie grecque, à qui Pâris remet-il la pomme destinée à « la plus belle » ?",
    "choix": [
     "Héra",
     "Athéna",
@@ -547,16 +518,15 @@
    ],
    "rep": 3,
    "expl": "Pâris choisit Aphrodite.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-030",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "dionysos",
    "type": "qcm",
-   "q": "Quel dieu est associé au vin et aux fêtes ?",
+   "q": "Dans la mythologie grecque, quel dieu est associé au vin et aux fêtes ?",
    "choix": [
     "Apollon",
     "Pan",
@@ -565,280 +535,257 @@
    ],
    "rep": 3,
    "expl": "Dionysos est le dieu du vin.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-031",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "zeus_cronos",
    "type": "vf",
-   "q": "Zeus est le fils de Cronos.",
+   "q": "Dans la mythologie grecque, Zeus est le fils de Cronos.",
    "rep": true,
    "expl": "Cronos et Rhéa sont les parents de Zeus.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-032",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "athena_naissance",
    "type": "vf",
-   "q": "Athéna est née de la tête de Zeus.",
+   "q": "Dans la mythologie grecque, Athéna est née de la tête de Zeus.",
    "rep": true,
    "expl": "Selon le mythe, Athéna surgit de la tête de Zeus.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-033",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "hades_mer",
    "type": "vf",
-   "q": "Hadès est le dieu de la mer.",
+   "q": "Dans la mythologie grecque, Hadès est le dieu de la mer.",
    "rep": false,
    "expl": "Hadès règne sur les Enfers ; la mer relève de Poséidon.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-034",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "cerbere_travail",
    "type": "vf",
-   "q": "La capture de Cerbère fait partie des douze travaux d’Héraclès.",
+   "q": "Dans la mythologie grecque, la capture de Cerbère fait partie des douze travaux d’Héraclès.",
    "rep": true,
    "expl": "C’est le douzième travail d’Héraclès.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-035",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "minotaure",
    "type": "vf",
-   "q": "Le Minotaure a une tête d’homme et un corps de taureau.",
+   "q": "Dans la mythologie grecque, le Minotaure a une tête d’homme et un corps de taureau.",
    "rep": false,
    "expl": "Il a une tête de taureau et un corps d’homme.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-036",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "pegase_sang",
    "type": "vf",
-   "q": "Pégase est né du sang de Méduse.",
+   "q": "Dans la mythologie grecque, Pégase est né du sang de Méduse.",
    "rep": true,
    "expl": "Pégase jaillit du cou tranché de Méduse.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-037",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "ulysse_ithaque",
    "type": "vf",
-   "q": "Ulysse est roi d’Ithaque.",
+   "q": "Dans la mythologie grecque, Ulysse est roi d’Ithaque.",
    "rep": true,
    "expl": "Ulysse règne sur l’île d’Ithaque.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-038",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "achille_invulnerable",
    "type": "vf",
-   "q": "Selon la tradition, Achille est invulnérable sur tout le corps.",
+   "q": "Dans la mythologie grecque, selon la tradition, Achille est invulnérable sur tout le corps.",
    "rep": false,
    "expl": "Son talon n’était pas protégé.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-039",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "promethee_feu",
    "type": "vf",
-   "q": "Prométhée a offert le feu aux humains.",
+   "q": "Dans la mythologie grecque, Prométhée a offert le feu aux humains.",
    "rep": true,
    "expl": "Il a dérobé le feu aux dieux pour les humains.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-040",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "olympe",
    "type": "vf",
-   "q": "L’Olympe est une montagne de Grèce.",
+   "q": "Dans la mythologie grecque, l’Olympe est une montagne de Grèce.",
    "rep": true,
    "expl": "Le mont Olympe est le plus haut sommet de Grèce.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-041",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "aphrodite_mariage",
    "type": "vf",
-   "q": "Aphrodite est mariée à Héphaïstos.",
+   "q": "Dans la mythologie grecque, Aphrodite est mariée à Héphaïstos.",
    "rep": true,
    "expl": "Dans l’Odyssée, Héphaïstos est l’époux d’Aphrodite.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-042",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "cerbere_deux",
    "type": "vf",
-   "q": "Cerbère possède deux têtes.",
+   "q": "Dans la mythologie grecque, Cerbère possède deux têtes.",
    "rep": false,
    "expl": "La tradition lui donne trois têtes.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-043",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "artemis_apollon",
    "type": "vf",
-   "q": "Artémis est la sœur jumelle d’Apollon.",
+   "q": "Dans la mythologie grecque, Artémis est la sœur jumelle d’Apollon.",
    "rep": true,
    "expl": "Artémis et Apollon sont les enfants jumeaux de Zeus et Léto.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-044",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "poseidon_trident",
    "type": "vf",
-   "q": "Poséidon brandit un trident.",
+   "q": "Dans la mythologie grecque, Poséidon brandit un trident.",
    "rep": true,
    "expl": "Le trident est l’attribut de Poséidon.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-045",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "titans_avant",
    "type": "vf",
-   "q": "Les Titans ont précédé les dieux olympiens.",
+   "q": "Dans la mythologie grecque, les Titans ont précédé les dieux olympiens.",
    "rep": true,
    "expl": "Les Titans gouvernaient avant la victoire de Zeus.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-046",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "hermes_sandales",
    "type": "vf",
-   "q": "Hermès porte des sandales ailées.",
+   "q": "Dans la mythologie grecque, Hermès porte des sandales ailées.",
    "rep": true,
    "expl": "Les sandales ailées sont l’attribut d’Hermès.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-047",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "hercule_heracles",
    "type": "vf",
-   "q": "Hercule est le nom romain d’Héraclès.",
+   "q": "Dans la mythologie grecque, Hercule est le nom romain d’Héraclès.",
    "rep": true,
    "expl": "Hercule est la forme latine d’Héraclès.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-048",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "perseus_meduse",
    "type": "vf",
-   "q": "Persée a tué Méduse.",
+   "q": "Dans la mythologie grecque, Persée a tué Méduse.",
    "rep": true,
    "expl": "Persée tranche la tête de Méduse.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-049",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "dionysos_mortelle",
    "type": "vf",
-   "q": "Dionysos est né d’une mère mortelle.",
+   "q": "Dans la mythologie grecque, Dionysos est né d’une mère mortelle.",
    "rep": true,
    "expl": "Sa mère est la mortelle Sémélé.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-050",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "hera_soeur",
    "type": "vf",
-   "q": "Héra est à la fois la sœur et l’épouse de Zeus.",
+   "q": "Dans la mythologie grecque, Héra est à la fois la sœur et l’épouse de Zeus.",
    "rep": true,
    "expl": "Héra est sœur et épouse de Zeus.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-051",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 3,
    "concept": "cassandre",
    "type": "vf",
-   "q": "Cassandre prédit l’avenir mais n’est jamais crue.",
+   "q": "Dans la mythologie grecque, Cassandre prédit l’avenir mais n’est jamais crue.",
    "rep": true,
    "expl": "Apollon l’a condamnée à n’être pas crue.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-052",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "moires",
    "type": "vf",
-   "q": "Les Moires filent le destin des mortels.",
+   "q": "Dans la mythologie grecque, les Moires filent le destin des mortels.",
    "rep": true,
    "expl": "Les Moires tissent et coupent le fil de la vie.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-053",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "travaux",
    "type": "slider",
-   "q": "Combien de travaux Héraclès doit-il accomplir ?",
+   "q": "Dans la mythologie grecque, combien de travaux Héraclès doit-il accomplir ?",
    "min": 1,
    "max": 20,
    "pas": 1,
@@ -846,16 +793,15 @@
    "tolerance": 0,
    "rep": 12,
    "expl": "Les douze travaux d’Héraclès.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-054",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "olympiens",
    "type": "slider",
-   "q": "Combien de grands dieux compte traditionnellement le panthéon olympien ?",
+   "q": "Dans la mythologie grecque, combien de grands dieux compte traditionnellement le panthéon olympien ?",
    "min": 1,
    "max": 20,
    "pas": 1,
@@ -863,16 +809,15 @@
    "tolerance": 0,
    "rep": 12,
    "expl": "Les douze dieux de l’Olympe.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-055",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "muses",
    "type": "slider",
-   "q": "Combien y a-t-il de Muses ?",
+   "q": "Dans la mythologie grecque, combien y a-t-il de Muses ?",
    "min": 1,
    "max": 15,
    "pas": 1,
@@ -880,16 +825,15 @@
    "tolerance": 0,
    "rep": 9,
    "expl": "Il y a neuf Muses.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-056",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "gorgones",
    "type": "slider",
-   "q": "Combien y a-t-il de Gorgones ?",
+   "q": "Dans la mythologie grecque, combien y a-t-il de Gorgones ?",
    "min": 1,
    "max": 10,
    "pas": 1,
@@ -897,16 +841,15 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "Sthéno, Euryale et Méduse.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-057",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "moires_nb",
    "type": "slider",
-   "q": "Combien y a-t-il de Moires ?",
+   "q": "Dans la mythologie grecque, combien y a-t-il de Moires ?",
    "min": 1,
    "max": 10,
    "pas": 1,
@@ -914,16 +857,15 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "Clotho, Lachésis et Atropos.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-058",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 1,
    "concept": "cerbere_tetes",
    "type": "slider",
-   "q": "Combien de têtes a Cerbère dans la tradition courante ?",
+   "q": "Dans la mythologie grecque, combien de têtes a Cerbère dans la tradition courante ?",
    "min": 1,
    "max": 10,
    "pas": 1,
@@ -931,16 +873,15 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "Cerbère a trois têtes.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-059",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "guerre_troie",
    "type": "slider",
-   "q": "Combien d’années dure la guerre de Troie selon la tradition ?",
+   "q": "Dans la mythologie grecque, combien d’années dure la guerre de Troie selon la tradition ?",
    "min": 1,
    "max": 20,
    "pas": 1,
@@ -948,16 +889,15 @@
    "tolerance": 0,
    "rep": 10,
    "expl": "Le siège dure dix ans.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-060",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "retour_ulysse",
    "type": "slider",
-   "q": "Combien d’années dure le voyage de retour d’Ulysse après la guerre de Troie ?",
+   "q": "Dans la mythologie grecque, combien d’années dure le voyage de retour d’Ulysse après la guerre de Troie ?",
    "min": 1,
    "max": 20,
    "pas": 1,
@@ -965,16 +905,15 @@
    "tolerance": 0,
    "rep": 10,
    "expl": "Ulysse erre dix ans avant de rentrer.",
-   "src": "HOM",
+   "src": "Homère, Iliade / Odyssée",
    "id": "gre-061",
-   "conf": "probable",
-   "src_detail": "Homère, Iliade / Odyssée"
+   "conf": "probable"
   },
   {
    "niveau": 3,
    "concept": "jo_antiques",
    "type": "slider",
-   "q": "Selon la tradition, en quelle année av. J.-C. ont lieu les premiers Jeux olympiques ?",
+   "q": "Dans la mythologie grecque, selon la tradition, en quelle année av. J.-C. ont lieu les premiers Jeux olympiques ?",
    "min": 600,
    "max": 900,
    "pas": 1,
@@ -982,16 +921,15 @@
    "tolerance": 0,
    "rep": 776,
    "expl": "La date traditionnelle est 776 av. J.-C.",
-   "src": "APO",
+   "src": "Apollodore, Bibliothèque",
    "id": "gre-062",
-   "conf": "probable",
-   "src_detail": "Apollodore, Bibliothèque"
+   "conf": "probable"
   },
   {
    "niveau": 3,
    "concept": "fleuves_enfers",
    "type": "slider",
-   "q": "Combien de fleuves des Enfers la tradition compte-t-elle (Styx, Achéron, Léthé…) ?",
+   "q": "Dans la mythologie grecque, combien de fleuves des Enfers la tradition compte-t-elle (Styx, Achéron, Léthé…) ?",
    "min": 1,
    "max": 10,
    "pas": 1,
@@ -999,16 +937,15 @@
    "tolerance": 0,
    "rep": 5,
    "expl": "Styx, Achéron, Léthé, Phlégéthon, Cocyte.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-063",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 3,
    "concept": "titans",
    "type": "slider",
-   "q": "Combien de Titans et Titanides Hésiode compte-t-il ?",
+   "q": "Dans la mythologie grecque, combien de Titans et Titanides Hésiode compte-t-il ?",
    "min": 1,
    "max": 20,
    "pas": 1,
@@ -1016,16 +953,15 @@
    "tolerance": 0,
    "rep": 12,
    "expl": "Six Titans et six Titanides.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-064",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "graces",
    "type": "slider",
-   "q": "Combien y a-t-il de Grâces (Charites) ?",
+   "q": "Dans la mythologie grecque, combien y a-t-il de Grâces (Charites) ?",
    "min": 1,
    "max": 10,
    "pas": 1,
@@ -1033,16 +969,15 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "Il y a trois Grâces.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-065",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 3,
    "concept": "hecatonchires",
    "type": "slider",
-   "q": "Combien y a-t-il d’Hécatonchires ?",
+   "q": "Dans la mythologie grecque, combien y a-t-il d’Hécatonchires ?",
    "min": 1,
    "max": 10,
    "pas": 1,
@@ -1050,16 +985,15 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "Briarée, Cottos et Gyès.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-066",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 3,
    "concept": "hecatonchire_mains",
    "type": "slider",
-   "q": "Combien de mains possède un Hécatonchire ?",
+   "q": "Dans la mythologie grecque, combien de mains possède un Hécatonchire ?",
    "min": 10,
    "max": 200,
    "pas": 10,
@@ -1067,16 +1001,15 @@
    "tolerance": 0,
    "rep": 100,
    "expl": "Chaque Hécatonchire a cent mains.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-067",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 3,
    "concept": "cyclopes",
    "type": "slider",
-   "q": "Combien y a-t-il de Cyclopes originels chez Hésiode ?",
+   "q": "Dans la mythologie grecque, combien y a-t-il de Cyclopes originels chez Hésiode ?",
    "min": 1,
    "max": 10,
    "pas": 1,
@@ -1084,16 +1017,15 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "Brontès, Stéropès et Argès.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-068",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 2,
    "concept": "chimere_tetes",
    "type": "slider",
-   "q": "Combien de têtes la Chimère possède-t-elle ?",
+   "q": "Dans la mythologie grecque, combien de têtes la Chimère possède-t-elle ?",
    "min": 1,
    "max": 10,
    "pas": 1,
@@ -1101,16 +1033,15 @@
    "tolerance": 0,
    "rep": 3,
    "expl": "Lion, chèvre et serpent.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-069",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   },
   {
    "niveau": 3,
    "concept": "hecatonchire_tetes",
    "type": "slider",
-   "q": "Combien de têtes possède un Hécatonchire ?",
+   "q": "Dans la mythologie grecque, combien de têtes possède un Hécatonchire ?",
    "min": 10,
    "max": 100,
    "pas": 10,
@@ -1118,10 +1049,15 @@
    "tolerance": 0,
    "rep": 50,
    "expl": "Chaque Hécatonchire a cinquante têtes.",
-   "src": "HES",
+   "src": "Hésiode, Théogonie",
    "id": "gre-070",
-   "conf": "probable",
-   "src_detail": "Hésiode, Théogonie"
+   "conf": "probable"
   }
+ ],
+ "sources": [
+  "Hésiode, Théogonie",
+  "Homère, Iliade / Odyssée",
+  "Apollodore, Bibliothèque",
+  "Ovide, Métamorphoses"
  ]
 }

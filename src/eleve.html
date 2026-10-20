@@ -92,7 +92,7 @@
     <div class="rv-card" id="rv-card"></div>
     <div id="rv-extra"></div>
     <div class="rv-wait" id="rv-wait"><div class="dots"><span></span><span></span><span></span></div><span>Attends la prochaine épreuve…</span></div>
-    <div class="rv-next hidden" id="rv-next"><button type="button" class="btn btn-go btn-big btn-block" id="tr-next">Question suivante</button></div>
+    <div class="rv-next hidden" id="rv-next"><button type="button" class="btn btn-go btn-big btn-block" id="tr-next">Question suivante</button><button type="button" class="btn btn-ghost btn-block" id="tr-chg">Changer de thème</button></div>
   </section>
 
   <!-- fin -->
@@ -101,6 +101,7 @@
     <div id="end-pod"></div>
     <div class="card end-me" id="end-me"></div>
     <div id="end-prog"></div>
+    <div class="alt hidden" id="end-tr"><button type="button" class="btn btn-go" id="end-again">Rejouer avec ce choix</button><button type="button" class="btn btn-soft" id="end-themes">Choisir un autre thème</button></div>
     <div class="alt"><button type="button" class="btn btn-soft" id="end-carnet">Ma fiche d’aventurier</button><button type="button" class="btn btn-soft" id="end-home">Quitter · autre donjon</button></div>
     <p class="muted small center" id="end-wait"></p>
   </section>
@@ -113,6 +114,7 @@
       <label class="lbl">Royaume</label><div class="seg" id="tr-niv"></div>
       <label class="lbl">Thème</label><select class="inp" id="tr-chap"></select>
       <label class="lbl">Nombre de questions</label><div class="seg" id="tr-nq"></div>
+      <label class="lbl">Niveau des questions</label><div class="seg" id="tr-lv"></div>
       <label class="lbl">Type de questions</label><div class="seg" id="tr-fmt"></div>
       <label class="sw" style="margin-top:.8rem"><input type="checkbox" id="tr-prog" checked><i></i>Difficulté progressive (s’adapte à tes réussites)</label>
       <label class="sw"><input type="checkbox" id="tr-dark"><i></i>Inclure les thèmes sombres (horreur, crimes, occulte…)</label>

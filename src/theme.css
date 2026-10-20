@@ -89,6 +89,27 @@ html[data-theme="hiver"]{
   --tex:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .1 0 0 0 0 .2 0 0 0 0 .35 0 0 0 .12 0'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url(%23n)'/%3E%3C/svg%3E");
   --blot:radial-gradient(ellipse at 20% 10%,rgba(120,160,200,.16),transparent 55%);--vig:radial-gradient(ellipse at 50% 40%,transparent 60%,rgba(20,40,70,.16) 120%);
 }
+html[data-theme="azur"]{
+  --bg:#CFE2E4;--bg2:#DDEBEC;--card:#EEF6F6;--ink:#14282E;--ink2:#35505A;--ink3:#466069;--line:#B5CFD3;--line2:#8FB2B8;
+  --violet:#1F5F7A;--coral:#A63A3F;--sun:#B88A2A;--mint:#2E7D5E;--sky:#2F6FA8;--pink:#8E4A6E;--grape:#5A4E96;--bulb:#E2B63C;
+  --on:#FFFFFF;--on-sun:#14282E;--go:#14282E;--go-t:#EEF6F6;--chip:#C3DADD;--tint:#E2EFF0;--veil:rgba(238,246,246,.94);--unlit:#BCD3D6;--shc:#15303A;
+  --a0:#1F5F7A;--a1:#A63A3F;--a2:#2E7D5E;--a3:#8A5E1B;
+  --gold:#BFA04A;--gold-d:#8C7220;--gold-l:#EDE0AE;
+}
+html[data-theme="aurore"]{
+  --bg:#EBD2CA;--bg2:#F2E0D9;--card:#FBF1EC;--ink:#33191A;--ink2:#5E3A3A;--ink3:#6F4848;--line:#DDBDB3;--line2:#C79E92;
+  --violet:#8A3350;--coral:#B03A2E;--sun:#C48A24;--mint:#4C7A4E;--sky:#4A6FA0;--pink:#A64A76;--grape:#6E4A8C;--bulb:#E3B03C;
+  --on:#FFF8F2;--on-sun:#33191A;--go:#33191A;--go-t:#FBF1EC;--chip:#E6C9C0;--tint:#F4E3DC;--veil:rgba(251,241,236,.94);--unlit:#DDBFB5;--shc:#3A1C18;
+  --a0:#4A6FA0;--a1:#B03A2E;--a2:#4C7A4E;--a3:#8A5E1B;
+  --gold:#C0963A;--gold-d:#8E6A18;--gold-l:#F0DDA6;
+}
+html[data-theme="lavande"]{
+  --bg:#DAD3EA;--bg2:#E6E0F2;--card:#F4F1FA;--ink:#221A38;--ink2:#473E66;--ink3:#58507A;--line:#C5BCDD;--line2:#A99EC8;
+  --violet:#5A3E9C;--coral:#A63A4F;--sun:#B88A2A;--mint:#3A7A5E;--sky:#3F6AA8;--pink:#9A4A82;--grape:#6B3F9A;--bulb:#E2B63C;
+  --on:#FFFFFF;--on-sun:#221A38;--go:#221A38;--go-t:#F4F1FA;--chip:#D0C8E4;--tint:#E8E3F3;--veil:rgba(244,241,250,.94);--unlit:#CBC2E0;--shc:#241A44;
+  --a0:#5A3E9C;--a1:#A63A4F;--a2:#3A7A5E;--a3:#8A5E1B;
+  --gold:#BFA04A;--gold-d:#8C7220;--gold-l:#EDE0AE;
+}
 /* sombres : réservés au MJ (option) — fonds sombres, couleurs pleines foncées + texte clair, accents de texte éclaircis */
 html[data-theme="sombre"],html[data-theme="foret"],html[data-theme="crypte"],html[data-theme="forge"],html[data-theme="dragon"]{
   color-scheme:dark;
@@ -136,6 +157,13 @@ html[data-theme="dragon"]{
 /* ───────── 3. les quatre jeux de polices ───────── */
 html[data-font="enluminure"]{--fh:"Uncial Antiqua","Cinzel",Georgia,serif;--f:"Almendra","EB Garamond",Georgia,serif;--fu:"Cinzel",Georgia,serif;--fw:400;--fhw:400;--fb:1.1;font-synthesis:none}
 html[data-font="grimoire"]{--fh:"MedievalSharp","Cinzel",Georgia,serif;--f:"IM Fell English","EB Garamond",Georgia,serif;--fu:"MedievalSharp",Georgia,serif;--fw:400;--fhw:400;--fb:1.12;font-synthesis:none}
+/* combinaisons supplémentaires (titres + texte) */
+html[data-font="royale"]{--fh:"Cinzel Decorative","Cinzel",Georgia,serif;--f:"Cormorant Garamond","EB Garamond",Georgia,serif;--fu:"Cinzel",Georgia,serif;--fw:500;--fhw:700;--fb:1.24}
+html[data-font="gothique"]{--fh:"Pirata One","Cinzel",Georgia,serif;--f:"EB Garamond",Georgia,serif;--fu:"Pirata One",Georgia,serif;--fw:500;--fhw:400;--fb:1.14;font-synthesis:none}
+html[data-font="conteur"]{--fh:"Metamorphous","Cinzel",Georgia,serif;--f:"EB Garamond",Georgia,serif;--fu:"Metamorphous",Georgia,serif;--fw:500;--fhw:400;--fb:1.12;font-synthesis:none}
+html[data-font="scribe"]{--fh:"Uncial Antiqua","Cinzel",Georgia,serif;--f:"EB Garamond",Georgia,serif;--fu:"Cinzel",Georgia,serif;--fw:500;--fhw:400;--fb:1.12;font-synthesis:none}
+html[data-font="ancien"]{--fh:"Cinzel",Georgia,serif;--f:"IM Fell English","EB Garamond",Georgia,serif;--fu:"Cinzel",Georgia,serif;--fw:400;--fhw:700;--fb:1.12}
+html[data-font="taverne"]{--fh:"MedievalSharp","Cinzel",Georgia,serif;--f:"Cormorant Garamond","EB Garamond",Georgia,serif;--fu:"MedievalSharp",Georgia,serif;--fw:500;--fhw:400;--fb:1.24;font-synthesis:none}
 /* « lisible » : police sans-serif du système pour le texte, Cinzel seulement pour les titres (projection, dyslexie, vieux écrans) */
 html[data-font="lisible"]{--f:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;--fh:"Cinzel",Georgia,serif;--fu:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;--fw:600;--fhw:800;--fb:1}
 
@@ -458,6 +486,9 @@ body.fit .top,body.fit #foot{zoom:var(--tz,1)}
 .look-chip:is([data-theme="sepia"],[data-v="sepia"]){--pv-bg:#D8C5A0;--pv-card:#EEE1C3;--pv-ink:#33231A;--pv-a:#7A4A22;--pv-b:#D9AE3A}
 .look-chip:is([data-theme="clair"],[data-v="clair"]){--pv-bg:#F2EEE2;--pv-card:#FFFDF7;--pv-ink:#1F1B16;--pv-a:#2A4B8D;--pv-b:#E5B73B}
 .look-chip:is([data-theme="hiver"],[data-v="hiver"]){--pv-bg:#DCE4EC;--pv-card:#F4F7FA;--pv-ink:#16222F;--pv-a:#2F5B94;--pv-b:#D8B24C}
+.look-chip:is([data-theme="azur"],[data-v="azur"]){--pv-bg:#CFE2E4;--pv-card:#EEF6F6;--pv-ink:#14282E;--pv-a:#1F5F7A;--pv-b:#E2B63C}
+.look-chip:is([data-theme="aurore"],[data-v="aurore"]){--pv-bg:#EBD2CA;--pv-card:#FBF1EC;--pv-ink:#33191A;--pv-a:#8A3350;--pv-b:#E3B03C}
+.look-chip:is([data-theme="lavande"],[data-v="lavande"]){--pv-bg:#DAD3EA;--pv-card:#F4F1FA;--pv-ink:#221A38;--pv-a:#5A3E9C;--pv-b:#E2B63C}
 .look-chip:is([data-theme="sombre"],[data-v="sombre"]){--pv-bg:#181613;--pv-card:#27231D;--pv-ink:#EFE6D0;--pv-a:#3E63AE;--pv-b:#E6BC40}
 .look-chip:is([data-theme="foret"],[data-v="foret"]){--pv-bg:#101A13;--pv-card:#1C2B21;--pv-ink:#E4EBD6;--pv-a:#2F6E72;--pv-b:#E6BC40}
 .look-chip:is([data-theme="crypte"],[data-v="crypte"]){--pv-bg:#14121C;--pv-card:#231F30;--pv-ink:#E7E2F2;--pv-a:#5646A8;--pv-b:#E6BC40}

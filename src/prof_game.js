@@ -64,6 +64,7 @@ function liveReveal(){
   if(P.names===false)return;
   $$("#gl-list li").forEach(function(li){var a=G.ans[li.getAttribute("data-id")];if(!a)return;li.classList.add(a.ok?"ok":a.part>0?"pa":"ko");});
 }
+function metaHtml(q){return themeChip(q.titre,q.id)+lvlTag(q.d)+kindTagHtml(q);}
 function nextQuestion(){
   if(!G||G.phase==="end"||G.phase==="lobby")return;
   clearInterval(G.autoT);clearTimeout(G.autoT);
@@ -74,7 +75,7 @@ function nextQuestion(){
   G.phase="q";G.cur=true;G.ans={};G.hostAns=null;G.qStart=Date.now()+G.rd;G.dur=qDur(q)*1000;G.extra=0;G.bub=0;G.lowS=-1;
   liveReset();
   $("g-qn").textContent="Question "+(G.i+1)+" / "+G.qs.length;
-  $("g-meta").innerHTML=kindTagHtml(q)+'<span class="tag t-theme">'+esc(q.titre||"")+"</span>";
+  $("g-meta").innerHTML=metaHtml(q);
   setGameQ(q);
   var kd=qKind(q);
   if(wideKind(q))$("g-choices").innerHTML='<div class="g-wide">'+scaleHtml(q.sl,{big:true})+'<div class="g-how">Estimez avec le curseur sur votre téléphone</div></div>';
@@ -296,7 +297,7 @@ function openAnswers(i){
   openModal("m-ans");
 }
 $("g-rev").addEventListener("click",function(e){if(e.target.closest("#g-ansall"))openAnswers();});
-function renderRevealFromHist(i){var h=G.hist[i];if(!h)return;showGameScreen();$("g-qn").textContent="Question "+(i+1)+" / "+G.qs.length;setGameQ(G.qs[i]);$("g-meta").innerHTML="";renderReveal(h,null,null);}
+function renderRevealFromHist(i){var h=G.hist[i];if(!h)return;showGameScreen();$("g-qn").textContent="Question "+(i+1)+" / "+G.qs.length;setGameQ(G.qs[i]);$("g-meta").innerHTML=metaHtml(G.qs[i]);renderReveal(h,null,null);}
 function medianOf(a){var s=a.slice().sort(function(x,y){return x-y;}),n=s.length;return n?(n%2?s[(n-1)/2]:(s[n/2-1]+s[n/2])/2):0;}
 /* erreur type la plus fréquente sur cette question (diagnostic pour le MJ) */
 function errTopHtml(errs,nAns){
@@ -359,7 +360,7 @@ function showRules(cb){
 
 /* ─── v3.6 : énoncé + figure ; « Agrandir le média » ─── */
 function setGameQ(q){
-  closeMedia();
+  closeMedia();try{$("g-qbox").style.setProperty("--tc",themeColor(q.id));}catch(e){}
   $("g-q").innerHTML=rt(q.q);
   var fb=figBlock(q.fig);$("g-fig").innerHTML=fb;
   $("g-qbox").classList.toggle("hasfig",!!fb);

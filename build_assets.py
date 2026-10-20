@@ -46,6 +46,10 @@ FONTS = [
     ('IM Fell English',  'im-fell-english', [(400, 'normal'), (400, 'italic')], '400 900'),
     ('EB Garamond',      'eb-garamond',     [(500, 'normal'), (700, 'normal'), (400, 'italic')], None),
     ('Almendra',         'almendra',        [(400, 'normal'), (700, 'normal'), (400, 'italic')], None),
+    ('Cinzel Decorative','cinzel-decorative',[(400, 'normal'), (700, 'normal')], None),
+    ('Cormorant Garamond','cormorant-garamond',[(500, 'normal'), (700, 'normal'), (500, 'italic')], None),
+    ('Pirata One',       'pirata-one',      [(400, 'normal')], '400 900'),
+    ('Metamorphous',     'metamorphous',    [(400, 'normal')], '400 900'),
 ]
 # caractères conservés : ASCII, Latin-1 (accents français), œ Œ Ÿ, typographie (’ « » … – — €), flèches/puces utiles
 UNICODES = ([(0x20, 0x7E), (0xA0, 0xFF), (0x152, 0x153), (0x178, 0x178), (0x2013, 0x2014), (0x2018, 0x201E),

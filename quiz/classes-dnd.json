@@ -8,8 +8,53 @@
   "sombre": false
  },
  "sources": [
-  "Manuel des Joueurs (5e édition)",
-  "SRD 5.1 (CC BY 4.0)"
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Guerrier",
+  "SRD 5.1, « Wizard » (Spellbook, Arcane Recovery)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
+  "SRD 5.1, « Rogue » (Sneak Attack)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barbare",
+  "SRD 5.1, « Bard »",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Druide",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Paladin",
+  "SRD 5.1, « Ranger » (Favored Enemy, Natural Explorer)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Moine",
+  "SRD 5.1, « Sorcerer »",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Occultiste",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Guerrier (Archétype martial)",
+  "SRD 5.1, « Paladin » (Divine Smite)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Roublard",
+  "SRD 5.1, « Fighter » (Second Wind)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barde",
+  "SRD 5.1, « Cleric » (Channel Divinity: Turn Undead)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien",
+  "SRD 5.1, « Barbarian » (Hit Points)",
+  "SRD 5.1, « Fighter » (Hit Points)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes » (tableaux de progression)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Guide du Maître 5e, chap. 7",
+  "Manuel des Joueurs 5e (2014), sommaire",
+  "Eberron : Rising from the Last War (2019), chap. 2 ; Tasha’s Cauldron of Everything (2020)",
+  "SRD 5.1, « Paladin » (Spellcasting)",
+  "SRD 5.1, « Find Familiar » ; Manuel des Joueurs 5e (2014), chap. 3 « Magicien »",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien (Spellcasting)",
+  "SRD 5.1, « Wizard »",
+  "SRD 5.1, « Paladin »",
+  "SRD 5.1, « Ranger »",
+  "SRD 5.1, « Bard » (Spellcasting)",
+  "SRD 5.1, « Wizard » (Hit Points)",
+  "SRD 5.1, « Sorcerer » (Spellcasting)",
+  "SRD 5.1, « Cleric »",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes »",
+  "SRD 5.1, « Fighter » (Extra Attack)",
+  "Eberron : Rising from the Last War (2019)",
+  "SRD 5.1, « Monk » (Ki)",
+  "SRD 5.1, « Druid » (Spellcasting)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes » et chap. 11",
+  "SRD 5.1, « Wizard » (Arcane Tradition)",
+  "SRD 5.1, « Sorcerer » (Sorcerous Origin)",
+  "SRD 5.1, « Barbarian » (Primal Path)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Rôdeur",
+  "SRD 5.1, « Paladin » (Hit Points)",
+  "SRD 5.1, « Ranger » (Ranger Archetype)"
  ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
@@ -22,7 +67,7 @@
    "concept": "cla-001",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quelle classe se bat au corps à corps avec armes et armures ?",
+   "q": "Dans D&D 5e, quelle classe est spécialisée dans le combat rapproché avec armes et armures ?",
    "choix": [
     "Le barde",
     "L’ensorceleur",
@@ -30,8 +75,8 @@
     "Le magicien"
    ],
    "rep": 2,
-   "expl": "Guerrier.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le guerrier maîtrise toutes les armures, les boucliers et toutes les armes ; il a le plus grand choix de styles de combat et peut porter les armures lourdes dès le niveau 1.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Guerrier",
    "conf": "probable"
   },
   {
@@ -39,7 +84,7 @@
    "concept": "cla-002",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quelle classe lance des sorts appris dans un grimoire ?",
+   "q": "Dans D&D 5e, quelle classe lance des sorts préparés depuis un grimoire ?",
    "choix": [
     "Le barbare",
     "Le magicien",
@@ -47,8 +92,8 @@
     "Le guerrier"
    ],
    "rep": 1,
-   "expl": "Magicien.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le magicien consigne ses sorts dans un grimoire et en prépare chaque jour un nombre égal à son niveau + son modificateur d’Intelligence.",
+   "src": "SRD 5.1, « Wizard » (Spellbook, Arcane Recovery)",
    "conf": "probable"
   },
   {
@@ -56,7 +101,7 @@
    "concept": "cla-003",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quelle classe soigne ses alliés grâce à un dieu ?",
+   "q": "Dans D&D 5e, quelle classe soigne ses alliés grâce à la puissance d’une divinité ?",
    "choix": [
     "Le clerc",
     "Le barbare",
@@ -64,8 +109,8 @@
     "Le roublard"
    ],
    "rep": 0,
-   "expl": "Clerc.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le clerc est un lanceur de sorts divins : sa Sagesse alimente soins, bénédictions et Renvoi des morts-vivants, selon son domaine.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
    "conf": "probable"
   },
   {
@@ -73,7 +118,7 @@
    "concept": "cla-004",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quelle classe se spécialise dans la discrétion et l’attaque sournoise ?",
+   "q": "Dans D&D 5e, quelle classe est spécialisée dans la discrétion et l’attaque sournoise ?",
    "choix": [
     "Le guerrier",
     "Le paladin",
@@ -81,8 +126,8 @@
     "Le clerc"
    ],
    "rep": 2,
-   "expl": "Roublard.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le roublard a l’Attaque sournoise dès le niveau 1 : des dés de dégâts supplémentaires s’il a l’avantage ou un allié proche de la cible.",
+   "src": "SRD 5.1, « Rogue » (Sneak Attack)",
    "conf": "probable"
   },
   {
@@ -90,7 +135,7 @@
    "concept": "cla-005",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quelle classe entre en rage au combat ?",
+   "q": "Dans D&D 5e, quelle classe peut entrer en rage au combat ?",
    "choix": [
     "Le barbare",
     "Le barde",
@@ -98,8 +143,8 @@
     "Le magicien"
    ],
    "rep": 0,
-   "expl": "Barbare.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le barbare entre en rage par une action bonus : avantage en Force, bonus de dégâts et résistance aux dégâts contondants, perforants et tranchants.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barbare",
    "conf": "probable"
   },
   {
@@ -107,7 +152,7 @@
    "concept": "cla-006",
    "niveau": 1,
    "type": "qcm",
-   "q": "Quelle classe tire sa magie de la musique ?",
+   "q": "Dans D&D 5e, quelle classe tire sa magie de la musique et des paroles ?",
    "choix": [
     "Le rôdeur",
     "Le druide",
@@ -115,8 +160,8 @@
     "Le clerc"
    ],
    "rep": 2,
-   "expl": "Barde.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le barde utilise le chant, la poésie et la musique pour lancer des sorts ; il soutient aussi ses alliés avec l’Inspiration bardique.",
+   "src": "SRD 5.1, « Bard »",
    "conf": "probable"
   },
   {
@@ -124,7 +169,7 @@
    "concept": "cla-007",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle classe manie la magie de la nature et peut prendre une forme animale ?",
+   "q": "Dans D&D 5e, quelle classe manie la magie de la nature et peut prendre une forme animale ?",
    "choix": [
     "Le barde",
     "Le clerc",
@@ -132,8 +177,8 @@
     "Le druide"
    ],
    "rep": 3,
-   "expl": "Druide.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le druide se métamorphose grâce à la Forme sauvage (niveau 2), en bêtes de plus en plus puissantes avec le niveau.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Druide",
    "conf": "probable"
   },
   {
@@ -141,7 +186,7 @@
    "concept": "cla-008",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle classe est un guerrier saint qui prête serment ?",
+   "q": "Dans D&D 5e, quelle classe est un guerrier saint lié par un serment sacré ?",
    "choix": [
     "Le moine",
     "Le barbare",
@@ -149,8 +194,8 @@
     "Le paladin"
    ],
    "rep": 3,
-   "expl": "Paladin.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le paladin prête un serment (Dévotion, Anciens, Vengeance…) qui fonde ses pouvoirs divins ; il obtient aussi l’Imposition des mains dès le niveau 1.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Paladin",
    "conf": "probable"
   },
   {
@@ -158,7 +203,7 @@
    "concept": "cla-009",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle classe est experte en pistage et en survie ?",
+   "q": "Dans D&D 5e, quelle classe est experte en pistage et en survie en milieu sauvage ?",
    "choix": [
     "Le roublard",
     "Le barbare",
@@ -166,8 +211,8 @@
     "Le rôdeur"
    ],
    "rep": 3,
-   "expl": "Rôdeur.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le rôdeur a un ennemi juré et un terrain de prédilection qui lui donnent des bonus de pistage, de navigation et de survie.",
+   "src": "SRD 5.1, « Ranger » (Favored Enemy, Natural Explorer)",
    "conf": "probable"
   },
   {
@@ -175,7 +220,7 @@
    "concept": "cla-010",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle classe combat à mains nues et utilise le ki ?",
+   "q": "Dans D&D 5e, quelle classe combat à mains nues et utilise le ki ?",
    "choix": [
     "Le moine",
     "Le barbare",
@@ -183,8 +228,8 @@
     "Le guerrier"
    ],
    "rep": 0,
-   "expl": "Moine.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le moine dépense des points de ki (Rafale de coups, Défense patiente, Pas du vent) et inflige des dégâts d’arts martiaux croissants à mains nues.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Moine",
    "conf": "probable"
   },
   {
@@ -192,7 +237,7 @@
    "concept": "cla-011",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle classe tire sa magie d’une lignée innée ?",
+   "q": "Dans D&D 5e, quelle classe tire sa magie d’une lignée ou d’une source innée ?",
    "choix": [
     "Le clerc",
     "L’ensorceleur",
@@ -200,8 +245,8 @@
     "Le magicien"
    ],
    "rep": 1,
-   "expl": "Ensorceleur.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "L’ensorceleur possède un pouvoir inné (lignée draconique, magie sauvage…) : il connaît un nombre limité de sorts, sans livre ni préparation.",
+   "src": "SRD 5.1, « Sorcerer »",
    "conf": "probable"
   },
   {
@@ -209,7 +254,7 @@
    "concept": "cla-012",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle classe a un pacte avec une entité puissante ?",
+   "q": "Dans D&D 5e, quelle classe tire sa magie d’un pacte avec une entité puissante ?",
    "choix": [
     "L’ensorceleur",
     "Le druide",
@@ -217,8 +262,8 @@
     "L’occultiste"
    ],
    "rep": 3,
-   "expl": "Occultiste (warlock).",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "L’occultiste (warlock) conclut un pacte avec un protecteur (Fiélon, Grand Ancien, Archifée) qui lui accorde ses sorts et ses « invocations occultes ».",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Occultiste",
    "conf": "probable"
   },
   {
@@ -226,7 +271,7 @@
    "concept": "cla-013",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quel archétype de guerrier combine épée et magie ?",
+   "q": "Dans D&D 5e, quel archétype du guerrier combine épée et magie ?",
    "choix": [
     "Maître de guerre",
     "Champion",
@@ -234,8 +279,8 @@
     "Berserker"
    ],
    "rep": 2,
-   "expl": "Eldritch Knight.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le Chevalier occulte (Eldritch Knight) lance des sorts de magicien, surtout d’abjuration et d’évocation, et peut lier une arme à lui.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Guerrier (Archétype martial)",
    "conf": "probable"
   },
   {
@@ -243,7 +288,7 @@
    "concept": "cla-014",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quelle classe peut dépenser des emplacements de sorts pour des Châtiments divins ?",
+   "q": "Dans D&D 5e, quelle classe peut dépenser des emplacements de sorts pour infliger des Châtiments divins ?",
    "choix": [
     "Le paladin",
     "Le clerc",
@@ -251,8 +296,8 @@
     "Le rôdeur"
    ],
    "rep": 0,
-   "expl": "Divine Smite.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le paladin (Châtiment divin / Divine Smite, niveau 2) ajoute des dégâts radiants à une attaque qui touche, selon le niveau de l’emplacement dépensé.",
+   "src": "SRD 5.1, « Paladin » (Divine Smite)",
    "conf": "probable"
   },
   {
@@ -260,7 +305,7 @@
    "concept": "cla-015",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quelle capacité du roublard inflige des dégâts supplémentaires ?",
+   "q": "Dans D&D 5e, quelle capacité du roublard inflige des dégâts supplémentaires ?",
    "choix": [
     "Second souffle",
     "Frappe divine",
@@ -268,8 +313,8 @@
     "Attaque sournoise"
    ],
    "rep": 3,
-   "expl": "Sneak Attack.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "L’Attaque sournoise ajoute 1d6 dégâts au niveau 1, puis 1d6 de plus tous les deux niveaux, jusqu’à 10d6 au niveau 19.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Roublard",
    "conf": "probable"
   },
   {
@@ -277,7 +322,7 @@
    "concept": "cla-016",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quelle capacité du guerrier permet de récupérer des PV ?",
+   "q": "Dans D&D 5e, quelle capacité du guerrier lui permet de récupérer des points de vie ?",
    "choix": [
     "Second souffle",
     "Forme sauvage",
@@ -285,8 +330,8 @@
     "Attaque sournoise"
    ],
    "rep": 0,
-   "expl": "Second Wind.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Second souffle : en action bonus, il récupère 1d10 + son niveau de guerrier en PV, une fois par repos court ou long.",
+   "src": "SRD 5.1, « Fighter » (Second Wind)",
    "conf": "probable"
   },
   {
@@ -294,7 +339,7 @@
    "concept": "cla-017",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quelle capacité du barde soutient ses alliés avec un dé ?",
+   "q": "Dans D&D 5e, quelle capacité du barde soutient ses alliés avec un dé ?",
    "choix": [
     "Rage",
     "Ki",
@@ -302,8 +347,8 @@
     "Inspiration bardique"
    ],
    "rep": 3,
-   "expl": "Bardic Inspiration.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "L’Inspiration bardique (d6 au niveau 1) permet à un allié d’ajouter ce dé à un jet d’attaque, de caractéristique ou de sauvegarde.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barde",
    "conf": "probable"
   },
   {
@@ -311,7 +356,7 @@
    "concept": "cla-018",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quelle capacité du clerc repousse les morts-vivants ?",
+   "q": "Dans D&D 5e, quelle capacité du clerc repousse les morts-vivants ?",
    "choix": [
     "Forme sauvage",
     "Rage",
@@ -319,8 +364,8 @@
     "Attaque sournoise"
    ],
    "rep": 2,
-   "expl": "Turn Undead.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Renvoi des morts-vivants (Turn Undead) : option de Conduit divin au niveau 2 ; les morts-vivants qui échouent leur jet de Sagesse fuient pendant 1 minute.",
+   "src": "SRD 5.1, « Cleric » (Channel Divinity: Turn Undead)",
    "conf": "probable"
   },
   {
@@ -328,7 +373,7 @@
    "concept": "cla-019",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle classe ne peut pas porter d’armure lourde pour lancer ses sorts ?",
+   "q": "Dans D&D 5e, quelle classe n’a aucune maîtrise d’armure au niveau 1 ?",
    "choix": [
     "Le guerrier",
     "Le magicien",
@@ -336,8 +381,8 @@
     "Le paladin"
    ],
    "rep": 1,
-   "expl": "Magicien.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le magicien n’est formé à aucune armure ; les armures sans formation l’empêcheraient aussi de lancer ses sorts.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien",
    "conf": "probable"
   },
   {
@@ -345,7 +390,7 @@
    "concept": "cla-020",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel dé de vie utilise le barbare ?",
+   "q": "Dans D&D 5e, quel dé de vie utilise le barbare ?",
    "choix": [
     "d10",
     "d8",
@@ -353,8 +398,8 @@
     "d6"
    ],
    "rep": 2,
-   "expl": "Le barbare a un d12.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le barbare a un d12, le plus gros dé de vie du jeu : il est la classe la plus résistante.",
+   "src": "SRD 5.1, « Barbarian » (Hit Points)",
    "conf": "probable"
   },
   {
@@ -362,7 +407,7 @@
    "concept": "cla-021",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel dé de vie utilise le magicien ?",
+   "q": "Dans D&D 5e, quel dé de vie utilise le magicien ?",
    "choix": [
     "d8",
     "d6",
@@ -370,8 +415,8 @@
     "d12"
    ],
    "rep": 1,
-   "expl": "d6.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le magicien a un d6, comme l’ensorceleur : ce sont les classes les plus fragiles.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien",
    "conf": "probable"
   },
   {
@@ -379,7 +424,7 @@
    "concept": "cla-022",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel dé de vie utilise le guerrier ?",
+   "q": "Dans D&D 5e, quel dé de vie utilise le guerrier ?",
    "choix": [
     "d8",
     "d10",
@@ -387,8 +432,8 @@
     "d6"
    ],
    "rep": 1,
-   "expl": "d10.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le guerrier a un d10, comme le paladin et le rôdeur.",
+   "src": "SRD 5.1, « Fighter » (Hit Points)",
    "conf": "probable"
   },
   {
@@ -396,7 +441,7 @@
    "concept": "cla-023",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel dé de vie utilise le clerc ?",
+   "q": "Dans D&D 5e, quel dé de vie utilise le clerc ?",
    "choix": [
     "d6",
     "d8",
@@ -404,8 +449,8 @@
     "d12"
    ],
    "rep": 1,
-   "expl": "d8.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le clerc a un d8, comme le barde, le druide, le moine, l’occultiste et le roublard.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
    "conf": "probable"
   },
   {
@@ -413,7 +458,7 @@
    "concept": "cla-024",
    "niveau": 3,
    "type": "qcm",
-   "q": "À quel niveau un personnage obtient-il généralement sa sous-classe ?",
+   "q": "Dans D&D 5e, à quel niveau la plupart des classes choisissent-elles leur sous-classe ?",
    "choix": [
     "1",
     "5",
@@ -421,8 +466,8 @@
     "10"
    ],
    "rep": 2,
-   "expl": "Niveau 3 (selon la classe).",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "À partir du niveau 3 pour la plupart (barbare, barde, guerrier, moine, paladin, rôdeur, roublard…), mais au niveau 1 pour le clerc, l’ensorceleur et l’occultiste, et au niveau 2 pour le druide et le magicien.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » (tableaux de progression)",
    "conf": "probable"
   },
   {
@@ -430,7 +475,7 @@
    "concept": "cla-025",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel niveau maximum un personnage peut-il atteindre en 5e ?",
+   "q": "Dans D&D 5e, quel niveau maximum un personnage peut-il atteindre ?",
    "choix": [
     "10",
     "12",
@@ -438,8 +483,8 @@
     "20"
    ],
    "rep": 3,
-   "expl": "Niveau 20.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le niveau 20 est le sommet de la progression des personnages joueurs ; au-delà, on parle d’épopée (Guide du Maître, chap. 7).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Guide du Maître 5e, chap. 7",
    "conf": "probable"
   },
   {
@@ -447,7 +492,7 @@
    "concept": "cla-026",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quel livre présente les classes de base ?",
+   "q": "Dans D&D 5e, quel livre présente les classes de base ?",
    "choix": [
     "Le Manuel des Monstres",
     "Le Manuel des Joueurs",
@@ -455,8 +500,8 @@
     "Le Guide du Maître"
    ],
    "rep": 1,
-   "expl": "PHB.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le Manuel des Joueurs (Player’s Handbook, 2014) décrit les 12 classes de base, les races, les règles de création et le système de jeu.",
+   "src": "Manuel des Joueurs 5e (2014), sommaire",
    "conf": "probable"
   },
   {
@@ -464,7 +509,7 @@
    "concept": "cla-027",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quelle classe d’artisan magique apparaît dans Eberron ?",
+   "q": "Dans D&D 5e, quelle classe d’artisan magique est introduite à partir du cadre Eberron ?",
    "choix": [
     "L’artificier",
     "L’occultiste",
@@ -472,8 +517,8 @@
     "Le barde"
    ],
    "rep": 0,
-   "expl": "Artificer.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "L’artificier (artificer) est publié en 5e dans Eberron : Rising from the Last War (2019), puis repris dans Tasha et le chaudron de tout (2020).",
+   "src": "Eberron : Rising from the Last War (2019), chap. 2 ; Tasha’s Cauldron of Everything (2020)",
    "conf": "probable"
   },
   {
@@ -481,7 +526,7 @@
    "concept": "cla-028",
    "niveau": 3,
    "type": "qcm",
-   "q": "Quelle classe obtient la capacité Lancer de sorts à partir du niveau 2 seulement (sauf sous-classe) ?",
+   "q": "Dans D&D 5e, parmi ces classes, laquelle ne commence à lancer des sorts qu’au niveau 2 ?",
    "choix": [
     "Le paladin",
     "Le clerc",
@@ -489,8 +534,8 @@
     "Le barde"
    ],
    "rep": 0,
-   "expl": "Le paladin lance ses sorts dès le niveau 2.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le paladin n’a aucun emplacement de sorts au niveau 1 ; il commence à lancer des sorts au niveau 2 (comme le rôdeur).",
+   "src": "SRD 5.1, « Paladin » (Spellcasting)",
    "conf": "probable"
   },
   {
@@ -498,7 +543,7 @@
    "concept": "cla-029",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle classe peut invoquer un familier au niveau 1 ?",
+   "q": "Dans D&D 5e, quelle classe peut facilement invoquer un familier dès le niveau 1 ?",
    "choix": [
     "Le magicien",
     "Le moine",
@@ -506,8 +551,8 @@
     "Le guerrier"
    ],
    "rep": 0,
-   "expl": "Find Familiar.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le magicien peut lancer Appel de familier (Find Familiar), un sort de niveau 1 qui se lance comme un rituel et ne coûte pas d’emplacement.",
+   "src": "SRD 5.1, « Find Familiar » ; Manuel des Joueurs 5e (2014), chap. 3 « Magicien »",
    "conf": "probable"
   },
   {
@@ -515,7 +560,7 @@
    "concept": "cla-030",
    "niveau": 2,
    "type": "qcm",
-   "q": "Quelle caractéristique est principale pour le magicien ?",
+   "q": "Dans D&D 5e, quelle est la caractéristique principale du magicien ?",
    "choix": [
     "Force",
     "Intelligence",
@@ -523,8 +568,8 @@
     "Sagesse"
    ],
    "rep": 1,
-   "expl": "INT.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "L’Intelligence détermine le DD de ses sorts, son bonus d’attaque magique et le nombre de sorts préparés.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien (Spellcasting)",
    "conf": "probable"
   },
   {
@@ -532,10 +577,10 @@
    "concept": "cla-031",
    "niveau": 1,
    "type": "vf",
-   "q": "Le barbare entre en rage.",
+   "q": "Dans D&D 5e, le barbare peut entrer en rage.",
    "rep": true,
-   "expl": "Rage.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : la Rage lui donne avantage aux tests de Force, un bonus aux dégâts et une résistance aux dégâts physiques courants.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barbare",
    "conf": "probable"
   },
   {
@@ -543,10 +588,10 @@
    "concept": "cla-032",
    "niveau": 1,
    "type": "vf",
-   "q": "Le magicien est une classe de combat rapproché.",
+   "q": "Dans D&D 5e, le magicien est une classe de combat rapproché.",
    "rep": false,
-   "expl": "Il lance des sorts.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : fragile (d6 de dés de vie, aucune armure), le magicien reste en arrière et lance des sorts.",
+   "src": "SRD 5.1, « Wizard »",
    "conf": "probable"
   },
   {
@@ -554,10 +599,10 @@
    "concept": "cla-033",
    "niveau": 2,
    "type": "vf",
-   "q": "Le moine peut se battre sans arme.",
+   "q": "Dans D&D 5e, le moine peut se battre sans arme.",
    "rep": true,
-   "expl": "Arts martiaux.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : ses Arts martiaux lui donnent des dégâts de mains nues qui évoluent (d4 au niveau 1, jusqu’à d10 au niveau 17).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Moine",
    "conf": "probable"
   },
   {
@@ -565,10 +610,10 @@
    "concept": "cla-034",
    "niveau": 2,
    "type": "vf",
-   "q": "Le paladin ne lance aucun sort.",
+   "q": "Dans D&D 5e, le paladin ne lance aucun sort.",
    "rep": false,
-   "expl": "Il lance des sorts.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : à partir du niveau 2, il lance des sorts divins, en plus de ses capacités d’Imposition des mains et de Sens divin.",
+   "src": "SRD 5.1, « Paladin »",
    "conf": "probable"
   },
   {
@@ -576,10 +621,10 @@
    "concept": "cla-035",
    "niveau": 2,
    "type": "vf",
-   "q": "Le rôdeur est spécialisé dans la survie.",
+   "q": "Dans D&D 5e, le rôdeur est spécialisé dans la survie.",
    "rep": true,
-   "expl": "Rôdeur.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : pistage, ennemi juré et terrain de prédilection sont au cœur de ses capacités.",
+   "src": "SRD 5.1, « Ranger »",
    "conf": "probable"
   },
   {
@@ -587,10 +632,10 @@
    "concept": "cla-036",
    "niveau": 2,
    "type": "vf",
-   "q": "Le druide peut prendre une forme animale.",
+   "q": "Dans D&D 5e, le druide peut prendre une forme animale.",
    "rep": true,
-   "expl": "Forme sauvage.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : grâce à la Forme sauvage (niveau 2), qui se limite à des bêtes dont le facteur de puissance augmente avec le niveau.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Druide",
    "conf": "probable"
   },
   {
@@ -598,10 +643,10 @@
    "concept": "cla-037",
    "niveau": 3,
    "type": "vf",
-   "q": "Le barde est une classe de lanceur de sorts.",
+   "q": "Dans D&D 5e, le barde est une classe de lanceur de sorts.",
    "rep": true,
-   "expl": "Barde.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : il lance des sorts de barde (Charisme) en plus de son Inspiration bardique ; c’est un lanceur de sorts complet.",
+   "src": "SRD 5.1, « Bard » (Spellcasting)",
    "conf": "probable"
   },
   {
@@ -609,10 +654,10 @@
    "concept": "cla-038",
    "niveau": 3,
    "type": "vf",
-   "q": "Le barbare utilise un d6 comme dé de vie.",
+   "q": "Dans D&D 5e, le barbare utilise un d6 comme dé de vie.",
    "rep": false,
-   "expl": "d12.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : le barbare utilise un d12.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barbare",
    "conf": "probable"
   },
   {
@@ -620,10 +665,10 @@
    "concept": "cla-039",
    "niveau": 3,
    "type": "vf",
-   "q": "Le magicien utilise un d12 comme dé de vie.",
+   "q": "Dans D&D 5e, le magicien utilise un d12 comme dé de vie.",
    "rep": false,
-   "expl": "d6.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : le magicien utilise un d6, parmi les plus faibles du jeu.",
+   "src": "SRD 5.1, « Wizard » (Hit Points)",
    "conf": "probable"
   },
   {
@@ -631,10 +676,10 @@
    "concept": "cla-040",
    "niveau": 2,
    "type": "vf",
-   "q": "L’ensorceleur apprend ses sorts depuis un grimoire.",
+   "q": "Dans D&D 5e, l’ensorceleur apprend ses sorts depuis un grimoire.",
    "rep": false,
-   "expl": "Pouvoir inné.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : il tient son pouvoir de sa lignée ou d’un don inné et n’a pas besoin de grimoire, contrairement au magicien.",
+   "src": "SRD 5.1, « Sorcerer » (Spellcasting)",
    "conf": "probable"
   },
   {
@@ -642,10 +687,10 @@
    "concept": "cla-041",
    "niveau": 2,
    "type": "vf",
-   "q": "L’occultiste a conclu un pacte.",
+   "q": "Dans D&D 5e, l’occultiste a conclu un pacte avec une entité.",
    "rep": true,
-   "expl": "Occultiste.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : son protecteur (Fiélon, Grand Ancien, Archifée) lui accorde ses pouvoirs en échange de services.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Occultiste",
    "conf": "probable"
   },
   {
@@ -653,10 +698,10 @@
    "concept": "cla-042",
    "niveau": 2,
    "type": "vf",
-   "q": "Le clerc peut soigner.",
+   "q": "Dans D&D 5e, le clerc peut soigner.",
    "rep": true,
-   "expl": "Clerc.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : il soigne avec des sorts comme Soins ou Mot de guérison, selon son domaine divin.",
+   "src": "SRD 5.1, « Cleric »",
    "conf": "probable"
   },
   {
@@ -664,10 +709,10 @@
    "concept": "cla-043",
    "niveau": 3,
    "type": "vf",
-   "q": "Le roublard obtient l’attaque sournoise au niveau 1.",
+   "q": "Dans D&D 5e, le roublard obtient l’Attaque sournoise dès le niveau 1.",
    "rep": true,
-   "expl": "Niveau 1.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : 1d6 de dégâts supplémentaires, qui augmentent au fil des niveaux.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Roublard",
    "conf": "probable"
   },
   {
@@ -675,10 +720,10 @@
    "concept": "cla-044",
    "niveau": 2,
    "type": "vf",
-   "q": "Le niveau maximum en 5e est 30.",
+   "q": "Dans D&D 5e, le niveau maximum d’un personnage est 30.",
    "rep": false,
-   "expl": "20.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : le niveau maximum est 20 ; le niveau 30 existait dans d’anciennes éditions comme le D&D Rules Cyclopedia.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes »",
    "conf": "probable"
   },
   {
@@ -686,10 +731,10 @@
    "concept": "cla-045",
    "niveau": 2,
    "type": "vf",
-   "q": "Le guerrier peut obtenir plusieurs attaques par action.",
+   "q": "Dans D&D 5e, le guerrier peut obtenir plusieurs attaques par action.",
    "rep": true,
-   "expl": "Attaque supplémentaire.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : Attaque supplémentaire au niveau 5, puis deux de plus aux niveaux 11 et 20 (jusqu’à quatre attaques).",
+   "src": "SRD 5.1, « Fighter » (Extra Attack)",
    "conf": "probable"
   },
   {
@@ -697,10 +742,10 @@
    "concept": "cla-046",
    "niveau": 3,
    "type": "vf",
-   "q": "L’artificier est une classe du Manuel des Joueurs.",
+   "q": "Dans D&D 5e, l’artificier est une classe du Manuel des Joueurs de 2014.",
    "rep": false,
-   "expl": "Introduit dans Eberron.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : l’artificier est ajouté plus tard, dans Eberron : Rising from the Last War (2019).",
+   "src": "Eberron : Rising from the Last War (2019)",
    "conf": "probable"
   },
   {
@@ -708,10 +753,10 @@
    "concept": "cla-047",
    "niveau": 2,
    "type": "vf",
-   "q": "Le paladin tire sa force d’un serment.",
+   "q": "Dans D&D 5e, le paladin tire sa force d’un serment.",
    "rep": true,
-   "expl": "Serment.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : le serment (Dévotion, Anciens ou Vengeance) définit sa sous-classe.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Paladin",
    "conf": "probable"
   },
   {
@@ -719,10 +764,10 @@
    "concept": "cla-048",
    "niveau": 2,
    "type": "vf",
-   "q": "Le moine utilise des points de ki.",
+   "q": "Dans D&D 5e, le moine utilise des points de ki.",
    "rep": true,
-   "expl": "Ki.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : le ki alimente Rafale de coups, Défense patiente et Pas du vent ; le moine en gagne un par niveau à partir du niveau 2.",
+   "src": "SRD 5.1, « Monk » (Ki)",
    "conf": "probable"
   },
   {
@@ -730,10 +775,10 @@
    "concept": "cla-049",
    "niveau": 3,
    "type": "vf",
-   "q": "Le clerc ne peut pas porter d’armure.",
+   "q": "Dans D&D 5e, le clerc ne peut pas porter d’armure.",
    "rep": false,
-   "expl": "Il peut porter armure.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : il porte les armures légères et intermédiaires, et les boucliers ; certains domaines donnent aussi les armures lourdes.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
    "conf": "probable"
   },
   {
@@ -741,10 +786,10 @@
    "concept": "cla-050",
    "niveau": 2,
    "type": "vf",
-   "q": "Le druide ne peut pas lancer de sorts.",
+   "q": "Dans D&D 5e, le druide ne peut pas lancer de sorts.",
    "rep": false,
-   "expl": "Il lance des sorts.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Faux : il lance des sorts de druide (Sagesse), qui soignent, invoquent ou déchaînent la nature.",
+   "src": "SRD 5.1, « Druid » (Spellcasting)",
    "conf": "probable"
   },
   {
@@ -752,15 +797,15 @@
    "concept": "cla-051",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau maximum d’un personnage en 5e ?",
+   "q": "Dans D&D 5e, quel est le niveau maximum d’un personnage joueur ?",
    "min": 1,
    "max": 30,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 20,
-   "expl": "Niveau 20.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Niveau 20 : il correspond au dernier palier de chaque classe.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes »",
    "conf": "probable"
   },
   {
@@ -768,15 +813,15 @@
    "concept": "cla-052",
    "niveau": 2,
    "type": "slider",
-   "q": "Combien de classes le Manuel des Joueurs 2014 présente-t-il ?",
+   "q": "Dans D&D 5e, combien de classes le Manuel des Joueurs de 2014 présente-t-il ?",
    "min": 5,
    "max": 20,
    "pas": 1,
    "unite": "classes",
    "tolerance": 0,
    "rep": 12,
-   "expl": "12 classes.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Douze : barbare, barde, clerc, druide, ensorceleur, guerrier, magicien, moine, occultiste, paladin, rôdeur et roublard.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes »",
    "conf": "probable"
   },
   {
@@ -784,15 +829,15 @@
    "concept": "cla-053",
    "niveau": 2,
    "type": "slider",
-   "q": "Quelle est la taille du dé de vie du barbare (nombre de faces) ?",
+   "q": "Dans D&D 5e, quelle est la taille du dé de vie du barbare (nombre de faces) ?",
    "min": 4,
    "max": 20,
    "pas": 1,
    "unite": "faces",
    "tolerance": 0,
    "rep": 12,
-   "expl": "d12.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "d12 : le barbare gagne 1d12 (ou 7) PV par niveau, plus son modificateur de Constitution.",
+   "src": "SRD 5.1, « Barbarian » (Hit Points)",
    "conf": "probable"
   },
   {
@@ -800,15 +845,15 @@
    "concept": "cla-054",
    "niveau": 2,
    "type": "slider",
-   "q": "Quelle est la taille du dé de vie du magicien (nombre de faces) ?",
+   "q": "Dans D&D 5e, quelle est la taille du dé de vie du magicien (nombre de faces) ?",
    "min": 4,
    "max": 20,
    "pas": 1,
    "unite": "faces",
    "tolerance": 0,
    "rep": 6,
-   "expl": "d6.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "d6 : le magicien gagne en moyenne 4 PV par niveau (plus Con).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien",
    "conf": "probable"
   },
   {
@@ -816,15 +861,15 @@
    "concept": "cla-055",
    "niveau": 2,
    "type": "slider",
-   "q": "Quelle est la taille du dé de vie du guerrier (nombre de faces) ?",
+   "q": "Dans D&D 5e, quelle est la taille du dé de vie du guerrier (nombre de faces) ?",
    "min": 4,
    "max": 20,
    "pas": 1,
    "unite": "faces",
    "tolerance": 0,
    "rep": 10,
-   "expl": "d10.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "d10 : 6 PV en moyenne par niveau (plus Constitution).",
+   "src": "SRD 5.1, « Fighter » (Hit Points)",
    "conf": "probable"
   },
   {
@@ -832,15 +877,15 @@
    "concept": "cla-056",
    "niveau": 2,
    "type": "slider",
-   "q": "Quelle est la taille du dé de vie du roublard (nombre de faces) ?",
+   "q": "Dans D&D 5e, quelle est la taille du dé de vie du roublard (nombre de faces) ?",
    "min": 4,
    "max": 20,
    "pas": 1,
    "unite": "faces",
    "tolerance": 0,
    "rep": 8,
-   "expl": "d8.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "d8, comme le clerc, le barde ou le moine : 5 PV en moyenne par niveau (plus Constitution).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Roublard",
    "conf": "probable"
   },
   {
@@ -848,15 +893,15 @@
    "concept": "cla-057",
    "niveau": 2,
    "type": "slider",
-   "q": "À quel niveau le guerrier obtient-il sa seconde attaque ?",
+   "q": "Dans D&D 5e, à quel niveau le guerrier obtient-il sa seconde attaque ?",
    "min": 1,
    "max": 20,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 5,
-   "expl": "Niveau 5.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Au niveau 5 : Attaque supplémentaire lui permet d’attaquer deux fois par action Attaquer.",
+   "src": "SRD 5.1, « Fighter » (Extra Attack)",
    "conf": "probable"
   },
   {
@@ -864,15 +909,15 @@
    "concept": "cla-058",
    "niveau": 2,
    "type": "slider",
-   "q": "Combien de sous-classes de barde existe-t-il dans le Manuel des Joueurs ?",
+   "q": "Dans D&D 5e, combien de sous-classes de barde le Manuel des Joueurs présente-t-il ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "sous-classes",
    "tolerance": 0,
    "rep": 2,
-   "expl": "Collège du savoir et de la vaillance.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Deux : le Collège du savoir et le Collège de la vaillance ; d’autres arrivent dans des suppléments.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barde",
    "conf": "probable"
   },
   {
@@ -880,15 +925,15 @@
    "concept": "cla-059",
    "niveau": 2,
    "type": "slider",
-   "q": "Quel est le niveau de sort maximal en 5e ?",
+   "q": "Dans D&D 5e, quel est le niveau de sort maximal ?",
    "min": 1,
    "max": 12,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 9,
-   "expl": "Sorts de niveau 9.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Le niveau 9 : les sorts de niveau 9 (Souhait, Arrêt du temps…) sont accessibles aux lanceurs de sorts complets au niveau 17.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » et chap. 11",
    "conf": "probable"
   },
   {
@@ -896,15 +941,15 @@
    "concept": "cla-060",
    "niveau": 3,
    "type": "slider",
-   "q": "À quel niveau le magicien obtient-il sa sous-classe ?",
+   "q": "Dans D&D 5e, à quel niveau le magicien choisit-il sa tradition arcanique (sous-classe) ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 2,
-   "expl": "Niveau 2 (école).",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Au niveau 2 : il choisit une école de magie (abjuration, évocation, nécromancie, etc.).",
+   "src": "SRD 5.1, « Wizard » (Arcane Tradition)",
    "conf": "probable"
   },
   {
@@ -912,15 +957,15 @@
    "concept": "cla-061",
    "niveau": 3,
    "type": "slider",
-   "q": "À quel niveau le clerc obtient-il son domaine ?",
+   "q": "Dans D&D 5e, à quel niveau le clerc choisit-il son domaine divin ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 1,
-   "expl": "Niveau 1.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Au niveau 1 : le domaine (Vie, Lumière, Guerre, Tempête, Savoir…) lui donne sorts et capacités dès le début.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
    "conf": "probable"
   },
   {
@@ -928,15 +973,15 @@
    "concept": "cla-062",
    "niveau": 3,
    "type": "slider",
-   "q": "À quel niveau l’ensorceleur choisit-il son origine ?",
+   "q": "Dans D&D 5e, à quel niveau l’ensorceleur choisit-il son origine magique ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 1,
-   "expl": "Niveau 1.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Au niveau 1 : lignée draconique ou magie sauvage, dans le Manuel des Joueurs.",
+   "src": "SRD 5.1, « Sorcerer » (Sorcerous Origin)",
    "conf": "probable"
   },
   {
@@ -944,15 +989,15 @@
    "concept": "cla-063",
    "niveau": 3,
    "type": "slider",
-   "q": "À quel niveau le paladin prête-t-il serment ?",
+   "q": "Dans D&D 5e, à quel niveau le paladin prête-t-il son serment (sous-classe) ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 3,
-   "expl": "Niveau 3.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Au niveau 3, après avoir reçu Sens divin et Imposition des mains au niveau 1.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Paladin",
    "conf": "probable"
   },
   {
@@ -960,15 +1005,15 @@
    "concept": "cla-064",
    "niveau": 3,
    "type": "slider",
-   "q": "À quel niveau le barbare choisit-il sa voie primitive ?",
+   "q": "Dans D&D 5e, à quel niveau le barbare choisit-il sa voie primitive ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 3,
-   "expl": "Niveau 3.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Au niveau 3 : Voie du berserker ou du guerrier totémique dans le Manuel des Joueurs.",
+   "src": "SRD 5.1, « Barbarian » (Primal Path)",
    "conf": "probable"
   },
   {
@@ -976,15 +1021,15 @@
    "concept": "cla-065",
    "niveau": 3,
    "type": "slider",
-   "q": "À quel niveau l’occultiste choisit-il son patron ?",
+   "q": "Dans D&D 5e, à quel niveau l’occultiste choisit-il son protecteur ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 1,
-   "expl": "Niveau 1.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Au niveau 1 : le protecteur (Fiélon, Grand Ancien, Archifée) détermine sa liste de sorts étendue.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Occultiste",
    "conf": "probable"
   },
   {
@@ -992,10 +1037,10 @@
    "concept": "cla-066",
    "niveau": 3,
    "type": "vf",
-   "q": "Le magicien obtient sa sous-classe au niveau 2.",
+   "q": "Dans D&D 5e, le magicien choisit sa tradition arcanique au niveau 2.",
    "rep": true,
-   "expl": "Tradition arcanique au niveau 2.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : il choisit alors une école de magie, comme l’évocation ou l’illusion.",
+   "src": "SRD 5.1, « Wizard » (Arcane Tradition)",
    "conf": "probable"
   },
   {
@@ -1003,10 +1048,10 @@
    "concept": "cla-067",
    "niveau": 2,
    "type": "vf",
-   "q": "Le rôdeur utilise un d10 comme dé de vie.",
+   "q": "Dans D&D 5e, le rôdeur utilise un d10 comme dé de vie.",
    "rep": true,
-   "expl": "d10.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Vrai : le rôdeur a un d10, comme le guerrier et le paladin.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Rôdeur",
    "conf": "probable"
   },
   {
@@ -1014,15 +1059,15 @@
    "concept": "cla-068",
    "niveau": 2,
    "type": "slider",
-   "q": "Quelle est la taille du dé de vie du paladin (nombre de faces) ?",
+   "q": "Dans D&D 5e, quelle est la taille du dé de vie du paladin (nombre de faces) ?",
    "min": 4,
    "max": 20,
    "pas": 1,
    "unite": "faces",
    "tolerance": 0,
    "rep": 10,
-   "expl": "d10.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "d10 : il encaisse bien, car il combat en première ligne.",
+   "src": "SRD 5.1, « Paladin » (Hit Points)",
    "conf": "probable"
   },
   {
@@ -1030,15 +1075,15 @@
    "concept": "cla-069",
    "niveau": 2,
    "type": "slider",
-   "q": "Quelle est la taille du dé de vie du clerc (nombre de faces) ?",
+   "q": "Dans D&D 5e, quelle est la taille du dé de vie du clerc (nombre de faces) ?",
    "min": 4,
    "max": 20,
    "pas": 1,
    "unite": "faces",
    "tolerance": 0,
    "rep": 8,
-   "expl": "d8.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "d8 : le clerc est une classe moyennement résistante.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
    "conf": "probable"
   },
   {
@@ -1046,15 +1091,15 @@
    "concept": "cla-070",
    "niveau": 3,
    "type": "slider",
-   "q": "À quel niveau le rôdeur obtient-il son archétype ?",
+   "q": "Dans D&D 5e, à quel niveau le rôdeur choisit-il son archétype ?",
    "min": 1,
    "max": 10,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
    "rep": 3,
-   "expl": "Niveau 3.",
-   "src": "Manuel des Joueurs (5e édition)",
+   "expl": "Au niveau 3 : Chasseur ou Maître des bêtes dans le Manuel des Joueurs.",
+   "src": "SRD 5.1, « Ranger » (Ranger Archetype)",
    "conf": "probable"
   }
  ]
