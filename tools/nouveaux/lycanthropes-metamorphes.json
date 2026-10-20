@@ -1,0 +1,311 @@
+[
+ {
+  "type": "intrus",
+  "niveau": 1,
+  "q": "Dans D&D 5e, lequel de ces monstres n’est pas un lycanthrope ?",
+  "choix": [
+   "Worg",
+   "Loup-garou",
+   "Rat-garou",
+   "Ours-garou"
+  ],
+  "rep": 0,
+  "expl": "Le worg est un loup monstrueux ordinaire. Les trois autres sont des lycanthropes.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "lyc-071",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "intrus",
+  "niveau": 2,
+  "q": "Dans D&D 5e, lequel de ces êtres n’est pas un métamorphe ?",
+  "choix": [
+   "Gargouille",
+   "Doppelgänger",
+   "Mimique",
+   "Loup-garou"
+  ],
+  "rep": 0,
+  "expl": "La gargouille a une forme fixe, alors que doppelgänger, mimique et loup-garou changent d’apparence.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "lyc-072",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "intrus",
+  "niveau": 3,
+  "q": "Lequel de ces animaux n’a pas de lycanthrope dédié dans le Manuel des Monstres 5e ?",
+  "choix": [
+   "Aigle",
+   "Ours",
+   "Sanglier",
+   "Tigre"
+  ],
+  "rep": 0,
+  "expl": "Le Manuel des Monstres propose loup-garou, rat-garou, sanglier-garou, tigre-garou et ours-garou.",
+  "src": "Manuel des Monstres 5e (2014)",
+  "id": "lyc-073",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "trou",
+  "niveau": 1,
+  "q": "Dans D&D, l’______ est le métal qui permet de blesser pleinement les lycanthropes.",
+  "choix": [
+   "argent",
+   "or",
+   "étain",
+   "plomb"
+  ],
+  "rep": 0,
+  "expl": "Les lycanthropes sont immunisés aux armes non magiques sauf si elles sont en argent.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
+  "id": "lyc-074",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "trou",
+  "niveau": 2,
+  "q": "Dans D&D 5e, le sort Délivrance des ____ guérit la lycanthropie.",
+  "choix": [
+   "malédictions",
+   "maladies",
+   "poisons",
+   "envoûtements"
+  ],
+  "rep": 0,
+  "expl": "Délivrance des malédictions (niveau 3) mettra fin à la lycanthropie.",
+  "src": "Manuel des Joueurs 5e (2014)",
+  "id": "lyc-075",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "trou",
+  "niveau": 3,
+  "q": "Dans D&D 5e, la capacité du druide qui permet de prendre une forme animale s’appelle ____ sauvage.",
+  "choix": [
+   "Forme",
+   "Peau",
+   "Âme",
+   "Voie"
+  ],
+  "rep": 0,
+  "expl": "Forme sauvage est un pouvoir clé du druide.",
+  "src": "Manuel des Joueurs 5e (2014)",
+  "id": "lyc-076",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "multi",
+  "niveau": 2,
+  "q": "Dans D&D 5e, lesquels de ces monstres sont des lycanthropes ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Loup-garou",
+   "Sanglier-garou",
+   "Tigre-garou",
+   "Worg",
+   "Doppelgänger"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "Loup-garou, sanglier-garou et tigre-garou sont des lycanthropes ; worg et doppelgänger non.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "lyc-077",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "multi",
+  "niveau": 3,
+  "q": "Dans D&D 5e, lesquels de ces lycanthropes ont un FP d’au moins 4 ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Sanglier-garou",
+   "Tigre-garou",
+   "Ours-garou",
+   "Loup-garou",
+   "Rat-garou"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "FP : sanglier 4, tigre 4, ours 5 ; loup-garou 3 et rat-garou 2.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "lyc-078",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "multi",
+  "niveau": 3,
+  "q": "Dans D&D 5e, lesquels de ces monstres peuvent prendre une apparence différente ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Doppelgänger",
+   "Mimique",
+   "Loup-garou",
+   "Gargouille",
+   "Basilic"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "Ils sont tous métamorphes, au contraire de la gargouille et du basilic.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "lyc-079",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "ordre",
+  "niveau": 3,
+  "q": "Classe ces monstres par FP croissant.",
+  "items": [
+   "Rat-garou",
+   "Loup-garou",
+   "Ours-garou",
+   "Vampire",
+   "Liche"
+  ],
+  "expl": "FP : rat-garou 2, loup-garou 3, ours-garou 5, vampire 13, liche 21.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "lyc-080",
+  "conf": "probable",
+  "concept": "nv_ordre"
+ },
+ {
+  "type": "ordre",
+  "niveau": 3,
+  "q": "Classe ces lycanthropes par points de vie moyens croissants.",
+  "items": [
+   "Loup-garou",
+   "Rat-garou",
+   "Sanglier-garou",
+   "Tigre-garou",
+   "Ours-garou"
+  ],
+  "expl": "PV moyens : loup-garou 58, rat-garou 60, sanglier-garou 78, tigre-garou 120, ours-garou 135.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "lyc-081",
+  "conf": "probable",
+  "concept": "nv_ordre"
+ },
+ {
+  "type": "assoc",
+  "niveau": 1,
+  "q": "Associe chaque lycanthrope à son animal.",
+  "paires": [
+   [
+    "Loup-garou",
+    "Loup"
+   ],
+   [
+    "Rat-garou",
+    "Rat"
+   ],
+   [
+    "Ours-garou",
+    "Ours"
+   ],
+   [
+    "Tigre-garou",
+    "Tigre"
+   ]
+  ],
+  "expl": "Chaque lycanthrope prend la forme de l’animal qui lui donne son nom.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "lyc-082",
+  "conf": "probable",
+  "concept": "nv_assoc"
+ },
+ {
+  "type": "assoc",
+  "niveau": 3,
+  "q": "Associe chaque lycanthrope à son alignement.",
+  "paires": [
+   [
+    "Loup-garou",
+    "Chaotique mauvais"
+   ],
+   [
+    "Ours-garou",
+    "Neutre bon"
+   ],
+   [
+    "Rat-garou",
+    "Loyal mauvais"
+   ],
+   [
+    "Tigre-garou",
+    "Neutre"
+   ]
+  ],
+  "expl": "Ours-garou neutre bon, loup-garou chaotique mauvais, rat-garou loyal mauvais, tigre-garou neutre.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "lyc-083",
+  "conf": "probable",
+  "concept": "nv_assoc"
+ },
+ {
+  "type": "qui",
+  "niveau": 1,
+  "q": "Qui suis-je ?\n1. Je suis maudit par la lune.\n2. Je suis un homme le jour, une bête la nuit.\n3. Seul l’argent ou la magie me blesse vraiment.",
+  "choix": [
+   "Loup-garou",
+   "Worg",
+   "Doppelgänger",
+   "Vampire"
+  ],
+  "rep": 0,
+  "expl": "Le loup-garou est le lycanthrope le plus célèbre.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
+  "id": "lyc-084",
+  "conf": "probable",
+  "concept": "nv_qui"
+ },
+ {
+  "type": "qui",
+  "niveau": 2,
+  "q": "Qui suis-je ?\n1. Je prends l’apparence de mes victimes.\n2. Je lis leurs pensées en surface.\n3. Je suis un métamorphe de FP 3.",
+  "choix": [
+   "Doppelgänger",
+   "Mimique",
+   "Changelin",
+   "Rat-garou"
+  ],
+  "rep": 0,
+  "expl": "Le doppelgänger imite les humanoïdes et lit les pensées superficielles.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Doppelgänger »",
+  "id": "lyc-085",
+  "conf": "probable",
+  "concept": "nv_qui"
+ },
+ {
+  "type": "qui",
+  "niveau": 2,
+  "q": "Qui suis-je ?\n1. Je suis un rongeur.\n2. Je suis un lycanthrope de FP 2.\n3. Mon alignement est loyal mauvais.",
+  "choix": [
+   "Rat-garou",
+   "Loup-garou",
+   "Sanglier-garou",
+   "Ours-garou"
+  ],
+  "rep": 0,
+  "expl": "Le rat-garou est un lycanthrope loyal mauvais de FP 2.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Rat-garou »",
+  "id": "lyc-086",
+  "conf": "probable",
+  "concept": "nv_qui"
+ }
+]

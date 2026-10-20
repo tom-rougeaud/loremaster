@@ -100,6 +100,7 @@ function onMsg(m){
   p.last=Date.now();
   if(m.t==="tm"){if(G.mode==="duel"&&!G.lk&&m.k>=0&&m.k<G.teams.length){p.team=m.k|0;renderLobby();pushLobby();}}
   else if(m.t==="an"){recvAnswer(p,m);}
+  else if(m.t==="dvote"){recvVote(p,m);}
   else if(m.t==="bye"){p.on=false;p.away=false;awayUpdate();renderLobby();pushLobby();updateAnswered();}
   else if(m.t==="aw"){setAway(p,!!m.v);}
 }
@@ -147,6 +148,7 @@ var PUSH_T=null;
 function pushLobby(){clearTimeout(PUSH_T);PUSH_T=setTimeout(function(){if(G)send(lobbyMsg());},200);}
 function welcome(p){
   var w={t:"wt",to:p.id,ph:G.phase,m:G.mode,p:p.p,sc:p.score,team:p.team,lb:lobbyMsg(),host:p.isHost?1:0};
+  if(G.phase==="dv"&&G.dv)w.dv={i:G.i+1,a:G.dv.a,b:G.dv.b,na:[G.teams[G.dv.a].n,G.teams[G.dv.b].n],dur:Math.max(1000,G.dv.end-Date.now())};
   if(G.phase==="q"&&G.cur){var q=G.qs[G.i];w.q=qPayload(q,G.i);w.q.rem=Math.max(0,G.dur+G.extra-(Date.now()-G.qStart));w.done=p.isHost?!!G.hostAns:!!G.ans[p.id];}
   if(G.phase==="rv"&&G.lastRv)w.rv=G.lastRv;
   if(G.phase==="end"&&G.lastEn)w.en=G.lastEn;

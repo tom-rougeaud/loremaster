@@ -2,36 +2,15 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "golems-constructions",
-  "nom": "Golems et constructions de D&D",
+  "nom": "Golems, constructions et animés",
   "royaume": "Bestiaire de D&D",
   "icone": "engrenage",
   "sombre": false
  },
- "sources": [
-  "Manuel des Monstres 5e (2014), entrée « Construction »",
-  "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-  "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-  "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-  "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-  "Manuel des Monstres 5e (2014), entrée « Armure animée »",
-  "Manuel des Monstres 5e (2014), entrée « Tapis étouffeur »",
-  "Manuel des Monstres 5e (2014), entrée « Gardien-bouclier »",
-  "Eberron: Rising from the Last War (2019), chap. 2",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation d’objets",
-  "Manuel des Monstres 5e (2014), entrée « Golem »",
-  "Manuel des Monstres 5e (2014), entrée « Homoncule »",
-  "Manuel des Monstres 5e (2014), entrée « Horreur casquée »",
-  "Manuel des Monstres 5e (2014), entrée « Épée volante »",
-  "Dans D&D 5e, Guide du Maître (2014), chap. 7 « Manuel des golems »",
-  "Manuel des Monstres 5e (2014), entrée « Épouvantail »",
-  "Dans D&D 5e, Guide du Maître (2014), chap. 2 « Mechanus »",
-  "Eberron: Rising from the Last War (2019), chap. 1",
-  "Eberron: Rising from the Last War (2019), crédits"
- ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
   "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
-  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
  },
  "questions": [
   {
@@ -1067,6 +1046,315 @@
    "expl": "Faux : le golem de pierre est de FP 10, avec une CA de 17.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
    "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lequel de ces monstres n’est pas une construction ?",
+   "choix": [
+    "Zombie",
+    "Golem d’argile",
+    "Armure animée",
+    "Homoncule"
+   ],
+   "rep": 0,
+   "expl": "Le zombie est un mort-vivant ; les trois autres sont des constructions.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gol-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces monstres n’est pas un golem ?",
+   "choix": [
+    "Armure animée",
+    "Golem de chair",
+    "Golem de pierre",
+    "Golem de fer"
+   ],
+   "rep": 0,
+   "expl": "L’armure animée est une construction, mais pas un golem.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gol-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces éléments n’a pas été introduit par Eberron: Rising from the Last War ?",
+   "choix": [
+    "Barde",
+    "Artificier",
+    "Forgé",
+    "Changelin"
+   ],
+   "rep": 0,
+   "expl": "Le barde existe depuis le Manuel des Joueurs ; artificier, forgé et changelin viennent d’Eberron.",
+   "src": "Eberron: Rising from the Last War (2019)",
+   "id": "gol-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le golem de ____ est assemblé à partir de morceaux de cadavres.",
+   "choix": [
+    "chair",
+    "pierre",
+    "fer",
+    "argile"
+   ],
+   "rep": 0,
+   "expl": "Le golem de chair est un monstre de Frankenstein.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
+   "id": "gol-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le golem de ____ est le plus puissant du Manuel des Monstres, avec un FP de 16.",
+   "choix": [
+    "fer",
+    "pierre",
+    "chair",
+    "argile"
+   ],
+   "rep": 0,
+   "expl": "Le golem de fer (FP 16) crache un gaz empoisonné.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
+   "id": "gol-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans Eberron, les ____ sont des soldats artificiels nés de la Guerre du Dernier Jour.",
+   "choix": [
+    "forgés",
+    "kalashtar",
+    "changelins",
+    "shifters"
+   ],
+   "rep": 0,
+   "expl": "Les forgés sont une espèce de constructions vivantes.",
+   "src": "Eberron: Rising from the Last War (2019)",
+   "id": "gol-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces monstres sont des constructions ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Golem de chair",
+    "Armure animée",
+    "Homoncule",
+    "Gargouille",
+    "Zombie"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Golem de chair, armure animée et homoncule sont des constructions ; gargouille et zombie non.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gol-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces golems ont un FP d’au moins 9 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Golem d’argile",
+    "Golem de pierre",
+    "Golem de fer",
+    "Golem de chair",
+    "Armure animée"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "FP : argile 9, pierre 10, fer 16 ; chair 5 et armure animée 1.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "gol-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces golems sont soignés par un type de dégâts ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Golem de chair",
+    "Golem de fer",
+    "Golem d’argile",
+    "Golem de pierre",
+    "Armure animée"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Chair : foudre ; fer : feu ; argile : acide. Pierre et armure animée n’ont pas ce trait.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "gol-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces golems par FP croissant.",
+   "items": [
+    "Armure animée",
+    "Golem de chair",
+    "Golem d’argile",
+    "Golem de pierre",
+    "Golem de fer"
+   ],
+   "expl": "FP : armure animée 1, chair 5, argile 9, pierre 10, fer 16.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "gol-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces golems par points de vie moyens croissants.",
+   "items": [
+    "Golem de chair",
+    "Golem d’argile",
+    "Golem de pierre",
+    "Golem de fer"
+   ],
+   "expl": "PV moyens : chair 93, argile 133, pierre 178, fer 210.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "gol-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque golem au dégât qui le soigne.",
+   "paires": [
+    [
+     "Golem de chair",
+     "Foudre"
+    ],
+    [
+     "Golem de fer",
+     "Feu"
+    ],
+    [
+     "Golem d’argile",
+     "Acide"
+    ],
+    [
+     "Golem de pierre",
+     "Aucun"
+    ]
+   ],
+   "expl": "Chair : foudre ; fer : feu ; argile : acide ; pierre ne se soigne pas par un type de dégâts.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "gol-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque construction à sa description.",
+   "paires": [
+    [
+     "Golem de chair",
+     "Cadavres assemblés"
+    ],
+    [
+     "Armure animée",
+     "Armure qui attaque"
+    ],
+    [
+     "Homoncule",
+     "Minuscule serviteur"
+    ],
+    [
+     "Épée volante",
+     "Arme animée"
+    ]
+   ],
+   "expl": "Chaque construction possède une silhouette ou une fonction propre.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gol-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une construction.\n2. Mon corps est fait de morceaux de cadavres.\n3. La foudre me soigne.",
+   "choix": [
+    "Golem de chair",
+    "Zombie",
+    "Golem d’argile",
+    "Ghoule"
+   ],
+   "rep": 0,
+   "expl": "Le golem de chair puise sa force dans la foudre.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
+   "id": "gol-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une construction de FP 16.\n2. Je crache un gaz empoisonné.\n3. Le feu me soigne.",
+   "choix": [
+    "Golem de fer",
+    "Golem de pierre",
+    "Golem d’argile",
+    "Gardien-bouclier"
+   ],
+   "rep": 0,
+   "expl": "Le golem de fer est le plus puissant des golems du Manuel des Monstres.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
+   "id": "gol-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un soldat artificiel.\n2. Je suis né de la Guerre du Dernier Jour.\n3. Mon corps est fait de bois, de pierre et de métal.",
+   "choix": [
+    "Forgé",
+    "Changelin",
+    "Kalashtar",
+    "Homoncule"
+   ],
+   "rep": 0,
+   "expl": "Les forgés sont des constructions vivantes d’Eberron.",
+   "src": "Eberron: Rising from the Last War (2019)",
+   "id": "gol-086",
+   "conf": "probable",
+   "concept": "nv_qui"
   }
- ]
+ ],
+ "sources": []
 }

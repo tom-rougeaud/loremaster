@@ -27,6 +27,7 @@ function endGame(early){
   var rk={};ranking.forEach(function(x,i){var p=G.players[x.id];rk[x.id]=[i+1,p.score,p.ok,nq,p.best,p.free,p.wire];});
   var en={t:"en",m:G.mode,pod:pod,rk:rk,win:win,nq:nq,np:plist().length,title:title};
   if(G.mode==="duel")en.tn=G.teams.map(function(t){return t.n;}),en.ts=G.tscore.slice();
+  if(G.mode==="boss"){en.ba=Math.round(G.boss.A/Math.max(1,nq));en.bm=Math.round(G.boss.M/Math.max(1,nq));sub+=" · par question : aventuriers "+fmtInt(en.ba)+" pts en moyenne, MJ "+fmtInt(en.bm)+" pts";}
   G.lastEn=en;send(en);
   saveHistory(early,nq,rate,title);
   hostPing(false);snapshot();

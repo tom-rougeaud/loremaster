@@ -1,0 +1,1425 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "dragons-dnd",
+  "nom": "Dragons de D&D",
+  "royaume": "Bestiaire de D&D",
+  "icone": "dragon"
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "niveau": 1,
+   "concept": "rouge_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel est le type de souffle du dragon rouge ?",
+   "choix": [
+    "Acide",
+    "Foudre",
+    "Feu",
+    "Froid"
+   ],
+   "rep": 2,
+   "expl": "Le dragon rouge (chromatique) crache un cône de feu : 60 pieds (18 m) pour un adulte, 90 pieds (27 m) pour un ancien. C’est le plus puissant des dragons chromatiques.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge »",
+   "id": "dra-001",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "noir_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel est le type de souffle du dragon noir ?",
+   "choix": [
+    "Poison",
+    "Acide",
+    "Foudre",
+    "Froid"
+   ],
+   "rep": 1,
+   "expl": "Le dragon noir expire de l’acide, projeté en une ligne ; il vit dans les marais et chasse ses proies depuis les eaux boueuses.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon noir »",
+   "id": "dra-002",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "bleu_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel est le type de souffle du dragon bleu ?",
+   "choix": [
+    "Feu",
+    "Acide",
+    "Poison",
+    "Foudre"
+   ],
+   "rep": 3,
+   "expl": "Le dragon bleu crache de la foudre, en ligne ; son repaire est souvent un désert ou une côte aride, où la tempête gronde.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon bleu »",
+   "id": "dra-003",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "blanc_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dragon chromatique crache du froid ?",
+   "choix": [
+    "Blanc",
+    "Vert",
+    "Noir",
+    "Rouge"
+   ],
+   "rep": 0,
+   "expl": "Le dragon blanc souffle un cône de froid ; c’est le moins intelligent des chromatiques, qui vit dans les régions glaciales.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon blanc »",
+   "id": "dra-004",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "vert_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel est le type de souffle du dragon vert ?",
+   "choix": [
+    "Acide",
+    "Foudre",
+    "Poison",
+    "Feu"
+   ],
+   "rep": 2,
+   "expl": "Le dragon vert expire un cône de gaz empoisonné ; il vit dans les forêts anciennes et adore les intrigues.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon vert »",
+   "id": "dra-005",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "blanc_habitat",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel milieu est associé au dragon blanc ?",
+   "choix": [
+    "Déserts brûlants",
+    "Régions glaciales",
+    "Marais",
+    "Forêts"
+   ],
+   "rep": 1,
+   "expl": "Le dragon blanc vit dans les régions glaciales et arctiques, où il est immunisé au froid.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon blanc »",
+   "id": "dra-006",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "noir_habitat",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel milieu est associé au dragon noir ?",
+   "choix": [
+    "Montagnes volcaniques",
+    "Déserts",
+    "Marais",
+    "Banquise"
+   ],
+   "rep": 2,
+   "expl": "Le dragon noir hante les marais et les marécages brumeux, d’où il surgit pour attaquer.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon noir »",
+   "id": "dra-007",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "vert_habitat",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel milieu est associé au dragon vert ?",
+   "choix": [
+    "Forêts",
+    "Déserts",
+    "Banquise",
+    "Récifs"
+   ],
+   "rep": 0,
+   "expl": "Le dragon vert vit dans les forêts anciennes et denses, qu’il considère comme son domaine.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon vert »",
+   "id": "dra-008",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "bleu_habitat",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel milieu est associé au dragon bleu ?",
+   "choix": [
+    "Banquise",
+    "Marécages",
+    "Déserts",
+    "Forêts denses"
+   ],
+   "rep": 2,
+   "expl": "Le dragon bleu règne sur les déserts et les côtes arides, d’où il surgit au milieu des tempêtes de sable.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon bleu »",
+   "id": "dra-009",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "tiamat",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle divinité est la reine des dragons chromatiques ?",
+   "choix": [
+    "Bahamut",
+    "Lolth",
+    "Pelor",
+    "Tiamat"
+   ],
+   "rep": 3,
+   "expl": "Tiamat, déesse à cinq têtes (une par couleur), est la reine des dragons chromatiques ; elle apparaît dans l’aventure Tyrannie des dragons.",
+   "src": "Fizban’s Treasury of Dragons (2021), chap. 1 ; Manuel des Monstres 5e, « Dragons »",
+   "id": "dra-010",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "bahamut",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle divinité est le roi des dragons métalliques ?",
+   "choix": [
+    "Tiamat",
+    "Asmodeus",
+    "Bahamut",
+    "Vecna"
+   ],
+   "rep": 2,
+   "expl": "Bahamut, le Dragon de platine, est le roi des dragons métalliques et l’ennemi de Tiamat.",
+   "src": "Fizban’s Treasury of Dragons (2021), chap. 1",
+   "id": "dra-011",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "argent_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quels sont les deux souffles du dragon d’argent ?",
+   "choix": [
+    "Froid et paralysie",
+    "Feu et sommeil",
+    "Acide et ralentissement",
+    "Foudre et répulsion"
+   ],
+   "rep": 0,
+   "expl": "Le dragon d’argent possède un souffle de froid (cône) et un souffle paralysant (cône de gaz).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon d’argent »",
+   "id": "dra-012",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "or_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quels sont les deux souffles du dragon d’or ?",
+   "choix": [
+    "Foudre et répulsion",
+    "Feu et affaiblissement",
+    "Froid et paralysie",
+    "Acide et ralentissement"
+   ],
+   "rep": 1,
+   "expl": "Le dragon d’or crache du feu (cône) et un souffle d’affaiblissement (gaz qui diminue la Force).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon d’or »",
+   "id": "dra-013",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "airain_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dragon métallique possède un souffle de sommeil ?",
+   "choix": [
+    "Cuivre",
+    "Bronze",
+    "Argent",
+    "Airain"
+   ],
+   "rep": 3,
+   "expl": "Le dragon d’airain a un souffle de feu (ligne) et un souffle de sommeil (cône).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon d’airain »",
+   "id": "dra-014",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "cuivre_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dragon métallique possède un souffle d’acide et un souffle de ralentissement ?",
+   "choix": [
+    "Dragon d’or",
+    "Dragon de cuivre",
+    "Dragon d’argent",
+    "Dragon de bronze"
+   ],
+   "rep": 1,
+   "expl": "Le dragon de cuivre crache une ligne d’acide et un cône de ralentissement.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon de cuivre »",
+   "id": "dra-015",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "bronze_souffle",
+   "type": "qcm",
+   "q": "Dans D&D 5e, parmi les dragons métalliques, lequel possède un souffle de foudre ?",
+   "choix": [
+    "Dragon d’or",
+    "Dragon d’airain",
+    "Dragon d’argent",
+    "Dragon de bronze"
+   ],
+   "rep": 3,
+   "expl": "Le dragon de bronze crache la foudre (ligne) et un souffle de répulsion ; il aime les côtes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon de bronze »",
+   "id": "dra-016",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "stades_min",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel est le plus jeune stade de vie d’un dragon ?",
+   "choix": [
+    "Jeune",
+    "Adulte",
+    "Ancien",
+    "Dragonnet"
+   ],
+   "rep": 3,
+   "expl": "L’ordre est dragonnet (wyrmling), jeune, adulte, ancien ; les dragonnets sortent de l’œuf.",
+   "src": "Manuel des Monstres 5e (2014), chap. « Dragons »",
+   "id": "dra-017",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "stades_suite",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel stade suit « jeune » dans la vie d’un dragon ?",
+   "choix": [
+    "Dragonnet",
+    "Ancien",
+    "Adulte",
+    "Vénérable"
+   ],
+   "rep": 2,
+   "expl": "Après le stade jeune vient le stade adulte, puis ancien ; le stade « vénérable » appartient à d’anciennes éditions.",
+   "src": "Manuel des Monstres 5e (2014), chap. « Dragons »",
+   "id": "dra-018",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "taille_ancien",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle catégorie de taille a un dragon ancien ?",
+   "choix": [
+    "Grande",
+    "Gigantesque",
+    "Très grande",
+    "Colossale"
+   ],
+   "rep": 1,
+   "expl": "Un dragon ancien est de taille Gigantesque (Gargantuan), la plus grande catégorie de créatures.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge ancien »",
+   "id": "dra-019",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "draconique",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle langue est propre aux dragons et à leurs serviteurs ?",
+   "choix": [
+    "L’elfique",
+    "Le draconique",
+    "Le nain",
+    "Le sylvestre"
+   ],
+   "rep": 1,
+   "expl": "Le draconique est la langue des dragons ; les kobolds et les drakéides le parlent aussi.",
+   "src": "SRD 5.1, « Languages » et « Adult Red Dragon »",
+   "id": "dra-020",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "kobolds",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelles créatures vénèrent traditionnellement les dragons ?",
+   "choix": [
+    "Les halflings",
+    "Les nains",
+    "Les kobolds",
+    "Les ents"
+   ],
+   "rep": 2,
+   "expl": "Les kobolds vouent un culte aux dragons, qu’ils considèrent comme leurs dieux ; ils fortifient leurs repaires.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold » ; Volo’s Guide to Monsters (2016)",
+   "id": "dra-021",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "pseudodragon_taille",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle est la taille du pseudo-dragon ?",
+   "choix": [
+    "Petite",
+    "Moyenne",
+    "Grande",
+    "Minuscule"
+   ],
+   "rep": 3,
+   "expl": "Le pseudo-dragon est de taille Minuscule ; il peut servir de familier à un personnage.",
+   "src": "SRD 5.1, « Pseudodragon »",
+   "id": "dra-022",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "tortue_dragon",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel est le souffle de la tortue-dragon ?",
+   "choix": [
+    "Poison",
+    "Vapeur",
+    "Foudre",
+    "Acide"
+   ],
+   "rep": 1,
+   "expl": "La tortue-dragon expire un cône de vapeur brûlante (60 pieds, soit 18 m).",
+   "src": "SRD 5.1, « Dragon Turtle »",
+   "id": "dra-023",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "wyverne",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle arme empoisonnée la wyverne utilise-t-elle ?",
+   "choix": [
+    "Une griffe",
+    "Un souffle",
+    "Un dard venimeux",
+    "Une toile"
+   ],
+   "rep": 2,
+   "expl": "La wyverne frappe de son dard venimeux (Piqûre), qui inflige du poison ; elle vole et plonge sur sa proie.",
+   "src": "SRD 5.1, « Wyvern »",
+   "id": "dra-024",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "gemmes",
+   "type": "qcm",
+   "q": "Dans D&D 5e, lequel de ces dragons est un dragon de gemme ?",
+   "choix": [
+    "Dragon d’airain",
+    "Dragon de cuivre",
+    "Dragon d’améthyste",
+    "Dragon vert"
+   ],
+   "rep": 2,
+   "expl": "Les dragons de gemme (améthyste, cristal, émeraude, saphir, topaze) sont décrits dans Fizban’s Treasury of Dragons (2021).",
+   "src": "Fizban’s Treasury of Dragons (2021), chap. 3",
+   "id": "dra-025",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "dracoliche",
+   "type": "qcm",
+   "q": "Dans D&D 5e, que devient un dragon transformé en dracoliche ?",
+   "choix": [
+    "Un élémentaire",
+    "Un fiélon",
+    "Une fée",
+    "Un mort-vivant"
+   ],
+   "rep": 3,
+   "expl": "La dracoliche est un dragon mort-vivant, créé par un rituel de nécromancie ; il garde ses souvenirs et ses pouvoirs.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dracoliche »",
+   "id": "dra-026",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "drakeides",
+   "type": "qcm",
+   "q": "Dans D&D 5e, comment s’appelle le peuple humanoïde à écailles qui descend des dragons ?",
+   "choix": [
+    "Gnolls",
+    "Drakéides",
+    "Kenku",
+    "Tritons"
+   ],
+   "rep": 1,
+   "expl": "Les drakéides (dragonborn) sont jouables : leur arme de souffle dépend de leur ascendance draconique.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
+   "id": "dra-027",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "presence_terrifiante",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel état inflige la capacité « Présence terrifiante » d’un dragon ?",
+   "choix": [
+    "Aveuglé",
+    "Effrayé",
+    "Paralysé",
+    "Endormi"
+   ],
+   "rep": 1,
+   "expl": "Les créatures qui échouent leur jet de Sagesse sont effrayées pendant 1 minute et peuvent retenter le jet à la fin de chacun de leurs tours.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge adulte »",
+   "id": "dra-028",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "alignement_chromatique",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel est l’alignement général des dragons chromatiques ?",
+   "choix": [
+    "Bon",
+    "Neutre strict",
+    "Mauvais",
+    "Chaotique bon"
+   ],
+   "rep": 2,
+   "expl": "Ils sont généralement mauvais : ils sont cruels, avides et vaniteux.",
+   "src": "Manuel des Monstres 5e (2014), chap. « Dragons chromatiques »",
+   "id": "dra-029",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "alignement_metallique",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel est l’alignement général des dragons métalliques ?",
+   "choix": [
+    "Mauvais",
+    "Neutre strict",
+    "Chaotique mauvais",
+    "Bon"
+   ],
+   "rep": 3,
+   "expl": "Ils sont généralement bons : ils protègent les faibles et s’opposent aux chromatiques.",
+   "src": "Manuel des Monstres 5e (2014), chap. « Dragons métalliques »",
+   "id": "dra-030",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "actions_legendaires",
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle capacité permet à un dragon ancien d’agir en dehors de son tour ?",
+   "choix": [
+    "Actions bonus",
+    "Réactions",
+    "Actions légendaires",
+    "Furie"
+   ],
+   "rep": 2,
+   "expl": "Les actions légendaires (Legendary Actions) lui donnent jusqu’à 3 actions à la fin du tour d’un autre acteur.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge ancien »",
+   "id": "dra-031",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "vert_souffle_vf",
+   "type": "vf",
+   "q": "Dans D&D 5e, le dragon vert crache du feu.",
+   "rep": false,
+   "expl": "Faux : il crache un cône de gaz empoisonné ; le feu est le souffle du dragon rouge.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon vert »",
+   "id": "dra-032",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "or_metallique",
+   "type": "vf",
+   "q": "Dans D&D 5e, le dragon d’or est un dragon métallique.",
+   "rep": true,
+   "expl": "Vrai : avec airain, bronze, cuivre et argent, il fait partie des cinq dragons métalliques.",
+   "src": "Manuel des Monstres 5e (2014), chap. « Dragons métalliques »",
+   "id": "dra-033",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "bahamut_platine",
+   "type": "vf",
+   "q": "Dans D&D 5e, Bahamut est surnommé le Dragon d’or.",
+   "rep": false,
+   "expl": "Faux : Bahamut est le Dragon de platine ; le dragon d’or est un dragon métallique parmi d’autres.",
+   "src": "Fizban’s Treasury of Dragons (2021), chap. 1",
+   "id": "dra-034",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "tiamat_bonne",
+   "type": "vf",
+   "q": "Dans D&D 5e, Tiamat est une divinité d’alignement bon.",
+   "rep": false,
+   "expl": "Faux : Tiamat est une déesse mauvaise, reine des dragons chromatiques.",
+   "src": "Fizban’s Treasury of Dragons (2021), chap. 1",
+   "id": "dra-035",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "recharge_souffle",
+   "type": "vf",
+   "q": "Dans D&D 5e, le souffle d’un dragon adulte se recharge sur un résultat de 5 ou 6 au d6.",
+   "rep": true,
+   "expl": "Vrai : son souffle est « Recharge 5-6 », à tirer à chaque tour du dragon.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge adulte »",
+   "id": "dra-036",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "actions_leg_ancien",
+   "type": "vf",
+   "q": "Dans D&D 5e, les dragons anciens disposent d’actions légendaires.",
+   "rep": true,
+   "expl": "Vrai : les anciens ont des actions légendaires et des actions de repaire.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge ancien »",
+   "id": "dra-037",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "blanc_foudre",
+   "type": "vf",
+   "q": "Dans D&D 5e, le dragon blanc crache de la foudre.",
+   "rep": false,
+   "expl": "Faux : le dragon blanc crache du froid ; la foudre est le souffle du dragon bleu.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon blanc »",
+   "id": "dra-038",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "pseudodragon_magie",
+   "type": "vf",
+   "q": "Dans D&D 5e, le pseudo-dragon n’a aucune résistance à la magie.",
+   "rep": false,
+   "expl": "Faux : il possède Résistance à la magie, qui donne l’avantage aux jets de sauvegarde contre les sorts.",
+   "src": "SRD 5.1, « Pseudodragon »",
+   "id": "dra-039",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "argent_metallique",
+   "type": "vf",
+   "q": "Dans D&D 5e, le dragon d’argent est un dragon chromatique.",
+   "rep": false,
+   "expl": "Faux : c’est un dragon métallique ; les chromatiques sont blanc, noir, vert, bleu et rouge.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon d’argent »",
+   "id": "dra-040",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "tortue_type",
+   "type": "vf",
+   "q": "Dans D&D 5e, la tortue-dragon est classée dans le type « dragon ».",
+   "rep": true,
+   "expl": "Vrai : malgré sa forme de tortue, elle est de type dragon.",
+   "src": "SRD 5.1, « Dragon Turtle »",
+   "id": "dra-041",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "rouge_taille",
+   "type": "vf",
+   "q": "Dans D&D 5e, un dragon rouge adulte est de taille Très grande.",
+   "rep": true,
+   "expl": "Vrai : l’adulte est Très grand (Huge) ; l’ancien est Gigantesque.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge adulte »",
+   "id": "dra-042",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "dragonnet_fp",
+   "type": "vf",
+   "q": "Dans D&D 5e, un dragonnet est plus dangereux (FP plus élevé) qu’un dragon jeune de la même couleur.",
+   "rep": false,
+   "expl": "Faux : le FP augmente avec l’âge, dragonnet < jeune < adulte < ancien.",
+   "src": "Manuel des Monstres 5e (2014), chap. « Dragons »",
+   "id": "dra-043",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "noir_marais",
+   "type": "vf",
+   "q": "Dans D&D 5e, le dragon noir vit dans les déserts.",
+   "rep": false,
+   "expl": "Faux : le dragon noir vit dans les marais et marécages.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon noir »",
+   "id": "dra-044",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "cuivre_farces",
+   "type": "vf",
+   "q": "Dans D&D 5e, les dragons de cuivre sont réputés pour leur goût des farces et des énigmes.",
+   "rep": true,
+   "expl": "Vrai : ils aiment les plaisanteries et les devinettes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon de cuivre »",
+   "id": "dra-045",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "argent_humanoide",
+   "type": "vf",
+   "q": "Dans D&D 5e, les dragons d’argent aiment prendre forme humanoïde.",
+   "rep": true,
+   "expl": "Vrai : ils apprécient la compagnie des humanoïdes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon d’argent »",
+   "id": "dra-046",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "fp_ancien_adulte",
+   "type": "vf",
+   "q": "Dans D&D 5e, un dragon ancien a un FP plus élevé qu’un dragon adulte de la même couleur.",
+   "rep": true,
+   "expl": "Vrai : le dragon rouge ancien est de FP 24, l’adulte de FP 17.",
+   "src": "Manuel des Monstres 5e (2014), entrées « Dragon rouge »",
+   "id": "dra-047",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "kobolds_vf",
+   "type": "vf",
+   "q": "Dans D&D 5e, les kobolds sont des dragons à part entière.",
+   "rep": false,
+   "expl": "Faux : ce sont de petits humanoïdes reptiliens qui vénèrent les dragons.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "id": "dra-048",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "vision_aveugle",
+   "type": "vf",
+   "q": "Dans D&D 5e, les dragons adultes possèdent la vision aveugle.",
+   "rep": true,
+   "expl": "Vrai : 60 pieds (18 m) de vision aveugle et 120 pieds de vision dans le noir.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge adulte »",
+   "id": "dra-049",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "ftd_gemmes",
+   "type": "vf",
+   "q": "Les dragons de gemme sont décrits dans Fizban’s Treasury of Dragons (D&D 5e).",
+   "rep": true,
+   "expl": "Vrai : ce supplément de 2021 présente les dragons de gemme.",
+   "src": "Fizban’s Treasury of Dragons (2021), chap. 3",
+   "id": "dra-050",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "bleu_ligne",
+   "type": "vf",
+   "q": "Dans D&D 5e, le souffle du dragon bleu est un cône de froid.",
+   "rep": false,
+   "expl": "Faux : le dragon bleu souffle de la foudre en ligne ; le froid est l’affaire du dragon blanc.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon bleu adulte »",
+   "id": "dra-051",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "rouge_cone",
+   "type": "vf",
+   "q": "Dans D&D 5e, le souffle du dragon rouge est une ligne d’acide.",
+   "rep": false,
+   "expl": "Faux : le dragon rouge souffle un cône de feu ; l’acide est la spécialité du dragon noir.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge »",
+   "id": "dra-052",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "bronze_mer",
+   "type": "vf",
+   "q": "Dans D&D 5e, les dragons de bronze apprécient les côtes et la mer.",
+   "rep": true,
+   "expl": "Vrai : ils habitent les falaises côtières et sont amphibies.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon de bronze »",
+   "id": "dra-053",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "tiamat_tetes",
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de têtes Tiamat possède-t-elle ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "têtes",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Cinq têtes, une par couleur chromatique : blanc, noir, vert, bleu, rouge.",
+   "src": "Fizban’s Treasury of Dragons (2021), chap. 1",
+   "id": "dra-054",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "nb_chromatiques",
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de types de dragons chromatiques existe-t-il ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "types",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Cinq : blanc, noir, vert, bleu, rouge.",
+   "src": "Manuel des Monstres 5e (2014), chap. « Dragons chromatiques »",
+   "id": "dra-055",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "nb_metalliques",
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de types de dragons métalliques existe-t-il ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "types",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Cinq : airain, bronze, cuivre, or, argent.",
+   "src": "Manuel des Monstres 5e (2014), chap. « Dragons métalliques »",
+   "id": "dra-056",
+   "conf": "probable"
+  },
+  {
+   "niveau": 1,
+   "concept": "nb_stades",
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de stades de vie compte un dragon ?",
+   "min": 1,
+   "max": 8,
+   "pas": 1,
+   "unite": "stades",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "Quatre : dragonnet, jeune, adulte, ancien.",
+   "src": "Manuel des Monstres 5e (2014), chap. « Dragons »",
+   "id": "dra-057",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "legendaires_nb",
+   "type": "slider",
+   "q": "Dans D&D 5e, combien d’actions légendaires par tour un dragon rouge ancien peut-il utiliser ?",
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "actions",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Trois : Détection, Attaque de queue, Attaque d’aile (coût 2).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge ancien »",
+   "id": "dra-058",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "res_legendaire",
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de fois par jour un dragon rouge ancien peut-il utiliser Résistance légendaire ?",
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "fois/jour",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "3 fois par jour : il peut transformer un jet de sauvegarde raté en réussite.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge ancien »",
+   "id": "dra-059",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "fp_rouge_ancien",
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du dragon rouge ancien ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 24,
+   "expl": "FP 24 : 546 PV et un souffle de 26d6.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
+   "id": "dra-060",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "fp_rouge_adulte",
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du dragon rouge adulte ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 17,
+   "expl": "FP 17 : 256 PV et un souffle de 18d6.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
+   "id": "dra-061",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "pv_rouge_adulte",
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un dragon rouge adulte (à 10 près) ?",
+   "min": 50,
+   "max": 600,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 10,
+   "rep": 256,
+   "expl": "256 PV (19d12 + 133).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
+   "id": "dra-062",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "pv_rouge_ancien",
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un dragon rouge ancien (à 20 près) ?",
+   "min": 100,
+   "max": 800,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 20,
+   "rep": 546,
+   "expl": "546 PV (28d20 + 252).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
+   "id": "dra-063",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "cone_adulte",
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la longueur du cône de feu d’un dragon rouge adulte (en pieds, à 5 près) ?",
+   "min": 0,
+   "max": 150,
+   "pas": 5,
+   "unite": "pieds",
+   "tolerance": 5,
+   "rep": 60,
+   "expl": "60 pieds (18 m) de longueur.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
+   "id": "dra-064",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "cone_ancien",
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la longueur du cône de feu d’un dragon rouge ancien (en pieds, à 5 près) ?",
+   "min": 0,
+   "max": 150,
+   "pas": 5,
+   "unite": "pieds",
+   "tolerance": 5,
+   "rep": 90,
+   "expl": "90 pieds (27 m) de longueur.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
+   "id": "dra-065",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "ca_ancien",
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la classe d’armure du dragon rouge ancien ?",
+   "min": 10,
+   "max": 30,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 22,
+   "expl": "CA 22, grâce à ses écailles (armure naturelle).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
+   "id": "dra-066",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "ca_adulte",
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la classe d’armure du dragon rouge adulte ?",
+   "min": 10,
+   "max": 30,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 19,
+   "expl": "CA 19, grâce à ses écailles (armure naturelle).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
+   "id": "dra-067",
+   "conf": "probable"
+  },
+  {
+   "niveau": 2,
+   "concept": "annee_dnd",
+   "type": "slider",
+   "q": "En quelle année Donjons & Dragons, le jeu dont sont issus ces dragons, a-t-il été publié pour la première fois ?",
+   "min": 1960,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1974,
+   "expl": "En 1974 chez TSR (Gary Gygax et Dave Arneson).",
+   "src": "Jon Peterson, Playing at the World (2012), chap. 9 ; SRD 5.1, préface",
+   "id": "dra-068",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "dd_adulte",
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le DD du jet de Dextérité contre le souffle d’un dragon rouge adulte ?",
+   "min": 10,
+   "max": 30,
+   "pas": 1,
+   "unite": "DD",
+   "tolerance": 0,
+   "rep": 21,
+   "expl": "DD 21 : le souffle inflige 18d6 dégâts de feu.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
+   "id": "dra-069",
+   "conf": "probable"
+  },
+  {
+   "niveau": 3,
+   "concept": "dd_ancien",
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le DD du jet de Dextérité contre le souffle d’un dragon rouge ancien ?",
+   "min": 10,
+   "max": 30,
+   "pas": 1,
+   "unite": "DD",
+   "tolerance": 0,
+   "rep": 24,
+   "expl": "DD 24 : le souffle inflige 26d6 dégâts de feu.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
+   "id": "dra-070",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lequel de ces dragons n’est pas un dragon chromatique ?",
+   "choix": [
+    "Dragon d’or",
+    "Dragon rouge",
+    "Dragon bleu",
+    "Dragon noir"
+   ],
+   "rep": 0,
+   "expl": "Le dragon d’or est un dragon métallique (bon). Les cinq chromatiques sont le rouge, le bleu, le vert, le noir et le blanc.",
+   "src": "Manuel des Monstres 5e (2014), chapitre « Dragons »",
+   "id": "dra-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces dragons ne crache pas de feu ?",
+   "choix": [
+    "Dragon de bronze",
+    "Dragon rouge",
+    "Dragon d’or",
+    "Dragon d’airain"
+   ],
+   "rep": 0,
+   "expl": "Le dragon de bronze crache de la foudre. Les dragons rouge, d’or et d’airain ont tous un souffle de feu.",
+   "src": "Manuel des Monstres 5e (2014), entrées des dragons de bronze, rouge, d’or et d’airain",
+   "id": "dra-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Dans D&D 5e, laquelle de ces créatures n’est pas de type « dragon » ?",
+   "choix": [
+    "Hydre",
+    "Wyverne",
+    "Pseudo-dragon",
+    "Tortue-dragon"
+   ],
+   "rep": 0,
+   "expl": "L’hydre est une monstruosité. La wyverne, le pseudo-dragon et la tortue-dragon sont bien de type dragon.",
+   "src": "Manuel des Monstres 5e (2014), entrées « Hydre », « Wyverne », « Pseudo-dragon », « Tortue-dragon »",
+   "id": "dra-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le dragon d’argent possède deux souffles : un cône de froid et un souffle de gaz ____.",
+   "choix": [
+    "paralysant",
+    "ralentissant",
+    "répulsif",
+    "endormant"
+   ],
+   "rep": 0,
+   "expl": "Le gaz paralysant est celui du dragon d’argent. Le ralentissement est celui du cuivre, la répulsion celle du bronze, le sommeil celui de l’airain.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon d’argent »",
+   "id": "dra-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la ____ est un cousin du dragon à deux pattes, dont la queue est armée d’un dard venimeux.",
+   "choix": [
+    "wyverne",
+    "hydre",
+    "chimère",
+    "manticore"
+   ],
+   "rep": 0,
+   "expl": "La wyverne est une créature de type dragon, à deux pattes et deux ailes, dont le dard de queue est empoisonné.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Wyverne »",
+   "id": "dra-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, les quatre stades de vie d’un dragon sont : dragonnet, jeune, adulte, puis ____.",
+   "choix": [
+    "ancien",
+    "vénérable",
+    "suprême",
+    "légendaire"
+   ],
+   "rep": 0,
+   "expl": "Les dragons passent par les stades de dragonnet, jeune dragon, dragon adulte et dragon ancien.",
+   "src": "Manuel des Monstres 5e (2014), chapitre « Dragons »",
+   "id": "dra-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lesquels de ces dragons sont chromatiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rouge",
+    "Bleu",
+    "Blanc",
+    "Argent",
+    "Bronze"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Rouge, bleu et blanc sont chromatiques, comme le noir et le vert. L’argent et le bronze sont des dragons métalliques.",
+   "src": "Manuel des Monstres 5e (2014), chapitre « Dragons »",
+   "id": "dra-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quels dragons métalliques ont un souffle de feu ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dragon d’or",
+    "Dragon d’airain",
+    "Dragon de cuivre",
+    "Dragon de bronze",
+    "Dragon d’argent"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "expl": "Or et airain crachent du feu. Le cuivre crache de l’acide, le bronze de la foudre, l’argent du froid.",
+   "src": "Manuel des Monstres 5e (2014), entrées des dragons métalliques",
+   "id": "dra-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quels dragons chromatiques ont un souffle en cône (et non en ligne) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rouge",
+    "Vert",
+    "Blanc",
+    "Bleu",
+    "Noir"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Les dragons rouge, vert et blanc soufflent en cône ; les dragons bleu (foudre) et noir (acide) soufflent en ligne.",
+   "src": "Manuel des Monstres 5e (2014), entrées des dragons chromatiques",
+   "id": "dra-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Remets dans l’ordre les stades de vie d’un dragon, du plus jeune au plus ancien.",
+   "items": [
+    "Dragonnet",
+    "Jeune dragon",
+    "Dragon adulte",
+    "Dragon ancien"
+   ],
+   "expl": "Le dragon grandit de dragonnet à ancien, et sa puissance (FP) augmente à chaque stade.",
+   "src": "Manuel des Monstres 5e (2014), chapitre « Dragons »",
+   "id": "dra-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces créatures de la plus petite à la plus grande catégorie de taille.",
+   "items": [
+    "Pseudo-dragon",
+    "Dragonnet rouge",
+    "Jeune dragon rouge",
+    "Dragon rouge adulte",
+    "Dragon rouge ancien"
+   ],
+   "expl": "Tailles : minuscule (pseudo-dragon), moyenne (dragonnet), grande (jeune), très grande (adulte), gigantesque (ancien).",
+   "src": "Manuel des Monstres 5e (2014), entrées « Pseudo-dragon » et « Dragon rouge »",
+   "id": "dra-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque dragon chromatique à son type de souffle.",
+   "paires": [
+    [
+     "Dragon rouge",
+     "Feu"
+    ],
+    [
+     "Dragon bleu",
+     "Foudre"
+    ],
+    [
+     "Dragon noir",
+     "Acide"
+    ],
+    [
+     "Dragon blanc",
+     "Froid"
+    ]
+   ],
+   "expl": "Rouge = feu, bleu = foudre, noir = acide, blanc = froid (et vert = poison).",
+   "src": "Manuel des Monstres 5e (2014), entrées des dragons chromatiques",
+   "id": "dra-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dragon métallique à son souffle « spécial » (non destructeur).",
+   "paires": [
+    [
+     "Dragon d’argent",
+     "Paralysie"
+    ],
+    [
+     "Dragon d’or",
+     "Affaiblissement"
+    ],
+    [
+     "Dragon d’airain",
+     "Sommeil"
+    ],
+    [
+     "Dragon de cuivre",
+     "Ralentissement"
+    ]
+   ],
+   "expl": "Chaque dragon métallique a un second souffle qui handicape plutôt qu’il ne blesse.",
+   "src": "Manuel des Monstres 5e (2014), entrées des dragons métalliques",
+   "id": "dra-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dragon chromatique à son milieu de prédilection.",
+   "paires": [
+    [
+     "Dragon blanc",
+     "Régions glaciales"
+    ],
+    [
+     "Dragon noir",
+     "Marais"
+    ],
+    [
+     "Dragon vert",
+     "Forêts"
+    ],
+    [
+     "Dragon bleu",
+     "Déserts"
+    ]
+   ],
+   "expl": "Blanc : froid polaire ; noir : marais ; vert : forêts ; bleu : déserts ; rouge : montagnes et volcans.",
+   "src": "Manuel des Monstres 5e (2014), entrées des dragons chromatiques",
+   "id": "dra-084",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un dragon chromatique.\n2. Mon souffle est un cône de feu.\n3. Orgueilleux et cupide, je vis dans les montagnes et les volcans.",
+   "choix": [
+    "Dragon rouge",
+    "Dragon d’or",
+    "Dragon bleu",
+    "Dragon blanc"
+   ],
+   "rep": 0,
+   "expl": "Le dragon rouge est le plus puissant et le plus orgueilleux des chromatiques.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge »",
+   "id": "dra-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dragon, mais je mesure à peine trente centimètres.\n2. Ma queue se termine par un dard venimeux.\n3. Je communique par télépathie et je sers volontiers de familier à un magicien.",
+   "choix": [
+    "Pseudo-dragon",
+    "Wyverne",
+    "Dragon-fée",
+    "Dragonnet rouge"
+   ],
+   "rep": 0,
+   "expl": "Le pseudo-dragon est un minuscule dragon télépathe, doté d’un dard venimeux et d’une résistance à la magie.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Pseudo-dragon »",
+   "id": "dra-086",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis de type dragon, mais j’ai la forme d’une gigantesque tortue.\n2. Je vis dans les profondeurs océaniques et j’adore l’or.\n3. Mon souffle est un cône de vapeur brûlante.",
+   "choix": [
+    "Tortue-dragon",
+    "Hydre",
+    "Kraken",
+    "Wyverne"
+   ],
+   "rep": 0,
+   "expl": "La tortue-dragon fait chavirer les navires et amasse de l’or ; son souffle est de la vapeur.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
+   "id": "dra-087",
+   "conf": "probable",
+   "concept": "nv_qui"
+  }
+ ],
+ "sources": [
+  "Manuel des Monstres 5e (2014), entrée « Dragon rouge »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon noir »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon bleu »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon blanc »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon vert »",
+  "Fizban’s Treasury of Dragons (2021), chap. 1 ; Manuel des Monstres 5e, « Dragons »",
+  "Fizban’s Treasury of Dragons (2021), chap. 1",
+  "Manuel des Monstres 5e (2014), entrée « Dragon d’argent »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon d’or »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon d’airain »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon de cuivre »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon de bronze »",
+  "Manuel des Monstres 5e (2014), chap. « Dragons »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon rouge ancien »",
+  "SRD 5.1, « Languages » et « Adult Red Dragon »",
+  "Manuel des Monstres 5e (2014), entrée « Kobold » ; Volo’s Guide to Monsters (2016)",
+  "SRD 5.1, « Pseudodragon »",
+  "SRD 5.1, « Dragon Turtle »",
+  "SRD 5.1, « Wyvern »",
+  "Fizban’s Treasury of Dragons (2021), chap. 3",
+  "Manuel des Monstres 5e (2014), entrée « Dracoliche »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon rouge adulte »",
+  "Manuel des Monstres 5e (2014), chap. « Dragons chromatiques »",
+  "Manuel des Monstres 5e (2014), chap. « Dragons métalliques »",
+  "Manuel des Monstres 5e (2014), entrées « Dragon rouge »",
+  "Manuel des Monstres 5e (2014), entrée « Kobold »",
+  "Manuel des Monstres 5e (2014), entrée « Dragon bleu adulte »",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge ancien",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dragon rouge adulte",
+  "Jon Peterson, Playing at the World (2012), chap. 9 ; SRD 5.1, préface"
+ ]
+}

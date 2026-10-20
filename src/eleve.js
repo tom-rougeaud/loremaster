@@ -163,7 +163,7 @@ function onMsg(m){
   if(!m||typeof m!=="object")return;
   if(!S.ch)return;   /* donjon quittée : on ignore les derniers messages en route */
   if(m.to&&m.to!==S.pid)return;
-  if(m.t==="q"||m.t==="rv"||m.t==="cd"||m.t==="en"||m.t==="ru")markActive();
+  if(m.t==="q"||m.t==="rv"||m.t==="cd"||m.t==="en"||m.t==="ru"||m.t==="dv")markActive();
   switch(m.t){
     case "lb":S.lb=m;S.mode=m.m;var me=(m.pl||[]).filter(function(x){return x[0]===S.pid;})[0];if(me)S.team=me[2];
       if(m.ph==="lobby"&&(S.phase==="q"||S.phase==="rv"||S.phase==="cd")){clearInterval(S.timer);S.rules=false;S.phase="lobby";show("s-lobby");}
@@ -173,20 +173,22 @@ function onMsg(m){
       break;
     case "wt":
       S.mode=m.m;S.score=m.sc||0;S.team=m.team;S.lb=m.lb||S.lb;
-      if(m.ph==="q"&&m.q){showQuestion(m.q,m.done);}
+      if(m.ph==="dv"&&m.dv){showVote(m.dv);}
+      else if(m.ph==="q"&&m.q){showQuestion(m.q,m.done);}
       else if(m.ph==="rv"&&m.rv){showReveal(m.rv);}
       else if(m.ph==="end"&&m.en){showEnd(m.en);}
       else{S.phase=m.ph==="cd"?"lobby":m.ph;renderLobby();show("s-lobby");}
       break;
     case "cd":S.rules=false;S.phase="cd";S.score=0;S.round=(S.round||0)+1;countdown();break;
     case "q":showQuestion(m,false);break;
+    case "dv":showVote(m);break;
     case "tx":if(S.q&&m.i===S.q.i){S.q.end+=m.add||30000;}break;
     case "lk":if(S.q&&m.i===S.q.i)lockQ();break;
     case "rv":showReveal(m);break;
     case "en":showEnd(m);break;
     case "kick":kicked(m.why==="host"?"Un autre téléphone du MJ a pris la main.":"Le MJ t’a retiré du donjon.");break;
     case "rn":S.pseudo=m.p;var ss=store.get("sess",null);if(ss){ss.pseudo=m.p;store.set("sess",ss);}store.set("pseudo",m.p);toast("Le MJ a changé ton nom : « "+m.p+" ».");if(S.screen==="s-lobby")renderLobby();break;
-    case "ru":S.phase="lobby";showRulesCard(m.m,{sm:m.sm,rd:m.rd,hd:m.hd,hpen:m.hpen,fk:m.fk});break;
+    case "ru":S.phase="lobby";showRulesCard(m.m,{sm:m.sm,rd:m.rd,hd:m.hd,hpen:m.hpen,fk:m.fk,pr:m.pr,ml:m.ml,dd:m.dd});break;
     case "no":
       if(m.why==="full"){kicked(JOIN_ERR.full);}
       else if(m.why==="pseudo"){leaveRoom(true);gotoPseudo();psErr(JOIN_ERR.pseudo_taken);}
@@ -247,7 +249,7 @@ function countdown(){
 /* q = {i,N,q,kd,ch|sl,dur,rem?,vf} ; done = réponse déjà envoyée */
 function pubKind(q){return q.kd||(q.vf?"vf":"qcm");}
 function themeTag(q){var it=q&&q.id&&ITEM_BY_ID[q.id];return it?themeChip(it.titre,it.id)+(q.n?lvlTag(q.n):""):"";}
-function pubTag(q){var k=pubKind(q);return kindTagHtml({kind:k==="slider"?"slider":undefined,vf:k==="vf"})+themeTag(q);}
+function pubTag(q){var k=pubKind(q);return kindTagHtml({kind:(k==="vf"||k==="qcm")?undefined:k,vf:k==="vf",pr:q.pr})+themeTag(q);}
 function showQuestion(q,done){
   clearInterval(S.timer);
   S.phase="q";S.q=q;S.ans=done?{done:true}:null;S.typed="";
@@ -263,7 +265,10 @@ function showQuestion(q,done){
   $("q-txt").classList.remove("hasfig");
   $("q-sent").classList.add("hidden");$("q-sent").classList.remove("late");
   $("q-wid").classList.add("hidden");$("q-wid").classList.remove("off");
-  if(kd==="slider"){
+  S.bet=false;$("q-bet").classList.add("hidden");
+  var spec=!!(q.dd&&q.dd.ch&&q.dd.ch.indexOf(S.pid)<0&&!S.train);   /* duel direct : seuls les deux champions répondent */
+  if(q.dd){$("q-txt").innerHTML='<div class="dd-b">'+ICO.swords+"Duel direct : "+esc((q.dd.na||[]).join(" contre "))+"</div>"+$("q-txt").innerHTML;}
+  if(kd==="slider"||isList(kd)){
     $("q-ans").classList.add("hidden");$("q-free").classList.add("hidden");$("q-wid").classList.remove("hidden");
     buildWidget(q);
   }else{
@@ -272,7 +277,9 @@ function showQuestion(q,done){
     a.className="answers"+(long?" long":"")+((q.ch.length===2&&long)||vlong||(long&&!document.body.classList.contains("v-pc"))?" one":"");
     a.innerHTML=q.ch.map(function(c,k){return '<button type="button" class="ab a'+k+'" data-k="'+k+'"><span class="sh">'+SHAPES[k]+"</span><span>"+rt(c)+"</span></button>";}).join("");
   }
-  if(done){sentMsg("Réponse envoyée ✓ — attends la correction");$("q-ans").classList.add("off");$("q-free").classList.add("hidden");$("q-wid").classList.add("hidden");}
+  if(q.pr&&!done&&!spec&&!S.host){$("q-bet").classList.remove("hidden");drawBet();}
+  if(spec){S.ans={spec:true};$("q-ans").classList.add("hidden");$("q-wid").classList.add("hidden");sentMsg("Tu regardes le duel : encourage ton champion !");}
+  if(done){sentMsg("Réponse envoyée ✓ — attends la correction");$("q-ans").classList.add("off");$("q-free").classList.add("hidden");$("q-wid").classList.add("hidden");$("q-bet").classList.add("hidden");}
   setReading(!done&&Date.now()<q.start);
   show("s-q");
   S.timer=setInterval(tickQ,200);tickQ();
@@ -284,7 +291,7 @@ function setReading(on){
   $("q-read").classList.toggle("hidden",!on);
   $("q-read").lastElementChild.textContent=hw?"Handicap du MJ : la question arrive dans un instant…":"Lis bien l’énoncé, les propositions arrivent…";
   document.querySelector("#s-q .q-card").classList.toggle("reading",!!hw);
-  ["q-ans","q-free","q-wid"].forEach(function(id){$(id).classList.toggle("reading",on);});
+  ["q-ans","q-free","q-wid","q-bet"].forEach(function(id){$(id).classList.toggle("reading",on);});
 }
 function tickQ(){
   var q=S.q;if(!q)return;
@@ -299,7 +306,7 @@ function tickQ(){
 function sentMsg(t,late){var s=$("q-sent");s.textContent=t;s.classList.remove("hidden");s.classList.toggle("late",!!late);}
 function lockQ(){
   clearInterval(S.timer);
-  if(!S.ans){S.ans={none:true};$("q-ans").classList.add("off");$("q-free").classList.add("hidden");$("q-wid").classList.add("hidden");sentMsg("Temps écoulé !",true);}
+  if(!S.ans){S.ans={none:true};$("q-ans").classList.add("off");$("q-free").classList.add("hidden");$("q-wid").classList.add("hidden");$("q-bet").classList.add("hidden");sentMsg("Temps écoulé !",true);}
 }
 function answerFx(ms,rem,tot,silent){
   var t=S.q&&S.q.sm==="juste"?"":ms<Math.min(0.25*tot,6000)?"fast":(rem<=3000&&tot>=10000)?"wire":"";
@@ -317,23 +324,47 @@ $("q-ans").addEventListener("click",function(e){
   if(rem<-500)return;
   S.ans={k:k,ms:ms};b.classList.add("pick");$("q-ans").classList.add("off");
   var fx=answerFx(ms,rem,q.end-q.start,!!S.train);S.ans.fx=fx;
+  S.ans.bet=!!S.bet;$("q-bet").classList.add("hidden");
   if(S.train)trainAnswer(k,null);
-  else{sendAns({t:"an",i:q.i,k:k,ms:ms});sentMsg(fx==="fast"?"Réponse éclair envoyée ⚡":"Réponse envoyée ✓ — attends la correction");}
+  else{sendAns({t:"an",i:q.i,k:k,ms:ms,bet:S.bet?1:0});sentMsg(fx==="fast"?"Réponse éclair envoyée ⚡":"Réponse envoyée ✓ — attends la correction");}
 });
+/* pari : ×2 si juste, −BET_LOSS points si faux (se choisit avant de répondre) */
+function drawBet(){$("q-bet").innerHTML='<button type="button" class="betb'+(S.bet?" on":"")+'" id="q-betb" aria-pressed="'+(S.bet?"true":"false")+'">'+ICO.dice+"<span><b>"+(S.bet?"Pari posé !":"Parier sur cette question")+"</b><small>×2 si tu as juste · −"+BET_LOSS+" pts si tu te trompes</small></span></button>";}
+$("q-bet").addEventListener("click",function(e){if(!e.target.closest("#q-betb")||S.ans||reading())return;S.bet=!S.bet;vibrate(15);drawBet();});
 
-/* ─── tuiles, ordre, curseur ─── */
+
+/* ─── curseur, réponses multiples, ordre, association ─── */
 var WG=null;
 function buildWidget(q){
-  var sl=q.sl,mid=sl.min+(sl.max-sl.min)/2;
-  WG={k:"slider",q:q,v:rd(sl.min+Math.round((mid-sl.min)/sl.step)*sl.step,6),moved:false};
+  var kd=pubKind(q);
+  if(kd==="slider"){var sl=q.sl,mid=sl.min+(sl.max-sl.min)/2;WG={k:"slider",q:q,v:rd(sl.min+Math.round((mid-sl.min)/sl.step)*sl.step,6),moved:false};}
+  else if(kd==="multi")WG={k:"multi",q:q,sel:[]};
+  else if(kd==="ordre")WG={k:"ordre",q:q,seq:[]};
+  else WG={k:"assoc",q:q,v:q.lf.map(function(){return -1;}),cur:0};
   drawWidget();
 }
 function wValid(on,txt){return '<button type="button" class="btn btn-go btn-big btn-block w-ok" id="w-ok"'+(on?"":" disabled")+">"+ICO.check+(txt||"Valider")+"</button>";}
+function wRow(k,txt,cls,badge,attr){return '<button type="button" class="wrow'+(cls?" "+cls:"")+'" '+attr+'="'+k+'"><span class="sh">'+SHAPES[k]+'</span><span class="wt">'+rt(txt)+'</span><span class="wb">'+(badge||"")+"</span></button>";}
 function drawWidget(){
   if(!WG)return;
-  var sl=WG.q.sl,h='<div class="wsl"><div class="wsl-v" id="wsl-v">'+esc(fmtSl(sl,WG.v))+'</div><div class="wsl-r"><input type="range" id="wsl" min="'+sl.min+'" max="'+sl.max+'" step="'+sl.step+'" value="'+WG.v+'" aria-label="Ton estimation"></div>'+
-    '<div class="sc-ticks">'+slTicks(sl).map(function(v,i){return '<span style="left:'+(i*25)+'%">'+esc(f(v,sl.d))+"</span>";}).join("")+"</div>"+
-    '<div class="wsl-b"><button type="button" class="ibtn" data-sl="-1" aria-label="Diminuer">−</button><span class="small muted">Glisse le curseur sur ton estimation</span><button type="button" class="ibtn" data-sl="1" aria-label="Augmenter">+</button></div></div>'+wValid(true,"Valider mon estimation");
+  var q=WG.q,h="";
+  if(WG.k==="slider"){
+    var sl=q.sl;
+    h='<div class="wsl"><div class="wsl-v" id="wsl-v">'+esc(fmtSl(sl,WG.v))+'</div><div class="wsl-r"><input type="range" id="wsl" min="'+sl.min+'" max="'+sl.max+'" step="'+sl.step+'" value="'+WG.v+'" aria-label="Ton estimation"></div>'+
+      '<div class="sc-ticks">'+slTicks(sl).map(function(v,i){return '<span style="left:'+(i*25)+'%">'+esc(f(v,sl.d))+"</span>";}).join("")+"</div>"+
+      '<div class="wsl-b"><button type="button" class="ibtn" data-sl="-1" aria-label="Diminuer">−</button><span class="small muted">Glisse le curseur sur ton estimation</span><button type="button" class="ibtn" data-sl="1" aria-label="Augmenter">+</button></div></div>'+wValid(true,"Valider mon estimation");
+  }else if(WG.k==="multi"){
+    h='<div class="wlist"><p class="small muted center">Touche toutes les bonnes réponses, puis valide.</p>'+q.ch.map(function(c,k){var on=WG.sel.indexOf(k)>=0;return wRow(k,c,on?"on":"",on?ICO.check:"","data-m");}).join("")+"</div>"+
+      wValid(WG.sel.length>0,WG.sel.length?"Valider ("+WG.sel.length+" choisie"+(WG.sel.length>1?"s":"")+")":"Choisis au moins une réponse");
+  }else if(WG.k==="ordre"){
+    var n=q.ch.length;
+    h='<div class="wlist"><p class="small muted center">Touche les éléments <b>dans l’ordre</b> demandé. Retouche-en un pour l’enlever.</p>'+q.ch.map(function(c,k){var r=WG.seq.indexOf(k);return wRow(k,c,r>=0?"on":"",r>=0?String(r+1):"","data-o");}).join("")+"</div>"+
+      '<div class="wbtns"><button type="button" class="btn btn-ghost" id="w-clr"'+(WG.seq.length?"":" disabled")+">Tout effacer</button></div>"+wValid(WG.seq.length===n,WG.seq.length===n?"Valider mon ordre":"Encore "+(n-WG.seq.length)+" à placer");
+  }else{
+    var cur=WG.cur,all=WG.v.every(function(x){return x>=0;});
+    h='<div class="wassoc"><p class="small muted center">Touche un terme, puis sa correspondance.</p><div class="wa-left">'+q.lf.map(function(l,i){var v=WG.v[i];return '<button type="button" class="wa-l'+(i===cur?" cur":"")+(v>=0?" done":"")+'" data-l="'+i+'"><span class="n">'+(i+1)+'</span><span class="t">'+rt(l)+'</span><span class="m">'+(v>=0?SHAPES[v]:"?")+"</span></button>";}).join("")+"</div>"+
+      '<div class="wa-hint">Correspondance de « '+esc(q.lf[cur])+' » :</div><div class="wlist">'+q.ch.map(function(c,k){var used=WG.v.indexOf(k);return wRow(k,c,used>=0?(used===cur?"on":"used"):"",used>=0?String(used+1):"","data-r");}).join("")+"</div></div>"+wValid(all,all?"Valider mes associations":"Associe tous les termes");
+  }
   $("q-wid").innerHTML=h;
 }
 function nudge(dir){
@@ -345,18 +376,38 @@ $("q-wid").addEventListener("click",function(e){
   if(!WG||S.ans)return;
   var b=e.target.closest("button");if(!b)return;
   if(b.id==="w-ok"){submitWidget();return;}
+  if(reading())return;
   if(b.hasAttribute("data-sl")){nudge(+b.getAttribute("data-sl"));vibrate(6);return;}
+  if(b.hasAttribute("data-m")){var k=+b.getAttribute("data-m"),i=WG.sel.indexOf(k);if(i>=0)WG.sel.splice(i,1);else WG.sel.push(k);vibrate(8);drawWidget();return;}
+  if(b.hasAttribute("data-o")){var k2=+b.getAttribute("data-o"),j=WG.seq.indexOf(k2);if(j>=0)WG.seq.splice(j,1);else WG.seq.push(k2);vibrate(8);drawWidget();return;}
+  if(b.id==="w-clr"){WG.seq=[];drawWidget();return;}
+  if(b.hasAttribute("data-l")){WG.cur=+b.getAttribute("data-l");vibrate(6);drawWidget();return;}
+  if(b.hasAttribute("data-r")){
+    var r=+b.getAttribute("data-r"),prev=WG.v.indexOf(r);
+    if(prev>=0)WG.v[prev]=-1;
+    WG.v[WG.cur]=r;
+    var nx=-1;for(var d=1;d<=WG.v.length;d++){var t=(WG.cur+d)%WG.v.length;if(WG.v[t]<0){nx=t;break;}}
+    if(nx>=0)WG.cur=nx;
+    vibrate(10);drawWidget();return;
+  }
 });
 $("q-wid").addEventListener("input",function(e){
   if(e.target.id!=="wsl"||!WG)return;
   WG.v=rd(+e.target.value,6);WG.moved=true;$("wsl-v").textContent=fmtSl(WG.q.sl,WG.v);
 });
 $("q-wid").addEventListener("keydown",function(e){if(e.target.id==="wsl"&&e.key==="Enter"){e.preventDefault();submitWidget();}});
+function widgetValue(){
+  if(!WG)return null;
+  if(WG.k==="slider")return WG.v;
+  if(WG.k==="multi")return WG.sel.slice().sort(function(a,b){return a-b;});
+  if(WG.k==="ordre")return WG.seq.length===WG.q.ch.length?WG.seq.slice():null;
+  return WG.v.every(function(x){return x>=0;})?WG.v.slice():null;
+}
 function submitWidget(){
   if(!WG||S.ans||!S.q||reading())return;
   var q=S.q,now=Date.now(),ms=now-q.start,rem=q.end-now;if(rem<-500)return;
-  var v=WG.v;
-  S.ans={v:v,ms:ms};
+  var v=widgetValue();if(v===null||(WG.k==="multi"&&!v.length))return;
+  S.ans={v:v,ms:ms,bet:false};
   var fx=answerFx(ms,rem,q.end-q.start,!!S.train);S.ans.fx=fx;
   $("q-wid").classList.add("off");
   if(S.train)trainAnswer(-1,v);
@@ -369,6 +420,33 @@ function revealDetail(m){
   return '<div class="card rv-info rv-det">'+scaleHtml(q.sl,{zone:{a:m.cor.a,t:m.cor.t},ans:m.cor.a,me:typeof a==="number"?a:undefined})+'<p class="small muted center">Zone verte : tous les points. Zone orange : la moitié des points.</p></div>';
 }
 
+
+/* ═══ DUEL DIRECT : chaque guilde vote pour son champion ═══ */
+function showVote(m){
+  clearInterval(S.timer);S.phase="vote";S.vote={m:m,end:Date.now()+m.dur,pick:null};
+  var mine=S.team===m.a||S.team===m.b,other=S.team===m.a?m.na[1]:m.na[0];
+  $("v-tag").innerHTML=ICO.swords+"Duel direct";
+  $("v-t").textContent=mine?"Vote pour ton champion !":"Un duel va avoir lieu";
+  $("v-sub").textContent=mine?"Ta guilde envoie un représentant contre « "+other+" ». Touche le nom de celui ou celle qui doit la défendre (toi compris).":m.na[0]+" contre "+m.na[1]+" : chaque guilde choisit son champion. Regarde l’écran du MJ !";
+  renderVote();show("s-vote");
+  S.timer=setInterval(function(){
+    var rem=Math.max(0,Math.ceil((S.vote.end-Date.now())/1000));
+    $("v-sec").textContent=rem>0?"Fin du vote dans "+rem+" s":"Les votes sont clos…";
+    if(rem<=0)clearInterval(S.timer);
+  },250);
+}
+function renderVote(){
+  var v=S.vote;if(!v)return;
+  var mine=S.team===v.m.a||S.team===v.m.b;
+  if(!mine){$("v-list").innerHTML="";return;}
+  var mem=(S.lb&&S.lb.pl||[]).filter(function(x){return x[2]===S.team;});
+  $("v-list").innerHTML=mem.map(function(x){return '<button type="button" class="vbtn'+(v.pick===x[0]?" on":"")+'" data-id="'+esc(x[0])+'">'+(x[0]===S.pid?"<b>"+esc(x[1])+"</b> (toi)":esc(x[1]))+"</button>";}).join("");
+}
+$("v-list").addEventListener("click",function(e){
+  var b=e.target.closest(".vbtn");if(!b||!S.vote||Date.now()>S.vote.end)return;
+  S.vote.pick=b.getAttribute("data-id");sendAns({t:"dvote",k:S.vote.pick});vibrate(20);SND.pop();renderVote();
+});
+
 /* ═══ 5. CORRECTION ═══ */
 function showReveal(m){
   clearInterval(S.timer);
@@ -378,10 +456,12 @@ function showReveal(m){
   if(!S.train&&!S.host&&S.q&&S.q.id&&S.q.i===m.i&&r){S.qlog=S.qlog||[];if(!S.qlog.some(function(x){return x[3]===S.round+"|"+m.i;}))S.qlog.push([S.q.id,st===1?1:0,1,S.round+"|"+m.i,qType(S.q)]);}
   if(r)S.score=r[2];
   var card=$("rv-card"),cls=st===1?"ok":st===2?"pa":st===0?"ko":"na",kd=S.q?pubKind(S.q):"qcm",det=revealDetail(m);
-  card.className="rv-card "+cls;
-  card.innerHTML='<div class="ic">'+(st===1?ICO.check:st===2?ICO.star:st===0?ICO.cross:ICO.clock)+"</div><h2>"+(st===1?pick2(["Bravo !","Exact !","Bien joué !","Parfait !"]):st===2?pick2(["Presque !","Pas loin !","Tout près !"]):st===0?pick2(["Raté…","Pas cette fois","Presque…"]):"Pas de réponse")+"</h2>"+
-    (S.host?'<div class="pts">'+(st===1?"Dégâts infligés à la jauge des aventuriers !":st===0||st===2?"Votre jauge de vie baisse…":"Pas de dégâts infligés")+"</div>":(st===1||st===2)&&pts>0?'<div class="pts">+'+fmtInt(pts)+" pts"+(st===2?" (points partiels)":"")+"</div>":"")+
+  var specR=!!(S.ans&&S.ans.spec);
+  card.className="rv-card "+(specR?"na":cls);
+  card.innerHTML='<div class="ic">'+(specR?ICO.swords:st===1?ICO.check:st===2?ICO.star:st===0?ICO.cross:ICO.clock)+"</div><h2>"+(specR?"Le duel est terminé":st===1?pick2(["Bravo !","Exact !","Bien joué !","Parfait !"]):st===2?pick2(["Presque !","Pas loin !","Tout près !"]):st===0?pick2(["Raté…","Pas cette fois","Presque…"]):"Pas de réponse")+"</h2>"+
+    (S.host?'<div class="pts">'+(m.boss&&m.boss.m?"Vous marquez "+fmtInt(m.boss.m)+" pts contre les aventuriers":st===1?"Bien joué !":"Aucun point marqué cette fois")+"</div>":(st===1||st===2)&&pts>0?'<div class="pts">+'+fmtInt(pts)+" pts"+(st===2?" (points partiels)":r&&r[6]?" (pari doublé !)":"")+"</div>":pts<0?'<div class="pts neg">−'+fmtInt(-pts)+" pts (pari perdu)</div>":"")+(!S.host&&r&&r[7]?'<div class="pts bonus">+'+r[7]+" pts de bonus : plus rapide que le MJ !</div>":"")+
     (r&&r[3]>=2?'<div class="streak">'+ICO.flame+"Série de "+r[3]+"</div>":"")+
+    (m.dd?'<div class="pts">'+(m.dd.w<0?"Égalité dans le duel":esc(m.dd.nw)+" remporte le duel (+"+DD_WIN+" pts pour la guilde)")+"</div>":"")+
     (st!==1?'<div class="rv-good"><small>La bonne réponse</small><span class="v">'+rt(m.at)+"</span></div>":"");
   var x=(themeTag(S.q)?'<div class="rv-meta rv-info">'+themeTag(S.q)+"</div>":"")+det;
   if(m.ex)x+='<details class="acc rv-info"><summary>Voir l’explication</summary><div class="acc-b">'+rt(m.ex)+(m.sr?'<div class="rv-src">Source : '+esc(m.sr)+"</div>":"")+"</div></details>";
@@ -392,6 +472,7 @@ function showReveal(m){
   }
   if(S.mode==="boss"&&m.boss){
     x+='<div class="mini-boss rv-info"><span>Aventuriers</span><div class="hp"><i style="width:'+m.boss.pc+'%"></i></div><b>'+m.boss.pc+'</b><span>MJ</span><div class="hp boss"><i style="width:'+m.boss.pp+'%"></i></div><b>'+m.boss.pp+"</b></div>";
+    if(m.boss.a!==undefined)x+='<div class="center small muted rv-info" style="margin-top:.3rem">Cette question : aventuriers <b>'+fmtInt(m.boss.a)+"</b> pts en moyenne · MJ <b>"+fmtInt(m.boss.m)+"</b> pts</div>";
   }
   x+='<div class="center muted small" style="margin-top:.6rem">'+(S.host?"":"Score : <b>"+fmtInt(S.score)+" pts</b> · ")+m.rate+" % des aventuriers ont trouvé</div>";
   $("rv-extra").innerHTML=x;
@@ -417,7 +498,7 @@ function showEnd(m){
   if(r){
     me='<div class="rk">'+r[0]+(r[0]===1?"ᵉʳ":"ᵉ")+"</div><div><b>"+fmtInt(r[1])+" pts</b> · "+r[2]+" / "+r[3]+" bonnes réponses</div>";
     if(m.m==="duel"&&m.ts){var best=m.ts.indexOf(Math.max.apply(null,m.ts));me+='<div class="muted" style="margin-top:.3rem">'+(best===S.team?"Ta guilde a gagné !":"Guilde gagnante : "+esc((m.tn||[])[best]||""))+"</div>";}
-    if(m.m==="boss")me+='<div class="muted" style="margin-top:.3rem">'+(m.win==="class"?"Les aventuriers ont gagné !":"Le MJ a gagné cette fois.")+"</div>";
+    if(m.m==="boss")me+='<div class="muted" style="margin-top:.3rem">'+(m.win==="class"?"Les aventuriers ont gagné !":"Le MJ a gagné cette fois.")+(m.ba!==undefined?" Par question : aventuriers "+fmtInt(m.ba)+" pts en moyenne, MJ "+fmtInt(m.bm)+" pts.":"")+"</div>";
   }else me='<div class="muted">Partie terminée.</div>';
   $("end-me").innerHTML=me;
   $("end-prog").innerHTML="";
@@ -462,7 +543,7 @@ function renderTrain(){
   if(TR.chap&&TR.chap!=="__rev"&&!ths.some(function(it){return it.id===TR.chap;}))TR.chap="";
   $("tr-chap").innerHTML=(wk.length?'<option value="__rev"'+(TR.chap==="__rev"?" selected":"")+">★ À revoir : mes "+wk.length+" thème"+(wk.length>1?"s":"")+" fragile"+(wk.length>1?"s":"")+"</option>":"")+'<option value=""'+(TR.chap===""?" selected":"")+'>Tous les thèmes</option>'+ths.map(function(it){return '<option value="'+it.id+'"'+(TR.chap===it.id?" selected":"")+">"+esc(it.titre)+"</option>";}).join("");
   $("tr-nq").innerHTML=[5,10,20].map(function(n){return '<button type="button" data-v="'+n+'"'+(TR.nq===n?' class="on"':"")+">"+n+"</button>";}).join("");
-  $("tr-fmt").innerHTML=[["mix","Mixte"],["c","QCM"],["v","Vrai ou faux"],["s","Curseur"]].map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(TR.fmt===x[0]?' class="on"':"")+">"+x[1]+"</button>";}).join("");
+  $("tr-fmt").innerHTML=[["mix","Mixte"],["c","QCM"],["v","Vrai ou faux"],["s","Curseur"],["i","Intrus"],["h","Texte à trous"],["w","Qui suis-je ?"],["m","Réponses multiples"],["o","Remettre dans l’ordre"],["a","Association"]].map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(TR.fmt===x[0]?' class="on"':"")+">"+x[1]+"</button>";}).join("");
   $("tr-lv").innerHTML=[["all","Tous"],["1","★ Débutant"],["2","★★ Initié"],["3","★★★ Expert"]].map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(String(TR.lv)===x[0]?' class="on"':"")+">"+x[1]+"</button>";}).join("");
   $("tr-prog").checked=TR.prog&&TR.lv==="all";$("tr-prog").disabled=TR.lv!=="all";$("tr-dark").checked=TR.dark;
 }
@@ -482,6 +563,17 @@ function trainItems(){
 }
 function startTrain(){
   var items=trainItems();if(!items.length){toast("Aucun thème pour ce choix.","ko");return;}
+  /* « tous les thèmes » : 8 thèmes tirés au sort, pour ne charger que ce qui servira */
+  if(items.length>8)items=shuffle(Math.random,items).slice(0,8);
+  var b=$("tr-go");b.disabled=true;
+  ensureThemes(items.map(function(it){return it.id;}),function(err){
+    b.disabled=false;
+    items=items.filter(function(it){return it.Q&&it.Q.length;});
+    if(!items.length){toast(err?"Questions introuvables : vérifiez la connexion (les thèmes déjà joués restent disponibles hors ligne).":"Aucun thème pour ce choix.","ko");return;}
+    startTrainWith(items);
+  });
+}
+function startTrainWith(items){
   S.train={items:items,i:-1,N:TR.nq,lvl:(TR.lv&&TR.lv!=="all"?+TR.lv:1),up:0,dn:0,score:0,ok:0,streak:0,best:0,seen:{},hist:[],reached3:false,wire:false};
   S.score=0;S.mode="train";
   nextTrain();
@@ -491,7 +583,7 @@ function startTrain(){
 function trainPickQuestion(){
   var T=S.train,H=store.get("hist_tr",null);if(!H||typeof H!=="object"||!H.t)H={n:1,t:{}};
   var pool=[];
-  T.items.forEach(function(it){it.Q.forEach(function(q){if(!T.seen[q.i]&&(TR.fmt==="mix"||q.t===TR.fmt))pool.push({q:q,it:it,rank:H.t[q.i]||0});});});
+  T.items.forEach(function(it){(it.Q||[]).forEach(function(q){if(!T.seen[q.i]&&(TR.fmt==="mix"||q.t===TR.fmt))pool.push({q:q,it:it,rank:H.t[q.i]||0});});});
   if(!pool.length)return null;
   if(TR.lv&&TR.lv!=="all"){var L=+TR.lv,fl=pool.filter(function(p){return p.q.n===L;});if(fl.length<3)fl=pool.filter(function(p){return Math.abs(p.q.n-L)<=1;}).sort(function(a,b){return Math.abs(a.q.n-L)-Math.abs(b.q.n-L);}).slice(0,Math.max(6,fl.length));if(fl.length)pool=fl;}
   var cand=pool;
@@ -516,13 +608,14 @@ function nextTrain(){
 function trainAnswer(k,v){
   var T=S.train,q=T.cur;
   clearInterval(S.timer);
-  trainResult(judge(q,{k:k,v:v}),S.ans);
+  trainResult(judge(q,{k:k,v:cleanAns(q,v)===null&&!Array.isArray(v)?v:cleanAns(q,v)}),S.ans);
 }
 function trainTimeout(){if(S.ans)return;S.ans={none:true};trainResult(null,null);}
 function trainResult(res,a){
   var T=S.train,q=T.cur,pts=0,dur=(S.q.end-S.q.start)/1000,ok=res?res.ok:null,part=res?res.part:0;
-  if(ok){T.streak++;T.ok++;pts=Math.round(ptsFor(a.ms/1000,dur,T.streak)*kindMult(q));if(a.fx==="wire")T.wire=true;T.up++;T.dn=0;}
-  else{T.streak=0;T.dn++;T.up=0;if(part>0&&a)pts=Math.round(ptsFor(a.ms/1000,dur,0)*kindMult(q)*part);}
+  var bet=!!(a&&a.bet&&q.pari);
+  if(ok){T.streak++;T.ok++;pts=Math.round(ptsFor(a.ms/1000,dur,T.streak)*kindMult(q))*(bet?2:1);if(a.fx==="wire")T.wire=true;T.up++;T.dn=0;}
+  else{T.streak=0;T.dn++;T.up=0;if(part>0&&a)pts=Math.round(ptsFor(a.ms/1000,dur,0)*kindMult(q)*part);if(bet&&a)pts=-Math.min(BET_LOSS,T.score);}
   T.best=Math.max(T.best,T.streak);T.score+=pts;S.score=T.score;
   T.hist.push([q.id,ok?1:0,1,qType(q)]);
   var msg="";
@@ -530,7 +623,7 @@ function trainResult(res,a){
     if(T.up>=2&&T.lvl<3){T.lvl++;T.up=0;msg="Palier "+T.lvl+" débloqué !";if(T.lvl===3)T.reached3=true;}
     else if(T.dn>=2&&T.lvl>1){T.lvl--;T.dn=0;msg="On revient au palier "+T.lvl+" pour consolider.";}
   }
-  showReveal({i:T.i,rs:{me:[ok===null?-1:ok?1:part>0?2:0,pts,T.score,T.streak,0,""]},at:answerText(q),ex:q.expl,sr:q.src,rate:Math.round(100*T.ok/(T.i+1)),cor:qCorr(q)});
+  showReveal({i:T.i,pr:bet?1:0,rs:{me:[ok===null?-1:ok?1:part>0?2:0,pts,T.score,T.streak,0,""]},at:answerText(q),ex:q.expl,sr:q.src,rate:Math.round(100*T.ok/(T.i+1)),cor:qCorr(q)});
   $("rv-wait").classList.add("hidden");$("rv-next").classList.remove("hidden");
   $("tr-next").textContent=T.i+1>=T.N?"Voir mon bilan":"Question suivante";
   if(ok&&a&&a.fx)setTimeout(function(){playAnsFx(a.fx);},500);

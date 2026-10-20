@@ -1,0 +1,337 @@
+[
+ {
+  "type": "intrus",
+  "niveau": 1,
+  "q": "Dans D&D 5e, lequel de ces dragons n’est pas un dragon chromatique ?",
+  "choix": [
+   "Dragon d’or",
+   "Dragon rouge",
+   "Dragon bleu",
+   "Dragon noir"
+  ],
+  "rep": 0,
+  "expl": "Le dragon d’or est un dragon métallique (bon). Les cinq chromatiques sont le rouge, le bleu, le vert, le noir et le blanc.",
+  "src": "Manuel des Monstres 5e (2014), chapitre « Dragons »",
+  "id": "dra-071",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "intrus",
+  "niveau": 2,
+  "q": "Dans D&D 5e, lequel de ces dragons ne crache pas de feu ?",
+  "choix": [
+   "Dragon de bronze",
+   "Dragon rouge",
+   "Dragon d’or",
+   "Dragon d’airain"
+  ],
+  "rep": 0,
+  "expl": "Le dragon de bronze crache de la foudre. Les dragons rouge, d’or et d’airain ont tous un souffle de feu.",
+  "src": "Manuel des Monstres 5e (2014), entrées des dragons de bronze, rouge, d’or et d’airain",
+  "id": "dra-072",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "intrus",
+  "niveau": 3,
+  "q": "Dans D&D 5e, laquelle de ces créatures n’est pas de type « dragon » ?",
+  "choix": [
+   "Hydre",
+   "Wyverne",
+   "Pseudo-dragon",
+   "Tortue-dragon"
+  ],
+  "rep": 0,
+  "expl": "L’hydre est une monstruosité. La wyverne, le pseudo-dragon et la tortue-dragon sont bien de type dragon.",
+  "src": "Manuel des Monstres 5e (2014), entrées « Hydre », « Wyverne », « Pseudo-dragon », « Tortue-dragon »",
+  "id": "dra-073",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "trou",
+  "niveau": 2,
+  "q": "Dans D&D 5e, le dragon d’argent possède deux souffles : un cône de froid et un souffle de gaz ____.",
+  "choix": [
+   "paralysant",
+   "ralentissant",
+   "répulsif",
+   "endormant"
+  ],
+  "rep": 0,
+  "expl": "Le gaz paralysant est celui du dragon d’argent. Le ralentissement est celui du cuivre, la répulsion celle du bronze, le sommeil celui de l’airain.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Dragon d’argent »",
+  "id": "dra-074",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "trou",
+  "niveau": 2,
+  "q": "Dans D&D 5e, la ____ est un cousin du dragon à deux pattes, dont la queue est armée d’un dard venimeux.",
+  "choix": [
+   "wyverne",
+   "hydre",
+   "chimère",
+   "manticore"
+  ],
+  "rep": 0,
+  "expl": "La wyverne est une créature de type dragon, à deux pattes et deux ailes, dont le dard de queue est empoisonné.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Wyverne »",
+  "id": "dra-075",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "trou",
+  "niveau": 1,
+  "q": "Dans D&D 5e, les quatre stades de vie d’un dragon sont : dragonnet, jeune, adulte, puis ____.",
+  "choix": [
+   "ancien",
+   "vénérable",
+   "suprême",
+   "légendaire"
+  ],
+  "rep": 0,
+  "expl": "Les dragons passent par les stades de dragonnet, jeune dragon, dragon adulte et dragon ancien.",
+  "src": "Manuel des Monstres 5e (2014), chapitre « Dragons »",
+  "id": "dra-076",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "multi",
+  "niveau": 1,
+  "q": "Dans D&D 5e, lesquels de ces dragons sont chromatiques ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Rouge",
+   "Bleu",
+   "Blanc",
+   "Argent",
+   "Bronze"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "Rouge, bleu et blanc sont chromatiques, comme le noir et le vert. L’argent et le bronze sont des dragons métalliques.",
+  "src": "Manuel des Monstres 5e (2014), chapitre « Dragons »",
+  "id": "dra-077",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "multi",
+  "niveau": 2,
+  "q": "Dans D&D 5e, quels dragons métalliques ont un souffle de feu ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Dragon d’or",
+   "Dragon d’airain",
+   "Dragon de cuivre",
+   "Dragon de bronze",
+   "Dragon d’argent"
+  ],
+  "reps": [
+   0,
+   1
+  ],
+  "expl": "Or et airain crachent du feu. Le cuivre crache de l’acide, le bronze de la foudre, l’argent du froid.",
+  "src": "Manuel des Monstres 5e (2014), entrées des dragons métalliques",
+  "id": "dra-078",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "multi",
+  "niveau": 3,
+  "q": "Dans D&D 5e, quels dragons chromatiques ont un souffle en cône (et non en ligne) ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Rouge",
+   "Vert",
+   "Blanc",
+   "Bleu",
+   "Noir"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "Les dragons rouge, vert et blanc soufflent en cône ; les dragons bleu (foudre) et noir (acide) soufflent en ligne.",
+  "src": "Manuel des Monstres 5e (2014), entrées des dragons chromatiques",
+  "id": "dra-079",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "ordre",
+  "niveau": 1,
+  "q": "Remets dans l’ordre les stades de vie d’un dragon, du plus jeune au plus ancien.",
+  "items": [
+   "Dragonnet",
+   "Jeune dragon",
+   "Dragon adulte",
+   "Dragon ancien"
+  ],
+  "expl": "Le dragon grandit de dragonnet à ancien, et sa puissance (FP) augmente à chaque stade.",
+  "src": "Manuel des Monstres 5e (2014), chapitre « Dragons »",
+  "id": "dra-080",
+  "conf": "probable",
+  "concept": "nv_ordre"
+ },
+ {
+  "type": "ordre",
+  "niveau": 2,
+  "q": "Classe ces créatures de la plus petite à la plus grande catégorie de taille.",
+  "items": [
+   "Pseudo-dragon",
+   "Dragonnet rouge",
+   "Jeune dragon rouge",
+   "Dragon rouge adulte",
+   "Dragon rouge ancien"
+  ],
+  "expl": "Tailles : minuscule (pseudo-dragon), moyenne (dragonnet), grande (jeune), très grande (adulte), gigantesque (ancien).",
+  "src": "Manuel des Monstres 5e (2014), entrées « Pseudo-dragon » et « Dragon rouge »",
+  "id": "dra-081",
+  "conf": "probable",
+  "concept": "nv_ordre"
+ },
+ {
+  "type": "assoc",
+  "niveau": 1,
+  "q": "Associe chaque dragon chromatique à son type de souffle.",
+  "paires": [
+   [
+    "Dragon rouge",
+    "Feu"
+   ],
+   [
+    "Dragon bleu",
+    "Foudre"
+   ],
+   [
+    "Dragon noir",
+    "Acide"
+   ],
+   [
+    "Dragon blanc",
+    "Froid"
+   ]
+  ],
+  "expl": "Rouge = feu, bleu = foudre, noir = acide, blanc = froid (et vert = poison).",
+  "src": "Manuel des Monstres 5e (2014), entrées des dragons chromatiques",
+  "id": "dra-082",
+  "conf": "probable",
+  "concept": "nv_assoc"
+ },
+ {
+  "type": "assoc",
+  "niveau": 2,
+  "q": "Associe chaque dragon métallique à son souffle « spécial » (non destructeur).",
+  "paires": [
+   [
+    "Dragon d’argent",
+    "Paralysie"
+   ],
+   [
+    "Dragon d’or",
+    "Affaiblissement"
+   ],
+   [
+    "Dragon d’airain",
+    "Sommeil"
+   ],
+   [
+    "Dragon de cuivre",
+    "Ralentissement"
+   ]
+  ],
+  "expl": "Chaque dragon métallique a un second souffle qui handicape plutôt qu’il ne blesse.",
+  "src": "Manuel des Monstres 5e (2014), entrées des dragons métalliques",
+  "id": "dra-083",
+  "conf": "probable",
+  "concept": "nv_assoc"
+ },
+ {
+  "type": "assoc",
+  "niveau": 2,
+  "q": "Associe chaque dragon chromatique à son milieu de prédilection.",
+  "paires": [
+   [
+    "Dragon blanc",
+    "Régions glaciales"
+   ],
+   [
+    "Dragon noir",
+    "Marais"
+   ],
+   [
+    "Dragon vert",
+    "Forêts"
+   ],
+   [
+    "Dragon bleu",
+    "Déserts"
+   ]
+  ],
+  "expl": "Blanc : froid polaire ; noir : marais ; vert : forêts ; bleu : déserts ; rouge : montagnes et volcans.",
+  "src": "Manuel des Monstres 5e (2014), entrées des dragons chromatiques",
+  "id": "dra-084",
+  "conf": "probable",
+  "concept": "nv_assoc"
+ },
+ {
+  "type": "qui",
+  "niveau": 1,
+  "q": "Qui suis-je ?\n1. Je suis un dragon chromatique.\n2. Mon souffle est un cône de feu.\n3. Orgueilleux et cupide, je vis dans les montagnes et les volcans.",
+  "choix": [
+   "Dragon rouge",
+   "Dragon d’or",
+   "Dragon bleu",
+   "Dragon blanc"
+  ],
+  "rep": 0,
+  "expl": "Le dragon rouge est le plus puissant et le plus orgueilleux des chromatiques.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Dragon rouge »",
+  "id": "dra-085",
+  "conf": "probable",
+  "concept": "nv_qui"
+ },
+ {
+  "type": "qui",
+  "niveau": 2,
+  "q": "Qui suis-je ?\n1. Je suis un dragon, mais je mesure à peine trente centimètres.\n2. Ma queue se termine par un dard venimeux.\n3. Je communique par télépathie et je sers volontiers de familier à un magicien.",
+  "choix": [
+   "Pseudo-dragon",
+   "Wyverne",
+   "Dragon-fée",
+   "Dragonnet rouge"
+  ],
+  "rep": 0,
+  "expl": "Le pseudo-dragon est un minuscule dragon télépathe, doté d’un dard venimeux et d’une résistance à la magie.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Pseudo-dragon »",
+  "id": "dra-086",
+  "conf": "probable",
+  "concept": "nv_qui"
+ },
+ {
+  "type": "qui",
+  "niveau": 3,
+  "q": "Qui suis-je ?\n1. Je suis de type dragon, mais j’ai la forme d’une gigantesque tortue.\n2. Je vis dans les profondeurs océaniques et j’adore l’or.\n3. Mon souffle est un cône de vapeur brûlante.",
+  "choix": [
+   "Tortue-dragon",
+   "Hydre",
+   "Kraken",
+   "Wyverne"
+  ],
+  "rep": 0,
+  "expl": "La tortue-dragon fait chavirer les navires et amasse de l’or ; son souffle est de la vapeur.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
+  "id": "dra-087",
+  "conf": "probable",
+  "concept": "nv_qui"
+ }
+]

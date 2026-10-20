@@ -2,46 +2,15 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "sorts-magie-dnd",
-  "nom": "Sorts et écoles de magie (D&D)",
+  "nom": "Sorts célèbres et écoles de magie",
   "royaume": "Règles et univers de D&D",
   "icone": "etoile",
   "sombre": false
  },
- "sources": [
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Soins",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon ardent",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Résurrection",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Invisibilité",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Immobilisation de personne",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Charme-personne",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Téléportation",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Métamorphose",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation des morts",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Bouclier",
-  "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Écoles de magie",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Arrêt du temps",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Pluie de météores",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mot de pouvoir mortel",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Communication avec les animaux",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mur de feu",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon de givre",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Main du mage",
-  "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Sorts mineurs",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Magicien, Préparation des sorts »",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Magicien, Récupération arcanique »"
- ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
   "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
-  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
  },
  "questions": [
   {
@@ -49,7 +18,7 @@
    "concept": "sor-001",
    "niveau": 1,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 3 lance une boule de feu explosive ?",
+   "q": "Dans D&D 5e, quel sort de niveau 3 provoque une explosion de flammes de 6 m (20 pieds) de rayon ?",
    "choix": [
     "Boule de feu",
     "Mur de feu",
@@ -1084,5 +1053,6 @@
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mur de feu",
    "conf": "probable"
   }
- ]
+ ],
+ "sources": []
 }

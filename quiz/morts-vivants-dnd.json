@@ -2,42 +2,15 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "morts-vivants-dnd",
-  "nom": "Morts-vivants de D&D",
+  "nom": "Morts-vivants",
   "royaume": "Bestiaire de D&D",
   "icone": "crane",
   "sombre": true
  },
- "sources": [
-  "Manuel des Monstres 5e (2014), entrée « Liche »",
-  "Tomb of Horrors (TSR, 1978)",
-  "Vecna: Eve of Ruin (2024) / Dungeon Master’s Guide (2014), « Vecna »",
-  "Forgotten Realms Wiki, « Szass Tam »",
-  "Curse of Strahd (2016), chap. 1",
-  "Manuel des Monstres 5e (2014), entrée « Vampire »",
-  "Manuel des Monstres 5e (2014), entrée « Goule »",
-  "Manuel des Monstres 5e (2014), entrée « Fantôme »",
-  "Manuel des Monstres 5e (2014), entrée « Revenant »",
-  "Manuel des Monstres 5e (2014), entrée « Banshee »",
-  "Manuel des Monstres 5e (2014), entrée « Squelette »",
-  "Manuel des Monstres 5e (2014), entrée « Momie »",
-  "Manuel des Monstres 5e (2014), entrée « Mort-vivant »",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation des morts",
-  "Tomb of Annihilation (2017), « Acererak »",
-  "Manuel des Monstres 5e (2014), entrée « Zombie »",
-  "Manuel des Monstres 5e (2014), entrée « Chevalier de la mort »",
-  "Manuel des Monstres 5e (2014), entrée « Seigneur momie »",
-  "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
-  "Manuel des Monstres 5e (2014), Annexe « Seigneurs démons », Orcus",
-  "Manuel des Monstres 5e (2014), entrée « Rejeton vampirique »",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Communication avec les morts",
-  "Manuel des Monstres 5e (2014), entrée « Spectre »",
-  "I6 Ravenloft (TSR, 1983)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Clerc »"
- ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
   "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
-  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
  },
  "questions": [
   {
@@ -1079,6 +1052,332 @@
    "expl": "Le zombie a une CA de 8.",
    "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
    "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lequel de ces monstres n’est pas un mort-vivant ?",
+   "choix": [
+    "Golem de chair",
+    "Zombie",
+    "Squelette",
+    "Goule"
+   ],
+   "rep": 0,
+   "expl": "Le golem de chair est une créature artificielle (artificiel). Zombie, squelette et goule sont des morts-vivants.",
+   "src": "Manuel des Monstres 5e (2014), entrées « Golem de chair », « Zombie », « Squelette », « Goule »",
+   "id": "mor-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lequel de ces sorts n’est pas un sort de nécromancie ?",
+   "choix": [
+    "Détection du mal et du bien",
+    "Animation des morts",
+    "Communication avec les morts",
+    "Flétrissure"
+   ],
+   "rep": 0,
+   "expl": "Détection du mal et du bien appartient à l’école de divination ; les trois autres sont des sorts de nécromancie.",
+   "src": "Manuel des Joueurs 5e (2014), chapitre « Sorts »",
+   "id": "mor-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Parmi ces personnages de D&D, lequel n’est pas une liche ?",
+   "choix": [
+    "Strahd von Zarovich",
+    "Acererak",
+    "Vecna",
+    "Szass Tam"
+   ],
+   "rep": 0,
+   "expl": "Strahd est un vampire. Acererak, Vecna et Szass Tam sont des liches.",
+   "src": "Curse of Strahd (2016), Tomb of Annihilation (2017), Dungeon Master’s Guide 5e (2014)",
+   "id": "mor-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, une liche lie son âme à un ____ pour pouvoir se reformer après sa destruction.",
+   "choix": [
+    "phylactère",
+    "sarcophage",
+    "grimoire",
+    "cristal de focalisation"
+   ],
+   "rep": 0,
+   "expl": "Le phylactère contient l’âme de la liche : tant qu’il n’est pas détruit, elle se reforme.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "id": "mor-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le seigneur vampire Strahd règne sur la ____.",
+   "choix": [
+    "Barovie",
+    "Sembie",
+    "Thay",
+    "Cormyr"
+   ],
+   "rep": 0,
+   "expl": "Strahd von Zarovich est le maître de la Barovie, un domaine de brumes de l’aventure Curse of Strahd.",
+   "src": "Curse of Strahd (2016)",
+   "id": "mor-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, les momies sont particulièrement vulnérables au ____.",
+   "choix": [
+    "feu",
+    "froid",
+    "acide",
+    "tonnerre"
+   ],
+   "rep": 0,
+   "expl": "La momie est vulnérable au feu : une torche ou un sort de flammes la fait brûler comme des bandelettes sèches.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Momie »",
+   "id": "mor-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lesquels de ces monstres sont des morts-vivants ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Zombie",
+    "Momie",
+    "Spectre",
+    "Gargouille",
+    "Golem de fer"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Zombie, momie et spectre sont des morts-vivants. La gargouille est un élémentaire et le golem de fer une créature artificielle.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mor-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces morts-vivants sont incorporels ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Spectre",
+    "Fantôme",
+    "Banshee",
+    "Goule",
+    "Momie"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Spectre, fantôme et banshee peuvent traverser les objets. La goule et la momie ont un corps bien solide.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mor-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelles sont de vraies faiblesses du vampire (d’après son profil) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lumière du soleil",
+    "Eau courante",
+    "Pieu dans le cœur",
+    "Ail",
+    "Argent"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Le profil du vampire 5e inclut hypersensibilité au soleil, dégâts dans l’eau courante et pieu dans le cœur. L’ail et l’argent n’y figurent pas.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "id": "mor-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces morts-vivants par FP croissant (du moins dangereux au plus dangereux).",
+   "items": [
+    "Squelette",
+    "Momie",
+    "Spectre",
+    "Vampire",
+    "Liche"
+   ],
+   "expl": "FP : squelette 1/4, momie 3, spectre 5, vampire 13, liche 21.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "mor-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces publications dans l’ordre chronologique de leur parution.",
+   "items": [
+    "La Tombe des Horreurs",
+    "Ravenloft",
+    "Curse of Strahd",
+    "Tomb of Annihilation"
+   ],
+   "expl": "1978 (Tombe des Horreurs), 1983 (Ravenloft), 2016 (Curse of Strahd), 2017 (Tomb of Annihilation).",
+   "src": "Historique des modules D&D (TSR / Wizards of the Coast)",
+   "id": "mor-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque mort-vivant à sa capacité caractéristique.",
+   "paires": [
+    [
+     "Goule",
+     "Griffes paralysantes"
+    ],
+    [
+     "Banshee",
+     "Hurlement mortel"
+    ],
+    [
+     "Fantôme",
+     "Possession"
+    ],
+    [
+     "Liche",
+     "Phylactère"
+    ]
+   ],
+   "expl": "Chaque mort-vivant a sa marque : paralysie, hurlement, possession et phylactère.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mor-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à son domaine ou à sa création.",
+   "paires": [
+    [
+     "Strahd",
+     "Barovie"
+    ],
+    [
+     "Acererak",
+     "Tombe des Horreurs"
+    ],
+    [
+     "Szass Tam",
+     "Thay"
+    ],
+    [
+     "Vecna",
+     "Main et Œil"
+    ]
+   ],
+   "expl": "Strahd règne sur la Barovie, Acererak a bâti la Tombe des Horreurs, Szass Tam dirige Thay, et la Main et l’Œil sont les reliques de Vecna.",
+   "src": "Curse of Strahd, Tomb of Annihilation, Dungeon Master’s Guide 5e",
+   "id": "mor-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un mort-vivant d’apparence humaine.\n2. Le soleil me blesse et l’eau courante me nuit.\n3. Je me nourris de sang et peux me changer en chauve-souris, en loup ou en brume.",
+   "choix": [
+    "Vampire",
+    "Goule",
+    "Liche",
+    "Spectre"
+   ],
+   "rep": 0,
+   "expl": "Le vampire est un mort-vivant aristocratique, aux nombreuses faiblesses.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "id": "mor-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. J’étais un puissant lanceur de sorts.\n2. J’ai renoncé à la vie par un sombre rituel.\n3. Mon âme est cachée dans un phylactère.",
+   "choix": [
+    "Liche",
+    "Vampire",
+    "Chevalier de la mort",
+    "Seigneur momie"
+   ],
+   "rep": 0,
+   "expl": "La liche est un magicien devenu mort-vivant pour échapper à la mort.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "id": "mor-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis l’esprit tourmenté d’une elfe malfaisante.\n2. Je suis incorporelle et je hante les lieux de ma mort.\n3. Mon hurlement peut tuer d’un coup.",
+   "choix": [
+    "Banshee",
+    "Spectre",
+    "Fantôme",
+    "Revenant"
+   ],
+   "rep": 0,
+   "expl": "La banshee est l’esprit d’une elfe maléfique ; son hurlement mortel est sa capacité la plus redoutée.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Banshee »",
+   "id": "mor-086",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis revenu d’entre les morts.\n2. Je poursuis un seul but, la vengeance.\n3. Je ne m’arrête que lorsque mon meurtrier est mort.",
+   "choix": [
+    "Revenant",
+    "Zombie",
+    "Momie",
+    "Goule"
+   ],
+   "rep": 0,
+   "expl": "Le revenant se relève de sa tombe pour traquer celui qui l’a assassiné.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Revenant »",
+   "id": "mor-087",
+   "conf": "probable",
+   "concept": "nv_qui"
   }
- ]
+ ],
+ "sources": []
 }

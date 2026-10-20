@@ -22,7 +22,10 @@ theme=rd('src/theme.css').replace('/*@@FONTS@@*/',fonts)
 
 # banque de questions
 bank=pack(os.path.join(here,'quiz'),os.path.join(here,'src','royaumes.json'))
-quiz=json.dumps(bank,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
+# v1.5 : la page n’embarque que la liste des thèmes ; les questions sont dans dist/q/<id>.json (chargées à la demande)
+meta={'v':bank['v'],'roy':bank['roy'],'th':[{'id':t['id'],'nom':t['nom'],'roy':t['roy'],'ico':t['ico'],'dk':t['dk'],'nb':len(t['Q']),
+       'd':max(1,min(3,round(sum(q['n'] for q in t['Q'])/max(1,len(t['Q'])))))} for t in bank['th']]}
+quiz=json.dumps(meta,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
 os.makedirs(os.path.join(here,'build'),exist_ok=True)
 io.open(os.path.join(here,'build','quiz.json'),'w',encoding='utf-8').write(json.dumps(bank,ensure_ascii=False,separators=(',',':')))
 
@@ -43,7 +46,13 @@ progress=safe_js(rd('src/progress.js'))
 iconsjs=safe_js(rd('src/icons.js')) if os.path.exists(os.path.join(here,'src','icons.js')) else ''
 
 out=os.path.join(here,'dist'); os.makedirs(out,exist_ok=True)
-for fn in os.listdir(out): os.remove(os.path.join(out,fn))
+import shutil
+for fn in os.listdir(out):
+    fp=os.path.join(out,fn)
+    shutil.rmtree(fp) if os.path.isdir(fp) else os.remove(fp)
+os.makedirs(os.path.join(out,'q'))
+for t in bank['th']:
+    io.open(os.path.join(out,'q',t['id']+'.json'),'w',encoding='utf-8').write(json.dumps({'S':t['S'],'Q':t['Q']},ensure_ascii=False,separators=(',',':')))
 def w(name,txt):
     assert '/*@@' not in txt and '<!--@@' not in txt, name+' : marqueur non remplacé : '+re.search(r'(/\*@@|<!--@@)\w+',txt).group(0)
     io.open(os.path.join(out,name),'w',encoding='utf-8').write(txt)
@@ -55,7 +64,7 @@ def game(h):
     return (js(base(h)).replace('/*@@FXCSS@@*/',rd('src/fx.css')).replace('/*@@QUIZ@@*/',quiz)
             .replace('/*@@SUPABASE@@*/',supa).replace('/*@@FXJS@@*/',fx).replace('/*@@BANK@@*/',bankjs).replace('/*@@ICONSJS@@*/',iconsjs))
 prof=game(rd('src/prof.html')).replace('/*@@PROFCSS@@*/',rd('src/prof.css')+rd('src/v11.css')).replace('/*@@QRJS@@*/',qrjs)
-profjs='\n'.join(safe_js(rd('src/'+n)) for n in ['prof_pick.js','prof_preview.js','prof_room.js','prof_game.js','prof_end.js','prof_players.js','prof_init.js'])
+profjs='\n'.join(safe_js(rd('src/'+n)) for n in ['prof_pick.js','prof_preview.js','prof_room.js','prof_game.js','prof_duel.js','prof_end.js','prof_players.js','prof_init.js'])
 w('mj.html',prof.replace('/*@@PROFJS@@*/',profjs))
 el=game(rd('src/eleve.html')).replace('/*@@ELEVECSS@@*/',rd('src/eleve.css')+rd('src/v11.css')).replace('/*@@PROGRESS@@*/',progress).replace('/*@@ELEVEJS@@*/',safe_js(rd('src/eleve.js')))
 w('joueur.html',el)

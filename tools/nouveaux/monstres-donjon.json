@@ -1,0 +1,328 @@
+[
+ {
+  "type": "intrus",
+  "niveau": 1,
+  "q": "Dans D&D 5e, lequel de ces monstres peut voler ?",
+  "choix": [
+   "Gargouille",
+   "Ankheg",
+   "Bulette",
+   "Roper"
+  ],
+  "rep": 0,
+  "expl": "La gargouille a des ailes et vole. L’ankheg, le bulette et le roper restent au sol ou sous terre.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "don-071",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "intrus",
+  "niveau": 2,
+  "q": "Dans D&D 5e, lequel de ces monstres ne pétrifie pas ses proies ?",
+  "choix": [
+   "Rouilleur",
+   "Basilic",
+   "Cockatrice",
+   "Gorgone"
+  ],
+  "rep": 0,
+  "expl": "Le rouilleur ronge le métal. Basilic (regard), cockatrice (morsure) et gorgone (souffle) pétrifient.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "don-072",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "intrus",
+  "niveau": 3,
+  "q": "Dans D&D 5e, lequel de ces monstres n’est pas une vase (ooze) ?",
+  "choix": [
+   "Mimique",
+   "Cube gélatineux",
+   "Pudding noir",
+   "Limon gris"
+  ],
+  "rep": 0,
+  "expl": "Le mimique est une monstruosité ; cube gélatineux, pudding noir et limon gris sont des vases.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "don-073",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "trou",
+  "niveau": 1,
+  "q": "Dans D&D 5e, le ____ gélatineux est un monstre de donjon transparent qui engloutit ses proies.",
+  "choix": [
+   "cube",
+   "sphère",
+   "pyramide",
+   "prisme"
+  ],
+  "rep": 0,
+  "expl": "Le cube gélatineux balaie les couloirs de donjon en absorbant tout ce qu’il rencontre.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+  "id": "don-074",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "trou",
+  "niveau": 1,
+  "q": "Dans D&D 5e, le ____ ronge les armes et les armures en métal.",
+  "choix": [
+   "rouilleur",
+   "stirge",
+   "piercer",
+   "roper"
+  ],
+  "rep": 0,
+  "expl": "Le rouilleur (rust monster) corrode le métal qui le touche.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
+  "id": "don-075",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "trou",
+  "niveau": 3,
+  "q": "Dans les Royaumes Oubliés, le mégadonjon d’____ s’étend sous la cité de Waterdeep.",
+  "choix": [
+   "Undermountain",
+   "Menzoberranzan",
+   "Mithral Hall",
+   "Gracklstugh"
+  ],
+  "rep": 0,
+  "expl": "Undermountain, domaine du mage Halaster Blackcloak, se trouve sous Waterdeep.",
+  "src": "Waterdeep: Dungeon of the Mad Mage (2018)",
+  "id": "don-076",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "multi",
+  "niveau": 3,
+  "q": "Dans D&D 5e, lesquels de ces monstres ont un FP d’au moins 5 ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Roper",
+   "Bulette",
+   "Ver pourpre",
+   "Cube gélatineux",
+   "Stirge"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "FP : roper 5, bulette 5, ver pourpre 15 ; cube gélatineux 2 et stirge 1/8.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "don-077",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "multi",
+  "niveau": 2,
+  "q": "Dans D&D 5e, lesquels de ces monstres se font passer pour un élément du décor ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Mimique",
+   "Roper",
+   "Piercer",
+   "Displacer beast",
+   "Ankheg"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "Le mimique, le roper et le piercer attendent leurs proies sous une fausse apparence.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "don-078",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "multi",
+  "niveau": 3,
+  "q": "Dans D&D 5e, lesquels de ces monstres ont un FP de 2 ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Cube gélatineux",
+   "Mimique",
+   "Gargouille",
+   "Basilic",
+   "Hibours"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "Cube gélatineux, mimique et gargouille valent FP 2 ; basilic et hibours FP 3.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "don-079",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "ordre",
+  "niveau": 3,
+  "q": "Classe ces monstres par FP croissant.",
+  "items": [
+   "Rouilleur",
+   "Hibours",
+   "Roper",
+   "Ver pourpre",
+   "Tarasque"
+  ],
+  "expl": "FP : rouilleur 1/2, hibours 3, roper 5, ver pourpre 15, tarasque 30.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "don-080",
+  "conf": "probable",
+  "concept": "nv_ordre"
+ },
+ {
+  "type": "ordre",
+  "niveau": 3,
+  "q": "Classe ces monstres par points de vie moyens croissants.",
+  "items": [
+   "Stirge",
+   "Rouilleur",
+   "Hibours",
+   "Cube gélatineux",
+   "Tarasque"
+  ],
+  "expl": "PV moyens : stirge 2, rouilleur 27, hibours 59, cube gélatineux 84, tarasque 676.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "don-081",
+  "conf": "probable",
+  "concept": "nv_ordre"
+ },
+ {
+  "type": "assoc",
+  "niveau": 1,
+  "q": "Associe chaque monstre à sa particularité.",
+  "paires": [
+   [
+    "Cube gélatineux",
+    "Presque transparent"
+   ],
+   [
+    "Mimique",
+    "Imite un coffre"
+   ],
+   [
+    "Rouilleur",
+    "Ronge le métal"
+   ],
+   [
+    "Basilic",
+    "Regard pétrifiant"
+   ]
+  ],
+  "expl": "Chaque monstre de donjon a sa marque : transparence, déguisement, corrosion, pétrification.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "don-082",
+  "conf": "probable",
+  "concept": "nv_assoc"
+ },
+ {
+  "type": "assoc",
+  "niveau": 2,
+  "q": "Associe chaque monstre à sa description.",
+  "paires": [
+   [
+    "Hibours",
+    "Hybride hibou et ours"
+   ],
+   [
+    "Cockatrice",
+    "Mi-coq, mi-lézard"
+   ],
+   [
+    "Stirge",
+    "Buveur de sang volant"
+   ],
+   [
+    "Bulette",
+    "Requin des terres"
+   ]
+  ],
+  "expl": "Hibours, cockatrice, stirge et bulette ont chacun une silhouette bien reconnaissable.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "don-083",
+  "conf": "probable",
+  "concept": "nv_assoc"
+ },
+ {
+  "type": "qui",
+  "niveau": 1,
+  "q": "Qui suis-je ?\n1. Je suis presque invisible.\n2. Je glisse dans les couloirs en avalant tout sur mon passage.\n3. Mon corps est un cube de gelée de trois mètres de côté.",
+  "choix": [
+   "Cube gélatineux",
+   "Pudding noir",
+   "Limon gris",
+   "Mimique"
+  ],
+  "rep": 0,
+  "expl": "Le cube gélatineux est une vase transparente, hôte classique des donjons.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+  "id": "don-084",
+  "conf": "probable",
+  "concept": "nv_qui"
+ },
+ {
+  "type": "qui",
+  "niveau": 2,
+  "q": "Qui suis-je ?\n1. Je suis un maître du déguisement.\n2. Je ressemble à un coffre, une porte ou un escalier.\n3. Je colle à ma proie avec une substance adhésive.",
+  "choix": [
+   "Mimique",
+   "Roper",
+   "Piercer",
+   "Cube gélatineux"
+  ],
+  "rep": 0,
+  "expl": "Le mimique se fait passer pour un objet banal, puis colle ses victimes.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
+  "id": "don-085",
+  "conf": "probable",
+  "concept": "nv_qui"
+ },
+ {
+  "type": "qui",
+  "niveau": 2,
+  "q": "Qui suis-je ?\n1. Je suis le monstre le plus redoutable du Manuel des Monstres.\n2. Ma légende vient de la ville de Tarascon.\n3. Mon FP est de 30.",
+  "choix": [
+   "Tarasque",
+   "Ver pourpre",
+   "Bulette",
+   "Gorgone"
+  ],
+  "rep": 0,
+  "expl": "La tarasque (FP 30) est inspirée d’une légende provençale.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+  "id": "don-086",
+  "conf": "probable",
+  "concept": "nv_qui"
+ },
+ {
+  "type": "qui",
+  "niveau": 2,
+  "q": "Qui suis-je ?\n1. Je suis le fruit d’un croisement magique.\n2. J’ai le plumage d’un hibou et la force d’un ours.\n3. J’étreins mes victimes avec mes griffes.",
+  "choix": [
+   "Hibours",
+   "Displacer beast",
+   "Griffon",
+   "Manticore"
+  ],
+  "rep": 0,
+  "expl": "Le hibours est un hybride de hibou et d’ours, féroce et territorial.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
+  "id": "don-087",
+  "conf": "probable",
+  "concept": "nv_qui"
+ }
+]

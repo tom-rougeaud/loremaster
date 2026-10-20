@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+from _lib import *
+MM='Manuel des Monstres 5e (2014)'
+I(1,'Dans D&D 5e, lequel de ces êtres n’est pas aquatique ?','Bulette',['Kraken','Sahuagin','Locathah'],'Le bulette creuse la terre. Kraken, sahuagin et locathah vivent dans l’eau.',MM+', entrées correspondantes')
+I(2,'Dans D&D 5e, lequel de ces êtres n’est pas lié à l’eau ?','Éfrit',['Marid','Scrag','Merrow'],'L’éfrit est un génie du feu ; marid, scrag et merrow sont aquatiques.',MM+', entrées correspondantes')
+I(3,'Laquelle de ces divinités n’est pas liée à la mer ?','Tempus',['Umberlee','Deep Sashelas','Sekolah'],'Tempus est un dieu de la guerre dans les Royaumes Oubliés.','Forgotten Realms Adventurer’s Guide (2015)')
+T(1,'Dans D&D 5e, le ____ est un monstre à tentacules qui coule les navires.','kraken',['tarasque','roper','aboleth'],'Le kraken (FP 23) est le monstre marin par excellence.',MM+', entrée « Kraken »')
+T(2,'Dans D&D 5e, le sort ____ aquatique permet de respirer sous l’eau.','Respiration',['Marche','Danse','Souffle'],'Respiration aquatique : niveau 3, 24 heures, jusqu’à dix créatures.','Manuel des Joueurs 5e (2014)')
+T(3,'Dans D&D, le supplément Ghosts of ____ est consacré à la mer et aux navires.','Saltmarsh',['Waterdeep','Barovia','Phandelver'],'Ghosts of Saltmarsh (2019) regroupe des aventures maritimes.','Ghosts of Saltmarsh (2019)')
+M(2,'Dans D&D 5e, lesquels de ces êtres vivent dans l’eau ? (plusieurs bonnes réponses)',['Sahuagin','Locathah','Scrag'],['Gobelin','Worg'],'Sahuagin, locathah et scrag sont aquatiques.',MM+', entrées correspondantes')
+M(3,'Dans D&D 5e, lesquels de ces dieux sont liés à la mer dans les Royaumes Oubliés ? (plusieurs bonnes réponses)',['Umberlee','Deep Sashelas','Sekolah'],['Tempus','Mystra'],'Umberlee, Deep Sashelas et Sekolah sont des divinités marines.','Forgotten Realms Adventurer’s Guide (2015)')
+M(3,'Dans D&D 5e, lesquels de ces monstres sont des créatures marines avec un FP d’au moins 5 ? (plusieurs bonnes réponses)',['Requin géant','Tortue-dragon','Kraken'],['Pieuvre géante','Sahuagin'],'FP : requin géant 5, tortue-dragon 17, kraken 23 ; pieuvre géante 1 et sahuagin 1/2.',MM+', blocs de caractéristiques')
+O(2,'Classe ces créatures par FP croissant.',['Sahuagin','Pieuvre géante','Requin géant','Tortue-dragon','Kraken'],'FP : sahuagin 1/2, pieuvre géante 1, requin géant 5, tortue-dragon 17, kraken 23.',MM+', blocs de caractéristiques')
+O(3,'Classe ces créatures par points de vie moyens croissants.',['Sahuagin','Pieuvre géante','Requin géant','Tortue-dragon','Kraken'],'PV moyens : sahuagin 22, pieuvre géante 52, requin géant 126, tortue-dragon 341, kraken 472.',MM+', blocs de caractéristiques')
+A(1,'Associe chaque créature à sa particularité.',[('Kraken','Coule les navires'),('Pieuvre géante','Nuage d’encre'),('Tortue-dragon','Vapeur brûlante'),('Sahuagin','Frénésie sanguinaire')],'Chaque créature marine a une marque distinctive.',MM+', entrées correspondantes')
+A(3,'Associe chaque divinité à son domaine.',[('Umberlee','Déesse des mers'),('Sekolah','Dieu des sahuagins'),('Deep Sashelas','Dieu des elfes marins'),('Marid','Génie de l’eau')],'Umberlee règne sur les mers, Sekolah sur les sahuagins, Deep Sashelas sur les elfes marins ; le marid est un génie.','Forgotten Realms Adventurer’s Guide (2015)')
+W(1,['Je vis dans les abysses.','Je suis un monstre titanesque à tentacules.','Les navires me craignent.'],'Kraken',['Aboleth','Pieuvre géante','Tarasque'],'Le kraken est un monstre marin de FP 23.',MM+', entrée « Kraken »')
+W(2,['Je suis un humanoïde marin.','Je hais les elfes marins.','Je fais partie d’une horde menée par un baron.'],'Sahuagin',['Locathah','Triton','Merrow'],'Les sahuagins sont des pillards marins, ennemis des elfes marins.',MM+', entrée « Sahuagin »')
+W(2,['Je suis une créature gigantesque.','Mon dos est une carapace dentelée.','Je crache de la vapeur brûlante.'],'Tortue-dragon',['Kraken','Requin géant','Dragon de bronze'],'La tortue-dragon (FP 17) crache de la vapeur brûlante.',MM+', entrée « Tortue-dragon »')
+W(3,['Je suis plus ancien que les dieux.','Je vis dans les profondeurs.','Je soumets les esprits à ma volonté.'],'Aboleth',['Kraken','Scrag','Marid'],'L’aboleth est une aberration aquatique ancienne et manipulatrice.',MM+', entrée « Aboleth »')
+save('creatures-marines','mar')

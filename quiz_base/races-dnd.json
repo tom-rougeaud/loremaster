@@ -1,0 +1,1039 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "races-dnd",
+  "nom": "Races jouables de D&D",
+  "royaume": "Règles et univers de D&D",
+  "icone": "visage",
+  "sombre": false
+ },
+ "sources": [
+  "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+  "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Demi-orque »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Gnome »",
+  "Elemental Evil Player’s Companion (2015), « Aarakocra »",
+  "Volo’s Guide to Monsters (2016), chap. 2 « Kenku »",
+  "Volo’s Guide to Monsters (2016), chap. 2 « Tabaxi »",
+  "Elemental Evil Player’s Companion (2015), « Genasi »",
+  "The Tortle Package (2018), « Tortles »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Demi-elfe »"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "rac-001",
+   "concept": "rac-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race jouable est réputée pour sa barbe et son goût pour la forge ?",
+   "choix": [
+    "Les nains",
+    "Les gnomes",
+    "Les halflings",
+    "Les elfes"
+   ],
+   "rep": 0,
+   "expl": "Les nains sont des forgerons et mineurs.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-002",
+   "concept": "rac-002",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race jouable est de petite taille et aime la bonne chère ?",
+   "choix": [
+    "Les drakéides",
+    "Les halfelins",
+    "Les nains",
+    "Les demi-orques"
+   ],
+   "rep": 1,
+   "expl": "Halfelins (halflings).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-003",
+   "concept": "rac-003",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race jouable a des oreilles pointues et une grande longévité ?",
+   "choix": [
+    "Les nains",
+    "Les demi-orques",
+    "Les humains",
+    "Les elfes"
+   ],
+   "rep": 3,
+   "expl": "Les elfes vivent longtemps.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-004",
+   "concept": "rac-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race jouable descend des dragons ?",
+   "choix": [
+    "Les drakéides",
+    "Les demi-elfes",
+    "Les gnomes",
+    "Les tieffelins"
+   ],
+   "rep": 0,
+   "expl": "Drakéides (dragonborn).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-005",
+   "concept": "rac-005",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race jouable porte une ascendance infernale ?",
+   "choix": [
+    "Les drakéides",
+    "Les halfelins",
+    "Les tieffelins",
+    "Les gnomes"
+   ],
+   "rep": 2,
+   "expl": "Tieffelins.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-006",
+   "concept": "rac-006",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race jouable est issue d’un humain et d’un elfe ?",
+   "choix": [
+    "Les demi-orques",
+    "Les gnomes",
+    "Les tieffelins",
+    "Les demi-elfes"
+   ],
+   "rep": 3,
+   "expl": "Demi-elfes.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-007",
+   "concept": "rac-007",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race jouable est issue d’un humain et d’un orque ?",
+   "choix": [
+    "Les gobelins",
+    "Les drakéides",
+    "Les demi-elfes",
+    "Les demi-orques"
+   ],
+   "rep": 3,
+   "expl": "Demi-orques.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-008",
+   "concept": "rac-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race jouable est petite, curieuse et douée pour l’invention ?",
+   "choix": [
+    "Les drakéides",
+    "Les nains",
+    "Les gnomes",
+    "Les elfes"
+   ],
+   "rep": 2,
+   "expl": "Gnomes. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-009",
+   "concept": "rac-009",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race est la plus répandue et polyvalente ?",
+   "choix": [
+    "Les humains",
+    "Les nains",
+    "Les gnomes",
+    "Les elfes"
+   ],
+   "rep": 0,
+   "expl": "Humains. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-010",
+   "concept": "rac-010",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle sous-race naine est robuste (bonus de Constitution) ?",
+   "choix": [
+    "Nain d’argile",
+    "Nain des collines ou des montagnes",
+    "Nain des cavernes",
+    "Nain de glace"
+   ],
+   "rep": 1,
+   "expl": "Hill dwarf, mountain dwarf.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-012",
+   "concept": "rac-012",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle sous-race d’elfe est connue pour sa peau sombre et ses souterrains ?",
+   "choix": [
+    "Drow",
+    "Haut-elfe",
+    "Elfe de mer",
+    "Elfe des bois"
+   ],
+   "rep": 0,
+   "expl": "Drow. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-013",
+   "concept": "rac-013",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans quel univers les drow vénèrent-ils Lolth ?",
+   "choix": [
+    "Greyhawk",
+    "Eberron",
+    "Dragonlance",
+    "Les Royaumes Oubliés"
+   ],
+   "rep": 3,
+   "expl": "Lolth est la Reine-Araignée.",
+   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-014",
+   "concept": "rac-014",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle déesse est la divinité principale des drow ?",
+   "choix": [
+    "Moradin",
+    "Gruumsh",
+    "Lolth",
+    "Corellon"
+   ],
+   "rep": 2,
+   "expl": "Lolth. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-015",
+   "concept": "rac-015",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dieu est le créateur des elfes ?",
+   "choix": [
+    "Yondalla",
+    "Corellon Larethian",
+    "Moradin",
+    "Gruumsh"
+   ],
+   "rep": 1,
+   "expl": "Corellon. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-016",
+   "concept": "rac-016",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dieu est le créateur des nains ?",
+   "choix": [
+    "Gruumsh",
+    "Yondalla",
+    "Moradin",
+    "Corellon"
+   ],
+   "rep": 2,
+   "expl": "Moradin. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-017",
+   "concept": "rac-017",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dieu est le chef des orques ?",
+   "choix": [
+    "Gruumsh",
+    "Moradin",
+    "Bahamut",
+    "Yondalla"
+   ],
+   "rep": 0,
+   "expl": "Gruumsh, le Borgne.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-018",
+   "concept": "rac-018",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dieu-dragon platine est vénéré par les drakéides bienveillants ?",
+   "choix": [
+    "Gruumsh",
+    "Bahamut",
+    "Lolth",
+    "Tiamat"
+   ],
+   "rep": 1,
+   "expl": "Bahamut. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-019",
+   "concept": "rac-019",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle race de Faerûn a des ailes d’ange ?",
+   "choix": [
+    "Les tieffelins",
+    "Les aasimars",
+    "Les genasi",
+    "Les tabaxi"
+   ],
+   "rep": 1,
+   "expl": "Aasimar. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-020",
+   "concept": "rac-020",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle race est féline et curieuse (venant du Volo’s Guide) ?",
+   "choix": [
+    "Les aarakocra",
+    "Les kenku",
+    "Les tabaxi",
+    "Les firbolgs"
+   ],
+   "rep": 2,
+   "expl": "Tabaxi. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-021",
+   "concept": "rac-021",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race est un oiseau-humanoïde capable de voler ?",
+   "choix": [
+    "Les aarakocra",
+    "Les kenku",
+    "Les tortles",
+    "Les tabaxi"
+   ],
+   "rep": 0,
+   "expl": "Aarakocra.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-022",
+   "concept": "rac-022",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race est un corbeau humanoïde incapable de parler normalement ?",
+   "choix": [
+    "Les kenku",
+    "Les tabaxi",
+    "Les firbolgs",
+    "Les aarakocra"
+   ],
+   "rep": 0,
+   "expl": "Kenku. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-023",
+   "concept": "rac-023",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race est un géant des forêts bienveillant ?",
+   "choix": [
+    "Les bugbears",
+    "Les gobelins",
+    "Les orques",
+    "Les firbolgs"
+   ],
+   "rep": 3,
+   "expl": "Firbolgs. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-024",
+   "concept": "rac-024",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race est issue d’un des quatre éléments ?",
+   "choix": [
+    "Les kenku",
+    "Les genasi",
+    "Les tortles",
+    "Les tieffelins"
+   ],
+   "rep": 1,
+   "expl": "Genasi. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-025",
+   "concept": "rac-025",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race ressemble à une tortue humanoïde ?",
+   "choix": [
+    "Les tabaxi",
+    "Les tortles",
+    "Les firbolgs",
+    "Les genasi"
+   ],
+   "rep": 1,
+   "expl": "Tortles. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-026",
+   "concept": "rac-026",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle race jouable de Faerûn est dotée d’une ascendance céleste (lumière radiante) ?",
+   "choix": [
+    "Les tieffelins",
+    "Les orques",
+    "Les kenku",
+    "Les aasimars"
+   ],
+   "rep": 3,
+   "expl": "Aasimars : lignée céleste.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-027",
+   "concept": "rac-027",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle race est connue pour sa chance naturelle ?",
+   "choix": [
+    "Les demi-orques",
+    "Les gnomes",
+    "Les halfelins",
+    "Les nains"
+   ],
+   "rep": 2,
+   "expl": "Chanceux (Lucky).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-028",
+   "concept": "rac-028",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel trait racial des demi-orques les empêche de tomber à 0 PV une fois par repos ?",
+   "choix": [
+    "Résilience naine",
+    "Esprit fey",
+    "Sang de dragon",
+    "Endurance implacable"
+   ],
+   "rep": 3,
+   "expl": "Relentless Endurance.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Demi-orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-029",
+   "concept": "rac-029",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel trait racial des elfes les protège du sommeil magique ?",
+   "choix": [
+    "Ascendance féerique",
+    "Dons infernaux",
+    "Chanceux",
+    "Résilience naine"
+   ],
+   "rep": 0,
+   "expl": "Fey Ancestry.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-030",
+   "concept": "rac-030",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, les elfes n’ont pas besoin de dormir. Que font-ils à la place ?",
+   "choix": [
+    "Un sommeil léger",
+    "Rien",
+    "Une transe de 4 heures",
+    "Une méditation de 8 heures"
+   ],
+   "rep": 2,
+   "expl": "Trance. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-031",
+   "concept": "rac-031",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, les halfelins sont des géants.",
+   "rep": false,
+   "expl": "Ils sont petits.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-032",
+   "concept": "rac-032",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, les nains sont une race jouable.",
+   "rep": true,
+   "expl": "Nains. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-033",
+   "concept": "rac-033",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les drakéides crachent du feu uniquement.",
+   "rep": false,
+   "expl": "Le souffle dépend de l’ascendance.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-034",
+   "concept": "rac-034",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les tieffelins descendent de dragons.",
+   "rep": false,
+   "expl": "Ascendance infernale.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-035",
+   "concept": "rac-035",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les demi-orques sont des croisements humain-orque.",
+   "rep": true,
+   "expl": "Demi-orques.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Demi-orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-036",
+   "concept": "rac-036",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les gnomes sont plus grands que les humains.",
+   "rep": false,
+   "expl": "Petits. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Gnome »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-037",
+   "concept": "rac-037",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les nains vivent généralement plus de 300 ans.",
+   "rep": true,
+   "expl": "Environ 350 ans.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-038",
+   "concept": "rac-038",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, les elfes vivent généralement moins de 100 ans.",
+   "rep": false,
+   "expl": "Faux : un elfe peut atteindre 750 ans.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-039",
+   "concept": "rac-039",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, les elfes vivent environ 80 ans.",
+   "rep": false,
+   "expl": "Plus de sept siècles.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-040",
+   "concept": "rac-040",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les aarakocra peuvent voler.",
+   "rep": true,
+   "expl": "Aarakocra.",
+   "src": "Elemental Evil Player’s Companion (2015), « Aarakocra »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-041",
+   "concept": "rac-041",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les kenku parlent librement.",
+   "rep": false,
+   "expl": "Ils imitent.",
+   "src": "Volo’s Guide to Monsters (2016), chap. 2 « Kenku »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-042",
+   "concept": "rac-042",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les kenku imitent des sons.",
+   "rep": true,
+   "expl": "Imitation.",
+   "src": "Volo’s Guide to Monsters (2016), chap. 2 « Kenku »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-043",
+   "concept": "rac-043",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les tabaxi sont des oiseaux.",
+   "rep": false,
+   "expl": "Félins. (voir la source)",
+   "src": "Volo’s Guide to Monsters (2016), chap. 2 « Tabaxi »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-044",
+   "concept": "rac-044",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les genasi sont liés aux éléments.",
+   "rep": true,
+   "expl": "Genasi. (voir la source)",
+   "src": "Elemental Evil Player’s Companion (2015), « Genasi »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-045",
+   "concept": "rac-045",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, Corellon est le créateur des nains.",
+   "rep": false,
+   "expl": "Des elfes.",
+   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-046",
+   "concept": "rac-046",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, Gruumsh est un dieu des orques.",
+   "rep": true,
+   "expl": "Gruumsh. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-047",
+   "concept": "rac-047",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les humains ont toujours une vision dans le noir.",
+   "rep": false,
+   "expl": "Pas de base.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-048",
+   "concept": "rac-048",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les nains ont la vision dans le noir.",
+   "rep": true,
+   "expl": "Vision dans le noir.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-049",
+   "concept": "rac-049",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les halfelins ont une taille moyenne de 2 m.",
+   "rep": false,
+   "expl": "Faux : ils mesurent environ 90 cm.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-050",
+   "concept": "rac-050",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les drow vivent près de la surface.",
+   "rep": false,
+   "expl": "Dans l’Outreterre.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-051",
+   "concept": "rac-051",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les drow vivent dans l’Outreterre.",
+   "rep": true,
+   "expl": "Outreterre.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-052",
+   "concept": "rac-052",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les tortles ont une carapace.",
+   "rep": true,
+   "expl": "Tortles. (voir la source)",
+   "src": "The Tortle Package (2018), « Tortles »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-053",
+   "concept": "rac-053",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la vitesse de base d’un elfe, en mètres (à 1 près) ?",
+   "min": 3,
+   "max": 18,
+   "pas": 1,
+   "unite": "m",
+   "tolerance": 1,
+   "rep": 9,
+   "expl": "30 pieds = 9 m.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-054",
+   "concept": "rac-054",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la vitesse de base d’un nain, en mètres (à 1 près) ?",
+   "min": 3,
+   "max": 18,
+   "pas": 1,
+   "unite": "m",
+   "tolerance": 1,
+   "rep": 7,
+   "expl": "25 pieds ≈ 7,5 m.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-055",
+   "concept": "rac-055",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel âge maximal atteint un elfe (à 50 ans près) ?",
+   "min": 100,
+   "max": 1000,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 50,
+   "rep": 750,
+   "expl": "Environ 750 ans.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-056",
+   "concept": "rac-056",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel âge maximal atteint un nain (à 10 ans près) ?",
+   "min": 100,
+   "max": 600,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 10,
+   "rep": 350,
+   "expl": "Environ 350 ans.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-057",
+   "concept": "rac-057",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel âge maximal atteint un humain (à 5 ans près) ?",
+   "min": 40,
+   "max": 150,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 5,
+   "rep": 80,
+   "expl": "Moins d’un siècle.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-058",
+   "concept": "rac-058",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel âge maximal atteint un halfelin (à 10 ans près) ?",
+   "min": 50,
+   "max": 300,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 10,
+   "rep": 150,
+   "expl": "Environ 150 ans.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-059",
+   "concept": "rac-059",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel âge maximal atteint un gnome (à 20 ans près) ?",
+   "min": 100,
+   "max": 700,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 20,
+   "rep": 500,
+   "expl": "Environ 500 ans.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Gnome »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-060",
+   "concept": "rac-060",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel bonus de caractéristique donne la race humaine standard (à chaque caractéristique) ?",
+   "min": 0,
+   "max": 4,
+   "pas": 1,
+   "unite": "point",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "+1 partout.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-061",
+   "concept": "rac-061",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien d’heures dure la transe d’un elfe ?",
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "heures",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "Quatre heures.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-062",
+   "concept": "rac-062",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de races jouables le Manuel des Joueurs 2014 présente-t-il ?",
+   "min": 3,
+   "max": 20,
+   "pas": 1,
+   "unite": "races",
+   "tolerance": 0,
+   "rep": 9,
+   "expl": "9 races (nain, elfe, halfelin, humain, drakéide, gnome, demi-elfe, demi-orque, tieffelin).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-063",
+   "concept": "rac-063",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la portée de la vision dans le noir d’un nain, en pieds (à 10 près) ?",
+   "min": 30,
+   "max": 120,
+   "pas": 1,
+   "unite": "pieds",
+   "tolerance": 10,
+   "rep": 60,
+   "expl": "60 pieds. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-064",
+   "concept": "rac-064",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la portée de la vision dans le noir d’un drow, en pieds (à 10 près) ?",
+   "min": 30,
+   "max": 300,
+   "pas": 1,
+   "unite": "pieds",
+   "tolerance": 10,
+   "rep": 120,
+   "expl": "Vision dans le noir supérieure : 120 pieds.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-065",
+   "concept": "rac-065",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, les drakéides ont des écailles.",
+   "rep": true,
+   "expl": "Ils ont une peau écailleuse.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-066",
+   "concept": "rac-066",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les demi-elfes ont la vision dans le noir.",
+   "rep": true,
+   "expl": "Vision dans le noir 60 pieds.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Demi-elfe »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-067",
+   "concept": "rac-067",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les gnomes sont une race jouable du Manuel des Joueurs.",
+   "rep": true,
+   "expl": "Gnomes. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Gnome »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-068",
+   "concept": "rac-068",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les tieffelins sont un croisement humain-dragon.",
+   "rep": false,
+   "expl": "Ascendance infernale.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-069",
+   "concept": "rac-069",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la vitesse de base d’un halfelin, en pieds (à 5 près) ?",
+   "min": 10,
+   "max": 60,
+   "pas": 1,
+   "unite": "pieds",
+   "tolerance": 5,
+   "rep": 25,
+   "expl": "25 pieds. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "rac-070",
+   "concept": "rac-070",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la vitesse de base d’un humain, en pieds (à 5 près) ?",
+   "min": 10,
+   "max": 60,
+   "pas": 1,
+   "unite": "pieds",
+   "tolerance": 5,
+   "rep": 30,
+   "expl": "30 pieds. (voir la source)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
+   "conf": "probable"
+  }
+ ]
+}

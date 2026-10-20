@@ -2,34 +2,15 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "races-dnd",
-  "nom": "Races jouables de D&D",
+  "nom": "Races jouables et peuples d’aventuriers",
   "royaume": "Règles et univers de D&D",
   "icone": "visage",
   "sombre": false
  },
- "sources": [
-  "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
-  "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Demi-orque »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Gnome »",
-  "Elemental Evil Player’s Companion (2015), « Aarakocra »",
-  "Volo’s Guide to Monsters (2016), chap. 2 « Kenku »",
-  "Volo’s Guide to Monsters (2016), chap. 2 « Tabaxi »",
-  "Elemental Evil Player’s Companion (2015), « Genasi »",
-  "The Tortle Package (2018), « Tortles »",
-  "Manuel des Joueurs 5e (2014), chap. 2 « Demi-elfe »"
- ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
   "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
-  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
  },
  "questions": [
   {
@@ -200,23 +181,6 @@
    "rep": 1,
    "expl": "Hill dwarf, mountain dwarf.",
    "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-011",
-   "concept": "rac-011",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle sous-race elfique vit dans la nature sauvage (haut-elfe, elfe des bois…) ?",
-   "choix": [
-    "Elfe des glaces",
-    "Elfe des bois",
-    "Elfe d’argile",
-    "Elfe des sables"
-   ],
-   "rep": 1,
-   "expl": "Wood elf. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
    "conf": "probable"
   },
   {
@@ -1052,5 +1016,6 @@
    "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
    "conf": "probable"
   }
- ]
+ ],
+ "sources": []
 }

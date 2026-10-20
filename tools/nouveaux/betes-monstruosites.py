@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+from _lib import *
+MM='Manuel des Monstres 5e (2014)'
+I(1,'Lequel de ces monstres n’a pas d’ailes ?','Minotaure',['Griffon','Hippogriffe','Pégase'],'Le minotaure est un hybride de taureau sans ailes ; griffon, hippogriffe et pégase volent.',MM+', entrées correspondantes')
+I(2,'Lequel de ces monstres n’est pas issu de la mythologie grecque ?','Behir',['Chimère','Hydre','Sphinx'],'Le behir est une création de D&D ; chimère, hydre et sphinx viennent de la mythologie grecque.',MM+', entrée « Behir »')
+I(3,'Lequel de ces monstres n’est pas un hybride de deux animaux ?','Roc',['Griffon','Chimère','Manticore'],'Le roc est un oiseau gigantesque, non un hybride.',MM+', entrées correspondantes')
+T(1,'Dans la mythologie grecque, l’____ de Lerne voit ses têtes repousser quand on les coupe.','hydre',['chimère','gorgone','harpie'],'Héraclès affronte l’hydre de Lerne lors de ses douze travaux.','Apollodore, Bibliothèque, II, 5, 2')
+T(2,'Dans la mythologie nordique, Sleipnir, le cheval d’Odin, a ____ pattes.','huit',['quatre','six','dix'],'Sleipnir est un cheval à huit pattes, enfanté par Loki.','Edda de Snorri, Gylfaginning')
+T(3,'Dans D&D 5e, le ____ est un grand serpent bleu qui crache la foudre.','behir',['remorhaz','roc','basilic'],'Le behir (FP 11) crache de la foudre et peut avaler ses proies.',MM+', entrée « Behir »')
+M(2,'Dans D&D 5e, lesquels de ces monstres volent ? (plusieurs bonnes réponses)',['Griffon','Manticore','Pégase'],['Minotaure','Centaure'],'Griffon, manticore et pégase volent ; minotaure et centaure marchent.',MM+', entrées correspondantes')
+M(3,'Dans D&D 5e, lesquels de ces monstres ont un FP de 11 ? (plusieurs bonnes réponses)',['Behir','Remorhaz','Roc'],['Hydre','Chimère'],'Behir, remorhaz et roc ont FP 11 ; hydre FP 8 et chimère FP 6.',MM+', blocs de caractéristiques')
+M(2,'Dans la mythologie grecque, lesquelles de ces créatures sont des hybrides ? (plusieurs bonnes réponses)',['Centaure','Minotaure','Chimère'],['Cyclope','Phénix'],'Centaure, minotaure et chimère mêlent plusieurs corps ; cyclope et phénix non.','Apollodore et Hésiode')
+O(3,'Classe ces monstres par FP croissant.',['Harpie','Griffon','Manticore','Licorne','Hydre'],'FP : harpie 1, griffon 2, manticore 3, licorne 5, hydre 8.',MM+', blocs de caractéristiques')
+O(3,'Classe ces monstres par FP croissant.',['Centaure','Minotaure','Wyverne','Behir','Androsphinx'],'FP : centaure 2, minotaure 3, wyverne 6, behir 11, androsphinx 17.',MM+', blocs de caractéristiques')
+A(1,'Associe chaque créature à ses deux moitiés.',[('Griffon','Lion et aigle'),('Hippogriffe','Cheval et aigle'),('Centaure','Homme et cheval'),('Minotaure','Homme et taureau')],'Le griffon mêle lion et aigle ; l’hippogriffe, cheval et aigle ; le centaure, homme et cheval ; le minotaure, homme et taureau.',MM+' et mythologie grecque')
+A(2,'Associe chaque créature à sa particularité.',[('Chimère','Trois têtes'),('Manticore','Queue de piques'),('Behir','Souffle de foudre'),('Roc','Oiseau géant')],'Chimère à trois têtes, manticore à queue de piques, behir à souffle de foudre, roc oiseau géant.',MM+', entrées correspondantes')
+W(1,['Je suis mi-lion, mi-aigle.','Je garde les trésors.','Je suis un symbole de royauté.'],'Griffon',['Hippogriffe','Chimère','Manticore'],'Le griffon, hybride de lion et d’aigle, garde traditionnellement les trésors.',MM+', entrée « Griffon »')
+W(2,['Je suis un monstre à plusieurs têtes.','Mes têtes repoussent quand on les coupe.','Héraclès m’a affrontée.'],'Hydre',['Chimère','Cerbère','Gorgone'],'L’hydre de Lerne est un monstre de la mythologie grecque, vaincu par Héraclès.','Apollodore, Bibliothèque')
+W(3,['Je suis un serpent bleu géant.','Je possède plusieurs paires de pattes.','Je crache de la foudre.'],'Behir',['Remorhaz','Wyverne','Basilic'],'Le behir est un reptile bleu qui lance la foudre.',MM+', entrée « Behir »')
+W(2,['Mon corps est celui d’un lion.','Mon visage est celui d’un humain.','Ma queue porte des piques.'],'Manticore',['Chimère','Sphinx','Griffon'],'La manticore a un corps de lion, un visage humain et une queue à piques.',MM+', entrée « Manticore »')
+save('betes-monstruosites','bet')

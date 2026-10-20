@@ -1,0 +1,1409 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "morts-vivants-dnd",
+  "nom": "Morts-vivants de D&D",
+  "royaume": "Bestiaire de D&D",
+  "icone": "crane",
+  "sombre": true
+ },
+ "sources": [
+  "Manuel des Monstres 5e (2014), entrée « Liche »",
+  "Tomb of Horrors (TSR, 1978)",
+  "Vecna: Eve of Ruin (2024) / Dungeon Master’s Guide (2014), « Vecna »",
+  "Forgotten Realms Wiki, « Szass Tam »",
+  "Curse of Strahd (2016), chap. 1",
+  "Manuel des Monstres 5e (2014), entrée « Vampire »",
+  "Manuel des Monstres 5e (2014), entrée « Goule »",
+  "Manuel des Monstres 5e (2014), entrée « Fantôme »",
+  "Manuel des Monstres 5e (2014), entrée « Revenant »",
+  "Manuel des Monstres 5e (2014), entrée « Banshee »",
+  "Manuel des Monstres 5e (2014), entrée « Squelette »",
+  "Manuel des Monstres 5e (2014), entrée « Momie »",
+  "Manuel des Monstres 5e (2014), entrée « Mort-vivant »",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation des morts",
+  "Tomb of Annihilation (2017), « Acererak »",
+  "Manuel des Monstres 5e (2014), entrée « Zombie »",
+  "Manuel des Monstres 5e (2014), entrée « Chevalier de la mort »",
+  "Manuel des Monstres 5e (2014), entrée « Seigneur momie »",
+  "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+  "Manuel des Monstres 5e (2014), Annexe « Seigneurs démons », Orcus",
+  "Manuel des Monstres 5e (2014), entrée « Rejeton vampirique »",
+  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Communication avec les morts",
+  "Manuel des Monstres 5e (2014), entrée « Spectre »",
+  "I6 Ravenloft (TSR, 1983)",
+  "Manuel des Joueurs 5e (2014), chap. 3 « Clerc »"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "mor-001",
+   "concept": "mor-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel mort-vivant lie son âme à un phylactère ?",
+   "choix": [
+    "Le vampire",
+    "Le spectre",
+    "La momie",
+    "La liche"
+   ],
+   "rep": 3,
+   "expl": "La liche conserve son âme dans un phylactère.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-002",
+   "concept": "mor-002",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle liche est le maître de la Tombe des Horreurs ?",
+   "choix": [
+    "Acererak",
+    "Szass Tam",
+    "Strahd",
+    "Vecna"
+   ],
+   "rep": 0,
+   "expl": "Acererak règne sur la Tombe des Horreurs.",
+   "src": "Tomb of Horrors (TSR, 1978)",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-003",
+   "concept": "mor-003",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle liche devenue divinité est liée à une main et un œil artefacts ?",
+   "choix": [
+    "Vecna",
+    "Orcus",
+    "Szass Tam",
+    "Acererak"
+   ],
+   "rep": 0,
+   "expl": "Vecna est la liche des secrets.",
+   "src": "Vecna: Eve of Ruin (2024) / Dungeon Master’s Guide (2014), « Vecna »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-004",
+   "concept": "mor-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quelle liche dirige les Sorciers Rouges de Thay ?",
+   "choix": [
+    "Szass Tam",
+    "Vecna",
+    "Acererak",
+    "Strahd"
+   ],
+   "rep": 0,
+   "expl": "Szass Tam règne sur Thay.",
+   "src": "Forgotten Realms Wiki, « Szass Tam »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-005",
+   "concept": "mor-005",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel vampire de D&D règne sur la Barovie ?",
+   "choix": [
+    "Szass Tam",
+    "Acererak",
+    "Strahd von Zarovich",
+    "Kelemvor"
+   ],
+   "rep": 2,
+   "expl": "Strahd est le maître de Ravenloft.",
+   "src": "Curse of Strahd (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-006",
+   "concept": "mor-006",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, que provoque la lumière du soleil sur un vampire en 5e édition ?",
+   "choix": [
+    "Une paralysie",
+    "Des dégâts radiants",
+    "Un sommeil magique",
+    "Une pétrification"
+   ],
+   "rep": 1,
+   "expl": "Hypersensibilité à la lumière du soleil.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-007",
+   "concept": "mor-007",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, que subit un vampire qui termine son tour dans l’eau courante ?",
+   "choix": [
+    "Des dégâts d’acide",
+    "Des dégâts de foudre",
+    "Des dégâts de froid",
+    "Des dégâts de feu"
+   ],
+   "rep": 0,
+   "expl": "L’eau courante l’endommage.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-008",
+   "concept": "mor-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, en quels animaux un vampire peut-il se métamorphoser en 5e édition ?",
+   "choix": [
+    "Hibou ou cerf",
+    "Chauve-souris ou loup",
+    "Serpent ou chat",
+    "Corbeau ou ours"
+   ],
+   "rep": 1,
+   "expl": "Il peut aussi devenir brume.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-009",
+   "concept": "mor-009",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel effet les griffes d’une goule peuvent-elles infliger ?",
+   "choix": [
+    "La peur",
+    "La paralysie",
+    "La cécité",
+    "Le sommeil"
+   ],
+   "rep": 1,
+   "expl": "Les griffes de la goule paralysent.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Goule »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-010",
+   "concept": "mor-010",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle capacité du fantôme lui permet de prendre le contrôle d’un corps vivant ?",
+   "choix": [
+    "La métamorphose",
+    "La transe",
+    "La possession",
+    "La régénération"
+   ],
+   "rep": 2,
+   "expl": "Le fantôme peut posséder une créature.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Fantôme »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-011",
+   "concept": "mor-011",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel mort-vivant revient d’entre les morts pour se venger de son meurtrier ?",
+   "choix": [
+    "Le revenant",
+    "La momie",
+    "Le zombie",
+    "La goule"
+   ],
+   "rep": 0,
+   "expl": "Le revenant poursuit son meurtrier.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Revenant »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-012",
+   "concept": "mor-012",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle capacité de la banshee peut tuer par un cri ?",
+   "choix": [
+    "Son souffle",
+    "Son baiser",
+    "Son regard",
+    "Son hurlement"
+   ],
+   "rep": 3,
+   "expl": "Le hurlement de la banshee peut ramener à 0 PV.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Banshee »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-013",
+   "concept": "mor-013",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, à quel type de dégâts les squelettes sont-ils vulnérables ?",
+   "choix": [
+    "Perforants",
+    "Tranchants",
+    "Poison",
+    "Contondants"
+   ],
+   "rep": 3,
+   "expl": "Les squelettes sont vulnérables aux dégâts contondants.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Squelette »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-014",
+   "concept": "mor-014",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, à quel type de dégâts les momies sont-elles vulnérables ?",
+   "choix": [
+    "Foudre",
+    "Feu",
+    "Froid",
+    "Acide"
+   ],
+   "rep": 1,
+   "expl": "Les momies craignent le feu.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Momie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-015",
+   "concept": "mor-015",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle capacité de clerc permet de repousser les morts-vivants ?",
+   "choix": [
+    "Sanctuaire",
+    "Renvoi des morts-vivants",
+    "Bénédiction",
+    "Mot de guérison"
+   ],
+   "rep": 1,
+   "expl": "Le clerc repousse les morts-vivants.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mort-vivant »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-016",
+   "concept": "mor-016",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel sort relève des cadavres en squelettes ou zombies ?",
+   "choix": [
+    "Image silencieuse",
+    "Mur de feu",
+    "Foulée brumeuse",
+    "Animation des morts"
+   ],
+   "rep": 3,
+   "expl": "Animation des morts est un sort de nécromancie.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation des morts",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-017",
+   "concept": "mor-017",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel mal les momies infligent-elles par leur toucher ?",
+   "choix": [
+    "La pourriture de la momie",
+    "La lycanthropie",
+    "La peste grise",
+    "La peste bubonique"
+   ],
+   "rep": 0,
+   "expl": "La pourriture de la momie est une maladie maudite.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Momie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-018",
+   "concept": "mor-018",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle aventure de 1978 mène à Acererak ?",
+   "choix": [
+    "La Tombe des Horreurs",
+    "Ravenloft",
+    "Le Temple du Mal Élémentaire",
+    "La Cité des Ombres"
+   ],
+   "rep": 0,
+   "expl": "Le module S1 Tomb of Horrors date de 1978.",
+   "src": "Tomb of Annihilation (2017), « Acererak »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-019",
+   "concept": "mor-019",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel module de 1983 introduit Strahd ?",
+   "choix": [
+    "Greyhawk",
+    "Dragonlance",
+    "Vecna",
+    "Ravenloft"
+   ],
+   "rep": 3,
+   "expl": "I6 Ravenloft date de 1983.",
+   "src": "Curse of Strahd (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-020",
+   "concept": "mor-020",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel type de lanceur de sorts est une liche classique ?",
+   "choix": [
+    "Un clerc",
+    "Un magicien",
+    "Un barde",
+    "Un druide"
+   ],
+   "rep": 1,
+   "expl": "La liche est un lanceur de sorts arcaniques.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-021",
+   "concept": "mor-021",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel mort-vivant peut parfois rester à 1 PV au lieu de tomber à 0 ?",
+   "choix": [
+    "La banshee",
+    "Le squelette",
+    "Le spectre",
+    "Le zombie"
+   ],
+   "rep": 3,
+   "expl": "Le zombie a un trait de robustesse.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-022",
+   "concept": "mor-022",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel mort-vivant est une créature de chair putride qui se nourrit de cadavres ?",
+   "choix": [
+    "Le vampire",
+    "La goule",
+    "La momie",
+    "Le spectre"
+   ],
+   "rep": 1,
+   "expl": "La goule se repaît de charogne.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Goule »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-023",
+   "concept": "mor-023",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel mort-vivant est un guerrier damné aux flammes infernales ?",
+   "choix": [
+    "Le revenant",
+    "Le squelette",
+    "Le chevalier de la mort",
+    "La goule"
+   ],
+   "rep": 2,
+   "expl": "Le chevalier de la mort est un guerrier déchu.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Chevalier de la mort »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-024",
+   "concept": "mor-024",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel mort-vivant est un chef momifié puissant, maître d’un tombeau ?",
+   "choix": [
+    "La banshee",
+    "Le seigneur momie",
+    "Le spectre",
+    "Le revenant"
+   ],
+   "rep": 1,
+   "expl": "Le seigneur momie règne sur sa tombe.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Seigneur momie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-025",
+   "concept": "mor-025",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Quel dieu des Royaumes oubliés est le juge des morts ?",
+   "choix": [
+    "Kelemvor",
+    "Mystra",
+    "Bane",
+    "Tyr"
+   ],
+   "rep": 0,
+   "expl": "Kelemvor est le Seigneur des Morts.",
+   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-026",
+   "concept": "mor-026",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel Seigneur démon est le prince des morts-vivants ?",
+   "choix": [
+    "Demogorgon",
+    "Baphomet",
+    "Yeenoghu",
+    "Orcus"
+   ],
+   "rep": 3,
+   "expl": "Orcus règne sur les morts-vivants.",
+   "src": "Manuel des Monstres 5e (2014), Annexe « Seigneurs démons », Orcus",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-027",
+   "concept": "mor-027",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle créature est souvent représentée enveloppée de bandelettes ?",
+   "choix": [
+    "La goule",
+    "Le revenant",
+    "La momie",
+    "Le spectre"
+   ],
+   "rep": 2,
+   "expl": "La momie est enveloppée de bandelettes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Momie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-028",
+   "concept": "mor-028",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, comment appelle-t-on un humanoïde engendré par un vampire, moins puissant ?",
+   "choix": [
+    "Une goule",
+    "Un spectre",
+    "Un rejeton vampirique",
+    "Une momie"
+   ],
+   "rep": 2,
+   "expl": "Le rejeton vampirique est un vampire inférieur.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Rejeton vampirique »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-029",
+   "concept": "mor-029",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, selon la légende classique, que plante-t-on dans le cœur d’un vampire ?",
+   "choix": [
+    "Une clé",
+    "Une plume",
+    "Un pieu",
+    "Une pièce"
+   ],
+   "rep": 2,
+   "expl": "Le pieu dans le cœur est un classique.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-030",
+   "concept": "mor-030",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel sort permet de parler avec un cadavre ?",
+   "choix": [
+    "Silence",
+    "Détection des pensées",
+    "Communication avec les morts",
+    "Bouclier"
+   ],
+   "rep": 2,
+   "expl": "Communication avec les morts interroge un cadavre.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Communication avec les morts",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-031",
+   "concept": "mor-031",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, une liche peut se reformer tant que son phylactère n’est pas détruit.",
+   "rep": true,
+   "expl": "Le phylactère est la clé de sa survie.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-032",
+   "concept": "mor-032",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Le vampire de D&D 5e est immunisé contre les dégâts radiants.",
+   "rep": false,
+   "expl": "La lumière du soleil et les dégâts radiants le blessent.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-033",
+   "concept": "mor-033",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les zombies sont immunisés contre le poison en 5e édition.",
+   "rep": true,
+   "expl": "Zombies et squelettes ignorent le poison.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-034",
+   "concept": "mor-034",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, un squelette est vulnérable aux dégâts de feu.",
+   "rep": false,
+   "expl": "Il est vulnérable aux dégâts contondants.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Squelette »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-035",
+   "concept": "mor-035",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les momies sont vulnérables au feu.",
+   "rep": true,
+   "expl": "Le feu est leur faiblesse.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Momie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-036",
+   "concept": "mor-036",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le spectre est un mort-vivant de taille Gigantesque.",
+   "rep": false,
+   "expl": "Le spectre est de taille Moyenne.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Spectre »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-037",
+   "concept": "mor-037",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Strahd règne sur la Barovie.",
+   "rep": true,
+   "expl": "Strahd von Zarovich est le seigneur de la Barovie.",
+   "src": "Curse of Strahd (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-038",
+   "concept": "mor-038",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Acererak est le seigneur de Thay.",
+   "rep": false,
+   "expl": "Le maître de Thay est Szass Tam.",
+   "src": "Tomb of Annihilation (2017), « Acererak »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-039",
+   "concept": "mor-039",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, vecna est une liche devenue divinité.",
+   "rep": true,
+   "expl": "Vecna s’est élevé au rang de dieu.",
+   "src": "Vecna: Eve of Ruin (2024) / Dungeon Master’s Guide (2014), « Vecna »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-040",
+   "concept": "mor-040",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, un zombie est un mort-vivant intelligent et lanceur de sorts.",
+   "rep": false,
+   "expl": "Le zombie est lent et sans intelligence.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-041",
+   "concept": "mor-041",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, la banshee peut tuer d’un hurlement en 5e édition.",
+   "rep": true,
+   "expl": "Son hurlement peut réduire à 0 PV.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Banshee »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-042",
+   "concept": "mor-042",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, un revenant se relève pour aider son meurtrier.",
+   "rep": false,
+   "expl": "Il se relève pour se venger de lui.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Revenant »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-043",
+   "concept": "mor-043",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, les goules paralysent par leurs griffes.",
+   "rep": true,
+   "expl": "La paralysie est leur arme.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Goule »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-044",
+   "concept": "mor-044",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les vampires se transforment en corbeaux en 5e édition.",
+   "rep": false,
+   "expl": "Ils prennent forme de chauve-souris, de loup ou de brume.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-045",
+   "concept": "mor-045",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le sort Animation des morts crée des squelettes ou des zombies.",
+   "rep": true,
+   "expl": "Il relève des cadavres.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation des morts",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-046",
+   "concept": "mor-046",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, kelemvor est le dieu de la guerre.",
+   "rep": false,
+   "expl": "Kelemvor est le dieu des morts.",
+   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-047",
+   "concept": "mor-047",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, orcus est le seigneur démon des morts-vivants.",
+   "rep": true,
+   "expl": "Orcus est le Prince des Morts-vivants.",
+   "src": "Manuel des Monstres 5e (2014), Annexe « Seigneurs démons », Orcus",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-048",
+   "concept": "mor-048",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, la Tombe des Horreurs est parue en 1995.",
+   "rep": false,
+   "expl": "Elle date de 1978.",
+   "src": "Tomb of Horrors (TSR, 1978)",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-049",
+   "concept": "mor-049",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Ravenloft est paru en 1983.",
+   "rep": true,
+   "expl": "I6 Ravenloft est sorti en 1983.",
+   "src": "I6 Ravenloft (TSR, 1983)",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-050",
+   "concept": "mor-050",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, le renvoi des morts-vivants est une capacité réservée aux voleurs.",
+   "rep": false,
+   "expl": "Il appartient au clerc (et au paladin).",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Clerc »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-051",
+   "concept": "mor-051",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, le rejeton vampirique est moins dangereux qu’un vampire.",
+   "rep": true,
+   "expl": "Son FP est bien inférieur à celui du vampire.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Rejeton vampirique »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-052",
+   "concept": "mor-052",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les momies naissent de victimes de vampires.",
+   "rep": false,
+   "expl": "Les momies sont des morts embaumés, pas des victimes de vampires.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-053",
+   "concept": "mor-053",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du vampire ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 13,
+   "expl": "Le vampire a un FP de 13.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-054",
+   "concept": "mor-054",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de la liche ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 21,
+   "expl": "La liche a un FP de 21.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-055",
+   "concept": "mor-055",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du seigneur momie ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 15,
+   "expl": "Le seigneur momie a un FP de 15.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Seigneur momie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-056",
+   "concept": "mor-056",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du spectre (wraith) ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Le wraith a un FP de 5.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Spectre »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-057",
+   "concept": "mor-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du fantôme (ghost) ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "Le fantôme a un FP de 4.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Fantôme »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-058",
+   "concept": "mor-058",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un zombie ?",
+   "min": 5,
+   "max": 60,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 22,
+   "expl": "Le zombie a 22 PV en moyenne.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-059",
+   "concept": "mor-059",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un squelette ?",
+   "min": 5,
+   "max": 60,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 13,
+   "expl": "Le squelette a 13 PV en moyenne.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Squelette »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-060",
+   "concept": "mor-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un vampire (à 10 près) ?",
+   "min": 50,
+   "max": 300,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 10,
+   "rep": 144,
+   "expl": "Le vampire a 144 PV en moyenne.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-061",
+   "concept": "mor-061",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, de quel niveau de lanceur de sorts est une liche ?",
+   "min": 1,
+   "max": 20,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "rep": 18,
+   "expl": "La liche lance des sorts comme un magicien de niveau 18.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-062",
+   "concept": "mor-062",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du chevalier de la mort ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 17,
+   "expl": "Le chevalier de la mort a un FP de 17.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Chevalier de la mort »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-063",
+   "concept": "mor-063",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de la banshee ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "La banshee a un FP de 4.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Banshee »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-064",
+   "concept": "mor-064",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de la momie ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "La momie a un FP de 3.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Momie »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-065",
+   "concept": "mor-065",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Quel est le FP de Strahd von Zarovich ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 15,
+   "expl": "Strahd a un FP de 15.",
+   "src": "Curse of Strahd (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-066",
+   "concept": "mor-066",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, en quelle année est paru le module La Tombe des Horreurs ?",
+   "min": 1970,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1978,
+   "expl": "Tomb of Horrors est paru en 1978.",
+   "src": "Tomb of Horrors (TSR, 1978)",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-067",
+   "concept": "mor-067",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru le module Ravenloft ?",
+   "min": 1970,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1983,
+   "expl": "I6 Ravenloft est paru en 1983.",
+   "src": "I6 Ravenloft (TSR, 1983)",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-068",
+   "concept": "mor-068",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de dégâts d’acide un vampire subit-il en finissant son tour dans l’eau courante ?",
+   "min": 5,
+   "max": 40,
+   "pas": 1,
+   "unite": "dégâts",
+   "tolerance": 0,
+   "rep": 20,
+   "expl": "20 dégâts d’acide.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-069",
+   "concept": "mor-069",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien d’actions légendaires par tour une liche possède-t-elle ?",
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "actions",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "La liche a 3 actions légendaires.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "conf": "probable"
+  },
+  {
+   "id": "mor-070",
+   "concept": "mor-070",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la classe d’armure du zombie ?",
+   "min": 5,
+   "max": 20,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 8,
+   "expl": "Le zombie a une CA de 8.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lequel de ces monstres n’est pas un mort-vivant ?",
+   "choix": [
+    "Golem de chair",
+    "Zombie",
+    "Squelette",
+    "Goule"
+   ],
+   "rep": 0,
+   "expl": "Le golem de chair est une créature artificielle (artificiel). Zombie, squelette et goule sont des morts-vivants.",
+   "src": "Manuel des Monstres 5e (2014), entrées « Golem de chair », « Zombie », « Squelette », « Goule »",
+   "id": "mor-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lequel de ces sorts n’est pas un sort de nécromancie ?",
+   "choix": [
+    "Détection du mal et du bien",
+    "Animation des morts",
+    "Communication avec les morts",
+    "Flétrissure"
+   ],
+   "rep": 0,
+   "expl": "Détection du mal et du bien appartient à l’école de divination ; les trois autres sont des sorts de nécromancie.",
+   "src": "Manuel des Joueurs 5e (2014), chapitre « Sorts »",
+   "id": "mor-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Parmi ces personnages de D&D, lequel n’est pas une liche ?",
+   "choix": [
+    "Strahd von Zarovich",
+    "Acererak",
+    "Vecna",
+    "Szass Tam"
+   ],
+   "rep": 0,
+   "expl": "Strahd est un vampire. Acererak, Vecna et Szass Tam sont des liches.",
+   "src": "Curse of Strahd (2016), Tomb of Annihilation (2017), Dungeon Master’s Guide 5e (2014)",
+   "id": "mor-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, une liche lie son âme à un ____ pour pouvoir se reformer après sa destruction.",
+   "choix": [
+    "phylactère",
+    "sarcophage",
+    "grimoire",
+    "cristal de focalisation"
+   ],
+   "rep": 0,
+   "expl": "Le phylactère contient l’âme de la liche : tant qu’il n’est pas détruit, elle se reforme.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "id": "mor-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le seigneur vampire Strahd règne sur la ____.",
+   "choix": [
+    "Barovie",
+    "Sembie",
+    "Thay",
+    "Cormyr"
+   ],
+   "rep": 0,
+   "expl": "Strahd von Zarovich est le maître de la Barovie, un domaine de brumes de l’aventure Curse of Strahd.",
+   "src": "Curse of Strahd (2016)",
+   "id": "mor-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, les momies sont particulièrement vulnérables au ____.",
+   "choix": [
+    "feu",
+    "froid",
+    "acide",
+    "tonnerre"
+   ],
+   "rep": 0,
+   "expl": "La momie est vulnérable au feu : une torche ou un sort de flammes la fait brûler comme des bandelettes sèches.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Momie »",
+   "id": "mor-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lesquels de ces monstres sont des morts-vivants ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Zombie",
+    "Momie",
+    "Spectre",
+    "Gargouille",
+    "Golem de fer"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Zombie, momie et spectre sont des morts-vivants. La gargouille est un élémentaire et le golem de fer une créature artificielle.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mor-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces morts-vivants sont incorporels ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Spectre",
+    "Fantôme",
+    "Banshee",
+    "Goule",
+    "Momie"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Spectre, fantôme et banshee peuvent traverser les objets. La goule et la momie ont un corps bien solide.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mor-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelles sont de vraies faiblesses du vampire (d’après son profil) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lumière du soleil",
+    "Eau courante",
+    "Pieu dans le cœur",
+    "Ail",
+    "Argent"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Le profil du vampire 5e inclut hypersensibilité au soleil, dégâts dans l’eau courante et pieu dans le cœur. L’ail et l’argent n’y figurent pas.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "id": "mor-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces morts-vivants par FP croissant (du moins dangereux au plus dangereux).",
+   "items": [
+    "Squelette",
+    "Momie",
+    "Spectre",
+    "Vampire",
+    "Liche"
+   ],
+   "expl": "FP : squelette 1/4, momie 3, spectre 5, vampire 13, liche 21.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "mor-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces publications dans l’ordre chronologique de leur parution.",
+   "items": [
+    "La Tombe des Horreurs",
+    "Ravenloft",
+    "Curse of Strahd",
+    "Tomb of Annihilation"
+   ],
+   "expl": "1978 (Tombe des Horreurs), 1983 (Ravenloft), 2016 (Curse of Strahd), 2017 (Tomb of Annihilation).",
+   "src": "Historique des modules D&D (TSR / Wizards of the Coast)",
+   "id": "mor-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque mort-vivant à sa capacité caractéristique.",
+   "paires": [
+    [
+     "Goule",
+     "Griffes paralysantes"
+    ],
+    [
+     "Banshee",
+     "Hurlement mortel"
+    ],
+    [
+     "Fantôme",
+     "Possession"
+    ],
+    [
+     "Liche",
+     "Phylactère"
+    ]
+   ],
+   "expl": "Chaque mort-vivant a sa marque : paralysie, hurlement, possession et phylactère.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mor-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à son domaine ou à sa création.",
+   "paires": [
+    [
+     "Strahd",
+     "Barovie"
+    ],
+    [
+     "Acererak",
+     "Tombe des Horreurs"
+    ],
+    [
+     "Szass Tam",
+     "Thay"
+    ],
+    [
+     "Vecna",
+     "Main et Œil"
+    ]
+   ],
+   "expl": "Strahd règne sur la Barovie, Acererak a bâti la Tombe des Horreurs, Szass Tam dirige Thay, et la Main et l’Œil sont les reliques de Vecna.",
+   "src": "Curse of Strahd, Tomb of Annihilation, Dungeon Master’s Guide 5e",
+   "id": "mor-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un mort-vivant d’apparence humaine.\n2. Le soleil me blesse et l’eau courante me nuit.\n3. Je me nourris de sang et peux me changer en chauve-souris, en loup ou en brume.",
+   "choix": [
+    "Vampire",
+    "Goule",
+    "Liche",
+    "Spectre"
+   ],
+   "rep": 0,
+   "expl": "Le vampire est un mort-vivant aristocratique, aux nombreuses faiblesses.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
+   "id": "mor-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. J’étais un puissant lanceur de sorts.\n2. J’ai renoncé à la vie par un sombre rituel.\n3. Mon âme est cachée dans un phylactère.",
+   "choix": [
+    "Liche",
+    "Vampire",
+    "Chevalier de la mort",
+    "Seigneur momie"
+   ],
+   "rep": 0,
+   "expl": "La liche est un magicien devenu mort-vivant pour échapper à la mort.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Liche »",
+   "id": "mor-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis l’esprit tourmenté d’une elfe malfaisante.\n2. Je suis incorporelle et je hante les lieux de ma mort.\n3. Mon hurlement peut tuer d’un coup.",
+   "choix": [
+    "Banshee",
+    "Spectre",
+    "Fantôme",
+    "Revenant"
+   ],
+   "rep": 0,
+   "expl": "La banshee est l’esprit d’une elfe maléfique ; son hurlement mortel est sa capacité la plus redoutée.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Banshee »",
+   "id": "mor-086",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis revenu d’entre les morts.\n2. Je poursuis un seul but, la vengeance.\n3. Je ne m’arrête que lorsque mon meurtrier est mort.",
+   "choix": [
+    "Revenant",
+    "Zombie",
+    "Momie",
+    "Goule"
+   ],
+   "rep": 0,
+   "expl": "Le revenant se relève de sa tombe pour traquer celui qui l’a assassiné.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Revenant »",
+   "id": "mor-087",
+   "conf": "probable",
+   "concept": "nv_qui"
+  }
+ ]
+}

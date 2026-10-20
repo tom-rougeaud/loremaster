@@ -1,0 +1,1398 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "aberrations-dnd",
+  "nom": "Aberrations de D&D",
+  "royaume": "Bestiaire de D&D",
+  "icone": "oeil",
+  "sombre": true
+ },
+ "sources": [
+  "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+  "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+  "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1, « Mind Flayers »",
+  "D&D Beyond — Monstres : « Flagelleur mental » (bloc de caractéristiques 5e)",
+  "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1, « Mind Flayer Colonies »",
+  "Manuel des Monstres 5e (2014), entrée « Aboleth » — SRD 5.1, section Monsters",
+  "Manuel des Monstres 5e (2014), entrée « Tyrannœil », section « Cône d’antimagie »",
+  "Manuel des Monstres 5e (2014), entrée « Tyran de la mort »",
+  "Manuel des Monstres 5e (2014), entrée « Cloaker » — SRD 5.1, section Monsters",
+  "Manuel des Monstres 5e (2014), entrée « Umber hulk »",
+  "Manuel des Monstres 5e (2014), entrée « Gibbering mouther »",
+  "Manuel des Monstres 5e (2014), entrée « Chuul » — SRD 5.1, section Monsters",
+  "Manuel des Monstres 5e (2014), entrée « Otyugh » — SRD 5.1, section Monsters",
+  "Guide du Maître 5e (2014), chap. 2, « Les Royaumes Lointains »",
+  "Manuel des Monstres 5e (2014), entrée « Elder brain »",
+  "Manuel des Monstres 5e (2014), entrée « Dévoreur d’intellect »",
+  "Manuel des Monstres 5e (2014), entrée « Cloaker »",
+  "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1",
+  "Manuel des Monstres 5e (2014), entrée « Aboleth »",
+  "Manuel des Monstres 5e (2014), entrée « Chuul »",
+  "Manuel des Monstres 5e (2014), entrée « Mimique » — SRD 5.1, section Monsters",
+  "Manuel des Monstres 5e (2014), entrée « Tyrannœil », section « Rayons oculaires »",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Flagelleur mental",
+  "D&D Beyond — Monstres : « Flagelleur mental »",
+  "SRD 5.1, section Monsters (Aboleth)",
+  "SRD 5.1, section Monsters (Chuul)",
+  "SRD 5.1, section Monsters (Umber Hulk)",
+  "SRD 5.1, section Monsters (Cloaker)",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dévoreur d’intellect",
+  "SRD 5.1, section Monsters (Otyugh)",
+  "SRD 5.1, section Monsters (Gibbering Mouther)",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyran de la mort",
+  "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Elder brain",
+  "Manuel des Monstres 5e (2014), entrée « Mimique »"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "abe-001",
+   "concept": "abe-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre est une sphère flottante hérissée de pédoncules oculaires ?",
+   "choix": [
+    "Le tyrannœil",
+    "L’aboleth",
+    "Le mimique",
+    "Le flagelleur mental"
+   ],
+   "rep": 0,
+   "expl": "Le tyrannœil (« beholder » en anglais) est une aberration : un globe flottant dont un grand œil central est entouré de pédoncules oculaires. C’est l’un des monstres les plus emblématiques du jeu, présent depuis le supplément Greyhawk (1975).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-002",
+   "concept": "abe-002",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre dévore le cerveau de ses victimes avec ses tentacules ?",
+   "choix": [
+    "Le flagelleur mental",
+    "Le mimique",
+    "Le tyrannœil",
+    "Le gelée ochre"
+   ],
+   "rep": 0,
+   "expl": "Le flagelleur mental (illithid) saisit sa proie avec ses tentacules faciaux puis, si elle est neutralisée, lui extrait le cerveau : c’est sa capacité « Extraction du cerveau », qui tue la victime.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-003",
+   "concept": "abe-003",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel est le nom propre de la race des flagelleurs mentaux ?",
+   "choix": [
+    "Illithid",
+    "Umber hulk",
+    "Beholder",
+    "Aboleth"
+   ],
+   "rep": 0,
+   "expl": "« Illithid » est le nom de la race ; « flagelleur mental » (mind flayer) est le nom que lui donnent les autres peuples. Le beholder et l’aboleth sont, eux, des aberrations d’espèces différentes.",
+   "src": "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1, « Mind Flayers »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-004",
+   "concept": "abe-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle forme prend l’« explosion mentale » du flagelleur mental ?",
+   "choix": [
+    "Un cône d’énergie mentale",
+    "Une onde de foudre",
+    "Une toile de soie",
+    "Un souffle de feu"
+   ],
+   "rep": 0,
+   "expl": "L’explosion mentale (Mind Blast) est un cône de 18 m (60 pieds) d’énergie psychique ; chaque créature prise dedans doit réussir un jet de sauvegarde d’Intelligence (DD 15) ou subir des dégâts psychiques et un effet de contrôle.",
+   "src": "D&D Beyond — Monstres : « Flagelleur mental » (bloc de caractéristiques 5e)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-005",
+   "concept": "abe-005",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel état l’explosion mentale du flagelleur mental peut-elle infliger ?",
+   "choix": [
+    "Aveuglé",
+    "Effrayé",
+    "Étourdi",
+    "Empoisonné"
+   ],
+   "rep": 2,
+   "expl": "Une cible qui rate son jet de sauvegarde est étourdie pendant 1 minute, mais elle peut retenter son jet à la fin de chacun de ses tours pour se libérer.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-006",
+   "concept": "abe-006",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, où vivent surtout les colonies de flagelleurs mentaux ?",
+   "choix": [
+    "Le Gisombre",
+    "Le Plan Astral",
+    "L’Outreterre",
+    "Le Mont Céleste"
+   ],
+   "rep": 2,
+   "expl": "Les illithids bâtissent leurs colonies dans l’Outreterre (Underdark), le monde souterrain immense sous la surface, d’où ils lancent leurs raids pour capturer des humanoïdes.",
+   "src": "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1, « Mind Flayer Colonies »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-007",
+   "concept": "abe-007",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre aquatique, plus ancien que les dieux, asservit les esprits ?",
+   "choix": [
+    "Le kuo-toa",
+    "L’aboleth",
+    "Le kraken",
+    "Le chuul"
+   ],
+   "rep": 1,
+   "expl": "L’aboleth est un poisson monstrueux qui se souvient, dit-on, de l’époque d’avant les dieux ; il domine les autres êtres par ses pouvoirs mentaux et les réduit en esclavage.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Aboleth » — SRD 5.1, section Monsters",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-008",
+   "concept": "abe-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, que fait l’œil central du tyrannœil ?",
+   "choix": [
+    "Il paralyse tous",
+    "Il crée un cône d’antimagie",
+    "Il lance un sort mortel",
+    "Il rend invisible"
+   ],
+   "rep": 1,
+   "expl": "Son œil central projette un cône d’antimagie de 45 m (150 pieds) : dans la zone, les sorts et objets magiques cessent de fonctionner, y compris les rayons de ses propres pédoncules.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil », section « Cône d’antimagie »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-009",
+   "concept": "abe-009",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel mort-vivant est un tyrannœil revenu à la mort ?",
+   "choix": [
+    "Le tyran-liche",
+    "Le tyran de la mort",
+    "Le gauth",
+    "Le spectateur"
+   ],
+   "rep": 1,
+   "expl": "Le tyran de la mort (death tyrant) naît quand un tyrannœil meurt de façon violente, en haine de son tueur : c’est un tyrannœil mort-vivant, tout aussi puissant.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyran de la mort »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-010",
+   "concept": "abe-010",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle aberration ressemble à une grande cape noire ?",
+   "choix": [
+    "L’otyugh",
+    "Le chuul",
+    "Le grick",
+    "Le cloaker"
+   ],
+   "rep": 3,
+   "expl": "Le cloaker se tient immobile au plafond ou contre un mur : on le prend pour une simple cape sombre jusqu’à ce qu’il s’abatte sur sa proie.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cloaker » — SRD 5.1, section Monsters",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-011",
+   "concept": "abe-011",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre creuse la roche et trouble l’esprit par son regard ?",
+   "choix": [
+    "Le grick",
+    "L’umber hulk",
+    "Le cloaker",
+    "L’otyugh"
+   ],
+   "rep": 1,
+   "expl": "L’umber hulk perce la pierre avec ses mandibules et ses griffes ; quiconque croise son regard peut être confus (Regard confusant), ce qui le fait agir de façon aléatoire.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Umber hulk »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-012",
+   "concept": "abe-012",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre est un amas de bouches murmurantes ?",
+   "choix": [
+    "Le chuul",
+    "Le grick",
+    "Le nothic",
+    "Le gibbering mouther"
+   ],
+   "rep": 3,
+   "expl": "Le gibbering mouther (« amas de bouches babillantes ») est une masse informe couverte de bouches ; ses babillages hypnotisent et déséquilibrent ses proies avant qu’elles ne soient avalées.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gibbering mouther »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-013",
+   "concept": "abe-013",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre aquatique à pinces paralyse ses proies avec ses tentacules ?",
+   "choix": [
+    "Le cloaker",
+    "Le chuul",
+    "Le kraken",
+    "L’aboleth"
+   ],
+   "rep": 1,
+   "expl": "Le chuul est un crustacé géant : il saisit avec ses pinces, puis ses tentacules injectent un poison qui paralyse la créature agrippée, qu’il emporte ensuite pour la dévorer.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Chuul » — SRD 5.1, section Monsters",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-014",
+   "concept": "abe-014",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre se nourrit de déchets dans les égouts et attaque avec des tentacules ?",
+   "choix": [
+    "Le chuul",
+    "Le grick",
+    "L’otyugh",
+    "Le cloaker"
+   ],
+   "rep": 2,
+   "expl": "L’otyugh vit dans les fosses d’immondices et les égouts ; il se nourrit de détritus et de cadavres, et deux de ses tentacules agrippent les créatures qui passent trop près.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Otyugh » — SRD 5.1, section Monsters",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-015",
+   "concept": "abe-015",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, d’où viennent les aberrations selon la cosmologie du jeu ?",
+   "choix": [
+    "Des Royaumes Lointains",
+    "Du Plan Éthéré",
+    "Des Neuf Enfers",
+    "Du Gisombre"
+   ],
+   "rep": 0,
+   "expl": "Les aberrations sont liées aux Royaumes Lointains (Far Realm), une dimension aux lois physiques étrangères, extérieure à la cosmologie des plans habituels.",
+   "src": "Guide du Maître 5e (2014), chap. 2, « Les Royaumes Lointains »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-016",
+   "concept": "abe-016",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel être dirige une colonie de flagelleurs mentaux ?",
+   "choix": [
+    "Le gauth",
+    "Le cloaker",
+    "Le grick",
+    "L’elder brain"
+   ],
+   "rep": 3,
+   "expl": "L’elder brain (cerveau ancestral) est un énorme cerveau, ancien flagelleur mental : il domine télépathiquement toute la colonie et guide ses desseins.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Elder brain »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-017",
+   "concept": "abe-017",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, comment appelle-t-on la larve d’un flagelleur mental ?",
+   "choix": [
+    "Un têtard",
+    "Un asticot",
+    "Un larbin",
+    "Une nymphe"
+   ],
+   "rep": 0,
+   "expl": "Un têtard (tadpole) : implanté dans le crâne d’un humanoïde, il dévore le cerveau et la transforme peu à peu en flagelleur mental.",
+   "src": "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1, « Mind Flayers »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-018",
+   "concept": "abe-018",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle aberration est un cerveau à pattes qui prend le corps d’un humanoïde ?",
+   "choix": [
+    "Le cloaker",
+    "Le nothic",
+    "Le dévoreur d’intellect",
+    "Le grick"
+   ],
+   "rep": 2,
+   "expl": "Le dévoreur d’intellect (intellect devourer) dévore le cerveau de sa victime puis commande son corps comme une marionnette, tout en gardant l’apparence de la personne.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dévoreur d’intellect »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-019",
+   "concept": "abe-019",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel alignement a le tyrannœil ?",
+   "choix": [
+    "Chaotique mauvais",
+    "Neutre mauvais",
+    "Loyal bon",
+    "Loyal mauvais"
+   ],
+   "rep": 3,
+   "expl": "Le tyrannœil est loyal mauvais : tyrannique et paranoïaque, il veut tout dominer et ne tolère aucun rival, ce qui n’a rien de chaotique malgré son apparence.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-020",
+   "concept": "abe-020",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel alignement ont les flagelleurs mentaux ?",
+   "choix": [
+    "Chaotique mauvais",
+    "Loyal mauvais",
+    "Chaotique bon",
+    "Neutre mauvais"
+   ],
+   "rep": 1,
+   "expl": "Les illithids sont loyaux mauvais : leur société est une hiérarchie rigide, soumise à l’elder brain, qui exploite les autres espèces.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-021",
+   "concept": "abe-021",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle est la forme générale du corps du tyrannœil ?",
+   "choix": [
+    "Un cube",
+    "Une pyramide",
+    "Un cône",
+    "Une sphère"
+   ],
+   "rep": 3,
+   "expl": "Le corps du tyrannœil est une sphère flottante, d’où son nom anglais de « beholder » ; il vole sans ailes, par lévitation.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-022",
+   "concept": "abe-022",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, comment s’appelle l’attaque du flagelleur mental qui lui permet de dévorer un cerveau ?",
+   "choix": [
+    "Extraction du cerveau",
+    "Pillage mental",
+    "Morsure vampirique",
+    "Absorption d’âme"
+   ],
+   "rep": 0,
+   "expl": "C’est l’action « Extraction du cerveau » (Extract Brain) : elle exige une cible agrippée et neutralisée, et la tue en lui retirant le cerveau.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-023",
+   "concept": "abe-023",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, le tyrannœil est une sphère flottante dotée de nombreux yeux.",
+   "rep": true,
+   "expl": "Vrai : un œil central et dix pédoncules oculaires, chacun tirant un rayon magique différent.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-024",
+   "concept": "abe-024",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le flagelleur mental est un humanoïde aux tentacules autour de la bouche.",
+   "rep": true,
+   "expl": "Vrai : sa tête rappelle une pieuvre, avec quatre tentacules faciaux autour de la bouche.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-025",
+   "concept": "abe-025",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’aboleth est un monstre des déserts.",
+   "rep": false,
+   "expl": "Faux : l’aboleth est un monstre aquatique, qui vit dans les lacs et mers souterrains.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Aboleth » — SRD 5.1, section Monsters",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-026",
+   "concept": "abe-026",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le tyrannœil peut annuler la magie dans un cône.",
+   "rep": true,
+   "expl": "Vrai : le cône d’antimagie de son œil central supprime les sorts et les objets magiques dans la zone.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-027",
+   "concept": "abe-027",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, le tyran de la mort (death tyrant) est un flagelleur mental mort-vivant.",
+   "rep": false,
+   "expl": "Faux : c’est un tyrannœil mort-vivant.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyran de la mort »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-028",
+   "concept": "abe-028",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le flagelleur mental extrait le cerveau de ses victimes.",
+   "rep": true,
+   "expl": "Vrai : sa capacité « Extraction du cerveau » le lui permet, sur une créature agrippée et neutralisée.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-029",
+   "concept": "abe-029",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le cloaker est un monstre aquatique.",
+   "rep": false,
+   "expl": "Faux : le cloaker vit dans les souterrains et les ruines, accroché aux plafonds, où il se fait passer pour une cape.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cloaker »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-030",
+   "concept": "abe-030",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les flagelleurs mentaux vivent dans l’Outreterre.",
+   "rep": true,
+   "expl": "Vrai : leurs colonies sont souterraines, dans l’Outreterre (Underdark).",
+   "src": "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-031",
+   "concept": "abe-031",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le tyrannœil a quatre pédoncules oculaires.",
+   "rep": false,
+   "expl": "Faux : il en a dix, plus un grand œil central.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-032",
+   "concept": "abe-032",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le flagelleur mental est un monstre loyal bon.",
+   "rep": false,
+   "expl": "Faux : il est loyal mauvais.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-033",
+   "concept": "abe-033",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, les aberrations viennent des Royaumes Lointains.",
+   "rep": true,
+   "expl": "Vrai : le Far Realm, dimension d’horreur cosmique, est considéré comme leur origine.",
+   "src": "Guide du Maître 5e (2014), chap. 2, « Les Royaumes Lointains »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-034",
+   "concept": "abe-034",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’aboleth est plus jeune que les dieux.",
+   "rep": false,
+   "expl": "Faux : le Manuel des Monstres le décrit comme plus ancien que les dieux, avec une mémoire héritée des temps primordiaux.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Aboleth »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-035",
+   "concept": "abe-035",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’umber hulk est incapable de creuser la roche.",
+   "rep": false,
+   "expl": "Faux : ses mandibules et ses griffes lui permettent de creuser la pierre.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Umber hulk »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-036",
+   "concept": "abe-036",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le chuul a des tentacules paralysants.",
+   "rep": true,
+   "expl": "Vrai : ses tentacules injectent un poison qui paralyse la créature agrippée, jusqu’à 1 minute.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Chuul »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-037",
+   "concept": "abe-037",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le gibbering mouther est un monstre à bouches multiples.",
+   "rep": true,
+   "expl": "Vrai : son corps est couvert de bouches qui babillent sans cesse.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gibbering mouther »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-038",
+   "concept": "abe-038",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le mimique ne peut prendre que la forme d’un coffre.",
+   "rep": false,
+   "expl": "Faux : le mimique peut se changer en n’importe quel objet, comme un coffre, une porte ou même un escalier.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mimique » — SRD 5.1, section Monsters",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-039",
+   "concept": "abe-039",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de rayons oculaires différents un tyrannœil peut-il tirer ?",
+   "min": 1,
+   "max": 15,
+   "pas": 1,
+   "unite": "rayons",
+   "tolerance": 0,
+   "rep": 10,
+   "expl": "Un tyrannœil dispose de dix rayons oculaires (un par pédoncule), aux effets variés : charme, paralysie, désintégration, mort…",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil », section « Rayons oculaires »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-040",
+   "concept": "abe-040",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) du tyrannœil ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 13,
+   "expl": "Le FP 13 le place parmi les monstres à affronter à haut niveau (environ niveaux 10 à 15 pour un groupe de quatre).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-041",
+   "concept": "abe-041",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la classe d’armure (CA) du tyrannœil ?",
+   "min": 10,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 18,
+   "expl": "Sa CA est de 18, grâce à son armure naturelle (peau épaisse).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-042",
+   "concept": "abe-042",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un tyrannœil (à 10 près) ?",
+   "min": 50,
+   "max": 300,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 10,
+   "rep": 180,
+   "expl": "Il a 180 points de vie en moyenne (19d10 + 76 selon le bloc de caractéristiques).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-043",
+   "concept": "abe-043",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la portée du cône d’antimagie du tyrannœil (en pieds, à 10 près) ?",
+   "min": 50,
+   "max": 300,
+   "pas": 10,
+   "unite": "pieds",
+   "tolerance": 10,
+   "rep": 150,
+   "expl": "Le cône d’antimagie de l’œil central porte à 150 pieds (environ 45 m).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil », section « Cône d’antimagie »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-044",
+   "concept": "abe-044",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) du flagelleur mental ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 7,
+   "expl": "Le flagelleur mental est de FP 7, un défi de niveau intermédiaire (aventuriers de niveau 5 à 8).",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Flagelleur mental",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-045",
+   "concept": "abe-045",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un flagelleur mental ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 71,
+   "expl": "71 points de vie en moyenne (13d8 + 13) : fragile pour son FP, il compense par ses pouvoirs mentaux.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Flagelleur mental",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-046",
+   "concept": "abe-046",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la classe d’armure (CA) du flagelleur mental ?",
+   "min": 10,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 15,
+   "expl": "Le flagelleur mental a une CA de 15, due à son armure (cuirasse) : il n’a donc pas besoin d’une peau épaisse, car il compte surtout sur ses pouvoirs psioniques.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Flagelleur mental",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-047",
+   "concept": "abe-047",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la portée de l’explosion mentale du flagelleur mental (en pieds) ?",
+   "min": 10,
+   "max": 150,
+   "pas": 10,
+   "unite": "pieds",
+   "tolerance": 0,
+   "rep": 60,
+   "expl": "L’explosion mentale frappe en cône de 60 pieds (18 m), soit assez pour atteindre tout un groupe d’aventuriers.",
+   "src": "D&D Beyond — Monstres : « Flagelleur mental »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-048",
+   "concept": "abe-048",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de tentacules faciaux a le flagelleur mental ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "tentacules",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "Quatre tentacules entourent sa bouche ; ils servent à la fois d’armes et d’organes de nutrition pour l’« Extraction du cerveau ».",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-049",
+   "concept": "abe-049",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) de l’aboleth ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 10,
+   "expl": "FP 10 : un adversaire redoutable, capable d’asservir plusieurs créatures à la fois.",
+   "src": "SRD 5.1, section Monsters (Aboleth)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-050",
+   "concept": "abe-050",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la classe d’armure (CA) de l’aboleth ?",
+   "min": 10,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 17,
+   "expl": "CA 17, grâce à sa peau épaisse et visqueuse (armure naturelle).",
+   "src": "SRD 5.1, section Monsters (Aboleth)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-051",
+   "concept": "abe-051",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de tentacules l’aboleth utilise-t-il pour attaquer ?",
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "tentacules",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Il a trois attaques de tentacule par tour, qui infligent des dégâts et peuvent transformer la peau de la victime en mucus.",
+   "src": "SRD 5.1, section Monsters (Aboleth)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-052",
+   "concept": "abe-052",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) du chuul ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "FP 4 : un adversaire de niveau modeste pour des aventuriers de niveau 3 à 5.",
+   "src": "SRD 5.1, section Monsters (Chuul)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-053",
+   "concept": "abe-053",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) de l’umber hulk ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "FP 5 : son regard confusant et sa force de creuseur en font un gros danger pour un groupe de niveau 4 à 6.",
+   "src": "SRD 5.1, section Monsters (Umber Hulk)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-054",
+   "concept": "abe-054",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) du cloaker ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 8,
+   "expl": "FP 8 : il attaque en s’enroulant autour de sa proie et possède des pouvoirs d’illusion et de gémissement qui terrorisent les groupes.",
+   "src": "SRD 5.1, section Monsters (Cloaker)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-055",
+   "concept": "abe-055",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) du dévoreur d’intellect ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "FP 2 : petit mais retors, il remplace le cerveau de sa victime et prend le contrôle de son corps.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Dévoreur d’intellect",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-056",
+   "concept": "abe-056",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) de l’otyugh ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "FP 5 : ses tentacules l’agrippent et il transmet une maladie, la fièvre putride, par sa morsure.",
+   "src": "SRD 5.1, section Monsters (Otyugh)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-057",
+   "concept": "abe-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) du gibbering mouther ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "FP 2 : son babillement, ses morsures et son sol gluant en font un adversaire peu puissant mais très désagréable.",
+   "src": "SRD 5.1, section Monsters (Gibbering Mouther)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-058",
+   "concept": "abe-058",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) du tyran de la mort (death tyrant) ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 14,
+   "expl": "FP 14 : un peu au-dessus du tyrannœil vivant (FP 13), grâce à ses rayons nécrotiques et à ses vols.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyran de la mort",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-059",
+   "concept": "abe-059",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP (facteur de puissance) de l’elder brain ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 14,
+   "expl": "FP 14 : un cerveau géant télépathe, assisté de toute une colonie, capable de dominer des dizaines d’esprits.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques de l’Elder brain",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-060",
+   "concept": "abe-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la classe d’armure (CA) de l’umber hulk ?",
+   "min": 10,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 18,
+   "expl": "CA 18, grâce à sa carapace épaisse (armure naturelle).",
+   "src": "SRD 5.1, section Monsters (Umber Hulk)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-061",
+   "concept": "abe-061",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre imite un coffre ou une porte pour piéger les aventuriers ?",
+   "choix": [
+    "Le cloaker",
+    "L’otyugh",
+    "Le mimique",
+    "Le grick"
+   ],
+   "rep": 2,
+   "expl": "Le mimique est un changeur de forme qui reste immobile sous l’apparence d’un objet, couvert d’une substance collante qui colle la proie.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mimique » — SRD 5.1, section Monsters",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-062",
+   "concept": "abe-062",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, de quelle taille est le tyrannœil ?",
+   "choix": [
+    "Moyenne",
+    "Grande",
+    "Très grande",
+    "Minuscule"
+   ],
+   "rep": 1,
+   "expl": "Le tyrannœil est de taille G (Grande), c’est-à-dire environ 3 m de côté pour occuper une case de 3 m sur la carte de combat.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-063",
+   "concept": "abe-063",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, à quel type de créature appartient le tyrannœil ?",
+   "choix": [
+    "Monstruosité",
+    "Fiélon",
+    "Aberration",
+    "Mort-vivant"
+   ],
+   "rep": 2,
+   "expl": "C’est une aberration (type de créature de la 5e édition), comme le flagelleur mental, l’aboleth ou le cloaker.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-064",
+   "concept": "abe-064",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, comment appelle-t-on un groupement de flagelleurs mentaux ?",
+   "choix": [
+    "Une nécropole",
+    "Un conclave",
+    "Une forge",
+    "Une colonie"
+   ],
+   "rep": 3,
+   "expl": "Une colonie : les illithids vivent en communautés souterraines dirigées par un elder brain.",
+   "src": "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1, « Mind Flayer Colonies »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-065",
+   "concept": "abe-065",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le mimique peut se coller à ses victimes.",
+   "rep": true,
+   "expl": "Vrai : sa substance adhésive colle les créatures qui le touchent, qui sont alors agrippées.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-066",
+   "concept": "abe-066",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le tyrannœil est un monstre de type mort-vivant.",
+   "rep": false,
+   "expl": "Faux : c’est une aberration. C’est le tyran de la mort qui est mort-vivant.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-067",
+   "concept": "abe-067",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le tyrannœil est de taille Minuscule.",
+   "rep": false,
+   "expl": "Faux : il est de taille G (Grande), à peu près 3 m de côté.",
+   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-068",
+   "concept": "abe-068",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, une colonie illithide est dirigée par un elder brain.",
+   "rep": true,
+   "expl": "Vrai : l’elder brain domine les flagelleurs mentaux de la colonie par télépathie.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Elder brain »",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-069",
+   "concept": "abe-069",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’aboleth est un monstre loyal bon.",
+   "rep": false,
+   "expl": "Faux : l’aboleth est loyal mauvais.",
+   "src": "SRD 5.1, section Monsters (Aboleth)",
+   "conf": "probable"
+  },
+  {
+   "id": "abe-070",
+   "concept": "abe-070",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le dévoreur d’intellect est un cerveau à pattes.",
+   "rep": true,
+   "expl": "Vrai : c’est un cerveau doté de petites pattes ; il se glisse dans un crâne vidé pour contrôler le corps.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dévoreur d’intellect »",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces monstres n’a pas de tentacules ?",
+   "choix": [
+    "Umber hulk",
+    "Aboleth",
+    "Flagelleur mental",
+    "Otyugh"
+   ],
+   "rep": 0,
+   "expl": "L’umber hulk creuse la roche avec ses griffes et ses mandibules. L’aboleth, le flagelleur mental et l’otyugh ont des tentacules.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "abe-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces effets n’est pas un rayon oculaire du tyrannœil ?",
+   "choix": [
+    "Boule de feu",
+    "Charme",
+    "Paralysie",
+    "Désintégration"
+   ],
+   "rep": 0,
+   "expl": "Les dix rayons du tyrannœil : charme, paralysie, peur, ralentissement, énervation, télékinésie, sommeil, pétrification, désintégration et mort. Pas de boule de feu.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+   "id": "abe-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lequel de ces monstres n’est pas une aberration ?",
+   "choix": [
+    "Mimique",
+    "Tyrannœil",
+    "Flagelleur mental",
+    "Aboleth"
+   ],
+   "rep": 0,
+   "expl": "Le mimique est une monstruosité. Le tyrannœil, le flagelleur mental et l’aboleth sont des aberrations.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "abe-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le flagelleur mental dévore le ____ de ses victimes.",
+   "choix": [
+    "cerveau",
+    "cœur",
+    "foie",
+    "sang"
+   ],
+   "rep": 0,
+   "expl": "Son attaque « Extraction du cerveau » tue sa victime en lui dévorant le cerveau.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "id": "abe-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le grand œil central du tyrannœil crée un cône d’____.",
+   "choix": [
+    "antimagie",
+    "obscurité",
+    "illusion",
+    "infravision"
+   ],
+   "rep": 0,
+   "expl": "Le cône d’antimagie du tyrannœil supprime la magie dans sa zone.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+   "id": "abe-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, une colonie de flagelleurs mentaux est dirigée par un ____.",
+   "choix": [
+    "elder brain",
+    "tyran de la mort",
+    "cloaker",
+    "aboleth"
+   ],
+   "rep": 0,
+   "expl": "Au cœur de la colonie illithide, l’elder brain commande les flagelleurs mentaux.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Elder brain »",
+   "id": "abe-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces monstres ont un FP supérieur à 10 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tyrannœil",
+    "Tyran de la mort",
+    "Elder brain",
+    "Aboleth",
+    "Flagelleur mental"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "FP : tyrannœil 13, tyran de la mort 14, elder brain 14 ; aboleth 10 et flagelleur mental 7 sont en dessous.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "abe-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces monstres sont des aberrations ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tyrannœil",
+    "Aboleth",
+    "Dévoreur d’intellect",
+    "Mimique",
+    "Gargouille"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Tyrannœil, aboleth et dévoreur d’intellect sont des aberrations ; mimique et gargouille ne le sont pas.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "abe-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces monstres ont un FP inférieur ou égal à 5 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Umber hulk",
+    "Chuul",
+    "Gibbering mouther",
+    "Cloaker",
+    "Flagelleur mental"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "FP : umber hulk 5, chuul 4, gibbering mouther 2 ; cloaker 8 et flagelleur mental 7 sont plus dangereux.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "abe-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces aberrations par FP croissant.",
+   "items": [
+    "Gibbering mouther",
+    "Chuul",
+    "Flagelleur mental",
+    "Aboleth",
+    "Tyrannœil"
+   ],
+   "expl": "FP : gibbering mouther 2, chuul 4, flagelleur mental 7, aboleth 10, tyrannœil 13.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "abe-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces monstres par FP croissant.",
+   "items": [
+    "Dévoreur d’intellect",
+    "Umber hulk",
+    "Cloaker",
+    "Tyran de la mort"
+   ],
+   "expl": "FP : dévoreur d’intellect 2, umber hulk 5, cloaker 8, tyran de la mort 14.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "abe-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque aberration à son apparence.",
+   "paires": [
+    [
+     "Tyrannœil",
+     "Sphère aux pédoncules oculaires"
+    ],
+    [
+     "Flagelleur mental",
+     "Tentacules autour de la bouche"
+    ],
+    [
+     "Cloaker",
+     "Grande cape noire"
+    ],
+    [
+     "Dévoreur d’intellect",
+     "Cerveau à pattes"
+    ]
+   ],
+   "expl": "Chaque aberration a une silhouette distinctive.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "abe-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque monstre à sa capacité caractéristique.",
+   "paires": [
+    [
+     "Tyrannœil",
+     "Cône d’antimagie"
+    ],
+    [
+     "Flagelleur mental",
+     "Explosion mentale"
+    ],
+    [
+     "Aboleth",
+     "Asservissement"
+    ],
+    [
+     "Umber hulk",
+     "Regard confusant"
+    ]
+   ],
+   "expl": "Antimagie (tyrannœil), explosion mentale (flagelleur), asservissement (aboleth), regard confusant (umber hulk).",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "abe-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une sphère flottante.\n2. J’ai un grand œil central et de nombreux pédoncules.\n3. Mon regard central annule la magie.",
+   "choix": [
+    "Tyrannœil",
+    "Flagelleur mental",
+    "Cloaker",
+    "Gibbering mouther"
+   ],
+   "rep": 0,
+   "expl": "Le tyrannœil (beholder) est un tyran paranoïaque aux dix rayons oculaires.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
+   "id": "abe-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je viens de l’Outreterre.\n2. Ma tête ressemble à une pieuvre.\n3. Je domine par la pensée et je me nourris de cerveaux.",
+   "choix": [
+    "Flagelleur mental",
+    "Aboleth",
+    "Chuul",
+    "Otyugh"
+   ],
+   "rep": 0,
+   "expl": "Le flagelleur mental (illithid) règne par la télépathie et l’extraction de cerveau.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
+   "id": "abe-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je ressemble à un cerveau qui marche sur quatre pattes.\n2. Je dévore l’esprit de ma proie.\n3. Une fois son cerveau détruit, je prends possession de son corps.",
+   "choix": [
+    "Dévoreur d’intellect",
+    "Gibbering mouther",
+    "Otyugh",
+    "Cloaker"
+   ],
+   "rep": 0,
+   "expl": "Le dévoreur d’intellect détruit l’esprit puis s’empare du corps de sa victime.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dévoreur d’intellect »",
+   "id": "abe-086",
+   "conf": "probable",
+   "concept": "nv_qui"
+  }
+ ]
+}

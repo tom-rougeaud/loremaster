@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+from _lib import *
+MM='Manuel des Monstres 5e (2014)'
+I(1,'Dans D&D 5e, lequel de ces monstres n’est pas un lycanthrope ?','Worg',['Loup-garou','Rat-garou','Ours-garou'],'Le worg est un loup monstrueux ordinaire. Les trois autres sont des lycanthropes.',MM+', entrées correspondantes')
+I(2,'Dans D&D 5e, lequel de ces êtres n’est pas un métamorphe ?','Gargouille',['Doppelgänger','Mimique','Loup-garou'],'La gargouille a une forme fixe, alors que doppelgänger, mimique et loup-garou changent d’apparence.',MM+', entrées correspondantes')
+I(3,'Lequel de ces animaux n’a pas de lycanthrope dédié dans le Manuel des Monstres 5e ?','Aigle',['Ours','Sanglier','Tigre'],'Le Manuel des Monstres propose loup-garou, rat-garou, sanglier-garou, tigre-garou et ours-garou.',MM)
+T(1,'Dans D&D, l’______ est le métal qui permet de blesser pleinement les lycanthropes.','argent',['or','étain','plomb'],'Les lycanthropes sont immunisés aux armes non magiques sauf si elles sont en argent.',MM+', entrée « Loup-garou »')
+T(2,'Dans D&D 5e, le sort Délivrance des ____ guérit la lycanthropie.','malédictions',['maladies','poisons','envoûtements'],'Délivrance des malédictions (niveau 3) mettra fin à la lycanthropie.','Manuel des Joueurs 5e (2014)')
+T(3,'Dans D&D 5e, la capacité du druide qui permet de prendre une forme animale s’appelle ____ sauvage.','Forme',['Peau','Âme','Voie'],'Forme sauvage est un pouvoir clé du druide.','Manuel des Joueurs 5e (2014)')
+M(2,'Dans D&D 5e, lesquels de ces monstres sont des lycanthropes ? (plusieurs bonnes réponses)',['Loup-garou','Sanglier-garou','Tigre-garou'],['Worg','Doppelgänger'],'Loup-garou, sanglier-garou et tigre-garou sont des lycanthropes ; worg et doppelgänger non.',MM+', entrées correspondantes')
+M(3,'Dans D&D 5e, lesquels de ces lycanthropes ont un FP d’au moins 4 ? (plusieurs bonnes réponses)',['Sanglier-garou','Tigre-garou','Ours-garou'],['Loup-garou','Rat-garou'],'FP : sanglier 4, tigre 4, ours 5 ; loup-garou 3 et rat-garou 2.',MM+', blocs de caractéristiques')
+M(3,'Dans D&D 5e, lesquels de ces monstres peuvent prendre une apparence différente ? (plusieurs bonnes réponses)',['Doppelgänger','Mimique','Loup-garou'],['Gargouille','Basilic'],'Ils sont tous métamorphes, au contraire de la gargouille et du basilic.',MM+', entrées correspondantes')
+O(3,'Classe ces monstres par FP croissant.',['Rat-garou','Loup-garou','Ours-garou','Vampire','Liche'],'FP : rat-garou 2, loup-garou 3, ours-garou 5, vampire 13, liche 21.',MM+', blocs de caractéristiques')
+O(3,'Classe ces lycanthropes par points de vie moyens croissants.',['Loup-garou','Rat-garou','Sanglier-garou','Tigre-garou','Ours-garou'],'PV moyens : loup-garou 58, rat-garou 60, sanglier-garou 78, tigre-garou 120, ours-garou 135.',MM+', blocs de caractéristiques')
+A(1,'Associe chaque lycanthrope à son animal.',[('Loup-garou','Loup'),('Rat-garou','Rat'),('Ours-garou','Ours'),('Tigre-garou','Tigre')],'Chaque lycanthrope prend la forme de l’animal qui lui donne son nom.',MM+', entrées correspondantes')
+A(3,'Associe chaque lycanthrope à son alignement.',[('Loup-garou','Chaotique mauvais'),('Ours-garou','Neutre bon'),('Rat-garou','Loyal mauvais'),('Tigre-garou','Neutre')],'Ours-garou neutre bon, loup-garou chaotique mauvais, rat-garou loyal mauvais, tigre-garou neutre.',MM+', blocs de caractéristiques')
+W(1,['Je suis maudit par la lune.','Je suis un homme le jour, une bête la nuit.','Seul l’argent ou la magie me blesse vraiment.'],'Loup-garou',['Worg','Doppelgänger','Vampire'],'Le loup-garou est le lycanthrope le plus célèbre.',MM+', entrée « Loup-garou »')
+W(2,['Je prends l’apparence de mes victimes.','Je lis leurs pensées en surface.','Je suis un métamorphe de FP 3.'],'Doppelgänger',['Mimique','Changelin','Rat-garou'],'Le doppelgänger imite les humanoïdes et lit les pensées superficielles.',MM+', entrée « Doppelgänger »')
+W(2,['Je suis un rongeur.','Je suis un lycanthrope de FP 2.','Mon alignement est loyal mauvais.'],'Rat-garou',['Loup-garou','Sanglier-garou','Ours-garou'],'Le rat-garou est un lycanthrope loyal mauvais de FP 2.',MM+', entrée « Rat-garou »')
+save('lycanthropes-metamorphes','lyc')

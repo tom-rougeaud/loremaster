@@ -1,0 +1,1364 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "gobelinoides-humanoides",
+  "nom": "Gobelinoïdes et humanoïdes de D&D",
+  "royaume": "Bestiaire de D&D",
+  "icone": "masque",
+  "sombre": false
+ },
+ "sources": [
+  "Volo’s Guide to Monsters (2016), Gobelinoïdes, « Maglubiyet »",
+  "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+  "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+  "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+  "Manuel des Monstres 5e (2014), entrée « Gobelours »",
+  "Manuel des Monstres 5e (2014), entrée « Gnoll »",
+  "Manuel des Monstres 5e (2014), entrée « Kobold »",
+  "Manuel des Monstres 5e (2014), entrée « Orque »",
+  "Manuel des Monstres 5e (2014), entrée « Homme-lézard »",
+  "Manuel des Monstres 5e (2014), entrée « Bullywug »",
+  "Manuel des Monstres 5e (2014), entrée « Kuo-toa »",
+  "Manuel des Monstres 5e (2014), entrée « Yuan-ti »",
+  "D&D Starter Set (2014), Lost Mine of Phandelver",
+  "D&D Starter Set (2014), Lost Mine of Phandelver, chap. 1",
+  "D&D Starter Set (2014), Lost Mine of Phandelver, chap. 4",
+  "Manuel des Monstres 5e (2014), entrée « Sahuagin »",
+  "Volo’s Guide to Monsters (2016), Kobolds, « Kurtulmak »",
+  "Manuel des Joueurs 5e (2014), chap. 2 « Demi-orque »",
+  "D&D Starter Set (2014), Lost Mine of Phandelver, chap. 2",
+  "Manuel des Monstres 5e (2014), entrée « Abomination yuan-ti »"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "gob-001",
+   "concept": "gob-001",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dieu est le maître des gobelinoïdes (gobelins, hobgobelins, gobelours) ?",
+   "choix": [
+    "Maglubiyet",
+    "Gruumsh",
+    "Bane",
+    "Yeenoghu"
+   ],
+   "rep": 0,
+   "expl": "Maglubiyet, le Puissant, règne sur les gobelinoïdes ; Gruumsh est le dieu des orques.",
+   "src": "Volo’s Guide to Monsters (2016), Gobelinoïdes, « Maglubiyet »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-002",
+   "concept": "gob-002",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dieu borgne est le chef du panthéon des orques ?",
+   "choix": [
+    "Maglubiyet",
+    "Gruumsh",
+    "Bane",
+    "Tyr"
+   ],
+   "rep": 1,
+   "expl": "Gruumsh, le dieu à un œil, domine les orques ; il a perdu l’autre œil contre Corellon.",
+   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-003",
+   "concept": "gob-003",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, que permet la capacité Fuite agile du gobelin ?",
+   "choix": [
+    "Doubler sa vitesse",
+    "Devenir invisible 1 heure",
+    "Lancer un sort supplémentaire",
+    "Se désengager ou se cacher en action bonus"
+   ],
+   "rep": 3,
+   "expl": "Le gobelin peut utiliser l’action bonus pour se désengager ou se cacher à chaque tour.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-004",
+   "concept": "gob-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel gobelinoïde est le plus discipliné et militaire ?",
+   "choix": [
+    "Le hobgobelin",
+    "Le gobelin",
+    "Le kobold",
+    "Le gnoll"
+   ],
+   "rep": 0,
+   "expl": "Les hobgobelins sont organisés en légions et combattent en formation.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-005",
+   "concept": "gob-005",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel gobelinoïde, grand et poilu, est un tueur furtif ?",
+   "choix": [
+    "Le gobelin",
+    "Le gobelours",
+    "Le gnoll",
+    "Le hobgobelin"
+   ],
+   "rep": 1,
+   "expl": "Le gobelours (bugbear) frappe par surprise : ses attaques par surprise infligent des dégâts supplémentaires.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-006",
+   "concept": "gob-006",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle créature à tête de hyène suit le Seigneur démon Yeenoghu ?",
+   "choix": [
+    "Le hobgobelin",
+    "L’orque",
+    "Le gnoll",
+    "Le kobold"
+   ],
+   "rep": 2,
+   "expl": "Les gnolls sont nés de la rage de Yeenoghu, le Seigneur des Gnolls, et dévastent les terres.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gnoll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-007",
+   "concept": "gob-007",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel petit humanoïde reptilien sert les dragons ?",
+   "choix": [
+    "Le gnoll",
+    "L’orque",
+    "Le gobelin",
+    "Le kobold"
+   ],
+   "rep": 3,
+   "expl": "Les kobolds vénèrent les dragons et construisent des pièges dans leurs repaires.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-008",
+   "concept": "gob-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel trait permet à l’orque de se déplacer en action bonus vers un ennemi ?",
+   "choix": [
+    "Régénérateur",
+    "Furtif",
+    "Vol",
+    "Agressif"
+   ],
+   "rep": 3,
+   "expl": "Agressif (Aggressive) : l’orque se déplace de sa vitesse vers une créature hostile qu’il voit.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-009",
+   "concept": "gob-009",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel handicap les kobolds subissent-ils en pleine lumière ?",
+   "choix": [
+    "Aveuglement",
+    "Sensibilité au soleil",
+    "Phobie du feu",
+    "Allergie à l’argent"
+   ],
+   "rep": 1,
+   "expl": "Sensibilité à la lumière du soleil : désavantage aux jets d’attaque et de Perception basés sur la vue.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-010",
+   "concept": "gob-010",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel trait donne un avantage aux kobolds s’ils sont nombreux ?",
+   "choix": [
+    "Tactique de meute",
+    "Mur de boucliers",
+    "Charge fanatique",
+    "Rage de groupe"
+   ],
+   "rep": 0,
+   "expl": "Tactique de meute (Pack Tactics) : avantage à l’attaque si un allié est adjacent à la cible.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-011",
+   "concept": "gob-011",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel trait du hobgobelin ajoute des dégâts s’il a un allié proche ?",
+   "choix": [
+    "Avantage martial",
+    "Attaque sournoise",
+    "Rage guerrière",
+    "Charge brutale"
+   ],
+   "rep": 0,
+   "expl": "Avantage martial (Martial Advantage) : 7 (2d6) dégâts supplémentaires, une fois par tour.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-012",
+   "concept": "gob-012",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel humanoïde ressemble à un lézard et vit dans les marais ?",
+   "choix": [
+    "Le gnoll",
+    "L’homme-lézard",
+    "Le kobold",
+    "Le bullywug"
+   ],
+   "rep": 1,
+   "expl": "L’homme-lézard (lizardfolk) est un chasseur-cueilleur des marais, de CA 15.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Homme-lézard »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-013",
+   "concept": "gob-013",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel humanoïde ressemble à une grenouille et vit dans les marais ?",
+   "choix": [
+    "Le bullywug",
+    "Le kuo-toa",
+    "L’homme-lézard",
+    "Le sahuagin"
+   ],
+   "rep": 0,
+   "expl": "Le bullywug est un homme-grenouille mesquin et querelleur, que l’on croise dans les marécages.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Bullywug »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-014",
+   "concept": "gob-014",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel humanoïde poisson vénère Blibdoolpoolp ?",
+   "choix": [
+    "Le locathah",
+    "Le sahuagin",
+    "Le kuo-toa",
+    "Le triton"
+   ],
+   "rep": 2,
+   "expl": "Le kuo-toa est un humanoïde poisson, à moitié fou, qui vénère Blibdoolpoolp, la Mère des mers.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kuo-toa »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-015",
+   "concept": "gob-015",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quels humanoïdes sont des hybrides serpent-humain ?",
+   "choix": [
+    "Les tabaxi",
+    "Les kenku",
+    "Les yuan-ti",
+    "Les gnolls"
+   ],
+   "rep": 2,
+   "expl": "Les yuan-ti sont des serpents humanoïdes, adorateurs de dieux serpents.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Yuan-ti »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-016",
+   "concept": "gob-016",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle aventure du coffret d’initiation (2014) mène les héros à Phandalin ?",
+   "choix": [
+    "Lost Mine of Phandelver",
+    "Curse of Strahd",
+    "Out of the Abyss",
+    "Hoard of the Dragon Queen"
+   ],
+   "rep": 0,
+   "expl": "Lost Mine of Phandelver est l’aventure du D&D Starter Set (2014), pour les niveaux 1 à 5.",
+   "src": "D&D Starter Set (2014), Lost Mine of Phandelver",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-017",
+   "concept": "gob-017",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans Lost Mine of Phandelver, quel gobelours dirige la cachette Cragmaw ?",
+   "choix": [
+    "Glasstaff",
+    "Nezznar",
+    "Venomfang",
+    "Klarg"
+   ],
+   "rep": 3,
+   "expl": "Klarg, un gobelours, règne sur la cachette Cragmaw et commande les gobelins.",
+   "src": "D&D Starter Set (2014), Lost Mine of Phandelver, chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-018",
+   "concept": "gob-018",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans Lost Mine of Phandelver, quel est le repaire final de l’aventure ?",
+   "choix": [
+    "Redbrand Hideout",
+    "Cragmaw Castle",
+    "Tresendar Manor",
+    "Wave Echo Cave"
+   ],
+   "rep": 3,
+   "expl": "La caverne de l’Écho de la vague (Wave Echo Cave) abrite la forge des sorts et le Spectateur.",
+   "src": "D&D Starter Set (2014), Lost Mine of Phandelver, chap. 4",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-019",
+   "concept": "gob-019",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel alignement général ont les gobelins ?",
+   "choix": [
+    "Loyal mauvais",
+    "Loyal bon",
+    "Neutre mauvais",
+    "Chaotique bon"
+   ],
+   "rep": 2,
+   "expl": "Neutre mauvais : ils sont égoïstes et cruels, mais pas vraiment chaotiques.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-020",
+   "concept": "gob-020",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel alignement général ont les orques ?",
+   "choix": [
+    "Chaotique mauvais",
+    "Neutre strict",
+    "Loyal mauvais",
+    "Neutre bon"
+   ],
+   "rep": 0,
+   "expl": "Chaotique mauvais : ils suivent Gruumsh et vivent de pillages.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-021",
+   "concept": "gob-021",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel alignement général ont les hobgobelins ?",
+   "choix": [
+    "Chaotique bon",
+    "Neutre mauvais",
+    "Chaotique mauvais",
+    "Loyal mauvais"
+   ],
+   "rep": 3,
+   "expl": "Loyal mauvais : ils respectent un ordre militaire strict.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-022",
+   "concept": "gob-022",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel humanoïde marin redoutable, aussi appelé « diable des mers », hante les récifs ?",
+   "choix": [
+    "Le locathah",
+    "Le triton",
+    "Le sahuagin",
+    "Le kuo-toa"
+   ],
+   "rep": 2,
+   "expl": "Les sahuagins sont des prédateurs marins, mauvais et organisés en tribus.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Sahuagin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-023",
+   "concept": "gob-023",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel dieu est vénéré par les kobolds ?",
+   "choix": [
+    "Gruumsh",
+    "Kurtulmak",
+    "Yeenoghu",
+    "Maglubiyet"
+   ],
+   "rep": 1,
+   "expl": "Kurtulmak, dieu des kobolds, est l’ennemi de Garl Brillord et des gnomes.",
+   "src": "Volo’s Guide to Monsters (2016), Kobolds, « Kurtulmak »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-024",
+   "concept": "gob-024",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel peuple jouable est à moitié orque ?",
+   "choix": [
+    "Le drakéide",
+    "Le gnome",
+    "Le demi-orque",
+    "Le tieffelin"
+   ],
+   "rep": 2,
+   "expl": "Le demi-orque est un peuple jouable du Manuel des Joueurs, fort et endurant.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Demi-orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-025",
+   "concept": "gob-025",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle arme l’orque emploie-t-il ?",
+   "choix": [
+    "L’arc long",
+    "La hache à deux mains",
+    "Le fléau",
+    "La dague"
+   ],
+   "rep": 1,
+   "expl": "L’orque manie la grande hache (greataxe) : 1d12 + 3 dégâts tranchants.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-026",
+   "concept": "gob-026",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle arme porte le gobelin standard ?",
+   "choix": [
+    "Une épée longue",
+    "Un cimeterre",
+    "Une hallebarde",
+    "Un marteau de guerre"
+   ],
+   "rep": 1,
+   "expl": "Le gobelin manie un cimeterre et un arc court.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-027",
+   "concept": "gob-027",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les gobelins sont généralement neutres mauvais.",
+   "rep": true,
+   "expl": "Vrai : leur alignement est neutre mauvais.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-028",
+   "concept": "gob-028",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les gobelins sont généralement chaotiques bons.",
+   "rep": false,
+   "expl": "Faux : ils sont neutres mauvais.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-029",
+   "concept": "gob-029",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le gobelours est un chasseur furtif.",
+   "rep": true,
+   "expl": "Vrai : il frappe par surprise et se déplace sans bruit.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-030",
+   "concept": "gob-030",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le kobold est un géant.",
+   "rep": false,
+   "expl": "Faux : c’est un petit humanoïde reptilien.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-031",
+   "concept": "gob-031",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’orque peut se déplacer en action bonus vers un ennemi.",
+   "rep": true,
+   "expl": "Vrai : c’est le trait Agressif.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-032",
+   "concept": "gob-032",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le gnoll a une tête de lion.",
+   "rep": false,
+   "expl": "Faux : il a une tête de hyène.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gnoll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-033",
+   "concept": "gob-033",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les gnolls suivent Yeenoghu.",
+   "rep": true,
+   "expl": "Vrai : Yeenoghu est le Seigneur démon des Gnolls.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gnoll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-034",
+   "concept": "gob-034",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, Gruumsh est un dieu aveugle.",
+   "rep": false,
+   "expl": "Faux : Gruumsh est borgne, il a perdu un œil face à Corellon.",
+   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-035",
+   "concept": "gob-035",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, Maglubiyet est le dieu des elfes.",
+   "rep": false,
+   "expl": "Faux : c’est le dieu des gobelinoïdes.",
+   "src": "Volo’s Guide to Monsters (2016), Gobelinoïdes, « Maglubiyet »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-036",
+   "concept": "gob-036",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les hobgobelins sont organisés comme des soldats.",
+   "rep": true,
+   "expl": "Vrai : ils forment des armées disciplinées.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-037",
+   "concept": "gob-037",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les hommes-lézards vivent dans les déserts arides.",
+   "rep": false,
+   "expl": "Faux : ils vivent dans les marais.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Homme-lézard »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-038",
+   "concept": "gob-038",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le bullywug est un humanoïde de type grenouille.",
+   "rep": true,
+   "expl": "Vrai : c’est un homme-grenouille des marais.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Bullywug »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-039",
+   "concept": "gob-039",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, les kuo-toas vénèrent Tiamat.",
+   "rep": false,
+   "expl": "Faux : ils vénèrent Blibdoolpoolp ; Tiamat est la déesse des dragons chromatiques.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kuo-toa »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-040",
+   "concept": "gob-040",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les yuan-ti ont des traits de serpent.",
+   "rep": true,
+   "expl": "Vrai : ce sont des hybrides de serpent.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Yuan-ti »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-041",
+   "concept": "gob-041",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, Lost Mine of Phandelver est paru en 1983.",
+   "rep": false,
+   "expl": "Faux : l’aventure est parue en 2014, avec le Starter Set.",
+   "src": "D&D Starter Set (2014), Lost Mine of Phandelver",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-042",
+   "concept": "gob-042",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, Lost Mine of Phandelver est paru en 2014.",
+   "rep": true,
+   "expl": "Vrai : l’aventure date du D&D Starter Set de 2014.",
+   "src": "D&D Starter Set (2014), Lost Mine of Phandelver",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-043",
+   "concept": "gob-043",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, Phandalin est la ville de départ de Lost Mine of Phandelver.",
+   "rep": true,
+   "expl": "Vrai : les héros y arrivent après la cachette Cragmaw.",
+   "src": "D&D Starter Set (2014), Lost Mine of Phandelver, chap. 2",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-044",
+   "concept": "gob-044",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans Lost Mine of Phandelver, Klarg est un gobelin banal.",
+   "rep": false,
+   "expl": "Faux : Klarg est un gobelours, chef de la cachette.",
+   "src": "D&D Starter Set (2014), Lost Mine of Phandelver, chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-045",
+   "concept": "gob-045",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, la caverne de l’Écho de la vague est le repaire final de Lost Mine of Phandelver.",
+   "rep": true,
+   "expl": "Vrai : c’est le dernier lieu de l’aventure.",
+   "src": "D&D Starter Set (2014), Lost Mine of Phandelver, chap. 4",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-046",
+   "concept": "gob-046",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les kobolds sont sensibles au soleil.",
+   "rep": true,
+   "expl": "Vrai : ils ont désavantage en pleine lumière.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-047",
+   "concept": "gob-047",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le hobgobelin est un faible combattant isolé.",
+   "rep": false,
+   "expl": "Faux : il est discipliné, armé et de CA 18.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-048",
+   "concept": "gob-048",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, Kurtulmak est le dieu des kobolds.",
+   "rep": true,
+   "expl": "Vrai : c’est la divinité de leur panthéon.",
+   "src": "Volo’s Guide to Monsters (2016), Kobolds, « Kurtulmak »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-049",
+   "concept": "gob-049",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, le demi-orque est uniquement un monstre.",
+   "rep": false,
+   "expl": "Faux : c’est aussi un peuple jouable du Manuel des Joueurs.",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Demi-orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-050",
+   "concept": "gob-050",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le gobelin standard porte une hache à deux mains.",
+   "rep": false,
+   "expl": "Faux : il porte un cimeterre et un arc court.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-051",
+   "concept": "gob-051",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’orque préfère l’arc long.",
+   "rep": false,
+   "expl": "Faux : il préfère la grande hache.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-052",
+   "concept": "gob-052",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les sahuagins sont des ennemis marins redoutés.",
+   "rep": true,
+   "expl": "Vrai : ce sont des prédateurs marins organisés.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Sahuagin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-053",
+   "concept": "gob-053",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un gobelin ?",
+   "min": 1,
+   "max": 40,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 7,
+   "expl": "Un gobelin a 7 PV (2d6).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-054",
+   "concept": "gob-054",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la CA du gobelin ?",
+   "min": 8,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 15,
+   "expl": "CA 15, grâce à son armure de cuir et à son bouclier.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-055",
+   "concept": "gob-055",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un hobgobelin ?",
+   "min": 1,
+   "max": 60,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 11,
+   "expl": "Un hobgobelin a 11 PV (2d8 + 2).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-056",
+   "concept": "gob-056",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la CA du hobgobelin ?",
+   "min": 8,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 18,
+   "expl": "CA 18, grâce à sa cotte de mailles et à son bouclier.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-057",
+   "concept": "gob-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un gobelours ?",
+   "min": 1,
+   "max": 60,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 27,
+   "expl": "Un gobelours a 27 PV (5d8 + 5).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-058",
+   "concept": "gob-058",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la CA du gobelours ?",
+   "min": 8,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 16,
+   "expl": "CA 16 : armure de peau et bouclier.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-059",
+   "concept": "gob-059",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un orque ?",
+   "min": 1,
+   "max": 60,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 15,
+   "expl": "Un orque a 15 PV (2d8 + 6).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-060",
+   "concept": "gob-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la CA de l’orque ?",
+   "min": 8,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 13,
+   "expl": "CA 13 : armure de peau.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Orque »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-061",
+   "concept": "gob-061",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un kobold ?",
+   "min": 1,
+   "max": 40,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Un kobold a 5 PV (2d6 − 2).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-062",
+   "concept": "gob-062",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la CA du kobold ?",
+   "min": 8,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 12,
+   "expl": "CA 12 : armure naturelle et agilité.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-063",
+   "concept": "gob-063",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un gnoll ?",
+   "min": 1,
+   "max": 60,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 22,
+   "expl": "Un gnoll a 22 PV (5d8).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gnoll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-064",
+   "concept": "gob-064",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la CA du gnoll ?",
+   "min": 8,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 15,
+   "expl": "CA 15 : armure de peau et bouclier.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gnoll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-065",
+   "concept": "gob-065",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un homme-lézard ?",
+   "min": 1,
+   "max": 60,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 22,
+   "expl": "Un homme-lézard a 22 PV (4d8 + 4).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Homme-lézard »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-066",
+   "concept": "gob-066",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du gobelours ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "Le gobelours est de FP 1 (200 XP).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-067",
+   "concept": "gob-067",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de l’abomination yuan-ti ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 7,
+   "expl": "L’abomination yuan-ti est de FP 7.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Abomination yuan-ti »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-068",
+   "concept": "gob-068",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Lost Mine of Phandelver, aventure de D&D 5e ?",
+   "min": 2005,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 2014,
+   "expl": "L’aventure est parue en 2014, avec le D&D Starter Set.",
+   "src": "D&D Starter Set (2014), Lost Mine of Phandelver",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-069",
+   "concept": "gob-069",
+   "niveau": 1,
+   "type": "slider",
+   "q": "Combien d’yeux a Gruumsh, dieu des orques de D&D ?",
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "œil",
+   "tolerance": 0,
+   "rep": 1,
+   "expl": "Gruumsh n’a qu’un œil : il a perdu l’autre contre Corellon.",
+   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "conf": "probable"
+  },
+  {
+   "id": "gob-070",
+   "concept": "gob-070",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un sahuagin ?",
+   "min": 1,
+   "max": 60,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 22,
+   "expl": "Un sahuagin a 22 PV (4d8 + 4).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Sahuagin »",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lequel de ces humanoïdes n’est pas un gobelinoïde ?",
+   "choix": [
+    "Kobold",
+    "Gobelin",
+    "Hobgobelin",
+    "Gobelours"
+   ],
+   "rep": 0,
+   "expl": "Les gobelinoïdes sont les gobelins, hobgobelins et gobelours. Le kobold est un humanoïde reptilien.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gob-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces dieux n’est pas un dieu de peuples « monstrueux » ?",
+   "choix": [
+    "Moradin",
+    "Gruumsh",
+    "Maglubiyet",
+    "Kurtulmak"
+   ],
+   "rep": 0,
+   "expl": "Moradin est le dieu des nains. Gruumsh (orques), Maglubiyet (gobelinoïdes) et Kurtulmak (kobolds) sont des dieux de monstres.",
+   "src": "Manuel des Monstres 5e (2014) et Volo’s Guide to Monsters (2016)",
+   "id": "gob-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces humanoïdes ne vit pas près de l’eau ?",
+   "choix": [
+    "Gnoll",
+    "Homme-lézard",
+    "Bullywug",
+    "Sahuagin"
+   ],
+   "rep": 0,
+   "expl": "Le gnoll rôde dans les plaines et les déserts. Les trois autres vivent dans les marais ou en mer.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gob-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, les kobolds ont une sensibilité au ____.",
+   "choix": [
+    "soleil",
+    "feu",
+    "froid",
+    "bruit"
+   ],
+   "rep": 0,
+   "expl": "Les kobolds subissent un désavantage aux attaques et aux jets de Sagesse (Perception) en plein soleil.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "id": "gob-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les gnolls suivent le Seigneur démon ____.",
+   "choix": [
+    "Yeenoghu",
+    "Orcus",
+    "Demogorgon",
+    "Baphomet"
+   ],
+   "rep": 0,
+   "expl": "Yeenoghu, le Prince des bêtes, est le maître des gnolls.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gnoll »",
+   "id": "gob-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le trait ____ permet au hobgobelin d’infliger des dégâts supplémentaires si un allié est proche de sa cible.",
+   "choix": [
+    "Avantage martial",
+    "Attaque sournoise",
+    "Tactique de meute",
+    "Rage"
+   ],
+   "rep": 0,
+   "expl": "L’Avantage martial du hobgobelin ajoute 2d6 dégâts quand un allié non neutralisé est près de la cible.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+   "id": "gob-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lesquels de ces monstres sont des gobelinoïdes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gobelin",
+    "Hobgobelin",
+    "Gobelours",
+    "Orque",
+    "Kobold"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Gobelin, hobgobelin et gobelours sont les gobelinoïdes. L’orque et le kobold forment d’autres peuples.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gob-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces monstres sont d’alignement loyal mauvais ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hobgobelin",
+    "Kobold",
+    "Sahuagin",
+    "Gobelin",
+    "Orque"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Hobgobelin, kobold et sahuagin sont loyaux mauvais ; le gobelin est neutre mauvais, l’orque chaotique mauvais.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gob-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces peuples sont reptiliens ou amphibiens ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Homme-lézard",
+    "Kobold",
+    "Yuan-ti",
+    "Gnoll",
+    "Orque"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Hommes-lézards, kobolds et yuan-ti ont des traits de reptiles ; gnolls et orques non.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gob-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces humanoïdes par FP croissant.",
+   "items": [
+    "Kobold",
+    "Gobelin",
+    "Orque",
+    "Gobelours",
+    "Abomination yuan-ti"
+   ],
+   "expl": "FP : kobold 1/8, gobelin 1/4, orque 1/2, gobelours 1, abomination yuan-ti 7.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "gob-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces humanoïdes par points de vie moyens croissants.",
+   "items": [
+    "Kobold",
+    "Gobelin",
+    "Orque",
+    "Gnoll",
+    "Gobelours"
+   ],
+   "expl": "PV moyens : kobold 5, gobelin 7, orque 15, gnoll 22, gobelours 27.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "gob-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque peuple à son dieu.",
+   "paires": [
+    [
+     "Orques",
+     "Gruumsh"
+    ],
+    [
+     "Gobelinoïdes",
+     "Maglubiyet"
+    ],
+    [
+     "Kobolds",
+     "Kurtulmak"
+    ],
+    [
+     "Gnolls",
+     "Yeenoghu"
+    ]
+   ],
+   "expl": "Gruumsh règne sur les orques, Maglubiyet sur les gobelinoïdes, Kurtulmak sur les kobolds, Yeenoghu sur les gnolls.",
+   "src": "Manuel des Monstres 5e (2014) et Volo’s Guide to Monsters (2016)",
+   "id": "gob-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque monstre à son trait de combat.",
+   "paires": [
+    [
+     "Gobelin",
+     "Fuite agile"
+    ],
+    [
+     "Orque",
+     "Agressif"
+    ],
+    [
+     "Kobold",
+     "Tactique de meute"
+    ],
+    [
+     "Hobgobelin",
+     "Avantage martial"
+    ]
+   ],
+   "expl": "Chaque monstre a un trait qui définit son style : fuite, charge, meute ou discipline.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gob-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis petit, vert et malin.\n2. Je me déplace avec agilité et je me cache en un clin d’œil.\n3. Je sers souvent un hobgobelin ou un gobelours.",
+   "choix": [
+    "Gobelin",
+    "Kobold",
+    "Orque",
+    "Hobgobelin"
+   ],
+   "rep": 0,
+   "expl": "Le gobelin est un petit gobelinoïde rusé, qui peut se désengager ou se cacher en action bonus.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+   "id": "gob-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis grand, poilu et massif.\n2. Mes proches me croient lourd, mais je suis un tueur furtif.\n3. J’attaque par surprise pour infliger de lourds dégâts.",
+   "choix": [
+    "Gobelours",
+    "Hobgobelin",
+    "Gnoll",
+    "Orque"
+   ],
+   "rep": 0,
+   "expl": "Le gobelours profite de son Attaque surprise pour frapper plus fort.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
+   "id": "gob-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un petit humanoïde reptilien.\n2. Seul je suis peureux, mais en groupe je suis redoutable.\n3. Je sers les dragons et le soleil me gêne.",
+   "choix": [
+    "Kobold",
+    "Gobelin",
+    "Homme-lézard",
+    "Bullywug"
+   ],
+   "rep": 0,
+   "expl": "Le kobold combat en meute, vénère les dragons et craint la lumière du jour.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+   "id": "gob-086",
+   "conf": "probable",
+   "concept": "nv_qui"
+  }
+ ]
+}

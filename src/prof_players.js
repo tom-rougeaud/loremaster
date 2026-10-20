@@ -19,8 +19,8 @@ function onHostMsg(m){
     var q=G.qs[G.i],el=Date.now()-G.qStart,lim=G.dur+G.extra;if(el>lim+1500)return;
     var ms=+m.ms;if(!(ms>=0))ms=el;
     var t=clamp(Math.min(el,Math.max(ms,el-2500)),0,lim),ok;
-    ok=judgeMsg(q,m).ok;
-    G.hostAns={ok:ok,t:t};hostIndicator();updateAnswered();
+    var j=judgeMsg(q,m);ok=j.ok;
+    G.hostAns={ok:ok,t:t,part:j.part||0};hostIndicator();updateAnswered();
   }else if(m.t==="bye"){h.on=false;hostIndicator();renderLobby();renderPlayers();}
   else if(m.t==="aw"){h.away=!!m.v;hostIndicator();}
 }

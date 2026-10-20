@@ -2,48 +2,15 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "creatures-marines",
-  "nom": "Créatures marines de D&D",
+  "nom": "Créatures marines et aquatiques",
   "royaume": "Bestiaire de D&D",
   "icone": "vague",
   "sombre": false
  },
- "sources": [
-  "Manuel des Monstres 5e (2014), entrée « Kraken »",
-  "Manuel des Monstres 5e (2014), entrée « Sahuagin »",
-  "Manuel des Monstres 5e (2014), entrée « Guenaude des mers »",
-  "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
-  "Dans D&D 5e, Guide de Volo des monstres (2016), chap. 3 « Triton »",
-  "Dans D&D 5e, Elemental Evil Player’s Companion (2015), « Genasi »",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique ; SRD 5.1, « Water Breathing »",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contrôle de l’eau",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Tsunami",
-  "Dans D&D 5e, Guide du Maître (2014), chap. 7 « Trésors », objets magiques",
-  "Dans D&D 5e, Guide du Maître (2014), chap. 7 « Trésors »",
-  "Dans D&D 5e, Sword Coast Adventurer’s Guide (2015), panthéon des Royaumes",
-  "Dans D&D 5e, Forgotten Realms Wiki, article « Deep Sashelas » ; Mordenkainen’s Tome of Foes (2018), « Elfes marins »",
-  "Dans D&D 5e, Forgotten Realms Wiki, article « Sekolah »",
-  "Manuel des Monstres 5e (2014), entrée « Merrow »",
-  "Manuel des Monstres 5e (2014), entrée « Scrag (troll) »",
-  "Manuel des Monstres 5e (2014), entrée « Marid »",
-  "Manuel des Monstres 5e (2014), entrée « Locathah »",
-  "Manuel des Monstres 5e (2014), entrée « Aboleth »",
-  "Manuel des Monstres 5e (2014), entrée « Dragon de bronze »",
-  "Manuel des Monstres 5e (2014), entrée « Pieuvre géante »",
-  "Manuel des Monstres 5e (2014), entrée « Quipper »",
-  "Manuel des Joueurs 5e (2014), chap. 9 « Combattre », Combat sous-marin",
-  "Manuel des Joueurs 5e (2014), chap. 8 « Aventures », Suffocation",
-  "Dans D&D 5e, Ghosts of Saltmarsh (2019), introduction",
-  "Manuel des Monstres 5e (2014), entrée « Géant des tempêtes »",
-  "Dans D&D 5e, Volo’s Guide to Monsters (2016), chap. 3",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
-  "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Marche sur l’eau",
-  "Manuel des Monstres 5e (2014), entrée « Requin géant »",
-  "Manuel des Monstres 5e (2014), entrée « Orque (killer whale) »"
- ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
   "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
-  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
  },
  "questions": [
   {
@@ -1085,6 +1052,333 @@
    "expl": "52 PV (8d10 + 8).",
    "src": "Manuel des Monstres 5e (2014), entrée « Pieuvre géante »",
    "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lequel de ces êtres n’est pas aquatique ?",
+   "choix": [
+    "Bulette",
+    "Kraken",
+    "Sahuagin",
+    "Locathah"
+   ],
+   "rep": 0,
+   "expl": "Le bulette creuse la terre. Kraken, sahuagin et locathah vivent dans l’eau.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mar-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces êtres n’est pas lié à l’eau ?",
+   "choix": [
+    "Éfrit",
+    "Marid",
+    "Scrag",
+    "Merrow"
+   ],
+   "rep": 0,
+   "expl": "L’éfrit est un génie du feu ; marid, scrag et merrow sont aquatiques.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mar-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces divinités n’est pas liée à la mer ?",
+   "choix": [
+    "Tempus",
+    "Umberlee",
+    "Deep Sashelas",
+    "Sekolah"
+   ],
+   "rep": 0,
+   "expl": "Tempus est un dieu de la guerre dans les Royaumes Oubliés.",
+   "src": "Forgotten Realms Adventurer’s Guide (2015)",
+   "id": "mar-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ est un monstre à tentacules qui coule les navires.",
+   "choix": [
+    "kraken",
+    "tarasque",
+    "roper",
+    "aboleth"
+   ],
+   "rep": 0,
+   "expl": "Le kraken (FP 23) est le monstre marin par excellence.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kraken »",
+   "id": "mar-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le sort ____ aquatique permet de respirer sous l’eau.",
+   "choix": [
+    "Respiration",
+    "Marche",
+    "Danse",
+    "Souffle"
+   ],
+   "rep": 0,
+   "expl": "Respiration aquatique : niveau 3, 24 heures, jusqu’à dix créatures.",
+   "src": "Manuel des Joueurs 5e (2014)",
+   "id": "mar-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D, le supplément Ghosts of ____ est consacré à la mer et aux navires.",
+   "choix": [
+    "Saltmarsh",
+    "Waterdeep",
+    "Barovia",
+    "Phandelver"
+   ],
+   "rep": 0,
+   "expl": "Ghosts of Saltmarsh (2019) regroupe des aventures maritimes.",
+   "src": "Ghosts of Saltmarsh (2019)",
+   "id": "mar-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces êtres vivent dans l’eau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sahuagin",
+    "Locathah",
+    "Scrag",
+    "Gobelin",
+    "Worg"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Sahuagin, locathah et scrag sont aquatiques.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mar-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces dieux sont liés à la mer dans les Royaumes Oubliés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Umberlee",
+    "Deep Sashelas",
+    "Sekolah",
+    "Tempus",
+    "Mystra"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Umberlee, Deep Sashelas et Sekolah sont des divinités marines.",
+   "src": "Forgotten Realms Adventurer’s Guide (2015)",
+   "id": "mar-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces monstres sont des créatures marines avec un FP d’au moins 5 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Requin géant",
+    "Tortue-dragon",
+    "Kraken",
+    "Pieuvre géante",
+    "Sahuagin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "FP : requin géant 5, tortue-dragon 17, kraken 23 ; pieuvre géante 1 et sahuagin 1/2.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "mar-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces créatures par FP croissant.",
+   "items": [
+    "Sahuagin",
+    "Pieuvre géante",
+    "Requin géant",
+    "Tortue-dragon",
+    "Kraken"
+   ],
+   "expl": "FP : sahuagin 1/2, pieuvre géante 1, requin géant 5, tortue-dragon 17, kraken 23.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "mar-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces créatures par points de vie moyens croissants.",
+   "items": [
+    "Sahuagin",
+    "Pieuvre géante",
+    "Requin géant",
+    "Tortue-dragon",
+    "Kraken"
+   ],
+   "expl": "PV moyens : sahuagin 22, pieuvre géante 52, requin géant 126, tortue-dragon 341, kraken 472.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "mar-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque créature à sa particularité.",
+   "paires": [
+    [
+     "Kraken",
+     "Coule les navires"
+    ],
+    [
+     "Pieuvre géante",
+     "Nuage d’encre"
+    ],
+    [
+     "Tortue-dragon",
+     "Vapeur brûlante"
+    ],
+    [
+     "Sahuagin",
+     "Frénésie sanguinaire"
+    ]
+   ],
+   "expl": "Chaque créature marine a une marque distinctive.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "mar-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque divinité à son domaine.",
+   "paires": [
+    [
+     "Umberlee",
+     "Déesse des mers"
+    ],
+    [
+     "Sekolah",
+     "Dieu des sahuagins"
+    ],
+    [
+     "Deep Sashelas",
+     "Dieu des elfes marins"
+    ],
+    [
+     "Marid",
+     "Génie de l’eau"
+    ]
+   ],
+   "expl": "Umberlee règne sur les mers, Sekolah sur les sahuagins, Deep Sashelas sur les elfes marins ; le marid est un génie.",
+   "src": "Forgotten Realms Adventurer’s Guide (2015)",
+   "id": "mar-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je vis dans les abysses.\n2. Je suis un monstre titanesque à tentacules.\n3. Les navires me craignent.",
+   "choix": [
+    "Kraken",
+    "Aboleth",
+    "Pieuvre géante",
+    "Tarasque"
+   ],
+   "rep": 0,
+   "expl": "Le kraken est un monstre marin de FP 23.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Kraken »",
+   "id": "mar-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un humanoïde marin.\n2. Je hais les elfes marins.\n3. Je fais partie d’une horde menée par un baron.",
+   "choix": [
+    "Sahuagin",
+    "Locathah",
+    "Triton",
+    "Merrow"
+   ],
+   "rep": 0,
+   "expl": "Les sahuagins sont des pillards marins, ennemis des elfes marins.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Sahuagin »",
+   "id": "mar-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une créature gigantesque.\n2. Mon dos est une carapace dentelée.\n3. Je crache de la vapeur brûlante.",
+   "choix": [
+    "Tortue-dragon",
+    "Kraken",
+    "Requin géant",
+    "Dragon de bronze"
+   ],
+   "rep": 0,
+   "expl": "La tortue-dragon (FP 17) crache de la vapeur brûlante.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tortue-dragon »",
+   "id": "mar-086",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis plus ancien que les dieux.\n2. Je vis dans les profondeurs.\n3. Je soumets les esprits à ma volonté.",
+   "choix": [
+    "Aboleth",
+    "Kraken",
+    "Scrag",
+    "Marid"
+   ],
+   "rep": 0,
+   "expl": "L’aboleth est une aberration aquatique ancienne et manipulatrice.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Aboleth »",
+   "id": "mar-087",
+   "conf": "probable",
+   "concept": "nv_qui"
   }
- ]
+ ],
+ "sources": []
 }

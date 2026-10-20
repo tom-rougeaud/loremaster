@@ -1,0 +1,1389 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "plans-elementaires",
+  "nom": "Plans et élémentaires de D&D",
+  "royaume": "Bestiaire de D&D",
+  "icone": "portail",
+  "sombre": false
+ },
+ "sources": [
+  "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+  "Manuel des Monstres 5e (2014), entrée « Élémentaire »",
+  "Planescape (TSR, 1994) / Planescape: Adventures in the Multiverse (2023)",
+  "Princes of the Apocalypse (2015), appendice « Princes élémentaires »",
+  "Manuel des Monstres 5e (2014), entrée « Mephit »",
+  "Manuel des Monstres 5e (2014), entrée « Éfrit »",
+  "Manuel des Monstres 5e (2014), entrée « Djinn »",
+  "Manuel des Monstres 5e (2014), entrée « Githyanki »",
+  "Manuel des Monstres 5e (2014), entrée « Githzerai »",
+  "Manuel des Monstres 5e (2014), entrée « Élémentaire d’air »",
+  "Manuel des Monstres 5e (2014), entrée « Génasi »",
+  "Princes of the Apocalypse (2015), introduction",
+  "Manuel des Monstres 5e (2014), entrée « Solar »",
+  "Manuel des Monstres 5e (2014), entrée « Élémentaire de terre »",
+  "Manuel des Monstres 5e (2014), entrée « Élémentaire de feu »",
+  "Manuel des Monstres 5e (2014), entrée « Élémentaire d’eau »",
+  "Manuel des Monstres 5e (2014), entrée « Dao »",
+  "Manuel des Monstres 5e (2014), entrée « Marid »",
+  "Manuel des Monstres 5e (2014), entrée « Salamandre »",
+  "Manuel des Monstres 5e (2014), entrée « Xorn »",
+  "Manuel des Monstres 5e (2014), entrée « Planétaire »",
+  "Manuel des Monstres 5e (2014), entrée « Deva »"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "pla-001",
+   "concept": "pla-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Quel plan est celui des mortels en D&D ?",
+   "choix": [
+    "Le Plan Astral",
+    "Le Plan Matériel",
+    "Le Gisombre",
+    "Le Plan Éthéré"
+   ],
+   "rep": 1,
+   "expl": "Plan Matériel.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-002",
+   "concept": "pla-002",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quels sont les quatre plans élémentaires ?",
+   "choix": [
+    "Air, Terre, Feu, Eau",
+    "Ombre, Lumière, Vie, Mort",
+    "Ciel, Mer, Sol, Nuit",
+    "Passé, Présent, Futur, Rêve"
+   ],
+   "rep": 0,
+   "expl": "Quatre éléments.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-003",
+   "concept": "pla-003",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel génie est lié au feu ?",
+   "choix": [
+    "Le dao",
+    "Le djinn",
+    "L’éfrit",
+    "Le marid"
+   ],
+   "rep": 2,
+   "expl": "L’éfrit est un génie du feu.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-004",
+   "concept": "pla-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel génie est lié à l’air ?",
+   "choix": [
+    "Le dao",
+    "Le djinn",
+    "L’éfrit",
+    "Le marid"
+   ],
+   "rep": 1,
+   "expl": "Le djinn est un génie de l’air.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-005",
+   "concept": "pla-005",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel génie est lié à la terre ?",
+   "choix": [
+    "L’éfrit",
+    "Le djinn",
+    "Le marid",
+    "Le dao"
+   ],
+   "rep": 3,
+   "expl": "Le dao est un génie de la terre.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-006",
+   "concept": "pla-006",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel génie est lié à l’eau ?",
+   "choix": [
+    "Le djinn",
+    "L’éfrit",
+    "Le marid",
+    "Le dao"
+   ],
+   "rep": 2,
+   "expl": "Le marid est un génie de l’eau.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-007",
+   "concept": "pla-007",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quelle est la Cité des Portes dans Planescape ?",
+   "choix": [
+    "Sigil",
+    "Sharn",
+    "Baator",
+    "Waterdeep"
+   ],
+   "rep": 0,
+   "expl": "Sigil. (voir la source)",
+   "src": "Planescape (TSR, 1994) / Planescape: Adventures in the Multiverse (2023)",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-008",
+   "concept": "pla-008",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Qui règne sur Sigil ?",
+   "choix": [
+    "La Dame de la Douleur",
+    "La Reine des Fées",
+    "Mystra",
+    "Asmodeus"
+   ],
+   "rep": 0,
+   "expl": "Lady of Pain.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-009",
+   "concept": "pla-009",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel cadre de campagne de 1994 explore les plans ?",
+   "choix": [
+    "Dark Sun",
+    "Birthright",
+    "Planescape",
+    "Spelljammer"
+   ],
+   "rep": 2,
+   "expl": "Planescape, 1994.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-010",
+   "concept": "pla-010",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle forme a le modèle classique des plans extérieurs ?",
+   "choix": [
+    "La Grande Sphère",
+    "Le Grand Arbre",
+    "Le Grand Œuf",
+    "La Grande Roue"
+   ],
+   "rep": 3,
+   "expl": "Great Wheel.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-011",
+   "concept": "pla-011",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel plan est celui de l’ordre absolu et des modrons ?",
+   "choix": [
+    "Arcadie",
+    "Mechanus",
+    "Pandémonium",
+    "Limbo"
+   ],
+   "rep": 1,
+   "expl": "Mechanus. (voir la source)",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-012",
+   "concept": "pla-012",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel plan est celui du chaos pur et des slaadi ?",
+   "choix": [
+    "Limbo",
+    "Mechanus",
+    "Élysée",
+    "Arcadie"
+   ],
+   "rep": 0,
+   "expl": "Limbo. (voir la source)",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-013",
+   "concept": "pla-013",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel plan du Bien est une montagne à terrasses ?",
+   "choix": [
+    "Les Abysses",
+    "Carcéri",
+    "Le Mont Céleste",
+    "Gehenne"
+   ],
+   "rep": 2,
+   "expl": "Mount Celestia.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-014",
+   "concept": "pla-014",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quels guerriers chevauchent des dragons rouges dans l’Astral ?",
+   "choix": [
+    "Les githyanki",
+    "Les githzerai",
+    "Les modrons",
+    "Les slaadi"
+   ],
+   "rep": 0,
+   "expl": "Githyanki.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-015",
+   "concept": "pla-015",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quels humanoïdes monastiques vivent dans le Limbo ?",
+   "choix": [
+    "Les modrons",
+    "Les githzerai",
+    "Les githyanki",
+    "Les slaadi"
+   ],
+   "rep": 1,
+   "expl": "Githzerai.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-016",
+   "concept": "pla-016",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel sort permet de changer de plan ?",
+   "choix": [
+    "Porte dimensionnelle",
+    "Pas brumeux",
+    "Téléportation",
+    "Changement de plan"
+   ],
+   "rep": 3,
+   "expl": "Plane Shift.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-017",
+   "concept": "pla-017",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel élémentaire est fait de vent ?",
+   "choix": [
+    "L’élémentaire de terre",
+    "L’élémentaire de feu",
+    "L’élémentaire d’air",
+    "L’élémentaire d’eau"
+   ],
+   "rep": 2,
+   "expl": "Air. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-018",
+   "concept": "pla-018",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel élémentaire a 126 PV ?",
+   "choix": [
+    "L’élémentaire de terre",
+    "L’élémentaire de feu",
+    "L’élémentaire d’air",
+    "L’élémentaire d’eau"
+   ],
+   "rep": 0,
+   "expl": "Earth elemental.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-019",
+   "concept": "pla-019",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, qui est le prince élémentaire du feu ?",
+   "choix": [
+    "Ogremoch",
+    "Imix",
+    "Yan-C-Bin",
+    "Olhydra"
+   ],
+   "rep": 1,
+   "expl": "Imix. (voir la source)",
+   "src": "Princes of the Apocalypse (2015), appendice « Princes élémentaires »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-020",
+   "concept": "pla-020",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, qui est le prince élémentaire de la terre ?",
+   "choix": [
+    "Imix",
+    "Ogremoch",
+    "Olhydra",
+    "Yan-C-Bin"
+   ],
+   "rep": 1,
+   "expl": "Ogremoch. (voir la source)",
+   "src": "Princes of the Apocalypse (2015), appendice « Princes élémentaires »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-021",
+   "concept": "pla-021",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, qui est la princesse élémentaire de l’eau ?",
+   "choix": [
+    "Yan-C-Bin",
+    "Imix",
+    "Ogremoch",
+    "Olhydra"
+   ],
+   "rep": 3,
+   "expl": "Olhydra. (voir la source)",
+   "src": "Princes of the Apocalypse (2015), appendice « Princes élémentaires »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-022",
+   "concept": "pla-022",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, qui est le prince élémentaire de l’air ?",
+   "choix": [
+    "Ogremoch",
+    "Imix",
+    "Yan-C-Bin",
+    "Olhydra"
+   ],
+   "rep": 2,
+   "expl": "Yan-C-Bin.",
+   "src": "Princes of the Apocalypse (2015), appendice « Princes élémentaires »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-023",
+   "concept": "pla-023",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle aventure 5e de 2015 oppose les héros aux princes élémentaires ?",
+   "choix": [
+    "Curse of Strahd",
+    "Princes of the Apocalypse",
+    "Out of the Abyss",
+    "Tomb of Annihilation"
+   ],
+   "rep": 1,
+   "expl": "2015. (voir la source)",
+   "src": "Princes of the Apocalypse (2015), appendice « Princes élémentaires »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-024",
+   "concept": "pla-024",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quel ange de D&D est le plus puissant ?",
+   "choix": [
+    "Le Couatl",
+    "Le Planétaire",
+    "Le Deva",
+    "Le Solar"
+   ],
+   "rep": 3,
+   "expl": "Solar. (voir la source)",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-025",
+   "concept": "pla-025",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel plan est un vaste espace argenté ?",
+   "choix": [
+    "Le Plan Éthéré",
+    "Mechanus",
+    "Le Gisombre",
+    "Le Plan Astral"
+   ],
+   "rep": 3,
+   "expl": "Astral. (voir la source)",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-026",
+   "concept": "pla-026",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel plan est un brouillard bordant le Plan Matériel ?",
+   "choix": [
+    "Le Plan du Feu",
+    "Le Plan Astral",
+    "Le Mont Céleste",
+    "Le Plan Éthéré"
+   ],
+   "rep": 3,
+   "expl": "Éthéré. (voir la source)",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-027",
+   "concept": "pla-027",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quels peuples ont une ascendance élémentaire ?",
+   "choix": [
+    "Les nains",
+    "Les génasi",
+    "Les orques",
+    "Les halflings"
+   ],
+   "rep": 1,
+   "expl": "Génasi. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-028",
+   "concept": "pla-028",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel plan de la Grande Roue est le domaine des diables ?",
+   "choix": [
+    "Baator",
+    "Mechanus",
+    "Gehenne",
+    "L’Abîme"
+   ],
+   "rep": 0,
+   "expl": "Baator. (voir la source)",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-029",
+   "concept": "pla-029",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, que sont les mephits ?",
+   "choix": [
+    "De petits élémentaires impertinents",
+    "Des dragons",
+    "Des morts-vivants",
+    "Des anges"
+   ],
+   "rep": 0,
+   "expl": "Mephits. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mephit »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-030",
+   "concept": "pla-030",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Quels êtres célestes vivent dans le Mont Céleste ?",
+   "choix": [
+    "Les yugoloths",
+    "Les modrons",
+    "Les archons",
+    "Les slaadi"
+   ],
+   "rep": 2,
+   "expl": "Archons. (voir la source)",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-031",
+   "concept": "pla-031",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, le Plan Matériel est le monde des mortels.",
+   "rep": true,
+   "expl": "Le monde des héros.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-032",
+   "concept": "pla-032",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le Plan Matériel est une partie des Neuf Enfers.",
+   "rep": false,
+   "expl": "Ce sont deux plans distincts.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-033",
+   "concept": "pla-033",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le Plan Éthéré borde le Plan Matériel.",
+   "rep": true,
+   "expl": "Il le double.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-034",
+   "concept": "pla-034",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’éfrit est un génie d’eau.",
+   "rep": false,
+   "expl": "L’éfrit est de feu.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Éfrit »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-035",
+   "concept": "pla-035",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le djinn est un génie de l’air.",
+   "rep": true,
+   "expl": "Génie de l’air.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Djinn »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-036",
+   "concept": "pla-036",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Sigil est dirigée par un dragon.",
+   "rep": false,
+   "expl": "Par la Dame de la Douleur.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-037",
+   "concept": "pla-037",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Sigil est surnommée la Cité des Portes.",
+   "rep": true,
+   "expl": "Cité des Portes.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-038",
+   "concept": "pla-038",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Planescape est un cadre de campagne de 1980.",
+   "rep": false,
+   "expl": "Il date de 1994.",
+   "src": "Planescape (TSR, 1994) / Planescape: Adventures in the Multiverse (2023)",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-039",
+   "concept": "pla-039",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, les githyanki chevauchent des dragons rouges.",
+   "rep": true,
+   "expl": "Githyanki et dragons rouges.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Githyanki »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-040",
+   "concept": "pla-040",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, les githzerai sont des pillards de l’Astral.",
+   "rep": false,
+   "expl": "Ce sont les githyanki.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Githzerai »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-041",
+   "concept": "pla-041",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Mechanus est le plan des modrons.",
+   "rep": true,
+   "expl": "Modrons. (voir la source)",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-042",
+   "concept": "pla-042",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le Limbo est le plan de l’ordre.",
+   "rep": false,
+   "expl": "C’est le plan du chaos.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-043",
+   "concept": "pla-043",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, Imix est un prince élémentaire du feu.",
+   "rep": true,
+   "expl": "Imix. (voir la source)",
+   "src": "Princes of the Apocalypse (2015), appendice « Princes élémentaires »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-044",
+   "concept": "pla-044",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, Yan-C-Bin est le prince élémentaire de la terre.",
+   "rep": false,
+   "expl": "Il est prince de l’air.",
+   "src": "Princes of the Apocalypse (2015), appendice « Princes élémentaires »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-045",
+   "concept": "pla-045",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Le Mont Céleste a sept couches.",
+   "rep": true,
+   "expl": "Sept terrasses.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-046",
+   "concept": "pla-046",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’élémentaire d’air est une créature de feu.",
+   "rep": false,
+   "expl": "Il est fait d’air.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire d’air »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-047",
+   "concept": "pla-047",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, Plane Shift permet de voyager entre plans.",
+   "rep": true,
+   "expl": "Changement de plan.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-048",
+   "concept": "pla-048",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les génasi sont des morts-vivants.",
+   "rep": false,
+   "expl": "Ils ont une ascendance élémentaire.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Génasi »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-049",
+   "concept": "pla-049",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Princes of the Apocalypse date de 2015.",
+   "rep": true,
+   "expl": "2015. (voir la source)",
+   "src": "Princes of the Apocalypse (2015), introduction",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-050",
+   "concept": "pla-050",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, le Solar est un diable.",
+   "rep": false,
+   "expl": "C’est un ange.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Solar »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-051",
+   "concept": "pla-051",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les mephits sont de petits élémentaires.",
+   "rep": true,
+   "expl": "Mephits. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mephit »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-052",
+   "concept": "pla-052",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, le Plan Astral est brûlant.",
+   "rep": false,
+   "expl": "Il est argenté et vide.",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-053",
+   "concept": "pla-053",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Combien de couches compte le Mont Céleste ?",
+   "min": 1,
+   "max": 15,
+   "pas": 1,
+   "unite": "couches",
+   "tolerance": 0,
+   "rep": 7,
+   "expl": "Sept. (voir la source)",
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-054",
+   "concept": "pla-054",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Planescape ?",
+   "min": 1980,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1994,
+   "expl": "1994. (voir la source)",
+   "src": "Planescape (TSR, 1994) / Planescape: Adventures in the Multiverse (2023)",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-055",
+   "concept": "pla-055",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Princes of the Apocalypse ?",
+   "min": 2010,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 2015,
+   "expl": "2015. (voir la source)",
+   "src": "Princes of the Apocalypse (2015), introduction",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-056",
+   "concept": "pla-056",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de l’élémentaire d’air ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "FP 5. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire d’air »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-057",
+   "concept": "pla-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un élémentaire d’air ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 90,
+   "expl": "90 PV. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire d’air »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-058",
+   "concept": "pla-058",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un élémentaire de terre ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 126,
+   "expl": "126 PV. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire de terre »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-059",
+   "concept": "pla-059",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un élémentaire de feu ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 102,
+   "expl": "102 PV. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire de feu »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-060",
+   "concept": "pla-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un élémentaire d’eau ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 114,
+   "expl": "114 PV. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Élémentaire d’eau »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-061",
+   "concept": "pla-061",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du djinn ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 11,
+   "expl": "FP 11. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Djinn »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-062",
+   "concept": "pla-062",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de l’éfrit ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 11,
+   "expl": "FP 11. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Éfrit »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-063",
+   "concept": "pla-063",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du dao ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 11,
+   "expl": "FP 11. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Dao »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-064",
+   "concept": "pla-064",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du marid ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 11,
+   "expl": "FP 11. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Marid »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-065",
+   "concept": "pla-065",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de la salamandre ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "FP 5. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Salamandre »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-066",
+   "concept": "pla-066",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du xorn ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "FP 5. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Xorn »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-067",
+   "concept": "pla-067",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du Solar ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 21,
+   "expl": "FP 21. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Solar »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-068",
+   "concept": "pla-068",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du Planétaire ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 16,
+   "expl": "FP 16. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Planétaire »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-069",
+   "concept": "pla-069",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du Deva ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 10,
+   "expl": "FP 10. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Deva »",
+   "conf": "probable"
+  },
+  {
+   "id": "pla-070",
+   "concept": "pla-070",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de points de vie moyens a un éfrit (à 10 près) ?",
+   "min": 100,
+   "max": 300,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 10,
+   "rep": 200,
+   "expl": "200 PV. (voir la source)",
+   "src": "Manuel des Monstres 5e (2014), entrée « Éfrit »",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D, lequel de ces plans n’est pas un plan élémentaire ?",
+   "choix": [
+    "Plan Éthéré",
+    "Plan de l’Air",
+    "Plan du Feu",
+    "Plan de l’Eau"
+   ],
+   "rep": 0,
+   "expl": "Le Plan Éthéré est un plan de transition. Air, feu, eau et terre sont les quatre plans élémentaires.",
+   "src": "Dungeon Master’s Guide 5e (2014), chapitre « Les plans »",
+   "id": "pla-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces êtres n’est pas un génie ?",
+   "choix": [
+    "Mephit",
+    "Éfrit",
+    "Djinn",
+    "Marid"
+   ],
+   "rep": 0,
+   "expl": "Les mephits sont de petits élémentaires. Éfrit, djinn et marid sont des génies.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "pla-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces personnages n’est pas un prince élémentaire du mal ?",
+   "choix": [
+    "Asmodeus",
+    "Imix",
+    "Ogremoch",
+    "Olhydra"
+   ],
+   "rep": 0,
+   "expl": "Asmodeus règne sur les Neuf Enfers. Imix, Ogremoch et Olhydra sont des princes élémentaires.",
+   "src": "Princes of the Apocalypse (2015) et Manuel des Monstres 5e",
+   "id": "pla-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D, le plan où vivent les mortels est le Plan ____.",
+   "choix": [
+    "Matériel",
+    "Astral",
+    "Éthéré",
+    "Élémentaire"
+   ],
+   "rep": 0,
+   "expl": "Le Plan Matériel est le monde des mortels, point de départ de tous les voyages planaires.",
+   "src": "Dungeon Master’s Guide 5e (2014), chapitre « Les plans »",
+   "id": "pla-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Planescape, la ville de Sigil est dirigée par la Dame de la ____.",
+   "choix": [
+    "Douleur",
+    "Nuit",
+    "Mort",
+    "Lune"
+   ],
+   "rep": 0,
+   "expl": "La Dame de la Douleur règne sur Sigil, la Cité des Portes, sans jamais parler.",
+   "src": "Planescape (1994) et Dungeon Master’s Guide 5e",
+   "id": "pla-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D, les githyanki chevauchent des dragons ____.",
+   "choix": [
+    "rouges",
+    "bleus",
+    "d’argent",
+    "noirs"
+   ],
+   "rep": 0,
+   "expl": "Les githyanki montent des dragons rouges au service de la reine liche Vlaakith.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Githyanki »",
+   "id": "pla-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces êtres sont des génies ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Djinn",
+    "Éfrit",
+    "Marid",
+    "Mephit",
+    "Xorn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Djinn, éfrit et marid sont des génies. Le mephit et le xorn sont des créatures élémentaires.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "pla-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Dans D&D, lesquels de ces plans sont des plans élémentaires ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Plan de l’Air",
+    "Plan du Feu",
+    "Plan de l’Eau",
+    "Plan Astral",
+    "Féerie"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Air, feu, eau et terre sont les quatre plans élémentaires ; Plan Astral et Féerie sont d’autres plans.",
+   "src": "Dungeon Master’s Guide 5e (2014), chapitre « Les plans »",
+   "id": "pla-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces êtres sont des anges ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Deva",
+    "Planétaire",
+    "Solar",
+    "Couatl",
+    "Pégase"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Deva, planétaire et solar sont les trois anges du Manuel des Monstres. Couatl et pégase sont d’autres célestes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ange »",
+   "id": "pla-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces êtres par FP croissant.",
+   "items": [
+    "Élémentaire d’air",
+    "Deva",
+    "Djinn",
+    "Planétaire",
+    "Solar"
+   ],
+   "expl": "FP : élémentaire d’air 5, deva 10, djinn 11, planétaire 16, solar 21.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "pla-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces élémentaires par points de vie moyens croissants.",
+   "items": [
+    "Élémentaire d’air",
+    "Élémentaire de feu",
+    "Élémentaire d’eau",
+    "Élémentaire de terre"
+   ],
+   "expl": "PV moyens : air 90, feu 102, eau 114, terre 126.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "pla-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque génie à son élément.",
+   "paires": [
+    [
+     "Éfrit",
+     "Feu"
+    ],
+    [
+     "Djinn",
+     "Air"
+    ],
+    [
+     "Dao",
+     "Terre"
+    ],
+    [
+     "Marid",
+     "Eau"
+    ]
+   ],
+   "expl": "Éfrit : feu ; djinn : air ; dao : terre ; marid : eau.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "pla-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque prince élémentaire à son élément.",
+   "paires": [
+    [
+     "Imix",
+     "Feu"
+    ],
+    [
+     "Ogremoch",
+     "Terre"
+    ],
+    [
+     "Olhydra",
+     "Eau"
+    ],
+    [
+     "Yan-C-Bin",
+     "Air"
+    ]
+   ],
+   "expl": "Imix (feu), Ogremoch (terre), Olhydra (eau) et Yan-C-Bin (air) sont les quatre princes du mal élémentaire.",
+   "src": "Princes of the Apocalypse (2015)",
+   "id": "pla-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un guerrier du Plan Astral.\n2. Je chevauche des dragons rouges.\n3. Mon peuple est en guerre contre les flagelleurs mentaux et les githzerai.",
+   "choix": [
+    "Githyanki",
+    "Githzerai",
+    "Drow",
+    "Yuan-ti"
+   ],
+   "rep": 0,
+   "expl": "Les githyanki sont des pillards astraux, ennemis jurés des flagelleurs mentaux.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Githyanki »",
+   "id": "pla-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un être mystérieux, vêtu de lames.\n2. Je règne sur la Cité des Portes.\n3. Personne n’ose me défier : j’envoie les imprudents dans un labyrinthe.",
+   "choix": [
+    "Dame de la Douleur",
+    "Asmodeus",
+    "Vecna",
+    "Tiamat"
+   ],
+   "rep": 0,
+   "expl": "La Dame de la Douleur gouverne Sigil et punit ses opposants en les exilant dans des labyrinthes.",
+   "src": "Planescape (1994) et Dungeon Master’s Guide 5e",
+   "id": "pla-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un génie lié à l’élément de l’air.\n2. Je peux me transformer en tourbillon.\n3. Je vis dans des palais de nuages.",
+   "choix": [
+    "Djinn",
+    "Éfrit",
+    "Marid",
+    "Dao"
+   ],
+   "rep": 0,
+   "expl": "Le djinn est un génie de l’air, capable de se muer en tornade.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Djinn »",
+   "id": "pla-086",
+   "conf": "probable",
+   "concept": "nv_qui"
+  }
+ ]
+}

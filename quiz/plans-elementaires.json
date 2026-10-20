@@ -2,39 +2,15 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "plans-elementaires",
-  "nom": "Plans et élémentaires de D&D",
+  "nom": "Élémentaires et créatures planaires",
   "royaume": "Bestiaire de D&D",
   "icone": "portail",
   "sombre": false
  },
- "sources": [
-  "Guide du Maître 5e (2014), chap. 2 « Les plans d’existence »",
-  "Manuel des Monstres 5e (2014), entrée « Élémentaire »",
-  "Planescape (TSR, 1994) / Planescape: Adventures in the Multiverse (2023)",
-  "Princes of the Apocalypse (2015), appendice « Princes élémentaires »",
-  "Manuel des Monstres 5e (2014), entrée « Mephit »",
-  "Manuel des Monstres 5e (2014), entrée « Éfrit »",
-  "Manuel des Monstres 5e (2014), entrée « Djinn »",
-  "Manuel des Monstres 5e (2014), entrée « Githyanki »",
-  "Manuel des Monstres 5e (2014), entrée « Githzerai »",
-  "Manuel des Monstres 5e (2014), entrée « Élémentaire d’air »",
-  "Manuel des Monstres 5e (2014), entrée « Génasi »",
-  "Princes of the Apocalypse (2015), introduction",
-  "Manuel des Monstres 5e (2014), entrée « Solar »",
-  "Manuel des Monstres 5e (2014), entrée « Élémentaire de terre »",
-  "Manuel des Monstres 5e (2014), entrée « Élémentaire de feu »",
-  "Manuel des Monstres 5e (2014), entrée « Élémentaire d’eau »",
-  "Manuel des Monstres 5e (2014), entrée « Dao »",
-  "Manuel des Monstres 5e (2014), entrée « Marid »",
-  "Manuel des Monstres 5e (2014), entrée « Salamandre »",
-  "Manuel des Monstres 5e (2014), entrée « Xorn »",
-  "Manuel des Monstres 5e (2014), entrée « Planétaire »",
-  "Manuel des Monstres 5e (2014), entrée « Deva »"
- ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
   "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
-  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
  },
  "questions": [
   {
@@ -1076,6 +1052,315 @@
    "expl": "200 PV. (voir la source)",
    "src": "Manuel des Monstres 5e (2014), entrée « Éfrit »",
    "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D, lequel de ces plans n’est pas un plan élémentaire ?",
+   "choix": [
+    "Plan Éthéré",
+    "Plan de l’Air",
+    "Plan du Feu",
+    "Plan de l’Eau"
+   ],
+   "rep": 0,
+   "expl": "Le Plan Éthéré est un plan de transition. Air, feu, eau et terre sont les quatre plans élémentaires.",
+   "src": "Dungeon Master’s Guide 5e (2014), chapitre « Les plans »",
+   "id": "pla-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces êtres n’est pas un génie ?",
+   "choix": [
+    "Mephit",
+    "Éfrit",
+    "Djinn",
+    "Marid"
+   ],
+   "rep": 0,
+   "expl": "Les mephits sont de petits élémentaires. Éfrit, djinn et marid sont des génies.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "pla-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces personnages n’est pas un prince élémentaire du mal ?",
+   "choix": [
+    "Asmodeus",
+    "Imix",
+    "Ogremoch",
+    "Olhydra"
+   ],
+   "rep": 0,
+   "expl": "Asmodeus règne sur les Neuf Enfers. Imix, Ogremoch et Olhydra sont des princes élémentaires.",
+   "src": "Princes of the Apocalypse (2015) et Manuel des Monstres 5e",
+   "id": "pla-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D, le plan où vivent les mortels est le Plan ____.",
+   "choix": [
+    "Matériel",
+    "Astral",
+    "Éthéré",
+    "Élémentaire"
+   ],
+   "rep": 0,
+   "expl": "Le Plan Matériel est le monde des mortels, point de départ de tous les voyages planaires.",
+   "src": "Dungeon Master’s Guide 5e (2014), chapitre « Les plans »",
+   "id": "pla-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Planescape, la ville de Sigil est dirigée par la Dame de la ____.",
+   "choix": [
+    "Douleur",
+    "Nuit",
+    "Mort",
+    "Lune"
+   ],
+   "rep": 0,
+   "expl": "La Dame de la Douleur règne sur Sigil, la Cité des Portes, sans jamais parler.",
+   "src": "Planescape (1994) et Dungeon Master’s Guide 5e",
+   "id": "pla-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D, les githyanki chevauchent des dragons ____.",
+   "choix": [
+    "rouges",
+    "bleus",
+    "d’argent",
+    "noirs"
+   ],
+   "rep": 0,
+   "expl": "Les githyanki montent des dragons rouges au service de la reine liche Vlaakith.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Githyanki »",
+   "id": "pla-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces êtres sont des génies ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Djinn",
+    "Éfrit",
+    "Marid",
+    "Mephit",
+    "Xorn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Djinn, éfrit et marid sont des génies. Le mephit et le xorn sont des créatures élémentaires.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "pla-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Dans D&D, lesquels de ces plans sont des plans élémentaires ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Plan de l’Air",
+    "Plan du Feu",
+    "Plan de l’Eau",
+    "Plan Astral",
+    "Féerie"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Air, feu, eau et terre sont les quatre plans élémentaires ; Plan Astral et Féerie sont d’autres plans.",
+   "src": "Dungeon Master’s Guide 5e (2014), chapitre « Les plans »",
+   "id": "pla-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces êtres sont des anges ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Deva",
+    "Planétaire",
+    "Solar",
+    "Couatl",
+    "Pégase"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Deva, planétaire et solar sont les trois anges du Manuel des Monstres. Couatl et pégase sont d’autres célestes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ange »",
+   "id": "pla-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces êtres par FP croissant.",
+   "items": [
+    "Élémentaire d’air",
+    "Deva",
+    "Djinn",
+    "Planétaire",
+    "Solar"
+   ],
+   "expl": "FP : élémentaire d’air 5, deva 10, djinn 11, planétaire 16, solar 21.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "pla-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces élémentaires par points de vie moyens croissants.",
+   "items": [
+    "Élémentaire d’air",
+    "Élémentaire de feu",
+    "Élémentaire d’eau",
+    "Élémentaire de terre"
+   ],
+   "expl": "PV moyens : air 90, feu 102, eau 114, terre 126.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "pla-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque génie à son élément.",
+   "paires": [
+    [
+     "Éfrit",
+     "Feu"
+    ],
+    [
+     "Djinn",
+     "Air"
+    ],
+    [
+     "Dao",
+     "Terre"
+    ],
+    [
+     "Marid",
+     "Eau"
+    ]
+   ],
+   "expl": "Éfrit : feu ; djinn : air ; dao : terre ; marid : eau.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "pla-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque prince élémentaire à son élément.",
+   "paires": [
+    [
+     "Imix",
+     "Feu"
+    ],
+    [
+     "Ogremoch",
+     "Terre"
+    ],
+    [
+     "Olhydra",
+     "Eau"
+    ],
+    [
+     "Yan-C-Bin",
+     "Air"
+    ]
+   ],
+   "expl": "Imix (feu), Ogremoch (terre), Olhydra (eau) et Yan-C-Bin (air) sont les quatre princes du mal élémentaire.",
+   "src": "Princes of the Apocalypse (2015)",
+   "id": "pla-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un guerrier du Plan Astral.\n2. Je chevauche des dragons rouges.\n3. Mon peuple est en guerre contre les flagelleurs mentaux et les githzerai.",
+   "choix": [
+    "Githyanki",
+    "Githzerai",
+    "Drow",
+    "Yuan-ti"
+   ],
+   "rep": 0,
+   "expl": "Les githyanki sont des pillards astraux, ennemis jurés des flagelleurs mentaux.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Githyanki »",
+   "id": "pla-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un être mystérieux, vêtu de lames.\n2. Je règne sur la Cité des Portes.\n3. Personne n’ose me défier : j’envoie les imprudents dans un labyrinthe.",
+   "choix": [
+    "Dame de la Douleur",
+    "Asmodeus",
+    "Vecna",
+    "Tiamat"
+   ],
+   "rep": 0,
+   "expl": "La Dame de la Douleur gouverne Sigil et punit ses opposants en les exilant dans des labyrinthes.",
+   "src": "Planescape (1994) et Dungeon Master’s Guide 5e",
+   "id": "pla-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un génie lié à l’élément de l’air.\n2. Je peux me transformer en tourbillon.\n3. Je vis dans des palais de nuages.",
+   "choix": [
+    "Djinn",
+    "Éfrit",
+    "Marid",
+    "Dao"
+   ],
+   "rep": 0,
+   "expl": "Le djinn est un génie de l’air, capable de se muer en tornade.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Djinn »",
+   "id": "pla-086",
+   "conf": "probable",
+   "concept": "nv_qui"
   }
- ]
+ ],
+ "sources": []
 }

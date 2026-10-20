@@ -29,6 +29,23 @@ def pack(quiz_dir, royaumes_path):
             elif ty == 'slider':
                 if not (q['min'] <= q['rep'] <= q['max']): errors.append(qid + ' : curseur hors bornes')
                 o.update(t='s', r=q['rep'], mn=q['min'], mx=q['max'], p=q['pas'], u=q.get('unite', ''), tl=q['tolerance'])
+            elif ty in ('intrus', 'trou', 'qui'):
+                if len(q['choix']) != 4 or len(set(q['choix'])) != 4 or not (0 <= q['rep'] < 4): errors.append(qid + ' : ' + ty + ' invalide')
+                if ty == 'trou' and '____' not in q['q']: errors.append(qid + ' : texte à trous sans « ____ »')
+                o.update(t={'intrus': 'i', 'trou': 'h', 'qui': 'w'}[ty], c=q['choix'], r=q['rep'])
+            elif ty == 'multi':
+                ch, rr = q['choix'], q['reps']
+                if not (4 <= len(ch) <= 6) or len(set(ch)) != len(ch): errors.append(qid + ' : multi : propositions invalides')
+                if not (2 <= len(rr) < len(ch)) or len(set(rr)) != len(rr) or any(not (0 <= k < len(ch)) for k in rr): errors.append(qid + ' : multi : bonnes réponses invalides')
+                o.update(t='m', c=ch, r=sorted(rr))
+            elif ty == 'ordre':
+                it = q['items']
+                if not (3 <= len(it) <= 5) or len(set(it)) != len(it): errors.append(qid + ' : ordre invalide')
+                o.update(t='o', c=it)
+            elif ty == 'assoc':
+                pr = q['paires']
+                if not (3 <= len(pr) <= 5) or len({a for a, b in pr}) != len(pr) or len({b for a, b in pr}) != len(pr): errors.append(qid + ' : association invalide')
+                o.update(t='a', c=[a for a, b in pr], d=[b for a, b in pr])
             else:
                 errors.append(qid + ' : type inconnu ' + str(ty)); continue
             Q.append(o)

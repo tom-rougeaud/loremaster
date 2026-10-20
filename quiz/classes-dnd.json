@@ -2,64 +2,15 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "classes-dnd",
-  "nom": "Classes de D&D",
+  "nom": "Classes de personnage et archétypes",
   "royaume": "Règles et univers de D&D",
   "icone": "epee",
   "sombre": false
  },
- "sources": [
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Guerrier",
-  "SRD 5.1, « Wizard » (Spellbook, Arcane Recovery)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
-  "SRD 5.1, « Rogue » (Sneak Attack)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barbare",
-  "SRD 5.1, « Bard »",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Druide",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Paladin",
-  "SRD 5.1, « Ranger » (Favored Enemy, Natural Explorer)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Moine",
-  "SRD 5.1, « Sorcerer »",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Occultiste",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Guerrier (Archétype martial)",
-  "SRD 5.1, « Paladin » (Divine Smite)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Roublard",
-  "SRD 5.1, « Fighter » (Second Wind)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barde",
-  "SRD 5.1, « Cleric » (Channel Divinity: Turn Undead)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien",
-  "SRD 5.1, « Barbarian » (Hit Points)",
-  "SRD 5.1, « Fighter » (Hit Points)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes » (tableaux de progression)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Guide du Maître 5e, chap. 7",
-  "Manuel des Joueurs 5e (2014), sommaire",
-  "Eberron : Rising from the Last War (2019), chap. 2 ; Tasha’s Cauldron of Everything (2020)",
-  "SRD 5.1, « Paladin » (Spellcasting)",
-  "SRD 5.1, « Find Familiar » ; Manuel des Joueurs 5e (2014), chap. 3 « Magicien »",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien (Spellcasting)",
-  "SRD 5.1, « Wizard »",
-  "SRD 5.1, « Paladin »",
-  "SRD 5.1, « Ranger »",
-  "SRD 5.1, « Bard » (Spellcasting)",
-  "SRD 5.1, « Wizard » (Hit Points)",
-  "SRD 5.1, « Sorcerer » (Spellcasting)",
-  "SRD 5.1, « Cleric »",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes »",
-  "SRD 5.1, « Fighter » (Extra Attack)",
-  "Eberron : Rising from the Last War (2019)",
-  "SRD 5.1, « Monk » (Ki)",
-  "SRD 5.1, « Druid » (Spellcasting)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes » et chap. 11",
-  "SRD 5.1, « Wizard » (Arcane Tradition)",
-  "SRD 5.1, « Sorcerer » (Sorcerous Origin)",
-  "SRD 5.1, « Barbarian » (Primal Path)",
-  "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Rôdeur",
-  "SRD 5.1, « Paladin » (Hit Points)",
-  "SRD 5.1, « Ranger » (Ranger Archetype)"
- ],
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
   "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
-  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
  },
  "questions": [
   {
@@ -1102,5 +1053,6 @@
    "src": "SRD 5.1, « Ranger » (Ranger Archetype)",
    "conf": "probable"
   }
- ]
+ ],
+ "sources": []
 }

@@ -2,14 +2,15 @@
  "schema": "quiz-bestiaire/1",
  "theme": {
   "id": "mythologie-grecque",
-  "nom": "Mythologie grecque (Panthéon et héros)",
-  "royaume": "Bestiaires du monde",
-  "icone": "colonne"
+  "nom": "Mythologie grecque (monstres et héros)",
+  "royaume": "Mythologies et folklores du monde",
+  "icone": "colonne",
+  "sombre": false
  },
  "legende": {
   "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
   "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
-  "conf": "probable = non vérifié en ligne ; à auditer avant publication"
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
  },
  "questions": [
   {
@@ -1054,10 +1055,5 @@
    "conf": "probable"
   }
  ],
- "sources": [
-  "Hésiode, Théogonie",
-  "Homère, Iliade / Odyssée",
-  "Apollodore, Bibliothèque",
-  "Ovide, Métamorphoses"
- ]
+ "sources": []
 }

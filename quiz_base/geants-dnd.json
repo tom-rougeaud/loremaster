@@ -1,0 +1,1353 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "geants-dnd",
+  "nom": "Géants de D&D",
+  "royaume": "Bestiaire de D&D",
+  "icone": "geant",
+  "sombre": false
+ },
+ "sources": [
+  "Manuel des Monstres 5e (2014), entrée « Géant des collines »",
+  "Manuel des Monstres 5e (2014), entrée « Géant du givre »",
+  "Manuel des Monstres 5e (2014), entrée « Géant du feu »",
+  "Manuel des Monstres 5e (2014), entrée « Géant des nuages »",
+  "Manuel des Monstres 5e (2014), entrée « Géant des tempêtes »",
+  "Storm King’s Thunder (2016), chap. 1",
+  "Manuel des Monstres 5e (2014), entrée « Géant de pierre »",
+  "Manuel des Monstres 5e (2014), entrée « Troll »",
+  "Manuel des Monstres 5e (2014), entrée « Ettin »",
+  "Storm King’s Thunder (2016), chap. 1 « L’Ordning »",
+  "Volo’s Guide to Monsters (2016), chap. 2 « Goliath »",
+  "Manuel des Monstres 5e (2014), entrée « Ogre »",
+  "Dans D&D 5e, Against the Giants (TSR, 1978-1981)",
+  "Storm King’s Thunder (2016), introduction",
+  "Manuel des Monstres 5e (2014), entrée « Géants »",
+  "Manuel des Monstres 5e (2014), entrée « Géant »",
+  "Volo’s Guide to Monsters (2016), chap. 2",
+  "Dans D&D 5e, Against the Giants (TSR, 1978)",
+  "Storm King’s Thunder (2016), crédits"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "gea-001",
+   "concept": "gea-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant, le plus fruste, vit dans les collines et lance des rochers ?",
+   "choix": [
+    "Le géant des collines",
+    "Le géant du feu",
+    "Le géant des nuages",
+    "Le géant des tempêtes"
+   ],
+   "rep": 0,
+   "expl": "Le géant des collines (FP 5) est glouton et peu raffiné ; il lance des rochers pour attaquer à distance.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des collines »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-002",
+   "concept": "gea-002",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant habite les glaciers et les terres glacées ?",
+   "choix": [
+    "Le géant du givre",
+    "Le géant des collines",
+    "Le géant de pierre",
+    "Le géant du feu"
+   ],
+   "rep": 0,
+   "expl": "Le géant du givre (FP 8) est un pillard des régions arctiques et des montagnes enneigées.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant du givre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-003",
+   "concept": "gea-003",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant forge des armes dans les volcans ?",
+   "choix": [
+    "Le géant du feu",
+    "Le géant de pierre",
+    "Le géant des nuages",
+    "Le géant du givre"
+   ],
+   "rep": 0,
+   "expl": "Le géant du feu (FP 9) est un forgeron et un guerrier discipliné qui vit près des volcans et des forges.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant du feu »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-004",
+   "concept": "gea-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant bâtit ses châteaux au-dessus des nuages ?",
+   "choix": [
+    "Le géant des nuages",
+    "Le géant des collines",
+    "Le géant du feu",
+    "Le géant de pierre"
+   ],
+   "rep": 0,
+   "expl": "Le géant des nuages (FP 9) vit sur des sommets ou dans des châteaux flottant sur les nuages ; il aime le luxe.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des nuages »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-005",
+   "concept": "gea-005",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant est le plus puissant des six, avec un FP de 13 ?",
+   "choix": [
+    "Le géant des tempêtes",
+    "Le géant de pierre",
+    "Le géant des nuages",
+    "Le géant du feu"
+   ],
+   "rep": 0,
+   "expl": "Le géant des tempêtes (FP 13) domine l’Ordning ; il vit près des océans ou sur des plateaux battus par l’orage.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des tempêtes »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-006",
+   "concept": "gea-006",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, comment appelle-t-on la hiérarchie sociale des géants ?",
+   "choix": [
+    "L’Ordning",
+    "La Cabale",
+    "L’Ordalie",
+    "Le Conclave"
+   ],
+   "rep": 0,
+   "expl": "L’Ordning classe les géants du plus bas (collines) au plus haut (tempêtes) ; chacun doit connaître son rang.",
+   "src": "Storm King’s Thunder (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-007",
+   "concept": "gea-007",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant sculpte la pierre et vit dans des cavernes en montagne ?",
+   "choix": [
+    "Le géant de pierre",
+    "Le géant des collines",
+    "Le géant des nuages",
+    "Le géant du givre"
+   ],
+   "rep": 0,
+   "expl": "Le géant de pierre (FP 7) est un artiste discret qui sculpte la pierre et vit dans des cavernes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant de pierre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-008",
+   "concept": "gea-008",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, que stoppe la régénération d’un troll ?",
+   "choix": [
+    "Les dégâts d’acide et de feu",
+    "Les dégâts de foudre",
+    "Les dégâts de froid",
+    "Les dégâts contondants"
+   ],
+   "rep": 0,
+   "expl": "Un troll qui subit de l’acide ou du feu ne régénère pas à son prochain tour : il peut alors mourir.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-009",
+   "concept": "gea-009",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle capacité rend des PV au troll à chaque tour ?",
+   "choix": [
+    "La régénération",
+    "La vision aveugle",
+    "La résurrection",
+    "La furie"
+   ],
+   "rep": 0,
+   "expl": "La Régénération rend 10 PV par tour, tant que le troll n’a pas subi d’acide ni de feu.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-010",
+   "concept": "gea-010",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant à deux têtes est apparenté à l’ogre ?",
+   "choix": [
+    "L’ettin",
+    "Le troll",
+    "Le cyclope",
+    "Le hobgobelin"
+   ],
+   "rep": 0,
+   "expl": "L’ettin (FP 4) est un géant bicéphale ; chaque tête monte la garde pendant que l’autre dort.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ettin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-011",
+   "concept": "gea-011",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans le panthéon des géants de D&D, quel dieu est vénéré par les géants du givre ?",
+   "choix": [
+    "Thrym",
+    "Annam",
+    "Memnor",
+    "Surtur"
+   ],
+   "rep": 0,
+   "expl": "Thrym est le dieu des géants du givre ; Surtur est celui des géants du feu.",
+   "src": "Storm King’s Thunder (2016), chap. 1 « L’Ordning »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-012",
+   "concept": "gea-012",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans le panthéon des géants de D&D, quel dieu est vénéré par les géants du feu ?",
+   "choix": [
+    "Surtur",
+    "Thrym",
+    "Memnor",
+    "Skoraeus"
+   ],
+   "rep": 0,
+   "expl": "Surtur est le dieu des forges et des géants du feu.",
+   "src": "Storm King’s Thunder (2016), chap. 1 « L’Ordning »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-013",
+   "concept": "gea-013",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans le panthéon des géants de D&D, quel dieu est le Père de Tous ?",
+   "choix": [
+    "Annam",
+    "Surtur",
+    "Thrym",
+    "Grolantor"
+   ],
+   "rep": 0,
+   "expl": "Annam le Père de Tous est le créateur du panthéon des géants ; ses enfants sont les dieux de chaque type de géant.",
+   "src": "Storm King’s Thunder (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-014",
+   "concept": "gea-014",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel peuple jouable a une ascendance géante ?",
+   "choix": [
+    "Les goliaths",
+    "Les nains",
+    "Les orques",
+    "Les drakéides"
+   ],
+   "rep": 0,
+   "expl": "Les goliaths descendent des géants et ont un physique imposant ; ils apparaissent dans Volo.",
+   "src": "Volo’s Guide to Monsters (2016), chap. 2 « Goliath »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-015",
+   "concept": "gea-015",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle est la taille d’un ogre ?",
+   "choix": [
+    "Grande",
+    "Moyenne",
+    "Très grande",
+    "Gigantesque"
+   ],
+   "rep": 0,
+   "expl": "L’ogre (FP 2) est de taille Grande ; les vrais géants sont de taille Très grande (Huge).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ogre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-016",
+   "concept": "gea-016",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle est la taille d’un géant des collines ?",
+   "choix": [
+    "Très grande (Huge)",
+    "Gigantesque",
+    "Grande",
+    "Moyenne"
+   ],
+   "rep": 0,
+   "expl": "Les six types de géants sont de taille Très grande.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des collines »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-017",
+   "concept": "gea-017",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quels dégâts inflige un rocher lancé par un géant ?",
+   "choix": [
+    "Contondants",
+    "Tranchants",
+    "Perforants",
+    "De foudre"
+   ],
+   "rep": 0,
+   "expl": "Un rocher inflige des dégâts contondants (3d10 + Force pour un géant des collines).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des collines »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-018",
+   "concept": "gea-018",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant a la Force la plus basse des six types ?",
+   "choix": [
+    "Le géant des collines",
+    "Le géant du feu",
+    "Le géant de pierre",
+    "Le géant du givre"
+   ],
+   "rep": 0,
+   "expl": "Le géant des collines a une Force de 21, la plus faible ; celle du géant des tempêtes atteint 29.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des collines »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-019",
+   "concept": "gea-019",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle série de modules, publiée en 1978, oppose les aventuriers aux géants ?",
+   "choix": [
+    "Against the Giants",
+    "Queen of the Spiders",
+    "Temple of Elemental Evil",
+    "White Plume Mountain"
+   ],
+   "rep": 0,
+   "expl": "Against the Giants (G1-G3, TSR, 1978) est une série d’aventures de D&D, avec des géants des collines, du givre et du feu.",
+   "src": "Dans D&D 5e, Against the Giants (TSR, 1978-1981)",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-020",
+   "concept": "gea-020",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle aventure de 2016 met en scène une menace de géants ?",
+   "choix": [
+    "Storm King’s Thunder",
+    "La Malédiction de Strahd",
+    "Tomb of Annihilation",
+    "Out of the Abyss"
+   ],
+   "rep": 0,
+   "expl": "Storm King’s Thunder (2016) lance les héros dans la crise de l’Ordning.",
+   "src": "Storm King’s Thunder (2016), introduction",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-021",
+   "concept": "gea-021",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans Storm King’s Thunder, quel est le titre du roi des géants des tempêtes ?",
+   "choix": [
+    "Le Roi de la tempête (Hekaton)",
+    "Le Roi de la montagne",
+    "Le Roi du givre",
+    "Le Seigneur des nuages"
+   ],
+   "rep": 0,
+   "expl": "Le roi Hekaton est le roi des tempêtes ; sa disparition ouvre l’aventure.",
+   "src": "Storm King’s Thunder (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-022",
+   "concept": "gea-022",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant a une Force de 29 ?",
+   "choix": [
+    "Le géant des tempêtes",
+    "Le géant du feu",
+    "Le géant des nuages",
+    "Le géant de pierre"
+   ],
+   "rep": 0,
+   "expl": "Le géant des tempêtes a une Force de 29, ce qui le place au sommet de la liste.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des tempêtes »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-023",
+   "concept": "gea-023",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant a la CA la plus élevée (18) ?",
+   "choix": [
+    "Le géant du feu",
+    "Le géant du givre",
+    "Le géant des tempêtes",
+    "Le géant de pierre"
+   ],
+   "rep": 0,
+   "expl": "Le géant du feu porte une armure de plates : CA 18.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant du feu »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-024",
+   "concept": "gea-024",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel géant a 200 PV en moyenne ?",
+   "choix": [
+    "Le géant des nuages",
+    "Le géant du givre",
+    "Le géant du feu",
+    "Le géant de pierre"
+   ],
+   "rep": 0,
+   "expl": "Le géant des nuages a 200 PV (16d12 + 96).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des nuages »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-025",
+   "concept": "gea-025",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle arme préfère le géant du feu ?",
+   "choix": [
+    "Une épée à deux mains",
+    "Un arc long",
+    "Une masse d’armes",
+    "Une faux"
+   ],
+   "rep": 0,
+   "expl": "Le géant du feu manie une épée à deux mains (greatsword) avec laquelle il frappe deux fois par tour.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant du feu »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-026",
+   "concept": "gea-026",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, combien de types de géants « classiques » le Manuel des Monstres décrit-il ?",
+   "choix": [
+    "Six",
+    "Quatre",
+    "Huit",
+    "Trois"
+   ],
+   "rep": 0,
+   "expl": "Six : collines, pierre, givre, feu, nuages et tempêtes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géants »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-027",
+   "concept": "gea-027",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle capacité permet au géant de pierre de renvoyer un rocher ?",
+   "choix": [
+    "Capture de rocher",
+    "Régénération",
+    "Vision aveugle",
+    "Fureur"
+   ],
+   "rep": 0,
+   "expl": "Capture de rocher (Rock Catching) : il peut attraper ou dévier un rocher lancé sur lui.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant de pierre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-028",
+   "concept": "gea-028",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle créature géante vit aussi sous l’eau, dans l’océan ?",
+   "choix": [
+    "Le géant des tempêtes",
+    "Le géant du feu",
+    "Le géant de pierre",
+    "Le géant des collines"
+   ],
+   "rep": 0,
+   "expl": "Les géants des tempêtes vivent souvent près ou dans les océans et peuvent respirer sous l’eau.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des tempêtes »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-030",
+   "concept": "gea-030",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle créature à régénération se bat souvent aux côtés des ogres ?",
+   "choix": [
+    "Le troll",
+    "Le hobgobelin",
+    "Le gnoll",
+    "Le kobold"
+   ],
+   "rep": 0,
+   "expl": "Le troll est un monstre de la forêt, souvent allié aux ogres et aux géants.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-031",
+   "concept": "gea-031",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, les géants des tempêtes sont au sommet de l’Ordning.",
+   "rep": true,
+   "expl": "Vrai : ils dominent la hiérarchie.",
+   "src": "Storm King’s Thunder (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-032",
+   "concept": "gea-032",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le géant des collines est le plus puissant des géants.",
+   "rep": false,
+   "expl": "Faux : c’est le plus faible des six types.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des collines »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-033",
+   "concept": "gea-033",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, le troll peut se régénérer.",
+   "rep": true,
+   "expl": "Vrai : 10 PV par tour.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-034",
+   "concept": "gea-034",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le feu favorise la régénération du troll.",
+   "rep": false,
+   "expl": "Faux : le feu et l’acide l’empêchent.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-035",
+   "concept": "gea-035",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’ettin possède deux têtes.",
+   "rep": true,
+   "expl": "Vrai : c’est son trait distinctif.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ettin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-036",
+   "concept": "gea-036",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’ogre est de taille Gigantesque.",
+   "rep": false,
+   "expl": "Faux : l’ogre est de taille Grande.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ogre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-037",
+   "concept": "gea-037",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, les géants du givre vivent dans les terres glacées.",
+   "rep": true,
+   "expl": "Vrai : glaciers et montagnes enneigées.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant du givre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-038",
+   "concept": "gea-038",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les géants du feu vivent au fond de la mer.",
+   "rep": false,
+   "expl": "Faux : ils vivent près des volcans.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant du feu »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-039",
+   "concept": "gea-039",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les goliaths sont liés aux géants.",
+   "rep": true,
+   "expl": "Vrai : ils descendent des géants.",
+   "src": "Volo’s Guide to Monsters (2016), chap. 2",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-040",
+   "concept": "gea-040",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les géants des nuages portent une armure de plates.",
+   "rep": false,
+   "expl": "Faux : c’est le géant du feu qui porte une plate (CA 18) ; celui des nuages a une CA de 14.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des nuages »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-041",
+   "concept": "gea-041",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, Annam est le père des dieux des géants.",
+   "rep": true,
+   "expl": "Vrai : c’est le Père de Tous.",
+   "src": "Storm King’s Thunder (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-042",
+   "concept": "gea-042",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, les géants du feu vénèrent Thrym.",
+   "rep": false,
+   "expl": "Faux : Thrym est le dieu du givre ; les géants du feu vénèrent Surtur.",
+   "src": "Storm King’s Thunder (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-043",
+   "concept": "gea-043",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, les géants de pierre sont d’excellents sculpteurs.",
+   "rep": true,
+   "expl": "Vrai : ils sont artistes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant de pierre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-044",
+   "concept": "gea-044",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le géant des nuages vit au fond de l’océan.",
+   "rep": false,
+   "expl": "Faux : il vit sur les nuages ou les sommets.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des nuages »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-045",
+   "concept": "gea-045",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, Against the Giants est paru en 1978.",
+   "rep": true,
+   "expl": "Vrai : G1-G3 a été publié par TSR en 1978.",
+   "src": "Dans D&D 5e, Against the Giants (TSR, 1978)",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-046",
+   "concept": "gea-046",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, Storm King’s Thunder est une aventure de 3e édition.",
+   "rep": false,
+   "expl": "Faux : c’est une aventure de la 5e édition (2016).",
+   "src": "Storm King’s Thunder (2016), crédits",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-047",
+   "concept": "gea-047",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, le géant des collines a une Force de 21.",
+   "rep": true,
+   "expl": "Vrai : c’est la plus basse des six.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des collines »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-048",
+   "concept": "gea-048",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’ogre est un géant de type humanoïde.",
+   "rep": true,
+   "expl": "Vrai : c’est un humanoïde de taille Grande.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ogre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-049",
+   "concept": "gea-049",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’Ordning classe les géants selon leur taille.",
+   "rep": false,
+   "expl": "Faux : il les classe selon un rang social et sacré, pas seulement la taille.",
+   "src": "Storm King’s Thunder (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-050",
+   "concept": "gea-050",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, les trolls sont vulnérables à l’acide.",
+   "rep": true,
+   "expl": "Vrai : l’acide arrête leur régénération.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-051",
+   "concept": "gea-051",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, les ogres sont de taille Grande.",
+   "rep": true,
+   "expl": "Vrai : taille Grande.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ogre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-052",
+   "concept": "gea-052",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, Surtur est le dieu des géants du givre.",
+   "rep": false,
+   "expl": "Faux : il est lié au feu et aux forges.",
+   "src": "Storm King’s Thunder (2016), chap. 1",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-053",
+   "concept": "gea-053",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du géant des collines ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Le géant des collines est de FP 5 (1 800 XP).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des collines »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-054",
+   "concept": "gea-054",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du géant de pierre ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 7,
+   "expl": "Le géant de pierre est de FP 7.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant de pierre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-055",
+   "concept": "gea-055",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du géant du givre ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 8,
+   "expl": "Le géant du givre est de FP 8.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant du givre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-056",
+   "concept": "gea-056",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du géant du feu ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 9,
+   "expl": "Le géant du feu est de FP 9.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant du feu »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-057",
+   "concept": "gea-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du géant des nuages ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 9,
+   "expl": "Le géant des nuages est aussi de FP 9.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des nuages »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-058",
+   "concept": "gea-058",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du géant des tempêtes ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 13,
+   "expl": "Le géant des tempêtes est de FP 13.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des tempêtes »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-059",
+   "concept": "gea-059",
+   "niveau": 1,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de têtes a un ettin ?",
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "têtes",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "L’ettin a deux têtes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ettin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-060",
+   "concept": "gea-060",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de l’ogre ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "L’ogre est de FP 2.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ogre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-061",
+   "concept": "gea-061",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du troll ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Le troll est de FP 5.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-062",
+   "concept": "gea-062",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un troll ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 84,
+   "expl": "84 PV (8d10 + 40).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-063",
+   "concept": "gea-063",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un ogre ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 59,
+   "expl": "59 PV (7d10 + 21).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ogre »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-064",
+   "concept": "gea-064",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un géant des collines ?",
+   "min": 50,
+   "max": 300,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 105,
+   "expl": "105 PV (10d12 + 40).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des collines »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-065",
+   "concept": "gea-065",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un géant des tempêtes (à 10 près) ?",
+   "min": 100,
+   "max": 400,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 10,
+   "rep": 230,
+   "expl": "230 PV (20d12 + 100).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des tempêtes »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-066",
+   "concept": "gea-066",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un géant du feu (à 10 près) ?",
+   "min": 100,
+   "max": 300,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 10,
+   "rep": 162,
+   "expl": "162 PV (13d20 + 26).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant du feu »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-067",
+   "concept": "gea-067",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un ettin (à 5 près) ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 5,
+   "rep": 85,
+   "expl": "85 PV (10d10 + 30).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ettin »",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-068",
+   "concept": "gea-068",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, en quelle année est paru Against the Giants ?",
+   "min": 1970,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 1978,
+   "expl": "Publié en 1978 (G1-G3).",
+   "src": "Dans D&D 5e, Against the Giants (TSR, 1978)",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-069",
+   "concept": "gea-069",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, en quelle année est paru Storm King’s Thunder ?",
+   "min": 2010,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 2016,
+   "expl": "Publié en septembre 2016.",
+   "src": "Storm King’s Thunder (2016), crédits",
+   "conf": "probable"
+  },
+  {
+   "id": "gea-070",
+   "concept": "gea-070",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV un troll regagne-t-il par tour grâce à sa régénération ?",
+   "min": 1,
+   "max": 30,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 10,
+   "expl": "Il regagne 10 PV par tour.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces monstres n’est pas de type « géant » ?",
+   "choix": [
+    "Minotaure",
+    "Ogre",
+    "Ettin",
+    "Troll"
+   ],
+   "rep": 0,
+   "expl": "Le minotaure est une monstruosité. L’ogre, l’ettin et le troll sont, en 5e, des créatures de type géant.",
+   "src": "Manuel des Monstres 5e (2014), entrées « Minotaure », « Ogre », « Ettin », « Troll »",
+   "id": "gea-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces modules n’est pas centré sur des géants ?",
+   "choix": [
+    "Tomb of Annihilation",
+    "Against the Giants",
+    "Storm King’s Thunder",
+    "Steading of the Hill Giant Chief"
+   ],
+   "rep": 0,
+   "expl": "Tomb of Annihilation (2017) se déroule dans la jungle de Chult. Les trois autres mettent les géants au premier plan.",
+   "src": "Catalogue des modules D&D (TSR / Wizards of the Coast)",
+   "id": "gea-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le troll se régénère, sauf s’il subit des dégâts d’acide ou de ____.",
+   "choix": [
+    "feu",
+    "froid",
+    "tonnerre",
+    "poison"
+   ],
+   "rep": 0,
+   "expl": "La régénération du troll (10 PV par tour) est stoppée pendant un tour par des dégâts d’acide ou de feu.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "id": "gea-073",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, au sommet de l’Ordning, la hiérarchie sociale des géants, règnent les géants des ____.",
+   "choix": [
+    "tempêtes",
+    "nuages",
+    "collines",
+    "pierres"
+   ],
+   "rep": 0,
+   "expl": "L’Ordning place les géants des tempêtes au sommet, devant les géants des nuages, du feu, du givre, de pierre et des collines.",
+   "src": "Volo’s Guide to Monsters (2016) et Manuel des Monstres 5e (2014), chapitre « Géants »",
+   "id": "gea-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le dieu des géants du feu s’appelle ____.",
+   "choix": [
+    "Surtur",
+    "Thrym",
+    "Annam",
+    "Grolantor"
+   ],
+   "rep": 0,
+   "expl": "Surtur est le dieu des géants du feu ; Thrym celui des géants du givre, Grolantor celui des géants des collines, Annam le Père de Tous.",
+   "src": "Volo’s Guide to Monsters (2016) et Manuel des Monstres 5e (2014), chapitre « Géants »",
+   "id": "gea-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces monstres sont de taille Très grande (Huge) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Géant des collines",
+    "Géant du feu",
+    "Géant des nuages",
+    "Ogre",
+    "Ettin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Les six grands géants sont de taille Très grande ; l’ogre et l’ettin sont de taille Grande.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gea-076",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces géants ont un FP de 9 ou plus ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Géant du feu",
+    "Géant des nuages",
+    "Géant des tempêtes",
+    "Géant de pierre",
+    "Géant des collines"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "FP : feu 9, nuages 9, tempêtes 13 ; pierre 7 et collines 5 sont en dessous.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gea-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces êtres sont des divinités des géants ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Annam",
+    "Surtur",
+    "Thrym",
+    "Moradin",
+    "Corellon"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Annam, Surtur et Thrym sont des dieux des géants. Moradin est le dieu des nains, Corellon celui des elfes.",
+   "src": "Volo’s Guide to Monsters (2016) et Manuel des Monstres 5e (2014), chapitre « Géants »",
+   "id": "gea-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces géants par FP croissant (du moins au plus dangereux).",
+   "items": [
+    "Géant des collines",
+    "Géant de pierre",
+    "Géant du givre",
+    "Géant du feu",
+    "Géant des tempêtes"
+   ],
+   "expl": "FP : collines 5, pierre 7, givre 8, feu 9, tempêtes 13.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "gea-079",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces géants selon l’Ordning, du sommet de la hiérarchie à sa base.",
+   "items": [
+    "Géant des tempêtes",
+    "Géant des nuages",
+    "Géant du feu",
+    "Géant du givre",
+    "Géant des collines"
+   ],
+   "expl": "Ordning : tempêtes, nuages, feu, givre, pierre, collines (du plus au moins prestigieux).",
+   "src": "Volo’s Guide to Monsters (2016) et Manuel des Monstres 5e (2014), chapitre « Géants »",
+   "id": "gea-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque géant à son milieu de vie.",
+   "paires": [
+    [
+     "Géant du givre",
+     "Glaciers"
+    ],
+    [
+     "Géant du feu",
+     "Volcans"
+    ],
+    [
+     "Géant des nuages",
+     "Châteaux célestes"
+    ],
+    [
+     "Géant de pierre",
+     "Cavernes de montagne"
+    ]
+   ],
+   "expl": "Chaque géant vit dans le milieu qui l’inspire : glace, volcans, ciel ou montagne.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "gea-081",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque géant à son dieu.",
+   "paires": [
+    [
+     "Géant du givre",
+     "Thrym"
+    ],
+    [
+     "Géant du feu",
+     "Surtur"
+    ],
+    [
+     "Géant de pierre",
+     "Skoraeus Stonebones"
+    ],
+    [
+     "Géant des collines",
+     "Grolantor"
+    ]
+   ],
+   "expl": "Thrym (givre), Surtur (feu), Skoraeus Stonebones (pierre), Grolantor (collines).",
+   "src": "Volo’s Guide to Monsters (2016) et Manuel des Monstres 5e (2014), chapitre « Géants »",
+   "id": "gea-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une créature de grande taille, aux longs bras griffus.\n2. Mes blessures se referment sous tes yeux.\n3. Seuls l’acide et le feu m’empêchent de me régénérer.",
+   "choix": [
+    "Troll",
+    "Ogre",
+    "Ettin",
+    "Gobelours"
+   ],
+   "rep": 0,
+   "expl": "Le troll se régénère de 10 PV par tour, sauf contre l’acide et le feu.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Troll »",
+   "id": "gea-083",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un géant brutal et repoussant.\n2. J’ai deux têtes qui se disputent sans cesse.\n3. Quand l’une dort, l’autre veille : on me surprend rarement.",
+   "choix": [
+    "Ettin",
+    "Ogre",
+    "Troll",
+    "Cyclope"
+   ],
+   "rep": 0,
+   "expl": "L’ettin a deux têtes ; l’une reste éveillée quand l’autre dort.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ettin »",
+   "id": "gea-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis le plus puissant des six grands géants.\n2. Je règne au sommet de l’Ordning.\n3. Je commande la foudre et les tempêtes, sur la mer ou dans les nuages.",
+   "choix": [
+    "Géant des tempêtes",
+    "Géant des nuages",
+    "Géant du feu",
+    "Géant de pierre"
+   ],
+   "rep": 0,
+   "expl": "Le géant des tempêtes (FP 13) domine l’Ordning et manie la foudre.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Géant des tempêtes »",
+   "id": "gea-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  }
+ ]
+}

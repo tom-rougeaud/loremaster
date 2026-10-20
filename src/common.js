@@ -58,6 +58,7 @@ var ICO={
   eyeoff:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M3 3l18 18M10.6 5.1A10.6 10.6 0 0 1 12 5c6.4 0 10 7 10 7a17 17 0 0 1-3.2 4.1M6.3 6.3C3.6 8 2 12 2 12s3.6 7 10 7a9.7 9.7 0 0 0 5.6-1.7M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>',
   trash:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6"/></svg>',
   edit:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg>',
+  swords:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5l12 12M19 5L7 17M13.500 16.500l3-3M7.500 13.500l3 3M17 17l3 3M7 17l-3 3"/></svg>',
   dice:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="8" cy="8" r="1.5" fill="currentColor"/><circle cx="16" cy="8" r="1.5" fill="currentColor"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/><circle cx="8" cy="16" r="1.5" fill="currentColor"/><circle cx="16" cy="16" r="1.5" fill="currentColor"/></svg>',
   refresh:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></svg>',
   grip:'<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="9" cy="6" r="1.8"/><circle cx="15" cy="6" r="1.8"/><circle cx="9" cy="12" r="1.8"/><circle cx="15" cy="12" r="1.8"/><circle cx="9" cy="18" r="1.8"/><circle cx="15" cy="18" r="1.8"/></svg>',
@@ -112,9 +113,11 @@ var SHAPES=["A","B","C","D","E","F"];
 var MODES={
   solo:{id:"solo",nom:"Chacun sa quête",court:"Chacun sa quête",desc:"Chacun joue pour soi : pas de guilde, un classement individuel et le podium des 3 meilleurs."},
   duel:{id:"duel",nom:"Duel de guildes",court:"Duel",desc:"Les aventuriers rejoignent une guilde en glissant leur jeton. Score de guilde = moyenne de ses membres."},
-  boss:{id:"boss",nom:"Les Aventuriers contre le MJ",court:"Aventuriers VS MJ",desc:"Tout le donjon affronte le MJ, qui joue depuis son téléphone : bonnes réponses = dégâts sur l’adversaire."}
+  boss:{id:"boss",nom:"Les Aventuriers contre le MJ",court:"Aventuriers VS MJ",desc:"Tout le donjon affronte le MJ, qui joue depuis son téléphone : la moyenne des points des aventuriers est comparée à celle du MJ."}
 };
 var MAX_PLAYERS=30;
+/* pari : points perdus en cas d’erreur (la bonne réponse vaut le double) · bonus de rapidité en Aventuriers VS MJ */
+var BET_LOSS=300,BOSS_BONUS=10,BOSS_VIRT=525,BOSS_CAP=400,DD_WIN=300,MANCHE=10;
 var VOC={salle:"donjon",joueur:"aventurier",joueurs:"aventuriers",mj:"le MJ"};
 
 /* ─── règles affichées avant chaque partie (MJ et aventuriers) ─── */
@@ -122,7 +125,7 @@ var RULES={
   common:[["bolt","De 500 à 1 000 points par bonne réponse : plus on répond vite, plus on gagne."],["flame","Série : +50 points par bonne réponse d’affilée (jusqu’à +250)."],["target","Estimation au curseur : zone verte = tous les points, zone orange = la moitié."],["cross","Erreur ou pas de réponse : 0 point, mais aucune pénalité."]],
   solo:[["user","Chacun joue pour soi, sans guilde."],["trophy","Le classement change à chaque question ; à la fin, le podium couronne les 3 meilleurs."]],
   duel:[["users","Points de la guilde à chaque question = moyenne des points de ses membres (un membre qui ne répond pas compte 0)."],["star","Bonus de 200 points si tous les membres de la guilde trouvent la bonne réponse."],["flag","Les bannières avancent : la guilde en tête à la fin gagne."]],
-  boss:[["heart","Les aventuriers et le MJ ont chacun 100 points de vie."],["star","Plus le donjon réussit, plus il inflige de dégâts à la jauge de vie du MJ (100 % de réussite = coup critique)."],["bolt","Les erreurs et les absences de réponse des aventuriers abîment leur propre jauge."],["shield","Le MJ répond aussi sur son téléphone : s’il trouve, et vite, il inflige des dégâts à la jauge de vie des aventuriers."],["trophy","À la fin, le camp qui a gardé le plus de vie gagne."]]
+  boss:[["users","Les aventuriers jouent ensemble contre le MJ : à chaque question, on compare la MOYENNE des points des aventuriers aux points du MJ."],["shield","Le MJ répond sur son téléphone avec le même barème (mêmes points, même vitesse, même série). Sans téléphone connecté, un MJ virtuel marque 525 points par question."],["bolt","Bonus : +10 points pour chaque aventurier qui trouve la bonne réponse avant le MJ."],["heart","Le camp qui mène au cumul fait perdre de la vie à l’autre : les jauges montrent l’avantage."],["trophy","À la fin, le camp en tête au cumul des points gagne (égalité : les aventuriers)."]]
 };
 /* o = {sm:"juste"|"vite", rd:secondes de lecture} (réglages de la partie) */
 function rulesHtml(mode,o){
@@ -132,7 +135,10 @@ function rulesHtml(mode,o){
   if(o.sm==="juste")com[0]=["check","1 000 points par bonne réponse, quelle que soit la vitesse : prends le temps de bien réfléchir."];
   if(o.rd>0)com.splice(1,0,["eye","Les propositions apparaissent après "+o.rd+" secondes : lis bien l’énoncé d’abord."]);
   if(o.fk===false)com=com.filter(function(r){return r[0]!=="target";});
+  if(o.ml)com.splice(com.length-1,0,["star","Réponses multiples, ordre, association : tout juste = tous les points ; presque tout juste = une partie des points."]);
+  if(o.pr)com.splice(com.length-1,0,["dice","Pari : sur une question « Pari », tu peux miser avant de répondre : points ×2 si tu as juste, −"+BET_LOSS+" points si tu te trompes."]);
   var R=RULES[mode].slice();
+  if(mode==="duel"&&o.dd)R.splice(R.length-1,0,["swords","Duel direct (au plus une fois toutes les "+MANCHE+" questions) : les deux guildes en tête votent pour leur champion ; le plus rapide des deux qui a juste offre "+DD_WIN+" points à sa guilde."]);
   if(mode==="boss"){
     if(o.hd>0)R.splice(R.length-1,0,["clock","Handicap du MJ : la question s’affiche sur son téléphone "+o.hd+" s après les vôtres."]);
     if(o.hpen)R.splice(R.length-1,0,["heart","Handicap du MJ : chaque erreur (ou absence de réponse) du MJ abîme sa propre jauge."]);

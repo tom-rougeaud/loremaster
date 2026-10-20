@@ -1,0 +1,1362 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "monstres-donjon",
+  "nom": "Monstres de donjon (D&D)",
+  "royaume": "Bestiaire de D&D",
+  "icone": "porte",
+  "sombre": false
+ },
+ "sources": [
+  "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+  "Manuel des Monstres 5e (2014), entrée « Mimique »",
+  "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
+  "Manuel des Monstres 5e (2014), entrée « Hibours »",
+  "Manuel des Monstres 5e (2014), entrée « Carrion crawler »",
+  "Manuel des Monstres 5e (2014), entrée « Displacer beast »",
+  "Manuel des Monstres 5e (2014), entrée « Basilic »",
+  "Manuel des Monstres 5e (2014), entrée « Cockatrice »",
+  "Manuel des Monstres 5e (2014), entrée « Stirge »",
+  "Manuel des Monstres 5e (2014), entrée « Piercer »",
+  "Manuel des Monstres 5e (2014), entrée « Roper »",
+  "Manuel des Monstres 5e (2014), entrée « Pudding noir »",
+  "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+  "Manuel des Monstres 5e (2014), entrée « Gargouille »",
+  "Manuel des Monstres 5e (2014), entrée « Ankheg »",
+  "Manuel des Monstres 5e (2014), entrée « Bulette »",
+  "Manuel des Monstres 5e (2014), entrée « Ver pourpre »",
+  "Waterdeep: Dungeon of the Mad Mage (2018), Introduction",
+  "Waterdeep: Dungeon of the Mad Mage (2018), Chapitre 1",
+  "Manuel des Monstres 5e (2014), entrée « Limon gris »",
+  "Waterdeep: Dungeon of the Mad Mage (2018), Crédits"
+ ],
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = écrit de mémoire, non vérifié en ligne ; à auditer avant publication"
+ },
+ "questions": [
+  {
+   "id": "don-001",
+   "concept": "don-001",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre de donjon est un cube transparent qui engloutit ses proies ?",
+   "choix": [
+    "Le cube gélatineux",
+    "Le pudding noir",
+    "La gelée ochre",
+    "Le mimique"
+   ],
+   "rep": 0,
+   "expl": "Le cube gélatineux (gelatinous cube, FP 2) avale les créatures qui restent dans son espace ; il est presque invisible.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-002",
+   "concept": "don-002",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre imite un coffre ou une porte pour piéger les aventuriers ?",
+   "choix": [
+    "Le roper",
+    "Le rouilleur",
+    "Le cube gélatineux",
+    "Le mimique"
+   ],
+   "rep": 3,
+   "expl": "Le mimique (mimic, FP 2) se déguise en objet et colle ses proies avec un pseudopode adhésif.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-003",
+   "concept": "don-003",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre de donjon se nourrit de métal et en ronge les armes ?",
+   "choix": [
+    "L’ankheg",
+    "Le piercer",
+    "Le rouilleur",
+    "Le stirge"
+   ],
+   "rep": 2,
+   "expl": "Le rouilleur (rust monster, FP 1/2) corrode les objets en métal non magiques qui le touchent.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-004",
+   "concept": "don-004",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre est un hybride de hibou et d’ours ?",
+   "choix": [
+    "Le griffon",
+    "L’hippogriffe",
+    "La chimère",
+    "Le hibours"
+   ],
+   "rep": 3,
+   "expl": "Le hibours (owlbear, FP 3) est un prédateur de forêt et de donjon, redouté pour sa force et sa férocité.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-005",
+   "concept": "don-005",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle créature à tentacules paralysants hante les souterrains ?",
+   "choix": [
+    "Le carrion crawler",
+    "Le roper",
+    "Le gelée ochre",
+    "Le chuul"
+   ],
+   "rep": 0,
+   "expl": "Le carrion crawler (FP 2) paralyse ses victimes avec ses tentacules, avant de les dévorer.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Carrion crawler »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-006",
+   "concept": "don-006",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel félin semble se tenir à côté de sa position réelle ?",
+   "choix": [
+    "Le manticore",
+    "Le blink dog",
+    "La displacer beast",
+    "Le worg"
+   ],
+   "rep": 2,
+   "expl": "La displacer beast (FP 3) projette une image décalée de son corps ; il est difficile à toucher.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Displacer beast »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-007",
+   "concept": "don-007",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel reptile à huit pattes pétrifie par son regard ?",
+   "choix": [
+    "Le crocodile",
+    "Le basilic",
+    "Le cockatrice",
+    "Le lézard géant"
+   ],
+   "rep": 1,
+   "expl": "Le basilic (FP 3) a huit pattes et un regard pétrifiant (Gaze) ; il vit dans les donjons et les cavernes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Basilic »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-008",
+   "concept": "don-008",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre mi-coq mi-lézard pétrifie par sa morsure ?",
+   "choix": [
+    "La harpie",
+    "Le cockatrice",
+    "Le basilic",
+    "Le griffon"
+   ],
+   "rep": 1,
+   "expl": "Le cockatrice (FP 1/2) peut pétrifier une créature qui échoue des jets de sauvegarde successifs.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cockatrice »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-009",
+   "concept": "don-009",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle petite créature volante suce le sang de ses proies ?",
+   "choix": [
+    "Le gobelin",
+    "Le stirge",
+    "Le rouilleur",
+    "Le piercer"
+   ],
+   "rep": 1,
+   "expl": "Le stirge (FP 1/8) se fixe à sa victime avec son long bec et boit son sang.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Stirge »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-010",
+   "concept": "don-010",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle créature tombe du plafond comme une stalactite ?",
+   "choix": [
+    "Le roper",
+    "Le piercer",
+    "Le stirge",
+    "Le mimique"
+   ],
+   "rep": 1,
+   "expl": "Le piercer (FP 1/2) se laisse tomber sur ses proies depuis le plafond des cavernes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Piercer »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-011",
+   "concept": "don-011",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quelle créature ressemble à une stalagmite et projette des filaments ?",
+   "choix": [
+    "Le roper",
+    "Le chuul",
+    "Le piercer",
+    "Le cube gélatineux"
+   ],
+   "rep": 0,
+   "expl": "Le roper (FP 5) agrippe ses proies avec des cordes de filaments et les tire vers sa gueule.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Roper »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-012",
+   "concept": "don-012",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel ooze noir se divise en deux lorsqu’il est frappé par des armes tranchantes ou de la foudre ?",
+   "choix": [
+    "Le cube gélatineux",
+    "Le pudding noir",
+    "Le limon gris",
+    "La gelée ochre"
+   ],
+   "rep": 1,
+   "expl": "Le pudding noir (black pudding, FP 4) se divise en deux, avec la moitié des PV, quand il subit ces dégâts.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Pudding noir »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-013",
+   "concept": "don-013",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre est le plus puissant du Manuel des Monstres, avec FP 30 ?",
+   "choix": [
+    "Le kraken",
+    "Le balor",
+    "La tarasque",
+    "Le dragon rouge ancien"
+   ],
+   "rep": 2,
+   "expl": "La tarasque (FP 30) est un monstre légendaire de 676 PV et de CA 25, inspiré d’une légende provençale.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-015",
+   "concept": "don-015",
+   "niveau": 1,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre de pierre s’anime à la nuit et vole ?",
+   "choix": [
+    "Le golem de pierre",
+    "Le basilic",
+    "L’ankheg",
+    "La gargouille"
+   ],
+   "rep": 3,
+   "expl": "La gargouille (gargoyle, FP 2) reste immobile comme une statue avant d’attaquer ; elle vole.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gargouille »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-016",
+   "concept": "don-016",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre insectoïde creuse des tunnels et crache de l’acide ?",
+   "choix": [
+    "Le piercer",
+    "Le roper",
+    "Le bulette",
+    "L’ankheg"
+   ],
+   "rep": 3,
+   "expl": "L’ankheg (FP 2) surgit du sol et projette un jet d’acide.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ankheg »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-017",
+   "concept": "don-017",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel monstre est surnommé le « requin des terres » ?",
+   "choix": [
+    "Le bulette",
+    "Le ver pourpre",
+    "L’ankheg",
+    "Le remorhaz"
+   ],
+   "rep": 0,
+   "expl": "Le bulette (FP 5) surgit du sol pour attaquer ; son nom évoque un requin terrestre.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Bulette »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-018",
+   "concept": "don-018",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel ver géant peut avaler ses proies entières ?",
+   "choix": [
+    "L’ankheg",
+    "Le ver pourpre",
+    "Le bulette",
+    "Le remorhaz"
+   ],
+   "rep": 1,
+   "expl": "Le ver pourpre (purple worm, FP 15) peut avaler une créature de taille Grande ou moins, qui subit de l’acide.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ver pourpre »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-019",
+   "concept": "don-019",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans les Royaumes Oubliés, comment s’appelle le mégadonjon sous Waterdeep ?",
+   "choix": [
+    "Moria",
+    "Khazad-dûm",
+    "Undermountain",
+    "Barrowmaze"
+   ],
+   "rep": 2,
+   "expl": "Undermountain (« sous-montagne ») est un immense réseau de souterrains sous Waterdeep, règne de Halaster.",
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Introduction",
+   "conf": "probable"
+  },
+  {
+   "id": "don-020",
+   "concept": "don-020",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans les Royaumes Oubliés, quelle ville surplombe Undermountain ?",
+   "choix": [
+    "Neverwinter",
+    "Baldur’s Gate",
+    "Silverymoon",
+    "Waterdeep"
+   ],
+   "rep": 3,
+   "expl": "Waterdeep, la Cité des Splendeurs, repose sur Undermountain, qui s’étend sous la ville.",
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Introduction",
+   "conf": "probable"
+  },
+  {
+   "id": "don-021",
+   "concept": "don-021",
+   "niveau": 3,
+   "type": "qcm",
+   "q": "Dans Waterdeep: Dungeon of the Mad Mage, quel mage fou règne sur Undermountain ?",
+   "choix": [
+    "Mordenkainen",
+    "Elminster",
+    "Halaster Blackcloak",
+    "Vecna"
+   ],
+   "rep": 2,
+   "expl": "Halaster Blackcloak est le mage fou : il a créé Undermountain pour y piéger les aventuriers.",
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Chapitre 1",
+   "conf": "probable"
+  },
+  {
+   "id": "don-022",
+   "concept": "don-022",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, quel ooze ressemble à une flaque de roche humide ?",
+   "choix": [
+    "Le limon gris",
+    "Le mimique",
+    "Le pudding noir",
+    "Le cube gélatineux"
+   ],
+   "rep": 0,
+   "expl": "Le limon gris (gray ooze, FP 1/2) imite une flaque de roche mouillée, et corrode le métal.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Limon gris »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-023",
+   "concept": "don-023",
+   "niveau": 2,
+   "type": "qcm",
+   "q": "Dans D&D 5e, que fait le rouilleur à une arme en métal non magique qui le touche ?",
+   "choix": [
+    "Il la corrode",
+    "Il la double",
+    "Il la fait fondre",
+    "Il la rend magique"
+   ],
+   "rep": 0,
+   "expl": "Le métal se corrode : l’arme perd un bonus de manière permanente.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-024",
+   "concept": "don-024",
+   "niveau": 1,
+   "type": "vf",
+   "q": "Dans D&D 5e, le cube gélatineux est transparent.",
+   "rep": true,
+   "expl": "Vrai : il est difficile à repérer.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-025",
+   "concept": "don-025",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le mimique est incapable de se déplacer.",
+   "rep": false,
+   "expl": "Faux : il peut se déplacer, même s’il préfère attendre.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-026",
+   "concept": "don-026",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le rouilleur corrode le métal.",
+   "rep": true,
+   "expl": "Vrai : ses antennes et son contact rouillent le métal.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-027",
+   "concept": "don-027",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le rouilleur ronge le bois.",
+   "rep": false,
+   "expl": "Faux : il ronge le métal.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-028",
+   "concept": "don-028",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le hibours est un hybride d’ours et de hibou.",
+   "rep": true,
+   "expl": "Vrai : c’est un hybride redoutable.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-029",
+   "concept": "don-029",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le piercer est un monstre volant.",
+   "rep": false,
+   "expl": "Faux : il tombe du plafond.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Piercer »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-030",
+   "concept": "don-030",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le stirge suce le sang de ses victimes.",
+   "rep": true,
+   "expl": "Vrai : il se nourrit de sang.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Stirge »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-031",
+   "concept": "don-031",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le roper vit dans les arbres.",
+   "rep": false,
+   "expl": "Faux : il vit dans les cavernes et les donjons.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Roper »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-032",
+   "concept": "don-032",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, le basilic pétrifie par son regard.",
+   "rep": true,
+   "expl": "Vrai : son regard pétrifiant est célèbre.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Basilic »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-033",
+   "concept": "don-033",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, le cockatrice crache du feu.",
+   "rep": false,
+   "expl": "Faux : il pétrifie.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cockatrice »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-034",
+   "concept": "don-034",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, la tarasque a un FP de 20.",
+   "rep": false,
+   "expl": "Faux : la tarasque a un FP de 30, le plus élevé du Manuel des Monstres.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-035",
+   "concept": "don-035",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, la tarasque est inspirée d’une légende japonaise.",
+   "rep": false,
+   "expl": "Faux : elle est inspirée d’une légende provençale.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-036",
+   "concept": "don-036",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, la tarasque est inspirée de la légende de Tarascon.",
+   "rep": true,
+   "expl": "Vrai : légende provençale.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-037",
+   "concept": "don-037",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans les Royaumes Oubliés, Halaster est un mage fou d’Undermountain.",
+   "rep": true,
+   "expl": "Vrai : Halaster Blackcloak.",
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Chapitre 1",
+   "conf": "probable"
+  },
+  {
+   "id": "don-038",
+   "concept": "don-038",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans les Royaumes Oubliés, Undermountain est situé sous Neverwinter.",
+   "rep": false,
+   "expl": "Faux : il est situé sous Waterdeep.",
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Introduction",
+   "conf": "probable"
+  },
+  {
+   "id": "don-039",
+   "concept": "don-039",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans les Royaumes Oubliés, Undermountain est situé sous Waterdeep.",
+   "rep": true,
+   "expl": "Vrai : sous la Cité des Splendeurs.",
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Introduction",
+   "conf": "probable"
+  },
+  {
+   "id": "don-040",
+   "concept": "don-040",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, Dungeon of the Mad Mage est paru en 2015.",
+   "rep": false,
+   "expl": "Faux : il est paru en 2018.",
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Crédits",
+   "conf": "probable"
+  },
+  {
+   "id": "don-041",
+   "concept": "don-041",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le pudding noir se divise quand on le frappe.",
+   "rep": true,
+   "expl": "Vrai : il se divise sous certaines attaques.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Pudding noir »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-042",
+   "concept": "don-042",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le cube gélatineux est un mort-vivant.",
+   "rep": false,
+   "expl": "Faux : c’est un ooze.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-043",
+   "concept": "don-043",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, l’ankheg crache de l’acide.",
+   "rep": true,
+   "expl": "Vrai : jet d’acide.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ankheg »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-044",
+   "concept": "don-044",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, le bulette vit dans l’océan.",
+   "rep": false,
+   "expl": "Faux : il vit sous terre.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Bulette »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-045",
+   "concept": "don-045",
+   "niveau": 3,
+   "type": "vf",
+   "q": "Dans D&D 5e, le ver pourpre avale ses proies.",
+   "rep": true,
+   "expl": "Vrai : il avale ses proies entières.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ver pourpre »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-046",
+   "concept": "don-046",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, la gargouille ne peut pas voler.",
+   "rep": false,
+   "expl": "Faux : elle vole.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gargouille »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-047",
+   "concept": "don-047",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, la displacer beast est un monstre félin.",
+   "rep": true,
+   "expl": "Vrai : un félin à tentacules.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Displacer beast »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-048",
+   "concept": "don-048",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le carrion crawler est un monstre aquatique.",
+   "rep": false,
+   "expl": "Faux : il vit dans les souterrains.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Carrion crawler »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-049",
+   "concept": "don-049",
+   "niveau": 2,
+   "type": "vf",
+   "q": "Dans D&D 5e, le basilic a huit pattes.",
+   "rep": true,
+   "expl": "Vrai : il a huit pattes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Basilic »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-050",
+   "concept": "don-050",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du cube gélatineux ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "Le cube gélatineux est de FP 2.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-051",
+   "concept": "don-051",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un cube gélatineux ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 84,
+   "expl": "84 PV (8d10 + 40).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-052",
+   "concept": "don-052",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la CA du cube gélatineux ?",
+   "min": 1,
+   "max": 25,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 6,
+   "expl": "CA 6 : très faible.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-053",
+   "concept": "don-053",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du mimique ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "Le mimique est de FP 2.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-054",
+   "concept": "don-054",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un mimique ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 58,
+   "expl": "58 PV (9d8 + 18).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-055",
+   "concept": "don-055",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du hibours ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Le hibours est de FP 3.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-056",
+   "concept": "don-056",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un hibours ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 59,
+   "expl": "59 PV (7d10 + 21).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-057",
+   "concept": "don-057",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un rouilleur ?",
+   "min": 10,
+   "max": 100,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 27,
+   "expl": "27 PV (5d8 + 5).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-058",
+   "concept": "don-058",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de la displacer beast ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "La displacer beast est de FP 3.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Displacer beast »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-059",
+   "concept": "don-059",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du basilic ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 3,
+   "expl": "Le basilic est de FP 3.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Basilic »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-060",
+   "concept": "don-060",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a un basilic ?",
+   "min": 20,
+   "max": 200,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "rep": 52,
+   "expl": "52 PV (8d8 + 16).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Basilic »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-061",
+   "concept": "don-061",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du roper ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Le roper est de FP 5.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Roper »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-062",
+   "concept": "don-062",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du pudding noir ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 4,
+   "expl": "Le pudding noir est de FP 4.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Pudding noir »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-063",
+   "concept": "don-063",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de la tarasque ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 30,
+   "expl": "La tarasque est de FP 30.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-064",
+   "concept": "don-064",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, combien de PV moyens a la tarasque (à 10 près) ?",
+   "min": 300,
+   "max": 900,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 10,
+   "rep": 676,
+   "expl": "676 PV (33d20 + 330).",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-065",
+   "concept": "don-065",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quelle est la CA de la tarasque ?",
+   "min": 10,
+   "max": 30,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "rep": 25,
+   "expl": "CA 25 : armure naturelle.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-066",
+   "concept": "don-066",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de l’ankheg ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "L’ankheg est de FP 2.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ankheg »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-067",
+   "concept": "don-067",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du bulette ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 5,
+   "expl": "Le bulette est de FP 5.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Bulette »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-068",
+   "concept": "don-068",
+   "niveau": 3,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP du ver pourpre ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 15,
+   "expl": "Le ver pourpre est de FP 15.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Ver pourpre »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-069",
+   "concept": "don-069",
+   "niveau": 2,
+   "type": "slider",
+   "q": "Dans D&D 5e, quel est le FP de la gargouille ?",
+   "min": 0,
+   "max": 30,
+   "pas": 1,
+   "unite": "FP",
+   "tolerance": 0,
+   "rep": 2,
+   "expl": "La gargouille est de FP 2.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Gargouille »",
+   "conf": "probable"
+  },
+  {
+   "id": "don-070",
+   "concept": "don-070",
+   "niveau": 2,
+   "type": "slider",
+   "q": "En quelle année est paru Waterdeep: Dungeon of the Mad Mage, aventure de D&D 5e ?",
+   "min": 2010,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "rep": 2018,
+   "expl": "Il est paru en novembre 2018.",
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Crédits",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lequel de ces monstres peut voler ?",
+   "choix": [
+    "Gargouille",
+    "Ankheg",
+    "Bulette",
+    "Roper"
+   ],
+   "rep": 0,
+   "expl": "La gargouille a des ailes et vole. L’ankheg, le bulette et le roper restent au sol ou sous terre.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "don-071",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces monstres ne pétrifie pas ses proies ?",
+   "choix": [
+    "Rouilleur",
+    "Basilic",
+    "Cockatrice",
+    "Gorgone"
+   ],
+   "rep": 0,
+   "expl": "Le rouilleur ronge le métal. Basilic (regard), cockatrice (morsure) et gorgone (souffle) pétrifient.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "don-072",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lequel de ces monstres n’est pas une vase (ooze) ?",
+   "choix": [
+    "Mimique",
+    "Cube gélatineux",
+    "Pudding noir",
+    "Limon gris"
+   ],
+   "rep": 0,
+   "expl": "Le mimique est une monstruosité ; cube gélatineux, pudding noir et limon gris sont des vases.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "don-073",
+   "conf": "probable",
+   "concept": "nv_intrus"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ gélatineux est un monstre de donjon transparent qui engloutit ses proies.",
+   "choix": [
+    "cube",
+    "sphère",
+    "pyramide",
+    "prisme"
+   ],
+   "rep": 0,
+   "expl": "Le cube gélatineux balaie les couloirs de donjon en absorbant tout ce qu’il rencontre.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+   "id": "don-074",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ ronge les armes et les armures en métal.",
+   "choix": [
+    "rouilleur",
+    "stirge",
+    "piercer",
+    "roper"
+   ],
+   "rep": 0,
+   "expl": "Le rouilleur (rust monster) corrode le métal qui le touche.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
+   "id": "don-075",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans les Royaumes Oubliés, le mégadonjon d’____ s’étend sous la cité de Waterdeep.",
+   "choix": [
+    "Undermountain",
+    "Menzoberranzan",
+    "Mithral Hall",
+    "Gracklstugh"
+   ],
+   "rep": 0,
+   "expl": "Undermountain, domaine du mage Halaster Blackcloak, se trouve sous Waterdeep.",
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018)",
+   "id": "don-076",
+   "conf": "probable",
+   "concept": "nv_trou"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces monstres ont un FP d’au moins 5 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Roper",
+    "Bulette",
+    "Ver pourpre",
+    "Cube gélatineux",
+    "Stirge"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "FP : roper 5, bulette 5, ver pourpre 15 ; cube gélatineux 2 et stirge 1/8.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "don-077",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lesquels de ces monstres se font passer pour un élément du décor ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mimique",
+    "Roper",
+    "Piercer",
+    "Displacer beast",
+    "Ankheg"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Le mimique, le roper et le piercer attendent leurs proies sous une fausse apparence.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "don-078",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lesquels de ces monstres ont un FP de 2 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cube gélatineux",
+    "Mimique",
+    "Gargouille",
+    "Basilic",
+    "Hibours"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "expl": "Cube gélatineux, mimique et gargouille valent FP 2 ; basilic et hibours FP 3.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "don-079",
+   "conf": "probable",
+   "concept": "nv_multi"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces monstres par FP croissant.",
+   "items": [
+    "Rouilleur",
+    "Hibours",
+    "Roper",
+    "Ver pourpre",
+    "Tarasque"
+   ],
+   "expl": "FP : rouilleur 1/2, hibours 3, roper 5, ver pourpre 15, tarasque 30.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "don-080",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces monstres par points de vie moyens croissants.",
+   "items": [
+    "Stirge",
+    "Rouilleur",
+    "Hibours",
+    "Cube gélatineux",
+    "Tarasque"
+   ],
+   "expl": "PV moyens : stirge 2, rouilleur 27, hibours 59, cube gélatineux 84, tarasque 676.",
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "id": "don-081",
+   "conf": "probable",
+   "concept": "nv_ordre"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque monstre à sa particularité.",
+   "paires": [
+    [
+     "Cube gélatineux",
+     "Presque transparent"
+    ],
+    [
+     "Mimique",
+     "Imite un coffre"
+    ],
+    [
+     "Rouilleur",
+     "Ronge le métal"
+    ],
+    [
+     "Basilic",
+     "Regard pétrifiant"
+    ]
+   ],
+   "expl": "Chaque monstre de donjon a sa marque : transparence, déguisement, corrosion, pétrification.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "don-082",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque monstre à sa description.",
+   "paires": [
+    [
+     "Hibours",
+     "Hybride hibou et ours"
+    ],
+    [
+     "Cockatrice",
+     "Mi-coq, mi-lézard"
+    ],
+    [
+     "Stirge",
+     "Buveur de sang volant"
+    ],
+    [
+     "Bulette",
+     "Requin des terres"
+    ]
+   ],
+   "expl": "Hibours, cockatrice, stirge et bulette ont chacun une silhouette bien reconnaissable.",
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "id": "don-083",
+   "conf": "probable",
+   "concept": "nv_assoc"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis presque invisible.\n2. Je glisse dans les couloirs en avalant tout sur mon passage.\n3. Mon corps est un cube de gelée de trois mètres de côté.",
+   "choix": [
+    "Cube gélatineux",
+    "Pudding noir",
+    "Limon gris",
+    "Mimique"
+   ],
+   "rep": 0,
+   "expl": "Le cube gélatineux est une vase transparente, hôte classique des donjons.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
+   "id": "don-084",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un maître du déguisement.\n2. Je ressemble à un coffre, une porte ou un escalier.\n3. Je colle à ma proie avec une substance adhésive.",
+   "choix": [
+    "Mimique",
+    "Roper",
+    "Piercer",
+    "Cube gélatineux"
+   ],
+   "rep": 0,
+   "expl": "Le mimique se fait passer pour un objet banal, puis colle ses victimes.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
+   "id": "don-085",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis le monstre le plus redoutable du Manuel des Monstres.\n2. Ma légende vient de la ville de Tarascon.\n3. Mon FP est de 30.",
+   "choix": [
+    "Tarasque",
+    "Ver pourpre",
+    "Bulette",
+    "Gorgone"
+   ],
+   "rep": 0,
+   "expl": "La tarasque (FP 30) est inspirée d’une légende provençale.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
+   "id": "don-086",
+   "conf": "probable",
+   "concept": "nv_qui"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis le fruit d’un croisement magique.\n2. J’ai le plumage d’un hibou et la force d’un ours.\n3. J’étreins mes victimes avec mes griffes.",
+   "choix": [
+    "Hibours",
+    "Displacer beast",
+    "Griffon",
+    "Manticore"
+   ],
+   "rep": 0,
+   "expl": "Le hibours est un hybride de hibou et d’ours, féroce et territorial.",
+   "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
+   "id": "don-087",
+   "conf": "probable",
+   "concept": "nv_qui"
+  }
+ ]
+}

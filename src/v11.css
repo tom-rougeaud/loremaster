@@ -89,3 +89,70 @@ body[data-mode] .card{border-color:color-mix(in srgb,var(--mc) 45%,var(--line2))
 .xp-lad li.cur{background:color-mix(in srgb,var(--bulb) 28%,var(--card));border:2px solid var(--gold);font-weight:800}
 .xp-lad li span:last-child{font-variant-numeric:tabular-nums;white-space:nowrap}
 .pgl span{font-variant-numeric:tabular-nums}
+
+/* ═══ v1.4 — nouveaux formats : pari, réponses multiples, ordre, association, duel direct ═══ */
+.betrow{margin:0 0 .6rem}
+.betb{display:flex;align-items:center;gap:.7rem;width:100%;text-align:left;border:2px dashed var(--sun-d,var(--sun));border-radius:16px;background:var(--sun-l);color:var(--ink);padding:.6rem .85rem;font-weight:900;cursor:pointer}
+.betb svg{width:1.7rem;height:1.7rem;flex:none}
+.betb small{display:block;font-weight:700;opacity:.8;font-size:.78rem}
+.betb.on{border-style:solid;background:var(--sun);color:var(--on-sun)}
+.wlist{display:grid;gap:.5rem;margin:.4rem 0}
+.wrow{display:flex;align-items:center;gap:.7rem;width:100%;text-align:left;border:2px solid var(--line2);border-radius:16px;background:var(--card);color:var(--ink);padding:.6rem .8rem;font-weight:800;font-size:1.02rem;min-height:3.3rem;cursor:pointer;box-shadow:0 2px 0 var(--line2)}
+.wrow .sh{width:2rem;height:2rem;border-radius:50%;background:var(--ink3);color:var(--on);display:flex;align-items:center;justify-content:center;font-weight:900;flex:none}
+.wrow .wt{flex:1;min-width:0}
+.wrow .wb{min-width:2rem;height:2rem;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;flex:none}
+.wrow .wb svg{width:1.15rem;height:1.15rem}
+.wrow.on{border-color:var(--violet);background:var(--violet-l)}
+.wrow.on .wb{background:var(--violet);color:var(--on)}
+.wrow.used{opacity:.45}
+.wbtns{display:flex;justify-content:flex-end;margin:.2rem 0}
+.wassoc .wa-left{display:grid;gap:.4rem;margin:.4rem 0 .6rem}
+.wa-l{display:flex;align-items:center;gap:.6rem;border:2px solid var(--line2);border-radius:14px;background:var(--card);padding:.5rem .7rem;font-weight:800;text-align:left;color:var(--ink);cursor:pointer}
+.wa-l .n{width:1.8rem;height:1.8rem;border-radius:50%;background:var(--ink3);color:var(--on);display:flex;align-items:center;justify-content:center;font-weight:900;flex:none}
+.wa-l .t{flex:1;min-width:0}
+.wa-l .m{min-width:1.9rem;height:1.9rem;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;color:var(--violet-t);border:2px dashed var(--line2);flex:none}
+.wa-l.cur{border-color:var(--violet);box-shadow:0 0 0 3px var(--violet-l)}
+.wa-l.done .m{background:var(--violet);color:var(--on);border-style:solid;border-color:var(--violet)}
+.wa-hint{font-weight:800;margin:.4rem 0 .1rem;color:var(--ink2)}
+.dd-b{display:flex;gap:.5rem;align-items:center;justify-content:center;background:var(--coral-l);color:var(--ink);border-radius:12px;padding:.35rem .6rem;font-weight:900;font-size:.85rem;margin-bottom:.5rem}
+.dd-b svg{width:1.2rem;height:1.2rem;flex:none}
+.pts.neg{color:var(--coral)}
+.pts.bonus{color:var(--mint-d);font-size:.95rem;margin-top:.15rem}
+.vote-card{padding:1.2rem 1rem}
+.vlist{display:grid;gap:.5rem;margin:1rem 0}
+.vbtn{border:2px solid var(--line2);border-radius:16px;background:var(--card);padding:.8rem;font-size:1.1rem;font-weight:800;color:var(--ink);cursor:pointer;box-shadow:0 2px 0 var(--line2)}
+.vbtn.on{border-color:var(--violet);background:var(--violet-l);box-shadow:0 0 0 3px var(--violet-l)}
+.vsec{font-weight:800;color:var(--ink2);margin-top:.4rem}
+/* projection MJ */
+.g-assoc{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.g-assoc.rv{grid-template-columns:1fr}
+.ga-col{display:grid;gap:.6rem;align-content:start}
+.ga-it{display:flex;align-items:center;gap:.8rem;background:var(--card);border:2px solid var(--line2);border-radius:16px;padding:.7rem 1rem;font-weight:900;font-size:1.45rem;min-height:4rem}
+.ga-it.r{border-left:10px solid var(--violet)}
+.ga-it .sh{width:2.4rem;height:2.4rem;border-radius:50%;background:var(--ink3);color:var(--on);display:flex;align-items:center;justify-content:center;font-weight:900;flex:none;font-size:1.2rem}
+.ga-it.r .sh{background:var(--violet)}
+.ga-it.good{background:var(--mint-l);border-color:var(--mint)}
+.ga-it .eq{margin:0 .2rem;color:var(--ink2)}
+body.v-mob .ga-it{font-size:1.05rem;min-height:3rem;padding:.5rem .7rem}
+.gch .sh.n{background:var(--ink3)}
+#pv-list .ordn{margin-left:auto;font-weight:900;color:var(--mint-d)}
+.g-dd{position:fixed;inset:0;z-index:60;background:rgba(31,26,44,.9);display:flex;align-items:center;justify-content:center;padding:1rem}
+.g-dd.hidden{display:none}
+.dd-box{background:var(--card);border-radius:24px;padding:1.4rem 1.6rem;width:min(70rem,96vw);box-shadow:0 20px 60px rgba(0,0,0,.5);text-align:center}
+.dd-h{display:flex;align-items:center;justify-content:center;gap:.8rem;font-weight:900;font-size:2.2rem;color:var(--coral)}
+.dd-h svg{width:2.6rem;height:2.6rem}
+.dd-sub{color:var(--ink2);font-weight:800;margin:.3rem 0 1rem;font-size:1.1rem}
+.dd-cols{display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;align-items:start}
+.dd-col{background:var(--tl,var(--tint));border:3px solid var(--tc,var(--line2));border-radius:18px;padding:.8rem;text-align:left}
+.dd-col h3{margin:0 0 .2rem;font-size:1.35rem}
+.dd-row{display:grid;grid-template-columns:minmax(0,9rem) 1fr 2rem;align-items:center;gap:.5rem;margin:.3rem 0;font-weight:800}
+.dd-row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dd-row .bar{height:.8rem;border-radius:999px;background:rgba(0,0,0,.1);overflow:hidden}
+.dd-row .bar i{display:block;height:100%;background:var(--tc,var(--violet));transition:width .3s}
+.dd-vs{align-self:center;font-weight:900;font-size:1.8rem;color:var(--coral)}
+.dd-t{margin-top:.9rem;font-weight:900;font-size:1.5rem}
+.dd-champs{display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;align-items:center;margin-top:1rem}
+.dd-champs>div:not(.dd-vs){border:4px solid var(--tc);border-radius:20px;padding:1rem;background:var(--tint)}
+.dd-champs small{display:block;font-weight:800;color:var(--ink2);font-size:1.1rem}
+.dd-champs b{font-size:2.4rem;line-height:1.1}
+@media (max-width:700px){.dd-cols,.dd-champs{grid-template-columns:1fr}.dd-vs{justify-self:center}.dd-h{font-size:1.5rem}}

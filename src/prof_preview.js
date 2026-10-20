@@ -35,13 +35,20 @@ function generate(){
   if(QS.length<P.nq)toast("Seulement "+QS.length+" questions avec cette sélection : cochez d’autres thèmes pour en avoir plus.");
   else if(rep)toast(rep+" question"+(rep>1?"s ont":" a")+" déjà été posée"+(rep>1?"s":"")+" : tout le reste de la sélection a été joué. Ajoutez un thème pour du neuf.");
 }
+/* propositions d’une question dans l’aperçu (la bonne réponse n’apparaît que dans les zones « ans-show ») */
+function previewChoicesHtml(q){
+  var k=qKind(q);
+  if(k==="ordre")return '<div class="chs">'+q.choices.map(function(c,j){return '<div class="ch a'+j+'"><span class="sh">'+SHAPES[j]+"</span><span>"+rt(c.t)+'</span><span class="ans-show ordn">n° '+(q.seq.indexOf(j)+1)+"</span></div>";}).join("")+"</div>";
+  if(k==="assoc")return '<div class="chs">'+q.left.map(function(l,i){return '<div class="ch"><span class="sh">'+(i+1)+"</span><span>"+rt(l)+'</span><span class="ans-show ordn">= '+SHAPES[q.map[i]]+"</span></div>";}).join("")+q.choices.map(function(c,j){return '<div class="ch a'+j+'"><span class="sh">'+SHAPES[j]+"</span><span>"+rt(c.t)+"</span></div>";}).join("")+"</div>";
+  return '<div class="chs">'+q.choices.map(function(c,j){var good=k==="multi"?q.set.indexOf(j)>=0:j===q.ans;return '<div class="ch a'+j+(good?" ok":"")+'"><span class="sh">'+SHAPES[j]+"</span><span>"+rt(c.t)+"</span></div>";}).join("")+"</div>";
+}
 function previewCard(q,i){
-  var t=qKind(q),tag=t==="slider"?kindTagHtml(q):t==="vf"?kindTagHtml(q):'<span class="tag">QCM</span>';
+  var t=qKind(q),tag=t==="qcm"?'<span class="tag">QCM</span>':kindTagHtml(q);
   var h='<div class="pq" data-i="'+i+'"><div class="grip" title="Glisser pour déplacer"><span class="num">'+(i+1)+"</span>"+ICO.grip+'</div><div>'+
     '<div class="meta">'+tag+'<span class="tag t-mint">'+fmtDur(qDur(q))+'</span></div><div class="meta">'+themeChip(q.titre,q.id)+lvlTag(q.d)+"</div>"+
     '<div class="qt">'+rt(q.q)+"</div>";
   if(t==="slider")h+='<div class="ansz"><div class="ans-hide">'+scaleHtml(q.sl)+'</div><div class="ans-show">'+scaleHtml(q.sl,{zone:{a:q.sl.ans,t:q.sl.tol},ans:q.sl.ans})+"</div></div>";
-  else h+='<div class="chs">'+q.choices.map(function(c,k){return '<div class="ch a'+k+(k===q.ans?" ok":"")+'"><span class="sh">'+SHAPES[k]+"</span><span>"+rt(c.t)+"</span></div>";}).join("")+"</div>";
+  else h+=previewChoicesHtml(q);
   h+='<div class="pq-x ans-show">'+(q.expl?rt(q.expl):"")+(q.src?'<div class="rv-src">Source : '+esc(q.src)+"</div>":"")+"</div>";
   h+='<div class="acts"><button type="button" class="btn btn-sm btn-soft" data-a="redraw">'+ICO.refresh+"Remplacer</button>"+
     '<button type="button" class="btn btn-sm btn-ghost del" data-a="del">'+ICO.trash+"Retirer</button></div></div></div>";

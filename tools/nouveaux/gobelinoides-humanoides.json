@@ -1,0 +1,311 @@
+[
+ {
+  "type": "intrus",
+  "niveau": 1,
+  "q": "Dans D&D 5e, lequel de ces humanoïdes n’est pas un gobelinoïde ?",
+  "choix": [
+   "Kobold",
+   "Gobelin",
+   "Hobgobelin",
+   "Gobelours"
+  ],
+  "rep": 0,
+  "expl": "Les gobelinoïdes sont les gobelins, hobgobelins et gobelours. Le kobold est un humanoïde reptilien.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "gob-071",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "intrus",
+  "niveau": 2,
+  "q": "Dans D&D 5e, lequel de ces dieux n’est pas un dieu de peuples « monstrueux » ?",
+  "choix": [
+   "Moradin",
+   "Gruumsh",
+   "Maglubiyet",
+   "Kurtulmak"
+  ],
+  "rep": 0,
+  "expl": "Moradin est le dieu des nains. Gruumsh (orques), Maglubiyet (gobelinoïdes) et Kurtulmak (kobolds) sont des dieux de monstres.",
+  "src": "Manuel des Monstres 5e (2014) et Volo’s Guide to Monsters (2016)",
+  "id": "gob-072",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "intrus",
+  "niveau": 2,
+  "q": "Dans D&D 5e, lequel de ces humanoïdes ne vit pas près de l’eau ?",
+  "choix": [
+   "Gnoll",
+   "Homme-lézard",
+   "Bullywug",
+   "Sahuagin"
+  ],
+  "rep": 0,
+  "expl": "Le gnoll rôde dans les plaines et les déserts. Les trois autres vivent dans les marais ou en mer.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "gob-073",
+  "conf": "probable",
+  "concept": "nv_intrus"
+ },
+ {
+  "type": "trou",
+  "niveau": 1,
+  "q": "Dans D&D 5e, les kobolds ont une sensibilité au ____.",
+  "choix": [
+   "soleil",
+   "feu",
+   "froid",
+   "bruit"
+  ],
+  "rep": 0,
+  "expl": "Les kobolds subissent un désavantage aux attaques et aux jets de Sagesse (Perception) en plein soleil.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+  "id": "gob-074",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "trou",
+  "niveau": 2,
+  "q": "Dans D&D 5e, les gnolls suivent le Seigneur démon ____.",
+  "choix": [
+   "Yeenoghu",
+   "Orcus",
+   "Demogorgon",
+   "Baphomet"
+  ],
+  "rep": 0,
+  "expl": "Yeenoghu, le Prince des bêtes, est le maître des gnolls.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Gnoll »",
+  "id": "gob-075",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "trou",
+  "niveau": 3,
+  "q": "Dans D&D 5e, le trait ____ permet au hobgobelin d’infliger des dégâts supplémentaires si un allié est proche de sa cible.",
+  "choix": [
+   "Avantage martial",
+   "Attaque sournoise",
+   "Tactique de meute",
+   "Rage"
+  ],
+  "rep": 0,
+  "expl": "L’Avantage martial du hobgobelin ajoute 2d6 dégâts quand un allié non neutralisé est près de la cible.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Hobgobelin »",
+  "id": "gob-076",
+  "conf": "probable",
+  "concept": "nv_trou"
+ },
+ {
+  "type": "multi",
+  "niveau": 1,
+  "q": "Dans D&D 5e, lesquels de ces monstres sont des gobelinoïdes ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Gobelin",
+   "Hobgobelin",
+   "Gobelours",
+   "Orque",
+   "Kobold"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "Gobelin, hobgobelin et gobelours sont les gobelinoïdes. L’orque et le kobold forment d’autres peuples.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "gob-077",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "multi",
+  "niveau": 3,
+  "q": "Dans D&D 5e, lesquels de ces monstres sont d’alignement loyal mauvais ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Hobgobelin",
+   "Kobold",
+   "Sahuagin",
+   "Gobelin",
+   "Orque"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "Hobgobelin, kobold et sahuagin sont loyaux mauvais ; le gobelin est neutre mauvais, l’orque chaotique mauvais.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "gob-078",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "multi",
+  "niveau": 2,
+  "q": "Dans D&D 5e, lesquels de ces peuples sont reptiliens ou amphibiens ? (plusieurs bonnes réponses)",
+  "choix": [
+   "Homme-lézard",
+   "Kobold",
+   "Yuan-ti",
+   "Gnoll",
+   "Orque"
+  ],
+  "reps": [
+   0,
+   1,
+   2
+  ],
+  "expl": "Hommes-lézards, kobolds et yuan-ti ont des traits de reptiles ; gnolls et orques non.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "gob-079",
+  "conf": "probable",
+  "concept": "nv_multi"
+ },
+ {
+  "type": "ordre",
+  "niveau": 3,
+  "q": "Classe ces humanoïdes par FP croissant.",
+  "items": [
+   "Kobold",
+   "Gobelin",
+   "Orque",
+   "Gobelours",
+   "Abomination yuan-ti"
+  ],
+  "expl": "FP : kobold 1/8, gobelin 1/4, orque 1/2, gobelours 1, abomination yuan-ti 7.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "gob-080",
+  "conf": "probable",
+  "concept": "nv_ordre"
+ },
+ {
+  "type": "ordre",
+  "niveau": 3,
+  "q": "Classe ces humanoïdes par points de vie moyens croissants.",
+  "items": [
+   "Kobold",
+   "Gobelin",
+   "Orque",
+   "Gnoll",
+   "Gobelours"
+  ],
+  "expl": "PV moyens : kobold 5, gobelin 7, orque 15, gnoll 22, gobelours 27.",
+  "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+  "id": "gob-081",
+  "conf": "probable",
+  "concept": "nv_ordre"
+ },
+ {
+  "type": "assoc",
+  "niveau": 2,
+  "q": "Associe chaque peuple à son dieu.",
+  "paires": [
+   [
+    "Orques",
+    "Gruumsh"
+   ],
+   [
+    "Gobelinoïdes",
+    "Maglubiyet"
+   ],
+   [
+    "Kobolds",
+    "Kurtulmak"
+   ],
+   [
+    "Gnolls",
+    "Yeenoghu"
+   ]
+  ],
+  "expl": "Gruumsh règne sur les orques, Maglubiyet sur les gobelinoïdes, Kurtulmak sur les kobolds, Yeenoghu sur les gnolls.",
+  "src": "Manuel des Monstres 5e (2014) et Volo’s Guide to Monsters (2016)",
+  "id": "gob-082",
+  "conf": "probable",
+  "concept": "nv_assoc"
+ },
+ {
+  "type": "assoc",
+  "niveau": 2,
+  "q": "Associe chaque monstre à son trait de combat.",
+  "paires": [
+   [
+    "Gobelin",
+    "Fuite agile"
+   ],
+   [
+    "Orque",
+    "Agressif"
+   ],
+   [
+    "Kobold",
+    "Tactique de meute"
+   ],
+   [
+    "Hobgobelin",
+    "Avantage martial"
+   ]
+  ],
+  "expl": "Chaque monstre a un trait qui définit son style : fuite, charge, meute ou discipline.",
+  "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+  "id": "gob-083",
+  "conf": "probable",
+  "concept": "nv_assoc"
+ },
+ {
+  "type": "qui",
+  "niveau": 1,
+  "q": "Qui suis-je ?\n1. Je suis petit, vert et malin.\n2. Je me déplace avec agilité et je me cache en un clin d’œil.\n3. Je sers souvent un hobgobelin ou un gobelours.",
+  "choix": [
+   "Gobelin",
+   "Kobold",
+   "Orque",
+   "Hobgobelin"
+  ],
+  "rep": 0,
+  "expl": "Le gobelin est un petit gobelinoïde rusé, qui peut se désengager ou se cacher en action bonus.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Gobelin »",
+  "id": "gob-084",
+  "conf": "probable",
+  "concept": "nv_qui"
+ },
+ {
+  "type": "qui",
+  "niveau": 2,
+  "q": "Qui suis-je ?\n1. Je suis grand, poilu et massif.\n2. Mes proches me croient lourd, mais je suis un tueur furtif.\n3. J’attaque par surprise pour infliger de lourds dégâts.",
+  "choix": [
+   "Gobelours",
+   "Hobgobelin",
+   "Gnoll",
+   "Orque"
+  ],
+  "rep": 0,
+  "expl": "Le gobelours profite de son Attaque surprise pour frapper plus fort.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Gobelours »",
+  "id": "gob-085",
+  "conf": "probable",
+  "concept": "nv_qui"
+ },
+ {
+  "type": "qui",
+  "niveau": 2,
+  "q": "Qui suis-je ?\n1. Je suis un petit humanoïde reptilien.\n2. Seul je suis peureux, mais en groupe je suis redoutable.\n3. Je sers les dragons et le soleil me gêne.",
+  "choix": [
+   "Kobold",
+   "Gobelin",
+   "Homme-lézard",
+   "Bullywug"
+  ],
+  "rep": 0,
+  "expl": "Le kobold combat en meute, vénère les dragons et craint la lumière du jour.",
+  "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
+  "id": "gob-086",
+  "conf": "probable",
+  "concept": "nv_qui"
+ }
+]

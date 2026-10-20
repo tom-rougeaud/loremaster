@@ -2,260 +2,372 @@
  "schema": "quiz-bestiaire-index/1",
  "themes": [
   {
+   "id": "dragons-dnd",
+   "nom": "Dragons chromatiques et métalliques",
+   "royaume": "Bestiaire de D&D",
+   "icone": "dragon",
+   "sombre": false,
+   "fichier": "dragons-dnd.json",
+   "nb": 87,
+   "num": 1,
+   "types": {
+    "qcm": 31,
+    "vf": 22,
+    "slider": 17,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 3,
+    "qui": 3
+   },
+   "niveaux": {
+    "1": 31,
+    "2": 38,
+    "3": 18
+   }
+  },
+  {
    "id": "morts-vivants-dnd",
-   "nom": "Morts-vivants de D&D",
+   "nom": "Morts-vivants",
    "royaume": "Bestiaire de D&D",
    "icone": "crane",
    "sombre": true,
    "fichier": "morts-vivants-dnd.json",
-   "nb": 70,
+   "nb": 87,
+   "num": 2,
    "types": {
     "qcm": 30,
     "vf": 22,
-    "slider": 18
+    "slider": 18,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 4
    },
    "niveaux": {
-    "1": 15,
-    "2": 40,
-    "3": 15
-   }
-  },
-  {
-   "id": "demons-diables-dnd",
-   "nom": "Démons et diables de D&D",
-   "royaume": "Bestiaire de D&D",
-   "icone": "cornes",
-   "sombre": true,
-   "fichier": "demons-diables-dnd.json",
-   "nb": 70,
-   "types": {
-    "qcm": 30,
-    "vf": 22,
-    "slider": 18
-   },
-   "niveaux": {
-    "1": 9,
-    "2": 34,
-    "3": 27
-   }
-  },
-  {
-   "id": "geants-dnd",
-   "nom": "Géants de D&D",
-   "royaume": "Bestiaire de D&D",
-   "icone": "geant",
-   "sombre": false,
-   "fichier": "geants-dnd.json",
-   "nb": 70,
-   "types": {
-    "qcm": 30,
-    "vf": 22,
-    "slider": 18
-   },
-   "niveaux": {
-    "1": 17,
-    "2": 29,
-    "3": 24
-   }
-  },
-  {
-   "id": "aberrations-dnd",
-   "nom": "Aberrations de D&D",
-   "royaume": "Bestiaire de D&D",
-   "icone": "oeil",
-   "sombre": true,
-   "fichier": "aberrations-dnd.json",
-   "nb": 70,
-   "types": {
-    "qcm": 26,
-    "vf": 22,
-    "slider": 22
-   },
-   "niveaux": {
-    "1": 4,
-    "2": 31,
-    "3": 35
-   }
-  },
-  {
-   "id": "fees-sylvains",
-   "nom": "Fées et créatures des bois (D&D)",
-   "royaume": "Bestiaire de D&D",
-   "icone": "feuille",
-   "sombre": false,
-   "fichier": "fees-sylvains.json",
-   "nb": 70,
-   "types": {
-    "qcm": 30,
-    "vf": 22,
-    "slider": 18
-   },
-   "niveaux": {
-    "1": 14,
-    "2": 37,
+    "1": 21,
+    "2": 47,
     "3": 19
    }
   },
   {
-   "id": "gobelinoides-humanoides",
-   "nom": "Gobelinoïdes et humanoïdes de D&D",
+   "id": "demons-diables-dnd",
+   "nom": "Démons et diables",
    "royaume": "Bestiaire de D&D",
-   "icone": "masque",
+   "icone": "cornes",
+   "sombre": true,
+   "fichier": "demons-diables-dnd.json",
+   "nb": 86,
+   "num": 3,
+   "types": {
+    "qcm": 30,
+    "vf": 22,
+    "slider": 18,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 3
+   },
+   "niveaux": {
+    "1": 13,
+    "2": 41,
+    "3": 32
+   }
+  },
+  {
+   "id": "geants-dnd",
+   "nom": "Géants",
+   "royaume": "Bestiaire de D&D",
+   "icone": "geant",
    "sombre": false,
-   "fichier": "gobelinoides-humanoides.json",
-   "nb": 70,
+   "fichier": "geants-dnd.json",
+   "nb": 84,
+   "num": 4,
+   "types": {
+    "qcm": 29,
+    "vf": 22,
+    "slider": 18,
+    "trou": 3,
+    "intrus": 2,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 3
+   },
+   "niveaux": {
+    "1": 13,
+    "2": 39,
+    "3": 32
+   }
+  },
+  {
+   "id": "aberrations-dnd",
+   "nom": "Aberrations",
+   "royaume": "Bestiaire de D&D",
+   "icone": "oeil",
+   "sombre": true,
+   "fichier": "aberrations-dnd.json",
+   "nb": 86,
+   "num": 5,
    "types": {
     "qcm": 26,
-    "vf": 26,
-    "slider": 18
+    "vf": 22,
+    "slider": 22,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 3
    },
    "niveaux": {
-    "1": 3,
-    "2": 45,
-    "3": 22
+    "1": 7,
+    "2": 37,
+    "3": 42
    }
   },
   {
-   "id": "monstres-donjon",
-   "nom": "Monstres de donjon (D&D)",
+   "id": "fees-sylvains",
+   "nom": "Fées, sylvains et créatures des bois",
    "royaume": "Bestiaire de D&D",
-   "icone": "porte",
+   "icone": "feuille",
    "sombre": false,
-   "fichier": "monstres-donjon.json",
-   "nb": 70,
-   "types": {
-    "qcm": 23,
-    "vf": 26,
-    "slider": 21
-   },
-   "niveaux": {
-    "1": 4,
-    "2": 35,
-    "3": 31
-   }
-  },
-  {
-   "id": "plans-elementaires",
-   "nom": "Plans et élémentaires de D&D",
-   "royaume": "Bestiaire de D&D",
-   "icone": "portail",
-   "sombre": false,
-   "fichier": "plans-elementaires.json",
-   "nb": 70,
+   "fichier": "fees-sylvains.json",
+   "nb": 87,
+   "num": 6,
    "types": {
     "qcm": 30,
     "vf": 22,
-    "slider": 18
+    "slider": 18,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 4
    },
    "niveaux": {
-    "1": 4,
-    "2": 19,
-    "3": 47
-   }
-  },
-  {
-   "id": "lycanthropes-metamorphes",
-   "nom": "Lycanthropes et métamorphes de D&D",
-   "royaume": "Bestiaire de D&D",
-   "icone": "loup",
-   "sombre": false,
-   "fichier": "lycanthropes-metamorphes.json",
-   "nb": 70,
-   "types": {
-    "qcm": 30,
-    "vf": 22,
-    "slider": 18
-   },
-   "niveaux": {
-    "1": 15,
-    "2": 27,
-    "3": 28
-   }
-  },
-  {
-   "id": "creatures-marines",
-   "nom": "Créatures marines de D&D",
-   "royaume": "Bestiaire de D&D",
-   "icone": "vague",
-   "sombre": false,
-   "fichier": "creatures-marines.json",
-   "nb": 70,
-   "types": {
-    "qcm": 30,
-    "vf": 22,
-    "slider": 18
-   },
-   "niveaux": {
-    "1": 14,
-    "2": 35,
-    "3": 21
-   }
-  },
-  {
-   "id": "betes-monstruosites",
-   "nom": "Bêtes et monstruosités de D&D",
-   "royaume": "Bestiaire de D&D",
-   "icone": "griffe",
-   "sombre": false,
-   "fichier": "betes-monstruosites.json",
-   "nb": 70,
-   "types": {
-    "qcm": 22,
-    "vf": 26,
-    "slider": 22
-   },
-   "niveaux": {
-    "1": 10,
-    "2": 24,
+    "1": 9,
+    "2": 42,
     "3": 36
    }
   },
   {
+   "id": "gobelinoides-humanoides",
+   "nom": "Gobelinoïdes et humanoïdes",
+   "royaume": "Bestiaire de D&D",
+   "icone": "masque",
+   "sombre": false,
+   "fichier": "gobelinoides-humanoides.json",
+   "nb": 86,
+   "num": 7,
+   "types": {
+    "qcm": 26,
+    "vf": 26,
+    "slider": 18,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 3
+   },
+   "niveaux": {
+    "1": 7,
+    "2": 53,
+    "3": 26
+   }
+  },
+  {
+   "id": "monstres-donjon",
+   "nom": "Monstres de donjon",
+   "royaume": "Bestiaire de D&D",
+   "icone": "porte",
+   "sombre": false,
+   "fichier": "monstres-donjon.json",
+   "nb": 86,
+   "num": 8,
+   "types": {
+    "qcm": 22,
+    "vf": 26,
+    "slider": 21,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 4
+   },
+   "niveaux": {
+    "1": 9,
+    "2": 40,
+    "3": 37
+   }
+  },
+  {
+   "id": "plans-elementaires",
+   "nom": "Élémentaires et créatures planaires",
+   "royaume": "Bestiaire de D&D",
+   "icone": "portail",
+   "sombre": false,
+   "fichier": "plans-elementaires.json",
+   "nb": 86,
+   "num": 9,
+   "types": {
+    "qcm": 30,
+    "vf": 22,
+    "slider": 18,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 3
+   },
+   "niveaux": {
+    "1": 8,
+    "2": 24,
+    "3": 54
+   }
+  },
+  {
+   "id": "lycanthropes-metamorphes",
+   "nom": "Lycanthropes et métamorphes",
+   "royaume": "Bestiaire de D&D",
+   "icone": "loup",
+   "sombre": false,
+   "fichier": "lycanthropes-metamorphes.json",
+   "nb": 86,
+   "num": 10,
+   "types": {
+    "qcm": 30,
+    "vf": 22,
+    "slider": 18,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 3
+   },
+   "niveaux": {
+    "1": 12,
+    "2": 28,
+    "3": 46
+   }
+  },
+  {
+   "id": "creatures-marines",
+   "nom": "Créatures marines et aquatiques",
+   "royaume": "Bestiaire de D&D",
+   "icone": "vague",
+   "sombre": false,
+   "fichier": "creatures-marines.json",
+   "nb": 87,
+   "num": 11,
+   "types": {
+    "qcm": 30,
+    "vf": 22,
+    "slider": 18,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 4
+   },
+   "niveaux": {
+    "1": 11,
+    "2": 35,
+    "3": 41
+   }
+  },
+  {
+   "id": "betes-monstruosites",
+   "nom": "Bêtes et monstruosités",
+   "royaume": "Bestiaire de D&D",
+   "icone": "griffe",
+   "sombre": false,
+   "fichier": "betes-monstruosites.json",
+   "nb": 87,
+   "num": 12,
+   "types": {
+    "qcm": 22,
+    "vf": 26,
+    "slider": 22,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 4
+   },
+   "niveaux": {
+    "1": 14,
+    "2": 31,
+    "3": 42
+   }
+  },
+  {
    "id": "golems-constructions",
-   "nom": "Golems et constructions de D&D",
+   "nom": "Golems, constructions et animés",
    "royaume": "Bestiaire de D&D",
    "icone": "engrenage",
    "sombre": false,
    "fichier": "golems-constructions.json",
-   "nb": 70,
+   "nb": 86,
+   "num": 13,
    "types": {
     "qcm": 29,
     "vf": 23,
-    "slider": 18
+    "slider": 18,
+    "trou": 3,
+    "intrus": 3,
+    "multi": 3,
+    "ordre": 2,
+    "assoc": 2,
+    "qui": 3
    },
    "niveaux": {
     "1": 8,
-    "2": 23,
-    "3": 39
+    "2": 30,
+    "3": 48
    }
   },
   {
    "id": "races-dnd",
-   "nom": "Races jouables de D&D",
+   "nom": "Races jouables et peuples d’aventuriers",
    "royaume": "Règles et univers de D&D",
    "icone": "visage",
    "sombre": false,
    "fichier": "races-dnd.json",
-   "nb": 70,
+   "nb": 69,
+   "num": 15,
    "types": {
-    "qcm": 30,
+    "qcm": 29,
     "vf": 26,
     "slider": 14
    },
    "niveaux": {
     "1": 5,
     "2": 52,
-    "3": 13
+    "3": 12
    }
   },
   {
    "id": "classes-dnd",
-   "nom": "Classes de D&D",
+   "nom": "Classes de personnage et archétypes",
    "royaume": "Règles et univers de D&D",
    "icone": "epee",
    "sombre": false,
    "fichier": "classes-dnd.json",
    "nb": 70,
+   "num": 16,
    "types": {
     "qcm": 30,
     "vf": 22,
@@ -269,12 +381,13 @@
   },
   {
    "id": "sorts-magie-dnd",
-   "nom": "Sorts et écoles de magie (D&D)",
+   "nom": "Sorts célèbres et écoles de magie",
    "royaume": "Règles et univers de D&D",
    "icone": "etoile",
    "sombre": false,
    "fichier": "sorts-magie-dnd.json",
    "nb": 70,
+   "num": 17,
    "types": {
     "qcm": 30,
     "vf": 22,
@@ -287,57 +400,42 @@
    }
   },
   {
-   "id": "dragons-dnd",
-   "nom": "Dragons de D&D",
-   "royaume": "Bestiaire de D&D",
-   "icone": "dragon",
-   "sombre": false,
-   "fichier": "dragons-dnd.json",
-   "nb": 70,
-   "types": {
-    "qcm": 31,
-    "vf": 22,
-    "slider": 17
-   },
-   "niveaux": {}
-  },
-  {
    "id": "mythologie-grecque",
-   "nom": "Mythologie grecque (Panthéon et héros)",
-   "royaume": "Bestiaires du monde",
+   "nom": "Mythologie grecque (monstres et héros)",
+   "royaume": "Mythologies et folklores du monde",
    "icone": "colonne",
    "sombre": false,
    "fichier": "mythologie-grecque.json",
    "nb": 70,
+   "num": 46,
    "types": {
     "qcm": 31,
     "vf": 22,
     "slider": 17
    },
-   "niveaux": {}
+   "niveaux": {
+    "1": 35,
+    "2": 26,
+    "3": 9
+   }
+  },
+  {
+   "id": "mix-eclair",
+   "nom": "Mix Éclair : le Donjon Ultime",
+   "royaume": "Écran, jeux vidéo et culture geek",
+   "icone": "des",
+   "virtuel": true,
+   "num": 100
   },
   {
    "id": "terre-du-milieu",
-   "nom": "Terre du Milieu (Tolkien)",
-   "royaume": "Univers littéraires",
+   "nom": "Terre du Milieu (questions générales)",
+   "royaume": "Terres de Tolkien",
    "icone": "anneau",
    "sombre": false,
    "fichier": "terre-du-milieu.json",
    "nb": 70,
-   "types": {
-    "qcm": 31,
-    "vf": 22,
-    "slider": 17
-   },
-   "niveaux": {}
-  },
-  {
-   "id": "mix-eclair",
-   "nom": "Mix éclair",
-   "royaume": "Culture de joueur",
-   "icone": "des",
-   "virtuel": true,
-   "note": "Tirage mélangé dans les thèmes cochés (non sombres par défaut)."
+   "num": 900
   }
  ]
 }
