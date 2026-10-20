@@ -3,6 +3,13 @@
 import json, os
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIX = {
+ 'morts-vivants-dnd': {
+   'mor-008': {'q': 'Dans D&D 5e, sous quelles formes un vampire peut-il se métamorphoser ?', 'choix': ['Chauve-souris ou brume', 'Loup ou corbeau', 'Serpent ou chat', 'Hibou ou rat'], 'rep': 0,
+               'expl': 'Le vampire du Manuel des Monstres peut prendre la forme d’une chauve-souris Très petite ou d’un nuage de brume. Il appelle des loups ou des rats à son aide, mais ne s’y transforme pas.'},
+   'mor-044': {'q': 'Dans D&D 5e, un vampire peut se transformer en corbeau.', 'expl': 'Faux : en 5e, le vampire se change en chauve-souris ou en brume. Il peut appeler des nuées de chauves-souris ou de rats et des loups, sans prendre leur forme.'},
+   'mor-006': {'q': 'Dans D&D 5e, que provoque la lumière du soleil sur un vampire ?'},
+   'mor-033': {'q': 'Dans D&D 5e, les zombies sont immunisés contre le poison.'},
+   'mor-041': {'q': 'Dans D&D 5e, la banshee peut tuer d’un hurlement.'}},
  'fees-sylvains': {'fee-072': {'q': 'Dans D&D 5e, quelle guenaude n’est pas de type « fée » ?', 'choix': ['Guenaude nocturne', 'Guenaude verte', 'Guenaude des mers', 'Annis'],
      'expl': 'La guenaude nocturne (night hag) est un fiélon venu des plans inférieurs ; les guenaudes verte et des mers, comme l’annis du Guide de Volo, sont des fées.'}},
  'lycanthropes-metamorphes': {'lyc-076': {'q': 'Dans D&D 5e, la capacité du druide qui lui permet de se changer en animal s’appelle ____ sauvage.'}},

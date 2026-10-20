@@ -2,12 +2,12 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 45–60 % de classiques (QCM + vrai/faux).
 
-**0 / 99 thèmes terminés — 1400 questions au total.**
+**2 / 99 thèmes terminés — 1528 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Dragons chromatiques et métalliques | 87 | 31 | 22 (11) | 17 | 3 | 3 | 3 | 2 | 3 | 3 | 61 % | 31/38/18 | 41 | base |
-| 2 | Morts-vivants | 87 | 30 | 22 (11) | 18 | 3 | 3 | 3 | 2 | 2 | 4 | 60 % | 21/47/19 | 33 | base |
+| 1 | Dragons chromatiques et métalliques | 152 | 59 | 23 (11) | 16 | 12 | 11 | 11 | 8 | 9 | 3 | 54 % | 40/79/33 | 83 | terminé |
+| 2 | Morts-vivants | 150 | 56 | 22 (11) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 30/85/35 | 59 | terminé |
 | 3 | Démons et diables | 86 | 30 | 22 (11) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 13/41/32 | 55 | base |
 | 4 | Géants | 84 | 29 | 22 (12) | 18 | 3 | 2 | 3 | 2 | 2 | 3 | 61 % | 13/39/32 | 23 | base |
 | 5 | Aberrations | 86 | 26 | 22 (11) | 22 | 3 | 3 | 3 | 2 | 2 | 3 | 56 % | 7/37/42 | 37 | base |
@@ -108,7 +108,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 
 ## Avertissements
 
-- dra-055 : explication absente ou trop courte
 - dra-060 : explication absente ou trop courte
 - dra-061 : explication absente ou trop courte
 - dra-062 : explication absente ou trop courte
@@ -119,7 +118,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - mor-004 : explication absente ou trop courte
 - mor-005 : explication absente ou trop courte
 - mor-007 : explication absente ou trop courte
-- mor-008 : explication absente ou trop courte
 - mor-009 : explication absente ou trop courte
 - mor-010 : explication absente ou trop courte
 - mor-011 : explication absente ou trop courte
@@ -164,6 +162,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - mor-068 : explication absente ou trop courte
 - mor-069 : explication absente ou trop courte
 - mor-070 : explication absente ou trop courte
+- content/002/a.lm:19 : mot de la bonne réponse présent dans l’énoncé (« liche ») et absent des autres propositions
 - dem-037 : explication absente ou trop courte
 - dem-046 : explication absente ou trop courte
 - dem-047 : explication absente ou trop courte

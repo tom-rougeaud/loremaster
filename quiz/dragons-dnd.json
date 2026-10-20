@@ -800,22 +800,6 @@
   },
   {
    "niveau": 1,
-   "concept": "nb_chromatiques",
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de types de dragons chromatiques existe-t-il ?",
-   "min": 1,
-   "max": 10,
-   "pas": 1,
-   "unite": "types",
-   "tolerance": 0,
-   "rep": 5,
-   "expl": "Cinq : blanc, noir, vert, bleu, rouge.",
-   "src": "Manuel des Monstres 5e (2014), chap. « Dragons chromatiques »",
-   "id": "dra-055",
-   "conf": "probable"
-  },
-  {
-   "niveau": 1,
    "concept": "nb_metalliques",
    "type": "slider",
    "q": "Dans D&D 5e, combien de types de dragons métalliques existe-t-il ?",
@@ -1388,6 +1372,1159 @@
    "id": "dra-087",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel milieu est associé au dragon rouge ?",
+   "choix": [
+    "Montagnes et volcans",
+    "Marais",
+    "Forêts anciennes",
+    "Banquise"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragons » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le dragon rouge installe son repaire dans les hautes montagnes et les volcans, où la chaleur et la roche le protègent. Il domine ses terres depuis les sommets.",
+   "id": "dra-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel milieu est associé au dragon d’airain ?",
+   "choix": [
+    "Déserts chauds",
+    "Côtes battues par la mer",
+    "Collines rocheuses",
+    "Pics enneigés"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragons » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le dragon d’airain aime les déserts chauds et secs, où il guette les voyageurs pour bavarder. C’est le plus bavard des dragons métalliques.",
+   "id": "dra-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel milieu est associé au dragon de bronze ?",
+   "choix": [
+    "Côtes et îles",
+    "Déserts",
+    "Marais",
+    "Volcans"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragons » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le dragon de bronze vit sur les côtes et les îles ; il est amphibie et s’intéresse aux navires et aux batailles navales.",
+   "id": "dra-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel milieu est associé au dragon de cuivre ?",
+   "choix": [
+    "Collines rocheuses",
+    "Forêts profondes",
+    "Banquise polaire",
+    "Fonds marins"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragons » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le dragon de cuivre habite les collines arides et les plateaux rocheux. Il adore les plaisanteries, les énigmes et les farces.",
+   "id": "dra-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel milieu est associé au dragon d’argent ?",
+   "choix": [
+    "Hauts sommets montagneux",
+    "Marais brumeux",
+    "Déserts de sable",
+    "Cavernes de l’Outreterre"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragons » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le dragon d’argent vit sur les plus hauts sommets, parfois dans les nuages. Il apprécie la compagnie des humanoïdes et prend souvent leur apparence.",
+   "id": "dra-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel est le FP d’un dragon d’or ancien ?",
+   "choix": [
+    "24",
+    "20",
+    "22",
+    "26"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées « Dragon d’or » et « Dragon rouge »",
+   "expl": "Le dragon d’or ancien a un FP de 24, comme le dragon rouge ancien : ce sont les deux dragons les plus puissants du Manuel des Monstres.",
+   "id": "dra-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel dragon ancien a le FP le plus faible ?",
+   "choix": [
+    "Dragon blanc ancien",
+    "Dragon noir ancien",
+    "Dragon vert ancien",
+    "Dragon bleu ancien"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques des dragons chromatiques",
+   "expl": "Le dragon blanc ancien a un FP de 20 (comme le dragon d’airain ancien). Le noir est à 21, le vert à 22, le bleu à 23.",
+   "id": "dra-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel personnage farfelu est en réalité un avatar de Bahamut ?",
+   "choix": [
+    "Fizban le Fabuleux",
+    "Elminster",
+    "Mordenkainen",
+    "Tasha"
+   ],
+   "rep": 0,
+   "src": "Fizban’s Treasury of Dragons (2021), introduction ; Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984)",
+   "expl": "Fizban le Fabuleux, vieux magicien distrait de Dragonlance, est une forme de Bahamut ; il donne son nom au supplément Fizban’s Treasury of Dragons (2021).",
+   "id": "dra-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Selon Fizban’s Treasury of Dragons, quel dragon primordial a donné naissance à Tiamat et Bahamut en se scindant ?",
+   "choix": [
+    "Io",
+    "Sardior",
+    "Chronepsis",
+    "Aasterinian"
+   ],
+   "rep": 0,
+   "src": "Fizban’s Treasury of Dragons (2021), chapitre 1",
+   "expl": "Le mythe d’Io, le Dragon aux neuf dimensions, raconte qu’il fut coupé en deux lors d’une guerre divine : ses moitiés devinrent Bahamut et Tiamat.",
+   "id": "dra-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, dans quelle strate des Neuf Enfers Tiamat est-elle retenue ?",
+   "choix": [
+    "Avernus",
+    "Dis",
+    "Stygia",
+    "Nessus"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Dragons chromatiques » ; Rise of Tiamat (2014)",
+   "expl": "Tiamat est prisonnière d’Avernus, la première strate des Neuf Enfers. Le Culte du Dragon tente de la libérer dans les aventures de la Tyrannie des Dragons.",
+   "id": "dra-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quelle organisation cherche à ramener Tiamat dans le monde ?",
+   "choix": [
+    "Le Culte du Dragon",
+    "Les Ménestrels",
+    "Le Zhentarim",
+    "L’Alliance des Seigneurs"
+   ],
+   "rep": 0,
+   "src": "Hoard of the Dragon Queen (2014) ; Rise of Tiamat (2014)",
+   "expl": "Le Culte du Dragon, fondé par Sammaster, vénère les dragons. Dans Hoard of the Dragon Queen et Rise of Tiamat (2014), il pille des trésors pour libérer Tiamat.",
+   "id": "dra-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel archimage fou a fondé le Culte du Dragon dans les Royaumes Oubliés ?",
+   "choix": [
+    "Sammaster",
+    "Szass Tam",
+    "Manshoon",
+    "Halaster"
+   ],
+   "rep": 0,
+   "src": "Hoard of the Dragon Queen (2014), introduction ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Sammaster, ancien élu de Mystra devenu fou, a fondé le Culte du Dragon en croyant que les dracoliches régneraient sur le monde.",
+   "id": "dra-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans la boîte d’initiation de D&D 5e (Lost Mine of Phandelver), quel dragon hante les ruines de Thundertree ?",
+   "choix": [
+    "Un jeune dragon vert",
+    "Un dragon rouge adulte",
+    "Un dragon blanc ancien",
+    "Un dragon de bronze"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (boîte d’initiation, 2014), partie 3",
+   "expl": "Venomfang, un jeune dragon vert, s’est installé dans la tour en ruine de Thundertree. C’est souvent le premier dragon rencontré par les joueurs débutants.",
+   "id": "dra-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Dragon of Icespire Peak (2019), de quelle couleur est le dragon Cryovain ?",
+   "choix": [
+    "Blanc",
+    "Bleu",
+    "Noir",
+    "Vert"
+   ],
+   "rep": 0,
+   "src": "Dragon of Icespire Peak (Essentials Kit, 2019)",
+   "expl": "Cryovain est un jeune dragon blanc qui terrorise la région de Phandaline. Il a chassé les orques de la montagne d’Icespire.",
+   "id": "dra-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle vitesse spéciale possède le dragon bleu, en plus du vol ?",
+   "choix": [
+    "Le fouissement",
+    "La nage",
+    "L’escalade",
+    "Aucune"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon bleu »",
+   "expl": "Le dragon bleu creuse le sable : il a une vitesse de fouissement et attend sous les dunes avant de surgir.",
+   "id": "dra-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le type de dégâts du souffle du dragon de cuivre ?",
+   "choix": [
+    "Acide",
+    "Feu",
+    "Froid",
+    "Foudre"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Dragon de cuivre adulte » ; Manuel des Monstres 5e (2014)",
+   "expl": "Le dragon de cuivre crache une ligne d’acide ; son second souffle, en cône, ralentit les créatures.",
+   "id": "dra-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel effet produit le souffle de répulsion du dragon de bronze ?",
+   "choix": [
+    "Repousser les créatures",
+    "Les endormir",
+    "Les paralyser",
+    "Les affaiblir"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Dragon de bronze adulte »",
+   "expl": "Le souffle de répulsion repousse les créatures qui ratent leur jet de Force. L’autre souffle du dragon de bronze est une ligne de foudre.",
+   "id": "dra-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le dé de dégâts du souffle d’un dragon rouge adulte ?",
+   "choix": [
+    "18d6",
+    "10d6",
+    "12d8",
+    "26d6"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Dragon rouge adulte »",
+   "expl": "Le souffle de feu d’un dragon rouge adulte inflige 18d6 dégâts (63 en moyenne), moitié en cas de jet de Dextérité réussi. L’ancien monte à 26d6.",
+   "id": "dra-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, que peut faire un dragon grâce à sa Résistance légendaire ?",
+   "choix": [
+    "Réussir un jet de sauvegarde raté",
+    "Se relever après une mort",
+    "Devenir invisible un tour",
+    "Contrer un sort lancé"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, blocs des dragons adultes",
+   "expl": "Trois fois par jour, un dragon adulte ou ancien peut décider de réussir un jet de sauvegarde qu’il vient de rater. Cela le protège des sorts qui le neutraliseraient d’un coup.",
+   "id": "dra-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quand ont lieu les actions de repaire d’un dragon ?",
+   "choix": [
+    "Au rang d’initiative 20",
+    "Au début de son propre tour",
+    "À la fin de chaque round",
+    "Quand il tombe à 0 PV"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Le repaire d’un dragon »",
+   "expl": "Au rang d’initiative 20 (il perd les égalités), le dragon peut déclencher un effet de repaire : secousse, nappe de gaz, éruption de magma, selon sa couleur.",
+   "id": "dra-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que sont les « effets régionaux » d’un dragon ?",
+   "choix": [
+    "Des altérations du paysage autour de son repaire",
+    "Des sorts qu’il lance une fois par jour",
+    "Les pouvoirs de ses serviteurs",
+    "Ses attaques de zone"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Effets régionaux » des dragons",
+   "expl": "La présence d’un dragon légendaire transforme la région : sources glacées autour d’un dragon blanc, fumées et petits séismes près d’un dragon rouge… Ces effets disparaissent à sa mort.",
+   "id": "dra-108",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le dragon féerique est une créature de type fée.",
+   "rep": false,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon féerique »",
+   "expl": "Faux : malgré son nom, le dragon féerique est de type dragon ; ce petit dragon espiègle aux ailes de papillon peut devenir invisible et souffle un gaz d’euphorie.",
+   "id": "dra-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel effet a le souffle du dragon féerique ?",
+   "choix": [
+    "Il plonge dans l’euphorie",
+    "Il brûle",
+    "Il pétrifie",
+    "Il glace"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon féerique »",
+   "expl": "Le dragon féerique souffle un gaz euphorisant : la cible ne peut plus agir normalement, prise d’un fou rire ou d’une rêverie.",
+   "id": "dra-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quelle édition de D&D les drakéides sont-ils devenus un peuple jouable du Manuel des Joueurs ?",
+   "choix": [
+    "La 4e édition (2008)",
+    "La 1re édition (1978)",
+    "La 3e édition (2000)",
+    "La 5e édition (2014)"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 4e édition (2008) ; Manuel des Joueurs 5e (2014), « Drakéide »",
+   "expl": "Les drakéides (dragonborn) sont apparus comme race de base dans le Manuel des Joueurs de la 4e édition, en 2008, avant d’être repris en 5e.",
+   "id": "dra-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Dragonlance, quelle déesse correspond à Tiamat, reine des dragons maléfiques ?",
+   "choix": [
+    "Takhisis",
+    "Mishakal",
+    "Lolth",
+    "Shar"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985) ; Dragonlance: Shadow of the Dragon Queen (2022)",
+   "expl": "Sur Krynn, la Reine des Ténèbres s’appelle Takhisis ; elle prend la forme d’un dragon à cinq têtes. Son adversaire Paladine correspond à Bahamut.",
+   "id": "dra-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel dragon chromatique est réputé le plus menteur et manipulateur ?",
+   "choix": [
+    "Le dragon vert",
+    "Le dragon blanc",
+    "Le dragon rouge",
+    "Le dragon noir"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dragon vert »",
+   "expl": "Le dragon vert adore les intrigues : il ment, manipule et corrompt ses victimes plutôt que de les tuer tout de suite.",
+   "id": "dra-113",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, un dragon très âgé de taille Gigantesque appartient au stade ____.",
+   "choix": [
+    "ancien",
+    "adulte",
+    "jeune",
+    "majeur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Dragons »",
+   "expl": "Le dragon ancien est le stade le plus âgé du Manuel des Monstres ; il atteint la taille Gigantesque et dispose d’actions légendaires redoutables.",
+   "id": "dra-114",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Bahamut est surnommé le Dragon de ____.",
+   "choix": [
+    "platine",
+    "diamant",
+    "mithral",
+    "cristal"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Dragons métalliques » ; Fizban’s Treasury of Dragons (2021)",
+   "expl": "Bahamut, dieu de la justice des dragons métalliques, est appelé le Dragon de platine. Il apparaît souvent sous la forme d’un vieillard accompagné de sept canaris dorés.",
+   "id": "dra-115",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le dragon ____ souffle un cône de froid et un cône de gaz paralysant.",
+   "choix": [
+    "d’argent",
+    "d’or",
+    "de bronze",
+    "blanc"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Dragon d’argent adulte »",
+   "expl": "Le dragon d’argent a deux souffles : froid et paralysie. Le dragon blanc n’a qu’un souffle, le froid.",
+   "id": "dra-116",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, un dragon mort-vivant créé par le Culte du Dragon s’appelle une ____.",
+   "choix": [
+    "dracoliche",
+    "dragonne",
+    "vouivre",
+    "liche draconique"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Dracoliche » ; Hoard of the Dragon Queen (2014)",
+   "expl": "La dracoliche est un dragon devenu mort-vivant par un rituel ; le Culte du Dragon de Sammaster en a créé plusieurs.",
+   "id": "dra-117",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le dragon ____ est le seul dragon métallique à souffler un gaz de sommeil.",
+   "choix": [
+    "d’airain",
+    "de cuivre",
+    "d’or",
+    "de bronze"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Dragon d’airain adulte »",
+   "expl": "Le dragon d’airain souffle une ligne de feu ou un cône de gaz soporifique, utile pour retenir ses « invités » le temps d’une longue conversation.",
+   "id": "dra-118",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les petits humanoïdes reptiliens qui servent souvent les dragons sont les ____.",
+   "choix": [
+    "kobolds",
+    "gobelins",
+    "troglodytes",
+    "hommes-lézards"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Kobold » ; Volo’s Guide to Monsters (2016)",
+   "expl": "Les kobolds se considèrent comme des parents des dragons et les servent volontiers ; leur dieu est Kurtulmak.",
+   "id": "dra-119",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, Tiamat possède cinq ____, une pour chaque couleur de dragon chromatique.",
+   "choix": [
+    "têtes",
+    "ailes",
+    "queues",
+    "cornes"
+   ],
+   "rep": 0,
+   "src": "Rise of Tiamat (2014), annexe ; Fizban’s Treasury of Dragons (2021)",
+   "expl": "Les cinq têtes de Tiamat sont blanche, noire, verte, bleue et rouge, chacune avec le souffle de sa couleur.",
+   "id": "dra-120",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le souffle d’un dragon adulte se recharge quand on obtient 5 ou 6 sur un ____.",
+   "choix": [
+    "d6",
+    "d8",
+    "d20",
+    "d4"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Dragon rouge adulte » et règles des monstres",
+   "expl": "La mention « Recharge 5-6 » signifie qu’au début de chaque tour du dragon, on lance un d6 : sur 5 ou 6, son souffle redevient disponible.",
+   "id": "dra-121",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, le dragon bleu ____ se fait passer pour une géante des tempêtes dans Storm King’s Thunder.",
+   "choix": [
+    "Iymrith",
+    "Klauth",
+    "Venomfang",
+    "Cryovain"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "Iymrith, dragonne bleue ancienne, se déguise en géante des tempêtes et manipule la cour du roi Hekaton.",
+   "id": "dra-122",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lequel de ces dragons n’est pas métallique ?",
+   "choix": [
+    "Dragon vert",
+    "Dragon d’or",
+    "Dragon de cuivre",
+    "Dragon d’airain"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Dragons »",
+   "expl": "Le dragon vert est chromatique ; l’or, le cuivre et l’airain font partie des cinq dragons métalliques.",
+   "id": "dra-123",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces dragons ne souffle pas en ligne ?",
+   "choix": [
+    "Dragon vert",
+    "Dragon bleu",
+    "Dragon noir",
+    "Dragon de cuivre"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, blocs des dragons",
+   "expl": "Le dragon vert souffle un cône de poison. Les dragons bleu (foudre), noir (acide) et de cuivre (acide) soufflent en ligne.",
+   "id": "dra-124",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces dragons ne vit pas au bord de l’eau ou dans l’eau ?",
+   "choix": [
+    "Dragon rouge",
+    "Dragon de bronze",
+    "Dragon noir",
+    "Tortue-dragon"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "expl": "Le dragon rouge vit en montagne. Le bronze hante les côtes, le noir les marais et la tortue-dragon les mers.",
+   "id": "dra-125",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dragons célèbres n’est pas un dragon chromatique ?",
+   "choix": [
+    "Bahamut",
+    "Klauth",
+    "Iymrith",
+    "Venomfang"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016) ; Lost Mine of Phandelver (2014) ; Manuel des Monstres 5e (2014)",
+   "expl": "Bahamut, le Dragon de platine, est le dieu des dragons métalliques. Klauth est un dragon rouge, Iymrith une dragonne bleue et Venomfang un jeune dragon vert.",
+   "id": "dra-126",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces dragons de gemme n’en est pas un ?",
+   "choix": [
+    "Dragon de rubis",
+    "Dragon d’améthyste",
+    "Dragon de saphir",
+    "Dragon de topaze"
+   ],
+   "rep": 0,
+   "src": "Fizban’s Treasury of Dragons (2021), chapitres 1 et 5",
+   "expl": "Les dragons de gemme de Fizban’s sont améthyste, cristal, émeraude, saphir et topaze. Le rubis est associé à Sardior, leur dieu disparu, pas à une espèce.",
+   "id": "dra-127",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces mots ne désigne pas un stade de vie de dragon dans D&D 5e ?",
+   "choix": [
+    "Vénérable",
+    "Dragonnet",
+    "Jeune",
+    "Adulte"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Dragons »",
+   "expl": "Les stades du Manuel des Monstres 5e sont dragonnet, jeune, adulte et ancien. « Vénérable » existait dans d’anciennes éditions, pas en 5e.",
+   "id": "dra-128",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Dans D&D 5e, lequel de ces dragons ne possède pas de vitesse de fouissement ?",
+   "choix": [
+    "Dragon rouge",
+    "Dragon bleu",
+    "Dragon blanc",
+    "Dragon d’airain"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, blocs des dragons adultes",
+   "expl": "Les dragons bleu, blanc et d’airain peuvent creuser (sable ou neige). Le dragon rouge grimpe et vole, mais ne creuse pas.",
+   "id": "dra-129",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, lequel de ces dragons n’a pas de souffle de feu ?",
+   "choix": [
+    "Dragon d’argent",
+    "Dragon d’or",
+    "Dragon d’airain",
+    "Dragon rouge"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, blocs des dragons métalliques",
+   "expl": "Le dragon d’argent souffle du froid et un gaz paralysant. L’or (cône), l’airain (ligne) et le rouge (cône) soufflent du feu.",
+   "id": "dra-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel dragon métallique est réputé le plus bavard ?",
+   "choix": [
+    "Le dragon d’airain",
+    "Le dragon d’or",
+    "Le dragon d’argent",
+    "Le dragon de bronze"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Dragons » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le dragon d’airain adore la conversation : il peut retenir un voyageur des heures (voire l’endormir de son souffle) pour bavarder.",
+   "id": "dra-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel dragon chromatique est le plus bestial et le moins intelligent ?",
+   "choix": [
+    "Le dragon blanc",
+    "Le dragon noir",
+    "Le dragon bleu",
+    "Le dragon vert"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Dragons » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le dragon blanc est le plus petit et le moins rusé des chromatiques ; il agit surtout par instinct de chasseur et garde une mémoire étonnante des affronts.",
+   "id": "dra-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel est le FP d’un dragonnet rouge ?",
+   "choix": [
+    "4",
+    "1",
+    "2",
+    "6"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Dragonnet rouge »",
+   "expl": "Le dragonnet rouge a un FP de 4, le plus élevé des dragonnets du Manuel des Monstres. Les dragonnets de cuivre et d’airain n’ont qu’un FP de 1.",
+   "id": "dra-133",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quels dragons sont amphibies (ils respirent sous l’eau) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dragon noir",
+    "Dragon vert",
+    "Dragon de bronze",
+    "Dragon rouge",
+    "Dragon d’airain"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SRD 5.1, blocs des dragons adultes",
+   "expl": "Les dragons noir, vert et de bronze ont le trait Amphibie. Le rouge vit en montagne et l’airain dans le désert.",
+   "id": "dra-134",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quels dragons métalliques ont un souffle en ligne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dragon d’airain",
+    "Dragon de bronze",
+    "Dragon de cuivre",
+    "Dragon d’or",
+    "Dragon d’argent"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SRD 5.1, blocs des dragons métalliques",
+   "expl": "L’airain (feu), le bronze (foudre) et le cuivre (acide) soufflent en ligne ; l’or et l’argent soufflent en cône.",
+   "id": "dra-135",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quels dragons adultes ont un FP de 17 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dragon rouge adulte",
+    "Dragon d’or adulte",
+    "Dragon bleu adulte",
+    "Dragon d’argent adulte",
+    "Dragon vert adulte"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "expl": "Les dragons rouge et d’or adultes sont à FP 17 ; le bleu et l’argent à 16, le vert à 15.",
+   "id": "dra-136",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles divinités sont liées aux dragons dans D&D ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tiamat",
+    "Bahamut",
+    "Lolth",
+    "Moradin",
+    "Gruumsh"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Dragons » ; Manuel des Joueurs 5e (2014), annexe B",
+   "expl": "Tiamat règne sur les dragons chromatiques et Bahamut sur les métalliques. Lolth est la déesse des drows, Moradin celle des nains, Gruumsh celle des orques.",
+   "id": "dra-137",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquelles de ces créatures sont de type dragon dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Wyverne",
+    "Pseudo-dragon",
+    "Dragon féerique",
+    "Hydre",
+    "Basilic"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "expl": "La wyverne, le pseudo-dragon et le dragon féerique sont de type dragon. L’hydre et le basilic sont des monstruosités.",
+   "id": "dra-138",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles aventures officielles de D&D 5e forment la campagne de la Tyrannie des Dragons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hoard of the Dragon Queen",
+    "Rise of Tiamat",
+    "Curse of Strahd",
+    "Tomb of Annihilation",
+    "Out of the Abyss"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Hoard of the Dragon Queen (2014) ; Rise of Tiamat (2014)",
+   "expl": "La Tyrannie des Dragons (2014) comprend Hoard of the Dragon Queen puis Rise of Tiamat. Les trois autres aventures sont sans rapport avec Tiamat.",
+   "id": "dra-139",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelles actions légendaires un dragon adulte peut-il utiliser ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Détection",
+    "Attaque de queue",
+    "Attaque d’aile",
+    "Souffle",
+    "Sort de téléportation"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SRD 5.1, « Dragon rouge adulte »",
+   "expl": "Un dragon adulte dispose de trois actions légendaires : Détection, Attaque de queue et Attaque d’aile (qui coûte 2 actions). Le souffle n’en fait pas partie.",
+   "id": "dra-140",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels dragons de gemme sont décrits dans Fizban’s Treasury of Dragons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Améthyste",
+    "Cristal",
+    "Émeraude",
+    "Rubis",
+    "Diamant"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Fizban’s Treasury of Dragons (2021), chapitre 5",
+   "expl": "Les cinq dragons de gemme sont améthyste, cristal, émeraude, saphir et topaze. Il n’y a ni dragon de rubis ni dragon de diamant parmi eux.",
+   "id": "dra-141",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces dragons par catégorie de taille croissante.",
+   "items": [
+    "Dragonnet",
+    "Jeune dragon",
+    "Dragon adulte",
+    "Dragon ancien"
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Dragons »",
+   "expl": "Dragonnet : taille Moyenne ; jeune : Grande ; adulte : Très grande ; ancien : Gigantesque.",
+   "id": "dra-142",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces dragons adultes par FP croissant.",
+   "items": [
+    "Dragon blanc adulte",
+    "Dragon noir adulte",
+    "Dragon vert adulte",
+    "Dragon bleu adulte",
+    "Dragon rouge adulte"
+   ],
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "expl": "FP des adultes : blanc 13, noir 14, vert 15, bleu 16, rouge 17. Le rouge est le plus redoutable des chromatiques.",
+   "id": "dra-143",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces dragons métalliques adultes par FP croissant.",
+   "items": [
+    "Dragon d’airain adulte",
+    "Dragon de cuivre adulte",
+    "Dragon de bronze adulte",
+    "Dragon d’argent adulte",
+    "Dragon d’or adulte"
+   ],
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques",
+   "expl": "FP des adultes : airain 13, cuivre 14, bronze 15, argent 16, or 17.",
+   "id": "dra-144",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces dragons rouges du plus faible au plus puissant (FP croissant).",
+   "items": [
+    "Dragonnet rouge",
+    "Jeune dragon rouge",
+    "Dragon rouge adulte",
+    "Dragon rouge ancien"
+   ],
+   "src": "SRD 5.1, dragons rouges",
+   "expl": "FP : dragonnet 4, jeune 10, adulte 17, ancien 24. À chaque stade, le dragon change de catégorie de taille.",
+   "id": "dra-145",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces dragons rouges par dés de dégâts de souffle croissants.",
+   "items": [
+    "Dragonnet rouge",
+    "Jeune dragon rouge",
+    "Dragon rouge adulte",
+    "Dragon rouge ancien"
+   ],
+   "src": "SRD 5.1, dragons rouges",
+   "expl": "Souffle de feu : dragonnet 7d6, jeune 16d6, adulte 18d6, ancien 26d6.",
+   "id": "dra-146",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces aventures de D&D 5e par date de parution, de la plus ancienne à la plus récente.",
+   "items": [
+    "Hoard of the Dragon Queen",
+    "Storm King’s Thunder",
+    "Dragon of Icespire Peak",
+    "Fizban’s Treasury of Dragons"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast (D&D 5e)",
+   "expl": "Hoard of the Dragon Queen (2014), Storm King’s Thunder (2016), Dragon of Icespire Peak (2019), puis le supplément Fizban’s Treasury of Dragons (2021).",
+   "id": "dra-147",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque dragon métallique à son souffle destructeur.",
+   "paires": [
+    [
+     "Or",
+     "Feu (cône)"
+    ],
+    [
+     "Argent",
+     "Froid"
+    ],
+    [
+     "Bronze",
+     "Foudre"
+    ],
+    [
+     "Cuivre",
+     "Acide"
+    ]
+   ],
+   "src": "SRD 5.1, blocs des dragons métalliques",
+   "expl": "Or : cône de feu ; argent : cône de froid ; bronze : ligne de foudre ; cuivre : ligne d’acide. L’airain crache une ligne de feu.",
+   "id": "dra-148",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dragon métallique à son milieu.",
+   "paires": [
+    [
+     "Airain",
+     "Déserts"
+    ],
+    [
+     "Bronze",
+     "Côtes"
+    ],
+    [
+     "Cuivre",
+     "Collines"
+    ],
+    [
+     "Argent",
+     "Hauts sommets"
+    ]
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Dragons métalliques »",
+   "expl": "Airain : déserts chauds ; bronze : côtes et îles ; cuivre : collines rocheuses ; argent : sommets montagneux.",
+   "id": "dra-149",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dragon à son trait de caractère.",
+   "paires": [
+    [
+     "Cuivre",
+     "Farceur"
+    ],
+    [
+     "Vert",
+     "Manipulateur"
+    ],
+    [
+     "Rouge",
+     "Orgueilleux"
+    ],
+    [
+     "Airain",
+     "Bavard"
+    ]
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Dragons »",
+   "expl": "Le cuivre aime les blagues, le vert ment et manipule, le rouge est arrogant et avide, l’airain adore converser.",
+   "id": "dra-150",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dragon de Faerûn à sa couleur.",
+   "paires": [
+    [
+     "Venomfang",
+     "Vert"
+    ],
+    [
+     "Cryovain",
+     "Blanc"
+    ],
+    [
+     "Iymrith",
+     "Bleu"
+    ],
+    [
+     "Klauth",
+     "Rouge"
+    ]
+   ],
+   "src": "Lost Mine of Phandelver (2014) ; Dragon of Icespire Peak (2019) ; Storm King’s Thunder (2016)",
+   "expl": "Venomfang (Lost Mine of Phandelver), Cryovain (Dragon of Icespire Peak), Iymrith (Storm King’s Thunder) et Klauth, grand dragon rouge du Nord.",
+   "id": "dra-151",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque dragon métallique à l’effet de son second souffle.",
+   "paires": [
+    [
+     "Airain",
+     "Sommeil"
+    ],
+    [
+     "Cuivre",
+     "Ralentissement"
+    ],
+    [
+     "Bronze",
+     "Répulsion"
+    ],
+    [
+     "Or",
+     "Affaiblissement"
+    ],
+    [
+     "Argent",
+     "Paralysie"
+    ]
+   ],
+   "src": "SRD 5.1, blocs des dragons métalliques",
+   "expl": "Chaque dragon métallique peut neutraliser sans tuer : sommeil (airain), lenteur (cuivre), répulsion (bronze), affaiblissement (or), paralysie (argent).",
+   "id": "dra-152",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque divinité à son rôle.",
+   "paires": [
+    [
+     "Tiamat",
+     "Reine des dragons chromatiques"
+    ],
+    [
+     "Bahamut",
+     "Roi des dragons métalliques"
+    ],
+    [
+     "Io",
+     "Dragon créateur"
+    ],
+    [
+     "Sardior",
+     "Dieu des dragons de gemme"
+    ]
+   ],
+   "src": "Fizban’s Treasury of Dragons (2021), chapitre 1",
+   "expl": "Tiamat et Bahamut sont nés de la scission d’Io ; Sardior, le Dragon de rubis, est la divinité disparue des dragons de gemme.",
+   "id": "dra-153",
+   "conf": "probable"
   }
  ],
  "sources": []

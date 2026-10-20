@@ -180,7 +180,7 @@ function drawQuestions(itemIds,n,ctx,seed,avoid){
         var A=L.qs[f];
         while(L.pos[f]<A.length&&used[A[L.pos[f]].q.i])L.pos[f]++;
         if(L.pos[f]>=A.length)continue;
-        var c=A[L.pos[f]],sc=(c.rank?100000+c.rank:0)+cnt[L.it.id]*1000+r()*500;
+        var c=A[L.pos[f]],w=A.length-L.pos[f],sc=(c.rank?100000+c.rank:0)+cnt[L.it.id]*1000+500*(1-Math.pow(r(),1/w));   /* tirage pondéré par le stock de chaque type */
         var isCl=!!CLASSIC_T[c.q.t];
         if(isCl&&nCl+1>hiCl)sc+=50000;                        /* trop de classiques */
         if(!isCl&&(k+1-nCl)>n-loCl)sc+=50000;                 /* pas assez de classiques */

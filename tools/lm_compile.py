@@ -12,7 +12,7 @@ Format .lm (une question = une ligne-type, puis « = explication », puis « % s
   I2 Lequel… ? | Intrus | Autre | Autre | Autre                   intrus
   W2 [intro facultative] indice ; indice ; indice | Bonne | F | F | F   qui suis-je ?
   M2 Énoncé ? | Bonne ; Bonne (; Bonne) | Fausse ; Fausse (; …)   réponses multiples (4 à 6 propositions)
-  O2 Consigne (critère explicite) | premier > deuxième > … > dernier   ordre (3 à 5)
+  O2 Consigne (critère explicite) | premier > deuxième > … > dernier   ordre (3 à 5) ; « | » accepté aussi
   A2 Consigne | gauche = droite ; gauche = droite ; …            association (3 à 5)
   - id id …                                                      retire des questions de la base
   ~id = explication   /   ~id % source                          remplace l’explication / la source d’une question de la base
@@ -92,8 +92,9 @@ def parse(path, errs):
                 b = [typo(x) for x in parts[1].split(' ; ')]; f = [typo(x) for x in parts[2].split(' ; ')]
                 q.update(q=typo(parts[0]), choix=b + f, reps=list(range(len(b))))
             elif ty == 'ordre':
-                if len(parts) != 2: raise ValueError('ordre : consigne | a > b > c')
-                q.update(q=typo(parts[0]), items=[typo(x) for x in parts[1].split(' > ')])
+                its = parts[1:] if len(parts) > 2 else parts[1].split(' > ') if len(parts) == 2 else []
+                if len(its) < 3: raise ValueError('ordre : consigne | a > b > c   (ou consigne | a | b | c)')
+                q.update(q=typo(parts[0]), items=[typo(x) for x in its])
             elif ty == 'assoc':
                 if len(parts) != 2: raise ValueError('association : consigne | g = d ; g = d')
                 pr = []
@@ -125,6 +126,11 @@ def check(theme, qs, errs, warns):
                 for g in good:
                     ng = norm(g)
                     if len(ng) > 3 and re.search(r'\b' + re.escape(ng) + r'\b', norm(q['q'])): errs.append(w + ' : la bonne réponse apparaît dans l’énoncé (« ' + g + ' »)')
+            if ty in ('qcm', 'trou', 'qui') and q.get('_where'):
+                others = ' '.join(norm(c) for i, c in enumerate(ch) if i != q['rep']).split()
+                stw = set(norm(q['q']).split())
+                hint = [x for x in norm(ch[q['rep']]).split() if len(x) >= 5 and x in stw and x not in others]
+                if hint: warns.append(w + ' : mot de la bonne réponse présent dans l’énoncé (« ' + ', '.join(hint) + ' ») et absent des autres propositions')
             if ty == 'qcm' and q.get('_where'):
                 L = [len(c) for c in ch]; g = L[q['rep']]
                 if g > 1.7 * max([x for i, x in enumerate(L) if i != q['rep']] + [1]) and g > 25: warns.append(w + ' : bonne réponse nettement plus longue que les autres (indice involontaire)')

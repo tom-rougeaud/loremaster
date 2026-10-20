@@ -103,7 +103,7 @@
    "concept": "mor-006",
    "niveau": 1,
    "type": "qcm",
-   "q": "Dans D&D 5e, que provoque la lumière du soleil sur un vampire en 5e édition ?",
+   "q": "Dans D&D 5e, que provoque la lumière du soleil sur un vampire ?",
    "choix": [
     "Une paralysie",
     "Des dégâts radiants",
@@ -137,15 +137,15 @@
    "concept": "mor-008",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, en quels animaux un vampire peut-il se métamorphoser en 5e édition ?",
+   "q": "Dans D&D 5e, sous quelles formes un vampire peut-il se métamorphoser ?",
    "choix": [
-    "Hibou ou cerf",
-    "Chauve-souris ou loup",
+    "Chauve-souris ou brume",
+    "Loup ou corbeau",
     "Serpent ou chat",
-    "Corbeau ou ours"
+    "Hibou ou rat"
    ],
-   "rep": 1,
-   "expl": "Il peut aussi devenir brume.",
+   "rep": 0,
+   "expl": "Le vampire du Manuel des Monstres peut prendre la forme d’une chauve-souris Très petite ou d’un nuage de brume. Il appelle des loups ou des rats à son aide, mais ne s’y transforme pas.",
    "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
    "conf": "probable"
   },
@@ -550,7 +550,7 @@
    "concept": "mor-033",
    "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, les zombies sont immunisés contre le poison en 5e édition.",
+   "q": "Dans D&D 5e, les zombies sont immunisés contre le poison.",
    "rep": true,
    "expl": "Zombies et squelettes ignorent le poison.",
    "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
@@ -638,7 +638,7 @@
    "concept": "mor-041",
    "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, la banshee peut tuer d’un hurlement en 5e édition.",
+   "q": "Dans D&D 5e, la banshee peut tuer d’un hurlement.",
    "rep": true,
    "expl": "Son hurlement peut réduire à 0 PV.",
    "src": "Manuel des Monstres 5e (2014), entrée « Banshee »",
@@ -671,9 +671,9 @@
    "concept": "mor-044",
    "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, les vampires se transforment en corbeaux en 5e édition.",
+   "q": "Dans D&D 5e, un vampire peut se transformer en corbeau.",
    "rep": false,
-   "expl": "Ils prennent forme de chauve-souris, de loup ou de brume.",
+   "expl": "Faux : en 5e, le vampire se change en chauve-souris ou en brume. Il peut appeler des nuées de chauves-souris ou de rats et des loups, sans prendre leur forme.",
    "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
    "conf": "probable"
   },
@@ -1377,6 +1377,1113 @@
    "id": "mor-087",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel est le FP d’un squelette ordinaire ?",
+   "choix": [
+    "1/4",
+    "1",
+    "2",
+    "3"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le squelette est un adversaire de débutant (FP 1/4), animé par le sort Animation des morts. Il est vulnérable aux dégâts contondants.",
+   "id": "mor-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel mort-vivant transforme les humanoïdes qu’il tue en spectres à son service ?",
+   "choix": [
+    "L’âme-en-peine (wraith)",
+    "La goule",
+    "Le squelette",
+    "La momie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’âme-en-peine (wraith) peut relever un humanoïde qu’elle vient de tuer sous forme de spectre placé sous son contrôle.",
+   "id": "mor-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle caractéristique l’attaque de l’ombre (shadow) fait-elle baisser ?",
+   "choix": [
+    "La Force",
+    "La Sagesse",
+    "Le Charisme",
+    "La Dextérité"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le toucher de l’ombre draine la Force ; une victime réduite à 0 en Force meurt et peut devenir une nouvelle ombre.",
+   "id": "mor-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel mort-vivant peut relever les humanoïdes tués par son drain de vie sous forme de zombies ?",
+   "choix": [
+    "Le nécrophage (wight)",
+    "Le feu follet",
+    "La banshee",
+    "Le fantôme"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le nécrophage (wight) draine la vie de ses victimes ; un humanoïde tué ainsi se relève en zombie sous ses ordres.",
+   "id": "mor-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle goule dégage une puanteur qui empoisonne les créatures proches ?",
+   "choix": [
+    "La blême",
+    "La goule",
+    "La momie",
+    "Le revenant"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La blême (ghast) est une goule plus puissante (FP 2) dont la Puanteur empoisonne les créatures à proximité ; ses griffes paralysent comme celles des goules.",
+   "id": "mor-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel peuple jouable est immunisé contre la paralysie des griffes de goule ?",
+   "choix": [
+    "Les elfes",
+    "Les nains",
+    "Les halfelins",
+    "Les gnomes"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le profil de la goule précise que ses griffes paralysent une créature… sauf un elfe ou un mort-vivant. L’ascendance féerique protège les elfes.",
+   "id": "mor-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel mort-vivant lumineux attire les voyageurs dans les marais pour se nourrir de leur vie ?",
+   "choix": [
+    "Le feu follet",
+    "Le spectre",
+    "L’ombre",
+    "La banshee"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le feu follet (will-o’-wisp) est une petite lueur qui égare les voyageurs. Sa capacité Consumer la vie l’achève sur les créatures mourantes.",
+   "id": "mor-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel mort-vivant gardien de tombeau, nimbé de flammes vertes, lance des sorts comme Boule de feu et se reconstitue après sa destruction ?",
+   "choix": [
+    "Le crâne enflammé",
+    "Le demi-liche",
+    "La liche",
+    "Le feu follet"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le crâne enflammé, souvent gardien de tombeau, lance des sorts de magicien. Il se reconstitue en une heure sauf si on l’asperge d’eau bénite.",
+   "id": "mor-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, que devient une liche qui néglige de nourrir son phylactère d’âmes ?",
+   "choix": [
+    "Un demi-liche",
+    "Un archiliche",
+    "Un spectre",
+    "Une âme-en-peine"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Une liche qui ne nourrit plus son phylactère s’étiole : il n’en reste qu’un crâne, le demi-liche. Acererak est le plus célèbre d’entre eux.",
+   "id": "mor-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que doit faire un vampire avant d’entrer dans une demeure habitée ?",
+   "choix": [
+    "Y être invité",
+    "Attendre la nuit",
+    "Se changer en brume",
+    "Boire de l’eau bénite"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le trait Interdiction empêche le vampire d’entrer dans une résidence sans l’invitation d’un occupant.",
+   "id": "mor-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelles créatures un vampire peut-il appeler grâce à « Enfants de la nuit » ?",
+   "choix": [
+    "Chauves-souris, rats ou loups",
+    "Corbeaux ou chats",
+    "Serpents ou araignées",
+    "Goules ou zombies"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées des morts-vivants ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Une fois par jour, il appelle des nuées de chauves-souris ou de rats, ou des loups, s’il est dehors. Ces créatures arrivent en 1d4 rounds.",
+   "id": "mor-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Curse of Strahd, quel est le nom du château de Strahd ?",
+   "choix": [
+    "Ravenloft",
+    "Castel Mortelune",
+    "Barovie",
+    "Krezk"
+   ],
+   "rep": 0,
+   "src": "Curse of Strahd (2016) ; module I6 Ravenloft (1983)",
+   "expl": "Strahd règne depuis le château de Ravenloft, qui surplombe le village de Barovie. Krezk et Vallaki sont d’autres villages de la vallée.",
+   "id": "mor-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Curse of Strahd, de qui Strahd est-il obsédé ?",
+   "choix": [
+    "Ireena Kolyana",
+    "Ezmerelda d’Avenir",
+    "Madam Eva",
+    "Rahadin"
+   ],
+   "rep": 0,
+   "src": "Curse of Strahd (2016)",
+   "expl": "Strahd voit en Ireena Kolyana la réincarnation de Tatyana, la femme qu’il a aimée et perdue. Madam Eva est la diseuse de bonne aventure des Vistani.",
+   "id": "mor-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les aventures de Ravenloft, quel célèbre chasseur de monstres a écrit des guides sur les créatures des ténèbres ?",
+   "choix": [
+    "Rudolph van Richten",
+    "Elminster",
+    "Volo",
+    "Mordenkainen"
+   ],
+   "rep": 0,
+   "src": "Van Richten’s Guide to Ravenloft (2021) ; Curse of Strahd (2016)",
+   "expl": "Le docteur Rudolph van Richten, chasseur de vampires, donne son nom au supplément Van Richten’s Guide to Ravenloft (2021).",
+   "id": "mor-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D, quel chevalier de la mort célèbre vient de l’univers de Dragonlance ?",
+   "choix": [
+    "Lord Soth",
+    "Strahd",
+    "Kas",
+    "Larloch"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984) ; Manuel des Monstres 5e (2014), « Chevalier de la mort »",
+   "expl": "Lord Soth, chevalier de la Rose damné, est le chevalier de la mort le plus connu ; il apparaît dans les Chroniques de Dragonlance.",
+   "id": "mor-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel vampire, lieutenant de Vecna, l’a trahi lors d’un combat où le dieu-liche perdit sa main et son œil ?",
+   "choix": [
+    "Kas le Sanglant",
+    "Strahd",
+    "Lord Soth",
+    "Szass Tam"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), « Artefacts » : Main et Œil de Vecna, Épée de Kas",
+   "expl": "Selon la légende, Kas, armé de l’épée forgée pour lui par Vecna, se retourna contre son maître ; de ce combat ne restèrent que la Main et l’Œil de Vecna, devenus des artefacts.",
+   "id": "mor-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Tomb of Annihilation (2017), quelle malédiction frappe ceux qui ont été ramenés à la vie ?",
+   "choix": [
+    "La malédiction de mort",
+    "La malédiction du sang",
+    "La malédiction lunaire",
+    "La malédiction de pierre"
+   ],
+   "rep": 0,
+   "src": "Tomb of Annihilation (2017), introduction",
+   "expl": "Le Soulmonger d’Acererak capture les âmes des morts : les personnes ressuscitées dépérissent peu à peu et ne peuvent plus être ramenées.",
+   "id": "mor-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Tomb of Annihilation, sur quel continent se trouve la tombe d’Acererak ?",
+   "choix": [
+    "Le Chult",
+    "Le Kara-Tur",
+    "Le Maztica",
+    "Le Zakhara"
+   ],
+   "rep": 0,
+   "src": "Tomb of Annihilation (2017)",
+   "expl": "La Tombe des Neuf Dieux se cache dans la jungle du Chult, au sud de la Côte des Épées.",
+   "id": "mor-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quel dieu était le seigneur des morts avant le Temps des Troubles ?",
+   "choix": [
+    "Myrkul",
+    "Bane",
+    "Lathandre",
+    "Tempus"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Divinités » ; Manuel des Joueurs 5e (2014), annexe B",
+   "expl": "Myrkul était le dieu de la mort ; après sa disparition lors du Temps des Troubles, Cyric puis Kelemvor ont repris son domaine.",
+   "id": "mor-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, de quel niveau est le sort Animation des morts ?",
+   "choix": [
+    "3",
+    "1",
+    "5",
+    "7"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Animation des morts est un sort de nécromancie de niveau 3 : il anime un squelette ou un zombie, qui obéit pendant 24 heures.",
+   "id": "mor-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel sort de niveau 6 crée des goules (ou des blêmes et nécrophages à plus haut niveau) ?",
+   "choix": [
+    "Création de mort-vivant",
+    "Animation des morts",
+    "Doigt de mort",
+    "Contagion"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Création de mort-vivant (niveau 6) relève des cadavres en goules ; lancé à plus haut niveau, il peut produire des blêmes ou des nécrophages.",
+   "id": "mor-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 2 (gentle repose) empêche un cadavre de se décomposer et d’être relevé en mort-vivant ?",
+   "choix": [
+    "Préservation des morts",
+    "Lien de protection",
+    "Sanctuaire",
+    "Restauration partielle"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Préservation des morts (gentle repose) protège un corps pendant 10 jours : il ne pourrit pas et ne peut pas devenir mort-vivant.",
+   "id": "mor-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel FP maximal un clerc de niveau 5 détruit-il avec Destruction des morts-vivants ?",
+   "choix": [
+    "1/2",
+    "1",
+    "2",
+    "3"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Clerc »",
+   "expl": "Au niveau 5, le Renvoi détruit les morts-vivants de FP 1/2 ou moins ; le seuil monte à 1 au niveau 8, 2 au niveau 11, 3 au niveau 14 et 4 au niveau 17.",
+   "id": "mor-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle sous-classe de magicien commande des morts-vivants plus robustes ?",
+   "choix": [
+    "École de nécromancie",
+    "École d’évocation",
+    "École d’illusion",
+    "École d’abjuration"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien » ; SRD 5.1",
+   "expl": "Le nécromancien obtient Serviteurs morts-vivants au niveau 6 : ses squelettes et zombies gagnent des points de vie et des bonus aux dégâts.",
+   "id": "mor-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel plan d’existence sombre reflète le monde des vivants et est lié à la mort ?",
+   "choix": [
+    "La Gisombre",
+    "La Féerie",
+    "Le Mont Céleste",
+    "Mechanus"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans » ; Van Richten’s Guide to Ravenloft (2021)",
+   "expl": "La Gisombre (Shadowfell) est le reflet morne et lugubre du Plan Matériel ; les Domaines d’effroi de Ravenloft y flottent dans les Brumes.",
+   "id": "mor-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel mort-vivant est le corps desséché d’un défunt embaumé selon des rites funéraires ?",
+   "choix": [
+    "La momie",
+    "Le zombie",
+    "La goule",
+    "Le nécrophage"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 2 « Les plans » ; Van Richten’s Guide to Ravenloft (2021)",
+   "expl": "La momie est créée par des prêtres qui embaument un corps avec des rites impies ; son regard terrifie et son poing transmet la pourriture de momie.",
+   "id": "mor-113",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, la goule paralyse ses victimes avec ses ____.",
+   "choix": [
+    "griffes",
+    "yeux",
+    "cris",
+    "cheveux"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrée « Goule »",
+   "expl": "Les griffes de la goule paralysent pendant une minute (jet de Constitution) ; les elfes et les morts-vivants y sont insensibles.",
+   "id": "mor-114",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le trait « Robustesse de mort-vivant » permet au ____ de rester à 1 PV au lieu de tomber à 0.",
+   "choix": [
+    "zombie",
+    "squelette",
+    "vampire",
+    "spectre"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Zombie »",
+   "expl": "Quand des dégâts devraient le réduire à 0 PV, le zombie fait un jet de Constitution ; s’il réussit, il reste à 1 PV, sauf contre les dégâts radiants ou un coup critique.",
+   "id": "mor-115",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le vampire, l’âme-en-peine et le spectre craignent la lumière du ____.",
+   "choix": [
+    "soleil",
+    "feu",
+    "jour artificiel",
+    "tonnerre"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes",
+   "expl": "La lumière du soleil handicape ces morts-vivants (désavantage) et brûle même le vampire, qui y subit des dégâts radiants.",
+   "id": "mor-116",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le demi-liche le plus célèbre, maître de la Tombe des Horreurs, s’appelle ____.",
+   "choix": [
+    "Acererak",
+    "Vecna",
+    "Szass Tam",
+    "Larloch"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Demi-liche » ; Tomb of Annihilation (2017)",
+   "expl": "Acererak, devenu demi-liche, a bâti la Tombe des Horreurs (1978) puis la Tombe des Neuf Dieux de Tomb of Annihilation (2017).",
+   "id": "mor-117",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le sort de niveau 3 qui permet de poser cinq questions à un cadavre s’appelle Communication avec les ____.",
+   "choix": [
+    "morts",
+    "esprits",
+    "ombres",
+    "défunts"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Communication avec les morts anime brièvement un cadavre qui répond à cinq questions, sans être tenu de dire la vérité.",
+   "id": "mor-118",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Curse of Strahd, les Brumes entourent la vallée de ____ et empêchent toute fuite.",
+   "choix": [
+    "Barovie",
+    "Vallaki",
+    "Krezk",
+    "Thay"
+   ],
+   "rep": 0,
+   "src": "Curse of Strahd (2016)",
+   "expl": "La vallée de Barovie est cernée par des brumes mortelles : seul Strahd décide qui peut entrer ou sortir.",
+   "id": "mor-119",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans les Royaumes Oubliés, la plus ancienne liche connue, surnommée le Roi-Ombre, s’appelle ____.",
+   "choix": [
+    "Larloch",
+    "Szass Tam",
+    "Aumvor",
+    "Sammaster"
+   ],
+   "rep": 0,
+   "src": "Netheril: Empire of Magic (TSR, 1996) ; Lost Empires of Faerûn (2005)",
+   "expl": "Larloch, le Roi-Ombre, est une liche immensément âgée qui vit à Warlock’s Crypt et collectionne la magie des anciens empires.",
+   "id": "mor-120",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le clerc peut repousser les morts-vivants grâce à sa ____ divine.",
+   "choix": [
+    "Conduit",
+    "Lumière",
+    "Main",
+    "Aura"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Clerc »",
+   "expl": "Le Conduit divin du clerc (Channel Divinity) lui permet de lancer Renvoi des morts-vivants : ceux qui échouent leur jet de Sagesse fuient.",
+   "id": "mor-121",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la momie transmet par son poing une maladie appelée ____ de momie.",
+   "choix": [
+    "pourriture",
+    "lèpre",
+    "peste",
+    "fièvre"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Momie »",
+   "expl": "La pourriture de momie empêche de récupérer des points de vie et réduit le maximum de PV chaque jour ; seule la magie (Délivrance des malédictions) en guérit.",
+   "id": "mor-122",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lequel de ces monstres n’est pas incorporel ?",
+   "choix": [
+    "Goule",
+    "Spectre",
+    "Fantôme",
+    "Âme-en-peine"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Momie »",
+   "expl": "La goule a un corps de chair. Spectre, fantôme et âme-en-peine traversent les murs comme des esprits.",
+   "id": "mor-123",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle créature n’est pas morte-vivante ?",
+   "choix": [
+    "Gargouille",
+    "Feu follet",
+    "Crâne enflammé",
+    "Revenant"
+   ],
+   "rep": 0,
+   "src": "SRD 5.1, « Momie »",
+   "expl": "La gargouille est un élémentaire de terre animé. Le feu follet, le crâne enflammé et le revenant sont des morts-vivants.",
+   "id": "mor-124",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un vampire ?",
+   "choix": [
+    "Szass Tam",
+    "Strahd von Zarovich",
+    "Kas le Sanglant",
+    "Jander Sunstar"
+   ],
+   "rep": 0,
+   "src": "Curse of Strahd (2016) ; Christie Golden, Vampire of the Mists (roman Ravenloft, 1991) ; Guide du Maître 5e (2014), « Épée de Kas »",
+   "expl": "Szass Tam est une liche, régent de Thay. Strahd, Kas et l’elfe Jander Sunstar sont des vampires de l’histoire de D&D.",
+   "id": "mor-125",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces sorts de D&D 5e n’est pas un sort de nécromancie ?",
+   "choix": [
+    "Rayon de soleil",
+    "Animation des morts",
+    "Doigt de mort",
+    "Contagion"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Rayon de soleil (sunbeam) est un sort d’évocation, redoutable contre les vampires. Les trois autres sont des sorts de nécromancie.",
+   "id": "mor-126",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces divinités n’est pas liée à la mort ?",
+   "choix": [
+    "Lathandre",
+    "Kelemvor",
+    "Myrkul",
+    "Orcus"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), annexe B ; Manuel des Monstres 5e (2014), « Orcus »",
+   "expl": "Lathandre est le dieu de l’aube et du renouveau. Kelemvor juge les morts, Myrkul était le dieu de la mort, Orcus est le prince démon des morts-vivants.",
+   "id": "mor-127",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces morts-vivants n’a pas de corps physique ?",
+   "choix": [
+    "Spectre",
+    "Zombie",
+    "Squelette",
+    "Momie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), annexe B ; Manuel des Monstres 5e (2014), « Orcus »",
+   "expl": "Le spectre est un esprit sans corps, plein de haine pour les vivants. Zombie, squelette et momie sont des cadavres animés.",
+   "id": "mor-128",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces lieux n’est pas dans la vallée de Barovie ?",
+   "choix": [
+    "Waterdeep",
+    "Vallaki",
+    "Krezk",
+    "Le château Ravenloft"
+   ],
+   "rep": 0,
+   "src": "Curse of Strahd (2016)",
+   "expl": "Waterdeep est une grande cité de la Côte des Épées. Vallaki, Krezk et le château Ravenloft se trouvent en Barovie.",
+   "id": "mor-129",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel mort-vivant n’a pas d’actions légendaires ?",
+   "choix": [
+    "Vampire rejeton",
+    "Liche",
+    "Vampire",
+    "Seigneur momie"
+   ],
+   "rep": 0,
+   "src": "Curse of Strahd (2016)",
+   "expl": "Le rejeton vampirique (FP 5) n’a pas d’actions légendaires ; la liche, le vampire et le seigneur momie en disposent.",
+   "id": "mor-130",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quels morts-vivants peuvent créer d’autres morts-vivants à partir de leurs victimes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Âme-en-peine",
+    "Nécrophage",
+    "Ombre",
+    "Goule",
+    "Feu follet"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Curse of Strahd (2016)",
+   "expl": "L’âme-en-peine crée des spectres, le nécrophage des zombies, l’ombre de nouvelles ombres. La goule et le feu follet ne le peuvent pas.",
+   "id": "mor-131",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quoi la liche est-elle immunisée ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dégâts de poison",
+    "État charmé",
+    "État effrayé",
+    "Dégâts radiants",
+    "Dégâts de force"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SRD 5.1, « Liche »",
+   "expl": "La liche est immunisée au poison et aux dégâts physiques non magiques, et ne peut être ni charmée, ni effrayée, ni empoisonnée, ni paralysée.",
+   "id": "mor-132",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels sont des sorts de nécromancie dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Création de mort-vivant",
+    "Préservation des morts",
+    "Communication avec les morts",
+    "Rayon de soleil",
+    "Lumière du jour"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Création de mort-vivant, Préservation des morts et Communication avec les morts sont de la nécromancie. Rayon de soleil et Lumière du jour sont de l’évocation.",
+   "id": "mor-133",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquelles de ces aventures officielles ont pour méchant un mort-vivant ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Curse of Strahd",
+    "Tomb of Annihilation",
+    "Storm King’s Thunder",
+    "Out of the Abyss",
+    "Princes of the Apocalypse"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Curse of Strahd (2016) ; Tomb of Annihilation (2017)",
+   "expl": "Curse of Strahd (le vampire Strahd) et Tomb of Annihilation (le demi-liche Acererak). Les autres opposent géants, démons et cultes élémentaires.",
+   "id": "mor-134",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels de ces monstres sont des morts-vivants dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Goule",
+    "Banshee",
+    "Revenant",
+    "Troll",
+    "Gargouille",
+    "Golem d’argile"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Curse of Strahd (2016) ; Tomb of Annihilation (2017)",
+   "expl": "Goule, banshee et revenant sont des morts-vivants. Le troll est un géant, la gargouille un élémentaire, le golem une construction.",
+   "id": "mor-135",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages sont des liches dans les univers de D&D ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Szass Tam",
+    "Larloch",
+    "Vecna",
+    "Strahd",
+    "Lord Soth"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Guide du Maître 5e (2014), « Artefacts »",
+   "expl": "Szass Tam, Larloch et Vecna sont des liches. Strahd est un vampire et Lord Soth un chevalier de la mort.",
+   "id": "mor-136",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quels sorts peuvent ramener un mort à la vie ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Retour à la vie",
+    "Rappel à la vie",
+    "Résurrection",
+    "Animation des morts",
+    "Communication avec les morts"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Retour à la vie (revivify, niveau 3), Rappel à la vie (niveau 5) et Résurrection (niveau 7) ramènent un mort. Les deux autres n’offrent ni vie ni âme.",
+   "id": "mor-137",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels sont des pouvoirs du vampire dans D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Charme",
+    "Morsure",
+    "Pattes d’araignée",
+    "Souffle de feu",
+    "Regard pétrifiant"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SRD 5.1, « Vampire »",
+   "expl": "Le vampire charme d’un regard, mord pour drainer la vie et grimpe aux murs (Pattes d’araignée). Il n’a ni souffle ni regard pétrifiant.",
+   "id": "mor-138",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces morts-vivants par FP croissant.",
+   "items": [
+    "Zombie",
+    "Goule",
+    "Nécrophage",
+    "Âme-en-peine",
+    "Vampire"
+   ],
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "FP : zombie 1/4, goule 1, nécrophage 3, âme-en-peine 5, vampire 13.",
+   "id": "mor-139",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces morts-vivants puissants du plus faible au plus redoutable (FP croissant).",
+   "items": [
+    "Momie",
+    "Rejeton vampirique",
+    "Seigneur momie",
+    "Chevalier de la mort",
+    "Liche"
+   ],
+   "src": "Manuel des Monstres 5e (2014), blocs de caractéristiques ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "FP : momie 3, rejeton vampirique 5, seigneur momie 15, chevalier de la mort 17, liche 21.",
+   "id": "mor-140",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sorts de résurrection par niveau croissant.",
+   "items": [
+    "Retour à la vie",
+    "Rappel à la vie",
+    "Résurrection",
+    "Résurrection suprême"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Niveaux : Retour à la vie 3, Rappel à la vie 5, Résurrection 7, Résurrection suprême 9. Plus le sort est puissant, plus le délai depuis la mort peut être long.",
+   "id": "mor-141",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces seuils de Destruction des morts-vivants du clerc par niveau de clerc croissant.",
+   "items": [
+    "FP 1/2",
+    "FP 1",
+    "FP 2",
+    "FP 3",
+    "FP 4"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), « Clerc »",
+   "expl": "Le clerc détruit les morts-vivants de FP 1/2 au niveau 5, puis FP 1 (niveau 8), FP 2 (11), FP 3 (14) et FP 4 (17).",
+   "id": "mor-142",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces morts-vivants par points de vie moyens croissants.",
+   "items": [
+    "Squelette",
+    "Nécrophage",
+    "Momie",
+    "Liche",
+    "Vampire"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), « Clerc »",
+   "expl": "PV moyens : squelette 13, nécrophage 45, momie 58, liche 135, vampire 144. La liche compte surtout sur ses sorts.",
+   "id": "mor-143",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces dieux de la mort des Royaumes Oubliés dans l’ordre où ils ont régné.",
+   "items": [
+    "Myrkul",
+    "Cyric",
+    "Kelemvor"
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015), « Divinités »",
+   "expl": "Myrkul périt pendant le Temps des Troubles ; Cyric hérita brièvement de son domaine avant que Kelemvor ne devienne le juge des morts.",
+   "id": "mor-144",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque mort-vivant à sa grande faiblesse.",
+   "paires": [
+    [
+     "Squelette",
+     "Dégâts contondants"
+    ],
+    [
+     "Momie",
+     "Feu"
+    ],
+    [
+     "Vampire",
+     "Lumière du soleil"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015), « Divinités »",
+   "expl": "Le squelette casse sous les coups contondants, la momie s’embrase facilement et le vampire brûle au soleil.",
+   "id": "mor-145",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque mort-vivant aux créatures qu’il engendre.",
+   "paires": [
+    [
+     "Âme-en-peine",
+     "Spectres"
+    ],
+    [
+     "Nécrophage",
+     "Zombies"
+    ],
+    [
+     "Ombre",
+     "Ombres"
+    ],
+    [
+     "Vampire",
+     "Rejetons vampiriques"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015), « Divinités »",
+   "expl": "Chacun peut transformer ses victimes : spectres pour l’âme-en-peine, zombies pour le nécrophage, nouvelles ombres pour l’ombre, rejetons pour le vampire.",
+   "id": "mor-146",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à sa nature.",
+   "paires": [
+    [
+     "Strahd",
+     "Vampire"
+    ],
+    [
+     "Acererak",
+     "Demi-liche"
+    ],
+    [
+     "Lord Soth",
+     "Chevalier de la mort"
+    ],
+    [
+     "Szass Tam",
+     "Liche"
+    ]
+   ],
+   "src": "Curse of Strahd (2016) ; Tomb of Annihilation (2017) ; Chroniques de Dragonlance (1984)",
+   "expl": "Strahd est un vampire, Acererak un demi-liche, Lord Soth un chevalier de la mort et Szass Tam une liche.",
+   "id": "mor-147",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sort à son niveau.",
+   "paires": [
+    [
+     "Préservation des morts",
+     "2"
+    ],
+    [
+     "Animation des morts",
+     "3"
+    ],
+    [
+     "Création de mort-vivant",
+     "6"
+    ],
+    [
+     "Doigt de mort",
+     "7"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Préservation des morts est de niveau 2, Animation des morts de niveau 3, Création de mort-vivant de niveau 6 et Doigt de mort de niveau 7.",
+   "id": "mor-148",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque aventure de morts-vivants à son année de parution.",
+   "paires": [
+    [
+     "La Tombe des Horreurs",
+     "1978"
+    ],
+    [
+     "Ravenloft",
+     "1983"
+    ],
+    [
+     "Curse of Strahd",
+     "2016"
+    ],
+    [
+     "Tomb of Annihilation",
+     "2017"
+    ]
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "Acererak apparaît dans la Tombe des Horreurs (1978) puis Tomb of Annihilation (2017) ; Strahd dans Ravenloft (1983) puis Curse of Strahd (2016).",
+   "id": "mor-149",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque mort-vivant à son attaque emblématique.",
+   "paires": [
+    [
+     "Banshee",
+     "Hurlement"
+    ],
+    [
+     "Goule",
+     "Griffes paralysantes"
+    ],
+    [
+     "Momie",
+     "Poing pourrissant"
+    ],
+    [
+     "Vampire",
+     "Morsure"
+    ]
+   ],
+   "src": "Catalogue TSR et Wizards of the Coast",
+   "expl": "Hurlement mortel de la banshee, griffes paralysantes de la goule, poing qui transmet la pourriture de momie, morsure qui draine la vie du vampire.",
+   "id": "mor-150",
+   "conf": "probable"
   }
  ],
  "sources": []
