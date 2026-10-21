@@ -1,0 +1,2285 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "mythologie-nordique",
+  "nom": "Mythologie nordique",
+  "royaume": "Mythologies et folklores du monde",
+  "icone": "hache",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de pattes possède Sleipnir, le cheval d’Odin ?",
+   "choix": [
+    "Huit",
+    "Six",
+    "Quatre",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "C’est le plus rapide des chevaux ; il peut galoper jusqu’au royaume des morts.",
+   "id": "t047-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les deux corbeaux d’Odin ?",
+   "choix": [
+    "Huginn et Muninn",
+    "Geri et Freki",
+    "Skoll et Hati",
+    "Tanngrisnir et Tanngnjostr"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "« Pensée » et « Mémoire » parcourent le monde et lui rapportent tout.",
+   "id": "t047-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que sacrifie Odin pour boire à la source de Mimir ?",
+   "choix": [
+    "Un œil",
+    "Une main",
+    "Sa lance",
+    "Son cheval"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Cette gorgée lui donne une sagesse immense.",
+   "id": "t047-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de nuits Odin reste-t-il pendu à l’arbre du monde pour découvrir les runes ?",
+   "choix": [
+    "Neuf",
+    "Trois",
+    "Sept",
+    "Treize"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Blessé de sa propre lance, il se sacrifie « lui-même à lui-même ».",
+   "id": "t047-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la lance d’Odin, qui ne manque jamais sa cible ?",
+   "choix": [
+    "Gungnir",
+    "Mjöllnir",
+    "Gram",
+    "Hofund"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Elle a été forgée par les nains, fils d’Ivaldi.",
+   "id": "t047-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle grande salle Odin accueille-t-il les guerriers morts au combat ?",
+   "choix": [
+    "Valhalla",
+    "Bilskirnir",
+    "Fólkvangr",
+    "Breidablik"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Ses portes sont si larges que huit cents guerriers y passent de front.",
+   "id": "t047-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles guerrières choisissent les morts sur les champs de bataille ?",
+   "choix": [
+    "Les Valkyries",
+    "Les Nornes",
+    "Les Dises",
+    "Les Elfes"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Leur nom signifie « celles qui choisissent les morts au combat ».",
+   "id": "t047-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les guerriers morts qui attendent le Ragnarök au Valhalla ?",
+   "choix": [
+    "Les Einherjar",
+    "Les Berserkers",
+    "Les Jötnar",
+    "Les Draugar"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Ils se battent chaque jour, ressuscitent le soir et festoient la nuit.",
+   "id": "t047-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est l’épouse d’Odin ?",
+   "choix": [
+    "Frigg",
+    "Freyja",
+    "Sif",
+    "Skadi"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Elle connaît le destin de tous, mais ne le révèle jamais.",
+   "id": "t047-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels animaux tirent le char de Thor ?",
+   "choix": [
+    "Deux boucs",
+    "Deux chats",
+    "Deux chevaux",
+    "Deux loups"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Thor peut les manger le soir et les ressusciter le lendemain avec son marteau.",
+   "id": "t047-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi le manche de Mjöllnir est-il trop court ?",
+   "choix": [
+    "Une mouche a piqué le forgeron",
+    "Thor l’a brisé en duel",
+    "Loki l’a scié",
+    "Le fer a manqué"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "La mouche était Loki, qui voulait faire perdre son pari au nain.",
+   "id": "t047-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel géant vole le marteau de Thor et réclame Freyja pour épouse ?",
+   "choix": [
+    "Thrym",
+    "Hrungnir",
+    "Utgard-Loki",
+    "Hymir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Thor se déguise en mariée pour récupérer son arme.",
+   "id": "t047-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monstre Thor pêche-t-il avec une tête de bœuf comme appât ?",
+   "choix": [
+    "Le serpent de Midgard",
+    "Le loup Fenrir",
+    "Le dragon Nidhogg",
+    "Le sanglier Gullinbursti"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Le géant Hymir, terrifié, coupe la ligne au dernier moment.",
+   "id": "t047-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Contre qui Thor perd-il un combat de lutte, chez Utgard-Loki ?",
+   "choix": [
+    "La vieille nourrice Elli",
+    "Un géant de pierre",
+    "Le loup Fenrir",
+    "Le dieu Tyr"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Elli est en réalité la Vieillesse : personne ne peut la vaincre, même le plus fort des dieux.",
+   "id": "t047-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu perd sa main en la plaçant dans la gueule de Fenrir ?",
+   "choix": [
+    "Tyr",
+    "Thor",
+    "Odin",
+    "Heimdall"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Il était le seul assez courageux pour nourrir le loup.",
+   "id": "t047-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le lien magique qui retient Fenrir ?",
+   "choix": [
+    "Gleipnir",
+    "Draupnir",
+    "Brísingamen",
+    "Megingjörd"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Les nains l’ont fabriqué avec des choses qui n’existent pas, comme le bruit des pas d’un chat.",
+   "id": "t047-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui sont les trois enfants monstrueux de Loki et de la géante Angrboda ?",
+   "choix": [
+    "Fenrir, Jörmungand et Hel",
+    "Sleipnir, Fenrir et Garm",
+    "Hel, Surt et Nidhogg",
+    "Jörmungand, Ratatosk et Hel"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Les dieux les craignent, et les éloignent chacun dans un coin du monde.",
+   "id": "t047-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Loki est-il puni après la mort de Baldr ?",
+   "choix": [
+    "Il est lié sous un serpent qui crache du venin",
+    "Il est jeté dans le Ginnungagap",
+    "Il est changé en pierre",
+    "Il est exilé en Midgard"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Son épouse Sigyn recueille le venin dans un bol ; quand elle le vide, il se tord et la terre tremble.",
+   "id": "t047-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu des Vanes possède le sanglier aux soies d’or Gullinbursti ?",
+   "choix": [
+    "Freyr",
+    "Njord",
+    "Heimdall",
+    "Bragi"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Il possède aussi Skidbladnir, un navire qui se plie dans une poche.",
+   "id": "t047-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Freyr n’a-t-il plus d’épée lors du Ragnarök ?",
+   "choix": [
+    "Il l’a donnée pour obtenir la géante Gerd",
+    "Loki l’a volée",
+    "Elle s’est brisée contre Surt",
+    "Odin la lui a confisquée"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Il combat Surt avec une simple corne de cerf, et meurt.",
+   "id": "t047-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel collier précieux appartient à Freyja ?",
+   "choix": [
+    "Brísingamen",
+    "Draupnir",
+    "Andvaranaut",
+    "Gjallarhorn"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Elle l’a obtenu de quatre nains en passant une nuit avec chacun.",
+   "id": "t047-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels animaux tirent le char de Freyja ?",
+   "choix": [
+    "Deux chats",
+    "Deux boucs",
+    "Deux sangliers",
+    "Deux cygnes"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Freyja est déesse de l’amour, mais aussi de la guerre et de la magie seidr.",
+   "id": "t047-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu garde le pont Bifröst ?",
+   "choix": [
+    "Heimdall",
+    "Tyr",
+    "Bragi",
+    "Vidar"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Il entend l’herbe pousser et voit à cent lieues, de jour comme de nuit.",
+   "id": "t047-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu de la poésie est l’époux d’Idunn ?",
+   "choix": [
+    "Bragi",
+    "Höd",
+    "Vidar",
+    "Forseti"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Des runes sont gravées sur sa langue ; il accueille les héros au Valhalla.",
+   "id": "t047-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que possède la déesse Idunn, indispensable aux dieux ?",
+   "choix": [
+    "Les pommes de jeunesse",
+    "Le collier de Freyja",
+    "L’hydromel poétique",
+    "Les runes"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Sans elles, les dieux vieillissent ; un géant l’enlève avec la complicité forcée de Loki.",
+   "id": "t047-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quoi est fait l’hydromel de la poésie ?",
+   "choix": [
+    "Du sang de Kvasir, mêlé de miel",
+    "Des larmes de Frigg",
+    "De la sève d’Yggdrasil",
+    "Du lait de la chèvre Heidrun"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Odin le dérobe aux géants en se changeant en aigle.",
+   "id": "t047-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle guerre oppose les deux familles de dieux nordiques ?",
+   "choix": [
+    "La guerre des Ases et des Vanes",
+    "La guerre des dieux et des nains",
+    "La guerre des elfes",
+    "La guerre de Troie"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Elle s’achève par un échange d’otages : Njord, Freyr et Freyja rejoignent les Ases.",
+   "id": "t047-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que deviennent les restes de Mimir après sa décapitation par les Vanes ?",
+   "choix": [
+    "Odin conserve sa tête et la consulte",
+    "Ils deviennent une montagne",
+    "Ils sont jetés dans la mer",
+    "Ils nourrissent Fenrir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Odin la préserve avec des herbes et des charmes, pour garder ses conseils.",
+   "id": "t047-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles divinités du destin vivent près du puits d’Urd ?",
+   "choix": [
+    "Les Nornes",
+    "Les Valkyries",
+    "Les Dises",
+    "Les Ases"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Elles arrosent les racines d’Yggdrasil et fixent le sort des hommes.",
+   "id": "t047-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel écureuil court le long d’Yggdrasil en portant des insultes ?",
+   "choix": [
+    "Ratatosk",
+    "Nidhogg",
+    "Heidrun",
+    "Eikthyrnir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Il fait la navette entre l’aigle du sommet et le dragon des racines.",
+   "id": "t047-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon ronge les racines de l’arbre du monde ?",
+   "choix": [
+    "Nidhogg",
+    "Fafnir",
+    "Jörmungand",
+    "Surt"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Il dévore aussi les cadavres des criminels.",
+   "id": "t047-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le terrible hiver qui précède le Ragnarök ?",
+   "choix": [
+    "Fimbulvetr",
+    "Ginnungagap",
+    "Muspel",
+    "Niflheim"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Trois hivers se succèdent, sans aucun été entre eux.",
+   "id": "t047-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel navire, fait des ongles des morts, transporte les géants au Ragnarök ?",
+   "choix": [
+    "Naglfar",
+    "Skidbladnir",
+    "Hringhorni",
+    "Ellida"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "On coupait les ongles des défunts pour retarder sa construction.",
+   "id": "t047-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel géant de feu embrase le monde à la fin du Ragnarök ?",
+   "choix": [
+    "Surt",
+    "Ymir",
+    "Thrym",
+    "Hrungnir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Il vient de Muspelheim, le monde du feu.",
+   "id": "t047-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui tue Odin lors du Ragnarök ?",
+   "choix": [
+    "Le loup Fenrir",
+    "Le serpent de Midgard",
+    "Le géant Surt",
+    "Loki"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Son fils Vidar le venge en déchirant la gueule du loup.",
+   "id": "t047-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Thor meurt-il au Ragnarök ?",
+   "choix": [
+    "Par le venin du serpent qu’il a tué",
+    "Dévoré par le loup Fenrir",
+    "Brûlé par l’épée de Surt",
+    "Frappé par la lance de Loki"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Il fait neuf pas avant de s’écrouler, empoisonné par le serpent de Midgard.",
+   "id": "t047-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels deux humains survivent au Ragnarök, cachés dans un bois ?",
+   "choix": [
+    "Líf et Lífthrasir",
+    "Ask et Embla",
+    "Sigurd et Brynhild",
+    "Baldr et Nanna"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Ils repeupleront le monde nouveau qui émerge des eaux.",
+   "id": "t047-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est l’auteur islandais de l’Edda en prose ?",
+   "choix": [
+    "Snorri Sturluson",
+    "Saxo Grammaticus",
+    "Egill Skallagrimsson",
+    "Ari le Savant"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Il l’écrit vers 1220, comme manuel pour les poètes.",
+   "id": "t047-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel poème de l’Edda raconte, par la bouche d’une prophétesse, la création et la fin du monde ?",
+   "choix": [
+    "La Völuspá",
+    "Le Hávamál",
+    "La Thrymskvida",
+    "La Lokasenna"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Son nom signifie « la prophétie de la voyante ».",
+   "id": "t047-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel poème de l’Edda rassemble les conseils de sagesse d’Odin ?",
+   "choix": [
+    "Le Hávamál",
+    "La Völuspá",
+    "La Grímnismál",
+    "La Skírnismál"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Son nom signifie « les dits du Très-Haut ».",
+   "id": "t047-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jour de la semaine anglais doit son nom à Thor ?",
+   "choix": [
+    "Thursday",
+    "Tuesday",
+    "Wednesday",
+    "Friday"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Le jeudi français, lui, vient de Jupiter, dieu romain de la foudre.",
+   "id": "t047-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jour de la semaine anglais doit son nom à Odin, sous sa forme Woden ?",
+   "choix": [
+    "Wednesday",
+    "Thursday",
+    "Tuesday",
+    "Monday"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Le mercredi français vient de Mercure, que les Romains comparaient à Odin.",
+   "id": "t047-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel anneau d’or produit huit anneaux semblables toutes les neuf nuits ?",
+   "choix": [
+    "Draupnir",
+    "Andvaranaut",
+    "Brísingamen",
+    "Gleipnir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Odin le dépose sur le bûcher de son fils Baldr.",
+   "id": "t047-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle épouse de Thor a des cheveux d’or forgés par les nains ?",
+   "choix": [
+    "Sif",
+    "Frigg",
+    "Idunn",
+    "Nanna"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Loki avait rasé sa chevelure par plaisanterie.",
+   "id": "t047-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle l’alphabet runique ancien de vingt-quatre signes ?",
+   "choix": [
+    "Le futhark",
+    "Le latin",
+    "L’ogham",
+    "Le gotique"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Son nom vient de ses six premières lettres.",
+   "id": "t047-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cheval de géant aide à bâtir le rempart d’Asgard, avant d’être détourné par Loki ?",
+   "choix": [
+    "Svadilfari",
+    "Sleipnir",
+    "Grani",
+    "Hrimfaxi"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda (vers 1220), trad. F.-X. Dillmann (Gallimard) ; Edda poétique (Codex Regius) ; R. Boyer, L’Edda poétique (Fayard)",
+   "expl": "Loki, changé en jument, l’attire ; il en naît Sleipnir.",
+   "id": "t047-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Odin a sacrifié un œil pour gagner la sagesse.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Il l’a laissé en gage au fond de la source de Mimir.",
+   "id": "t047-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Thor est le fils de Frigg.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : il est fils d’Odin et de Jörd, la Terre, une géante.",
+   "id": "t047-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Freyja reçoit la moitié des guerriers morts au combat.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Odin prend l’autre moitié au Valhalla ; Freyja accueille les siens à Fólkvangr.",
+   "id": "t047-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Valkyries sont des déesses de la fertilité.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : elles choisissent les guerriers morts et les servent au Valhalla.",
+   "id": "t047-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Ases et les Vanes sont deux familles de dieux.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Les Vanes sont plutôt liés à la fertilité et à la magie.",
+   "id": "t047-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Hel règne sur le royaume des morts qui ne sont pas tombés au combat.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Son visage est à moitié vivant, à moitié noir de mort.",
+   "id": "t047-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Fenrir est enchaîné par une lourde chaîne de fer forgée par Thor.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : il brise deux chaînes de fer ; seul le fin lien Gleipnir, forgé par les nains, le retient.",
+   "id": "t047-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Heimdall a une ouïe et une vue extraordinaires.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Il dort moins qu’un oiseau et veille en permanence sur le pont arc-en-ciel.",
+   "id": "t047-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Au Ragnarök, Heimdall et Loki s’entretuent.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Les deux ennemis jurés tombent ensemble.",
+   "id": "t047-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tous les dieux survivent au Ragnarök.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : Odin, Thor, Freyr et Tyr y meurent ; seuls quelques-uns survivent.",
+   "id": "t047-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Après le Ragnarök, Baldr revient du royaume des morts.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Il règne avec son frère Höd sur le monde renouvelé.",
+   "id": "t047-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Mjöllnir revient toujours dans la main de Thor après avoir été lancé.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Le marteau peut aussi rapetisser pour se glisser dans sa tunique.",
+   "id": "t047-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Skadi choisit son époux en ne regardant que ses pieds.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Elle espérait Baldr, mais choisit Njord, dieu de la mer.",
+   "id": "t047-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Yggdrasil est un chêne.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : c’est un frêne, dont les racines plongent dans plusieurs mondes.",
+   "id": "t047-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Loki est le père de Sleipnir.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : il en est la mère, après s’être changé en jument.",
+   "id": "t047-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les géants forgent la plupart des trésors des dieux.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : ce sont les nains ; Mjöllnir, Gungnir, Draupnir et Gleipnir sortent de leurs forges.",
+   "id": "t047-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Snorri Sturluson est norvégien.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : il est islandais, chef politique et poète du 13e siècle.",
+   "id": "t047-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Frigg est la mère de Baldr.",
+   "rep": true,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Elle avait fait jurer à toutes choses de ne pas lui nuire, sauf au gui.",
+   "id": "t047-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Odin chevauche un loup géant au combat.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : il monte Sleipnir ; ses loups Geri et Freki ne lui servent pas de monture.",
+   "id": "t047-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Einherjar meurent définitivement après chaque combat.",
+   "rep": false,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Faux : ils ressuscitent chaque soir pour festoyer au Valhalla.",
+   "id": "t047-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de mères a Heimdall, selon les poèmes ?",
+   "rep": 9,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "mères",
+   "tolerance": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Ces neuf sœurs sont parfois vues comme des vagues de la mer.",
+   "id": "t047-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’hivers successifs compte le Fimbulvetr ?",
+   "rep": 3,
+   "min": 1,
+   "max": 9,
+   "pas": 1,
+   "unite": "hivers",
+   "tolerance": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Guerres et crimes ravagent le monde pendant ce temps.",
+   "id": "t047-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de pas Thor fait-il après avoir tué le serpent de Midgard ?",
+   "rep": 9,
+   "min": 1,
+   "max": 20,
+   "pas": 1,
+   "unite": "pas",
+   "tolerance": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Le venin du serpent l’achève, alors qu’il vient de le tuer.",
+   "id": "t047-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de portes compte le Valhalla, selon le Grímnismál ?",
+   "rep": 540,
+   "min": 100,
+   "max": 1000,
+   "pas": 10,
+   "unite": "portes",
+   "tolerance": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Huit cents guerriers sortent par chacune d’elles pour la bataille finale.",
+   "id": "t047-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de signes compte le futhark ancien ?",
+   "rep": 24,
+   "min": 10,
+   "max": 40,
+   "pas": 1,
+   "unite": "runes",
+   "tolerance": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Le futhark récent, de l’époque viking, n’en compte que seize.",
+   "id": "t047-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Vers quelle année Snorri Sturluson écrit-il son Edda ?",
+   "rep": 1220,
+   "min": 900,
+   "max": 1500,
+   "pas": 10,
+   "unite": "année",
+   "tolerance": 10,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Il écrit plus de deux siècles après la christianisation de l’Islande.",
+   "id": "t047-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’anneaux Draupnir produit-il toutes les neuf nuits ?",
+   "rep": 8,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "anneaux",
+   "tolerance": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Ils sont de même poids et de même beauté que lui.",
+   "id": "t047-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de corbeaux accompagnent Odin ?",
+   "rep": 2,
+   "min": 1,
+   "max": 9,
+   "pas": 1,
+   "unite": "corbeaux",
+   "tolerance": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Odin craint chaque jour qu’ils ne reviennent pas, surtout Muninn.",
+   "id": "t047-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de guerriers passent de front par chaque porte du Valhalla ?",
+   "rep": 800,
+   "min": 100,
+   "max": 1000,
+   "pas": 10,
+   "unite": "guerriers",
+   "tolerance": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Ils sortiront tous ensemble pour affronter le loup Fenrir au Ragnarök.",
+   "id": "t047-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le marteau de Thor s’appelle ____.",
+   "choix": [
+    "Mjöllnir",
+    "Gungnir",
+    "Gram",
+    "Draupnir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Il protège dieux et hommes contre les géants.",
+   "id": "t047-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le cheval à huit pattes d’Odin s’appelle ____.",
+   "choix": [
+    "Sleipnir",
+    "Grani",
+    "Svadilfari",
+    "Hrimfaxi"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Hermod le chevauche pour aller réclamer Baldr au royaume de Hel.",
+   "id": "t047-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La salle des guerriers morts s’appelle le ____.",
+   "choix": [
+    "Valhalla",
+    "Midgard",
+    "Bifröst",
+    "Niflheim"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Son toit est fait de boucliers, ses chevrons de lances.",
+   "id": "t047-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le pont arc-en-ciel qui relie Asgard au monde des hommes s’appelle le ____.",
+   "choix": [
+    "Bifröst",
+    "Gjallar",
+    "Asbrú",
+    "Hringhorni"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Il se brisera sous le poids des fils de Muspel au Ragnarök.",
+   "id": "t047-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le loup enchaîné par les dieux s’appelle ____.",
+   "choix": [
+    "Fenrir",
+    "Garm",
+    "Skoll",
+    "Hati"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Ses mâchoires ouvertes toucheront le ciel et la terre.",
+   "id": "t047-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La fin du monde nordique s’appelle le ____.",
+   "choix": [
+    "Ragnarök",
+    "Fimbulvetr",
+    "Völuspá",
+    "Muspel"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Le mot évoque le « destin des puissances divines ».",
+   "id": "t047-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La corne qui annoncera la fin du monde s’appelle le ____.",
+   "choix": [
+    "Gjallarhorn",
+    "Gungnir",
+    "Gleipnir",
+    "Naglfar"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Heimdall y soufflera de toutes ses forces.",
+   "id": "t047-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les déesses qui fixent le destin s’appellent les ____.",
+   "choix": [
+    "Nornes",
+    "Valkyries",
+    "Dises",
+    "Vanes"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Elles s’appellent Urd, Verdandi et Skuld.",
+   "id": "t047-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La déesse qui garde les pommes de jeunesse s’appelle ____.",
+   "choix": [
+    "Idunn",
+    "Sif",
+    "Frigg",
+    "Nanna"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Sans ses pommes, les dieux se rident et blanchissent en quelques jours.",
+   "id": "t047-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le géant de feu de Muspelheim s’appelle ____.",
+   "choix": [
+    "Surt",
+    "Ymir",
+    "Thrym",
+    "Hymir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Il porte une épée plus brillante que le soleil.",
+   "id": "t047-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le lien magique qui retient Fenrir s’appelle ____.",
+   "choix": [
+    "Gleipnir",
+    "Draupnir",
+    "Brísingamen",
+    "Andvaranaut"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Il est doux et fin comme un ruban de soie.",
+   "id": "t047-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’écureuil messager d’Yggdrasil s’appelle ____.",
+   "choix": [
+    "Ratatosk",
+    "Nidhogg",
+    "Heidrun",
+    "Vedrfolnir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Il entretient la querelle entre l’aigle et le dragon.",
+   "id": "t047-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La salle de Thor, la plus grande jamais bâtie, s’appelle ____.",
+   "choix": [
+    "Bilskirnir",
+    "Valhalla",
+    "Breidablik",
+    "Sessrumnir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Elle compte cinq cent quarante pièces, selon le Grímnismál.",
+   "id": "t047-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces dieux n’est pas nordique ?",
+   "choix": [
+    "Zeus",
+    "Odin",
+    "Thor",
+    "Freyr"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Zeus appartient à la mythologie grecque.",
+   "id": "t047-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’a pas été forgé par les nains ?",
+   "choix": [
+    "Gjallarhorn",
+    "Mjöllnir",
+    "Gungnir",
+    "Draupnir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "La corne de Heimdall n’apparaît pas parmi les trésors forgés pour le pari de Loki.",
+   "id": "t047-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces animaux n’appartient pas à Odin ?",
+   "choix": [
+    "Tanngrisnir",
+    "Sleipnir",
+    "Huginn",
+    "Geri"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Tanngrisnir est l’un des deux boucs de Thor.",
+   "id": "t047-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces enfants n’est pas né de Loki ?",
+   "choix": [
+    "Baldr",
+    "Fenrir",
+    "Hel",
+    "Jörmungand"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Baldr est le fils d’Odin et de Frigg, aimé de tous.",
+   "id": "t047-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas un Vane ?",
+   "choix": [
+    "Thor",
+    "Njord",
+    "Freyr",
+    "Freyja"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Thor est un Ase, fils d’Odin et de la géante Jörd.",
+   "id": "t047-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux survit au Ragnarök ?",
+   "choix": [
+    "Vidar",
+    "Odin",
+    "Thor",
+    "Freyr"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Vidar, fils d’Odin, venge son père et survit avec son frère Vali.",
+   "id": "t047-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mondes n’appartient pas à la cosmologie nordique ?",
+   "choix": [
+    "Olympe",
+    "Asgard",
+    "Jötunheim",
+    "Vanaheim"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "L’Olympe est la montagne des dieux grecs.",
+   "id": "t047-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures ne vit pas sur ou sous Yggdrasil ?",
+   "choix": [
+    "Le loup Fenrir",
+    "Le dragon Nidhogg",
+    "L’écureuil Ratatosk",
+    "L’aigle du sommet"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Fenrir est enchaîné sur une île, loin de l’arbre.",
+   "id": "t047-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces poèmes n’appartient pas à l’Edda poétique ?",
+   "choix": [
+    "Beowulf",
+    "La Völuspá",
+    "Le Hávamál",
+    "La Thrymskvida"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Beowulf est un poème anglo-saxon, écrit en vieil anglais.",
+   "id": "t047-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces affrontements du Ragnarök est mal associé ?",
+   "choix": [
+    "Thor contre Fenrir",
+    "Odin contre Fenrir",
+    "Heimdall contre Loki",
+    "Freyr contre Surt"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Thor affronte le serpent de Midgard, pas le loup.",
+   "id": "t047-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jours anglais ne doit pas son nom à un dieu nordique ?",
+   "choix": [
+    "Saturday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Saturday vient de Saturne, dieu romain, et non d’un dieu nordique.",
+   "id": "t047-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels dieux sont des Ases ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Odin",
+    "Thor",
+    "Tyr",
+    "Baldr",
+    "Njord",
+    "Freyr"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Njord et Freyr sont des Vanes, venus comme otages.",
+   "id": "t047-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels trésors appartiennent aux dieux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mjöllnir",
+    "Gungnir",
+    "Draupnir",
+    "Brísingamen",
+    "Excalibur",
+    "Égide"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Excalibur est arthurienne, l’Égide grecque.",
+   "id": "t047-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels enfants a eus Loki ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fenrir",
+    "Jörmungand",
+    "Hel",
+    "Sleipnir",
+    "Baldr",
+    "Thor"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Loki a aussi des fils avec Sigyn, Vali et Narfi.",
+   "id": "t047-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels dieux meurent au Ragnarök ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Odin",
+    "Thor",
+    "Freyr",
+    "Tyr",
+    "Vidar",
+    "Baldr"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Vidar survit, Baldr revient d’entre les morts.",
+   "id": "t047-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels animaux sont liés à Odin ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sleipnir",
+    "Huginn",
+    "Muninn",
+    "Geri",
+    "Tanngrisnir",
+    "Gullinbursti"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Geri et Freki sont ses deux loups ; les boucs sont à Thor, le sanglier à Freyr.",
+   "id": "t047-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels mondes appartiennent à la cosmologie nordique ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Asgard",
+    "Midgard",
+    "Jötunheim",
+    "Muspelheim",
+    "Olympe",
+    "Duat"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Ils sont tous reliés par Yggdrasil, le frêne cosmique.",
+   "id": "t047-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets ou ingrédients composent Gleipnir ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bruit des pas d’un chat",
+    "Barbe de femme",
+    "Racines de montagne",
+    "Écailles de dragon",
+    "Larmes de Frigg"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "C’est pourquoi ces choses, dit Snorri, n’existent plus dans le monde.",
+   "id": "t047-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels textes sont des sources de la mythologie nordique ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Edda de Snorri",
+    "Edda poétique",
+    "Gesta Danorum",
+    "Iliade",
+    "Kalevala"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "La Gesta Danorum de Saxo Grammaticus raconte aussi des mythes, en latin.",
+   "id": "t047-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles Nornes veillent sur le destin ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Urd",
+    "Verdandi",
+    "Skuld",
+    "Frigg",
+    "Hel"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Leurs noms évoquent le passé, le présent et l’avenir.",
+   "id": "t047-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels dieux sont des Vanes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Njord",
+    "Freyr",
+    "Freyja",
+    "Odin",
+    "Heimdall"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Ils sont venus vivre à Asgard comme otages, après la guerre.",
+   "id": "t047-109",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jours anglais doivent leur nom à des dieux nordiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Tyr, Odin, Thor et Frigg ont donné leur nom à quatre jours.",
+   "id": "t047-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces événements du Ragnarök dans l’ordre.",
+   "items": [
+    "Fimbulvetr",
+    "Fenrir se libère",
+    "Bataille finale",
+    "Surt embrase le monde",
+    "Le monde renaît"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Un monde nouveau et verdoyant surgit des eaux.",
+   "id": "t047-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’enchaînement de Fenrir dans l’ordre.",
+   "items": [
+    "Chaîne Laeding brisée",
+    "Chaîne Dromi brisée",
+    "Les nains forgent Gleipnir",
+    "Tyr perd sa main"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Fenrir exige qu’un dieu mette sa main dans sa gueule, en gage.",
+   "id": "t047-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du mythe du marteau volé dans l’ordre.",
+   "items": [
+    "Thrym vole Mjöllnir",
+    "Thor se déguise en mariée",
+    "Festin chez les géants",
+    "Thor récupère son marteau"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Loki, déguisé en servante, explique l’appétit énorme de la « mariée ».",
+   "id": "t047-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la mort de Baldr dans l’ordre.",
+   "items": [
+    "Rêves funestes de Baldr",
+    "Frigg fait jurer toutes choses",
+    "Höd lance le gui",
+    "Funérailles sur un navire"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Le navire funéraire s’appelle Hringhorni.",
+   "id": "t047-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la punition de Loki dans l’ordre.",
+   "items": [
+    "Mort de Baldr",
+    "Fuite de Loki en saumon",
+    "Capture dans un filet",
+    "Enchaînement sous le serpent"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Thor le saisit par la queue, ce qui expliquerait la forme effilée du saumon.",
+   "id": "t047-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces animaux d’Yggdrasil du haut vers le bas de l’arbre.",
+   "items": [
+    "L’aigle",
+    "L’écureuil Ratatosk",
+    "Le dragon Nidhogg"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Ratatosk court de haut en bas pour transporter leurs insultes.",
+   "id": "t047-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’origine de Sleipnir dans l’ordre.",
+   "items": [
+    "Un géant propose de bâtir le rempart",
+    "Son cheval Svadilfari l’aide",
+    "Loki se change en jument",
+    "Naissance de Sleipnir"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Les dieux avaient promis le soleil, la lune et Freyja au bâtisseur.",
+   "id": "t047-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’histoire de l’hydromel poétique dans l’ordre.",
+   "items": [
+    "Création de Kvasir",
+    "Meurtre de Kvasir par deux nains",
+    "L’hydromel passe aux géants",
+    "Odin le dérobe en aigle"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Quelques gouttes tombées en route inspirent les mauvais poètes.",
+   "id": "t047-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces dieux selon leur adversaire au Ragnarök, dans l’ordre Odin, Thor, Freyr.",
+   "items": [
+    "Fenrir",
+    "Jörmungand",
+    "Surt"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Odin meurt contre le loup, Thor contre le serpent, Freyr contre le géant de feu.",
+   "id": "t047-119",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie d’Odin dans l’ordre du mythe.",
+   "items": [
+    "Il tue Ymir avec ses frères",
+    "Il boit à la source de Mimir",
+    "Il découvre les runes",
+    "Il meurt au Ragnarök"
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Odin est le dieu de la sagesse, de la poésie et de la guerre.",
+   "id": "t047-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque dieu à son objet.",
+   "paires": [
+    [
+     "Thor",
+     "Mjöllnir"
+    ],
+    [
+     "Odin",
+     "Gungnir"
+    ],
+    [
+     "Heimdall",
+     "Gjallarhorn"
+    ],
+    [
+     "Freyja",
+     "Brísingamen"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "La plupart de ces trésors viennent des forges des nains.",
+   "id": "t047-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à son animal.",
+   "paires": [
+    [
+     "Odin",
+     "Sleipnir"
+    ],
+    [
+     "Thor",
+     "Boucs"
+    ],
+    [
+     "Freyr",
+     "Gullinbursti"
+    ],
+    [
+     "Freyja",
+     "Chats"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Les animaux tirent leurs chars ou les accompagnent.",
+   "id": "t047-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à son adversaire au Ragnarök.",
+   "paires": [
+    [
+     "Odin",
+     "Fenrir"
+    ],
+    [
+     "Thor",
+     "Jörmungand"
+    ],
+    [
+     "Heimdall",
+     "Loki"
+    ],
+    [
+     "Freyr",
+     "Surt"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Presque tous les grands dieux meurent dans ces combats.",
+   "id": "t047-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque enfant de Loki à son sort.",
+   "paires": [
+    [
+     "Fenrir",
+     "Enchaîné"
+    ],
+    [
+     "Jörmungand",
+     "Jeté dans l’océan"
+    ],
+    [
+     "Hel",
+     "Reine des morts"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Odin les éloigne pour protéger les dieux.",
+   "id": "t047-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à son jour anglais.",
+   "paires": [
+    [
+     "Tyr",
+     "Tuesday"
+    ],
+    [
+     "Odin",
+     "Wednesday"
+    ],
+    [
+     "Thor",
+     "Thursday"
+    ],
+    [
+     "Frigg",
+     "Friday"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Les anglo-saxons ont remplacé les dieux romains par les leurs.",
+   "id": "t047-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque monde à ses habitants.",
+   "paires": [
+    [
+     "Asgard",
+     "Ases"
+    ],
+    [
+     "Vanaheim",
+     "Vanes"
+    ],
+    [
+     "Jötunheim",
+     "Géants"
+    ],
+    [
+     "Midgard",
+     "Humains"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Neuf mondes au total composent l’univers nordique.",
+   "id": "t047-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Norne au temps qu’elle évoque.",
+   "paires": [
+    [
+     "Urd",
+     "Passé"
+    ],
+    [
+     "Verdandi",
+     "Présent"
+    ],
+    [
+     "Skuld",
+     "Avenir"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Elles tissent ou gravent le destin de chaque être.",
+   "id": "t047-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque compagnon d’Odin à sa nature.",
+   "paires": [
+    [
+     "Huginn",
+     "Corbeau de la pensée"
+    ],
+    [
+     "Muninn",
+     "Corbeau de la mémoire"
+    ],
+    [
+     "Geri",
+     "Loup glouton"
+    ],
+    [
+     "Sleipnir",
+     "Cheval à huit pattes"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Odin donne sa nourriture à ses loups et ne boit que du vin.",
+   "id": "t047-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque texte à son auteur ou à sa nature.",
+   "paires": [
+    [
+     "Edda en prose",
+     "Snorri Sturluson"
+    ],
+    [
+     "Gesta Danorum",
+     "Saxo Grammaticus"
+    ],
+    [
+     "Völuspá",
+     "Poème anonyme"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Ces textes ont été écrits par des chrétiens, après l’ère viking.",
+   "id": "t047-129",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque déesse à son domaine.",
+   "paires": [
+    [
+     "Frigg",
+     "Foyer et destin"
+    ],
+    [
+     "Freyja",
+     "Amour et magie"
+    ],
+    [
+     "Idunn",
+     "Jeunesse"
+    ],
+    [
+     "Skadi",
+     "Montagne et chasse"
+    ]
+   ],
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Les déesses nordiques sont nombreuses et souvent mal connues.",
+   "id": "t047-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’ai un seul œil\n3. Deux corbeaux m’informent",
+   "choix": [
+    "Odin",
+    "Thor",
+    "Tyr",
+    "Heimdall"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "On m’appelle aussi le Père de tous, ou Allfödr.",
+   "id": "t047-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je porte un marteau\n3. Deux boucs tirent mon char",
+   "choix": [
+    "Thor",
+    "Odin",
+    "Freyr",
+    "Tyr"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Je protège Midgard contre les géants et je bois plus que quiconque.",
+   "id": "t047-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’ai perdu une main\n3. J’ai nourri Fenrir",
+   "choix": [
+    "Tyr",
+    "Odin",
+    "Thor",
+    "Heimdall"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Les Romains m’ont comparé à Mars, d’où le mardi.",
+   "id": "t047-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je garde le pont arc-en-ciel\n3. J’entends l’herbe pousser",
+   "choix": [
+    "Heimdall",
+    "Bragi",
+    "Vidar",
+    "Höd"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Au Ragnarök, Loki et moi nous entretuerons.",
+   "id": "t047-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. Mon char est tiré par des chats\n3. Je porte Brísingamen",
+   "choix": [
+    "Freyja",
+    "Frigg",
+    "Sif",
+    "Idunn"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Je pleure des larmes d’or rouge en cherchant mon époux.",
+   "id": "t047-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un loup\n2. On m’a enchaîné par la ruse\n3. Je dévorerai Odin",
+   "choix": [
+    "Fenrir",
+    "Garm",
+    "Skoll",
+    "Hati"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Je suis le fils de Loki et d’une géante.",
+   "id": "t047-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un serpent\n2. J’entoure le monde\n3. Je me mords la queue",
+   "choix": [
+    "Jörmungand",
+    "Nidhogg",
+    "Fafnir",
+    "Ladon"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Thor et moi nous tuerons mutuellement au Ragnarök.",
+   "id": "t047-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un arbre\n2. Je relie les neuf mondes\n3. Je suis un frêne",
+   "choix": [
+    "Yggdrasil",
+    "Laerad",
+    "Mimameid",
+    "Glasir"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Odin s’est pendu à mes branches pour découvrir les runes.",
+   "id": "t047-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. Je règne sur les morts\n3. Mon visage est à moitié noir",
+   "choix": [
+    "Hel",
+    "Frigg",
+    "Skadi",
+    "Sigyn"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "Je refuse de rendre Baldr tant que tous ne l’auront pas pleuré.",
+   "id": "t047-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. J’étais islandais\n3. J’ai écrit un manuel pour les poètes",
+   "choix": [
+    "Snorri Sturluson",
+    "Saxo Grammaticus",
+    "Egill Skallagrimsson",
+    "Ari le Savant"
+   ],
+   "rep": 0,
+   "src": "Snorri Sturluson, Edda ; Edda poétique",
+   "expl": "J’ai été assassiné en 1241, dans ma propriété de Reykholt.",
+   "id": "t047-140",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

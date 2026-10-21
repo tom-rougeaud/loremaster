@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**46 / 99 thèmes terminés — 6223 questions au total.**
+**47 / 99 thèmes terminés — 6363 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -52,7 +52,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 44 | Mythes de création du monde | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 12/102/6 | 4 | terminé |
 | 45 | Les grands archétypes mythiques | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 12/102/6 | 4 | terminé |
 | 46 | Mythologie grecque (monstres et héros) | 141 | 45 | 18 (9) | 15 | 14 | 12 | 10 | 10 | 9 | 8 | 45 % | 18/111/12 | 8 | terminé |
-| 47 | Mythologie nordique | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 47 | Mythologie nordique | 140 | 46 | 20 (10) | 9 | 13 | 11 | 11 | 10 | 10 | 10 | 47 % | 16/116/8 | 2 | terminé |
 | 48 | Égypte, Celtes et légende arthurienne | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 49 | Folklore slave et yokai japonais | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 50 | Mythes d’Orient (dragons chinois, djinns) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -371,3 +371,4 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - mythes-creation : niveaux déséquilibrés [12, 102, 6]
 - archetypes-mythiques : niveaux déséquilibrés [12, 102, 6]
 - mythologie-grecque : niveaux déséquilibrés [18, 111, 12]
+- mythologie-nordique : niveaux déséquilibrés [16, 116, 8]
