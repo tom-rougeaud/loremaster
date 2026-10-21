@@ -1,0 +1,1989 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "jdr-hors-dnd",
+  "nom": "Jeux de rôle hors D&D",
+  "royaume": "Jeux de rôle, de cartes et de plateau",
+  "icone": "tentacule",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de rôle de 1981 fait enquêter les joueurs sur les horreurs du mythe de Lovecraft ?",
+   "choix": [
+    "L’Appel de Cthulhu",
+    "Vampire : la Mascarade",
+    "Kult",
+    "Chill"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Les investigateurs y perdent plus souvent la raison que la vie.",
+   "id": "t079-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que mesurent les points de Santé mentale de L’Appel de Cthulhu ?",
+   "choix": [
+    "Leur équilibre psychique",
+    "Leur fortune personnelle",
+    "Leur réputation sociale",
+    "Leur endurance physique"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Chaque rencontre avec l’indicible en fait perdre.",
+   "id": "t079-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel éditeur publie L’Appel de Cthulhu ?",
+   "choix": [
+    "Chaosium",
+    "White Wolf",
+    "Games Workshop",
+    "Paizo"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il publie aussi RuneQuest, dès 1978, avant Cthulhu.",
+   "id": "t079-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel jeu de 1991 fait incarner des buveurs de sang immortels dans un monde contemporain sombre ?",
+   "choix": [
+    "Vampire : la Mascarade",
+    "L’Appel de Cthulhu",
+    "Shadowrun",
+    "Nephilim"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Mark Rein-Hagen le crée pour White Wolf.",
+   "id": "t079-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle l’univers commun à Vampire, Loup-garou et Mage ?",
+   "choix": [
+    "Le Monde des Ténèbres",
+    "Le Sixième Monde",
+    "Glorantha",
+    "Le Vieux Monde"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "On y trouve aussi les fées de Changeling et les fantômes de Wraith.",
+   "id": "t079-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle loi impose aux vampires de cacher leur existence aux humains ?",
+   "choix": [
+    "La Mascarade",
+    "La Traque",
+    "La Chasse sauvage",
+    "Le Sabbat"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Elle donne son titre au jeu et structure toute la société vampirique.",
+   "id": "t079-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel clan de Vampire est fait d’êtres à l’apparence monstrueuse vivant dans les égouts ?",
+   "choix": [
+    "Les Nosferatu",
+    "Les Toréador",
+    "Les Ventrue",
+    "Les Brujah"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Ils sont les meilleurs espions de la société vampirique.",
+   "id": "t079-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel clan de Vampire est réputé pour sa folie et ses visions ?",
+   "choix": [
+    "Les Malkaviens",
+    "Les Gangrel",
+    "Les Tremere",
+    "Les Ventrue"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Leur folie leur donne parfois des éclairs de clairvoyance.",
+   "id": "t079-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels dés utilise principalement Vampire : la Mascarade ?",
+   "choix": [
+    "Des réserves de d10",
+    "Un seul d20",
+    "Des d6",
+    "Un d100"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "On compte les dés dont le résultat dépasse un seuil de difficulté.",
+   "id": "t079-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1989 mêle cyberpunk, magie et elfes dans un futur proche ?",
+   "choix": [
+    "Shadowrun",
+    "Cyberpunk 2020",
+    "GURPS",
+    "Traveller"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Les runners y exécutent des missions illégales pour des mégacorporations.",
+   "id": "t079-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur crée le jeu Cyberpunk, qui inspire ensuite le jeu vidéo Cyberpunk 2077 ?",
+   "choix": [
+    "Mike Pondsmith",
+    "Mark Rein-Hagen",
+    "Greg Stafford",
+    "Steve Jackson"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Sa société R. Talsorian Games publie le jeu depuis 1988.",
+   "id": "t079-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de rôle de science-fiction, en 1977, permet à un personnage de mourir pendant sa création ?",
+   "choix": [
+    "Traveller",
+    "Star Wars",
+    "Paranoïa",
+    "Shadowrun"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Les années de service du personnage comportent des risques mortels.",
+   "id": "t079-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la particularité du système GURPS, de Steve Jackson ?",
+   "choix": [
+    "Il convient à tous les genres",
+    "Il se joue sans dés",
+    "Il se joue seul",
+    "Il n’existe qu’en ligne"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Son nom signifie en anglais « système de jeu de rôle générique et universel » ; on y lance trois d6.",
+   "id": "t079-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans Paranoïa, qui dirige le Complexe Alpha ?",
+   "choix": [
+    "L’Ordinateur",
+    "Le Roi",
+    "Le Conseil",
+    "Un dragon"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il soupçonne tout le monde d’être un traître communiste.",
+   "id": "t079-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de clones possède chaque personnage de Paranoïa ?",
+   "choix": [
+    "Six",
+    "Un",
+    "Trois",
+    "Dix"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Ils sont nécessaires, car les personnages meurent très souvent.",
+   "id": "t079-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quel monde se déroule RuneQuest ?",
+   "choix": [
+    "Glorantha",
+    "Aventurie",
+    "Théah",
+    "Rokugan"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Greg Stafford l’a imaginé dès les années 1960.",
+   "id": "t079-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu allemand de 1984 se déroule dans le monde d’Aventurie ?",
+   "choix": [
+    "L’Œil noir",
+    "Warhammer",
+    "RuneQuest",
+    "Midgard"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il est le jeu de rôle le plus joué en Allemagne.",
+   "id": "t079-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Games Workshop, en 1986, attribue aux personnages des carrières comme ratier ou pilleur de tombes ?",
+   "choix": [
+    "Warhammer",
+    "L’Œil noir",
+    "RuneQuest",
+    "Rêve de Dragon"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Son univers sombre et ironique a marqué des générations.",
+   "id": "t079-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est généralement considéré comme le premier jeu de rôle français, publié en 1984 ?",
+   "choix": [
+    "Mega",
+    "Rêve de Dragon",
+    "Maléfices",
+    "In Nomine Satanis"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il paraît d’abord dans la revue Jeux et Stratégie.",
+   "id": "t079-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu français de 1985, de Denis Gerfaud, se déroule dans le songe d’immenses reptiles ailés endormis ?",
+   "choix": [
+    "Rêve de Dragon",
+    "Maléfices",
+    "Mega",
+    "Nephilim"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Le monde y est le songe de dragons endormis.",
+   "id": "t079-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu français fait vivre des aventures fantastiques à la Belle Époque ?",
+   "choix": [
+    "Maléfices",
+    "Rêve de Dragon",
+    "Agone",
+    "Polaris"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il utilise un jeu de tarot pour certaines épreuves.",
+   "id": "t079-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu humoristique français fait jouer des anges et des démons dans le monde moderne ?",
+   "choix": [
+    "In Nomine Satanis",
+    "Nephilim",
+    "Kult",
+    "Vampire"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il est créé par Croc à la fin des années 1980.",
+   "id": "t079-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Croc donne la parole aux armes elles-mêmes, dotées d’une conscience ?",
+   "choix": [
+    "Bloodlust",
+    "In Nomine Satanis",
+    "Polaris",
+    "Agone"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Les joueurs incarnent les armes, et non leurs porteurs.",
+   "id": "t079-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu français de 1992 fait incarner des esprits élémentaires réincarnés dans des humains ?",
+   "choix": [
+    "Nephilim",
+    "Agone",
+    "Shaan",
+    "Mega"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il s’inspire de l’ésotérisme et de l’alchimie.",
+   "id": "t079-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’origine française se déroule dans un futur sous-marin, après une catastrophe ?",
+   "choix": [
+    "Polaris",
+    "Shaan",
+    "Mega",
+    "Agone"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "L’humanité s’y est réfugiée au fond des océans.",
+   "id": "t079-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de rôle français, en version d20, est réputé idéal pour les débutants ?",
+   "choix": [
+    "Chroniques Oubliées",
+    "Agone",
+    "Nephilim",
+    "Kult"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il est publié par Black Book Éditions à partir de 2012.",
+   "id": "t079-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel jeu de 2011 se déroule en Terre du Milieu, dans les décennies qui séparent les deux grands romans de Tolkien ?",
+   "choix": [
+    "L’Anneau unique",
+    "Rolemaster",
+    "La Communauté",
+    "Middle-earth Quest"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Francesco Nepitello en est l’auteur ; une nouvelle édition paraît en 2022.",
+   "id": "t079-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel éditeur suédois publie Mutant : Année Zéro, Alien et Vaesen ?",
+   "choix": [
+    "Free League",
+    "Paizo",
+    "Chaosium",
+    "Modiphius"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Son nom suédois est Fria Ligan, la Ligue libre.",
+   "id": "t079-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu suédois de 2017 s’inspire des tableaux de Simon Stålenhag ?",
+   "choix": [
+    "Tales from the Loop",
+    "Vaesen",
+    "Kult",
+    "Mutant"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "On y joue des enfants dans des années 1980 alternatives, peuplées de robots.",
+   "id": "t079-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2020 fait enquêter sur les créatures du folklore nordique du 19e siècle ?",
+   "choix": [
+    "Vaesen",
+    "Kult",
+    "Tales from the Loop",
+    "Symbaroum"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Seuls ceux qui ont le Don peuvent voir ces créatures.",
+   "id": "t079-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel jeu de John Harper, en 2017, fait incarner une bande de criminels dans une ville hantée ?",
+   "choix": [
+    "Blades in the Dark",
+    "Shadowrun",
+    "Dishonored",
+    "Fiasco"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "La ville industrielle de Doskvol est plongée dans une nuit permanente.",
+   "id": "t079-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2009 se joue sans meneur et raconte des plans foireux à la manière des frères Coen ?",
+   "choix": [
+    "Fiasco",
+    "Dread",
+    "Paranoïa",
+    "Kult"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Tout part en vrille, et c’est justement le but du jeu.",
+   "id": "t079-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’horreur de 2005 remplace les dés par une tour de Jenga ?",
+   "choix": [
+    "Dread",
+    "Fiasco",
+    "Kult",
+    "Chill"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Si la tour tombe, le personnage meurt ou disparaît.",
+   "id": "t079-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1997 se déroule à Rokugan, empire inspiré du Japon féodal ?",
+   "choix": [
+    "Les Cinq Anneaux",
+    "Bushido",
+    "Kamigawa",
+    "Tenra Bansho"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "L’honneur des samouraïs y compte plus que leur vie.",
+   "id": "t079-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de cape et d’épée se déroule sur Théah, sorte d’Europe du 17e siècle ?",
+   "choix": [
+    "7th Sea",
+    "Ars Magica",
+    "Warhammer",
+    "Pavillon Noir"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "On y croise pirates, mousquetaires et sorciers.",
+   "id": "t079-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1987 fait incarner des mages d’un ordre hermétique dans une Europe mythique médiévale ?",
+   "choix": [
+    "Ars Magica",
+    "Mage : l’Ascension",
+    "Nephilim",
+    "RuneQuest"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Les mages y vivent en communautés appelées alliances.",
+   "id": "t079-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel système générique, créé en 2003, est célèbre pour son slogan « rapide, fun et furieux » ?",
+   "choix": [
+    "Savage Worlds",
+    "GURPS",
+    "FATE",
+    "Cypher System"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il est l’héritier de Deadlands, un western fantastique de 1996.",
+   "id": "t079-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu suédois d’horreur, en 1991, révèle que la réalité est une prison créée par un démiurge ?",
+   "choix": [
+    "Kult",
+    "Vampire",
+    "Chill",
+    "Nephilim"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Il est réputé pour ses thèmes très dérangeants.",
+   "id": "t079-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de rôle de Fantasy Flight, lancé en 2012, utilise des dés narratifs à symboles ?",
+   "choix": [
+    "Star Wars",
+    "Shadowrun",
+    "Warhammer 40,000",
+    "GURPS"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Ses dés indiquent la réussite, mais aussi l’avantage, la menace ou le triomphe.",
+   "id": "t079-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Monte Cook se déroule un milliard d’années dans le futur, parmi les ruines de civilisations oubliées ?",
+   "choix": [
+    "Numenera",
+    "Traveller",
+    "Shadowrun",
+    "Polaris"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2011-2014) ; Le Grog, guide du rôliste galactique (legrog.org) ; sites des éditeurs (Chaosium, Renegade/White Wolf, Free League, Black Book Éditions, Arkhane Asylum, Evil Hat) ; Casus Belli (archives)",
+   "expl": "Financé en 2012 sur Kickstarter, il a lancé le Cypher System.",
+   "id": "t079-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Appel de Cthulhu est publié par Chaosium.",
+   "rep": true,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "La septième édition du jeu paraît en 2014.",
+   "id": "t079-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Vampire : la Mascarade utilise surtout le d20.",
+   "rep": false,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Faux : il utilise des réserves de dés à dix faces.",
+   "id": "t079-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Shadowrun mêle magie et technologie.",
+   "rep": true,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Les elfes et les nains y côtoient les hackers.",
+   "id": "t079-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Mega est un jeu de rôle américain.",
+   "rep": false,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Faux : il est considéré comme le premier jeu de rôle français.",
+   "id": "t079-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Paranoïa est un jeu humoristique.",
+   "rep": true,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ses personnages se trahissent et meurent sans cesse.",
+   "id": "t079-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Œil noir vient du Japon.",
+   "rep": false,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Faux : il vient d’Allemagne, où il est très populaire.",
+   "id": "t079-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Free League est un éditeur suédois.",
+   "rep": true,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Il publie notamment les jeux Alien et Vaesen.",
+   "id": "t079-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Bloodlust, les joueurs incarnent des dragons.",
+   "rep": false,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Faux : ils incarnent des armes conscientes.",
+   "id": "t079-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dread utilise une tour de Jenga.",
+   "rep": true,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Chaque action risquée oblige à retirer une brique.",
+   "id": "t079-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Fiasco nécessite un meneur de jeu expérimenté.",
+   "rep": false,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Faux : il se joue sans aucun meneur, à trois ou cinq joueurs.",
+   "id": "t079-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Cyberpunk a été créé par Mike Pondsmith.",
+   "rep": true,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Il a travaillé avec CD Projekt Red sur Cyberpunk 2077.",
+   "id": "t079-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Rêve de Dragon est un jeu de science-fiction.",
+   "rep": false,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Faux : c’est un jeu de fantasy onirique.",
+   "id": "t079-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Glorantha est le monde de RuneQuest.",
+   "rep": true,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ses dieux et ses mythes sont d’une richesse rare.",
+   "id": "t079-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Nosferatu sont célèbres pour leur beauté.",
+   "rep": false,
+   "src": "Appelcline ; Le Grog",
+   "expl": "Faux : ils sont défigurés par la malédiction de leur clan.",
+   "id": "t079-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît L’Appel de Cthulhu ?",
+   "rep": 1981,
+   "min": 1970,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Appelcline ; Le Grog",
+   "expl": "Sandy Petersen en est le principal auteur.",
+   "id": "t079-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Vampire : la Mascarade ?",
+   "rep": 1991,
+   "min": 1980,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Appelcline ; Le Grog",
+   "expl": "Le jeu attire un nouveau public, plus intéressé par l’intrigue que par le combat.",
+   "id": "t079-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de clones possède un personnage de Paranoïa ?",
+   "rep": 6,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "clones",
+   "tolerance": 0,
+   "src": "Appelcline ; Le Grog",
+   "expl": "On les numérote pour suivre les morts successives.",
+   "id": "t079-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Mega, premier jeu de rôle français ?",
+   "rep": 1984,
+   "min": 1975,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Appelcline ; Le Grog",
+   "expl": "Il est imprimé dans un numéro hors-série de Jeux et Stratégie.",
+   "id": "t079-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Shadowrun ?",
+   "rep": 1989,
+   "min": 1980,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Appelcline ; Le Grog",
+   "expl": "Son univers débute en 2050 dans la première édition.",
+   "id": "t079-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Traveller ?",
+   "rep": 1977,
+   "min": 1970,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Appelcline ; Le Grog",
+   "expl": "Il est l’un des tout premiers jeux de rôle de science-fiction.",
+   "id": "t079-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Blades in the Dark ?",
+   "rep": 2017,
+   "min": 2005,
+   "max": 2023,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Appelcline ; Le Grog",
+   "expl": "Le jeu a lancé la famille de systèmes « Forged in the Dark ».",
+   "id": "t079-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de faces ont les dés de Vampire : la Mascarade ?",
+   "rep": 10,
+   "min": 6,
+   "max": 20,
+   "pas": 1,
+   "unite": "faces",
+   "tolerance": 0,
+   "src": "Appelcline ; Le Grog",
+   "expl": "On en lance autant que la somme d’un attribut et d’une compétence.",
+   "id": "t079-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le jeu de rôle d’horreur lovecraftienne s’appelle L’Appel de ____.",
+   "choix": [
+    "Cthulhu",
+    "Dagon",
+    "Nyarlathotep",
+    "Azathoth"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Les investigateurs y affrontent le Mythe.",
+   "id": "t079-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’univers de Vampire s’appelle le Monde des ____.",
+   "choix": [
+    "Ténèbres",
+    "Ombres",
+    "Morts",
+    "Vampires"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "White Wolf l’a développé dans les années 1990.",
+   "id": "t079-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La loi du secret des vampires s’appelle la ____.",
+   "choix": [
+    "Mascarade",
+    "Masquerade",
+    "Comédie",
+    "Discrétion"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "La violer est le pire des crimes chez les vampires.",
+   "id": "t079-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monde de RuneQuest s’appelle ____.",
+   "choix": [
+    "Glorantha",
+    "Gloriana",
+    "Golarion",
+    "Greyhawk"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Golarion, lui, est le monde de Pathfinder.",
+   "id": "t079-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le premier jeu de rôle français s’appelle ____.",
+   "choix": [
+    "Mega",
+    "Méga-Donjon",
+    "Magna",
+    "Méta"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Il fait voyager des agents entre les mondes.",
+   "id": "t079-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu des armes conscientes s’appelle ____.",
+   "choix": [
+    "Bloodlust",
+    "Bloodborne",
+    "Bloodbath",
+    "Bloodline"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Son univers brutal et sensuel s’appelle Tanæphis.",
+   "id": "t079-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de Denis Gerfaud s’appelle Rêve de ____.",
+   "choix": [
+    "Dragon",
+    "Licorne",
+    "Sorcier",
+    "Sable"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ses règles de magie sont réputées très originales.",
+   "id": "t079-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’éditeur suédois de Vaesen s’appelle Free ____.",
+   "choix": [
+    "League",
+    "Lords",
+    "Lands",
+    "Legion"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ses jeux utilisent souvent le Year Zero Engine.",
+   "id": "t079-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu cyberpunk et magique de FASA s’appelle ____.",
+   "choix": [
+    "Shadowrun",
+    "Shadowfall",
+    "Darkrun",
+    "Netrunner"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Netrunner est un jeu de cartes dérivé de Cyberpunk.",
+   "id": "t079-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu d’horreur à la tour de Jenga s’appelle ____.",
+   "choix": [
+    "Dread",
+    "Dead",
+    "Fear",
+    "Doom"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Le mot anglais signifie « effroi » ou « terreur ».",
+   "id": "t079-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le créateur de Cyberpunk s’appelle Mike ____.",
+   "choix": [
+    "Pondsmith",
+    "Pondman",
+    "Ponds",
+    "Poundsmith"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Il est l’un des rares créateurs afro-américains historiques du jeu de rôle.",
+   "id": "t079-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le clan des vampires fous s’appelle les ____.",
+   "choix": [
+    "Malkaviens",
+    "Mélusiens",
+    "Marquisiens",
+    "Maltésiens"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Leur fondateur, Malkav, aurait transmis sa démence à toute sa lignée.",
+   "id": "t079-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le monde de L’Œil noir s’appelle l’____.",
+   "choix": [
+    "Aventurie",
+    "Avalonie",
+    "Arcadie",
+    "Aquilonie"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "L’Aquilonie, elle, est le royaume de Conan.",
+   "id": "t079-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces jeux n’est pas un jeu d’horreur ?",
+   "choix": [
+    "Paranoïa",
+    "L’Appel de Cthulhu",
+    "Kult",
+    "Dread"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Paranoïa est une satire humoristique d’un futur totalitaire.",
+   "id": "t079-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas français ?",
+   "choix": [
+    "Shadowrun",
+    "Mega",
+    "Rêve de Dragon",
+    "Bloodlust"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Shadowrun est un jeu américain, publié par FASA.",
+   "id": "t079-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’appartient pas au Monde des Ténèbres ?",
+   "choix": [
+    "Kult",
+    "Vampire",
+    "Loup-garou",
+    "Mage"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Kult est un jeu suédois indépendant de 1991.",
+   "id": "t079-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas publié par Free League ?",
+   "choix": [
+    "Pathfinder",
+    "Alien",
+    "Vaesen",
+    "Tales from the Loop"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Pathfinder est publié par l’américain Paizo.",
+   "id": "t079-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces clans n’existe pas dans Vampire ?",
+   "choix": [
+    "Les Lycans",
+    "Les Nosferatu",
+    "Les Ventrue",
+    "Les Toréador"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Les lycanthropes appartiennent à Loup-garou : l’Apocalypse.",
+   "id": "t079-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux ne se passe pas dans le futur ?",
+   "choix": [
+    "Ars Magica",
+    "Shadowrun",
+    "Cyberpunk",
+    "Traveller"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ars Magica se déroule dans une Europe médiévale mythique.",
+   "id": "t079-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux se joue sans meneur ?",
+   "choix": [
+    "Fiasco",
+    "L’Appel de Cthulhu",
+    "Vampire",
+    "Warhammer"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Les joueurs y partagent la narration à tour de rôle.",
+   "id": "t079-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces jeux n’a pas été créé par Croc ?",
+   "choix": [
+    "Nephilim",
+    "In Nomine Satanis",
+    "Bloodlust",
+    "Animonde"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Nephilim est publié par Multisim, un autre éditeur français.",
+   "id": "t079-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mondes n’est pas un univers de jeu de rôle ?",
+   "choix": [
+    "Hogwarts",
+    "Glorantha",
+    "Aventurie",
+    "Rokugan"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Poudlard appartient aux romans de Harry Potter.",
+   "id": "t079-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’utilise pas principalement le d100 ?",
+   "choix": [
+    "Vampire",
+    "L’Appel de Cthulhu",
+    "Warhammer",
+    "RuneQuest"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Vampire utilise des réserves de dés à dix faces.",
+   "id": "t079-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels jeux appartiennent au Monde des Ténèbres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vampire",
+    "Loup-garou",
+    "Mage",
+    "Shadowrun",
+    "Kult"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Changeling, Wraith et Chasseur complètent la gamme.",
+   "id": "t079-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux sont français ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mega",
+    "Rêve de Dragon",
+    "Maléfices",
+    "Bloodlust",
+    "Kult",
+    "Traveller"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Les années 1980 voient naître de nombreux jeux français.",
+   "id": "t079-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont publiés par Free League ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Alien",
+    "Vaesen",
+    "Tales from the Loop",
+    "Vampire",
+    "GURPS"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "L’éditeur suédois est connu pour la beauté de ses livres.",
+   "id": "t079-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont des jeux d’horreur ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’Appel de Cthulhu",
+    "Kult",
+    "Dread",
+    "Paranoïa",
+    "7th Sea"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Chacun aborde la peur de façon différente.",
+   "id": "t079-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux se passent dans un futur cyberpunk ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Shadowrun",
+    "Cyberpunk",
+    "Ars Magica",
+    "La Légende des Cinq Anneaux"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Le cyberpunk mêle haute technologie et basse condition de vie.",
+   "id": "t079-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels clans existent dans Vampire ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Brujah",
+    "Gangrel",
+    "Tremere",
+    "Ventrue",
+    "Lycans",
+    "Elfes noirs"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Les Tremere sont d’anciens mages devenus vampires.",
+   "id": "t079-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux se jouent sans meneur ou avec un meneur partagé ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fiasco",
+    "Microscope",
+    "L’Appel de Cthulhu",
+    "Warhammer"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Microscope fait créer collectivement l’histoire d’un monde.",
+   "id": "t079-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux ont été créés par Croc ? (plusieurs bonnes réponses)",
+   "choix": [
+    "In Nomine Satanis",
+    "Bloodlust",
+    "Nephilim",
+    "Rêve de Dragon"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Croc a aussi créé Animonde, un univers onirique.",
+   "id": "t079-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux s’inspirent d’Asie ou de l’Europe historique ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La Légende des Cinq Anneaux",
+    "7th Sea",
+    "Ars Magica",
+    "Shadowrun",
+    "Traveller"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces mondes revisitent librement des cultures réelles.",
+   "id": "t079-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux utilisent des dés spéciaux ou un accessoire inhabituel ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dread",
+    "Star Wars de Fantasy Flight",
+    "Maléfices",
+    "Pathfinder",
+    "GURPS"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Dread utilise une tour de Jenga, Maléfices un tarot.",
+   "id": "t079-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces jeux par date de parution.",
+   "items": [
+    "Traveller",
+    "L’Appel de Cthulhu",
+    "Vampire : la Mascarade",
+    "Blades in the Dark"
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces jeux paraissent en 1977, 1981, 1991 puis 2017.",
+   "id": "t079-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux français par date de parution.",
+   "items": [
+    "Mega",
+    "Rêve de Dragon",
+    "In Nomine Satanis",
+    "Nephilim"
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces jeux paraissent en 1984, 1985, 1989 puis 1992.",
+   "id": "t079-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux de Chaosium et White Wolf par date de parution.",
+   "items": [
+    "RuneQuest",
+    "L’Appel de Cthulhu",
+    "Vampire",
+    "Mage"
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces jeux paraissent en 1978, 1981, 1991 puis 1993.",
+   "id": "t079-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux de science-fiction par date de parution.",
+   "items": [
+    "Traveller",
+    "Paranoïa",
+    "Cyberpunk",
+    "Shadowrun"
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces jeux paraissent en 1977, 1984, 1988 puis 1989.",
+   "id": "t079-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux de Free League par date de parution.",
+   "items": [
+    "Mutant : Année Zéro",
+    "Tales from the Loop",
+    "Alien",
+    "Vaesen"
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces jeux paraissent en 2014, 2017, 2019 puis 2020.",
+   "id": "t079-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux indépendants par date de parution.",
+   "items": [
+    "Dread",
+    "Fiasco",
+    "Apocalypse World",
+    "Blades in the Dark"
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces jeux paraissent en 2005, 2009, 2010 puis 2017.",
+   "id": "t079-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux en Terre du Milieu par date de parution.",
+   "items": [
+    "Le Jeu de rôle des Terres du Milieu",
+    "L’Anneau unique, première édition",
+    "L’Anneau unique, deuxième édition"
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces jeux paraissent en 1982, 2011 puis 2022.",
+   "id": "t079-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux d’Asie et d’Europe historique par date.",
+   "items": [
+    "Ars Magica",
+    "La Légende des Cinq Anneaux",
+    "7th Sea"
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces jeux paraissent en 1987, 1997 puis 1999.",
+   "id": "t079-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux génériques par date de parution.",
+   "items": [
+    "GURPS",
+    "Savage Worlds",
+    "FATE Core"
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces systèmes paraissent en 1986, 2003 puis 2013.",
+   "id": "t079-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque jeu à son genre.",
+   "paires": [
+    [
+     "L’Appel de Cthulhu",
+     "Horreur"
+    ],
+    [
+     "Shadowrun",
+     "Cyberpunk fantastique"
+    ],
+    [
+     "Paranoïa",
+     "Satire"
+    ],
+    [
+     "Ars Magica",
+     "Fantasy historique"
+    ]
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Les jeux de rôle couvrent tous les genres.",
+   "id": "t079-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son monde.",
+   "paires": [
+    [
+     "RuneQuest",
+     "Glorantha"
+    ],
+    [
+     "L’Œil noir",
+     "Aventurie"
+    ],
+    [
+     "7th Sea",
+     "Théah"
+    ],
+    [
+     "La Légende des Cinq Anneaux",
+     "Rokugan"
+    ]
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Chaque monde a été développé dans des dizaines de suppléments.",
+   "id": "t079-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son éditeur.",
+   "paires": [
+    [
+     "L’Appel de Cthulhu",
+     "Chaosium"
+    ],
+    [
+     "Vampire",
+     "White Wolf"
+    ],
+    [
+     "Alien",
+     "Free League"
+    ],
+    [
+     "Pathfinder",
+     "Paizo"
+    ]
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Les éditeurs façonnent l’identité de leurs jeux.",
+   "id": "t079-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son pays.",
+   "paires": [
+    [
+     "Kult",
+     "Suède"
+    ],
+    [
+     "L’Œil noir",
+     "Allemagne"
+    ],
+    [
+     "Mega",
+     "France"
+    ],
+    [
+     "Shadowrun",
+     "États-Unis"
+    ]
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Le jeu de rôle s’est développé dans de nombreux pays.",
+   "id": "t079-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son accessoire.",
+   "paires": [
+    [
+     "Dread",
+     "Tour de Jenga"
+    ],
+    [
+     "Maléfices",
+     "Tarot"
+    ],
+    [
+     "Vampire",
+     "d10"
+    ]
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Certains jeux se distinguent par leur matériel.",
+   "id": "t079-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque créateur à son jeu.",
+   "paires": [
+    [
+     "Mike Pondsmith",
+     "Cyberpunk"
+    ],
+    [
+     "Mark Rein-Hagen",
+     "Vampire"
+    ],
+    [
+     "John Harper",
+     "Blades in the Dark"
+    ],
+    [
+     "Denis Gerfaud",
+     "Rêve de Dragon"
+    ]
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Ces créateurs ont marqué l’histoire du loisir.",
+   "id": "t079-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque clan à sa réputation.",
+   "paires": [
+    [
+     "Nosferatu",
+     "Laideur et espionnage"
+    ],
+    [
+     "Malkaviens",
+     "Folie"
+    ],
+    [
+     "Toréador",
+     "Arts et beauté"
+    ],
+    [
+     "Ventrue",
+     "Pouvoir et noblesse"
+    ]
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Chaque clan a ses forces et ses malédictions.",
+   "id": "t079-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son thème.",
+   "paires": [
+    [
+     "Vaesen",
+     "Folklore nordique"
+    ],
+    [
+     "Tales from the Loop",
+     "Enfance et robots"
+    ],
+    [
+     "Blades in the Dark",
+     "Bande criminelle"
+    ]
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Les jeux récents misent sur des concepts forts.",
+   "id": "t079-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu français à son univers.",
+   "paires": [
+    [
+     "Bloodlust",
+     "Tanæphis"
+    ],
+    [
+     "Polaris",
+     "Fonds marins"
+    ],
+    [
+     "Maléfices",
+     "Belle Époque"
+    ],
+    [
+     "Nephilim",
+     "Esprits élémentaires"
+    ]
+   ],
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "La création française a exploré des univers très variés.",
+   "id": "t079-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis né en 1981\n3. Mes héros perdent la raison",
+   "choix": [
+    "L’Appel de Cthulhu",
+    "Kult",
+    "Vampire",
+    "Dread"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Mes investigateurs vivent souvent dans les années 1920.",
+   "id": "t079-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis né en 1991\n3. Je fais jouer des prédateurs nocturnes",
+   "choix": [
+    "Vampire : la Mascarade",
+    "Nephilim",
+    "Kult",
+    "Bloodlust"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Mon univers s’appelle le Monde des Ténèbres.",
+   "id": "t079-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis français\n3. On y incarne des armes",
+   "choix": [
+    "Bloodlust",
+    "Mega",
+    "Polaris",
+    "Agone"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Mon créateur, un auteur français, se fait appeler Croc.",
+   "id": "t079-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis humoristique\n3. L’Ordinateur est mon maître",
+   "choix": [
+    "Paranoïa",
+    "Fiasco",
+    "Kult",
+    "Traveller"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Mes personnages disposent chacun de six clones.",
+   "id": "t079-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je mêle elfes et hackers\n3. Je suis né en 1989",
+   "choix": [
+    "Shadowrun",
+    "Cyberpunk",
+    "GURPS",
+    "Earthdawn"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Mon univers s’appelle le Sixième Monde, réveillé par la magie.",
+   "id": "t079-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis le premier jeu de rôle français\n3. Je suis né en 1984",
+   "choix": [
+    "Mega",
+    "Rêve de Dragon",
+    "Maléfices",
+    "Légendes"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "J’ai paru dans la revue Jeux et Stratégie.",
+   "id": "t079-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. J’ai une tour de bois\n3. Si je tombe, ton personnage meurt",
+   "choix": [
+    "Dread",
+    "Jenga",
+    "Fiasco",
+    "Kult"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Je suis né en 2005, aux États-Unis, grâce à Epidiah Ravachol.",
+   "id": "t079-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis suédois\n3. Je montre des robots dans les années 1980",
+   "choix": [
+    "Tales from the Loop",
+    "Vaesen",
+    "Kult",
+    "Mutant"
+   ],
+   "rep": 0,
+   "src": "Appelcline ; Le Grog ; éditeurs",
+   "expl": "Je m’inspire des tableaux de Simon Stålenhag.",
+   "id": "t079-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
