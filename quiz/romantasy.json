@@ -1,0 +1,2004 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "romantasy",
+  "nom": "Romantasy et Young Adult modernes",
+  "royaume": "Magie, littérature et univers fantasy",
+  "icone": "dragon",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot-valise désigne les récits mêlant romance et fantasy ?",
+   "choix": [
+    "Romantasy",
+    "Fantromance",
+    "Lovefantasy",
+    "Dark romance"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Le terme s’impose dans les années 2020 grâce aux réseaux sociaux.",
+   "id": "t072-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quel réseau social la communauté #BookTok a-t-elle fait exploser les ventes de romantasy ?",
+   "choix": [
+    "TikTok",
+    "Facebook",
+    "LinkedIn",
+    "Pinterest"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Des vidéos de lecteurs en larmes ou enthousiastes y ont relancé des livres parfois anciens.",
+   "id": "t072-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle autrice américaine a écrit Un palais d’épines et de roses ?",
+   "choix": [
+    "Sarah J. Maas",
+    "Rebecca Yarros",
+    "Holly Black",
+    "Leigh Bardugo"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "La saga commence en 2015 et a fait de son autrice une star de la romantasy.",
+   "id": "t072-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle l’héroïne chasseuse d’Un palais d’épines et de roses ?",
+   "choix": [
+    "Feyre",
+    "Celaena",
+    "Violet",
+    "Poppy"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Elle tue un loup qui se révèle être un faë, ce qui l’entraîne à Prythian.",
+   "id": "t072-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conte Un palais d’épines et de roses revisite-t-il au départ ?",
+   "choix": [
+    "La Belle et la Bête",
+    "Cendrillon",
+    "Raiponce",
+    "Blanche-Neige"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Il mêle aussi la ballade écossaise de Tam Lin.",
+   "id": "t072-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le grand seigneur de la Cour de la Nuit chez Sarah J. Maas ?",
+   "choix": [
+    "Rhysand",
+    "Tamlin",
+    "Cardan",
+    "Xaden"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Il passe du statut d’ennemi à celui de compagnon de Feyre.",
+   "id": "t072-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle saga de Sarah J. Maas suit une jeune assassin, Celaena Sardothien ?",
+   "choix": [
+    "Throne of Glass",
+    "Crescent City",
+    "Shadow and Bone",
+    "La Passe-miroir"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Le premier tome paraît en 2012 et la saga en compte huit.",
+   "id": "t072-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Rebecca Yarros, paru en 2023, se déroule dans une école de cavaliers de dragons ?",
+   "choix": [
+    "Fourth Wing",
+    "Iron Flame",
+    "Red Queen",
+    "Caraval"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Il devient l’un des plus gros succès de librairie de l’année.",
+   "id": "t072-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle l’héroïne de Fourth Wing ?",
+   "choix": [
+    "Violet Sorrengail",
+    "Feyre Archeron",
+    "Jude Duarte",
+    "Mare Barrow"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Fragile physiquement, elle est forcée par sa mère, générale, de rejoindre les cavaliers.",
+   "id": "t072-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment s’appelle l’école militaire de Fourth Wing ?",
+   "choix": [
+    "Basgiath",
+    "Poudlard",
+    "Ketterdam",
+    "Velaris"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Le passage du Parapet, une étroite muraille, élimine de nombreux cadets dès le premier jour.",
+   "id": "t072-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment s’appelle le grand dragon noir qui choisit Violet ?",
+   "choix": [
+    "Tairn",
+    "Smaug",
+    "Drogon",
+    "Toothless"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Il est accompagné d’une petite dragonne dorée, Andarna.",
+   "id": "t072-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le nom de la série dont Fourth Wing est le premier tome ?",
+   "choix": [
+    "L’Empyrée",
+    "Les Ailes d’argent",
+    "Le Trône de fer",
+    "La Cour de la Nuit"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Iron Flame et Onyx Storm en sont les suites.",
+   "id": "t072-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle autrice écrit Le Prince cruel, en 2018 ?",
+   "choix": [
+    "Holly Black",
+    "Sarah J. Maas",
+    "Cassandra Clare",
+    "Stephanie Garber"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Elle a aussi cocréé Les Chroniques de Spiderwick.",
+   "id": "t072-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle l’héroïne humaine élevée au pays des faës dans Le Prince cruel ?",
+   "choix": [
+    "Jude Duarte",
+    "Feyre",
+    "Clary Fray",
+    "Poppy"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Elle veut à tout prix devenir chevalier à la cour d’Elfhame.",
+   "id": "t072-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle autrice crée l’univers du Grishaverse, avec Shadow and Bone ?",
+   "choix": [
+    "Leigh Bardugo",
+    "Victoria Aveyard",
+    "Laini Taylor",
+    "Marissa Meyer"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Son monde s’inspire de la Russie tsariste et des Pays-Bas du 17e siècle.",
+   "id": "t072-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pouvoir rare possède Alina Starkov dans Shadow and Bone ?",
+   "choix": [
+    "Invoquer la lumière",
+    "Contrôler les ombres",
+    "Lire les pensées",
+    "Voler"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Elle est la seule à pouvoir détruire le Shadow Fold.",
+   "id": "t072-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le chef de bande génial et sans scrupules de Six of Crows ?",
+   "choix": [
+    "Kaz Brekker",
+    "Le Darkling",
+    "Cardan",
+    "Rhysand"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Il prépare un cambriolage impossible avec cinq complices.",
+   "id": "t072-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle saga de Suzanne Collins met en scène des jeux télévisés mortels ?",
+   "choix": [
+    "Hunger Games",
+    "Divergente",
+    "Le Labyrinthe",
+    "La Sélection"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Le premier tome paraît en 2008 et lance la vague dystopique.",
+   "id": "t072-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quel district vient Katniss Everdeen ?",
+   "choix": [
+    "Le district 12",
+    "Le district 1",
+    "Le Capitole",
+    "Le district 13"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "C’est le plus pauvre, voué à l’extraction du charbon.",
+   "id": "t072-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel oiseau devient le symbole de la révolte dans Hunger Games ?",
+   "choix": [
+    "Le geai moqueur",
+    "Le corbeau",
+    "Le phénix",
+    "La colombe"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "C’est un hybride né d’une expérience ratée du Capitole.",
+   "id": "t072-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel personnage est au centre du préquel Lever de soleil sur la moisson, paru en 2025 ?",
+   "choix": [
+    "Haymitch Abernathy",
+    "Coriolanus Snow",
+    "Peeta Mellark",
+    "Finnick Odair"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Il raconte les jeux remportés par le futur mentor de Katniss.",
+   "id": "t072-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel préquel de 2020 raconte la jeunesse du président Snow ?",
+   "choix": [
+    "La Ballade du serpent et de l’oiseau chanteur",
+    "Lever de soleil sur la moisson",
+    "L’Embrasement",
+    "La Révolte"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Il a été adapté au cinéma en 2023, avec Tom Blyth.",
+   "id": "t072-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans Divergente, combien de factions organisent la société ?",
+   "choix": [
+    "Cinq",
+    "Trois",
+    "Sept",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Altruistes, Audacieux, Érudits, Fraternels et Sincères.",
+   "id": "t072-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle faction Tris choisit-elle dans Divergente ?",
+   "choix": [
+    "Les Audacieux",
+    "Les Altruistes",
+    "Les Érudits",
+    "Les Sincères"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Elle quitte ainsi sa famille, qui appartient aux Altruistes.",
+   "id": "t072-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville de l’État de Washington se déroule Twilight ?",
+   "choix": [
+    "Forks",
+    "Seattle",
+    "Salem",
+    "Sunnydale"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "La petite ville pluvieuse est devenue un lieu de pèlerinage.",
+   "id": "t072-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que font les vampires de Twilight au soleil ?",
+   "choix": [
+    "Leur peau scintille",
+    "Ils brûlent",
+    "Ils deviennent invisibles",
+    "Ils s’endorment"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "C’est pour cela qu’ils évitent les jours ensoleillés.",
+   "id": "t072-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de 2020 raconte Twilight du point de vue d’Edward ?",
+   "choix": [
+    "Midnight Sun",
+    "New Moon",
+    "Breaking Dawn",
+    "Eclipse"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Stephenie Meyer avait interrompu son écriture en 2008 après une fuite du manuscrit.",
+   "id": "t072-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les guerriers à sang d’ange de Cassandra Clare ?",
+   "choix": [
+    "Les Chasseurs d’ombres",
+    "Les Veilleurs",
+    "Les Grisha",
+    "Les Fae"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Ils traquent les démons à New York dans La Cité des ténèbres, en 2007.",
+   "id": "t072-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "De quel dieu Percy Jackson est-il le fils ?",
+   "choix": [
+    "Poséidon",
+    "Zeus",
+    "Hadès",
+    "Apollon"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Il apprend sa véritable nature à douze ans, en arrivant à la Colonie des Sang-Mêlé.",
+   "id": "t072-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Red Queen de Victoria Aveyard, qu’est-ce qui divise la société ?",
+   "choix": [
+    "La couleur du sang",
+    "La couleur des yeux",
+    "Le métier",
+    "La magie des noms"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Les Argents ont des pouvoirs et règnent sur les Rouges, simples humains.",
+   "id": "t072-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle saga de Marissa Meyer imagine une Cendrillon cyborg ?",
+   "choix": [
+    "Les Chroniques lunaires",
+    "La Sélection",
+    "Caraval",
+    "Throne of Glass"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Le premier tome s’intitule Cinder et paraît en 2012.",
+   "id": "t072-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle autrice nigériane-américaine écrit De sang et de rage, inspiré de la culture yoruba ?",
+   "choix": [
+    "Tomi Adeyemi",
+    "Nnedi Okorafor",
+    "Chimamanda Ngozi Adichie",
+    "Akwaeke Emezi"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "L’héroïne, Zélie, veut ramener la magie dans le royaume d’Orïsha.",
+   "id": "t072-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle autrice française écrit La Passe-miroir, saga d’Ophélie ?",
+   "choix": [
+    "Christelle Dabos",
+    "Victor Dixen",
+    "Pierre Bottero",
+    "Samantha Bailly"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Le premier tome remporte en 2013 le concours du premier roman jeunesse de Gallimard.",
+   "id": "t072-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel don possède Ophélie, en plus de traverser les reflets ?",
+   "choix": [
+    "Lire le passé des objets",
+    "Voler dans les airs",
+    "Parler aux animaux",
+    "Devenir invisible"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Elle est « liseuse » et « passe-miroir » sur l’arche d’Anima.",
+   "id": "t072-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est le fiancé imposé à Ophélie dans Les Fiancés de l’hiver ?",
+   "choix": [
+    "Thorn",
+    "Archibald",
+    "Farouk",
+    "Renard"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Il vit au Pôle, une arche glaciale et pleine d’intrigues.",
+   "id": "t072-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel trope désigne deux personnages qui se détestent avant de s’aimer ?",
+   "choix": [
+    "Ennemis amoureux",
+    "Âmes sœurs",
+    "Triangle amoureux",
+    "Coup de foudre"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Feyre et Rhysand ou Jude et Cardan en sont des exemples célèbres.",
+   "id": "t072-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel trope désigne l’amour qui naît très lentement, au fil des tomes ?",
+   "choix": [
+    "Le slow burn",
+    "Le fake dating",
+    "Le second chance",
+    "L’insta-love"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Les lecteurs en savourent l’attente, parfois pendant des centaines de pages.",
+   "id": "t072-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle catégorie éditoriale vise des héros de 18 à 25 ans, entre jeunesse et adulte ?",
+   "choix": [
+    "Le new adult",
+    "Le middle grade",
+    "Le young adult",
+    "Le seinen"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "La romantasy relève souvent de cette catégorie, avec des scènes plus explicites.",
+   "id": "t072-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle saga de Jennifer L. Armentrout commence en 2020 avec la jeune Poppy, « la Vierge » ?",
+   "choix": [
+    "Le Sang et la Cendre",
+    "Throne of Glass",
+    "Divergente",
+    "Les Chroniques lunaires"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Le titre original est From Blood and Ash.",
+   "id": "t072-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Stephanie Garber se déroule dans un jeu magique où rien n’est vrai ?",
+   "choix": [
+    "Caraval",
+    "Red Queen",
+    "Cinder",
+    "Uprooted"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "Scarlett y cherche sa sœur Donatella, enlevée par le maître du jeu.",
+   "id": "t072-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Naomi Novik, en 2015, met en scène une jeune fille choisie par un sorcier appelé le Dragon ?",
+   "choix": [
+    "Déracinée",
+    "Fourth Wing",
+    "Caraval",
+    "Le Prince cruel"
+   ],
+   "rep": 0,
+   "src": "Sites officiels des auteurs et éditeurs (Bloomsbury, Entangled, Scholastic, Gallimard Jeunesse, La Martinière) ; listes de meilleures ventes du New York Times ; Publishers Weekly, articles sur la « romantasy » et BookTok (2023-2025)",
+   "expl": "La forêt maléfique du Bois y menace la vallée de l’héroïne.",
+   "id": "t072-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Fourth Wing est paru en 2023.",
+   "rep": true,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Il est publié aux États-Unis par Red Tower Books.",
+   "id": "t072-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sarah J. Maas est britannique.",
+   "rep": false,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Faux : elle est américaine, née à New York.",
+   "id": "t072-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Katniss Everdeen vient du district 12.",
+   "rep": true,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Elle se porte volontaire pour sauver sa petite sœur Prim.",
+   "id": "t072-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Twilight se déroule en Californie.",
+   "rep": false,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Faux : l’histoire se passe à Forks, dans l’État de Washington.",
+   "id": "t072-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Passe-miroir est une saga française.",
+   "rep": true,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Elle compte quatre tomes publiés entre 2013 et 2019.",
+   "id": "t072-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Holly Black a écrit Hunger Games.",
+   "rep": false,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Faux : Hunger Games est de Suzanne Collins.",
+   "id": "t072-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Percy Jackson est un demi-dieu.",
+   "rep": true,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Il est le fils du dieu des mers et d’une mortelle.",
+   "id": "t072-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Shadow and Bone a été adapté par Disney.",
+   "rep": false,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Faux : la série est produite par Netflix, à partir de 2021.",
+   "id": "t072-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Red Queen, les Argents ont des pouvoirs.",
+   "rep": true,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Mare, une Rouge, découvre pourtant qu’elle en possède un.",
+   "id": "t072-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Prince cruel se déroule dans un monde de vampires.",
+   "rep": false,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Faux : il se déroule au royaume faë d’Elfhame.",
+   "id": "t072-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le mot romantasy associe romance et fantasy.",
+   "rep": true,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Il est entré dans les rayons des librairies en 2023-2024.",
+   "id": "t072-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Divergente, Tris naît chez les Audacieux.",
+   "rep": false,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Faux : elle naît chez les Altruistes et choisit les Audacieux.",
+   "id": "t072-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Six of Crows se déroule dans l’univers de Shadow and Bone.",
+   "rep": true,
+   "src": "Sites des éditeurs ; New York Times",
+   "expl": "Les deux cycles partagent le Grishaverse.",
+   "id": "t072-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Midnight Sun raconte Twilight du point de vue d’Edward.",
+   "rep": true,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Il paraît enfin en 2020, après des années d’attente.",
+   "id": "t072-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Un palais d’épines et de roses ?",
+   "rep": 2015,
+   "min": 2005,
+   "max": 2022,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Il est traduit en français par La Martinière.",
+   "id": "t072-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Hunger Games ?",
+   "rep": 2008,
+   "min": 1998,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Le premier film sort en 2012 avec Jennifer Lawrence.",
+   "id": "t072-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Twilight ?",
+   "rep": 2005,
+   "min": 1995,
+   "max": 2012,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Stephenie Meyer dit avoir rêvé la scène de la clairière.",
+   "id": "t072-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de factions compte la société de Divergente ?",
+   "rep": 5,
+   "min": 3,
+   "max": 8,
+   "pas": 1,
+   "unite": "factions",
+   "tolerance": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Chaque faction cultive une seule vertu humaine.",
+   "id": "t072-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Fourth Wing ?",
+   "rep": 2023,
+   "min": 2015,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Une adaptation en série a été annoncée par Amazon.",
+   "id": "t072-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de tributs participent chaque année aux Hunger Games ?",
+   "rep": 24,
+   "min": 12,
+   "max": 50,
+   "pas": 1,
+   "unite": "tributs",
+   "tolerance": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Un garçon et une fille de chacun des douze districts.",
+   "id": "t072-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Le Voleur de foudre, premier Percy Jackson ?",
+   "rep": 2005,
+   "min": 1999,
+   "max": 2012,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Rick Riordan l’a d’abord inventé pour son fils.",
+   "id": "t072-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît Les Fiancés de l’hiver, premier tome de La Passe-miroir ?",
+   "rep": 2013,
+   "min": 2005,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Il est publié par Gallimard Jeunesse après un concours.",
+   "id": "t072-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’héroïne de Hunger Games s’appelle Katniss ____.",
+   "choix": [
+    "Everdeen",
+    "Evergreen",
+    "Everton",
+    "Mellark"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Son nom vient d’une plante aquatique comestible.",
+   "id": "t072-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’héroïne d’Un palais d’épines et de roses s’appelle ____.",
+   "choix": [
+    "Feyre",
+    "Freya",
+    "Fey",
+    "Faye"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Elle est la cadette de trois sœurs, mais nourrit seule sa famille.",
+   "id": "t072-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’école de cavaliers de dragons de Fourth Wing s’appelle ____.",
+   "choix": [
+    "Basgiath",
+    "Bastion",
+    "Baskerville",
+    "Belgrave"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "On y entre dans des quadrants : cavaliers, scribes, guérisseurs ou infanterie.",
+   "id": "t072-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le royaume faë du Prince cruel s’appelle ____.",
+   "choix": [
+    "Elfhame",
+    "Elfland",
+    "Prythian",
+    "Faërie"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ses habitants ne peuvent pas mentir, mais savent tromper.",
+   "id": "t072-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’univers de Leigh Bardugo s’appelle le ____.",
+   "choix": [
+    "Grishaverse",
+    "Grishworld",
+    "Fae-verse",
+    "Darkverse"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Les Grisha y sont des praticiens de la « petite science ».",
+   "id": "t072-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La ville où se déroule Twilight s’appelle ____.",
+   "choix": [
+    "Forks",
+    "Spoons",
+    "Seattle",
+    "Salem"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Il y pleut presque tous les jours de l’année.",
+   "id": "t072-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’héroïne de La Passe-miroir s’appelle ____.",
+   "choix": [
+    "Ophélie",
+    "Ophélia",
+    "Odile",
+    "Olympe"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Elle porte des lunettes et une écharpe vivante.",
+   "id": "t072-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le symbole de la révolte de Hunger Games est le geai ____.",
+   "choix": [
+    "moqueur",
+    "bleu",
+    "rieur",
+    "chanteur"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Katniss porte une broche dorée à son effigie.",
+   "id": "t072-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La faction choisie par Tris s’appelle les ____.",
+   "choix": [
+    "Audacieux",
+    "Altruistes",
+    "Érudits",
+    "Fraternels"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ses membres sautent de trains en marche.",
+   "id": "t072-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La saga de Cassandra Clare s’appelle La Cité des ____.",
+   "choix": [
+    "ténèbres",
+    "ombres",
+    "anges",
+    "démons"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Clary Fray y découvre le monde des Chasseurs d’ombres.",
+   "id": "t072-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le mot-valise qui désigne la romance de fantasy est la ____.",
+   "choix": [
+    "romantasy",
+    "fantasmance",
+    "romantica",
+    "lovecraft"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Il apparaît sur les étiquettes des libraires.",
+   "id": "t072-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le seigneur de la Cour de la Nuit s’appelle ____.",
+   "choix": [
+    "Rhysand",
+    "Rhaegar",
+    "Rhys",
+    "Randir"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ses proches l’appellent simplement Rhys.",
+   "id": "t072-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La petite dragonne dorée qui lie son destin à Violet s’appelle ____.",
+   "choix": [
+    "Andarna",
+    "Andromède",
+    "Arwen",
+    "Aurora"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ses écailles changent de couleur en grandissant.",
+   "id": "t072-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces sagas n’est pas une dystopie ?",
+   "choix": [
+    "Un palais d’épines et de roses",
+    "Hunger Games",
+    "Divergente",
+    "Le Labyrinthe"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "C’est une romantasy qui se déroule chez les faës.",
+   "id": "t072-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas une héroïne de Sarah J. Maas ?",
+   "choix": [
+    "Violet Sorrengail",
+    "Feyre",
+    "Celaena",
+    "Bryce Quinlan"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Violet est l’héroïne de Rebecca Yarros dans Fourth Wing.",
+   "id": "t072-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’est pas américain ?",
+   "choix": [
+    "Christelle Dabos",
+    "Suzanne Collins",
+    "Rick Riordan",
+    "Veronica Roth"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Christelle Dabos est une autrice française.",
+   "id": "t072-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces titres n’appartient pas au Grishaverse ?",
+   "choix": [
+    "Le Prince cruel",
+    "Shadow and Bone",
+    "Six of Crows",
+    "King of Scars"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Le Prince cruel est un roman de Holly Black.",
+   "id": "t072-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un vampire de Twilight ?",
+   "choix": [
+    "Jacob",
+    "Edward",
+    "Alice",
+    "Carlisle"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Jacob est un loup-garou de la tribu quileute.",
+   "id": "t072-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces factions n’existe pas dans Divergente ?",
+   "choix": [
+    "Les Courageux",
+    "Les Altruistes",
+    "Les Érudits",
+    "Les Sincères"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Les braves s’appellent les Audacieux, pas les Courageux.",
+   "id": "t072-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces romans n’est pas de la romantasy ?",
+   "choix": [
+    "Le Labyrinthe",
+    "Fourth Wing",
+    "Un palais d’épines et de roses",
+    "Le Sang et la Cendre"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Le Labyrinthe de James Dashner est une dystopie de survie.",
+   "id": "t072-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces livres n’est pas un préquel ?",
+   "choix": [
+    "L’Embrasement",
+    "La Ballade du serpent et de l’oiseau chanteur",
+    "Lever de soleil sur la moisson",
+    "Midnight Sun"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "L’Embrasement est le deuxième tome de Hunger Games ; Midnight Sun reprend Twilight sous un autre angle.",
+   "id": "t072-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces tropes ne relève pas de la romance ?",
+   "choix": [
+    "Le grand méchant",
+    "Ennemis amoureux",
+    "Slow burn",
+    "Triangle amoureux"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Le grand méchant est un type de personnage, pas une dynamique amoureuse.",
+   "id": "t072-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces sagas n’a pas été adaptée en film ou en série ?",
+   "choix": [
+    "La Passe-miroir",
+    "Hunger Games",
+    "Twilight",
+    "Percy Jackson"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Une adaptation de La Passe-miroir a été évoquée, sans voir le jour pour l’instant.",
+   "id": "t072-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles sagas sont de Sarah J. Maas ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Un palais d’épines et de roses",
+    "Throne of Glass",
+    "Crescent City",
+    "Fourth Wing",
+    "Le Prince cruel"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Fourth Wing est de Rebecca Yarros, Le Prince cruel de Holly Black.",
+   "id": "t072-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles sagas sont des dystopies ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hunger Games",
+    "Divergente",
+    "Le Labyrinthe",
+    "Twilight",
+    "La Passe-miroir"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "La vague dystopique culmine entre 2008 et 2015.",
+   "id": "t072-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages viennent de Hunger Games ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Katniss",
+    "Peeta",
+    "Haymitch",
+    "Effie",
+    "Tris",
+    "Bella"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Effie Trinket est l’accompagnatrice du district 12.",
+   "id": "t072-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres mettent en scène des faës ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Un palais d’épines et de roses",
+    "Le Prince cruel",
+    "Les Chroniques de Spiderwick",
+    "Hunger Games",
+    "Divergente"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Les faës, cruels et séduisants, sont les stars de la romantasy.",
+   "id": "t072-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels tropes sont fréquents en romantasy ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ennemis amoureux",
+    "Slow burn",
+    "Âmes sœurs prédestinées",
+    "Enquête policière",
+    "Huis clos scientifique"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces tropes sont souvent affichés comme arguments de vente.",
+   "id": "t072-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres comptent des dragons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fourth Wing",
+    "Iron Flame",
+    "Le Prieuré de l’Oranger",
+    "Twilight",
+    "Divergente"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Le Prieuré de l’Oranger de Samantha Shannon est un grand roman de dragons.",
+   "id": "t072-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles adaptations ont été produites pour Netflix ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Shadow and Bone",
+    "Le Prince des dragons",
+    "Hunger Games",
+    "Twilight"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Hunger Games et Twilight ont été adaptés au cinéma.",
+   "id": "t072-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles autrices sont françaises ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Christelle Dabos",
+    "Samantha Bailly",
+    "Holly Black",
+    "Leigh Bardugo",
+    "Tomi Adeyemi"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "La France a aussi ses autrices de fantasy pour jeunes adultes.",
+   "id": "t072-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels romans sont des réécritures de contes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cinder",
+    "Un palais d’épines et de roses",
+    "Déracinée",
+    "Hunger Games",
+    "Le Labyrinthe"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Cendrillon, La Belle et la Bête et les contes polonais y sont revisités.",
+   "id": "t072-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages appartiennent à La Passe-miroir ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ophélie",
+    "Thorn",
+    "Archibald",
+    "Farouk",
+    "Katniss",
+    "Feyre"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Farouk est l’esprit de famille immortel du Pôle.",
+   "id": "t072-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces romans par ordre de parution.",
+   "items": [
+    "Twilight",
+    "Hunger Games",
+    "Divergente",
+    "Fourth Wing"
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces romans paraissent en 2005, 2008, 2011 puis 2023.",
+   "id": "t072-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces romans de fantasy pour jeunes adultes par date.",
+   "items": [
+    "Shadow and Bone",
+    "Un palais d’épines et de roses",
+    "Le Prince cruel",
+    "Fourth Wing"
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces romans paraissent en 2012, 2015, 2018 puis 2023.",
+   "id": "t072-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces tomes de L’Empyrée dans l’ordre.",
+   "items": [
+    "Fourth Wing",
+    "Iron Flame",
+    "Onyx Storm"
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ils paraissent entre mai 2023 et janvier 2025.",
+   "id": "t072-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces œuvres liées à Hunger Games par date de parution.",
+   "items": [
+    "Hunger Games",
+    "La Révolte",
+    "La Ballade du serpent et de l’oiseau chanteur",
+    "Lever de soleil sur la moisson"
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces livres paraissent en 2008, 2010, 2020 puis 2025.",
+   "id": "t072-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces tomes de La Passe-miroir dans l’ordre.",
+   "items": [
+    "Les Fiancés de l’hiver",
+    "Les Disparus du Clairdelune",
+    "La Mémoire de Babel",
+    "La Tempête des échos"
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "La saga, commencée en 2013, se termine en 2019.",
+   "id": "t072-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces films par date de sortie.",
+   "items": [
+    "Twilight",
+    "Percy Jackson : le voleur de foudre",
+    "Hunger Games",
+    "Divergente"
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces films sortent en 2008, 2010, 2012 puis 2014.",
+   "id": "t072-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de Fourth Wing dans l’ordre.",
+   "items": [
+    "Passage du Parapet",
+    "Présentation aux dragons",
+    "Liaison avec Tairn"
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Le Parapet est la première épreuve des cadets.",
+   "id": "t072-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de Hunger Games dans l’ordre.",
+   "items": [
+    "Moisson",
+    "Défilé des tributs",
+    "Entrée dans l’arène",
+    "Victoire"
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Katniss et Peeta finissent par gagner ensemble.",
+   "id": "t072-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sagas par date de début.",
+   "items": [
+    "La Cité des ténèbres",
+    "Throne of Glass",
+    "Le Sang et la Cendre"
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces sagas débutent en 2007, 2012 puis 2020.",
+   "id": "t072-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque héroïne à sa saga.",
+   "paires": [
+    [
+     "Katniss",
+     "Hunger Games"
+    ],
+    [
+     "Feyre",
+     "Un palais d’épines et de roses"
+    ],
+    [
+     "Violet",
+     "Fourth Wing"
+    ],
+    [
+     "Bella",
+     "Twilight"
+    ]
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces héroïnes ont marqué des millions de lecteurs.",
+   "id": "t072-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque saga à son autrice.",
+   "paires": [
+    [
+     "Fourth Wing",
+     "Rebecca Yarros"
+    ],
+    [
+     "Le Prince cruel",
+     "Holly Black"
+    ],
+    [
+     "Shadow and Bone",
+     "Leigh Bardugo"
+    ],
+    [
+     "Divergente",
+     "Veronica Roth"
+    ]
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Les autrices dominent la fantasy pour jeunes adultes.",
+   "id": "t072-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque saga à sa créature phare.",
+   "paires": [
+    [
+     "Twilight",
+     "Vampires"
+    ],
+    [
+     "Fourth Wing",
+     "Dragons"
+    ],
+    [
+     "Le Prince cruel",
+     "Faës"
+    ],
+    [
+     "La Cité des ténèbres",
+     "Démons"
+    ]
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Chaque saga choisit son peuple surnaturel.",
+   "id": "t072-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque héros à son pouvoir.",
+   "paires": [
+    [
+     "Alina",
+     "Lumière"
+    ],
+    [
+     "Ophélie",
+     "Lecture des objets"
+    ],
+    [
+     "Mare",
+     "Électricité"
+    ],
+    [
+     "Percy",
+     "Eau"
+    ]
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Les pouvoirs reflètent souvent la personnalité des héros.",
+   "id": "t072-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque lieu à sa saga.",
+   "paires": [
+    [
+     "Panem",
+     "Hunger Games"
+    ],
+    [
+     "Prythian",
+     "Un palais d’épines et de roses"
+    ],
+    [
+     "Ketterdam",
+     "Six of Crows"
+    ],
+    [
+     "Pôle",
+     "La Passe-miroir"
+    ]
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces mondes imaginaires ont leurs propres cartes.",
+   "id": "t072-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque trope à sa définition.",
+   "paires": [
+    [
+     "Ennemis amoureux",
+     "De la haine à l’amour"
+    ],
+    [
+     "Slow burn",
+     "Amour très progressif"
+    ],
+    [
+     "Triangle amoureux",
+     "Deux prétendants"
+    ]
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Les lecteurs choisissent souvent leurs livres par trope.",
+   "id": "t072-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque adaptation à son interprète principal.",
+   "paires": [
+    [
+     "Hunger Games",
+     "Jennifer Lawrence"
+    ],
+    [
+     "Twilight",
+     "Kristen Stewart"
+    ],
+    [
+     "Divergente",
+     "Shailene Woodley"
+    ]
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces films ont lancé ou confirmé de grandes carrières.",
+   "id": "t072-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque catégorie à son public.",
+   "paires": [
+    [
+     "Middle grade",
+     "Huit à douze ans"
+    ],
+    [
+     "Young adult",
+     "Adolescents"
+    ],
+    [
+     "New adult",
+     "Jeunes adultes"
+    ]
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces catégories viennent de l’édition anglo-saxonne.",
+   "id": "t072-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage masculin à sa saga.",
+   "paires": [
+    [
+     "Rhysand",
+     "Un palais d’épines et de roses"
+    ],
+    [
+     "Xaden",
+     "Fourth Wing"
+    ],
+    [
+     "Cardan",
+     "Le Prince cruel"
+    ],
+    [
+     "Thorn",
+     "La Passe-miroir"
+    ]
+   ],
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ces personnages ténébreux font partie des figures cultes de la romantasy.",
+   "id": "t072-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une héroïne\n2. Je viens du district 12\n3. Je tire à l’arc",
+   "choix": [
+    "Katniss Everdeen",
+    "Tris Prior",
+    "Mare Barrow",
+    "Violet Sorrengail"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "On m’appelle la fille du feu, à cause de ma robe enflammée.",
+   "id": "t072-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une héroïne\n2. Je suis entrée dans une école de cavaliers\n3. Un dragon noir m’a choisie",
+   "choix": [
+    "Violet Sorrengail",
+    "Feyre",
+    "Jude Duarte",
+    "Alina Starkov"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Ma mère est générale de l’armée de Navarre.",
+   "id": "t072-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une autrice\n2. J’ai créé Feyre et Celaena\n3. Je suis une reine de BookTok",
+   "choix": [
+    "Sarah J. Maas",
+    "Rebecca Yarros",
+    "Holly Black",
+    "Leigh Bardugo"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Mes livres se vendent par dizaines de millions.",
+   "id": "t072-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un garçon\n2. Je suis fils de Poséidon\n3. Je vis à la Colonie des Sang-Mêlé",
+   "choix": [
+    "Percy Jackson",
+    "Harry Potter",
+    "Thomas",
+    "Kaz Brekker"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Mon auteur s’appelle Rick Riordan, ancien professeur.",
+   "id": "t072-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville\n2. Je suis pluvieuse\n3. Bella vient y vivre avec son père",
+   "choix": [
+    "Forks",
+    "Seattle",
+    "Ketterdam",
+    "Velaris"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Le père de Bella y est le chef de la police.",
+   "id": "t072-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une jeune fille\n2. Je suis humaine\n3. Je veux devenir chevalier chez les faës",
+   "choix": [
+    "Jude Duarte",
+    "Feyre",
+    "Clary Fray",
+    "Poppy"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "J’aime et je déteste à la fois le prince Cardan.",
+   "id": "t072-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une héroïne française\n2. Je traverse les miroirs\n3. Je porte une écharpe vivante",
+   "choix": [
+    "Ophélie",
+    "Alina",
+    "Bella",
+    "Zélie"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Christelle Dabos m’a imaginée sur l’arche d’Anima.",
+   "id": "t072-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un mot\n2. Je mêle amour et magie\n3. Je règne sur BookTok",
+   "choix": [
+    "Romantasy",
+    "Dark romance",
+    "Fantasy urbaine",
+    "Cosy fantasy"
+   ],
+   "rep": 0,
+   "src": "Éditeurs ; New York Times",
+   "expl": "Je suis devenu un rayon à part entière en librairie.",
+   "id": "t072-122",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
