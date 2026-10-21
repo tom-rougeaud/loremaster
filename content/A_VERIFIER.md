@@ -37,3 +37,10 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 69 : noms français (Ablette, Gwynt, Brokilon, Le Cauchemar du loup) ; titre français Le Baptême du feu.
 - Thème 72 : titres français de Sunrise on the Reaping (« Lever de soleil sur la moisson ») et From Blood and Ash (« Le Sang et la Cendre »).
 - Thème 73 : collectif « Elfes » (Soleil, 2013) et détail Christophe Blain sur Donjon Potron-Minet.
+- Thème 74 : titres et années (Gloomhaven « second tirage » sur Kickstarter en 2017 ; Ghost Stories 2008).
+- Thème 75 : origine de « grosbill » (jargon Casus Belli) ; date de création de Casus Belli (1980, F. Marcela-Froideval).
+- Thème 77 : noms français des extensions récentes (Les Hors-la-loi de Croisetonnerre, Meurtres au manoir Karlov) et « Sentinelles » pour la Gatewatch.
+- Thème 78 : noms français des mots-clés (Délire, Défense talismanique) ; carte « Foudre ».
+- Thème 80 : titres français des tomes de Sorcellerie ! ; mention de Project Aon.
+- Thème 81 : armes du Cluedo français selon les éditions.
+- Thème 82 : lieu de présentation de Magic (Origins 1993, Dallas) ; titres de cartes Yu-Gi-Oh! en français.
