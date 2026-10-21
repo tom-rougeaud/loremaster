@@ -24,3 +24,4 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 46 (refonte) : 34 questions de la base retirées (trop évidentes ou en double), explications complétées ; vérifier l’ordre des travaux d’Héraclès selon Apollodore et l’ordre des étapes du retour d’Ulysse.
 - Thème 48 : noms français des fils d’Horus et des déesses gauloises, « pierre de Fál », nombre de morceaux d’Osiris (14 chez Plutarque), « Siège Périlleux », pilier des Nautes (Cernunnos).
 - Thème 49 : transcriptions françaises (domovoï, léchi, vodianoï, roussalka, Zmeï Gorynytch, Péroun, Mokoch), paroles de Setsubun (résumées), date du catalogue de Toriyama Sekien.
+- Thème 50 : rôle de Hanna Diyab (Aladin), noms des Huit Immortels, dates de Ferdowsi, translittérations (Shâhnâmeh, Zahhak, Rakhsh).

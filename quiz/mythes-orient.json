@@ -1,0 +1,2146 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "mythes-orient",
+  "nom": "Mythes d’Orient (dragons chinois, djinns)",
+  "royaume": "Mythologies et folklores du monde",
+  "icone": "lune",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de griffes possède le dragon réservé à l’empereur de Chine ?",
+   "choix": [
+    "Cinq",
+    "Trois",
+    "Quatre",
+    "Sept"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Les dragons à quatre ou trois griffes étaient réservés aux princes et aux autres usages.",
+   "id": "t050-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet le dragon chinois poursuit-il souvent dans les représentations ?",
+   "choix": [
+    "Une perle flamboyante",
+    "Une épée",
+    "Un œuf d’or",
+    "Un miroir"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Cette perle symbolise la sagesse, la lune ou la prospérité.",
+   "id": "t050-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quel élément le dragon chinois est-il surtout associé ?",
+   "choix": [
+    "L’eau et la pluie",
+    "Le feu",
+    "La terre sèche",
+    "Le métal"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Les rois dragons règnent sur les mers et apportent la pluie aux récoltes.",
+   "id": "t050-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel souverain céleste dirige le ciel dans la religion populaire chinoise ?",
+   "choix": [
+    "L’Empereur de Jade",
+    "L’Empereur jaune",
+    "Le Roi Dragon",
+    "Le Roi Yama"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Sa cour céleste copie l’administration impériale, avec ses ministres et ses rapports.",
+   "id": "t050-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon la légende, quel animal arrive premier à la course du zodiaque chinois ?",
+   "choix": [
+    "Le rat",
+    "Le bœuf",
+    "Le tigre",
+    "Le dragon"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Il voyage sur le dos du bœuf et saute devant lui juste avant l’arrivée.",
+   "id": "t050-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal est absent du zodiaque chinois, trompé par le rat selon la légende ?",
+   "choix": [
+    "Le chat",
+    "Le chien",
+    "Le cheval",
+    "Le coq"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "C’est pourquoi le chat poursuivrait le rat depuis.",
+   "id": "t050-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monstre, chassé par le rouge et le bruit, explique les coutumes du Nouvel An chinois ?",
+   "choix": [
+    "Nian",
+    "Taotie",
+    "Qilin",
+    "Pixiu"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Pétards et décorations rouges le font fuir chaque année.",
+   "id": "t050-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel archer abat neuf des dix soleils qui brûlaient la terre ?",
+   "choix": [
+    "Hou Yi",
+    "Guan Yu",
+    "Yu le Grand",
+    "Huangdi"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Il épargne le dernier, pour que le monde garde la lumière.",
+   "id": "t050-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse vit sur la lune après avoir bu l’élixir d’immortalité ?",
+   "choix": [
+    "Chang’e",
+    "Nüwa",
+    "Xiwangmu",
+    "Guanyin"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "On la célèbre lors de la fête de la mi-automne, avec des gâteaux de lune.",
+   "id": "t050-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal prépare l’élixir d’immortalité sur la lune ?",
+   "choix": [
+    "Un lapin de jade",
+    "Une grue blanche",
+    "Un crapaud d’or",
+    "Un renard"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Il pile des herbes dans un mortier, à côté de Chang’e.",
+   "id": "t050-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels oiseaux forment un pont pour réunir le Bouvier et la Tisserande une fois par an ?",
+   "choix": [
+    "Des pies",
+    "Des grues",
+    "Des hirondelles",
+    "Des corbeaux"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Cette légende est célébrée le septième jour du septième mois, lors du Qixi.",
+   "id": "t050-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal symbolise l’est parmi les Quatre Symboles chinois ?",
+   "choix": [
+    "Le Dragon azur",
+    "Le Tigre blanc",
+    "L’Oiseau vermillon",
+    "La Tortue noire"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Le Tigre blanc garde l’ouest, l’Oiseau vermillon le sud et la Tortue noire le nord.",
+   "id": "t050-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel oiseau merveilleux représente l’impératrice en Chine ?",
+   "choix": [
+    "Le fenghuang",
+    "La grue",
+    "Le coq d’or",
+    "Le paon céleste"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "On le traduit souvent par « phénix », bien qu’il ne renaisse pas de ses cendres.",
+   "id": "t050-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature chinoise, parfois appelée licorne, annonce un sage ou un bon souverain ?",
+   "choix": [
+    "Le qilin",
+    "Le pixiu",
+    "Le taotie",
+    "Le nian"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Il n’apparaît, dit-on, que sous un règne juste.",
+   "id": "t050-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mort-vivant chinois se déplace en sautant, les bras tendus ?",
+   "choix": [
+    "Le jiangshi",
+    "Le gui",
+    "Le yaoguai",
+    "Le huli jing"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "On l’arrête en collant un talisman de papier sur son front.",
+   "id": "t050-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse de l’Occident cultive les pêches d’immortalité ?",
+   "choix": [
+    "Xiwangmu",
+    "Chang’e",
+    "Nüwa",
+    "Mazu"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Ses pêchers ne donnent des fruits qu’une fois tous les trois mille ans.",
+   "id": "t050-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel breuvage fait oublier leur vie passée aux âmes, dans l’au-delà chinois ?",
+   "choix": [
+    "Le bouillon de Meng Po",
+    "Le thé du roi Yama",
+    "Le vin de Kunlun",
+    "La liqueur des Huit Immortels"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Les âmes la boivent avant de se réincarner, comme le Léthé grec.",
+   "id": "t050-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel souverain mythique enseigne l’agriculture et goûte toutes les plantes ?",
+   "choix": [
+    "Shennong",
+    "Huangdi",
+    "Fuxi",
+    "Yao"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Il aurait découvert le thé en goûtant des centaines d’herbes, dont certaines toxiques.",
+   "id": "t050-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros chinois dompte les eaux du déluge en creusant des canaux ?",
+   "choix": [
+    "Yu le Grand",
+    "Hou Yi",
+    "Guan Yu",
+    "Pangu"
+   ],
+   "rep": 0,
+   "src": "R. Mathieu, Anthologie des mythes et légendes de la Chine ancienne (Gallimard) ; Les Mille et Une Nuits, trad. A. Galland (1704-1717) ; Ferdowsi, Le Livre des Rois ; L’Épopée de Gilgamesh, trad. J. Bottéro (Gallimard)",
+   "expl": "Il travaille treize ans et passe trois fois devant sa maison sans y entrer.",
+   "id": "t050-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel général historique est devenu un dieu de la guerre et de la loyauté ?",
+   "choix": [
+    "Guan Yu",
+    "Cao Cao",
+    "Sun Tzu",
+    "Zhuge Liang"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "On le reconnaît à son visage rouge et à sa longue barbe.",
+   "id": "t050-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quoi les djinns sont-ils créés, selon le Coran ?",
+   "choix": [
+    "D’un feu sans fumée",
+    "D’argile",
+    "De lumière",
+    "De sable"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Les anges sont faits de lumière et les humains d’argile.",
+   "id": "t050-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel djinn refuse de se prosterner devant Adam ?",
+   "choix": [
+    "Iblis",
+    "Marid",
+    "Ifrit",
+    "Shamhurish"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Il est chassé et devient le tentateur des hommes.",
+   "id": "t050-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi biblique commande aux djinns grâce à un anneau, selon la tradition ?",
+   "choix": [
+    "Salomon",
+    "David",
+    "Nabuchodonosor",
+    "Cyrus"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Son sceau lui permet d’enfermer les djinns rebelles dans des vases.",
+   "id": "t050-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monstre du désert dévore les voyageurs et les cadavres ?",
+   "choix": [
+    "La goule",
+    "Le marid",
+    "Le roc",
+    "La péri"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Le mot français « goule » vient de l’arabe ghoul.",
+   "id": "t050-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Shéhérazade raconte-t-elle des histoires chaque nuit ?",
+   "choix": [
+    "Pour échapper à la mort",
+    "Pour endormir le sultan",
+    "Pour gagner un trésor",
+    "Pour libérer sa sœur"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Le roi Shahriyar exécutait chaque matin l’épouse de la veille.",
+   "id": "t050-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel traducteur français fait connaître Les Mille et Une Nuits en Europe ?",
+   "choix": [
+    "Antoine Galland",
+    "Jean de La Fontaine",
+    "Charles Perrault",
+    "Voltaire"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Sa traduction paraît de 1704 à 1717 et inspire toute l’Europe.",
+   "id": "t050-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui a raconté l’histoire d’Aladin à Galland, faute de manuscrit arabe ancien ?",
+   "choix": [
+    "Le conteur syrien Hanna Diyab",
+    "Un copiste persan du 9e siècle",
+    "Le poète Ferdowsi",
+    "Un marchand indien de Goa"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Galland l’a entendu de sa bouche à Paris, en 1709, et l’a ajouté au recueil.",
+   "id": "t050-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle formule magique fait céder la porte de la caverne des quarante voleurs ?",
+   "choix": [
+    "Sésame, ouvre-toi",
+    "Abracadabra",
+    "Par la barbe du Prophète",
+    "Lune, éclaire-moi"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Le sésame est une graine dont la gousse s’ouvre d’un coup quand elle est mûre.",
+   "id": "t050-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle servante rusée sauve Ali Baba des voleurs ?",
+   "choix": [
+    "Morgiane",
+    "Shéhérazade",
+    "Dinarzade",
+    "Badroulboudour"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Elle repère les jarres où se cachent les voleurs et les ébouillante.",
+   "id": "t050-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de voyages compte Sindbad le marin ?",
+   "choix": [
+    "Sept",
+    "Trois",
+    "Dix",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Chaque voyage se termine par un naufrage, puis par un retour fortuné.",
+   "id": "t050-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel oiseau géant emporte Sindbad, accroché à sa patte ?",
+   "choix": [
+    "Le roc",
+    "Le simurgh",
+    "Le phénix",
+    "Le huma"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Il est si grand qu’il nourrit ses petits avec des éléphants.",
+   "id": "t050-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel oiseau merveilleux élève le héros Zal, dans le Livre des Rois perse ?",
+   "choix": [
+    "Le simurgh",
+    "Le roc",
+    "Le huma",
+    "L’anqa"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Il lui donne une plume à brûler en cas de danger.",
+   "id": "t050-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel poète perse écrit le Livre des Rois, ou Shâhnâmeh ?",
+   "choix": [
+    "Ferdowsi",
+    "Omar Khayyam",
+    "Rûmî",
+    "Hafez"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Il y travaille plus de trente ans et termine vers l’an 1010.",
+   "id": "t050-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros perse tue sans le savoir son propre fils Sohrab ?",
+   "choix": [
+    "Rostam",
+    "Zal",
+    "Kaveh",
+    "Siyavash"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Il ne le reconnaît qu’en voyant le brassard qu’il lui avait offert.",
+   "id": "t050-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi tyran perse porte deux serpents sur les épaules ?",
+   "choix": [
+    "Zahhak",
+    "Djamchid",
+    "Feridoun",
+    "Afrasiab"
+   ],
+   "rep": 0,
+   "src": "Coran, sourates 15 et 55 ; Les Mille et Une Nuits ; Ferdowsi, Le Livre des Rois",
+   "expl": "Les serpents se nourrissent chaque jour de cervelles humaines.",
+   "id": "t050-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel forgeron brandit son tablier comme étendard contre Zahhak ?",
+   "choix": [
+    "Kaveh",
+    "Rostam",
+    "Zal",
+    "Kiumars"
+   ],
+   "rep": 0,
+   "src": "L’Épopée de Gilgamesh, trad. J. Bottéro ; Ramayana ; Mahabharata",
+   "expl": "Ce tablier devient l’étendard royal de la Perse.",
+   "id": "t050-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel homme sauvage devient l’ami de Gilgamesh ?",
+   "choix": [
+    "Enkidu",
+    "Humbaba",
+    "Utnapishtim",
+    "Shamash"
+   ],
+   "rep": 0,
+   "src": "L’Épopée de Gilgamesh, trad. J. Bottéro ; Ramayana ; Mahabharata",
+   "expl": "Créé par les dieux pour tempérer Gilgamesh, il meurt avant lui.",
+   "id": "t050-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel gardien de la forêt des Cèdres est tué par Gilgamesh et Enkidu ?",
+   "choix": [
+    "Humbaba",
+    "Pazuzu",
+    "Anzû",
+    "Lamashtu"
+   ],
+   "rep": 0,
+   "src": "L’Épopée de Gilgamesh, trad. J. Bottéro ; Ramayana ; Mahabharata",
+   "expl": "On l’appelle aussi Huwawa ; son visage était fait d’entrailles.",
+   "id": "t050-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que vole un serpent à Gilgamesh pendant son bain ?",
+   "choix": [
+    "La plante de jouvence",
+    "Sa couronne",
+    "Son épée",
+    "Sa tablette"
+   ],
+   "rep": 0,
+   "src": "L’Épopée de Gilgamesh, trad. J. Bottéro ; Ramayana ; Mahabharata",
+   "expl": "Le serpent mue aussitôt ; Gilgamesh comprend qu’il n’échappera pas à la mort.",
+   "id": "t050-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature assyrienne ailée, à tête d’homme et corps de taureau, garde les palais ?",
+   "choix": [
+    "Le lamassu",
+    "Le griffon",
+    "Le sphinx",
+    "Le mušhuššu"
+   ],
+   "rep": 0,
+   "src": "L’Épopée de Gilgamesh, trad. J. Bottéro ; Ramayana ; Mahabharata",
+   "expl": "Ces statues ont souvent cinq pattes, pour paraître complètes de face et de profil.",
+   "id": "t050-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel oiseau géant sert de monture au dieu Vishnou ?",
+   "choix": [
+    "Garuda",
+    "Jatayu",
+    "Simurgh",
+    "Airavata"
+   ],
+   "rep": 0,
+   "src": "L’Épopée de Gilgamesh, trad. J. Bottéro ; Ramayana ; Mahabharata",
+   "expl": "Ennemi des serpents, il est devenu l’emblème de l’Indonésie et de la Thaïlande.",
+   "id": "t050-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu indien à tête d’éléphant lève les obstacles ?",
+   "choix": [
+    "Ganesh",
+    "Hanuman",
+    "Shiva",
+    "Krishna"
+   ],
+   "rep": 0,
+   "src": "L’Épopée de Gilgamesh, trad. J. Bottéro ; Ramayana ; Mahabharata",
+   "expl": "Son père Shiva lui a coupé la tête, avant de la remplacer par celle d’un éléphant.",
+   "id": "t050-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel singe dévoué aide Rama à délivrer Sita ?",
+   "choix": [
+    "Hanuman",
+    "Sugriva",
+    "Jambavan",
+    "Vali"
+   ],
+   "rep": 0,
+   "src": "L’Épopée de Gilgamesh, trad. J. Bottéro ; Ramayana ; Mahabharata",
+   "expl": "Il franchit la mer d’un bond jusqu’à l’île de Lanka.",
+   "id": "t050-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de têtes possède le démon Ravana ?",
+   "choix": [
+    "Dix",
+    "Trois",
+    "Sept",
+    "Cent"
+   ],
+   "rep": 0,
+   "src": "L’Épopée de Gilgamesh, trad. J. Bottéro ; Ramayana ; Mahabharata",
+   "expl": "Il enlève Sita et l’emmène dans son royaume de Lanka.",
+   "id": "t050-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le dragon chinois est généralement bienveillant.",
+   "rep": true,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Contrairement au dragon européen, il apporte la pluie et la prospérité.",
+   "id": "t050-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le dragon chinois a des ailes de chauve-souris.",
+   "rep": false,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Faux : il vole sans ailes, grâce à sa puissance magique.",
+   "id": "t050-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le chat fait partie des douze animaux du zodiaque chinois.",
+   "rep": false,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Faux : il en est absent ; au Vietnam, il remplace cependant le lapin.",
+   "id": "t050-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Hou Yi est l’époux de Chang’e.",
+   "rep": true,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Elle boit l’élixir qui lui était destiné et s’envole vers la lune.",
+   "id": "t050-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Bouvier et la Tisserande se retrouvent chaque jour.",
+   "rep": false,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Faux : ils ne se retrouvent qu’une fois par an, grâce au pont des pies.",
+   "id": "t050-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Tigre blanc garde l’ouest parmi les Quatre Symboles.",
+   "rep": true,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Il est associé à l’automne et au métal, dans la théorie des cinq éléments.",
+   "id": "t050-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les djinns sont créés d’argile, comme les humains.",
+   "rep": false,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Faux : ils sont créés d’un feu sans fumée.",
+   "id": "t050-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le conte d’Aladin figure dans les plus anciens manuscrits arabes des Mille et Une Nuits.",
+   "rep": false,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Faux : il apparaît pour la première fois dans la traduction française de Galland.",
+   "id": "t050-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Shéhérazade survit grâce à ses histoires.",
+   "rep": true,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Après mille et une nuits, le roi renonce à la tuer.",
+   "id": "t050-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le simurgh est un oiseau de la mythologie perse.",
+   "rep": true,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Il vit au sommet du mont Alborz et connaît les secrets du monde.",
+   "id": "t050-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Rostam est un héros de la mythologie grecque.",
+   "rep": false,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Faux : c’est le grand héros du Livre des Rois perse.",
+   "id": "t050-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Enkidu meurt avant Gilgamesh.",
+   "rep": true,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Sa mort pousse Gilgamesh à chercher l’immortalité.",
+   "id": "t050-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Ganesh a une tête d’éléphant.",
+   "rep": true,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "On l’invoque au début de toute entreprise, pour lever les obstacles.",
+   "id": "t050-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Garuda est l’ami des serpents nagas.",
+   "rep": false,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Faux : il est leur ennemi juré et s’en nourrit.",
+   "id": "t050-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le jiangshi est un vampire chinois qui saute.",
+   "rep": true,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ses membres raides l’empêchent de marcher normalement.",
+   "id": "t050-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Ravana est le héros du Ramayana.",
+   "rep": false,
+   "src": "Mythes chinois, arabo-persans et indiens",
+   "expl": "Faux : c’est le démon qui enlève Sita ; le héros est Rama.",
+   "id": "t050-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien d’animaux compte le zodiaque chinois ?",
+   "rep": 12,
+   "min": 6,
+   "max": 20,
+   "pas": 1,
+   "unite": "animaux",
+   "tolerance": 0,
+   "src": "Mythes chinois, arabo-persans et indiens",
+   "expl": "Chaque année correspond à l’un d’eux, dans un cycle de douze ans.",
+   "id": "t050-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de soleils brûlaient le ciel avant que Hou Yi n’intervienne ?",
+   "rep": 10,
+   "min": 3,
+   "max": 15,
+   "pas": 1,
+   "unite": "soleils",
+   "tolerance": 0,
+   "src": "Mythes chinois, arabo-persans et indiens",
+   "expl": "Ils étaient les fils du dieu du ciel, et sortaient tous à la fois.",
+   "id": "t050-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’Immortels compte le célèbre groupe de la tradition taoïste ?",
+   "rep": 8,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "Immortels",
+   "tolerance": 0,
+   "src": "Mythes chinois, arabo-persans et indiens",
+   "expl": "Ils traversent la mer chacun à l’aide de son objet magique.",
+   "id": "t050-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de voleurs Ali Baba découvre-t-il ?",
+   "rep": 40,
+   "min": 10,
+   "max": 100,
+   "pas": 1,
+   "unite": "voleurs",
+   "tolerance": 0,
+   "src": "Mythes chinois, arabo-persans et indiens",
+   "expl": "Le chef revient ensuite pour se venger, déguisé en marchand d’huile.",
+   "id": "t050-064",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Vers quelle année Ferdowsi achève-t-il le Livre des Rois ?",
+   "rep": 1010,
+   "min": 800,
+   "max": 1300,
+   "pas": 5,
+   "unite": "année",
+   "tolerance": 10,
+   "src": "Mythes chinois, arabo-persans et indiens",
+   "expl": "Il compte environ cinquante mille distiques.",
+   "id": "t050-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de nuits Shéhérazade raconte-t-elle des histoires ?",
+   "rep": 1001,
+   "min": 100,
+   "max": 2000,
+   "pas": 1,
+   "unite": "nuits",
+   "tolerance": 0,
+   "src": "Mythes chinois, arabo-persans et indiens",
+   "expl": "Le nombre symbolise l’infini plus un : une histoire sans fin.",
+   "id": "t050-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Tous les combien d’années les pêches de Xiwangmu mûrissent-elles ?",
+   "rep": 3000,
+   "min": 100,
+   "max": 10000,
+   "pas": 100,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Mythes chinois, arabo-persans et indiens",
+   "expl": "Sun Wukong les dévore lorsqu’on lui confie le verger.",
+   "id": "t050-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de têtes a Ravana ?",
+   "rep": 10,
+   "min": 1,
+   "max": 20,
+   "pas": 1,
+   "unite": "têtes",
+   "tolerance": 0,
+   "src": "Mythes chinois, arabo-persans et indiens",
+   "expl": "On le surnomme Dashanana, « celui qui a dix visages ».",
+   "id": "t050-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le souverain du ciel chinois s’appelle l’Empereur de ____.",
+   "choix": [
+    "Jade",
+    "Lune",
+    "Soie",
+    "Feu"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Il préside chaque année au jugement des dieux domestiques.",
+   "id": "t050-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La déesse de la lune chinoise s’appelle ____.",
+   "choix": [
+    "Chang’e",
+    "Nüwa",
+    "Mazu",
+    "Guanyin"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Une sonde spatiale chinoise porte aujourd’hui son nom.",
+   "id": "t050-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’archer qui abat neuf soleils s’appelle Hou ____.",
+   "choix": [
+    "Yi",
+    "Yu",
+    "Wu",
+    "Li"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Il est célébré comme un bienfaiteur de l’humanité.",
+   "id": "t050-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monstre du Nouvel An chinois s’appelle le ____.",
+   "choix": [
+    "Nian",
+    "Qilin",
+    "Taotie",
+    "Pixiu"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "« Guo nian » signifie à la fois « passer l’année » et « échapper au Nian ».",
+   "id": "t050-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le vampire chinois qui saute s’appelle le ____.",
+   "choix": [
+    "jiangshi",
+    "gui",
+    "yaoguai",
+    "qilin"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Les films de Hong Kong des années 1980 l’ont rendu célèbre.",
+   "id": "t050-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les djinns sont créés d’un feu sans ____.",
+   "choix": [
+    "fumée",
+    "flamme",
+    "chaleur",
+    "fin"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ils vivent dans un monde parallèle à celui des hommes.",
+   "id": "t050-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La conteuse des Mille et Une Nuits s’appelle ____.",
+   "choix": [
+    "Shéhérazade",
+    "Morgiane",
+    "Dinarzade",
+    "Sita"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Sa sœur Dinarzade l’aide en demandant une histoire chaque soir.",
+   "id": "t050-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le marin aux sept voyages s’appelle ____.",
+   "choix": [
+    "Sindbad",
+    "Aladin",
+    "Ali Baba",
+    "Hassan"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Il raconte ses aventures à un porteur qui porte presque le même nom.",
+   "id": "t050-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’oiseau géant qui emporte Sindbad s’appelle le ____.",
+   "choix": [
+    "roc",
+    "simurgh",
+    "huma",
+    "phénix"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Marco Polo affirme en avoir entendu parler à Madagascar.",
+   "id": "t050-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Livre des Rois perse s’appelle le ____.",
+   "choix": [
+    "Shâhnâmeh",
+    "Avesta",
+    "Mathnawi",
+    "Divan"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "C’est l’épopée nationale de l’Iran, écrite en persan presque sans mots arabes.",
+   "id": "t050-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’ami sauvage de Gilgamesh s’appelle ____.",
+   "choix": [
+    "Enkidu",
+    "Humbaba",
+    "Utnapishtim",
+    "Ninurta"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Il vivait parmi les bêtes avant d’être civilisé.",
+   "id": "t050-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’oiseau monture de Vishnou s’appelle ____.",
+   "choix": [
+    "Garuda",
+    "Hanuman",
+    "Jatayu",
+    "Airavata"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Il vola aux dieux le nectar d’immortalité pour libérer sa mère.",
+   "id": "t050-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le gardien de la forêt des Cèdres s’appelle ____.",
+   "choix": [
+    "Humbaba",
+    "Pazuzu",
+    "Anzû",
+    "Enlil"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le dieu Enlil l’avait chargé de protéger les cèdres.",
+   "id": "t050-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces animaux n’est pas dans le zodiaque chinois ?",
+   "choix": [
+    "Le chat",
+    "Le rat",
+    "Le bœuf",
+    "Le dragon"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le chat a été trompé par le rat, dit la légende.",
+   "id": "t050-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas chinois ?",
+   "choix": [
+    "Rostam",
+    "Hou Yi",
+    "Chang’e",
+    "Yu le Grand"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Rostam est un héros perse, du Livre des Rois de Ferdowsi.",
+   "id": "t050-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces êtres n’est pas un djinn ou un démon arabe ?",
+   "choix": [
+    "Le qilin",
+    "L’ifrit",
+    "Le marid",
+    "La goule"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le qilin est une créature chinoise de bon augure.",
+   "id": "t050-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces contes n’appartient pas aux Mille et Une Nuits ?",
+   "choix": [
+    "Le Livre des Rois",
+    "Sindbad le marin",
+    "Ali Baba",
+    "Aladin"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le Livre des Rois est une épopée perse de Ferdowsi.",
+   "id": "t050-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Quatre Symboles n’existe pas ?",
+   "choix": [
+    "Le Lion d’or",
+    "Le Dragon azur",
+    "Le Tigre blanc",
+    "La Tortue noire"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le quatrième symbole est l’Oiseau vermillon, au sud.",
+   "id": "t050-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’appartient pas au Livre des Rois ?",
+   "choix": [
+    "Gilgamesh",
+    "Rostam",
+    "Zal",
+    "Zahhak"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Gilgamesh est le roi d’Uruk, en Mésopotamie.",
+   "id": "t050-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas indien ?",
+   "choix": [
+    "Guan Yu",
+    "Ganesh",
+    "Vishnou",
+    "Shiva"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Guan Yu est le dieu chinois de la guerre et de la loyauté.",
+   "id": "t050-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces oiseaux n’est pas perse ou arabe ?",
+   "choix": [
+    "Le fenghuang",
+    "Le simurgh",
+    "Le roc",
+    "Le huma"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le fenghuang est le phénix chinois, symbole de l’impératrice.",
+   "id": "t050-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces personnages n’est pas un des Huit Immortels ?",
+   "choix": [
+    "Guan Yu",
+    "Lü Dongbin",
+    "Zhang Guolao",
+    "He Xiangu"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Guan Yu est un général divinisé, pas un Immortel taoïste.",
+   "id": "t050-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces êtres n’est pas mésopotamien ?",
+   "choix": [
+    "Le simurgh",
+    "Le lamassu",
+    "Humbaba",
+    "Pazuzu"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le simurgh vient de la tradition perse, et non mésopotamienne.",
+   "id": "t050-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels animaux font partie du zodiaque chinois ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rat",
+    "Bœuf",
+    "Dragon",
+    "Singe",
+    "Chat",
+    "Lion"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le lion n’y figure pas non plus, contrairement au tigre.",
+   "id": "t050-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages appartiennent aux Mille et Une Nuits ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Shéhérazade",
+    "Sindbad",
+    "Ali Baba",
+    "Aladin",
+    "Rostam",
+    "Enkidu"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Rostam et Enkidu appartiennent à d’autres épopées.",
+   "id": "t050-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels êtres sont des créatures chinoises ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Qilin",
+    "Fenghuang",
+    "Jiangshi",
+    "Nian",
+    "Simurgh",
+    "Garuda"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le simurgh est un oiseau perse, Garuda un oiseau indien.",
+   "id": "t050-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages appartiennent au Livre des Rois ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rostam",
+    "Zal",
+    "Sohrab",
+    "Zahhak",
+    "Aladin",
+    "Hanuman"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ferdowsi raconte l’histoire de l’Iran, des origines à la conquête arabe.",
+   "id": "t050-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels êtres sont liés à la lune dans les mythes chinois ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Chang’e",
+    "Le lapin de jade",
+    "Hou Yi",
+    "Le Nian"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Hou Yi reste sur terre et regarde la lune avec nostalgie.",
+   "id": "t050-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages appartiennent au Ramayana ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rama",
+    "Sita",
+    "Hanuman",
+    "Ravana",
+    "Ganesh",
+    "Garuda"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le Ramayana est attribué au poète Valmiki.",
+   "id": "t050-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages apparaissent dans l’Épopée de Gilgamesh ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Enkidu",
+    "Humbaba",
+    "Utnapishtim",
+    "Ishtar",
+    "Rostam",
+    "Sindbad"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ishtar se venge de Gilgamesh en envoyant le Taureau céleste.",
+   "id": "t050-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels symboles gardent les points cardinaux en Chine ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dragon azur",
+    "Tigre blanc",
+    "Oiseau vermillon",
+    "Tortue noire",
+    "Lion d’or",
+    "Grue blanche"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Chacun est aussi associé à une saison et à un élément.",
+   "id": "t050-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels êtres sont des djinns ou des esprits arabes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ifrit",
+    "Marid",
+    "Goule",
+    "Qilin",
+    "Lamassu"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "L’ifrit est un djinn puissant et souvent malveillant.",
+   "id": "t050-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels oiseaux merveilleux appartiennent aux traditions d’Orient ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Simurgh",
+    "Roc",
+    "Garuda",
+    "Fenghuang",
+    "Pégase",
+    "Griffon"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Pégase et le griffon viennent de la tradition grecque.",
+   "id": "t050-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces animaux du zodiaque chinois dans l’ordre de la course.",
+   "items": [
+    "Rat",
+    "Bœuf",
+    "Tigre",
+    "Lapin",
+    "Dragon"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le cycle se poursuit avec le serpent, le cheval, la chèvre, le singe, le coq, le chien et le cochon.",
+   "id": "t050-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du mythe de Chang’e dans l’ordre.",
+   "items": [
+    "Hou Yi abat neuf soleils",
+    "Il reçoit l’élixir d’immortalité",
+    "Chang’e boit l’élixir",
+    "Elle s’envole vers la lune"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Selon les versions, elle protège l’élixir d’un voleur ou trahit son époux.",
+   "id": "t050-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’Épopée de Gilgamesh dans l’ordre.",
+   "items": [
+    "Rencontre d’Enkidu",
+    "Mort de Humbaba",
+    "Mort d’Enkidu",
+    "Quête de l’immortalité"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Gilgamesh rentre à Uruk, résigné à sa condition d’homme.",
+   "id": "t050-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du conte d’Ali Baba dans l’ordre.",
+   "items": [
+    "Il découvre la caverne",
+    "Son frère Cassim y est tué",
+    "Les voleurs le cherchent",
+    "Morgiane les déjoue"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ali Baba marie ensuite son neveu à Morgiane, pour la récompenser.",
+   "id": "t050-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du cadre des Mille et Une Nuits dans l’ordre.",
+   "items": [
+    "Trahison de l’épouse du roi",
+    "Exécutions des nouvelles épouses",
+    "Shéhérazade se porte volontaire",
+    "Le roi lui accorde la vie"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Elle lui a donné des enfants pendant ces mille et une nuits.",
+   "id": "t050-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire de Rostam et Sohrab dans l’ordre.",
+   "items": [
+    "Rostam laisse un brassard",
+    "Sohrab grandit loin de lui",
+    "Duel entre le père et le fils",
+    "Rostam reconnaît son fils"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Sohrab meurt dans ses bras, faute d’avoir reçu à temps l’antidote.",
+   "id": "t050-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces traductions et écrits par date.",
+   "items": [
+    "Le Livre des Rois de Ferdowsi",
+    "Les Mille et Une Nuits de Galland",
+    "Kwaidan de Lafcadio Hearn"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Vers 1010, de 1704 à 1717, puis en 1904 : trois grands moments pour les récits d’Orient.",
+   "id": "t050-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du mythe de Yu le Grand dans l’ordre.",
+   "items": [
+    "Le déluge ravage la terre",
+    "Son père échoue",
+    "Yu creuse des canaux",
+    "Il devient empereur"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Son père Gun avait voulu endiguer les eaux, en vain.",
+   "id": "t050-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces Quatre Symboles chinois dans l’ordre des points cardinaux : est, sud, ouest, nord.",
+   "items": [
+    "Dragon azur",
+    "Oiseau vermillon",
+    "Tigre blanc",
+    "Tortue noire"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ce sont aussi les saisons : printemps, été, automne et hiver.",
+   "id": "t050-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’enlèvement de Sita dans l’ordre.",
+   "items": [
+    "Ravana enlève Sita",
+    "Hanuman la retrouve à Lanka",
+    "Bataille de Lanka",
+    "Sita est délivrée"
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Rama tue Ravana d’une flèche divine, puis rentre régner à Ayodhya.",
+   "id": "t050-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque Symbole à son point cardinal.",
+   "paires": [
+    [
+     "Dragon azur",
+     "Est"
+    ],
+    [
+     "Oiseau vermillon",
+     "Sud"
+    ],
+    [
+     "Tigre blanc",
+     "Ouest"
+    ],
+    [
+     "Tortue noire",
+     "Nord"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ces gardiens apparaissent sur les tombes et les palais.",
+   "id": "t050-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à son œuvre.",
+   "paires": [
+    [
+     "Shéhérazade",
+     "Mille et Une Nuits"
+    ],
+    [
+     "Rostam",
+     "Livre des Rois"
+    ],
+    [
+     "Enkidu",
+     "Épopée de Gilgamesh"
+    ],
+    [
+     "Hanuman",
+     "Ramayana"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ces grands récits ont été copiés et réécrits pendant des siècles.",
+   "id": "t050-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature à sa culture.",
+   "paires": [
+    [
+     "Qilin",
+     "Chine"
+    ],
+    [
+     "Simurgh",
+     "Perse"
+    ],
+    [
+     "Lamassu",
+     "Assyrie"
+    ],
+    [
+     "Garuda",
+     "Inde"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ces êtres merveilleux ornent temples et palais.",
+   "id": "t050-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque héros chinois à son exploit.",
+   "paires": [
+    [
+     "Hou Yi",
+     "Abattre neuf soleils"
+    ],
+    [
+     "Yu le Grand",
+     "Dompter le déluge"
+    ],
+    [
+     "Shennong",
+     "Enseigner l’agriculture"
+    ],
+    [
+     "Nüwa",
+     "Réparer le ciel"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ces héros civilisateurs ont rendu le monde habitable.",
+   "id": "t050-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage des Nuits à son histoire.",
+   "paires": [
+    [
+     "Aladin",
+     "La lampe merveilleuse"
+    ],
+    [
+     "Ali Baba",
+     "La caverne des voleurs"
+    ],
+    [
+     "Sindbad",
+     "Les sept voyages"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ces trois contes ont été ajoutés ou popularisés par Galland.",
+   "id": "t050-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque djinn ou démon à sa description.",
+   "paires": [
+    [
+     "Iblis",
+     "Refuse de se prosterner"
+    ],
+    [
+     "Goule",
+     "Dévore les morts"
+    ],
+    [
+     "Ifrit",
+     "Djinn puissant et rusé"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "La tradition distingue plusieurs catégories de djinns.",
+   "id": "t050-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu indien à sa particularité.",
+   "paires": [
+    [
+     "Ganesh",
+     "Tête d’éléphant"
+    ],
+    [
+     "Hanuman",
+     "Singe"
+    ],
+    [
+     "Garuda",
+     "Oiseau"
+    ],
+    [
+     "Ravana",
+     "Dix têtes"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ces figures sont omniprésentes dans l’art indien.",
+   "id": "t050-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque fête chinoise à sa légende.",
+   "paires": [
+    [
+     "Nouvel An",
+     "Le monstre Nian"
+    ],
+    [
+     "Mi-automne",
+     "Chang’e"
+    ],
+    [
+     "Qixi",
+     "Le Bouvier et la Tisserande"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Ces fêtes sont encore célébrées dans tout le monde chinois.",
+   "id": "t050-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque animal du zodiaque chinois à son rang.",
+   "paires": [
+    [
+     "Rat",
+     "Premier"
+    ],
+    [
+     "Bœuf",
+     "Deuxième"
+    ],
+    [
+     "Tigre",
+     "Troisième"
+    ],
+    [
+     "Cochon",
+     "Douzième"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le cochon, gourmand et paresseux, arrive bon dernier à la course.",
+   "id": "t050-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage perse à son rôle.",
+   "paires": [
+    [
+     "Zal",
+     "Élevé par le simurgh"
+    ],
+    [
+     "Rostam",
+     "Grand héros"
+    ],
+    [
+     "Zahhak",
+     "Roi aux serpents"
+    ],
+    [
+     "Kaveh",
+     "Forgeron révolté"
+    ]
+   ],
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Le Livre des Rois mêle mythe et histoire de l’Iran.",
+   "id": "t050-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dragon\n2. J’ai cinq griffes\n3. Je représente l’empereur",
+   "choix": [
+    "Le dragon impérial chinois",
+    "Le dragon européen",
+    "Le Roi Dragon de la mer de l’Est",
+    "Le naga"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "On me voit sur les robes jaunes des empereurs Qing.",
+   "id": "t050-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. J’ai bu l’élixir\n3. Je vis sur la lune",
+   "choix": [
+    "Chang’e",
+    "Xiwangmu",
+    "Nüwa",
+    "Mazu"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Un lapin de jade me tient compagnie dans mon palais lunaire.",
+   "id": "t050-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un archer\n2. J’ai abattu neuf soleils\n3. Mon épouse est sur la lune",
+   "choix": [
+    "Hou Yi",
+    "Guan Yu",
+    "Yu le Grand",
+    "Huangdi"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "On me célèbre comme le sauveur de l’humanité.",
+   "id": "t050-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une conteuse\n2. Je risque ma vie chaque nuit\n3. Le roi m’épargne",
+   "choix": [
+    "Shéhérazade",
+    "Morgiane",
+    "Dinarzade",
+    "Sita"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Mes histoires s’emboîtent les unes dans les autres.",
+   "id": "t050-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un oiseau\n2. J’ai élevé un enfant\n3. Je vis sur le mont Alborz",
+   "choix": [
+    "Le simurgh",
+    "Le roc",
+    "Le huma",
+    "Garuda"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Je donne à Zal une plume pour m’appeler en cas de danger.",
+   "id": "t050-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un héros\n2. Mon cheval s’appelle Rakhsh\n3. J’ai tué mon fils",
+   "choix": [
+    "Rostam",
+    "Zal",
+    "Sohrab",
+    "Gilgamesh"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Je suis le plus grand héros du Livre des Rois.",
+   "id": "t050-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un roi\n2. J’ai cherché l’immortalité\n3. Un serpent m’a volé une plante",
+   "choix": [
+    "Gilgamesh",
+    "Enkidu",
+    "Utnapishtim",
+    "Rama"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Je suis roi d’Uruk, aux deux tiers dieu.",
+   "id": "t050-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un singe\n2. J’ai sauté jusqu’à Lanka\n3. Je sers Rama",
+   "choix": [
+    "Hanuman",
+    "Sun Wukong",
+    "Sugriva",
+    "Jambavan"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "Je peux grandir jusqu’à la taille d’une montagne.",
+   "id": "t050-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’ai une tête d’éléphant\n3. Je lève les obstacles",
+   "choix": [
+    "Ganesh",
+    "Indra",
+    "Shiva",
+    "Krishna"
+   ],
+   "rep": 0,
+   "src": "Mythes chinois, arabo-persans, mésopotamiens et indiens",
+   "expl": "J’ai aussi écrit le Mahabharata sous la dictée du sage Vyasa.",
+   "id": "t050-130",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

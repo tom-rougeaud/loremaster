@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**49 / 99 thèmes terminés — 6633 questions au total.**
+**50 / 99 thèmes terminés — 6763 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -55,7 +55,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 47 | Mythologie nordique | 140 | 46 | 20 (10) | 9 | 13 | 11 | 11 | 10 | 10 | 10 | 47 % | 28/84/28 | 2 | terminé |
 | 48 | Égypte, Celtes et légende arthurienne | 140 | 48 | 19 (11) | 9 | 13 | 11 | 10 | 10 | 10 | 10 | 48 % | 28/84/28 | 5 | terminé |
 | 49 | Folklore slave et yokai japonais | 130 | 44 | 16 (9) | 8 | 13 | 11 | 10 | 10 | 9 | 9 | 46 % | 26/78/26 | 3 | terminé |
-| 50 | Mythes d’Orient (dragons chinois, djinns) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 50 | Mythes d’Orient (dragons chinois, djinns) | 130 | 44 | 16 (8) | 8 | 13 | 10 | 10 | 10 | 10 | 9 | 46 % | 26/78/26 | 5 | terminé |
 | 51 | Mythes aztèques, mayas et amérindiens | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 52 | Folklore français et breton | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 53 | Bestiaires médiévaux et gargouilles | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
