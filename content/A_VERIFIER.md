@@ -17,3 +17,4 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 36 : « Barjow et Beurk », « Chevaliers de Walpurgis », « Langue-de-plomb », « Rafleurs », « La magie est puissance ».
 - Thème 38 (Warhammer) : dates Games Workshop (premier magasin 1978, Bourse 1994), « La Fin des Temps », « malepierre », traductions françaises (aelfes, duardin), projet Amazon/Cavill (statut actuel).
 - Thème 39 : noms français « Griffe-de-Mort » (griffon de Karl Franz), « Gorbad Griffe-de-Fer », « tank à vapeur », « canon feu d’enfer », « Cité du Loup blanc », « Arches Noires ».
+- Thème 40 : noms français ou anglais des institutions (Grande Faille, Charte Marchande, progénoïdes), nombre d’implants (19), date de la chute de Cadia, rôle d’Yvraine dans le réveil de Guilliman.

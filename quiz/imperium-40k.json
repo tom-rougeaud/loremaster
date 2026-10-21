@@ -1,0 +1,1980 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "imperium-40k",
+  "nom": "L’Imperium (Warhammer 40k)",
+  "royaume": "Les univers Warhammer",
+  "icone": "heaume",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quel siège l’Empereur de l’Humanité est-il maintenu en vie ?",
+   "choix": [
+    "Le Trône d’Or",
+    "Le Trône de Fer",
+    "Le Siège Écarlate",
+    "Le Trône de Terra"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Machine archéotechnologique, elle ne fait que retarder sa mort depuis dix mille ans.",
+   "id": "t040-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quelle planète siège l’Empereur ?",
+   "choix": [
+    "Terra",
+    "Mars",
+    "Macragge",
+    "Baal"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Terra est le nom de la Terre dans l’Imperium ; le Palais impérial couvre un continent.",
+   "id": "t040-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel phare psychique, alimenté par l’Empereur, guide les vaisseaux dans le Warp ?",
+   "choix": [
+    "L’Astronomican",
+    "Le Phare de Mars",
+    "La Grande Faille",
+    "Le Golden Beacon"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Sans lui, la navigation à travers le Warp serait presque impossible.",
+   "id": "t040-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels êtres mutants, dotés d’un troisième œil, pilotent les vaisseaux dans le Warp ?",
+   "choix": [
+    "Les Navigateurs",
+    "Les Astropathes",
+    "Les Servitors",
+    "Les Ogryns"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Ce troisième œil, qui voit le Warp, peut tuer ceux qui le regardent.",
+   "id": "t040-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels psykers transmettent des messages télépathiques à travers la galaxie ?",
+   "choix": [
+    "Les Astropathes",
+    "Les Navigateurs",
+    "Les Commissaires",
+    "Les Arbites"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "La plupart deviennent aveugles lors du rituel qui les lie à l’Empereur.",
+   "id": "t040-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les vaisseaux qui collectent les psykers pour Terra ?",
+   "choix": [
+    "Les Vaisseaux Noirs",
+    "Les Arches Noires",
+    "Les Barges de Bataille",
+    "Les Vaisseaux Gris"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Certains psykers sont sacrifiés pour nourrir l’Empereur, d’autres formés.",
+   "id": "t040-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque des White Scars excelle dans la guerre éclair ?",
+   "choix": [
+    "Jaghatai Khan",
+    "Leman Russ",
+    "Corvus Corax",
+    "Ferrus Manus"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Ses guerriers viennent de Chogoris, un monde de steppes, et combattent souvent à moto.",
+   "id": "t040-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est le Primarque des Ultramarines ?",
+   "choix": [
+    "Roboute Guilliman",
+    "Lion El’Jonson",
+    "Rogal Dorn",
+    "Sanguinius"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Il revient à la vie au 41e millénaire et devient Régent de l’Imperium.",
+   "id": "t040-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ouvrage de Guilliman règle l’organisation des chapitres Space Marines ?",
+   "choix": [
+    "Le Codex Astartes",
+    "Le Credo impérial",
+    "Le Lexicanum",
+    "Le Livre de Lorgar"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Il fixe notamment la taille d’un chapitre à environ mille guerriers.",
+   "id": "t040-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque ailé dirige les Blood Angels ?",
+   "choix": [
+    "Sanguinius",
+    "Corvus Corax",
+    "Lorgar",
+    "Fulgrim"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Il meurt en affrontant Horus à bord de son vaisseau.",
+   "id": "t040-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque fonde les Space Wolves ?",
+   "choix": [
+    "Leman Russ",
+    "Ferrus Manus",
+    "Vulkan",
+    "Jaghatai Khan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Ses guerriers viennent du monde glacé de Fenris.",
+   "id": "t040-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque défend le Palais impérial pendant le siège de Terra ?",
+   "choix": [
+    "Rogal Dorn",
+    "Roboute Guilliman",
+    "Leman Russ",
+    "Vulkan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Primarque des Imperial Fists, c’est un maître des fortifications.",
+   "id": "t040-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle malédiction frappe les Blood Angels ?",
+   "choix": [
+    "La Soif Rouge et la Rage Noire",
+    "La Peste de Nurgle",
+    "L’Oubli éternel",
+    "La Malédiction du Loup"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Elles sont héritées de la mort de leur Primarque, Sanguinius.",
+   "id": "t040-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle planète est le monde natal des Ultramarines ?",
+   "choix": [
+    "Macragge",
+    "Fenris",
+    "Baal",
+    "Caliban"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Elle est la capitale de l’Ultramar, un petit royaume de planètes.",
+   "id": "t040-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel secret honteux les Dark Angels cachent-ils ?",
+   "choix": [
+    "Une partie de leur Légion a trahi",
+    "Leur Primarque était un xenos",
+    "Ils vénèrent Khorne",
+    "Ils ont tué l’Empereur"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Ils traquent en secret ces Déchus pour les obliger à se repentir.",
+   "id": "t040-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le chef des Ultramarines au 41e millénaire ?",
+   "choix": [
+    "Marneus Calgar",
+    "Dante",
+    "Logan Grimnar",
+    "Azrael"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Seigneur de Macragge, il est l’un des plus célèbres maîtres de chapitre.",
+   "id": "t040-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel archimagos crée les Space Marines Primaris ?",
+   "choix": [
+    "Belisarius Cawl",
+    "Fabius Bile",
+    "Ciaphas Cain",
+    "Gregor Eisenhorn"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Il y travaille dix mille ans, à la demande de Guilliman.",
+   "id": "t040-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle immense déchirure du Warp coupe la galaxie en deux ?",
+   "choix": [
+    "La Grande Faille",
+    "L’Œil de la Terreur",
+    "Le Maelström",
+    "La Porte de Cadia"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "On l’appelle aussi Cicatrix Maledictum ; elle s’ouvre après la chute de Cadia.",
+   "id": "t040-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle croisade Guilliman lance-t-il après son retour ?",
+   "choix": [
+    "La croisade Indomitus",
+    "La Grande Croisade",
+    "La croisade de Sabbat",
+    "La croisade noire"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Il reconquiert des mondes coupés de Terra par la Grande Faille.",
+   "id": "t040-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle planète tombe en 999.M41, ouvrant la voie au Chaos ?",
+   "choix": [
+    "Cadia",
+    "Armageddon",
+    "Terra",
+    "Macragge"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Le château-fort du secteur garde la porte de l’Œil de la Terreur pendant des millénaires.",
+   "id": "t040-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel général de la Garde défend Cadia jusqu’à sa chute ?",
+   "choix": [
+    "Ursarkar E. Creed",
+    "Ibram Gaunt",
+    "Sebastian Yarrick",
+    "Ciaphas Cain"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Seigneur Castellan, il est célèbre pour son génie tactique.",
+   "id": "t040-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel régiment de la Garde vit dans des jungles mortelles ?",
+   "choix": [
+    "Les Catachans",
+    "Les Cadiens",
+    "Les Mordiens",
+    "Les Tallarns"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Ses soldats sont des colosses aux bandeaux et aux couteaux immenses.",
+   "id": "t040-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel régiment de la Garde évoque les soldats de la Grande Guerre, avec masques à gaz ?",
+   "choix": [
+    "Le Death Korps de Krieg",
+    "Les Catachans",
+    "Les Valhallans",
+    "Les Cadiens"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Leur monde a été ravagé par les bombardements atomiques d’une guerre civile.",
+   "id": "t040-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel officier de la Garde exécute les lâches au nom de l’Empereur ?",
+   "choix": [
+    "Le commissaire",
+    "Le psyker primaris",
+    "Le prêtre du Ministorum",
+    "Le sergent-vétéran"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Il veille au moral, quitte à tirer sur ses propres soldats.",
+   "id": "t040-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le char de combat emblématique de la Garde ?",
+   "choix": [
+    "Le Leman Russ",
+    "Le Rhino",
+    "Le Land Raider",
+    "Le Predator"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Il porte le nom du Primarque des Space Wolves.",
+   "id": "t040-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle arme emblématique des Space Marines tire des projectiles explosifs autopropulsés ?",
+   "choix": [
+    "Le bolter",
+    "Le fusil laser",
+    "Le fuseur",
+    "Le lance-plasma"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Chaque bolt explose à l’intérieur de sa cible ; c’est l’arme sacrée des Astartes.",
+   "id": "t040-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quelle planète siège l’Adeptus Mechanicus ?",
+   "choix": [
+    "Mars",
+    "Terra",
+    "Titan",
+    "Lune"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Les prêtres de Mars vénèrent le Dieu-Machine, ou Omnimessie.",
+   "id": "t040-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels gigantesques robots de guerre l’Adeptus Mechanicus fournit-il ?",
+   "choix": [
+    "Les Titans",
+    "Les Dreadnoughts",
+    "Les Servitors",
+    "Les Chimères"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Certains Titans mesurent plusieurs dizaines de mètres de haut.",
+   "id": "t040-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle branche de l’Inquisition chasse les démons ?",
+   "choix": [
+    "L’Ordo Malleus",
+    "L’Ordo Hereticus",
+    "L’Ordo Xenos",
+    "L’Ordo Sicarius"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Elle s’appuie sur les Grey Knights, Space Marines immunisés contre la corruption.",
+   "id": "t040-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle branche de l’Inquisition surveille les extraterrestres ?",
+   "choix": [
+    "L’Ordo Xenos",
+    "L’Ordo Malleus",
+    "L’Ordo Hereticus",
+    "L’Ordo Hydra"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Ses Space Marines d’élite forment la Deathwatch.",
+   "id": "t040-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ordre militaire féminin sert l’Ecclésiarchie ?",
+   "choix": [
+    "Les Adepta Sororitas",
+    "Les Sœurs du Silence",
+    "Les Custodes",
+    "Les Skitarii"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Armures noires et lance-flammes, elles combattent avec une foi absolue.",
+   "id": "t040-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle garde d’élite en armure dorée protège l’Empereur ?",
+   "choix": [
+    "L’Adeptus Custodes",
+    "Les Grey Knights",
+    "Les Imperial Fists",
+    "Les Black Templars"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Chaque Custodes vaut, dit-on, toute une escouade de Space Marines.",
+   "id": "t040-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels assassins impériaux changent d’apparence pour infiltrer leurs cibles ?",
+   "choix": [
+    "Les Callidus",
+    "Les Vindicare",
+    "Les Eversor",
+    "Les Culexus"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Ils utilisent un produit polymorphe ; les Vindicare sont des tireurs d’élite.",
+   "id": "t040-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel document autorise un Rogue Trader à explorer au-delà des frontières impériales ?",
+   "choix": [
+    "Une Charte Marchande",
+    "Un sceau de l’Inquisition",
+    "Un Codex Astartes",
+    "Une Couronne de Mars"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Elle lui accorde une liberté presque totale, transmise de génération en génération.",
+   "id": "t040-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie un ordre d’Exterminatus ?",
+   "choix": [
+    "La destruction de toute vie sur une planète",
+    "L’exécution d’un traître",
+    "L’excommunication d’un chapitre",
+    "L’évacuation d’une ruche"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "C’est l’arme ultime contre une invasion ou une corruption irréversible.",
+   "id": "t040-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que deviennent les Space Marines grièvement blessés mais encore vivants ?",
+   "choix": [
+    "Des Dreadnoughts",
+    "Des Servitors",
+    "Des Custodes",
+    "Des Chevaliers"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Ils sont enfermés dans un sarcophage de combat et continuent de servir.",
+   "id": "t040-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel organe implanté permet de récolter la semence génétique d’un Space Marine mort ?",
+   "choix": [
+    "Les progénoïdes",
+    "La carapace noire",
+    "L’omophagée",
+    "Le cœur secondaire"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "L’apothicaire les prélève pour créer de nouveaux guerriers.",
+   "id": "t040-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel officier Space Marine porte un crozius et veille à la foi de ses frères ?",
+   "choix": [
+    "Le chapelain",
+    "Le Techmarine",
+    "L’apothicaire",
+    "L’archiviste"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Il porte souvent un masque en forme de crâne.",
+   "id": "t040-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chapitre issu des Imperial Fists mène une croisade perpétuelle ?",
+   "choix": [
+    "Les Black Templars",
+    "Les Crimson Fists",
+    "Les Ultramarines",
+    "Les Flesh Tearers"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Ils ne suivent pas le Codex Astartes et comptent bien plus de mille guerriers.",
+   "id": "t040-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel grand-prêtre corrompu provoque l’Âge de l’Apostasie ?",
+   "choix": [
+    "Goge Vandire",
+    "Sebastian Thor",
+    "Lorgar",
+    "Abaddon"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base (8e à 10e éditions) ; Codex Space Marines, Astra Militarum, Adeptus Mechanicus",
+   "expl": "Il règne par la terreur jusqu’à ce que les Sœurs de bataille se retournent contre lui.",
+   "id": "t040-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Empereur est mort depuis dix mille ans, mais son corps est maintenu sur le Trône d’Or.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Son esprit continue d’agir, guidant l’Astronomican et protégeant Terra.",
+   "id": "t040-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tous les Primarques ont été fidèles à l’Empereur.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Faux : neuf ont trahi pendant l’Hérésie d’Horus, deux ont disparu des archives.",
+   "id": "t040-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Un chapitre de Space Marines compte en principe environ mille guerriers.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "C’est la règle fixée par le Codex Astartes après l’Hérésie.",
+   "id": "t040-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Adeptus Mechanicus vénère le Dieu-Machine.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Pour eux, chaque machine a un esprit qu’il faut apaiser par des rites.",
+   "id": "t040-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Grey Knights sont rattachés à l’Ordo Xenos.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Faux : ils servent l’Ordo Malleus, contre les démons.",
+   "id": "t040-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Space Wolves suivent strictement le Codex Astartes.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Faux : ils gardent leur propre organisation, héritée de Leman Russ.",
+   "id": "t040-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Sœurs du Silence sont des « intouchables » qui repoussent la magie.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Elles ont fait vœu de silence et chassent les psykers dangereux.",
+   "id": "t040-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Garde impériale est composée de Space Marines.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Faux : ce sont des humains ordinaires, levés par milliards.",
+   "id": "t040-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Guilliman revient à la vie grâce à l’aide d’une prophétesse aeldari et de Cawl.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Yvraine et Cawl participent à son réveil sur Macragge.",
+   "id": "t040-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Ogryns sont des humains géants à l’intelligence limitée.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Ces abhumains sont d’une force et d’une loyauté remarquables.",
+   "id": "t040-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Cadia a résisté indéfiniment au Chaos.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Faux : Cadia tombe lors de la treizième croisade noire d’Abaddon.",
+   "id": "t040-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Navigateurs ont un troisième œil.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Ils le cachent sous un bandeau, car son regard peut tuer.",
+   "id": "t040-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Codex Astartes a été écrit par Rogal Dorn.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Faux : c’est l’œuvre de Roboute Guilliman ; Dorn a pourtant longtemps contesté sa division des Légions.",
+   "id": "t040-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Inquisition peut condamner un monde entier.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer 40,000",
+   "expl": "Un inquisiteur peut ordonner un Exterminatus s’il juge la menace trop grave.",
+   "id": "t040-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de Primarques l’Empereur a-t-il créés ?",
+   "rep": 20,
+   "min": 5,
+   "max": 40,
+   "pas": 1,
+   "unite": "Primarques",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer 40,000",
+   "expl": "Ils sont dispersés dans la galaxie par les dieux du Chaos, avant d’être retrouvés.",
+   "id": "t040-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de guerriers compte en principe un chapitre selon le Codex Astartes ?",
+   "rep": 1000,
+   "min": 100,
+   "max": 10000,
+   "pas": 100,
+   "unite": "guerriers",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer 40,000",
+   "expl": "Dix compagnies de cent guerriers chacune.",
+   "id": "t040-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de compagnies compte un chapitre selon le Codex Astartes ?",
+   "rep": 10,
+   "min": 3,
+   "max": 20,
+   "pas": 1,
+   "unite": "compagnies",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer 40,000",
+   "expl": "La première est celle des vétérans, souvent en armure Terminator.",
+   "id": "t040-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’implants reçoit un Space Marine classique ?",
+   "rep": 19,
+   "min": 5,
+   "max": 30,
+   "pas": 1,
+   "unite": "implants",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer 40,000",
+   "expl": "Les Primaris en reçoivent trois de plus.",
+   "id": "t040-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de Hauts Seigneurs de Terra gouvernent l’Imperium ?",
+   "rep": 12,
+   "min": 3,
+   "max": 20,
+   "pas": 1,
+   "unite": "Hauts Seigneurs",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer 40,000",
+   "expl": "Guilliman, devenu Régent, les domine à son retour.",
+   "id": "t040-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de branches majeures (Ordos) compte l’Inquisition ?",
+   "rep": 3,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "Ordos",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer 40,000",
+   "expl": "Malleus, Hereticus et Xenos ; d’autres ordres mineurs existent.",
+   "id": "t040-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année du 41e millénaire Cadia tombe-t-elle ?",
+   "rep": 999,
+   "min": 100,
+   "max": 1000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer 40,000",
+   "expl": "La toute fin du millénaire, qui ouvre l’ère Indomitus.",
+   "id": "t040-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de Primarques ont été effacés des archives impériales ?",
+   "rep": 2,
+   "min": 0,
+   "max": 6,
+   "pas": 1,
+   "unite": "Primarques",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer 40,000",
+   "expl": "Les Légions II et XI ont disparu, sans qu’on sache pourquoi.",
+   "id": "t040-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’Empereur est maintenu en vie sur le ____ d’Or.",
+   "choix": [
+    "Trône",
+    "Siège",
+    "Palais",
+    "Temple"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Chaque jour, des psykers sont sacrifiés pour nourrir son esprit.",
+   "id": "t040-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le phare psychique qui guide les vaisseaux s’appelle l’____.",
+   "choix": [
+    "Astronomican",
+    "Astropathe",
+    "Imperium",
+    "Aquila"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Sa lumière ne porte pas au-delà de certaines limites de la galaxie.",
+   "id": "t040-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le livre qui organise les chapitres Space Marines est le Codex ____.",
+   "choix": [
+    "Astartes",
+    "Imperialis",
+    "Militarum",
+    "Ministorum"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Certains chapitres l’interprètent avec beaucoup de liberté.",
+   "id": "t040-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’armée humaine de l’Imperium s’appelle l’Astra ____.",
+   "choix": [
+    "Militarum",
+    "Astartes",
+    "Mechanicus",
+    "Custodes"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "On l’appelle plus simplement la Garde impériale.",
+   "id": "t040-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les prêtres de Mars appartiennent à l’Adeptus ____.",
+   "choix": [
+    "Mechanicus",
+    "Arbites",
+    "Ministorum",
+    "Custodes"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Ils remplacent peu à peu leur chair par des pièces mécaniques.",
+   "id": "t040-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Space Marines chasseurs de démons s’appellent les ____ Knights.",
+   "choix": [
+    "Grey",
+    "Black",
+    "Silver",
+    "Iron"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Leur forteresse-monastère se trouve sur Titan, une lune de Saturne.",
+   "id": "t040-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Space Marines de l’Ordo Xenos forment la ____.",
+   "choix": [
+    "Deathwatch",
+    "Darkwatch",
+    "Night Guard",
+    "Space Watch"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Leur armure garde une épaule aux couleurs de leur chapitre d’origine.",
+   "id": "t040-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les guerrières de l’Ecclésiarchie forment les Adepta ____.",
+   "choix": [
+    "Sororitas",
+    "Custodes",
+    "Mechanica",
+    "Militaria"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "On les appelle aussi les Sœurs de bataille.",
+   "id": "t040-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monde natal des Space Wolves s’appelle ____.",
+   "choix": [
+    "Fenris",
+    "Baal",
+    "Caliban",
+    "Nocturne"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Seuls les guerriers les plus forts y survivent aux saisons extrêmes.",
+   "id": "t040-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La faille qui coupe la galaxie s’appelle Cicatrix ____.",
+   "choix": [
+    "Maledictum",
+    "Ruinosa",
+    "Infernum",
+    "Imperialis"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Une moitié de l’Imperium, l’Imperium Nihilus, se retrouve dans l’ombre.",
+   "id": "t040-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Primaris sont l’œuvre de l’archimagos Belisarius ____.",
+   "choix": [
+    "Cawl",
+    "Bile",
+    "Lorgar",
+    "Gaunt"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Il les crée à partir de la semence génétique des Primarques.",
+   "id": "t040-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le monde natal des Salamanders s’appelle ____.",
+   "choix": [
+    "Nocturne",
+    "Medusa",
+    "Chogoris",
+    "Deliverance"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Un monde volcanique ; leur Primarque, Vulkan, est un maître forgeron.",
+   "id": "t040-074",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces chapitres n’est pas loyal à l’Imperium ?",
+   "choix": [
+    "Les World Eaters",
+    "Les Ultramarines",
+    "Les Blood Angels",
+    "Les Space Wolves"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les World Eaters ont suivi Horus et servent Khorne.",
+   "id": "t040-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Ordos n’existe pas dans l’Inquisition ?",
+   "choix": [
+    "L’Ordo Draconis",
+    "L’Ordo Malleus",
+    "L’Ordo Hereticus",
+    "L’Ordo Xenos"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les trois grands Ordos couvrent démons, hérétiques et extraterrestres.",
+   "id": "t040-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces régiments n’appartient pas à la Garde impériale ?",
+   "choix": [
+    "Les Skitarii",
+    "Les Cadiens",
+    "Les Catachans",
+    "Le Death Korps de Krieg"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les Skitarii sont les soldats cybernétiques de Mars.",
+   "id": "t040-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Primarques n’est pas resté loyal ?",
+   "choix": [
+    "Horus",
+    "Rogal Dorn",
+    "Sanguinius",
+    "Vulkan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Horus, le favori de l’Empereur, a mené la rébellion.",
+   "id": "t040-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces planètes n’est pas un monde natal de chapitre ?",
+   "choix": [
+    "Terra",
+    "Macragge",
+    "Baal",
+    "Fenris"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Terra est le cœur de l’Imperium et le siège de l’Empereur.",
+   "id": "t040-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces officiers n’appartient pas aux Space Marines ?",
+   "choix": [
+    "Le commissaire",
+    "Le chapelain",
+    "L’apothicaire",
+    "L’archiviste"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Le commissaire sert dans la Garde impériale.",
+   "id": "t040-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces véhicules n’est pas utilisé par les Space Marines ?",
+   "choix": [
+    "Le Baneblade",
+    "Le Rhino",
+    "Le Land Raider",
+    "Le Predator"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Le Baneblade est un char super-lourd de la Garde.",
+   "id": "t040-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces organisations ne protège pas directement l’Empereur ou son palais ?",
+   "choix": [
+    "L’Adeptus Arbites",
+    "L’Adeptus Custodes",
+    "Les Sœurs du Silence",
+    "Les Imperial Fists"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les Arbites font respecter la loi impériale sur les mondes.",
+   "id": "t040-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces assassins n’appartient pas à l’Officio Assassinorum ?",
+   "choix": [
+    "Ciaphas",
+    "Callidus",
+    "Vindicare",
+    "Eversor"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Ciaphas Cain est un commissaire de la Garde.",
+   "id": "t040-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un Space Marine ?",
+   "choix": [
+    "Ursarkar Creed",
+    "Marneus Calgar",
+    "Dante",
+    "Logan Grimnar"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Creed est un général de la Garde impériale.",
+   "id": "t040-084",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels chapitres sont des Space Marines loyaux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ultramarines",
+    "Blood Angels",
+    "Dark Angels",
+    "Space Wolves",
+    "Night Lords",
+    "Word Bearers"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Night Lords et Word Bearers ont rejoint Horus.",
+   "id": "t040-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles organisations font partie de l’Imperium ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Adeptus Mechanicus",
+    "Astra Militarum",
+    "Adeptus Custodes",
+    "Aeldari",
+    "T’au"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Aeldari et T’au sont des civilisations extraterrestres.",
+   "id": "t040-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels régiments sont des régiments de la Garde impériale ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cadiens",
+    "Catachans",
+    "Valhallans",
+    "Mordiens",
+    "Skitarii",
+    "Custodes"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Chaque monde fournit des régiments au caractère bien marqué.",
+   "id": "t040-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles fonctions existent dans un chapitre Space Marines ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Chapelain",
+    "Apothicaire",
+    "Archiviste",
+    "Techmarine",
+    "Commissaire",
+    "Navigateur"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Le Techmarine est formé sur Mars par l’Adeptus Mechanicus.",
+   "id": "t040-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels Primarques sont restés loyaux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Roboute Guilliman",
+    "Rogal Dorn",
+    "Sanguinius",
+    "Leman Russ",
+    "Horus",
+    "Angron"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Angron, Primarque des World Eaters, a suivi Horus.",
+   "id": "t040-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels êtres servent l’Imperium grâce à leurs pouvoirs psychiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Astropathes",
+    "Archivistes",
+    "Navigateurs",
+    "Sœurs du Silence",
+    "Commissaires"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les Sœurs du Silence sont au contraire dépourvues d’âme psychique.",
+   "id": "t040-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels abhumains servent dans la Garde impériale ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ogryns",
+    "Ratlings",
+    "Orks",
+    "Kroots"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les Ratlings sont de petits tireurs d’élite, gourmands et chapardeurs.",
+   "id": "t040-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles machines de guerre appartiennent à l’Adeptus Mechanicus ou à ses alliés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Titans",
+    "Chevaliers impériaux",
+    "Skitarii",
+    "Rhino",
+    "Dreadnought"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les Chevaliers impériaux sont pilotés par des nobles liés à Mars ou à Terra.",
+   "id": "t040-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels chapitres descendent de Sanguinius ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Blood Angels",
+    "Flesh Tearers",
+    "Blood Drinkers",
+    "Crimson Fists",
+    "Black Templars"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Crimson Fists et Black Templars descendent des Imperial Fists.",
+   "id": "t040-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels chapitres ne suivent pas strictement le Codex Astartes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Space Wolves",
+    "Black Templars",
+    "Ultramarines",
+    "Novamarines"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les Ultramarines et leurs successeurs en sont les gardiens.",
+   "id": "t040-094",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces unités d’un chapitre de la plus petite à la plus grande.",
+   "items": [
+    "Escouade",
+    "Compagnie",
+    "Chapitre"
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Une escouade compte de cinq à dix guerriers, une compagnie cent.",
+   "id": "t040-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de l’histoire de l’Imperium par ordre chronologique.",
+   "items": [
+    "La Grande Croisade",
+    "L’Hérésie d’Horus",
+    "L’Âge de l’Apostasie",
+    "La chute de Cadia"
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "De la conquête de la galaxie, au 30e millénaire, jusqu’à la fin du 41e.",
+   "id": "t040-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la carrière d’un Space Marine dans l’ordre.",
+   "items": [
+    "Sélection de l’aspirant",
+    "Implantation des organes",
+    "Service chez les Scouts",
+    "Entrée dans une compagnie de combat"
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les aspirants sont choisis jeunes, avant la fin de leur croissance.",
+   "id": "t040-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du retour de Guilliman dans l’ordre.",
+   "items": [
+    "Guilliman est réveillé",
+    "Il devient Régent",
+    "La croisade Indomitus commence"
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Il découvre alors combien l’Imperium a dégénéré en dix mille ans.",
+   "id": "t040-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces véhicules du plus léger au plus lourd.",
+   "items": [
+    "Rhino",
+    "Predator",
+    "Land Raider"
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Le Land Raider est un transport blindé quasi indestructible.",
+   "id": "t040-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces armes de la Garde de la plus légère à la plus lourde.",
+   "items": [
+    "Pistolet laser",
+    "Fusil laser",
+    "Canon laser"
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Le canon laser perce même le blindage des chars.",
+   "id": "t040-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces armures Space Marines de la plus légère à la plus lourde.",
+   "items": [
+    "Armure de Scout",
+    "Armure énergétique",
+    "Armure Terminator"
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "L’armure Terminator, ou armure tactique Dreadnought, sert surtout aux vétérans.",
+   "id": "t040-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la chute de Cadia dans l’ordre.",
+   "items": [
+    "Treizième croisade noire",
+    "Destruction des pylônes de Cadia",
+    "Chute de la planète",
+    "Ouverture de la Grande Faille"
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les pylônes empêchaient l’Œil de la Terreur de s’étendre.",
+   "id": "t040-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces dirigeants de l’Imperium par ordre d’arrivée au pouvoir.",
+   "items": [
+    "L’Empereur",
+    "Les Hauts Seigneurs de Terra",
+    "Roboute Guilliman, Régent"
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Après l’Hérésie, l’Empereur, sur son trône, ne gouverne plus directement.",
+   "id": "t040-103",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque chapitre à son Primarque.",
+   "paires": [
+    [
+     "Ultramarines",
+     "Roboute Guilliman"
+    ],
+    [
+     "Blood Angels",
+     "Sanguinius"
+    ],
+    [
+     "Space Wolves",
+     "Leman Russ"
+    ],
+    [
+     "Imperial Fists",
+     "Rogal Dorn"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Chaque Primarque a légué son caractère à ses fils.",
+   "id": "t040-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque chapitre à son monde natal.",
+   "paires": [
+    [
+     "Ultramarines",
+     "Macragge"
+    ],
+    [
+     "Blood Angels",
+     "Baal"
+    ],
+    [
+     "Space Wolves",
+     "Fenris"
+    ],
+    [
+     "Dark Angels",
+     "Caliban"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Caliban a été détruit à la fin de l’Hérésie.",
+   "id": "t040-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Ordo à sa cible.",
+   "paires": [
+    [
+     "Ordo Malleus",
+     "Démons"
+    ],
+    [
+     "Ordo Hereticus",
+     "Hérétiques"
+    ],
+    [
+     "Ordo Xenos",
+     "Extraterrestres"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les inquisiteurs choisissent souvent leurs propres méthodes.",
+   "id": "t040-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque régiment à son milieu.",
+   "paires": [
+    [
+     "Catachans",
+     "Jungle"
+    ],
+    [
+     "Valhallans",
+     "Glace"
+    ],
+    [
+     "Tallarns",
+     "Désert"
+    ],
+    [
+     "Cadiens",
+     "Monde-forteresse"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les régiments sont adaptés à la planète qui les a formés.",
+   "id": "t040-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque assassin à sa spécialité.",
+   "paires": [
+    [
+     "Vindicare",
+     "Tireur d’élite"
+    ],
+    [
+     "Callidus",
+     "Métamorphe"
+    ],
+    [
+     "Eversor",
+     "Tueur en furie"
+    ],
+    [
+     "Culexus",
+     "Tueur de psykers"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "On n’envoie un assassin que sur ordre des Hauts Seigneurs.",
+   "id": "t040-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque officier Space Marine à son rôle.",
+   "paires": [
+    [
+     "Chapelain",
+     "Foi"
+    ],
+    [
+     "Apothicaire",
+     "Soins"
+    ],
+    [
+     "Archiviste",
+     "Pouvoirs psychiques"
+    ],
+    [
+     "Techmarine",
+     "Machines"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Ces spécialistes accompagnent les escouades sur le champ de bataille.",
+   "id": "t040-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque chef à son chapitre.",
+   "paires": [
+    [
+     "Marneus Calgar",
+     "Ultramarines"
+    ],
+    [
+     "Dante",
+     "Blood Angels"
+    ],
+    [
+     "Logan Grimnar",
+     "Space Wolves"
+    ],
+    [
+     "Azrael",
+     "Dark Angels"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Dante est l’un des plus anciens Space Marines vivants.",
+   "id": "t040-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque organisation à son rôle.",
+   "paires": [
+    [
+     "Adeptus Custodes",
+     "Garde de l’Empereur"
+    ],
+    [
+     "Adeptus Arbites",
+     "Police impériale"
+    ],
+    [
+     "Adeptus Ministorum",
+     "Église"
+    ],
+    [
+     "Administratum",
+     "Administration"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "L’Imperium est une immense bureaucratie.",
+   "id": "t040-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque monde à sa fonction.",
+   "paires": [
+    [
+     "Terra",
+     "Siège de l’Empereur"
+    ],
+    [
+     "Mars",
+     "Monde-forge"
+    ],
+    [
+     "Cadia",
+     "Monde-forteresse"
+    ],
+    [
+     "Titan",
+     "Forteresse des Grey Knights"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Terra et Mars sont unis par un ancien traité.",
+   "id": "t040-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Primarque\n2. J’ai écrit le Codex Astartes\n3. Je suis revenu à la vie",
+   "choix": [
+    "Roboute Guilliman",
+    "Rogal Dorn",
+    "Lion El’Jonson",
+    "Sanguinius"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Il a passé dix mille ans en stase, mortellement blessé.",
+   "id": "t040-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Primarque\n2. J’ai des ailes\n3. Une soif maudite ronge mes fils",
+   "choix": [
+    "Sanguinius",
+    "Corvus Corax",
+    "Lorgar",
+    "Vulkan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Sa mort pèse sur ses fils depuis dix mille ans.",
+   "id": "t040-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un archimagos\n2. J’ai créé les Primaris\n3. Je vis depuis des millénaires",
+   "choix": [
+    "Belisarius Cawl",
+    "Fabius Bile",
+    "Ursarkar Creed",
+    "Marneus Calgar"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Il est en partie machine, et dispose de nombreux bras mécaniques.",
+   "id": "t040-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un général\n2. J’ai défendu Cadia\n3. Je fume des cigares",
+   "choix": [
+    "Ursarkar E. Creed",
+    "Sebastian Yarrick",
+    "Ibram Gaunt",
+    "Ciaphas Cain"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Son sort après la chute de Cadia reste longtemps mystérieux.",
+   "id": "t040-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un ordre\n2. Je suis vêtu d’or\n3. Je garde le Trône",
+   "choix": [
+    "L’Adeptus Custodes",
+    "Les Grey Knights",
+    "Les Black Templars",
+    "Les Sœurs de bataille"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les Custodes sont créés un par un par l’Empereur lui-même.",
+   "id": "t040-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un mutant\n2. Mon troisième œil voit le Warp\n3. Je pilote les vaisseaux",
+   "choix": [
+    "Un Navigateur",
+    "Un Astropathe",
+    "Un Servitor",
+    "Un Ogryn"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Les grandes familles de Navigateurs forment une noblesse puissante.",
+   "id": "t040-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une arme\n2. On me surnomme « lampe torche »\n3. Je suis l’arme de la Garde",
+   "choix": [
+    "Le fusil laser",
+    "Le bolter",
+    "Le lance-flammes",
+    "Le fuseur"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Le bolter, lui, tire des projectiles explosifs.",
+   "id": "t040-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un monde\n2. J’ai gardé la porte de l’Œil de la Terreur\n3. Je suis tombé en 999.M41",
+   "choix": [
+    "Cadia",
+    "Armageddon",
+    "Terra",
+    "Macragge"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer 40,000 : Livre de base et Codex",
+   "expl": "Le cri « Cadia tient ! » est devenu célèbre chez les joueurs.",
+   "id": "t040-120",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

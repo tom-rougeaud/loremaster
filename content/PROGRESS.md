@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**39 / 99 thèmes terminés — 5432 questions au total.**
+**40 / 99 thèmes terminés — 5552 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -45,7 +45,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 37 | Objets enchantés et secrets de Poudlard | 134 | 46 | 17 (9) | 8 | 13 | 10 | 10 | 10 | 10 | 10 | 47 % | 16/111/7 | 13 | terminé |
 | 38 | L’univers Warhammer et son histoire | 121 | 41 | 14 (7) | 8 | 12 | 10 | 10 | 10 | 8 | 8 | 45 % | 11/104/6 | 4 | terminé |
 | 39 | Le Vieux Monde (Warhammer Fantasy) | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 13/100/7 | 3 | terminé |
-| 40 | L’Imperium (Warhammer 40k) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 40 | L’Imperium (Warhammer 40k) | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 14/101/5 | 3 | terminé |
 | 41 | Les Puissances de la Ruine (Chaos) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 42 | Xenos et peuples non humains (40k) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 43 | Grandes sagas et batailles de Warhammer | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -364,6 +364,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - objets-hp : niveaux déséquilibrés [16, 111, 7]
 - lore-warhammer : niveaux déséquilibrés [11, 104, 6]
 - vieux-monde : niveaux déséquilibrés [13, 100, 7]
+- imperium-40k : niveaux déséquilibrés [14, 101, 5]
 - gre-003 : explication absente ou trop courte
 - gre-006 : explication absente ou trop courte
 - gre-011 : explication absente ou trop courte
