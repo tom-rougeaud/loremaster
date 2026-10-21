@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**53 / 99 thèmes terminés — 7143 questions au total.**
+**54 / 99 thèmes terminés — 7263 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -59,7 +59,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 51 | Mythes aztèques, mayas et amérindiens | 130 | 43 | 18 (10) | 8 | 13 | 10 | 10 | 10 | 9 | 9 | 47 % | 26/78/26 | 3 | terminé |
 | 52 | Folklore français et breton | 130 | 43 | 17 (9) | 8 | 14 | 10 | 10 | 10 | 9 | 9 | 46 % | 26/78/26 | 4 | terminé |
 | 53 | Bestiaires médiévaux et gargouilles | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/72/24 | 4 | terminé |
-| 54 | Cryptides et légendes urbaines | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 54 | Cryptides et légendes urbaines | 120 | 39 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 44 % | 24/72/24 | 3 | terminé |
 | 55 | Les sociétés médiévales | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 56 | Le Moyen Âge dans la pop culture | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 57 | Châteaux forts et sièges célèbres | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |

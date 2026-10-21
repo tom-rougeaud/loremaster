@@ -28,3 +28,4 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 51 : noms des jumeaux navajos, mythe du Corbeau voleur de lumière (version haïda), date de découverte de la pierre de Coyolxauhqui, nombre d’années du voyage au Mictlan.
 - Thème 52 : nom du chasseur François Antoine, date et lieu des reliques d’Aubert (Avranches), « Marie-Morgane », Troménie tous les six ans.
 - Thème 53 : allégories du castor et de l’aigle (selon les versions), symboles des tentures de La Dame à la licorne, « Stryge ».
+- Thème 54 : titre français du film sur le Mothman, date des premières observations du Jersey Devil, rôle exact de Heuvelmans dans l’invention du mot cryptozoologie.

@@ -1,0 +1,1963 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "cryptides",
+  "nom": "Cryptides et légendes urbaines",
+  "royaume": "Mythologies et folklores du monde",
+  "icone": "ours",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel lac écossais vivrait le plus célèbre monstre des Highlands ?",
+   "choix": [
+    "Le loch Ness",
+    "Le loch Lomond",
+    "Le loch Morar",
+    "Le loch Tay"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Les observations se multiplient à partir de 1933, après l’ouverture d’une route au bord du lac.",
+   "id": "t054-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que révèle-t-on en 1994 sur la célèbre « photo du chirurgien » de Nessie, prise en 1934 ?",
+   "choix": [
+    "C’était un canular avec un jouet",
+    "C’était une souche flottante",
+    "C’était un phoque",
+    "C’était une loutre géante"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Une fausse tête avait été fixée sur un sous-marin miniature.",
+   "id": "t054-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quelle chaîne de montagnes vivrait le yéti ?",
+   "choix": [
+    "L’Himalaya",
+    "Les Andes",
+    "Les Rocheuses",
+    "Les Alpes"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "On le surnomme aussi « l’abominable homme des neiges ».",
+   "id": "t054-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel album d’Hergé, paru en 1960, met en scène un yéti ?",
+   "choix": [
+    "Tintin au Tibet",
+    "Le Temple du Soleil",
+    "Vol 714 pour Sydney",
+    "Les Sept Boules de cristal"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Hergé y montre un yéti plus solitaire que méchant.",
+   "id": "t054-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment appelle-t-on aussi le Bigfoot, au Canada ?",
+   "choix": [
+    "Le Sasquatch",
+    "Le Yowie",
+    "L’Almasty",
+    "Le Wendigo"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Le nom vient d’un mot d’une langue salish de la côte ouest.",
+   "id": "t054-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel court film de 1967 prétend montrer un Bigfoot marchant dans une forêt de Californie ?",
+   "choix": [
+    "Le film de Patterson et Gimlin",
+    "Le Projet Blair Witch",
+    "Le film de Zapruder",
+    "Le film de Roswell"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Beaucoup y voient un homme en costume ; les débats durent encore.",
+   "id": "t054-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature, signalée à Porto Rico en 1995, viderait le bétail de son sang ?",
+   "choix": [
+    "Le chupacabra",
+    "Le Mothman",
+    "Le Jersey Devil",
+    "Le Wendigo"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Son nom signifie en espagnol « suceur de chèvres ».",
+   "id": "t054-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville américaine apparaît l’homme-papillon de nuit, le Mothman, en 1966-1967 ?",
+   "choix": [
+    "Point Pleasant",
+    "Roswell",
+    "Salem",
+    "Sleepy Hollow"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Ses apparitions sont associées, après coup, à l’effondrement d’un pont en décembre 1967.",
+   "id": "t054-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon la légende, combien d’enfants avait déjà Mère Leeds avant la naissance du Jersey Devil ?",
+   "choix": [
+    "Douze",
+    "Trois",
+    "Sept",
+    "Neuf"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Le treizième, maudit, se serait changé en créature ailée.",
+   "id": "t054-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monstre marin des légendes scandinaves est sans doute inspiré du calmar géant ?",
+   "choix": [
+    "Le kraken",
+    "Le léviathan",
+    "Nessie",
+    "Ogopogo"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Le calmar géant a été filmé vivant pour la première fois en 2004, puis dans les profondeurs en 2012.",
+   "id": "t054-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel poisson, qu’on croyait éteint depuis le temps des dinosaures, est redécouvert en 1938 ?",
+   "choix": [
+    "Le cœlacanthe",
+    "Le requin-lutin",
+    "Le poisson-lune",
+    "L’anguille électrique"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Marjorie Courtenay-Latimer le remarque dans les filets d’un pêcheur sud-africain.",
+   "id": "t054-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal d’Afrique centrale, longtemps connu par des rumeurs, est décrit par les Européens en 1901 ?",
+   "choix": [
+    "L’okapi",
+    "Le gorille des montagnes",
+    "L’éléphant de forêt",
+    "Le bonobo"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Proche de la girafe, il est souvent cité en exemple par les cryptozoologues.",
+   "id": "t054-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel zoologiste belge est considéré comme le père de la cryptozoologie ?",
+   "choix": [
+    "Bernard Heuvelmans",
+    "Théodore Monod",
+    "Jacques-Yves Cousteau",
+    "Konrad Lorenz"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Il publie en 1955 Sur la piste des bêtes ignorées.",
+   "id": "t054-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel monstre vivrait dans le lac Okanagan, au Canada ?",
+   "choix": [
+    "Ogopogo",
+    "Champ",
+    "Nessie",
+    "Mokele-mbembe"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "On le décrit comme un serpent d’eau à bosses.",
+   "id": "t054-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal légendaire du Congo ressemblerait à un dinosaure à long cou ?",
+   "choix": [
+    "Le mokele-mbembe",
+    "Le chupacabra",
+    "Le bunyip",
+    "Le yowie"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Plusieurs expéditions l’ont cherché sans jamais le trouver.",
+   "id": "t054-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature cachée hanterait les marais et les billabongs d’Australie ?",
+   "choix": [
+    "Le bunyip",
+    "Le yowie",
+    "Le chupacabra",
+    "Le jackalope"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Les récits aborigènes le décrivent sous des formes très variées.",
+   "id": "t054-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal empaillé de Bavière combine lièvre, ailes et bois de cerf ?",
+   "choix": [
+    "Le wolpertinger",
+    "Le jackalope",
+    "Le dahu",
+    "Le hodag"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Les taxidermistes en fabriquent pour amuser les touristes.",
+   "id": "t054-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel lièvre à bois de cerf est une mascotte du Wyoming ?",
+   "choix": [
+    "Le jackalope",
+    "Le wolpertinger",
+    "Le hodag",
+    "Le bunyip"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "On raconte qu’il imite la voix des cow-boys qui chantent autour du feu.",
+   "id": "t054-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville du Nouveau-Mexique un objet tombé en 1947 alimente des rumeurs de soucoupe volante ?",
+   "choix": [
+    "Roswell",
+    "Las Vegas",
+    "Santa Fe",
+    "Albuquerque"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "L’armée américaine a expliqué plus tard qu’il s’agissait d’un ballon secret.",
+   "id": "t054-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel triangle de l’Atlantique serait responsable de disparitions mystérieuses ?",
+   "choix": [
+    "Le triangle des Bermudes",
+    "Le triangle d’or",
+    "Le triangle du Dragon",
+    "Le triangle de Panama"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Les études montrent qu’il n’y a pas plus d’accidents qu’ailleurs dans cette zone très fréquentée.",
+   "id": "t054-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel navire est retrouvé en 1872 intact mais sans aucun membre d’équipage ?",
+   "choix": [
+    "La Mary Celeste",
+    "Le Titanic",
+    "Le Bounty",
+    "Le Hollandais volant"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Arthur Conan Doyle a écrit une nouvelle qui a beaucoup brodé sur ce mystère.",
+   "id": "t054-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel navire fantôme est condamné à errer pour l’éternité, selon une légende de marins ?",
+   "choix": [
+    "Le Hollandais volant",
+    "La Mary Celeste",
+    "Le Nautilus",
+    "La Black Pearl"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Le voir annoncerait une catastrophe ; Wagner en a tiré un opéra.",
+   "id": "t054-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel folkloriste américain fait connaître l’étude des légendes urbaines ?",
+   "choix": [
+    "Jan Harold Brunvand",
+    "Joseph Campbell",
+    "Alan Lomax",
+    "Stith Thompson"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Son livre The Vanishing Hitchhiker paraît en 1981.",
+   "id": "t054-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville française une rumeur de 1969 accuse des commerçants de faire disparaître des jeunes filles ?",
+   "choix": [
+    "Orléans",
+    "Lyon",
+    "Marseille",
+    "Lille"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Le sociologue Edgar Morin l’étudie et montre qu’elle était infondée et antisémite.",
+   "id": "t054-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage longiligne et sans visage est né en 2009 sur un forum internet ?",
+   "choix": [
+    "Slender Man",
+    "Freddy Krueger",
+    "Jeff the Killer",
+    "Siren Head"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Il a été créé par un internaute pour un concours de retouche de photos.",
+   "id": "t054-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les histoires d’horreur qui circulent par copier-coller sur internet ?",
+   "choix": [
+    "Des creepypastas",
+    "Des fanfictions",
+    "Des mèmes",
+    "Des fables"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Le mot mélange « creepy » (effrayant) et « copypasta » (copier-coller).",
+   "id": "t054-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle figure apparaît, selon la légende, si l’on répète son nom devant un miroir ?",
+   "choix": [
+    "Bloody Mary",
+    "La Dame blanche",
+    "Slender Man",
+    "La Llorona"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Ce jeu se pratique dans les soirées pyjama, lumière éteinte.",
+   "id": "t054-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels animaux vivraient dans les égouts de New York, selon une célèbre légende urbaine ?",
+   "choix": [
+    "Des alligators",
+    "Des pythons géants",
+    "Des piranhas",
+    "Des rats albinos géants"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "On raconte que des touristes y auraient jeté des bébés alligators rapportés de Floride.",
+   "id": "t054-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel esprit hanterait les toilettes des écoles japonaises ?",
+   "choix": [
+    "Hanako-san",
+    "Kuchisake-onna",
+    "Teke Teke",
+    "Sadako"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "On l’appelle en frappant trois fois à la troisième porte des toilettes des filles.",
+   "id": "t054-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle femme à la bouche fendue demande aux passants japonais si elle est belle ?",
+   "choix": [
+    "Kuchisake-onna",
+    "Hanako-san",
+    "Yuki-onna",
+    "Sadako"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Cette rumeur provoque une véritable panique dans des écoles en 1979.",
+   "id": "t054-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle femme en pleurs cherche ses enfants noyés, dans les légendes d’Amérique latine ?",
+   "choix": [
+    "La Llorona",
+    "La Malinche",
+    "La Catrina",
+    "La Siguanaba"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Son cri annoncerait un malheur à ceux qui l’entendent.",
+   "id": "t054-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle rumeur de 1969 affirme qu’un des Beatles aurait disparu en 1966 et serait remplacé par un sosie ?",
+   "choix": [
+    "Paul est mort",
+    "John est vivant",
+    "Ringo est un robot",
+    "George est un espion"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Les fans croyaient trouver des indices sur les pochettes des disques.",
+   "id": "t054-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que raconte la légende urbaine du « vol de rein » ?",
+   "choix": [
+    "Une victime se réveille dans une baignoire de glace, opérée",
+    "Un voleur échange les reins des malades",
+    "Un chirurgien vole les montres",
+    "Un rein disparaît d’un musée"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Aucun cas réel correspondant à ce récit n’a été confirmé.",
+   "id": "t054-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature à l’aspect d’homme-singe hanterait le Caucase ?",
+   "choix": [
+    "L’almasty",
+    "Le yowie",
+    "Le sasquatch",
+    "Le chupacabra"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Des chercheurs soviétiques ont mené des expéditions pour le trouver.",
+   "id": "t054-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature à l’aspect d’homme-singe hanterait l’Australie ?",
+   "choix": [
+    "Le yowie",
+    "L’almasty",
+    "Le bunyip",
+    "Le yéti"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Les récits la décrivent poilue et très grande.",
+   "id": "t054-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel alpiniste photographie en 1951 une célèbre empreinte de yéti ?",
+   "choix": [
+    "Eric Shipton",
+    "Edmund Hillary",
+    "Reinhold Messner",
+    "Maurice Herzog"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "On y voit une grande trace à côté d’un piolet servant d’échelle.",
+   "id": "t054-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature à tête en forme de pique est signalée en Virginie-Occidentale en 1952 ?",
+   "choix": [
+    "Le monstre de Flatwoods",
+    "Le Mothman",
+    "Le Jersey Devil",
+    "Le Hodag"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Les enquêteurs ont proposé une chouette effraie perchée et un météore.",
+   "id": "t054-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom porte la gigantesque créature poilue que certains disent voir dans les forêts du nord-ouest américain ?",
+   "choix": [
+    "Bigfoot",
+    "Mothman",
+    "Jackalope",
+    "Chupacabra"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Son nom anglais signifie « grand pied », à cause des empreintes géantes qu’on lui attribue.",
+   "id": "t054-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle disparition d’avions de 1945 alimente la légende du triangle des Bermudes ?",
+   "choix": [
+    "Le vol 19",
+    "Le vol 714",
+    "L’Hindenburg",
+    "L’Aéropostale"
+   ],
+   "rep": 0,
+   "src": "B. Heuvelmans, Sur la piste des bêtes ignorées (1955) ; J. H. Brunvand, The Vanishing Hitchhiker (1981) ; E. Morin, La Rumeur d’Orléans (1969) ; D. Loxton et D. Prothero, Abominable Science! (2013)",
+   "expl": "Cinq bombardiers d’entraînement disparaissent au large de la Floride.",
+   "id": "t054-039",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’existence du monstre du loch Ness a été prouvée scientifiquement.",
+   "rep": false,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Faux : aucune preuve n’a jamais été apportée ; une étude de l’ADN du lac en 2018 n’a rien trouvé de tel.",
+   "id": "t054-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Une étude de l’ADN du loch Ness, en 2018, a révélé beaucoup d’ADN d’anguille.",
+   "rep": true,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Certains ont proposé l’hypothèse d’anguilles géantes, sans preuve.",
+   "id": "t054-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le calmar géant est un animal réel.",
+   "rep": true,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Il peut dépasser dix mètres de long, tentacules compris.",
+   "id": "t054-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le cœlacanthe a été retrouvé vivant au 20e siècle.",
+   "rep": true,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "On le croyait éteint depuis environ soixante-six millions d’années.",
+   "id": "t054-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le chupacabra est une légende née en Europe au Moyen Âge.",
+   "rep": false,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Faux : elle apparaît à Porto Rico en 1995.",
+   "id": "t054-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le film de Patterson et Gimlin date de 1967.",
+   "rep": true,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Il a été tourné à Bluff Creek, dans le nord de la Californie.",
+   "id": "t054-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La « photo du chirurgien » de Nessie est authentique.",
+   "rep": false,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Faux : c’est un canular, révélé par l’un de ses auteurs en 1994.",
+   "id": "t054-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Slender Man est une créature du folklore médiéval allemand.",
+   "rep": false,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Faux : il a été inventé sur internet en 2009.",
+   "id": "t054-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Une légende urbaine se transmet souvent comme une histoire arrivée à « l’ami d’un ami ».",
+   "rep": true,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Brunvand souligne que la source n’est jamais vérifiable.",
+   "id": "t054-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La rumeur d’Orléans de 1969 était fondée sur des faits réels.",
+   "rep": false,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Faux : aucune disparition n’a eu lieu ; la rumeur a été démontée.",
+   "id": "t054-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le jackalope est un vrai animal du Wyoming.",
+   "rep": false,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Faux : c’est une créature imaginaire, souvent fabriquée par des taxidermistes.",
+   "id": "t054-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’okapi était inconnu des scientifiques européens jusqu’au début du 20e siècle.",
+   "rep": true,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Il est décrit en 1901 à partir de morceaux de peau et de crânes.",
+   "id": "t054-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le yéti viendrait de l’Himalaya.",
+   "rep": true,
+   "src": "Heuvelmans ; Brunvand ; Morin ; Loxton et Prothero",
+   "expl": "Des analyses de « reliques de yéti » ont surtout révélé des ours.",
+   "id": "t054-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les disparitions dans le triangle des Bermudes sont plus nombreuses qu’ailleurs.",
+   "rep": false,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Faux : la zone est simplement très fréquentée ; les assureurs ne la jugent pas plus risquée.",
+   "id": "t054-053",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année la photo du chirurgien de Nessie est-elle prise ?",
+   "rep": 1934,
+   "min": 1900,
+   "max": 1970,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Elle paraît dans le Daily Mail et devient la photo la plus célèbre du monstre.",
+   "id": "t054-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année le cœlacanthe est-il redécouvert ?",
+   "rep": 1938,
+   "min": 1900,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le poisson est pêché près de l’embouchure de la Chalumna, en Afrique du Sud.",
+   "id": "t054-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année naît Slender Man sur internet ?",
+   "rep": 2009,
+   "min": 1995,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Il apparaît sur le forum Something Awful.",
+   "id": "t054-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année la rumeur d’Orléans se répand-elle ?",
+   "rep": 1969,
+   "min": 1945,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le livre d’Edgar Morin paraît dès l’année suivante.",
+   "id": "t054-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année l’affaire de Roswell commence-t-elle ?",
+   "rep": 1947,
+   "min": 1930,
+   "max": 1970,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Elle ne devient célèbre qu’à la fin des années 1970.",
+   "id": "t054-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Bernard Heuvelmans publie-t-il Sur la piste des bêtes ignorées ?",
+   "rep": 1955,
+   "min": 1920,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le livre est traduit dans de nombreuses langues.",
+   "id": "t054-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’avions disparaissent lors du vol 19, en 1945 ?",
+   "rep": 5,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "avions",
+   "tolerance": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Un hydravion envoyé à leur recherche disparaît aussi, sans doute après une explosion.",
+   "id": "t054-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année le pont de Point Pleasant s’effondre-t-il, après les apparitions du Mothman ?",
+   "rep": 1967,
+   "min": 1950,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "L’accident du Silver Bridge fait quarante-six morts, sans aucun lien prouvé avec le Mothman.",
+   "id": "t054-061",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le monstre du loch Ness est surnommé ____.",
+   "choix": [
+    "Nessie",
+    "Nessy",
+    "Lochie",
+    "Ness"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Une exposition lui est consacrée dans le village de Drumnadrochit.",
+   "id": "t054-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Bigfoot canadien est aussi appelé ____.",
+   "choix": [
+    "Sasquatch",
+    "Yéti",
+    "Yowie",
+    "Almasty"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "On le décrit grand, poilu et bipède, laissant d’énormes empreintes.",
+   "id": "t054-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’homme des neiges de l’Himalaya s’appelle le ____.",
+   "choix": [
+    "yéti",
+    "sasquatch",
+    "almasty",
+    "yowie"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le mot viendrait du sherpa ; plusieurs « reliques » analysées provenaient d’ours.",
+   "id": "t054-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le « suceur de chèvres » de Porto Rico s’appelle le ____.",
+   "choix": [
+    "chupacabra",
+    "mothman",
+    "bunyip",
+    "hodag"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Beaucoup d’observations concernaient en fait des coyotes ou des chiens atteints de gale.",
+   "id": "t054-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’homme-papillon de Point Pleasant s’appelle le ____.",
+   "choix": [
+    "Mothman",
+    "Batman",
+    "Birdman",
+    "Flatman"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Un film de 2002 avec Richard Gere s’en inspire.",
+   "id": "t054-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monstre marin inspiré du calmar géant s’appelle le ____.",
+   "choix": [
+    "kraken",
+    "léviathan",
+    "serpent de mer",
+    "maelström"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Jules Verne met un poulpe géant aux prises avec le Nautilus.",
+   "id": "t054-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le poisson qu’on croyait disparu, redécouvert en 1938, est le ____.",
+   "choix": [
+    "cœlacanthe",
+    "requin-lutin",
+    "dipneuste",
+    "narval"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "On parle de « fossile vivant » pour ce genre d’espèce.",
+   "id": "t054-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le personnage d’internet longiligne et sans visage s’appelle Slender ____.",
+   "choix": [
+    "Man",
+    "Ghost",
+    "Shadow",
+    "Head"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Il a inspiré jeux vidéo et films d’horreur.",
+   "id": "t054-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La femme qui pleure ses enfants en Amérique latine s’appelle la ____.",
+   "choix": [
+    "Llorona",
+    "Catrina",
+    "Malinche",
+    "Santa"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Son nom signifie « la pleureuse » ; on l’entend la nuit près des rivières.",
+   "id": "t054-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’esprit des toilettes d’école au Japon s’appelle Hanako-____.",
+   "choix": [
+    "san",
+    "kun",
+    "chan",
+    "sama"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Elle apparaîtrait dans la troisième cabine.",
+   "id": "t054-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le navire fantôme des légendes de marins s’appelle le Hollandais ____.",
+   "choix": [
+    "volant",
+    "errant",
+    "maudit",
+    "perdu"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Il serait commandé par un capitaine qui a défié Dieu ou le diable.",
+   "id": "t054-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le lièvre ailé à bois de cerf de Bavière s’appelle le ____.",
+   "choix": [
+    "wolpertinger",
+    "jackalope",
+    "dahu",
+    "hodag"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "On le croiserait surtout dans les forêts de Bavière, dit-on aux touristes.",
+   "id": "t054-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le père de la cryptozoologie s’appelle Bernard ____.",
+   "choix": [
+    "Heuvelmans",
+    "Monod",
+    "Lorenz",
+    "Grzimek"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Il a popularisé le mot « cryptozoologie », l’étude des animaux cachés.",
+   "id": "t054-074",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces animaux est réel ?",
+   "choix": [
+    "Le calmar géant",
+    "Le yéti",
+    "Le chupacabra",
+    "Le Mothman"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le calmar géant a été filmé dans les profondeurs du Pacifique.",
+   "id": "t054-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces animaux n’était pas d’abord connu par des rumeurs, avant d’être décrit ?",
+   "choix": [
+    "Le chat domestique",
+    "L’okapi",
+    "Le gorille des montagnes",
+    "Le calmar géant"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le chat est domestiqué depuis des milliers d’années.",
+   "id": "t054-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures n’est pas un homme-singe légendaire ?",
+   "choix": [
+    "Le chupacabra",
+    "Le yéti",
+    "Le sasquatch",
+    "Le yowie"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le chupacabra est décrit comme un reptile ou un chien sans poils.",
+   "id": "t054-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres ne vit pas dans un lac, selon les légendes ?",
+   "choix": [
+    "Le Mothman",
+    "Nessie",
+    "Ogopogo",
+    "Champ"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le Mothman apparaît dans les airs, en Virginie-Occidentale.",
+   "id": "t054-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces animaux fantaisistes n’est pas un « animal empaillé » de farce ?",
+   "choix": [
+    "Le kraken",
+    "Le jackalope",
+    "Le wolpertinger",
+    "Le hodag"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le kraken est un monstre marin des légendes scandinaves.",
+   "id": "t054-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces légendes urbaines n’est pas japonaise ?",
+   "choix": [
+    "Bloody Mary",
+    "Hanako-san",
+    "Kuchisake-onna",
+    "Teke Teke"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Bloody Mary appartient à la tradition anglo-saxonne.",
+   "id": "t054-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mystères ne concerne pas la mer ?",
+   "choix": [
+    "Roswell",
+    "La Mary Celeste",
+    "Le Hollandais volant",
+    "Le triangle des Bermudes"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Roswell concerne un objet tombé dans le désert.",
+   "id": "t054-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas étudié les légendes ou les cryptides ?",
+   "choix": [
+    "Albert Einstein",
+    "Jan Harold Brunvand",
+    "Edgar Morin",
+    "Bernard Heuvelmans"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Einstein était physicien, sans lien avec l’étude des légendes.",
+   "id": "t054-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces créatures n’est pas australienne ?",
+   "choix": [
+    "Le chupacabra",
+    "Le bunyip",
+    "Le yowie",
+    "Le drop bear"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le drop bear est un koala carnivore inventé pour effrayer les touristes.",
+   "id": "t054-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas né sur internet ?",
+   "choix": [
+    "La Llorona",
+    "Slender Man",
+    "Jeff the Killer",
+    "Siren Head"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "La Llorona est une légende traditionnelle d’Amérique latine.",
+   "id": "t054-084",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels êtres sont des cryptides ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nessie",
+    "Yéti",
+    "Bigfoot",
+    "Chupacabra",
+    "Okapi",
+    "Calmar géant"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "L’okapi et le calmar géant sont des animaux réels, aujourd’hui bien décrits.",
+   "id": "t054-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels animaux réels ont longtemps été considérés comme légendaires ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Okapi",
+    "Calmar géant",
+    "Cœlacanthe",
+    "Yéti",
+    "Mothman"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Ces découvertes nourrissent l’espoir des cryptozoologues.",
+   "id": "t054-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles légendes urbaines sont japonaises ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hanako-san",
+    "Kuchisake-onna",
+    "Teke Teke",
+    "Bloody Mary",
+    "La Llorona"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Elles se transmettent beaucoup dans les cours d’école.",
+   "id": "t054-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels monstres vivraient dans des lacs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nessie",
+    "Ogopogo",
+    "Champ",
+    "Mothman",
+    "Yéti"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Champ vivrait dans le lac Champlain, entre les États-Unis et le Canada.",
+   "id": "t054-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont nés sur internet ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Slender Man",
+    "Siren Head",
+    "Jeff the Killer",
+    "Bloody Mary",
+    "La Llorona"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "On les appelle des personnages de creepypasta.",
+   "id": "t054-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels animaux hybrides sont des farces de taxidermistes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jackalope",
+    "Wolpertinger",
+    "Okapi",
+    "Kraken",
+    "Ogopogo"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "On en vend comme souvenirs dans les boutiques touristiques.",
+   "id": "t054-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels mystères maritimes alimentent les légendes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mary Celeste",
+    "Hollandais volant",
+    "Triangle des Bermudes",
+    "Roswell",
+    "Point Pleasant"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Roswell et Point Pleasant sont à l’intérieur des terres.",
+   "id": "t054-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels hommes-singes légendaires appartiennent à différents continents ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Yéti",
+    "Sasquatch",
+    "Yowie",
+    "Almasty",
+    "Bunyip",
+    "Kraken"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le bunyip est plutôt une créature des eaux.",
+   "id": "t054-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels chercheurs ont étudié les rumeurs et légendes urbaines ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jan Harold Brunvand",
+    "Edgar Morin",
+    "Bernard Heuvelmans",
+    "Eric Shipton"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Heuvelmans s’intéressait aux animaux inconnus, Shipton était alpiniste.",
+   "id": "t054-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles créatures sont associées à l’Amérique du Nord ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bigfoot",
+    "Mothman",
+    "Jersey Devil",
+    "Jackalope",
+    "Yéti",
+    "Bunyip"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le yéti est himalayen, le bunyip australien.",
+   "id": "t054-094",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Mary Celeste retrouvée",
+    "Photo du chirurgien",
+    "Roswell",
+    "Film de Patterson et Gimlin"
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "En 1872, 1934, 1947 et 1967, chaque mystère a nourri le suivant.",
+   "id": "t054-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces découvertes d’animaux réels par date.",
+   "items": [
+    "Okapi",
+    "Cœlacanthe",
+    "Premières images du calmar géant vivant"
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "En 1901, 1938 et 2004 : la nature réserve encore des surprises.",
+   "id": "t054-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces légendes ou personnages par date d’apparition.",
+   "items": [
+    "Mothman",
+    "Chupacabra",
+    "Slender Man"
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "En 1966, 1995 et 2009 : de la presse locale à internet.",
+   "id": "t054-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la légende de la photo du chirurgien dans l’ordre.",
+   "items": [
+    "Prise de la photo",
+    "Publication dans la presse",
+    "Doutes des experts",
+    "Aveu du canular"
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Il a fallu soixante ans pour que la vérité éclate.",
+   "id": "t054-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la légende du Jersey Devil dans l’ordre.",
+   "items": [
+    "Mère Leeds a douze enfants",
+    "Elle maudit le treizième",
+    "Il naît",
+    "Il s’envole par la cheminée"
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "La légende situe sa naissance en 1735, dans les Pine Barrens.",
+   "id": "t054-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la rumeur d’Orléans dans l’ordre.",
+   "items": [
+    "Une rumeur circule dans les lycées",
+    "Elle accuse des commerçants",
+    "La presse la dément",
+    "Edgar Morin l’étudie"
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Les commerçants visés étaient tous juifs.",
+   "id": "t054-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’une légende urbaine typique dans l’ordre.",
+   "items": [
+    "Un ami d’un ami vit l’histoire",
+    "Elle est racontée de bouche à oreille",
+    "Elle se déforme",
+    "Elle revient sous une autre forme"
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Les légendes urbaines voyagent et s’adaptent à chaque pays.",
+   "id": "t054-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire du cœlacanthe dans l’ordre.",
+   "items": [
+    "Fossiles connus",
+    "On le croit éteint",
+    "Un pêcheur le capture",
+    "Il est décrit en 1939"
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Le zoologiste J. L. B. Smith le nomme Latimeria en hommage à Marjorie Courtenay-Latimer.",
+   "id": "t054-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces cryptides du plus récent au plus ancien, selon la date des premières observations célèbres.",
+   "items": [
+    "Chupacabra",
+    "Mothman",
+    "Nessie",
+    "Kraken"
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "1995, 1966, 1933, et des récits scandinaves bien plus anciens.",
+   "id": "t054-103",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque cryptide à sa région.",
+   "paires": [
+    [
+     "Nessie",
+     "Écosse"
+    ],
+    [
+     "Yéti",
+     "Himalaya"
+    ],
+    [
+     "Chupacabra",
+     "Porto Rico"
+    ],
+    [
+     "Bunyip",
+     "Australie"
+    ]
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Chaque région a ses créatures mystérieuses.",
+   "id": "t054-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monstre lacustre à son lac.",
+   "paires": [
+    [
+     "Nessie",
+     "Loch Ness"
+    ],
+    [
+     "Ogopogo",
+     "Lac Okanagan"
+    ],
+    [
+     "Champ",
+     "Lac Champlain"
+    ]
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Les lacs profonds et froids nourrissent souvent ce genre de légendes.",
+   "id": "t054-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque légende urbaine à son pays d’origine.",
+   "paires": [
+    [
+     "Hanako-san",
+     "Japon"
+    ],
+    [
+     "La Llorona",
+     "Mexique"
+    ],
+    [
+     "Rumeur d’Orléans",
+     "France"
+    ],
+    [
+     "Slender Man",
+     "États-Unis"
+    ]
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Les légendes urbaines existent partout dans le monde.",
+   "id": "t054-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque chercheur à son domaine.",
+   "paires": [
+    [
+     "Bernard Heuvelmans",
+     "Cryptozoologie"
+    ],
+    [
+     "Jan Harold Brunvand",
+     "Légendes urbaines"
+    ],
+    [
+     "Edgar Morin",
+     "Sociologie de la rumeur"
+    ]
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Ces chercheurs ont donné un cadre à l’étude de ces récits.",
+   "id": "t054-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque animal réel à sa date de description ou de redécouverte.",
+   "paires": [
+    [
+     "Okapi",
+     "1901"
+    ],
+    [
+     "Cœlacanthe",
+     "1938"
+    ],
+    [
+     "Calmar géant filmé vivant",
+     "2004"
+    ]
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "La science découvre encore de nouvelles espèces chaque année.",
+   "id": "t054-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mystère à son explication la plus probable.",
+   "paires": [
+    [
+     "Photo du chirurgien",
+     "Canular"
+    ],
+    [
+     "Roswell",
+     "Ballon militaire"
+    ],
+    [
+     "Flatwoods",
+     "Chouette et météore"
+    ],
+    [
+     "Chupacabra",
+     "Animaux galeux"
+    ]
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "La plupart des mystères trouvent une explication ordinaire.",
+   "id": "t054-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque créature à son apparence.",
+   "paires": [
+    [
+     "Mothman",
+     "Homme ailé aux yeux rouges"
+    ],
+    [
+     "Jersey Devil",
+     "Créature ailée à tête de cheval"
+    ],
+    [
+     "Jackalope",
+     "Lièvre à bois"
+    ]
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Les témoignages varient beaucoup d’un témoin à l’autre.",
+   "id": "t054-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque navire ou vol à son mystère.",
+   "paires": [
+    [
+     "Mary Celeste",
+     "Équipage disparu"
+    ],
+    [
+     "Hollandais volant",
+     "Errance éternelle"
+    ],
+    [
+     "Vol 19",
+     "Avions disparus"
+    ]
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Ces histoires ont inspiré romans et films.",
+   "id": "t054-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque œuvre à la légende qu’elle évoque.",
+   "paires": [
+    [
+     "Tintin au Tibet",
+     "Yéti"
+    ],
+    [
+     "La Prophétie des ombres",
+     "Mothman"
+    ],
+    [
+     "Vingt mille lieues sous les mers",
+     "Kraken"
+    ]
+   ],
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Les cryptides inspirent depuis longtemps les créateurs.",
+   "id": "t054-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une créature\n2. Je vis dans un lac écossais\n3. On m’a photographiée en 1934",
+   "choix": [
+    "Le monstre du loch Ness",
+    "Ogopogo",
+    "Champ",
+    "Le kraken"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Ma photo la plus célèbre était un faux, avoué soixante ans plus tard.",
+   "id": "t054-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un homme-singe\n2. Je vis dans l’Himalaya\n3. Tintin m’a rencontré",
+   "choix": [
+    "Le yéti",
+    "Le sasquatch",
+    "Le yowie",
+    "L’almasty"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "On m’appelle l’abominable homme des neiges.",
+   "id": "t054-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une créature\n2. Je suce le sang des chèvres\n3. Je viens de Porto Rico",
+   "choix": [
+    "Le chupacabra",
+    "Le Mothman",
+    "Le Jersey Devil",
+    "Le bunyip"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Je suis apparu dans les années 1990, avant de gagner toute l’Amérique latine.",
+   "id": "t054-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un être ailé\n2. J’ai des yeux rouges\n3. On m’a vu à Point Pleasant",
+   "choix": [
+    "Le Mothman",
+    "Le Jersey Devil",
+    "Le Thunderbird",
+    "Le chupacabra"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Une statue de métal me représente dans la ville.",
+   "id": "t054-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un poisson\n2. On me croyait éteint\n3. On m’a redécouvert en 1938",
+   "choix": [
+    "Le cœlacanthe",
+    "Le requin-lutin",
+    "Le dipneuste",
+    "Le kraken"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Une seconde espèce de mon genre a été découverte en Indonésie en 1997.",
+   "id": "t054-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un personnage\n2. Je n’ai pas de visage\n3. Je suis né sur internet",
+   "choix": [
+    "Slender Man",
+    "Freddy Krueger",
+    "Bloody Mary",
+    "Le Mothman"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "On me décrit grand, mince et vêtu d’un costume noir.",
+   "id": "t054-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un navire\n2. On m’a retrouvé intact\n3. Mon équipage a disparu",
+   "choix": [
+    "La Mary Celeste",
+    "Le Hollandais volant",
+    "Le Titanic",
+    "Le Bounty"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "Ma cargaison d’alcool était presque intacte.",
+   "id": "t054-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un zoologiste\n2. J’ai inventé la cryptozoologie\n3. J’étais belge",
+   "choix": [
+    "Bernard Heuvelmans",
+    "Théodore Monod",
+    "Jacques Cousteau",
+    "Konrad Lorenz"
+   ],
+   "rep": 0,
+   "src": "Heuvelmans ; Brunvand ; Morin",
+   "expl": "J’ai publié un livre célèbre sur les animaux inconnus en 1955.",
+   "id": "t054-120",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
