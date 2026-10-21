@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**88 / 99 thèmes terminés — 11400 questions au total.**
+**89 / 99 thèmes terminés — 11521 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -94,7 +94,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 86 | CRPG et jeux de rôle tactiques | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 87 | Chasse aux monstres et bestiaires virtuels | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 88 | Séries et films de fantasy | 120 | 40 | 14 (7) | 8 | 13 | 9 | 10 | 9 | 9 | 8 | 45 % | 24/72/24 | 4 | terminé |
-| 89 | Animation et fantasy | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 89 | Animation et fantasy | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 90 | Musiques épiques et bandes originales | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 91 | Géographie des mondes imaginaires | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 92 | Mythes urbains et créations de la communauté | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
