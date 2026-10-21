@@ -968,6 +968,16 @@ body.fit.v-pc .ab{min-height:4.4rem}
 body.v-mob #s-train details.chap>.subs{padding-left:.6rem}
 #s-train .none{padding:2rem;text-align:center;color:var(--ink2)}
 #s-train .it{cursor:pointer}#s-train .tree{max-height:55vh;overflow:auto;margin-top:.5rem}#s-train #tr-rev.on{background:var(--sun-l);box-shadow:inset 0 0 0 2px var(--sun-b)}
+
+/* entraînement : barre « Question suivante » toujours visible, « Pause » à l’écart */
+body[data-mode="train"] #rv-next{position:fixed;left:50%;bottom:max(.7rem,env(safe-area-inset-bottom));transform:translateX(-50%);z-index:80;margin:0;width:min(94vw,32rem);display:flex;align-items:stretch;gap:1.2rem;padding:.5rem;border-radius:22px;background:color-mix(in srgb,var(--card) 88%,transparent);box-shadow:var(--sh-lg);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+body[data-mode="train"] #rv-next.hidden{display:none}
+body[data-mode="train"] #rv-next .tr-nx{flex:1;margin:0}
+body[data-mode="train"] #rv-next .tr-chg{flex:none;margin:0;align-self:center;opacity:.85}
+body[data-mode="train"] #s-rv{padding-bottom:6.5rem}
+.tr-resume{border:2px solid var(--gold);text-align:center}
+.tr-resume h2{font-size:1.3rem;margin:0 0 .3rem}
+.tr-resume .alt{justify-content:center;margin-top:.6rem}
 /* ═══ v1.1 — identité des pages, couleurs des modes, blocs (chargé après prof.css / eleve.css) ═══ */
 body[data-mode="solo"]{--mc:var(--mode-solo)}
 body[data-mode="duel"]{--mc:var(--mode-duel)}
@@ -1215,7 +1225,7 @@ body.v-mob .ga-it{font-size:1.05rem;min-height:3rem;padding:.5rem .7rem}
     <div class="rv-card" id="rv-card"></div>
     <div id="rv-extra"></div>
     <div class="rv-wait" id="rv-wait"><div class="dots"><span></span><span></span><span></span></div><span>Attends la prochaine épreuve…</span></div>
-    <div class="rv-next hidden" id="rv-next"><button type="button" class="btn btn-go btn-big btn-block" id="tr-next">Question suivante</button><button type="button" class="btn btn-ghost btn-block" id="tr-chg">Changer de thème</button></div>
+    <div class="rv-next hidden" id="rv-next"><button type="button" class="btn btn-ghost btn-sm tr-chg" id="tr-chg" title="Mettre la série en pause pour changer de thème ; tu pourras la reprendre">Pause</button><button type="button" class="btn btn-go btn-big tr-nx" id="tr-next">Question suivante</button></div>
   </section>
 
   <!-- fin -->
@@ -1231,6 +1241,7 @@ body.v-mob .ga-it{font-size:1.05rem;min-height:3rem;padding:.5rem .7rem}
 
   <!-- entraînement autonome -->
   <section id="s-train" class="screen hidden">
+    <div class="card tr-resume hidden" id="tr-resume"></div>
     <div class="card">
       <h1 class="big-t">S’entraîner en solo</h1>
       <p class="muted">Sans connexion, à ton rythme. Rien n’est envoyé : ta fiche reste sur cet appareil.</p>
@@ -3184,7 +3195,7 @@ function openTrain(){
   if(TR.niv!=="all"&&!ROY_BY_ID[TR.niv])TR.niv="all";
   if(["mix","prog","1","2","3"].indexOf(String(TR.lv))<0)TR.lv="mix";TR.lv=String(TR.lv);TR.prog=TR.lv==="prog";
   if(typeof ICO!=="undefined"&&ICO.dice)$("tr-surprise").innerHTML=ICO.dice+"Surprends-moi";
-  renderTrain();show("s-train");
+  renderTrain();renderResume();show("s-train");
 }
 function trSave(){store.set("train2",TR);}
 function trThemes(){return BANK.filter(function(it){return (TR.niv==="all"||it.roy===TR.niv)&&(TR.dark||!it.dark)&&!HIDDEN[it.id];});}
@@ -3273,7 +3284,7 @@ function startTrain(){
 }
 function startTrainWith(items){
   S.train={items:items,i:-1,N:TR.nq,lvl:(+TR.lv>=1?+TR.lv:1),up:0,dn:0,score:0,ok:0,streak:0,best:0,seen:{},hist:[],reached3:false,wire:false};
-  S.score=0;S.mode="train";
+  S.score=0;S.mode="train";trCurClear();
   nextTrain();
 }
 /* question d’entraînement : jamais deux fois la même dans la série, et celles jouées le plus anciennement avant les autres
@@ -3325,15 +3336,48 @@ function trainResult(res,a){
   showReveal({i:T.i,pr:bet?1:0,rs:{me:[ok===null?-1:ok?1:part>0?2:0,pts,T.score,T.streak,0,""]},at:answerText(q),ex:q.expl,sr:q.src,rate:Math.round(100*T.ok/(T.i+1)),cor:qCorr(q)});
   $("rv-wait").classList.add("hidden");$("rv-next").classList.remove("hidden");
   $("tr-next").textContent=T.i+1>=T.N?"Voir mon bilan":"Question suivante";
+  if(T.i+1>=T.N)trCurClear();else trCurSave();
   if(ok&&a&&a.fx)setTimeout(function(){playAnsFx(a.fx);},500);
   if(msg)setTimeout(function(){fxStamp(msg.indexOf("débloqué")>0?"Palier "+T.lvl+" !":"Palier "+T.lvl,"#6A4B8A","star",1400);},1500);
   $("rv-extra").innerHTML=$("rv-extra").innerHTML.replace(/[0-9]+ % des aventuriers ont trouvé/,T.ok+" / "+(T.i+1)+" réussies");
 }
-$("tr-chg").addEventListener("click",function(){clearInterval(S.timer);S.train=null;openTrain();});
+/* série en cours : sauvegardée après chaque réponse, pour la reprendre après « Pause », une sortie ou une fermeture de l’appli */
+var TR_KEEP=["N","lvl","up","dn","score","ok","streak","best","seen","hist","reached3","wire","i"];
+function trCurSave(){var T=S.train;if(!T)return;var o={ids:T.items.map(function(it){return it.id;}),tr:{fmt:TR.fmt,lv:TR.lv,rev:TR.rev},at:Date.now()};TR_KEEP.forEach(function(k){o[k]=T[k];});store.set("train_cur",o);}
+function trCurGet(){var o=store.get("train_cur",null);if(!o||typeof o!=="object"||!Array.isArray(o.ids)||!o.ids.length||typeof o.i!=="number"||typeof o.N!=="number")return null;if(o.i+1>=o.N)return null;o.ids=o.ids.filter(function(id){return !!ITEM_BY_ID[id];});return o.ids.length?o:null;}
+function trCurClear(){store.del?store.del("train_cur"):store.set("train_cur",null);}
+function renderResume(){
+  var o=trCurGet(),box=$("tr-resume");if(!box)return;
+  if(!o){box.classList.add("hidden");box.innerHTML="";return;}
+  var names=o.ids.slice(0,3).map(function(id){return esc(ITEM_BY_ID[id].titre);}).join(", ")+(o.ids.length>3?"…":"");
+  box.classList.remove("hidden");box.innerHTML='<h2>Série en pause</h2><p class="muted small">'+names+"</p><p><b>"+(o.i+1)+" / "+o.N+"</b> questions jouées · "+o.ok+" réussie"+(o.ok>1?"s":"")+" · "+fmtInt(o.score)+' pts</p><div class="alt"><button type="button" class="btn btn-go" id="tr-resume-go">▶ Reprendre la série</button><button type="button" class="btn btn-ghost btn-sm" id="tr-resume-no">Abandonner</button></div>';
+}
+function resumeTrain(){
+  var o=trCurGet();if(!o){renderResume();return;}
+  var b=$("tr-resume-go");if(b)b.disabled=true;
+  ensureThemes(o.ids,function(err){
+    if(b)b.disabled=false;
+    var items=o.ids.map(function(id){return ITEM_BY_ID[id];}).filter(function(it){return it&&it.Q&&it.Q.length;});
+    if(!items.length){toast(err?"Questions introuvables : vérifiez la connexion.":"Série introuvable.","ko");return;}
+    if(o.tr){TR.fmt=o.tr.fmt||TR.fmt;TR.lv=String(o.tr.lv||TR.lv);TR.prog=TR.lv==="prog";TR.rev=!!o.tr.rev;trSave();}
+    var T={items:items};TR_KEEP.forEach(function(k){T[k]=o[k];});
+    if(!T.seen||typeof T.seen!=="object")T.seen={};if(!Array.isArray(T.hist))T.hist=[];
+    S.train=T;S.score=T.score||0;S.mode="train";SND.unlock();
+    nextTrain();
+  });
+}
+$("tr-resume").addEventListener("click",function(e){
+  if(e.target.closest("#tr-resume-go"))resumeTrain();
+  else if(e.target.closest("#tr-resume-no")){trCurClear();renderResume();toast("Série abandonnée.");}
+});
+$("tr-chg").addEventListener("click",function(){clearInterval(S.timer);trCurSave();S.train=null;openTrain();toast("Série en pause : tu peux la reprendre en haut de l’écran.");});
+/* explication dépliée : on réajuste l’écran pour garder le bouton à portée */
+$("rv-extra").addEventListener("toggle",function(e){if(e.target&&e.target.matches&&e.target.matches("details")&&typeof FIT!=="undefined"&&FIT.on)fitSoon(0);},true);
 $("end-themes").addEventListener("click",function(){openTrain();});
 $("end-again").addEventListener("click",function(){SND.unlock();startTrain();});
 $("tr-next").addEventListener("click",function(){if(S.train)nextTrain();});
 function endTrain(){
+  trCurClear();
   var T=S.train,res=awardSession({pts:T.score,ok:T.ok,na:T.i,nq:T.i,best:T.best,tavg:null,expertOk:0,solo:true,reached3:T.reached3,wire:T.wire,items:T.hist});
   $("end-t").textContent=T.ok===T.i&&T.i>=5?"Sans faute !":"Entraînement terminé";
   $("end-pod").innerHTML="";

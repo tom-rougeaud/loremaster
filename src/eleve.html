@@ -97,7 +97,7 @@
     <div class="rv-card" id="rv-card"></div>
     <div id="rv-extra"></div>
     <div class="rv-wait" id="rv-wait"><div class="dots"><span></span><span></span><span></span></div><span>Attends la prochaine épreuve…</span></div>
-    <div class="rv-next hidden" id="rv-next"><button type="button" class="btn btn-go btn-big btn-block" id="tr-next">Question suivante</button><button type="button" class="btn btn-ghost btn-block" id="tr-chg">Changer de thème</button></div>
+    <div class="rv-next hidden" id="rv-next"><button type="button" class="btn btn-ghost btn-sm tr-chg" id="tr-chg" title="Mettre la série en pause pour changer de thème ; tu pourras la reprendre">Pause</button><button type="button" class="btn btn-go btn-big tr-nx" id="tr-next">Question suivante</button></div>
   </section>
 
   <!-- fin -->
@@ -113,6 +113,7 @@
 
   <!-- entraînement autonome -->
   <section id="s-train" class="screen hidden">
+    <div class="card tr-resume hidden" id="tr-resume"></div>
     <div class="card">
       <h1 class="big-t">S’entraîner en solo</h1>
       <p class="muted">Sans connexion, à ton rythme. Rien n’est envoyé : ta fiche reste sur cet appareil.</p>

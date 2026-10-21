@@ -291,3 +291,13 @@ body.fit.v-pc .ab{min-height:4.4rem}
 body.v-mob #s-train details.chap>.subs{padding-left:.6rem}
 #s-train .none{padding:2rem;text-align:center;color:var(--ink2)}
 #s-train .it{cursor:pointer}#s-train .tree{max-height:55vh;overflow:auto;margin-top:.5rem}#s-train #tr-rev.on{background:var(--sun-l);box-shadow:inset 0 0 0 2px var(--sun-b)}
+
+/* entraînement : barre « Question suivante » toujours visible, « Pause » à l’écart */
+body[data-mode="train"] #rv-next{position:fixed;left:50%;bottom:max(.7rem,env(safe-area-inset-bottom));transform:translateX(-50%);z-index:80;margin:0;width:min(94vw,32rem);display:flex;align-items:stretch;gap:1.2rem;padding:.5rem;border-radius:22px;background:color-mix(in srgb,var(--card) 88%,transparent);box-shadow:var(--sh-lg);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+body[data-mode="train"] #rv-next.hidden{display:none}
+body[data-mode="train"] #rv-next .tr-nx{flex:1;margin:0}
+body[data-mode="train"] #rv-next .tr-chg{flex:none;margin:0;align-self:center;opacity:.85}
+body[data-mode="train"] #s-rv{padding-bottom:6.5rem}
+.tr-resume{border:2px solid var(--gold);text-align:center}
+.tr-resume h2{font-size:1.3rem;margin:0 0 .3rem}
+.tr-resume .alt{justify-content:center;margin-top:.6rem}
