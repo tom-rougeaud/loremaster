@@ -1,0 +1,1991 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "echecs-strategie",
+  "nom": "Échecs et jeux de stratégie de l’Histoire",
+  "royaume": "Le Moyen Âge historique",
+  "icone": "echiquier",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quel pays naît l’ancêtre des échecs, le chaturanga ?",
+   "choix": [
+    "En Inde",
+    "En Chine",
+    "En Perse",
+    "En Égypte"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il apparaît vers le 6e siècle ; ses pièces représentent les quatre corps de l’armée.",
+   "id": "t063-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom porte le jeu d’échecs persan, transmis ensuite aux Arabes ?",
+   "choix": [
+    "Le shatranj",
+    "Le xiangqi",
+    "Le shogi",
+    "Le senet"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il arrive en Europe par l’Espagne musulmane et la Sicile, vers l’an mil.",
+   "id": "t063-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie l’expression persane à l’origine du mot « échec et mat » ?",
+   "choix": [
+    "Le roi est sans issue",
+    "Le roi a gagné",
+    "Fin de la bataille",
+    "Le roi danse"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "« Shah mat » est souvent traduit par « le roi est mort », ou plus exactement « le roi est impuissant ».",
+   "id": "t063-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle pièce, au départ un conseiller très faible, devient la plus puissante à la fin du 15e siècle ?",
+   "choix": [
+    "La dame",
+    "Le fou",
+    "La tour",
+    "Le cavalier"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Ces nouvelles règles sont appelées les échecs « de la dame enragée ».",
+   "id": "t063-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel animal représentait la pièce devenue notre fou ?",
+   "choix": [
+    "Un éléphant",
+    "Un cheval",
+    "Un chameau",
+    "Un lion"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "En espagnol, la pièce s’appelle encore « alfil », de l’arabe al-fil, l’éléphant.",
+   "id": "t063-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quelle matière sont sculptées la plupart des célèbres pièces d’échecs de Lewis ?",
+   "choix": [
+    "En ivoire de morse",
+    "En os de baleine",
+    "En bois de chêne",
+    "En argent"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Découvertes en 1831 en Écosse, elles datent du 12e siècle et viennent sans doute de Norvège.",
+   "id": "t063-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel roi de Castille fait réaliser en 1283 un Livre des jeux sur les échecs, les dés et les tables ?",
+   "choix": [
+    "Alphonse X le Sage",
+    "Ferdinand III",
+    "Alphonse VI",
+    "Pierre le Cruel"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Ses miniatures montrent des joueurs chrétiens, musulmans et juifs.",
+   "id": "t063-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel coup spécial permet de déplacer en même temps le roi et une tour ?",
+   "choix": [
+    "Le roque",
+    "La prise en passant",
+    "La promotion",
+    "Le pat"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il protège le roi et active la tour en un seul coup.",
+   "id": "t063-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que devient un pion qui atteint la dernière rangée ?",
+   "choix": [
+    "Il est promu en une autre pièce",
+    "Il revient au départ",
+    "Il est retiré du jeu",
+    "Il devient un roi"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "On choisit presque toujours une dame, d’où le mot « damer ».",
+   "id": "t063-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on une position où le joueur au trait n’a aucun coup légal mais n’est pas en échec ?",
+   "choix": [
+    "Le pat",
+    "Le mat",
+    "Le roque",
+    "L’échec perpétuel"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "La partie est alors déclarée nulle, même si l’autre camp a beaucoup plus de pièces.",
+   "id": "t063-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "En combien de coups se joue le « mat du berger » ?",
+   "choix": [
+    "Quatre",
+    "Deux",
+    "Six",
+    "Dix"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il punit les débutants qui négligent la case f7 ou f2.",
+   "id": "t063-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel compositeur et joueur français du 18e siècle domine les échecs de son temps ?",
+   "choix": [
+    "Philidor",
+    "Rameau",
+    "La Bourdonnais",
+    "Lully"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il affirme que les pions sont l’âme du jeu.",
+   "id": "t063-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel café parisien se retrouvent les meilleurs joueurs des 18e et 19e siècles ?",
+   "choix": [
+    "Le café de la Régence",
+    "Le Procope",
+    "Les Deux Magots",
+    "Le café de Flore"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Diderot, Voltaire et plus tard Musset y ont joué.",
+   "id": "t063-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est reconnu comme le premier champion du monde officiel d’échecs, en 1886 ?",
+   "choix": [
+    "Wilhelm Steinitz",
+    "Paul Morphy",
+    "Emanuel Lasker",
+    "José Raúl Capablanca"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il bat Johannes Zukertort lors d’un match disputé aux États-Unis.",
+   "id": "t063-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel champion garde son titre mondial pendant vingt-sept ans, record absolu ?",
+   "choix": [
+    "Emanuel Lasker",
+    "Garry Kasparov",
+    "Anatoly Karpov",
+    "Mikhaïl Botvinnik"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il est champion de 1894 à 1921 ; il était aussi mathématicien.",
+   "id": "t063-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel champion du monde est le seul à mourir en possession de son titre ?",
+   "choix": [
+    "Alexandre Alekhine",
+    "Mikhaïl Tal",
+    "Bobby Fischer",
+    "Wilhelm Steinitz"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il meurt à Estoril, au Portugal, en 1946.",
+   "id": "t063-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville se déroule le célèbre match Fischer-Spassky de 1972 ?",
+   "choix": [
+    "Reykjavik",
+    "Moscou",
+    "New York",
+    "Genève"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "En pleine guerre froide, l’Américain met fin à la domination soviétique.",
+   "id": "t063-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel ordinateur d’IBM bat Garry Kasparov en 1997 ?",
+   "choix": [
+    "Deep Blue",
+    "Watson",
+    "AlphaZero",
+    "Stockfish"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "C’est la première défaite d’un champion du monde en titre face à une machine, dans un match.",
+   "id": "t063-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel joueur norvégien est champion du monde de 2013 à 2023 ?",
+   "choix": [
+    "Magnus Carlsen",
+    "Viswanathan Anand",
+    "Fabiano Caruana",
+    "Hikaru Nakamura"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il renonce à défendre son titre, faute de motivation.",
+   "id": "t063-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel joueur indien devient en 2024 le plus jeune champion du monde de l’histoire ?",
+   "choix": [
+    "Gukesh Dommaraju",
+    "Viswanathan Anand",
+    "Praggnanandhaa",
+    "Arjun Erigaisi"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il bat Ding Liren à l’âge de dix-huit ans.",
+   "id": "t063-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle joueuse hongroise est considérée comme la meilleure joueuse d’échecs de l’histoire ?",
+   "choix": [
+    "Judit Polgár",
+    "Hou Yifan",
+    "Vera Menchik",
+    "Maia Chiburdanidze"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Elle préfère affronter les hommes et bat plusieurs champions du monde.",
+   "id": "t063-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série Netflix de 2020 relance la passion des échecs dans le monde ?",
+   "choix": [
+    "Le Jeu de la dame",
+    "Le Turc mécanique",
+    "Les Joueurs",
+    "Échec et mat"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "On y suit Beth Harmon, une orpheline prodige des années 1960.",
+   "id": "t063-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel faux automate joueur d’échecs du 18e siècle cachait en réalité un joueur humain ?",
+   "choix": [
+    "Le Turc mécanique",
+    "Le Canard de Vaucanson",
+    "Le Joueur de flûte",
+    "L’Écrivain de Jaquet-Droz"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il aurait affronté Napoléon et Benjamin Franklin.",
+   "id": "t063-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel système de classement mesure la force des joueurs d’échecs ?",
+   "choix": [
+    "Le classement Elo",
+    "L’indice ATP",
+    "Le coefficient UEFA",
+    "Le classement Glicko seul"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il porte le nom du physicien Arpad Elo, qui l’a conçu.",
+   "id": "t063-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville est fondée la Fédération internationale des échecs en 1924 ?",
+   "choix": [
+    "Paris",
+    "Moscou",
+    "Londres",
+    "Berlin"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "On la connaît par son sigle français, la FIDE.",
+   "id": "t063-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ouverture d’échecs commence par 1.e4 c5 ?",
+   "choix": [
+    "La défense sicilienne",
+    "La défense française",
+    "La partie espagnole",
+    "Le gambit dame"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "C’est la réponse la plus populaire et la plus combative contre 1.e4.",
+   "id": "t063-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ouverture porte le nom d’un prêtre espagnol du 16e siècle ?",
+   "choix": [
+    "Ruy López",
+    "La défense française",
+    "La sicilienne",
+    "La partie italienne"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Ruy López de Segura publie en 1561 un traité sur le jeu.",
+   "id": "t063-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quelle grille joue-t-on traditionnellement au go ?",
+   "choix": [
+    "Dix-neuf lignes sur dix-neuf",
+    "Huit sur huit",
+    "Dix sur dix",
+    "Neuf sur neuf seulement"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Les pierres se posent sur les intersections, et non dans les cases.",
+   "id": "t063-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel programme de DeepMind bat le champion Lee Sedol au go en 2016 ?",
+   "choix": [
+    "AlphaGo",
+    "Deep Blue",
+    "Watson",
+    "Leela"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il gagne la série quatre parties à une ; son 37e coup de la deuxième partie est devenu célèbre.",
+   "id": "t063-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu japonais permet de réutiliser les pièces capturées à l’adversaire ?",
+   "choix": [
+    "Le shogi",
+    "Le go",
+    "Le xiangqi",
+    "Le mahjong"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Une pièce prise peut être « parachutée » ensuite sur l’échiquier.",
+   "id": "t063-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’échecs chinois se joue avec une rivière au milieu du plateau ?",
+   "choix": [
+    "Le xiangqi",
+    "Le shogi",
+    "Le go",
+    "Le makruk"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Les pièces se placent sur les intersections, et le général reste dans son palais.",
+   "id": "t063-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu antique a été retrouvé dans des tombes de la ville sumérienne d’Ur ?",
+   "choix": [
+    "Le jeu royal d’Ur",
+    "Le senet",
+    "Le mancala",
+    "Le backgammon moderne"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Une tablette babylonienne en explique les règles, ce qui a permis de le rejouer.",
+   "id": "t063-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de plateau égyptien était associé au voyage des morts ?",
+   "choix": [
+    "Le senet",
+    "Le go",
+    "Les dames",
+    "Le tric-trac"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Un plateau a été retrouvé dans la tombe de Toutânkhamon.",
+   "id": "t063-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu viking oppose un roi entouré de défenseurs à des attaquants plus nombreux ?",
+   "choix": [
+    "Le hnefatafl",
+    "La marelle",
+    "Le kubb",
+    "Les dames"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Le roi doit s’échapper vers un coin du plateau.",
+   "id": "t063-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de semailles, joué avec des graines dans des trous, est très répandu en Afrique ?",
+   "choix": [
+    "L’awalé",
+    "Le go",
+    "Le senet",
+    "Le hnefatafl"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il appartient à la grande famille des mancalas.",
+   "id": "t063-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’origine prussienne, inventé en 1824, sert à entraîner les officiers ?",
+   "choix": [
+    "Le Kriegsspiel",
+    "Le Stratego",
+    "Le Risk",
+    "L’Échiquier militaire"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "On y simule des batailles sur des cartes réelles, avec un arbitre.",
+   "id": "t063-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cinéaste français invente La Conquête du monde, devenu Risk ?",
+   "choix": [
+    "Albert Lamorisse",
+    "Jacques Tati",
+    "François Truffaut",
+    "Jean Renoir"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Il est aussi le réalisateur du célèbre film Le Ballon rouge.",
+   "id": "t063-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de cases compte le damier des dames internationales ?",
+   "choix": [
+    "Cent",
+    "Soixante-quatre",
+    "Quatre-vingt-un",
+    "Cent quarante-quatre"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "Chaque joueur commence avec vingt pions.",
+   "id": "t063-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle légende raconte la récompense en grains de blé de l’inventeur des échecs ?",
+   "choix": [
+    "Les grains doublés sur chaque case",
+    "Un grain par pièce",
+    "Un sac par partie",
+    "Mille grains par roi"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "La somme dépasse toutes les récoltes du monde : plus de dix-huit milliards de milliards de grains.",
+   "id": "t063-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ancien jeu de plateau, aussi appelé tables, est l’ancêtre du backgammon ?",
+   "choix": [
+    "Le trictrac",
+    "Le senet",
+    "La marelle",
+    "Les dames"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray, A History of Chess (1913) ; FIDE, Règles du jeu d’échecs et palmarès des championnats du monde ; British Museum (pièces de Lewis, jeu royal d’Ur) ; BnF, « Échecs » (exposition virtuelle)",
+   "expl": "On y joue avec des dés et des pions qui font la course autour du plateau.",
+   "id": "t063-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les échecs viennent d’Inde.",
+   "rep": true,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Ils passent ensuite par la Perse et le monde arabe avant d’arriver en Europe.",
+   "id": "t063-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La dame a toujours été la pièce la plus puissante des échecs.",
+   "rep": false,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Faux : elle ne se déplaçait que d’une case en diagonale avant la fin du 15e siècle.",
+   "id": "t063-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un échiquier compte soixante-quatre cases.",
+   "rep": true,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Huit rangées de huit cases, alternativement claires et foncées.",
+   "id": "t063-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le pat fait gagner le joueur qui l’a provoqué.",
+   "rep": false,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Faux : aux règles modernes, le pat entraîne une partie nulle.",
+   "id": "t063-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Bobby Fischer était américain.",
+   "rep": true,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Il est le seul Américain à avoir été champion du monde officiel.",
+   "id": "t063-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Deep Blue a été conçu par Google.",
+   "rep": false,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Faux : il a été conçu par IBM ; Google a racheté DeepMind, créateur d’AlphaGo.",
+   "id": "t063-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Au go, on pose les pierres sur les intersections.",
+   "rep": true,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le but est d’entourer le plus de territoire possible.",
+   "id": "t063-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Turc mécanique était un véritable robot joueur.",
+   "rep": false,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Faux : un joueur caché à l’intérieur dirigeait ses mouvements.",
+   "id": "t063-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les pièces de Lewis ont été découvertes en Écosse.",
+   "rep": true,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "On peut les voir au British Museum et au musée national d’Écosse.",
+   "id": "t063-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Magnus Carlsen est suédois.",
+   "rep": false,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Faux : il est norvégien, et a appris le jeu enfant près d’Oslo.",
+   "id": "t063-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le shogi est un jeu japonais.",
+   "rep": true,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Il compte de nombreuses pièces qui peuvent être promues.",
+   "id": "t063-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Judit Polgár a battu Garry Kasparov en partie rapide.",
+   "rep": true,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Elle le bat en 2002, lors d’une partie rapide à Moscou.",
+   "id": "t063-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le roque ne peut pas se faire si le roi est en échec.",
+   "rep": true,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le roi ne doit pas non plus traverser une case attaquée.",
+   "id": "t063-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les dames internationales se jouent sur un damier de soixante-quatre cases.",
+   "rep": false,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Faux : elles se jouent sur cent cases ; soixante-quatre est la taille de l’échiquier.",
+   "id": "t063-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de cases compte un échiquier ?",
+   "rep": 64,
+   "min": 32,
+   "max": 100,
+   "pas": 1,
+   "unite": "cases",
+   "tolerance": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le même plateau sert pour les dames anglaises.",
+   "id": "t063-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de pions chaque joueur a-t-il au début d’une partie d’échecs ?",
+   "rep": 8,
+   "min": 4,
+   "max": 16,
+   "pas": 1,
+   "unite": "pions",
+   "tolerance": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Ils occupent toute la deuxième rangée, devant les pièces.",
+   "id": "t063-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Deep Blue bat-il Kasparov ?",
+   "rep": 1997,
+   "min": 1985,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Kasparov avait battu une première version de la machine l’année précédente.",
+   "id": "t063-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année a lieu le match Fischer-Spassky ?",
+   "rep": 1972,
+   "min": 1960,
+   "max": 1985,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le match est surnommé le « match du siècle ».",
+   "id": "t063-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Pendant combien d’années Emanuel Lasker reste-t-il champion du monde ?",
+   "rep": 27,
+   "min": 10,
+   "max": 40,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Il perd son titre face à Capablanca, en 1921.",
+   "id": "t063-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année la FIDE est-elle fondée à Paris ?",
+   "rep": 1924,
+   "min": 1900,
+   "max": 1950,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Elle est fondée pendant les Jeux olympiques de Paris.",
+   "id": "t063-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de lignes compte une grille de go traditionnelle, dans chaque direction ?",
+   "rep": 19,
+   "min": 9,
+   "max": 25,
+   "pas": 1,
+   "unite": "lignes",
+   "tolerance": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "On joue aussi sur des grilles plus petites, de 9 ou 13 lignes, pour apprendre.",
+   "id": "t063-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année AlphaGo bat-il Lee Sedol ?",
+   "rep": 2016,
+   "min": 2005,
+   "max": 2022,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le match se déroule à Séoul, en Corée du Sud.",
+   "id": "t063-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le coup qui déplace le roi et la tour ensemble s’appelle le ____.",
+   "choix": [
+    "roque",
+    "pat",
+    "mat",
+    "gambit"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "On distingue le petit roque et le grand roque.",
+   "id": "t063-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’ancêtre indien des échecs s’appelle le ____.",
+   "choix": [
+    "chaturanga",
+    "shatranj",
+    "xiangqi",
+    "shogi"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Son nom signifie « les quatre membres » de l’armée.",
+   "id": "t063-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’ancien nom arabe de notre fou signifie l’____.",
+   "choix": [
+    "éléphant",
+    "évêque",
+    "bouffon",
+    "archer"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "En anglais, la pièce est devenue l’évêque, bishop.",
+   "id": "t063-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’ordinateur qui bat Kasparov en 1997 s’appelle ____.",
+   "choix": [
+    "Deep Blue",
+    "Deep Mind",
+    "Big Blue",
+    "Deep Thought"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Il calcule près de deux cents millions de positions par seconde.",
+   "id": "t063-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le système de classement des joueurs d’échecs porte le nom d’Arpad ____.",
+   "choix": [
+    "Elo",
+    "Glicko",
+    "Morphy",
+    "Lasker"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Il est aujourd’hui utilisé dans de nombreux sports et jeux vidéo.",
+   "id": "t063-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le premier champion du monde officiel s’appelle Wilhelm ____.",
+   "choix": [
+    "Steinitz",
+    "Lasker",
+    "Morphy",
+    "Anderssen"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Il est considéré comme le père du jeu positionnel moderne.",
+   "id": "t063-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le faux automate joueur d’échecs s’appelle le Turc ____.",
+   "choix": [
+    "mécanique",
+    "automate",
+    "savant",
+    "joueur"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Il est construit par Wolfgang von Kempelen en 1770.",
+   "id": "t063-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu chinois aux pierres noires et blanches s’appelle le ____.",
+   "choix": [
+    "go",
+    "xiangqi",
+    "shogi",
+    "mahjong"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Il s’appelle weiqi en chinois et baduk en coréen.",
+   "id": "t063-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu viking du roi assiégé s’appelle le ____.",
+   "choix": [
+    "hnefatafl",
+    "kubb",
+    "senet",
+    "tric-trac"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Des plateaux ont été retrouvés dans des tombes scandinaves.",
+   "id": "t063-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu égyptien des tombes royales s’appelle le ____.",
+   "choix": [
+    "senet",
+    "mancala",
+    "go",
+    "Ur"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Son nom signifie « passage », peut-être vers l’au-delà.",
+   "id": "t063-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La série Netflix sur une prodige des échecs s’intitule Le Jeu de la ____.",
+   "choix": [
+    "dame",
+    "reine",
+    "tour",
+    "partie"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Son héroïne, Beth Harmon, est une orpheline prodige.",
+   "id": "t063-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de guerre prussien de 1824 s’appelle le ____.",
+   "choix": [
+    "Kriegsspiel",
+    "Stratego",
+    "Risk",
+    "Diplomacy"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Son nom signifie simplement « jeu de guerre » en allemand.",
+   "id": "t063-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le compositeur français maître des échecs au 18e siècle s’appelle ____.",
+   "choix": [
+    "Philidor",
+    "Rameau",
+    "Grétry",
+    "Couperin"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Son traité, L’Analyse du jeu des échecs, paraît en 1749.",
+   "id": "t063-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces pièces n’existe pas aux échecs ?",
+   "choix": [
+    "Le général",
+    "Le fou",
+    "La tour",
+    "Le cavalier"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le général existe au xiangqi, l’équivalent chinois du roi.",
+   "id": "t063-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces champions du monde n’est pas russe ou soviétique ?",
+   "choix": [
+    "Bobby Fischer",
+    "Garry Kasparov",
+    "Anatoly Karpov",
+    "Mikhaïl Botvinnik"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Fischer est américain ; les trois autres sont soviétiques ou russes.",
+   "id": "t063-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas une variante d’échecs ?",
+   "choix": [
+    "Le go",
+    "Le shogi",
+    "Le xiangqi",
+    "Le makruk"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le go est un jeu de territoire, sans pièces différenciées.",
+   "id": "t063-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces programmes n’a pas joué aux échecs ou au go à haut niveau ?",
+   "choix": [
+    "Siri",
+    "Deep Blue",
+    "AlphaGo",
+    "Stockfish"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Siri est l’assistant vocal d’Apple, sans rapport avec les jeux.",
+   "id": "t063-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces ouvertures ne commence pas par 1.e4 ?",
+   "choix": [
+    "Le gambit dame",
+    "La sicilienne",
+    "La française",
+    "La partie espagnole"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le gambit dame commence par 1.d4 d5 2.c4.",
+   "id": "t063-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas antique ?",
+   "choix": [
+    "Le Risk",
+    "Le senet",
+    "Le jeu royal d’Ur",
+    "Le go"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le Risk naît en 1957 en France ; les autres ont des millénaires.",
+   "id": "t063-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces coups n’existe pas aux échecs ?",
+   "choix": [
+    "Le saut de reine",
+    "Le roque",
+    "La prise en passant",
+    "La promotion"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "La dame se déplace en ligne droite ou en diagonale, sans sauter.",
+   "id": "t063-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces joueuses n’est pas une championne d’échecs ?",
+   "choix": [
+    "Serena Williams",
+    "Judit Polgár",
+    "Hou Yifan",
+    "Vera Menchik"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Serena Williams est une championne de tennis.",
+   "id": "t063-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces champions est mort en possession de son titre ?",
+   "choix": [
+    "Alexandre Alekhine",
+    "Emanuel Lasker",
+    "Mikhaïl Tal",
+    "José Raúl Capablanca"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Alekhine meurt en 1946, encore champion du monde.",
+   "id": "t063-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’utilise pas de dés ?",
+   "choix": [
+    "Les échecs",
+    "Le trictrac",
+    "Le backgammon",
+    "Le jeu de l’oie"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Les échecs sont un jeu d’information complète, sans hasard.",
+   "id": "t063-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles pièces existent aux échecs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Roi",
+    "Dame",
+    "Fou",
+    "Cavalier",
+    "Général",
+    "Canon"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le général et le canon appartiennent au xiangqi.",
+   "id": "t063-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels champions du monde d’échecs ont été soviétiques ou russes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Botvinnik",
+    "Tal",
+    "Karpov",
+    "Kasparov",
+    "Fischer",
+    "Carlsen"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "L’URSS domine les échecs mondiaux pendant près d’un demi-siècle.",
+   "id": "t063-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux viennent d’Asie ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Go",
+    "Shogi",
+    "Xiangqi",
+    "Chaturanga",
+    "Hnefatafl",
+    "Risk"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le hnefatafl est scandinave, le Risk français.",
+   "id": "t063-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels coups spéciaux existent aux échecs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Roque",
+    "Prise en passant",
+    "Promotion",
+    "Double saut de la tour",
+    "Parachutage"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le parachutage des pièces capturées existe au shogi japonais.",
+   "id": "t063-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles machines ont battu des champions humains ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Deep Blue",
+    "AlphaGo",
+    "Le Turc mécanique",
+    "Le Canard de Vaucanson"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le Turc cachait un joueur, le canard était un automate digestif.",
+   "id": "t063-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont antiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Senet",
+    "Jeu royal d’Ur",
+    "Go",
+    "Risk",
+    "Stratego"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le Risk et le Stratego naissent au 20e siècle.",
+   "id": "t063-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles ouvertures commencent par 1.e4 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sicilienne",
+    "Française",
+    "Partie espagnole",
+    "Gambit dame",
+    "Défense indienne du roi"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "La défense indienne du roi répond à 1.d4.",
+   "id": "t063-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels joueurs ont été champions du monde ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Steinitz",
+    "Lasker",
+    "Capablanca",
+    "Carlsen",
+    "Philidor",
+    "Morphy"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Philidor et Morphy étaient les meilleurs de leur temps, avant les championnats officiels.",
+   "id": "t063-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux utilisent des pièces capturées ou des pierres sur intersections ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Go",
+    "Shogi",
+    "Xiangqi",
+    "Échecs occidentaux",
+    "Dames internationales"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Au go et au xiangqi, on joue sur les intersections ; au shogi, on réutilise les prises.",
+   "id": "t063-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres mettent les échecs en scène ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Jeu de la dame",
+    "Le Septième Sceau",
+    "De l’autre côté du miroir",
+    "Titanic",
+    "Le Roi lion"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Lewis Carroll construit De l’autre côté du miroir comme une partie d’échecs.",
+   "id": "t063-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces jeux d’échecs par ordre d’apparition.",
+   "items": [
+    "Chaturanga",
+    "Shatranj",
+    "Échecs médiévaux",
+    "Échecs modernes avec la dame puissante"
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le jeu évolue pendant près de mille ans avant de se fixer.",
+   "id": "t063-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces champions du monde par ordre chronologique.",
+   "items": [
+    "Steinitz",
+    "Lasker",
+    "Capablanca",
+    "Alekhine"
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le titre est créé officiellement en 1886.",
+   "id": "t063-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces champions du monde récents par ordre chronologique.",
+   "items": [
+    "Kasparov",
+    "Anand",
+    "Carlsen",
+    "Ding Liren",
+    "Gukesh"
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Gukesh devient champion à la fin de 2024.",
+   "id": "t063-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de l’histoire des échecs par ordre chronologique.",
+   "items": [
+    "Livre des jeux d’Alphonse X",
+    "Turc mécanique",
+    "Fondation de la FIDE",
+    "Deep Blue bat Kasparov"
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Ces étapes se placent en 1283, 1770, 1924 puis 1997.",
+   "id": "t063-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces pièces de la moins puissante à la plus puissante, selon leur valeur habituelle.",
+   "items": [
+    "Pion",
+    "Cavalier",
+    "Tour",
+    "Dame"
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "On compte souvent un, trois, cinq et neuf points.",
+   "id": "t063-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux de stratégie par date d’invention.",
+   "items": [
+    "Kriegsspiel",
+    "Risk",
+    "Stratego moderne"
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "1824, 1957, puis la version moderne du Stratego en 1961.",
+   "id": "t063-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du mat du berger dans l’ordre.",
+   "items": [
+    "1.e4",
+    "Sortie du fou",
+    "Sortie de la dame",
+    "Prise en f7 avec mat"
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "La dame, soutenue par le fou, frappe le point faible f7.",
+   "id": "t063-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la transmission des échecs vers l’Europe dans l’ordre.",
+   "items": [
+    "Inde",
+    "Perse",
+    "Monde arabe",
+    "Espagne et Italie"
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le jeu suit les routes du commerce et des conquêtes.",
+   "id": "t063-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux du plus petit au plus grand plateau.",
+   "items": [
+    "Échecs",
+    "Dames internationales",
+    "Go"
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "64 cases, 100 cases, puis 361 intersections.",
+   "id": "t063-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque jeu à son pays d’origine.",
+   "paires": [
+    [
+     "Shogi",
+     "Japon"
+    ],
+    [
+     "Xiangqi",
+     "Chine"
+    ],
+    [
+     "Chaturanga",
+     "Inde"
+    ],
+    [
+     "Hnefatafl",
+     "Scandinavie"
+    ]
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Chaque civilisation a créé ses jeux de stratégie.",
+   "id": "t063-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque champion à son pays.",
+   "paires": [
+    [
+     "Fischer",
+     "États-Unis"
+    ],
+    [
+     "Carlsen",
+     "Norvège"
+    ],
+    [
+     "Capablanca",
+     "Cuba"
+    ],
+    [
+     "Gukesh",
+     "Inde"
+    ]
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Les échecs sont un jeu véritablement mondial.",
+   "id": "t063-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque machine à son jeu.",
+   "paires": [
+    [
+     "Deep Blue",
+     "Échecs"
+    ],
+    [
+     "AlphaGo",
+     "Go"
+    ],
+    [
+     "Turc mécanique",
+     "Échecs truqués"
+    ]
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Le jeu sert depuis longtemps de défi pour l’intelligence artificielle.",
+   "id": "t063-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque pièce moderne à son ancêtre.",
+   "paires": [
+    [
+     "Fou",
+     "Éléphant"
+    ],
+    [
+     "Dame",
+     "Conseiller"
+    ],
+    [
+     "Tour",
+     "Char"
+    ],
+    [
+     "Cavalier",
+     "Cheval"
+    ]
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "La tour s’appelait « roukh » en persan, désignant peut-être un char.",
+   "id": "t063-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque ouverture à son premier coup noir.",
+   "paires": [
+    [
+     "Sicilienne",
+     "c5"
+    ],
+    [
+     "Française",
+     "e6"
+    ],
+    [
+     "Caro-Kann",
+     "c6"
+    ]
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Ces trois défenses répondent toutes au premier coup blanc 1.e4.",
+   "id": "t063-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque coup à sa définition.",
+   "paires": [
+    [
+     "Roque",
+     "Roi et tour ensemble"
+    ],
+    [
+     "Promotion",
+     "Pion transformé"
+    ],
+    [
+     "Pat",
+     "Aucun coup légal sans échec"
+    ],
+    [
+     "Mat",
+     "Roi pris sans issue"
+    ]
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Ces règles sont fixées dans le règlement officiel de la FIDE.",
+   "id": "t063-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque événement à sa ville.",
+   "paires": [
+    [
+     "Fischer-Spassky",
+     "Reykjavik"
+    ],
+    [
+     "Fondation de la FIDE",
+     "Paris"
+    ],
+    [
+     "AlphaGo-Lee Sedol",
+     "Séoul"
+    ]
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Ces villes sont entrées dans l’histoire des jeux.",
+   "id": "t063-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu antique à sa civilisation.",
+   "paires": [
+    [
+     "Senet",
+     "Égypte"
+    ],
+    [
+     "Jeu royal d’Ur",
+     "Sumer"
+    ],
+    [
+     "Go",
+     "Chine"
+    ]
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Certains de ces jeux sont joués depuis plus de quatre mille ans.",
+   "id": "t063-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à son rôle.",
+   "paires": [
+    [
+     "Philidor",
+     "Joueur et compositeur"
+    ],
+    [
+     "Kempelen",
+     "Inventeur du Turc"
+    ],
+    [
+     "Arpad Elo",
+     "Inventeur du classement"
+    ],
+    [
+     "Lamorisse",
+     "Inventeur du Risk"
+    ]
+   ],
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Ces personnages ont marqué l’histoire des jeux.",
+   "id": "t063-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une pièce\n2. J’étais un faible conseiller\n3. Je suis devenue la plus puissante",
+   "choix": [
+    "La dame",
+    "Le fou",
+    "La tour",
+    "Le roi"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Ma transformation date de la fin du 15e siècle.",
+   "id": "t063-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un ordinateur\n2. J’ai été conçu par IBM\n3. J’ai battu Kasparov",
+   "choix": [
+    "Deep Blue",
+    "AlphaGo",
+    "Watson",
+    "Stockfish"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Après ma victoire, je n’ai plus jamais rejoué.",
+   "id": "t063-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un champion\n2. J’ai battu Spassky\n3. Je suis américain",
+   "choix": [
+    "Bobby Fischer",
+    "Paul Morphy",
+    "Hikaru Nakamura",
+    "Fabiano Caruana"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "J’ai inventé une variante où les pièces sont placées au hasard.",
+   "id": "t063-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je viens de Chine\n3. On y pose des pierres noires et blanches",
+   "choix": [
+    "Le go",
+    "Le xiangqi",
+    "Le mahjong",
+    "Le shogi"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Les programmes d’IA m’ont longtemps jugé trop complexe.",
+   "id": "t063-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un automate\n2. On me croyait intelligent\n3. Un joueur se cachait en moi",
+   "choix": [
+    "Le Turc mécanique",
+    "Deep Blue",
+    "Le Canard de Vaucanson",
+    "Le Golem"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "J’ai été détruit dans un incendie à Philadelphie, en 1854.",
+   "id": "t063-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un ensemble de pièces\n2. Je suis en ivoire de morse\n3. On m’a trouvé en Écosse",
+   "choix": [
+    "Les pièces de Lewis",
+    "L’échiquier de Charlemagne",
+    "Le jeu d’Ur",
+    "Les pièces de Sutton Hoo"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Mes fous ont l’air de mordre leur bouclier, comme des berserkers.",
+   "id": "t063-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une joueuse\n2. Je suis hongroise\n3. J’ai affronté les hommes",
+   "choix": [
+    "Judit Polgár",
+    "Hou Yifan",
+    "Vera Menchik",
+    "Beth Harmon"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Mes deux sœurs étaient aussi de grandes joueuses.",
+   "id": "t063-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis né en France en 1957\n3. On veut y conquérir le monde",
+   "choix": [
+    "Le Risk",
+    "Le Stratego",
+    "Le Monopoly",
+    "Diplomacy"
+   ],
+   "rep": 0,
+   "src": "H. J. R. Murray ; FIDE ; British Museum",
+   "expl": "Mon premier nom était La Conquête du monde.",
+   "id": "t063-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
