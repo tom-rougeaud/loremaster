@@ -1,0 +1,1982 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "chevalerie-heraldique",
+  "nom": "Chevalerie, ordres et héraldique",
+  "royaume": "Le Moyen Âge historique",
+  "icone": "bouclier",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on la cérémonie qui fait d’un jeune noble un chevalier ?",
+   "choix": [
+    "L’adoubement",
+    "L’hommage",
+    "Le sacre",
+    "La bénédiction"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "On lui remet ses armes, souvent l’épée et les éperons.",
+   "id": "t058-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel coup symbolique donne-t-on au nouveau chevalier lors de l’adoubement ?",
+   "choix": [
+    "La colée",
+    "La quintaine",
+    "La passe d’armes",
+    "La touche"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Un coup du plat de la main ou de l’épée sur la nuque ou l’épaule.",
+   "id": "t058-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le jeune noble qui sert un chevalier en attendant d’être adoubé ?",
+   "choix": [
+    "Un écuyer",
+    "Un sergent",
+    "Un héraut",
+    "Un vavasseur"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Il porte son bouclier, prend soin de ses chevaux et de son armure.",
+   "id": "t058-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel exercice consiste à frapper une cible pivotante, au risque de recevoir un coup en retour ?",
+   "choix": [
+    "La quintaine",
+    "La joute",
+    "La mêlée",
+    "Le béhourd"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "La cible, souvent un mannequin armé d’un bâton, tourne si on la frappe mal.",
+   "id": "t058-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le combat à cheval entre deux chevaliers, lance contre lance ?",
+   "choix": [
+    "La joute",
+    "La mêlée",
+    "La quintaine",
+    "La passe"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Les deux adversaires galopent de part et d’autre d’une barrière, la lice.",
+   "id": "t058-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelait l’ancien tournoi où deux troupes de chevaliers s’affrontaient en groupe ?",
+   "choix": [
+    "La mêlée",
+    "La joute",
+    "La quintaine",
+    "Le pas d’armes"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Les vaincus devaient payer une rançon ou céder leur cheval et leurs armes.",
+   "id": "t058-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chevalier anglo-normand passe pour avoir vaincu des centaines d’adversaires en tournoi ?",
+   "choix": [
+    "Guillaume le Maréchal",
+    "Bertrand du Guesclin",
+    "Bayard",
+    "Jacques de Lalaing"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Il sert quatre rois d’Angleterre et devient régent du royaume.",
+   "id": "t058-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chevalier français est surnommé « le chevalier sans peur et sans reproche » ?",
+   "choix": [
+    "Bayard",
+    "Du Guesclin",
+    "Roland",
+    "Godefroy de Bouillon"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Il meurt en 1524 en Italie, touché par une arquebuse.",
+   "id": "t058-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chevalier breton devient connétable de France sous Charles V ?",
+   "choix": [
+    "Bertrand du Guesclin",
+    "Olivier de Clisson",
+    "Jean de Montfort",
+    "Arthur de Richemont"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Laid et brutal dans sa jeunesse, il devient un héros de la guerre de Cent Ans.",
+   "id": "t058-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels poètes du sud de la France chantent l’amour courtois ?",
+   "choix": [
+    "Les troubadours",
+    "Les trouvères",
+    "Les ménestrels du nord",
+    "Les goliards"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Ils écrivent en langue d’oc ; les trouvères, au nord, en langue d’oïl.",
+   "id": "t058-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle reine, petite-fille du premier troubadour, protège la poésie courtoise ?",
+   "choix": [
+    "Aliénor d’Aquitaine",
+    "Blanche de Castille",
+    "Isabeau de Bavière",
+    "Marguerite de Provence"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Elle est reine de France, puis d’Angleterre.",
+   "id": "t058-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui fonde l’ordre du Temple vers 1120 ?",
+   "choix": [
+    "Hugues de Payns",
+    "Bernard de Clairvaux",
+    "Godefroy de Bouillon",
+    "Jacques de Molay"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "L’ordre doit protéger les pèlerins sur les routes de Terre sainte.",
+   "id": "t058-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi fait arrêter tous les Templiers de France en 1307 ?",
+   "choix": [
+    "Philippe le Bel",
+    "Saint Louis",
+    "Philippe Auguste",
+    "Charles V"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "L’arrestation a lieu le vendredi 13 octobre, à l’aube, dans tout le royaume.",
+   "id": "t058-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dernier grand maître du Temple est brûlé à Paris en 1314 ?",
+   "choix": [
+    "Jacques de Molay",
+    "Hugues de Payns",
+    "Guillaume de Beaujeu",
+    "Geoffroy de Charnay seul"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Selon la légende, il maudit le roi et le pape, qui meurent dans l’année.",
+   "id": "t058-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel concile supprime l’ordre du Temple en 1312 ?",
+   "choix": [
+    "Le concile de Vienne",
+    "Le concile de Latran",
+    "Le concile de Trente",
+    "Le concile de Clermont"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Leurs biens sont en grande partie transférés aux Hospitaliers.",
+   "id": "t058-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle croix figure sur le manteau blanc des Templiers ?",
+   "choix": [
+    "Une croix rouge",
+    "Une croix noire",
+    "Une croix blanche",
+    "Une croix bleue"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Le pape leur accorde ce privilège vers 1147.",
+   "id": "t058-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle croix porte l’ordre des Hospitaliers, aujourd’hui ordre de Malte ?",
+   "choix": [
+    "Une croix à huit pointes",
+    "Une croix gammée",
+    "Une croix ancrée",
+    "Une croix fleurdelisée"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Les huit pointes symboliseraient les huit béatitudes.",
+   "id": "t058-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ordre militaire allemand conquiert la Prusse et les pays baltes ?",
+   "choix": [
+    "L’ordre Teutonique",
+    "L’ordre de Calatrava",
+    "L’ordre du Temple",
+    "L’ordre de Santiago"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Ses chevaliers portent un manteau blanc à croix noire.",
+   "id": "t058-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle bataille de 1410 voit la défaite des chevaliers Teutoniques face aux Polonais et Lituaniens ?",
+   "choix": [
+    "Grunwald",
+    "Crécy",
+    "Azincourt",
+    "Bouvines"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "On l’appelle aussi bataille de Tannenberg.",
+   "id": "t058-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel prince russe bat les chevaliers Teutoniques sur un lac gelé en 1242 ?",
+   "choix": [
+    "Alexandre Nevski",
+    "Ivan le Terrible",
+    "Dimitri Donskoï",
+    "Iaroslav le Sage"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Eisenstein en fait un film célèbre en 1938, avec une musique de Prokofiev.",
+   "id": "t058-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi d’Angleterre fonde l’ordre de la Jarretière vers 1348 ?",
+   "choix": [
+    "Édouard III",
+    "Henri V",
+    "Richard II",
+    "Édouard Ier"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Selon la légende, il ramasse la jarretière tombée d’une dame et fait taire les moqueurs.",
+   "id": "t058-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel duc de Bourgogne fonde l’ordre de la Toison d’or en 1430 ?",
+   "choix": [
+    "Philippe le Bon",
+    "Charles le Téméraire",
+    "Jean sans Peur",
+    "Philippe le Hardi"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "L’ordre devient l’un des plus prestigieux d’Europe.",
+   "id": "t058-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel roi de France fonde l’ordre de Saint-Michel en 1469 ?",
+   "choix": [
+    "Louis XI",
+    "Charles VII",
+    "Louis IX",
+    "François Ier"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Il veut rivaliser avec la Toison d’or de son ennemi bourguignon.",
+   "id": "t058-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on l’art de décrire et de composer les armoiries ?",
+   "choix": [
+    "L’héraldique",
+    "La sigillographie",
+    "La numismatique",
+    "La généalogie"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Décrire des armoiries se dit « blasonner ».",
+   "id": "t058-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment dit-on « rouge » dans la langue du blason ?",
+   "choix": [
+    "Gueules",
+    "Azur",
+    "Sinople",
+    "Sable"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Le mot viendrait d’une fourrure teinte en rouge.",
+   "id": "t058-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment dit-on « vert » en héraldique ?",
+   "choix": [
+    "Sinople",
+    "Gueules",
+    "Sable",
+    "Pourpre"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Le mot désignait d’abord une terre rouge, avant de changer de sens.",
+   "id": "t058-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment dit-on « noir » en héraldique ?",
+   "choix": [
+    "Sable",
+    "Gueules",
+    "Azur",
+    "Sinople"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Le mot viendrait de la zibeline, une fourrure sombre.",
+   "id": "t058-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels sont les deux métaux de l’héraldique ?",
+   "choix": [
+    "L’or et l’argent",
+    "Le fer et le bronze",
+    "Le cuivre et l’étain",
+    "L’or et le fer"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Dans les dessins, l’or est souvent jaune et l’argent blanc.",
+   "id": "t058-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle fourrure héraldique est blanche semée de petites queues noires ?",
+   "choix": [
+    "L’hermine",
+    "Le vair",
+    "La martre",
+    "Le petit-gris"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Elle est l’emblème de la Bretagne, dont le drapeau en porte onze mouchetures.",
+   "id": "t058-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que dit la règle principale de l’héraldique sur les couleurs ?",
+   "choix": [
+    "On ne met pas métal sur métal ni couleur sur couleur",
+    "On ne met jamais de rouge",
+    "Il faut toujours trois couleurs",
+    "L’or doit être au centre"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Cette règle garantit que les armoiries soient lisibles de loin.",
+   "id": "t058-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal est le plus fréquent dans les armoiries médiévales ?",
+   "choix": [
+    "Le lion",
+    "L’aigle",
+    "Le cerf",
+    "Le dragon"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "On le retrouve dans environ un blason sur six.",
+   "id": "t058-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment les hérauts appellent-ils le lion passant, la tête de face, des armoiries d’Angleterre ?",
+   "choix": [
+    "Un léopard",
+    "Un griffon",
+    "Un tigre",
+    "Un guépard"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Les armes anglaises portent trois de ces « léopards » d’or sur fond de gueules.",
+   "id": "t058-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel emblème végétal stylisé symbolise la monarchie française ?",
+   "choix": [
+    "La fleur de lis",
+    "La rose",
+    "La marguerite",
+    "L’iris"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Les armes de France sont d’azur à fleurs de lis d’or.",
+   "id": "t058-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment appelle-t-on un écu divisé en quatre quartiers ?",
+   "choix": [
+    "Écartelé",
+    "Parti",
+    "Coupé",
+    "Tranché"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "« Parti » coupe l’écu en deux verticalement, « coupé » horizontalement.",
+   "id": "t058-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle pièce héraldique est une bande verticale au milieu de l’écu ?",
+   "choix": [
+    "Le pal",
+    "La fasce",
+    "La bande",
+    "Le chevron"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "La fasce est horizontale, la bande et la barre sont en diagonale.",
+   "id": "t058-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel signe ajoute-t-on aux armes du fils aîné pour les distinguer de celles du père ?",
+   "choix": [
+    "Un lambel",
+    "Une couronne",
+    "Une étoile",
+    "Une bordure d’or"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "C’est une « brisure », qui disparaît quand le fils hérite.",
+   "id": "t058-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est chargé, au Moyen Âge, de reconnaître les armoiries et d’annoncer les tournois ?",
+   "choix": [
+    "Le héraut d’armes",
+    "Le connétable",
+    "Le sénéchal",
+    "Le chambellan"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Il identifie aussi les morts sur les champs de bataille.",
+   "id": "t058-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel étendard rouge, conservé à Saint-Denis, est porté par les rois de France à la guerre ?",
+   "choix": [
+    "L’oriflamme",
+    "Le gonfanon blanc",
+    "La bannière de Bretagne",
+    "Le baucent"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Le cri de guerre associé était « Montjoie ! Saint-Denis ! ».",
+   "id": "t058-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelait-on la bannière noire et blanche des Templiers ?",
+   "choix": [
+    "Le baucent",
+    "L’oriflamme",
+    "Le gonfalon",
+    "La flamme"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Tant qu’elle flottait, aucun Templier ne devait quitter le combat.",
+   "id": "t058-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chevalier bourguignon est le plus célèbre jouteur de son temps, au 15e siècle ?",
+   "choix": [
+    "Jacques de Lalaing",
+    "Bayard",
+    "Du Guesclin",
+    "Guillaume le Maréchal"
+   ],
+   "rep": 0,
+   "src": "J. Flori, Chevaliers et chevalerie au Moyen Âge (Hachette) ; A. Demurger, Les Templiers (Gisserot) ; M. Pastoureau, Traité d’héraldique (Picard) ; Archives nationales, procès des Templiers",
+   "expl": "Il organise un pas d’armes, la « Fontaine des pleurs », où il défie tout venant pendant un an.",
+   "id": "t058-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un écuyer peut devenir chevalier après son adoubement.",
+   "rep": true,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "L’adoubement a souvent lieu vers vingt ans, parfois avant une bataille.",
+   "id": "t058-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les troubadours écrivaient en langue d’oïl.",
+   "rep": false,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Faux : ils écrivaient en langue d’oc ; la langue d’oïl est celle des trouvères.",
+   "id": "t058-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Templiers sont des soldats laïques, sans aucun vœu religieux.",
+   "rep": false,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Faux : ils prononcent des vœux de moines tout en combattant en Terre sainte.",
+   "id": "t058-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’arrestation des Templiers a eu lieu un vendredi 13.",
+   "rep": true,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Certains y voient l’origine de la superstition, mais cela reste douteux.",
+   "id": "t058-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Jacques de Molay est le fondateur de l’ordre du Temple.",
+   "rep": false,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Faux : il en est le dernier grand maître ; le fondateur est Hugues de Payns.",
+   "id": "t058-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’ordre des Hospitaliers existe encore aujourd’hui.",
+   "rep": true,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Il est devenu l’ordre souverain de Malte, connu pour ses actions humanitaires.",
+   "id": "t058-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les chevaliers Teutoniques portent une croix rouge.",
+   "rep": false,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Faux : ils portent une croix noire sur fond blanc.",
+   "id": "t058-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’ordre de la Jarretière existe toujours en Angleterre.",
+   "rep": true,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "C’est le plus haut ordre de chevalerie britannique.",
+   "id": "t058-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "En héraldique, « azur » signifie bleu.",
+   "rep": true,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le mot vient du persan, à travers l’arabe, pour désigner le lapis-lazuli.",
+   "id": "t058-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "En héraldique, on peut poser un lion d’or sur un champ d’argent sans enfreindre la règle.",
+   "rep": false,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Faux : ce serait métal sur métal ; les armes de Jérusalem font une célèbre exception.",
+   "id": "t058-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les armes de France montrent des fleurs de lis d’or.",
+   "rep": true,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Charles V réduit leur nombre à trois, en l’honneur de la Trinité.",
+   "id": "t058-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le vair est une fourrure faite de peaux d’écureuil.",
+   "rep": true,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "On la représente par des clochettes alternées bleues et blanches.",
+   "id": "t058-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Bayard a combattu à la bataille d’Hastings.",
+   "rep": false,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Faux : il vit au tournant des 15e et 16e siècles ; Hastings date de 1066.",
+   "id": "t058-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Temple est supprimé par le pape lors d’un concile.",
+   "rep": true,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le pape Clément V le supprime en 1312 au concile de Vienne.",
+   "id": "t058-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Vers quelle année l’ordre du Temple est-il fondé ?",
+   "rep": 1120,
+   "min": 1050,
+   "max": 1200,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 2,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le roi de Jérusalem loge les premiers chevaliers près de l’ancien Temple de Salomon.",
+   "id": "t058-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année les Templiers sont-ils arrêtés en France ?",
+   "rep": 1307,
+   "min": 1250,
+   "max": 1350,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ils sont accusés d’hérésie, de sacrilège et d’idolâtrie, sous la torture.",
+   "id": "t058-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Jacques de Molay est-il brûlé ?",
+   "rep": 1314,
+   "min": 1290,
+   "max": 1350,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Il est exécuté sur l’île aux Juifs, près de l’actuel Pont-Neuf.",
+   "id": "t058-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année a lieu la bataille de Grunwald ?",
+   "rep": 1410,
+   "min": 1300,
+   "max": 1500,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le grand maître de l’ordre Teutonique y trouve la mort.",
+   "id": "t058-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Philippe le Bon fonde-t-il l’ordre de la Toison d’or ?",
+   "rep": 1430,
+   "min": 1350,
+   "max": 1500,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Il le crée lors de son mariage avec Isabelle de Portugal.",
+   "id": "t058-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de pointes compte la croix de Malte ?",
+   "rep": 8,
+   "min": 4,
+   "max": 12,
+   "pas": 1,
+   "unite": "pointes",
+   "tolerance": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ses quatre branches s’évasent et se terminent chacune par deux pointes.",
+   "id": "t058-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de léopards figurent sur les armes royales d’Angleterre ?",
+   "rep": 3,
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "léopards",
+   "tolerance": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Richard Cœur de Lion les adopte vers 1198.",
+   "id": "t058-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de fleurs de lis portent les armes de France depuis Charles V ?",
+   "rep": 3,
+   "min": 1,
+   "max": 9,
+   "pas": 1,
+   "unite": "fleurs",
+   "tolerance": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Avant lui, l’écu était « semé » de fleurs de lis.",
+   "id": "t058-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La cérémonie qui fait un chevalier s’appelle l’____.",
+   "choix": [
+    "adoubement",
+    "hommage",
+    "anoblissement",
+    "sacre"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le mot viendrait d’un ancien verbe francique signifiant « frapper ».",
+   "id": "t058-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le combat de deux cavaliers à la lance s’appelle la ____.",
+   "choix": [
+    "joute",
+    "mêlée",
+    "quintaine",
+    "lice"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Les lances, creuses ou émoussées, se brisaient souvent sous le choc.",
+   "id": "t058-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les poètes de l’amour courtois en langue d’oc s’appellent les ____.",
+   "choix": [
+    "troubadours",
+    "trouvères",
+    "jongleurs",
+    "goliards"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le plus ancien connu est Guillaume IX d’Aquitaine.",
+   "id": "t058-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dernier grand maître des Templiers s’appelle Jacques de ____.",
+   "choix": [
+    "Molay",
+    "Payns",
+    "Beaujeu",
+    "Charnay"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Il est originaire de Franche-Comté et entre dans l’ordre vers 1265.",
+   "id": "t058-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’ordre militaire allemand à la croix noire s’appelle l’ordre ____.",
+   "choix": [
+    "Teutonique",
+    "Prussien",
+    "Germanique",
+    "Saxon"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Son siège est d’abord à Acre, puis à Venise, puis à Malbork.",
+   "id": "t058-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’ordre anglais fondé par Édouard III s’appelle l’ordre de la ____.",
+   "choix": [
+    "Jarretière",
+    "Rose",
+    "Couronne",
+    "Toison"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Sa devise, en français, reproche les mauvaises pensées.",
+   "id": "t058-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’art des armoiries s’appelle l’____.",
+   "choix": [
+    "héraldique",
+    "armurerie",
+    "iconographie",
+    "emblématique"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le mot vient des hérauts, spécialistes des armoiries.",
+   "id": "t058-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le rouge, en héraldique, se dit ____.",
+   "choix": [
+    "gueules",
+    "sinople",
+    "sable",
+    "azur"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "On le représente en gravure par des traits verticaux.",
+   "id": "t058-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le bleu, en héraldique, se dit ____.",
+   "choix": [
+    "azur",
+    "sinople",
+    "sable",
+    "pourpre"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "On le représente en gravure par des traits horizontaux.",
+   "id": "t058-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La fourrure blanche à mouchetures noires s’appelle l’____.",
+   "choix": [
+    "hermine",
+    "vair",
+    "zibeline",
+    "renard"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "La duchesse Anne de Bretagne en fit un symbole célèbre.",
+   "id": "t058-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le lion passant à tête de face s’appelle en héraldique un ____.",
+   "choix": [
+    "léopard",
+    "griffon",
+    "tigre",
+    "lynx"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Il ne s’agit pas d’un félin tacheté, seulement d’une position du lion.",
+   "id": "t058-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’étendard rouge des rois de France s’appelle l’____.",
+   "choix": [
+    "oriflamme",
+    "étendard",
+    "gonfanon",
+    "baucent"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "On ne le sortait qu’en cas de guerre contre un ennemi étranger.",
+   "id": "t058-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le signe qui distingue les armes du fils aîné s’appelle le ____.",
+   "choix": [
+    "lambel",
+    "chef",
+    "pal",
+    "sautoir"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Il a la forme d’une barre à pendants, en haut de l’écu.",
+   "id": "t058-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces mots n’est pas une couleur héraldique ?",
+   "choix": [
+    "Mauve",
+    "Gueules",
+    "Azur",
+    "Sinople"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Les couleurs principales sont gueules, azur, sinople, sable et pourpre.",
+   "id": "t058-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces ordres n’est pas un ordre militaire religieux ?",
+   "choix": [
+    "L’ordre de la Jarretière",
+    "L’ordre du Temple",
+    "L’ordre Teutonique",
+    "L’ordre des Hospitaliers"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "La Jarretière est un ordre honorifique laïque, fondé par un roi.",
+   "id": "t058-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces chevaliers n’est pas français ?",
+   "choix": [
+    "Guillaume le Maréchal",
+    "Bayard",
+    "Du Guesclin",
+    "Jacques de Molay"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Guillaume le Maréchal est un chevalier anglo-normand au service des rois d’Angleterre.",
+   "id": "t058-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces exercices n’est pas un jeu chevaleresque ?",
+   "choix": [
+    "Le jeu de paume",
+    "La joute",
+    "La quintaine",
+    "La mêlée"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le jeu de paume, ancêtre du tennis, se joue avec une balle.",
+   "id": "t058-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces pièces n’est pas une pièce héraldique ?",
+   "choix": [
+    "Le pion",
+    "Le pal",
+    "La fasce",
+    "Le chevron"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le pion appartient au jeu d’échecs, pas à la langue des blasons.",
+   "id": "t058-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces fourrures n’est pas héraldique ?",
+   "choix": [
+    "Le renard",
+    "L’hermine",
+    "Le vair",
+    "La contre-hermine"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Seules l’hermine et le vair, avec leurs variantes, sont des fourrures du blason.",
+   "id": "t058-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces ordres n’a pas été fondé par un souverain laïque ?",
+   "choix": [
+    "L’ordre du Temple",
+    "L’ordre de la Jarretière",
+    "L’ordre de la Toison d’or",
+    "L’ordre de Saint-Michel"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le Temple est fondé par des chevaliers et reconnu par l’Église.",
+   "id": "t058-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas lié au procès des Templiers ?",
+   "choix": [
+    "Bernard de Clairvaux",
+    "Philippe le Bel",
+    "Clément V",
+    "Jacques de Molay"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Bernard de Clairvaux soutient l’ordre à sa fondation, au 12e siècle.",
+   "id": "t058-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces partitions n’existe pas en héraldique ?",
+   "choix": [
+    "Fendu",
+    "Parti",
+    "Coupé",
+    "Tranché"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Les partitions de base sont parti, coupé, tranché, taillé et écartelé.",
+   "id": "t058-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces batailles n’oppose pas les Teutoniques à leurs voisins ?",
+   "choix": [
+    "Crécy",
+    "Grunwald",
+    "Le lac Peïpous",
+    "Tannenberg"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Crécy oppose la France et l’Angleterre en 1346.",
+   "id": "t058-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels termes désignent des couleurs héraldiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gueules",
+    "Azur",
+    "Sinople",
+    "Sable",
+    "Mauve",
+    "Orangé"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le pourpre est la cinquième couleur, plus rare.",
+   "id": "t058-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels ordres sont des ordres militaires religieux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Templiers",
+    "Hospitaliers",
+    "Teutoniques",
+    "Ordre de Calatrava",
+    "Jarretière",
+    "Toison d’or"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Calatrava est un ordre espagnol de la Reconquista.",
+   "id": "t058-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont liés au procès des Templiers ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Philippe le Bel",
+    "Clément V",
+    "Jacques de Molay",
+    "Bernard de Clairvaux",
+    "Hugues de Payns"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le procès s’étend de 1307 à 1314, sous la pression du roi de France.",
+   "id": "t058-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux font partie des tournois ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Joute",
+    "Mêlée",
+    "Pas d’armes",
+    "Jeu de paume",
+    "Échecs"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le pas d’armes défend un passage contre tout chevalier qui se présente.",
+   "id": "t058-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels chevaliers sont célèbres pour leur valeur ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bayard",
+    "Du Guesclin",
+    "Guillaume le Maréchal",
+    "Jacques de Lalaing",
+    "Néron",
+    "Robespierre"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ils incarnent l’idéal du chevalier à différentes époques.",
+   "id": "t058-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels éléments composent des armoiries complètes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Écu",
+    "Cimier",
+    "Supports",
+    "Devise",
+    "Bouclier rond",
+    "Fourreau"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le cimier se place au sommet du casque, au-dessus de l’écu.",
+   "id": "t058-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles pièces héraldiques sont en diagonale ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bande",
+    "Barre",
+    "Pal",
+    "Fasce"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "La bande descend de gauche à droite pour le spectateur, la barre de droite à gauche.",
+   "id": "t058-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels ordres laïques ont été fondés par des souverains ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jarretière",
+    "Toison d’or",
+    "Saint-Michel",
+    "Temple",
+    "Hospitaliers"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ces ordres honorifiques récompensent la fidélité des grands seigneurs.",
+   "id": "t058-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels animaux ou figures sont fréquents dans les blasons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lion",
+    "Aigle",
+    "Fleur de lis",
+    "Girafe",
+    "Kangourou"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Les animaux exotiques n’apparaissent que très tardivement.",
+   "id": "t058-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels éléments sont liés aux Templiers ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Croix rouge",
+    "Manteau blanc",
+    "Baucent",
+    "Croix à huit pointes",
+    "Manteau noir"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "La croix à huit pointes est celle des Hospitaliers.",
+   "id": "t058-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la formation d’un chevalier dans l’ordre.",
+   "items": [
+    "Page",
+    "Écuyer",
+    "Adoubement",
+    "Chevalier"
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Le jeune noble quitte souvent sa famille vers sept ans pour servir un seigneur.",
+   "id": "t058-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la fin des Templiers dans l’ordre.",
+   "items": [
+    "Arrestation en France",
+    "Procès",
+    "Suppression de l’ordre",
+    "Bûcher de Jacques de Molay"
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "En 1307, de 1307 à 1312, en 1312 puis en 1314 : sept ans pour abattre l’ordre.",
+   "id": "t058-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces ordres militaires par date de fondation.",
+   "items": [
+    "Hospitaliers",
+    "Templiers",
+    "Teutoniques"
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Les trois grands ordres naissent tous en Terre sainte.",
+   "id": "t058-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces ordres de chevalerie laïques par date de fondation.",
+   "items": [
+    "Jarretière",
+    "Toison d’or",
+    "Saint-Michel"
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Fondés en 1348, 1430 et 1469 par des souverains rivaux.",
+   "id": "t058-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces chevaliers par ordre chronologique.",
+   "items": [
+    "Guillaume le Maréchal",
+    "Du Guesclin",
+    "Jacques de Lalaing",
+    "Bayard"
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Du 12e au début du 16e siècle, ils incarnent tour à tour l’idéal du chevalier.",
+   "id": "t058-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de l’histoire des Teutoniques par ordre chronologique.",
+   "items": [
+    "Bataille du lac Peïpous",
+    "Installation à Malbork",
+    "Bataille de Grunwald",
+    "Seconde paix de Thorn"
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "1242, 1309, 1410 et 1466 : l’ordre perd peu à peu sa puissance.",
+   "id": "t058-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’une joute dans l’ordre.",
+   "items": [
+    "Le héraut annonce les adversaires",
+    "Les chevaliers saluent",
+    "Ils chargent le long de la lice",
+    "Les juges comptent les lances brisées"
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Briser sa lance sur l’adversaire rapporte des points.",
+   "id": "t058-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la description d’un blason dans l’ordre.",
+   "items": [
+    "Le champ",
+    "Les pièces",
+    "Les meubles",
+    "Les brisures"
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "On commence toujours par la couleur du fond de l’écu.",
+   "id": "t058-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sièges successifs des Hospitaliers par ordre chronologique.",
+   "items": [
+    "Jérusalem",
+    "Acre",
+    "Rhodes",
+    "Malte"
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ils s’installent à Malte en 1530, après la perte de Rhodes.",
+   "id": "t058-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque couleur héraldique à son nom.",
+   "paires": [
+    [
+     "Rouge",
+     "Gueules"
+    ],
+    [
+     "Bleu",
+     "Azur"
+    ],
+    [
+     "Vert",
+     "Sinople"
+    ],
+    [
+     "Noir",
+     "Sable"
+    ]
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ces noms anciens viennent du français médiéval, de l’arabe ou du persan.",
+   "id": "t058-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque ordre à sa croix.",
+   "paires": [
+    [
+     "Templiers",
+     "Croix rouge"
+    ],
+    [
+     "Teutoniques",
+     "Croix noire"
+    ],
+    [
+     "Hospitaliers",
+     "Croix à huit pointes"
+    ]
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ces croix permettaient de reconnaître les ordres sur le champ de bataille.",
+   "id": "t058-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque ordre à son fondateur.",
+   "paires": [
+    [
+     "Temple",
+     "Hugues de Payns"
+    ],
+    [
+     "Jarretière",
+     "Édouard III"
+    ],
+    [
+     "Toison d’or",
+     "Philippe le Bon"
+    ],
+    [
+     "Saint-Michel",
+     "Louis XI"
+    ]
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Les fondateurs voulaient lier leurs chevaliers par des serments.",
+   "id": "t058-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque chevalier à son surnom ou son titre.",
+   "paires": [
+    [
+     "Bayard",
+     "Sans peur et sans reproche"
+    ],
+    [
+     "Du Guesclin",
+     "Connétable de France"
+    ],
+    [
+     "Guillaume le Maréchal",
+     "Meilleur chevalier du monde"
+    ]
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ces surnoms ont été donnés par leurs contemporains.",
+   "id": "t058-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque partition à sa description.",
+   "paires": [
+    [
+     "Parti",
+     "Coupé en deux verticalement"
+    ],
+    [
+     "Coupé",
+     "Coupé en deux horizontalement"
+    ],
+    [
+     "Écartelé",
+     "Divisé en quatre"
+    ]
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ces divisions permettent de combiner les armes de plusieurs familles.",
+   "id": "t058-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque pays à son emblème héraldique.",
+   "paires": [
+    [
+     "France",
+     "Fleurs de lis"
+    ],
+    [
+     "Angleterre",
+     "Léopards"
+    ],
+    [
+     "Bretagne",
+     "Hermine"
+    ]
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ces emblèmes sont encore visibles sur de nombreux drapeaux régionaux.",
+   "id": "t058-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque bataille à son vainqueur.",
+   "paires": [
+    [
+     "Lac Peïpous",
+     "Alexandre Nevski"
+    ],
+    [
+     "Grunwald",
+     "Pologne et Lituanie"
+    ],
+    [
+     "Crécy",
+     "Angleterre"
+    ]
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Les deux défaites marquent le recul des Teutoniques à l’est.",
+   "id": "t058-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque poète à sa langue.",
+   "paires": [
+    [
+     "Troubadours",
+     "Langue d’oc"
+    ],
+    [
+     "Trouvères",
+     "Langue d’oïl"
+    ],
+    [
+     "Minnesänger",
+     "Allemand"
+    ]
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "L’amour courtois se répand dans toute l’Europe.",
+   "id": "t058-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à son rôle dans l’histoire des Templiers.",
+   "paires": [
+    [
+     "Hugues de Payns",
+     "Fondateur"
+    ],
+    [
+     "Bernard de Clairvaux",
+     "Soutien"
+    ],
+    [
+     "Philippe le Bel",
+     "Accusateur"
+    ],
+    [
+     "Clément V",
+     "Pape qui supprime l’ordre"
+    ]
+   ],
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "L’ordre du Temple dure un peu moins de deux siècles.",
+   "id": "t058-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un chevalier\n2. Je n’avais ni peur ni reproche\n3. Je suis mort en Italie",
+   "choix": [
+    "Bayard",
+    "Du Guesclin",
+    "Roland",
+    "Lancelot"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "J’ai adoubé moi-même le roi François Ier après Marignan.",
+   "id": "t058-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un grand maître\n2. J’ai été brûlé en 1314\n3. J’aurais maudit le roi",
+   "choix": [
+    "Jacques de Molay",
+    "Hugues de Payns",
+    "Guillaume de Beaujeu",
+    "Philippe de Plessis"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Mon ordre avait été fondé près de deux siècles plus tôt.",
+   "id": "t058-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un ordre\n2. Je porte une croix à huit pointes\n3. J’ai fini à Malte",
+   "choix": [
+    "Les Hospitaliers",
+    "Les Templiers",
+    "Les Teutoniques",
+    "La Jarretière"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Je suis né d’un hôpital pour pèlerins à Jérusalem.",
+   "id": "t058-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une couleur\n2. Je suis rouge\n3. Mon nom évoque une gorge",
+   "choix": [
+    "Gueules",
+    "Sinople",
+    "Sable",
+    "Azur"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Je suis la couleur la plus courante dans les blasons.",
+   "id": "t058-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une fourrure\n2. Je suis blanche mouchetée de noir\n3. Je suis bretonne",
+   "choix": [
+    "L’hermine",
+    "Le vair",
+    "La martre",
+    "Le petit-gris"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Ma devise bretonne affirme préférer la mort à la souillure.",
+   "id": "t058-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un roi\n2. J’ai ramassé une jarretière\n3. J’ai fondé un ordre",
+   "choix": [
+    "Édouard III",
+    "Henri V",
+    "Philippe le Bon",
+    "Louis XI"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "J’ai aussi gagné la bataille de Crécy, en 1346, contre Philippe VI.",
+   "id": "t058-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un étendard\n2. Je suis rouge\n3. On me garde à Saint-Denis",
+   "choix": [
+    "L’oriflamme",
+    "Le baucent",
+    "La bannière de France",
+    "Le gonfanon"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Les rois venaient me chercher à l’abbaye avant de partir en guerre.",
+   "id": "t058-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un chevalier\n2. J’ai servi quatre rois\n3. J’ai gagné des centaines de tournois",
+   "choix": [
+    "Guillaume le Maréchal",
+    "Richard Cœur de Lion",
+    "Bayard",
+    "Jacques de Lalaing"
+   ],
+   "rep": 0,
+   "src": "J. Flori ; A. Demurger ; M. Pastoureau",
+   "expl": "Mon histoire est racontée dans un long poème écrit après ma mort.",
+   "id": "t058-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
