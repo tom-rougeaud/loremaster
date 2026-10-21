@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**63 / 99 thèmes terminés — 8353 questions au total.**
+**64 / 99 thèmes terminés — 8474 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -69,7 +69,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 61 | Grandes figures du Moyen Âge | 122 | 41 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/74/24 | 3 | terminé |
 | 62 | Médecine, alchimie et croyances médiévales | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 63 | Échecs et jeux de stratégie de l’Histoire | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 2 | terminé |
-| 64 | Les sous-genres de l’imaginaire | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 64 | Les sous-genres de l’imaginaire | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 65 | Les systèmes de magie dans la fiction | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 66 | Sorcellerie et procès de sorcières | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 67 | Runes, symboles et tarot | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
