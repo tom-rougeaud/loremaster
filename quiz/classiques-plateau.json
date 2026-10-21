@@ -1,0 +1,2005 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "classiques-plateau",
+  "nom": "Grands classiques du jeu de plateau",
+  "royaume": "Jeux de rôle, de cartes et de plateau",
+  "icone": "pion",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle autrice américaine invente en 1904 l’ancêtre du Monopoly, pour dénoncer les propriétaires fonciers ?",
+   "choix": [
+    "Lizzie Magie",
+    "Charles Darrow",
+    "Elizabeth Phillips Hughes",
+    "Mary Parker"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Son jeu s’appelait The Landlord’s Game ; Darrow le vendit plus tard comme sien.",
+   "id": "t081-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel éditeur américain lance le Monopoly en 1935 ?",
+   "choix": [
+    "Parker Brothers",
+    "Milton Bradley",
+    "Hasbro",
+    "Mattel"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Le géant américain Hasbro rachète Parker Brothers en 1991.",
+   "id": "t081-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la rue la plus chère du Monopoly français classique ?",
+   "choix": [
+    "La rue de la Paix",
+    "L’avenue des Champs-Élysées",
+    "Le boulevard Malesherbes",
+    "L’avenue Foch"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Elle forme avec les Champs-Élysées le groupe bleu foncé.",
+   "id": "t081-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est, avec la rue Lecourbe, la rue la moins chère du Monopoly français ?",
+   "choix": [
+    "Le boulevard de Belleville",
+    "La rue de Vaugirard",
+    "L’avenue Mozart",
+    "La rue de Courcelles"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Ces deux propriétés forment le groupe violet ou marron, selon les éditions.",
+   "id": "t081-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de gares compte le plateau du Monopoly ?",
+   "choix": [
+    "Quatre",
+    "Deux",
+    "Trois",
+    "Six"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "En France : Montparnasse, Lyon, Nord et Saint-Lazare.",
+   "id": "t081-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel architecte américain invente en 1938 le jeu qui deviendra le Scrabble ?",
+   "choix": [
+    "Alfred Mosher Butts",
+    "James Brunot",
+    "Charles Darrow",
+    "Milton Bradley"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Il étudie la fréquence des lettres dans les journaux pour fixer leur nombre.",
+   "id": "t081-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de lettres un joueur de Scrabble a-t-il sur son chevalet ?",
+   "choix": [
+    "Sept",
+    "Six",
+    "Huit",
+    "Dix"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Les poser toutes d’un coup rapporte une prime de cinquante points.",
+   "id": "t081-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la taille de la grille de Scrabble ?",
+   "choix": [
+    "Quinze cases sur quinze",
+    "Dix sur dix",
+    "Vingt sur vingt",
+    "Douze sur douze"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "La case centrale est une case « mot compte double ».",
+   "id": "t081-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel joueur néo-zélandais remporte en 2015 le championnat du monde de Scrabble francophone sans parler français ?",
+   "choix": [
+    "Nigel Richards",
+    "Nigel Short",
+    "David Boys",
+    "Richard Nigel"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Il a appris par cœur le dictionnaire officiel en quelques semaines.",
+   "id": "t081-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de lettres compte le jeu de Scrabble français, jokers compris ?",
+   "choix": [
+    "Cent deux",
+    "Cent",
+    "Quatre-vingt-dix",
+    "Cent vingt"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "La lettre E, la plus fréquente, y est présente quinze fois.",
+   "id": "t081-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le Scrabble français, combien vaut la lettre K ?",
+   "choix": [
+    "Dix points",
+    "Huit points",
+    "Cinq points",
+    "Un point"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Les lettres W, X, Y et Z valent aussi dix points.",
+   "id": "t081-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Britannique invente le Cluedo pendant la Seconde Guerre mondiale ?",
+   "choix": [
+    "Anthony E. Pratt",
+    "Agatha Christie",
+    "Arthur Conan Doyle",
+    "John Waddington"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Il l’imagine pendant les alertes aériennes, et le jeu sort en 1949.",
+   "id": "t081-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de suspects compte le Cluedo classique ?",
+   "choix": [
+    "Six",
+    "Quatre",
+    "Huit",
+    "Neuf"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Colonel Moutarde, Mademoiselle Rose, Madame Pervenche, Professeur Violet, Révérend Olive et Madame Leblanc.",
+   "id": "t081-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de pièces compte le manoir du Cluedo ?",
+   "choix": [
+    "Neuf",
+    "Six",
+    "Douze",
+    "Sept"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Le crime a forcément eu lieu dans l’une d’elles.",
+   "id": "t081-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la victime du Cluedo dans la version française classique ?",
+   "choix": [
+    "Le docteur Lenoir",
+    "Le colonel Moutarde",
+    "Monsieur Corps",
+    "Le comte Noir"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "En anglais, la victime s’appelle Dr Black.",
+   "id": "t081-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de territoires compte le plateau classique du Risk ?",
+   "choix": [
+    "Quarante-deux",
+    "Trente",
+    "Cinquante",
+    "Soixante-quatre"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Ils sont répartis sur six continents de taille inégale.",
+   "id": "t081-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel pays le Trivial Pursuit est-il inventé, en 1979 ?",
+   "choix": [
+    "Au Canada",
+    "Aux États-Unis",
+    "En France",
+    "Au Royaume-Uni"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Chris Haney et Scott Abbott l’imaginent à Montréal, faute de pièces au Scrabble.",
+   "id": "t081-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on familièrement en France les pions du Trivial Pursuit à remplir ?",
+   "choix": [
+    "Les camemberts",
+    "Les quiches",
+    "Les tartes",
+    "Les fromages"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "On y insère un triangle par catégorie réussie.",
+   "id": "t081-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de catégories de questions compte le Trivial Pursuit classique ?",
+   "choix": [
+    "Six",
+    "Quatre",
+    "Huit",
+    "Dix"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Chacune est associée à une couleur et à un triangle.",
+   "id": "t081-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur correspond à la géographie dans le Trivial Pursuit classique ?",
+   "choix": [
+    "Le bleu",
+    "Le vert",
+    "Le jaune",
+    "Le rose"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Le jaune est l’histoire, le vert les sciences et la nature.",
+   "id": "t081-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "De quel jeu français de 1909 s’inspire le Stratego ?",
+   "choix": [
+    "L’Attaque",
+    "Le Risk",
+    "La Bataille",
+    "Les Échecs militaires"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Il est créé par Hermance Edan ; le Stratego néerlandais paraît après la guerre.",
+   "id": "t081-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Au Stratego, quelle pièce peut prendre le maréchal si elle attaque la première ?",
+   "choix": [
+    "L’espion",
+    "L’éclaireur",
+    "Le démineur",
+    "Le sergent"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "C’est le seul cas où le maréchal est vaincu par une pièce plus faible.",
+   "id": "t081-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Au Stratego, quelle pièce peut désamorcer les bombes ?",
+   "choix": [
+    "Le démineur",
+    "L’espion",
+    "L’éclaireur",
+    "Le général"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Les bombes détruisent toutes les autres pièces qui les attaquent.",
+   "id": "t081-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel pays l’Othello moderne est-il créé en 1971 ?",
+   "choix": [
+    "Au Japon",
+    "En Angleterre",
+    "En Italie",
+    "En Chine"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Goro Hasegawa reprend un jeu anglais plus ancien, le Reversi.",
+   "id": "t081-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1970, inventé par un maître des postes israélien, consiste à deviner un code de couleurs ?",
+   "choix": [
+    "Mastermind",
+    "Simon",
+    "Othello",
+    "Puissance 4"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Mordecai Meirowitz en est l’inventeur ; Invicta l’édite.",
+   "id": "t081-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de colonnes compte la grille du Puissance 4 ?",
+   "choix": [
+    "Sept",
+    "Six",
+    "Huit",
+    "Neuf"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Elle compte six rangées de hauteur, soit quarante-deux cases.",
+   "id": "t081-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’ont démontré des chercheurs en 1988 au sujet du Puissance 4 ?",
+   "choix": [
+    "Le premier joueur peut toujours gagner",
+    "Le jeu se termine toujours par une égalité",
+    "Le second joueur gagne toujours",
+    "Le jeu n’a pas de solution"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Il doit pour cela commencer dans la colonne centrale.",
+   "id": "t081-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de cases compte le jeu de l’oie traditionnel ?",
+   "choix": [
+    "Soixante-trois",
+    "Cinquante",
+    "Cent",
+    "Quarante-deux"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Le joueur qui tombe sur la case 58, la mort, recommence au départ.",
+   "id": "t081-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "De quel jeu indien sont issus les petits chevaux ?",
+   "choix": [
+    "Le pachisi",
+    "Le chaturanga",
+    "Le carrom",
+    "Le snakes and ladders"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Le pachisi se joue avec des cauris, des coquillages, en guise de dés.",
+   "id": "t081-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de cartes français, créé en 1954, fait parcourir une course automobile ?",
+   "choix": [
+    "Le Mille Bornes",
+    "La Bonne Paye",
+    "Le Jungle Speed",
+    "Le Uno"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Edmond Dujardin l’imagine à l’époque où l’automobile se démocratise.",
+   "id": "t081-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Au Mille Bornes, comment s’appellent les cartes qui protègent définitivement d’une attaque ?",
+   "choix": [
+    "Les bottes",
+    "Les parades",
+    "Les bornes",
+    "Les feux verts"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "L’As du volant, la Citerne d’essence, l’Increvable et le Véhicule prioritaire.",
+   "id": "t081-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de cartes américain de 1971 oblige à annoncer quand il ne reste qu’une carte ?",
+   "choix": [
+    "Uno",
+    "Mille Bornes",
+    "Skip-Bo",
+    "Phase 10"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Son nom signifie « un » en espagnol et en italien.",
+   "id": "t081-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu britannique de 1983 consiste à retirer des blocs d’une tour sans la faire tomber ?",
+   "choix": [
+    "Jenga",
+    "Mikado",
+    "Kapla",
+    "Twister"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Leslie Scott en tire le nom d’un verbe swahili qui signifie « construire ».",
+   "id": "t081-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Milton Bradley, en 1966, fait se contorsionner les joueurs sur un tapis à pois ?",
+   "choix": [
+    "Twister",
+    "Docteur Maboul",
+    "Hippos gloutons",
+    "Qui est-ce ?"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Son succès explose après une démonstration à la télévision américaine.",
+   "id": "t081-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu consiste à retirer des os du corps d’un patient sans toucher les bords ?",
+   "choix": [
+    "Docteur Maboul",
+    "Qui est-ce ?",
+    "Twister",
+    "Jenga"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Un buzzer et le nez rouge du patient s’allument en cas d’erreur.",
+   "id": "t081-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu français de 1987 consiste à pousser les billes adverses hors d’un plateau hexagonal ?",
+   "choix": [
+    "Abalone",
+    "Othello",
+    "Puissance 4",
+    "Quarto"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Il faut éjecter six billes adverses pour gagner.",
+   "id": "t081-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1959, sans aucun dé, repose entièrement sur la négociation entre grandes puissances européennes ?",
+   "choix": [
+    "Diplomacy",
+    "Risk",
+    "Stratego",
+    "Axis and Allies"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Les alliances s’y nouent et s’y trahissent en secret.",
+   "id": "t081-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Ravensburger de 1986 fait déplacer des couloirs pour atteindre des trésors ?",
+   "choix": [
+    "Labyrinthe",
+    "Cluedo",
+    "Le Jeu de l’oie",
+    "Carcassonne"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "À chaque tour, on fait glisser une tuile pour modifier le dédale.",
+   "id": "t081-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de dominos compte un jeu classique double-six ?",
+   "choix": [
+    "Vingt-huit",
+    "Trente-six",
+    "Vingt et un",
+    "Quarante"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "Chaque combinaison de deux nombres de zéro à six y figure une fois.",
+   "id": "t081-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de tuiles compte un jeu de mahjong classique ?",
+   "choix": [
+    "Cent quarante-quatre",
+    "Cent huit",
+    "Soixante-quatre",
+    "Deux cents"
+   ],
+   "rep": 0,
+   "src": "Mary Pilon, The Monopolists (2015) ; Hasbro, Mattel et Ravensburger (historiques officiels) ; Fédération internationale de Scrabble francophone (règles et palmarès) ; Musée suisse du jeu, La Tour-de-Peilz ; V. Allis, A Knowledge-Based Approach of Connect-Four (1988)",
+   "expl": "On y trouve des familles, des honneurs, des fleurs et des saisons.",
+   "id": "t081-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Monopoly s’inspire d’un jeu inventé par une femme.",
+   "rep": true,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Lizzie Magie voulait montrer les injustices de la rente foncière.",
+   "id": "t081-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La rue de la Paix est la propriété la moins chère du Monopoly français.",
+   "rep": false,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Faux : c’est au contraire la plus chère du plateau.",
+   "id": "t081-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Trivial Pursuit est d’origine canadienne.",
+   "rep": true,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il est imaginé à Montréal en 1979 par deux journalistes.",
+   "id": "t081-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Cluedo compte douze pièces.",
+   "rep": false,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Faux : il en compte neuf, toutes au rez-de-chaussée.",
+   "id": "t081-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Risk est inventé par un Français.",
+   "rep": true,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le cinéaste Albert Lamorisse l’invente en 1957.",
+   "id": "t081-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Au Stratego, le maréchal ne peut jamais être pris.",
+   "rep": false,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Faux : l’espion peut le prendre s’il attaque en premier, et une bombe le détruit.",
+   "id": "t081-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Mille Bornes est un jeu français.",
+   "rep": true,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il a été inventé en 1954 par Edmond Dujardin.",
+   "id": "t081-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Jenga est inventé au Japon.",
+   "rep": false,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Faux : il est inventé par la Britannique Leslie Scott.",
+   "id": "t081-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le premier joueur peut toujours gagner au Puissance 4.",
+   "rep": true,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "À condition de jouer parfaitement, en commençant au centre.",
+   "id": "t081-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le jeu de l’oie compte cent cases.",
+   "rep": false,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Faux : il en compte soixante-trois, en spirale.",
+   "id": "t081-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Othello moderne a été mis au point au Japon.",
+   "rep": true,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il est commercialisé en 1973 par l’éditeur Tsukuda.",
+   "id": "t081-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Scrabble se joue avec dix lettres sur le chevalet.",
+   "rep": false,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Faux : on en a sept, que l’on complète après chaque coup.",
+   "id": "t081-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Diplomacy se joue sans aucun dé.",
+   "rep": true,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le hasard y est remplacé par la négociation.",
+   "id": "t081-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Uno a été inventé en France.",
+   "rep": false,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Faux : il est inventé en 1971 par l’Américain Merle Robbins.",
+   "id": "t081-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Parker Brothers lance-t-il le Monopoly ?",
+   "rep": 1935,
+   "min": 1900,
+   "max": 1960,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le jeu connaît un succès immédiat pendant la Grande Dépression.",
+   "id": "t081-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de territoires compte le Risk ?",
+   "rep": 42,
+   "min": 30,
+   "max": 60,
+   "pas": 1,
+   "unite": "territoires",
+   "tolerance": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "L’Australie, avec ses quatre territoires, est le continent le plus facile à tenir.",
+   "id": "t081-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de cases compte le jeu de l’oie ?",
+   "rep": 63,
+   "min": 40,
+   "max": 100,
+   "pas": 1,
+   "unite": "cases",
+   "tolerance": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Les cases à l’image de l’oie font avancer à nouveau du même nombre.",
+   "id": "t081-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’armes compte le Cluedo classique ?",
+   "rep": 6,
+   "min": 3,
+   "max": 10,
+   "pas": 1,
+   "unite": "armes",
+   "tolerance": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Chandelier, poignard, revolver, corde, clé anglaise et barre de fer, selon les éditions.",
+   "id": "t081-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de dominos contient un jeu double-six ?",
+   "rep": 28,
+   "min": 20,
+   "max": 40,
+   "pas": 1,
+   "unite": "dominos",
+   "tolerance": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Sept doubles et vingt et un dominos mixtes.",
+   "id": "t081-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de lettres E contient le Scrabble français ?",
+   "rep": 15,
+   "min": 5,
+   "max": 25,
+   "pas": 1,
+   "unite": "lettres",
+   "tolerance": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le nombre de chaque lettre dépend de sa fréquence en français.",
+   "id": "t081-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît le Trivial Pursuit dans le commerce ?",
+   "rep": 1981,
+   "min": 1970,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il devient un phénomène mondial au milieu des années 1980.",
+   "id": "t081-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de billes adverses faut-il éjecter pour gagner à Abalone ?",
+   "rep": 6,
+   "min": 3,
+   "max": 10,
+   "pas": 1,
+   "unite": "billes",
+   "tolerance": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Chaque joueur commence avec quatorze billes.",
+   "id": "t081-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le jeu des rues et des maisons s’appelle le ____.",
+   "choix": [
+    "Monopoly",
+    "Monopole",
+    "Cluedo",
+    "Risk"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Son nom évoque le monopole économique qu’il faut atteindre.",
+   "id": "t081-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu du crime au manoir s’appelle le ____.",
+   "choix": [
+    "Cluedo",
+    "Clue",
+    "Mystère",
+    "Meurtre"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Aux États-Unis, il s’appelle simplement Clue.",
+   "id": "t081-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu des questions et des camemberts s’appelle le Trivial ____.",
+   "choix": [
+    "Pursuit",
+    "Poursuite",
+    "Quiz",
+    "Pursuit Party"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le mot anglais pursuit signifie « poursuite ».",
+   "id": "t081-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de conquête d’Albert Lamorisse s’appelle le ____.",
+   "choix": [
+    "Risk",
+    "Stratego",
+    "Diplomacy",
+    "Axis"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Son premier nom était La Conquête du monde.",
+   "id": "t081-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu des codes de couleurs s’appelle ____.",
+   "choix": [
+    "Mastermind",
+    "Masterpiece",
+    "Mindmaster",
+    "Simon"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Chaque essai reçoit des indices sous forme de fiches noires et blanches.",
+   "id": "t081-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La course automobile en cartes s’appelle le Mille ____.",
+   "choix": [
+    "Bornes",
+    "Miles",
+    "Kilomètres",
+    "Routes"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il faut parcourir exactement mille kilomètres.",
+   "id": "t081-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La tour de blocs en bois s’appelle le ____.",
+   "choix": [
+    "Jenga",
+    "Kapla",
+    "Mikado",
+    "Janga"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Une tour neuve compte cinquante-quatre blocs.",
+   "id": "t081-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu indien ancêtre des petits chevaux s’appelle le ____.",
+   "choix": [
+    "pachisi",
+    "parcheesi",
+    "ludo",
+    "carrom"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il est le jeu national de l’Inde depuis des siècles.",
+   "id": "t081-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La pièce du Stratego qui peut prendre le maréchal s’appelle l’____.",
+   "choix": [
+    "espion",
+    "éclaireur",
+    "assassin",
+    "démineur"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Elle perd contre toutes les autres pièces.",
+   "id": "t081-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de billes hexagonal français s’appelle ____.",
+   "choix": [
+    "Abalone",
+    "Abalon",
+    "Avalon",
+    "Agora"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il a remporté de nombreux prix à sa sortie.",
+   "id": "t081-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La case 58 du jeu de l’oie représente la ____.",
+   "choix": [
+    "mort",
+    "prison",
+    "puits",
+    "ruine"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le joueur qui y tombe doit repartir de zéro.",
+   "id": "t081-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’inventeur du Scrabble s’appelle Alfred Mosher ____.",
+   "choix": [
+    "Butts",
+    "Brunot",
+    "Burns",
+    "Bates"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il avait d’abord appelé son jeu Lexiko, puis Criss-Crosswords.",
+   "id": "t081-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’ancêtre du Monopoly s’appelle The Landlord’s ____.",
+   "choix": [
+    "Game",
+    "Play",
+    "Board",
+    "Trade"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il dénonçait les effets de la propriété foncière.",
+   "id": "t081-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces jeux n’utilise pas de dés ?",
+   "choix": [
+    "Le Scrabble",
+    "Le Monopoly",
+    "Le Risk",
+    "Le jeu de l’oie"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Au Scrabble, le hasard vient du tirage des lettres.",
+   "id": "t081-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces suspects n’existe pas dans le Cluedo classique ?",
+   "choix": [
+    "Le capitaine Haddock",
+    "Le colonel Moutarde",
+    "Mademoiselle Rose",
+    "Le professeur Violet"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le capitaine Haddock appartient à Tintin.",
+   "id": "t081-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces gares ne figure pas sur le Monopoly français ?",
+   "choix": [
+    "La gare de l’Est",
+    "La gare Montparnasse",
+    "La gare de Lyon",
+    "La gare du Nord"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "La quatrième gare du plateau est Saint-Lazare.",
+   "id": "t081-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas français ?",
+   "choix": [
+    "Le Trivial Pursuit",
+    "Le Mille Bornes",
+    "L’Abalone",
+    "La Conquête du monde"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le Trivial Pursuit est un jeu canadien, né à Montréal.",
+   "id": "t081-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces cartes n’est pas une botte du Mille Bornes ?",
+   "choix": [
+    "Le Feu vert",
+    "L’As du volant",
+    "L’Increvable",
+    "Le Véhicule prioritaire"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le Feu vert est une simple carte de parade.",
+   "id": "t081-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux ne se joue pas sur un plateau ?",
+   "choix": [
+    "Le Uno",
+    "Le Monopoly",
+    "Le Cluedo",
+    "Le Risk"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le Uno se joue uniquement avec des cartes.",
+   "id": "t081-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas un jeu d’adresse ?",
+   "choix": [
+    "Le Mastermind",
+    "Le Jenga",
+    "Le Mikado",
+    "Docteur Maboul"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le Mastermind est un jeu de pure logique.",
+   "id": "t081-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces catégories n’existe pas dans le Trivial Pursuit classique ?",
+   "choix": [
+    "Cuisine et gastronomie",
+    "Géographie",
+    "Histoire",
+    "Sports et loisirs"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Les six catégories classiques sont géographie, divertissement, histoire, arts et littérature, sciences et nature, sports et loisirs.",
+   "id": "t081-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’a pas été inventé au 20e siècle ?",
+   "choix": [
+    "Le jeu de l’oie",
+    "Le Monopoly",
+    "Le Scrabble",
+    "Le Cluedo"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le jeu de l’oie est connu depuis la Renaissance.",
+   "id": "t081-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces inventeurs n’a pas créé de jeu de plateau célèbre ?",
+   "choix": [
+    "Thomas Edison",
+    "Albert Lamorisse",
+    "Alfred Butts",
+    "Anthony Pratt"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Edison a inventé de nombreux appareils, mais pas de jeu célèbre.",
+   "id": "t081-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels jeux utilisent des dés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Monopoly",
+    "Risk",
+    "Jeu de l’oie",
+    "Trivial Pursuit",
+    "Scrabble",
+    "Mastermind"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le hasard des dés rythme la plupart des jeux de parcours.",
+   "id": "t081-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels suspects appartiennent au Cluedo ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Colonel Moutarde",
+    "Mademoiselle Rose",
+    "Révérend Olive",
+    "Capitaine Haddock",
+    "Inspecteur Gadget"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Madame Pervenche, Professeur Violet et Madame Leblanc complètent la liste.",
+   "id": "t081-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux sont d’origine française ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mille Bornes",
+    "Abalone",
+    "Risk",
+    "L’Attaque",
+    "Trivial Pursuit",
+    "Uno"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le Risk a été conçu par un Français avant d’être édité aux États-Unis.",
+   "id": "t081-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont des jeux de logique ou de déduction ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mastermind",
+    "Cluedo",
+    "Qui est-ce ?",
+    "Twister",
+    "Jenga"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Il faut y éliminer les hypothèses une à une.",
+   "id": "t081-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles bottes existent au Mille Bornes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "As du volant",
+    "Citerne d’essence",
+    "Increvable",
+    "Véhicule prioritaire",
+    "Feu vert",
+    "Roue de secours"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Chacune protège d’une attaque particulière.",
+   "id": "t081-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles rues figurent sur le Monopoly français ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rue de la Paix",
+    "Avenue des Champs-Élysées",
+    "Rue Lecourbe",
+    "Boulevard de Belleville",
+    "Rue de Rivoli",
+    "Avenue Montaigne"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le plateau français a été dessiné à partir des rues de Paris.",
+   "id": "t081-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux reposent sur l’adresse physique ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jenga",
+    "Mikado",
+    "Docteur Maboul",
+    "Twister",
+    "Scrabble",
+    "Diplomacy"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Une main sûre y vaut plus qu’un bon raisonnement.",
+   "id": "t081-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux ont été rachetés ou édités par Hasbro ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Monopoly",
+    "Cluedo",
+    "Risk",
+    "Trivial Pursuit",
+    "Abalone",
+    "Labyrinthe"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Hasbro a absorbé Parker Brothers et Milton Bradley.",
+   "id": "t081-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux ont un ancêtre plus ancien ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Monopoly",
+    "Stratego",
+    "Othello",
+    "Petits chevaux",
+    "Jenga",
+    "Uno"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Landlord’s Game, L’Attaque, Reversi et pachisi en sont les ancêtres.",
+   "id": "t081-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux se jouent sur une grille ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Scrabble",
+    "Puissance 4",
+    "Othello",
+    "Bataille navale",
+    "Twister",
+    "Jenga"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le Twister utilise un tapis, mais sans grille de jeu.",
+   "id": "t081-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces jeux par date de parution.",
+   "items": [
+    "Monopoly",
+    "Scrabble",
+    "Cluedo",
+    "Risk"
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ils paraissent en 1935, 1948 sous ce nom, 1949 puis 1957.",
+   "id": "t081-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux plus récents par ordre chronologique.",
+   "items": [
+    "Uno",
+    "Puissance 4",
+    "Trivial Pursuit",
+    "Pictionary"
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ils paraissent en 1971, 1974, 1981 puis 1985.",
+   "id": "t081-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux français par date de création.",
+   "items": [
+    "L’Attaque",
+    "Mille Bornes",
+    "Risk",
+    "Abalone"
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ils sont créés en 1909, 1954, 1957 puis 1987.",
+   "id": "t081-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces rues du Monopoly français de la moins chère à la plus chère.",
+   "items": [
+    "Boulevard de Belleville",
+    "Rue de Vaugirard",
+    "Avenue Henri-Martin",
+    "Rue de la Paix"
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Les prix augmentent à mesure qu’on fait le tour du plateau.",
+   "id": "t081-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux de stratégie militaire par date.",
+   "items": [
+    "L’Attaque",
+    "Stratego",
+    "Risk",
+    "Diplomacy"
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ils paraissent en 1909, 1946, 1957 puis 1959.",
+   "id": "t081-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux d’adresse par date de création.",
+   "items": [
+    "Docteur Maboul",
+    "Twister",
+    "Jenga"
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ces jeux paraissent en 1965, 1966 puis 1983.",
+   "id": "t081-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux par nombre de cases croissant.",
+   "items": [
+    "Puissance 4",
+    "Jeu de l’oie",
+    "Othello",
+    "Scrabble"
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ils comptent quarante-deux, soixante-trois, soixante-quatre puis deux cent vingt-cinq cases.",
+   "id": "t081-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’un tour de Cluedo dans l’ordre.",
+   "items": [
+    "Lancer les dés",
+    "Entrer dans une pièce",
+    "Formuler une hypothèse",
+    "Montrer une carte"
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le joueur à gauche doit réfuter l’hypothèse s’il le peut.",
+   "id": "t081-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux par nombre d’éléments croissant.",
+   "items": [
+    "Dominos double-six",
+    "Jenga",
+    "Scrabble français",
+    "Mahjong"
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ils comptent vingt-huit, cinquante-quatre, cent deux puis cent quarante-quatre éléments.",
+   "id": "t081-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque jeu à son inventeur.",
+   "paires": [
+    [
+     "Monopoly",
+     "Lizzie Magie"
+    ],
+    [
+     "Scrabble",
+     "Alfred Butts"
+    ],
+    [
+     "Cluedo",
+     "Anthony Pratt"
+    ],
+    [
+     "Risk",
+     "Albert Lamorisse"
+    ]
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Plusieurs de ces jeux ont été vendus sous le nom d’autres personnes.",
+   "id": "t081-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque jeu à son pays d’origine.",
+   "paires": [
+    [
+     "Trivial Pursuit",
+     "Canada"
+    ],
+    [
+     "Jenga",
+     "Royaume-Uni"
+    ],
+    [
+     "Othello",
+     "Japon"
+    ],
+    [
+     "Mille Bornes",
+     "France"
+    ]
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Les grands classiques viennent du monde entier.",
+   "id": "t081-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque catégorie du Trivial Pursuit à sa couleur.",
+   "paires": [
+    [
+     "Géographie",
+     "Bleu"
+    ],
+    [
+     "Histoire",
+     "Jaune"
+    ],
+    [
+     "Sciences et nature",
+     "Vert"
+    ],
+    [
+     "Sports et loisirs",
+     "Orange"
+    ]
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Divertissement est rose, arts et littérature marron.",
+   "id": "t081-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque jeu à son nombre.",
+   "paires": [
+    [
+     "Puissance 4",
+     "Sept colonnes"
+    ],
+    [
+     "Risk",
+     "Quarante-deux territoires"
+    ],
+    [
+     "Jeu de l’oie",
+     "Soixante-trois cases"
+    ]
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ces nombres définissent la forme de chaque jeu.",
+   "id": "t081-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque jeu à son ancêtre.",
+   "paires": [
+    [
+     "Monopoly",
+     "Landlord’s Game"
+    ],
+    [
+     "Stratego",
+     "L’Attaque"
+    ],
+    [
+     "Othello",
+     "Reversi"
+    ],
+    [
+     "Petits chevaux",
+     "Pachisi"
+    ]
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Beaucoup de classiques reprennent un jeu plus ancien.",
+   "id": "t081-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque pièce du Stratego à son rôle.",
+   "paires": [
+    [
+     "Espion",
+     "Prend le maréchal"
+    ],
+    [
+     "Démineur",
+     "Désamorce les bombes"
+    ],
+    [
+     "Éclaireur",
+     "Parcourt de longues distances"
+    ]
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le drapeau, immobile, doit être protégé à tout prix.",
+   "id": "t081-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque botte du Mille Bornes à l’attaque qu’elle annule.",
+   "paires": [
+    [
+     "As du volant",
+     "Accident"
+    ],
+    [
+     "Citerne d’essence",
+     "Panne d’essence"
+    ],
+    [
+     "Increvable",
+     "Crevaison"
+    ],
+    [
+     "Véhicule prioritaire",
+     "Feu rouge"
+    ]
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le Véhicule prioritaire protège aussi de la limitation de vitesse.",
+   "id": "t081-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son éditeur historique.",
+   "paires": [
+    [
+     "Monopoly",
+     "Parker Brothers"
+    ],
+    [
+     "Labyrinthe",
+     "Ravensburger"
+    ],
+    [
+     "Twister",
+     "Milton Bradley"
+    ]
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ces éditeurs ont marqué le jeu de société familial.",
+   "id": "t081-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque case du jeu de l’oie à son effet.",
+   "paires": [
+    [
+     "Le pont",
+     "Avancer jusqu’au 12"
+    ],
+    [
+     "L’hôtellerie",
+     "Passer des tours"
+    ],
+    [
+     "Le puits",
+     "Attendre qu’un autre joueur arrive"
+    ],
+    [
+     "La mort",
+     "Recommencer au départ"
+    ]
+   ],
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Chaque case piège a sa propre règle, connue de tous.",
+   "id": "t081-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis né en 1935\n3. On y achète des rues",
+   "choix": [
+    "Le Monopoly",
+    "Le Cluedo",
+    "Le Risk",
+    "La Bonne Paye"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Ma rue la plus chère, en France, est la rue de la Paix.",
+   "id": "t081-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je réunis six suspects\n3. Le crime a lieu dans un manoir",
+   "choix": [
+    "Le Cluedo",
+    "Le Scrabble",
+    "Qui est-ce ?",
+    "Mastermind"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Mon inventeur s’appelait Anthony Pratt, pianiste de profession.",
+   "id": "t081-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je viens du Canada\n3. On y gagne des camemberts",
+   "choix": [
+    "Le Trivial Pursuit",
+    "Le Pictionary",
+    "Le Taboo",
+    "Le Time’s Up"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "J’ai six catégories de questions de couleurs différentes.",
+   "id": "t081-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. J’ai quinze cases sur quinze\n3. Le K vaut chez moi dix points",
+   "choix": [
+    "Le Scrabble",
+    "Le Boggle",
+    "Le Mot le plus long",
+    "Le Pendu"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Mon nom anglais évoque le fait de gratter ou chercher à tâtons.",
+   "id": "t081-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis né en 1954\n3. Je suis une course automobile en cartes",
+   "choix": [
+    "Le Mille Bornes",
+    "Le Uno",
+    "Le Jungle Speed",
+    "La Bonne Paye"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Mes bottes protègent des accidents et des pannes.",
+   "id": "t081-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une tour\n2. On me retire des blocs\n3. Mon nom signifie construire",
+   "choix": [
+    "Jenga",
+    "Kapla",
+    "Mikado",
+    "Babel"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "La Britannique Leslie Scott m’a inventé.",
+   "id": "t081-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je compte sept colonnes\n3. Il faut aligner quatre jetons",
+   "choix": [
+    "Puissance 4",
+    "Othello",
+    "Morpion",
+    "Gomoku"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "Le premier joueur peut toujours gagner s’il joue parfaitement.",
+   "id": "t081-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis né au Japon en 1971\n3. Mes pions changent de couleur",
+   "choix": [
+    "Othello",
+    "Go",
+    "Shogi",
+    "Mastermind"
+   ],
+   "rep": 0,
+   "src": "Pilon ; Hasbro ; FISF",
+   "expl": "On dit souvent que je m’apprends en une minute et se maîtrise en une vie.",
+   "id": "t081-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
