@@ -1,0 +1,2016 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "mtg-couleurs",
+  "nom": "Magic : les 5 couleurs et les mécaniques",
+  "royaume": "Jeux de rôle, de cartes et de plateau",
+  "icone": "cartes",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle lettre représente le bleu dans les abréviations de Magic ?",
+   "choix": [
+    "U",
+    "B",
+    "L",
+    "Bl"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Le B était déjà pris par le noir, Black en anglais.",
+   "id": "t078-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel terrain de base produit du mana vert ?",
+   "choix": [
+    "La forêt",
+    "L’île",
+    "La montagne",
+    "Le marais"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "La plaine donne du blanc, l’île du bleu, le marais du noir et la montagne du rouge.",
+   "id": "t078-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur de Magic incarne l’ambition, le pouvoir à tout prix et la mort ?",
+   "choix": [
+    "Le noir",
+    "Le rouge",
+    "Le bleu",
+    "Le vert"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Elle accepte de sacrifier sa vie ou ses créatures pour arriver à ses fins.",
+   "id": "t078-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur valorise la connaissance, la logique et la maîtrise de soi ?",
+   "choix": [
+    "Le bleu",
+    "Le blanc",
+    "Le vert",
+    "Le rouge"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Elle excelle à piocher des cartes et à contrer les sorts.",
+   "id": "t078-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur valorise la liberté, l’émotion et l’impulsivité ?",
+   "choix": [
+    "Le rouge",
+    "Le noir",
+    "Le bleu",
+    "Le blanc"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Ses sorts infligent des dégâts directs et rapides.",
+   "id": "t078-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur valorise l’ordre, la loi et la communauté ?",
+   "choix": [
+    "Le blanc",
+    "Le bleu",
+    "Le noir",
+    "Le vert"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Elle aligne de petites créatures et sait tout détruire pour rétablir l’équilibre.",
+   "id": "t078-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur valorise la nature, la croissance et l’acceptation de sa destinée ?",
+   "choix": [
+    "Le vert",
+    "Le rouge",
+    "Le blanc",
+    "Le noir"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Elle produit beaucoup de mana et possède les plus grosses créatures.",
+   "id": "t078-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on deux couleurs voisines sur la roue de Magic, comme blanc et bleu ?",
+   "choix": [
+    "Des couleurs alliées",
+    "Des couleurs ennemies",
+    "Des couleurs jumelles",
+    "Des couleurs neutres"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Les couleurs opposées sur la roue sont dites ennemies.",
+   "id": "t078-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur est l’ennemie du vert sur la roue des couleurs ?",
+   "choix": [
+    "Le bleu",
+    "Le rouge",
+    "Le blanc",
+    "Le noir"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Le vert s’oppose aussi au noir ; le bleu et le noir sont ses deux ennemis.",
+   "id": "t078-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle guilde de Ravnica associe le bleu et le rouge ?",
+   "choix": [
+    "Izzet",
+    "Azorius",
+    "Simic",
+    "Boros"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Ses savants fous adorent les expériences explosives.",
+   "id": "t078-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle guilde de Ravnica associe le noir et le vert ?",
+   "choix": [
+    "Golgari",
+    "Gruul",
+    "Orzhov",
+    "Dimir"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Elle gère le cycle de la vie et de la mort, la pourriture et la renaissance.",
+   "id": "t078-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle guilde associe le blanc et le noir, comme une Église riche et cynique ?",
+   "choix": [
+    "Orzhov",
+    "Selesnya",
+    "Azorius",
+    "Rakdos"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Ses fantômes de riches défunts doivent encore leurs dettes.",
+   "id": "t078-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les combinaisons de trois couleurs alliées, popularisées par Alara ?",
+   "choix": [
+    "Les éclats",
+    "Les coins",
+    "Les guildes",
+    "Les clans"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Les combinaisons à deux ennemies et une alliée commune sont les coins, comme les clans de Tarkir.",
+   "id": "t078-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de points de vie a chaque joueur au début d’une partie classique ?",
+   "choix": [
+    "Vingt",
+    "Dix",
+    "Quarante",
+    "Trente"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "En format Commander, on commence à quarante.",
+   "id": "t078-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de cartes compte la main de départ ?",
+   "choix": [
+    "Sept",
+    "Cinq",
+    "Huit",
+    "Dix"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Un joueur mécontent peut prendre un mulligan.",
+   "id": "t078-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien d’exemplaires d’une même carte, hors terrains de base, sont autorisés dans un deck construit ?",
+   "choix": [
+    "Quatre",
+    "Deux",
+    "Six",
+    "Un seul"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Le format Commander n’en autorise qu’un seul.",
+   "id": "t078-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de cartes doit compter au minimum un deck construit classique ?",
+   "choix": [
+    "Soixante",
+    "Quarante",
+    "Cent",
+    "Cinquante"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "En format limité, on joue avec quarante cartes.",
+   "id": "t078-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie « engager » une carte ?",
+   "choix": [
+    "La tourner sur le côté pour l’utiliser",
+    "La défausser",
+    "La montrer à l’adversaire",
+    "La retourner face cachée"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "On la dégage au début de son tour suivant.",
+   "id": "t078-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on la zone où vont les cartes détruites ou défaussées ?",
+   "choix": [
+    "Le cimetière",
+    "L’exil",
+    "La bibliothèque",
+    "La pile"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Certaines cartes savent les en faire revenir.",
+   "id": "t078-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le paquet dans lequel on pioche ?",
+   "choix": [
+    "La bibliothèque",
+    "Le cimetière",
+    "La réserve",
+    "La pile"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Un joueur qui doit piocher dans une bibliothèque vide perd la partie.",
+   "id": "t078-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel ordre se résolvent les sorts placés sur la pile ?",
+   "choix": [
+    "Le dernier lancé se résout en premier",
+    "Le premier lancé se résout en premier",
+    "Dans l’ordre du tour",
+    "Au hasard"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "C’est le principe du « dernier entré, premier sorti ».",
+   "id": "t078-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi une créature qui vient d’arriver ne peut-elle pas attaquer ?",
+   "choix": [
+    "Elle a le mal d’invocation",
+    "Elle est engagée",
+    "Elle est en exil",
+    "Elle doit payer un coût"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "La célérité permet d’échapper à cette règle.",
+   "id": "t078-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot-clé permet à une créature d’attaquer dès son arrivée ?",
+   "choix": [
+    "La célérité",
+    "La vigilance",
+    "Le vol",
+    "L’initiative"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "C’est une capacité typiquement rouge, signe d’impatience.",
+   "id": "t078-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot-clé permet de n’être bloqué que par des créatures volantes ou ayant la portée ?",
+   "choix": [
+    "Le vol",
+    "Le piétinement",
+    "La menace",
+    "La célérité"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "C’est l’une des capacités les plus anciennes du jeu.",
+   "id": "t078-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot-clé fait que la moindre blessure infligée détruit la créature touchée ?",
+   "choix": [
+    "Le contact mortel",
+    "Le piétinement",
+    "Le lien de vie",
+    "L’initiative"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Il est surtout présent en noir et en vert.",
+   "id": "t078-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot-clé fait gagner au contrôleur autant de points de vie que les blessures infligées ?",
+   "choix": [
+    "Le lien de vie",
+    "La vigilance",
+    "Le contact mortel",
+    "La défense talismanique"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Il est surtout associé au blanc et au noir.",
+   "id": "t078-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot-clé permet d’infliger l’excédent de blessures au joueur défenseur ?",
+   "choix": [
+    "Le piétinement",
+    "Le vol",
+    "La menace",
+    "La portée"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "C’est la marque des grosses créatures vertes.",
+   "id": "t078-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel mot-clé permet d’attaquer sans s’engager ?",
+   "choix": [
+    "La vigilance",
+    "La célérité",
+    "Le défenseur",
+    "L’initiative"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "La créature reste donc disponible pour bloquer.",
+   "id": "t078-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle carte de la toute première édition est devenue la plus célèbre et la plus chère ?",
+   "choix": [
+    "Black Lotus",
+    "Shivan Dragon",
+    "Lightning Bolt",
+    "Serra Angel"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Elle donne trois manas d’une couleur, une seule fois, pour un coût nul.",
+   "id": "t078-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les neuf cartes surpuissantes de la première édition ?",
+   "choix": [
+    "Le Power Nine",
+    "Les Neuf Lotus",
+    "Les Reliques",
+    "Les Moxen"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Elles comprennent Black Lotus, les cinq Moxen, Ancestral Recall, Time Walk et Timetwister.",
+   "id": "t078-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle carte rouge inflige trois blessures pour un seul mana ?",
+   "choix": [
+    "Foudre",
+    "Boule de feu",
+    "Choc",
+    "Électrocution"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "C’est l’un des sorts les plus efficaces et les plus réimprimés du jeu.",
+   "id": "t078-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur est la seule à pouvoir contrer couramment les sorts ?",
+   "choix": [
+    "Le bleu",
+    "Le blanc",
+    "Le rouge",
+    "Le noir"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Contresort en est l’exemple le plus célèbre.",
+   "id": "t078-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel format se joue avec cent cartes uniques menées par une créature légendaire ?",
+   "choix": [
+    "Commander",
+    "Standard",
+    "Modern",
+    "Pauper"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Il a été inventé par des joueurs avant d’être adopté officiellement par Wizards.",
+   "id": "t078-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel format n’autorise que des cartes imprimées en rareté commune ?",
+   "choix": [
+    "Pauper",
+    "Vintage",
+    "Legacy",
+    "Pioneer"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Le mot anglais signifie « indigent » : le format coûte peu cher.",
+   "id": "t078-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de marqueurs poison suffisent à faire perdre un joueur ?",
+   "choix": [
+    "Dix",
+    "Cinq",
+    "Vingt",
+    "Quinze"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "La mécanique de l’infection les distribue avec les blessures.",
+   "id": "t078-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel type de carte se lance à n’importe quel moment, même pendant le tour adverse ?",
+   "choix": [
+    "L’éphémère",
+    "Le rituel",
+    "L’enchantement",
+    "Le terrain"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Le rituel, lui, ne se lance que pendant sa propre phase principale.",
+   "id": "t078-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nouveau type de carte apparaît en 2023, avec des marqueurs de défense ?",
+   "choix": [
+    "La bataille",
+    "Le donjon",
+    "Le plan",
+    "Le vaisseau"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Il apparaît dans L’Invasion des machines.",
+   "id": "t078-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel coût alternatif permet de payer 2 points de vie au lieu d’un mana coloré ?",
+   "choix": [
+    "Le mana phyrexian",
+    "Le mana hybride",
+    "Le mana incolore",
+    "Le mana neigeux"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Il permet de jouer des cartes d’une couleur dans n’importe quel deck.",
+   "id": "t078-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle mécanique fait révéler les cartes du dessus jusqu’à trouver un sort moins cher à lancer gratuitement ?",
+   "choix": [
+    "La cascade",
+    "La tempête",
+    "Le retour de flammes",
+    "Le kicker"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Elle apparaît en 2009 dans La Renaissance d’Alara.",
+   "id": "t078-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle mécanique permet de relancer un sort depuis son cimetière, puis de l’exiler ?",
+   "choix": [
+    "Le flashback",
+    "La cascade",
+    "La tempête",
+    "L’éveil"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Elle apparaît en 2001 dans l’extension Odyssée.",
+   "id": "t078-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle règle supprimée en 2009 punissait le joueur qui laissait inutilisée l’énergie de ses terrains ?",
+   "choix": [
+    "La brûlure de mana",
+    "Le mal d’invocation",
+    "L’entretien",
+    "Le mulligan"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, Règles complètes de Magic et Règles de base (magic.wizards.com) ; Mark Rosewater, articles « Making Magic » sur la roue des couleurs ; Gatherer (cartes officielles) ; MTG Wiki",
+   "expl": "Sa disparition a simplifié la fin de chaque phase.",
+   "id": "t078-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le bleu est représenté par la lettre U.",
+   "rep": true,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Le B désigne déjà le noir, Black en anglais.",
+   "id": "t078-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le marais produit du mana rouge.",
+   "rep": false,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Faux : il produit du mana noir ; la montagne produit le rouge.",
+   "id": "t078-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "On commence une partie classique avec vingt points de vie.",
+   "rep": true,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "En Commander, on commence avec quarante.",
+   "id": "t078-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un deck construit peut contenir dix exemplaires d’une même carte.",
+   "rep": false,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Faux : la limite est de quatre, hors terrains de base.",
+   "id": "t078-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les sorts sur la pile se résolvent du dernier au premier.",
+   "rep": true,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "C’est le principe du « dernier entré, premier sorti ».",
+   "id": "t078-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le rituel peut se lancer pendant le tour de l’adversaire.",
+   "rep": false,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Faux : seuls les éphémères et les cartes avec flash le peuvent.",
+   "id": "t078-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le vert et le bleu sont des couleurs ennemies.",
+   "rep": true,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Le vert se méfie de la manipulation et de la technologie bleues.",
+   "id": "t078-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le contact mortel n’existe qu’en bleu.",
+   "rep": false,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Faux : il se trouve surtout en noir et en vert.",
+   "id": "t078-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Black Lotus appartient au Power Nine.",
+   "rep": true,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Elle est sur la Liste réservée et ne sera jamais réimprimée.",
+   "id": "t078-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le format Commander se joue avec soixante cartes.",
+   "rep": false,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Faux : on y joue avec cent cartes, commandant compris.",
+   "id": "t078-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La célérité annule le mal d’invocation.",
+   "rep": true,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "La créature peut attaquer ou s’engager tout de suite.",
+   "id": "t078-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La brûlure de mana existe toujours dans les règles actuelles.",
+   "rep": false,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Faux : elle a été supprimée en 2009, avec les règles de l’édition Magic 2010.",
+   "id": "t078-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Izzet associe le bleu et le rouge.",
+   "rep": true,
+   "src": "Règles complètes de Magic ; Gatherer",
+   "expl": "Son fondateur est le dragon génial Niv-Mizzet.",
+   "id": "t078-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dix marqueurs poison font perdre la partie.",
+   "rep": true,
+   "src": "Règles complètes ; Gatherer",
+   "expl": "C’est une condition de victoire alternative.",
+   "id": "t078-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de points de vie a un joueur au début d’une partie de Commander ?",
+   "rep": 40,
+   "min": 10,
+   "max": 60,
+   "pas": 1,
+   "unite": "points de vie",
+   "tolerance": 0,
+   "src": "Règles complètes ; Gatherer",
+   "expl": "Les parties de Commander se jouent souvent à quatre.",
+   "id": "t078-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de cartes compte un deck de Commander ?",
+   "rep": 100,
+   "min": 40,
+   "max": 120,
+   "pas": 1,
+   "unite": "cartes",
+   "tolerance": 0,
+   "src": "Règles complètes ; Gatherer",
+   "expl": "Toutes différentes, sauf les terrains de base.",
+   "id": "t078-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de couleurs de mana compte Magic ?",
+   "rep": 5,
+   "min": 3,
+   "max": 8,
+   "pas": 1,
+   "unite": "couleurs",
+   "tolerance": 0,
+   "src": "Règles complètes ; Gatherer",
+   "expl": "Il existe aussi le mana incolore, qui n’est pas une couleur.",
+   "id": "t078-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de guildes à deux couleurs existe-t-il ?",
+   "rep": 10,
+   "min": 5,
+   "max": 15,
+   "pas": 1,
+   "unite": "guildes",
+   "tolerance": 0,
+   "src": "Règles complètes ; Gatherer",
+   "expl": "Cinq paires alliées et cinq paires ennemies.",
+   "id": "t078-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de cartes compose le Power Nine ?",
+   "rep": 9,
+   "min": 5,
+   "max": 12,
+   "pas": 1,
+   "unite": "cartes",
+   "tolerance": 0,
+   "src": "Règles complètes ; Gatherer",
+   "expl": "Le nom anglais l’indique déjà : neuf cartes.",
+   "id": "t078-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de blessures inflige la carte Foudre ?",
+   "rep": 3,
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "blessures",
+   "tolerance": 0,
+   "src": "Règles complètes ; Gatherer",
+   "expl": "Elle ne coûte qu’un seul mana rouge, d’où sa force.",
+   "id": "t078-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de marqueurs poison faut-il pour perdre ?",
+   "rep": 10,
+   "min": 3,
+   "max": 20,
+   "pas": 1,
+   "unite": "marqueurs",
+   "tolerance": 0,
+   "src": "Règles complètes ; Gatherer",
+   "expl": "L’infection et la toxicité en distribuent.",
+   "id": "t078-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année a été supprimée la brûlure de mana ?",
+   "rep": 2009,
+   "min": 1995,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Règles complètes ; Gatherer",
+   "expl": "Le changement accompagne l’extension Magic 2010.",
+   "id": "t078-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le terrain qui produit du mana rouge s’appelle la ____.",
+   "choix": [
+    "montagne",
+    "forêt",
+    "plaine",
+    "colline"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le rouge est la couleur du feu et des volcans.",
+   "id": "t078-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La zone des cartes détruites s’appelle le ____.",
+   "choix": [
+    "cimetière",
+    "caveau",
+    "tombeau",
+    "défausse"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "On l’appelle aussi souvent « la défausse » à tort.",
+   "id": "t078-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le paquet où l’on pioche s’appelle la ____.",
+   "choix": [
+    "bibliothèque",
+    "réserve",
+    "pioche",
+    "librairie"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "En anglais, on parle aussi de library, pour la même raison.",
+   "id": "t078-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Tourner une carte pour l’utiliser s’appelle l’____.",
+   "choix": [
+    "engager",
+    "utiliser",
+    "tourner",
+    "activer"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "En anglais, on dit tap ; dégager se dit untap.",
+   "id": "t078-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le mot-clé qui permet d’attaquer tout de suite s’appelle la ____.",
+   "choix": [
+    "célérité",
+    "rapidité",
+    "vitesse",
+    "hâte"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les gobelins rouges en sont souvent dotés.",
+   "id": "t078-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La capacité qui inflige l’excédent de blessures s’appelle le ____.",
+   "choix": [
+    "piétinement",
+    "débordement",
+    "écrasement",
+    "tramplage"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les éléphants et les dinosaures verts l’adorent.",
+   "id": "t078-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La guilde bleu-rouge de Ravnica s’appelle ____.",
+   "choix": [
+    "Izzet",
+    "Azorius",
+    "Simic",
+    "Boros"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Ses membres inventent des machines souvent dangereuses.",
+   "id": "t078-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le format à cent cartes uniques s’appelle ____.",
+   "choix": [
+    "Commander",
+    "Highlander",
+    "Vintage",
+    "Brawl"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "On l’appelait d’abord EDH, pour Elder Dragon Highlander.",
+   "id": "t078-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les neuf cartes surpuissantes de l’Alpha s’appellent le Power ____.",
+   "choix": [
+    "Nine",
+    "Nueve",
+    "Neuf",
+    "Ten"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Elles sont interdites ou restreintes dans presque tous les formats.",
+   "id": "t078-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La carte rouge qui inflige trois blessures pour un mana s’appelle ____.",
+   "choix": [
+    "Foudre",
+    "Éclair",
+    "Orage",
+    "Tonnerre"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "En anglais, elle s’appelle Lightning Bolt.",
+   "id": "t078-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le type de sort lançable à tout moment s’appelle l’____.",
+   "choix": [
+    "éphémère",
+    "instant",
+    "interruption",
+    "réflexe"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les très anciennes cartes parlaient d’interruption.",
+   "id": "t078-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La guilde noir-vert de Ravnica s’appelle ____.",
+   "choix": [
+    "Golgari",
+    "Gruul",
+    "Dimir",
+    "Orzhov"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Elle règne sur les souterrains et les fermes de champignons.",
+   "id": "t078-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le mana qui se paie en points de vie s’appelle le mana ____.",
+   "choix": [
+    "phyrexian",
+    "hybride",
+    "neigeux",
+    "incolore"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Il apparaît en 2011 avec La Nouvelle-Phyrexia.",
+   "id": "t078-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces terrains n’est pas un terrain de base ?",
+   "choix": [
+    "Le désert",
+    "La forêt",
+    "L’île",
+    "Le marais"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les cinq terrains de base sont plaine, île, marais, montagne et forêt.",
+   "id": "t078-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces couleurs n’est pas une couleur de Magic ?",
+   "choix": [
+    "Le jaune",
+    "Le blanc",
+    "Le noir",
+    "Le vert"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les cinq couleurs sont blanc, bleu, noir, rouge et vert.",
+   "id": "t078-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mots-clés n’existe pas ?",
+   "choix": [
+    "La télékinésie",
+    "Le vol",
+    "Le piétinement",
+    "La vigilance"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les autres sont des capacités classiques des créatures.",
+   "id": "t078-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces guildes n’associe pas le blanc ?",
+   "choix": [
+    "Izzet",
+    "Azorius",
+    "Selesnya",
+    "Boros"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Izzet associe le bleu et le rouge, sans blanc.",
+   "id": "t078-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces formats n’existe pas ?",
+   "choix": [
+    "Le Galactique",
+    "Le Standard",
+    "Le Modern",
+    "Le Pauper"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les autres sont des formats officiels ou très joués.",
+   "id": "t078-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces cartes ne fait pas partie du Power Nine ?",
+   "choix": [
+    "Foudre",
+    "Black Lotus",
+    "Time Walk",
+    "Ancestral Recall"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Foudre est une carte commune très forte, mais pas du Power Nine.",
+   "id": "t078-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces types de cartes n’existe pas ?",
+   "choix": [
+    "Le sortilège rapide",
+    "L’éphémère",
+    "Le rituel",
+    "L’artefact"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les types sont créature, éphémère, rituel, enchantement, artefact, terrain, Arpenteur et bataille.",
+   "id": "t078-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces notions n’est pas liée au cimetière ?",
+   "choix": [
+    "La cascade",
+    "Le flashback",
+    "Le délire",
+    "La réanimation"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "La cascade révèle des cartes de la bibliothèque.",
+   "id": "t078-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces zones n’existe pas dans Magic ?",
+   "choix": [
+    "Le grenier",
+    "Le cimetière",
+    "L’exil",
+    "La bibliothèque"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "La main, le champ de bataille et la pile sont aussi des zones.",
+   "id": "t078-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mots-clés n’est pas typique du vert ?",
+   "choix": [
+    "Le vol",
+    "Le piétinement",
+    "La portée",
+    "La défense talismanique"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le vol est plutôt associé au blanc et au bleu.",
+   "id": "t078-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels terrains de base existent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Plaine",
+    "Île",
+    "Marais",
+    "Forêt",
+    "Désert",
+    "Glacier"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le cinquième terrain de base est la montagne.",
+   "id": "t078-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles couleurs sont alliées au blanc ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bleu",
+    "Vert",
+    "Noir",
+    "Rouge"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le noir et le rouge sont ses deux ennemis.",
+   "id": "t078-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels mots-clés aident en combat ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Initiative",
+    "Contact mortel",
+    "Piétinement",
+    "Vol",
+    "Mulligan",
+    "Entretien"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le mulligan et l’entretien concernent le début de partie et le début du tour.",
+   "id": "t078-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles cartes font partie du Power Nine ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Black Lotus",
+    "Time Walk",
+    "Timetwister",
+    "Ancestral Recall",
+    "Shivan Dragon",
+    "Serra Angel"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le Dragon de Shiva et l’Ange de Serra étaient pourtant les stars de 1993.",
+   "id": "t078-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles guildes existent à Ravnica ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Azorius",
+    "Rakdos",
+    "Simic",
+    "Selesnya",
+    "Valyria",
+    "Gryffondor"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Rakdos est la guilde des bateleurs démoniaques.",
+   "id": "t078-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels formats existent officiellement ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Standard",
+    "Modern",
+    "Commander",
+    "Pauper",
+    "Galactique",
+    "Royal"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Pioneer, Legacy et Vintage existent aussi.",
+   "id": "t078-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles zones de jeu existent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Main",
+    "Cimetière",
+    "Exil",
+    "Bibliothèque",
+    "Grenier",
+    "Coffre"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le champ de bataille et la pile complètent la liste.",
+   "id": "t078-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles mécaniques utilisent le cimetière ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Flashback",
+    "Délire",
+    "Cascade",
+    "Kicker"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le délire compte les types de cartes dans le cimetière.",
+   "id": "t078-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels coûts de mana spéciaux existent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mana hybride",
+    "Mana phyrexian",
+    "Mana incolore",
+    "Mana doré",
+    "Mana lunaire"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Ils assouplissent les contraintes de couleurs.",
+   "id": "t078-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels mots-clés sont associés au blanc ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vigilance",
+    "Lien de vie",
+    "Vol",
+    "Célérité",
+    "Contact mortel"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "La célérité est rouge, le contact mortel noir et vert.",
+   "id": "t078-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes du début de tour dans l’ordre.",
+   "items": [
+    "Dégagement",
+    "Entretien",
+    "Pioche"
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Vient ensuite la première phase principale.",
+   "id": "t078-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces phases d’un tour dans l’ordre.",
+   "items": [
+    "Phase de début",
+    "Première phase principale",
+    "Phase de combat",
+    "Deuxième phase principale",
+    "Phase de fin"
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le combat se découpe lui-même en plusieurs étapes.",
+   "id": "t078-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du combat dans l’ordre.",
+   "items": [
+    "Déclaration des attaquants",
+    "Déclaration des bloqueurs",
+    "Blessures de combat"
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les blessures d’initiative passent avant les autres.",
+   "id": "t078-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces formats par date de création.",
+   "items": [
+    "Vintage",
+    "Modern",
+    "Pioneer"
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le Vintage existe dès les années 1990, le Modern en 2011, le Pioneer en 2019.",
+   "id": "t078-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces extensions par date de sortie.",
+   "items": [
+    "Alpha",
+    "Odyssée",
+    "Lorwyn",
+    "La Nouvelle-Phyrexia"
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Ces extensions sortent en 1993, 2001, 2007 puis 2011.",
+   "id": "t078-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces nombres par ordre croissant.",
+   "items": [
+    "Cartes en main au départ",
+    "Marqueurs poison mortels",
+    "Points de vie au départ",
+    "Points de vie en Commander"
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Ces nombres valent sept, dix, vingt puis quarante.",
+   "id": "t078-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces mécaniques par date d’apparition.",
+   "items": [
+    "Kicker",
+    "Flashback",
+    "Cascade",
+    "Mana phyrexian"
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Ces mécaniques apparaissent en 2000, 2001, 2009 puis 2011.",
+   "id": "t078-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces nombres de cartes de deck par ordre croissant.",
+   "items": [
+    "Limité",
+    "Construit",
+    "Commander"
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Ces decks comptent quarante, soixante puis cent cartes.",
+   "id": "t078-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la résolution d’un sort dans l’ordre.",
+   "items": [
+    "Annonce du sort",
+    "Paiement des coûts",
+    "Mise sur la pile",
+    "Réponses éventuelles",
+    "Résolution"
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Chaque joueur peut répondre tant que le sort est sur la pile.",
+   "id": "t078-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque terrain à sa couleur.",
+   "paires": [
+    [
+     "Plaine",
+     "Blanc"
+    ],
+    [
+     "Île",
+     "Bleu"
+    ],
+    [
+     "Marais",
+     "Noir"
+    ],
+    [
+     "Montagne",
+     "Rouge"
+    ]
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "La forêt, cinquième terrain de base, produit le vert.",
+   "id": "t078-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque couleur à sa valeur.",
+   "paires": [
+    [
+     "Blanc",
+     "Ordre"
+    ],
+    [
+     "Bleu",
+     "Connaissance"
+    ],
+    [
+     "Noir",
+     "Ambition"
+    ],
+    [
+     "Rouge",
+     "Liberté"
+    ]
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le vert valorise la nature et la croissance.",
+   "id": "t078-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque guilde à ses couleurs.",
+   "paires": [
+    [
+     "Azorius",
+     "Blanc et bleu"
+    ],
+    [
+     "Dimir",
+     "Bleu et noir"
+    ],
+    [
+     "Rakdos",
+     "Noir et rouge"
+    ],
+    [
+     "Gruul",
+     "Rouge et vert"
+    ]
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Ces quatre guildes associent des couleurs alliées.",
+   "id": "t078-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mot-clé à son effet.",
+   "paires": [
+    [
+     "Vol",
+     "Ne peut être bloqué qu’en l’air"
+    ],
+    [
+     "Vigilance",
+     "Attaque sans s’engager"
+    ],
+    [
+     "Lien de vie",
+     "Gain de points de vie"
+    ],
+    [
+     "Célérité",
+     "Attaque immédiate"
+    ]
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les mots-clés résument des règles longues en un mot.",
+   "id": "t078-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque format à sa particularité.",
+   "paires": [
+    [
+     "Commander",
+     "Cent cartes uniques"
+    ],
+    [
+     "Pauper",
+     "Communes seulement"
+    ],
+    [
+     "Limité",
+     "Quarante cartes"
+    ]
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Chaque format offre une expérience différente.",
+   "id": "t078-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque zone à sa fonction.",
+   "paires": [
+    [
+     "Bibliothèque",
+     "Pioche"
+    ],
+    [
+     "Cimetière",
+     "Cartes détruites"
+    ],
+    [
+     "Exil",
+     "Cartes retirées du jeu"
+    ],
+    [
+     "Pile",
+     "Sorts en attente"
+    ]
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Les cartes voyagent sans cesse entre les zones.",
+   "id": "t078-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mécanique à son extension d’origine.",
+   "paires": [
+    [
+     "Flashback",
+     "Odyssée"
+    ],
+    [
+     "Cascade",
+     "La Renaissance d’Alara"
+    ],
+    [
+     "Mana phyrexian",
+     "La Nouvelle-Phyrexia"
+    ]
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Chaque extension apporte ses nouveautés.",
+   "id": "t078-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque nombre à sa règle.",
+   "paires": [
+    [
+     "Vingt",
+     "Points de vie"
+    ],
+    [
+     "Sept",
+     "Main de départ"
+    ],
+    [
+     "Quatre",
+     "Exemplaires maximum"
+    ],
+    [
+     "Dix",
+     "Marqueurs poison"
+    ]
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Ces nombres structurent toute partie de Magic.",
+   "id": "t078-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque guilde ennemie à ses couleurs.",
+   "paires": [
+    [
+     "Orzhov",
+     "Blanc et noir"
+    ],
+    [
+     "Izzet",
+     "Bleu et rouge"
+    ],
+    [
+     "Golgari",
+     "Noir et vert"
+    ],
+    [
+     "Boros",
+     "Rouge et blanc"
+    ]
+   ],
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "La cinquième paire ennemie est Simic, vert et bleu.",
+   "id": "t078-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une couleur\n2. Je valorise la connaissance\n3. Je contre les sorts",
+   "choix": [
+    "Le bleu",
+    "Le blanc",
+    "Le noir",
+    "Le vert"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Mon terrain de base est l’île, entourée d’eau.",
+   "id": "t078-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une carte\n2. Je suis apparue en 1993\n3. Je donne trois manas pour rien",
+   "choix": [
+    "Black Lotus",
+    "Mox Pearl",
+    "Sol Ring",
+    "Dark Ritual"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Je suis la carte la plus chère de l’histoire du jeu.",
+   "id": "t078-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un format\n2. J’ai cent cartes\n3. Mon chef est légendaire",
+   "choix": [
+    "Commander",
+    "Vintage",
+    "Standard",
+    "Draft"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "J’ai été inventé par des joueurs passionnés.",
+   "id": "t078-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une zone\n2. Les cartes mortes viennent chez moi\n3. Certaines en reviennent",
+   "choix": [
+    "Le cimetière",
+    "L’exil",
+    "La main",
+    "La pile"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "La mécanique du flashback puise ses sorts chez moi.",
+   "id": "t078-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un mot-clé\n2. J’inflige l’excédent de blessures\n3. J’aime le vert",
+   "choix": [
+    "Le piétinement",
+    "Le vol",
+    "La vigilance",
+    "La menace"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Mon nom évoque un éléphant en colère qui écrase tout.",
+   "id": "t078-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une guilde\n2. Je suis bleue et rouge\n3. J’adore les expériences",
+   "choix": [
+    "Izzet",
+    "Boros",
+    "Simic",
+    "Azorius"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Le dragon Niv-Mizzet me dirige depuis des siècles.",
+   "id": "t078-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une règle\n2. J’empêche une créature d’attaquer tout de suite\n3. La célérité me contourne",
+   "choix": [
+    "Le mal d’invocation",
+    "La brûlure de mana",
+    "Le mulligan",
+    "L’entretien"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Je touche toute créature qui arrive en jeu.",
+   "id": "t078-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une mécanique\n2. Je révèle des cartes jusqu’à trouver un sort\n3. Je le lance gratuitement",
+   "choix": [
+    "La cascade",
+    "La tempête",
+    "Le flashback",
+    "Le kicker"
+   ],
+   "rep": 0,
+   "src": "Règles complètes ; Gatherer ; MTG Wiki",
+   "expl": "Je suis née en 2009, dans La Renaissance d’Alara.",
+   "id": "t078-122",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
