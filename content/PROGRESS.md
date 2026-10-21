@@ -159,7 +159,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - mor-070 : explication absente ou trop courte
 - content/002/a.lm:19 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (lich) — Dans D&D 5e, que devient une liche qui néglige de nourrir son phylactère d’âmes ?
 - content/002/a.lm:19 : mot de la bonne réponse présent dans l’énoncé (« liche ») et absent des autres propositions
-- content/002/a.lm:55 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mort) — Dans D&D 5e, quel sort de niveau 2 (gentle repose) empêche un cadavre de se décomposer et 
 - dem-006 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (demo) — Dans D&D, quel seigneur démon aux deux têtes rivales, Aameul et Hathradiah, règne sur la G
 - dem-037 : explication absente ou trop courte
 - dem-046 : explication absente ou trop courte

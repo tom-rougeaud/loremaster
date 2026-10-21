@@ -691,7 +691,7 @@
    "q": "Dans D&D 5e, quelle capacité de niveau 20 du roublard transforme un échec en réussite ?",
    "choix": [
     "Coup de chance",
-    "Talent fiable",
+    "Savoir-faire",
     "Insaisissable",
     "Esprit fuyant"
    ],
@@ -1096,16 +1096,16 @@
   {
    "type": "trou",
    "niveau": 2,
-   "q": "Dans D&D 5e, le roublard de niveau 11 ne fait jamais moins de 10 aux tests de compétences maîtrisées grâce à son Talent ____.",
+   "q": "Dans D&D 5e, le roublard de niveau 11 ne fait jamais moins de 10 aux tests de compétences maîtrisées grâce à son ____.",
    "choix": [
-    "fiable",
-    "naturel",
-    "sûr",
-    "infaillible"
+    "Savoir-faire",
+    "Coup de chance",
+    "Expertise",
+    "Esprit fuyant"
    ],
    "rep": 0,
    "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
-   "expl": "Talent fiable (reliable talent) remplace tout résultat de 9 ou moins au d20 par un 10 pour ces tests.",
+   "expl": "Savoir-faire (reliable talent) remplace tout résultat de 9 ou moins au d20 par un 10 pour ces tests.",
    "id": "cla-145",
    "conf": "probable"
   },
@@ -1722,11 +1722,11 @@
     "Attaque sournoise",
     "Ruse",
     "Esquive instinctive",
-    "Dérobade",
-    "Talent fiable"
+    "Esquive totale",
+    "Savoir-faire"
    ],
    "src": "Catalogue des parutions de Wizards of the Coast",
-   "expl": "Attaque sournoise au niveau 1, Ruse au 2, Esquive instinctive au 5, Dérobade au 7, Talent fiable au 11.",
+   "expl": "Attaque sournoise au niveau 1, Ruse au 2, Esquive instinctive au 5, Esquive totale au 7, Savoir-faire au 11.",
    "id": "cla-181",
    "conf": "probable"
   },
@@ -2179,16 +2179,16 @@
   {
    "type": "trou",
    "niveau": 3,
-   "q": "Dans D&D 5e, au niveau 7, le moine et le roublard ne subissent aucun dégât d’une boule de feu s’ils réussissent leur sauvegarde, grâce à la ____.",
+   "q": "Dans D&D 5e, au niveau 7, le moine et le roublard ne subissent aucun dégât d’une boule de feu s’ils réussissent leur sauvegarde, grâce à l’Esquive ____.",
    "choix": [
-    "Dérobade",
-    "Parade",
-    "Feinte",
-    "Riposte"
+    "totale",
+    "parfaite",
+    "instinctive",
+    "acrobatique"
    ],
    "rep": 0,
    "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
-   "expl": "La Dérobade (evasion) annule les dégâts en cas de sauvegarde de Dextérité réussie et les divise par deux en cas d’échec.",
+   "expl": "L’Esquive totale (evasion) annule les dégâts en cas de sauvegarde de Dextérité réussie et les divise par deux en cas d’échec.",
    "id": "cla-204",
    "conf": "probable"
   },
@@ -2295,7 +2295,7 @@
      "Niveau 2"
     ],
     [
-     "Talent fiable",
+     "Savoir-faire",
      "Niveau 11"
     ],
     [
