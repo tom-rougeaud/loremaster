@@ -1,0 +1,2283 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "tolkien-ecran",
+  "nom": "Tolkien à l’écran",
+  "royaume": "Terres de Tolkien",
+  "icone": "camera",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel pays la trilogie du Seigneur des Anneaux de Peter Jackson a-t-elle été tournée ?",
+   "choix": [
+    "La Nouvelle-Zélande",
+    "L’Irlande",
+    "Le Canada",
+    "L’Écosse"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Jackson y tourne les trois films à la suite, sur plus de 270 jours.",
+   "id": "t030-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue Frodon dans la trilogie de Peter Jackson ?",
+   "choix": [
+    "Elijah Wood",
+    "Sean Astin",
+    "Dominic Monaghan",
+    "Billy Boyd"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il a 18 ans au début du tournage, en 1999.",
+   "id": "t030-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur incarne Gandalf ?",
+   "choix": [
+    "Ian McKellen",
+    "Christopher Lee",
+    "Ian Holm",
+    "Sean Connery"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Sean Connery aurait refusé le rôle, faute de comprendre le scénario.",
+   "id": "t030-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur incarne Aragorn ?",
+   "choix": [
+    "Viggo Mortensen",
+    "Sean Bean",
+    "Karl Urban",
+    "Hugo Weaving"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il apprend l’escrime et garde son épée avec lui pendant tout le tournage.",
+   "id": "t030-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel acteur devait d’abord jouer Aragorn, avant d’être remplacé au début du tournage ?",
+   "choix": [
+    "Stuart Townsend",
+    "Russell Crowe",
+    "Daniel Day-Lewis",
+    "Nicolas Cage"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Jackson le juge trop jeune pour le rôle et appelle Viggo Mortensen en urgence.",
+   "id": "t030-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur incarne Legolas ?",
+   "choix": [
+    "Orlando Bloom",
+    "Elijah Wood",
+    "Karl Urban",
+    "Lee Pace"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Le rôle lance sa carrière ; il le reprend dans la trilogie du Hobbit.",
+   "id": "t030-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur, seul de la distribution à avoir rencontré Tolkien, joue Saruman ?",
+   "choix": [
+    "Christopher Lee",
+    "Ian McKellen",
+    "Ian Holm",
+    "Bernard Hill"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Grand lecteur du roman, il le relisait chaque année.",
+   "id": "t030-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle actrice joue Galadriel dans les films de Peter Jackson ?",
+   "choix": [
+    "Cate Blanchett",
+    "Liv Tyler",
+    "Miranda Otto",
+    "Morfydd Clark"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Morfydd Clark reprend le rôle dans la série Les Anneaux de Pouvoir.",
+   "id": "t030-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel acteur joue Gimli et prête aussi sa voix à Sylvebarbe ?",
+   "choix": [
+    "John Rhys-Davies",
+    "Andy Serkis",
+    "Bernard Hill",
+    "Brad Dourif"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Allergique aux prothèses, il souffre pendant tout le tournage.",
+   "id": "t030-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue Boromir ?",
+   "choix": [
+    "Sean Bean",
+    "Karl Urban",
+    "David Wenham",
+    "Viggo Mortensen"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Sa mort, criblé de flèches, est l’une des scènes marquantes du premier film.",
+   "id": "t030-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel record Le Retour du roi égale-t-il aux Oscars de 2004 ?",
+   "choix": [
+    "11 statuettes, comme Ben-Hur et Titanic",
+    "15 statuettes, un record absolu",
+    "Toutes les nominations sans exception",
+    "Le premier Oscar d’un film fantastique"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il gagne dans toutes les catégories où il était nommé, dont celle du meilleur film.",
+   "id": "t030-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle chanteuse irlandaise interprète May It Be, dans La Communauté de l’Anneau ?",
+   "choix": [
+    "Enya",
+    "Sinéad O’Connor",
+    "Dolores O’Riordan",
+    "Annie Lennox"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "La chanson, chantée en partie en quenya, est nommée aux Oscars.",
+   "id": "t030-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage du livre est supprimé du premier film ?",
+   "choix": [
+    "Tom Bombadil",
+    "Gríma",
+    "Boromir",
+    "Glorfindel"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Jackson le juge sans lien avec la quête principale ; il apparaît en revanche dans la série d’Amazon.",
+   "id": "t030-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le film, qui emmène Frodon au gué de la Bruinen à la place de Glorfindel ?",
+   "choix": [
+    "Arwen",
+    "Legolas",
+    "Gandalf",
+    "Elrond"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Ce changement donne plus de présence à Arwen, peu visible dans le roman.",
+   "id": "t030-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Peter Jackson apparaît-il dans un caméo de La Communauté de l’Anneau ?",
+   "choix": [
+    "À Bree, en mangeant une carotte",
+    "À la Moria, en orque",
+    "En Lórien, en elfe",
+    "Au Conseil d’Elrond"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il apparaît aussi en corsaire dans la version longue du Retour du roi.",
+   "id": "t030-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la version longue du Retour du roi, comment meurt Saruman ?",
+   "choix": [
+    "Poignardé par Gríma, il tombe d’Orthanc",
+    "Gandalf le foudroie",
+    "Les Ents l’écrasent",
+    "Il est tué dans la Comté"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Dans le livre, il meurt bien plus tard, dans la Comté.",
+   "id": "t030-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel épisode final du livre est absent des films ?",
+   "choix": [
+    "Le Nettoyage de la Comté",
+    "La destruction de l’Anneau",
+    "Le couronnement d’Aragorn",
+    "Le départ des Havres Gris"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Jackson le trouvait trop long après le climax de la Montagne du Destin.",
+   "id": "t030-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel peuple vient renforcer le Gouffre de Helm dans le film, contrairement au livre ?",
+   "choix": [
+    "Des Elfes de la Lórien",
+    "Des Nains d’Erebor",
+    "Des Ents",
+    "Des Hommes du Gondor"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Menés par Haldir, ils symbolisent l’ancienne alliance des Elfes et des Hommes.",
+   "id": "t030-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle technique Ralph Bakshi utilise-t-il largement dans son film de 1978 ?",
+   "choix": [
+    "La rotoscopie",
+    "Le stop-motion",
+    "L’animation 3D",
+    "Le théâtre d’ombres"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il filme des acteurs réels, puis les redessine image par image.",
+   "id": "t030-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où s’arrête le film d’animation de Ralph Bakshi ?",
+   "choix": [
+    "Après la bataille du Gouffre de Helm",
+    "À la destruction de l’Anneau",
+    "Au départ de la Comté",
+    "À la mort de Boromir"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "La suite prévue n’a jamais été tournée ; Rankin/Bass adapte la fin pour la télévision en 1980.",
+   "id": "t030-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel studio produit le téléfilm d’animation Le Hobbit de 1977 ?",
+   "choix": [
+    "Rankin/Bass",
+    "Disney",
+    "Hanna-Barbera",
+    "Pixar"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Ce studio américain produit aussi Le Retour du roi en 1980.",
+   "id": "t030-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue le jeune Bilbo dans la trilogie du Hobbit ?",
+   "choix": [
+    "Martin Freeman",
+    "Ian Holm",
+    "Elijah Wood",
+    "Benedict Cumberbatch"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Jackson adapte le tournage pour qu’il puisse aussi jouer dans la série Sherlock.",
+   "id": "t030-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue Thorin dans la trilogie du Hobbit ?",
+   "choix": [
+    "Richard Armitage",
+    "Luke Evans",
+    "Lee Pace",
+    "Aidan Turner"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il lui donne une stature plus tragique et plus royale que dans le roman.",
+   "id": "t030-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel réalisateur devait d’abord diriger Le Hobbit, avant de se retirer ?",
+   "choix": [
+    "Guillermo del Toro",
+    "Steven Spielberg",
+    "Sam Raimi",
+    "Christopher Nolan"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Les retards de production le poussent à partir ; il reste coscénariste.",
+   "id": "t030-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chanteur interprète I See Fire, dans La Désolation de Smaug ?",
+   "choix": [
+    "Ed Sheeran",
+    "Neil Finn",
+    "Billy Boyd",
+    "Sam Smith"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il l’écrit après avoir vu le film, en une seule journée.",
+   "id": "t030-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel acteur de la Communauté chante The Last Goodbye, à la fin du Hobbit ?",
+   "choix": [
+    "Billy Boyd",
+    "Elijah Wood",
+    "Viggo Mortensen",
+    "Dominic Monaghan"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il chantait déjà pour Denethor dans Le Retour du roi.",
+   "id": "t030-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plateforme diffuse Les Anneaux de Pouvoir ?",
+   "choix": [
+    "Amazon Prime Video",
+    "Netflix",
+    "HBO",
+    "Disney+"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "La série commence en 2022 ; c’est l’une des plus coûteuses de l’histoire.",
+   "id": "t030-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quelle époque de la Terre du Milieu se déroule Les Anneaux de Pouvoir ?",
+   "choix": [
+    "Le Deuxième Âge",
+    "Le Premier Âge",
+    "Le Troisième Âge",
+    "Le Quatrième Âge"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Elle raconte la forge des Anneaux et la grandeur de Númenor, des milliers d’années avant Le Hobbit.",
+   "id": "t030-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui réalise le film d’animation La Guerre des Rohirrim (2024) ?",
+   "choix": [
+    "Kenji Kamiyama",
+    "Hayao Miyazaki",
+    "Mamoru Oshii",
+    "Makoto Shinkai"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Le film raconte la légende de Helm Poing-de-Marteau, roi du Rohan.",
+   "id": "t030-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel volcan néo-zélandais incarne la Montagne du Destin ?",
+   "choix": [
+    "Le Ngauruhoe",
+    "Le Taranaki",
+    "Le Ruapehu",
+    "Le Rangitoto"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Les Maoris le considérant comme sacré, l’équipe n’en filme pas le sommet.",
+   "id": "t030-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel groupe britannique a envisagé d’adapter Le Seigneur des Anneaux en 1968 ?",
+   "choix": [
+    "Les Beatles",
+    "Les Rolling Stones",
+    "Pink Floyd",
+    "The Who"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "John Lennon voulait jouer Gollum ; le projet n’a jamais vu le jour.",
+   "id": "t030-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel producteur rachète les droits d’adaptation en 1976 ?",
+   "choix": [
+    "Saul Zaentz",
+    "Steven Spielberg",
+    "George Lucas",
+    "Dino De Laurentiis"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Sa société Middle-earth Enterprises gère ensuite les droits pendant près de cinquante ans.",
+   "id": "t030-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle radio produit en 1981 une adaptation très appréciée du Seigneur des Anneaux ?",
+   "choix": [
+    "La BBC",
+    "Radio France",
+    "NPR",
+    "La CBC"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Michael Hordern y joue Gandalf et Ian Holm, Frodon.",
+   "id": "t030-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel acteur joue Frodon à la radio en 1981, puis Bilbo au cinéma ?",
+   "choix": [
+    "Ian Holm",
+    "Ian McKellen",
+    "Elijah Wood",
+    "Martin Freeman"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il passe ainsi d’un Sacquet à l’autre, à vingt ans d’écart.",
+   "id": "t030-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu vidéo de 2014 introduit le « système Némésis » ?",
+   "choix": [
+    "La Terre du Milieu : L’Ombre du Mordor",
+    "Le Seigneur des Anneaux Online",
+    "La Bataille pour la Terre du Milieu",
+    "Gollum"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Les capitaines orques s’y souviennent de leurs combats contre le joueur.",
+   "id": "t030-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel studio américain finance et distribue la trilogie de Jackson ?",
+   "choix": [
+    "New Line Cinema",
+    "Paramount",
+    "Universal",
+    "Columbia"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Le studio prend le risque de financer trois films d’un coup, avant même la sortie du premier.",
+   "id": "t030-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle actrice joue Arwen ?",
+   "choix": [
+    "Liv Tyler",
+    "Cate Blanchett",
+    "Miranda Otto",
+    "Evangeline Lilly"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Son rôle est étoffé par rapport au livre, à partir des appendices.",
+   "id": "t030-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue Théoden ?",
+   "choix": [
+    "Bernard Hill",
+    "John Noble",
+    "Ian Holm",
+    "Hugo Weaving"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il jouait aussi le capitaine du Titanic, autre film à onze Oscars.",
+   "id": "t030-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue Faramir ?",
+   "choix": [
+    "David Wenham",
+    "Karl Urban",
+    "Sean Bean",
+    "Brad Dourif"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Le film en fait un personnage d’abord tenté par l’Anneau, contrairement au livre.",
+   "id": "t030-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue Denethor ?",
+   "choix": [
+    "John Noble",
+    "Bernard Hill",
+    "Christopher Lee",
+    "Ian Holm"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Sa scène de repas pendant la charge de Faramir est restée célèbre.",
+   "id": "t030-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue Bilbo âgé dans La Communauté de l’Anneau ?",
+   "choix": [
+    "Ian Holm",
+    "Martin Freeman",
+    "Ian McKellen",
+    "Christopher Lee"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il reprend brièvement le rôle dans la trilogie du Hobbit.",
+   "id": "t030-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur, ancien Docteur de Doctor Who, joue Radagast dans Le Hobbit ?",
+   "choix": [
+    "Sylvester McCoy",
+    "David Tennant",
+    "Matt Smith",
+    "Tom Baker"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Le film fait de Radagast un personnage excentrique, entouré d’animaux.",
+   "id": "t030-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui coécrit les scénarios des films avec Peter Jackson ?",
+   "choix": [
+    "Fran Walsh et Philippa Boyens",
+    "Guillermo del Toro seul",
+    "Christopher Tolkien",
+    "George Lucas"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Fran Walsh est aussi la compagne de Peter Jackson.",
+   "id": "t030-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville néo-zélandaise sont installés les studios et ateliers de la production ?",
+   "choix": [
+    "Wellington",
+    "Auckland",
+    "Christchurch",
+    "Queenstown"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Weta Workshop et Weta Digital y conçoivent armes, maquettes et effets numériques.",
+   "id": "t030-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal géant Legolas abat-il seul sur les Champs du Pelennor dans le film ?",
+   "choix": [
+    "Un olifant",
+    "Un troll",
+    "Une bête ailée",
+    "Un warg"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "C’est une invention spectaculaire du film, absente du livre.",
+   "id": "t030-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel linguiste a écrit les dialogues elfiques et nains des films ?",
+   "choix": [
+    "David Salo",
+    "Tom Shippey",
+    "J. R. R. Tolkien lui-même",
+    "Daniel Lauzon"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il s’est appuyé sur les écrits linguistiques de Tolkien publiés depuis sa mort.",
+   "id": "t030-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel joaillier néo-zélandais a fabriqué l’Anneau unique des films ?",
+   "choix": [
+    "Jens Hansen",
+    "Cartier",
+    "Tiffany",
+    "Chopard"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Sa boutique, à Nelson, en vend encore des répliques.",
+   "id": "t030-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage Karl Urban joue-t-il dans la trilogie ?",
+   "choix": [
+    "Éomer",
+    "Faramir",
+    "Boromir",
+    "Haldir"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema, The Lord of the Rings (2001-2003) ; Ian Nathan, Anything You Can Imagine: Peter Jackson and the Making of Middle-earth (2018)",
+   "expl": "Il deviendra ensuite le docteur McCoy dans les nouveaux Star Trek.",
+   "id": "t030-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue Gríma Langue de Serpent ?",
+   "choix": [
+    "Brad Dourif",
+    "David Wenham",
+    "John Noble",
+    "Bernard Hill"
+   ],
+   "rep": 0,
+   "src": "Warner Bros., The Hobbit (2012-2014)",
+   "expl": "Il donne au personnage une pâleur maladive et un regard inquiétant.",
+   "id": "t030-049",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue le nain Kíli dans la trilogie du Hobbit ?",
+   "choix": [
+    "Aidan Turner",
+    "Richard Armitage",
+    "Luke Evans",
+    "Dean O’Gorman"
+   ],
+   "rep": 0,
+   "src": "Warner Bros., The Hobbit (2012-2014)",
+   "expl": "Dean O’Gorman joue son frère Fíli ; les deux neveux de Thorin meurent à la fin.",
+   "id": "t030-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les trois films du Seigneur des Anneaux de Peter Jackson ont été tournés à la suite, en une seule grande période.",
+   "rep": true,
+   "src": "Academy of Motion Picture Arts and Sciences, 76e cérémonie (2004)",
+   "expl": "Vrai : le tournage principal dure de 1999 à 2000, avec des reprises chaque année avant la sortie.",
+   "id": "t030-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Retour du roi n’a remporté aucun Oscar.",
+   "rep": false,
+   "src": "Christopher Lee, entretiens (2001-2003)",
+   "expl": "Faux : il en remporte onze, dont celui du meilleur film.",
+   "id": "t030-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Christopher Lee, qui joue Saruman, avait rencontré Tolkien.",
+   "rep": true,
+   "src": "Ralph Bakshi, The Lord of the Rings (United Artists, 1978)",
+   "expl": "Vrai : il le croise dans un pub d’Oxford ; il est le seul de la distribution dans ce cas.",
+   "id": "t030-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le film d’animation de Ralph Bakshi adapte tout le Seigneur des Anneaux.",
+   "rep": false,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Faux : il s’arrête après le Gouffre de Helm ; la suite prévue n’a jamais été réalisée.",
+   "id": "t030-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Viggo Mortensen s’est cassé des orteils en frappant un casque d’orque pendant une prise.",
+   "rep": true,
+   "src": "New Line Cinema, The Hobbit (2012-2014)",
+   "expl": "Vrai : son cri de douleur, réel, a été gardé au montage des Deux Tours.",
+   "id": "t030-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Hobbit de Peter Jackson tient en un seul film.",
+   "rep": false,
+   "src": "New Line Cinema, The Hobbit (2012-2014)",
+   "expl": "Faux : il est divisé en trois films, de 2012 à 2014.",
+   "id": "t030-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tauriel n’existe pas dans le livre de Tolkien.",
+   "rep": true,
+   "src": "New Line Cinema, The Hobbit (2012-2014)",
+   "expl": "Vrai : cette Elfe de la Forêt Noire a été inventée pour les films.",
+   "id": "t030-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Smaug est entièrement joué par une marionnette géante.",
+   "rep": false,
+   "src": "Amazon Studios, The Lord of the Rings: The Rings of Power (2022)",
+   "expl": "Faux : il est créé en images de synthèse, à partir de la voix et des expressions de Benedict Cumberbatch.",
+   "id": "t030-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Anneaux de Pouvoir se déroulent des milliers d’années avant Le Hobbit.",
+   "rep": true,
+   "src": "Warner Bros. Animation, The War of the Rohirrim (2024)",
+   "expl": "Vrai : la série se situe au Deuxième Âge.",
+   "id": "t030-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Guerre des Rohirrim est un film en prises de vues réelles.",
+   "rep": false,
+   "src": "Richard Donner, The Goonies (Warner Bros., 1985)",
+   "expl": "Faux : c’est un film d’animation de style japonais.",
+   "id": "t030-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Sean Astin, l’interprète de Sam, jouait enfant dans Les Goonies.",
+   "rep": true,
+   "src": "Richard Donner, The Goonies (Warner Bros., 1985)",
+   "expl": "Vrai : il y tenait le rôle de Mikey, le chef de la bande.",
+   "id": "t030-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Ian McKellen joue aussi Saruman.",
+   "rep": false,
+   "src": "New Line Cinema, The Hobbit (2012-2014)",
+   "expl": "Faux : Saruman est joué par Christopher Lee ; McKellen joue Gandalf.",
+   "id": "t030-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Andy Serkis a dirigé une seconde équipe sur le tournage du Hobbit.",
+   "rep": true,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Vrai : il réalise de nombreuses scènes d’action, en plus de reprendre le rôle de Gollum.",
+   "id": "t030-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La trilogie a été tournée principalement en Écosse.",
+   "rep": false,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Faux : elle a été tournée en Nouvelle-Zélande, pays natal de Peter Jackson.",
+   "id": "t030-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Hugo Weaving joue Elrond.",
+   "rep": true,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Vrai : il jouait aussi l’agent Smith dans Matrix.",
+   "id": "t030-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Cate Blanchett joue Arwen.",
+   "rep": false,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Faux : elle joue Galadriel ; Arwen est jouée par Liv Tyler.",
+   "id": "t030-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Elijah Wood avait moins de 20 ans au début du tournage.",
+   "rep": true,
+   "src": "Amazon Studios, annonces (2017-2022)",
+   "expl": "Vrai : né en janvier 1981, il a 18 ans quand le tournage commence en octobre 1999.",
+   "id": "t030-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Amazon a obtenu les droits d’adaptation du Silmarillion pour sa série.",
+   "rep": false,
+   "src": "Academy of Motion Picture Arts and Sciences (2002-2004)",
+   "expl": "Faux : la série ne peut s’appuyer que sur Le Seigneur des Anneaux, Le Hobbit et leurs appendices.",
+   "id": "t030-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’Oscars Le Retour du roi a-t-il remportés ?",
+   "rep": 11,
+   "min": 1,
+   "max": 15,
+   "pas": 1,
+   "unite": "Oscars",
+   "tolerance": 0,
+   "src": "Academy of Motion Picture Arts and Sciences (2002-2004)",
+   "expl": "Un record partagé avec Ben-Hur (1959) et Titanic (1997).",
+   "id": "t030-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’Oscars la trilogie du Seigneur des Anneaux a-t-elle remportés en tout ?",
+   "rep": 17,
+   "min": 5,
+   "max": 30,
+   "pas": 1,
+   "unite": "Oscars",
+   "tolerance": 0,
+   "src": "Academy of Motion Picture Arts and Sciences (2002-2004)",
+   "expl": "Quatre pour La Communauté, deux pour Les Deux Tours et onze pour Le Retour du roi.",
+   "id": "t030-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’Oscars La Communauté de l’Anneau a-t-elle remportés ?",
+   "rep": 4,
+   "min": 0,
+   "max": 13,
+   "pas": 1,
+   "unite": "Oscars",
+   "tolerance": 0,
+   "src": "New Line Cinema (2001)",
+   "expl": "Photographie, maquillage, musique et effets visuels, sur treize nominations.",
+   "id": "t030-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "En quelle année sort La Communauté de l’Anneau ?",
+   "rep": 2001,
+   "min": 1990,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "United Artists (1978)",
+   "expl": "Le film sort en décembre 2001, un an avant Les Deux Tours.",
+   "id": "t030-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort le film d’animation de Ralph Bakshi ?",
+   "rep": 1978,
+   "min": 1965,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Amazon Studios (2022)",
+   "expl": "Il a inspiré le jeune Peter Jackson, qui découvre ainsi le roman.",
+   "id": "t030-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année commence la série Les Anneaux de Pouvoir ?",
+   "rep": 2022,
+   "min": 2010,
+   "max": 2030,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "La première saison sort en septembre 2022, la deuxième en 2024.",
+   "id": "t030-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de jours dure le tournage principal de la trilogie ?",
+   "rep": 274,
+   "min": 100,
+   "max": 500,
+   "pas": 1,
+   "unite": "jours",
+   "tolerance": 10,
+   "src": "Warner Bros. (2012)",
+   "expl": "D’octobre 1999 à décembre 2000 ; une réponse à 10 jours près est acceptée.",
+   "id": "t030-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "À combien d’images par seconde Le Hobbit a-t-il été tourné et projeté en version HFR ?",
+   "rep": 48,
+   "min": 12,
+   "max": 60,
+   "pas": 1,
+   "unite": "images/s",
+   "tolerance": 0,
+   "src": "Warner Bros. (2012)",
+   "expl": "Le double des 24 images habituelles : une image très nette qui a divisé les spectateurs.",
+   "id": "t030-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La trilogie du Seigneur des Anneaux (2001-2003) a été réalisée par Peter ____.",
+   "choix": [
+    "Jackson",
+    "Weir",
+    "Bakshi",
+    "Campion"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Le réalisateur néo-zélandais était surtout connu pour des films d’horreur à petit budget.",
+   "id": "t030-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Gollum est interprété par Andy ____ grâce à la capture de mouvement.",
+   "choix": [
+    "Serkis",
+    "Serrano",
+    "Sorkin",
+    "Sellers"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Sa performance a ouvert la voie aux personnages numériques joués par des acteurs.",
+   "id": "t030-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La musique des films est composée par Howard ____.",
+   "choix": [
+    "Shore",
+    "Zimmer",
+    "Elfman",
+    "Horner"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Il a créé des thèmes pour chaque peuple : la Comté, le Rohan, le Mordor…",
+   "id": "t030-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Armes, armures et prothèses sont conçues par ____ Workshop.",
+   "choix": [
+    "Weta",
+    "Wellington",
+    "Kiwi",
+    "Maori"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "L’atelier fabrique des dizaines de milliers d’objets, des cottes de mailles aux pieds de hobbits.",
+   "id": "t030-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le film d’animation de 1978 est signé Ralph ____.",
+   "choix": [
+    "Bakshi",
+    "Bass",
+    "Disney",
+    "Rankin"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Son film, inachevé, s’arrête au milieu de l’histoire.",
+   "id": "t030-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Smaug parle avec la voix de Benedict ____.",
+   "choix": [
+    "Cumberbatch",
+    "Cumming",
+    "Crudup",
+    "Cooper"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Il joue aussi le Nécromancien et s’allonge au sol pour imiter le dragon.",
+   "id": "t030-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’Elfe inventée pour la trilogie du Hobbit s’appelle ____.",
+   "choix": [
+    "Tauriel",
+    "Arwen",
+    "Nimrodel",
+    "Idril"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Elle est jouée par Evangeline Lilly, connue pour la série Lost.",
+   "id": "t030-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le décor de Hobbitebourg se trouve près de ____, en Nouvelle-Zélande.",
+   "choix": [
+    "Matamata",
+    "Wellington",
+    "Auckland",
+    "Rotorua"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Reconstruit en dur pour Le Hobbit, il accueille aujourd’hui des visiteurs du monde entier.",
+   "id": "t030-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La série d’Amazon s’intitule Les Anneaux de ____.",
+   "choix": [
+    "Pouvoir",
+    "Gloire",
+    "Lumière",
+    "Feu"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Son titre reprend celui d’un texte du Silmarillion sur les Anneaux.",
+   "id": "t030-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans la première saison des Anneaux de Pouvoir, Sauron se cache sous le nom de ____.",
+   "choix": [
+    "Halbrand",
+    "Adar",
+    "Annatar",
+    "Elendil"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Il se fait passer pour un roi déchu des Terres du Sud ; Adar est un elfe devenu orque.",
+   "id": "t030-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La chanson Into the ____ remporte l’Oscar de la meilleure chanson en 2004.",
+   "choix": [
+    "West",
+    "Light",
+    "Night",
+    "Fire"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Annie Lennox la chante sur le générique de fin du Retour du roi.",
+   "id": "t030-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le film d’animation La Guerre des ____ raconte la légende du roi Helm.",
+   "choix": [
+    "Rohirrim",
+    "Anneaux",
+    "Nains",
+    "Elfes"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "L’histoire se déroule environ deux siècles avant Le Seigneur des Anneaux.",
+   "id": "t030-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La version ____ des films ajoute de nombreuses scènes absentes du cinéma.",
+   "choix": [
+    "longue",
+    "courte",
+    "noire",
+    "muette"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Les versions longues ajoutent près de deux heures à l’ensemble de la trilogie.",
+   "id": "t030-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces acteurs ne joue pas un hobbit dans la trilogie de Jackson ?",
+   "choix": [
+    "Orlando Bloom",
+    "Elijah Wood",
+    "Sean Astin",
+    "Billy Boyd"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Orlando Bloom joue l’Elfe Legolas, fils du roi de la Forêt Noire.",
+   "id": "t030-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces films n’a pas été réalisé par Peter Jackson ?",
+   "choix": [
+    "Le Seigneur des Anneaux (1978)",
+    "La Communauté de l’Anneau",
+    "Les Deux Tours",
+    "La Désolation de Smaug"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Le film de 1978 est l’œuvre de Ralph Bakshi.",
+   "id": "t030-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces chansons n’appartient pas aux films de Peter Jackson ?",
+   "choix": [
+    "My Heart Will Go On",
+    "May It Be",
+    "Into the West",
+    "I See Fire"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "My Heart Will Go On est la chanson de Titanic.",
+   "id": "t030-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’apparaît pas dans les films de Peter Jackson ?",
+   "choix": [
+    "Tom Bombadil",
+    "Gríma",
+    "Radagast",
+    "Tauriel"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Radagast et Tauriel apparaissent dans Le Hobbit ; Bombadil a été écarté.",
+   "id": "t030-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces acteurs ne joue pas dans la trilogie du Hobbit ?",
+   "choix": [
+    "Viggo Mortensen",
+    "Martin Freeman",
+    "Richard Armitage",
+    "Luke Evans"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Aragorn n’apparaît pas dans Le Hobbit, contrairement à Legolas, Galadriel ou Saruman.",
+   "id": "t030-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces adaptations n’est pas un dessin animé ?",
+   "choix": [
+    "Les Anneaux de Pouvoir",
+    "Le film de Bakshi",
+    "Le Hobbit de Rankin/Bass",
+    "La Guerre des Rohirrim"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Les Anneaux de Pouvoir est une série en prises de vues réelles.",
+   "id": "t030-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux n’a pas servi de décor en Nouvelle-Zélande ?",
+   "choix": [
+    "Les Highlands",
+    "Matamata",
+    "Le mont Ngauruhoe",
+    "Le mont Sunday"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Les Highlands sont en Écosse ; tout a été tourné en Nouvelle-Zélande.",
+   "id": "t030-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces acteurs ne joue pas un Elfe ?",
+   "choix": [
+    "Sean Bean",
+    "Hugo Weaving",
+    "Liv Tyler",
+    "Cate Blanchett"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Sean Bean joue Boromir, un Homme du Gondor.",
+   "id": "t030-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces films n’a pas remporté l’Oscar du meilleur film ?",
+   "choix": [
+    "La Communauté de l’Anneau",
+    "Le Retour du roi",
+    "Titanic",
+    "Ben-Hur"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "La Communauté remporte quatre Oscars techniques, mais pas celui du meilleur film.",
+   "id": "t030-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces jeux vidéo ne se déroule pas en Terre du Milieu ?",
+   "choix": [
+    "The Witcher 3",
+    "L’Ombre du Mordor",
+    "La Bataille pour la Terre du Milieu",
+    "Le Seigneur des Anneaux Online"
+   ],
+   "rep": 0,
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "The Witcher 3 adapte l’univers du Polonais Andrzej Sapkowski.",
+   "id": "t030-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels acteurs jouent des hobbits dans la trilogie ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Elijah Wood",
+    "Sean Astin",
+    "Billy Boyd",
+    "Dominic Monaghan",
+    "Orlando Bloom",
+    "Sean Bean"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Ils sont restés très proches et se sont fait tatouer ensemble le chiffre 9 en elfique.",
+   "id": "t030-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels films composent la trilogie du Hobbit ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Un voyage inattendu",
+    "La Désolation de Smaug",
+    "La Bataille des Cinq Armées",
+    "Le Retour du roi",
+    "Les Deux Tours"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Les trois films sortent de 2012 à 2014, chacun en décembre.",
+   "id": "t030-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles chansons originales accompagnent les films de Peter Jackson ? (plusieurs bonnes réponses)",
+   "choix": [
+    "May It Be",
+    "Into the West",
+    "I See Fire",
+    "Skyfall",
+    "Let It Go"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Skyfall est une chanson de James Bond, Let It Go celle de La Reine des neiges.",
+   "id": "t030-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels éléments du livre ont été supprimés ou changés dans les films ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tom Bombadil supprimé",
+    "Nettoyage de la Comté supprimé",
+    "Glorfindel remplacé par Arwen",
+    "Mort de Boromir",
+    "Destruction de l’Anneau"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Les grandes étapes de l’intrigue restent fidèles au roman.",
+   "id": "t030-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels acteurs apparaissent dans les deux trilogies de Peter Jackson ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ian McKellen",
+    "Cate Blanchett",
+    "Orlando Bloom",
+    "Viggo Mortensen",
+    "Sean Astin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Elijah Wood, Hugo Weaving, Christopher Lee et Ian Holm y reviennent aussi.",
+   "id": "t030-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux néo-zélandais ont servi de décor ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Matamata",
+    "Le mont Ngauruhoe",
+    "Le mont Sunday",
+    "Le loch Ness",
+    "Le mont Blanc"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Le mont Sunday accueillait le décor d’Edoras.",
+   "id": "t030-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles adaptations sont des films ou téléfilms d’animation ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le film de Bakshi",
+    "Le Hobbit de Rankin/Bass",
+    "La Guerre des Rohirrim",
+    "Les Anneaux de Pouvoir",
+    "La Communauté de l’Anneau"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "L’animation a précédé de vingt ans les grands films en prises de vues réelles.",
+   "id": "t030-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages ont été inventés pour les films du Hobbit ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tauriel",
+    "Alfrid",
+    "Bard",
+    "Radagast"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Alfrid est le conseiller servile du Maître d’Esgaroth ; Bard et Radagast existent chez Tolkien.",
+   "id": "t030-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages apparaissent dans Les Anneaux de Pouvoir ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Galadriel",
+    "Elrond",
+    "Celebrimbor",
+    "Frodon",
+    "Aragorn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Frodon et Aragorn naissent des milliers d’années plus tard.",
+   "id": "t030-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels Oscars La Communauté de l’Anneau a-t-elle remportés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Photographie",
+    "Maquillage",
+    "Musique",
+    "Effets visuels",
+    "Meilleur film",
+    "Meilleur réalisateur"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "Elle était nommée treize fois ; le meilleur film revient cette année-là à Un homme d’exception.",
+   "id": "t030-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces adaptations par date de sortie.",
+   "items": [
+    "Le Hobbit (Rankin/Bass)",
+    "Le Seigneur des Anneaux (Bakshi)",
+    "La Communauté de l’Anneau",
+    "Un voyage inattendu"
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "1977, 1978, 2001 et 2012 : trente-cinq ans d’adaptations du même univers.",
+   "id": "t030-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces films de Peter Jackson par date de sortie.",
+   "items": [
+    "Les Deux Tours",
+    "Le Retour du roi",
+    "Un voyage inattendu",
+    "La Désolation de Smaug"
+   ],
+   "src": "New Line Cinema (2001-2003)",
+   "expl": "2002, 2003, 2012 et 2013 : neuf ans séparent les deux trilogies.",
+   "id": "t030-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces productions par date de sortie.",
+   "items": [
+    "La Bataille des Cinq Armées",
+    "Tolkien",
+    "Les Anneaux de Pouvoir",
+    "La Guerre des Rohirrim"
+   ],
+   "src": "Variety, « Embracer Group acquires Middle-earth Enterprises » (2022)",
+   "expl": "2014, 2019, 2022 et 2024 : l’univers continue d’être adapté sous toutes les formes.",
+   "id": "t030-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces détenteurs des droits d’adaptation par ordre chronologique.",
+   "items": [
+    "United Artists",
+    "Saul Zaentz",
+    "Embracer Group"
+   ],
+   "src": "Variety, « Embracer Group acquires Middle-earth Enterprises » (2022)",
+   "expl": "Tolkien vend les droits en 1969 ; Zaentz les rachète en 1976, Embracer en 2022.",
+   "id": "t030-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces chansons par date de sortie.",
+   "items": [
+    "May It Be",
+    "Gollum’s Song",
+    "Into the West",
+    "I See Fire"
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "2001, 2002, 2003 et 2013 : chaque film a sa chanson de générique.",
+   "id": "t030-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la production de la trilogie dans l’ordre.",
+   "items": [
+    "New Line achète le projet",
+    "Début du tournage",
+    "Fin du tournage principal",
+    "Sortie de La Communauté"
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "1998, octobre 1999, décembre 2000 et décembre 2001.",
+   "id": "t030-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces œuvres selon l’époque qu’elles racontent, de la plus ancienne à la plus récente.",
+   "items": [
+    "Les Anneaux de Pouvoir",
+    "La Guerre des Rohirrim",
+    "Le Hobbit",
+    "Le Seigneur des Anneaux"
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Deuxième Âge, puis l’an 2758 du Troisième Âge, puis 2941 et 3018.",
+   "id": "t030-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces adaptations par date.",
+   "items": [
+    "Feuilleton de la BBC radio",
+    "Khraniteli, téléfilm soviétique",
+    "Hobitit, série finlandaise"
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "1981, 1991 et 1993 : l’Europe a adapté Tolkien bien avant Peter Jackson.",
+   "id": "t030-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux vidéo par date de sortie.",
+   "items": [
+    "La Bataille pour la Terre du Milieu",
+    "Le Seigneur des Anneaux Online",
+    "L’Ombre du Mordor",
+    "L’Ombre de la guerre"
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "2004, 2007, 2014 et 2017 : stratégie, jeu en ligne puis aventure d’action.",
+   "id": "t030-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces films de Jackson par nombre d’Oscars décroissant.",
+   "items": [
+    "Le Retour du roi",
+    "La Communauté de l’Anneau",
+    "Les Deux Tours"
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "11, 4 et 2 statuettes : le dernier film rafle presque tout.",
+   "id": "t030-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque acteur à son rôle.",
+   "paires": [
+    [
+     "Elijah Wood",
+     "Frodon"
+    ],
+    [
+     "Sean Astin",
+     "Sam"
+    ],
+    [
+     "Viggo Mortensen",
+     "Aragorn"
+    ],
+    [
+     "Ian McKellen",
+     "Gandalf"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "La distribution réunit des acteurs peu connus et des vétérans du théâtre britannique.",
+   "id": "t030-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque acteur à son personnage de la Communauté.",
+   "paires": [
+    [
+     "Orlando Bloom",
+     "Legolas"
+    ],
+    [
+     "John Rhys-Davies",
+     "Gimli"
+    ],
+    [
+     "Sean Bean",
+     "Boromir"
+    ],
+    [
+     "Christopher Lee",
+     "Saruman"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Christopher Lee rêvait de jouer Gandalf, mais était jugé trop âgé pour les scènes physiques.",
+   "id": "t030-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque actrice ou acteur à son personnage.",
+   "paires": [
+    [
+     "Cate Blanchett",
+     "Galadriel"
+    ],
+    [
+     "Hugo Weaving",
+     "Elrond"
+    ],
+    [
+     "Liv Tyler",
+     "Arwen"
+    ],
+    [
+     "Miranda Otto",
+     "Éowyn"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Les rôles féminins sont étoffés à partir des appendices du livre.",
+   "id": "t030-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque acteur à son rôle dans Le Hobbit.",
+   "paires": [
+    [
+     "Martin Freeman",
+     "Bilbo"
+    ],
+    [
+     "Richard Armitage",
+     "Thorin"
+    ],
+    [
+     "Luke Evans",
+     "Bard"
+    ],
+    [
+     "Lee Pace",
+     "Thranduil"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Lee Pace donne à Thranduil un air altier et distant.",
+   "id": "t030-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque acteur à son rôle dans Les Anneaux de Pouvoir.",
+   "paires": [
+    [
+     "Morfydd Clark",
+     "Galadriel"
+    ],
+    [
+     "Robert Aramayo",
+     "Elrond"
+    ],
+    [
+     "Charlie Vickers",
+     "Sauron"
+    ],
+    [
+     "Owain Arthur",
+     "Durin IV"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "La série montre ces personnages à un âge où ils sont encore jeunes.",
+   "id": "t030-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque chanson à son interprète.",
+   "paires": [
+    [
+     "May It Be",
+     "Enya"
+    ],
+    [
+     "Into the West",
+     "Annie Lennox"
+    ],
+    [
+     "I See Fire",
+     "Ed Sheeran"
+    ],
+    [
+     "The Last Goodbye",
+     "Billy Boyd"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Chaque film se termine par une chanson originale au générique.",
+   "id": "t030-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu de tournage à son rôle dans les films.",
+   "paires": [
+    [
+     "Matamata",
+     "Hobbitebourg"
+    ],
+    [
+     "Mont Ngauruhoe",
+     "Montagne du Destin"
+    ],
+    [
+     "Mont Sunday",
+     "Edoras"
+    ],
+    [
+     "Parc de Kaitoke",
+     "Fondcombe"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Les paysages néo-zélandais sont devenus une destination touristique majeure.",
+   "id": "t030-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque réalisateur à son œuvre.",
+   "paires": [
+    [
+     "Peter Jackson",
+     "La Communauté de l’Anneau"
+    ],
+    [
+     "Ralph Bakshi",
+     "Le Seigneur des Anneaux (1978)"
+    ],
+    [
+     "Kenji Kamiyama",
+     "La Guerre des Rohirrim"
+    ],
+    [
+     "Dome Karukoski",
+     "Tolkien (2019)"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Chacun a proposé sa propre vision de l’univers ou de la vie de Tolkien.",
+   "id": "t030-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque film à son nombre d’Oscars.",
+   "paires": [
+    [
+     "Le Retour du roi",
+     "11"
+    ],
+    [
+     "La Communauté de l’Anneau",
+     "4"
+    ],
+    [
+     "Les Deux Tours",
+     "2"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "La trilogie totalise 17 Oscars, un record pour une saga.",
+   "id": "t030-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage numérique à son interprète.",
+   "paires": [
+    [
+     "Gollum",
+     "Andy Serkis"
+    ],
+    [
+     "Smaug",
+     "Benedict Cumberbatch"
+    ],
+    [
+     "Sylvebarbe",
+     "John Rhys-Davies"
+    ]
+   ],
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "John Rhys-Davies prête sa voix grave au vieil Ent, en plus de jouer Gimli.",
+   "id": "t030-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis réalisateur néo-zélandais\n2. J’ai débuté dans l’horreur à petit budget\n3. J’ai adapté les deux grands romans",
+   "choix": [
+    "Peter Jackson",
+    "Ralph Bakshi",
+    "Guillermo del Toro",
+    "Kenji Kamiyama"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Ses premiers films, comme Bad Taste, étaient des comédies gore tournées avec des amis.",
+   "id": "t030-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis acteur\n2. Je joue un magicien gris\n3. Je joue aussi Magneto",
+   "choix": [
+    "Ian McKellen",
+    "Christopher Lee",
+    "Ian Holm",
+    "Patrick Stewart"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Il est nommé à l’Oscar du meilleur second rôle pour La Communauté de l’Anneau.",
+   "id": "t030-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis acteur\n2. J’ai rencontré Tolkien\n3. Je joue un magicien blanc",
+   "choix": [
+    "Christopher Lee",
+    "Ian McKellen",
+    "Hugo Weaving",
+    "Bernard Hill"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Il était aussi célèbre pour avoir joué Dracula et le comte Dooku.",
+   "id": "t030-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis acteur\n2. On ne voit presque jamais mon visage\n3. Je joue Gollum par capture de mouvement",
+   "choix": [
+    "Andy Serkis",
+    "Elijah Wood",
+    "Benedict Cumberbatch",
+    "Billy Boyd"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Il a ensuite joué César dans La Planète des singes.",
+   "id": "t030-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis compositeur\n2. J’ai écrit plus de dix heures de musique\n3. Mes thèmes accompagnent la Comté et le Mordor",
+   "choix": [
+    "Howard Shore",
+    "Hans Zimmer",
+    "John Williams",
+    "Ennio Morricone"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Il remporte trois Oscars pour la trilogie.",
+   "id": "t030-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un atelier\n2. Je fabrique armes et prothèses\n3. Je suis à Wellington",
+   "choix": [
+    "Weta Workshop",
+    "Industrial Light & Magic",
+    "Pinewood",
+    "Pixar"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Richard Taylor, son cofondateur, remporte plusieurs Oscars pour la trilogie.",
+   "id": "t030-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une adaptation de 1978\n2. J’utilise la rotoscopie\n3. Je m’arrête au Gouffre de Helm",
+   "choix": [
+    "Le film de Ralph Bakshi",
+    "Le Hobbit de Rankin/Bass",
+    "La Communauté de l’Anneau",
+    "La Guerre des Rohirrim"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Malgré son inachèvement, il a fait découvrir Tolkien à toute une génération.",
+   "id": "t030-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une série\n2. Je me déroule au Deuxième Âge\n3. Galadriel y est une guerrière",
+   "choix": [
+    "Les Anneaux de Pouvoir",
+    "Le Hobbit",
+    "La Guerre des Rohirrim",
+    "Hobitit"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Elle met en scène la forge des Anneaux et la chute progressive de Númenor.",
+   "id": "t030-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une Elfe\n2. On m’a inventée pour le cinéma\n3. Je m’éprends d’un Nain",
+   "choix": [
+    "Tauriel",
+    "Arwen",
+    "Galadriel",
+    "Nimrodel"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Son histoire avec Kíli a divisé les admirateurs du livre.",
+   "id": "t030-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un dragon\n2. On m’a créé par ordinateur\n3. Benedict Cumberbatch me prête sa voix",
+   "choix": [
+    "Smaug",
+    "Glaurung",
+    "Ancalagon",
+    "Le Balrog"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "Il est le grand adversaire de La Désolation de Smaug.",
+   "id": "t030-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une chanson\n2. Annie Lennox me chante\n3. J’ai reçu l’Oscar",
+   "choix": [
+    "Into the West",
+    "May It Be",
+    "I See Fire",
+    "Gollum’s Song"
+   ],
+   "rep": 0,
+   "src": "Ian Nathan, Anything You Can Imagine (2018)",
+   "expl": "La chanson évoque le départ vers l’Ouest et le deuil.",
+   "id": "t030-140",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

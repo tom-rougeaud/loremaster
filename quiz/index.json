@@ -756,6 +756,32 @@
    }
   },
   {
+   "id": "tolkien-ecran",
+   "nom": "Tolkien à l’écran",
+   "royaume": "Terres de Tolkien",
+   "icone": "camera",
+   "sombre": false,
+   "fichier": "tolkien-ecran.json",
+   "nb": 140,
+   "num": 30,
+   "types": {
+    "qcm": 50,
+    "vf": 18,
+    "slider": 8,
+    "trou": 13,
+    "intrus": 10,
+    "multi": 10,
+    "ordre": 10,
+    "assoc": 10,
+    "qui": 11
+   },
+   "niveaux": {
+    "1": 30,
+    "2": 86,
+    "3": 24
+   }
+  },
+  {
    "id": "mythologie-grecque",
    "nom": "Mythologie grecque (monstres et héros)",
    "royaume": "Mythologies et folklores du monde",
@@ -782,16 +808,6 @@
    "icone": "des",
    "virtuel": true,
    "num": 100
-  },
-  {
-   "id": "terre-du-milieu",
-   "nom": "Terre du Milieu (questions générales)",
-   "royaume": "Terres de Tolkien",
-   "icone": "anneau",
-   "sombre": false,
-   "fichier": "terre-du-milieu.json",
-   "nb": 70,
-   "num": 900
   }
  ]
 }
