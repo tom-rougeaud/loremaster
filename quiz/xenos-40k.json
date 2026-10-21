@@ -1,0 +1,1988 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "xenos-40k",
+  "nom": "Xenos et peuples non humains (40k)",
+  "royaume": "Les univers Warhammer",
+  "icone": "tentacule",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment se reproduisent les Orks ?",
+   "choix": [
+    "Par des spores qu’ils libèrent",
+    "Par des œufs pondus en ruche",
+    "Par clonage en laboratoire",
+    "Comme les humains"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Un champ de bataille ork devient souvent, des années plus tard, un nid de nouveaux Orks.",
+   "id": "t042-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les petits peaux-vertes qui servent d’esclaves aux Orks ?",
+   "choix": [
+    "Les gretchins",
+    "Les squigs",
+    "Les snotlings",
+    "Les kroots"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Plus malins que les Orks, ils sont aussi bien plus lâches.",
+   "id": "t042-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le plus célèbre seigneur de guerre ork, ennemi de la planète Armageddon ?",
+   "choix": [
+    "Ghazghkull Thraka",
+    "Grimgor",
+    "Gorbad",
+    "Azhag"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Il affronte à plusieurs reprises le commissaire Yarrick.",
+   "id": "t042-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel commissaire impérial est l’ennemi juré de Ghazghkull ?",
+   "choix": [
+    "Sebastian Yarrick",
+    "Ciaphas Cain",
+    "Ursarkar Creed",
+    "Ibram Gaunt"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Il porte une pince mécanique et un œil-laser, souvenirs de leurs combats.",
+   "id": "t042-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi un véhicule peint en rouge va-t-il plus vite chez les peaux-vertes ?",
+   "choix": [
+    "Parce qu’ils en sont tous convaincus",
+    "Grâce à une peinture magique",
+    "Parce que le rouge chauffe le moteur",
+    "Parce que Gork l’a béni"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "La croyance collective des Orks influe réellement sur le monde qui les entoure.",
+   "id": "t042-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que servent de monnaie aux Orks ?",
+   "choix": [
+    "Leurs dents",
+    "Des crânes",
+    "Des boulons",
+    "Des squigs séchés"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Les dents repoussent ; un Ork riche a donc souvent beaucoup de dents en poche.",
+   "id": "t042-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel clan ork est réputé pour sa passion de la vitesse et la couleur rouge ?",
+   "choix": [
+    "Les Evil Sunz",
+    "Les Goffs",
+    "Les Bad Moons",
+    "Les Deathskulls"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Ils roulent dans des engins bricolés aussi rapides que bruyants.",
+   "id": "t042-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel clan ork est riche et se pare de jaune ?",
+   "choix": [
+    "Les Bad Moons",
+    "Les Blood Axes",
+    "Les Snakebites",
+    "Les Evil Sunz"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Leurs dents repoussent plus vite que celles des autres, d’où leur richesse.",
+   "id": "t042-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les vaisseaux géants où vivent la plupart des Aeldari ?",
+   "choix": [
+    "Les vaisseaux-mondes",
+    "Les Arches Noires",
+    "Les monolithes",
+    "Les vaisseaux-ruches"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Ils ont fui la Chute à bord de ces immenses cités spatiales.",
+   "id": "t042-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que portent les Aeldari pour protéger leur âme de Slaanesh ?",
+   "choix": [
+    "Une pierre esprit",
+    "Un talisman de Khaine",
+    "Une armure de wraithbone",
+    "Un anneau d’ombre"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "À leur mort, leur âme est capturée dans la pierre plutôt qu’aspirée par le dieu.",
+   "id": "t042-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Grand Prophète aeldari est célèbre pour ses manipulations ?",
+   "choix": [
+    "Eldrad Ulthran",
+    "Asurmen",
+    "Asdrubael Vect",
+    "Illic Nightspear"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Il voit de nombreux futurs et sacrifie volontiers d’autres peuples.",
+   "id": "t042-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu de la guerre aeldari s’incarne en un Avatar de fer brûlant ?",
+   "choix": [
+    "Khaine",
+    "Asuryan",
+    "Cegorach",
+    "Isha"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Son Avatar dort au cœur du vaisseau-monde et s’éveille en temps de guerre.",
+   "id": "t042-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le réseau de tunnels dimensionnels des Aeldari ?",
+   "choix": [
+    "La Toile",
+    "Le Warp",
+    "Le Réseau d’Or",
+    "Le Labyrinthe"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Il permet de voyager sans passer par le Warp, et donc sans croiser Slaanesh.",
+   "id": "t042-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu rieur protège les Arlequins ?",
+   "choix": [
+    "Cegorach",
+    "Khaine",
+    "Slaanesh",
+    "Ynnead"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Il est l’un des rares dieux aeldari à avoir survécu à la Chute.",
+   "id": "t042-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle cité cachée de la Toile vivent les Drukhari ?",
+   "choix": [
+    "Commorragh",
+    "Ulthwé",
+    "Biel-Tan",
+    "Iyanden"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Une gigantesque métropole de pirates et de tortionnaires.",
+   "id": "t042-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quoi les Drukhari se nourrissent-ils pour éviter que Slaanesh ne dévore leur âme ?",
+   "choix": [
+    "De la souffrance d’autrui",
+    "De sang humain",
+    "De pierres esprits",
+    "De la lumière des étoiles"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Ils mènent des raids pour capturer des esclaves à torturer.",
+   "id": "t042-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel tyran règne sur Commorragh ?",
+   "choix": [
+    "Asdrubael Vect",
+    "Eldrad Ulthran",
+    "Trazyn",
+    "Imotekh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Il a survécu à d’innombrables complots, souvent en les organisant lui-même.",
+   "id": "t042-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nouveau dieu de la mort une partie des Aeldari veut-elle éveiller ?",
+   "choix": [
+    "Ynnead",
+    "Khaine",
+    "Asuryan",
+    "Morai-Heg"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Ses fidèles, les Ynnari, sont menés par la prophétesse Yvraine.",
+   "id": "t042-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel peuple mortel a échangé sa chair contre un corps de métal vivant ?",
+   "choix": [
+    "Les Nécrontyr",
+    "Les Anciens",
+    "Les C’tan",
+    "Les Slann"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Leur vie était courte, à cause de leur soleil radioactif.",
+   "id": "t042-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels êtres stellaires ont transformé les Nécrontyr en machines ?",
+   "choix": [
+    "Les C’tan",
+    "Les Anciens",
+    "Les dieux du Chaos",
+    "Les Tyranides"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "En échange, ils ont dévoré les âmes de tout un peuple.",
+   "id": "t042-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel souverain nécron s’éveille pour réparer les erreurs de son peuple ?",
+   "choix": [
+    "Le Roi Silencieux",
+    "Imotekh",
+    "Trazyn",
+    "Orikan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Szarekh avait ordonné la biotransférence ; il cherche maintenant à rendre leur chair aux Nécrons.",
+   "id": "t042-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nécron collectionne les reliques de toutes les civilisations ?",
+   "choix": [
+    "Trazyn l’Infini",
+    "Imotekh",
+    "Orikan",
+    "Anrakyr"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Il expose même des humains, figés à jamais, dans ses galeries.",
+   "id": "t042-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel seigneur nécron est surnommé le Seigneur des Tempêtes ?",
+   "choix": [
+    "Imotekh",
+    "Trazyn",
+    "Szarekh",
+    "Zahndrekh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Phaëron de la dynastie Sautekh, il est un stratège redoutable.",
+   "id": "t042-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conflit antique oppose les Nécrons aux Anciens ?",
+   "choix": [
+    "La Guerre du Ciel",
+    "L’Hérésie",
+    "La Chute",
+    "La Grande Croisade"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Les Anciens créent alors les Aeldari et les Krorks, ancêtres des Orks.",
+   "id": "t042-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que font les Nécrons après la Guerre du Ciel ?",
+   "choix": [
+    "Ils dorment dans des mondes-tombeaux",
+    "Ils s’exilent dans le Warp",
+    "Ils fusionnent avec les Orks",
+    "Ils fondent un empire humain"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Ils s’éveillent aujourd’hui, après soixante millions d’années.",
+   "id": "t042-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle philosophie unit l’empire t’au ?",
+   "choix": [
+    "Le Plus Grand Bien",
+    "Le Credo impérial",
+    "La Voie",
+    "Le Grand Jeu"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Chaque individu doit servir l’intérêt collectif.",
+   "id": "t042-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle caste dirige la société t’au ?",
+   "choix": [
+    "Les Éthérés",
+    "La caste du Feu",
+    "La caste de la Terre",
+    "La caste de l’Eau"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Leur influence sur les autres castes a quelque chose de mystérieux.",
+   "id": "t042-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle caste t’au fournit les guerriers ?",
+   "choix": [
+    "La caste du Feu",
+    "La caste de l’Eau",
+    "La caste de l’Air",
+    "La caste de la Terre"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "L’Eau gère la diplomatie, la Terre l’industrie et l’Air les pilotes.",
+   "id": "t042-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel commandant t’au a fait sécession pour fonder ses propres enclaves ?",
+   "choix": [
+    "Farsight",
+    "Shadowsun",
+    "Aun’Va",
+    "Puretide"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Il porte une lame mystérieuse, et se méfie des Éthérés.",
+   "id": "t042-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels mercenaires à bec combattent aux côtés des T’au ?",
+   "choix": [
+    "Les Kroots",
+    "Les Vespides",
+    "Les gretchins",
+    "Les Jokaeros"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Ils mangent leurs ennemis pour intégrer leurs traits génétiques.",
+   "id": "t042-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles armures de combat pilotées font la force des T’au ?",
+   "choix": [
+    "Les exo-armures",
+    "Les armures Terminator",
+    "Les Dreadnoughts",
+    "Les Titans"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "De la Crisis à la gigantesque Riptide, elles allient vitesse et puissance de feu.",
+   "id": "t042-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle intelligence collective guide les Tyranides ?",
+   "choix": [
+    "L’Esprit de la Ruche",
+    "Le Grand Dévoreur",
+    "Le Plus Grand Bien",
+    "Le Dieu-Machine"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Sa présence crée une « Ombre dans le Warp » qui coupe les psykers.",
+   "id": "t042-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle flotte-ruche tyranide attaque Macragge la première ?",
+   "choix": [
+    "Béhémoth",
+    "Kraken",
+    "Léviathan",
+    "Gorgone"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Les Ultramarines la repoussent au prix de toute leur première compagnie.",
+   "id": "t042-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le but des Tyranides lorsqu’ils envahissent une planète ?",
+   "choix": [
+    "Dévorer toute sa biomasse",
+    "Convertir ses habitants",
+    "Exploiter ses minerais",
+    "Y bâtir des temples"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Ils ne laissent derrière eux qu’un rocher nu, sans atmosphère.",
+   "id": "t042-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles créatures infiltrent les mondes avant l’arrivée des flottes-ruches ?",
+   "choix": [
+    "Les Genestealers",
+    "Les Hormagaunts",
+    "Les Carnifex",
+    "Les Zoanthropes"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Leurs hybrides fondent des cultes qui préparent l’invasion.",
+   "id": "t042-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature tyranide, véritable bélier vivant, charge les lignes ennemies ?",
+   "choix": [
+    "Le Carnifex",
+    "Le Lictor",
+    "Le Termagant",
+    "Le Zoanthrope"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Un Carnifex légendaire, Old One Eye, a survécu à d’innombrables batailles.",
+   "id": "t042-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel guerrier tyranide unique est l’incarnation de la stratégie de l’Esprit de la Ruche ?",
+   "choix": [
+    "Le Maître des Essaims",
+    "Old One Eye",
+    "Le Patriarche",
+    "Le Lictor"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Il est recréé à chaque nouvelle invasion majeure.",
+   "id": "t042-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel peuple de nains de l’espace forme les Ligues de Votann ?",
+   "choix": [
+    "Les Kin",
+    "Les Squigs",
+    "Les Kroots",
+    "Les Ratlings"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Ils vénèrent leurs Ancêtres, des intelligences artificielles anciennes.",
+   "id": "t042-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle race disparue a créé les Aeldari et les Krorks ?",
+   "choix": [
+    "Les Anciens",
+    "Les Nécrontyr",
+    "Les C’tan",
+    "Les Jokaeros"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "Ils voulaient des alliés contre les Nécrons pendant la Guerre du Ciel.",
+   "id": "t042-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels grands singes orange possèdent un génie technologique instinctif ?",
+   "choix": [
+    "Les Jokaeros",
+    "Les Kroots",
+    "Les Vespides",
+    "Les Hrud"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Orks, Aeldari, Drukhari, Nécrons, T’au Empire, Tyranides, Ligues de Votann (8e à 10e éditions)",
+   "expl": "L’Imperium s’en sert comme armuriers, notamment chez la Deathwatch.",
+   "id": "t042-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Orks ne craignent pas le combat, au contraire.",
+   "rep": true,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils adorent la bagarre, qui est pour eux le sens même de la vie.",
+   "id": "t042-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Aeldari vivent plus longtemps que les humains.",
+   "rep": true,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils peuvent vivre des millénaires, mais leurs émotions sont dangereusement intenses.",
+   "id": "t042-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Un Aeldari suit toute sa vie une seule Voie.",
+   "rep": false,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Faux : il passe d’une Voie à l’autre, de guerrier à artisan, pour ne pas s’y perdre.",
+   "id": "t042-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Nécrons sont des démons du Warp.",
+   "rep": false,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Faux : ce sont des androïdes, sans âme, presque insensibles au Warp.",
+   "id": "t042-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Nécrons peuvent se réparer sur le champ de bataille.",
+   "rep": true,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Leurs protocoles de réanimation relèvent les guerriers abattus.",
+   "id": "t042-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les T’au sont une race très ancienne.",
+   "rep": false,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Faux : ce sont une jeune race, très avancée technologiquement.",
+   "id": "t042-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Kroots mangent la chair de leurs ennemis.",
+   "rep": true,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils intègrent ainsi des traits génétiques, et façonnent leur évolution.",
+   "id": "t042-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Tyranides viennent de l’intérieur de la galaxie.",
+   "rep": false,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Faux : ils arrivent de l’espace intergalactique.",
+   "id": "t042-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "L’Ombre dans le Warp gêne les pouvoirs des psykers.",
+   "rep": true,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Elle bloque aussi les messages des astropathes.",
+   "id": "t042-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Drukhari vivent dans des vaisseaux-mondes.",
+   "rep": false,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Faux : ils vivent à Commorragh, dans la Toile.",
+   "id": "t042-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Arlequins dansent pour raconter des mythes aeldari.",
+   "rep": true,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Leurs représentations deviennent des combats acrobatiques mortels.",
+   "id": "t042-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les gretchins sont plus grands que les Orks.",
+   "rep": false,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Faux : ils sont petits et chétifs, et les Orks les maltraitent volontiers.",
+   "id": "t042-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Ligues de Votann sont des descendants d’humains.",
+   "rep": true,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils se sont adaptés à des mondes miniers difficiles.",
+   "id": "t042-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les T’au vénèrent les dieux du Chaos.",
+   "rep": false,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Faux : ils sont presque dépourvus de présence dans le Warp.",
+   "id": "t042-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Depuis combien de millions d’années les Nécrons dormaient-ils ?",
+   "rep": 60,
+   "min": 10,
+   "max": 100,
+   "pas": 5,
+   "unite": "millions d’années",
+   "tolerance": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils s’éveillent dans une galaxie qu’ils ne reconnaissent plus.",
+   "id": "t042-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de castes principales compte la société t’au ?",
+   "rep": 5,
+   "min": 2,
+   "max": 8,
+   "pas": 1,
+   "unite": "castes",
+   "tolerance": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les quatre castes des éléments, plus les Éthérés qui les dirigent.",
+   "id": "t042-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de bras possède un Genestealer ?",
+   "rep": 4,
+   "min": 2,
+   "max": 8,
+   "pas": 1,
+   "unite": "bras",
+   "tolerance": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Deux griffes tranchantes et deux mains plus fines, capables de saisir.",
+   "id": "t042-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort la boîte Leviathan, qui lance la 10e édition de 40k ?",
+   "rep": 2023,
+   "min": 2015,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Elle oppose des Space Marines aux Tyranides de la flotte-ruche Léviathan.",
+   "id": "t042-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de clans orks majeurs sont décrits dans le Codex Orks ?",
+   "rep": 6,
+   "min": 2,
+   "max": 10,
+   "pas": 1,
+   "unite": "clans",
+   "tolerance": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Goffs, Evil Sunz, Bad Moons, Deathskulls, Snakebites et Blood Axes.",
+   "id": "t042-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de dieux les Orks vénèrent-ils ?",
+   "rep": 2,
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "dieux",
+   "tolerance": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Gork et Mork : on ne sait jamais lequel est le plus brutal ou le plus rusé.",
+   "id": "t042-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année de la vraie histoire du jeu le T’au Empire fait-il son apparition ?",
+   "rep": 2001,
+   "min": 1987,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils arrivent avec la troisième édition de Warhammer 40,000.",
+   "id": "t042-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année les Ligues de Votann arrivent-elles dans le jeu ?",
+   "rep": 2022,
+   "min": 2010,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils sont les héritiers des Squats retirés trente ans plus tôt.",
+   "id": "t042-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le cri de guerre et la grande ruée des Orks s’appellent la ____ !",
+   "choix": [
+    "Waaagh",
+    "Bwaa",
+    "Krump",
+    "Graaah"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Plus la Waaagh grandit, plus les Orks deviennent puissants.",
+   "id": "t042-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le plus célèbre seigneur de guerre ork s’appelle Ghazghkull Mag Uruk ____.",
+   "choix": [
+    "Thraka",
+    "Grimgor",
+    "Gork",
+    "Snagrod"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Il se dit prophète de Gork et de Mork, et rêve d’une Waaagh galactique.",
+   "id": "t042-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les créatures-champignons qui servent de nourriture et de monture aux Orks sont les ____.",
+   "choix": [
+    "squigs",
+    "gretchins",
+    "kroots",
+    "gnobs"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils existent sous toutes les formes : à crocs, à poils, à frappe…",
+   "id": "t042-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Aeldari conservent leur âme dans une pierre ____.",
+   "choix": [
+    "esprit",
+    "sacrée",
+    "d’âme",
+    "de vie"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les pierres finissent parfois dans des corps de wraithbone, au combat.",
+   "id": "t042-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les premiers guerriers aspects sont dirigés par les Seigneurs ____.",
+   "choix": [
+    "Phénix",
+    "Dragons",
+    "Aigles",
+    "Lions"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Asurmen, le premier, a fondé les Vengeurs.",
+   "id": "t042-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La cité des Drukhari s’appelle ____.",
+   "choix": [
+    "Commorragh",
+    "Commorrah",
+    "Comorrath",
+    "Khaine"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Elle est cachée au sein de la Toile, à l’abri du Warp et de Slaanesh.",
+   "id": "t042-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les androïdes millénaires aux armes gauss sont les ____.",
+   "choix": [
+    "Nécrons",
+    "Tyranides",
+    "Kroots",
+    "Votann"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Leurs armes désintègrent leurs cibles molécule par molécule.",
+   "id": "t042-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La philosophie des T’au s’appelle le Plus Grand ____.",
+   "choix": [
+    "Bien",
+    "Destin",
+    "Ordre",
+    "Avenir"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les T’au proposent souvent l’intégration pacifique à leurs adversaires.",
+   "id": "t042-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’intelligence commune des Tyranides s’appelle l’Esprit de la ____.",
+   "choix": [
+    "Ruche",
+    "Horde",
+    "Flotte",
+    "Nuée"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Chaque créature est reliée à elle et lui obéit.",
+   "id": "t042-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Tyranides infiltrés qui préparent l’invasion s’appellent les ____.",
+   "choix": [
+    "Genestealers",
+    "Lictors",
+    "Termagants",
+    "Raveners"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Leurs cultes vénèrent les flottes-ruches comme des anges libérateurs.",
+   "id": "t042-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les êtres stellaires qui ont asservi les Nécrons s’appellent les ____.",
+   "choix": [
+    "C’tan",
+    "Anciens",
+    "Slann",
+    "Aeldari"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils ont été brisés en fragments par les Nécrons eux-mêmes.",
+   "id": "t042-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le seigneur nécron collectionneur s’appelle ____ l’Infini.",
+   "choix": [
+    "Trazyn",
+    "Imotekh",
+    "Orikan",
+    "Szarekh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Il peut transférer son esprit dans n’importe quel corps de sa dynastie.",
+   "id": "t042-074",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces peuples n’est pas xenos ?",
+   "choix": [
+    "Les Space Marines",
+    "Les Orks",
+    "Les Nécrons",
+    "Les T’au"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les Space Marines sont des humains transformés.",
+   "id": "t042-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces vaisseaux-mondes n’est pas aeldari ?",
+   "choix": [
+    "Commorragh",
+    "Ulthwé",
+    "Biel-Tan",
+    "Iyanden"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Commorragh est la cité des Drukhari, les Aeldari pirates.",
+   "id": "t042-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces clans n’est pas un clan ork ?",
+   "choix": [
+    "Les Sautekh",
+    "Les Goffs",
+    "Les Bad Moons",
+    "Les Evil Sunz"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Sautekh est une dynastie nécronne, celle d’Imotekh.",
+   "id": "t042-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces castes n’existe pas chez les T’au ?",
+   "choix": [
+    "La caste du Métal",
+    "La caste du Feu",
+    "La caste de l’Eau",
+    "La caste de l’Air"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les castes portent les noms des éléments.",
+   "id": "t042-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un Nécron ?",
+   "choix": [
+    "Eldrad Ulthran",
+    "Trazyn",
+    "Imotekh",
+    "Szarekh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Eldrad est un Grand Prophète aeldari du vaisseau-monde Ulthwé.",
+   "id": "t042-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures n’est pas tyranide ?",
+   "choix": [
+    "Le squig",
+    "Le Carnifex",
+    "Le Lictor",
+    "L’Hormagaunt"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Le squig est une créature ork, mi-champignon, mi-animal.",
+   "id": "t042-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces alliés ne sert pas l’empire t’au ?",
+   "choix": [
+    "Les gretchins",
+    "Les Kroots",
+    "Les Vespides",
+    "Les humains Gue’vesa"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les gretchins servent les Orks, souvent comme chair à canon.",
+   "id": "t042-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas aeldari ?",
+   "choix": [
+    "Gork",
+    "Khaine",
+    "Cegorach",
+    "Isha"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Gork est un dieu ork ; Khaine, Cegorach et Isha sont aeldari.",
+   "id": "t042-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces peuples n’a pas été créé ou modifié par les Anciens ?",
+   "choix": [
+    "Les Nécrons",
+    "Les Aeldari",
+    "Les Krorks",
+    "Les Slann"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les Nécrons, ennemis des Anciens, leur ont déclaré la guerre.",
+   "id": "t042-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces flottes-ruches n’existe pas ?",
+   "choix": [
+    "La flotte-ruche Ulthwé",
+    "Béhémoth",
+    "Kraken",
+    "Léviathan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ulthwé est un vaisseau-monde aeldari, proche de l’Œil de la Terreur.",
+   "id": "t042-084",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels peuples sont des Aeldari ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vaisseaux-mondes",
+    "Drukhari",
+    "Arlequins",
+    "Ynnari",
+    "Nécrons",
+    "T’au"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "La Chute a éclaté le peuple aeldari en plusieurs branches.",
+   "id": "t042-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels clans sont des clans orks ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Goffs",
+    "Evil Sunz",
+    "Bad Moons",
+    "Deathskulls",
+    "Sautekh",
+    "Biel-Tan"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Chaque clan a ses couleurs et sa façon de faire la guerre.",
+   "id": "t042-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures servent les Tyranides ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hormagaunts",
+    "Carnifex",
+    "Lictor",
+    "Zoanthrope",
+    "Kroot",
+    "Gretchin"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "L’Esprit de la Ruche crée des formes adaptées à chaque ennemi.",
+   "id": "t042-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des Nécrons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Trazyn",
+    "Imotekh",
+    "Szarekh",
+    "Orikan",
+    "Asdrubael Vect",
+    "Farsight"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Orikan est un chronomancien capable de voir l’avenir.",
+   "id": "t042-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles castes composent la société t’au ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Feu",
+    "Terre",
+    "Eau",
+    "Air",
+    "Fer",
+    "Ombre"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les Éthérés, au sommet, dirigent toutes les autres.",
+   "id": "t042-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels guerriers aspects existent chez les Aeldari ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Banshees Hurlantes",
+    "Dragons de Feu",
+    "Faucheurs Noirs",
+    "Sanguinaires",
+    "Gretchins"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Chaque temple aspect incarne une facette du dieu Khaine.",
+   "id": "t042-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples xenos sont presque absents du Warp ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nécrons",
+    "T’au",
+    "Aeldari",
+    "Orks"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les Aeldari ont une forte présence psychique, tout comme les Orks.",
+   "id": "t042-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des Aeldari ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Eldrad Ulthran",
+    "Asdrubael Vect",
+    "Yvraine",
+    "Ghazghkull",
+    "Imotekh"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ghazghkull est un Ork, Imotekh un Nécron.",
+   "id": "t042-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels peuples ont combattu pendant la Guerre du Ciel ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nécrons",
+    "Anciens",
+    "C’tan",
+    "T’au",
+    "Ligues de Votann"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les T’au et les Votann sont bien plus récents.",
+   "id": "t042-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles armes ou unités appartiennent aux T’au ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fusil à impulsions",
+    "Exo-armure Crisis",
+    "Hammerhead",
+    "Monolithe",
+    "Carnifex"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Le Monolithe est nécron, le Carnifex tyranide.",
+   "id": "t042-094",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes du destin des Nécrontyr dans l’ordre.",
+   "items": [
+    "Vie de mortels",
+    "Pacte avec les C’tan",
+    "Biotransférence",
+    "Grand sommeil"
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ils se réveillent à l’époque de l’Imperium.",
+   "id": "t042-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces flottes-ruches dans l’ordre de leur apparition.",
+   "items": [
+    "Béhémoth",
+    "Kraken",
+    "Léviathan"
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Léviathan attaque par le dessous du plan galactique.",
+   "id": "t042-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes d’une invasion tyranide dans l’ordre.",
+   "items": [
+    "Arrivée des Genestealers",
+    "Soulèvement du culte",
+    "Arrivée de la flotte-ruche",
+    "Dévoration de la biomasse"
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "À la fin, les créatures elles-mêmes sont recyclées.",
+   "id": "t042-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’histoire des Aeldari dans l’ordre.",
+   "items": [
+    "Empire aeldari",
+    "Décadence",
+    "Naissance de Slaanesh",
+    "Fuite sur les vaisseaux-mondes"
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Seuls ceux qui ont fui à temps ont survécu.",
+   "id": "t042-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces peuples du plus ancien au plus récent.",
+   "items": [
+    "Nécrons",
+    "Aeldari",
+    "Humains",
+    "T’au"
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les T’au n’en étaient qu’à l’âge de pierre il y a quelques milliers d’années.",
+   "id": "t042-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces Orks du plus petit au plus grand.",
+   "items": [
+    "Snotling",
+    "Gretchin",
+    "Ork",
+    "Boss"
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Plus un Ork se bat et gagne, plus il grandit et devient fort.",
+   "id": "t042-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces exo-armures t’au de la plus petite à la plus grande.",
+   "items": [
+    "Stealth",
+    "Crisis",
+    "Riptide"
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les plus grandes sont de véritables géants d’acier.",
+   "id": "t042-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie d’un Aeldari des vaisseaux-mondes dans l’ordre.",
+   "items": [
+    "Il choisit une Voie",
+    "Il change de Voie",
+    "Il meurt",
+    "Son âme rejoint la pierre esprit"
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Certains restent piégés dans une Voie, comme les Exarques.",
+   "id": "t042-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la sécession de Farsight dans l’ordre.",
+   "items": [
+    "Expédition au-delà du Golfe de Damoclès",
+    "Mort des Éthérés de l’expédition",
+    "Refus de rentrer",
+    "Fondation des Enclaves"
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "On ignore encore ce qui est vraiment arrivé aux Éthérés.",
+   "id": "t042-103",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque peuple à son dieu ou à son guide.",
+   "paires": [
+    [
+     "Orks",
+     "Gork et Mork"
+    ],
+    [
+     "Tyranides",
+     "Esprit de la Ruche"
+    ],
+    [
+     "T’au",
+     "Plus Grand Bien"
+    ],
+    [
+     "Arlequins",
+     "Cegorach"
+    ]
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Chaque peuple voit l’univers à travers ses croyances.",
+   "id": "t042-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque chef à son peuple.",
+   "paires": [
+    [
+     "Ghazghkull",
+     "Orks"
+    ],
+    [
+     "Eldrad Ulthran",
+     "Aeldari"
+    ],
+    [
+     "Imotekh",
+     "Nécrons"
+    ],
+    [
+     "Farsight",
+     "T’au"
+    ]
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ces chefs mènent leurs armées dans de nombreuses campagnes.",
+   "id": "t042-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque caste t’au à son rôle.",
+   "paires": [
+    [
+     "Feu",
+     "Guerriers"
+    ],
+    [
+     "Terre",
+     "Ingénieurs"
+    ],
+    [
+     "Eau",
+     "Diplomates"
+    ],
+    [
+     "Air",
+     "Pilotes"
+    ]
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les castes se marient peu entre elles et ont leur propre caractère.",
+   "id": "t042-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque clan ork à sa couleur.",
+   "paires": [
+    [
+     "Evil Sunz",
+     "Rouge"
+    ],
+    [
+     "Bad Moons",
+     "Jaune"
+    ],
+    [
+     "Goffs",
+     "Noir"
+    ],
+    [
+     "Deathskulls",
+     "Bleu"
+    ]
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les Deathskulls se peignent en bleu pour porter chance.",
+   "id": "t042-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque peuple à son arme typique.",
+   "paires": [
+    [
+     "Nécrons",
+     "Arme gauss"
+    ],
+    [
+     "T’au",
+     "Fusil à impulsions"
+    ],
+    [
+     "Orks",
+     "Kikoup’"
+    ],
+    [
+     "Aeldari",
+     "Catapulte shuriken"
+    ]
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Chaque arme reflète la technologie de son peuple.",
+   "id": "t042-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à son peuple.",
+   "paires": [
+    [
+     "Commorragh",
+     "Drukhari"
+    ],
+    [
+     "Ulthwé",
+     "Aeldari"
+    ],
+    [
+     "Mondes-tombeaux",
+     "Nécrons"
+    ],
+    [
+     "Golfe de Damoclès",
+     "T’au"
+    ]
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les T’au ont affronté l’Imperium dans le Golfe de Damoclès.",
+   "id": "t042-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature à son rôle tyranide.",
+   "paires": [
+    [
+     "Lictor",
+     "Éclaireur"
+    ],
+    [
+     "Carnifex",
+     "Bélier"
+    ],
+    [
+     "Zoanthrope",
+     "Psyker"
+    ],
+    [
+     "Hormagaunt",
+     "Infanterie rapide"
+    ]
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Chaque forme sert un but précis de l’Esprit de la Ruche.",
+   "id": "t042-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à son surnom.",
+   "paires": [
+    [
+     "Trazyn",
+     "L’Infini"
+    ],
+    [
+     "Imotekh",
+     "Le Seigneur des Tempêtes"
+    ],
+    [
+     "Szarekh",
+     "Le Roi Silencieux"
+    ],
+    [
+     "Asdrubael Vect",
+     "Le Tyran"
+    ]
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les surnoms des chefs xenos sont connus jusque dans l’Imperium.",
+   "id": "t042-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque flotte-ruche à sa victime célèbre.",
+   "paires": [
+    [
+     "Béhémoth",
+     "Macragge"
+    ],
+    [
+     "Kraken",
+     "Iyanden"
+    ],
+    [
+     "Léviathan",
+     "Baal"
+    ]
+   ],
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les Blood Angels ont résisté à Léviathan sur leur monde natal.",
+   "id": "t042-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Ork\n2. J’ai une plaque de métal dans le crâne\n3. Je me dis prophète de Gork et Mork",
+   "choix": [
+    "Ghazghkull",
+    "Grimgor",
+    "Gorbad",
+    "Snagrod"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Une blessure à la tête l’a, dit-on, rendu plus malin.",
+   "id": "t042-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Aeldari\n2. Je suis un Grand Prophète\n3. Je vois les futurs possibles",
+   "choix": [
+    "Eldrad Ulthran",
+    "Asdrubael Vect",
+    "Asurmen",
+    "Yvraine"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Il s’est sacrifié pour une prophétie, avant de revenir.",
+   "id": "t042-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Nécron\n2. J’expose des reliques\n3. Je change de corps à volonté",
+   "choix": [
+    "Trazyn",
+    "Imotekh",
+    "Szarekh",
+    "Orikan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Il considère les autres peuples comme des pièces de musée.",
+   "id": "t042-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un T’au\n2. J’ai quitté l’empire\n3. Je porte une épée mystérieuse",
+   "choix": [
+    "Farsight",
+    "Shadowsun",
+    "Aun’Va",
+    "Puretide"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Ses Enclaves forment une société distincte de celle des Éthérés.",
+   "id": "t042-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Tyranide\n2. J’ai un seul œil\n3. Je survis à tout",
+   "choix": [
+    "Old One Eye",
+    "Le Maître des Essaims",
+    "Le Patriarche",
+    "Le Lictor"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Il se régénère à une vitesse extraordinaire.",
+   "id": "t042-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une cité\n2. Je suis cachée dans la Toile\n3. J’abrite des tortionnaires",
+   "choix": [
+    "Commorragh",
+    "Ulthwé",
+    "Biel-Tan",
+    "Baal"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "La cité vit des raids menés dans toute la galaxie.",
+   "id": "t042-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une race\n2. J’ai créé les Aeldari\n3. J’ai disparu",
+   "choix": [
+    "Les Anciens",
+    "Les C’tan",
+    "Les Nécrontyr",
+    "Les Slann"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Les Slann, dans Fantasy, sont leurs serviteurs.",
+   "id": "t042-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je ris\n3. Je protège les Arlequins",
+   "choix": [
+    "Cegorach",
+    "Khaine",
+    "Isha",
+    "Ynnead"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex xenos de Warhammer 40,000",
+   "expl": "Il a échappé à Slaanesh par la ruse et parcourt la Toile en riant.",
+   "id": "t042-120",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

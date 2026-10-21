@@ -19,3 +19,4 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 39 : noms français « Griffe-de-Mort » (griffon de Karl Franz), « Gorbad Griffe-de-Fer », « tank à vapeur », « canon feu d’enfer », « Cité du Loup blanc », « Arches Noires ».
 - Thème 40 : noms français ou anglais des institutions (Grande Faille, Charte Marchande, progénoïdes), nombre d’implants (19), date de la chute de Cadia, rôle d’Yvraine dans le réveil de Guilliman.
 - Thème 41 : noms français des démons (Sanguinaires, Portepestes, Enjôleuses, Démonettes, Incendiaires), « Clous du Boucher », ordre de corruption d’Horus (Davin).
+- Thème 42 : noms français des guerriers aspects (Banshees Hurlantes, Dragons de Feu, Faucheurs Noirs), « exo-armures », « Maître des Essaims », couleurs des clans orks, victimes des flottes-ruches.
