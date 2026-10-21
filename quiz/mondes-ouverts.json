@@ -1,0 +1,1993 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "mondes-ouverts",
+  "nom": "Mondes ouverts et aventure",
+  "royaume": "Écran, jeux vidéo et culture geek",
+  "icone": "boussole",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel créateur japonais imagine The Legend of Zelda en s’inspirant de ses explorations d’enfant dans la campagne de Kyoto ?",
+   "choix": [
+    "Shigeru Miyamoto",
+    "Hideo Kojima",
+    "Satoshi Tajiri",
+    "Yuji Horii"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Il raconte avoir découvert seul des grottes et des lacs, une émotion qu’il voulait offrir aux joueurs.",
+   "id": "t085-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "En quelle année sort le premier The Legend of Zelda au Japon ?",
+   "choix": [
+    "1986",
+    "1981",
+    "1991",
+    "1996"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Il est l’un des premiers jeux sur console à permettre de sauvegarder sa partie.",
+   "id": "t085-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles sont les trois parties de la Triforce dans Zelda ?",
+   "choix": [
+    "La Force, la Sagesse et le Courage",
+    "Le Feu, l’Eau et le Vent",
+    "L’Ombre, la Lumière et le Temps",
+    "La Vie, la Mort et l’Esprit"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Ganon, Zelda et Link en sont respectivement les porteurs.",
+   "id": "t085-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel épisode de Zelda, en 2017, renouvelle le monde ouvert avec une liberté presque totale ?",
+   "choix": [
+    "Breath of the Wild",
+    "Ocarina of Time",
+    "Twilight Princess",
+    "Skyward Sword"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "On peut y affronter le boss final dès les premières minutes de jeu.",
+   "id": "t085-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de graines de Korogu sont cachées dans Breath of the Wild ?",
+   "choix": [
+    "Neuf cents",
+    "Cent",
+    "Cent cinquante",
+    "Mille cinq cents"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "La récompense finale, laissée par Maître Korogu, est un simple souvenir malodorant.",
+   "id": "t085-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel épisode de Zelda, sorti en 1998, est souvent cité parmi les meilleurs jeux de tous les temps ?",
+   "choix": [
+    "Ocarina of Time",
+    "Majora’s Mask",
+    "A Link to the Past",
+    "The Wind Waker"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Il invente le ciblage automatique des ennemis en trois dimensions.",
+   "id": "t085-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1984, de David Braben et Ian Bell, propose une galaxie entière générée par algorithme ?",
+   "choix": [
+    "Elite",
+    "Starflight",
+    "Wing Commander",
+    "Spacewar!"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Huit galaxies tiennent dans quelques dizaines de kilo-octets de mémoire.",
+   "id": "t085-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel épisode de Grand Theft Auto, en 2001, impose le monde ouvert en trois dimensions ?",
+   "choix": [
+    "GTA III",
+    "GTA Vice City",
+    "GTA San Andreas",
+    "GTA IV"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Il se déroule à Liberty City, inspirée de New York.",
+   "id": "t085-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville britannique est installé Rockstar North, studio de GTA ?",
+   "choix": [
+    "Édimbourg",
+    "Londres",
+    "Manchester",
+    "Glasgow"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le studio s’appelait d’abord DMA Design et avait créé Lemmings.",
+   "id": "t085-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville fictive, inspirée de Los Angeles, sert de cadre à GTA V ?",
+   "choix": [
+    "Los Santos",
+    "Liberty City",
+    "Vice City",
+    "San Fierro"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le jeu, sorti en 2013, est l’un des plus vendus de l’histoire.",
+   "id": "t085-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le héros de Red Dead Redemption 2, sorti en 2018 ?",
+   "choix": [
+    "Arthur Morgan",
+    "John Marston",
+    "Dutch van der Linde",
+    "Niko Bellic"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Ce hors-la-loi de la bande de Dutch voit le Far West disparaître.",
+   "id": "t085-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de construction en cubes, créé par Markus Persson, est le jeu vidéo le plus vendu de l’histoire ?",
+   "choix": [
+    "Minecraft",
+    "Roblox",
+    "Terraria",
+    "Tetris"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Il dépasse trois cents millions d’exemplaires vendus.",
+   "id": "t085-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel groupe rachète Mojang, le studio de Minecraft, en 2014 ?",
+   "choix": [
+    "Microsoft",
+    "Sony",
+    "Tencent",
+    "Nintendo"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le rachat coûte environ deux milliards et demi de dollars.",
+   "id": "t085-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2016, d’abord critiqué, promet des milliards de milliards de planètes à explorer ?",
+   "choix": [
+    "No Man’s Sky",
+    "Starfield",
+    "Spore",
+    "Elite Dangerous"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Ses mises à jour gratuites ont fini par réconcilier le jeu avec les joueurs.",
+   "id": "t085-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel studio britannique développe No Man’s Sky ?",
+   "choix": [
+    "Hello Games",
+    "Frontier",
+    "Rare",
+    "Media Molecule"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "L’équipe ne comptait qu’une quinzaine de personnes au lancement.",
+   "id": "t085-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel studio crée Assassin’s Creed en 2007 ?",
+   "choix": [
+    "Ubisoft Montréal",
+    "Ubisoft Paris",
+    "Rockstar North",
+    "Crystal Dynamics"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le premier héros, Altaïr, évolue au temps de la troisième croisade.",
+   "id": "t085-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait-on en grimpant en haut des tours dans Assassin’s Creed ?",
+   "choix": [
+    "On se synchronise pour révéler la carte",
+    "On sauvegarde la partie",
+    "On change de personnage",
+    "On appelle un cheval"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le saut de la foi permet ensuite de redescendre dans une meule de foin.",
+   "id": "t085-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de colosses faut-il abattre dans Shadow of the Colossus ?",
+   "choix": [
+    "Seize",
+    "Huit",
+    "Douze",
+    "Vingt"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le monde est vaste et presque vide, pour mieux souligner la solitude du héros.",
+   "id": "t085-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel créateur japonais signe ICO et Shadow of the Colossus ?",
+   "choix": [
+    "Fumito Ueda",
+    "Hidetaka Miyazaki",
+    "Hideo Kojima",
+    "Tetsuya Nomura"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Son style minimaliste a influencé de nombreux jeux d’auteur.",
+   "id": "t085-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle héroïne chasse des machines géantes dans Horizon Zero Dawn ?",
+   "choix": [
+    "Aloy",
+    "Lara Croft",
+    "Ellie",
+    "Jade"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le studio néerlandais Guerrilla Games crée le jeu en 2017.",
+   "id": "t085-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Ghost of Tsushima, qu’est-ce qui guide le joueur vers sa destination ?",
+   "choix": [
+    "Le vent",
+    "Une boussole",
+    "Un oiseau",
+    "Une flèche à l’écran"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le choix renforce l’immersion en supprimant l’interface habituelle.",
+   "id": "t085-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2019 enferme le joueur dans une boucle temporelle de vingt-deux minutes avant l’explosion du soleil ?",
+   "choix": [
+    "Outer Wilds",
+    "Returnal",
+    "Deathloop",
+    "The Forgotten City"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Seule la connaissance accumulée par le joueur permet de progresser.",
+   "id": "t085-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Hideo Kojima, en 2019, fait livrer des colis à travers une Amérique dévastée ?",
+   "choix": [
+    "Death Stranding",
+    "Metal Gear Solid V",
+    "Days Gone",
+    "The Last of Us"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Norman Reedus y incarne le livreur Sam Porter Bridges.",
+   "id": "t085-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot-valise désigne les jeux d’exploration où l’on débloque des capacités ouvrant de nouvelles zones ?",
+   "choix": [
+    "Metroidvania",
+    "Roguelite",
+    "Soulslike",
+    "Sandbox"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le joueur y débloque peu à peu des capacités qui ouvrent de nouvelles zones.",
+   "id": "t085-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel studio australien crée Hollow Knight, en 2017 ?",
+   "choix": [
+    "Team Cherry",
+    "Supergiant",
+    "Motion Twin",
+    "Moon Studios"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Son royaume souterrain d’insectes s’appelle Hallownest.",
+   "id": "t085-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle aventurière apparaît pour la première fois dans Tomb Raider, en 1996 ?",
+   "choix": [
+    "Lara Croft",
+    "Nathan Drake",
+    "Aloy",
+    "Jill Valentine"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le studio britannique Core Design la crée.",
+   "id": "t085-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel aventurier est le héros de la série Uncharted, de Naughty Dog ?",
+   "choix": [
+    "Nathan Drake",
+    "Indiana Jones",
+    "Lara Croft",
+    "Sully"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Il se prétend descendant du corsaire Francis Drake.",
+   "id": "t085-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1993 fait explorer une île déserte et énigmatique en images fixes ?",
+   "choix": [
+    "Myst",
+    "Riven",
+    "Zork",
+    "The 7th Guest"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Les frères Rand et Robyn Miller en sont les créateurs.",
+   "id": "t085-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’aventure pirate de Ron Gilbert, en 1990, est célèbre pour ses combats d’insultes ?",
+   "choix": [
+    "The Secret of Monkey Island",
+    "Sam and Max",
+    "Grim Fandango",
+    "Day of the Tentacle"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le jeune Guybrush Threepwood veut devenir un vrai pirate.",
+   "id": "t085-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu français de 1991, d’Éric Chahi, raconte la fuite d’un scientifique dans un monde extraterrestre ?",
+   "choix": [
+    "Another World",
+    "Flashback",
+    "Out of This World 2",
+    "Heart of Darkness"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Chahi le conçoit presque seul pendant deux ans.",
+   "id": "t085-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Michel Ancel, en 2003, suit la reporter Jade dans une planète menacée ?",
+   "choix": [
+    "Beyond Good & Evil",
+    "Rayman",
+    "Prince of Persia",
+    "Little Big Adventure"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Une suite est annoncée en 2017, après des années d’attente.",
+   "id": "t085-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’Insomniac, en 2018, laisse parcourir New York en se balançant à des toiles ?",
+   "choix": [
+    "Marvel’s Spider-Man",
+    "Batman Arkham City",
+    "Infamous",
+    "Prototype"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "La sensation de déplacement a été saluée par toute la presse.",
+   "id": "t085-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu gratuit de 2020, édité par le chinois miHoYo, se déroule dans le monde de Teyvat ?",
+   "choix": [
+    "Genshin Impact",
+    "Honkai Star Rail",
+    "Tower of Fantasy",
+    "Wuthering Waves"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Son modèle économique repose sur des tirages aléatoires de personnages.",
+   "id": "t085-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de survie de 2018 fait explorer l’océan d’une planète extraterrestre ?",
+   "choix": [
+    "Subnautica",
+    "Abzû",
+    "Raft",
+    "Sea of Thieves"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le joueur y construit des bases sous-marines pour survivre.",
+   "id": "t085-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Rare, sorti en 2018, propose de naviguer en équipage sur une mer partagée ?",
+   "choix": [
+    "Sea of Thieves",
+    "Skull and Bones",
+    "Black Flag",
+    "Atlas"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Les joueurs y chassent trésors, squelettes et autres pirates.",
+   "id": "t085-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom donne-t-on aux jeux qui laissent le joueur libre de ses objectifs, sans histoire imposée ?",
+   "choix": [
+    "Les jeux bac à sable",
+    "Les jeux de couloir",
+    "Les jeux narratifs",
+    "Les jeux de rythme"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Minecraft et les Sims en sont des exemples célèbres.",
+   "id": "t085-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de FromSoftware, en 2022, offre un monde ouvert appelé l’Entre-Terre ?",
+   "choix": [
+    "Elden Ring",
+    "Sekiro",
+    "Bloodborne",
+    "Dark Souls III"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Il est le premier grand monde ouvert du studio.",
+   "id": "t085-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2023 permet de construire des véhicules avec des objets collés entre eux, dans Hyrule ?",
+   "choix": [
+    "Tears of the Kingdom",
+    "Breath of the Wild",
+    "Skyward Sword",
+    "Link’s Awakening"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le pouvoir d’Emprise permet d’assembler presque tout.",
+   "id": "t085-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série se déroule notamment à Vice City, inspirée de Miami ?",
+   "choix": [
+    "Grand Theft Auto",
+    "Far Cry",
+    "Saints Row",
+    "Watch Dogs"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "GTA Vice City, en 2002, plonge le joueur dans les années 1980.",
+   "id": "t085-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2006 de Clover Studio fait incarner la déesse du soleil sous la forme d’une louve blanche ?",
+   "choix": [
+    "Ōkami",
+    "Kameo",
+    "Spyro",
+    "Ico"
+   ],
+   "rep": 0,
+   "src": "Nintendo (Iwata demande, entretiens avec Shigeru Miyamoto et Eiji Aonuma) ; The Strong National Museum of Play ; sites des studios (Rockstar, Bethesda, Mojang, Ubisoft, Hello Games, FromSoftware) ; Guinness World Records (ventes de jeux vidéo)",
+   "expl": "Le joueur trace des coups de pinceau à l’écran pour agir sur le monde.",
+   "id": "t085-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Shigeru Miyamoto a créé The Legend of Zelda.",
+   "rep": true,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Il l’a conçu avec son collègue Takashi Tezuka.",
+   "id": "t085-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Link est le nom de la princesse dans Zelda.",
+   "rep": false,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Faux : Link est le héros, Zelda est la princesse.",
+   "id": "t085-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Minecraft est le jeu vidéo le plus vendu de l’histoire.",
+   "rep": true,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Il est disponible sur presque toutes les plateformes existantes.",
+   "id": "t085-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "GTA V se déroule à Liberty City.",
+   "rep": false,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Faux : il se déroule à Los Santos, inspirée de Los Angeles.",
+   "id": "t085-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Rockstar North est installé en Écosse.",
+   "rep": true,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Le studio est basé à Édimbourg, la capitale écossaise.",
+   "id": "t085-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Shadow of the Colossus compte cent géants à abattre.",
+   "rep": false,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Faux : il en compte seize, tous gigantesques.",
+   "id": "t085-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Another World est un jeu français.",
+   "rep": true,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Il est conçu par Éric Chahi, qui en dessine aussi les graphismes.",
+   "id": "t085-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Lara Croft est l’héroïne d’Uncharted.",
+   "rep": false,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Faux : elle est l’héroïne de Tomb Raider ; Uncharted suit Nathan Drake.",
+   "id": "t085-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Outer Wilds repose sur une boucle temporelle.",
+   "rep": true,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Chaque boucle dure vingt-deux minutes avant l’explosion du soleil.",
+   "id": "t085-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "No Man’s Sky a été développé par une grande équipe de mille personnes.",
+   "rep": false,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Faux : Hello Games est un petit studio d’une quinzaine de personnes à l’époque.",
+   "id": "t085-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Microsoft a racheté Mojang en 2014.",
+   "rep": true,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Le studio suédois reste chargé de Minecraft.",
+   "id": "t085-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Assassin’s Creed est une série de Rockstar.",
+   "rep": false,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "Faux : il a été créé par Ubisoft Montréal.",
+   "id": "t085-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Hollow Knight est un metroidvania.",
+   "rep": true,
+   "src": "Nintendo ; studios ; Guinness",
+   "expl": "On y découvre peu à peu un vaste royaume interconnecté.",
+   "id": "t085-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Breath of the Wild, il faut terminer tous les donjons avant d’affronter Ganon.",
+   "rep": false,
+   "src": "Nintendo ; studios",
+   "expl": "Faux : on peut l’affronter dès la sortie du plateau du Prélude.",
+   "id": "t085-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort le premier Zelda au Japon ?",
+   "rep": 1986,
+   "min": 1980,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Il sort sur la cartouche dorée de la Famicom Disk System.",
+   "id": "t085-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de colosses compte Shadow of the Colossus ?",
+   "rep": 16,
+   "min": 8,
+   "max": 30,
+   "pas": 1,
+   "unite": "colosses",
+   "tolerance": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Chacun est un véritable niveau vivant à escalader.",
+   "id": "t085-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de graines de Korogu compte Breath of the Wild ?",
+   "rep": 900,
+   "min": 100,
+   "max": 1500,
+   "pas": 50,
+   "unite": "graines",
+   "tolerance": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Il faut une patience immense pour toutes les trouver.",
+   "id": "t085-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort GTA III ?",
+   "rep": 2001,
+   "min": 1995,
+   "max": 2008,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Il marque le passage de la série à la 3D.",
+   "id": "t085-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Breath of the Wild ?",
+   "rep": 2017,
+   "min": 2010,
+   "max": 2022,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Il accompagne le lancement de la Nintendo Switch.",
+   "id": "t085-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de minutes dure la boucle temporelle d’Outer Wilds ?",
+   "rep": 22,
+   "min": 5,
+   "max": 60,
+   "pas": 1,
+   "unite": "minutes",
+   "tolerance": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Le soleil explose à la fin de chaque boucle.",
+   "id": "t085-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Microsoft rachète-t-il Mojang ?",
+   "rep": 2014,
+   "min": 2009,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Minecraft était alors déjà un phénomène mondial.",
+   "id": "t085-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort le premier Tomb Raider ?",
+   "rep": 1996,
+   "min": 1990,
+   "max": 2005,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Il sort sur PlayStation, Saturn et ordinateur.",
+   "id": "t085-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le héros de The Legend of Zelda s’appelle ____.",
+   "choix": [
+    "Link",
+    "Zelda",
+    "Ganon",
+    "Navi"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Son nom évoque le lien entre le joueur et le jeu.",
+   "id": "t085-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le royaume de Zelda s’appelle ____.",
+   "choix": [
+    "Hyrule",
+    "Hyrrule",
+    "Holodrum",
+    "Termina"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Termina est le monde parallèle de Majora’s Mask.",
+   "id": "t085-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La relique aux trois triangles de Zelda s’appelle la ____.",
+   "choix": [
+    "Triforce",
+    "Trinité",
+    "Trimagie",
+    "Triade"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Elle exauce le vœu de celui qui la touche.",
+   "id": "t085-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La ville inspirée de Los Angeles dans GTA V s’appelle Los ____.",
+   "choix": [
+    "Santos",
+    "Angeles",
+    "Diablos",
+    "Pueblos"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Le jeu reproduit aussi la campagne et le désert qui l’entourent.",
+   "id": "t085-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de cubes de Markus Persson s’appelle ____.",
+   "choix": [
+    "Minecraft",
+    "Minetest",
+    "Blockland",
+    "Craftmine"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Son créateur suédois est surnommé Notch.",
+   "id": "t085-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le studio de No Man’s Sky s’appelle ____ Games.",
+   "choix": [
+    "Hello",
+    "Hi",
+    "Hey",
+    "Halo"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Il est installé à Guildford, en Angleterre.",
+   "id": "t085-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’héroïne de Tomb Raider s’appelle Lara ____.",
+   "choix": [
+    "Croft",
+    "Craft",
+    "Crofts",
+    "Cruise"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Le graphiste britannique Toby Gard l’a dessinée en 1995.",
+   "id": "t085-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les jeux d’exploration à capacités débloquées s’appellent les ____.",
+   "choix": [
+    "metroidvanias",
+    "roguelikes",
+    "soulslikes",
+    "sandbox"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Le mot combine deux grandes séries de jeux.",
+   "id": "t085-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monde souterrain de Hollow Knight s’appelle ____.",
+   "choix": [
+    "Hallownest",
+    "Hollowfield",
+    "Hallowshire",
+    "Nestholm"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "On y affronte des insectes corrompus par une infection.",
+   "id": "t085-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le pirate de Monkey Island s’appelle Guybrush ____.",
+   "choix": [
+    "Threepwood",
+    "Threadwood",
+    "Treewood",
+    "Thripwood"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Son prénom vient du nom d’un fichier de dessin.",
+   "id": "t085-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’auteur français d’Another World s’appelle Éric ____.",
+   "choix": [
+    "Chahi",
+    "Chahy",
+    "Cahier",
+    "Chazal"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Il a aussi créé le jeu de divinité From Dust.",
+   "id": "t085-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le monde ouvert d’Elden Ring s’appelle l’____.",
+   "choix": [
+    "Entre-Terre",
+    "Outre-Terre",
+    "Terre-Mère",
+    "Basse-Terre"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "On l’appelle The Lands Between en anglais.",
+   "id": "t085-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le créateur de Shadow of the Colossus s’appelle Fumito ____.",
+   "choix": [
+    "Ueda",
+    "Uematsu",
+    "Ueno",
+    "Umeda"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Il a ensuite réalisé The Last Guardian, en 2016.",
+   "id": "t085-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces jeux n’est pas un monde ouvert ?",
+   "choix": [
+    "Tetris",
+    "Skyrim",
+    "GTA V",
+    "Breath of the Wild"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Tetris est un jeu de réflexion sans exploration.",
+   "id": "t085-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un héros de jeu d’aventure ?",
+   "choix": [
+    "Mario",
+    "Lara Croft",
+    "Nathan Drake",
+    "Aloy"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Mario est surtout le héros de jeux de plateforme.",
+   "id": "t085-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’a pas été créé par Rockstar ?",
+   "choix": [
+    "Assassin’s Creed",
+    "GTA V",
+    "Red Dead Redemption 2",
+    "Bully"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Assassin’s Creed est une série d’Ubisoft.",
+   "id": "t085-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas français ?",
+   "choix": [
+    "Myst",
+    "Another World",
+    "Beyond Good & Evil",
+    "Flashback"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Myst est un jeu américain, du studio Cyan.",
+   "id": "t085-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux n’appartient pas à Zelda ?",
+   "choix": [
+    "Los Santos",
+    "Hyrule",
+    "Termina",
+    "Cocorico"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Los Santos est la ville fictive de GTA V.",
+   "id": "t085-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas un metroidvania ?",
+   "choix": [
+    "Minecraft",
+    "Hollow Knight",
+    "Metroid",
+    "Castlevania : Symphony of the Night"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Minecraft est un jeu bac à sable, sans couloirs ni pouvoirs à débloquer.",
+   "id": "t085-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces studios n’est pas japonais ?",
+   "choix": [
+    "Hello Games",
+    "Nintendo",
+    "FromSoftware",
+    "Team Ico"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Hello Games est un studio britannique, installé dans le Surrey.",
+   "id": "t085-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces jeux n’a pas été dirigé par Hideo Kojima ?",
+   "choix": [
+    "Shadow of the Colossus",
+    "Death Stranding",
+    "Metal Gear Solid",
+    "Snatcher"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Shadow of the Colossus est l’œuvre de Fumito Ueda.",
+   "id": "t085-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux ne se déroule pas en mer ?",
+   "choix": [
+    "Ghost of Tsushima",
+    "Sea of Thieves",
+    "Subnautica",
+    "Monkey Island"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Ghost of Tsushima se déroule sur une île japonaise, mais à terre.",
+   "id": "t085-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’appartient pas à Zelda ?",
+   "choix": [
+    "La Keyblade",
+    "L’Épée de légende",
+    "L’Ocarina du temps",
+    "La Triforce"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "La Keyblade appartient à Kingdom Hearts.",
+   "id": "t085-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels jeux sont des mondes ouverts ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Breath of the Wild",
+    "GTA V",
+    "Skyrim",
+    "Elden Ring",
+    "Tetris",
+    "Pac-Man"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "On peut y explorer librement de vastes territoires.",
+   "id": "t085-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux appartiennent à la série Zelda ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ocarina of Time",
+    "Majora’s Mask",
+    "Breath of the Wild",
+    "Tears of the Kingdom",
+    "Metroid",
+    "Kid Icarus"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Metroid et Kid Icarus sont d’autres séries de Nintendo.",
+   "id": "t085-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont édités par Rockstar ? (plusieurs bonnes réponses)",
+   "choix": [
+    "GTA V",
+    "Red Dead Redemption 2",
+    "Bully",
+    "Assassin’s Creed",
+    "Far Cry"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Assassin’s Creed et Far Cry sont des séries d’Ubisoft.",
+   "id": "t085-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux d’aventure sont français ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Another World",
+    "Beyond Good & Evil",
+    "Flashback",
+    "Myst",
+    "Monkey Island"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "La France a une riche tradition de jeux d’aventure.",
+   "id": "t085-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux reposent sur la survie et l’exploration ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Minecraft",
+    "Subnautica",
+    "No Man’s Sky",
+    "Tetris",
+    "FIFA"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Il faut y récolter des ressources pour progresser.",
+   "id": "t085-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages sont des aventuriers de jeu vidéo ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lara Croft",
+    "Nathan Drake",
+    "Aloy",
+    "Link",
+    "Pac-Man",
+    "Tetris"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ces héros parcourent ruines, forêts et montagnes.",
+   "id": "t085-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont des metroidvanias ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hollow Knight",
+    "Metroid Dread",
+    "Ori and the Blind Forest",
+    "Minecraft",
+    "GTA V"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ori est développé par le studio autrichien Moon Studios.",
+   "id": "t085-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux utilisent des boucles temporelles ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Outer Wilds",
+    "Majora’s Mask",
+    "Deathloop",
+    "Skyrim",
+    "Minecraft"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Majora’s Mask fait revivre trois jours avant la chute de la lune.",
+   "id": "t085-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux se déroulent au Japon ou dans un Japon imaginaire ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ghost of Tsushima",
+    "Sekiro",
+    "Ōkami",
+    "Red Dead Redemption 2",
+    "Horizon Zero Dawn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ōkami s’inspire de l’art de l’estampe japonaise.",
+   "id": "t085-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels studios ont créé des mondes ouverts célèbres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rockstar",
+    "Bethesda",
+    "Nintendo",
+    "FromSoftware",
+    "Tetris Company",
+    "Valve seulement"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Chacun a développé sa propre manière d’ouvrir le monde.",
+   "id": "t085-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces jeux par date de sortie.",
+   "items": [
+    "Elite",
+    "The Legend of Zelda",
+    "GTA III",
+    "Skyrim"
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ces jeux sortent en 1984, 1986, 2001 puis 2011.",
+   "id": "t085-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces Zelda par date de sortie.",
+   "items": [
+    "A Link to the Past",
+    "Ocarina of Time",
+    "Breath of the Wild",
+    "Tears of the Kingdom"
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ces jeux sortent en 1991, 1998, 2017 puis 2023.",
+   "id": "t085-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux de Rockstar par date de sortie.",
+   "items": [
+    "GTA III",
+    "GTA Vice City",
+    "GTA V",
+    "Red Dead Redemption 2"
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ces jeux sortent en 2001, 2002, 2013 puis 2018.",
+   "id": "t085-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux d’aventure par date de sortie.",
+   "items": [
+    "The Secret of Monkey Island",
+    "Another World",
+    "Myst",
+    "Tomb Raider"
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ces jeux sortent en 1990, 1991, 1993 puis 1996.",
+   "id": "t085-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux d’exploration par date de sortie.",
+   "items": [
+    "Minecraft",
+    "No Man’s Sky",
+    "Hollow Knight",
+    "Outer Wilds"
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "2009 en version alpha, 2016, 2017 puis 2019.",
+   "id": "t085-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’une partie de Breath of the Wild dans l’ordre conseillé.",
+   "items": [
+    "Plateau du Prélude",
+    "Village Cocorico",
+    "Créatures divines",
+    "Château d’Hyrule"
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Le jeu permet pourtant de suivre n’importe quel ordre.",
+   "id": "t085-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux de Sony par date de sortie.",
+   "items": [
+    "Shadow of the Colossus",
+    "Uncharted",
+    "Horizon Zero Dawn",
+    "Ghost of Tsushima"
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ces jeux sortent en 2005, 2007, 2017 puis 2020.",
+   "id": "t085-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux de Fumito Ueda par date de sortie.",
+   "items": [
+    "ICO",
+    "Shadow of the Colossus",
+    "The Last Guardian"
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ces jeux sortent en 2001, 2005 puis 2016.",
+   "id": "t085-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux de FromSoftware et Kojima par date de sortie.",
+   "items": [
+    "Metal Gear Solid",
+    "Dark Souls",
+    "Death Stranding",
+    "Elden Ring"
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ces jeux sortent en 1998, 2011, 2019 puis 2022.",
+   "id": "t085-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque héros à son jeu.",
+   "paires": [
+    [
+     "Link",
+     "Zelda"
+    ],
+    [
+     "Lara Croft",
+     "Tomb Raider"
+    ],
+    [
+     "Nathan Drake",
+     "Uncharted"
+    ],
+    [
+     "Aloy",
+     "Horizon Zero Dawn"
+    ]
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Ces héros ont marqué l’histoire de l’aventure vidéoludique.",
+   "id": "t085-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son studio.",
+   "paires": [
+    [
+     "GTA V",
+     "Rockstar"
+    ],
+    [
+     "Assassin’s Creed",
+     "Ubisoft"
+    ],
+    [
+     "Minecraft",
+     "Mojang"
+    ],
+    [
+     "No Man’s Sky",
+     "Hello Games"
+    ]
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Les studios ont chacun leur philosophie du monde ouvert.",
+   "id": "t085-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque ville de GTA à son modèle réel.",
+   "paires": [
+    [
+     "Los Santos",
+     "Los Angeles"
+    ],
+    [
+     "Liberty City",
+     "New York"
+    ],
+    [
+     "Vice City",
+     "Miami"
+    ]
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Rockstar parodie l’Amérique dans chacune de ces villes.",
+   "id": "t085-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son créateur.",
+   "paires": [
+    [
+     "Zelda",
+     "Shigeru Miyamoto"
+    ],
+    [
+     "Another World",
+     "Éric Chahi"
+    ],
+    [
+     "Shadow of the Colossus",
+     "Fumito Ueda"
+    ],
+    [
+     "Death Stranding",
+     "Hideo Kojima"
+    ]
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Les grands jeux portent souvent la marque d’un auteur.",
+   "id": "t085-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son monde.",
+   "paires": [
+    [
+     "Elden Ring",
+     "Entre-Terre"
+    ],
+    [
+     "Hollow Knight",
+     "Hallownest"
+    ],
+    [
+     "Genshin Impact",
+     "Teyvat"
+    ],
+    [
+     "Zelda",
+     "Hyrule"
+    ]
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Chaque monde a sa géographie et ses légendes.",
+   "id": "t085-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque partie de la Triforce à son porteur.",
+   "paires": [
+    [
+     "Force",
+     "Ganon"
+    ],
+    [
+     "Sagesse",
+     "Zelda"
+    ],
+    [
+     "Courage",
+     "Link"
+    ]
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Cet équilibre structure toute la légende d’Hyrule.",
+   "id": "t085-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à sa mécanique.",
+   "paires": [
+    [
+     "Assassin’s Creed",
+     "Synchronisation des tours"
+    ],
+    [
+     "Ghost of Tsushima",
+     "Vent guide"
+    ],
+    [
+     "Tears of the Kingdom",
+     "Construction d’engins"
+    ]
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Chaque jeu invente sa façon de guider ou de libérer le joueur.",
+   "id": "t085-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son pays d’origine.",
+   "paires": [
+    [
+     "Minecraft",
+     "Suède"
+    ],
+    [
+     "Hollow Knight",
+     "Australie"
+    ],
+    [
+     "Horizon Zero Dawn",
+     "Pays-Bas"
+    ],
+    [
+     "Another World",
+     "France"
+    ]
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "Le jeu d’aventure est un genre véritablement mondial.",
+   "id": "t085-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à sa période historique.",
+   "paires": [
+    [
+     "Assassin’s Creed",
+     "Troisième croisade"
+    ],
+    [
+     "Ghost of Tsushima",
+     "Invasion mongole du Japon"
+    ],
+    [
+     "Red Dead Redemption 2",
+     "Fin du Far West"
+    ]
+   ],
+   "src": "Nintendo ; studios",
+   "expl": "L’histoire offre de superbes terrains de jeu.",
+   "id": "t085-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un héros\n2. Je porte une tunique verte\n3. Je sauve souvent Zelda",
+   "choix": [
+    "Link",
+    "Mario",
+    "Kirby",
+    "Fox McCloud"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Je ne parle presque jamais, pour que le joueur s’identifie à moi.",
+   "id": "t085-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis fait de cubes\n3. Je suis le plus vendu de l’histoire",
+   "choix": [
+    "Minecraft",
+    "Tetris",
+    "Roblox",
+    "Terraria"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Mon créateur, Markus Persson, est surnommé Notch.",
+   "id": "t085-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une aventurière\n2. Je pille des tombeaux\n3. Je suis née en 1996",
+   "choix": [
+    "Lara Croft",
+    "Aloy",
+    "Jade",
+    "Ellie"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Je porte souvent deux pistolets et un short.",
+   "id": "t085-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis sorti en 2005\n3. J’ai seize géants à abattre",
+   "choix": [
+    "Shadow of the Colossus",
+    "ICO",
+    "God of War",
+    "Okami"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Mon héros veut ressusciter une jeune fille.",
+   "id": "t085-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis français\n3. Mon héros est un scientifique téléporté",
+   "choix": [
+    "Another World",
+    "Flashback",
+    "Rayman",
+    "Beyond Good & Evil"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Mon auteur, Éric Chahi, m’a conçu presque seul.",
+   "id": "t085-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Ma galaxie compte des milliards de planètes\n3. J’ai été sauvé par mes mises à jour",
+   "choix": [
+    "No Man’s Sky",
+    "Starfield",
+    "Elite",
+    "Spore"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Le petit studio Hello Games m’a développé.",
+   "id": "t085-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis une boucle temporelle\n3. Mon soleil explose toutes les vingt-deux minutes",
+   "choix": [
+    "Outer Wilds",
+    "Returnal",
+    "Deathloop",
+    "Majora’s Mask"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Seule la connaissance m’ouvre les secrets du système solaire.",
+   "id": "t085-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville\n2. Je suis dans GTA V\n3. Je ressemble à Los Angeles",
+   "choix": [
+    "Los Santos",
+    "Liberty City",
+    "Vice City",
+    "San Fierro"
+   ],
+   "rep": 0,
+   "src": "Nintendo ; studios",
+   "expl": "Le mont Chiliad me domine de toute sa hauteur.",
+   "id": "t085-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
