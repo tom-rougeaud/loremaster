@@ -1,0 +1,2310 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "royaumes-oublies",
+  "nom": "Royaumes Oubliés (Faerûn)",
+  "royaume": "Règles et univers de D&D",
+  "icone": "carte",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Qui a créé les Royaumes Oubliés ?",
+   "choix": [
+    "Ed Greenwood",
+    "Gary Gygax",
+    "Keith Baker",
+    "R. A. Salvatore"
+   ],
+   "rep": 0,
+   "src": "Ed Greenwood et Jeff Grubb, Forgotten Realms Campaign Set (TSR, 1987) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Ed Greenwood les imagine enfant, au Canada, et les décrit dans Dragon Magazine avant que TSR ne les publie en 1987.",
+   "id": "t020-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la planète des Royaumes Oubliés ?",
+   "choix": [
+    "Toril",
+    "Oerth",
+    "Krynn",
+    "Athas"
+   ],
+   "rep": 0,
+   "src": "Ed Greenwood et Jeff Grubb, Forgotten Realms Campaign Set (TSR, 1987) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Oerth est le monde de Greyhawk, Krynn celui de Dragonlance et Athas celui de Dark Sun.",
+   "id": "t020-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel continent est au cœur des Royaumes Oubliés ?",
+   "choix": [
+    "Faerûn",
+    "Kara-Tur",
+    "Zakhara",
+    "Maztica"
+   ],
+   "rep": 0,
+   "src": "Ed Greenwood et Jeff Grubb, Forgotten Realms Campaign Set (TSR, 1987) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Kara-Tur s’inspire de l’Asie, Zakhara des mondes arabes et Maztica des Amériques.",
+   "id": "t020-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville des Royaumes est surnommée la Cité des Splendeurs ?",
+   "choix": [
+    "Eauprofonde",
+    "Porte de Baldur",
+    "Padhiver",
+    "Luskan"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018) ; Waterdeep: Dungeon of the Mad Mage (2018)",
+   "expl": "Eauprofonde (Waterdeep) est la plus grande métropole de la Côte des Épées.",
+   "id": "t020-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle taverne d’Eauprofonde possède un puits qui descend vers Montprofond ?",
+   "choix": [
+    "Le Portail Béant",
+    "La Sirène joyeuse",
+    "Le Dragon assoupi",
+    "La Main tranchée"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018) ; Waterdeep: Dungeon of the Mad Mage (2018)",
+   "expl": "Les aventuriers y descendent dans un panier, sous les yeux amusés des clients.",
+   "id": "t020-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui tient la taverne du Portail Béant ?",
+   "choix": [
+    "Durnan",
+    "Volo",
+    "Khelben",
+    "Jarlaxle"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018) ; Waterdeep: Dungeon of the Mad Mage (2018)",
+   "expl": "Ancien aventurier, Durnan est l’un des rares à être revenu riche de Montprofond.",
+   "id": "t020-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel magicien fou a creusé l’immense donjon de Montprofond ?",
+   "choix": [
+    "Halaster Manteaunoir",
+    "Larloch",
+    "Manshoon",
+    "Szass Tam"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018) ; Waterdeep: Dungeon of the Mad Mage (2018)",
+   "expl": "Halaster (Blackcloak) y règne toujours et en remodèle sans cesse les couloirs.",
+   "id": "t020-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les dirigeants secrets d’Eauprofonde ?",
+   "choix": [
+    "Les Seigneurs masqués",
+    "Les Hauts Capitaines",
+    "Les Grands Ducs",
+    "Les Zulkirs"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018) ; Waterdeep: Dungeon of the Mad Mage (2018)",
+   "expl": "Seul le Seigneur déclaré (Open Lord) montre son visage ; les autres siègent masqués.",
+   "id": "t020-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est la Seigneur déclarée d’Eauprofonde dans les aventures de la 5e ?",
+   "choix": [
+    "Laeral Silverhand",
+    "Alustriel",
+    "Storm",
+    "Qilué"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018) ; Waterdeep: Dungeon of the Mad Mage (2018)",
+   "expl": "Laeral Silverhand, l’une des Sept Sœurs, succède à Dagult Neverember.",
+   "id": "t020-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel tyrannoeil dirige une guilde criminelle sous Eauprofonde ?",
+   "choix": [
+    "Le Xanathar",
+    "Manshoon",
+    "Jarlaxle",
+    "Halaster"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate: Descent into Avernus (2019), « La Porte de Baldur »",
+   "expl": "Le Xanathar est autant un titre qu’une créature : un tyrannoeil remplace l’autre quand il meurt.",
+   "id": "t020-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui gouverne la Porte de Baldur ?",
+   "choix": [
+    "Le Conseil des Quatre",
+    "Les Seigneurs masqués",
+    "Un roi Obarskyr",
+    "Les Magiciens rouges"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate: Descent into Avernus (2019), « La Porte de Baldur »",
+   "expl": "Les quatre ducs, menés par un Grand Duc, dirigent la ville depuis le Haut Palais.",
+   "id": "t020-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle compagnie mercenaire fait office de garde à la Porte de Baldur ?",
+   "choix": [
+    "Le Poing enflammé",
+    "Les Dragons pourpres",
+    "Le Réseau noir",
+    "Les Ménestrels"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate: Descent into Avernus (2019), « La Porte de Baldur »",
+   "expl": "Le Poing enflammé (Flaming Fist) sert à la fois d’armée et de police.",
+   "id": "t020-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "De qui la Porte de Baldur tire-t-elle son nom ?",
+   "choix": [
+    "D’un explorateur revenu riche",
+    "D’un dieu nain des forges",
+    "D’un dragon d’or légendaire",
+    "D’un ancien roi elfe"
+   ],
+   "rep": 0,
+   "src": "Neverwinter Campaign Setting (2011)",
+   "expl": "Balduran revint de mers lointaines couvert d’or et finança les remparts de la ville.",
+   "id": "t020-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville a été dévastée par l’éruption du mont Hotenow ?",
+   "choix": [
+    "Padhiver",
+    "Luskan",
+    "Eauprofonde",
+    "Lunargent"
+   ],
+   "rep": 0,
+   "src": "Neverwinter Campaign Setting (2011)",
+   "expl": "En 1451 CV, l’éruption ravage Padhiver (Neverwinter), qui se reconstruit ensuite.",
+   "id": "t020-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville de la Côte des Épées est surnommée la Cité des Voiles ?",
+   "choix": [
+    "Luskan",
+    "Eauprofonde",
+    "Padhiver",
+    "Porte de Baldur"
+   ],
+   "rep": 0,
+   "src": "Candlekeep Mysteries (2021)",
+   "expl": "Repaire de pirates, Luskan est dirigée par des Hauts Capitaines ; la Confrérie des Arcanes y siégeait.",
+   "id": "t020-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forteresse-bibliothèque exige un livre comme droit d’entrée ?",
+   "choix": [
+    "Château-Suif",
+    "Lunargent",
+    "Myth Drannor",
+    "Castelmithral"
+   ],
+   "rep": 0,
+   "src": "Candlekeep Mysteries (2021)",
+   "expl": "Château-Suif (Candlekeep) conserve d’innombrables ouvrages, gardés par des moines.",
+   "id": "t020-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel prophète a laissé ses prédictions à Château-Suif ?",
+   "choix": [
+    "Alaundo",
+    "Gorion",
+    "Volo",
+    "Elminster"
+   ],
+   "rep": 0,
+   "src": "Cormyr: The Tearing of the Weave (2002) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Ses prophéties sont gravées dans la mémoire des moines et annoncent, entre autres, les enfants de Bhaal.",
+   "id": "t020-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle dynastie gouverne le royaume de Cormyr ?",
+   "choix": [
+    "Les Obarskyr",
+    "Les Baenre",
+    "Les Neverember",
+    "Les Silverhand"
+   ],
+   "rep": 0,
+   "src": "Cormyr: The Tearing of the Weave (2002) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Cette dynastie règne depuis plus de mille ans sur le Royaume Forestier.",
+   "id": "t020-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la capitale du Cormyr ?",
+   "choix": [
+    "Suzail",
+    "Arabel",
+    "Selgaunt",
+    "Athkatla"
+   ],
+   "rep": 0,
+   "src": "Cormyr: The Tearing of the Weave (2002) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Selgaunt est en Sembie, Athkatla en Amn.",
+   "id": "t020-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pays est gouverné par les Magiciens rouges ?",
+   "choix": [
+    "Thay",
+    "Calimshan",
+    "Amn",
+    "Mulhorand"
+   ],
+   "rep": 0,
+   "src": "Cormyr: The Tearing of the Weave (2002) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Les Magiciens rouges forment l’élite de Thay, à l’est de Faerûn.",
+   "id": "t020-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle liche dirige Thay ?",
+   "choix": [
+    "Szass Tam",
+    "Larloch",
+    "Manshoon",
+    "Halaster"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "Ancien zulkir de nécromancie, Szass Tam a pris seul le pouvoir.",
+   "id": "t020-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle cité drow est la plus célèbre de l’Outreterre ?",
+   "choix": [
+    "Menzoberranzan",
+    "Gracklstugh",
+    "Blingdenstone",
+    "Erelhei-Cinlu"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "Gracklstugh est duergar, Blingdenstone svirfneblin ; Erelhei-Cinlu est une cité drow de Greyhawk.",
+   "id": "t020-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel elfe noir rôdeur a fui Menzoberranzan pour vivre selon sa conscience ?",
+   "choix": [
+    "Drizzt Do’Urden",
+    "Jarlaxle",
+    "Zaknafein",
+    "Pharaun"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "Héros de plus de trente romans, Drizzt est devenu un modèle pour de nombreux joueurs.",
+   "id": "t020-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle panthère accompagne Drizzt ?",
+   "choix": [
+    "Guenhwyvar",
+    "Taulmaril",
+    "Andahar",
+    "Crenshinibon"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "Taulmaril est l’arc de Catti-brie, Andahar la licorne de Drizzt, Crenshinibon l’Éclat de cristal.",
+   "id": "t020-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi nain est le père adoptif de Catti-brie ?",
+   "choix": [
+    "Bruenor Battlehammer",
+    "Thibbledorf Pwent",
+    "Gundren Rockseeker",
+    "Harbromm"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "Bruenor a recueilli l’orpheline humaine à Valbise.",
+   "id": "t020-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel romancier a créé Drizzt ?",
+   "choix": [
+    "R. A. Salvatore",
+    "Ed Greenwood",
+    "Troy Denning",
+    "Elaine Cunningham"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "Salvatore l’invente au dernier moment pour The Crystal Shard (1988), à la place d’un acolyte prévu.",
+   "id": "t020-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel roman Drizzt apparaît-il pour la première fois ?",
+   "choix": [
+    "The Crystal Shard",
+    "Homeland",
+    "Spellfire",
+    "Azure Bonds"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "The Crystal Shard (L’Éclat de cristal, 1988) ouvre la trilogie de Valbise ; Homeland (1990) raconte son enfance.",
+   "id": "t020-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelles armes Drizzt manie-t-il le plus souvent ?",
+   "choix": [
+    "Twinkle et Icingdeath",
+    "Aegis-fang et Taulmaril",
+    "Khazid’hea et Charon’s Claw",
+    "Crenshinibon et Spellfire"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "Deux cimeterres ; Icingdeath fut prise dans le trésor du dragon blanc qu’il a vaincu.",
+   "id": "t020-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel marteau Bruenor a-t-il forgé pour Wulfgar ?",
+   "choix": [
+    "Aegis-fang",
+    "Twinkle",
+    "Taulmaril",
+    "Khazid’hea"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "Le marteau revient dans la main de Wulfgar après chaque lancer.",
+   "id": "t020-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel assassin humain est le grand rival de Drizzt ?",
+   "choix": [
+    "Artemis Entreri",
+    "Jarlaxle",
+    "Akar Kessell",
+    "Errtu"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Dark Elf Trilogy (TSR, 1990-1991)",
+   "expl": "Entreri est le reflet sombre de Drizzt : aussi doué, mais sans attaches ni scrupules.",
+   "id": "t020-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mercenaire drow au chapeau à plume dirige Bregan D’aerthe ?",
+   "choix": [
+    "Jarlaxle",
+    "Zaknafein",
+    "Pharaun",
+    "Gromph"
+   ],
+   "rep": 0,
+   "src": "Ed Greenwood, Elminster: The Making of a Mage (TSR, 1994)",
+   "expl": "Jarlaxle, charmeur et imprévisible, est devenu l’allié inattendu de Drizzt et d’Entreri.",
+   "id": "t020-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est surnommé le Sage de Valombre ?",
+   "choix": [
+    "Elminster",
+    "Khelben",
+    "Volo",
+    "Mordenkainen"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Élu de Mystra, Elminster Aumar a plus de mille ans ; il vit à Valombre (Shadowdale).",
+   "id": "t020-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel bavard auteur de guides de voyage Elminster corrige-t-il sans cesse dans ses notes ?",
+   "choix": [
+    "Volothamp Geddarm",
+    "Mordenkainen",
+    "Khelben Arunsun",
+    "Danilo Thann"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Factions »",
+   "expl": "Les commentaires d’Elminster rectifient avec humour les exagérations de Volo.",
+   "id": "t020-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle organisation secrète défend la liberté et l’équilibre des Royaumes ?",
+   "choix": [
+    "Les Ménestrels",
+    "Le Réseau noir",
+    "L’Alliance des Seigneurs",
+    "L’Enclave d’émeraude"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Factions »",
+   "expl": "Les Ménestrels (Harpers) se reconnaissent à leur broche : une harpe d’argent dans un croissant de lune.",
+   "id": "t020-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle organisation ambitieuse est aussi appelée le Réseau noir ?",
+   "choix": [
+    "Le Zhentarim",
+    "Les Ménestrels",
+    "L’Ordre du Gantelet",
+    "Bregan D’aerthe"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Factions »",
+   "expl": "Fondé par Manshoon, le Zhentarim cherche richesse et influence par le commerce et la force.",
+   "id": "t020-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle faction de la 5e protège l’équilibre de la nature ?",
+   "choix": [
+    "L’Enclave d’émeraude",
+    "L’Alliance des Seigneurs",
+    "L’Ordre du Gantelet",
+    "Le Zhentarim"
+   ],
+   "rep": 0,
+   "src": "Netheril: Empire of Magic (TSR, 1996)",
+   "expl": "Druides, rôdeurs et barbares y défendent les terres sauvages.",
+   "id": "t020-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel empire de magiciens s’est effondré quand Karsus a tenté de voler le pouvoir de la déesse de la magie ?",
+   "choix": [
+    "Netheril",
+    "Myth Drannor",
+    "Imaskar",
+    "Calimshan"
+   ],
+   "rep": 0,
+   "src": "Netheril: Empire of Magic (TSR, 1996)",
+   "expl": "En −339 CV, la magie cesse un instant ; les cités volantes de Netheril s’écrasent.",
+   "id": "t020-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel désert recouvre aujourd’hui les ruines de Netheril ?",
+   "choix": [
+    "L’Anauroch",
+    "Le Calim",
+    "Le Raurin",
+    "Le Shaar"
+   ],
+   "rep": 0,
+   "src": "Ed Greenwood, Cormyr et Myth Drannor (TSR, 1991-1993)",
+   "expl": "Les phaerimms, ennemis de Netheril, ont transformé ces terres en désert.",
+   "id": "t020-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle cité elfique légendaire est tombée en 714 CV ?",
+   "choix": [
+    "Myth Drannor",
+    "Evereska",
+    "Lunargent",
+    "Menzoberranzan"
+   ],
+   "rep": 0,
+   "src": "Forgotten Realms Campaign Set (1987), « Toril »",
+   "expl": "Cité ouverte à tous les peuples, elle succombe aux démons pendant la Guerre des Pleurs (Weeping War).",
+   "id": "t020-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que sont les Larmes de Selûne ?",
+   "choix": [
+    "Des astéroïdes qui suivent la lune",
+    "Des perles sacrées",
+    "Des pluies d’étoiles mensuelles",
+    "Des diamants elfiques"
+   ],
+   "rep": 0,
+   "src": "Forgotten Realms Campaign Set (1987), « Toril »",
+   "expl": "Ce chapelet d’astres brillants suit la lune de Toril dans le ciel nocturne.",
+   "id": "t020-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de mois compte le calendrier de Harptos ?",
+   "choix": [
+    "12",
+    "10",
+    "13",
+    "9"
+   ],
+   "rep": 0,
+   "src": "Icewind Dale: Rime of the Frostmaiden (2020)",
+   "expl": "Douze mois de trente jours, plus cinq fêtes hors des mois : 365 jours au total.",
+   "id": "t020-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle région glacée du nord abrite les Dix-Cités ?",
+   "choix": [
+    "Valbise",
+    "L’Anauroch",
+    "Le Grand Glacier",
+    "La Vaasa"
+   ],
+   "rep": 0,
+   "src": "Icewind Dale: Rime of the Frostmaiden (2020)",
+   "expl": "Valbise (Icewind Dale) est le décor des premiers romans de Drizzt et de Rime of the Frostmaiden.",
+   "id": "t020-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse du froid plonge Valbise dans un hiver sans fin dans Rime of the Frostmaiden ?",
+   "choix": [
+    "Auril",
+    "Umberlee",
+    "Shar",
+    "Talona"
+   ],
+   "rep": 0,
+   "src": "Tomb of Annihilation (2017)",
+   "expl": "Auril, la Vierge de glace, empêche le soleil de se lever pendant deux ans.",
+   "id": "t020-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle péninsule de jungle peuplée de dinosaures accueille Tomb of Annihilation ?",
+   "choix": [
+    "Le Chult",
+    "Le Calimshan",
+    "Le Thay",
+    "L’Amn"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (D&D Starter Set, 2014)",
+   "expl": "On y fait la course de dinosaures à Port Nyanzaru, avant d’affronter le tombeau d’Acererak.",
+   "id": "t020-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel village du kit d’initiation de 2014 les héros escortent-ils un chariot de vivres ?",
+   "choix": [
+    "Phandaline",
+    "Valombre",
+    "Daggerford",
+    "Bryn Shander"
+   ],
+   "rep": 0,
+   "src": "Paramount Pictures, Dungeons & Dragons: Honor Among Thieves (2023)",
+   "expl": "Le kit d’initiation de 2014 y mène les héros vers la caverne de l’Écho des Vagues.",
+   "id": "t020-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel film de 2023 se déroule dans les Royaumes Oubliés ?",
+   "choix": [
+    "Donjons & Dragons : L’Honneur des voleurs",
+    "Donjons & Dragons (2000)",
+    "Willow",
+    "Warcraft : Le Commencement"
+   ],
+   "rep": 0,
+   "src": "Paramount Pictures, Dungeons & Dragons: Honor Among Thieves (2023)",
+   "expl": "On y voit Padhiver, Eauprofonde et des Magiciens rouges ; le film de 2000 se passait dans un monde inventé.",
+   "id": "t020-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans L’Honneur des voleurs, à quel ordre appartient la redoutable Sofina ?",
+   "choix": [
+    "Les Magiciens rouges de Thay",
+    "Les Ménestrels",
+    "Le Zhentarim",
+    "Le Poing enflammé"
+   ],
+   "rep": 0,
+   "src": "BioWare et Black Isle Studios, Baldur’s Gate (Interplay, 1998)",
+   "expl": "Le crâne rasé et la robe rouge de Sofina reprennent l’apparence classique des Magiciens rouges.",
+   "id": "t020-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu vidéo de BioWare, sorti en 1998, se déroule sur la Côte des Épées ?",
+   "choix": [
+    "Baldur’s Gate",
+    "Diablo",
+    "Fallout",
+    "Pool of Radiance"
+   ],
+   "rep": 0,
+   "src": "BioWare et Black Isle Studios, Baldur’s Gate (Interplay, 1998)",
+   "expl": "Pool of Radiance (1988) se déroule aussi dans les Royaumes, mais à Phlan, au bord de la Mer de Lune.",
+   "id": "t020-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Baldur’s Gate (1998), qui élève le héros à Château-Suif ?",
+   "choix": [
+    "Gorion",
+    "Elminster",
+    "Imoen",
+    "Sarevok"
+   ],
+   "rep": 0,
+   "src": "BioWare et Black Isle Studios, Baldur’s Gate (Interplay, 1998)",
+   "expl": "Imoen est son amie d’enfance, Sarevok son demi-frère, autre enfant de Bhaal.",
+   "id": "t020-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Royaumes Oubliés sont le décor par défaut de la plupart des aventures officielles de D&D 5e.",
+   "rep": true,
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Dungeon Master’s Guide 5e (2014), chap. 1",
+   "expl": "Vrai : de Lost Mine of Phandelver à Baldur’s Gate: Descent into Avernus, la majorité des aventures s’y déroulent.",
+   "id": "t020-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Drizzt Do’Urden est né à Eauprofonde.",
+   "rep": false,
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Dungeon Master’s Guide 5e (2014), chap. 1",
+   "expl": "Faux : il est né à Menzoberranzan, cité drow de l’Outreterre, dans la maison Do’Urden.",
+   "id": "t020-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Ed Greenwood a imaginé les Royaumes Oubliés dans son enfance, bien avant leur publication par TSR.",
+   "rep": true,
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Dungeon Master’s Guide 5e (2014), chap. 1",
+   "expl": "Vrai : il y situe des histoires dès les années 1960 ; TSR achète le décor en 1986.",
+   "id": "t020-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Eauprofonde est gouvernée par un roi héréditaire.",
+   "rep": false,
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Dungeon Master’s Guide 5e (2014), chap. 1",
+   "expl": "Faux : elle est dirigée par un conseil de Seigneurs masqués et un Seigneur déclaré.",
+   "id": "t020-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La Porte de Baldur est bâtie sur les rives du fleuve Chionthar.",
+   "rep": true,
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Dungeon Master’s Guide 5e (2014), chap. 1",
+   "expl": "Vrai : son port fluvial, proche de l’océan, en fait un grand centre de commerce.",
+   "id": "t020-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Lunargent est une cité naine creusée sous la montagne.",
+   "rep": false,
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Dungeon Master’s Guide 5e (2014), chap. 1",
+   "expl": "Faux : c’est une cité humaine et elfique à ciel ouvert, réputée pour sa tolérance et sa magie.",
+   "id": "t020-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Guenhwyvar est invoquée grâce à une figurine d’onyx.",
+   "rep": true,
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Dungeon Master’s Guide 5e (2014), chap. 1",
+   "expl": "Vrai : la panthère astrale apparaît quand Drizzt l’appelle et doit regagner le plan astral pour se reposer.",
+   "id": "t020-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Artemis Entreri est un drow.",
+   "rep": false,
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Dungeon Master’s Guide 5e (2014), chap. 1",
+   "expl": "Faux : c’est un humain originaire du Calimshan ; il est pourtant aussi doué que Drizzt au combat.",
+   "id": "t020-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Magiciens rouges de Thay se rasent la tête et portent des tatouages.",
+   "rep": true,
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Dungeon Master’s Guide 5e (2014), chap. 1",
+   "expl": "Vrai : ces tatouages rituels signalent leur rang et leur école de magie.",
+   "id": "t020-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Zhentarim a été fondé par Elminster.",
+   "rep": false,
+   "src": "Calimshan (TSR, 1999)",
+   "expl": "Faux : il a été fondé par le magicien Manshoon, l’un des grands ennemis d’Elminster.",
+   "id": "t020-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Le Calimshan a été marqué par la domination ancienne de génies.",
+   "rep": true,
+   "src": "Calimshan (TSR, 1999)",
+   "expl": "Vrai : le djinn Calim et l’éfrit Memnon s’y sont affrontés ; leur guerre a créé le désert du Calim.",
+   "id": "t020-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Netheril était un royaume nain souterrain.",
+   "rep": false,
+   "src": "Forgotten Realms Campaign Set (1987), « Calendrier de Harptos »",
+   "expl": "Faux : c’était un empire humain de magiciens, célèbre pour ses cités volantes.",
+   "id": "t020-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le calendrier de Harptos compte cinq jours de fête hors des mois, plus un jour supplémentaire tous les quatre ans.",
+   "rep": true,
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018)",
+   "expl": "Vrai : la Rencontre des boucliers (Shieldmeet) suit la fête du solstice d’été les années bissextiles.",
+   "id": "t020-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le puits du Portail Béant mène directement aux Neuf Enfers.",
+   "rep": false,
+   "src": "Baldur’s Gate: Descent into Avernus (2019)",
+   "expl": "Faux : il mène à Montprofond, l’immense donjon creusé sous Eauprofonde.",
+   "id": "t020-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans Descent into Avernus, la ville d’Elturel est arrachée au monde et entraînée en Avernus.",
+   "rep": true,
+   "src": "Out of the Abyss (2015)",
+   "expl": "Vrai : un pacte de son Grand Duc avec Zariel la livre aux Enfers ; les héros doivent la sauver.",
+   "id": "t020-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Outreterre est un plan extérieur.",
+   "rep": false,
+   "src": "Ed Greenwood, Cormyr et Myth Drannor (TSR, 1991-1993)",
+   "expl": "Faux : c’est un immense réseau souterrain sous la surface de Toril, où vivent drows, duergars et flagelleurs mentaux.",
+   "id": "t020-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Myth Drannor accueillait elfes, humains, nains et autres peuples.",
+   "rep": true,
+   "src": "Larian Studios, Baldur’s Gate 3 (2023)",
+   "expl": "Vrai : ouverte à tous par décision de son coronal, elle est restée un symbole de coexistence.",
+   "id": "t020-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Baldur’s Gate 3 a été développé par BioWare.",
+   "rep": false,
+   "src": "Forgotten Realms Campaign Guide (2008)",
+   "expl": "Faux : il a été développé par le studio belge Larian ; BioWare avait créé les deux premiers épisodes.",
+   "id": "t020-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Abeir est un monde jumeau de Toril.",
+   "rep": true,
+   "src": "Ed Greenwood, Cormyr et Myth Drannor (TSR, 1991-1993)",
+   "expl": "Vrai : séparés par les dieux il y a très longtemps, les deux mondes se sont brièvement mêlés pendant la Magepeste.",
+   "id": "t020-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année (CV) tombe Myth Drannor ?",
+   "rep": 714,
+   "min": 500,
+   "max": 1000,
+   "pas": 1,
+   "unite": "CV",
+   "tolerance": 0,
+   "src": "Spellbound (TSR, 1995) ; Szass Tam, Dreams of the Red Wizards",
+   "expl": "En 714 CV, l’Armée des Ténèbres submerge la cité après des décennies de guerre.",
+   "id": "t020-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de zulkirs dirigeaient les écoles de magie de Thay ?",
+   "rep": 8,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "zulkirs",
+   "tolerance": 0,
+   "src": "Ruins of Adventure ; Sword Coast Adventurer’s Guide (2015), « Luskan »",
+   "expl": "Un zulkir par école : abjuration, divination, enchantement, évocation, illusion, invocation, nécromancie, transmutation.",
+   "id": "t020-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de Hauts Capitaines gouvernent Luskan ?",
+   "rep": 5,
+   "min": 2,
+   "max": 10,
+   "pas": 1,
+   "unite": "capitaines",
+   "tolerance": 0,
+   "src": "Forgotten Realms Campaign Set (1987)",
+   "expl": "Les cinq Hauts Capitaines dirigent la Cité des Voiles depuis l’île de Closeguard.",
+   "id": "t020-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de fêtes hors des mois compte le calendrier de Harptos, sans la Rencontre des boucliers ?",
+   "rep": 5,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "fêtes",
+   "tolerance": 0,
+   "src": "Forgotten Realms Campaign Set (1987)",
+   "expl": "Mi-hiver, Herbeverte, Mi-été, Hautemoisson et la Fête de la Lune ponctuent l’année.",
+   "id": "t020-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année TSR publie-t-il la première boîte des Royaumes Oubliés ?",
+   "rep": 1987,
+   "min": 1975,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "R. A. Salvatore, The Crystal Shard (TSR, 1988)",
+   "expl": "La « boîte grise » de 1987 rassemble les créations d’Ed Greenwood et en fait un décor officiel.",
+   "id": "t020-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît The Crystal Shard, premier roman avec Drizzt ?",
+   "rep": 1988,
+   "min": 1975,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Interplay, Baldur’s Gate (1998)",
+   "expl": "Ce succès lance la carrière de R. A. Salvatore et fait de Drizzt l’elfe noir le plus célèbre du jeu.",
+   "id": "t020-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort le jeu vidéo Baldur’s Gate ?",
+   "rep": 1998,
+   "min": 1985,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "BioWare, Neverwinter Nights (2002)",
+   "expl": "Baldur’s Gate relance les jeux de rôle sur ordinateur et fait découvrir les Royaumes à des millions de joueurs.",
+   "id": "t020-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort le jeu vidéo Neverwinter Nights de BioWare ?",
+   "rep": 2002,
+   "min": 1990,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "BioWare, Neverwinter Nights (2002)",
+   "expl": "Son éditeur de modules permettait aux joueurs de créer leurs propres aventures, comme des MJ.",
+   "id": "t020-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Elminster est l’Élu de la déesse ____.",
+   "choix": [
+    "Mystra",
+    "Tymora",
+    "Selûne",
+    "Oghma"
+   ],
+   "rep": 0,
+   "src": "Interplay, Baldur’s Gate (1998)",
+   "expl": "Les Élus de Mystra reçoivent une part de son pouvoir et vivent des siècles.",
+   "id": "t020-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le héros de Baldur’s Gate est un enfant de ____, dieu mort du meurtre.",
+   "choix": [
+    "Bhaal",
+    "Bane",
+    "Myrkul",
+    "Cyric"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, Menzoberranzan et The Dark Elf Trilogy (1990-1992)",
+   "expl": "Avant sa mort, Bhaal a semé des enfants à travers Faerûn pour revenir à la vie.",
+   "id": "t020-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La maison ____ est la plus puissante de Menzoberranzan.",
+   "choix": [
+    "Baenre",
+    "Do’Urden",
+    "Oblodra",
+    "DeVir"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, Menzoberranzan et The Dark Elf Trilogy (1990-1992)",
+   "expl": "La Mère Matrone Yvonnel Baenre a régné des siècles ; Jarlaxle et Gromph sont nés dans cette maison.",
+   "id": "t020-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Menzoberranzan se trouve dans l’____, sous la surface de Toril.",
+   "choix": [
+    "Outreterre",
+    "Abysse",
+    "Gisombre",
+    "Anauroch"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Cormyr »",
+   "expl": "L’Outreterre (Underdark) s’étend sous tout Faerûn, de caverne en caverne.",
+   "id": "t020-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les Dragons ____ sont les soldats du royaume de Cormyr.",
+   "choix": [
+    "pourpres",
+    "rouges",
+    "dorés",
+    "noirs"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Crystal Shard (1988)",
+   "expl": "Leur emblème est un dragon pourpre, symbole de la couronne des Obarskyr.",
+   "id": "t020-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’Éclat de cristal, ou ____, est l’artefact maléfique du premier roman de Drizzt.",
+   "choix": [
+    "Crenshinibon",
+    "Khazid’hea",
+    "Taulmaril",
+    "Aegis-fang"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Crystal Shard (1988)",
+   "expl": "Cet artefact pousse le magicien Akar Kessell à vouloir conquérir Valbise.",
+   "id": "t020-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le mercenaire Jarlaxle dirige la bande Bregan ____.",
+   "choix": [
+    "D’aerthe",
+    "Baenre",
+    "Xorlarrin",
+    "Tlabbar"
+   ],
+   "rep": 0,
+   "src": "Dreams of the Red Wizards (TSR, 1988)",
+   "expl": "Bregan D’aerthe vend ses services à toutes les maisons drows… et parfois en surface.",
+   "id": "t020-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "À Thay, chaque école de magie était dirigée par un ____.",
+   "choix": [
+    "zulkir",
+    "tharchion",
+    "archimage",
+    "vizir"
+   ],
+   "rep": 0,
+   "src": "Calimshan (TSR, 1999)",
+   "expl": "Les tharchions gouvernent les provinces ; les zulkirs dirigent la magie et donc le pays.",
+   "id": "t020-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plus grande ville du pays des génies, au sud de Faerûn, s’appelle ____.",
+   "choix": [
+    "Calimport",
+    "Athkatla",
+    "Suzail",
+    "Selgaunt"
+   ],
+   "rep": 0,
+   "src": "Lost Mine of Phandelver (2014)",
+   "expl": "Calimport est l’une des plus grandes villes de Faerûn, célèbre pour ses palais et ses guildes de voleurs.",
+   "id": "t020-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Lost Mine of Phandelver, la mine perdue abrite la Forge des ____.",
+   "choix": [
+    "Sorts",
+    "Âmes",
+    "Rois",
+    "Étoiles"
+   ],
+   "rep": 0,
+   "src": "Storm King’s Thunder (2016)",
+   "expl": "Nains et gnomes y forgeaient jadis des objets magiques, avant que des orcs ne détruisent l’alliance.",
+   "id": "t020-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans Storm King’s Thunder, les géants ont perdu leur hiérarchie sacrée, l’____.",
+   "choix": [
+    "Ordning",
+    "Ostoria",
+    "Annam",
+    "Ordalie"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Legend of Drizzt ; Neverwinter Campaign Setting (2011)",
+   "expl": "L’Ordning fixait le rang de chaque race de géants ; sa rupture les pousse à se disputer la suprématie.",
+   "id": "t020-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La cité naine perdue de ____ abrite la Grande Forge.",
+   "choix": [
+    "Gauntlgrym",
+    "Castelmithral",
+    "Gracklstugh",
+    "Blingdenstone"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), carte de la Côte des Épées",
+   "expl": "Un primordial de feu y est emprisonné ; sa colère a déclenché l’éruption du mont Hotenow.",
+   "id": "t020-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces villes ne se trouve pas sur la Côte des Épées ?",
+   "choix": [
+    "Suzail",
+    "Eauprofonde",
+    "Porte de Baldur",
+    "Padhiver"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Icewind Dale Trilogy (1988-1990)",
+   "expl": "Suzail est la capitale du Cormyr, plus à l’est.",
+   "id": "t020-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’appartient pas aux Compagnons du Castel ?",
+   "choix": [
+    "Jarlaxle",
+    "Bruenor",
+    "Wulfgar",
+    "Regis"
+   ],
+   "rep": 0,
+   "src": "Forgotten Realms Campaign Set (1987) ; Kara-Tur (1988) ; Maztica (1991)",
+   "expl": "Les Compagnons : Drizzt, Bruenor, Wulfgar, Catti-brie et le halfelin Regis.",
+   "id": "t020-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces régions ne se trouve pas sur Toril ?",
+   "choix": [
+    "Krynn",
+    "Faerûn",
+    "Kara-Tur",
+    "Maztica"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Factions »",
+   "expl": "Krynn est le monde de Dragonlance ; Faerûn, Kara-Tur et Maztica sont des terres de Toril.",
+   "id": "t020-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces groupes n’est pas l’une des cinq grandes factions de la 5e ?",
+   "choix": [
+    "Le Poing enflammé",
+    "Les Ménestrels",
+    "Le Zhentarim",
+    "L’Ordre du Gantelet"
+   ],
+   "rep": 0,
+   "src": "Forgotten Realms Campaign Set (1987)",
+   "expl": "Le Poing enflammé est la garde de la Porte de Baldur, pas une faction des joueurs.",
+   "id": "t020-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mois n’appartient pas au calendrier de Harptos ?",
+   "choix": [
+    "Brumaire",
+    "Hammer",
+    "Mirtul",
+    "Eleint"
+   ],
+   "rep": 0,
+   "src": "BioWare ; Black Isle Studios ; Larian Studios",
+   "expl": "Brumaire est un mois du calendrier républicain français.",
+   "id": "t020-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux vidéo ne se déroule pas dans les Royaumes Oubliés ?",
+   "choix": [
+    "Planescape: Torment",
+    "Baldur’s Gate",
+    "Icewind Dale",
+    "Neverwinter Nights"
+   ],
+   "rep": 0,
+   "src": "Ed Greenwood, Silverfall: Stories of the Seven Sisters (1999)",
+   "expl": "Planescape: Torment se déroule à Sigil et dans les plans.",
+   "id": "t020-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces héroïnes ne fait pas partie des Sept Sœurs ?",
+   "choix": [
+    "Catti-brie",
+    "Alustriel",
+    "Laeral",
+    "Storm"
+   ],
+   "rep": 0,
+   "src": "Curse of Strahd (2016) et aventures des Royaumes",
+   "expl": "Catti-brie est la fille adoptive de Bruenor ; les Sept Sœurs sont des Élues de Mystra.",
+   "id": "t020-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces aventures de la 5e ne se déroule pas dans les Royaumes Oubliés ?",
+   "choix": [
+    "Curse of Strahd",
+    "Tomb of Annihilation",
+    "Waterdeep: Dragon Heist",
+    "Rime of the Frostmaiden"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015)",
+   "expl": "Curse of Strahd se déroule en Barovie, dans Ravenloft.",
+   "id": "t020-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces villes ne se trouve pas dans l’Outreterre ?",
+   "choix": [
+    "Lunargent",
+    "Menzoberranzan",
+    "Gracklstugh",
+    "Blingdenstone"
+   ],
+   "rep": 0,
+   "src": "Catalogues TSR et Wizards of the Coast",
+   "expl": "Lunargent est une cité de surface, au nord de Faerûn.",
+   "id": "t020-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces auteurs n’a pas écrit de romans des Royaumes Oubliés ?",
+   "choix": [
+    "Raymond E. Feist",
+    "R. A. Salvatore",
+    "Ed Greenwood",
+    "Elaine Cunningham"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Feist a créé son propre monde, Midkemia.",
+   "id": "t020-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un magicien ?",
+   "choix": [
+    "Bruenor",
+    "Elminster",
+    "Khelben",
+    "Szass Tam"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Icewind Dale Trilogy (1988-1990)",
+   "expl": "Bruenor est un guerrier nain ; les trois autres sont parmi les plus puissants magiciens des Royaumes.",
+   "id": "t020-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Qui fait partie des Compagnons du Castel ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bruenor",
+    "Wulfgar",
+    "Catti-brie",
+    "Regis",
+    "Jarlaxle",
+    "Artemis Entreri"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Jarlaxle et Entreri sont d’abord des adversaires, puis de drôles d’alliés.",
+   "id": "t020-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles villes se trouvent sur la Côte des Épées ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Eauprofonde",
+    "Porte de Baldur",
+    "Luskan",
+    "Suzail",
+    "Calimport"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Out of the Abyss (2015)",
+   "expl": "Suzail est en Cormyr, Calimport au Calimshan, loin au sud.",
+   "id": "t020-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles villes se trouvent dans l’Outreterre ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Menzoberranzan",
+    "Gracklstugh",
+    "Blingdenstone",
+    "Lunargent",
+    "Phandaline"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015), « Factions »",
+   "expl": "Drows à Menzoberranzan, duergars à Gracklstugh, gnomes des profondeurs à Blingdenstone.",
+   "id": "t020-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquelles sont des factions des joueurs en 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ménestrels",
+    "Zhentarim",
+    "Enclave d’émeraude",
+    "Alliance des Seigneurs",
+    "Poing enflammé",
+    "Magiciens rouges"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Wizards of the Coast, aventures 5e (2015-2017)",
+   "expl": "La cinquième faction est l’Ordre du Gantelet.",
+   "id": "t020-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles aventures de la 5e se déroulent dans les Royaumes Oubliés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tomb of Annihilation",
+    "Storm King’s Thunder",
+    "Out of the Abyss",
+    "Curse of Strahd",
+    "Eberron: Rising from the Last War"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BioWare ; Black Isle Studios ; Blizzard",
+   "expl": "Curse of Strahd se passe en Ravenloft, et Eberron est un autre monde.",
+   "id": "t020-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels jeux vidéo se déroulent dans les Royaumes Oubliés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Baldur’s Gate",
+    "Icewind Dale",
+    "Neverwinter Nights",
+    "Planescape: Torment",
+    "Diablo"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Ed Greenwood, Silverfall (1999)",
+   "expl": "Diablo se déroule dans son propre monde, Sanctuaire.",
+   "id": "t020-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Qui fait partie des Sept Sœurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Alustriel",
+    "Laeral",
+    "Storm",
+    "Qilué",
+    "Catti-brie",
+    "Imoen"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Forgotten Realms Campaign Set (1987)",
+   "expl": "Les trois autres sœurs sont Dove, Syluné et la Simbul.",
+   "id": "t020-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles régions sont des continents ou terres de Toril ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Faerûn",
+    "Kara-Tur",
+    "Maztica",
+    "Krynn",
+    "Oerth"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "R. A. Salvatore, The Legend of Drizzt",
+   "expl": "Krynn et Oerth sont d’autres mondes : Dragonlance et Greyhawk.",
+   "id": "t020-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des drows ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Drizzt",
+    "Jarlaxle",
+    "Zaknafein",
+    "Artemis Entreri",
+    "Regis"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Waterdeep: Dragon Heist (2018)",
+   "expl": "Zaknafein est le père de Drizzt ; Entreri est humain et Regis halfelin.",
+   "id": "t020-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux se trouvent à Eauprofonde ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Portail Béant",
+    "La tour Blackstaff",
+    "Montprofond",
+    "Château-Suif",
+    "Gauntlgrym"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "R. A. Salvatore (1988-1996)",
+   "expl": "Château-Suif est plus au sud, près de la Porte de Baldur ; Gauntlgrym est sous les montagnes près de Padhiver.",
+   "id": "t020-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces trilogies de Drizzt par date de parution du premier tome.",
+   "items": [
+    "The Icewind Dale Trilogy",
+    "The Dark Elf Trilogy",
+    "Legacy of the Drow"
+   ],
+   "src": "SSI ; Westwood ; BioWare ; Larian",
+   "expl": "1988, 1990 et 1992 : la trilogie de l’elfe noir raconte la jeunesse de Drizzt après coup.",
+   "id": "t020-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux vidéo des Royaumes par date de sortie.",
+   "items": [
+    "Pool of Radiance",
+    "Eye of the Beholder",
+    "Baldur’s Gate",
+    "Neverwinter Nights",
+    "Baldur’s Gate 3"
+   ],
+   "src": "Netheril (1996) ; Myth Drannor (1991) ; Forgotten Realms Adventures (1990) ; FRCG (2008)",
+   "expl": "1988, 1991, 1998, 2002 et 2023 : trente-cinq ans d’adaptations des Royaumes.",
+   "id": "t020-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements des Royaumes par ordre chronologique.",
+   "items": [
+    "Chute de Netheril",
+    "Chute de Myth Drannor",
+    "Temps des Troubles",
+    "Magepeste"
+   ],
+   "src": "Forgotten Realms Campaign Set (1987), « Calendrier de Harptos »",
+   "expl": "−339, 714, 1358 et 1385 CV : l’histoire des Royaumes est jalonnée de catastrophes magiques.",
+   "id": "t020-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces mois du calendrier de Harptos dans l’ordre de l’année.",
+   "items": [
+    "Hammer",
+    "Alturiak",
+    "Ches",
+    "Tarsakh"
+   ],
+   "src": "Forgotten Realms Campaign Set (1987), « Calendrier de Harptos »",
+   "expl": "Les quatre premiers mois ; Hammer commence au cœur de l’hiver.",
+   "id": "t020-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces mois de la fin de l’année de Harptos dans l’ordre.",
+   "items": [
+    "Eleint",
+    "Marpenoth",
+    "Uktar",
+    "Nightal"
+   ],
+   "src": "Forgotten Realms Campaign Set (1987), « Calendrier de Harptos »",
+   "expl": "Les mois 9 à 12 ; Nightal précède le retour de Hammer.",
+   "id": "t020-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces fêtes de Harptos dans l’ordre de l’année.",
+   "items": [
+    "Mi-hiver",
+    "Herbeverte",
+    "Mi-été",
+    "Hautemoisson",
+    "Fête de la Lune"
+   ],
+   "src": "Wizards of the Coast (2014-2020)",
+   "expl": "Midwinter, Greengrass, Midsummer, Highharvestide et Feast of the Moon en version originale.",
+   "id": "t020-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces aventures de la 5e par date de parution.",
+   "items": [
+    "Lost Mine of Phandelver",
+    "Storm King’s Thunder",
+    "Tomb of Annihilation",
+    "Descent into Avernus",
+    "Rime of the Frostmaiden"
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015), carte",
+   "expl": "2014, 2016, 2017, 2019 et 2020 : du kit d’initiation aux grandes campagnes.",
+   "id": "t020-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces villes du nord au sud le long de la Côte des Épées.",
+   "items": [
+    "Luskan",
+    "Padhiver",
+    "Eauprofonde",
+    "Porte de Baldur"
+   ],
+   "src": "R. A. Salvatore, The Legend of Drizzt",
+   "expl": "On descend la côte des glaces du nord vers les terres plus douces de l’Amn.",
+   "id": "t020-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie de Drizzt dans l’ordre.",
+   "items": [
+    "Naissance à Menzoberranzan",
+    "Errance dans l’Outreterre",
+    "Arrivée à Valbise",
+    "Reconquête de Castelmithral"
+   ],
+   "src": "TSR (1987, 2001) ; Wizards of the Coast (2008, 2015)",
+   "expl": "De l’enfance drow aux aventures avec Bruenor, sa vie suit l’ordre des trilogies.",
+   "id": "t020-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces livres de décor des Royaumes par date de parution.",
+   "items": [
+    "Forgotten Realms Campaign Set",
+    "Forgotten Realms Campaign Setting",
+    "Forgotten Realms Campaign Guide",
+    "Sword Coast Adventurer’s Guide"
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "1987 (AD&D), 2001 (3e), 2008 (4e) et 2015 (5e).",
+   "id": "t020-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque ville à son surnom.",
+   "paires": [
+    [
+     "Eauprofonde",
+     "Cité des Splendeurs"
+    ],
+    [
+     "Luskan",
+     "Cité des Voiles"
+    ],
+    [
+     "Sigil",
+     "Cité des Portes"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Sigil n’est pas dans les Royaumes, mais elle y est reliée par des portails.",
+   "id": "t020-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à ses dirigeants.",
+   "paires": [
+    [
+     "Thay",
+     "Magiciens rouges"
+    ],
+    [
+     "Cormyr",
+     "Dynastie Obarskyr"
+    ],
+    [
+     "Porte de Baldur",
+     "Conseil des Quatre"
+    ],
+    [
+     "Luskan",
+     "Hauts Capitaines"
+    ],
+    [
+     "Eauprofonde",
+     "Seigneurs masqués"
+    ]
+   ],
+   "src": "R. A. Salvatore, The Legend of Drizzt",
+   "expl": "Royaumes, cités-États, oligarchies : les Royaumes offrent toutes les formes de pouvoir.",
+   "id": "t020-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à son arme.",
+   "paires": [
+    [
+     "Drizzt",
+     "Twinkle"
+    ],
+    [
+     "Wulfgar",
+     "Aegis-fang"
+    ],
+    [
+     "Catti-brie",
+     "Taulmaril"
+    ],
+    [
+     "Entreri",
+     "Charon’s Claw"
+    ]
+   ],
+   "src": "Wizards of the Coast (2015-2020)",
+   "expl": "Taulmaril, le Cherchecœur, est un arc qui tire des flèches d’éclair.",
+   "id": "t020-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque aventure à sa région.",
+   "paires": [
+    [
+     "Tomb of Annihilation",
+     "Chult"
+    ],
+    [
+     "Rime of the Frostmaiden",
+     "Valbise"
+    ],
+    [
+     "Descent into Avernus",
+     "Porte de Baldur"
+    ],
+    [
+     "Out of the Abyss",
+     "Outreterre"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015), « Factions »",
+   "expl": "Chaque grande aventure de la 5e explore une région différente des Royaumes.",
+   "id": "t020-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque faction à son but.",
+   "paires": [
+    [
+     "Ménestrels",
+     "Liberté et équilibre"
+    ],
+    [
+     "Zhentarim",
+     "Richesse et influence"
+    ],
+    [
+     "Enclave d’émeraude",
+     "Protection de la nature"
+    ],
+    [
+     "Ordre du Gantelet",
+     "Combat contre le mal"
+    ]
+   ],
+   "src": "Waterdeep: Dragon Heist (2018) ; Neverwinter Campaign Setting (2011)",
+   "expl": "Les joueurs de l’Adventurers League choisissent souvent l’une de ces factions.",
+   "id": "t020-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à la ville qu’il dirige ou a dirigée.",
+   "paires": [
+    [
+     "Laeral Silverhand",
+     "Eauprofonde"
+    ],
+    [
+     "Alustriel",
+     "Lunargent"
+    ],
+    [
+     "Bruenor",
+     "Castelmithral"
+    ],
+    [
+     "Dagult Neverember",
+     "Padhiver"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015) ; Tomb of Annihilation (2017)",
+   "expl": "Dagult Neverember a été à la fois Seigneur déclaré d’Eauprofonde et Seigneur protecteur de Padhiver.",
+   "id": "t020-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque région à sa particularité.",
+   "paires": [
+    [
+     "Chult",
+     "Jungle et dinosaures"
+    ],
+    [
+     "Anauroch",
+     "Désert sur les ruines de Netheril"
+    ],
+    [
+     "Valbise",
+     "Toundra glacée"
+    ],
+    [
+     "Calimshan",
+     "Ancien empire des génies"
+    ]
+   ],
+   "src": "SSI ; BioWare ; Black Isle ; Larian",
+   "expl": "Faerûn rassemble presque tous les climats, du grand nord à la jungle tropicale.",
+   "id": "t020-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque jeu vidéo à son studio.",
+   "paires": [
+    [
+     "Baldur’s Gate",
+     "BioWare"
+    ],
+    [
+     "Baldur’s Gate 3",
+     "Larian Studios"
+    ],
+    [
+     "Icewind Dale",
+     "Black Isle Studios"
+    ],
+    [
+     "Pool of Radiance",
+     "SSI"
+    ]
+   ],
+   "src": "TSR (1988-1994)",
+   "expl": "SSI a lancé en 1988 la série « Gold Box », première grande adaptation de D&D sur ordinateur.",
+   "id": "t020-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque auteur à son héros.",
+   "paires": [
+    [
+     "Ed Greenwood",
+     "Elminster"
+    ],
+    [
+     "R. A. Salvatore",
+     "Drizzt"
+    ],
+    [
+     "Elaine Cunningham",
+     "Arilyn Moonblade"
+    ],
+    [
+     "Kate Novak et Jeff Grubb",
+     "Alias"
+    ]
+   ],
+   "src": "Forgotten Realms Campaign Set (1987)",
+   "expl": "Alias apparaît dans Azure Bonds (1988), Arilyn dans Elfshadow (1991).",
+   "id": "t020-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque fête de Harptos à sa saison.",
+   "paires": [
+    [
+     "Mi-hiver",
+     "Hiver"
+    ],
+    [
+     "Herbeverte",
+     "Printemps"
+    ],
+    [
+     "Mi-été",
+     "Été"
+    ],
+    [
+     "Hautemoisson",
+     "Automne"
+    ]
+   ],
+   "src": "Ed Greenwood, Elminster: The Making of a Mage (1994)",
+   "expl": "Ces fêtes marquent les grands moments de l’année agricole.",
+   "id": "t020-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un magicien\n2. Je fume la pipe à Valombre\n3. Je suis l’Élu de Mystra",
+   "choix": [
+    "Elminster",
+    "Khelben",
+    "Volo",
+    "Mordenkainen"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Legend of Drizzt",
+   "expl": "Elminster aime se faire passer pour un vieillard inoffensif et grincheux.",
+   "id": "t020-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un drow\n2. Je manie deux cimeterres\n3. Une panthère m’accompagne",
+   "choix": [
+    "Drizzt",
+    "Jarlaxle",
+    "Zaknafein",
+    "Artemis Entreri"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Legend of Drizzt",
+   "expl": "Drizzt est un rôdeur, chose rarissime chez les drows.",
+   "id": "t020-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un nain roux et bourru\n2. J’ai adopté une orpheline humaine\n3. J’ai reconquis Castelmithral",
+   "choix": [
+    "Bruenor",
+    "Gundren",
+    "Thibbledorf Pwent",
+    "Harbromm"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dragon Heist (2018)",
+   "expl": "Bruenor Battlehammer est le huitième roi de Castelmithral.",
+   "id": "t020-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un tyrannoeil\n2. Je dirige une guilde de voleurs\n3. Je vis sous Eauprofonde avec mon poisson rouge",
+   "choix": [
+    "Le Xanathar",
+    "Manshoon",
+    "Halaster",
+    "Jarlaxle"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Thay »",
+   "expl": "Le poisson rouge du Xanathar s’appelle Sylgar ; le perdre le rendrait fou de rage.",
+   "id": "t020-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une liche\n2. Je dirige les Magiciens rouges\n3. Je rêve de devenir un dieu",
+   "choix": [
+    "Szass Tam",
+    "Larloch",
+    "Halaster",
+    "Manshoon"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate: Descent into Avernus (2019)",
+   "expl": "Szass Tam a régné sur Thay après avoir écarté les autres zulkirs.",
+   "id": "t020-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville\n2. Mon nom vient d’un explorateur\n3. Le Poing enflammé y fait régner l’ordre",
+   "choix": [
+    "La Porte de Baldur",
+    "Eauprofonde",
+    "Luskan",
+    "Padhiver"
+   ],
+   "rep": 0,
+   "src": "Waterdeep: Dungeon of the Mad Mage (2018)",
+   "expl": "Ses quartiers hauts et bas reflètent la séparation entre riches patriarches et petit peuple.",
+   "id": "t020-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une taverne\n2. Durnan me tient\n3. Un puits mène à Montprofond",
+   "choix": [
+    "Le Portail Béant",
+    "La tour Blackstaff",
+    "Château-Suif",
+    "La Sirène joyeuse"
+   ],
+   "rep": 0,
+   "src": "Candlekeep Mysteries (2021)",
+   "expl": "De nombreux aventuriers commencent leur carrière dans sa grande salle.",
+   "id": "t020-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une forteresse\n2. On paie mon entrée avec un livre\n3. Des moines veillent sur mes rayonnages",
+   "choix": [
+    "Château-Suif",
+    "Castelmithral",
+    "Gauntlgrym",
+    "Lunargent"
+   ],
+   "rep": 0,
+   "src": "Netheril: Empire of Magic (1996)",
+   "expl": "Château-Suif accueille sages et érudits du monde entier.",
+   "id": "t020-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un empire\n2. Mes cités volaient dans le ciel\n3. Karsus m’a fait tomber",
+   "choix": [
+    "Netheril",
+    "Myth Drannor",
+    "Imaskar",
+    "Calimshan"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Legend of Drizzt",
+   "expl": "Ses descendants, les Shades, sont revenus dans la cité volante de Thultanthar.",
+   "id": "t020-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un mercenaire\n2. Je porte un chapeau à plume\n3. Je suis né drow à Menzoberranzan",
+   "choix": [
+    "Jarlaxle",
+    "Drizzt",
+    "Entreri",
+    "Zaknafein"
+   ],
+   "rep": 0,
+   "src": "Icewind Dale: Rime of the Frostmaiden (2020)",
+   "expl": "Jarlaxle est le frère de Gromph Baenre, archimage de Menzoberranzan.",
+   "id": "t020-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une région\n2. Je suis glacée\n3. Dix petites villes s’y serrent",
+   "choix": [
+    "Valbise",
+    "L’Anauroch",
+    "Le Chult",
+    "La Vaasa"
+   ],
+   "rep": 0,
+   "src": "Paramount Pictures (2023)",
+   "expl": "Bryn Shander est la plus grande des Dix-Cités.",
+   "id": "t020-140",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un film\n2. Je suis sorti en 2023\n3. Un barde et une barbare y tentent un cambriolage",
+   "choix": [
+    "L’Honneur des voleurs",
+    "Le Seigneur des anneaux",
+    "Willow",
+    "Warcraft"
+   ],
+   "rep": 0,
+   "src": "Paramount Pictures (2023)",
+   "expl": "Chris Pine y joue le barde Edgin, Michelle Rodriguez la barbare Holga.",
+   "id": "t020-141",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

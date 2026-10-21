@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**19 / 99 thèmes terminés — 2751 questions au total.**
+**20 / 99 thèmes terminés — 2892 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -25,7 +25,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 17 | Sorts célèbres et écoles de magie | 141 | 44 | 21 (12) | 11 | 15 | 11 | 11 | 10 | 9 | 9 | 46 % | 10/95/36 | 8 | terminé |
 | 18 | Dés, caractéristiques et mécaniques | 141 | 49 | 19 (10) | 9 | 12 | 10 | 11 | 10 | 10 | 11 | 48 % | 26/82/33 | 39 | terminé |
 | 19 | Dieux, panthéons et plans d’existence | 144 | 51 | 18 (9) | 9 | 12 | 11 | 10 | 10 | 10 | 13 | 48 % | 20/95/29 | 57 | terminé |
-| 20 | Royaumes Oubliés (Faerûn) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 20 | Royaumes Oubliés (Faerûn) | 141 | 49 | 19 (10) | 8 | 12 | 11 | 10 | 10 | 10 | 12 | 48 % | 22/98/21 | 67 | terminé |
 | 21 | Objets magiques, trésors et équipement | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 22 | Histoire de D&D et campagnes célèbres | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 23 | L’Histoire d’Arda (Silmarillion, grands Âges) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -350,6 +350,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - content/017/a.lm:105 : ÉVIDENT ? vrai/faux peut-être tautologique (cont) — Dans D&D 5e, Contresort réussit automatiquement contre un sort de niveau 3 ou moins.
 - sorts-magie-dnd : niveaux déséquilibrés [10, 95, 36]
 - dieux-plans-dnd : niveaux déséquilibrés [20, 95, 29]
+- royaumes-oublies : niveaux déséquilibrés [22, 98, 21]
 - gre-003 : explication absente ou trop courte
 - gre-006 : explication absente ou trop courte
 - gre-011 : explication absente ou trop courte

@@ -9,3 +9,4 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 16 : noms français de capacités (Dérobade, Indomptable, Tueur d’ennemis, Traqueur des ténèbres) à confronter à la VF officielle.
 - Thème 18 : noms d’états et d’actions en VF (Terrorisé, Neutralisé, Foncer, abri partiel/important) à confronter au Manuel des Joueurs français.
 - Thème 19 : noms français (Gisombre, Féerie, Dame des Douleurs, Magepeste, Calendrier des Vallées, Mur des Infidèles) à confronter aux traductions officielles.
+- Thème 20 : noms français (Château-Suif, Castelmithral, Lunargent, Phandaline, Portail Béant, Herbeverte, Hautemoisson, Calendrier des Vallées) à confronter aux traductions officielles.
