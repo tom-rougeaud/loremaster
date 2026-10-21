@@ -1,0 +1,2132 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "potions-botanique-hp",
+  "nom": "Potions, alchimie et botanique magique",
+  "royaume": "Le Monde des Sorciers",
+  "icone": "chaudron",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Lors de son premier cours, quel mélange Rogue évoque-t-il en demandant ce qu’on obtient avec de l’asphodèle et de l’armoise ?",
+   "choix": [
+    "La Goutte du Mort vivant",
+    "Le Polynectar",
+    "Le Veritaserum",
+    "La Pimentine"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Ce puissant somnifère réapparaît en sixième année, lors du premier cours de Slughorn.",
+   "id": "t034-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où trouve-t-on un bézoard ?",
+   "choix": [
+    "Dans l’estomac d’une chèvre",
+    "Dans le nid d’un phénix",
+    "Sous l’écorce d’un saule",
+    "Dans une corne de licorne"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Cette pierre protège de la plupart des poisons.",
+   "id": "t034-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle plante désigne aussi bien le « napel » que le « tue-loup », selon Rogue ?",
+   "choix": [
+    "L’aconit",
+    "La mandragore",
+    "L’armoise",
+    "La belladone"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "C’est une seule et même plante : une question piège pour Harry, qui ne sait pas répondre.",
+   "id": "t034-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que permet le Polynectar ?",
+   "choix": [
+    "Prendre l’apparence d’un autre",
+    "Dire toute la vérité",
+    "Avoir de la chance",
+    "Voir l’avenir proche"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Le trio s’en sert pour interroger Drago en deuxième année.",
+   "id": "t034-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de temps dure l’effet d’une dose de Polynectar ?",
+   "choix": [
+    "Une heure",
+    "Dix minutes",
+    "Une journée",
+    "Une semaine"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Le faux Maugrey en boit à sa gourde toutes les heures pendant une année entière.",
+   "id": "t034-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Hermione se couvre-t-elle de fourrure en deuxième année ?",
+   "choix": [
+    "Un poil d’animal s’est glissé dans son Polynectar",
+    "Un maléfice de Drago l’a touchée",
+    "Elle a raté sa métamorphose",
+    "Un épouvantard l’a transformée"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Le Polynectar ne doit servir qu’à prendre une apparence humaine.",
+   "id": "t034-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelles toilettes le trio prépare-t-il le Polynectar ?",
+   "choix": [
+    "Celles de Mimi Geignarde",
+    "Celles des préfets",
+    "Celles de Gryffondor",
+    "Celles du ministère"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Personne n’y va jamais, à cause du fantôme qui y pleure.",
+   "id": "t034-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur a le Felix Felicis ?",
+   "choix": [
+    "Doré",
+    "Rose nacré",
+    "Vert vif",
+    "Noir d’encre"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "On l’appelle la « chance liquide » ; il scintille comme de l’or fondu.",
+   "id": "t034-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Harry gagne-t-il un flacon de Felix Felicis ?",
+   "choix": [
+    "En gagnant un concours de potion",
+    "En gagnant un match de Quidditch",
+    "En l’achetant à Pré-au-Lard",
+    "En le volant à Rogue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Les conseils notés dans le manuel du Prince lui donnent une longueur d’avance.",
+   "id": "t034-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quoi Harry utilise-t-il principalement son Felix Felicis ?",
+   "choix": [
+    "Obtenir le souvenir de Slughorn",
+    "Gagner un match de Quidditch",
+    "Réussir ses examens",
+    "Retrouver la trace de Sirius"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il en laisse ensuite à Ron, Hermione et Ginny pour la nuit de l’attaque de Poudlard.",
+   "id": "t034-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle potion est le plus puissant philtre d’amour ?",
+   "choix": [
+    "L’Amortentia",
+    "Le Felix Felicis",
+    "Le Polynectar",
+    "La Goutte du Mort vivant"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Elle sent différemment pour chacun, selon ce qui l’attire.",
+   "id": "t034-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quoi reconnaît-on l’Amortentia ?",
+   "choix": [
+    "À son éclat nacré",
+    "À sa couleur noire",
+    "À son goût de citron",
+    "À ses bulles dorées"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Hermione la reconnaît aussitôt dans le chaudron de Slughorn.",
+   "id": "t034-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle potion oblige à répondre sincèrement aux questions ?",
+   "choix": [
+    "Le Veritaserum",
+    "Le Polynectar",
+    "La Pimentine",
+    "Le Felix Felicis"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il suffit de trois gouttes ; Dumbledore s’en sert pour faire avouer Barty Croupton Jr.",
+   "id": "t034-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel breuvage permet à Lupin de garder son esprit pendant la pleine lune ?",
+   "choix": [
+    "La potion Tue-loup",
+    "La Pimentine",
+    "Le Polynectar",
+    "La Goutte du Mort vivant"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Rogue la prépare pour Lupin, mais l’oubli d’une dose provoque une catastrophe.",
+   "id": "t034-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel effet visible a la Pimentine contre le rhume ?",
+   "choix": [
+    "Les oreilles fument",
+    "Les cheveux changent de couleur",
+    "La voix devient aiguë",
+    "La peau devient bleue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Madame Pomfresh en distribue largement pendant les hivers humides.",
+   "id": "t034-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle potion fait repousser les os de Harry après l’erreur de Lockhart ?",
+   "choix": [
+    "Le Poussos",
+    "Le Polynectar",
+    "La Pimentine",
+    "Le Veritaserum"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Lockhart avait fait disparaître tous les os de son bras au lieu de le soigner.",
+   "id": "t034-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle potion soigne les élèves pétrifiés en deuxième année ?",
+   "choix": [
+    "Une potion de mandragore",
+    "Le Felix Felicis",
+    "Le Poussos",
+    "Une potion de dictame"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il faut attendre que les mandragores aient mûri.",
+   "id": "t034-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Harry sauve-t-il Ron empoisonné chez Slughorn ?",
+   "choix": [
+    "Avec un bézoard",
+    "Avec une larme de phénix",
+    "Avec du Felix Felicis",
+    "Avec un contre-sort"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il se souvient de la première question que Rogue lui avait posée en première année.",
+   "id": "t034-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’arrive-t-il à Neville lors de son premier cours de potions ?",
+   "choix": [
+    "Il fait fondre son chaudron",
+    "Il crée de l’or",
+    "Il se transforme en crapaud",
+    "Il réussit parfaitement"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il ajoute les épines de porc-épic avant d’avoir retiré le chaudron du feu.",
+   "id": "t034-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que soigne l’essence de dictame ?",
+   "choix": [
+    "Les plaies",
+    "Le rhume",
+    "Les os brisés",
+    "La pétrification"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Hermione l’utilise sur le bras de Ron, désartibulé.",
+   "id": "t034-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Que fait l’essence de Murlap ?",
+   "choix": [
+    "Elle apaise les plaies",
+    "Elle rend invisible",
+    "Elle fait dormir",
+    "Elle donne des branchies"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Hermione la conseille à Harry pour les coupures causées par la plume d’Ombrage.",
+   "id": "t034-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante permet à Harry de respirer sous l’eau lors de la deuxième tâche ?",
+   "choix": [
+    "La Branchiflore",
+    "La mandragore",
+    "Le Filet du Diable",
+    "La Tentacula"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Dans le livre, c’est Dobby qui la lui apporte ; dans le film, c’est Neville.",
+   "id": "t034-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que redoute le Filet du Diable ?",
+   "choix": [
+    "La lumière et la chaleur",
+    "L’eau",
+    "Le bruit",
+    "Le froid"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Hermione le fait reculer avec des flammes bleues sous la trappe.",
+   "id": "t034-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi porte-t-on des cache-oreilles pour rempoter des mandragores ?",
+   "choix": [
+    "Leur cri peut assommer ou tuer",
+    "Elles chantent faux",
+    "Elles crachent du poison",
+    "Elles mordent les oreilles"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Les jeunes mandragores assomment ; les adultes peuvent tuer.",
+   "id": "t034-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel produit de plante sert contre l’acné, mais brûle s’il est pur ?",
+   "choix": [
+    "Le pus de Bubobulb",
+    "La sève de saule",
+    "Le jus de mandragore",
+    "Le nectar de Branchiflore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Hermione en reçoit pur dans une lettre anonyme, après un article de Rita Skeeter.",
+   "id": "t034-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante rare Neville reçoit-il pour son anniversaire ?",
+   "choix": [
+    "Une Mimbulus mimbletonia",
+    "Une mandragore",
+    "Un Filet du Diable",
+    "Un bonsaï de Saule cogneur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Elle crache un jus malodorant quand on la touche.",
+   "id": "t034-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui enseigne la botanique à Poudlard ?",
+   "choix": [
+    "Pomona Chourave",
+    "Filius Flitwick",
+    "Sybille Trelawney",
+    "Horace Slughorn"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Elle travaille dans les serres de l’école.",
+   "id": "t034-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel élève excelle en botanique et finit par l’enseigner ?",
+   "choix": [
+    "Neville Londubat",
+    "Hermione Granger",
+    "Ron Weasley",
+    "Seamus Finnigan"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Après la guerre, il succède au professeur Chourave.",
+   "id": "t034-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel alchimiste a créé la Pierre philosophale ?",
+   "choix": [
+    "Nicolas Flamel",
+    "Albus Dumbledore",
+    "Paracelse",
+    "Merlin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Ce personnage s’inspire d’un véritable Parisien du XIVe siècle.",
+   "id": "t034-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que produit la Pierre philosophale, en plus de l’or ?",
+   "choix": [
+    "L’élixir de longue vie",
+    "Le Polynectar",
+    "Une baguette parfaite",
+    "Des larmes de phénix"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Flamel et sa femme Pernelle vivent grâce à elle depuis des siècles.",
+   "id": "t034-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’advient-il de la Pierre philosophale à la fin du premier tome ?",
+   "choix": [
+    "Elle est détruite",
+    "Elle est cachée à Gringotts",
+    "Harry la garde",
+    "Voldemort la vole"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Flamel et Pernelle acceptent de mourir, après avoir mis leurs affaires en ordre.",
+   "id": "t034-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Harry trouve-t-il la Pierre philosophale ?",
+   "choix": [
+    "Dans sa poche, grâce au Miroir du Riséd",
+    "Sous la trappe de Touffu",
+    "Dans le bureau de Dumbledore",
+    "À Gringotts"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Seul celui qui veut la trouver sans s’en servir peut la recevoir.",
+   "id": "t034-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel professeur enseigne les potions à partir de la sixième année de Harry ?",
+   "choix": [
+    "Horace Slughorn",
+    "Severus Rogue",
+    "Pomona Chourave",
+    "Remus Lupin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Rogue obtient enfin le poste de Défense contre les forces du Mal.",
+   "id": "t034-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le cercle des élèves favoris du maître des potions de la sixième année ?",
+   "choix": [
+    "Le Club de Slug",
+    "L’Armée de Dumbledore",
+    "La Brigade inquisitoriale",
+    "Le Club des duellistes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il collectionne les élèves prometteurs ou bien nés.",
+   "id": "t034-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel titre porte le livre annoté du Prince de Sang-Mêlé ?",
+   "choix": [
+    "Manuel avancé de préparation des potions",
+    "Mille herbes et champignons magiques",
+    "Le Livre des sorts",
+    "Potions pour débutants"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Ses annotations aident Harry à briller en potions.",
+   "id": "t034-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conseil du Prince aide Harry à réussir la Goutte du Mort vivant ?",
+   "choix": [
+    "Écraser la fève avec le plat d’une dague",
+    "Ajouter du sang de dragon",
+    "Remuer pendant une heure",
+    "Chanter une formule"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "La fève libère bien plus de jus qu’en la coupant.",
+   "id": "t034-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel ingrédient du Polynectar doit cuire vingt et un jours ?",
+   "choix": [
+    "Les chrysopes",
+    "Les sangsues",
+    "La corne de bicorne",
+    "La peau de serpent d’arbre du Cap"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Hermione vole d’autres ingrédients dans la réserve de Rogue.",
+   "id": "t034-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ingrédient du Polynectar Hermione vole-t-elle dans la réserve de Rogue ?",
+   "choix": [
+    "La peau de serpent",
+    "Les chrysopes",
+    "Les sangsues",
+    "Le Sisymbre"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Harry crée une diversion en faisant exploser le chaudron de Goyle.",
+   "id": "t034-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Ron absorbe-t-il un philtre d’amour en sixième année ?",
+   "choix": [
+    "En mangeant des chocolats destinés à Harry",
+    "En buvant une Bièraubeurre",
+    "Par un sortilège",
+    "En respirant une fumée"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Romilda Vane les avait préparés pour séduire Harry.",
+   "id": "t034-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle loi des antidotes Slughorn enseigne-t-il en sixième année ?",
+   "choix": [
+    "La troisième loi de Golpalott",
+    "La loi de Gamp",
+    "La loi de Flamel",
+    "Le principe de Merlin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Harry évite l’exercice en présentant simplement un bézoard.",
+   "id": "t034-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Combien de temps faut-il pour préparer le Felix Felicis ?",
+   "choix": [
+    "Six mois",
+    "Une heure",
+    "Un jour",
+    "Dix ans"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "C’est l’une des potions les plus difficiles et les plus longues à préparer.",
+   "id": "t034-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que se passe-t-il si l’on abuse du Felix Felicis ?",
+   "choix": [
+    "On devient imprudent",
+    "On meurt aussitôt",
+    "On devient invisible",
+    "On s’endort"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Slughorn met en garde : la chance excessive mène à des imprudences.",
+   "id": "t034-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel arbre frappe tout ce qui s’approche dans le parc de Poudlard ?",
+   "choix": [
+    "Le Saule cogneur",
+    "Le Filet du Diable",
+    "La Tentacula",
+    "Le Mallorn"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Ron et Harry l’emboutissent en voiture volante.",
+   "id": "t034-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante aux lianes agressives cache des gousses que les élèves doivent arracher en sixième année ?",
+   "choix": [
+    "Le Snargalouf",
+    "La Branchiflore",
+    "Le Bubobulb",
+    "La Mimbulus"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il faut plonger la main dans ses lianes épineuses pour arracher les gousses.",
+   "id": "t034-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel breuvage Dumbledore doit-il boire dans la caverne de l’Horcruxe ?",
+   "choix": [
+    "Un poison qui donne des visions atroces",
+    "Du Felix Felicis",
+    "Du Polynectar",
+    "De la Pimentine"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Dumbledore exige de tout boire, même s’il supplie d’arrêter.",
+   "id": "t034-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel breuvage permet de dormir sans cauchemars ?",
+   "choix": [
+    "La potion de Sommeil sans rêves",
+    "La Goutte du Mort vivant",
+    "La Pimentine",
+    "Le Poussos"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Madame Pomfresh en donne à Harry après la troisième tâche.",
+   "id": "t034-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel liquide peut soigner presque toutes les blessures, même le venin de Basilic ?",
+   "choix": [
+    "Les larmes de phénix",
+    "Le sang de licorne",
+    "Le jus de mandragore",
+    "La Bièraubeurre"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Fumseck pleure sur la blessure de Harry dans la Chambre des secrets.",
+   "id": "t034-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’arrive-t-il à celui qui boit du sang de licorne ?",
+   "choix": [
+    "Il survit, mais sa vie devient maudite",
+    "Il devient immortel et heureux",
+    "Il meurt aussitôt",
+    "Il devient une licorne"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Voldemort, affaibli, en boit dans la Forêt interdite en première année.",
+   "id": "t034-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel légume magique Hagrid fait-il pousser pour Halloween ?",
+   "choix": [
+    "Des citrouilles géantes",
+    "Des mandragores",
+    "Des Snargaloufs",
+    "Des choux carnivores"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il s’est sans doute aidé d’un peu de magie interdite.",
+   "id": "t034-049",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mélange change un crapaud en têtard dans la classe de Rogue ?",
+   "choix": [
+    "La potion de Ratatinage",
+    "Le Polynectar",
+    "La Pimentine",
+    "Le Felix Felicis"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Aidé en cachette par Hermione, Neville la réussit : Trevor devient têtard, puis Rogue lui rend sa forme.",
+   "id": "t034-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Polynectar permet de prendre l’apparence d’une autre personne.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : il faut y ajouter un morceau de la personne, souvent un cheveu.",
+   "id": "t034-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Polynectar fonctionne aussi pour prendre l’apparence d’un animal.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il est réservé aux transformations humaines, comme Hermione l’apprend à ses dépens.",
+   "id": "t034-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "L’Amortentia ne sent pas la même chose pour tout le monde.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : chacun y sent ce qui l’attire ; Hermione évoque l’herbe coupée et le parchemin neuf.",
+   "id": "t034-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Felix Felicis rend invisible.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il donne de la chance pendant quelques heures.",
+   "id": "t034-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Un bézoard protège de la plupart des poisons.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : il ne protège pas de tous, d’où les cours de Slughorn sur les antidotes.",
+   "id": "t034-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Rogue a toujours enseigné la botanique.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il enseigne les potions, puis la Défense contre les forces du Mal.",
+   "id": "t034-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La potion Tue-loup guérit définitivement la lycanthropie.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : elle permet seulement de garder son esprit pendant la transformation.",
+   "id": "t034-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les mandragores servent à soigner les victimes pétrifiées.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : il faut attendre qu’elles soient adultes pour préparer le remède.",
+   "id": "t034-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Filet du Diable se calme quand on se débat.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : plus on se débat, plus il serre ; il faut rester calme ou utiliser la lumière.",
+   "id": "t034-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Nicolas Flamel a réellement existé.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : ce libraire parisien du Moyen Âge est devenu, après sa mort, une légende de l’alchimie.",
+   "id": "t034-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Pierre philosophale transforme les métaux en or.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : elle produit aussi l’élixir de longue vie.",
+   "id": "t034-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le manuel du Prince de Sang-Mêlé appartenait à Tom Jedusor.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il appartenait à Severus Rogue, élève de Sang-Mêlé par son père moldu.",
+   "id": "t034-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La plante mangée par Harry pour la deuxième tâche lui fait pousser des palmes.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : son effet dure environ une heure, juste assez pour la deuxième tâche.",
+   "id": "t034-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Veritaserum se prépare en quelques minutes.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : c’est une potion puissante et contrôlée par le ministère ; elle demande du temps et du savoir-faire.",
+   "id": "t034-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Une overdose de Felix Felicis peut rendre téméraire.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : Slughorn explique que l’excès rend imprudent et arrogant.",
+   "id": "t034-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Neville est très mauvais en botanique.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (1999)",
+   "expl": "Faux : c’est sa matière préférée, où il excelle ; il la redoute seulement en potions.",
+   "id": "t034-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de temps dure l’effet du Polynectar, en minutes ?",
+   "rep": 60,
+   "min": 10,
+   "max": 300,
+   "pas": 10,
+   "unite": "minutes",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Il faut en reprendre régulièrement pour garder l’apparence voulue.",
+   "id": "t034-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Quel âge a Nicolas Flamel en 1992 ?",
+   "rep": 665,
+   "min": 100,
+   "max": 1000,
+   "pas": 5,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Sa femme Pernelle a 658 ans ; tous deux vivent grâce à l’élixir de longue vie.",
+   "id": "t034-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de mois faut-il pour préparer le Felix Felicis ?",
+   "rep": 6,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "mois",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et la Coupe de feu (2000)",
+   "expl": "Une erreur pendant la préparation peut avoir des effets désastreux.",
+   "id": "t034-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de gouttes de Veritaserum suffisent à faire parler un sorcier ?",
+   "rep": 3,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "gouttes",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (1999)",
+   "expl": "Rogue menace Harry de lui en verser trois gouttes dans son jus de citrouille.",
+   "id": "t034-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de jours doivent cuire les chrysopes du Polynectar ?",
+   "rep": 21,
+   "min": 1,
+   "max": 60,
+   "pas": 1,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (1999)",
+   "expl": "La préparation complète prend environ un mois.",
+   "id": "t034-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La potion qui donne l’apparence d’une autre personne s’appelle le ____.",
+   "choix": [
+    "Polynectar",
+    "Veritaserum",
+    "Felix Felicis",
+    "Poussos"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Barty Croupton Jr s’en sert pour se faire passer pour Maugrey pendant toute une année.",
+   "id": "t034-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le philtre d’amour le plus puissant s’appelle l’____.",
+   "choix": [
+    "Amortentia",
+    "Amaranthe",
+    "Amoroso",
+    "Ambroisie"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il crée une obsession, pas un véritable amour, précise Slughorn.",
+   "id": "t034-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La potion qui force à dire vrai s’appelle le ____.",
+   "choix": [
+    "Veritaserum",
+    "Polynectar",
+    "Pimentine",
+    "Poussos"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Sa fabrication et son usage sont strictement encadrés par le ministère.",
+   "id": "t034-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Une pierre tirée de l’estomac d’une chèvre et qui protège des poisons est un ____.",
+   "choix": [
+    "bézoard",
+    "rubis",
+    "silex",
+    "quartz"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry en garde un pour sauver Ron chez Slughorn.",
+   "id": "t034-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante dont le cri peut tuer s’appelle la ____.",
+   "choix": [
+    "mandragore",
+    "Branchiflore",
+    "belladone",
+    "Tentacula"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Son nom vient d’une vraie plante, entourée de légendes au Moyen Âge.",
+   "id": "t034-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Pour la deuxième tâche, Harry mange de la ____ afin de respirer sous l’eau.",
+   "choix": [
+    "Branchiflore",
+    "mandragore",
+    "Bubobulb",
+    "dictame"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il nage ainsi jusqu’au village des êtres de l’eau.",
+   "id": "t034-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La potion qui fait repousser les os s’appelle le ____.",
+   "choix": [
+    "Poussos",
+    "Polynectar",
+    "Veritaserum",
+    "Pimentine"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle a un goût atroce et fait très mal pendant la nuit de repousse.",
+   "id": "t034-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La potion contre le rhume qui fait fumer les oreilles s’appelle la ____.",
+   "choix": [
+    "Pimentine",
+    "Poussos",
+    "Amortentia",
+    "Goutte"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ginny en sort avec de la vapeur qui s’échappe de ses cheveux roux.",
+   "id": "t034-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante qui étrangle ceux qui tombent dans la trappe s’appelle le Filet du ____.",
+   "choix": [
+    "Diable",
+    "Dragon",
+    "Démon",
+    "Destin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le professeur Chourave l’a placée parmi les protections de la Pierre philosophale.",
+   "id": "t034-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’alchimiste qui a créé la Pierre philosophale s’appelle Nicolas ____.",
+   "choix": [
+    "Flamel",
+    "Fulcanelli",
+    "Faust",
+    "Fludd"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Fulcanelli et Robert Fludd sont d’autres alchimistes ou occultistes réels.",
+   "id": "t034-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Slughorn réunit ses élèves préférés au sein du ____ de Slug.",
+   "choix": [
+    "Club",
+    "Cercle",
+    "Salon",
+    "Conseil"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il y invite Harry, Hermione et Ginny, mais jamais Ron.",
+   "id": "t034-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le manuel de potions de Harry, en sixième année, appartenait au Prince de ____-Mêlé.",
+   "choix": [
+    "Sang",
+    "Cœur",
+    "Feu",
+    "Fer"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Rogue s’était donné ce surnom à partir du nom de sa mère, Eileen Prince.",
+   "id": "t034-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces noms n’est pas une potion ?",
+   "choix": [
+    "Wingardium Leviosa",
+    "Polynectar",
+    "Veritaserum",
+    "Amortentia"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Wingardium Leviosa est un sortilège de lévitation.",
+   "id": "t034-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces ingrédients n’entre pas dans le Polynectar ?",
+   "choix": [
+    "Les larmes de phénix",
+    "Les chrysopes",
+    "Les sangsues",
+    "La corne de bicorne"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les larmes de phénix guérissent ; elles ne servent pas au Polynectar.",
+   "id": "t034-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces plantes n’est pas dangereuse ?",
+   "choix": [
+    "Le dictame",
+    "Le Filet du Diable",
+    "La Tentacula vénéneuse",
+    "Le Saule cogneur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le dictame soigne les blessures ; Hermione en emporte dans son sac sans fond.",
+   "id": "t034-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces objets ne fait pas partie du matériel de potions ?",
+   "choix": [
+    "Une baguette de sureau",
+    "Un chaudron",
+    "Une balance",
+    "Des fioles"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La liste de fournitures de première année demande chaudron d’étain, balance et fioles.",
+   "id": "t034-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces potions ne guérit pas ?",
+   "choix": [
+    "L’Amortentia",
+    "Le Poussos",
+    "La Pimentine",
+    "L’essence de dictame"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "L’Amortentia est un philtre d’amour, pas un remède.",
+   "id": "t034-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces plantes n’apparaît pas dans les romans ?",
+   "choix": [
+    "La plante carnivore géante d’Audrey",
+    "La mandragore",
+    "Le Filet du Diable",
+    "La Branchiflore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Audrey est la plante de La Petite Boutique des horreurs.",
+   "id": "t034-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas lié à la Pierre philosophale ?",
+   "choix": [
+    "Gellert Grindelwald",
+    "Nicolas Flamel",
+    "Quirinus Quirrell",
+    "Albus Dumbledore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Grindelwald convoitait la Baguette de sureau, pas la Pierre.",
+   "id": "t034-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces objets ne protège pas du poison ?",
+   "choix": [
+    "Une Chocogrenouille",
+    "Un bézoard",
+    "Une larme de phénix",
+    "Un antidote"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les larmes de phénix sauvent Harry du venin de Basilic.",
+   "id": "t034-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces potions n’est pas préparée ou utilisée par Rogue ?",
+   "choix": [
+    "L’Amortentia de Romilda Vane",
+    "La potion Tue-loup",
+    "Le Veritaserum",
+    "Les potions des cours de Poudlard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Romilda Vane se procure un philtre pour séduire Harry.",
+   "id": "t034-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces effets n’est pas celui de la Branchiflore ?",
+   "choix": [
+    "Voler",
+    "Respirer sous l’eau",
+    "Nager avec des palmes",
+    "Avoir des branchies"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle transforme temporairement le mangeur en créature aquatique.",
+   "id": "t034-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles potions apparaissent dans la saga ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Polynectar",
+    "Felix Felicis",
+    "Veritaserum",
+    "Amortentia",
+    "Élixir de Panoramix",
+    "Potion de Popeye"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La potion magique de Panoramix appartient à Astérix.",
+   "id": "t034-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles plantes sont dangereuses ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mandragore",
+    "Filet du Diable",
+    "Tentacula vénéneuse",
+    "Dictame",
+    "Branchiflore"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La Branchiflore est utile, si on la mange au bon moment.",
+   "id": "t034-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels ingrédients entrent dans le Polynectar ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Chrysopes",
+    "Sangsues",
+    "Corne de bicorne",
+    "Larmes de phénix",
+    "Poil de licorne"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il faut aussi un morceau de la personne à imiter.",
+   "id": "t034-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Qui a enseigné les potions à Poudlard ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Severus Rogue",
+    "Horace Slughorn",
+    "Pomona Chourave",
+    "Filius Flitwick"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Slughorn l’avait déjà enseignée du temps de Tom Jedusor.",
+   "id": "t034-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles potions servent à soigner ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Poussos",
+    "Pimentine",
+    "Essence de dictame",
+    "Amortentia",
+    "Polynectar"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Madame Pomfresh dispose d’une vaste réserve de remèdes.",
+   "id": "t034-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels éléments sont liés à la Pierre philosophale ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nicolas Flamel",
+    "Élixir de longue vie",
+    "Miroir du Riséd",
+    "Baguette de sureau",
+    "Coupe de feu"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dumbledore cache la Pierre dans le Miroir pour la protéger.",
+   "id": "t034-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles potions apparaissent au premier cours de Slughorn ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Amortentia",
+    "Veritaserum",
+    "Polynectar",
+    "Felix Felicis",
+    "Poussos",
+    "Pimentine"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Slughorn les présente pour impressionner sa classe.",
+   "id": "t034-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles plantes Neville connaît-il particulièrement bien ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mimbulus mimbletonia",
+    "Branchiflore",
+    "Felix Felicis",
+    "Bézoard"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Felix et le bézoard ne sont pas des plantes.",
+   "id": "t034-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets ou substances sauvent une vie dans la saga ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bézoard",
+    "Larme de phénix",
+    "Essence de dictame",
+    "Amortentia",
+    "Pimentine"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La Pimentine ne fait que guérir un rhume.",
+   "id": "t034-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages ont bu du Polynectar ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Harry",
+    "Ron",
+    "Hermione",
+    "Barty Croupton Jr",
+    "Dumbledore",
+    "Hagrid"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Pendant la septième année, le trio en boit pour entrer au ministère.",
+   "id": "t034-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la deuxième année autour du Polynectar dans l’ordre.",
+   "items": [
+    "Vol des ingrédients",
+    "Préparation dans les toilettes",
+    "Transformation en Crabbe et Goyle",
+    "Interrogatoire de Drago"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le plan échoue : Drago ne sait rien de l’héritier de Serpentard.",
+   "id": "t034-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du premier cours de Slughorn dans l’ordre.",
+   "items": [
+    "Présentation des potions",
+    "Défi de la Goutte du Mort vivant",
+    "Conseils du Prince",
+    "Victoire de Harry"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Hermione, pourtant excellente, est dépassée par les astuces du Prince.",
+   "id": "t034-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la préparation du Polynectar dans l’ordre.",
+   "items": [
+    "Cuire les chrysopes",
+    "Ajouter sangsues et Sisymbre",
+    "Ajouter peau de serpent et corne de bicorne",
+    "Ajouter un morceau de la personne"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le dernier ingrédient, ajouté juste avant de boire, change la couleur de la potion.",
+   "id": "t034-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces potions par ordre d’apparition dans la saga.",
+   "items": [
+    "Polynectar",
+    "Potion Tue-loup",
+    "Veritaserum",
+    "Felix Felicis"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Tomes 2, 3, 4 et 6 : chaque année apporte sa potion marquante.",
+   "id": "t034-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces obstacles protégeant la Pierre philosophale dans l’ordre.",
+   "items": [
+    "Touffu",
+    "Le Filet du Diable",
+    "Les clés volantes",
+    "L’échiquier géant",
+    "L’énigme des potions"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Puis viennent le troll et le Miroir du Riséd.",
+   "id": "t034-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie d’une mandragore dans l’ordre.",
+   "items": [
+    "Semis",
+    "Rempotage avec cache-oreilles",
+    "Maturité",
+    "Préparation du remède"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il faut presque toute l’année scolaire pour qu’elles soient prêtes.",
+   "id": "t034-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces potions selon leur temps de préparation, du plus court au plus long.",
+   "items": [
+    "Veritaserum servi à la goutte",
+    "Polynectar",
+    "Felix Felicis"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Polynectar demande environ un mois, le Felix Felicis six mois.",
+   "id": "t034-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de la sixième année dans l’ordre.",
+   "items": [
+    "Découverte du manuel du Prince",
+    "Ron empoisonné",
+    "Souvenir de Slughorn obtenu",
+    "Mort de Dumbledore"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Felix Felicis aide Harry à obtenir le souvenir décisif.",
+   "id": "t034-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque potion à son effet.",
+   "paires": [
+    [
+     "Polynectar",
+     "Changer d’apparence"
+    ],
+    [
+     "Veritaserum",
+     "Dire la vérité"
+    ],
+    [
+     "Felix Felicis",
+     "Avoir de la chance"
+    ],
+    [
+     "Amortentia",
+     "Susciter l’amour"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ces potions sont parmi les plus puissantes de l’univers de Harry Potter.",
+   "id": "t034-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque remède à son usage.",
+   "paires": [
+    [
+     "Poussos",
+     "Os"
+    ],
+    [
+     "Pimentine",
+     "Rhume"
+    ],
+    [
+     "Dictame",
+     "Blessures"
+    ],
+    [
+     "Bézoard",
+     "Poison"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "L’infirmerie de Poudlard dispose de tous ces remèdes.",
+   "id": "t034-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque plante à sa propriété.",
+   "paires": [
+    [
+     "Mandragore",
+     "Cri mortel"
+    ],
+    [
+     "Filet du Diable",
+     "Étrangle"
+    ],
+    [
+     "Branchiflore",
+     "Branchies"
+    ],
+    [
+     "Saule cogneur",
+     "Frappe"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La botanique est une matière plus dangereuse qu’elle n’en a l’air.",
+   "id": "t034-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque professeur à sa matière.",
+   "paires": [
+    [
+     "Rogue",
+     "Potions puis Défense"
+    ],
+    [
+     "Slughorn",
+     "Potions"
+    ],
+    [
+     "Chourave",
+     "Botanique"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Rogue a longtemps convoité le poste de Défense contre les forces du Mal.",
+   "id": "t034-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque ingrédient à sa potion.",
+   "paires": [
+    [
+     "Chrysopes",
+     "Polynectar"
+    ],
+    [
+     "Asphodèle et armoise",
+     "Goutte du Mort vivant"
+    ],
+    [
+     "Mandragore",
+     "Remède contre la pétrification"
+    ],
+    [
+     "Aconit",
+     "Potion Tue-loup"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "L’aconit, appelé aussi tue-loup, entre dans la potion de Lupin.",
+   "id": "t034-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à une potion qu’il a bue ou préparée.",
+   "paires": [
+    [
+     "Hermione",
+     "Polynectar"
+    ],
+    [
+     "Harry",
+     "Felix Felicis"
+    ],
+    [
+     "Lupin",
+     "Potion Tue-loup"
+    ],
+    [
+     "Ron",
+     "Philtre d’amour"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ron finit chez Slughorn pour qu’il annule l’effet du philtre.",
+   "id": "t034-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque alchimiste ou sorcier à son œuvre.",
+   "paires": [
+    [
+     "Nicolas Flamel",
+     "Pierre philosophale"
+    ],
+    [
+     "Prince de Sang-Mêlé",
+     "Annotations de potions"
+    ],
+    [
+     "Slughorn",
+     "Club de Slug"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les potions sont aussi affaire de réputation.",
+   "id": "t034-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque obstacle de la Pierre philosophale à son créateur.",
+   "paires": [
+    [
+     "Filet du Diable",
+     "Chourave"
+    ],
+    [
+     "Échiquier géant",
+     "McGonagall"
+    ],
+    [
+     "Énigme des potions",
+     "Rogue"
+    ],
+    [
+     "Clés volantes",
+     "Flitwick"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Chaque professeur ajoute une protection ; Quirrell fournit le troll.",
+   "id": "t034-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque potion à son aspect.",
+   "paires": [
+    [
+     "Felix Felicis",
+     "Doré"
+    ],
+    [
+     "Amortentia",
+     "Nacré"
+    ],
+    [
+     "Polynectar",
+     "Boueux"
+    ],
+    [
+     "Veritaserum",
+     "Incolore"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Polynectar change de couleur selon la personne : celui de Goyle est d’un brun boueux.",
+   "id": "t034-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une potion\n2. Je donne l’apparence d’un autre\n3. Je dure une heure",
+   "choix": [
+    "Le Polynectar",
+    "Le Felix Felicis",
+    "Le Veritaserum",
+    "L’Amortentia"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Hermione la réussit en deuxième année : un exploit pour une élève de douze ans.",
+   "id": "t034-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une potion dorée\n2. On m’appelle la chance liquide\n3. Harry m’a gagnée",
+   "choix": [
+    "Le Felix Felicis",
+    "L’Amortentia",
+    "Le Polynectar",
+    "La Pimentine"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry en boit pour obtenir le souvenir de Slughorn.",
+   "id": "t034-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une pierre\n2. Je viens d’une chèvre\n3. Je sauve des empoisonnés",
+   "choix": [
+    "Le bézoard",
+    "La Pierre philosophale",
+    "La Pierre de résurrection",
+    "L’Arkenstone"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Rogue en parle dès le premier cours de Harry.",
+   "id": "t034-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une plante\n2. Je hurle quand on me déterre\n3. Je soigne les pétrifiés",
+   "choix": [
+    "La mandragore",
+    "Le Filet du Diable",
+    "La Branchiflore",
+    "Le Bubobulb"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les élèves portent des cache-oreilles en deuxième année.",
+   "id": "t034-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un alchimiste\n2. J’ai plus de six cents ans\n3. Je suis l’ami de Dumbledore",
+   "choix": [
+    "Nicolas Flamel",
+    "Paracelse",
+    "Horace Slughorn",
+    "Merlin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il renonce à la Pierre pour qu’elle ne tombe pas aux mains de Voldemort.",
+   "id": "t034-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis professeur\n2. Je collectionne les élèves brillants\n3. J’ai parlé des Horcruxes à Tom Jedusor",
+   "choix": [
+    "Horace Slughorn",
+    "Severus Rogue",
+    "Albus Dumbledore",
+    "Quirinus Quirrell"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Honteux, il avait modifié son souvenir de cette conversation.",
+   "id": "t034-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une plante\n2. Je fais respirer sous l’eau\n3. Dobby me vole pour Harry",
+   "choix": [
+    "La Branchiflore",
+    "La mandragore",
+    "Le Mimbulus",
+    "Le dictame"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dobby la prend dans la réserve de Rogue.",
+   "id": "t034-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un livre\n2. Je suis couvert de notes\n3. Rogue adolescent m’a annoté",
+   "choix": [
+    "Le manuel du Prince de Sang-Mêlé",
+    "Le journal de Tom Jedusor",
+    "Le Monstrueux Livre des monstres",
+    "L’Histoire de Poudlard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry le cache dans la Salle sur Demande après l’incident du Sectumsempra.",
+   "id": "t034-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un breuvage\n2. J’apaise la bête en celui qui me boit\n3. Rogue me prépare pour Lupin",
+   "choix": [
+    "La potion Tue-loup",
+    "Le Polynectar",
+    "La Goutte du Mort vivant",
+    "Le Veritaserum"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lupin oublie de la prendre la nuit où Sirius est retrouvé.",
+   "id": "t034-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une plante\n2. J’étrangle ceux qui se débattent\n3. La lumière me fait fuir",
+   "choix": [
+    "Le Filet du Diable",
+    "La Tentacula vénéneuse",
+    "Le Saule cogneur",
+    "La mandragore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ron panique ; Hermione retrouve le bon sort au dernier moment.",
+   "id": "t034-130",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
