@@ -1,0 +1,2180 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "objets-hp",
+  "nom": "Objets enchantés et secrets de Poudlard",
+  "royaume": "Le Monde des Sorciers",
+  "icone": "cle",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon le conte, qui a fabriqué les trois Reliques ?",
+   "choix": [
+    "La Mort elle-même",
+    "L’enchanteur Merlin",
+    "Les fondateurs de Poudlard",
+    "Les gobelins de Gringotts"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (Gallimard, 2007) ; Les Contes de Beedle le Barde (2008)",
+   "expl": "Vexée d’avoir été déjouée, la Mort offre à chaque frère un présent piégé.",
+   "id": "t037-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel livre Hermione lit-elle l’histoire des trois frères ?",
+   "choix": [
+    "Les Contes de Beedle le Barde",
+    "L’Histoire de Poudlard",
+    "Le Chicaneur",
+    "Vie et mensonges d’Albus Dumbledore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (Gallimard, 2007) ; Les Contes de Beedle le Barde (2008)",
+   "expl": "C’est un livre de contes que tous les enfants sorciers connaissent, à la différence de Harry et Hermione.",
+   "id": "t037-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui lègue un exemplaire de ce recueil à Hermione ?",
+   "choix": [
+    "Albus Dumbledore",
+    "Bathilda Tourdesac",
+    "Minerva McGonagall",
+    "Xenophilius Lovegood"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (Gallimard, 2007) ; Les Contes de Beedle le Barde (2008)",
+   "expl": "Il le cite dans son testament, sans expliquer pourquoi.",
+   "id": "t037-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quelle écriture est rédigé l’exemplaire légué à Hermione ?",
+   "choix": [
+    "En runes anciennes",
+    "En Fourchelang",
+    "En vieux latin",
+    "En code chiffré"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (Gallimard, 2007) ; Les Contes de Beedle le Barde (2008)",
+   "expl": "Hermione, qui a étudié les runes, peut le traduire elle-même.",
+   "id": "t037-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui explique au trio la signification du symbole triangulaire des Reliques ?",
+   "choix": [
+    "Xenophilius Lovegood",
+    "Garrick Ollivander",
+    "Bathilda Tourdesac",
+    "Aberforth Dumbledore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (Gallimard, 2007) ; Les Contes de Beedle le Barde (2008)",
+   "expl": "Il le porte au cou au mariage de Bill et Fleur, ce qui met Krum en colère.",
+   "id": "t037-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quel frère Peverell Harry descend-il ?",
+   "choix": [
+    "Ignotus",
+    "Cadmus",
+    "Antioche",
+    "Elvis"
+   ],
+   "rep": 0,
+   "src": "Wizarding World, « Wand cores »",
+   "expl": "La cape d’invisibilité s’est transmise dans sa lignée jusqu’aux Potter.",
+   "id": "t037-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel cœur renferme la Baguette de Sureau ?",
+   "choix": [
+    "Un crin de queue de Sombral",
+    "Une plume de phénix",
+    "Un crin de licorne",
+    "Un ventricule de dragon"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Un cœur difficile à maîtriser, réservé à un sorcier capable d’accepter la mort.",
+   "id": "t037-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quand la Baguette de Sureau change-t-elle d’allégeance ?",
+   "choix": [
+    "Quand son propriétaire est vaincu",
+    "Quand on la vole dans une tombe",
+    "Quand on la touche le premier",
+    "Quand on l’achète à Ollivander"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Désarmer suffit : il n’est pas nécessaire de tuer.",
+   "id": "t037-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est le vrai maître de la Baguette de Sureau au moment du duel final ?",
+   "choix": [
+    "Harry Potter",
+    "Drago Malefoy",
+    "Severus Rogue",
+    "Lord Voldemort"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Harry a désarmé Drago au manoir des Malefoy ; or Drago avait désarmé Dumbledore.",
+   "id": "t037-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le roman, que fait Harry de la Baguette de Sureau à la fin ?",
+   "choix": [
+    "Il la replace dans la tombe de Dumbledore",
+    "Il la brise et en jette les morceaux",
+    "Il la confie au ministère",
+    "Il la garde dans sa malle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Dans le film, il la brise ; dans le livre, il espère que son pouvoir mourra avec lui.",
+   "id": "t037-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet brisé Harry répare-t-il grâce à la Relique qu’il a gagnée ?",
+   "choix": [
+    "Sa baguette de houx",
+    "La Pensine fendue",
+    "Le miroir de Sirius",
+    "L’épée de Gryffondor"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Sa baguette avait été brisée à Godric’s Hollow ; aucun autre sort n’y parvenait.",
+   "id": "t037-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui rend anonymement la cape d’invisibilité à Harry, à son premier Noël ?",
+   "choix": [
+    "Albus Dumbledore",
+    "Rubeus Hagrid",
+    "Remus Lupin",
+    "Severus Rogue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Elle appartenait à James Potter, qui l’avait confiée à Dumbledore.",
+   "id": "t037-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi le Vif d’or légué à Harry réagit-il à ses lèvres ?",
+   "choix": [
+    "Il garde la mémoire de la chair de son premier attrapeur",
+    "Il est ensorcelé par la voix de Harry",
+    "Il obéit à la cicatrice de Harry",
+    "Il ne s’ouvre que le jour de Noël"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Harry avait attrapé ce Vif avec la bouche lors de son premier match.",
+   "id": "t037-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quoi sert d’abord le Déluminateur ?",
+   "choix": [
+    "À aspirer puis rendre la lumière des lampes",
+    "À allumer des feux sans baguette",
+    "À éteindre les sortilèges ennemis",
+    "À ouvrir les portes verrouillées"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Dumbledore l’utilise dès la première page du premier tome, à Privet Drive.",
+   "id": "t037-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment le Déluminateur aide-t-il Ron à retrouver ses amis ?",
+   "choix": [
+    "Il lui fait entendre Hermione et le guide d’une lumière",
+    "Il le fait transplaner sans le vouloir",
+    "Il lui montre une carte lumineuse",
+    "Il appelle Fumseck à son secours"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Une petite boule de lumière entre dans sa poitrine et le conduit jusqu’à eux.",
+   "id": "t037-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi le ministère refuse-t-il de remettre l’épée de Gryffondor à Harry ?",
+   "choix": [
+    "Elle n’appartenait pas à Dumbledore",
+    "Harry n’est pas encore majeur",
+    "Elle est dangereuse pour un élève",
+    "Elle a été détruite"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Le ministre la considère comme un objet historique, et sait qu’elle a disparu.",
+   "id": "t037-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel gobelin exige l’épée en échange de son aide à Gringotts ?",
+   "choix": [
+    "Gripsec",
+    "Gornuk",
+    "Ragnok",
+    "Bogrod"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Pour les gobelins, un objet fabriqué par eux leur revient toujours.",
+   "id": "t037-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Harry trouve-t-il l’épée dans la forêt de Dean ?",
+   "choix": [
+    "Au fond d’un étang gelé",
+    "Dans le creux d’un chêne",
+    "Sous une pierre tombale",
+    "Dans la tente du trio"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Elle ne peut être prise que par un acte de courage : il faut plonger.",
+   "id": "t037-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui envoie le Patronus qui guide Harry jusqu’à l’épée ?",
+   "choix": [
+    "Severus Rogue",
+    "Albus Dumbledore",
+    "Remus Lupin",
+    "Ron Weasley"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Rogue agit sur les ordres posthumes de Dumbledore.",
+   "id": "t037-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi l’épée de Gryffondor peut-elle détruire les Horcruxes ?",
+   "choix": [
+    "Elle s’est imprégnée du venin du Basilic",
+    "Elle a été bénie par les fondateurs",
+    "Elle est forgée dans un os de dragon",
+    "Elle a appartenu à la Mort"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prisonnier d’Azkaban (1999)",
+   "expl": "Le métal des gobelins absorbe ce qui le renforce.",
+   "id": "t037-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui donne la carte du Maraudeur à Harry ?",
+   "choix": [
+    "Fred et George Weasley",
+    "Remus Lupin",
+    "Sirius Black",
+    "Ron Weasley"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prisonnier d’Azkaban (1999)",
+   "expl": "Ils l’avaient dérobée dans le bureau de Rusard en première année.",
+   "id": "t037-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que faut-il déclarer, baguette sur la carte, pour la faire apparaître ?",
+   "choix": [
+    "Qu’on a de mauvaises intentions",
+    "Qu’on est un Maraudeur",
+    "Qu’on est préfet de sa maison",
+    "Qu’on connaît le mot de passe"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prisonnier d’Azkaban (1999)",
+   "expl": "Les créateurs étaient d’incorrigibles farceurs ; la carte reflète leur esprit.",
+   "id": "t037-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom surprenant Harry voit-il sur la carte en troisième année ?",
+   "choix": [
+    "Peter Pettigrow",
+    "Sirius Black",
+    "Remus Lupin",
+    "Tom Jedusor"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Coupe de feu (2000)",
+   "expl": "Ce nom suit Ron partout : c’est celui de son rat, Croûtard.",
+   "id": "t037-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom Harry voit-il dans le bureau de Rogue, la nuit où il étudie l’œuf d’or ?",
+   "choix": [
+    "Bartemius Croupton",
+    "Alastor Maugrey",
+    "Igor Karkaroff",
+    "Ludo Verpey"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Coupe de feu (2000)",
+   "expl": "Il croit à M. Croupton père ; c’est en réalité son fils.",
+   "id": "t037-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi la carte démasque-t-elle les imposteurs ?",
+   "choix": [
+    "Elle affiche le vrai nom de chacun",
+    "Elle détecte le Polynectar",
+    "Elle signale les Animagi en rouge",
+    "Elle sonne en présence d’un traître"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prisonnier d’Azkaban (1999)",
+   "expl": "Ni la métamorphose ni le Polynectar ne la trompent.",
+   "id": "t037-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui confie un Retourneur de Temps à Hermione ?",
+   "choix": [
+    "Minerva McGonagall",
+    "Albus Dumbledore",
+    "Cornelius Fudge",
+    "Severus Rogue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prisonnier d’Azkaban (1999)",
+   "expl": "Elle obtient l’accord du ministère, à condition qu’Hermione garde le secret.",
+   "id": "t037-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Hermione reçoit-elle un Retourneur de Temps ?",
+   "choix": [
+    "Pour suivre plusieurs cours à la même heure",
+    "Pour réviser ses examens deux fois",
+    "Pour aider Hagrid à sauver Buck",
+    "Pour surveiller Sirius Black"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "Elle le rend à la fin de l’année, épuisée par cet emploi du temps.",
+   "id": "t037-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que deviennent les Retourneurs de Temps du ministère ?",
+   "choix": [
+    "Ils sont tous détruits",
+    "Ils sont donnés à Poudlard",
+    "Ils sont volés par les Mangemorts",
+    "Ils sont enfermés à Azkaban"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Une étagère entière se brise pendant la bataille du Département des mystères ; Hermione l’apprend par la Gazette.",
+   "id": "t037-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot donne « Riséd » lu à l’envers ?",
+   "choix": [
+    "Désir",
+    "Rêves",
+    "Destin",
+    "Image"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "L’inscription du cadre est elle aussi écrite à l’envers, comme dans un miroir.",
+   "id": "t037-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que faut-il faire en passant devant le mur de la Salle sur Demande ?",
+   "choix": [
+    "Penser fort à ce dont on a besoin",
+    "Frapper trois coups sur la pierre",
+    "Prononcer un mot de passe",
+    "Montrer sa baguette au mur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "La salle prend la forme exacte du besoin exprimé.",
+   "id": "t037-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel elfe indique la Salle sur Demande à Harry ?",
+   "choix": [
+    "Dobby",
+    "Kreattur",
+    "Winky",
+    "Hokey"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "Il y avait caché Winky, ivre de Bièraubeurre, pour qu’elle se repose.",
+   "id": "t037-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle tapisserie fait face à l’entrée de la Salle sur Demande ?",
+   "choix": [
+    "Un sorcier qui enseigne la danse à des trolls",
+    "Les quatre fondateurs en banquet",
+    "Une chasse à la licorne",
+    "Merlin face à un dragon"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "C’est Barnabas le Follet, qui tente d’apprendre la danse classique à des trolls.",
+   "id": "t037-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel souvenir Harry découvre-t-il dans la Pensine de Rogue ?",
+   "choix": [
+    "Son père humiliant Rogue adolescent",
+    "La mort de Lily Potter",
+    "Rogue recevant la Marque",
+    "Dumbledore chassant Rogue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Cette scène ébranle l’image idéale que Harry avait de James.",
+   "id": "t037-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À qui appartient l’œil bleu qui apparaît dans l’éclat du miroir à double sens ?",
+   "choix": [
+    "Aberforth Dumbledore",
+    "Albus Dumbledore",
+    "Sirius Black",
+    "Alastor Maugrey"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "Aberforth possède l’autre miroir et envoie Dobby au secours du trio.",
+   "id": "t037-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment l’Armée de Dumbledore fixe-t-elle ses réunions ?",
+   "choix": [
+    "Avec de faux Gallions ensorcelés",
+    "Avec des hiboux codés",
+    "Avec des messages sur la carte",
+    "Avec des Beuglantes muettes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (1999)",
+   "expl": "Hermione s’inspire de la Marque des Ténèbres, en version inoffensive.",
+   "id": "t037-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel modèle de voiture Arthur Weasley a-t-il ensorcelé ?",
+   "choix": [
+    "Une Ford Anglia",
+    "Une Austin Mini",
+    "Une Rolls-Royce",
+    "Une Morris Minor"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Elle vole et peut devenir invisible, ce qui est interdit aux sorciers.",
+   "id": "t037-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Sur quelle indication pointent toutes les aiguilles de l’horloge des Weasley en temps de guerre ?",
+   "choix": [
+    "En danger de mort",
+    "En voyage",
+    "À l’hôpital",
+    "Perdu"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Molly explique que tout le monde est en danger depuis le retour de Voldemort.",
+   "id": "t037-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet Drago utilise-t-il pour se guider dans le noir lors de l’attaque de Poudlard ?",
+   "choix": [
+    "Une Main de la Gloire",
+    "Un Lumos inversé",
+    "Une lanterne de Sombral",
+    "Un Scrutoscope"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Coupe de feu (2000)",
+   "expl": "Elle n’éclaire que celui qui la tient ; il l’a achetée chez Barjow et Beurk.",
+   "id": "t037-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Cedric conseille-t-il à Harry d’aller ouvrir l’œuf d’or ?",
+   "choix": [
+    "Dans la salle de bains des préfets",
+    "Dans le lac de Poudlard",
+    "Dans les toilettes de Mimi",
+    "Dans la salle commune"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003) ; Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Ce conseil rend la politesse de Harry, qui l’avait prévenu des dragons.",
+   "id": "t037-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet de Maugrey Ombrage fixe-t-elle sur la porte de son bureau ?",
+   "choix": [
+    "Son œil magique",
+    "Sa jambe de bois",
+    "Sa flasque",
+    "Sa malle à sept serrures"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003) ; Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Elle s’en sert pour espionner ; Harry le récupère et l’enterre.",
+   "id": "t037-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait la plume noire qu’Ombrage donne à Harry en retenue ?",
+   "choix": [
+    "Elle écrit avec son sang et grave les mots dans sa main",
+    "Elle répète à voix haute ce qu’il écrit",
+    "Elle rapporte ses lignes au ministère",
+    "Elle efface tout ce qu’il a noté"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "La cicatrice des lignes imposées reste visible sur le dos de sa main.",
+   "id": "t037-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel portrait garde le passage entre la Tête de Sanglier et la Salle sur Demande ?",
+   "choix": [
+    "Celui d’Ariana Dumbledore",
+    "Celui de la Grosse Dame",
+    "Celui de Phineas Nigellus",
+    "Celui d’Helga Poufsouffle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Neville l’emprunte pour ravitailler les élèves cachés.",
+   "id": "t037-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que devient la Salle sur Demande pendant la dernière année de Harry ?",
+   "choix": [
+    "Le refuge des élèves rebelles",
+    "Le bureau des Carrow",
+    "Une prison pour les nés-Moldus",
+    "Un entrepôt de Mangemorts"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Neville y vit avec d’autres résistants, qui fuient les Carrow.",
+   "id": "t037-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quoi ressemble la Salle sur Demande quand on veut y dissimuler quelque chose ?",
+   "choix": [
+    "À un immense bric-à-brac séculaire",
+    "À un coffre-fort de gobelins",
+    "À une crypte vide",
+    "À une petite armoire"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Des générations d’élèves y ont caché des choses, sur plusieurs siècles.",
+   "id": "t037-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel livre Harry cache-t-il dans la Salle sur Demande ?",
+   "choix": [
+    "Le manuel du Prince de Sang-Mêlé",
+    "Le journal de Tom Jedusor",
+    "Les Contes de Beedle le Barde",
+    "Le Monstrueux Livre des monstres"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Coupe de feu (2000)",
+   "expl": "Il marque la cachette en posant un vieux diadème sur un buste.",
+   "id": "t037-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Barty Croupton Jr fait-il choisir Harry par la Coupe de feu ?",
+   "choix": [
+    "Il la convainc qu’il existe une quatrième école",
+    "Il glisse le nom de Harry trois fois",
+    "Il remplace la Coupe par une copie",
+    "Il ensorcelle Dumbledore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Coupe de feu (2000)",
+   "expl": "Il utilise un puissant sortilège de Confusion sur l’objet.",
+   "id": "t037-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Miroir du Riséd montre le désir le plus profond de celui qui s’y regarde.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dumbledore met Harry en garde : des sorciers se sont perdus à le contempler.",
+   "id": "t037-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Comme toutes les capes d’invisibilité, celle de Harry s’use avec le temps.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : les capes ordinaires faiblissent, mais la sienne, une Relique, reste parfaite.",
+   "id": "t037-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La Salle sur Demande ne peut pas faire apparaître de nourriture.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : Neville doit faire venir les vivres par le passage de la Tête de Sanglier.",
+   "id": "t037-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La carte du Maraudeur montre aussi la Salle sur Demande.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : Drago disparaît de la carte quand il s’y enferme, ce qui intrigue Harry.",
+   "id": "t037-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un Retourneur de Temps permet de remonter quelques heures en arrière.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Chaque tour du sablier fait reculer d’une heure.",
+   "id": "t037-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Une Beuglante chuchote son message à l’oreille du destinataire.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : elle hurle devant tout le monde, puis prend feu.",
+   "id": "t037-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dumbledore se servait de la plus puissante des Reliques comme baguette personnelle.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il l’a gagnée en battant Grindelwald en 1945.",
+   "id": "t037-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La pierre de Résurrection ramène les morts à une vraie vie.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : ils reviennent comme des ombres, ni vivants ni tout à fait morts.",
+   "id": "t037-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Pensine permet de revivre un souvenir comme un spectateur invisible.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "On y plonge le visage et on se retrouve dans la scène.",
+   "id": "t037-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Vif d’or légué par Dumbledore vient de la finale de la Coupe du monde.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : c’est celui du premier match de Harry, à onze ans.",
+   "id": "t037-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les tableaux de Poudlard bougent et parlent.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les anciens directeurs, dans le bureau de Dumbledore, conseillent même le directeur en place.",
+   "id": "t037-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un Rapeltout indique précisément ce qu’on a oublié.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il rougit, mais ne dit pas ce qui manque ; Neville s’en désole.",
+   "id": "t037-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Harry et Hermione utilisent le Retourneur de Temps pour sauver Buck.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ils sauvent aussi Sirius, enfermé en haut d’une tour.",
+   "id": "t037-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Après l’accident, la voiture volante reste sagement au Terrier.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : elle s’enfuit dans la Forêt interdite et y vit à l’état sauvage.",
+   "id": "t037-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les faux Gallions de l’AD chauffent quand une réunion est annoncée.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La date gravée sur la tranche change en même temps.",
+   "id": "t037-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les escaliers de Poudlard restent toujours immobiles.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : ils changent de direction, et certaines marches sont piégées.",
+   "id": "t037-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Déluminateur est une invention de Dumbledore.",
+   "rep": true,
+   "src": "Les Contes de Beedle le Barde (2008)",
+   "expl": "Il le lègue à Ron, devinant qu’il en aurait besoin.",
+   "id": "t037-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de Reliques de la Mort existe-t-il ?",
+   "rep": 3,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "Reliques",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prisonnier d’Azkaban (1999)",
+   "expl": "Une baguette, une pierre et une cape : on devient alors « maître de la Mort ».",
+   "id": "t037-064",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "De combien d’heures Harry et Hermione remontent-ils le temps pour sauver Buck ?",
+   "rep": 3,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "heures",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "Hermione fait faire trois tours au sablier, selon le conseil de Dumbledore.",
+   "id": "t037-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "À quel étage se trouve la Salle sur Demande ?",
+   "rep": 7,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "e étage",
+   "tolerance": 0,
+   "src": "Les Contes de Beedle le Barde (Gallimard, 2008)",
+   "expl": "Le septième, face à une tapisserie de trolls dansants.",
+   "id": "t037-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît le vrai livre Les Contes de Beedle le Barde ?",
+   "rep": 2008,
+   "min": 1990,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Ses bénéfices vont à une association pour les enfants, fondée par J. K. Rowling.",
+   "id": "t037-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Pour quel anniversaire Harry reçoit-il une montre de Molly Weasley ?",
+   "rep": 17,
+   "min": 11,
+   "max": 20,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prisonnier d’Azkaban (1999)",
+   "expl": "C’est l’âge de la majorité chez les sorciers ; on offre traditionnellement une montre.",
+   "id": "t037-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’auteurs signent la carte du Maraudeur ?",
+   "rep": 4,
+   "min": 1,
+   "max": 8,
+   "pas": 1,
+   "unite": "auteurs",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Lunard, Queudver, Patmol et Cornedrue saluent même Rogue d’insultes.",
+   "id": "t037-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année, dans l’histoire, Harry découvre-t-il le Miroir du Riséd ?",
+   "rep": 1991,
+   "min": 1985,
+   "max": 1998,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Pendant les vacances de Noël de sa première année.",
+   "id": "t037-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’objets Dumbledore lègue-t-il à Harry dans son testament ?",
+   "rep": 2,
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "objets",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Le Vif d’or et l’épée de Gryffondor, que le ministère garde pour lui.",
+   "id": "t037-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La baguette, la pierre et la cape forment les ____ de la Mort.",
+   "choix": [
+    "Reliques",
+    "Horcruxes",
+    "Trésors",
+    "Gages"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Celui qui les réunit serait le maître de la Mort.",
+   "id": "t037-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La baguette la plus puissante du monde est la Baguette de ____.",
+   "choix": [
+    "Sureau",
+    "Houx",
+    "If",
+    "Chêne"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle laisse derrière elle une longue traînée de meurtres et de duels.",
+   "id": "t037-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les contes pour enfants sorciers sont signés Beedle le ____.",
+   "choix": [
+    "Barde",
+    "Sage",
+    "Fou",
+    "Conteur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dumbledore en a écrit des commentaires, publiés dans le vrai livre.",
+   "id": "t037-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La carte qui montre tout Poudlard s’appelle la carte du ____.",
+   "choix": [
+    "Maraudeur",
+    "Rôdeur",
+    "Fureteur",
+    "Voyageur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle révèle aussi les passages secrets vers Pré-au-Lard.",
+   "id": "t037-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Pour effacer la carte, on déclare le ____ accompli.",
+   "choix": [
+    "méfait",
+    "devoir",
+    "serment",
+    "voyage"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La carte redevient alors un vieux parchemin vierge.",
+   "id": "t037-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sablier qui permet de revenir en arrière s’appelle un ____ de Temps.",
+   "choix": [
+    "Retourneur",
+    "Remontoir",
+    "Sablier",
+    "Gardien"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "On le porte au cou, sa chaîne autour de chaque voyageur.",
+   "id": "t037-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le bassin de pierre où l’on verse des souvenirs s’appelle la ____.",
+   "choix": [
+    "Pensine",
+    "Mémorine",
+    "Souvenance",
+    "Vasque"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "On extrait les souvenirs de sa tempe avec la pointe de sa baguette.",
+   "id": "t037-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le miroir qui montre nos désirs s’appelle le Miroir du ____.",
+   "choix": [
+    "Riséd",
+    "Songe",
+    "Rêvoir",
+    "Destin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dumbledore l’utilise pour cacher la Pierre philosophale.",
+   "id": "t037-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La boule de verre qui rougit quand on a oublié quelque chose est un ____.",
+   "choix": [
+    "Rapeltout",
+    "Scrutoscope",
+    "Vif d’or",
+    "Gobstone"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Neville le reçoit de sa grand-mère ; Drago le lui vole au premier cours de vol.",
+   "id": "t037-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La lettre hurlante d’un parent furieux s’appelle une ____.",
+   "choix": [
+    "Beuglante",
+    "Hurlette",
+    "Criarde",
+    "Râleuse"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ron en reçoit une de sa mère après le vol en voiture.",
+   "id": "t037-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La toupie qui siffle en présence d’un individu louche est un ____.",
+   "choix": [
+    "Scrutoscope",
+    "Rapeltout",
+    "Déluminateur",
+    "Gyroscope"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ron l’offre à Harry ; elle siffle sans cesse près de Croûtard.",
+   "id": "t037-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Sur le Vif d’or légué à Harry, on lit : « Je m’ouvre au ____ ».",
+   "choix": [
+    "terme",
+    "matin",
+    "combat",
+    "printemps"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il s’ouvre quand Harry accepte d’aller mourir, et révèle la pierre.",
+   "id": "t037-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La Salle sur Demande porte aussi le nom de Salle ____.",
+   "choix": [
+    "Va-et-Vient",
+    "Secrète",
+    "Mobile",
+    "Cachée"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle n’apparaît que lorsqu’on en a vraiment besoin.",
+   "id": "t037-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces objets n’est pas une Relique de la Mort ?",
+   "choix": [
+    "La Pensine",
+    "La Baguette de Sureau",
+    "La pierre de Résurrection",
+    "La cape d’invisibilité"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La Pensine sert à revoir des souvenirs ; elle n’a rien à voir avec le conte.",
+   "id": "t037-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’est pas légué par Dumbledore dans son testament ?",
+   "choix": [
+    "La cape d’invisibilité",
+    "Le Déluminateur",
+    "Le Vif d’or",
+    "Les Contes de Beedle le Barde"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dumbledore avait rendu la cape à Harry dès sa première année.",
+   "id": "t037-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a jamais utilisé la cape d’invisibilité de Harry ?",
+   "choix": [
+    "Drago Malefoy",
+    "Ron Weasley",
+    "Hermione Granger",
+    "James Potter"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "James la portait déjà lors des escapades des Maraudeurs.",
+   "id": "t037-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms n’est pas celui d’un frère Peverell ?",
+   "choix": [
+    "Elvis",
+    "Antioche",
+    "Cadmus",
+    "Ignotus"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elvis Gaunt est le grand-père de Voldemort, descendant de Cadmus.",
+   "id": "t037-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces salles ne se trouve pas à Poudlard ?",
+   "choix": [
+    "La salle des prophéties",
+    "La Salle sur Demande",
+    "La salle de bains des préfets",
+    "La Chambre des secrets"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La salle des prophéties se trouve au Département des mystères.",
+   "id": "t037-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets ne sert pas à communiquer ?",
+   "choix": [
+    "La Pensine",
+    "Le miroir à double sens",
+    "Les faux Gallions de l’AD",
+    "La Beuglante"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La Pensine conserve les souvenirs, sans transmettre de message.",
+   "id": "t037-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’a rien à voir avec la mémoire ?",
+   "choix": [
+    "Le Retourneur de Temps",
+    "La Pensine",
+    "Le Rapeltout",
+    "Le journal de Tom Jedusor"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Retourneur agit sur le temps lui-même, pas sur les souvenirs.",
+   "id": "t037-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’apparaît pas dans le premier tome ?",
+   "choix": [
+    "Le Retourneur de Temps",
+    "Le Miroir du Riséd",
+    "La cape d’invisibilité",
+    "Le Rapeltout"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Retourneur n’apparaît qu’au troisième tome.",
+   "id": "t037-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’est ni détruit ni perdu au fil de la saga ?",
+   "choix": [
+    "La cape d’invisibilité",
+    "Les Retourneurs du ministère",
+    "Le miroir à double sens",
+    "Le diadème de Serdaigle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La cape passe ensuite aux enfants de Harry.",
+   "id": "t037-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces objets n’appartient pas à Harry à la fin de la saga ?",
+   "choix": [
+    "Le Déluminateur",
+    "La cape d’invisibilité",
+    "La carte du Maraudeur",
+    "Un éclat du miroir de Sirius"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Déluminateur reste à Ron, qui l’a reçu en héritage.",
+   "id": "t037-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles sont les Reliques de la Mort ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La Baguette de Sureau",
+    "La pierre de Résurrection",
+    "La cape d’invisibilité",
+    "La Pensine",
+    "L’épée de Gryffondor"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Trois présents de la Mort, d’après le conte.",
+   "id": "t037-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets Dumbledore lègue-t-il au trio ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Vif d’or",
+    "Le Déluminateur",
+    "Les Contes de Beedle le Barde",
+    "La Pensine",
+    "Le Choixpeau magique"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le ministre Scrimgeour les leur remet en les interrogeant.",
+   "id": "t037-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages ont été maîtres de la Baguette de Sureau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gregorovitch",
+    "Gellert Grindelwald",
+    "Albus Dumbledore",
+    "Drago Malefoy",
+    "Lord Voldemort",
+    "Severus Rogue"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Voldemort la possède sans jamais en être le maître.",
+   "id": "t037-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets permettent de revivre des souvenirs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La Pensine",
+    "Le journal de Tom Jedusor",
+    "Le Miroir du Riséd",
+    "Le Scrutoscope",
+    "Le Rapeltout"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le journal entraîne Harry dans un souvenir de 1943.",
+   "id": "t037-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets passent par la Salle sur Demande ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le diadème de Serdaigle",
+    "L’armoire à disparaître",
+    "Le manuel du Prince",
+    "La Pensine",
+    "La coupe de Poufsouffle"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La coupe, elle, dort dans une chambre forte de Gringotts.",
+   "id": "t037-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets avertissent d’un danger ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Scrutoscope",
+    "L’horloge des Weasley",
+    "Le Rapeltout",
+    "Le Déluminateur"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Rapeltout ne signale qu’un oubli, et le Déluminateur gère la lumière.",
+   "id": "t037-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets finissent brisés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le miroir à double sens",
+    "Les Retourneurs de Temps du ministère",
+    "La baguette de houx de Harry",
+    "La cape d’invisibilité",
+    "L’épée de Gryffondor"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry casse le miroir de chagrin à la mort de Sirius, sans savoir à quoi il servait.",
+   "id": "t037-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets Harry tient-il de son père ou de son parrain ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La cape d’invisibilité",
+    "Le miroir à double sens",
+    "Le Déluminateur",
+    "La Pensine"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Sirius lui offre le miroir à Noël, en cinquième année.",
+   "id": "t037-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels moyens servent à Harry et ses alliés pour communiquer en secret ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Les faux Gallions",
+    "Les Patronus messagers",
+    "Le miroir à double sens",
+    "Les Beuglantes",
+    "La Gazette du sorcier"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "L’Ordre du Phénix envoie ses messages par Patronus parlants.",
+   "id": "t037-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels articles vend la boutique des jumeaux Weasley ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Oreilles à rallonge",
+    "Boîtes à Flemme",
+    "Poudre d’Obscurité Instantanée",
+    "Rapeltouts",
+    "Pensines"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Leur boutique du Chemin de Traverse s’appelle Weasley, Farces pour sorciers facétieux.",
+   "id": "t037-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe les trois frères du conte du plus âgé au plus jeune.",
+   "items": [
+    "Antioche",
+    "Cadmus",
+    "Ignotus"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Seul le plus jeune échappe à la Mort jusqu’à un âge avancé.",
+   "id": "t037-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe les maîtres de la Baguette de Sureau par ordre chronologique.",
+   "items": [
+    "Gregorovitch",
+    "Grindelwald",
+    "Dumbledore",
+    "Drago Malefoy",
+    "Harry Potter"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La baguette change d’allégeance à chaque défaite de son maître.",
+   "id": "t037-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces objets dans l’ordre où Harry les reçoit.",
+   "items": [
+    "La cape d’invisibilité",
+    "La carte du Maraudeur",
+    "Le miroir à double sens",
+    "Le Vif d’or de Dumbledore"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Un objet décisif à chaque étape, de la première à la septième année.",
+   "id": "t037-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du sauvetage de Buck et Sirius dans l’ordre.",
+   "items": [
+    "Hermione retourne le sablier",
+    "Buck est libéré",
+    "Harry produit un Patronus au bord du lac",
+    "Sirius s’envole sur Buck"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry comprend que c’est lui-même qui a chassé les Détraqueurs.",
+   "id": "t037-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la découverte de l’épée dans l’ordre.",
+   "items": [
+    "Une biche argentée apparaît",
+    "Harry plonge dans l’étang gelé",
+    "Ron le sauve de la noyade",
+    "Ron détruit le médaillon"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le médaillon tentait d’étrangler Harry sous l’eau.",
+   "id": "t037-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces moments du Miroir du Riséd dans l’ordre.",
+   "items": [
+    "Harry découvre le miroir",
+    "Ron s’y voit en héros",
+    "Dumbledore met Harry en garde",
+    "Le miroir protège la Pierre"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Seul celui qui veut trouver la Pierre sans s’en servir peut la sortir du miroir.",
+   "id": "t037-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces moments de la carte du Maraudeur dans l’ordre.",
+   "items": [
+    "Fred et George la donnent à Harry",
+    "Lupin la confisque",
+    "Lupin la rend en quittant l’école",
+    "Le faux Maugrey l’emprunte"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lupin, l’un de ses auteurs, la reconnaît aussitôt.",
+   "id": "t037-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’histoire de la Salle sur Demande dans l’ordre.",
+   "items": [
+    "Dobby la révèle à Harry",
+    "L’AD s’y entraîne",
+    "Drago y répare l’armoire",
+    "Neville y cache les rebelles",
+    "Le Feudeymon la ravage"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "De la cinquième à la septième année de Harry.",
+   "id": "t037-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie de la Ford Anglia dans l’ordre.",
+   "items": [
+    "Arthur l’ensorcelle",
+    "Elle tire Harry de chez les Dursley",
+    "Elle s’écrase dans le Saule cogneur",
+    "Elle sauve Harry et Ron des araignées"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle surgit dans la Forêt interdite au moment le plus critique.",
+   "id": "t037-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du cambriolage de Gringotts dans l’ordre.",
+   "items": [
+    "Hermione prend l’apparence de Bellatrix",
+    "Le trio descend aux chambres fortes",
+    "Les objets se multiplient au toucher",
+    "Fuite sur le dos du dragon"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les trésors des Lestrange sont protégés par un maléfice de Multiplication.",
+   "id": "t037-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque frère à sa Relique.",
+   "paires": [
+    [
+     "Antioche",
+     "Baguette de Sureau"
+    ],
+    [
+     "Cadmus",
+     "Pierre de Résurrection"
+    ],
+    [
+     "Ignotus",
+     "Cape d’invisibilité"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le choix de chaque frère révèle son caractère.",
+   "id": "t037-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque héritier à l’objet que lui lègue Dumbledore.",
+   "paires": [
+    [
+     "Harry",
+     "Vif d’or"
+    ],
+    [
+     "Ron",
+     "Déluminateur"
+    ],
+    [
+     "Hermione",
+     "Contes de Beedle le Barde"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Chaque objet devient utile au bon moment de la quête.",
+   "id": "t037-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet à son effet.",
+   "paires": [
+    [
+     "Retourneur de Temps",
+     "Remonter le temps"
+    ],
+    [
+     "Pensine",
+     "Revoir des souvenirs"
+    ],
+    [
+     "Miroir du Riséd",
+     "Montrer le désir"
+    ],
+    [
+     "Scrutoscope",
+     "Détecter les fourbes"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les objets magiques de la saga révèlent souvent une vérité cachée.",
+   "id": "t037-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet à son créateur.",
+   "paires": [
+    [
+     "Déluminateur",
+     "Dumbledore"
+    ],
+    [
+     "Carte du Maraudeur",
+     "Les Maraudeurs"
+    ],
+    [
+     "Faux Gallions de l’AD",
+     "Hermione"
+    ],
+    [
+     "Épée de Gryffondor",
+     "Gobelins"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le sortilège des faux Gallions est du niveau des ASPIC, remarque un élève de l’AD.",
+   "id": "t037-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sorcier au bois de sa baguette.",
+   "paires": [
+    [
+     "Harry",
+     "Houx"
+    ],
+    [
+     "Voldemort",
+     "If"
+    ],
+    [
+     "Drago",
+     "Aubépine"
+    ],
+    [
+     "Hermione",
+     "Vigne"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Pour Ollivander, c’est la baguette qui choisit son sorcier.",
+   "id": "t037-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque article des jumeaux Weasley à son usage.",
+   "paires": [
+    [
+     "Oreilles à rallonge",
+     "Écouter aux portes"
+    ],
+    [
+     "Boîtes à Flemme",
+     "Sécher les cours"
+    ],
+    [
+     "Poudre d’Obscurité Instantanée",
+     "Plonger dans le noir"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Drago achète la poudre pour couvrir l’entrée des Mangemorts.",
+   "id": "t037-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet à son ancien propriétaire.",
+   "paires": [
+    [
+     "Cape d’invisibilité",
+     "James Potter"
+    ],
+    [
+     "Baguette de Sureau",
+     "Albus Dumbledore"
+    ],
+    [
+     "Montre de Harry",
+     "Fabian Prewett"
+    ],
+    [
+     "Manuel de potions annoté",
+     "Severus Rogue"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Fabian Prewett, frère de Molly, est mort pendant la première guerre.",
+   "id": "t037-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à ce qu’il voit dans le Miroir du Riséd.",
+   "paires": [
+    [
+     "Harry",
+     "Sa famille"
+    ],
+    [
+     "Ron",
+     "Lui-même couvert de gloire"
+    ],
+    [
+     "Dumbledore",
+     "Des chaussettes de laine, dit-il"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dumbledore ne dit sans doute pas toute la vérité.",
+   "id": "t037-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet au tome où il apparaît pour la première fois.",
+   "paires": [
+    [
+     "Miroir du Riséd",
+     "Tome 1"
+    ],
+    [
+     "Journal de Tom Jedusor",
+     "Tome 2"
+    ],
+    [
+     "Retourneur de Temps",
+     "Tome 3"
+    ],
+    [
+     "Pensine",
+     "Tome 4"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Chaque tome ajoute de nouveaux objets à l’univers de Poudlard.",
+   "id": "t037-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet du Tournoi des trois sorciers à son rôle.",
+   "paires": [
+    [
+     "Coupe de feu",
+     "Choisir les champions"
+    ],
+    [
+     "Œuf d’or",
+     "Indice de la deuxième tâche"
+    ],
+    [
+     "Trophée",
+     "Portoloin vers le cimetière"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le trophée ensorcelé envoie Harry et Cedric droit vers Voldemort.",
+   "id": "t037-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une cape\n2. Je ne m’use jamais\n3. Ignotus m’a portée",
+   "choix": [
+    "La cape d’invisibilité",
+    "Le Choixpeau",
+    "La cape de Rogue",
+    "La robe de bal de Ron"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La Mort elle-même aurait cédé un morceau de sa propre cape.",
+   "id": "t037-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une baguette\n2. On me dit invincible\n3. On m’a enterrée avec mon maître",
+   "choix": [
+    "La Baguette de Sureau",
+    "La baguette de houx",
+    "La baguette d’if",
+    "La baguette d’aubépine"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Voldemort profane la tombe de Dumbledore pour s’en emparer.",
+   "id": "t037-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une pierre\n2. Je rappelle les morts\n3. Je me cache dans un Vif d’or",
+   "choix": [
+    "La pierre de Résurrection",
+    "La Pierre philosophale",
+    "Le bézoard",
+    "La pierre de lune"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry la laisse tomber dans la Forêt interdite, avant d’affronter Voldemort.",
+   "id": "t037-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un parchemin\n2. Je montre tout Poudlard\n3. Quatre amis m’ont créé",
+   "choix": [
+    "La carte du Maraudeur",
+    "Le manuel du Prince",
+    "La Gazette du sorcier",
+    "Le Chicaneur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle signale les passages secrets et chaque personne présente dans le château.",
+   "id": "t037-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sablier\n2. Je pends à une chaîne\n3. Hermione m’a porté",
+   "choix": [
+    "Le Retourneur de Temps",
+    "Le Rapeltout",
+    "Le Scrutoscope",
+    "Le Déluminateur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Changer le passé est strictement réglementé par le ministère.",
+   "id": "t037-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un bassin de pierre\n2. On me verse des souvenirs\n3. Je trône dans un bureau",
+   "choix": [
+    "La Pensine",
+    "Le Miroir du Riséd",
+    "La Coupe de feu",
+    "Le chaudron d’or"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry y voit le procès de Karkaroff et la jeunesse de Rogue.",
+   "id": "t037-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un miroir\n2. Mon inscription se lit à l’envers\n3. Je garde une pierre précieuse",
+   "choix": [
+    "Le Miroir du Riséd",
+    "Le miroir à double sens",
+    "Le Rapeltout",
+    "Le Scrutoscope"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dumbledore le fait ensuite déplacer, pour que Harry ne s’y perde pas.",
+   "id": "t037-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une salle\n2. J’apparais à qui en a besoin\n3. L’AD m’a utilisée",
+   "choix": [
+    "La Salle sur Demande",
+    "La Chambre des secrets",
+    "La Grande Salle",
+    "La salle des trophées"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle se transforme en salle d’entraînement remplie de livres de défense.",
+   "id": "t037-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un petit objet\n2. J’éteins les lampes\n3. J’ai ramené Ron",
+   "choix": [
+    "Le Déluminateur",
+    "Le Scrutoscope",
+    "Le Rapeltout",
+    "Le Vif d’or"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ron s’en sert aussi pour plonger dans le noir les nuits de veille.",
+   "id": "t037-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une voiture\n2. Je vole\n3. Je vis dans la Forêt interdite",
+   "choix": [
+    "La Ford Anglia",
+    "Le Magicobus",
+    "Le Poudlard Express",
+    "La moto de Sirius"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Arthur avait ensorcelé une épave moldue, en violation de ses propres règles.",
+   "id": "t037-134",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

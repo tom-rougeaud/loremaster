@@ -13,3 +13,5 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 22 : éditeur de la traduction française de 1983 (Transecom) et titre VF « Le Sourire du dragon » à reconfirmer.
 - Thèmes 23-25 : noms VF de Ledoux à confirmer (Nivacrin, Tournesaules, Père Maggotte, Bill Fougeron, Arachné, Gouffre de Helm).
 - Thèmes 26-27 : noms VF (Grand’Cave, Lézeau, Fort-le-Cor, Vif-Sorbier, Feuille de Longoulet, Pieds-Velus/Forts/Pâles) à confirmer chez Ledoux.
+- Thème 37 : vérifier les noms français « Barnabas le Follet », « Salle Va-et-Vient », l’indication « En danger de mort » de l’horloge des Weasley, « Main de la Gloire », « Poudre d’Obscurité Instantanée », « Boîtes à Flemme », l’inscription du Vif d’or (« Je m’ouvre au terme ») et l’orthographe « Sibylle Trelawney » (corrigée dans 31 et 34).
+- Thème 36 : « Barjow et Beurk », « Chevaliers de Walpurgis », « Langue-de-plomb », « Rafleurs », « La magie est puissance ».
