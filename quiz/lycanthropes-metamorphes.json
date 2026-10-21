@@ -14,23 +14,6 @@
  },
  "questions": [
   {
-   "id": "lyc-001",
-   "concept": "lyc-001",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle créature se transforme en loup et subit la malédiction de la lycanthropie ?",
-   "choix": [
-    "Le loup-garou",
-    "Le gnoll",
-    "Le vampire",
-    "Le worg"
-   ],
-   "rep": 0,
-   "expl": "Le loup-garou (werewolf, FP 3) peut prendre une forme de loup ou hybride, et transmettre sa malédiction.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "conf": "probable"
-  },
-  {
    "id": "lyc-002",
    "concept": "lyc-002",
    "niveau": 1,
@@ -55,9 +38,9 @@
    "q": "Dans D&D 5e, comment un personnage contracte-t-il la lycanthropie ?",
    "choix": [
     "En étant mordu par un lycanthrope",
-    "En buvant du sang",
-    "En touchant un vampire",
-    "En lisant un livre maudit"
+    "En mangeant la chair d’un lycanthrope",
+    "En regardant un lycanthrope sous la pleine lune",
+    "En portant la peau d’un lycanthrope"
    ],
    "rep": 0,
    "expl": "Un humanoïde mordu par un lycanthrope en forme animale ou hybride doit réussir un jet de Constitution (DD 12) ou subir la malédiction.",
@@ -79,23 +62,6 @@
    "rep": 0,
    "expl": "Délivrance des malédictions (Remove Curse) met fin à la malédiction de la lycanthropie.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Délivrance des malédictions",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-005",
-   "concept": "lyc-005",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, que devient l’alignement d’un humanoïde qui contracte la lycanthropie du loup-garou ?",
-   "choix": [
-    "Il prend l’alignement du lycanthrope",
-    "Il reste inchangé",
-    "Il devient loyal bon",
-    "Il devient neutre"
-   ],
-   "rep": 0,
-   "expl": "Un humanoïde atteint de lycanthropie prend l’alignement du lycanthrope, mais garde ses statistiques.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
    "conf": "probable"
   },
   {
@@ -133,74 +99,6 @@
    "conf": "probable"
   },
   {
-   "id": "lyc-008",
-   "concept": "lyc-008",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel lycanthrope est un homme-ours ?",
-   "choix": [
-    "L’ours-garou",
-    "Le rat-garou",
-    "Le sanglier-garou",
-    "Le tigre-garou"
-   ],
-   "rep": 0,
-   "expl": "L’ours-garou (werebear, FP 5) est un lycanthrope neutre bon, protecteur des forêts.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Ours-garou »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-009",
-   "concept": "lyc-009",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel lycanthrope est un homme-rat ?",
-   "choix": [
-    "Le rat-garou",
-    "Le sanglier-garou",
-    "Le tigre-garou",
-    "Le loup-garou"
-   ],
-   "rep": 0,
-   "expl": "Le rat-garou (wererat, FP 2) vit dans les égouts et les bas-fonds des cités.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Rat-garou »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-010",
-   "concept": "lyc-010",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel lycanthrope est un homme-sanglier ?",
-   "choix": [
-    "Le sanglier-garou",
-    "Le loup-garou",
-    "Le tigre-garou",
-    "Le rat-garou"
-   ],
-   "rep": 0,
-   "expl": "Le sanglier-garou (wereboar, FP 4) est brutal et colérique.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Sanglier-garou »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-011",
-   "concept": "lyc-011",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel lycanthrope est un homme-tigre ?",
-   "choix": [
-    "Le tigre-garou",
-    "Le rat-garou",
-    "Le sanglier-garou",
-    "L’ours-garou"
-   ],
-   "rep": 0,
-   "expl": "Le tigre-garou (weretiger, FP 4) vit dans la jungle et sait bondir.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tigre-garou »",
-   "conf": "probable"
-  },
-  {
    "id": "lyc-012",
    "concept": "lyc-012",
    "niveau": 3,
@@ -215,40 +113,6 @@
    "rep": 0,
    "expl": "Le doppelgänger (FP 3) copie l’apparence d’un humanoïde et lit les pensées superficielles.",
    "src": "Manuel des Monstres 5e (2014), entrée « Doppelgänger »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-013",
-   "concept": "lyc-013",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel peuple jouable d’Eberron change son apparence ?",
-   "choix": [
-    "Les changelins",
-    "Les drakéides",
-    "Les gnomes",
-    "Les halfelins"
-   ],
-   "rep": 0,
-   "expl": "Les changelins (changelings) peuvent modifier leur apparence ; ils sont jouables dans Eberron: Rising from the Last War.",
-   "src": "Eberron: Rising from the Last War (2019), chap. 2",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-014",
-   "concept": "lyc-014",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle capacité de druide permet de prendre la forme d’une bête ?",
-   "choix": [
-    "Forme sauvage",
-    "Appel animal",
-    "Pelage de pierre",
-    "Danse sauvage"
-   ],
-   "rep": 0,
-   "expl": "La Forme sauvage (Wild Shape) transforme le druide en bête, selon son niveau.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Druide »",
    "conf": "probable"
   },
   {
@@ -317,23 +181,6 @@
    "rep": 0,
    "expl": "Le mimique (mimic) est un métamorphe qui imite des objets pour piéger.",
    "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-019",
-   "concept": "lyc-019",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle forme prend le loup-garou pour mordre ?",
-   "choix": [
-    "Hybride ou loup",
-    "Humaine uniquement",
-    "Fantôme",
-    "Brume"
-   ],
-   "rep": 0,
-   "expl": "Le loup-garou peut mordre en forme de loup ou hybride ; en forme humaine il utilise ses armes.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
    "conf": "probable"
   },
   {
@@ -473,45 +320,6 @@
    "conf": "probable"
   },
   {
-   "id": "lyc-030",
-   "concept": "lyc-030",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle sous-classe de rôdeur lutte contre les monstres, y compris les lycanthropes ?",
-   "choix": [
-    "Le Chasseur de monstres",
-    "Le Vagabond féerique",
-    "L’Arpenteur d’horizon",
-    "Le Gardien des essaims"
-   ],
-   "rep": 0,
-   "expl": "Le Chasseur de monstres (Monster Slayer) est dans le Guide de Xanathar (2017).",
-   "src": "Dans D&D 5e, Xanathar’s Guide to Everything (2017), chap. 1 « Rôdeur »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-031",
-   "concept": "lyc-031",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, la lycanthropie se transmet par morsure.",
-   "rep": true,
-   "expl": "Vrai : jet de Constitution DD 12.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-032",
-   "concept": "lyc-032",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’or protège des loups-garous.",
-   "rep": false,
-   "expl": "Faux : ce sont les armes en argent qui les blessent normalement.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "conf": "probable"
-  },
-  {
    "id": "lyc-033",
    "concept": "lyc-033",
    "niveau": 3,
@@ -534,61 +342,6 @@
    "conf": "probable"
   },
   {
-   "id": "lyc-035",
-   "concept": "lyc-035",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, Délivrance des malédictions guérit la lycanthropie.",
-   "rep": true,
-   "expl": "Vrai : elle met fin à la malédiction.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11, Délivrance des malédictions",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-036",
-   "concept": "lyc-036",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le vampire est un loup-garou.",
-   "rep": false,
-   "expl": "Faux : ce sont deux monstres distincts.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-037",
-   "concept": "lyc-037",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le rat-garou est un lycanthrope.",
-   "rep": true,
-   "expl": "Vrai : wererat.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Rat-garou »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-038",
-   "concept": "lyc-038",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’ours-garou est un mort-vivant.",
-   "rep": false,
-   "expl": "Faux : c’est un humanoïde métamorphe.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Ours-garou »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-039",
-   "concept": "lyc-039",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le doppelgänger imite des humanoïdes.",
-   "rep": true,
-   "expl": "Vrai : il copie leur apparence.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Doppelgänger »",
-   "conf": "probable"
-  },
-  {
    "id": "lyc-040",
    "concept": "lyc-040",
    "niveau": 3,
@@ -597,28 +350,6 @@
    "rep": false,
    "expl": "Faux : ils sont jouables dans Eberron (2019).",
    "src": "Eberron: Rising from the Last War (2019), chap. 2",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-041",
-   "concept": "lyc-041",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le mimique est un mort-vivant.",
-   "rep": false,
-   "expl": "Faux : le mimique est une monstruosité métamorphe qui imite des objets.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-042",
-   "concept": "lyc-042",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le loup-garou peut transmettre sa malédiction en forme humaine.",
-   "rep": false,
-   "expl": "Faux : seule la morsure en forme animale ou hybride la transmet.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
    "conf": "probable"
   },
   {
@@ -633,39 +364,6 @@
    "conf": "probable"
   },
   {
-   "id": "lyc-044",
-   "concept": "lyc-044",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le loup-garou est de nature bonne.",
-   "rep": false,
-   "expl": "Faux : il est chaotique mauvais.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-045",
-   "concept": "lyc-045",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le loup-garou est un lycanthrope.",
-   "rep": true,
-   "expl": "Vrai : c’est le plus célèbre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-046",
-   "concept": "lyc-046",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le worg est la monture favorite des elfes.",
-   "rep": false,
-   "expl": "Faux : le worg est surtout la monture des gobelins et des gobelinoïdes.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Worg »",
-   "conf": "probable"
-  },
-  {
    "id": "lyc-047",
    "concept": "lyc-047",
    "niveau": 3,
@@ -677,17 +375,6 @@
    "conf": "probable"
   },
   {
-   "id": "lyc-048",
-   "concept": "lyc-048",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, la forme sauvage est une capacité du druide.",
-   "rep": true,
-   "expl": "Vrai : Forme sauvage (Wild Shape).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Druide »",
-   "conf": "probable"
-  },
-  {
    "id": "lyc-049",
    "concept": "lyc-049",
    "niveau": 3,
@@ -696,28 +383,6 @@
    "rep": false,
    "expl": "Faux : c’est un sort de transmutation.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11, Métamorphose",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-050",
-   "concept": "lyc-050",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, les changelins sont des morts-vivants.",
-   "rep": false,
-   "expl": "Faux : les changelins sont un peuple jouable d’Eberron, capable de changer d’apparence.",
-   "src": "Eberron: Rising from the Last War (2019), chap. 2",
-   "conf": "probable"
-  },
-  {
-   "id": "lyc-051",
-   "concept": "lyc-051",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le doppelgänger est un mort-vivant.",
-   "rep": false,
-   "expl": "Faux : c’est une monstruosité métamorphe.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Doppelgänger »",
    "conf": "probable"
   },
   {
@@ -1087,57 +752,6 @@
    "id": "lyc-073",
    "conf": "probable",
    "concept": "nv_intrus"
-  },
-  {
-   "type": "trou",
-   "niveau": 1,
-   "q": "Dans D&D, l’______ est le métal qui permet de blesser pleinement les lycanthropes.",
-   "choix": [
-    "argent",
-    "or",
-    "étain",
-    "plomb"
-   ],
-   "rep": 0,
-   "expl": "Les lycanthropes sont immunisés aux armes non magiques sauf si elles sont en argent.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Loup-garou »",
-   "id": "lyc-074",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 2,
-   "q": "Dans D&D 5e, le sort Délivrance des ____ guérit la lycanthropie.",
-   "choix": [
-    "malédictions",
-    "maladies",
-    "poisons",
-    "envoûtements"
-   ],
-   "rep": 0,
-   "expl": "Délivrance des malédictions (niveau 3) mettra fin à la lycanthropie.",
-   "src": "Manuel des Joueurs 5e (2014)",
-   "id": "lyc-075",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 3,
-   "q": "Dans D&D 5e, la capacité du druide qui lui permet de se changer en animal s’appelle ____ sauvage.",
-   "choix": [
-    "Forme",
-    "Peau",
-    "Âme",
-    "Voie"
-   ],
-   "rep": 0,
-   "expl": "Forme sauvage est un pouvoir clé du druide.",
-   "src": "Manuel des Joueurs 5e (2014)",
-   "id": "lyc-076",
-   "conf": "probable",
-   "concept": "nv_trou"
   },
   {
    "type": "multi",
@@ -1541,7 +1155,7 @@
   {
    "type": "qcm",
    "niveau": 2,
-   "q": "Dans Eberron, quel peuple jouable peut changer d’apparence à volonté ?",
+   "q": "Dans Eberron, quel peuple jouable excelle dans l’espionnage en prenant le visage d’autrui ?",
    "choix": [
     "Les changelins",
     "Les shifters",
@@ -1573,7 +1187,7 @@
   {
    "type": "qcm",
    "niveau": 2,
-   "q": "Dans D&D 5e, quelle capacité du doppelgänger lui permet de deviner ce que pense sa cible ?",
+   "q": "Dans D&D 5e, quelle capacité du doppelgänger l’aide à imiter parfaitement le comportement de sa victime ?",
    "choix": [
     "Lecture des pensées",
     "Télépathie",
@@ -1637,7 +1251,7 @@
   {
    "type": "qcm",
    "niveau": 2,
-   "q": "Dans D&D 5e, quel sort de niveau 2 permet de modifier son propre corps (respirer sous l’eau, griffes, autre visage) ?",
+   "q": "Dans D&D 5e, quel sort de niveau 2 permet de transformer son propre corps (respirer sous l’eau, griffes, autre visage) ?",
    "choix": [
     "Modification d’apparence",
     "Déguisement",
@@ -2491,6 +2105,255 @@
    "src": "Curse of Strahd (2016), chapitre 5",
    "expl": "Les corbeaux-garous Martikov tiennent l’auberge de l’Eau bleue et combattent Strahd en secret.",
    "id": "lyc-152",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le loup-garou est d’alignement chaotique mauvais.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), « Lycanthropes » ; SRD 5.1",
+   "expl": "Vrai : le loup-garou est cruel et sauvage, chaotique mauvais.",
+   "id": "lyc-153",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’or blesse les lycanthropes aussi bien que l’argent.",
+   "rep": false,
+   "src": "Manuel des Monstres 5e (2014), « Lycanthropes » ; SRD 5.1",
+   "expl": "Faux : seuls l’argent et la magie contournent l’immunité des lycanthropes.",
+   "id": "lyc-154",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le doppelgänger est un humanoïde.",
+   "rep": false,
+   "src": "Manuel des Monstres 5e (2014), « Lycanthropes » ; SRD 5.1",
+   "expl": "Faux : c’est une monstruosité métamorphe ; les lycanthropes, eux, sont des humanoïdes.",
+   "id": "lyc-155",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, un druide du cercle de la Lune peut prendre la forme d’une bête de FP 1 dès le niveau 2.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), « Druide »",
+   "expl": "Vrai : Formes de combat lui donne accès aux bêtes de FP 1 dès le niveau 2, puis plus haut selon son niveau.",
+   "id": "lyc-156",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Délivrance des malédictions est un sort de niveau 5.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Faux : c’est un sort de niveau 3, disponible pour clercs, magiciens, paladins, occultistes…",
+   "id": "lyc-157",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’équipement d’un lycanthrope se transforme avec lui.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Faux : son équipement ne change pas de forme ; il tombe ou reste porté selon la nouvelle taille.",
+   "id": "lyc-158",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le sort Vision véritable révèle la vraie forme d’un métamorphe.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Vrai : Vision véritable (niveau 6) perce les illusions et révèle la forme originelle des métamorphes.",
+   "id": "lyc-159",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le worg est une bête ordinaire.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Faux : le worg, intelligent et maléfique, est une monstruosité qui parle le gobelin.",
+   "id": "lyc-160",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans Eberron, les shifters sont des lycanthropes à part entière.",
+   "rep": false,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Faux : ils descendent de lycanthropes mais ne subissent aucune malédiction et ne se transforment pas complètement.",
+   "id": "lyc-161",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un lycanthrope tacheté\n2. Je bondis sur mes proies\n3. Je suis fier et solitaire",
+   "choix": [
+    "Tigre-garou",
+    "Loup-garou",
+    "Ours-garou",
+    "Rat-garou"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le tigre-garou est neutre et chasse seul.",
+   "id": "lyc-162",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un lycanthrope brutal\n2. Je charge tête baissée\n3. Je reste debout même gravement blessé",
+   "choix": [
+    "Sanglier-garou",
+    "Ours-garou",
+    "Loup-garou",
+    "Tigre-garou"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le sanglier-garou, neutre mauvais, a le trait Implacable.",
+   "id": "lyc-163",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un fiélon\n2. Je me cache parmi les gobelins\n3. Je prends la forme d’un loup",
+   "choix": [
+    "Barghest",
+    "Worg",
+    "Loup-garou",
+    "Molosse infernal"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Le barghest dévore les âmes et se fait passer pour un gobelin ou un loup.",
+   "id": "lyc-164",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis maudit\n2. Je redoute l’argent\n3. La pleine lune réveille ma bête",
+   "choix": [
+    "Loup-garou",
+    "Vampire",
+    "Gnoll",
+    "Worg"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Le loup-garou est la figure classique du lycanthrope.",
+   "id": "lyc-165",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lycanthropes sont d’alignement mauvais ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Loup-garou",
+    "Rat-garou",
+    "Sanglier-garou",
+    "Ours-garou",
+    "Tigre-garou"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Loup-garou (chaotique mauvais), rat-garou (loyal mauvais) et sanglier-garou (neutre mauvais). L’ours-garou est bon, le tigre-garou neutre.",
+   "id": "lyc-166",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces lycanthropes du moins au plus robuste (PV moyens).",
+   "items": [
+    "Rat-garou",
+    "Loup-garou",
+    "Sanglier-garou",
+    "Ours-garou"
+   ],
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "PV moyens : rat-garou 33, loup-garou 58, sanglier-garou 78, ours-garou 135.",
+   "id": "lyc-167",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature à son type.",
+   "paires": [
+    [
+     "Loup-garou",
+     "Humanoïde"
+    ],
+    [
+     "Doppelgänger",
+     "Monstruosité"
+    ],
+    [
+     "Barghest",
+     "Fiélon"
+    ],
+    [
+     "Ours brun",
+     "Bête"
+    ]
+   ],
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Les lycanthropes sont des humanoïdes métamorphes, le doppelgänger une monstruosité, le barghest un fiélon et l’ours brun une simple bête.",
+   "id": "lyc-168",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts ne peut pas guérir ou révéler un lycanthrope ?",
+   "choix": [
+    "Boule de feu",
+    "Délivrance des malédictions",
+    "Vision véritable",
+    "Restauration supérieure"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Boule de feu n’a aucun effet sur la malédiction. Délivrance des malédictions la guérit, Vision véritable révèle la forme réelle et Restauration supérieure lève aussi une malédiction.",
+   "id": "lyc-169",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le chacal-garou endort ses proies grâce à son ____ endormissant.",
+   "choix": [
+    "Regard",
+    "Chant",
+    "Souffle",
+    "Parfum"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Chacal-garou »",
+   "expl": "Le Regard endormissant du chacal-garou plonge une créature dans le sommeil, ce qui permet à ses maîtres lamies de la capturer.",
+   "id": "lyc-170",
    "conf": "probable"
   }
  ],

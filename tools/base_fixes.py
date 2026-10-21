@@ -3,6 +3,8 @@
 import json, os
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIX = {
+ 'golems-constructions': {
+   'gol-015': {'q': 'Dans D&D 5e, quelle classe, introduite officiellement avec Eberron: Rising from the Last War, crée des objets magiques ?'}},
  'creatures-marines': {
    'mar-004': {'q': 'Dans D&D 5e, quelle créature des côtes peut réduire à 0 PV une créature déjà effrayée d’un simple regard ?', 'choix': ['La guenaude des mers', 'La harpie', 'Le merrow', 'Le sahuagin']}},
  'lycanthropes-metamorphes': {
@@ -27,7 +29,7 @@ FIX = {
  'betes-monstruosites': {'bet-081': {'q': 'Classe ces monstres du plus faible au plus redoutable (FP croissant).'}},
  'sorts-magie-dnd': {'sor-001': {'q': 'Dans D&D 5e, quel sort de niveau 3 provoque une explosion de flammes de 6 m (20 pieds) de rayon ?'}},
 }
-DROP = {'creatures-marines': ['mar-017', 'mar-040', 'mar-055', 'mar-061', 'mar-062', 'mar-063', 'mar-066'], 'lycanthropes-metamorphes': ['lyc-028', 'lyc-029'], 'geants-dnd': ['gea-029'], 'monstres-donjon': ['don-014'], 'races-dnd': ['rac-011']}
+DROP = {'golems-constructions': ['gol-060', 'gol-061', 'gol-062', 'gol-063', 'gol-066', 'gol-069'], 'creatures-marines': ['mar-017', 'mar-040', 'mar-055', 'mar-061', 'mar-062', 'mar-063', 'mar-066'], 'lycanthropes-metamorphes': ['lyc-028', 'lyc-029'], 'geants-dnd': ['gea-029'], 'monstres-donjon': ['don-014'], 'races-dnd': ['rac-011']}
 import ast
 for th in set(FIX) | set(DROP):
     p = os.path.join(R, 'quiz_base', th + '.json'); d = json.load(open(p, encoding='utf-8'))

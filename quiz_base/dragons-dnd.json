@@ -31,23 +31,6 @@
   },
   {
    "niveau": 1,
-   "concept": "noir_souffle",
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel est le type de souffle du dragon noir ?",
-   "choix": [
-    "Poison",
-    "Acide",
-    "Foudre",
-    "Froid"
-   ],
-   "rep": 1,
-   "expl": "Le dragon noir expire de l’acide, projeté en une ligne ; il vit dans les marais et chasse ses proies depuis les eaux boueuses.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Dragon noir »",
-   "id": "dra-002",
-   "conf": "probable"
-  },
-  {
-   "niveau": 1,
    "concept": "bleu_souffle",
    "type": "qcm",
    "q": "Dans D&D 5e, quel est le type de souffle du dragon bleu ?",
@@ -78,23 +61,6 @@
    "expl": "Le dragon blanc souffle un cône de froid ; c’est le moins intelligent des chromatiques, qui vit dans les régions glaciales.",
    "src": "Manuel des Monstres 5e (2014), entrée « Dragon blanc »",
    "id": "dra-004",
-   "conf": "probable"
-  },
-  {
-   "niveau": 1,
-   "concept": "vert_souffle",
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel est le type de souffle du dragon vert ?",
-   "choix": [
-    "Acide",
-    "Foudre",
-    "Poison",
-    "Feu"
-   ],
-   "rep": 2,
-   "expl": "Le dragon vert expire un cône de gaz empoisonné ; il vit dans les forêts anciennes et adore les intrigues.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Dragon vert »",
-   "id": "dra-005",
    "conf": "probable"
   },
   {
@@ -286,23 +252,6 @@
   },
   {
    "niveau": 1,
-   "concept": "stades_min",
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel est le plus jeune stade de vie d’un dragon ?",
-   "choix": [
-    "Jeune",
-    "Adulte",
-    "Ancien",
-    "Dragonnet"
-   ],
-   "rep": 3,
-   "expl": "L’ordre est dragonnet (wyrmling), jeune, adulte, ancien ; les dragonnets sortent de l’œuf.",
-   "src": "Manuel des Monstres 5e (2014), chap. « Dragons »",
-   "id": "dra-017",
-   "conf": "probable"
-  },
-  {
-   "niveau": 1,
    "concept": "stades_suite",
    "type": "qcm",
    "q": "Dans D&D 5e, quel stade suit « jeune » dans la vie d’un dragon ?",
@@ -404,23 +353,6 @@
    "conf": "probable"
   },
   {
-   "niveau": 2,
-   "concept": "wyverne",
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle arme empoisonnée la wyverne utilise-t-elle ?",
-   "choix": [
-    "Une griffe",
-    "Un souffle",
-    "Un dard venimeux",
-    "Une toile"
-   ],
-   "rep": 2,
-   "expl": "La wyverne frappe de son dard venimeux (Piqûre), qui inflige du poison ; elle vole et plonge sur sa proie.",
-   "src": "SRD 5.1, « Wyvern »",
-   "id": "dra-024",
-   "conf": "probable"
-  },
-  {
    "niveau": 3,
    "concept": "gemmes",
    "type": "qcm",
@@ -452,23 +384,6 @@
    "expl": "La dracoliche est un dragon mort-vivant, créé par un rituel de nécromancie ; il garde ses souvenirs et ses pouvoirs.",
    "src": "Manuel des Monstres 5e (2014), entrée « Dracoliche »",
    "id": "dra-026",
-   "conf": "probable"
-  },
-  {
-   "niveau": 1,
-   "concept": "drakeides",
-   "type": "qcm",
-   "q": "Dans D&D 5e, comment s’appelle le peuple humanoïde à écailles qui descend des dragons ?",
-   "choix": [
-    "Gnolls",
-    "Drakéides",
-    "Kenku",
-    "Tritons"
-   ],
-   "rep": 1,
-   "expl": "Les drakéides (dragonborn) sont jouables : leur arme de souffle dépend de leur ascendance draconique.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
-   "id": "dra-027",
    "conf": "probable"
   },
   {
@@ -552,17 +467,6 @@
   },
   {
    "niveau": 1,
-   "concept": "or_metallique",
-   "type": "vf",
-   "q": "Dans D&D 5e, le dragon d’or est un dragon métallique.",
-   "rep": true,
-   "expl": "Vrai : avec airain, bronze, cuivre et argent, il fait partie des cinq dragons métalliques.",
-   "src": "Manuel des Monstres 5e (2014), chap. « Dragons métalliques »",
-   "id": "dra-033",
-   "conf": "probable"
-  },
-  {
-   "niveau": 1,
    "concept": "bahamut_platine",
    "type": "vf",
    "q": "Dans D&D 5e, Bahamut est surnommé le Dragon d’or.",
@@ -570,17 +474,6 @@
    "expl": "Faux : Bahamut est le Dragon de platine ; le dragon d’or est un dragon métallique parmi d’autres.",
    "src": "Fizban’s Treasury of Dragons (2021), chap. 1",
    "id": "dra-034",
-   "conf": "probable"
-  },
-  {
-   "niveau": 1,
-   "concept": "tiamat_bonne",
-   "type": "vf",
-   "q": "Dans D&D 5e, Tiamat est une divinité d’alignement bon.",
-   "rep": false,
-   "expl": "Faux : Tiamat est une déesse mauvaise, reine des dragons chromatiques.",
-   "src": "Fizban’s Treasury of Dragons (2021), chap. 1",
-   "id": "dra-035",
    "conf": "probable"
   },
   {
@@ -625,17 +518,6 @@
    "expl": "Faux : il possède Résistance à la magie, qui donne l’avantage aux jets de sauvegarde contre les sorts.",
    "src": "SRD 5.1, « Pseudodragon »",
    "id": "dra-039",
-   "conf": "probable"
-  },
-  {
-   "niveau": 1,
-   "concept": "argent_metallique",
-   "type": "vf",
-   "q": "Dans D&D 5e, le dragon d’argent est un dragon chromatique.",
-   "rep": false,
-   "expl": "Faux : c’est un dragon métallique ; les chromatiques sont blanc, noir, vert, bleu et rouge.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Dragon d’argent »",
-   "id": "dra-040",
    "conf": "probable"
   },
   {
@@ -713,17 +595,6 @@
    "expl": "Vrai : le dragon rouge ancien est de FP 24, l’adulte de FP 17.",
    "src": "Manuel des Monstres 5e (2014), entrées « Dragon rouge »",
    "id": "dra-047",
-   "conf": "probable"
-  },
-  {
-   "niveau": 1,
-   "concept": "kobolds_vf",
-   "type": "vf",
-   "q": "Dans D&D 5e, les kobolds sont des dragons à part entière.",
-   "rep": false,
-   "expl": "Faux : ce sont de petits humanoïdes reptiliens qui vénèrent les dragons.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Kobold »",
-   "id": "dra-048",
    "conf": "probable"
   },
   {
@@ -1374,7 +1245,7 @@
   {
    "type": "qui",
    "niveau": 3,
-   "q": "Qui suis-je ?\n1. Je suis de type dragon, mais j’ai la forme d’une gigantesque tortue.\n2. Je vis dans les profondeurs océaniques et j’adore l’or.\n3. Mon souffle est un cône de vapeur brûlante.",
+   "q": "Qui suis-je ?\n1. Je suis de type dragon, mais je n’ai pas d’ailes.\n2. Je vis dans les profondeurs océaniques et j’adore l’or.\n3. Mon souffle est un cône de vapeur brûlante.",
    "choix": [
     "Tortue-dragon",
     "Hydre",

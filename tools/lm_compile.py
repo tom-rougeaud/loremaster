@@ -23,7 +23,7 @@ import io, os, re, sys, json, glob, unicodedata
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 C = os.path.join(ROOT, 'content')
 TARGET = {'qcm': 56, 'vf': 22, 'slider': 10, 'trou': 12, 'intrus': 11, 'multi': 11, 'ordre': 9, 'assoc': 9, 'qui': 10}
-FULL = 150
+FULL = 140          # cible par défaut (v1.6) ; un thème étroit peut viser moins via la colonne 8 du registre
 CLASSIC = ('qcm', 'vf')
 VISIBLE_MIN = 60          # un thème n’apparaît dans le jeu qu’à partir de ce nombre de questions
 LEGACY = {'terre-du-milieu': (3, 'Terre du Milieu (questions générales)', 'anneau', 0)}   # thèmes historiques hors registre
@@ -112,6 +112,26 @@ def parse(path, errs):
         qs.append(q); cur = q
     return qs, drops
 
+STOP = set('dans quel quelle quels quelles avec pour sans sous leur leurs cette celui celle comme plus moins entre apres avant chaque elle elles nous vous sont etre fait faire peut peuvent tout toute tous toutes aussi selon lequel laquelle lesquels lesquelles dont tres bien donne permet'.split())
+def stems(t, n=4):
+    return {w[:n] for w in norm(t).split() if len(w) >= n and w not in STOP}
+def obvious(q):
+    """Indices trop évidents : racine de la bonne réponse dans l’énoncé (et pas dans les leurres) ; vrai/faux tautologique."""
+    ty = q['type']
+    if ty in ('qcm', 'trou', 'qui', 'intrus'):
+        ch = q['choix']; good = ch[q['rep']]
+        other = set().union(*[stems(c) for i, c in enumerate(ch) if i != q['rep']])
+        hit = (stems(good) & stems(q['q'])) - other
+        if hit and ty != 'intrus': return 'racine de la bonne réponse dans l’énoncé (%s)' % ', '.join(sorted(hit))
+    if ty == 'vf':
+        words = [w for w in re.findall(r"[A-ZÉÈÀÂÎÔÛ][\w’'-]+|[a-zéèêàâîôûç][\w’'-]+", q['q'])]
+        caps = [norm(w)[:4] for w in words[1:] if w[0].isupper() and len(w) >= 3]
+        low = [norm(w)[:4] for w in words if w[0].islower() and len(w) >= 4]
+        lowf = [norm(w) for w in words if w[0].islower() and len(w) >= 4]
+        hit = [c for c in caps if len(c) >= 3 and any(l.startswith(c) for l in lowf)]
+        if hit: return 'vrai/faux peut-être tautologique (%s)' % ', '.join(hit)
+    return None
+
 def check(theme, qs, errs, warns):
     seen = {}
     for q in qs:
@@ -122,6 +142,8 @@ def check(theme, qs, errs, warns):
         if k in seen: errs.append(w + ' : énoncé en double avec ' + seen[k])
         seen[k] = w
         ty = q['type']
+        ob = obvious(q)
+        if ob: warns.append('%s : ÉVIDENT ? %s — %s' % (w, ob, q['q'][:90].replace('\n', ' / ')))
         if ty in ('qcm', 'trou', 'intrus', 'qui', 'multi'):
             ch = q['choix']
             if len({norm(c) for c in ch}) != len(ch): errs.append(w + ' : propositions en double')
@@ -198,14 +220,16 @@ def main():
         vft = sum(1 for q in qs if q['type'] == 'vf' and q['rep'])
         lv = [sum(1 for q in qs if q['niveau'] == k) for k in (1, 2, 3)]
         nsrc = len({s.strip() for q in qs for s in re.split(r' ; ', q.get('src', ''))})
-        if tot >= FULL:
-            if not 0.45 <= cl / tot <= 0.60: errs.append('%s : %d %% de questions classiques (fourchette 45–60 %%)' % (tid, round(100 * cl / tot)))
+        cible = int(r[7]) if len(r) > 7 and r[7].strip() else FULL
+        if tot >= cible:
+            if not 0.35 <= cl / tot <= 0.55: errs.append('%s : %d %% de questions classiques (fourchette 35–55 %%)' % (tid, round(100 * cl / tot)))
+            if st['vf'] < 12: errs.append('%s : seulement %d vrai/faux (12 minimum)' % (tid, st['vf']))
             if st['vf'] and not 0.4 <= vft / st['vf'] <= 0.6: errs.append('%s : vrai/faux déséquilibrés (%d vrais sur %d)' % (tid, vft, st['vf']))
             for k in ('trou', 'intrus', 'multi', 'ordre', 'assoc'):
-                if st[k] < 6: errs.append('%s : seulement %d questions « %s » (6 minimum)' % (tid, st[k], k))
+                if st[k] < 8: errs.append('%s : seulement %d questions « %s » (8 minimum)' % (tid, st[k], k))
             if min(lv) < 0.15 * tot: warns.append('%s : niveaux déséquilibrés %s' % (tid, lv))
         errs_all += errs; warns_all += warns
-        state = 'terminé' if tot >= FULL and not errs else ('en cours' if new else ('base' if base else 'à faire'))
+        state = 'terminé' if tot >= (int(r[7]) if len(r) > 7 and r[7].strip() else FULL) and not errs else ('en cours' if new else ('base' if base else 'à faire'))
         rows.append((n, tid, nom, rn, tot, st, cl, vft, lv, nsrc, state))
         if tot >= VISIBLE_MIN and not errs:
             out = {'schema': 'quiz-bestiaire/1', 'theme': {'id': tid, 'nom': nom, 'royaume': roy_name[rn], 'icone': ico, 'sombre': dk},
@@ -228,7 +252,7 @@ def main():
     # tableau de suivi
     done = sum(1 for r in rows if r[10] == 'terminé'); totq = sum(r[4] for r in rows)
     L = ['# Lore Master — suivi de la rédaction', '',
-         'Généré par `python3 tools/lm_compile.py`. Cible : %d questions par thème, %d–%d %% de classiques (QCM + vrai/faux).' % (FULL, 45, 60), '',
+         'Généré par `python3 tools/lm_compile.py`. Cible : %d questions par thème (moins pour un thème étroit), 35–55 %% de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.' % FULL, '',
          '**%d / 99 thèmes terminés — %d questions au total.**' % (done, totq), '',
          '| N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |',
          '|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|']

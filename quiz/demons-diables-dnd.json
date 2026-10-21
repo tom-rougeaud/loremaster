@@ -103,7 +103,7 @@
    "concept": "dem-006",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel Seigneur démon, appelé le Prince des Démons, a deux têtes ?",
+   "q": "Dans D&D, quel seigneur démon aux deux têtes rivales, Aameul et Hathradiah, règne sur la Gueule béante ?",
    "choix": [
     "Baphomet",
     "Demogorgon",
@@ -273,7 +273,7 @@
    "concept": "dem-016",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle aventure de 2019 se déroule en Avernus ?",
+   "q": "Dans D&D 5e, quelle aventure de 2019 entraîne les héros dans la première strate des Neuf Enfers ?",
    "choix": [
     "Baldur’s Gate : Descent into Avernus",
     "La Malédiction de Strahd",
@@ -443,7 +443,7 @@
    "concept": "dem-026",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort protège contre les fiélons, les fées, les morts-vivants, etc. ?",
+   "q": "Dans D&D 5e, quel sort de niveau 1 gêne les attaques des fiélons, des fées et des morts-vivants qui visent la créature touchée ?",
    "choix": [
     "Boule de feu",
     "Protection contre le Mal et le Bien",
@@ -460,7 +460,7 @@
    "concept": "dem-027",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel diable fantassin manie un glaive et une barbe griffue ?",
+   "q": "Dans D&D 5e, quel diable fantassin manie un glaive et frappe aussi de son menton hérissé de pointes ?",
    "choix": [
     "Le diable cornu",
     "Le diable des os",
@@ -477,7 +477,7 @@
    "concept": "dem-028",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel diable manie des chaînes hérissées de crochets ?",
+   "q": "Dans D&D 5e, quel diable fait tournoyer autour de lui des fers hérissés de crochets ?",
    "choix": [
     "Le diablotin",
     "Le diable à glace",
@@ -524,17 +524,6 @@
    "conf": "probable"
   },
   {
-   "id": "dem-031",
-   "concept": "dem-031",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, les diables sont d’alignement loyal mauvais.",
-   "rep": true,
-   "expl": "Vrai : leur société est une hiérarchie rigide, avec des archidiables, des ducs et des légions.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Diable »",
-   "conf": "probable"
-  },
-  {
    "id": "dem-032",
    "concept": "dem-032",
    "niveau": 2,
@@ -546,17 +535,6 @@
    "conf": "probable"
   },
   {
-   "id": "dem-033",
-   "concept": "dem-033",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, Asmodeus règne sur les Neuf Enfers.",
-   "rep": true,
-   "expl": "Vrai : il siège à Nessus, au fond des Neuf Enfers.",
-   "src": "Guide du Maître 5e (2014), chap. 2 « Les Neuf Enfers »",
-   "conf": "probable"
-  },
-  {
    "id": "dem-034",
    "concept": "dem-034",
    "niveau": 2,
@@ -565,28 +543,6 @@
    "rep": false,
    "expl": "Faux : les gnolls suivent Yeenoghu ; Demogorgon est le Prince des Démons.",
    "src": "Out of the Abyss (2015), chap. 1",
-   "conf": "probable"
-  },
-  {
-   "id": "dem-035",
-   "concept": "dem-035",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, les tieffelins ont une ascendance infernale.",
-   "rep": true,
-   "expl": "Vrai : leur ascendance vient d’un pacte avec une puissance infernale.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
-   "conf": "probable"
-  },
-  {
-   "id": "dem-036",
-   "concept": "dem-036",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, Avernus est la dernière couche des Neuf Enfers.",
-   "rep": false,
-   "expl": "Faux : c’est la première ; la dernière est Nessus.",
-   "src": "Baldur’s Gate : Descent into Avernus (2019), chap. 1",
    "conf": "probable"
   },
   {
@@ -645,50 +601,6 @@
    "conf": "probable"
   },
   {
-   "id": "dem-042",
-   "concept": "dem-042",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, Lolth est un dieu du soleil.",
-   "rep": false,
-   "expl": "Faux : Lolth est la déesse des drows et des araignées (Reine-Araignée).",
-   "src": "Out of the Abyss (2015) ; Mordenkainen’s Tome of Foes (2018), chap. 1",
-   "conf": "probable"
-  },
-  {
-   "id": "dem-043",
-   "concept": "dem-043",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, la Guerre du Sang oppose démons et diables.",
-   "rep": true,
-   "expl": "Vrai : cette guerre dure depuis des éons.",
-   "src": "Mordenkainen’s Tome of Foes (2018), chap. 1",
-   "conf": "probable"
-  },
-  {
-   "id": "dem-044",
-   "concept": "dem-044",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, les démons et les diables s’entendent bien.",
-   "rep": false,
-   "expl": "Faux : ils se détestent et se livrent la Guerre du Sang.",
-   "src": "Mordenkainen’s Tome of Foes (2018), chap. 1",
-   "conf": "probable"
-  },
-  {
-   "id": "dem-045",
-   "concept": "dem-045",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le vrock a un aspect de vautour.",
-   "rep": true,
-   "expl": "Vrai : le vrock est un démon à tête de vautour.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Vrock »",
-   "conf": "probable"
-  },
-  {
    "id": "dem-046",
    "concept": "dem-046",
    "niveau": 3,
@@ -697,17 +609,6 @@
    "rep": false,
    "expl": "Faux : le hezrou est un démon-crapaud.",
    "src": "Manuel des Monstres 5e (2014), entrée « Hezrou »",
-   "conf": "probable"
-  },
-  {
-   "id": "dem-047",
-   "concept": "dem-047",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, la marilith possède six bras.",
-   "rep": true,
-   "expl": "Vrai : six bras maniant autant d’armes.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Marilith »",
    "conf": "probable"
   },
   {
@@ -741,28 +642,6 @@
    "rep": false,
    "expl": "Faux : c’est la Dame des champignons ; Juiblex règne sur les limons.",
    "src": "Out of the Abyss (2015), chap. 1",
-   "conf": "probable"
-  },
-  {
-   "id": "dem-051",
-   "concept": "dem-051",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le pit fiend est l’un des diables les plus puissants.",
-   "rep": true,
-   "expl": "Vrai : avec FP 20 et 300 PV, il commande légions et seigneurs.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Pit fiend »",
-   "conf": "probable"
-  },
-  {
-   "id": "dem-052",
-   "concept": "dem-052",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, les fiélons sont toujours d’alignement bon.",
-   "rep": false,
-   "expl": "Faux : les fiélons sont mauvais par nature (diables, démons, yugoloths…).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Fiélon »",
    "conf": "probable"
   },
   {
@@ -1140,40 +1019,6 @@
    "concept": "nv_trou"
   },
   {
-   "type": "trou",
-   "niveau": 2,
-   "q": "Dans D&D 5e, le succube peut changer de forme pour ____ ses victimes.",
-   "choix": [
-    "charmer",
-    "pétrifier",
-    "paralyser",
-    "aveugler"
-   ],
-   "rep": 0,
-   "expl": "Le succube (ou l’incube) peut charmer un humanoïde ; son baiser draine ensuite l’énergie vitale.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Succube / Incube »",
-   "id": "dem-075",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 1,
-   "q": "Dans D&D 5e, les diables vivent dans les ____ Enfers, dirigés par Asmodeus.",
-   "choix": [
-    "Neuf",
-    "Sept",
-    "Douze",
-    "Treize"
-   ],
-   "rep": 0,
-   "expl": "Les Neuf Enfers sont le plan des diables, gouverné par Asmodeus.",
-   "src": "Dungeon Master’s Guide 5e (2014), chapitre « Les plans »",
-   "id": "dem-076",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
    "type": "multi",
    "niveau": 2,
    "q": "Dans D&D 5e, lesquels de ces fiélons sont des démons ? (plusieurs bonnes réponses)",
@@ -1332,7 +1177,7 @@
   {
    "type": "qui",
    "niveau": 1,
-   "q": "Qui suis-je ?\n1. Je suis minuscule, ailé et cruel.\n2. Je suis un diable de rang inférieur.\n3. On me trouve souvent comme familier d’un sorcier.",
+   "q": "Qui suis-je ?\n1. Je suis minuscule, ailé et cruel.\n2. Je suis un fiélon de bas rang venu des Neuf Enfers.\n3. On me trouve souvent comme familier d’un occultiste.",
    "choix": [
     "Diablotin",
     "Quasit",
@@ -2552,6 +2397,98 @@
    "src": "Manuel des Joueurs 5e (2014), « Tieffelin » ; Mordenkainen’s Tome of Foes (2018)",
    "expl": "Asmodeus, seigneur de Nessus, gouverne les Neuf Enfers ; selon le Manuel des Joueurs, les tieffelins portent son héritage.",
    "id": "dem-153",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un démon tué hors des Abysses se reforme dans les Abysses.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), « Démons » et « Diables » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Vrai : seul un démon tué dans les Abysses est détruit pour de bon ; ailleurs, sa forme se dissout et il renaît chez lui.",
+   "id": "dem-154",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les diables sont immunisés aux dégâts de poison.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), « Démons » et « Diables » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Vrai : les diables du Manuel des Monstres sont immunisés au feu et au poison et ne peuvent pas être empoisonnés.",
+   "id": "dem-155",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le quasit peut se métamorphoser en chauve-souris, en mille-pattes ou en crapaud.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), « Démons » et « Diables » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Vrai : le quasit, petit démon familier, prend l’une de ces trois formes et peut aussi devenir invisible.",
+   "id": "dem-156",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, Asmodeus règne directement sur la strate de Nessus.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), « Démons » et « Diables » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Vrai : Asmodeus gouverne les Neuf Enfers depuis Nessus, la plus profonde des strates.",
+   "id": "dem-157",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le diablotin peut se changer en rat, en corbeau ou en araignée.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), « Démons » et « Diables » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Vrai : comme le quasit côté démons, le diablotin a trois formes animales et l’invisibilité.",
+   "id": "dem-158",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, la Guerre du Sang se déroule surtout dans les Abysses.",
+   "rep": false,
+   "src": "Manuel des Monstres 5e (2014), « Démons » et « Diables » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Faux : la Guerre du Sang fait rage surtout en Avernus, la première strate des Neuf Enfers.",
+   "id": "dem-159",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une archidiable déchue des cieux\n2. Je règne sur Avernus\n3. Je mène la Guerre du Sang",
+   "choix": [
+    "Zariel",
+    "Glasya",
+    "Lolth",
+    "Tiamat"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), « Démons » et « Diables » ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Zariel, ancienne ange, gouverne Avernus dans Descent into Avernus (2019).",
+   "id": "dem-160",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un démon de la ruse et de l’illusion\n2. On m’appelle le Prince de la Tromperie\n3. J’ai été libéré dans l’Outreterre",
+   "choix": [
+    "Fraz-Urb’luu",
+    "Graz’zt",
+    "Demogorgon",
+    "Orcus"
+   ],
+   "rep": 0,
+   "src": "Out of the Abyss (2015)",
+   "expl": "Fraz-Urb’luu fait partie des seigneurs démons d’Out of the Abyss.",
+   "id": "dem-161",
    "conf": "probable"
   }
  ],

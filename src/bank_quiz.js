@@ -157,8 +157,8 @@ function histKey(q){return q.qid||q.q;}
    1. jamais (ou le moins récemment) jouées d’abord → on ne répète une question que si tout le reste a été joué ;
    2. réparties équitablement entre les thèmes ;
    3. pas plus de deux questions du même type d’affilée quand c’est évitable ;
-   4. part des questions « classiques » (QCM + vrai/faux) entre 45 % et 60 % de la salve, quand les types cochés le permettent. */
-var NEW_T={i:1,h:1,w:1,m:1,o:1,a:1},CLASSIC_T={c:1,v:1},CLASSIC_MIN=0.45,CLASSIC_MAX=0.60;
+   4. part des questions « classiques » (QCM + vrai/faux) entre 35 % et 45 % de la salve, et formats répartis équitablement, quand les types cochés le permettent. */
+var NEW_T={i:1,h:1,w:1,m:1,o:1,a:1},CLASSIC_T={c:1,v:1},CLASSIC_MIN=0.35,CLASSIC_MAX=0.45;
 function drawQuestions(itemIds,n,ctx,seed,avoid){
   var H=normHist(avoid),r=mulberry32(seed>>>0),out=[],used={},cnt={};
   var lists=[];
@@ -172,7 +172,9 @@ function drawQuestions(itemIds,n,ctx,seed,avoid){
     var qs=Object.keys(by).sort().map(function(t){return by[t];});
     lists.push({it:it,qs:qs,pos:qs.map(function(){return 0;})});cnt[it.id]=0;
   });
-  var lastT=[],nCl=0,hiCl=Math.ceil(CLASSIC_MAX*n),loCl=Math.ceil(CLASSIC_MIN*n);
+  var nonCl={};lists.forEach(function(L){L.qs.forEach(function(A){if(A.length&&!CLASSIC_T[A[0].q.t])nonCl[A[0].q.t]=1;});});
+  var richer=Object.keys(nonCl).length>=3;   /* quota seulement si au moins 3 autres formats sont disponibles */
+  var lastT=[],nCl=0,hiCl=richer?Math.floor(CLASSIC_MAX*n+1e-9):n,loCl=richer?Math.min(hiCl,Math.ceil(CLASSIC_MIN*n-1e-9)):0,tCnt={};
   while(out.length<n){
     var best=null,bestS=1e9,k=out.length;
     lists.forEach(function(L){
@@ -180,7 +182,7 @@ function drawQuestions(itemIds,n,ctx,seed,avoid){
         var A=L.qs[f];
         while(L.pos[f]<A.length&&used[A[L.pos[f]].q.i])L.pos[f]++;
         if(L.pos[f]>=A.length)continue;
-        var c=A[L.pos[f]],w=A.length-L.pos[f],sc=(c.rank?100000+c.rank:0)+cnt[L.it.id]*1000+500*(1-Math.pow(r(),1/w));   /* tirage pondéré par le stock de chaque type */
+        var c=A[L.pos[f]],w=A.length-L.pos[f],sc=(c.rank?100000+c.rank:0)+cnt[L.it.id]*1000+(tCnt[c.q.t]||0)*700+400*(1-Math.pow(r(),1/w));   /* v1.6 : chaque type déjà tiré pèse, pour que tous les formats cochés apparaissent */
         var isCl=!!CLASSIC_T[c.q.t];
         if(isCl&&nCl+1>hiCl)sc+=50000;                        /* trop de classiques */
         if(!isCl&&(k+1-nCl)>n-loCl)sc+=50000;                 /* pas assez de classiques */
@@ -189,7 +191,7 @@ function drawQuestions(itemIds,n,ctx,seed,avoid){
       }
     });
     if(!best)break;
-    var raw=best.c.q;used[raw.i]=1;cnt[best.L.it.id]++;lastT.push(raw.t);if(best.cl)nCl++;
+    var raw=best.c.q;used[raw.i]=1;cnt[best.L.it.id]++;lastT.push(raw.t);tCnt[raw.t]=(tCnt[raw.t]||0)+1;if(best.cl)nCl++;
     out.push(buildQ(raw,best.L.it,r,isPari(raw,ctx)&&(!ctx.types[raw.t]||r()<0.2)));
   }
   /* v1.5 : un niveau choisi est respecté strictement (pas de complément avec les niveaux voisins) */

@@ -1,24 +1,24 @@
 # Lore Master — suivi de la rédaction
 
-Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 45–60 % de classiques (QCM + vrai/faux).
+Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**12 / 99 thèmes terminés — 2172 questions au total.**
+**13 / 99 thèmes terminés — 2110 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Dragons chromatiques et métalliques | 152 | 59 | 23 (11) | 16 | 12 | 11 | 11 | 8 | 9 | 3 | 54 % | 40/79/33 | 83 | terminé |
-| 2 | Morts-vivants | 150 | 56 | 22 (11) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 30/85/35 | 59 | terminé |
-| 3 | Démons et diables | 153 | 59 | 22 (11) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 53 % | 23/83/47 | 79 | terminé |
-| 4 | Géants | 150 | 56 | 22 (12) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 24/81/45 | 51 | terminé |
-| 5 | Aberrations | 150 | 56 | 22 (11) | 16 | 12 | 11 | 11 | 8 | 8 | 6 | 52 % | 23/77/50 | 54 | terminé |
-| 6 | Fées, sylvains et créatures des bois | 150 | 56 | 22 (12) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 20/81/49 | 64 | terminé |
-| 7 | Gobelinoïdes et humanoïdes | 151 | 57 | 26 (13) | 12 | 12 | 11 | 11 | 8 | 8 | 6 | 55 % | 24/95/32 | 45 | terminé |
-| 8 | Monstres de donjon | 150 | 56 | 26 (13) | 14 | 12 | 11 | 11 | 8 | 8 | 4 | 55 % | 24/86/40 | 33 | terminé |
-| 9 | Élémentaires et créatures planaires | 151 | 60 | 22 (11) | 13 | 12 | 11 | 11 | 8 | 8 | 6 | 54 % | 23/65/63 | 40 | terminé |
-| 10 | Lycanthropes et métamorphes | 150 | 56 | 22 (10) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 52 % | 22/73/55 | 41 | terminé |
-| 11 | Créatures marines et aquatiques | 150 | 59 | 22 (12) | 13 | 11 | 11 | 11 | 8 | 8 | 7 | 54 % | 22/80/48 | 57 | terminé |
-| 12 | Bêtes et monstruosités | 150 | 56 | 26 (13) | 14 | 12 | 11 | 11 | 8 | 8 | 4 | 55 % | 25/83/42 | 72 | terminé |
-| 13 | Golems, constructions et animés | 86 | 29 | 23 (10) | 18 | 3 | 3 | 3 | 2 | 2 | 3 | 60 % | 8/30/48 | 22 | base |
+| 1 | Dragons chromatiques et métalliques | 140 | 51 | 19 (10) | 16 | 8 | 11 | 11 | 8 | 9 | 7 | 50 % | 32/75/33 | 81 | terminé |
+| 2 | Morts-vivants | 141 | 50 | 17 (9) | 18 | 11 | 11 | 11 | 8 | 8 | 7 | 48 % | 25/79/37 | 57 | terminé |
+| 3 | Démons et diables | 148 | 59 | 17 (9) | 18 | 10 | 11 | 11 | 8 | 8 | 6 | 51 % | 17/84/47 | 79 | terminé |
+| 4 | Géants | 140 | 48 | 17 (8) | 18 | 11 | 11 | 12 | 8 | 8 | 7 | 46 % | 16/78/46 | 50 | terminé |
+| 5 | Aberrations | 140 | 52 | 16 (7) | 16 | 9 | 11 | 11 | 8 | 8 | 9 | 49 % | 19/72/49 | 50 | terminé |
+| 6 | Fées, sylvains et créatures des bois | 140 | 52 | 16 (8) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 49 % | 17/75/48 | 64 | terminé |
+| 7 | Gobelinoïdes et humanoïdes | 140 | 54 | 17 (8) | 12 | 10 | 11 | 11 | 8 | 8 | 9 | 51 % | 21/85/34 | 43 | terminé |
+| 8 | Monstres de donjon | 140 | 48 | 19 (9) | 14 | 10 | 11 | 12 | 9 | 9 | 8 | 48 % | 20/86/34 | 33 | terminé |
+| 9 | Élémentaires et créatures planaires | 140 | 51 | 17 (8) | 13 | 9 | 11 | 12 | 9 | 9 | 9 | 49 % | 19/66/55 | 40 | terminé |
+| 10 | Lycanthropes et métamorphes | 140 | 46 | 16 (7) | 18 | 10 | 12 | 12 | 9 | 9 | 8 | 44 % | 16/73/51 | 41 | terminé |
+| 11 | Créatures marines et aquatiques | 141 | 56 | 16 (8) | 13 | 10 | 11 | 11 | 8 | 8 | 8 | 51 % | 17/78/46 | 56 | terminé |
+| 12 | Bêtes et monstruosités | 141 | 56 | 16 (8) | 14 | 9 | 11 | 11 | 8 | 8 | 8 | 51 % | 19/83/39 | 63 | terminé |
+| 13 | Golems, constructions et animés | 140 | 50 | 16 (7) | 14 | 11 | 11 | 11 | 10 | 9 | 8 | 47 % | 14/75/51 | 34 | terminé |
 | 14 | L’art du Maître du Jeu | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 15 | Races jouables et peuples d’aventuriers | 69 | 29 | 26 (13) | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 80 % | 5/52/12 | 17 | base |
 | 16 | Classes de personnage et archétypes | 70 | 30 | 22 (12) | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 74 % | 8/39/23 | 49 | base |
@@ -108,43 +108,38 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 
 ## Avertissements
 
+- dra-050 : ÉVIDENT ? vrai/faux peut-être tautologique (drag) — Les dragons de gemme sont décrits dans Fizban’s Treasury of Dragons (D&D 5e).
 - dra-060 : explication absente ou trop courte
 - dra-061 : explication absente ou trop courte
 - dra-062 : explication absente ou trop courte
 - dra-063 : explication absente ou trop courte
 - dra-064 : explication absente ou trop courte
 - dra-065 : explication absente ou trop courte
+- dra-087 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (drag) — Qui suis-je ? / 1. Je suis de type dragon, mais je n’ai pas d’ailes. / 2. Je vis dans les prof
 - mor-003 : explication absente ou trop courte
 - mor-004 : explication absente ou trop courte
 - mor-005 : explication absente ou trop courte
 - mor-007 : explication absente ou trop courte
 - mor-009 : explication absente ou trop courte
 - mor-010 : explication absente ou trop courte
-- mor-011 : explication absente ou trop courte
 - mor-014 : explication absente ou trop courte
-- mor-015 : explication absente ou trop courte
 - mor-019 : explication absente ou trop courte
 - mor-021 : explication absente ou trop courte
 - mor-022 : explication absente ou trop courte
+- mor-023 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mort) — Dans D&D 5e, quel ancien paladin déchu, maudit après sa mort, lance des boules de feu infe
 - mor-024 : explication absente ou trop courte
 - mor-025 : explication absente ou trop courte
 - mor-026 : explication absente ou trop courte
-- mor-027 : explication absente ou trop courte
 - mor-029 : explication absente ou trop courte
 - mor-031 : explication absente ou trop courte
 - mor-035 : explication absente ou trop courte
-- mor-036 : explication absente ou trop courte
 - mor-038 : explication absente ou trop courte
 - mor-039 : explication absente ou trop courte
 - mor-041 : explication absente ou trop courte
-- mor-042 : explication absente ou trop courte
 - mor-043 : explication absente ou trop courte
-- mor-045 : explication absente ou trop courte
 - mor-046 : explication absente ou trop courte
 - mor-047 : explication absente ou trop courte
 - mor-048 : explication absente ou trop courte
-- mor-049 : explication absente ou trop courte
-- mor-050 : explication absente ou trop courte
 - mor-053 : explication absente ou trop courte
 - mor-054 : explication absente ou trop courte
 - mor-055 : explication absente ou trop courte
@@ -162,10 +157,12 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - mor-068 : explication absente ou trop courte
 - mor-069 : explication absente ou trop courte
 - mor-070 : explication absente ou trop courte
+- content/002/a.lm:19 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (lich) — Dans D&D 5e, que devient une liche qui néglige de nourrir son phylactère d’âmes ?
 - content/002/a.lm:19 : mot de la bonne réponse présent dans l’énoncé (« liche ») et absent des autres propositions
+- content/002/a.lm:55 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mort) — Dans D&D 5e, quel sort de niveau 2 (gentle repose) empêche un cadavre de se décomposer et 
+- dem-006 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (demo) — Dans D&D, quel seigneur démon aux deux têtes rivales, Aameul et Hathradiah, règne sur la G
 - dem-037 : explication absente ou trop courte
 - dem-046 : explication absente ou trop courte
-- dem-047 : explication absente ou trop courte
 - dem-053 : explication absente ou trop courte
 - dem-057 : explication absente ou trop courte
 - dem-059 : explication absente ou trop courte
@@ -179,18 +176,10 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - dem-069 : explication absente ou trop courte
 - dem-070 : explication absente ou trop courte
 - content/003/a.lm:19 : bonne réponse nettement plus longue que les autres (indice involontaire)
-- gea-031 : explication absente ou trop courte
-- gea-033 : explication absente ou trop courte
+- demons-diables-dnd : niveaux déséquilibrés [17, 84, 47]
 - gea-034 : explication absente ou trop courte
-- gea-035 : explication absente ou trop courte
-- gea-036 : explication absente ou trop courte
-- gea-037 : explication absente ou trop courte
-- gea-038 : explication absente ou trop courte
-- gea-039 : explication absente ou trop courte
-- gea-041 : explication absente ou trop courte
 - gea-043 : explication absente ou trop courte
 - gea-047 : explication absente ou trop courte
-- gea-051 : explication absente ou trop courte
 - gea-052 : explication absente ou trop courte
 - gea-054 : explication absente ou trop courte
 - gea-055 : explication absente ou trop courte
@@ -209,10 +198,12 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - gea-068 : explication absente ou trop courte
 - gea-069 : explication absente ou trop courte
 - gea-070 : explication absente ou trop courte
+- content/004/a.lm:11 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (stor) — Dans Storm King’s Thunder, quel jarl géant du givre cherche à faire régner un hiver éterne
+- geants-dnd : niveaux déséquilibrés [16, 78, 46]
+- abe-009 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mort) — Dans D&D 5e, quel mort-vivant est un tyrannœil revenu à la mort ?
 - abe-027 : explication absente ou trop courte
-- abe-032 : explication absente ou trop courte
-- abe-069 : explication absente ou trop courte
-- content/005/a.lm:8 : mot de la bonne réponse présent dans l’énoncé (« tyrann ») et absent des autres propositions
+- content/005/b.lm:9 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (gith) — Les githyanki et les githzerai doivent leur nom à ____, l’héroïne qui mena la révolte cont
+- aberrations-dnd : niveaux déséquilibrés [19, 72, 49]
 - fee-034 : explication absente ou trop courte
 - fee-048 : explication absente ou trop courte
 - fee-055 : explication absente ou trop courte
@@ -223,13 +214,9 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - fee-061 : explication absente ou trop courte
 - fee-062 : explication absente ou trop courte
 - fee-066 : explication absente ou trop courte
-- fees-sylvains : niveaux déséquilibrés [20, 81, 49]
-- gob-028 : explication absente ou trop courte
-- gob-031 : explication absente ou trop courte
+- fees-sylvains : niveaux déséquilibrés [17, 75, 48]
 - gob-032 : explication absente ou trop courte
-- gob-035 : explication absente ou trop courte
 - gob-037 : explication absente ou trop courte
-- gob-040 : explication absente ou trop courte
 - gob-051 : explication absente ou trop courte
 - gob-053 : explication absente ou trop courte
 - gob-055 : explication absente ou trop courte
@@ -240,23 +227,12 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - gob-066 : explication absente ou trop courte
 - gob-067 : explication absente ou trop courte
 - gob-070 : explication absente ou trop courte
-- don-024 : explication absente ou trop courte
 - don-027 : explication absente ou trop courte
-- don-028 : explication absente ou trop courte
 - don-029 : explication absente ou trop courte
-- don-030 : explication absente ou trop courte
-- don-033 : explication absente ou trop courte
-- don-036 : explication absente ou trop courte
-- don-037 : explication absente ou trop courte
 - don-038 : explication absente ou trop courte
-- don-039 : explication absente ou trop courte
 - don-040 : explication absente ou trop courte
-- don-042 : explication absente ou trop courte
 - don-043 : explication absente ou trop courte
-- don-044 : explication absente ou trop courte
-- don-045 : explication absente ou trop courte
 - don-046 : explication absente ou trop courte
-- don-047 : explication absente ou trop courte
 - don-048 : explication absente ou trop courte
 - don-049 : explication absente ou trop courte
 - don-050 : explication absente ou trop courte
@@ -273,12 +249,10 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - don-068 : explication absente ou trop courte
 - don-069 : explication absente ou trop courte
 - don-070 : explication absente ou trop courte
+- monstres-donjon : niveaux déséquilibrés [20, 86, 34]
 - pla-001 : explication absente ou trop courte
 - pla-002 : explication absente ou trop courte
 - pla-003 : explication absente ou trop courte
-- pla-004 : explication absente ou trop courte
-- pla-005 : explication absente ou trop courte
-- pla-006 : explication absente ou trop courte
 - pla-007 : explication absente ou trop courte
 - pla-008 : explication absente ou trop courte
 - pla-009 : explication absente ou trop courte
@@ -288,42 +262,20 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - pla-013 : explication absente ou trop courte
 - pla-014 : explication absente ou trop courte
 - pla-015 : explication absente ou trop courte
-- pla-016 : explication absente ou trop courte
-- pla-017 : explication absente ou trop courte
 - pla-018 : explication absente ou trop courte
 - pla-019 : explication absente ou trop courte
-- pla-020 : explication absente ou trop courte
-- pla-021 : explication absente ou trop courte
 - pla-022 : explication absente ou trop courte
 - pla-023 : explication absente ou trop courte
 - pla-024 : explication absente ou trop courte
-- pla-025 : explication absente ou trop courte
 - pla-026 : explication absente ou trop courte
 - pla-027 : explication absente ou trop courte
 - pla-028 : explication absente ou trop courte
 - pla-029 : explication absente ou trop courte
-- pla-030 : explication absente ou trop courte
-- pla-031 : explication absente ou trop courte
-- pla-032 : explication absente ou trop courte
 - pla-033 : explication absente ou trop courte
-- pla-034 : explication absente ou trop courte
-- pla-035 : explication absente ou trop courte
-- pla-036 : explication absente ou trop courte
-- pla-037 : explication absente ou trop courte
 - pla-038 : explication absente ou trop courte
-- pla-039 : explication absente ou trop courte
 - pla-040 : explication absente ou trop courte
-- pla-041 : explication absente ou trop courte
 - pla-042 : explication absente ou trop courte
-- pla-043 : explication absente ou trop courte
 - pla-044 : explication absente ou trop courte
-- pla-045 : explication absente ou trop courte
-- pla-046 : explication absente ou trop courte
-- pla-047 : explication absente ou trop courte
-- pla-048 : explication absente ou trop courte
-- pla-049 : explication absente ou trop courte
-- pla-050 : explication absente ou trop courte
-- pla-051 : explication absente ou trop courte
 - pla-052 : explication absente ou trop courte
 - pla-053 : explication absente ou trop courte
 - pla-054 : explication absente ou trop courte
@@ -338,20 +290,13 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - pla-068 : explication absente ou trop courte
 - pla-069 : explication absente ou trop courte
 - pla-070 : explication absente ou trop courte
+- content/009/c.lm:8 : ÉVIDENT ? vrai/faux peut-être tautologique (plan) — Dans D&D 5e, la Féerie et la Gisombre sont des plans « échos » du Plan Matériel.
+- plans-elementaires : niveaux déséquilibrés [19, 66, 55]
 - lyc-020 : explication absente ou trop courte
-- lyc-031 : explication absente ou trop courte
 - lyc-033 : explication absente ou trop courte
 - lyc-034 : explication absente ou trop courte
-- lyc-035 : explication absente ou trop courte
-- lyc-036 : explication absente ou trop courte
-- lyc-037 : explication absente ou trop courte
-- lyc-038 : explication absente ou trop courte
-- lyc-039 : explication absente ou trop courte
 - lyc-043 : explication absente ou trop courte
-- lyc-044 : explication absente ou trop courte
-- lyc-045 : explication absente ou trop courte
 - lyc-047 : explication absente ou trop courte
-- lyc-048 : explication absente ou trop courte
 - lyc-049 : explication absente ou trop courte
 - lyc-052 : explication absente ou trop courte
 - lyc-053 : explication absente ou trop courte
@@ -370,23 +315,18 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - lyc-067 : explication absente ou trop courte
 - lyc-068 : explication absente ou trop courte
 - lyc-070 : explication absente ou trop courte
-- lycanthropes-metamorphes : niveaux déséquilibrés [22, 73, 55]
+- content/010/a.lm:8 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (loup) — Dans D&D 5e, sous quelle forme un loup-garou peut-il transmettre sa malédiction ?
+- lycanthropes-metamorphes : niveaux déséquilibrés [16, 73, 51]
 - mar-037 : explication absente ou trop courte
 - mar-054 : explication absente ou trop courte
 - mar-057 : explication absente ou trop courte
 - mar-060 : explication absente ou trop courte
 - mar-069 : explication absente ou trop courte
 - mar-070 : explication absente ou trop courte
-- creatures-marines : niveaux déséquilibrés [22, 80, 48]
-- bet-034 : explication absente ou trop courte
-- gol-033 : explication absente ou trop courte
-- gol-034 : explication absente ou trop courte
-- gol-035 : explication absente ou trop courte
-- gol-036 : explication absente ou trop courte
-- gol-037 : explication absente ou trop courte
-- gol-042 : explication absente ou trop courte
+- content/011/a.lm:35 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (nage) — Dans D&D 5e, que coûte la nage à un personnage qui n’a pas de vitesse de nage ?
+- creatures-marines : niveaux déséquilibrés [17, 78, 46]
+- betes-monstruosites : niveaux déséquilibrés [19, 83, 39]
 - gol-044 : explication absente ou trop courte
-- gol-047 : explication absente ou trop courte
 - gol-050 : explication absente ou trop courte
 - gol-052 : explication absente ou trop courte
 - gol-053 : explication absente ou trop courte
@@ -396,21 +336,22 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - gol-057 : explication absente ou trop courte
 - gol-058 : explication absente ou trop courte
 - gol-059 : explication absente ou trop courte
-- gol-060 : explication absente ou trop courte
-- gol-061 : explication absente ou trop courte
-- gol-062 : explication absente ou trop courte
-- gol-063 : explication absente ou trop courte
 - gol-064 : explication absente ou trop courte
 - gol-065 : explication absente ou trop courte
-- gol-066 : explication absente ou trop courte
 - gol-068 : explication absente ou trop courte
-- gol-069 : explication absente ou trop courte
+- content/013/a.lm:3 : bonne réponse nettement plus longue que les autres (indice involontaire)
+- content/013/a.lm:46 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (arti) — Dans D&D 5e, quelle sous-classe d’artificier crée un canon occulte ?
+- content/013/a.lm:58 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mord) — Dans D&D 5e, quel sort de niveau 4 crée un chien de garde invisible qui aboie et mord ?
+- content/013/b.lm:23 : ÉVIDENT ? vrai/faux peut-être tautologique (anim) — Dans D&D 5e, le sort Animation d’objets peut animer jusqu’à dix objets de taille Minuscule
+- golems-constructions : niveaux déséquilibrés [14, 75, 51]
 - rac-002 : explication absente ou trop courte
 - rac-003 : explication absente ou trop courte
 - rac-004 : explication absente ou trop courte
 - rac-005 : explication absente ou trop courte
 - rac-006 : explication absente ou trop courte
+- rac-006 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (elfe) — Dans D&D 5e, quelle race jouable est issue d’un humain et d’un elfe ?
 - rac-007 : explication absente ou trop courte
+- rac-007 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (orqu) — Dans D&D 5e, quelle race jouable est issue d’un humain et d’un orque ?
 - rac-008 : explication absente ou trop courte
 - rac-009 : explication absente ou trop courte
 - rac-010 : explication absente ou trop courte
@@ -428,6 +369,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - rac-023 : explication absente ou trop courte
 - rac-024 : explication absente ou trop courte
 - rac-025 : explication absente ou trop courte
+- rac-025 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (tort) — Dans D&D 5e, quelle race ressemble à une tortue humanoïde ?
 - rac-026 : explication absente ou trop courte
 - rac-027 : explication absente ou trop courte
 - rac-028 : explication absente ou trop courte
@@ -471,8 +413,21 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - rac-068 : explication absente ou trop courte
 - rac-069 : explication absente ou trop courte
 - rac-070 : explication absente ou trop courte
+- cla-017 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (bard) — Dans D&D 5e, quelle capacité du barde soutient ses alliés avec un dé ?
+- cla-018 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mort, viva) — Dans D&D 5e, quelle capacité du clerc repousse les morts-vivants ?
+- cla-027 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (arti) — Dans D&D 5e, quelle classe d’artisan magique est introduite à partir du cadre Eberron ?
 - cla-038 : explication absente ou trop courte
+- sor-004 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (rayo) — Dans D&D 5e, quel sort de niveau 2 lance trois rayons de feu ?
+- sor-006 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (invi) — Dans D&D 5e, quel sort de niveau 2 rend invisible ?
+- sor-007 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (immo) — Dans D&D 5e, quel sort de niveau 2 immobilise un humanoïde ?
+- sor-011 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (magi, proj) — Dans D&D 5e, quel sort de niveau 1 lance des projectiles magiques qui touchent automatique
 - sor-013 : explication absente ou trop courte
+- sor-023 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (arre, temp) — Dans D&D 5e, quel sort de niveau 9 arrête le temps pour les autres ?
+- sor-024 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mete) — Dans D&D 5e, quel sort de niveau 9 fait pleuvoir des météores ?
+- sor-026 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (anim) — Dans D&D 5e, quel sort de niveau 1 permet de parler avec les animaux ?
+- sor-027 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (resp) — Dans D&D 5e, quel sort de niveau 3 permet de respirer sous l’eau ?
+- sor-029 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (rayo) — Dans D&D 5e, quel sort mineur de magicien lance un rayon de froid ?
+- sor-030 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (main) — Dans D&D 5e, quel sort mineur crée une main spectrale pour manipuler des objets ?
 - sor-034 : explication absente ou trop courte
 - sor-036 : explication absente ou trop courte
 - sor-037 : explication absente ou trop courte
@@ -481,6 +436,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - sor-040 : explication absente ou trop courte
 - sor-043 : explication absente ou trop courte
 - sor-044 : explication absente ou trop courte
+- sor-045 : ÉVIDENT ? vrai/faux peut-être tautologique (invi) — Dans D&D 5e, Invisibilité rend invisible.
 - sor-046 : explication absente ou trop courte
 - sor-047 : explication absente ou trop courte
 - sor-051 : explication absente ou trop courte
@@ -495,6 +451,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - sor-065 : explication absente ou trop courte
 - sor-066 : explication absente ou trop courte
 - sor-067 : explication absente ou trop courte
+- sor-067 : ÉVIDENT ? vrai/faux peut-être tautologique (vol) — Dans D&D 5e, le sort Vol permet de voler.
 - sor-068 : explication absente ou trop courte
 - sor-070 : explication absente ou trop courte
 - gre-003 : explication absente ou trop courte
@@ -508,11 +465,13 @@ Généré par `python3 tools/lm_compile.py`. Cible : 150 questions par thème, 4
 - gre-019 : explication absente ou trop courte
 - gre-021 : explication absente ou trop courte
 - gre-024 : explication absente ou trop courte
+- gre-024 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (argo) — Dans la mythologie grecque, comment s’appelle le navire de Jason et des Argonautes ?
 - gre-025 : explication absente ou trop courte
 - gre-028 : explication absente ou trop courte
 - gre-030 : explication absente ou trop courte
 - gre-031 : explication absente ou trop courte
 - gre-039 : explication absente ou trop courte
+- gre-041 : ÉVIDENT ? vrai/faux peut-être tautologique (grec) — Dans la mythologie grecque, l’Olympe est une montagne de Grèce.
 - gre-043 : explication absente ou trop courte
 - gre-045 : explication absente ou trop courte
 - gre-048 : explication absente ou trop courte

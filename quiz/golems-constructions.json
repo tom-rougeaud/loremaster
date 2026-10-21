@@ -14,23 +14,6 @@
  },
  "questions": [
   {
-   "id": "gol-001",
-   "concept": "gol-001",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel type de créature regroupe golems, armures animées et gardiens-boucliers ?",
-   "choix": [
-    "Les constructions",
-    "Les morts-vivants",
-    "Les élémentaires",
-    "Les aberrations"
-   ],
-   "rep": 0,
-   "expl": "Ce sont des constructions (constructs) : des créatures fabriquées, animées par la magie.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Construction »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-002",
    "concept": "gol-002",
    "niveau": 1,
@@ -62,57 +45,6 @@
    "rep": 0,
    "expl": "Le golem de fer (iron golem, FP 16) a 210 PV, une CA de 20 et un souffle empoisonné.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-004",
-   "concept": "gol-004",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel golem a un FP de 10 ?",
-   "choix": [
-    "Le golem de pierre",
-    "Le golem de fer",
-    "Le golem de chair",
-    "Le golem d’argile"
-   ],
-   "rep": 0,
-   "expl": "Le golem de pierre (stone golem) est de FP 10 ; il peut ralentir ses ennemis.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-005",
-   "concept": "gol-005",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel golem a un FP de 9 ?",
-   "choix": [
-    "Le golem d’argile",
-    "Le golem de fer",
-    "Le golem de pierre",
-    "Le golem de chair"
-   ],
-   "rep": 0,
-   "expl": "Le golem d’argile (clay golem) est de FP 9 ; il absorbe l’acide.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-006",
-   "concept": "gol-006",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel golem a un FP de 5 ?",
-   "choix": [
-    "Le golem de chair",
-    "Le golem de fer",
-    "Le golem de pierre",
-    "Le golem d’argile"
-   ],
-   "rep": 0,
-   "expl": "Le golem de chair est de FP 5 : le moins puissant des quatre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
    "conf": "probable"
   },
   {
@@ -188,7 +120,7 @@
    "concept": "gol-011",
    "niveau": 1,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle construction est une armure qui s’anime pour attaquer ?",
+   "q": "Dans D&D 5e, quelle construction, gardienne fréquente des châteaux, est une coquille de métal vide qui se met à combattre ?",
    "choix": [
     "L’armure animée",
     "Le fantôme",
@@ -205,7 +137,7 @@
    "concept": "gol-012",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel objet animé étouffe ses victimes ?",
+   "q": "Dans D&D 5e, quel objet animé s’enroule autour de ses victimes jusqu’à les asphyxier ?",
    "choix": [
     "Le tapis étouffeur",
     "Le mimique",
@@ -256,7 +188,7 @@
    "concept": "gol-015",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe d’Eberron, introduite dans le Guide du Maître d’Eberron, crée des objets magiques ?",
+   "q": "Dans D&D 5e, quelle classe, introduite officiellement avec Eberron: Rising from the Last War, crée des objets magiques ?",
    "choix": [
     "L’artificier",
     "Le barde",
@@ -290,7 +222,7 @@
    "concept": "gol-017",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 5 anime des objets pour qu’ils combattent ?",
+   "q": "Dans D&D 5e, quel sort de niveau 5 donne vie à dix petits bibelots qui combattent pour le lanceur ?",
    "choix": [
     "Animation d’objets",
     "Création d’un mort-vivant",
@@ -300,23 +232,6 @@
    "rep": 0,
    "expl": "Animation d’objets (Animate Objects) donne vie à des objets, jusqu’à dix de taille Très petite.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation d’objets",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-018",
-   "concept": "gol-018",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, que protège l’Immutable Form d’un golem ?",
-   "choix": [
-    "Les sorts et effets qui changeraient sa forme",
-    "Le poison",
-    "La charge",
-    "Les ténèbres"
-   ],
-   "rep": 0,
-   "expl": "Les golems sont immunisés contre les sorts qui altèrent leur forme, comme Métamorphose.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem »",
    "conf": "probable"
   },
   {
@@ -334,23 +249,6 @@
    "rep": 0,
    "expl": "Les golems sont immunisés contre les armes non magiques qui ne sont pas en adamantium, ainsi que contre le poison et la psychique.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-020",
-   "concept": "gol-020",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel golem peut ralentir ses ennemis (Slow) ?",
-   "choix": [
-    "Le golem de pierre",
-    "Le golem de chair",
-    "Le golem d’argile",
-    "Le golem de fer"
-   ],
-   "rep": 0,
-   "expl": "Le golem de pierre peut lancer Lenteur (Slow) sur les créatures proches.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
    "conf": "probable"
   },
   {
@@ -385,23 +283,6 @@
    "rep": 0,
    "expl": "L’horreur casquée (helmed horror) est un casque et une armure animés par la magie, de CA 20.",
    "src": "Manuel des Monstres 5e (2014), entrée « Horreur casquée »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-023",
-   "concept": "gol-023",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle arme animée vole et frappe ses ennemis ?",
-   "choix": [
-    "L’épée volante",
-    "Le tapis étouffeur",
-    "L’armure animée",
-    "Le gardien-bouclier"
-   ],
-   "rep": 0,
-   "expl": "L’épée volante (flying sword, FP 1/4) est une épée qui s’anime, de 17 PV.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Épée volante »",
    "conf": "probable"
   },
   {
@@ -473,23 +354,6 @@
    "conf": "probable"
   },
   {
-   "id": "gol-028",
-   "concept": "gol-028",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, un golem est-il vivant ?",
-   "choix": [
-    "Non, c’est une construction animée",
-    "Oui, c’est un humanoïde",
-    "Oui, c’est un mort-vivant",
-    "Non, c’est un élémentaire"
-   ],
-   "rep": 0,
-   "expl": "Un golem est une construction : il n’a besoin ni d’air, ni de nourriture, ni de sommeil.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-029",
    "concept": "gol-029",
    "niveau": 3,
@@ -504,160 +368,6 @@
    "rep": 0,
    "expl": "La maison Cannith, spécialisée dans la fabrication, est à l’origine des forgés.",
    "src": "Eberron: Rising from the Last War (2019), chap. 1",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-030",
-   "concept": "gol-030",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, les golems sont des constructions.",
-   "rep": true,
-   "expl": "Vrai : ce sont des constructions animées par la magie.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-031",
-   "concept": "gol-031",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de chair est le plus puissant des golems du Manuel des Monstres.",
-   "rep": false,
-   "expl": "Faux : le golem de fer (FP 16) est plus puissant.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-032",
-   "concept": "gol-032",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de fer est vulnérable au feu.",
-   "rep": false,
-   "expl": "Faux : le golem de fer absorbe le feu, qui le soigne.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-033",
-   "concept": "gol-033",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le feu soigne le golem de chair.",
-   "rep": false,
-   "expl": "Faux : c’est la foudre qui le soigne.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-034",
-   "concept": "gol-034",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, la foudre soigne le golem de chair.",
-   "rep": true,
-   "expl": "Vrai : Absorption de foudre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-035",
-   "concept": "gol-035",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’armure animée est un mort-vivant.",
-   "rep": false,
-   "expl": "Faux : c’est une construction.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Armure animée »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-036",
-   "concept": "gol-036",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem d’argile absorbe l’acide.",
-   "rep": true,
-   "expl": "Vrai : l’acide le soigne.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-037",
-   "concept": "gol-037",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de pierre est de FP 10.",
-   "rep": true,
-   "expl": "Vrai : il est de FP 10.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-038",
-   "concept": "gol-038",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, les forgés sont des morts-vivants.",
-   "rep": false,
-   "expl": "Faux : ce sont des constructions vivantes.",
-   "src": "Eberron: Rising from the Last War (2019), chap. 2",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-039",
-   "concept": "gol-039",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le gardien-bouclier peut stocker un sort.",
-   "rep": true,
-   "expl": "Vrai : il peut contenir un sort que son maître lance via l’amulette.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Gardien-bouclier »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-040",
-   "concept": "gol-040",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le tapis étouffeur est un mort-vivant.",
-   "rep": false,
-   "expl": "Faux : c’est une construction qui étouffe ses victimes.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tapis étouffeur »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-041",
-   "concept": "gol-041",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’homoncule est un golem de fer.",
-   "rep": false,
-   "expl": "Faux : c’est un petit serviteur artificiel.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Homoncule »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-042",
-   "concept": "gol-042",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’épée volante est une construction.",
-   "rep": true,
-   "expl": "Vrai : c’est une épée animée de FP 1/4.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Épée volante »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-043",
-   "concept": "gol-043",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de fer est de FP 10.",
-   "rep": false,
-   "expl": "Faux : le golem de fer est de FP 16 ; le golem de pierre est de FP 10.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
    "conf": "probable"
   },
   {
@@ -683,28 +393,6 @@
    "conf": "probable"
   },
   {
-   "id": "gol-046",
-   "concept": "gol-046",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Mechanus abrite les modrons.",
-   "rep": true,
-   "expl": "Vrai : ce sont des constructions de l’ordre.",
-   "src": "Dans D&D 5e, Guide du Maître (2014), chap. 2 « Mechanus »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-047",
-   "concept": "gol-047",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de pierre peut ralentir ses ennemis.",
-   "rep": true,
-   "expl": "Vrai : Lenteur (Slow).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-048",
    "concept": "gol-048",
    "niveau": 3,
@@ -716,17 +404,6 @@
    "conf": "probable"
   },
   {
-   "id": "gol-049",
-   "concept": "gol-049",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de chair peut devenir incontrôlable.",
-   "rep": true,
-   "expl": "Vrai : s’il est touché par la foudre, il peut se déchaîner.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-050",
    "concept": "gol-050",
    "niveau": 3,
@@ -735,17 +412,6 @@
    "rep": false,
    "expl": "Faux : il a un souffle de poison.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-051",
-   "concept": "gol-051",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les forgés viennent de la Guerre du Dernier Jour d’Eberron.",
-   "rep": true,
-   "expl": "Vrai : ils ont été créés pour la guerre.",
-   "src": "Eberron: Rising from the Last War (2019), chap. 1",
    "conf": "probable"
   },
   {
@@ -885,74 +551,6 @@
    "tol_pct": 3
   },
   {
-   "id": "gol-060",
-   "concept": "gol-060",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du golem de chair ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 9,
-   "expl": "CA 9 : armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "gol-061",
-   "concept": "gol-061",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du golem d’argile ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 14,
-   "expl": "CA 14 : armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "gol-062",
-   "concept": "gol-062",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du golem de pierre ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 17,
-   "expl": "CA 17 : armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "gol-063",
-   "concept": "gol-063",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du golem de fer ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 20,
-   "expl": "CA 20 : armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
    "id": "gol-064",
    "concept": "gol-064",
    "niveau": 3,
@@ -983,23 +581,6 @@
    "rep": 7,
    "expl": "Le gardien-bouclier est de FP 7.",
    "src": "Manuel des Monstres 5e (2014), entrée « Gardien-bouclier »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "gol-066",
-   "concept": "gol-066",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA de l’horreur casquée ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 20,
-   "expl": "CA 20 : armure complète.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Horreur casquée »",
    "conf": "probable",
    "tol_pct": 0
   },
@@ -1036,34 +617,6 @@
    "src": "Eberron: Rising from the Last War (2019), crédits",
    "conf": "probable",
    "tol_pct": 0
-  },
-  {
-   "id": "gol-069",
-   "concept": "gol-069",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un tapis étouffeur ?",
-   "min": 10,
-   "max": 100,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 33,
-   "expl": "33 PV (6d10).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tapis étouffeur »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "gol-070",
-   "concept": "gol-070",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de pierre est de FP 14.",
-   "rep": false,
-   "expl": "Faux : le golem de pierre est de FP 10, avec une CA de 17.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
   },
   {
    "type": "intrus",
@@ -1115,57 +668,6 @@
    "id": "gol-073",
    "conf": "probable",
    "concept": "nv_intrus"
-  },
-  {
-   "type": "trou",
-   "niveau": 1,
-   "q": "Dans D&D 5e, le golem de ____ est assemblé à partir de morceaux de cadavres.",
-   "choix": [
-    "chair",
-    "pierre",
-    "fer",
-    "argile"
-   ],
-   "rep": 0,
-   "expl": "Le golem de chair est un monstre de Frankenstein.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "id": "gol-074",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 2,
-   "q": "Dans D&D 5e, le golem de ____ est le plus puissant du Manuel des Monstres, avec un FP de 16.",
-   "choix": [
-    "fer",
-    "pierre",
-    "chair",
-    "argile"
-   ],
-   "rep": 0,
-   "expl": "Le golem de fer (FP 16) crache un gaz empoisonné.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "id": "gol-075",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 3,
-   "q": "Dans Eberron, les ____ sont des soldats artificiels nés de la Guerre du Dernier Jour.",
-   "choix": [
-    "forgés",
-    "kalashtar",
-    "changelins",
-    "shifters"
-   ],
-   "rep": 0,
-   "expl": "Les forgés sont une espèce de constructions vivantes.",
-   "src": "Eberron: Rising from the Last War (2019)",
-   "id": "gol-076",
-   "conf": "probable",
-   "concept": "nv_trou"
   },
   {
    "type": "multi",
@@ -1372,6 +874,1463 @@
    "id": "gol-086",
    "conf": "probable",
    "concept": "nv_qui"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que se passe-t-il quand un golem de chair subit des dégâts de foudre ?",
+   "choix": [
+    "Il récupère des points de vie",
+    "Il est paralysé",
+    "Il explose",
+    "Il devient fou"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Absorption de la foudre : au lieu de subir des dégâts, le golem de chair récupère autant de PV que les dégâts de foudre infligés.",
+   "id": "gol-087",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, de quel élément le golem de chair a-t-il peur ?",
+   "choix": [
+    "Du feu",
+    "De l’eau",
+    "De la lumière",
+    "Du froid"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Aversion pour le feu : s’il subit des dégâts de feu, le golem de chair a le désavantage à ses jets d’attaque et de caractéristique jusqu’à la fin de son tour suivant.",
+   "id": "gol-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel danger guette le créateur d’un golem de chair ou d’argile ?",
+   "choix": [
+    "Le golem peut devenir enragé et incontrôlable",
+    "Le golem le trahit toujours",
+    "Le golem le maudit",
+    "Le golem vole son âme"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Avec le trait Fureur (Berserk), un golem de chair ou d’argile blessé peut perdre le contrôle et attaquer n’importe qui, même son créateur.",
+   "id": "gol-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel pouvoir le golem d’argile utilise-t-il pour accélérer ?",
+   "choix": [
+    "Hâte",
+    "Clignotement",
+    "Pas brumeux",
+    "Vol"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Avec Hâte (recharge 5-6), le golem d’argile gagne une attaque supplémentaire et un bonus à la CA jusqu’à la fin de son tour suivant.",
+   "id": "gol-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel effet le golem de pierre impose-t-il à ses ennemis par magie ?",
+   "choix": [
+    "Il les ralentit",
+    "Il les endort",
+    "Il les pétrifie",
+    "Il les charme"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le golem de pierre peut lancer Lenteur (recharge 5-6) : les créatures touchées perdent une partie de leurs actions et de leur vitesse.",
+   "id": "gol-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que permet l’amulette du gardien-bouclier à son porteur ?",
+   "choix": [
+    "Le commander et le localiser",
+    "Devenir invisible",
+    "Voler",
+    "Lancer Boule de feu"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le gardien-bouclier est lié à une amulette : son porteur le commande, sait où il se trouve et peut l’appeler.",
+   "id": "gol-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que fait le gardien-bouclier pour protéger le porteur de son amulette ?",
+   "choix": [
+    "Il subit la moitié des dégâts à sa place",
+    "Il le soigne entièrement",
+    "Il le rend invisible",
+    "Il le téléporte au loin"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Grâce à Bouclier, quand le porteur de l’amulette est blessé non loin, le gardien prend la moitié des dégâts à sa place.",
+   "id": "gol-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que se passe-t-il pour le créateur quand son homoncule meurt ?",
+   "choix": [
+    "Il subit des dégâts psychiques",
+    "Il meurt aussi",
+    "Il gagne un niveau",
+    "Rien du tout"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’homoncule partage un lien télépathique avec son créateur ; s’il meurt, le créateur subit 2d10 dégâts psychiques.",
+   "id": "gol-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel ingrédient faut-il pour créer un homoncule ?",
+   "choix": [
+    "Le sang de son créateur",
+    "Une plume de phénix",
+    "Un œil de tyrannœil",
+    "Une écaille de dragon"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’homoncule est façonné avec un mélange d’argile, de cendres, de racine de mandragore et du sang de son créateur.",
+   "id": "gol-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quelle arme animée qui frappe seule est souvent posée au mur comme une décoration ?",
+   "choix": [
+    "L’épée volante",
+    "La lance hurlante",
+    "La hache dansante",
+    "L’arc animé"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’épée volante (FP 1/4) a une Fausse apparence : immobile, on la prend pour une épée ordinaire accrochée au mur.",
+   "id": "gol-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que se passe-t-il quand on frappe un tapis étouffeur qui enveloppe une victime ?",
+   "choix": [
+    "La victime subit la moitié des dégâts",
+    "Le tapis se déchire et lâche prise",
+    "Le tapis s’enflamme",
+    "La victime est soignée"
+   ],
+   "rep": 0,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Transfert de dégâts : la créature enveloppée prend la moitié des dégâts infligés au tapis étouffeur.",
+   "id": "gol-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de temps faut-il pour fabriquer un golem de fer selon le Manuel des golems ?",
+   "choix": [
+    "120 jours",
+    "30 jours",
+    "60 jours",
+    "1 an"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7, « Manuel des golems »",
+   "expl": "Le Manuel des golems indique 30 jours pour l’argile, 60 pour la chair, 90 pour la pierre et 120 pour le fer.",
+   "id": "gol-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien coûte la création d’un golem de fer selon le Manuel des golems ?",
+   "choix": [
+    "100 000 po",
+    "10 000 po",
+    "50 000 po",
+    "1 000 000 po"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7, « Manuel des golems »",
+   "expl": "Les coûts vont de 50 000 po (chair) à 100 000 po (fer), en passant par 65 000 po (argile) et 80 000 po (pierre).",
+   "id": "gol-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Eberron, quelle région dévastée est née de la catastrophe qui mit fin à la Dernière Guerre ?",
+   "choix": [
+    "Les Terres du Deuil",
+    "Le Breland",
+    "Sharn",
+    "Le Karrnath"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le Deuil a anéanti le royaume de Cyre, devenu les Terres du Deuil (Mournland) ; c’est aussi le refuge du Seigneur des lames.",
+   "id": "gol-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Eberron, quel forgé rebelle rêve d’un royaume réservé aux siens dans les Terres du Deuil ?",
+   "choix": [
+    "Le Seigneur des lames",
+    "Le Roi-sorcier",
+    "Le Prince de fer",
+    "Le Gardien gris"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le Seigneur des lames (Lord of Blades) est un forgé charismatique qui veut libérer les siens de l’humanité.",
+   "id": "gol-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Eberron, dans quelles installations la maison Cannith produisait-elle ses soldats artificiels ?",
+   "choix": [
+    "Les forges de création",
+    "Les fonderies royales",
+    "Les tours d’Arcanix",
+    "Les ateliers de Sharn"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Les forges de création de la maison Cannith produisaient les forgés pour la Dernière Guerre ; le traité de Fort-Trône a ordonné leur fermeture.",
+   "id": "gol-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Eberron, quel trait du forgé l’empêche de se faire retirer son armure contre sa volonté ?",
+   "choix": [
+    "Protection intégrée",
+    "Peau de fer",
+    "Armure naturelle",
+    "Résilience de construction"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019), « Forgé »",
+   "expl": "Avec Protection intégrée, l’armure du forgé fait partie de son corps : on ne peut pas la lui retirer contre sa volonté.",
+   "id": "gol-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le compagnon mécanique de l’artificier forgeron de bataille ?",
+   "choix": [
+    "Le défenseur d’acier",
+    "Le canon occulte",
+    "Le servant homoncule",
+    "Le gardien-bouclier"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le forgeron de bataille construit un défenseur d’acier qui combat à ses côtés ; l’artilleur, lui, crée un canon occulte.",
+   "id": "gol-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle sous-classe d’artificier crée un canon occulte ?",
+   "choix": [
+    "L’artilleur",
+    "L’alchimiste",
+    "Le forgeron de bataille",
+    "L’armurier"
+   ],
+   "rep": 0,
+   "src": "Tasha’s Cauldron of Everything (2020), « Artificier »",
+   "expl": "L’artilleur fabrique un canon occulte (lance-flammes, baliste de force ou protecteur) et une arme d’évocation.",
+   "id": "gol-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel supplément de 2020 l’artificier gagne-t-il la sous-classe d’armurier ?",
+   "choix": [
+    "Tasha’s Cauldron of Everything",
+    "Xanathar’s Guide to Everything",
+    "Volo’s Guide to Monsters",
+    "Fizban’s Treasury of Dragons"
+   ],
+   "rep": 0,
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Tasha’s Cauldron of Everything reprend l’artificier et ajoute l’armurier, qui transforme son armure en arme.",
+   "id": "gol-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 4 de Tasha invoque une construction d’argile, de métal ou de pierre ?",
+   "choix": [
+    "Convocation de créature artificielle",
+    "Animation d’objets",
+    "Serviteur invisible",
+    "Molosse de Mordenkainen"
+   ],
+   "rep": 0,
+   "src": "Tasha’s Cauldron of Everything (2020), « Sorts »",
+   "expl": "Convocation de créature artificielle (summon construct) fait apparaître un esprit de construction dont la forme dépend du matériau choisi.",
+   "id": "gol-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 1 crée une présence immatérielle qui accomplit des tâches simples ?",
+   "choix": [
+    "Serviteur invisible",
+    "Main de mage",
+    "Disque flottant de Tenser",
+    "Prestidigitation"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le Serviteur invisible (unseen servant) range, nettoie ou porte des objets, mais ne peut pas combattre.",
+   "id": "gol-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 4 crée un chien de garde invisible qui aboie et mord ?",
+   "choix": [
+    "Molosse de Mordenkainen",
+    "Appel de familier",
+    "Serviteur invisible",
+    "Animation d’objets"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le Molosse fidèle de Mordenkainen garde un lieu, aboie à l’approche d’un intrus et mord les ennemis.",
+   "id": "gol-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Mordenkainen’s Tome of Foes, quelle construction drow géante, en forme d’araignée, capture les fugitifs ?",
+   "choix": [
+    "Le récupérateur (retriever)",
+    "Le drider",
+    "L’horreur casquée",
+    "Le golem de fer"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Le retriever (FP 14) est une araignée mécanique au service des drows ; ses rayons oculaires capturent ou désintègrent ses proies.",
+   "id": "gol-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Mordenkainen’s Tome of Foes, quelle construction inévitable de FP 25 fait respecter les contrats ?",
+   "choix": [
+    "Le marut",
+    "Le modron",
+    "Le gardien-bouclier",
+    "Le golem de fer"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Le marut, envoyé de Mechanus, poursuit ceux qui rompent un contrat passé dans la Salle de la Concordance de Sigil.",
+   "id": "gol-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon la légende de Prague, quel rabbin aurait façonné un golem d’argile pour protéger sa communauté ?",
+   "choix": [
+    "Judah Loew (le Maharal)",
+    "Moïse Maïmonide",
+    "Rachi",
+    "Hillel"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « Golem » ; Musée juif de Prague",
+   "expl": "La légende attribue au Maharal de Prague, Judah Loew ben Bezalel (XVIe siècle), la création d’un golem d’argile qu’il animait par un mot sacré.",
+   "id": "gol-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans la légende juive du golem, quel mot inscrit sur son front l’anime ?",
+   "choix": [
+    "Emet (vérité)",
+    "Shalom (paix)",
+    "Amen",
+    "Torah"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « Golem »",
+   "expl": "Le mot hébreu emet (« vérité ») l’anime ; en effaçant la première lettre, on obtient met (« mort ») et le golem redevient argile.",
+   "id": "gol-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la mythologie grecque, quel géant de bronze gardait l’île de Crète ?",
+   "choix": [
+    "Talos",
+    "Argos",
+    "Antée",
+    "Typhon"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "Talos, forgé par Héphaïstos, faisait trois fois par jour le tour de la Crète ; Médée le vainquit en lui ôtant le clou qui retenait son sang divin.",
+   "id": "gol-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que représente le FP 0 de l’homoncule ?",
+   "choix": [
+    "Une créature presque inoffensive",
+    "Une créature immortelle",
+    "Une erreur d’impression",
+    "Une créature invincible"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "L’homoncule (FP 0) est un minuscule serviteur ; sa morsure peut toutefois plonger la cible dans l’inconscience.",
+   "id": "gol-115",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les golems sont immunisés aux armes non magiques qui ne sont pas en adamantium.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : seules la magie et l’adamantium entament vraiment un golem ; c’est pourquoi on les craint tant.",
+   "id": "gol-116",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le golem de fer est immunisé au poison.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : les golems sont immunisés au poison et ne peuvent pas être charmés, effrayés ou paralysés.",
+   "id": "gol-117",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le golem de fer crache un souffle de feu.",
+   "rep": false,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Faux : il souffle un nuage de gaz empoisonné ; le feu, au contraire, le soigne.",
+   "id": "gol-118",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le golem d’argile peut se soigner en absorbant l’acide.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : avec Absorption de l’acide, le golem d’argile récupère des PV au lieu d’en perdre.",
+   "id": "gol-119",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le golem de pierre a une CA plus élevée que le golem de fer.",
+   "rep": false,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Faux : CA 17 pour la pierre, 20 pour le fer.",
+   "id": "gol-120",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un homoncule peut endormir sa cible d’une morsure.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : la morsure empoisonnée de l’homoncule peut plonger la victime dans l’inconscience.",
+   "id": "gol-121",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le gardien-bouclier se régénère.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : le gardien-bouclier récupère 10 PV par tour tant qu’il a au moins 1 PV.",
+   "id": "gol-122",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le golem de chair est immunisé à la foudre et s’en nourrit.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : la foudre le soigne au lieu de le blesser (Absorption de la foudre).",
+   "id": "gol-123",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’armure animée est un mort-vivant hanté.",
+   "rep": false,
+   "src": "Manuel des Monstres 5e (2014), entrées correspondantes ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Faux : c’est une construction, animée par magie et non par un esprit.",
+   "id": "gol-124",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans Eberron, les forgés ont besoin de dormir comme les humains.",
+   "rep": false,
+   "src": "Eberron: Rising from the Last War (2019), « Forgé »",
+   "expl": "Faux : les forgés ne dorment pas ; ils restent conscients en se reposant sans dormir.",
+   "id": "gol-125",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le sort Animation d’objets peut animer jusqu’à dix objets de taille Minuscule.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Vrai : le sort anime dix objets non tenus de taille Minuscule ; les objets plus grands comptent pour plusieurs.",
+   "id": "gol-126",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans la légende pragoise, le mot « emet » signifie « mort ».",
+   "rep": false,
+   "src": "Encyclopædia Britannica, « Golem »",
+   "expl": "Faux : emet signifie « vérité » ; c’est met, obtenu en effaçant la première lettre, qui signifie « mort ».",
+   "id": "gol-127",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le golem de ____ est soigné par les dégâts de feu.",
+   "choix": [
+    "fer",
+    "chair",
+    "pierre",
+    "argile"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « Golem »",
+   "expl": "Le feu soigne le golem de fer (Absorption du feu) ; il n’en a donc pas peur, contrairement au golem de chair.",
+   "id": "gol-128",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le gardien-bouclier est lié à une ____ que porte son maître.",
+   "choix": [
+    "amulette",
+    "bague",
+    "couronne",
+    "épée"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « Golem »",
+   "expl": "L’amulette permet de commander le gardien-bouclier ; elle peut changer de mains, et le gardien obéit au nouveau porteur.",
+   "id": "gol-129",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le golem de ____ est soigné par l’acide.",
+   "choix": [
+    "argile",
+    "fer",
+    "chair",
+    "pierre"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « Golem »",
+   "expl": "Le golem d’argile absorbe l’acide ; il peut aussi devenir furieux quand il est gravement blessé.",
+   "id": "gol-130",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Eberron, la maison ____ fabriquait les forgés dans ses forges de création.",
+   "choix": [
+    "Cannith",
+    "Deneith",
+    "Lyrandar",
+    "Orien"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "La maison Cannith, marquée de la Fabrication, a conçu les forgés pour la Dernière Guerre.",
+   "id": "gol-131",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le trait des golems qui les protège des changements de forme s’appelle Forme ____.",
+   "choix": [
+    "immuable",
+    "figée",
+    "éternelle",
+    "stable"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Forme immuable empêche tout sort ou effet de modifier la forme du golem.",
+   "id": "gol-132",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans la mythologie grecque, le géant de bronze ____ faisait le tour de la Crète trois fois par jour.",
+   "choix": [
+    "Talos",
+    "Antée",
+    "Argos",
+    "Typhon"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "Talos, œuvre d’Héphaïstos, défendait la Crète en lançant des rochers sur les navires.",
+   "id": "gol-133",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’homoncule partage un lien ____ avec son créateur.",
+   "choix": [
+    "télépathique",
+    "sanguin",
+    "divin",
+    "élémentaire"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "Le lien télépathique permet à l’homoncule de transmettre à son créateur ce qu’il voit et entend.",
+   "id": "gol-134",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’armure animée perd ses moyens dans un champ d’antimagie : c’est sa ____ à l’antimagie.",
+   "choix": [
+    "Susceptibilité",
+    "Résistance",
+    "Immunité",
+    "Allergie"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "Susceptibilité à l’antimagie : dans un champ d’antimagie, l’armure animée est neutralisée ; Dissipation de la magie peut l’assommer.",
+   "id": "gol-135",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, un épouvantail animé est une ____.",
+   "choix": [
+    "construction",
+    "plante",
+    "fée",
+    "bête"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "L’épouvantail animé est une construction, souvent habitée par l’esprit d’une sorcière.",
+   "id": "gol-136",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces golems n’est pas soigné par un type de dégâts ?",
+   "choix": [
+    "Golem de pierre",
+    "Golem de chair",
+    "Golem de fer",
+    "Golem d’argile"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "Le golem de pierre n’a pas d’absorption. Chair (foudre), fer (feu) et argile (acide) en ont une.",
+   "id": "gol-137",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures n’est pas une construction ?",
+   "choix": [
+    "Gargouille",
+    "Homoncule",
+    "Épouvantail",
+    "Armure animée"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "La gargouille est un élémentaire. Les trois autres sont des constructions.",
+   "id": "gol-138",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces peuples n’est pas jouable dans Eberron: Rising from the Last War ?",
+   "choix": [
+    "Tieffelin infernal",
+    "Forgé",
+    "Changelin",
+    "Kalashtar"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "Les tieffelins viennent du Manuel des Joueurs. Forgés, changelins et kalashtar sont des peuples d’Eberron.",
+   "id": "gol-139",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces sous-classes n’appartient pas à l’artificier ?",
+   "choix": [
+    "Forgeron runique",
+    "Alchimiste",
+    "Artilleur",
+    "Forgeron de bataille"
+   ],
+   "rep": 0,
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le forgeron runique n’existe pas pour l’artificier (le Chevalier runique est un guerrier). L’alchimiste, l’artilleur et le forgeron de bataille sont des artificiers.",
+   "id": "gol-140",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces sorts n’anime ni ne crée de serviteur ?",
+   "choix": [
+    "Bouclier",
+    "Serviteur invisible",
+    "Animation d’objets",
+    "Molosse de Mordenkainen"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Bouclier est une protection instantanée. Les trois autres créent ou animent un serviteur.",
+   "id": "gol-141",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces matériaux ne sert pas à fabriquer un golem du Manuel des Monstres ?",
+   "choix": [
+    "Bois",
+    "Chair",
+    "Argile",
+    "Fer"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Le Manuel des Monstres propose des golems de chair, d’argile, de pierre et de fer, mais pas de bois.",
+   "id": "gol-142",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels de ces monstres sont des constructions ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gardien-bouclier",
+    "Épée volante",
+    "Tapis étouffeur",
+    "Gargouille",
+    "Zombie"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Gardien-bouclier, épée volante et tapis étouffeur sont des constructions. La gargouille est un élémentaire, le zombie un mort-vivant.",
+   "id": "gol-143",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels golems ont un trait de fureur qui peut les rendre incontrôlables ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Golem de chair",
+    "Golem d’argile",
+    "Golem de fer",
+    "Golem de pierre"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts »",
+   "expl": "Seuls les golems de chair et d’argile ont le trait Fureur (Berserk).",
+   "id": "gol-144",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles sous-classes d’artificier existent en 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Alchimiste",
+    "Artilleur",
+    "Armurier",
+    "Nécromancien",
+    "Chevalier occulte"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "L’artificier peut être alchimiste, artilleur, forgeron de bataille ou armurier. Le nécromancien est un magicien, le chevalier occulte un guerrier.",
+   "id": "gol-145",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "À quoi les golems sont-ils immunisés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Poison",
+    "État charmé",
+    "État effrayé",
+    "Dégâts de force",
+    "Dégâts radiants"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Les golems sont immunisés au poison et aux états charmé, effrayé, paralysé, empoisonné et épuisé.",
+   "id": "gol-146",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts créent ou animent des serviteurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Animation d’objets",
+    "Serviteur invisible",
+    "Convocation de créature artificielle",
+    "Lumière",
+    "Projectile magique"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Ces trois sorts donnent un serviteur ou des combattants artificiels ; Lumière et Projectile magique non.",
+   "id": "gol-147",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles caractéristiques décrivent les forgés d’Eberron ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ne dorment pas",
+    "Armure intégrée",
+    "Fabriqués par la maison Cannith",
+    "Morts-vivants",
+    "Vivent dans la mer"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Les forgés ne dorment pas, intègrent leur armure et ont été conçus par la maison Cannith.",
+   "id": "gol-148",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces golems du plus faible au plus redoutable (FP croissant).",
+   "items": [
+    "Golem de chair",
+    "Golem d’argile",
+    "Golem de pierre",
+    "Golem de fer"
+   ],
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "FP : chair 5, argile 9, pierre 10, fer 16. Le golem de fer est le plus puissant du Manuel des Monstres.",
+   "id": "gol-149",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces golems par durée de fabrication croissante selon le Manuel des golems.",
+   "items": [
+    "Golem d’argile",
+    "Golem de chair",
+    "Golem de pierre",
+    "Golem de fer"
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7, « Manuel des golems »",
+   "expl": "Argile 30 jours, chair 60 jours, pierre 90 jours, fer 120 jours.",
+   "id": "gol-150",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces golems par coût de fabrication croissant selon le Manuel des golems.",
+   "items": [
+    "Golem de chair",
+    "Golem d’argile",
+    "Golem de pierre",
+    "Golem de fer"
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7, « Manuel des golems »",
+   "expl": "Chair 50 000 po, argile 65 000 po, pierre 80 000 po, fer 100 000 po.",
+   "id": "gol-151",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces constructions par FP croissant.",
+   "items": [
+    "Homoncule",
+    "Épée volante",
+    "Armure animée",
+    "Horreur casquée",
+    "Gardien-bouclier"
+   ],
+   "src": "Guide du Maître 5e (2014), chap. 7, « Manuel des golems »",
+   "expl": "FP : homoncule 0, épée volante 1/4, armure animée 1, horreur casquée 4, gardien-bouclier 7.",
+   "id": "gol-152",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces publications par date de parution.",
+   "items": [
+    "Mordenkainen’s Tome of Foes",
+    "Eberron: Rising from the Last War",
+    "Tasha’s Cauldron of Everything"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Mordenkainen’s Tome of Foes (2018), Eberron: Rising from the Last War (2019), Tasha’s Cauldron of Everything (2020).",
+   "id": "gol-153",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la légende du golem de Prague dans l’ordre.",
+   "items": [
+    "Façonner l’argile",
+    "Inscrire « emet » sur le front",
+    "Le golem protège le ghetto",
+    "Effacer une lettre pour l’arrêter"
+   ],
+   "src": "Encyclopædia Britannica, « Golem »",
+   "expl": "Le rabbin modèle la glaise, l’anime par le mot emet, puis le désactive en le changeant en met (« mort »).",
+   "id": "gol-154",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces modrons du plus bas au plus haut rang.",
+   "items": [
+    "Monodrone",
+    "Duodrone",
+    "Tridrone",
+    "Quadrone"
+   ],
+   "src": "Manuel des Monstres 5e (2014), « Modrons »",
+   "expl": "Plus un modron a de côtés ou de faces, plus il est haut placé dans la hiérarchie de Mechanus.",
+   "id": "gol-155",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire des forgés dans l’ordre.",
+   "items": [
+    "Création par la maison Cannith",
+    "Combats de la Dernière Guerre",
+    "Traité de Fort-Trône",
+    "Libération des forgés"
+   ],
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Créés pour la guerre, les forgés y ont combattu jusqu’au traité de Fort-Trône, qui les a reconnus comme des personnes libres.",
+   "id": "gol-156",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque golem au type de dégâts qu’il absorbe.",
+   "paires": [
+    [
+     "Golem de chair",
+     "Foudre"
+    ],
+    [
+     "Golem de fer",
+     "Feu"
+    ],
+    [
+     "Golem d’argile",
+     "Acide"
+    ]
+   ],
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Chaque golem a sa signature d’absorption, utile à connaître avant de lancer un sort.",
+   "id": "gol-157",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque golem à son pouvoir.",
+   "paires": [
+    [
+     "Golem de fer",
+     "Souffle empoisonné"
+    ],
+    [
+     "Golem de pierre",
+     "Lenteur"
+    ],
+    [
+     "Golem d’argile",
+     "Hâte"
+    ],
+    [
+     "Golem de chair",
+     "Fureur"
+    ]
+   ],
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Ces pouvoirs distinguent les quatre golems du Manuel des Monstres.",
+   "id": "gol-158",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sous-classe d’artificier à sa création.",
+   "paires": [
+    [
+     "Forgeron de bataille",
+     "Défenseur d’acier"
+    ],
+    [
+     "Artilleur",
+     "Canon occulte"
+    ],
+    [
+     "Armurier",
+     "Armure arcanique"
+    ],
+    [
+     "Alchimiste",
+     "Élixirs"
+    ]
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Chaque artificier développe une spécialité mécanique ou magique.",
+   "id": "gol-159",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque construction à sa ruse.",
+   "paires": [
+    [
+     "Épée volante",
+     "Ressemble à une épée accrochée"
+    ],
+    [
+     "Tapis étouffeur",
+     "Ressemble à un tapis"
+    ],
+    [
+     "Armure animée",
+     "Ressemble à une armure d’apparat"
+    ]
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Ces constructions ont la Fausse apparence : immobiles, elles passent pour des objets ordinaires.",
+   "id": "gol-160",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque légende à son golem ou automate.",
+   "paires": [
+    [
+     "Prague",
+     "Golem d’argile"
+    ],
+    [
+     "Crète",
+     "Talos"
+    ],
+    [
+     "Eberron",
+     "Forgés"
+    ]
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le golem du Maharal, le géant de bronze Talos et les forgés de la maison Cannith sont des êtres artificiels célèbres.",
+   "id": "gol-161",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque construction à son matériau.",
+   "paires": [
+    [
+     "Golem de chair",
+     "Cadavres"
+    ],
+    [
+     "Golem d’argile",
+     "Glaise"
+    ],
+    [
+     "Golem de pierre",
+     "Roc"
+    ],
+    [
+     "Golem de fer",
+     "Métal"
+    ]
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le nom de chaque golem indique sa matière.",
+   "id": "gol-162",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une construction minuscule\n2. Mon créateur m’a façonné avec son sang\n3. Si je meurs, il souffre",
+   "choix": [
+    "Homoncule",
+    "Diablotin",
+    "Pseudo-dragon",
+    "Quasit"
+   ],
+   "rep": 0,
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "L’homoncule est lié télépathiquement à son créateur.",
+   "id": "gol-163",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une sentinelle\n2. J’obéis au porteur de mon amulette\n3. Je peux stocker un sort",
+   "choix": [
+    "Gardien-bouclier",
+    "Golem de pierre",
+    "Armure animée",
+    "Horreur casquée"
+   ],
+   "rep": 0,
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le gardien-bouclier protège son maître et prend une partie des coups à sa place.",
+   "id": "gol-164",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un géant de bronze\n2. Héphaïstos m’a forgé\n3. Médée m’a vaincu",
+   "choix": [
+    "Talos",
+    "Argos",
+    "Antée",
+    "Cerbère"
+   ],
+   "rep": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "Talos gardait la Crète ; Médée le tua en lui ôtant le clou qui retenait son sang.",
+   "id": "gol-165",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de PV regagne un gardien-bouclier par tour grâce à sa régénération ?",
+   "rep": 10,
+   "min": 1,
+   "max": 30,
+   "pas": 1,
+   "unite": "PV",
+   "tolerance": 0,
+   "src": "Apollonios de Rhodes, Argonautiques, livre IV",
+   "expl": "Le gardien-bouclier régénère 10 PV au début de chacun de ses tours tant qu’il a au moins 1 PV.",
+   "id": "gol-166",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Selon le Manuel des golems, combien de jours faut-il pour créer un golem de pierre ?",
+   "rep": 90,
+   "min": 10,
+   "max": 200,
+   "pas": 10,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7, « Manuel des golems »",
+   "expl": "Il faut 90 jours et 80 000 po pour façonner un golem de pierre.",
+   "id": "gol-167",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une coquille de métal vide\n2. Je garde les couloirs des châteaux\n3. Un champ d’antimagie me paralyse",
+   "choix": [
+    "Armure animée",
+    "Horreur casquée",
+    "Golem de fer",
+    "Gardien-bouclier"
+   ],
+   "rep": 0,
+   "src": "Guide du Maître 5e (2014), chap. 7, « Manuel des golems »",
+   "expl": "L’armure animée (FP 1) est l’une des constructions les plus simples à animer.",
+   "id": "gol-168",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un soldat artificiel rebelle\n2. Je règne sur une forteresse des Terres du Deuil\n3. Je veux un royaume pour les miens",
+   "choix": [
+    "Seigneur des lames",
+    "Hekaton",
+    "Gith",
+    "Vecna"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le Seigneur des lames est le meneur des forgés rebelles d’Eberron.",
+   "id": "gol-169",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’horreur ____ est une armure animée de FP 4 qui résiste aux sorts.",
+   "choix": [
+    "casquée",
+    "hurlante",
+    "rouillée",
+    "dorée"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "L’horreur casquée est immunisée à trois sorts choisis par son créateur et vole grâce à la magie.",
+   "id": "gol-170",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Eberron, le traité de ____ a mis fin à la Dernière Guerre et reconnu les forgés comme libres.",
+   "choix": [
+    "Fort-Trône",
+    "Sharn",
+    "Cyre",
+    "Karrnath"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le traité de Fort-Trône (Thronehold) a mis fin à la guerre et accordé aux forgés le statut de personnes.",
+   "id": "gol-171",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces golems ne figure pas dans le Manuel des Monstres de 2014 ?",
+   "choix": [
+    "Golem de bois",
+    "Golem de pierre",
+    "Golem de chair",
+    "Golem de fer"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le Manuel des Monstres de 2014 décrit les golems d’argile, de chair, de fer et de pierre.",
+   "id": "gol-172",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces personnages n’est pas lié à un golem ou à un automate ?",
+   "choix": [
+    "Bellérophon",
+    "Héphaïstos",
+    "Médée",
+    "Judah Loew"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Bellérophon chevauchait Pégase. Héphaïstos a forgé Talos, Médée l’a vaincu, et Judah Loew aurait façonné le golem de Prague.",
+   "id": "gol-173",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels golems sont immunisés au poison ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Golem de chair",
+    "Golem de fer",
+    "Golem de pierre",
+    "Gargouille",
+    "Ours brun"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Tous les golems sont immunisés au poison ; la gargouille aussi, mais ce n’est pas un golem et l’ours brun est une simple bête.",
+   "id": "gol-174",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels éléments appartiennent à la légende du golem de Prague ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Maharal",
+    "Le mot emet",
+    "L’argile",
+    "Le Minotaure",
+    "La forge d’Héphaïstos"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Encyclopædia Britannica, « Golem »",
+   "expl": "Le golem de Prague est façonné en argile par le Maharal et animé par le mot emet.",
+   "id": "gol-175",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature artificielle à son créateur.",
+   "paires": [
+    [
+     "Talos",
+     "Héphaïstos"
+    ],
+    [
+     "Golem de Prague",
+     "Judah Loew"
+    ],
+    [
+     "Forgés",
+     "Maison Cannith"
+    ]
+   ],
+   "src": "Encyclopædia Britannica, « Golem »",
+   "expl": "Le dieu forgeron, le rabbin de Prague et la maison Cannith ont donné naissance à ces êtres artificiels.",
+   "id": "gol-176",
+   "conf": "probable"
   }
  ],
  "sources": []

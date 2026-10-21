@@ -37,40 +37,6 @@
  },
  "questions": [
   {
-   "id": "don-001",
-   "concept": "don-001",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel monstre de donjon est un cube transparent qui engloutit ses proies ?",
-   "choix": [
-    "Le cube gélatineux",
-    "Le pudding noir",
-    "La gelée ochre",
-    "Le mimique"
-   ],
-   "rep": 0,
-   "expl": "Le cube gélatineux (gelatinous cube, FP 2) avale les créatures qui restent dans son espace ; il est presque invisible.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-002",
-   "concept": "don-002",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel monstre imite un coffre ou une porte pour piéger les aventuriers ?",
-   "choix": [
-    "Le roper",
-    "Le rouilleur",
-    "Le cube gélatineux",
-    "Le mimique"
-   ],
-   "rep": 3,
-   "expl": "Le mimique (mimic, FP 2) se déguise en objet et colle ses proies avec un pseudopode adhésif.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
-   "conf": "probable"
-  },
-  {
    "id": "don-003",
    "concept": "don-003",
    "niveau": 2,
@@ -85,23 +51,6 @@
    "rep": 2,
    "expl": "Le rouilleur (rust monster, FP 1/2) corrode les objets en métal non magiques qui le touchent.",
    "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-004",
-   "concept": "don-004",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel monstre est un hybride de hibou et d’ours ?",
-   "choix": [
-    "Le griffon",
-    "L’hippogriffe",
-    "La chimère",
-    "Le hibours"
-   ],
-   "rep": 3,
-   "expl": "Le hibours (owlbear, FP 3) est un prédateur de forêt et de donjon, redouté pour sa force et sa férocité.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
    "conf": "probable"
   },
   {
@@ -173,40 +122,6 @@
    "conf": "probable"
   },
   {
-   "id": "don-009",
-   "concept": "don-009",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle petite créature volante suce le sang de ses proies ?",
-   "choix": [
-    "Le gobelin",
-    "Le stirge",
-    "Le rouilleur",
-    "Le piercer"
-   ],
-   "rep": 1,
-   "expl": "Le stirge (FP 1/8) se fixe à sa victime avec son long bec et boit son sang.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Stirge »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-010",
-   "concept": "don-010",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle créature tombe du plafond comme une stalactite ?",
-   "choix": [
-    "Le roper",
-    "Le piercer",
-    "Le stirge",
-    "Le mimique"
-   ],
-   "rep": 1,
-   "expl": "Le piercer (FP 1/2) se laisse tomber sur ses proies depuis le plafond des cavernes.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Piercer »",
-   "conf": "probable"
-  },
-  {
    "id": "don-011",
    "concept": "don-011",
    "niveau": 3,
@@ -228,7 +143,7 @@
    "concept": "don-012",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel ooze noir se divise en deux lorsqu’il est frappé par des armes tranchantes ou de la foudre ?",
+   "q": "Dans D&D 5e, quelle vase sombre de FP 4 se divise sous les coups tranchants et ronge aussi le bois ?",
    "choix": [
     "Le cube gélatineux",
     "Le pudding noir",
@@ -238,23 +153,6 @@
    "rep": 1,
    "expl": "Le pudding noir (black pudding, FP 4) se divise en deux, avec la moitié des PV, quand il subit ces dégâts.",
    "src": "Manuel des Monstres 5e (2014), entrée « Pudding noir »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-013",
-   "concept": "don-013",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel monstre est le plus puissant du Manuel des Monstres, avec FP 30 ?",
-   "choix": [
-    "Le kraken",
-    "Le balor",
-    "La tarasque",
-    "Le dragon rouge ancien"
-   ],
-   "rep": 2,
-   "expl": "La tarasque (FP 30) est un monstre légendaire de 676 PV et de CA 25, inspiré d’une légende provençale.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
    "conf": "probable"
   },
   {
@@ -343,23 +241,6 @@
    "conf": "probable"
   },
   {
-   "id": "don-020",
-   "concept": "don-020",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans les Royaumes Oubliés, quelle ville surplombe Undermountain ?",
-   "choix": [
-    "Neverwinter",
-    "Baldur’s Gate",
-    "Silverymoon",
-    "Waterdeep"
-   ],
-   "rep": 3,
-   "expl": "Waterdeep, la Cité des Splendeurs, repose sur Undermountain, qui s’étend sous la ville.",
-   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Introduction",
-   "conf": "probable"
-  },
-  {
    "id": "don-021",
    "concept": "don-021",
    "niveau": 3,
@@ -394,34 +275,6 @@
    "conf": "probable"
   },
   {
-   "id": "don-023",
-   "concept": "don-023",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, que fait le rouilleur à une arme en métal non magique qui le touche ?",
-   "choix": [
-    "Il la corrode",
-    "Il la double",
-    "Il la fait fondre",
-    "Il la rend magique"
-   ],
-   "rep": 0,
-   "expl": "Le métal se corrode : l’arme perd un bonus de manière permanente.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-024",
-   "concept": "don-024",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le cube gélatineux est transparent.",
-   "rep": true,
-   "expl": "Vrai : il est difficile à repérer.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
-   "conf": "probable"
-  },
-  {
    "id": "don-025",
    "concept": "don-025",
    "niveau": 2,
@@ -430,17 +283,6 @@
    "rep": false,
    "expl": "Faux : il peut se déplacer, même s’il préfère attendre.",
    "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-026",
-   "concept": "don-026",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le rouilleur corrode le métal.",
-   "rep": true,
-   "expl": "Vrai : ses antennes et son contact rouillent le métal.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
    "conf": "probable"
   },
   {
@@ -455,17 +297,6 @@
    "conf": "probable"
   },
   {
-   "id": "don-028",
-   "concept": "don-028",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le hibours est un hybride d’ours et de hibou.",
-   "rep": true,
-   "expl": "Vrai : c’est un hybride redoutable.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Hibours »",
-   "conf": "probable"
-  },
-  {
    "id": "don-029",
    "concept": "don-029",
    "niveau": 2,
@@ -474,17 +305,6 @@
    "rep": false,
    "expl": "Faux : il tombe du plafond.",
    "src": "Manuel des Monstres 5e (2014), entrée « Piercer »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-030",
-   "concept": "don-030",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le stirge suce le sang de ses victimes.",
-   "rep": true,
-   "expl": "Vrai : il se nourrit de sang.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Stirge »",
    "conf": "probable"
   },
   {
@@ -499,39 +319,6 @@
    "conf": "probable"
   },
   {
-   "id": "don-032",
-   "concept": "don-032",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le basilic pétrifie par son regard.",
-   "rep": true,
-   "expl": "Vrai : son regard pétrifiant est célèbre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Basilic »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-033",
-   "concept": "don-033",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le cockatrice crache du feu.",
-   "rep": false,
-   "expl": "Faux : il pétrifie.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Cockatrice »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-034",
-   "concept": "don-034",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, la tarasque a un FP de 20.",
-   "rep": false,
-   "expl": "Faux : la tarasque a un FP de 30, le plus élevé du Manuel des Monstres.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
-   "conf": "probable"
-  },
-  {
    "id": "don-035",
    "concept": "don-035",
    "niveau": 2,
@@ -543,28 +330,6 @@
    "conf": "probable"
   },
   {
-   "id": "don-036",
-   "concept": "don-036",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, la tarasque est inspirée de la légende de Tarascon.",
-   "rep": true,
-   "expl": "Vrai : légende provençale.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tarasque »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-037",
-   "concept": "don-037",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans les Royaumes Oubliés, Halaster est un mage fou d’Undermountain.",
-   "rep": true,
-   "expl": "Vrai : Halaster Blackcloak.",
-   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Chapitre 1",
-   "conf": "probable"
-  },
-  {
    "id": "don-038",
    "concept": "don-038",
    "niveau": 3,
@@ -572,17 +337,6 @@
    "q": "Dans les Royaumes Oubliés, Undermountain est situé sous Neverwinter.",
    "rep": false,
    "expl": "Faux : il est situé sous Waterdeep.",
-   "src": "Waterdeep: Dungeon of the Mad Mage (2018), Introduction",
-   "conf": "probable"
-  },
-  {
-   "id": "don-039",
-   "concept": "don-039",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans les Royaumes Oubliés, Undermountain est situé sous Waterdeep.",
-   "rep": true,
-   "expl": "Vrai : sous la Cité des Splendeurs.",
    "src": "Waterdeep: Dungeon of the Mad Mage (2018), Introduction",
    "conf": "probable"
   },
@@ -598,28 +352,6 @@
    "conf": "probable"
   },
   {
-   "id": "don-041",
-   "concept": "don-041",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le pudding noir se divise quand on le frappe.",
-   "rep": true,
-   "expl": "Vrai : il se divise sous certaines attaques.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Pudding noir »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-042",
-   "concept": "don-042",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le cube gélatineux est un mort-vivant.",
-   "rep": false,
-   "expl": "Faux : c’est un ooze.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
-   "conf": "probable"
-  },
-  {
    "id": "don-043",
    "concept": "don-043",
    "niveau": 2,
@@ -631,28 +363,6 @@
    "conf": "probable"
   },
   {
-   "id": "don-044",
-   "concept": "don-044",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le bulette vit dans l’océan.",
-   "rep": false,
-   "expl": "Faux : il vit sous terre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Bulette »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-045",
-   "concept": "don-045",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le ver pourpre avale ses proies.",
-   "rep": true,
-   "expl": "Vrai : il avale ses proies entières.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Ver pourpre »",
-   "conf": "probable"
-  },
-  {
    "id": "don-046",
    "concept": "don-046",
    "niveau": 2,
@@ -661,17 +371,6 @@
    "rep": false,
    "expl": "Faux : elle vole.",
    "src": "Manuel des Monstres 5e (2014), entrée « Gargouille »",
-   "conf": "probable"
-  },
-  {
-   "id": "don-047",
-   "concept": "don-047",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, la displacer beast est un monstre félin.",
-   "rep": true,
-   "expl": "Vrai : un félin à tentacules.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Displacer beast »",
    "conf": "probable"
   },
   {
@@ -1085,40 +784,6 @@
   },
   {
    "type": "trou",
-   "niveau": 1,
-   "q": "Dans D&D 5e, le ____ gélatineux est un monstre de donjon transparent qui engloutit ses proies.",
-   "choix": [
-    "cube",
-    "sphère",
-    "pyramide",
-    "prisme"
-   ],
-   "rep": 0,
-   "expl": "Le cube gélatineux balaie les couloirs de donjon en absorbant tout ce qu’il rencontre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Cube gélatineux »",
-   "id": "don-074",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 1,
-   "q": "Dans D&D 5e, le ____ ronge les armes et les armures en métal.",
-   "choix": [
-    "rouilleur",
-    "stirge",
-    "piercer",
-    "roper"
-   ],
-   "rep": 0,
-   "expl": "Le rouilleur (rust monster) corrode le métal qui le touche.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Rouilleur »",
-   "id": "don-075",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
    "niveau": 3,
    "q": "Dans les Royaumes Oubliés, le mégadonjon d’____ s’étend sous la cité de Waterdeep.",
    "choix": [
@@ -1293,7 +958,7 @@
   {
    "type": "qui",
    "niveau": 1,
-   "q": "Qui suis-je ?\n1. Je suis presque invisible.\n2. Je glisse dans les couloirs en avalant tout sur mon passage.\n3. Mon corps est un cube de gelée de trois mètres de côté.",
+   "q": "Qui suis-je ?\n1. Je suis presque invisible.\n2. Je glisse dans les couloirs en avalant tout sur mon passage.\n3. Mon corps forme un bloc parfait de 3 m de côté.",
    "choix": [
     "Cube gélatineux",
     "Pudding noir",
@@ -1327,7 +992,7 @@
   {
    "type": "qui",
    "niveau": 2,
-   "q": "Qui suis-je ?\n1. Je suis le monstre le plus redoutable du Manuel des Monstres.\n2. Ma légende vient de la ville de Tarascon.\n3. Mon FP est de 30.",
+   "q": "Qui suis-je ?\n1. Je suis le monstre le plus redoutable du Manuel des Monstres.\n2. Ma légende vient d’une ville de Provence.\n3. Mon FP est de 30.",
    "choix": [
     "Tarasque",
     "Ver pourpre",
@@ -1344,7 +1009,7 @@
   {
    "type": "qui",
    "niveau": 2,
-   "q": "Qui suis-je ?\n1. Je suis le fruit d’un croisement magique.\n2. J’ai le plumage d’un hibou et la force d’un ours.\n3. J’étreins mes victimes avec mes griffes.",
+   "q": "Qui suis-je ?\n1. Je suis le fruit d’un croisement magique.\n2. J’ai un bec, des plumes et la carrure d’un fauve des forêts.\n3. J’étreins mes victimes avec mes pattes avant.",
    "choix": [
     "Hibours",
     "Displacer beast",

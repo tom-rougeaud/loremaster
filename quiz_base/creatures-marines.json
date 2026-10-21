@@ -87,7 +87,7 @@
    "type": "qcm",
    "q": "Dans D&D 5e, que déclenche l’odeur du sang chez un sahuagin ?",
    "choix": [
-    "Une frénésie sanguinaire (avantage au corps à corps sur une cible blessée)",
+    "Une frénésie meurtrière",
     "Une invisibilité temporaire",
     "Une téléportation vers sa cité",
     "Un dédoublement en deux sahuagins"
@@ -149,28 +149,11 @@
    "conf": "probable"
   },
   {
-   "id": "mar-007",
-   "concept": "mar-007",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle lignée de génasi est liée à l’eau et respire sous l’eau ?",
-   "choix": [
-    "Les génasi de l’eau",
-    "Les génasi du feu",
-    "Les génasi de l’air",
-    "Les génasi de la terre"
-   ],
-   "rep": 0,
-   "expl": "Les génasi de l’eau sont amphibies, résistent à l’acide et peuvent lancer Création ou destruction d’eau ; ils nagent à 9 m.",
-   "src": "Dans D&D 5e, Elemental Evil Player’s Companion (2015), « Genasi »",
-   "conf": "probable"
-  },
-  {
    "id": "mar-008",
    "concept": "mar-008",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 3 permet à dix créatures de respirer sous l’eau pendant 24 heures ?",
+   "q": "Dans D&D 5e, quel sort de niveau 3 permet à dix créatures de rester 24 heures sous les flots sans remonter ?",
    "choix": [
     "Respiration aquatique",
     "Marche sur l’eau",
@@ -217,33 +200,16 @@
    "conf": "probable"
   },
   {
-   "id": "mar-011",
-   "concept": "mar-011",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel objet magique permet de commander aux bêtes capables de nager ?",
-   "choix": [
-    "Le trident de commandement des poissons",
-    "L’anneau de nage",
-    "La cape de la raie manta",
-    "Les bottes de lévitation"
-   ],
-   "rep": 0,
-   "expl": "Le trident de commandement des poissons (3 charges) lance Domination de bête sur une bête dotée d’une vitesse de nage.",
-   "src": "Dans D&D 5e, Guide du Maître (2014), chap. 7 « Trésors », objets magiques",
-   "conf": "probable"
-  },
-  {
    "id": "mar-012",
    "concept": "mar-012",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel objet magique donne une vitesse de nage de 12 m (40 pieds) ?",
+   "q": "Dans D&D 5e, quel anneau magique donne une vitesse de 12 m (40 pieds) dans l’eau ?",
    "choix": [
     "L’anneau de nage",
-    "La cape de la raie manta",
-    "Le trident de commandement des poissons",
-    "Les bottes elfiques"
+    "L’anneau de marche sur l’eau",
+    "L’anneau de résistance",
+    "L’anneau de feuille morte"
    ],
    "rep": 0,
    "expl": "L’anneau de nage (swim speed 40 ft) est un objet peu courant ; la cape de la raie manta, elle, donne 18 m de nage et la respiration sous l’eau.",
@@ -493,7 +459,7 @@
    "concept": "mar-028",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel géant vit souvent dans les profondeurs marines ou sur des îles battues par la tempête ?",
+   "q": "Dans D&D 5e, quel géant, au sommet de l’Ordning, vit souvent au fond des mers ?",
    "choix": [
     "Le géant des tempêtes",
     "Le géant des collines",
@@ -548,17 +514,6 @@
    "rep": true,
    "expl": "Vrai : FP 23, il est parmi les monstres les plus puissants hors dragons anciens, avec 472 PV et une CA de 18.",
    "src": "Manuel des Monstres 5e (2014), entrée « Kraken »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-032",
-   "concept": "mar-032",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, les sahuagins haïssent les elfes marins.",
-   "rep": true,
-   "expl": "Vrai : c’est l’ennemi héréditaire des sahuagins, qui détestent les elfes marins et les tritons.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Sahuagin »",
    "conf": "probable"
   },
   {
@@ -628,83 +583,6 @@
    "conf": "probable"
   },
   {
-   "id": "mar-039",
-   "concept": "mar-039",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le marid est un génie de l’eau.",
-   "rep": true,
-   "expl": "Vrai : le marid appartient à la famille des génies élémentaires, avec le djinn (air), l’éfrit (feu) et le dao (terre).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Marid »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-041",
-   "concept": "mar-041",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, la pieuvre géante peut lâcher un nuage d’encre.",
-   "rep": true,
-   "expl": "Vrai : une fois par repos court ou long, elle s’échappe grâce à un nuage d’encre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Pieuvre géante »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-042",
-   "concept": "mar-042",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le locathah est un monstre des déserts.",
-   "rep": false,
-   "expl": "Faux : c’est un humanoïde aquatique, qui vit sous l’eau.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Locathah »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-043",
-   "concept": "mar-043",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le dragon de bronze crache un souffle de foudre.",
-   "rep": true,
-   "expl": "Vrai : en ligne de 27 m, avec 12d10 dégâts de foudre pour un adulte.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Dragon de bronze »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-044",
-   "concept": "mar-044",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le dragon de bronze crache un souffle d’acide.",
-   "rep": false,
-   "expl": "Faux : l’acide est le souffle du dragon noir et du dragon de cuivre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Dragon de bronze »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-045",
-   "concept": "mar-045",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans les Royaumes Oubliés (D&D), Umberlee est la déesse des mers.",
-   "rep": true,
-   "expl": "Vrai : c’est la déesse de la mer et des tempêtes, chaotique mauvaise.",
-   "src": "Dans D&D 5e, Sword Coast Adventurer’s Guide (2015), panthéon des Royaumes",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-046",
-   "concept": "mar-046",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans les Royaumes Oubliés (D&D), Sekolah est le dieu des sahuagins.",
-   "rep": true,
-   "expl": "Vrai : le Dieu requin est leur patron principal.",
-   "src": "Dans D&D 5e, Forgotten Realms Wiki, article « Sekolah »",
-   "conf": "probable"
-  },
-  {
    "id": "mar-047",
    "concept": "mar-047",
    "niveau": 2,
@@ -716,17 +594,6 @@
    "conf": "probable"
   },
   {
-   "id": "mar-048",
-   "concept": "mar-048",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le géant des tempêtes peut vivre au fond des mers.",
-   "rep": true,
-   "expl": "Vrai : ils respirent sous l’eau et bâtissent des cités sous-marines.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Géant des tempêtes »",
-   "conf": "probable"
-  },
-  {
    "id": "mar-049",
    "concept": "mar-049",
    "niveau": 3,
@@ -735,28 +602,6 @@
    "rep": false,
    "expl": "Faux : 12 m (40 pieds). La cape de la raie manta donne 18 m (60 pieds).",
    "src": "Dans D&D 5e, Guide du Maître (2014), chap. 7 « Trésors »",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-050",
-   "concept": "mar-050",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, les tritons font partie du Manuel des Joueurs de 2014.",
-   "rep": false,
-   "expl": "Faux : ils sont apparus dans le Guide de Volo des monstres (2016).",
-   "src": "Dans D&D 5e, Volo’s Guide to Monsters (2016), chap. 3",
-   "conf": "probable"
-  },
-  {
-   "id": "mar-051",
-   "concept": "mar-051",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’aboleth vit uniquement à la surface, loin de l’eau.",
-   "rep": false,
-   "expl": "Faux : il vit dans les lacs et mers souterrains.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Aboleth »",
    "conf": "probable"
   },
   {
@@ -1031,25 +876,8 @@
   },
   {
    "type": "trou",
-   "niveau": 1,
-   "q": "Dans D&D 5e, le ____ est un monstre à tentacules qui coule les navires.",
-   "choix": [
-    "kraken",
-    "tarasque",
-    "roper",
-    "aboleth"
-   ],
-   "rep": 0,
-   "expl": "Le kraken (FP 23) est le monstre marin par excellence.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Kraken »",
-   "id": "mar-074",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
    "niveau": 2,
-   "q": "Dans D&D 5e, le sort ____ aquatique permet de respirer sous l’eau.",
+   "q": "Dans D&D 5e, le sort ____ aquatique fonctionne 24 heures pour dix créatures au maximum.",
    "choix": [
     "Respiration",
     "Marche",

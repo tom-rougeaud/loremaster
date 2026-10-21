@@ -14,23 +14,6 @@
  },
  "questions": [
   {
-   "id": "abe-001",
-   "concept": "abe-001",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel monstre est une sphère flottante hérissée de pédoncules oculaires ?",
-   "choix": [
-    "Le tyrannœil",
-    "L’aboleth",
-    "Le mimique",
-    "Le flagelleur mental"
-   ],
-   "rep": 0,
-   "expl": "Le tyrannœil (« beholder » en anglais) est une aberration : un globe flottant dont un grand œil central est entouré de pédoncules oculaires. C’est l’un des monstres les plus emblématiques du jeu, présent depuis le supplément Greyhawk (1975).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
-   "conf": "probable"
-  },
-  {
    "id": "abe-002",
    "concept": "abe-002",
    "niveau": 1,
@@ -69,12 +52,12 @@
    "concept": "abe-004",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle forme prend l’« explosion mentale » du flagelleur mental ?",
+   "q": "Dans D&D 5e, quelle zone couvre l’explosion mentale du flagelleur mental ?",
    "choix": [
-    "Un cône d’énergie mentale",
-    "Une onde de foudre",
-    "Une toile de soie",
-    "Un souffle de feu"
+    "Un cône de 18 m",
+    "Une sphère de 6 m",
+    "Une ligne de 30 m",
+    "Un cube de 3 m"
    ],
    "rep": 0,
    "expl": "L’explosion mentale (Mind Blast) est un cône de 18 m (60 pieds) d’énergie psychique ; chaque créature prise dedans doit réussir un jet de sauvegarde d’Intelligence (DD 15) ou subir des dégâts psychiques et un effet de contrôle.",
@@ -354,28 +337,11 @@
    "conf": "probable"
   },
   {
-   "id": "abe-021",
-   "concept": "abe-021",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle est la forme générale du corps du tyrannœil ?",
-   "choix": [
-    "Un cube",
-    "Une pyramide",
-    "Un cône",
-    "Une sphère"
-   ],
-   "rep": 3,
-   "expl": "Le corps du tyrannœil est une sphère flottante, d’où son nom anglais de « beholder » ; il vole sans ailes, par lévitation.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
-   "conf": "probable"
-  },
-  {
    "id": "abe-022",
    "concept": "abe-022",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, comment s’appelle l’attaque du flagelleur mental qui lui permet de dévorer un cerveau ?",
+   "q": "Dans D&D 5e, comment s’appelle l’attaque mortelle du flagelleur mental contre une créature qu’il agrippe ?",
    "choix": [
     "Extraction du cerveau",
     "Pillage mental",
@@ -385,17 +351,6 @@
    "rep": 0,
    "expl": "C’est l’action « Extraction du cerveau » (Extract Brain) : elle exige une cible agrippée et neutralisée, et la tue en lui retirant le cerveau.",
    "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-023",
-   "concept": "abe-023",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le tyrannœil est une sphère flottante dotée de nombreux yeux.",
-   "rep": true,
-   "expl": "Vrai : un œil central et dix pédoncules oculaires, chacun tirant un rayon magique différent.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
    "conf": "probable"
   },
   {
@@ -421,17 +376,6 @@
    "conf": "probable"
   },
   {
-   "id": "abe-026",
-   "concept": "abe-026",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le tyrannœil peut annuler la magie dans un cône.",
-   "rep": true,
-   "expl": "Vrai : le cône d’antimagie de son œil central supprime les sorts et les objets magiques dans la zone.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
-   "conf": "probable"
-  },
-  {
    "id": "abe-027",
    "concept": "abe-027",
    "niveau": 3,
@@ -440,17 +384,6 @@
    "rep": false,
    "expl": "Faux : c’est un tyrannœil mort-vivant.",
    "src": "Manuel des Monstres 5e (2014), entrée « Tyran de la mort »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-028",
-   "concept": "abe-028",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le flagelleur mental extrait le cerveau de ses victimes.",
-   "rep": true,
-   "expl": "Vrai : sa capacité « Extraction du cerveau » le lui permet, sur une créature agrippée et neutralisée.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
    "conf": "probable"
   },
   {
@@ -465,17 +398,6 @@
    "conf": "probable"
   },
   {
-   "id": "abe-030",
-   "concept": "abe-030",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les flagelleurs mentaux vivent dans l’Outreterre.",
-   "rep": true,
-   "expl": "Vrai : leurs colonies sont souterraines, dans l’Outreterre (Underdark).",
-   "src": "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1",
-   "conf": "probable"
-  },
-  {
    "id": "abe-031",
    "concept": "abe-031",
    "niveau": 2,
@@ -484,39 +406,6 @@
    "rep": false,
    "expl": "Faux : il en a dix, plus un grand œil central.",
    "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-032",
-   "concept": "abe-032",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le flagelleur mental est un monstre loyal bon.",
-   "rep": false,
-   "expl": "Faux : il est loyal mauvais.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-033",
-   "concept": "abe-033",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, les aberrations viennent des Royaumes Lointains.",
-   "rep": true,
-   "expl": "Vrai : le Far Realm, dimension d’horreur cosmique, est considéré comme leur origine.",
-   "src": "Guide du Maître 5e (2014), chap. 2, « Les Royaumes Lointains »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-034",
-   "concept": "abe-034",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’aboleth est plus jeune que les dieux.",
-   "rep": false,
-   "expl": "Faux : le Manuel des Monstres le décrit comme plus ancien que les dieux, avec une mémoire héritée des temps primordiaux.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Aboleth »",
    "conf": "probable"
   },
   {
@@ -539,28 +428,6 @@
    "rep": true,
    "expl": "Vrai : ses tentacules injectent un poison qui paralyse la créature agrippée, jusqu’à 1 minute.",
    "src": "Manuel des Monstres 5e (2014), entrée « Chuul »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-037",
-   "concept": "abe-037",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le gibbering mouther est un monstre à bouches multiples.",
-   "rep": true,
-   "expl": "Vrai : son corps est couvert de bouches qui babillent sans cesse.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Gibbering mouther »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-038",
-   "concept": "abe-038",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le mimique ne peut prendre que la forme d’un coffre.",
-   "rep": false,
-   "expl": "Faux : le mimique peut se changer en n’importe quel objet, comme un coffre, une porte ou même un escalier.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Mimique » — SRD 5.1, section Monsters",
    "conf": "probable"
   },
   {
@@ -836,23 +703,6 @@
    "tol_pct": 0
   },
   {
-   "id": "abe-061",
-   "concept": "abe-061",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel monstre imite un coffre ou une porte pour piéger les aventuriers ?",
-   "choix": [
-    "Le cloaker",
-    "L’otyugh",
-    "Le mimique",
-    "Le grick"
-   ],
-   "rep": 2,
-   "expl": "Le mimique est un changeur de forme qui reste immobile sous l’apparence d’un objet, couvert d’une substance collante qui colle la proie.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Mimique » — SRD 5.1, section Monsters",
-   "conf": "probable"
-  },
-  {
    "id": "abe-062",
    "concept": "abe-062",
    "niveau": 3,
@@ -866,23 +716,6 @@
    ],
    "rep": 1,
    "expl": "Le tyrannœil est de taille G (Grande), c’est-à-dire environ 3 m de côté pour occuper une case de 3 m sur la carte de combat.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-063",
-   "concept": "abe-063",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, à quel type de créature appartient le tyrannœil ?",
-   "choix": [
-    "Monstruosité",
-    "Fiélon",
-    "Aberration",
-    "Mort-vivant"
-   ],
-   "rep": 2,
-   "expl": "C’est une aberration (type de créature de la 5e édition), comme le flagelleur mental, l’aboleth ou le cloaker.",
    "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
    "conf": "probable"
   },
@@ -901,72 +734,6 @@
    "rep": 3,
    "expl": "Une colonie : les illithids vivent en communautés souterraines dirigées par un elder brain.",
    "src": "Le Guide de Volo des monstres / Volo’s Guide to Monsters (2016), chap. 1, « Mind Flayer Colonies »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-065",
-   "concept": "abe-065",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le mimique peut se coller à ses victimes.",
-   "rep": true,
-   "expl": "Vrai : sa substance adhésive colle les créatures qui le touchent, qui sont alors agrippées.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Mimique »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-066",
-   "concept": "abe-066",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le tyrannœil est un monstre de type mort-vivant.",
-   "rep": false,
-   "expl": "Faux : c’est une aberration. C’est le tyran de la mort qui est mort-vivant.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-067",
-   "concept": "abe-067",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le tyrannœil est de taille Minuscule.",
-   "rep": false,
-   "expl": "Faux : il est de taille G (Grande), à peu près 3 m de côté.",
-   "src": "Manuel des Monstres 5e (2014), bloc de caractéristiques du Tyrannœil",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-068",
-   "concept": "abe-068",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, une colonie illithide est dirigée par un elder brain.",
-   "rep": true,
-   "expl": "Vrai : l’elder brain domine les flagelleurs mentaux de la colonie par télépathie.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Elder brain »",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-069",
-   "concept": "abe-069",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’aboleth est un monstre loyal bon.",
-   "rep": false,
-   "expl": "Faux : l’aboleth est loyal mauvais.",
-   "src": "SRD 5.1, section Monsters (Aboleth)",
-   "conf": "probable"
-  },
-  {
-   "id": "abe-070",
-   "concept": "abe-070",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le dévoreur d’intellect est un cerveau à pattes.",
-   "rep": true,
-   "expl": "Vrai : c’est un cerveau doté de petites pattes ; il se glisse dans un crâne vidé pour contrôler le corps.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Dévoreur d’intellect »",
    "conf": "probable"
   },
   {
@@ -1019,57 +786,6 @@
    "id": "abe-073",
    "conf": "probable",
    "concept": "nv_intrus"
-  },
-  {
-   "type": "trou",
-   "niveau": 1,
-   "q": "Dans D&D 5e, le flagelleur mental dévore le ____ de ses victimes.",
-   "choix": [
-    "cerveau",
-    "cœur",
-    "foie",
-    "sang"
-   ],
-   "rep": 0,
-   "expl": "Son attaque « Extraction du cerveau » tue sa victime en lui dévorant le cerveau.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Flagelleur mental »",
-   "id": "abe-074",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 2,
-   "q": "Dans D&D 5e, le grand œil central du tyrannœil crée un cône d’____.",
-   "choix": [
-    "antimagie",
-    "obscurité",
-    "illusion",
-    "infravision"
-   ],
-   "rep": 0,
-   "expl": "Le cône d’antimagie du tyrannœil supprime la magie dans sa zone.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tyrannœil »",
-   "id": "abe-075",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 3,
-   "q": "Dans D&D 5e, une colonie de flagelleurs mentaux est dirigée par un ____.",
-   "choix": [
-    "elder brain",
-    "tyran de la mort",
-    "cloaker",
-    "aboleth"
-   ],
-   "rep": 0,
-   "expl": "Au cœur de la colonie illithide, l’elder brain commande les flagelleurs mentaux.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Elder brain »",
-   "id": "abe-076",
-   "conf": "probable",
-   "concept": "nv_trou"
   },
   {
    "type": "multi",
@@ -1263,7 +979,7 @@
   {
    "type": "qui",
    "niveau": 3,
-   "q": "Qui suis-je ?\n1. Je ressemble à un cerveau qui marche sur quatre pattes.\n2. Je dévore l’esprit de ma proie.\n3. Une fois son cerveau détruit, je prends possession de son corps.",
+   "q": "Qui suis-je ?\n1. Je ressemble à un cerveau qui marche sur quatre pattes.\n2. Je réduis à néant l’esprit de ma proie.\n3. Ensuite, je m’installe dans son crâne et je pilote son corps.",
    "choix": [
     "Dévoreur d’intellect",
     "Gibbering mouther",
@@ -1314,7 +1030,7 @@
    "niveau": 2,
    "q": "Dans D&D 5e, comment naissent souvent de nouveaux tyrannœils ?",
    "choix": [
-    "Ils apparaissent dans les rêves d’un tyrannœil",
+    "Ils naissent du rêve de l’un de leurs semblables",
     "Ils éclosent d’œufs de dragon",
     "Ils sont créés par des liches",
     "Ils naissent d’un cerveau ancien"
@@ -1589,7 +1305,7 @@
     "Explosion mentale",
     "Cri psychique",
     "Onde cérébrale",
-    "Regard dément"
+    "Fouet mental"
    ],
    "rep": 0,
    "src": "Volo’s Guide to Monsters (2016), « Neothelid »",
@@ -2496,6 +2212,144 @@
    "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
    "expl": "Les githyanki, pillards astraux, montent des dragons rouges alliés depuis un pacte ancien.",
    "id": "abe-156",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le cône d’antimagie du tyrannœil annule aussi ses propres rayons oculaires.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), entrées des aberrations ; Volo’s Guide to Monsters (2016)",
+   "expl": "Vrai : les rayons ne fonctionnent pas dans le cône d’antimagie ; le tyrannœil doit choisir où regarder.",
+   "id": "abe-157",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un flagelleur mental doit agripper sa cible avant de lui extraire le cerveau.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), entrées des aberrations ; Volo’s Guide to Monsters (2016)",
+   "expl": "Vrai : Extraction du cerveau ne vise qu’un humanoïde neutralisé que le flagelleur agrippe.",
+   "id": "abe-158",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un aboleth peut asservir une créature par télépathie.",
+   "rep": true,
+   "src": "Manuel des Monstres 5e (2014), entrées des aberrations ; Volo’s Guide to Monsters (2016)",
+   "expl": "Vrai : trois fois par jour, l’aboleth tente d’asservir une créature, qui obéit ensuite à ses ordres télépathiques.",
+   "id": "abe-159",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le flumph est une aberration d’alignement mauvais.",
+   "rep": false,
+   "src": "Manuel des Monstres 5e (2014), entrées des aberrations ; Volo’s Guide to Monsters (2016)",
+   "expl": "Faux : le flumph est loyal bon, une exception parmi les aberrations.",
+   "id": "abe-160",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les tyrannœils supportent volontiers la présence d’autres tyrannœils.",
+   "rep": false,
+   "src": "Manuel des Monstres 5e (2014), entrées des aberrations ; Volo’s Guide to Monsters (2016)",
+   "expl": "Faux : chaque tyrannœil se croit la forme parfaite et méprise, voire combat, ceux qui ne lui ressemblent pas exactement.",
+   "id": "abe-161",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, les githzerai vivent dans des monastères des Limbes.",
+   "rep": true,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Vrai : les githzerai, disciples de Zerthimon, imposent l’ordre au chaos des Limbes par la seule force de leur esprit.",
+   "id": "abe-162",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, un têtard d’illithid met environ un mois à transformer son hôte.",
+   "rep": false,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Faux : la cérémorphose dure environ une semaine.",
+   "id": "abe-163",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le dévoreur d’intellect est une aberration de taille Minuscule.",
+   "rep": true,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Vrai : ce « cerveau à pattes » est Minuscule, ce qui lui permet de se cacher facilement.",
+   "id": "abe-164",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le grell a de bons yeux qui lui permettent de chasser de loin.",
+   "rep": false,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Faux : le grell est aveugle ; il perçoit son environnement grâce à sa vision aveugle.",
+   "id": "abe-165",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une cape sombre qui vole\n2. Je m’enroule autour de ma proie\n3. Mes gémissements terrifient",
+   "choix": [
+    "Cloaker",
+    "Darkmantle",
+    "Tapis étouffeur",
+    "Spectre"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Le cloaker (FP 8) se confond avec une cape et se dédouble en images illusoires.",
+   "id": "abe-166",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un poisson aveugle des profondeurs\n2. Je me souviens d’un temps sans dieux\n3. J’asservis les esprits",
+   "choix": [
+    "Aboleth",
+    "Kraken",
+    "Chuul",
+    "Kuo-toa"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "L’aboleth est l’une des plus anciennes créatures du monde de D&D.",
+   "id": "abe-167",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un petit gardien convoqué\n2. J’ai quatre pédoncules et un œil central\n3. Je garde un trésor pendant 101 ans",
+   "choix": [
+    "Spectateur",
+    "Gauth",
+    "Nothic",
+    "Flumph"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Gith »",
+   "expl": "Le spectateur garde fidèlement son trésor… et devient fou s’il le perd.",
+   "id": "abe-168",
    "conf": "probable"
   }
  ],

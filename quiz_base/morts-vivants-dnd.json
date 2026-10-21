@@ -211,40 +211,6 @@
    "conf": "probable"
   },
   {
-   "id": "mor-011",
-   "concept": "mor-011",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel mort-vivant revient d’entre les morts pour se venger de son meurtrier ?",
-   "choix": [
-    "Le revenant",
-    "La momie",
-    "Le zombie",
-    "La goule"
-   ],
-   "rep": 0,
-   "expl": "Le revenant poursuit son meurtrier.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Revenant »",
-   "conf": "probable"
-  },
-  {
-   "id": "mor-012",
-   "concept": "mor-012",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle capacité de la banshee peut tuer par un cri ?",
-   "choix": [
-    "Son souffle",
-    "Son baiser",
-    "Son regard",
-    "Son hurlement"
-   ],
-   "rep": 3,
-   "expl": "Le hurlement de la banshee peut ramener à 0 PV.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Banshee »",
-   "conf": "probable"
-  },
-  {
    "id": "mor-013",
    "concept": "mor-013",
    "niveau": 1,
@@ -279,23 +245,6 @@
    "conf": "probable"
   },
   {
-   "id": "mor-015",
-   "concept": "mor-015",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle capacité de clerc permet de repousser les morts-vivants ?",
-   "choix": [
-    "Sanctuaire",
-    "Renvoi des morts-vivants",
-    "Bénédiction",
-    "Mot de guérison"
-   ],
-   "rep": 1,
-   "expl": "Le clerc repousse les morts-vivants.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Mort-vivant »",
-   "conf": "probable"
-  },
-  {
    "id": "mor-016",
    "concept": "mor-016",
    "niveau": 2,
@@ -317,12 +266,12 @@
    "concept": "mor-017",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel mal les momies infligent-elles par leur toucher ?",
+   "q": "Dans D&D 5e, quelle maladie magique empêche de récupérer des PV et réduit chaque jour le maximum de points de vie ?",
    "choix": [
-    "La pourriture de la momie",
+    "La pourriture de momie",
     "La lycanthropie",
     "La peste grise",
-    "La peste bubonique"
+    "La fièvre des marais"
    ],
    "rep": 0,
    "expl": "La pourriture de la momie est une maladie maudite.",
@@ -419,7 +368,7 @@
    "concept": "mor-023",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel mort-vivant est un guerrier damné aux flammes infernales ?",
+   "q": "Dans D&D 5e, quel ancien paladin déchu, maudit après sa mort, lance des boules de feu infernal ?",
    "choix": [
     "Le revenant",
     "Le squelette",
@@ -436,12 +385,12 @@
    "concept": "mor-024",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel mort-vivant est un chef momifié puissant, maître d’un tombeau ?",
+   "q": "Dans D&D 5e, quel mort-vivant de FP 15 renaît tant que son cœur, conservé dans un vase canope, n’est pas détruit ?",
    "choix": [
-    "La banshee",
+    "La liche",
     "Le seigneur momie",
-    "Le spectre",
-    "Le revenant"
+    "Le chevalier de la mort",
+    "Le vampire"
    ],
    "rep": 1,
    "expl": "Le seigneur momie règne sur sa tombe.",
@@ -483,33 +432,16 @@
    "conf": "probable"
   },
   {
-   "id": "mor-027",
-   "concept": "mor-027",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle créature est souvent représentée enveloppée de bandelettes ?",
-   "choix": [
-    "La goule",
-    "Le revenant",
-    "La momie",
-    "Le spectre"
-   ],
-   "rep": 2,
-   "expl": "La momie est enveloppée de bandelettes.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Momie »",
-   "conf": "probable"
-  },
-  {
    "id": "mor-028",
    "concept": "mor-028",
    "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, comment appelle-t-on un humanoïde engendré par un vampire, moins puissant ?",
+   "q": "Dans D&D 5e, comment appelle-t-on la victime d’un vampire qui se relève à son service ?",
    "choix": [
-    "Une goule",
-    "Un spectre",
+    "Une goule vampirique",
+    "Un seigneur vampire",
     "Un rejeton vampirique",
-    "Une momie"
+    "Un vampire ancien"
    ],
    "rep": 2,
    "expl": "Le rejeton vampirique est un vampire inférieur.",
@@ -531,23 +463,6 @@
    "rep": 2,
    "expl": "Le pieu dans le cœur est un classique.",
    "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
-   "conf": "probable"
-  },
-  {
-   "id": "mor-030",
-   "concept": "mor-030",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort permet de parler avec un cadavre ?",
-   "choix": [
-    "Silence",
-    "Détection des pensées",
-    "Communication avec les morts",
-    "Bouclier"
-   ],
-   "rep": 2,
-   "expl": "Communication avec les morts interroge un cadavre.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Communication avec les morts",
    "conf": "probable"
   },
   {
@@ -606,28 +521,6 @@
    "conf": "probable"
   },
   {
-   "id": "mor-036",
-   "concept": "mor-036",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le spectre est un mort-vivant de taille Gigantesque.",
-   "rep": false,
-   "expl": "Le spectre est de taille Moyenne.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Spectre »",
-   "conf": "probable"
-  },
-  {
-   "id": "mor-037",
-   "concept": "mor-037",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Strahd règne sur la Barovie.",
-   "rep": true,
-   "expl": "Strahd von Zarovich est le seigneur de la Barovie.",
-   "src": "Curse of Strahd (2016), chap. 1",
-   "conf": "probable"
-  },
-  {
    "id": "mor-038",
    "concept": "mor-038",
    "niveau": 2,
@@ -650,17 +543,6 @@
    "conf": "probable"
   },
   {
-   "id": "mor-040",
-   "concept": "mor-040",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, un zombie est un mort-vivant intelligent et lanceur de sorts.",
-   "rep": false,
-   "expl": "Le zombie est lent et sans intelligence.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Zombie »",
-   "conf": "probable"
-  },
-  {
    "id": "mor-041",
    "concept": "mor-041",
    "niveau": 2,
@@ -669,17 +551,6 @@
    "rep": true,
    "expl": "Son hurlement peut réduire à 0 PV.",
    "src": "Manuel des Monstres 5e (2014), entrée « Banshee »",
-   "conf": "probable"
-  },
-  {
-   "id": "mor-042",
-   "concept": "mor-042",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, un revenant se relève pour aider son meurtrier.",
-   "rep": false,
-   "expl": "Il se relève pour se venger de lui.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Revenant »",
    "conf": "probable"
   },
   {
@@ -702,17 +573,6 @@
    "rep": false,
    "expl": "Faux : en 5e, le vampire se change en chauve-souris ou en brume. Il peut appeler des nuées de chauves-souris ou de rats et des loups, sans prendre leur forme.",
    "src": "Manuel des Monstres 5e (2014), entrée « Vampire »",
-   "conf": "probable"
-  },
-  {
-   "id": "mor-045",
-   "concept": "mor-045",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le sort Animation des morts crée des squelettes ou des zombies.",
-   "rep": true,
-   "expl": "Il relève des cadavres.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation des morts",
    "conf": "probable"
   },
   {
@@ -746,28 +606,6 @@
    "rep": false,
    "expl": "Elle date de 1978.",
    "src": "Tomb of Horrors (TSR, 1978)",
-   "conf": "probable"
-  },
-  {
-   "id": "mor-049",
-   "concept": "mor-049",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Ravenloft est paru en 1983.",
-   "rep": true,
-   "expl": "I6 Ravenloft est sorti en 1983.",
-   "src": "I6 Ravenloft (TSR, 1983)",
-   "conf": "probable"
-  },
-  {
-   "id": "mor-050",
-   "concept": "mor-050",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le renvoi des morts-vivants est une capacité réservée aux voleurs.",
-   "rep": false,
-   "expl": "Il appartient au clerc (et au paladin).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Clerc »",
    "conf": "probable"
   },
   {
@@ -1391,7 +1229,7 @@
   {
    "type": "qui",
    "niveau": 2,
-   "q": "Qui suis-je ?\n1. Je suis revenu d’entre les morts.\n2. Je poursuis un seul but, la vengeance.\n3. Je ne m’arrête que lorsque mon meurtrier est mort.",
+   "q": "Qui suis-je ?\n1. Je suis une âme qui a refusé de partir.\n2. Je poursuis un seul but, la vengeance.\n3. Je ne m’arrête que lorsque mon meurtrier est mort.",
    "choix": [
     "Revenant",
     "Zombie",

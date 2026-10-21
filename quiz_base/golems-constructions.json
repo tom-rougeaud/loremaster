@@ -35,23 +35,6 @@
  },
  "questions": [
   {
-   "id": "gol-001",
-   "concept": "gol-001",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel type de créature regroupe golems, armures animées et gardiens-boucliers ?",
-   "choix": [
-    "Les constructions",
-    "Les morts-vivants",
-    "Les élémentaires",
-    "Les aberrations"
-   ],
-   "rep": 0,
-   "expl": "Ce sont des constructions (constructs) : des créatures fabriquées, animées par la magie.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Construction »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-002",
    "concept": "gol-002",
    "niveau": 1,
@@ -83,57 +66,6 @@
    "rep": 0,
    "expl": "Le golem de fer (iron golem, FP 16) a 210 PV, une CA de 20 et un souffle empoisonné.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-004",
-   "concept": "gol-004",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel golem a un FP de 10 ?",
-   "choix": [
-    "Le golem de pierre",
-    "Le golem de fer",
-    "Le golem de chair",
-    "Le golem d’argile"
-   ],
-   "rep": 0,
-   "expl": "Le golem de pierre (stone golem) est de FP 10 ; il peut ralentir ses ennemis.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-005",
-   "concept": "gol-005",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel golem a un FP de 9 ?",
-   "choix": [
-    "Le golem d’argile",
-    "Le golem de fer",
-    "Le golem de pierre",
-    "Le golem de chair"
-   ],
-   "rep": 0,
-   "expl": "Le golem d’argile (clay golem) est de FP 9 ; il absorbe l’acide.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-006",
-   "concept": "gol-006",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel golem a un FP de 5 ?",
-   "choix": [
-    "Le golem de chair",
-    "Le golem de fer",
-    "Le golem de pierre",
-    "Le golem d’argile"
-   ],
-   "rep": 0,
-   "expl": "Le golem de chair est de FP 5 : le moins puissant des quatre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
    "conf": "probable"
   },
   {
@@ -209,7 +141,7 @@
    "concept": "gol-011",
    "niveau": 1,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle construction est une armure qui s’anime pour attaquer ?",
+   "q": "Dans D&D 5e, quelle construction, gardienne fréquente des châteaux, est une coquille de métal vide qui se met à combattre ?",
    "choix": [
     "L’armure animée",
     "Le fantôme",
@@ -226,7 +158,7 @@
    "concept": "gol-012",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel objet animé étouffe ses victimes ?",
+   "q": "Dans D&D 5e, quel objet animé s’enroule autour de ses victimes jusqu’à les asphyxier ?",
    "choix": [
     "Le tapis étouffeur",
     "Le mimique",
@@ -277,7 +209,7 @@
    "concept": "gol-015",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe d’Eberron, introduite dans le Guide du Maître d’Eberron, crée des objets magiques ?",
+   "q": "Dans D&D 5e, quelle classe, introduite officiellement avec Eberron: Rising from the Last War, crée des objets magiques ?",
    "choix": [
     "L’artificier",
     "Le barde",
@@ -311,7 +243,7 @@
    "concept": "gol-017",
    "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 5 anime des objets pour qu’ils combattent ?",
+   "q": "Dans D&D 5e, quel sort de niveau 5 donne vie à dix petits bibelots qui combattent pour le lanceur ?",
    "choix": [
     "Animation d’objets",
     "Création d’un mort-vivant",
@@ -321,23 +253,6 @@
    "rep": 0,
    "expl": "Animation d’objets (Animate Objects) donne vie à des objets, jusqu’à dix de taille Très petite.",
    "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation d’objets",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-018",
-   "concept": "gol-018",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, que protège l’Immutable Form d’un golem ?",
-   "choix": [
-    "Les sorts et effets qui changeraient sa forme",
-    "Le poison",
-    "La charge",
-    "Les ténèbres"
-   ],
-   "rep": 0,
-   "expl": "Les golems sont immunisés contre les sorts qui altèrent leur forme, comme Métamorphose.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem »",
    "conf": "probable"
   },
   {
@@ -355,23 +270,6 @@
    "rep": 0,
    "expl": "Les golems sont immunisés contre les armes non magiques qui ne sont pas en adamantium, ainsi que contre le poison et la psychique.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-020",
-   "concept": "gol-020",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel golem peut ralentir ses ennemis (Slow) ?",
-   "choix": [
-    "Le golem de pierre",
-    "Le golem de chair",
-    "Le golem d’argile",
-    "Le golem de fer"
-   ],
-   "rep": 0,
-   "expl": "Le golem de pierre peut lancer Lenteur (Slow) sur les créatures proches.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
    "conf": "probable"
   },
   {
@@ -406,23 +304,6 @@
    "rep": 0,
    "expl": "L’horreur casquée (helmed horror) est un casque et une armure animés par la magie, de CA 20.",
    "src": "Manuel des Monstres 5e (2014), entrée « Horreur casquée »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-023",
-   "concept": "gol-023",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle arme animée vole et frappe ses ennemis ?",
-   "choix": [
-    "L’épée volante",
-    "Le tapis étouffeur",
-    "L’armure animée",
-    "Le gardien-bouclier"
-   ],
-   "rep": 0,
-   "expl": "L’épée volante (flying sword, FP 1/4) est une épée qui s’anime, de 17 PV.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Épée volante »",
    "conf": "probable"
   },
   {
@@ -494,23 +375,6 @@
    "conf": "probable"
   },
   {
-   "id": "gol-028",
-   "concept": "gol-028",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, un golem est-il vivant ?",
-   "choix": [
-    "Non, c’est une construction animée",
-    "Oui, c’est un humanoïde",
-    "Oui, c’est un mort-vivant",
-    "Non, c’est un élémentaire"
-   ],
-   "rep": 0,
-   "expl": "Un golem est une construction : il n’a besoin ni d’air, ni de nourriture, ni de sommeil.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-029",
    "concept": "gol-029",
    "niveau": 3,
@@ -525,160 +389,6 @@
    "rep": 0,
    "expl": "La maison Cannith, spécialisée dans la fabrication, est à l’origine des forgés.",
    "src": "Eberron: Rising from the Last War (2019), chap. 1",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-030",
-   "concept": "gol-030",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, les golems sont des constructions.",
-   "rep": true,
-   "expl": "Vrai : ce sont des constructions animées par la magie.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-031",
-   "concept": "gol-031",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de chair est le plus puissant des golems du Manuel des Monstres.",
-   "rep": false,
-   "expl": "Faux : le golem de fer (FP 16) est plus puissant.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-032",
-   "concept": "gol-032",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de fer est vulnérable au feu.",
-   "rep": false,
-   "expl": "Faux : le golem de fer absorbe le feu, qui le soigne.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-033",
-   "concept": "gol-033",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le feu soigne le golem de chair.",
-   "rep": false,
-   "expl": "Faux : c’est la foudre qui le soigne.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-034",
-   "concept": "gol-034",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, la foudre soigne le golem de chair.",
-   "rep": true,
-   "expl": "Vrai : Absorption de foudre.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-035",
-   "concept": "gol-035",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’armure animée est un mort-vivant.",
-   "rep": false,
-   "expl": "Faux : c’est une construction.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Armure animée »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-036",
-   "concept": "gol-036",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem d’argile absorbe l’acide.",
-   "rep": true,
-   "expl": "Vrai : l’acide le soigne.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-037",
-   "concept": "gol-037",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de pierre est de FP 10.",
-   "rep": true,
-   "expl": "Vrai : il est de FP 10.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-038",
-   "concept": "gol-038",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, les forgés sont des morts-vivants.",
-   "rep": false,
-   "expl": "Faux : ce sont des constructions vivantes.",
-   "src": "Eberron: Rising from the Last War (2019), chap. 2",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-039",
-   "concept": "gol-039",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le gardien-bouclier peut stocker un sort.",
-   "rep": true,
-   "expl": "Vrai : il peut contenir un sort que son maître lance via l’amulette.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Gardien-bouclier »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-040",
-   "concept": "gol-040",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le tapis étouffeur est un mort-vivant.",
-   "rep": false,
-   "expl": "Faux : c’est une construction qui étouffe ses victimes.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tapis étouffeur »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-041",
-   "concept": "gol-041",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’homoncule est un golem de fer.",
-   "rep": false,
-   "expl": "Faux : c’est un petit serviteur artificiel.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Homoncule »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-042",
-   "concept": "gol-042",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’épée volante est une construction.",
-   "rep": true,
-   "expl": "Vrai : c’est une épée animée de FP 1/4.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Épée volante »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-043",
-   "concept": "gol-043",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de fer est de FP 10.",
-   "rep": false,
-   "expl": "Faux : le golem de fer est de FP 16 ; le golem de pierre est de FP 10.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
    "conf": "probable"
   },
   {
@@ -704,28 +414,6 @@
    "conf": "probable"
   },
   {
-   "id": "gol-046",
-   "concept": "gol-046",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Mechanus abrite les modrons.",
-   "rep": true,
-   "expl": "Vrai : ce sont des constructions de l’ordre.",
-   "src": "Dans D&D 5e, Guide du Maître (2014), chap. 2 « Mechanus »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-047",
-   "concept": "gol-047",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de pierre peut ralentir ses ennemis.",
-   "rep": true,
-   "expl": "Vrai : Lenteur (Slow).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-048",
    "concept": "gol-048",
    "niveau": 3,
@@ -737,17 +425,6 @@
    "conf": "probable"
   },
   {
-   "id": "gol-049",
-   "concept": "gol-049",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de chair peut devenir incontrôlable.",
-   "rep": true,
-   "expl": "Vrai : s’il est touché par la foudre, il peut se déchaîner.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-050",
    "concept": "gol-050",
    "niveau": 3,
@@ -756,17 +433,6 @@
    "rep": false,
    "expl": "Faux : il a un souffle de poison.",
    "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-051",
-   "concept": "gol-051",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les forgés viennent de la Guerre du Dernier Jour d’Eberron.",
-   "rep": true,
-   "expl": "Vrai : ils ont été créés pour la guerre.",
-   "src": "Eberron: Rising from the Last War (2019), chap. 1",
    "conf": "probable"
   },
   {
@@ -898,70 +564,6 @@
    "conf": "probable"
   },
   {
-   "id": "gol-060",
-   "concept": "gol-060",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du golem de chair ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 9,
-   "expl": "CA 9 : armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-061",
-   "concept": "gol-061",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du golem d’argile ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 14,
-   "expl": "CA 14 : armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem d’argile »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-062",
-   "concept": "gol-062",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du golem de pierre ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 17,
-   "expl": "CA 17 : armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-063",
-   "concept": "gol-063",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA du golem de fer ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 20,
-   "expl": "CA 20 : armure naturelle.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-064",
    "concept": "gol-064",
    "niveau": 3,
@@ -994,22 +596,6 @@
    "conf": "probable"
   },
   {
-   "id": "gol-066",
-   "concept": "gol-066",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la CA de l’horreur casquée ?",
-   "min": 5,
-   "max": 25,
-   "pas": 1,
-   "unite": "CA",
-   "tolerance": 0,
-   "rep": 20,
-   "expl": "CA 20 : armure complète.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Horreur casquée »",
-   "conf": "probable"
-  },
-  {
    "id": "gol-067",
    "concept": "gol-067",
    "niveau": 3,
@@ -1039,33 +625,6 @@
    "rep": 2019,
    "expl": "Le livre est paru en 2019.",
    "src": "Eberron: Rising from the Last War (2019), crédits",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-069",
-   "concept": "gol-069",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de PV moyens a un tapis étouffeur ?",
-   "min": 10,
-   "max": 100,
-   "pas": 1,
-   "unite": "PV",
-   "tolerance": 0,
-   "rep": 33,
-   "expl": "33 PV (6d10).",
-   "src": "Manuel des Monstres 5e (2014), entrée « Tapis étouffeur »",
-   "conf": "probable"
-  },
-  {
-   "id": "gol-070",
-   "concept": "gol-070",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le golem de pierre est de FP 14.",
-   "rep": false,
-   "expl": "Faux : le golem de pierre est de FP 10, avec une CA de 17.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de pierre »",
    "conf": "probable"
   },
   {
@@ -1118,57 +677,6 @@
    "id": "gol-073",
    "conf": "probable",
    "concept": "nv_intrus"
-  },
-  {
-   "type": "trou",
-   "niveau": 1,
-   "q": "Dans D&D 5e, le golem de ____ est assemblé à partir de morceaux de cadavres.",
-   "choix": [
-    "chair",
-    "pierre",
-    "fer",
-    "argile"
-   ],
-   "rep": 0,
-   "expl": "Le golem de chair est un monstre de Frankenstein.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de chair »",
-   "id": "gol-074",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 2,
-   "q": "Dans D&D 5e, le golem de ____ est le plus puissant du Manuel des Monstres, avec un FP de 16.",
-   "choix": [
-    "fer",
-    "pierre",
-    "chair",
-    "argile"
-   ],
-   "rep": 0,
-   "expl": "Le golem de fer (FP 16) crache un gaz empoisonné.",
-   "src": "Manuel des Monstres 5e (2014), entrée « Golem de fer »",
-   "id": "gol-075",
-   "conf": "probable",
-   "concept": "nv_trou"
-  },
-  {
-   "type": "trou",
-   "niveau": 3,
-   "q": "Dans Eberron, les ____ sont des soldats artificiels nés de la Guerre du Dernier Jour.",
-   "choix": [
-    "forgés",
-    "kalashtar",
-    "changelins",
-    "shifters"
-   ],
-   "rep": 0,
-   "expl": "Les forgés sont une espèce de constructions vivantes.",
-   "src": "Eberron: Rising from the Last War (2019)",
-   "id": "gol-076",
-   "conf": "probable",
-   "concept": "nv_trou"
   },
   {
    "type": "multi",
