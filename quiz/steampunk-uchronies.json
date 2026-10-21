@@ -1,0 +1,1981 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "steampunk-uchronies",
+  "nom": "Steampunk et uchronies",
+  "royaume": "Écran, jeux vidéo et culture geek",
+  "icone": "engrenage",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel écrivain invente le mot « steampunk » dans une lettre au magazine Locus, en 1987 ?",
+   "choix": [
+    "K. W. Jeter",
+    "William Gibson",
+    "Tim Powers",
+    "Bruce Sterling"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Il cherche, avec humour, un nom pour les romans victoriens qu’il écrit avec ses amis.",
+   "id": "t093-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Tim Powers, en 1983, est un pionnier du steampunk avec ses voyages dans le Londres de 1810 ?",
+   "choix": [
+    "Les Voies d’Anubis",
+    "Homunculus",
+    "La Machine à différences",
+    "Morlock Night"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Il remporte le prix Philip K. Dick en 1984.",
+   "id": "t093-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de William Gibson et Bruce Sterling, en 1990, imagine que Babbage a réussi à construire son ordinateur mécanique ?",
+   "choix": [
+    "La Machine à différences",
+    "Neuromancien",
+    "Les Voies d’Anubis",
+    "Leviathan"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "L’Angleterre victorienne y connaît une révolution informatique un siècle trop tôt.",
+   "id": "t093-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mathématicien britannique conçoit au 19e siècle la machine à différences et la machine analytique ?",
+   "choix": [
+    "Charles Babbage",
+    "Alan Turing",
+    "Isaac Newton",
+    "James Watt"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Le Science Museum de Londres construit une machine à différences fonctionnelle d’après ses plans, en 1991.",
+   "id": "t093-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle mathématicienne écrit en 1843 ce qui est considéré comme le premier programme informatique ?",
+   "choix": [
+    "Ada Lovelace",
+    "Mary Somerville",
+    "Émilie du Châtelet",
+    "Sophie Germain"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Fille du poète Byron, elle décrit comment calculer les nombres de Bernoulli.",
+   "id": "t093-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel sous-marin de Jules Verne est devenu une icône du steampunk ?",
+   "choix": [
+    "Le Nautilus",
+    "L’Albatros",
+    "Le Great Eastern",
+    "Le Victoria"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Le capitaine Nemo le commande dans Vingt Mille Lieues sous les mers.",
+   "id": "t093-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Jules Verne, en 1886, met en scène un ingénieur et son immense aéronef, l’Albatros ?",
+   "choix": [
+    "Robur le Conquérant",
+    "Cinq Semaines en ballon",
+    "De la Terre à la Lune",
+    "Le Château des Carpathes"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Robur y défend le plus lourd que l’air contre les partisans des ballons.",
+   "id": "t093-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de H. G. Wells, en 1895, imagine un voyageur qui parcourt les siècles grâce à son invention ?",
+   "choix": [
+    "La Machine à explorer le temps",
+    "La Guerre des mondes",
+    "L’Homme invisible",
+    "L’Île du docteur Moreau"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Il y découvre un futur divisé entre Éloïs et Morlocks.",
+   "id": "t093-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle bande dessinée d’Alan Moore, en 1999, réunit Nemo, Mina Harker et l’Homme invisible ?",
+   "choix": [
+    "La Ligue des gentlemen",
+    "Watchmen",
+    "From Hell",
+    "V pour Vendetta"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Kevin O’Neill en signe les dessins fourmillants de détails.",
+   "id": "t093-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Philip Reeve, en 2001, imagine des villes montées sur roues qui se dévorent entre elles ?",
+   "choix": [
+    "Mécaniques fatales",
+    "Leviathan",
+    "Perdido Street Station",
+    "Les Voies d’Anubis"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Son titre original est Mortal Engines, adapté au cinéma en 2018.",
+   "id": "t093-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Leviathan de Scott Westerfeld, qui s’oppose aux « Clankers » et à leurs machines ?",
+   "choix": [
+    "Les Darwinistes et leurs créatures",
+    "Les Elfes",
+    "Les Pirates de l’air",
+    "Les Robots"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Leur navire volant est une baleine vivante génétiquement modifiée.",
+   "id": "t093-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle ville volante, en 1912, sert de cadre à BioShock Infinite ?",
+   "choix": [
+    "Columbia",
+    "Rapture",
+    "Laputa",
+    "Dunwall"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Rapture, elle, était la cité sous-marine des premiers BioShock.",
+   "id": "t093-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Dishonored, quelle ressource alimente l’industrie de la ville de Dunwall ?",
+   "choix": [
+    "L’huile de baleine",
+    "Le charbon",
+    "L’éther",
+    "La vapeur volcanique"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Les baleiniers chassent ces créatures géantes pour faire tourner les machines.",
+   "id": "t093-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu polonais de 2018 fait survivre une ville autour d’un générateur à vapeur dans un hiver éternel ?",
+   "choix": [
+    "Frostpunk",
+    "Dishonored",
+    "Steamworld",
+    "Machinarium"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Le joueur doit prendre des décisions morales très dures pour survivre.",
+   "id": "t093-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel film d’animation de Katsuhiro Ōtomo, en 2004, met en scène une boule à vapeur révolutionnaire ?",
+   "choix": [
+    "Steamboy",
+    "Akira",
+    "Metropolis",
+    "Le Château dans le ciel"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "L’histoire se déroule en 1866, autour d’une exposition universelle imaginaire à Londres.",
+   "id": "t093-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel film de 1999 avec Will Smith adapte une série de cow-boys et de gadgets à vapeur des années 1960 ?",
+   "choix": [
+    "Wild Wild West",
+    "Men in Black",
+    "Van Helsing",
+    "Sherlock Holmes"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "On y voit notamment une araignée mécanique géante.",
+   "id": "t093-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Mathieu Gaborit et Fabrice Colin est un classique du steampunk français, en 1999 ?",
+   "choix": [
+    "Confessions d’un automate",
+    "Le Paris des merveilles",
+    "Rêves de gloire",
+    "La Horde du Contrevent"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "On y suit un Paris de 1899 hanté par l’éther et les automates.",
+   "id": "t093-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de Pierre Pevel imagine une capitale française de la Belle Époque peuplée de fées et d’enchanteurs ?",
+   "choix": [
+    "Le Paris des merveilles",
+    "Les Lames du cardinal",
+    "Le Château des étoiles",
+    "Hauteville House"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Le premier tome s’intitule Les Enchantements d’Ambremer.",
+   "id": "t093-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet est presque devenu le symbole vestimentaire du steampunk ?",
+   "choix": [
+    "Les lunettes d’aviateur en laiton",
+    "La cape de velours rouge",
+    "Le casque à cornes",
+    "Le chapeau de paille"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "On les porte souvent relevées sur un haut-de-forme.",
+   "id": "t093-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Philip K. Dick, en 1962, imagine les États-Unis partagés entre l’Allemagne nazie et le Japon ?",
+   "choix": [
+    "Le Maître du Haut Château",
+    "Ubik",
+    "Substance Mort",
+    "Glissement de temps sur Mars"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Ses personnages consultent le Yi Jing pour prendre leurs décisions.",
+   "id": "t093-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Robert Harris, en 1992, se déroule dans une Allemagne victorieuse en 1964 ?",
+   "choix": [
+    "Fatherland",
+    "Enigma",
+    "Pompéi",
+    "D."
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Un policier y découvre la vérité sur un crime de masse effacé de l’histoire.",
+   "id": "t093-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Philip Roth, en 2004, imagine l’élection de l’aviateur Charles Lindbergh à la présidence américaine ?",
+   "choix": [
+    "Le Complot contre l’Amérique",
+    "Pastorale américaine",
+    "La Tache",
+    "Portnoy et son complexe"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "L’histoire est racontée du point de vue d’un enfant d’une famille juive du New Jersey.",
+   "id": "t093-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur américain, historien de formation, est surnommé le maître de l’uchronie ?",
+   "choix": [
+    "Harry Turtledove",
+    "Philip K. Dick",
+    "Kim Stanley Robinson",
+    "Newt Gingrich"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Dans l’un de ses romans, des voyageurs du temps livrent des fusils modernes aux Confédérés.",
+   "id": "t093-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Kim Stanley Robinson imagine que l’épidémie de peste du 14e siècle a tué presque tous les Européens ?",
+   "choix": [
+    "Chroniques des années noires",
+    "Mars la rouge",
+    "Aurora",
+    "Le Rêve de Galilée"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "L’histoire du monde s’écrit alors sans l’Europe, sur plusieurs siècles.",
+   "id": "t093-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Keith Roberts, en 1968, imagine une Angleterre restée catholique après l’assassinat d’Élisabeth Ire ?",
+   "choix": [
+    "Pavane",
+    "Fatherland",
+    "Le Maître du Haut Château",
+    "Autant en emporte le temps"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "La victoire de l’Invincible Armada y bloque le progrès technique.",
+   "id": "t093-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel livre français de 1836, de Louis-Geoffroy, est l’un des premiers récits d’histoire alternative ?",
+   "choix": [
+    "Napoléon et la conquête du monde",
+    "Uchronie",
+    "Le Monde tel qu’il sera",
+    "L’An 2440"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Napoléon y gagne la campagne de Russie et conquiert la planète entière.",
+   "id": "t093-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel philosophe français a créé le mot « uchronie » et publié un livre portant ce titre en 1876 ?",
+   "choix": [
+    "Charles Renouvier",
+    "Auguste Comte",
+    "Ernest Renan",
+    "Henri Bergson"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Il imagine une histoire où le christianisme ne s’est pas imposé en Occident.",
+   "id": "t093-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de romans de Naomi Novik transpose les guerres napoléoniennes dans un monde avec dragons ?",
+   "choix": [
+    "Téméraire",
+    "Fils-des-Brumes",
+    "Le Trône de fer",
+    "Les Lames du cardinal"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Le capitaine Laurence y forme un équipage avec son dragon parlant.",
+   "id": "t093-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel film de Quentin Tarantino, en 2009, change radicalement la fin de la Seconde Guerre mondiale ?",
+   "choix": [
+    "Inglourious Basterds",
+    "Django Unchained",
+    "Pulp Fiction",
+    "Kill Bill"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Un groupe de soldats et une exploitante de cinéma y prennent leur revanche dans une salle parisienne.",
+   "id": "t093-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série d’Apple TV+, lancée en 2019, imagine que les Soviétiques ont été les premiers à marcher sur la Lune ?",
+   "choix": [
+    "For All Mankind",
+    "The Expanse",
+    "Foundation",
+    "Silo"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "La course à l’espace ne s’arrête jamais et transforme toute l’histoire.",
+   "id": "t093-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Watchmen, quelle guerre les États-Unis gagnent-ils grâce au Dr Manhattan ?",
+   "choix": [
+    "La guerre du Vietnam",
+    "La guerre de Corée",
+    "La guerre froide",
+    "La guerre du Golfe"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Richard Nixon y est encore président dans les années 1980.",
+   "id": "t093-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2014 se déroule dans un monde où l’Allemagne nazie a gagné la guerre ?",
+   "choix": [
+    "Wolfenstein : The New Order",
+    "Battlefield 1",
+    "Call of Duty : WWII",
+    "Fallout 4"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Le héros, B. J. Blazkowicz, se réveille d’un long coma en 1960.",
+   "id": "t093-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on, dans une uchronie, le moment où l’histoire se sépare de la nôtre ?",
+   "choix": [
+    "Le point de divergence",
+    "Le point d’orgue",
+    "Le point de rupture du temps",
+    "Le point zéro"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Il peut s’agir d’une bataille perdue, d’une mort évitée ou d’une invention précoce.",
+   "id": "t093-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de bandes dessinées françaises de Delcourt, lancée en 2010, propose chaque album une uchronie différente ?",
+   "choix": [
+    "Jour J",
+    "Les Mondes de Thorgal",
+    "Les Futurs de Liu Cixin",
+    "Il était une fois"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Le premier album imagine des Soviétiques premiers sur la Lune.",
+   "id": "t093-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle pensée de Pascal est souvent citée pour illustrer l’idée d’uchronie, à propos d’un détail physique de Cléopâtre ?",
+   "choix": [
+    "Son nez",
+    "Ses yeux",
+    "Ses cheveux",
+    "Sa voix"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "S’il avait été plus court, toute la face de la Terre aurait changé, selon Pascal.",
+   "id": "t093-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Michael Chabon, en 2007, imagine une colonie juive installée en Alaska après la guerre ?",
+   "choix": [
+    "Le Club des policiers yiddish",
+    "Les Extraordinaires Aventures de Kavalier et Clay",
+    "Wonder Boys",
+    "Telegraph Avenue"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Il remporte les prix Hugo, Nebula et Locus.",
+   "id": "t093-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel film de Hayao Miyazaki, aux machines volantes et aux mines du 19e siècle, est souvent cité comme steampunk ?",
+   "choix": [
+    "Le Château dans le ciel",
+    "Mon voisin Totoro",
+    "Ponyo",
+    "Le Voyage de Chihiro"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "On y voit des dirigeables, des pirates de l’air et un robot géant.",
+   "id": "t093-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de BD de Fred Duval et Thierry Gioux, en 2004, met en scène un agent de Victor Hugo exilé dans un monde uchronique ?",
+   "choix": [
+    "Hauteville House",
+    "Jour J",
+    "Le Château des étoiles",
+    "Les Brigades du temps"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Le titre reprend le nom de la maison de Victor Hugo à Guernesey.",
+   "id": "t093-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel courant récent, cousin du steampunk, s’inspire des moteurs et de l’esthétique des années 1920 à 1940 ?",
+   "choix": [
+    "Le dieselpunk",
+    "Le solarpunk",
+    "Le biopunk",
+    "Le cyberpunk"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Il emprunte aux avions, aux zeppelins et au style Art déco.",
+   "id": "t093-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel inventeur serbo-américain, rival d’Edison, est un héros récurrent des récits steampunk ?",
+   "choix": [
+    "Nikola Tesla",
+    "Thomas Edison",
+    "Alexander Graham Bell",
+    "Guglielmo Marconi"
+   ],
+   "rep": 0,
+   "src": "Encyclopédie de la science-fiction (SFE, articles « Steampunk », « Alternate History ») ; Eric Henriet, L’Histoire revisitée : panorama de l’uchronie (2004, rééd. 2009) ; Science Museum de Londres (machine à différences de Babbage) ; Locus Magazine (lettre de K. W. Jeter, avril 1987) ; Musée des arts et métiers",
+   "expl": "Ses bobines électriques et ses projets de transmission sans fil fascinent les auteurs du genre.",
+   "id": "t093-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le mot steampunk a été inventé par K. W. Jeter.",
+   "rep": true,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Il le forge en 1987, sur le modèle de cyberpunk.",
+   "id": "t093-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Ada Lovelace était la fille de Charles Babbage.",
+   "rep": false,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Faux : elle était la fille du poète Lord Byron.",
+   "id": "t093-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Nautilus est commandé par le capitaine Nemo.",
+   "rep": true,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Son nom latin signifie « personne », comme le mensonge d’Ulysse.",
+   "id": "t093-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Machine à différences est un roman de Jules Verne.",
+   "rep": false,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Faux : c’est un roman de William Gibson et Bruce Sterling.",
+   "id": "t093-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Maître du Haut Château est une uchronie.",
+   "rep": true,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Les Alliés y ont perdu la Seconde Guerre mondiale.",
+   "id": "t093-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le mot « uchronie » a été inventé au 21e siècle.",
+   "rep": false,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Faux : il est forgé par Charles Renouvier au 19e siècle.",
+   "id": "t093-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Frostpunk se déroule dans un hiver éternel.",
+   "rep": true,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "La vapeur y est la seule source de chaleur.",
+   "id": "t093-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "BioShock Infinite se déroule dans une cité sous-marine.",
+   "rep": false,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Faux : Columbia est une cité volante ; Rapture est sous-marine.",
+   "id": "t093-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La série Téméraire mêle guerres napoléoniennes et dragons.",
+   "rep": true,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Chaque nation y possède son corps aérien de dragons.",
+   "id": "t093-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Watchmen imagine la victoire du Nord-Vietnam sur les États-Unis.",
+   "rep": false,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Faux : les États-Unis y gagnent la guerre grâce au Dr Manhattan.",
+   "id": "t093-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Charles Babbage a conçu une machine analytique.",
+   "rep": true,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Elle préfigure l’ordinateur moderne, avec mémoire et unité de calcul.",
+   "id": "t093-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Mécaniques fatales se déroule dans des villes immobiles.",
+   "rep": false,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Faux : ses villes se déplacent sur des roues et des chenilles.",
+   "id": "t093-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Inglourious Basterds réécrit la fin de la Seconde Guerre mondiale.",
+   "rep": true,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Les nazis y périssent dans un cinéma parisien.",
+   "id": "t093-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Paris des merveilles est une série de Jules Verne.",
+   "rep": false,
+   "src": "SFE ; Henriet",
+   "expl": "Faux : c’est une série de Pierre Pevel, publiée à partir de 2003.",
+   "id": "t093-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année K. W. Jeter invente-t-il le mot steampunk ?",
+   "rep": 1987,
+   "min": 1970,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "SFE ; Henriet",
+   "expl": "Il le propose dans une lettre au magazine Locus.",
+   "id": "t093-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît La Machine à différences ?",
+   "rep": 1990,
+   "min": 1980,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "SFE ; Henriet",
+   "expl": "Elle devient un roman de référence du steampunk.",
+   "id": "t093-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Ada Lovelace publie-t-elle ses notes sur la machine analytique ?",
+   "rep": 1843,
+   "min": 1800,
+   "max": 1890,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "SFE ; Henriet",
+   "expl": "Sa note G décrit un véritable algorithme.",
+   "id": "t093-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Le Maître du Haut Château ?",
+   "rep": 1962,
+   "min": 1950,
+   "max": 1975,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "SFE ; Henriet",
+   "expl": "Il remporte le prix Hugo l’année suivante.",
+   "id": "t093-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année se déroule BioShock Infinite ?",
+   "rep": 1912,
+   "min": 1890,
+   "max": 1940,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "SFE ; Henriet",
+   "expl": "Columbia flotte au-dessus des nuages depuis plusieurs années.",
+   "id": "t093-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Renouvier publie-t-il son livre Uchronie ?",
+   "rep": 1876,
+   "min": 1850,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "SFE ; Henriet",
+   "expl": "Il avait inventé le mot près de vingt ans plus tôt.",
+   "id": "t093-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît Napoléon et la conquête du monde ?",
+   "rep": 1836,
+   "min": 1800,
+   "max": 1870,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "SFE ; Henriet",
+   "expl": "C’est l’une des toutes premières uchronies imprimées.",
+   "id": "t093-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année se déroule principalement Steamboy ?",
+   "rep": 1866,
+   "min": 1820,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "SFE ; Henriet",
+   "expl": "Une exposition universelle imaginaire s’y tient à Londres.",
+   "id": "t093-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le genre de la vapeur et des engrenages s’appelle le ____.",
+   "choix": [
+    "steampunk",
+    "cyberpunk",
+    "dieselpunk",
+    "solarpunk"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Son esthétique mêle laiton, cuir et machines victoriennes.",
+   "id": "t093-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sous-marin de Jules Verne s’appelle le ____.",
+   "choix": [
+    "Nautilus",
+    "Neptune",
+    "Nemo",
+    "Narval"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Il fonctionne grâce à l’électricité, tirée de la mer.",
+   "id": "t093-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le capitaine du Nautilus s’appelle ____.",
+   "choix": [
+    "Nemo",
+    "Nimo",
+    "Némésis",
+    "Robur"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "On apprend plus tard qu’il est un prince indien en révolte.",
+   "id": "t093-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La pionnière de la programmation s’appelle Ada ____.",
+   "choix": [
+    "Lovelace",
+    "Loveless",
+    "Lovecraft",
+    "Byron"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Un langage informatique porte son prénom.",
+   "id": "t093-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’inventeur de la machine à différences s’appelle Charles ____.",
+   "choix": [
+    "Babbage",
+    "Baggage",
+    "Babbitt",
+    "Barbage"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Une partie de son cerveau est conservée au Science Museum.",
+   "id": "t093-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La ville volante de BioShock Infinite s’appelle ____.",
+   "choix": [
+    "Columbia",
+    "Colombine",
+    "Rapture",
+    "Laputa"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Elle célèbre une vision mystique et nationaliste de l’Amérique.",
+   "id": "t093-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le roman de Philip K. Dick sur la victoire de l’Axe s’intitule Le Maître du Haut ____.",
+   "choix": [
+    "Château",
+    "Donjon",
+    "Palais",
+    "Clocher"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Le titre désigne l’auteur mystérieux d’un roman dans le roman.",
+   "id": "t093-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le philosophe qui invente le mot uchronie s’appelle Charles ____.",
+   "choix": [
+    "Renouvier",
+    "Renouard",
+    "Renan",
+    "Rouvier"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Il est l’un des fondateurs du néo-criticisme français.",
+   "id": "t093-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La série de Naomi Novik aux dragons napoléoniens s’appelle ____.",
+   "choix": [
+    "Téméraire",
+    "Intrépide",
+    "Dragonnier",
+    "Héroïque"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Le dragon Téméraire est un rare dragon céleste chinois.",
+   "id": "t093-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le roman de Robert Harris sur une Allemagne victorieuse s’intitule ____.",
+   "choix": [
+    "Fatherland",
+    "Motherland",
+    "Vaterland",
+    "Heimat"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Il est adapté en téléfilm pour HBO en 1994.",
+   "id": "t093-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La série de BD française d’uchronies chez Delcourt s’appelle Jour ____.",
+   "choix": [
+    "J",
+    "D",
+    "Zéro",
+    "X"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Elle compte plus de quarante albums aux scénarios indépendants.",
+   "id": "t093-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le moment où l’histoire bascule s’appelle le point de ____.",
+   "choix": [
+    "divergence",
+    "rupture",
+    "bascule",
+    "fracture"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Les anglophones parlent aussi de « Jonbar hinge ».",
+   "id": "t093-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’auteur du mot steampunk s’appelle K. W. ____.",
+   "choix": [
+    "Jeter",
+    "Jetter",
+    "Jester",
+    "Jeffer"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Il est aussi l’auteur de suites officielles de Blade Runner.",
+   "id": "t093-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces auteurs n’est pas associé au steampunk ?",
+   "choix": [
+    "Agatha Christie",
+    "K. W. Jeter",
+    "Tim Powers",
+    "James Blaylock"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Les trois autres sont les fondateurs californiens du genre.",
+   "id": "t093-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces romans n’est pas une uchronie ?",
+   "choix": [
+    "Le Seigneur des anneaux",
+    "Fatherland",
+    "Le Maître du Haut Château",
+    "Pavane"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Le Seigneur des anneaux se déroule dans un monde secondaire, pas dans une histoire réécrite.",
+   "id": "t093-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas steampunk ?",
+   "choix": [
+    "Halo",
+    "Frostpunk",
+    "BioShock Infinite",
+    "Dishonored"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Halo est un jeu de science-fiction futuriste.",
+   "id": "t093-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces machines n’est pas une invention de Jules Verne ?",
+   "choix": [
+    "Le Columbia volant",
+    "Le Nautilus",
+    "L’Albatros",
+    "Le canon de De la Terre à la Lune"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Columbia est la ville volante de BioShock Infinite.",
+   "id": "t093-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages ne fait pas partie de la Ligue des gentlemen extraordinaires ?",
+   "choix": [
+    "Sherlock Holmes",
+    "Le capitaine Nemo",
+    "Mina Harker",
+    "Allan Quatermain"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Holmes n’apparaît qu’en arrière-plan de la série.",
+   "id": "t093-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces films n’est pas une uchronie ?",
+   "choix": [
+    "Retour vers le futur",
+    "Inglourious Basterds",
+    "Watchmen",
+    "Le Maître du Haut Château"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Retour vers le futur parle de voyage dans le temps, pas d’une histoire déjà différente.",
+   "id": "t093-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces œuvres n’est pas française ?",
+   "choix": [
+    "Mécaniques fatales",
+    "Le Paris des merveilles",
+    "Confessions d’un automate mangeur d’opium",
+    "Hauteville House"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Mécaniques fatales est un roman britannique de Philip Reeve.",
+   "id": "t093-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’est pas typique du steampunk ?",
+   "choix": [
+    "Le smartphone",
+    "Le dirigeable",
+    "Les engrenages",
+    "Les lunettes en laiton"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Le steampunk imagine le futur avec les techniques du 19e siècle.",
+   "id": "t093-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas écrit d’uchronie ?",
+   "choix": [
+    "Jane Austen",
+    "Philip K. Dick",
+    "Robert Harris",
+    "Philip Roth"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Jane Austen a écrit des romans de mœurs réalistes.",
+   "id": "t093-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces villes n’est pas une cité volante ?",
+   "choix": [
+    "Rapture",
+    "Columbia",
+    "Laputa",
+    "Zalem"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Rapture est une cité sous-marine ; Zalem flotte dans Gunnm.",
+   "id": "t093-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels auteurs ont fondé le steampunk ? (plusieurs bonnes réponses)",
+   "choix": [
+    "K. W. Jeter",
+    "Tim Powers",
+    "James Blaylock",
+    "Philip Roth",
+    "Robert Harris"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces trois amis californiens écrivent ensemble dans les années 1980.",
+   "id": "t093-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles œuvres sont des uchronies ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Maître du Haut Château",
+    "Fatherland",
+    "Pavane",
+    "Le Complot contre l’Amérique",
+    "Le Hobbit",
+    "Dune"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Elles partent toutes d’un point de divergence historique.",
+   "id": "t093-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux vidéo ont une esthétique steampunk ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Frostpunk",
+    "BioShock Infinite",
+    "Dishonored",
+    "Halo",
+    "FIFA"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "La vapeur et les engrenages y règnent en maîtres.",
+   "id": "t093-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres de Jules Verne inspirent le steampunk ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vingt Mille Lieues sous les mers",
+    "Robur le Conquérant",
+    "De la Terre à la Lune",
+    "Les Misérables",
+    "Germinal"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Verne est considéré comme un grand-père du genre.",
+   "id": "t093-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles œuvres réécrivent la Seconde Guerre mondiale ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fatherland",
+    "Le Maître du Haut Château",
+    "Inglourious Basterds",
+    "Wolfenstein : The New Order",
+    "Pavane",
+    "Téméraire"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "La victoire de l’Axe est le point de divergence le plus exploré.",
+   "id": "t093-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages apparaissent dans La Ligue des gentlemen extraordinaires ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le capitaine Nemo",
+    "Mina Harker",
+    "L’Homme invisible",
+    "Dr Jekyll",
+    "Harry Potter",
+    "Frodon"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Alan Moore puise dans toute la littérature victorienne.",
+   "id": "t093-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels objets symbolisent le steampunk ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dirigeable",
+    "Engrenages",
+    "Lunettes en laiton",
+    "Automate",
+    "Smartphone",
+    "Laser"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces objets évoquent la révolution industrielle.",
+   "id": "t093-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles uchronies sont françaises ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Napoléon et la conquête du monde",
+    "Uchronie de Renouvier",
+    "Jour J",
+    "Fatherland",
+    "Pavane"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "La France a une longue tradition d’uchronies, depuis le 19e siècle.",
+   "id": "t093-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages historiques réels apparaissent dans le steampunk ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Charles Babbage",
+    "Ada Lovelace",
+    "Nikola Tesla",
+    "Gandalf",
+    "Sherlock Holmes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Le genre aime mettre en scène les inventeurs du 19e siècle.",
+   "id": "t093-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles cités imaginaires sont volantes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Columbia",
+    "Laputa",
+    "Rapture",
+    "Dunwall"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Rapture est sous-marine, Dunwall est une ville côtière.",
+   "id": "t093-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces œuvres par date de parution.",
+   "items": [
+    "Napoléon et la conquête du monde",
+    "Uchronie de Renouvier",
+    "Le Maître du Haut Château",
+    "Fatherland"
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces œuvres paraissent en 1836, 1876, 1962 puis 1992.",
+   "id": "t093-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces œuvres steampunk par date de parution.",
+   "items": [
+    "Les Voies d’Anubis",
+    "La Machine à différences",
+    "La Ligue des gentlemen extraordinaires",
+    "Mécaniques fatales"
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces œuvres paraissent en 1983, 1990, 1999 puis 2001.",
+   "id": "t093-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces romans de Jules Verne par date de parution.",
+   "items": [
+    "Cinq Semaines en ballon",
+    "Vingt Mille Lieues sous les mers",
+    "Le Tour du monde en quatre-vingts jours",
+    "Robur le Conquérant"
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces romans paraissent en 1863, 1870, 1872 puis 1886.",
+   "id": "t093-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux par date de sortie.",
+   "items": [
+    "Dishonored",
+    "BioShock Infinite",
+    "Wolfenstein : The New Order",
+    "Frostpunk"
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces jeux sortent en 2012, 2013, 2014 puis 2018.",
+   "id": "t093-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de l’histoire de l’informatique dans l’ordre.",
+   "items": [
+    "Machine à différences de Babbage",
+    "Programme d’Ada Lovelace",
+    "Reconstruction au Science Museum"
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces étapes datent des années 1820, de 1843 puis de 1991.",
+   "id": "t093-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces uchronies par date de parution.",
+   "items": [
+    "Pavane",
+    "Le Complot contre l’Amérique",
+    "Le Club des policiers yiddish",
+    "For All Mankind"
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces œuvres paraissent en 1968, 2004, 2007 puis 2019.",
+   "id": "t093-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la naissance du mot uchronie dans l’ordre.",
+   "items": [
+    "Invention du mot",
+    "Publication du livre Uchronie",
+    "Usage courant au 20e siècle"
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Renouvier forge le mot en 1857 et publie son livre en 1876.",
+   "id": "t093-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces romans de H. G. Wells par date de parution.",
+   "items": [
+    "La Machine à explorer le temps",
+    "L’Île du docteur Moreau",
+    "L’Homme invisible",
+    "La Guerre des mondes"
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces romans paraissent en 1895, 1896, 1897 puis 1898.",
+   "id": "t093-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces dates de divergence de la plus ancienne à la plus récente.",
+   "items": [
+    "Invincible Armada victorieuse dans Pavane",
+    "Victoire de Napoléon en Russie",
+    "Victoire de l’Axe dans Fatherland"
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces divergences se placent en 1588, 1812 puis dans les années 1940.",
+   "id": "t093-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque roman à son auteur.",
+   "paires": [
+    [
+     "La Machine à différences",
+     "Gibson et Sterling"
+    ],
+    [
+     "Le Maître du Haut Château",
+     "Philip K. Dick"
+    ],
+    [
+     "Fatherland",
+     "Robert Harris"
+    ],
+    [
+     "Mécaniques fatales",
+     "Philip Reeve"
+    ]
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces romans ont marqué le steampunk et l’uchronie.",
+   "id": "t093-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque cité à son jeu.",
+   "paires": [
+    [
+     "Columbia",
+     "BioShock Infinite"
+    ],
+    [
+     "Rapture",
+     "BioShock"
+    ],
+    [
+     "Dunwall",
+     "Dishonored"
+    ]
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces villes sont presque des personnages.",
+   "id": "t093-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque machine à son roman.",
+   "paires": [
+    [
+     "Nautilus",
+     "Vingt Mille Lieues sous les mers"
+    ],
+    [
+     "Albatros",
+     "Robur le Conquérant"
+    ],
+    [
+     "Machine temporelle",
+     "La Machine à explorer le temps"
+    ]
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces machines ont inspiré des générations d’inventeurs.",
+   "id": "t093-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque uchronie à son point de divergence.",
+   "paires": [
+    [
+     "Fatherland",
+     "Victoire nazie"
+    ],
+    [
+     "Pavane",
+     "Assassinat d’Élisabeth Ire"
+    ],
+    [
+     "Le Complot contre l’Amérique",
+     "Élection de Lindbergh"
+    ],
+    [
+     "For All Mankind",
+     "Soviétiques sur la Lune"
+    ]
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Un seul changement suffit à bouleverser l’histoire.",
+   "id": "t093-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque inventeur à son invention.",
+   "paires": [
+    [
+     "Charles Babbage",
+     "Machine à différences"
+    ],
+    [
+     "Ada Lovelace",
+     "Premier programme"
+    ],
+    [
+     "James Watt",
+     "Machine à vapeur perfectionnée"
+    ]
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Le steampunk rend hommage à ces pionniers.",
+   "id": "t093-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque œuvre française à son auteur.",
+   "paires": [
+    [
+     "Le Paris des merveilles",
+     "Pierre Pevel"
+    ],
+    [
+     "Confessions d’un automate mangeur d’opium",
+     "Gaborit et Colin"
+    ],
+    [
+     "Hauteville House",
+     "Duval et Gioux"
+    ]
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "La France a développé son propre steampunk.",
+   "id": "t093-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque genre à son époque d’inspiration.",
+   "paires": [
+    [
+     "Steampunk",
+     "19e siècle"
+    ],
+    [
+     "Dieselpunk",
+     "Entre-deux-guerres"
+    ],
+    [
+     "Atompunk",
+     "Années 1950"
+    ]
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Chaque « punk » rêve un futur passé différent.",
+   "id": "t093-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque roman à sa ville principale.",
+   "paires": [
+    [
+     "Mécaniques fatales",
+     "Londres mobile"
+    ],
+    [
+     "Les Voies d’Anubis",
+     "Londres de 1810"
+    ],
+    [
+     "Confessions d’un automate mangeur d’opium",
+     "Paris de 1899"
+    ]
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Les capitales victoriennes sont le cœur du genre.",
+   "id": "t093-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque auteur à son uchronie.",
+   "paires": [
+    [
+     "Harry Turtledove",
+     "Fusils modernes chez les Confédérés"
+    ],
+    [
+     "Kim Stanley Robinson",
+     "Chroniques des années noires"
+    ],
+    [
+     "Michael Chabon",
+     "Le Club des policiers yiddish"
+    ],
+    [
+     "Keith Roberts",
+     "Pavane"
+    ]
+   ],
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Ces auteurs sont des références anglophones du genre.",
+   "id": "t093-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un mot\n2. Je suis né en 1987\n3. Je désigne la vapeur victorienne",
+   "choix": [
+    "Steampunk",
+    "Cyberpunk",
+    "Uchronie",
+    "Dieselpunk"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "K. W. Jeter m’a inventé par plaisanterie.",
+   "id": "t093-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une mathématicienne\n2. Je suis la fille de Byron\n3. J’ai écrit le premier programme",
+   "choix": [
+    "Ada Lovelace",
+    "Marie Curie",
+    "Sophie Germain",
+    "Grace Hopper"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Un langage informatique porte mon prénom.",
+   "id": "t093-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sous-marin\n2. Mon capitaine s’appelle Nemo\n3. Jules Verne m’a créé",
+   "choix": [
+    "Le Nautilus",
+    "L’Albatros",
+    "Le Titanic",
+    "Le Great Eastern"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Je parcours les océans en vingt mille lieues.",
+   "id": "t093-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un roman\n2. Je suis de 1962\n3. L’Axe a gagné chez moi",
+   "choix": [
+    "Le Maître du Haut Château",
+    "Fatherland",
+    "Pavane",
+    "Ubik"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "L’écrivain américain Philip K. Dick m’a écrit.",
+   "id": "t093-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville\n2. Je flotte dans le ciel en 1912\n3. Je suis dans BioShock Infinite",
+   "choix": [
+    "Columbia",
+    "Rapture",
+    "Laputa",
+    "Dunwall"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Mon prophète s’appelle Zachary Comstock.",
+   "id": "t093-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un philosophe\n2. Je suis français\n3. J’ai inventé le mot uchronie",
+   "choix": [
+    "Charles Renouvier",
+    "Auguste Comte",
+    "Henri Bergson",
+    "Jean-Paul Sartre"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "J’ai publié mon livre intitulé Uchronie en 1876.",
+   "id": "t093-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis polonais\n3. Mon générateur à vapeur réchauffe une ville gelée",
+   "choix": [
+    "Frostpunk",
+    "Dishonored",
+    "The Witcher",
+    "Machinarium"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Le studio varsovien 11 bit studios m’a créé.",
+   "id": "t093-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une série\n2. Je suis de 2019\n3. Les Soviétiques ont marché sur la Lune les premiers chez moi",
+   "choix": [
+    "For All Mankind",
+    "The Expanse",
+    "Chernobyl",
+    "Fatherland"
+   ],
+   "rep": 0,
+   "src": "SFE ; Henriet ; Science Museum",
+   "expl": "Je suis diffusée sur Apple TV+ depuis 2019.",
+   "id": "t093-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

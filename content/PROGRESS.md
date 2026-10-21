@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**92 / 99 thèmes terminés — 11885 questions au total.**
+**93 / 99 thèmes terminés — 12006 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -98,7 +98,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 90 | Musiques épiques et bandes originales | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 4 | terminé |
 | 91 | Géographie des mondes imaginaires | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 92 | Mythes urbains et créations de la communauté | 122 | 41 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/74/24 | 3 | terminé |
-| 93 | Steampunk et uchronies | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 93 | Steampunk et uchronies | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 94 | Langues inventées de la pop culture | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 95 | Parodies et comédies fantastiques | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 96 | Grands illustrateurs de l’imaginaire | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -341,3 +341,4 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - content/059/a.lm:33 : mot de la bonne réponse présent dans l’énoncé (« casque ») et absent des autres propositions
 - content/060/a.lm:79 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (fete) — Quelle fête populaire renverse l’ordre social le temps d’une journée, avec l’élection d’un
 - content/066/a.lm:3 : mot de la bonne réponse présent dans l’énoncé (« sorcieres ») et absent des autres propositions
+- content/093/a.lm:23 : mot de la bonne réponse présent dans l’énoncé (« leurs ») et absent des autres propositions
