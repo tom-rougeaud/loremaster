@@ -14,1062 +14,2340 @@
  },
  "questions": [
   {
-   "id": "cla-001",
-   "concept": "cla-001",
-   "niveau": 1,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe est spécialisée dans le combat rapproché avec armes et armures ?",
-   "choix": [
-    "Le barde",
-    "L’ensorceleur",
-    "Le guerrier",
-    "Le magicien"
-   ],
-   "rep": 2,
-   "expl": "Le guerrier maîtrise toutes les armures, les boucliers et toutes les armes ; il a le plus grand choix de styles de combat et peut porter les armures lourdes dès le niveau 1.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Guerrier",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-002",
-   "concept": "cla-002",
    "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe lance des sorts préparés depuis un grimoire ?",
+   "q": "Dans le Manuel des Joueurs 5e (2014), combien de classes sont présentées ?",
    "choix": [
-    "Le barbare",
-    "Le magicien",
-    "Le roublard",
-    "Le guerrier"
-   ],
-   "rep": 1,
-   "expl": "Le magicien consigne ses sorts dans un grimoire et en prépare chaque jour un nombre égal à son niveau + son modificateur d’Intelligence.",
-   "src": "SRD 5.1, « Wizard » (Spellbook, Arcane Recovery)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-003",
-   "concept": "cla-003",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe soigne ses alliés grâce à la puissance d’une divinité ?",
-   "choix": [
-    "Le clerc",
-    "Le barbare",
-    "Le magicien",
-    "Le roublard"
+    "12",
+    "9",
+    "10",
+    "14"
    ],
    "rep": 0,
-   "expl": "Le clerc est un lanceur de sorts divins : sa Sagesse alimente soins, bénédictions et Renvoi des morts-vivants, selon son domaine.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Barbare, barde, clerc, druide, ensorceleur, guerrier, magicien, moine, occultiste, paladin, rôdeur et roublard : douze classes.",
+   "id": "cla-071",
    "conf": "probable"
   },
   {
-   "id": "cla-004",
-   "concept": "cla-004",
-   "niveau": 1,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe est spécialisée dans la discrétion et l’attaque sournoise ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle classe possède le plus gros dé de vie (d12) ?",
    "choix": [
+    "Le barbare",
     "Le guerrier",
     "Le paladin",
-    "Le roublard",
-    "Le clerc"
-   ],
-   "rep": 2,
-   "expl": "Le roublard a l’Attaque sournoise dès le niveau 1 : des dés de dégâts supplémentaires s’il a l’avantage ou un allié proche de la cible.",
-   "src": "SRD 5.1, « Rogue » (Sneak Attack)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-005",
-   "concept": "cla-005",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe peut entrer en rage au combat ?",
-   "choix": [
-    "Le barbare",
-    "Le barde",
-    "Le druide",
-    "Le magicien"
-   ],
-   "rep": 0,
-   "expl": "Le barbare entre en rage par une action bonus : avantage en Force, bonus de dégâts et résistance aux dégâts contondants, perforants et tranchants.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barbare",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-006",
-   "concept": "cla-006",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe tire sa magie de la musique et des paroles ?",
-   "choix": [
-    "Le rôdeur",
-    "Le druide",
-    "Le barde",
-    "Le clerc"
-   ],
-   "rep": 2,
-   "expl": "Le barde utilise le chant, la poésie et la musique pour lancer des sorts ; il soutient aussi ses alliés avec l’Inspiration bardique.",
-   "src": "SRD 5.1, « Bard »",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-007",
-   "concept": "cla-007",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe manie la magie de la nature et peut prendre une forme animale ?",
-   "choix": [
-    "Le barde",
-    "Le clerc",
-    "Le magicien",
-    "Le druide"
-   ],
-   "rep": 3,
-   "expl": "Le druide se métamorphose grâce à la Forme sauvage (niveau 2), en bêtes de plus en plus puissantes avec le niveau.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Druide",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-008",
-   "concept": "cla-008",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe est un guerrier saint lié par un serment sacré ?",
-   "choix": [
-    "Le moine",
-    "Le barbare",
-    "Le clerc",
-    "Le paladin"
-   ],
-   "rep": 3,
-   "expl": "Le paladin prête un serment (Dévotion, Anciens, Vengeance…) qui fonde ses pouvoirs divins ; il obtient aussi l’Imposition des mains dès le niveau 1.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Paladin",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-009",
-   "concept": "cla-009",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe est experte en pistage et en survie en milieu sauvage ?",
-   "choix": [
-    "Le roublard",
-    "Le barbare",
-    "Le barde",
-    "Le rôdeur"
-   ],
-   "rep": 3,
-   "expl": "Le rôdeur a un ennemi juré et un terrain de prédilection qui lui donnent des bonus de pistage, de navigation et de survie.",
-   "src": "SRD 5.1, « Ranger » (Favored Enemy, Natural Explorer)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-010",
-   "concept": "cla-010",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe combat à mains nues et utilise le ki ?",
-   "choix": [
-    "Le moine",
-    "Le barbare",
-    "Le paladin",
-    "Le guerrier"
-   ],
-   "rep": 0,
-   "expl": "Le moine dépense des points de ki (Rafale de coups, Défense patiente, Pas du vent) et inflige des dégâts d’arts martiaux croissants à mains nues.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Moine",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-011",
-   "concept": "cla-011",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe tire sa magie d’une lignée ou d’une source innée ?",
-   "choix": [
-    "Le clerc",
-    "L’ensorceleur",
-    "Le druide",
-    "Le magicien"
-   ],
-   "rep": 1,
-   "expl": "L’ensorceleur possède un pouvoir inné (lignée draconique, magie sauvage…) : il connaît un nombre limité de sorts, sans livre ni préparation.",
-   "src": "SRD 5.1, « Sorcerer »",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-012",
-   "concept": "cla-012",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe tire sa magie d’un pacte avec une entité puissante ?",
-   "choix": [
-    "L’ensorceleur",
-    "Le druide",
-    "Le clerc",
-    "L’occultiste"
-   ],
-   "rep": 3,
-   "expl": "L’occultiste (warlock) conclut un pacte avec un protecteur (Fiélon, Grand Ancien, Archifée) qui lui accorde ses sorts et ses « invocations occultes ».",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Occultiste",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-013",
-   "concept": "cla-013",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel archétype du guerrier combine épée et magie ?",
-   "choix": [
-    "Maître de guerre",
-    "Champion",
-    "Chevalier occulte",
-    "Berserker"
-   ],
-   "rep": 2,
-   "expl": "Le Chevalier occulte (Eldritch Knight) lance des sorts de magicien, surtout d’abjuration et d’évocation, et peut lier une arme à lui.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Guerrier (Archétype martial)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-014",
-   "concept": "cla-014",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe peut dépenser des emplacements de sorts pour infliger des Châtiments divins ?",
-   "choix": [
-    "Le paladin",
-    "Le clerc",
-    "Le barde",
     "Le rôdeur"
    ],
    "rep": 0,
-   "expl": "Le paladin (Châtiment divin / Divine Smite, niveau 2) ajoute des dégâts radiants à une attaque qui touche, selon le niveau de l’emplacement dépensé.",
-   "src": "SRD 5.1, « Paladin » (Divine Smite)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le barbare a un d12 ; guerrier, paladin et rôdeur ont un d10 ; magicien et ensorceleur ferment la marche avec un d6.",
+   "id": "cla-072",
    "conf": "probable"
   },
   {
-   "id": "cla-015",
-   "concept": "cla-015",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle capacité du roublard inflige des dégâts supplémentaires ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelles classes ont le plus petit dé de vie (d6) ?",
    "choix": [
-    "Second souffle",
-    "Frappe divine",
-    "Rage",
-    "Attaque sournoise"
-   ],
-   "rep": 3,
-   "expl": "L’Attaque sournoise ajoute 1d6 dégâts au niveau 1, puis 1d6 de plus tous les deux niveaux, jusqu’à 10d6 au niveau 19.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Roublard",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-016",
-   "concept": "cla-016",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle capacité du guerrier lui permet de récupérer des points de vie ?",
-   "choix": [
-    "Second souffle",
-    "Forme sauvage",
-    "Rage",
-    "Attaque sournoise"
+    "Le magicien et l’ensorceleur",
+    "Le barde et l’occultiste",
+    "Le druide et le moine",
+    "Le clerc et le roublard"
    ],
    "rep": 0,
-   "expl": "Second souffle : en action bonus, il récupère 1d10 + son niveau de guerrier en PV, une fois par repos court ou long.",
-   "src": "SRD 5.1, « Fighter » (Second Wind)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Magiciens et ensorceleurs, fragiles, ont un d6 ; la plupart des autres lanceurs ont un d8.",
+   "id": "cla-073",
    "conf": "probable"
   },
   {
-   "id": "cla-017",
-   "concept": "cla-017",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle capacité du barde soutient ses alliés avec un dé ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle capacité du guerrier lui donne une action supplémentaire une fois par repos court ?",
    "choix": [
-    "Rage",
-    "Ki",
+    "Fougue",
     "Second souffle",
-    "Inspiration bardique"
+    "Indomptable",
+    "Attaque supplémentaire"
    ],
-   "rep": 3,
-   "expl": "L’Inspiration bardique (d6 au niveau 1) permet à un allié d’ajouter ce dé à un jet d’attaque, de caractéristique ou de sauvegarde.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barde",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Fougue (action surge) permet de jouer une action de plus pendant le tour ; Second souffle rend des PV.",
+   "id": "cla-074",
    "conf": "probable"
   },
   {
-   "id": "cla-018",
-   "concept": "cla-018",
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien d’attaques par action un guerrier de niveau 20 réalise-t-il ?",
+   "choix": [
+    "4",
+    "2",
+    "3",
+    "5"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le guerrier gagne une attaque supplémentaire aux niveaux 5, 11 et 20 : quatre attaques par action au sommet.",
+   "id": "cla-075",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est la caractéristique qui fixe la CA du barbare sans armure, en plus de la Dextérité ?",
+   "choix": [
+    "Constitution",
+    "Force",
+    "Sagesse",
+    "Charisme"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Défense sans armure du barbare : 10 + Dex + Con. Celle du moine utilise la Sagesse.",
+   "id": "cla-076",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est la caractéristique ajoutée à la CA du moine sans armure ?",
+   "choix": [
+    "Sagesse",
+    "Constitution",
+    "Intelligence",
+    "Charisme"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le moine sans armure ni bouclier a une CA de 10 + Dex + Sag.",
+   "id": "cla-077",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, face à quels types de dégâts le barbare en rage a-t-il la résistance ?",
+   "choix": [
+    "Contondants, perforants et tranchants",
+    "Feu, froid et foudre",
+    "Tous les dégâts magiques",
+    "Poison et nécrotique"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "En rage, le barbare résiste aux dégâts physiques, gagne des dégâts au corps à corps et a l’avantage aux tests de Force.",
+   "id": "cla-078",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
    "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle capacité du clerc repousse les morts-vivants ?",
+   "q": "Dans D&D 5e, que permet l’Attaque téméraire du barbare ?",
    "choix": [
-    "Forme sauvage",
-    "Rage",
-    "Renvoi des morts-vivants",
-    "Attaque sournoise"
+    "Attaquer avec avantage, mais être plus facile à toucher",
+    "Attaquer deux fois",
+    "Ignorer les résistances",
+    "Charger sans attaque d’opportunité"
    ],
-   "rep": 2,
-   "expl": "Renvoi des morts-vivants (Turn Undead) : option de Conduit divin au niveau 2 ; les morts-vivants qui échouent leur jet de Sagesse fuient pendant 1 minute.",
-   "src": "SRD 5.1, « Cleric » (Channel Divinity: Turn Undead)",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le barbare obtient l’avantage à ses attaques de Force ce tour-ci, mais les attaques contre lui ont aussi l’avantage.",
+   "id": "cla-079",
    "conf": "probable"
   },
   {
-   "id": "cla-019",
-   "concept": "cla-019",
-   "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe n’a aucune maîtrise d’armure au niveau 1 ?",
-   "choix": [
-    "Le guerrier",
-    "Le magicien",
-    "Le clerc",
-    "Le paladin"
-   ],
-   "rep": 1,
-   "expl": "Le magicien n’est formé à aucune armure ; les armures sans formation l’empêcheraient aussi de lancer ses sorts.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-020",
-   "concept": "cla-020",
    "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel dé de vie utilise le barbare ?",
-   "choix": [
-    "d10",
-    "d8",
-    "d12",
-    "d6"
-   ],
-   "rep": 2,
-   "expl": "Le barbare a un d12, le plus gros dé de vie du jeu : il est la classe la plus résistante.",
-   "src": "SRD 5.1, « Barbarian » (Hit Points)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-021",
-   "concept": "cla-021",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel dé de vie utilise le magicien ?",
-   "choix": [
-    "d8",
-    "d6",
-    "d10",
-    "d12"
-   ],
-   "rep": 1,
-   "expl": "Le magicien a un d6, comme l’ensorceleur : ce sont les classes les plus fragiles.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-022",
-   "concept": "cla-022",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel dé de vie utilise le guerrier ?",
-   "choix": [
-    "d8",
-    "d10",
-    "d12",
-    "d6"
-   ],
-   "rep": 1,
-   "expl": "Le guerrier a un d10, comme le paladin et le rôdeur.",
-   "src": "SRD 5.1, « Fighter » (Hit Points)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-023",
-   "concept": "cla-023",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel dé de vie utilise le clerc ?",
+   "q": "Dans D&D 5e, quel dé l’Inspiration bardique donne-t-elle au niveau 1 ?",
    "choix": [
     "d6",
+    "d4",
     "d8",
-    "d10",
     "d12"
    ],
-   "rep": 1,
-   "expl": "Le clerc a un d8, comme le barde, le druide, le moine, l’occultiste et le roublard.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le dé passe de d6 à d8 (niveau 5), d10 (niveau 10) puis d12 (niveau 15).",
+   "id": "cla-080",
    "conf": "probable"
   },
   {
-   "id": "cla-024",
-   "concept": "cla-024",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, à quel niveau la plupart des classes choisissent-elles leur sous-classe ?",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelle capacité du barde ajoute la moitié de son bonus de maîtrise aux tests qu’il ne maîtrise pas ?",
+   "choix": [
+    "Touche-à-tout",
+    "Expertise",
+    "Secrets magiques",
+    "Chant reposant"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Touche-à-tout (jack of all trades), dès le niveau 2, fait du barde un bon élément dans presque toutes les situations.",
+   "id": "cla-081",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelle capacité du barde lui permet d’apprendre des sorts d’autres classes ?",
+   "choix": [
+    "Secrets magiques",
+    "Expertise",
+    "Contre-charme",
+    "Inspiration supérieure"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Au niveau 10, puis 14 et 18, les Secrets magiques donnent accès à des sorts de n’importe quelle liste.",
+   "id": "cla-082",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quel niveau le clerc choisit-il son domaine divin ?",
    "choix": [
     "1",
-    "5",
+    "2",
     "3",
-    "10"
+    "5"
    ],
-   "rep": 2,
-   "expl": "À partir du niveau 3 pour la plupart (barbare, barde, guerrier, moine, paladin, rôdeur, roublard…), mais au niveau 1 pour le clerc, l’ensorceleur et l’occultiste, et au niveau 2 pour le druide et le magicien.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » (tableaux de progression)",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le clerc choisit son domaine dès le niveau 1, comme l’ensorceleur son origine et l’occultiste son protecteur.",
+   "id": "cla-083",
    "conf": "probable"
   },
   {
-   "id": "cla-025",
-   "concept": "cla-025",
-   "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel niveau maximum un personnage peut-il atteindre ?",
-   "choix": [
-    "10",
-    "12",
-    "30",
-    "20"
-   ],
-   "rep": 3,
-   "expl": "Le niveau 20 est le sommet de la progression des personnages joueurs ; au-delà, on parle d’épopée (Guide du Maître, chap. 7).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Guide du Maître 5e, chap. 7",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-026",
-   "concept": "cla-026",
    "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel livre présente les classes de base ?",
+   "q": "Dans D&D 5e, quelle capacité permet au clerc d’appeler son dieu à l’aide au niveau 10 ?",
    "choix": [
-    "Le Manuel des Monstres",
-    "Le Manuel des Joueurs",
-    "Xanathar",
-    "Le Guide du Maître"
+    "Intervention divine",
+    "Conduit divin",
+    "Destruction des morts-vivants",
+    "Châtiment divin"
    ],
-   "rep": 1,
-   "expl": "Le Manuel des Joueurs (Player’s Handbook, 2014) décrit les 12 classes de base, les races, les règles de création et le système de jeu.",
-   "src": "Manuel des Joueurs 5e (2014), sommaire",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Intervention divine réussit si le d100 est inférieur ou égal au niveau du clerc ; au niveau 20, elle réussit automatiquement.",
+   "id": "cla-084",
    "conf": "probable"
   },
   {
-   "id": "cla-027",
-   "concept": "cla-027",
+   "type": "qcm",
    "niveau": 3,
+   "q": "Dans D&D 5e, quel domaine de clerc du Manuel des Joueurs maîtrise les armures lourdes et appelle tonnerre et foudre ?",
+   "choix": [
+    "Tempête",
+    "Guerre",
+    "Lumière",
+    "Vie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le domaine de la Tempête manie la foudre et le tonnerre ; il peut maximiser leurs dégâts avec son Conduit divin.",
+   "id": "cla-085",
+   "conf": "probable"
+  },
+  {
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe d’artisan magique est introduite à partir du cadre Eberron ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel matériau les druides refusent-ils de porter en armure ?",
+   "choix": [
+    "Le métal",
+    "Le cuir",
+    "Le bois",
+    "Les écailles"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les druides ne portent ni armure ni bouclier en métal, par tradition.",
+   "id": "cla-086",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelles armures le druide refuse-t-il traditionnellement de porter ?",
+   "choix": [
+    "Les armures en métal",
+    "Les armures de cuir",
+    "Les armures de peau",
+    "Les armures matelassées"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le Manuel des Joueurs précise que les druides ne portent ni armure ni bouclier en métal, par tradition et par conviction.",
+   "id": "cla-087",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quel niveau le druide de base obtient-il Forme sauvage ?",
+   "choix": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La Forme sauvage arrive au niveau 2, en même temps que le choix du cercle druidique.",
+   "id": "cla-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de points de vie l’Imposition des mains d’un paladin de niveau 5 peut-elle rendre au total ?",
+   "choix": [
+    "25",
+    "5",
+    "10",
+    "50"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La réserve vaut 5 × le niveau du paladin, à répartir entre ses patients, et se recharge après un repos long.",
+   "id": "cla-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien de dégâts ajoute un Châtiment divin avec un emplacement de niveau 1 ?",
+   "choix": [
+    "2d8",
+    "1d8",
+    "1d6",
+    "3d8"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "2d8 radiants, +1d8 par niveau d’emplacement supplémentaire (5d8 au maximum), et +1d8 contre un mort-vivant ou un fiélon.",
+   "id": "cla-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel avantage l’Aura de protection du paladin donne-t-elle aux alliés proches ?",
+   "choix": [
+    "Son Charisme en bonus aux sauvegardes",
+    "+2 à la CA tant qu’ils restent proches",
+    "La résistance à tous les dégâts",
+    "Des PV temporaires à chaque tour"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "À partir du niveau 6, le paladin et ses alliés à 3 m ajoutent le modificateur de Charisme du paladin à leurs sauvegardes.",
+   "id": "cla-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel serment de paladin du Manuel des Joueurs est voué à punir les grands malfaiteurs ?",
+   "choix": [
+    "Serment de vengeance",
+    "Serment de dévotion",
+    "Serment des anciens",
+    "Serment de conquête"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le paladin vengeur traque sans relâche les pires criminels ; le Serment de conquête vient du Guide de Xanathar.",
+   "id": "cla-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle capacité du rôdeur du Manuel des Joueurs le rend redoutable contre un type de créature choisi ?",
+   "choix": [
+    "Ennemi juré",
+    "Explorateur-né",
+    "Conscience primitive",
+    "Tueur d’ennemis"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’Ennemi juré l’aide à pister et à se souvenir de ces créatures ; il en choisit d’autres aux niveaux 6 et 14.",
+   "id": "cla-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de d6 inflige l’Attaque sournoise d’un roublard de niveau 1 ?",
+   "choix": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’Attaque sournoise commence à 1d6 et gagne 1d6 tous les deux niveaux, jusqu’à 10d6 au niveau 19.",
+   "id": "cla-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel langage secret les roublards utilisent-ils ?",
+   "choix": [
+    "L’argot des voleurs",
+    "Le druidique",
+    "Le commun des profondeurs",
+    "Le langage des signes"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’argot des voleurs (thieves’ cant) mélange jargon, codes et signes pour cacher des messages en pleine conversation.",
+   "id": "cla-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que permet la Ruse du roublard ?",
+   "choix": [
+    "Foncer, se désengager ou se cacher en action bonus",
+    "Attaquer deux fois avec une seule action",
+    "Relancer un jet raté une fois par tour",
+    "Devenir invisible au prix d’une action"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Dès le niveau 2, le roublard peut se déplacer, se désengager ou se cacher en action bonus.",
+   "id": "cla-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, que fait l’Esquive instinctive (uncanny dodge) du roublard ?",
+   "choix": [
+    "Divise par deux les dégâts d’une attaque",
+    "Annule une attaque",
+    "Donne +5 à la CA",
+    "Fait rater automatiquement l’ennemi"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "En réaction, le roublard divise par deux les dégâts d’une attaque d’un ennemi qu’il voit.",
+   "id": "cla-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle ressource l’ensorceleur dépense-t-il pour modifier ses sorts ?",
+   "choix": [
+    "Des points de sorcellerie",
+    "Des points de ki",
+    "Des dés de supériorité",
+    "Des emplacements de pacte"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les points de sorcellerie alimentent la métamagie ; ils peuvent aussi être convertis en emplacements de sort.",
+   "id": "cla-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle ressource le moine dépense-t-il pour son Déluge de coups ou sa Frappe étourdissante ?",
+   "choix": [
+    "Des points de ki",
+    "Des points de sorcellerie",
+    "Des dés de supériorité",
+    "Des charges de rage"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le ki se recharge après un repos court ; il alimente la Déluge de coups, la Défense patiente et le Pas du vent.",
+   "id": "cla-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle ressource le guerrier maître de guerre dépense-t-il pour ses manœuvres ?",
+   "choix": [
+    "Des dés de supériorité",
+    "Des points de ki",
+    "Des points de sorcellerie",
+    "Des dés d’inspiration"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le maître de guerre (battle master) commence avec quatre dés de supériorité (d8) pour désarmer, renverser, feinter…",
+   "id": "cla-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelles sont les trois faveurs de pacte de l’occultiste du Manuel des Joueurs ?",
+   "choix": [
+    "Chaîne, lame et grimoire",
+    "Feu, glace et foudre",
+    "Épée, bouclier et heaume",
+    "Corps, esprit et âme"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le pacte de la chaîne donne un familier spécial, celui de la lame une arme invoquée, celui du grimoire un livre des ombres ; Tasha ajoute le talisman.",
+   "id": "cla-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le nom français des eldritch invocations ?",
+   "choix": [
+    "Manifestations occultes",
+    "Secrets magiques",
+    "Arcanes mystiques",
+    "Talents de pacte"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les manifestations (invocations) occultes améliorent Décharge occulte, donnent des sorts à volonté ou une vision dans le noir magique.",
+   "id": "cla-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, que permet la Restauration arcanique du magicien ?",
+   "choix": [
+    "Récupérer des emplacements après un repos court",
+    "Relancer un sort raté une fois par jour",
+    "Copier un sort dans son grimoire sans frais",
+    "Préparer un sort supplémentaire chaque jour"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Une fois par jour, après un repos court, le magicien récupère des emplacements dont la somme des niveaux vaut la moitié de son niveau.",
+   "id": "cla-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel archétype de guerrier combine combat et magie de magicien ?",
+   "choix": [
+    "Chevalier occulte",
+    "Maître de guerre",
+    "Champion",
+    "Samouraï"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le chevalier occulte (eldritch knight) apprend des sorts d’abjuration et d’évocation et peut lier ses armes.",
+   "id": "cla-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel archétype de roublard lance des sorts d’illusion et d’enchantement ?",
+   "choix": [
+    "Escroc arcanique",
+    "Assassin",
+    "Voleur",
+    "Fier-à-bras"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’escroc arcanique (arcane trickster) utilise une main de mage invisible pour voler à distance.",
+   "id": "cla-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel archétype de guerrier obtient un coup critique sur 19 ou 20 dès le niveau 3 ?",
+   "choix": [
+    "Champion",
+    "Maître de guerre",
+    "Chevalier occulte",
+    "Cavalier"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le Champion simplifie le jeu : critiques améliorés (19-20, puis 18-20 au niveau 15) et endurance.",
+   "id": "cla-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel archétype de barbare du Manuel des Joueurs entre en frénésie au prix d’un niveau d’épuisement ?",
+   "choix": [
+    "Voie du berserker",
+    "Voie du guerrier totémique",
+    "Voie du zélote",
+    "Voie de la bête"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La frénésie du berserker donne une attaque en action bonus à chaque tour de rage, mais épuise le barbare.",
+   "id": "cla-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle origine d’ensorceleur du Manuel des Joueurs peut provoquer des effets imprévisibles ?",
+   "choix": [
+    "Magie sauvage",
+    "Lignée draconique",
+    "Âme divine",
+    "Magie de l’ombre"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La magie sauvage peut déclencher un effet aléatoire (table de Montée de magie sauvage) : boule de feu sur soi, pluie de pétales, cheveux bleus…",
+   "id": "cla-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle classe, apparue officiellement avec Eberron en 2019, insuffle de la magie dans des objets ?",
    "choix": [
     "L’artificier",
-    "L’occultiste",
-    "Le moine",
-    "Le barde"
-   ],
-   "rep": 0,
-   "expl": "L’artificier (artificer) est publié en 5e dans Eberron : Rising from the Last War (2019), puis repris dans Tasha et le chaudron de tout (2020).",
-   "src": "Eberron : Rising from the Last War (2019), chap. 2 ; Tasha’s Cauldron of Everything (2020)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-028",
-   "concept": "cla-028",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, parmi ces classes, laquelle ne commence à lancer des sorts qu’au niveau 2 ?",
-   "choix": [
-    "Le paladin",
-    "Le clerc",
     "Le magicien",
-    "Le barde"
+    "Le barde",
+    "L’alchimiste"
    ],
    "rep": 0,
-   "expl": "Le paladin n’a aucun emplacement de sorts au niveau 1 ; il commence à lancer des sorts au niveau 2 (comme le rôdeur).",
-   "src": "SRD 5.1, « Paladin » (Spellcasting)",
+   "src": "Eberron: Rising from the Last War (2019) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "L’artificier utilise l’Intelligence et ses infusions pour améliorer armes, armures et objets.",
+   "id": "cla-109",
    "conf": "probable"
   },
   {
-   "id": "cla-029",
-   "concept": "cla-029",
-   "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle classe peut facilement invoquer un familier dès le niveau 1 ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle valeur minimale de caractéristique faut-il pour se multiclasser vers une classe ?",
    "choix": [
-    "Le magicien",
+    "13",
+    "10",
+    "15",
+    "12"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Il faut 13 dans la ou les caractéristiques principales de la classe quittée et de la nouvelle classe.",
+   "id": "cla-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est la valeur du bonus de maîtrise au niveau 1 ?",
+   "choix": [
+    "+2",
+    "+1",
+    "+3",
+    "+4"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le bonus de maîtrise va de +2 (niveaux 1-4) à +6 (niveaux 17-20).",
+   "id": "cla-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, comment s’appelle la capacité de niveau 20 du druide ?",
+   "choix": [
+    "Archidruide",
+    "Corps intemporel",
+    "Maître des bêtes",
+    "Cœur sauvage"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Archidruide permet d’utiliser Forme sauvage autant de fois qu’on veut et d’ignorer certaines composantes de sorts.",
+   "id": "cla-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelle capacité de niveau 20 du roublard transforme un échec en réussite ?",
+   "choix": [
+    "Coup de chance",
+    "Talent fiable",
+    "Insaisissable",
+    "Esprit fuyant"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Coup de chance : une attaque ratée devient un succès, ou un test raté devient un 20, une fois par repos.",
+   "id": "cla-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle classe peut parer et renvoyer les projectiles à mains nues ?",
+   "choix": [
     "Le moine",
-    "Le barbare",
-    "Le guerrier"
+    "Le guerrier",
+    "Le roublard",
+    "Le rôdeur"
    ],
    "rep": 0,
-   "expl": "Le magicien peut lancer Appel de familier (Find Familiar), un sort de niveau 1 qui se lance comme un rituel et ne coûte pas d’emplacement.",
-   "src": "SRD 5.1, « Find Familiar » ; Manuel des Joueurs 5e (2014), chap. 3 « Magicien »",
+   "src": "Eberron: Rising from the Last War (2019) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Parade de projectiles (deflect missiles, niveau 3) réduit les dégâts d’un projectile, et le moine peut le relancer s’il les réduit à 0.",
+   "id": "cla-114",
    "conf": "probable"
   },
   {
-   "id": "cla-030",
-   "concept": "cla-030",
+   "type": "vf",
    "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle est la caractéristique principale du magicien ?",
-   "choix": [
-    "Force",
-    "Intelligence",
-    "Charisme",
-    "Sagesse"
-   ],
-   "rep": 1,
-   "expl": "L’Intelligence détermine le DD de ses sorts, son bonus d’attaque magique et le nombre de sorts préparés.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien (Spellcasting)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-031",
-   "concept": "cla-031",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le barbare peut entrer en rage.",
-   "rep": true,
-   "expl": "Vrai : la Rage lui donne avantage aux tests de Force, un bonus aux dégâts et une résistance aux dégâts physiques courants.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barbare",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-032",
-   "concept": "cla-032",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, le magicien est une classe de combat rapproché.",
+   "q": "Dans D&D 5e, un barbare en rage peut lancer des sorts.",
    "rep": false,
-   "expl": "Faux : fragile (d6 de dés de vie, aucune armure), le magicien reste en arrière et lance des sorts.",
-   "src": "SRD 5.1, « Wizard »",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Faux : en rage, le barbare ne peut ni lancer de sorts ni se concentrer sur eux.",
+   "id": "cla-115",
    "conf": "probable"
   },
   {
-   "id": "cla-033",
-   "concept": "cla-033",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, le moine peut se battre sans arme.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le moine gagne une vitesse supplémentaire tant qu’il ne porte ni armure ni bouclier.",
    "rep": true,
-   "expl": "Vrai : ses Arts martiaux lui donnent des dégâts de mains nues qui évoluent (d4 au niveau 1, jusqu’à d10 au niveau 17).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Moine",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Vrai : Mouvement sans armure ajoute 3 m dès le niveau 2, puis davantage ; au niveau 9, il peut courir sur les murs et l’eau.",
+   "id": "cla-116",
    "conf": "probable"
   },
   {
-   "id": "cla-034",
-   "concept": "cla-034",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, le paladin ne lance aucun sort.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le paladin peut lancer des sorts dès le niveau 1.",
    "rep": false,
-   "expl": "Faux : à partir du niveau 2, il lance des sorts divins, en plus de ses capacités d’Imposition des mains et de Sens divin.",
-   "src": "SRD 5.1, « Paladin »",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Faux : le paladin, comme le rôdeur, commence à lancer des sorts au niveau 2.",
+   "id": "cla-117",
    "conf": "probable"
   },
   {
-   "id": "cla-035",
-   "concept": "cla-035",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, le rôdeur est spécialisé dans la survie.",
-   "rep": true,
-   "expl": "Vrai : pistage, ennemi juré et terrain de prédilection sont au cœur de ses capacités.",
-   "src": "SRD 5.1, « Ranger »",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-036",
-   "concept": "cla-036",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le druide peut prendre une forme animale.",
+   "q": "Dans D&D 5e, le roublard obtient l’Expertise dès le niveau 1.",
    "rep": true,
-   "expl": "Vrai : grâce à la Forme sauvage (niveau 2), qui se limite à des bêtes dont le facteur de puissance augmente avec le niveau.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Druide",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Vrai : il double sa maîtrise dans deux compétences (ou une compétence et les outils de voleur), puis deux de plus au niveau 6.",
+   "id": "cla-118",
    "conf": "probable"
   },
   {
-   "id": "cla-037",
-   "concept": "cla-037",
+   "type": "vf",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le barde est une classe de lanceur de sorts.",
+   "q": "Dans D&D 5e, l’occultiste récupère ses emplacements de sort après un repos court.",
    "rep": true,
-   "expl": "Vrai : il lance des sorts de barde (Charisme) en plus de son Inspiration bardique ; c’est un lanceur de sorts complet.",
-   "src": "SRD 5.1, « Bard » (Spellcasting)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Vrai : c’est le principe de la magie de pacte ; ses emplacements sont peu nombreux mais toujours du plus haut niveau disponible.",
+   "id": "cla-119",
    "conf": "probable"
   },
   {
-   "id": "cla-038",
-   "concept": "cla-038",
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le clerc ne peut pas porter d’armure lourde, quel que soit son domaine.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Faux : plusieurs domaines (Vie, Guerre, Tempête, Nature) donnent la maîtrise des armures lourdes.",
+   "id": "cla-120",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’ensorceleur prépare ses sorts chaque jour depuis un grimoire.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Faux : l’ensorceleur connaît un nombre fixe de sorts ; c’est le magicien qui prépare ses sorts depuis un grimoire.",
+   "id": "cla-121",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un magicien de niveau 1 commence avec six sorts de niveau 1 dans son grimoire.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Vrai : il en ajoute deux à chaque niveau, plus ceux qu’il copie.",
+   "id": "cla-122",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le barbare utilise un d6 comme dé de vie.",
-   "rep": false,
-   "expl": "Faux : le barbare utilise un d12.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barbare",
+   "q": "Dans D&D 5e, le barbare de niveau 20 augmente sa Force et sa Constitution de 4.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Vrai : Champion primitif porte ces deux caractéristiques jusqu’à 24 au maximum.",
+   "id": "cla-123",
    "conf": "probable"
   },
   {
-   "id": "cla-039",
-   "concept": "cla-039",
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le guerrier gagne plus d’améliorations de caractéristiques que les autres classes.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Vrai : sept au total (niveaux 4, 6, 8, 12, 14, 16 et 19), contre cinq pour la plupart des classes.",
+   "id": "cla-124",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le druide peut prendre la forme d’une bête volante dès le niveau 2.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Faux : les bêtes volantes ne sont accessibles qu’au niveau 8 (FP 1) ; au niveau 2, ni vol ni nage.",
+   "id": "cla-125",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la Frappe étourdissante du moine coûte un point de ki.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Vrai : la cible doit réussir un jet de Constitution ou être étourdie jusqu’à la fin du tour suivant du moine.",
+   "id": "cla-126",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le magicien utilise un d12 comme dé de vie.",
+   "q": "Dans D&D 5e, l’Intervention divine peut être tentée une fois par jour en cas de réussite.",
    "rep": false,
-   "expl": "Faux : le magicien utilise un d6, parmi les plus faibles du jeu.",
-   "src": "SRD 5.1, « Wizard » (Hit Points)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Faux : si elle réussit, il faut attendre 7 jours avant de l’utiliser à nouveau ; si elle échoue, on peut réessayer après un repos long.",
+   "id": "cla-127",
    "conf": "probable"
   },
   {
-   "id": "cla-040",
-   "concept": "cla-040",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, l’ensorceleur apprend ses sorts depuis un grimoire.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le rôdeur Maître des bêtes combat avec un compagnon animal.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Vrai : son compagnon agit sur ses ordres et gagne en puissance avec lui.",
+   "id": "cla-128",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le barde est un lanceur de sorts complet, jusqu’au niveau 9.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Vrai : le barde accède aux sorts de niveau 9, comme le clerc, le druide, l’ensorceleur et le magicien.",
+   "id": "cla-129",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’artificier fait partie du Manuel des Joueurs de 2014.",
    "rep": false,
-   "expl": "Faux : il tient son pouvoir de sa lignée ou d’un don inné et n’a pas besoin de grimoire, contrairement au magicien.",
-   "src": "SRD 5.1, « Sorcerer » (Spellcasting)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Faux : il est apparu dans Eberron (2019) puis Tasha (2020).",
+   "id": "cla-130",
    "conf": "probable"
   },
   {
-   "id": "cla-041",
-   "concept": "cla-041",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’occultiste a conclu un pacte avec une entité.",
-   "rep": true,
-   "expl": "Vrai : son protecteur (Fiélon, Grand Ancien, Archifée) lui accorde ses pouvoirs en échange de services.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Occultiste",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-042",
-   "concept": "cla-042",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le clerc peut soigner.",
-   "rep": true,
-   "expl": "Vrai : il soigne avec des sorts comme Soins ou Mot de guérison, selon son domaine divin.",
-   "src": "SRD 5.1, « Cleric »",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-043",
-   "concept": "cla-043",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le roublard obtient l’Attaque sournoise dès le niveau 1.",
-   "rep": true,
-   "expl": "Vrai : 1d6 de dégâts supplémentaires, qui augmentent au fil des niveaux.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Roublard",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-044",
-   "concept": "cla-044",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le niveau maximum d’un personnage est 30.",
-   "rep": false,
-   "expl": "Faux : le niveau maximum est 20 ; le niveau 30 existait dans d’anciennes éditions comme le D&D Rules Cyclopedia.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes »",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-045",
-   "concept": "cla-045",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le guerrier peut obtenir plusieurs attaques par action.",
-   "rep": true,
-   "expl": "Vrai : Attaque supplémentaire au niveau 5, puis deux de plus aux niveaux 11 et 20 (jusqu’à quatre attaques).",
-   "src": "SRD 5.1, « Fighter » (Extra Attack)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-046",
-   "concept": "cla-046",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, l’artificier est une classe du Manuel des Joueurs de 2014.",
-   "rep": false,
-   "expl": "Faux : l’artificier est ajouté plus tard, dans Eberron : Rising from the Last War (2019).",
-   "src": "Eberron : Rising from the Last War (2019)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-047",
-   "concept": "cla-047",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le paladin tire sa force d’un serment.",
-   "rep": true,
-   "expl": "Vrai : le serment (Dévotion, Anciens ou Vengeance) définit sa sous-classe.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Paladin",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-048",
-   "concept": "cla-048",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le moine utilise des points de ki.",
-   "rep": true,
-   "expl": "Vrai : le ki alimente Rafale de coups, Défense patiente et Pas du vent ; le moine en gagne un par niveau à partir du niveau 2.",
-   "src": "SRD 5.1, « Monk » (Ki)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-049",
-   "concept": "cla-049",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le clerc ne peut pas porter d’armure.",
-   "rep": false,
-   "expl": "Faux : il porte les armures légères et intermédiaires, et les boucliers ; certains domaines donnent aussi les armures lourdes.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-050",
-   "concept": "cla-050",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le druide ne peut pas lancer de sorts.",
-   "rep": false,
-   "expl": "Faux : il lance des sorts de druide (Sagesse), qui soignent, invoquent ou déchaînent la nature.",
-   "src": "SRD 5.1, « Druid » (Spellcasting)",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-051",
-   "concept": "cla-051",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau maximum d’un personnage joueur ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de fois par repos long un barbare de niveau 1 peut-il entrer en rage ?",
+   "rep": 2,
    "min": 1,
-   "max": 30,
+   "max": 6,
    "pas": 1,
-   "unite": "niveau",
+   "unite": "fois",
    "tolerance": 0,
-   "rep": 20,
-   "expl": "Niveau 20 : il correspond au dernier palier de chaque classe.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes »",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Deux rages au niveau 1, puis davantage avec les niveaux ; au niveau 20, les rages sont illimitées.",
+   "id": "cla-131",
+   "conf": "probable"
   },
   {
-   "id": "cla-052",
-   "concept": "cla-052",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de classes le Manuel des Joueurs de 2014 présente-t-il ?",
-   "min": 5,
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de dés d’Attaque sournoise un roublard de niveau 19 lance-t-il ?",
+   "rep": 10,
+   "min": 1,
+   "max": 20,
+   "pas": 1,
+   "unite": "d6",
+   "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "10d6 au niveau 19 : 1d6 de plus tous les deux niveaux impairs.",
+   "id": "cla-132",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le bonus de maîtrise maximal au niveau 20 ?",
+   "rep": 6,
+   "min": 2,
+   "max": 10,
+   "pas": 1,
+   "unite": "bonus",
+   "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le bonus de maîtrise passe de +2 à +6 au fil des niveaux : +3 au 5, +4 au 9, +5 au 13, +6 au 17.",
+   "id": "cla-133",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien de points de vie l’Imposition des mains d’un paladin de niveau 20 peut-elle soigner en tout ?",
+   "rep": 100,
+   "min": 20,
+   "max": 200,
+   "pas": 5,
+   "unite": "PV",
+   "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "5 × 20 = 100 PV à répartir, rechargés après un repos long.",
+   "id": "cla-134",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de classes de base compte le Manuel des Joueurs de 2014 ?",
+   "rep": 12,
+   "min": 6,
    "max": 20,
    "pas": 1,
    "unite": "classes",
    "tolerance": 0,
-   "rep": 12,
-   "expl": "Douze : barbare, barde, clerc, druide, ensorceleur, guerrier, magicien, moine, occultiste, paladin, rôdeur et roublard.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-053",
-   "concept": "cla-053",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la taille du dé de vie du barbare (nombre de faces) ?",
-   "min": 4,
-   "max": 20,
-   "pas": 1,
-   "unite": "faces",
-   "tolerance": 0,
-   "rep": 12,
-   "expl": "d12 : le barbare gagne 1d12 (ou 7) PV par niveau, plus son modificateur de Constitution.",
-   "src": "SRD 5.1, « Barbarian » (Hit Points)",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-054",
-   "concept": "cla-054",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la taille du dé de vie du magicien (nombre de faces) ?",
-   "min": 4,
-   "max": 20,
-   "pas": 1,
-   "unite": "faces",
-   "tolerance": 0,
-   "rep": 6,
-   "expl": "d6 : le magicien gagne en moyenne 4 PV par niveau (plus Con).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Magicien",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-055",
-   "concept": "cla-055",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la taille du dé de vie du guerrier (nombre de faces) ?",
-   "min": 4,
-   "max": 20,
-   "pas": 1,
-   "unite": "faces",
-   "tolerance": 0,
-   "rep": 10,
-   "expl": "d10 : 6 PV en moyenne par niveau (plus Constitution).",
-   "src": "SRD 5.1, « Fighter » (Hit Points)",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-056",
-   "concept": "cla-056",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la taille du dé de vie du roublard (nombre de faces) ?",
-   "min": 4,
-   "max": 20,
-   "pas": 1,
-   "unite": "faces",
-   "tolerance": 0,
-   "rep": 8,
-   "expl": "d8, comme le clerc, le barde ou le moine : 5 PV en moyenne par niveau (plus Constitution).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Roublard",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-057",
-   "concept": "cla-057",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, à quel niveau le guerrier obtient-il sa seconde attaque ?",
-   "min": 1,
-   "max": 20,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 5,
-   "expl": "Au niveau 5 : Attaque supplémentaire lui permet d’attaquer deux fois par action Attaquer.",
-   "src": "SRD 5.1, « Fighter » (Extra Attack)",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-058",
-   "concept": "cla-058",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de sous-classes de barde le Manuel des Joueurs présente-t-il ?",
-   "min": 1,
-   "max": 10,
-   "pas": 1,
-   "unite": "sous-classes",
-   "tolerance": 0,
-   "rep": 2,
-   "expl": "Deux : le Collège du savoir et le Collège de la vaillance ; d’autres arrivent dans des suppléments.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Barde",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-059",
-   "concept": "cla-059",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de sort maximal ?",
-   "min": 1,
-   "max": 12,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 9,
-   "expl": "Le niveau 9 : les sorts de niveau 9 (Souhait, Arrêt du temps…) sont accessibles aux lanceurs de sorts complets au niveau 17.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » et chap. 11",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-060",
-   "concept": "cla-060",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, à quel niveau le magicien choisit-il sa tradition arcanique (sous-classe) ?",
-   "min": 1,
-   "max": 10,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 2,
-   "expl": "Au niveau 2 : il choisit une école de magie (abjuration, évocation, nécromancie, etc.).",
-   "src": "SRD 5.1, « Wizard » (Arcane Tradition)",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-061",
-   "concept": "cla-061",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, à quel niveau le clerc choisit-il son domaine divin ?",
-   "min": 1,
-   "max": 10,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 1,
-   "expl": "Au niveau 1 : le domaine (Vie, Lumière, Guerre, Tempête, Savoir…) lui donne sorts et capacités dès le début.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-062",
-   "concept": "cla-062",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, à quel niveau l’ensorceleur choisit-il son origine magique ?",
-   "min": 1,
-   "max": 10,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 1,
-   "expl": "Au niveau 1 : lignée draconique ou magie sauvage, dans le Manuel des Joueurs.",
-   "src": "SRD 5.1, « Sorcerer » (Sorcerous Origin)",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-063",
-   "concept": "cla-063",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, à quel niveau le paladin prête-t-il son serment (sous-classe) ?",
-   "min": 1,
-   "max": 10,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 3,
-   "expl": "Au niveau 3, après avoir reçu Sens divin et Imposition des mains au niveau 1.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Paladin",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-064",
-   "concept": "cla-064",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, à quel niveau le barbare choisit-il sa voie primitive ?",
-   "min": 1,
-   "max": 10,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 3,
-   "expl": "Au niveau 3 : Voie du berserker ou du guerrier totémique dans le Manuel des Joueurs.",
-   "src": "SRD 5.1, « Barbarian » (Primal Path)",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-065",
-   "concept": "cla-065",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, à quel niveau l’occultiste choisit-il son protecteur ?",
-   "min": 1,
-   "max": 10,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 1,
-   "expl": "Au niveau 1 : le protecteur (Fiélon, Grand Ancien, Archifée) détermine sa liste de sorts étendue.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Occultiste",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-066",
-   "concept": "cla-066",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, le magicien choisit sa tradition arcanique au niveau 2.",
-   "rep": true,
-   "expl": "Vrai : il choisit alors une école de magie, comme l’évocation ou l’illusion.",
-   "src": "SRD 5.1, « Wizard » (Arcane Tradition)",
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Douze classes ; l’artificier, treizième classe officielle, est arrivé plus tard.",
+   "id": "cla-135",
    "conf": "probable"
   },
   {
-   "id": "cla-067",
-   "concept": "cla-067",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le rôdeur utilise un d6 comme dé de vie.",
-   "rep": false,
-   "expl": "Faux : le rôdeur a un d10, comme le guerrier et le paladin.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Rôdeur",
-   "conf": "probable"
-  },
-  {
-   "id": "cla-068",
-   "concept": "cla-068",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, quelle est la taille du dé de vie du paladin (nombre de faces) ?",
-   "min": 4,
-   "max": 20,
-   "pas": 1,
-   "unite": "faces",
-   "tolerance": 0,
-   "rep": 10,
-   "expl": "d10 : il encaisse bien, car il combat en première ligne.",
-   "src": "SRD 5.1, « Paladin » (Hit Points)",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-069",
-   "concept": "cla-069",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la taille du dé de vie du clerc (nombre de faces) ?",
-   "min": 4,
-   "max": 20,
-   "pas": 1,
-   "unite": "faces",
-   "tolerance": 0,
-   "rep": 8,
-   "expl": "d8 : le clerc est une classe moyennement résistante.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes », Clerc",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "cla-070",
-   "concept": "cla-070",
    "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, à quel niveau le rôdeur choisit-il son archétype ?",
-   "min": 1,
-   "max": 10,
+   "q": "Dans D&D 5e, à quel niveau un personnage atteint-il le niveau maximal du jeu ?",
+   "rep": 20,
+   "min": 10,
+   "max": 30,
    "pas": 1,
    "unite": "niveau",
    "tolerance": 0,
-   "rep": 3,
-   "expl": "Au niveau 3 : Chasseur ou Maître des bêtes dans le Manuel des Joueurs.",
-   "src": "SRD 5.1, « Ranger » (Ranger Archetype)",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le niveau 20 est le sommet ; le Guide du Maître propose ensuite des « dons épiques » comme récompense.",
+   "id": "cla-136",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de points de ki un moine de niveau 10 possède-t-il ?",
+   "rep": 10,
+   "min": 2,
+   "max": 20,
+   "pas": 1,
+   "unite": "points",
+   "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le moine a autant de points de ki que son niveau, à partir du niveau 2.",
+   "id": "cla-137",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans D&D 5e, à quel niveau le paladin obtient-il l’Aura de courage ?",
+   "rep": 10,
+   "min": 3,
+   "max": 18,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Aura de courage (niveau 10) rend le paladin et ses alliés proches insensibles à la peur.",
+   "id": "cla-138",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le guerrier récupère des points de vie en action bonus grâce à son Second ____.",
+   "choix": [
+    "souffle",
+    "élan",
+    "vent",
+    "cœur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Second souffle rend 1d10 + niveau de guerrier PV, une fois par repos court.",
+   "id": "cla-139",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le paladin peut sentir les célestes, fiélons et morts-vivants grâce à son Sens ____.",
+   "choix": [
+    "divin",
+    "sacré",
+    "spirituel",
+    "astral"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le Sens divin détecte ces créatures à 18 m, plusieurs fois par jour.",
+   "id": "cla-140",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le moine de la voie de la ____ ouverte peut renverser ou repousser sa cible avec son Déluge de coups.",
+   "choix": [
+    "Main",
+    "Paume",
+    "Voie",
+    "Lame"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "La voie de la Main ouverte (way of the open hand) est la voie du moine la plus classique du Manuel des Joueurs.",
+   "id": "cla-141",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’occultiste conclut un pacte avec un ____ (archifée, fiélon, grand ancien…).",
+   "choix": [
+    "protecteur",
+    "maître",
+    "parrain",
+    "gardien"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le protecteur de l’occultiste lui accorde ses pouvoirs en échange de services parfois mystérieux.",
+   "id": "cla-142",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, au niveau 11, l’occultiste obtient un sort de niveau 6 lançable une fois par jour : c’est son ____ mystique.",
+   "choix": [
+    "arcanum",
+    "secret",
+    "pacte",
+    "grimoire"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "L’arcanum mystique donne un sort de niveau 6, puis 7, 8 et 9 aux niveaux suivants, une fois par repos long.",
+   "id": "cla-143",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le rôdeur du Manuel des Joueurs choisit un terrain favori grâce à Explorateur-____.",
+   "choix": [
+    "né",
+    "expert",
+    "nomade",
+    "guide"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Explorateur-né (natural explorer) l’aide à voyager, pister et trouver de la nourriture dans ce terrain.",
+   "id": "cla-144",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le roublard de niveau 11 ne fait jamais moins de 10 aux tests de compétences maîtrisées grâce à son Talent ____.",
+   "choix": [
+    "fiable",
+    "naturel",
+    "sûr",
+    "infaillible"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Talent fiable (reliable talent) remplace tout résultat de 9 ou moins au d20 par un 10 pour ces tests.",
+   "id": "cla-145",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le barbare de la voie du guerrier ____ s’inspire d’un esprit animal (ours, aigle, loup…).",
+   "choix": [
+    "totémique",
+    "sauvage",
+    "ancestral",
+    "primitif"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le guerrier totémique choisit des totems : l’ours, par exemple, lui donne la résistance à presque tous les dégâts en rage.",
+   "id": "cla-146",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le collège du ____ donne au barde des compétences supplémentaires et le pouvoir de couper les mots d’un ennemi.",
+   "choix": [
+    "Savoir",
+    "Glamour",
+    "Murmure",
+    "Vaillance"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Mots cinglants (cutting words) permet au barde du Savoir de réduire le jet d’attaque ou de dégâts d’un ennemi.",
+   "id": "cla-147",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le cercle de la ____ permet au druide de récupérer des emplacements de sort lors d’un repos court.",
+   "choix": [
+    "Terre",
+    "Lune",
+    "Spore",
+    "Étoile"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Récupération naturelle du cercle de la Terre ressemble à la Restauration arcanique du magicien.",
+   "id": "cla-148",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le magicien de niveau 18 lance certains sorts de niveau 1 et 2 à volonté grâce à la ____ des sorts.",
+   "choix": [
+    "Maîtrise",
+    "Mémoire",
+    "Science",
+    "Clé"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Maîtrise des sorts lui permet de lancer à volonté un sort de niveau 1 et un sort de niveau 2 choisis.",
+   "id": "cla-149",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le clerc peut repousser les morts-vivants grâce à son Conduit ____.",
+   "choix": [
+    "divin",
+    "sacré",
+    "béni",
+    "céleste"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le Conduit divin s’utilise une fois par repos court au début, puis plus souvent ; chaque domaine y ajoute un effet.",
+   "id": "cla-150",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, l’ensorceleur de lignée draconique gagne une CA naturelle de 13 + modificateur de ____.",
+   "choix": [
+    "Dextérité",
+    "Constitution",
+    "Charisme",
+    "Force"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Résistance draconique lui donne aussi 1 PV supplémentaire par niveau, grâce à ses écailles.",
+   "id": "cla-151",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ est un guerrier saint lié par un serment.",
+   "choix": [
+    "paladin",
+    "clerc",
+    "moine",
+    "guerrier"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le paladin tire ses pouvoirs de son serment, plus que d’un dieu.",
+   "id": "cla-152",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces classes ne lance pas de sorts au niveau 1 ?",
+   "choix": [
+    "Paladin",
+    "Clerc",
+    "Druide",
+    "Magicien"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le paladin commence à lancer des sorts au niveau 2. Clerc, druide et magicien le peuvent dès le niveau 1.",
+   "id": "cla-153",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces archétypes n’appartient pas au guerrier ?",
+   "choix": [
+    "Escroc arcanique",
+    "Maître de guerre",
+    "Champion",
+    "Chevalier occulte"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "L’escroc arcanique est un archétype de roublard.",
+   "id": "cla-154",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces domaines de clerc n’est pas dans le Manuel des Joueurs de 2014 ?",
+   "choix": [
+    "Forge",
+    "Vie",
+    "Ruse",
+    "Savoir"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le domaine de la Forge vient du Guide de Xanathar (2017). Vie, Ruse et Savoir sont dans le Manuel des Joueurs.",
+   "id": "cla-155",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces capacités n’appartient pas au moine ?",
+   "choix": [
+    "Second souffle",
+    "Parade de projectiles",
+    "Frappe étourdissante",
+    "Âme de diamant"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Second souffle est une capacité du guerrier.",
+   "id": "cla-156",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces protecteurs d’occultiste n’est pas dans le Manuel des Joueurs de 2014 ?",
+   "choix": [
+    "La Lame maudite",
+    "L’Archifée",
+    "Le Fiélon",
+    "Le Grand Ancien"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "La Lame maudite (hexblade) vient du Guide de Xanathar (2017).",
+   "id": "cla-157",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces classes n’utilise pas la Sagesse pour lancer ses sorts ?",
+   "choix": [
+    "Barde",
+    "Clerc",
+    "Druide",
+    "Rôdeur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le barde lance ses sorts grâce au Charisme.",
+   "id": "cla-158",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces classes n’a pas un dé de vie d10 ?",
+   "choix": [
+    "Roublard",
+    "Guerrier",
+    "Paladin",
+    "Rôdeur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le roublard a un d8 ; guerrier, paladin et rôdeur ont un d10.",
+   "id": "cla-159",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces serments de paladin n’est pas dans le Manuel des Joueurs de 2014 ?",
+   "choix": [
+    "Serment de conquête",
+    "Serment de dévotion",
+    "Serment des anciens",
+    "Serment de vengeance"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le Serment de conquête vient du Guide de Xanathar (2017).",
+   "id": "cla-160",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces ressources n’existe pas en D&D 5e ?",
+   "choix": [
+    "Points de mana",
+    "Points de ki",
+    "Points de sorcellerie",
+    "Dés de supériorité"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "D&D 5e n’utilise pas de mana : les lanceurs ont des emplacements de sort.",
+   "id": "cla-161",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces collèges de barde ne vient pas du Guide de Xanathar ?",
+   "choix": [
+    "Collège du Savoir",
+    "Collège des Épées",
+    "Collège du Glamour",
+    "Collège des Murmures"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Xanathar ajoute les collèges du Glamour, des Épées et des Murmures ; le collège du Savoir est dans le Manuel des Joueurs.",
+   "id": "cla-162",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces classes ne peut pas lancer de sorts de niveau 9 ?",
+   "choix": [
+    "Paladin",
+    "Barde",
+    "Druide",
+    "Ensorceleur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le paladin, demi-lanceur, s’arrête au niveau 5. Barde, druide et ensorceleur montent jusqu’au niveau 9.",
+   "id": "cla-163",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles classes ont un dé de vie d8 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Barde",
+    "Clerc",
+    "Roublard",
+    "Barbare",
+    "Magicien"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Barde, clerc et roublard ont un d8 ; le barbare a un d12 et le magicien un d6.",
+   "id": "cla-164",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles classes utilisent le Charisme pour lancer leurs sorts ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Barde",
+    "Ensorceleur",
+    "Occultiste",
+    "Paladin",
+    "Clerc",
+    "Magicien"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Barde, ensorceleur, occultiste et paladin lancent leurs sorts au Charisme.",
+   "id": "cla-165",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels archétypes de guerrier figurent dans le Manuel des Joueurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Champion",
+    "Maître de guerre",
+    "Chevalier occulte",
+    "Samouraï",
+    "Archer arcanique"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le samouraï et l’archer arcanique viennent du Guide de Xanathar.",
+   "id": "cla-166",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles capacités appartiennent au roublard ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Attaque sournoise",
+    "Ruse",
+    "Esquive instinctive",
+    "Rage",
+    "Fougue"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "La rage est au barbare, la Fougue au guerrier.",
+   "id": "cla-167",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels domaines de clerc figurent dans le Manuel des Joueurs de 2014 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lumière",
+    "Nature",
+    "Tempête",
+    "Guerre",
+    "Mort",
+    "Forge"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le Manuel des Joueurs propose Savoir, Vie, Lumière, Nature, Tempête, Ruse et Guerre. La Mort est dans le Guide du Maître, la Forge dans Xanathar.",
+   "id": "cla-168",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles classes sont des demi-lanceurs (sorts jusqu’au niveau 5) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Paladin",
+    "Rôdeur",
+    "Barde",
+    "Clerc",
+    "Druide"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Paladin et rôdeur (et l’artificier) progressent à mi-vitesse et s’arrêtent au niveau 5.",
+   "id": "cla-169",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles classes peuvent combattre efficacement sans armure grâce à Défense sans armure ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Barbare",
+    "Moine",
+    "Guerrier",
+    "Paladin",
+    "Clerc"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017) ; Tasha’s Cauldron of Everything (2020)",
+   "expl": "Seuls le barbare (Con) et le moine (Sag) ont Défense sans armure.",
+   "id": "cla-170",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles sous-classes viennent de Tasha’s Cauldron of Everything ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Âme mécanique",
+    "Chevalier runique",
+    "Vagabond féerique",
+    "Berserker",
+    "Assassin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "L’âme mécanique (ensorceleur), le chevalier runique (guerrier) et le vagabond féerique (rôdeur) viennent de Tasha ; berserker et assassin sont dans le Manuel des Joueurs.",
+   "id": "cla-171",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles faveurs de pacte peut choisir l’occultiste ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Chaîne",
+    "Lame",
+    "Grimoire",
+    "Bouclier",
+    "Couronne"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Le Manuel des Joueurs propose chaîne, lame et grimoire ; Tasha ajoute le talisman.",
+   "id": "cla-172",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles classes récupèrent une ressource importante après un repos court ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Occultiste",
+    "Moine",
+    "Guerrier",
+    "Ensorceleur",
+    "Barbare"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Emplacements de pacte de l’occultiste, ki du moine, Fougue et Second souffle du guerrier se rechargent au repos court.",
+   "id": "cla-173",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces classes par dé de vie croissant.",
+   "items": [
+    "Magicien",
+    "Roublard",
+    "Guerrier",
+    "Barbare"
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "d6 pour le magicien, d8 pour le roublard, d10 pour le guerrier, d12 pour le barbare.",
+   "id": "cla-174",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe les attaques supplémentaires du guerrier par niveau croissant.",
+   "items": [
+    "Deux attaques",
+    "Trois attaques",
+    "Quatre attaques"
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Deux attaques au niveau 5, trois au niveau 11, quatre au niveau 20.",
+   "id": "cla-175",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces dés d’Inspiration bardique par niveau croissant.",
+   "items": [
+    "d6",
+    "d8",
+    "d10",
+    "d12"
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "d6 au niveau 1, d8 au 5, d10 au 10, d12 au 15.",
+   "id": "cla-176",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces capacités du moine par niveau d’obtention.",
+   "items": [
+    "Arts martiaux",
+    "Ki",
+    "Frappe étourdissante",
+    "Corps vide",
+    "Perfection de l’être"
+   ],
+   "src": "Tasha’s Cauldron of Everything (2020)",
+   "expl": "Niveaux 1, 2, 5, 18 et 20 : du combat à mains nues à la plénitude du ki.",
+   "id": "cla-177",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces suppléments par date de parution.",
+   "items": [
+    "Sword Coast Adventurer’s Guide",
+    "Xanathar’s Guide to Everything",
+    "Tasha’s Cauldron of Everything"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "2015, 2017 puis 2020 : chacun a ajouté des sous-classes.",
+   "id": "cla-178",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces capacités du paladin par niveau d’obtention.",
+   "items": [
+    "Imposition des mains",
+    "Châtiment divin",
+    "Aura de protection",
+    "Aura de courage"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Imposition des mains au niveau 1, Châtiment divin au 2, Aura de protection au 6, Aura de courage au 10.",
+   "id": "cla-179",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces bonus de maîtrise par niveau croissant.",
+   "items": [
+    "+2",
+    "+3",
+    "+4",
+    "+5",
+    "+6"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "+2 au niveau 1, +3 au 5, +4 au 9, +5 au 13 et +6 au 17.",
+   "id": "cla-180",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces capacités du roublard par niveau d’obtention.",
+   "items": [
+    "Attaque sournoise",
+    "Ruse",
+    "Esquive instinctive",
+    "Dérobade",
+    "Talent fiable"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Attaque sournoise au niveau 1, Ruse au 2, Esquive instinctive au 5, Dérobade au 7, Talent fiable au 11.",
+   "id": "cla-181",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces capacités du clerc par niveau d’obtention.",
+   "items": [
+    "Choix du domaine",
+    "Conduit divin",
+    "Destruction des morts-vivants",
+    "Intervention divine"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Domaine au niveau 1, Conduit divin au 2, Destruction des morts-vivants au 5, Intervention divine au 10.",
+   "id": "cla-182",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces capacités du barbare par niveau d’obtention.",
+   "items": [
+    "Rage",
+    "Attaque téméraire",
+    "Attaque supplémentaire",
+    "Critique brutal",
+    "Champion primitif"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Rage au niveau 1, Attaque téméraire au 2, Attaque supplémentaire au 5, Critique brutal au 9, Champion primitif au 20.",
+   "id": "cla-183",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque classe à sa capacité emblématique.",
+   "paires": [
+    [
+     "Barbare",
+     "Rage"
+    ],
+    [
+     "Roublard",
+     "Attaque sournoise"
+    ],
+    [
+     "Paladin",
+     "Châtiment divin"
+    ],
+    [
+     "Druide",
+     "Forme sauvage"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Ces capacités résument le style de chaque classe.",
+   "id": "cla-184",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque classe à sa ressource.",
+   "paires": [
+    [
+     "Moine",
+     "Ki"
+    ],
+    [
+     "Ensorceleur",
+     "Points de sorcellerie"
+    ],
+    [
+     "Maître de guerre",
+     "Dés de supériorité"
+    ],
+    [
+     "Barde",
+     "Inspiration bardique"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Chaque classe gère une ressource différente.",
+   "id": "cla-185",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque classe à sa caractéristique de lanceur.",
+   "paires": [
+    [
+     "Magicien",
+     "Intelligence"
+    ],
+    [
+     "Druide",
+     "Sagesse"
+    ],
+    [
+     "Occultiste",
+     "Charisme"
+    ],
+    [
+     "Artificier",
+     "Intelligence (lui aussi)"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Le magicien et l’artificier utilisent l’Intelligence, le druide la Sagesse, l’occultiste le Charisme.",
+   "id": "cla-186",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sous-classe à sa classe.",
+   "paires": [
+    [
+     "Berserker",
+     "Barbare"
+    ],
+    [
+     "Escroc arcanique",
+     "Roublard"
+    ],
+    [
+     "Chevalier occulte",
+     "Guerrier"
+    ],
+    [
+     "Main ouverte",
+     "Moine"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Les sous-classes du Manuel des Joueurs, chacune liée à sa classe.",
+   "id": "cla-187",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque capacité de niveau 20 à sa classe.",
+   "paires": [
+    [
+     "Archidruide",
+     "Druide"
+    ],
+    [
+     "Coup de chance",
+     "Roublard"
+    ],
+    [
+     "Sorts de prédilection",
+     "Magicien"
+    ],
+    [
+     "Champion primitif",
+     "Barbare"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Les capacités de niveau 20 couronnent chaque classe.",
+   "id": "cla-188",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque protecteur d’occultiste à son livre.",
+   "paires": [
+    [
+     "Archifée",
+     "Manuel des Joueurs"
+    ],
+    [
+     "Lame maudite",
+     "Xanathar"
+    ],
+    [
+     "Génie",
+     "Tasha"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Les protecteurs se sont multipliés au fil des suppléments.",
+   "id": "cla-189",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque classe à son dé de vie.",
+   "paires": [
+    [
+     "Barbare",
+     "d12"
+    ],
+    [
+     "Guerrier",
+     "d10"
+    ],
+    [
+     "Barde",
+     "d8"
+    ],
+    [
+     "Magicien",
+     "d6"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Plus le dé est gros, plus la classe encaisse.",
+   "id": "cla-190",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque archétype de rôdeur à son style.",
+   "paires": [
+    [
+     "Chasseur",
+     "Tueur de proies"
+    ],
+    [
+     "Maître des bêtes",
+     "Compagnon animal"
+    ],
+    [
+     "Traqueur des ténèbres",
+     "Embuscade dans le noir"
+    ],
+    [
+     "Vagabond féerique",
+     "Charme féerique"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Chasseur et Maître des bêtes (Manuel des Joueurs), Traqueur des ténèbres (Xanathar), Vagabond féerique (Tasha).",
+   "id": "cla-191",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque domaine de clerc à son effet de Conduit divin.",
+   "paires": [
+    [
+     "Vie",
+     "Préservation de la vie"
+    ],
+    [
+     "Tempête",
+     "Colère destructrice"
+    ],
+    [
+     "Ruse",
+     "Invocation de double"
+    ],
+    [
+     "Lumière",
+     "Radiance de l’aube"
+    ]
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Chaque domaine ajoute un effet unique au Conduit divin.",
+   "id": "cla-192",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. J’entre en rage\n2. J’ai le plus gros dé de vie\n3. Je combats souvent sans armure",
+   "choix": [
+    "Barbare",
+    "Guerrier",
+    "Moine",
+    "Paladin"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Le barbare compte sur sa fureur et sa robustesse.",
+   "id": "cla-193",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je combats à mains nues\n2. Je dépense du ki\n3. Je cours sur les murs",
+   "choix": [
+    "Moine",
+    "Roublard",
+    "Barbare",
+    "Rôdeur"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Le moine maîtrise son corps et son esprit.",
+   "id": "cla-194",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je tire ma magie d’un pacte\n2. Je récupère mes sorts au repos court\n3. Mon sort mineur favori décharge une énergie destructrice",
+   "choix": [
+    "Occultiste",
+    "Ensorceleur",
+    "Magicien",
+    "Barde"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "L’occultiste tient ses pouvoirs d’un protecteur ; ses emplacements de pacte reviennent après un repos court.",
+   "id": "cla-195",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. J’inspire mes alliés\n2. Je suis touche-à-tout\n3. Je peux voler les sorts des autres classes",
+   "choix": [
+    "Barde",
+    "Ensorceleur",
+    "Paladin",
+    "Roublard"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Le barde est un lanceur de sorts polyvalent et charismatique.",
+   "id": "cla-196",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je lance des sorts sans grimoire\n2. Ma magie est dans mon sang\n3. Je tords mes sorts par la métamagie",
+   "choix": [
+    "Ensorceleur",
+    "Magicien",
+    "Occultiste",
+    "Druide"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "L’ensorceleur est né avec la magie ; la métamagie lui permet de modifier ses sorts avec ses points de sorcellerie.",
+   "id": "cla-197",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je frappe dans l’ombre\n2. Je me cache en action bonus\n3. Je parle l’argot des voleurs",
+   "choix": [
+    "Roublard",
+    "Rôdeur",
+    "Moine",
+    "Barde"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Le roublard est le spécialiste de la discrétion et des pièges.",
+   "id": "cla-198",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je soigne par imposition des mains\n2. Je frappe avec le Châtiment divin\n3. Mon serment est sacré",
+   "choix": [
+    "Paladin",
+    "Clerc",
+    "Guerrier",
+    "Druide"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Le paladin unit combat et magie divine ; son serment est la source de ses pouvoirs.",
+   "id": "cla-199",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je porte l’armure lourde sans magie\n2. Je dépense des dés pour désarmer, feinter ou renverser\n3. Je suis le tacticien du groupe",
+   "choix": [
+    "Maître de guerre",
+    "Champion",
+    "Chevalier occulte",
+    "Samouraï"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Le maître de guerre (battle master) est l’archétype tactique du guerrier.",
+   "id": "cla-200",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je me transforme en bête\n2. Je refuse les armures de métal\n3. Je parle une langue secrète réservée aux miens",
+   "choix": [
+    "Druide",
+    "Rôdeur",
+    "Barbare",
+    "Moine"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Le druide protège la nature et en emprunte les formes.",
+   "id": "cla-201",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. J’insuffle la magie dans des objets\n2. Je viens d’Eberron\n3. Je lance mes sorts à travers des outils",
+   "choix": [
+    "Artificier",
+    "Magicien",
+    "Barde",
+    "Occultiste"
+   ],
+   "rep": 0,
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "L’artificier est la treizième classe officielle de la 5e.",
+   "id": "cla-202",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le guerrier de niveau 9 peut relancer un jet de sauvegarde raté grâce à son ____.",
+   "choix": [
+    "Indomptable",
+    "Implacable",
+    "Inébranlable",
+    "Tenace"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Indomptable (indomitable) s’utilise une fois par repos long, puis deux et trois fois aux niveaux 13 et 17.",
+   "id": "cla-203",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, au niveau 7, le moine et le roublard ne subissent aucun dégât d’une boule de feu s’ils réussissent leur sauvegarde, grâce à la ____.",
+   "choix": [
+    "Dérobade",
+    "Parade",
+    "Feinte",
+    "Riposte"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "La Dérobade (evasion) annule les dégâts en cas de sauvegarde de Dextérité réussie et les divise par deux en cas d’échec.",
+   "id": "cla-204",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le rôdeur de niveau 20 devient ____ des ennemis : il ajoute sa Sagesse à une attaque ou aux dégâts contre son ennemi juré.",
+   "choix": [
+    "Tueur",
+    "Fléau",
+    "Maître",
+    "Chasseur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Tueur d’ennemis (foe slayer) est la capacité finale du rôdeur dans le Manuel des Joueurs.",
+   "id": "cla-205",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, l’ensorceleur peut convertir ses points de sorcellerie en emplacements grâce à la ____ de magie.",
+   "choix": [
+    "Source",
+    "Fontaine",
+    "Réserve",
+    "Coupe"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "La Source de magie (font of magic) permet de convertir dans les deux sens : emplacements en points, points en emplacements.",
+   "id": "cla-206",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces capacités du guerrier par niveau d’obtention.",
+   "items": [
+    "Second souffle",
+    "Fougue",
+    "Attaque supplémentaire",
+    "Indomptable"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Second souffle au niveau 1, Fougue au 2, Attaque supplémentaire au 5, Indomptable au 9.",
+   "id": "cla-207",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces capacités du magicien par niveau d’obtention.",
+   "items": [
+    "Restauration arcanique",
+    "Tradition arcanique",
+    "Maîtrise des sorts",
+    "Sorts de prédilection"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Restauration arcanique au niveau 1, tradition au 2, Maîtrise des sorts au 18, Sorts de prédilection au 20.",
+   "id": "cla-208",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque tradition arcanique à son école.",
+   "paires": [
+    [
+     "Évocateur",
+     "Évocation"
+    ],
+    [
+     "Nécromancien",
+     "Nécromancie"
+    ],
+    [
+     "Devin",
+     "Divination"
+    ],
+    [
+     "Illusionniste",
+     "Illusion"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Le Manuel des Joueurs propose une tradition par école de magie : abjuration, divination, enchantement, évocation, illusion, invocation, nécromancie et transmutation.",
+   "id": "cla-209",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque capacité à son niveau d’obtention chez le roublard.",
+   "paires": [
+    [
+     "Attaque sournoise",
+     "Niveau 1"
+    ],
+    [
+     "Ruse",
+     "Niveau 2"
+    ],
+    [
+     "Talent fiable",
+     "Niveau 11"
+    ],
+    [
+     "Coup de chance",
+     "Niveau 20"
+    ]
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Ces paliers jalonnent la progression du roublard dans le Manuel des Joueurs.",
+   "id": "cla-210",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles classes peuvent porter l’armure lourde dès le niveau 1 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Guerrier",
+    "Paladin",
+    "Rôdeur",
+    "Barbare",
+    "Roublard"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Seuls le guerrier et le paladin maîtrisent toutes les armures ; certains domaines de clerc ajoutent l’armure lourde.",
+   "id": "cla-211",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles capacités permettent de relancer ou d’améliorer un dé déjà lancé ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Indomptable",
+    "Coup de chance",
+    "Inspiration bardique",
+    "Attaque téméraire",
+    "Second souffle"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Classes » ; Xanathar’s Guide to Everything (2017)",
+   "expl": "Indomptable relance une sauvegarde, Coup de chance transforme un échec en réussite (ou un 20) et l’Inspiration bardique ajoute un dé.",
+   "id": "cla-212",
+   "conf": "probable"
   }
  ],
  "sources": []

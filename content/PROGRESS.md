@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**15 / 99 thèmes terminés — 2183 questions au total.**
+**16 / 99 thèmes terminés — 2325 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -21,7 +21,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 13 | Golems, constructions et animés | 140 | 50 | 16 (7) | 14 | 11 | 11 | 11 | 10 | 9 | 8 | 47 % | 14/75/51 | 34 | terminé |
 | 14 | L’art du Maître du Jeu | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 15 | Races jouables et peuples d’aventuriers | 141 | 44 | 19 (11) | 8 | 14 | 12 | 12 | 10 | 10 | 12 | 45 % | 11/97/33 | 34 | terminé |
-| 16 | Classes de personnage et archétypes | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 16 | Classes de personnage et archétypes | 142 | 44 | 16 (9) | 8 | 18 | 11 | 12 | 12 | 11 | 10 | 42 % | 11/94/37 | 6 | terminé |
 | 17 | Sorts célèbres et écoles de magie | 141 | 44 | 21 (12) | 11 | 15 | 11 | 11 | 10 | 9 | 9 | 46 % | 10/95/36 | 8 | terminé |
 | 18 | Dés, caractéristiques et mécaniques | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 19 | Dieux, panthéons et plans d’existence | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -344,9 +344,8 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - content/013/a.lm:58 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mord) — Dans D&D 5e, quel sort de niveau 4 crée un chien de garde invisible qui aboie et mord ?
 - content/013/b.lm:23 : ÉVIDENT ? vrai/faux peut-être tautologique (anim) — Dans D&D 5e, le sort Animation d’objets peut animer jusqu’à dix objets de taille Minuscule
 - golems-constructions : niveaux déséquilibrés [14, 75, 51]
-- content/015/c.lm:101 : ordre : critère de classement peu explicite
-- content/015/c.lm:103 : ordre : critère de classement peu explicite
 - races-dnd : niveaux déséquilibrés [11, 97, 33]
+- classes-dnd : niveaux déséquilibrés [11, 94, 37]
 - content/017/a.lm:45 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (lanc) — Dans D&D 5e, que risque un lanceur qui utilise Souhait pour autre chose que reproduire un 
 - content/017/a.lm:105 : ÉVIDENT ? vrai/faux peut-être tautologique (cont) — Dans D&D 5e, Contresort réussit automatiquement contre un sort de niveau 3 ou moins.
 - sorts-magie-dnd : niveaux déséquilibrés [10, 95, 36]

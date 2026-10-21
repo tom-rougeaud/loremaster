@@ -27,7 +27,7 @@ FULL = 140          # cible par défaut (v1.6) ; un thème étroit peut viser mo
 CLASSIC = ('qcm', 'vf')
 VISIBLE_MIN = 60          # un thème n’apparaît dans le jeu qu’à partir de ce nombre de questions
 LEGACY = {'terre-du-milieu': (3, 'Terre du Milieu (questions générales)', 'anneau', 0)}   # thèmes historiques hors registre
-CRIT = re.compile(r'croissant|décroissant|chronolog|du plus|de la plus|du moins|de la moins|ordre d|dans l’ordre|premier|parution|apparition|taille|du nord|de l’ouest|du haut|du bas|par ordre|ancien|récent|grand|petit|tôt|tard|naissance|date|du début', re.I)
+CRIT = re.compile(r'croissant|décroissant|chronolog|du plus|de la plus|du moins|de la moins|ordre d|dans l’ordre|premier|parution|apparition|taille|du nord|de l’ouest|du haut|du bas|par ordre|ancien|récent|grand|petit|tôt|tard|naissance|date|du début|niveau d’obtention|par niveau', re.I)
 OVR = {}
 LETTER = {'Q': 'qcm', 'V': 'vf', 'S': 'slider', 'H': 'trou', 'I': 'intrus', 'W': 'qui', 'M': 'multi', 'O': 'ordre', 'A': 'assoc'}
 
