@@ -343,5 +343,3 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - content/066/a.lm:3 : mot de la bonne réponse présent dans l’énoncé (« sorcieres ») et absent des autres propositions
 - content/093/a.lm:23 : mot de la bonne réponse présent dans l’énoncé (« leurs ») et absent des autres propositions
 - content/097/a.lm:10 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (pres) — Quel aveu revient dans presque tous les films Star Wars, dans la bouche de héros inquiets 
-- content/098/a.lm:13 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (poti) — Quelle potion, à base d’aconit, permet à un professeur lycanthrope de garder ses esprits p
-- content/098/a.lm:13 : mot de la bonne réponse présent dans l’énoncé (« potion ») et absent des autres propositions
