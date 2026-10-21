@@ -1,0 +1,2153 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "forces-du-mal-hp",
+  "nom": "Les forces du Mal (Harry Potter)",
+  "royaume": "Le Monde des Sorciers",
+  "icone": "serpent",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle phrase forme l’anagramme du nom complet de Tom Jedusor, dans la traduction française ?",
+   "choix": [
+    "Je suis Voldemort",
+    "Je suis le Lord noir",
+    "Voldemort est roi",
+    "Je suis immortel"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (Gallimard, 1999) ; Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "« Tom Elvis Jedusor » : le traducteur a changé le second prénom pour que l’anagramme fonctionne.",
+   "id": "t036-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est le père de Voldemort ?",
+   "choix": [
+    "Un Moldu de Little Hangleton",
+    "Un Mangemort de Durmstrang",
+    "Un professeur de Poudlard",
+    "Un descendant de Serpentard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (Gallimard, 1999) ; Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Mérope Gaunt l’a séduit grâce à un philtre d’amour, puis il l’a abandonnée.",
+   "id": "t036-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Tom Jedusor grandit-il ?",
+   "choix": [
+    "Dans un orphelinat moldu de Londres",
+    "Chez son grand-père, dans la masure",
+    "Dans le manoir des Malefoy",
+    "À Little Hangleton, chez son père"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (Gallimard, 1999) ; Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Sa mère meurt juste après sa naissance, dans l’orphelinat même.",
+   "id": "t036-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui vient annoncer à Tom, enfant, qu’il est sorcier ?",
+   "choix": [
+    "Albus Dumbledore",
+    "Horace Slughorn",
+    "Armando Dippet",
+    "Rubeus Hagrid"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (Gallimard, 1999) ; Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Dumbledore repère d’emblée son goût pour les trophées volés et la cruauté.",
+   "id": "t036-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Où Tom Jedusor travaille-t-il après Poudlard ?",
+   "choix": [
+    "Chez Barjow et Beurk",
+    "Au ministère de la Magie",
+    "À la banque Gringotts",
+    "Chez Ollivander"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (Gallimard, 1999) ; Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Il y repère des objets précieux chez de riches clients, comme Hepzibah Smith.",
+   "id": "t036-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel meurtre sert à créer le journal-Horcruxe ?",
+   "choix": [
+    "Celui de Mimi Geignarde",
+    "Celui de Cedric Diggory",
+    "Celui de son père",
+    "Celui de Bertha Jorkins"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et la Chambre des secrets (Gallimard, 1999) ; Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Mimi meurt en croisant le regard du Basilic, en 1943, dans les toilettes des filles.",
+   "id": "t036-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel poste Tom Jedusor demande-t-il à Dumbledore, des années après ses études ?",
+   "choix": [
+    "Défense contre les forces du Mal",
+    "Potions et poisons",
+    "Étude des runes anciennes",
+    "Histoire de la magie"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005) ; Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Refusé, il aurait maudit le poste : aucun professeur ne le garde plus d’un an.",
+   "id": "t036-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel fantôme révèle au jeune Tom où trouver le diadème perdu ?",
+   "choix": [
+    "La Dame grise",
+    "Le Baron Sanglant",
+    "Mimi Geignarde",
+    "Nick Quasi-Sans-Tête"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005) ; Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Fille de Rowena Serdaigle, elle avait volé le diadème et l’avait caché en Albanie.",
+   "id": "t036-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel élève de Serpentard déclenche le feu qui détruit le diadème, dans le roman ?",
+   "choix": [
+    "Vincent Crabbe",
+    "Drago Malefoy",
+    "Gregory Goyle",
+    "Blaise Zabini"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005) ; Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Il ne maîtrise pas le Feudeymon et périt dans la Salle sur Demande.",
+   "id": "t036-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que subit Dumbledore en passant à son doigt la bague des Gaunt ?",
+   "choix": [
+    "Sa main se dessèche, condamnée",
+    "Ses yeux perdent la vue",
+    "Sa voix s’éteint à jamais",
+    "Sa mémoire s’efface peu à peu"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005) ; Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Rogue contient la malédiction, mais ne lui laisse qu’environ un an à vivre.",
+   "id": "t036-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle pierre est sertie sur la bague des Gaunt ?",
+   "choix": [
+    "La pierre de Résurrection",
+    "La Pierre philosophale",
+    "Une émeraude de Serpentard",
+    "Une opale maudite"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005) ; Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "C’est l’une des trois Reliques de la Mort ; Harry la retrouve dans le Vif d’or.",
+   "id": "t036-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que demande Regulus Black à Kreattur, au sujet du médaillon ?",
+   "choix": [
+    "De le détruire",
+    "De le livrer à Voldemort",
+    "De le cacher à Gringotts",
+    "De le donner à Sirius"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005) ; Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Kreattur n’y parvient jamais, malgré des années d’efforts.",
+   "id": "t036-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel trafiquant vole le médaillon dans la maison des Black ?",
+   "choix": [
+    "Mondingus Fletcher",
+    "Peter Pettigrow",
+    "Kreattur",
+    "Rufus Scrimgeour"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005) ; Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Il le cède ensuite à une employée du ministère pour éviter une amende.",
+   "id": "t036-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui porte le médaillon de Serpentard au ministère quand le trio le dérobe ?",
+   "choix": [
+    "Dolores Ombrage",
+    "Pius Thicknesse",
+    "Corban Yaxley",
+    "Rita Skeeter"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998) ; Harry Potter et la Coupe de feu (2000)",
+   "expl": "Elle prétend que le « S » gravé dessus désigne sa propre famille, les Selwyn.",
+   "id": "t036-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où se cache Voldemort, privé de corps, avant de rencontrer Quirrell ?",
+   "choix": [
+    "Dans une forêt d’Albanie",
+    "Dans la Forêt interdite",
+    "Dans la prison d’Azkaban",
+    "Dans la Chambre des secrets"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998) ; Harry Potter et la Coupe de feu (2000)",
+   "expl": "Il y survit en possédant des animaux, serpents surtout.",
+   "id": "t036-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel loup-garou a mordu Remus Lupin enfant ?",
+   "choix": [
+    "Fenrir Greyback",
+    "Walden Macnair",
+    "Antonin Dolohov",
+    "Augustus Rookwood"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998) ; Harry Potter et la Coupe de feu (2000)",
+   "expl": "Il voulait punir le père de Remus, qui l’avait insulté.",
+   "id": "t036-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sous quelle apparence Barty Croupton Jr passe-t-il une année à Poudlard ?",
+   "choix": [
+    "Celle d’Alastor Maugrey",
+    "Celle de son propre père",
+    "Celle d’Igor Karkaroff",
+    "Celle de Ludo Verpey"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998) ; Harry Potter et la Coupe de feu (2000)",
+   "expl": "Il boit du Polynectar toutes les heures et garde le vrai prisonnier dans une malle.",
+   "id": "t036-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège a rendu fous les parents de Neville ?",
+   "choix": [
+    "Le Doloris",
+    "L’Imperium",
+    "Le Confundo",
+    "Le Sectumsempra"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998) ; Harry Potter et la Coupe de feu (2000)",
+   "expl": "Ils vivent depuis à l’hôpital Sainte-Mangouste et ne reconnaissent plus leur fils.",
+   "id": "t036-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Mangemort fait apparaître la Marque des Ténèbres au-dessus de la Coupe du monde de 1994 ?",
+   "choix": [
+    "Barty Croupton Jr",
+    "Lucius Malefoy",
+    "Peter Pettigrow",
+    "Walden Macnair"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998) ; Harry Potter et la Coupe de feu (2000)",
+   "expl": "Il utilise la baguette de Harry, volée dans la tribune par son elfe Winky.",
+   "id": "t036-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que représentent les deux baguettes « jumelles » de Harry et de Voldemort ?",
+   "choix": [
+    "Leurs plumes viennent du même phénix",
+    "Elles sont taillées dans le même if",
+    "Ollivander les a faites le même jour",
+    "Elles ont appartenu à Serpentard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998) ; Harry Potter et la Coupe de feu (2000)",
+   "expl": "Ce phénix est Fumseck ; d’où l’étrange réaction au cimetière.",
+   "id": "t036-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom porte le phénomène qui lie les deux baguettes au cimetière ?",
+   "choix": [
+    "Priori Incantatem",
+    "Finite Incantatem",
+    "Protego Totalum",
+    "Expecto Patronum"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Les derniers sorts de la baguette de Voldemort ressortent en ombres, dont les parents de Harry.",
+   "id": "t036-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle mission Voldemort confie-t-il à Drago Malefoy ?",
+   "choix": [
+    "Tuer Albus Dumbledore",
+    "Voler la coupe de Poufsouffle",
+    "Libérer les Mangemorts d’Azkaban",
+    "Espionner l’Ordre du Phénix"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "C’est une punition déguisée pour l’échec de Lucius au ministère.",
+   "id": "t036-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Par quel moyen Drago fait-il entrer les Mangemorts dans Poudlard ?",
+   "choix": [
+    "Une armoire à disparaître",
+    "La cheminée de Rogue",
+    "Un passage d’Honeydukes",
+    "Un Portoloin piégé"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Son double se trouve chez Barjow et Beurk ; Drago passe l’année à la réparer.",
+   "id": "t036-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet maudit blesse Katie Bell ?",
+   "choix": [
+    "Un collier d’opales",
+    "Un médaillon d’or",
+    "Une bague noire",
+    "Un livre ancien"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Il était destiné à Dumbledore ; Katie le touche à travers un trou de son gant.",
+   "id": "t036-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui lance le sortilège qui tue Dumbledore, en haut de la tour d’astronomie ?",
+   "choix": [
+    "Severus Rogue",
+    "Drago Malefoy",
+    "Bellatrix Lestrange",
+    "Fenrir Greyback"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Il agit à la demande de Dumbledore lui-même, déjà condamné par la bague.",
+   "id": "t036-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle devise est gravée sur la statue du ministère sous le règne de Voldemort ?",
+   "choix": [
+    "La magie est puissance",
+    "Pour le plus grand bien",
+    "Toujours pur",
+    "Les sorciers d’abord"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "La statue montre des Moldus écrasés sous les trônes des sorciers.",
+   "id": "t036-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle devise Grindelwald fait-il graver au-dessus de l’entrée de sa prison ?",
+   "choix": [
+    "Pour le plus grand bien",
+    "La magie est puissance",
+    "Toujours pur",
+    "Ni maîtres ni Moldus"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Il finit enfermé derrière ces mots, après sa défaite.",
+   "id": "t036-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "À quel fabricant de baguettes Grindelwald vole-t-il la Baguette de Sureau ?",
+   "choix": [
+    "Gregorovitch",
+    "Ollivander",
+    "Karkaroff",
+    "Krum"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Voldemort retrouve Gregorovitch des décennies plus tard et le tue.",
+   "id": "t036-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cadavre Nagini habite-t-il pour tendre un piège à Harry à Godric’s Hollow ?",
+   "choix": [
+    "Celui de Bathilda Tourdesac",
+    "Celui d’Arabella Figg",
+    "Celui de Muriel Prewett",
+    "Celui d’Hepzibah Smith"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Bathilda, historienne de la magie, était la grand-tante de Grindelwald.",
+   "id": "t036-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur incarne Grindelwald dans Les Secrets de Dumbledore ?",
+   "choix": [
+    "Mads Mikkelsen",
+    "Johnny Depp",
+    "Colin Farrell",
+    "Jude Law"
+   ],
+   "rep": 0,
+   "src": "Warner Bros., Harry Potter and the Goblet of Fire (2005)",
+   "expl": "Il reprend le rôle tenu par Johnny Depp dans les deux films précédents.",
+   "id": "t036-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel acteur joue Barty Croupton Jr dans La Coupe de feu ?",
+   "choix": [
+    "David Tennant",
+    "Brendan Gleeson",
+    "Timothy Spall",
+    "Jason Isaacs"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Brendan Gleeson joue le vrai Maugrey, dont Barty prend l’apparence.",
+   "id": "t036-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Contre quoi les Inferi sont-ils vulnérables ?",
+   "choix": [
+    "Le feu",
+    "L’argent",
+    "L’eau bénite",
+    "Le chant du phénix"
+   ],
+   "rep": 0,
+   "src": "Wizarding World, « Lord Voldemort »",
+   "expl": "Dumbledore les repousse d’un anneau de flammes dans la caverne.",
+   "id": "t036-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment se nommaient les premiers partisans de Tom Jedusor ?",
+   "choix": [
+    "Les Chevaliers de Walpurgis",
+    "Les Fils de Serpentard",
+    "L’Ordre du Serpent",
+    "Les Sang-Purs d’Albion"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Le nom de Mangemorts vient plus tard, quand le groupe se durcit.",
+   "id": "t036-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi prononcer « Voldemort » devient-il dangereux en 1997 ?",
+   "choix": [
+    "Un Tabou signale celui qui le dit",
+    "Il réveille aussitôt Nagini",
+    "Il attire tous les Détraqueurs",
+    "Il brûle la langue du sorcier"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Les Rafleurs transplanent aussitôt là où le nom a été dit.",
+   "id": "t036-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où se trouve la Marque des Ténèbres sur le corps des Mangemorts ?",
+   "choix": [
+    "Sur l’avant-bras gauche",
+    "Sur la nuque",
+    "Sur le front",
+    "Sur la paume droite"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "En la touchant, Voldemort appelle tous ses fidèles à lui.",
+   "id": "t036-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui espionne la prophétie et en rapporte une partie à Voldemort ?",
+   "choix": [
+    "Severus Rogue",
+    "Peter Pettigrow",
+    "Mondingus Fletcher",
+    "Igor Karkaroff"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "Il ignore alors qu’elle mènera Voldemort chez Lily, qu’il aime.",
+   "id": "t036-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel autre enfant aurait pu être celui de la prophétie ?",
+   "choix": [
+    "Neville Londubat",
+    "Drago Malefoy",
+    "Ron Weasley",
+    "Cedric Diggory"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "Né lui aussi fin juillet, de parents qui ont défié Voldemort trois fois.",
+   "id": "t036-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel établissement la prophétie est-elle prononcée ?",
+   "choix": [
+    "La Tête de Sanglier",
+    "Les Trois Balais",
+    "Le Chaudron Baveur",
+    "Chez Madame Pieddodu"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Dumbledore y faisait passer un entretien d’embauche à Trelawney.",
+   "id": "t036-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Voldemort fait-il tuer Rogue ?",
+   "choix": [
+    "Pour devenir maître de la Baguette de Sureau",
+    "Parce qu’il a découvert sa trahison",
+    "Pour punir l’évasion de Harry",
+    "Pour punir l’échec de Drago"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Il se trompe : la baguette obéissait à Drago, puis à Harry.",
+   "id": "t036-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui sauve le trio prisonnier au manoir des Malefoy ?",
+   "choix": [
+    "Dobby",
+    "Kreattur",
+    "Winky",
+    "Fumseck"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Il meurt en les sauvant, frappé par le couteau de Bellatrix.",
+   "id": "t036-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ministre fantoche sert Voldemort, ensorcelé par l’Imperium ?",
+   "choix": [
+    "Pius Thicknesse",
+    "Rufus Scrimgeour",
+    "Cornelius Fudge",
+    "Barty Croupton"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Yaxley l’a ensorcelé ; c’est Voldemort qui gouverne en réalité.",
+   "id": "t036-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment appelle-t-on Voldemort quand on a peur de dire son nom ?",
+   "choix": [
+    "Vous-Savez-Qui",
+    "Le Sans-Nom",
+    "L’Innommable",
+    "Le Seigneur Pâle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "On dit aussi « Celui-Dont-On-Ne-Doit-Pas-Prononcer-Le-Nom ».",
+   "id": "t036-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel Mangemort espionne le Département des mystères comme Langue-de-plomb ?",
+   "choix": [
+    "Augustus Rookwood",
+    "Antonin Dolohov",
+    "Walden Macnair",
+    "Corban Yaxley"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Il apprend à Voldemort que seuls les concernés peuvent saisir une prophétie.",
+   "id": "t036-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme prend le fragment d’âme de Voldemort dans les limbes de « King’s Cross » ?",
+   "choix": [
+    "Un petit être écorché sous un siège",
+    "Un serpent blanc enroulé sur un banc",
+    "Un vieillard en robe noire, muet",
+    "Une ombre sans visage qui hurle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Dumbledore explique à Harry qu’on ne peut plus rien pour lui.",
+   "id": "t036-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que transmet Lily Potter à Harry en se sacrifiant pour lui ?",
+   "choix": [
+    "Une protection d’amour dans son sang",
+    "Un bouclier d’or autour de son lit",
+    "Une cicatrice qui repousse les sorts",
+    "Un sortilège de Fidelitas renforcé"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Voldemort, en prenant le sang de Harry, prolonge cette protection malgré lui.",
+   "id": "t036-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Voldemort parle Fourchelang, comme Salazar Serpentard.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il hérite ce don de la famille Gaunt, ultimes descendants de Serpentard.",
+   "id": "t036-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tom Jedusor a ouvert la Chambre des secrets quand il était élève.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il fait accuser Hagrid et reçoit une récompense pour services rendus.",
+   "id": "t036-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Voldemort a fait du Choixpeau magique un de ses Horcruxes.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il voulait des reliques des fondateurs, mais pas le Choixpeau, d’où Harry tire l’épée.",
+   "id": "t036-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Inferi sont des fantômes.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : ce sont des cadavres ensorcelés pour obéir à un mage noir.",
+   "id": "t036-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Grindelwald et Dumbledore ont été très proches dans leur jeunesse.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ils rêvaient ensemble de dominer les Moldus, jusqu’à la mort d’Ariana.",
+   "id": "t036-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Grindelwald meurt de vieillesse dans sa cellule.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : Voldemort le tue à Nurmengard en cherchant la Baguette de Sureau.",
+   "id": "t036-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Bellatrix Lestrange est la sœur de Narcissa Malefoy.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elles sont nées Black, comme leur sœur Andromeda, mère de Tonks.",
+   "id": "t036-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Lucius Malefoy est le père de Bellatrix Lestrange.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il est son beau-frère, marié à sa sœur Narcissa.",
+   "id": "t036-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Narcissa Malefoy ment à Voldemort en déclarant Harry mort.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle veut seulement entrer dans Poudlard pour retrouver Drago.",
+   "id": "t036-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Voldemort a fait ses études à Durmstrang.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il a étudié à Poudlard, à Serpentard, comme préfet puis préfet-en-chef.",
+   "id": "t036-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Voldemort peut voler sans balai ni monture.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry le découvre lors de la fuite de Privet Drive ; Rogue aussi en est capable.",
+   "id": "t036-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "C’est Drago Malefoy qui tue Dumbledore.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il désarme Dumbledore mais ne peut se résoudre à le tuer.",
+   "id": "t036-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Mangemorts portent des masques lors de leurs attaques.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Capuchons et masques cachent leur identité, comme à la Coupe du monde.",
+   "id": "t036-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Harry tue Voldemort d’un sortilège de mort.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : Harry lance un Expelliarmus ; le sort de mort de Voldemort se retourne contre lui.",
+   "id": "t036-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "En 1981, le sortilège de mort lancé sur Harry bébé rebondit sur Voldemort.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry n’en garde qu’une cicatrice en forme d’éclair.",
+   "id": "t036-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Fenrir Greyback est un vampire.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : c’est un loup-garou qui s’attaque volontairement aux enfants.",
+   "id": "t036-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La prophétie désigne nommément Harry Potter.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : elle parle d’un enfant né fin juillet ; Voldemort choisit lui-même Harry.",
+   "id": "t036-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le journal de Tom Jedusor conserve un souvenir de lui à seize ans.",
+   "rep": true,
+   "src": "Wizarding World, « Lord Voldemort »",
+   "expl": "Ce souvenir puise la vie de Ginny pour reprendre forme.",
+   "id": "t036-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année naît Tom Jedusor ?",
+   "rep": 1926,
+   "min": 1900,
+   "max": 1960,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prince de Sang-Mêlé (2005)",
+   "expl": "Il naît le 31 décembre, à Londres, peu avant la mort de sa mère.",
+   "id": "t036-064",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En combien de morceaux Voldemort veut-il diviser son âme ?",
+   "rep": 7,
+   "min": 2,
+   "max": 12,
+   "pas": 1,
+   "unite": "morceaux",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "Il voit dans le sept le nombre magique le plus puissant.",
+   "id": "t036-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de Mangemorts s’évadent d’Azkaban en janvier 1996 ?",
+   "rep": 10,
+   "min": 2,
+   "max": 30,
+   "pas": 1,
+   "unite": "Mangemorts",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Bellatrix Lestrange et Antonin Dolohov sont du nombre.",
+   "id": "t036-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "En quelle année Voldemort attaque-t-il les Potter à Godric’s Hollow ?",
+   "rep": 1981,
+   "min": 1970,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Le soir d’Halloween, le 31 octobre, après la trahison du Gardien du secret.",
+   "id": "t036-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel jour de mai 1998 a lieu la bataille de Poudlard ?",
+   "rep": 2,
+   "min": 1,
+   "max": 31,
+   "pas": 1,
+   "unite": "mai",
+   "tolerance": 0,
+   "src": "Wizarding World, « Gellert Grindelwald »",
+   "expl": "Le 2 mai est depuis fêté par les sorciers comme jour de la victoire.",
+   "id": "t036-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année naît Gellert Grindelwald ?",
+   "rep": 1883,
+   "min": 1850,
+   "max": 1950,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Il a seize ans lors de son été avec Dumbledore, en 1899.",
+   "id": "t036-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Quel âge a Voldemort à sa mort, en 1998 ?",
+   "rep": 71,
+   "min": 40,
+   "max": 100,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 1,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Né fin 1926, il meurt en mai 1998, dans la Grande Salle.",
+   "id": "t036-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel âge a Harry quand Voldemort attaque ses parents ?",
+   "rep": 1,
+   "min": 0,
+   "max": 5,
+   "pas": 1,
+   "unite": "an",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Il a quinze mois ; il est ensuite confié aux Dursley.",
+   "id": "t036-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les partisans de Voldemort s’appellent les ____.",
+   "choix": [
+    "Mangemorts",
+    "Détraqueurs",
+    "Rafleurs",
+    "Inferi"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ils portent la Marque des Ténèbres et se réunissent à l’appel de leur maître.",
+   "id": "t036-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les cadavres animés qui gardent la caverne de l’Horcruxe sont des ____.",
+   "choix": [
+    "Inferi",
+    "Détraqueurs",
+    "Strangulots",
+    "Épouvantards"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ils surgissent du lac noir quand on touche à l’eau.",
+   "id": "t036-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans la version française, le second prénom de Tom Jedusor est ____.",
+   "choix": [
+    "Elvis",
+    "Marvolo",
+    "Salazar",
+    "Morfin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il hérite ce prénom de son grand-père maternel.",
+   "id": "t036-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le village où vivent les Gaunt et où se trouve le cimetière s’appelle Little ____.",
+   "choix": [
+    "Hangleton",
+    "Whinging",
+    "Ottery",
+    "Godric"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La famille du père de Voldemort y possédait un grand manoir.",
+   "id": "t036-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les chasseurs de primes qui traquent les nés-Moldus s’appellent les ____.",
+   "choix": [
+    "Rafleurs",
+    "Aurors",
+    "Langues-de-plomb",
+    "Détraqueurs"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ils capturent Harry, Ron et Hermione et les emmènent au manoir des Malefoy.",
+   "id": "t036-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Lors du dernier duel, Harry lance le sortilège ____.",
+   "choix": [
+    "Expelliarmus",
+    "Avada Kedavra",
+    "Stupéfix",
+    "Sectumsempra"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "C’est devenu sa signature, même face au pire ennemi.",
+   "id": "t036-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans le premier film Les Animaux fantastiques, Grindelwald se fait passer pour Percival ____.",
+   "choix": [
+    "Graves",
+    "Dragonneau",
+    "Kowalski",
+    "Goldstein"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Colin Farrell joue Graves avant la révélation finale, où apparaît Johnny Depp.",
+   "id": "t036-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La jeune sœur de Dumbledore, morte lors du duel de 1899, s’appelle ____.",
+   "choix": [
+    "Ariana",
+    "Bathilda",
+    "Mérope",
+    "Hepzibah"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Personne ne sait quel sort l’a tuée, ce qui hante Albus toute sa vie.",
+   "id": "t036-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Pour entrer dans la caverne, il faut offrir du ____ à la paroi.",
+   "choix": [
+    "sang",
+    "feu",
+    "vin",
+    "sel"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le prix doit affaiblir celui qui entre : Dumbledore s’entaille le bras.",
+   "id": "t036-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Pour rejoindre l’îlot de la caverne, Harry et Dumbledore prennent une petite ____.",
+   "choix": [
+    "barque",
+    "luge",
+    "passerelle",
+    "baleine"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle ne porte qu’un seul sorcier adulte ; Harry, mineur, ne compte pas.",
+   "id": "t036-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’organisation fondée par Dumbledore pour combattre Voldemort s’appelle l’Ordre du ____.",
+   "choix": [
+    "Phénix",
+    "Merlin",
+    "Griffon",
+    "Dragon"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Son quartier général s’installe dans la maison des Black.",
+   "id": "t036-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Grindelwald a gravé le symbole des ____ sur un mur de Durmstrang.",
+   "choix": [
+    "Reliques de la Mort",
+    "Mangemorts",
+    "Fondateurs",
+    "Inferi"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Krum s’en souvient et s’emporte en voyant ce symbole au cou de Xenophilius Lovegood.",
+   "id": "t036-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’est pas un Horcruxe ?",
+   "choix": [
+    "L’épée de Gryffondor",
+    "Le journal de Tom Jedusor",
+    "La bague des Gaunt",
+    "Le diadème de Serdaigle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "L’épée, au contraire, sert à détruire plusieurs Horcruxes.",
+   "id": "t036-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un Mangemort ?",
+   "choix": [
+    "Mondingus Fletcher",
+    "Antonin Dolohov",
+    "Walden Macnair",
+    "Augustus Rookwood"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Mondingus est un petit escroc membre de l’Ordre du Phénix.",
+   "id": "t036-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a jamais possédé le médaillon de Serpentard ?",
+   "choix": [
+    "Lucius Malefoy",
+    "Dolores Ombrage",
+    "Mondingus Fletcher",
+    "Regulus Black"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le médaillon passe de main en main, de Mérope Gaunt jusqu’à Harry.",
+   "id": "t036-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Horcruxes n’est pas détruit par l’épée de Gryffondor ?",
+   "choix": [
+    "La coupe de Poufsouffle",
+    "La bague des Gaunt",
+    "Le médaillon de Serpentard",
+    "Nagini"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La coupe est percée d’un crochet de Basilic dans la Chambre des secrets.",
+   "id": "t036-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux n’a jamais abrité de Horcruxe ?",
+   "choix": [
+    "Nurmengard",
+    "Gringotts",
+    "La caverne marine",
+    "La maison des Gaunt"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Nurmengard est la prison bâtie par Grindelwald.",
+   "id": "t036-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Mangemorts n’appartient pas à la famille Lestrange ?",
+   "choix": [
+    "Antonin Dolohov",
+    "Bellatrix",
+    "Rodolphus",
+    "Rabastan"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Rodolphus et Rabastan sont frères ; Bellatrix est l’épouse de Rodolphus.",
+   "id": "t036-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces acteurs n’a jamais incarné Tom Jedusor ou Voldemort ?",
+   "choix": [
+    "Jamie Campbell Bower",
+    "Ralph Fiennes",
+    "Christian Coulson",
+    "Hero Fiennes Tiffin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Jamie Campbell Bower joue le jeune Grindelwald.",
+   "id": "t036-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas membre de la famille Gaunt ?",
+   "choix": [
+    "Hepzibah Smith",
+    "Elvis",
+    "Morfin",
+    "Mérope"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Hepzibah Smith descend d’Helga Poufsouffle ; Tom lui vole deux trésors.",
+   "id": "t036-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux n’est pas lié à la famille ou à l’enfance de Voldemort ?",
+   "choix": [
+    "Godric’s Hollow",
+    "Little Hangleton",
+    "L’orphelinat de Londres",
+    "La masure des Gaunt"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Godric’s Hollow est le village des Potter, des Dumbledore et des Tourdesac.",
+   "id": "t036-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Horcruxes n’a pas appartenu à un fondateur de Poudlard ?",
+   "choix": [
+    "La bague des Gaunt",
+    "La coupe de Poufsouffle",
+    "Le médaillon de Serpentard",
+    "Le diadème de Serdaigle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La bague vient des Peverell, ancêtres lointains des Gaunt.",
+   "id": "t036-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets ou êtres sont des Horcruxes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le journal de Tom Jedusor",
+    "La coupe de Poufsouffle",
+    "Nagini",
+    "Le Choixpeau magique",
+    "La pierre philosophale"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Voldemort aimait les objets prestigieux, chargés d’histoire.",
+   "id": "t036-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des Mangemorts ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lucius Malefoy",
+    "Bellatrix Lestrange",
+    "Antonin Dolohov",
+    "Remus Lupin",
+    "Kingsley Shacklebolt"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lupin et Kingsley appartiennent à l’Ordre du Phénix.",
+   "id": "t036-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels Horcruxes sont détruits par un crochet de Basilic ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le journal",
+    "La coupe de Poufsouffle",
+    "Le médaillon",
+    "Nagini",
+    "La bague"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le venin de Basilic fait partie des rares substances capables de les détruire.",
+   "id": "t036-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages Voldemort tue-t-il de sa propre baguette ? (plusieurs bonnes réponses)",
+   "choix": [
+    "James Potter",
+    "Lily Potter",
+    "Gellert Grindelwald",
+    "Charity Burbage",
+    "Albus Dumbledore",
+    "Sirius Black"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dumbledore meurt de la main de Rogue, Sirius de celle de Bellatrix.",
+   "id": "t036-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux sont liés à Grindelwald ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nurmengard",
+    "Durmstrang",
+    "Godric’s Hollow",
+    "Azkaban",
+    "Little Hangleton"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il passe l’été 1899 à Godric’s Hollow, chez sa grand-tante.",
+   "id": "t036-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels membres de la famille Black ont servi Voldemort ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bellatrix Lestrange",
+    "Regulus Black",
+    "Sirius Black",
+    "Andromeda Tonks"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Regulus finit par trahir Voldemort ; Sirius et Andromeda ont rompu avec leur famille.",
+   "id": "t036-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages portent la Marque des Ténèbres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Severus Rogue",
+    "Drago Malefoy",
+    "Igor Karkaroff",
+    "Narcissa Malefoy",
+    "Horace Slughorn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Karkaroff s’enfuit quand sa Marque devient de plus en plus nette.",
+   "id": "t036-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Que rencontrent Harry et Dumbledore dans la caverne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Un lac rempli d’Inferi",
+    "Une potion à boire",
+    "Un îlot au milieu du lac",
+    "Un dragon gardien",
+    "Un miroir enchanté"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dumbledore boit toute la potion pour atteindre le médaillon, qui se révèle un faux.",
+   "id": "t036-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels événements se déroulent au ministère de la Magie ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mort de Sirius",
+    "Vol du médaillon par le trio",
+    "Mort de Cedric",
+    "Mort de Dumbledore"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Sirius tombe derrière le voile du Département des mystères.",
+   "id": "t036-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages ont été possédés ou contrôlés par Voldemort ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Quirinus Quirrell",
+    "Ginny Weasley",
+    "Harry Potter",
+    "Neville Londubat",
+    "Luna Lovegood"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il possède Harry un instant au ministère, mais ne supporte pas son amour.",
+   "id": "t036-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces Horcruxes dans l’ordre de leur destruction.",
+   "items": [
+    "Le journal",
+    "La bague",
+    "Le médaillon",
+    "La coupe",
+    "Nagini"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "De la deuxième année de Harry jusqu’à la bataille de Poudlard.",
+   "id": "t036-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de la vie de Tom Jedusor dans l’ordre.",
+   "items": [
+    "Naissance de Tom",
+    "Entrée à Poudlard",
+    "Ouverture de la Chambre des secrets",
+    "Meurtre de son père"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il tue son père et ses grands-parents moldus l’été suivant l’ouverture de la Chambre.",
+   "id": "t036-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces apparitions de Voldemort dans l’ordre des romans.",
+   "items": [
+    "Derrière le turban de Quirrell",
+    "Souvenir dans le journal",
+    "Renaissance au cimetière",
+    "Duel au ministère avec Dumbledore"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il ne retrouve un corps qu’à la fin du quatrième tome.",
+   "id": "t036-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie de Grindelwald par ordre chronologique.",
+   "items": [
+    "Renvoi de Durmstrang",
+    "Été avec Albus Dumbledore",
+    "Défaite en duel",
+    "Mort à Nurmengard"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il meurt en 1998, en refusant de dire à Voldemort où se trouve la Baguette de Sureau.",
+   "id": "t036-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la nuit du cimetière dans l’ordre.",
+   "items": [
+    "Arrivée par le Portoloin",
+    "Mort de Cedric",
+    "Renaissance de Voldemort",
+    "Duel et Priori Incantatem",
+    "Fuite avec le corps de Cedric"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le trophée du Tournoi était un Portoloin, ensorcelé par Barty Croupton Jr.",
+   "id": "t036-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la bataille de Poudlard dans l’ordre.",
+   "items": [
+    "Destruction du diadème",
+    "Mort de Severus Rogue",
+    "Harry se rend dans la Forêt",
+    "Neville tue Nagini",
+    "Mort de Voldemort"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Voldemort accorde une heure de trêve, que Harry passe à voir les souvenirs de Rogue.",
+   "id": "t036-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Mort de Mimi Geignarde",
+    "Défaite de Grindelwald",
+    "Attaque de Godric’s Hollow",
+    "Retour de Voldemort au cimetière"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dans l’ordre : 1943, 1945, 1981 et 1995, soit un demi-siècle de magie noire.",
+   "id": "t036-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de la sixième année dans l’ordre.",
+   "items": [
+    "Katie Bell est maudite",
+    "Ron boit l’hydromel empoisonné",
+    "Expédition dans la caverne",
+    "Mort de Dumbledore"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ron est empoisonné le jour de son anniversaire, le 1er mars.",
+   "id": "t036-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sorciers du plus âgé au plus jeune.",
+   "items": [
+    "Gellert Grindelwald",
+    "Tom Jedusor",
+    "Lucius Malefoy",
+    "Drago Malefoy"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Nés en 1883, 1926, 1954 et 1980 : trois générations de sorciers attirés par la magie noire.",
+   "id": "t036-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Horcruxe à celui qui le détruit.",
+   "paires": [
+    [
+     "Journal",
+     "Harry"
+    ],
+    [
+     "Médaillon",
+     "Ron"
+    ],
+    [
+     "Coupe",
+     "Hermione"
+    ],
+    [
+     "Nagini",
+     "Neville"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Chacun des amis de Harry contribue à la chute de Voldemort.",
+   "id": "t036-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Horcruxe à son propriétaire d’origine.",
+   "paires": [
+    [
+     "Coupe",
+     "Helga Poufsouffle"
+    ],
+    [
+     "Médaillon",
+     "Salazar Serpentard"
+    ],
+    [
+     "Diadème",
+     "Rowena Serdaigle"
+    ],
+    [
+     "Bague",
+     "Famille Gaunt"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Tom voulait marquer son lien avec Poudlard, son premier vrai foyer.",
+   "id": "t036-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Horcruxe à sa cachette.",
+   "paires": [
+    [
+     "Coupe",
+     "Gringotts"
+    ],
+    [
+     "Diadème",
+     "Salle sur Demande"
+    ],
+    [
+     "Médaillon",
+     "Caverne marine"
+    ],
+    [
+     "Bague",
+     "Masure des Gaunt"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Chaque cachette a un sens personnel pour Voldemort.",
+   "id": "t036-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque acteur à son rôle.",
+   "paires": [
+    [
+     "Ralph Fiennes",
+     "Voldemort"
+    ],
+    [
+     "Helena Bonham Carter",
+     "Bellatrix"
+    ],
+    [
+     "Jason Isaacs",
+     "Lucius Malefoy"
+    ],
+    [
+     "Timothy Spall",
+     "Queudver"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ralph Fiennes joue Voldemort à partir de La Coupe de feu.",
+   "id": "t036-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque ingrédient du rituel du cimetière à son donneur.",
+   "paires": [
+    [
+     "Os",
+     "Père de Voldemort"
+    ],
+    [
+     "Chair",
+     "Queudver"
+    ],
+    [
+     "Sang",
+     "Harry Potter"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Queudver se tranche la main, qu’il remplace ensuite par une main d’argent.",
+   "id": "t036-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à son rôle.",
+   "paires": [
+    [
+     "Nurmengard",
+     "Prison de Grindelwald"
+    ],
+    [
+     "Manoir Malefoy",
+     "Quartier général des Mangemorts"
+    ],
+    [
+     "Little Hangleton",
+     "Cimetière de la renaissance"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le manoir des Malefoy sert aussi de prison pendant la dernière année.",
+   "id": "t036-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque membre de la famille Gaunt à son lien avec Voldemort.",
+   "paires": [
+    [
+     "Mérope",
+     "Mère"
+    ],
+    [
+     "Elvis",
+     "Grand-père"
+    ],
+    [
+     "Morfin",
+     "Oncle"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Morfin finit à Azkaban pour un crime commis par Tom.",
+   "id": "t036-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Mangemort à un fait marquant.",
+   "paires": [
+    [
+     "Lucius Malefoy",
+     "Glisse le journal à Ginny"
+    ],
+    [
+     "Walden Macnair",
+     "Doit exécuter Buck"
+    ],
+    [
+     "Peter Pettigrow",
+     "Se cache en rat"
+    ],
+    [
+     "Antonin Dolohov",
+     "Attaque le trio dans un café"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Dolohov et Rowle retrouvent le trio peu après le mariage de Bill et Fleur.",
+   "id": "t036-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque Mangemort à son sort final.",
+   "paires": [
+    [
+     "Bellatrix",
+     "Tuée par Molly Weasley"
+    ],
+    [
+     "Barty Croupton Jr",
+     "Baiser du Détraqueur"
+    ],
+    [
+     "Queudver",
+     "Étranglé par sa propre main"
+    ],
+    [
+     "Igor Karkaroff",
+     "Retrouvé mort après sa fuite"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Barty Jr ne peut jamais témoigner : Fudge laisse le Détraqueur agir.",
+   "id": "t036-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque mort à son auteur.",
+   "paires": [
+    [
+     "Sirius Black",
+     "Bellatrix"
+    ],
+    [
+     "Cedric Diggory",
+     "Queudver"
+    ],
+    [
+     "Albus Dumbledore",
+     "Severus Rogue"
+    ],
+    [
+     "Mimi Geignarde",
+     "Tom Jedusor"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Tom tue Mimi par l’intermédiaire du Basilic.",
+   "id": "t036-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un livre\n2. J’ai possédé Ginny\n3. Un crochet m’a percé",
+   "choix": [
+    "Le journal de Tom Jedusor",
+    "Le manuel du Prince de Sang-Mêlé",
+    "Le Monstrueux Livre des monstres",
+    "Le Chicaneur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lucius Malefoy l’a glissé dans le chaudron de Ginny chez Fleury et Bott.",
+   "id": "t036-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une Mangemorte\n2. J’ai torturé les Londubat\n3. Ma chambre forte cache une coupe",
+   "choix": [
+    "Bellatrix Lestrange",
+    "Alecto Carrow",
+    "Narcissa Malefoy",
+    "Dolores Ombrage"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Voldemort lui a confié la coupe, sans lui dire ce qu’elle était.",
+   "id": "t036-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un mage noir\n2. J’ai été renvoyé de Durmstrang\n3. J’ai fini dans ma propre prison",
+   "choix": [
+    "Gellert Grindelwald",
+    "Igor Karkaroff",
+    "Tom Jedusor",
+    "Barty Croupton Jr"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il aurait fini par regretter ses crimes, selon Dumbledore.",
+   "id": "t036-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un loup-garou\n2. Je mords les enfants\n3. J’ai défiguré Bill Weasley",
+   "choix": [
+    "Fenrir Greyback",
+    "Remus Lupin",
+    "Walden Macnair",
+    "Antonin Dolohov"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il n’était pas transformé quand il a attaqué Bill, qui ne devient donc pas loup-garou.",
+   "id": "t036-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un elfe\n2. J’ai servi Regulus\n3. J’ai mené une charge à Poudlard",
+   "choix": [
+    "Kreattur",
+    "Dobby",
+    "Winky",
+    "Hokey"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il change d’attitude quand Harry lui offre le faux médaillon de Regulus.",
+   "id": "t036-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis professeur\n2. Je porte un turban\n3. Mon maître vit derrière ma tête",
+   "choix": [
+    "Quirinus Quirrell",
+    "Gilderoy Lockhart",
+    "Severus Rogue",
+    "Horace Slughorn"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le contact de Harry le brûle, grâce à la protection de Lily.",
+   "id": "t036-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un frère\n2. Mon nom tient en trois initiales\n3. Je suis mort dans une caverne",
+   "choix": [
+    "Regulus Black",
+    "Sirius Black",
+    "Rodolphus Lestrange",
+    "Barty Croupton Jr"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "R.A.B. a remplacé le médaillon par un faux, avec un message pour Voldemort.",
+   "id": "t036-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis une riche collectionneuse\n2. Mon elfe s’appelle Hokey\n3. Tom m’a volé deux trésors",
+   "choix": [
+    "Hepzibah Smith",
+    "Bathilda Tourdesac",
+    "Muriel Prewett",
+    "Arabella Figg"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Hokey est accusée à tort de l’avoir empoisonnée.",
+   "id": "t036-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un village\n2. Les Potter y sont morts\n3. Bathilda y vivait",
+   "choix": [
+    "Godric’s Hollow",
+    "Little Hangleton",
+    "Pré-au-Lard",
+    "Little Whinging"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry et Hermione y retournent la veille de Noël, en 1997.",
+   "id": "t036-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une Mangemorte\n2. J’enseigne l’étude des Moldus en 1997\n3. Mon frère enseigne la magie noire",
+   "choix": [
+    "Alecto Carrow",
+    "Bellatrix Lestrange",
+    "Narcissa Malefoy",
+    "Dolores Ombrage"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les Carrow font régner la terreur sous la direction de Rogue.",
+   "id": "t036-132",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

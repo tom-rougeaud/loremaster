@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**35 / 99 thèmes terminés — 4925 questions au total.**
+**36 / 99 thèmes terminés — 5057 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -41,7 +41,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 33 | Sortilèges, maléfices et métamorphose | 131 | 49 | 17 (9) | 4 | 13 | 10 | 10 | 8 | 10 | 10 | 50 % | 23/97/11 | 6 | terminé |
 | 34 | Potions, alchimie et botanique magique | 130 | 50 | 16 (8) | 5 | 12 | 10 | 10 | 8 | 9 | 10 | 51 % | 17/101/12 | 6 | terminé |
 | 35 | Bestiaire magique et Animaux fantastiques | 130 | 46 | 16 (9) | 8 | 13 | 10 | 10 | 8 | 9 | 10 | 48 % | 19/103/8 | 7 | terminé |
-| 36 | Les forces du Mal (Harry Potter) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 36 | Les forces du Mal (Harry Potter) | 132 | 45 | 18 (9) | 8 | 12 | 10 | 10 | 9 | 10 | 10 | 48 % | 13/103/16 | 11 | terminé |
 | 37 | Objets enchantés et secrets de Poudlard | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 38 | L’univers Warhammer et son histoire | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 39 | Le Vieux Monde (Warhammer Fantasy) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -360,6 +360,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - sortileges-hp : niveaux déséquilibrés [23, 97, 11]
 - potions-botanique-hp : niveaux déséquilibrés [17, 101, 12]
 - creatures-hp : niveaux déséquilibrés [19, 103, 8]
+- forces-du-mal-hp : niveaux déséquilibrés [13, 103, 16]
 - gre-003 : explication absente ou trop courte
 - gre-006 : explication absente ou trop courte
 - gre-011 : explication absente ou trop courte
