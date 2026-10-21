@@ -1,0 +1,1975 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "sorcellerie-histoire",
+  "nom": "Sorcellerie et procès de sorcières",
+  "royaume": "Magie, littérature et univers fantasy",
+  "icone": "torche",
+  "sombre": true
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel traité de 1486 devient le manuel le plus célèbre des chasseurs de sorcières ?",
+   "choix": [
+    "Le Marteau des sorcières",
+    "La Démonomanie des sorciers",
+    "La Clavicule de Salomon",
+    "Le Grand Albert"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Son titre latin est Malleus Maleficarum ; il présente la sorcellerie comme un crime surtout féminin.",
+   "id": "t066-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel inquisiteur dominicain est le principal auteur du Marteau des sorcières ?",
+   "choix": [
+    "Heinrich Kramer",
+    "Bernard Gui",
+    "Tomás de Torquemada",
+    "Nicolas Eymerich"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Il signe aussi de son nom latinisé, Institoris ; Jacob Sprenger lui est associé.",
+   "id": "t066-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pape publie en 1484 une bulle encourageant la poursuite des sorciers en Allemagne ?",
+   "choix": [
+    "Innocent VIII",
+    "Alexandre VI",
+    "Jean XXII",
+    "Grégoire IX"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Kramer la place en tête du Marteau des sorcières pour se donner de l’autorité.",
+   "id": "t066-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle colonie anglaise se déroulent les procès de Salem ?",
+   "choix": [
+    "Le Massachusetts",
+    "La Virginie",
+    "Le Connecticut",
+    "New York"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Ils commencent au début de l’année 1692 dans le village de Salem.",
+   "id": "t066-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de personnes sont exécutées par pendaison lors des procès de Salem ?",
+   "choix": [
+    "Dix-neuf",
+    "Trois",
+    "Cinquante",
+    "Cent vingt"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Un homme, Giles Corey, meurt en outre écrasé sous des pierres pour avoir refusé de plaider.",
+   "id": "t066-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle esclave, accusée parmi les premières à Salem, avoue avoir vu le diable ?",
+   "choix": [
+    "Tituba",
+    "Sarah Good",
+    "Abigail Williams",
+    "Rebecca Nurse"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Ses aveux, sans doute obtenus par la peur et les coups, relancent les accusations.",
+   "id": "t066-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle pièce d’Arthur Miller, en 1953, se sert des procès de 1692 pour dénoncer le maccarthysme ?",
+   "choix": [
+    "Les Sorcières de Salem",
+    "Mort d’un commis voyageur",
+    "Vu du pont",
+    "Ils étaient tous mes fils"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Son titre original est The Crucible, le creuset.",
+   "id": "t066-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle période connaît le plus grand nombre de procès de sorcellerie en Europe ?",
+   "choix": [
+    "De 1560 à 1630 environ",
+    "Les années 900",
+    "Le 13e siècle",
+    "Le 19e siècle"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Contrairement à une idée reçue, la grande chasse est surtout un phénomène de la Renaissance.",
+   "id": "t066-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle région d’Europe connaît le plus grand nombre d’exécutions pour sorcellerie ?",
+   "choix": [
+    "Le Saint-Empire",
+    "L’Espagne",
+    "L’Italie",
+    "L’Irlande"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Son morcellement en petits États laisse les juges locaux sans contrôle.",
+   "id": "t066-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ordre de grandeur donnent les historiens pour le nombre d’exécutions en Europe ?",
+   "choix": [
+    "Quelques dizaines de milliers",
+    "Quelques centaines",
+    "Neuf millions",
+    "Un million"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Les chiffres de plusieurs millions, souvent répétés, sont des exagérations du 18e et du 19e siècle.",
+   "id": "t066-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle proportion approximative des personnes exécutées étaient des femmes ?",
+   "choix": [
+    "Environ les trois quarts",
+    "Environ un tiers",
+    "La moitié",
+    "La totalité"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "La part des hommes est cependant majoritaire dans certaines régions, comme l’Islande.",
+   "id": "t066-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel juriste et penseur français publie La Démonomanie des sorciers en 1580 ?",
+   "choix": [
+    "Jean Bodin",
+    "Montaigne",
+    "Pierre de Ronsard",
+    "Étienne de La Boétie"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Le même homme est aussi un grand théoricien de la souveraineté de l’État.",
+   "id": "t066-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel juge mène une chasse aux sorcières dans le Pays basque français en 1609 ?",
+   "choix": [
+    "Pierre de Lancre",
+    "Jean Bodin",
+    "Nicolas Rémy",
+    "Henri Boguet"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Il en tire un livre rempli de descriptions de sabbats.",
+   "id": "t066-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel médecin publie en 1563 un livre doutant de nombreuses accusations de sorcellerie ?",
+   "choix": [
+    "Johann Weyer",
+    "Paracelse",
+    "Ambroise Paré",
+    "Michel Servet"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Il pense que beaucoup d’accusées sont des femmes malades plutôt que des complices du diable.",
+   "id": "t066-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jésuite dénonce en 1631 l’usage de la torture dans les procès de sorcières ?",
+   "choix": [
+    "Friedrich Spee",
+    "Ignace de Loyola",
+    "Pierre Canisius",
+    "Francisco Suárez"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Il a confessé des condamnées et sait qu’elles avouaient sous la douleur.",
+   "id": "t066-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Anglais se fait appeler « Witchfinder General » dans les années 1640 ?",
+   "choix": [
+    "Matthew Hopkins",
+    "Oliver Cromwell",
+    "John Dee",
+    "Thomas Cromwell"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Il profite du désordre de la guerre civile pour faire condamner une centaine de personnes.",
+   "id": "t066-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel roi d’Écosse écrit lui-même un traité intitulé Daemonologie en 1597 ?",
+   "choix": [
+    "Jacques VI",
+    "Charles Ier",
+    "Robert Bruce",
+    "Malcolm III"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Il se croit visé par des sorcières qui auraient soulevé une tempête contre son navire.",
+   "id": "t066-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle région d’Angleterre ont lieu les célèbres procès de 1612 ?",
+   "choix": [
+    "Le Lancashire",
+    "Les Cornouailles",
+    "Le Kent",
+    "Le Yorkshire"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Dix personnes y sont pendues après un procès très médiatisé pour l’époque.",
+   "id": "t066-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quoi consistait l’« ordalie par flottaison » infligée à certaines accusées ?",
+   "choix": [
+    "La jeter ligotée dans une rivière",
+    "Lui faire boire une potion",
+    "La faire marcher sur des braises",
+    "Lui couper les cheveux"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Flotter passait pour un signe de culpabilité, car l’eau du baptême était censée rejeter les sorcières.",
+   "id": "t066-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que cherchaient les juges sur le corps des accusées ?",
+   "choix": [
+    "La marque du diable",
+    "Un tatouage de runes",
+    "Une cicatrice de brûlure",
+    "Une dent de loup"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Une tache insensible à la piqûre passait pour la signature du pacte diabolique.",
+   "id": "t066-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on l’assemblée nocturne où les sorcières sont censées rencontrer le diable ?",
+   "choix": [
+    "Le sabbat",
+    "La messe noire",
+    "L’esbat",
+    "Le conclave"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Les démonologues l’imaginent avec force détails, sous la forme d’un culte inversé.",
+   "id": "t066-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel peintre espagnol représente un sabbat présidé par un grand bouc noir ?",
+   "choix": [
+    "Francisco de Goya",
+    "Diego Velázquez",
+    "El Greco",
+    "Bartolomé Murillo"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Il peint plusieurs scènes de sorcellerie, tout en se moquant des superstitions.",
+   "id": "t066-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle femme est souvent considérée comme la dernière personne exécutée pour sorcellerie en Europe occidentale ?",
+   "choix": [
+    "Anna Göldi",
+    "Jeanne d’Arc",
+    "La Voisin",
+    "Tituba"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Elle est exécutée en Suisse, à Glaris, en 1782, et réhabilitée en 2008.",
+   "id": "t066-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi de France fait cesser en 1682 les poursuites pour sorcellerie en tant que telle ?",
+   "choix": [
+    "Louis XIV",
+    "Henri IV",
+    "Louis XIII",
+    "Louis XV"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Son édit traite désormais les prétendus sorciers comme des escrocs ou des empoisonneurs.",
+   "id": "t066-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle grande affaire criminelle secoue la cour de Louis XIV entre 1679 et 1682 ?",
+   "choix": [
+    "L’affaire des poisons",
+    "L’affaire du collier",
+    "L’affaire des Templiers",
+    "L’affaire Calas"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "La Voisin, devineresse accusée de messes noires, est brûlée en 1680.",
+   "id": "t066-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville a lieu la célèbre affaire de possession de religieuses en 1634 ?",
+   "choix": [
+    "Loudun",
+    "Lourdes",
+    "Rouen",
+    "Aix-en-Provence"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Le prêtre Urbain Grandier est accusé de les avoir ensorcelées et il est brûlé vif.",
+   "id": "t066-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel inquisiteur espagnol se montre sceptique après les procès basques de 1610 ?",
+   "choix": [
+    "Alonso de Salazar Frías",
+    "Tomás de Torquemada",
+    "Diego de Deza",
+    "Francisco Jiménez de Cisneros"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Grâce à son enquête, l’Inquisition espagnole exécute ensuite très peu de sorciers.",
+   "id": "t066-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville franconienne fait construire une « maison des sorcières » pour ses prisonniers ?",
+   "choix": [
+    "Bamberg",
+    "Nuremberg",
+    "Munich",
+    "Heidelberg"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Le prince-évêque y fait exécuter des centaines de personnes vers 1626-1631.",
+   "id": "t066-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels paysans du Frioul affirmaient combattre les sorciers la nuit, en esprit ?",
+   "choix": [
+    "Les benandanti",
+    "Les vaudois",
+    "Les cathares",
+    "Les flagellants"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "L’historien Carlo Ginzburg les a fait connaître dans Les Batailles nocturnes.",
+   "id": "t066-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel historien français publie en 1862 La Sorcière, essai romantique sur le sujet ?",
+   "choix": [
+    "Jules Michelet",
+    "Victor Hugo",
+    "Ernest Renan",
+    "Alexis de Tocqueville"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Il voit dans la sorcière une rebelle et une guérisseuse, au-delà de ce que montrent les sources.",
+   "id": "t066-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle anthropologue britannique imagine en 1921 un ancien culte païen derrière la sorcellerie ?",
+   "choix": [
+    "Margaret Murray",
+    "Mary Douglas",
+    "Ruth Benedict",
+    "Jane Harrison"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Les historiens ont depuis rejeté sa thèse, faute de preuves.",
+   "id": "t066-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel religion moderne s’inspire de la sorcellerie et naît en Angleterre dans les années 1950 ?",
+   "choix": [
+    "La Wicca",
+    "Le druidisme antique",
+    "Le vaudou",
+    "Le chamanisme sibérien"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Gerald Gardner en est le principal fondateur.",
+   "id": "t066-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle région de Suisse romande la persécution des sorciers prend-elle forme très tôt, au 15e siècle ?",
+   "choix": [
+    "Vaud et Valais",
+    "Tessin",
+    "Grisons",
+    "Zurich"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Au point que l’on parle alors de « vaudois » pour désigner des sorciers.",
+   "id": "t066-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi les accusées avouaient-elles souvent des crimes impossibles ?",
+   "choix": [
+    "Sous la torture ou la peur",
+    "Parce qu’elles étaient payées",
+    "Pour devenir célèbres",
+    "Par jeu"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Elles devaient aussi dénoncer des complices, ce qui multipliait les accusations.",
+   "id": "t066-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel autre crime est associé à la sorcellerie lors du procès de Jeanne d’Arc ?",
+   "choix": [
+    "L’hérésie",
+    "Le vol",
+    "La trahison financière",
+    "La contrebande"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Elle est condamnée en 1431 comme hérétique relapse, et réhabilitée en 1456.",
+   "id": "t066-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sens prend au 20e siècle l’expression « chasse aux sorcières » ?",
+   "choix": [
+    "Une persécution politique",
+    "Une fête populaire",
+    "Un jeu d’enfants",
+    "Un concours de déguisements"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "On l’emploie notamment pour le maccarthysme américain des années 1950.",
+   "id": "t066-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel était souvent le profil des accusées dans les villages ?",
+   "choix": [
+    "Des femmes âgées et isolées",
+    "De riches nobles",
+    "Des jeunes enfants",
+    "Des soldats"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Les querelles de voisinage et les malheurs inexpliqués suffisaient à lancer une rumeur.",
+   "id": "t066-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel homme, à Bamberg, écrit en 1628 une lettre à sa fille pour lui dire qu’il a avoué sous la torture ?",
+   "choix": [
+    "Johannes Junius",
+    "Friedrich Spee",
+    "Johann Weyer",
+    "Martin Luther"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Bourgmestre de la ville, il est exécuté peu après ; sa lettre est un témoignage bouleversant.",
+   "id": "t066-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Au Moyen Âge, quel texte du 10e siècle affirme que les vols nocturnes des sorcières ne sont que des illusions ?",
+   "choix": [
+    "Le Canon Episcopi",
+    "Le Marteau des sorcières",
+    "La Démonomanie",
+    "Le Décret de Gratien seul"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "L’Église médiévale y considère croire à ces vols comme une erreur.",
+   "id": "t066-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet les sorcières utilisent-elles pour voler, dans l’imaginaire européen ?",
+   "choix": [
+    "Un balai",
+    "Un tapis",
+    "Un char",
+    "Un cerf-volant"
+   ],
+   "rep": 0,
+   "src": "Robert Muchembled, Une histoire du diable (2000) ; Brian P. Levack, La Grande Chasse aux sorcières (1991, trad. 1991) ; Carlo Ginzburg, Les Batailles nocturnes (1966) ; Salem Witch Trials Documentary Archive (Université de Virginie) ; Encyclopædia Britannica, « Witch hunt »",
+   "expl": "Des images du 15e siècle montrent déjà des sorcières à califourchon sur un balai.",
+   "id": "t066-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les procès de Salem ont lieu en 1692.",
+   "rep": true,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Ils durent environ un an et demi et font plus de deux cents accusés.",
+   "id": "t066-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La grande chasse aux sorcières a surtout lieu au haut Moyen Âge.",
+   "rep": false,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Faux : elle culmine entre le milieu du 16e et le milieu du 17e siècle.",
+   "id": "t066-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "À Salem, les condamnées sont pendues et non brûlées.",
+   "rep": true,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "En Angleterre et dans ses colonies, la sorcellerie était punie de pendaison.",
+   "id": "t066-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Des millions de sorcières ont été brûlées en Europe.",
+   "rep": false,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Faux : les historiens estiment le nombre d’exécutions à quelques dizaines de milliers.",
+   "id": "t066-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Marteau des sorcières a été écrit par un dominicain.",
+   "rep": true,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Heinrich Kramer est un inquisiteur dominicain.",
+   "id": "t066-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Inquisition espagnole fut la plus meurtrière contre les sorcières.",
+   "rep": false,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Faux : elle en exécute peu, contrairement aux tribunaux laïques allemands.",
+   "id": "t066-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Anna Göldi a été réhabilitée en 2008.",
+   "rep": true,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Le parlement du canton de Glaris reconnaît alors une erreur judiciaire.",
+   "id": "t066-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Jean Bodin était opposé aux procès de sorcellerie.",
+   "rep": false,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Faux : il réclamait au contraire une grande sévérité contre les sorciers.",
+   "id": "t066-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Arthur Miller a écrit une pièce sur les procès de Salem.",
+   "rep": true,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Elle a été adaptée au cinéma avec Daniel Day-Lewis en 1996.",
+   "id": "t066-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Wicca existe depuis l’Antiquité sans interruption.",
+   "rep": false,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Faux : elle est fondée au 20e siècle, en Angleterre.",
+   "id": "t066-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La plupart des procès européens étaient conduits par des tribunaux laïques.",
+   "rep": true,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Les juges locaux, et non l’Église, prononcent la majorité des condamnations.",
+   "id": "t066-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Friedrich Spee a écrit pour défendre les accusées.",
+   "rep": true,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Il publie son livre de façon anonyme, par prudence.",
+   "id": "t066-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Louis XIV a mis fin aux poursuites pour sorcellerie en tant que telle.",
+   "rep": true,
+   "src": "Levack ; Muchembled ; Salem Documentary Archive",
+   "expl": "Son édit de 1682 change la nature du crime.",
+   "id": "t066-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Canon Episcopi encourage à croire aux vols nocturnes des sorcières.",
+   "rep": false,
+   "src": "Levack ; Salem Documentary Archive",
+   "expl": "Faux : il déclare que ces vols sont des illusions envoyées par le diable.",
+   "id": "t066-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année ont lieu les procès de Salem ?",
+   "rep": 1692,
+   "min": 1600,
+   "max": 1750,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Levack ; Salem Documentary Archive",
+   "expl": "Les derniers accusés sont libérés au printemps de 1693.",
+   "id": "t066-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît Le Marteau des sorcières ?",
+   "rep": 1486,
+   "min": 1400,
+   "max": 1600,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Levack ; Salem Documentary Archive",
+   "expl": "L’imprimerie permet sa diffusion rapide dans toute l’Europe.",
+   "id": "t066-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de personnes sont pendues à Salem ?",
+   "rep": 19,
+   "min": 5,
+   "max": 40,
+   "pas": 1,
+   "unite": "personnes",
+   "tolerance": 0,
+   "src": "Levack ; Salem Documentary Archive",
+   "expl": "Plusieurs autres accusés meurent en prison.",
+   "id": "t066-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Anna Göldi est-elle exécutée ?",
+   "rep": 1782,
+   "min": 1700,
+   "max": 1850,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Levack ; Salem Documentary Archive",
+   "expl": "On la considère comme la dernière sorcière exécutée en Europe occidentale.",
+   "id": "t066-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Louis XIV publie-t-il son édit sur la sorcellerie ?",
+   "rep": 1682,
+   "min": 1640,
+   "max": 1720,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Levack ; Salem Documentary Archive",
+   "expl": "L’édit suit de peu l’affaire des poisons.",
+   "id": "t066-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Urbain Grandier est-il brûlé à Loudun ?",
+   "rep": 1634,
+   "min": 1600,
+   "max": 1680,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Levack ; Salem Documentary Archive",
+   "expl": "Le cardinal de Richelieu aurait souhaité sa perte.",
+   "id": "t066-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Arthur Miller présente-t-il Les Sorcières de Salem ?",
+   "rep": 1953,
+   "min": 1930,
+   "max": 1970,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Levack ; Salem Documentary Archive",
+   "expl": "La pièce est créée à Broadway en pleine période maccarthyste.",
+   "id": "t066-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de personnes sont pendues lors des procès de Pendle, en 1612 ?",
+   "rep": 10,
+   "min": 2,
+   "max": 30,
+   "pas": 1,
+   "unite": "personnes",
+   "tolerance": 0,
+   "src": "Levack ; Salem Documentary Archive",
+   "expl": "Le greffier Thomas Potts publie un récit détaillé du procès.",
+   "id": "t066-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les procès de sorcières les plus célèbres d’Amérique ont lieu à ____.",
+   "choix": [
+    "Salem",
+    "Boston",
+    "Plymouth",
+    "Pendle"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Les accusations naissent dans le village voisin, aujourd’hui Danvers.",
+   "id": "t066-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le titre latin du Marteau des sorcières est Malleus ____.",
+   "choix": [
+    "Maleficarum",
+    "Malorum",
+    "Diabolicus",
+    "Daemonum"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Le mot maleficium désigne le mal fait par sortilège.",
+   "id": "t066-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’assemblée nocturne des sorcières s’appelle le ____.",
+   "choix": [
+    "sabbat",
+    "sabbath",
+    "conclave",
+    "synode"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Le mot vient peut-être, de manière péjorative, du shabbat juif.",
+   "id": "t066-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le prétendu chasseur de sorcières anglais s’appelle Matthew ____.",
+   "choix": [
+    "Hopkins",
+    "Hawkins",
+    "Hopkin",
+    "Hobbes"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Il meurt de maladie en 1647, peu après la fin de sa campagne.",
+   "id": "t066-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La dernière sorcière exécutée en Europe occidentale s’appelle Anna ____.",
+   "choix": [
+    "Göldi",
+    "Göring",
+    "Gödel",
+    "Gold"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Un musée lui est consacré dans le canton de Glaris, en Suisse.",
+   "id": "t066-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La pièce d’Arthur Miller s’intitule en anglais The ____.",
+   "choix": [
+    "Crucible",
+    "Witches",
+    "Trial",
+    "Hunt"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Le mot désigne un creuset, où l’on éprouve les métaux par le feu.",
+   "id": "t066-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le traité de Jean Bodin s’intitule De la ____ des sorciers.",
+   "choix": [
+    "Démonomanie",
+    "Démonologie",
+    "Diablerie",
+    "Possession"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Il y conseille des procédures sévères et rapides.",
+   "id": "t066-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le prêtre brûlé après les possessions de Loudun s’appelle Urbain ____.",
+   "choix": [
+    "Grandier",
+    "Granger",
+    "Grandin",
+    "Gerbier"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Aldous Huxley a raconté son histoire dans Les Diables de Loudun.",
+   "id": "t066-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La devineresse de l’affaire des poisons est surnommée la ____.",
+   "choix": [
+    "Voisin",
+    "Brinvilliers",
+    "Montespan",
+    "Sorcière"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "De son vrai nom Catherine Monvoisin, elle vendait aussi des poisons.",
+   "id": "t066-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les paysans frioulans étudiés par Carlo Ginzburg s’appellent les ____.",
+   "choix": [
+    "benandanti",
+    "malandanti",
+    "vaudois",
+    "stregoni"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Leur nom signifie « ceux qui vont bien ».",
+   "id": "t066-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’esclave accusée à Salem s’appelle ____.",
+   "choix": [
+    "Tituba",
+    "Tabitha",
+    "Topaze",
+    "Tamar"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Elle survit aux procès, car elle a avoué.",
+   "id": "t066-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le jésuite qui dénonce la torture s’appelle Friedrich ____.",
+   "choix": [
+    "Spee",
+    "Spree",
+    "Speer",
+    "Spengler"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Son livre s’intitule Cautio Criminalis et paraît sans nom d’auteur.",
+   "id": "t066-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le roi d’Écosse auteur de Daemonologie est Jacques ____.",
+   "choix": [
+    "VI",
+    "Ier",
+    "IV",
+    "II"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Il devient aussi roi d’Angleterre en 1603, sous le nom de Jacques Ier.",
+   "id": "t066-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces lieux n’a pas connu de célèbres procès de sorcellerie ?",
+   "choix": [
+    "Versailles",
+    "Salem",
+    "Pendle",
+    "Bamberg"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Versailles connaît l’affaire des poisons, mais pas de procès de sorcellerie à proprement parler.",
+   "id": "t066-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas défendu les accusées ?",
+   "choix": [
+    "Jean Bodin",
+    "Johann Weyer",
+    "Friedrich Spee",
+    "Alonso de Salazar Frías"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Bodin réclame au contraire des châtiments sévères.",
+   "id": "t066-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces femmes n’a pas été accusée de sorcellerie ?",
+   "choix": [
+    "Marie Curie",
+    "Anna Göldi",
+    "Tituba",
+    "La Voisin"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Marie Curie est une scientifique du 20e siècle.",
+   "id": "t066-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces textes n’est pas un traité de démonologie ?",
+   "choix": [
+    "Le Prince",
+    "Le Marteau des sorcières",
+    "Daemonologie",
+    "La Démonomanie des sorciers"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Le Prince est un traité politique de Machiavel.",
+   "id": "t066-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces épreuves n’était pas utilisée contre les accusées ?",
+   "choix": [
+    "Le jeu d’échecs",
+    "L’épreuve de l’eau",
+    "La recherche de la marque",
+    "La piqûre"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Les deux dernières visaient à trouver la marque insensible du diable.",
+   "id": "t066-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces pays a connu le moins d’exécutions pour sorcellerie ?",
+   "choix": [
+    "L’Espagne",
+    "Le Saint-Empire",
+    "L’Écosse",
+    "La Lorraine"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "L’Inquisition espagnole, prudente, considère souvent les accusées comme abusées.",
+   "id": "t066-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un juge ou un chasseur de sorcières ?",
+   "choix": [
+    "Johann Weyer",
+    "Pierre de Lancre",
+    "Matthew Hopkins",
+    "Nicolas Rémy"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Johann Weyer est un médecin qui doute des accusations.",
+   "id": "t066-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces personnes n’a pas été exécutée ?",
+   "choix": [
+    "Tituba",
+    "Urbain Grandier",
+    "La Voisin",
+    "Anna Göldi"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Tituba est libérée après les procès, puis vendue à un autre maître.",
+   "id": "t066-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces écrivains n’a pas écrit sur les procès de sorcières ?",
+   "choix": [
+    "Molière",
+    "Arthur Miller",
+    "Aldous Huxley",
+    "Jules Michelet"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Molière se moque des faux dévots et des médecins, pas des chasseurs de sorcières.",
+   "id": "t066-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mots n’est pas lié à la sorcellerie ?",
+   "choix": [
+    "Le conclave",
+    "Le sabbat",
+    "Le maléfice",
+    "Le pacte"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Le conclave est l’assemblée des cardinaux qui élit le pape.",
+   "id": "t066-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles affaires concernent la sorcellerie ou la possession ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Salem",
+    "Loudun",
+    "Pendle",
+    "L’affaire Dreyfus",
+    "L’affaire du collier"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Les deux autres affaires sont politiques ou financières.",
+   "id": "t066-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels auteurs ont écrit des traités contre les sorciers ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Heinrich Kramer",
+    "Jean Bodin",
+    "Jacques VI d’Écosse",
+    "Johann Weyer",
+    "Friedrich Spee"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Weyer et Spee doutent au contraire des accusations.",
+   "id": "t066-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles épreuves étaient infligées aux accusées ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Épreuve de l’eau",
+    "Recherche de la marque",
+    "Torture",
+    "Duel judiciaire",
+    "Concours de prières"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "La torture est légale dans la plupart des procédures criminelles de l’époque.",
+   "id": "t066-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres traitent des procès de sorcières ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Les Sorcières de Salem",
+    "Les Diables de Loudun",
+    "La Sorcière de Michelet",
+    "Les Misérables",
+    "Le Petit Prince"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Littérature, théâtre et histoire se sont emparés du sujet.",
+   "id": "t066-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles affirmations sur la chasse aux sorcières sont exactes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Elle culmine vers 1560-1630",
+    "Les femmes sont majoritaires",
+    "Les tribunaux laïques jugent le plus",
+    "Elle culmine vers l’an mil",
+    "Elle fait des millions de morts"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Les idées reçues sur le « Moyen Âge obscurantiste » sont démenties par les archives.",
+   "id": "t066-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux sont associés aux chasses aux sorcières en Allemagne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bamberg",
+    "Wurtzbourg",
+    "Trèves",
+    "Salem",
+    "Loudun"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Les princes-évêques de ces villes mènent des persécutions massives.",
+   "id": "t066-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont liés aux procès de Salem ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tituba",
+    "Giles Corey",
+    "Abigail Williams",
+    "Matthew Hopkins",
+    "Urbain Grandier"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Hopkins agit en Angleterre, Grandier en France.",
+   "id": "t066-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels sceptiques ont freiné les persécutions ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Alonso de Salazar Frías",
+    "Friedrich Spee",
+    "Johann Weyer",
+    "Pierre de Lancre",
+    "Nicolas Rémy"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Lancre et Rémy sont au contraire des juges acharnés.",
+   "id": "t066-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles images sont associées à la sorcière dans l’imaginaire ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Balai",
+    "Chaudron",
+    "Chat noir",
+    "Trident",
+    "Couronne de laurier"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Beaucoup de ces images se fixent aux 15e et 16e siècles.",
+   "id": "t066-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels textes ou mesures ont réduit les poursuites ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Édit de Louis XIV en 1682",
+    "Witchcraft Act britannique de 1735",
+    "Cautio Criminalis",
+    "Marteau des sorcières",
+    "Bulle de 1484"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "La loi britannique de 1735 punit seulement ceux qui prétendent avoir des pouvoirs.",
+   "id": "t066-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces textes par ordre chronologique.",
+   "items": [
+    "Bulle d’Innocent VIII",
+    "Marteau des sorcières",
+    "Démonomanie de Bodin",
+    "Daemonologie de Jacques VI"
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Ces textes paraissent en 1484, 1486, 1580 puis 1597.",
+   "id": "t066-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces procès par ordre chronologique.",
+   "items": [
+    "Pendle",
+    "Loudun",
+    "Salem",
+    "Anna Göldi"
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Ces affaires datent de 1612, 1634, 1692 puis 1782.",
+   "id": "t066-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces auteurs sceptiques par ordre chronologique de publication.",
+   "items": [
+    "Johann Weyer",
+    "Friedrich Spee",
+    "Balthasar Bekker"
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "1563, 1631, puis Le Monde enchanté de Bekker en 1691.",
+   "id": "t066-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de l’affaire de Salem dans l’ordre.",
+   "items": [
+    "Crises des fillettes",
+    "Accusation de Tituba",
+    "Pendaisons",
+    "Réhabilitations"
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Le Massachusetts présente des excuses officielles à partir de 1711.",
+   "id": "t066-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements français par ordre chronologique.",
+   "items": [
+    "Procès de Jeanne d’Arc",
+    "Possessions de Loudun",
+    "Affaire des poisons",
+    "Édit de Louis XIV"
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Ces événements datent de 1431, 1634, 1679 puis 1682.",
+   "id": "t066-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces œuvres sur la sorcellerie par date de parution.",
+   "items": [
+    "La Sorcière de Michelet",
+    "Les Sorcières de Salem",
+    "Les Batailles nocturnes de Ginzburg"
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Ces œuvres paraissent en 1862, 1953 puis 1966.",
+   "id": "t066-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’un procès type dans l’ordre.",
+   "items": [
+    "Rumeur",
+    "Dénonciation",
+    "Interrogatoire",
+    "Aveux",
+    "Sentence"
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Les aveux, souvent obtenus sous la torture, étaient la preuve reine.",
+   "id": "t066-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces chasseurs de sorcières par ordre chronologique.",
+   "items": [
+    "Heinrich Kramer",
+    "Pierre de Lancre",
+    "Matthew Hopkins"
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Ils agissent dans les années 1480, en 1609 puis dans les années 1640.",
+   "id": "t066-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces lois par ordre chronologique.",
+   "items": [
+    "Witchcraft Act écossais",
+    "Daemonologie",
+    "Witchcraft Act de 1735"
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "1563, 1597 puis 1735 : la loi passe de la répression à la dérision.",
+   "id": "t066-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque affaire à son pays.",
+   "paires": [
+    [
+     "Salem",
+     "Colonies anglaises d’Amérique"
+    ],
+    [
+     "Loudun",
+     "France"
+    ],
+    [
+     "Pendle",
+     "Angleterre"
+    ],
+    [
+     "Bamberg",
+     "Saint-Empire"
+    ]
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "La chasse aux sorcières touche toute l’Europe et ses colonies.",
+   "id": "t066-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque auteur à son œuvre.",
+   "paires": [
+    [
+     "Kramer",
+     "Marteau des sorcières"
+    ],
+    [
+     "Bodin",
+     "Démonomanie"
+    ],
+    [
+     "Spee",
+     "Cautio Criminalis"
+    ],
+    [
+     "Jacques VI",
+     "Daemonologie"
+    ]
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Ces livres circulent dans toute l’Europe grâce à l’imprimerie.",
+   "id": "t066-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à son rôle.",
+   "paires": [
+    [
+     "Tituba",
+     "Accusée"
+    ],
+    [
+     "Hopkins",
+     "Chasseur"
+    ],
+    [
+     "Weyer",
+     "Sceptique"
+    ],
+    [
+     "Bodin",
+     "Démonologue"
+    ]
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Ces rôles se retrouvent dans de nombreux procès.",
+   "id": "t066-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque historien à son œuvre.",
+   "paires": [
+    [
+     "Michelet",
+     "La Sorcière"
+    ],
+    [
+     "Ginzburg",
+     "Les Batailles nocturnes"
+    ],
+    [
+     "Margaret Murray",
+     "Le Culte des sorcières"
+    ]
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "La thèse de Margaret Murray a été rejetée par la recherche.",
+   "id": "t066-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque lieu à son événement.",
+   "paires": [
+    [
+     "Glaris",
+     "Exécution d’Anna Göldi"
+    ],
+    [
+     "Logroño",
+     "Procès basques"
+    ],
+    [
+     "Loudun",
+     "Possessions"
+    ]
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Le procès de Logroño, en 1610, conduit l’Inquisition à la prudence.",
+   "id": "t066-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mot à son sens.",
+   "paires": [
+    [
+     "Sabbat",
+     "Assemblée nocturne"
+    ],
+    [
+     "Maléfice",
+     "Sortilège nuisible"
+    ],
+    [
+     "Marque",
+     "Signe du diable"
+    ]
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Ces mots apparaissent dans tous les manuels de démonologie.",
+   "id": "t066-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque œuvre à son créateur.",
+   "paires": [
+    [
+     "Les Sorcières de Salem",
+     "Arthur Miller"
+    ],
+    [
+     "Les Diables de Loudun",
+     "Aldous Huxley"
+    ],
+    [
+     "Le Sabbat des sorcières",
+     "Goya"
+    ]
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Ces œuvres ont nourri l’imaginaire moderne de la sorcière.",
+   "id": "t066-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque religion ou pratique à son origine.",
+   "paires": [
+    [
+     "Wicca",
+     "Angleterre"
+    ],
+    [
+     "Benandanti",
+     "Frioul"
+    ],
+    [
+     "Vaudou",
+     "Haïti et Bénin"
+    ]
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Le vaudou n’a rien à voir avec les sorcières européennes.",
+   "id": "t066-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque juge à sa région.",
+   "paires": [
+    [
+     "Pierre de Lancre",
+     "Pays basque"
+    ],
+    [
+     "Nicolas Rémy",
+     "Lorraine"
+    ],
+    [
+     "Henri Boguet",
+     "Franche-Comté"
+    ]
+   ],
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Chacun publie ensuite un livre pour justifier ses procès.",
+   "id": "t066-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un livre\n2. Je parais en 1486\n3. Je sers de manuel aux inquisiteurs et aux juges",
+   "choix": [
+    "Le Marteau des sorcières",
+    "La Démonomanie",
+    "Daemonologie",
+    "Le Canon Episcopi"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Mon auteur principal est Heinrich Kramer.",
+   "id": "t066-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville\n2. Je suis dans le Massachusetts\n3. On y pend dix-neuf personnes en 1692",
+   "choix": [
+    "Salem",
+    "Plymouth",
+    "Boston",
+    "Pendle"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Les premières accusations naissent dans un village voisin qui portait mon nom.",
+   "id": "t066-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une femme\n2. On m’exécute en 1782\n3. Je suis suisse",
+   "choix": [
+    "Anna Göldi",
+    "La Voisin",
+    "Tituba",
+    "Jeanne d’Arc"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Je suis réhabilitée plus de deux siècles après ma mort.",
+   "id": "t066-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un médecin\n2. J’ai écrit en 1563\n3. Je doute des accusations",
+   "choix": [
+    "Johann Weyer",
+    "Jean Bodin",
+    "Paracelse",
+    "Pierre de Lancre"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Jean Bodin m’a violemment attaqué dans sa Démonomanie.",
+   "id": "t066-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un prêtre\n2. On m’accuse d’avoir ensorcelé des religieuses\n3. On me brûle en 1634",
+   "choix": [
+    "Urbain Grandier",
+    "Gilles de Rais",
+    "Friedrich Spee",
+    "Jacques de Molay"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Les religieuses de Loudun m’ont désigné.",
+   "id": "t066-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un roi\n2. J’ai écrit sur les démons\n3. J’ai régné sur l’Écosse puis l’Angleterre",
+   "choix": [
+    "Jacques VI",
+    "Henri VIII",
+    "Charles Ier",
+    "Richard III"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Shakespeare aurait écrit Macbeth en pensant à moi.",
+   "id": "t066-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un jésuite\n2. J’ai confessé des condamnées\n3. J’ai dénoncé la torture",
+   "choix": [
+    "Friedrich Spee",
+    "Ignace de Loyola",
+    "Johann Weyer",
+    "François Xavier"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "J’ai publié mon livre sans le signer, par prudence.",
+   "id": "t066-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une affaire\n2. Je secoue la cour de Louis XIV\n3. La Voisin y est brûlée",
+   "choix": [
+    "L’affaire des poisons",
+    "L’affaire du collier",
+    "Les possessions de Loudun",
+    "L’affaire Calas"
+   ],
+   "rep": 0,
+   "src": "Levack ; Muchembled ; Ginzburg",
+   "expl": "Même Madame de Montespan est soupçonnée.",
+   "id": "t066-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
