@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**13 / 99 thèmes terminés — 2110 questions au total.**
+**14 / 99 thèmes terminés — 2181 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -22,7 +22,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 14 | L’art du Maître du Jeu | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 15 | Races jouables et peuples d’aventuriers | 69 | 29 | 26 (13) | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 80 % | 5/52/12 | 17 | base |
 | 16 | Classes de personnage et archétypes | 70 | 30 | 22 (12) | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 74 % | 8/39/23 | 49 | base |
-| 17 | Sorts célèbres et écoles de magie | 70 | 30 | 22 (12) | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 74 % | 6/38/26 | 29 | base |
+| 17 | Sorts célèbres et écoles de magie | 141 | 44 | 21 (12) | 11 | 15 | 11 | 11 | 10 | 9 | 9 | 46 % | 10/95/36 | 8 | terminé |
 | 18 | Dés, caractéristiques et mécaniques | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 19 | Dieux, panthéons et plans d’existence | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 20 | Royaumes Oubliés (Faerûn) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -417,43 +417,9 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - cla-018 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mort, viva) — Dans D&D 5e, quelle capacité du clerc repousse les morts-vivants ?
 - cla-027 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (arti) — Dans D&D 5e, quelle classe d’artisan magique est introduite à partir du cadre Eberron ?
 - cla-038 : explication absente ou trop courte
-- sor-004 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (rayo) — Dans D&D 5e, quel sort de niveau 2 lance trois rayons de feu ?
-- sor-006 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (invi) — Dans D&D 5e, quel sort de niveau 2 rend invisible ?
-- sor-007 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (immo) — Dans D&D 5e, quel sort de niveau 2 immobilise un humanoïde ?
-- sor-011 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (magi, proj) — Dans D&D 5e, quel sort de niveau 1 lance des projectiles magiques qui touchent automatique
-- sor-013 : explication absente ou trop courte
-- sor-023 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (arre, temp) — Dans D&D 5e, quel sort de niveau 9 arrête le temps pour les autres ?
-- sor-024 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mete) — Dans D&D 5e, quel sort de niveau 9 fait pleuvoir des météores ?
-- sor-026 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (anim) — Dans D&D 5e, quel sort de niveau 1 permet de parler avec les animaux ?
-- sor-027 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (resp) — Dans D&D 5e, quel sort de niveau 3 permet de respirer sous l’eau ?
-- sor-029 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (rayo) — Dans D&D 5e, quel sort mineur de magicien lance un rayon de froid ?
-- sor-030 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (main) — Dans D&D 5e, quel sort mineur crée une main spectrale pour manipuler des objets ?
-- sor-034 : explication absente ou trop courte
-- sor-036 : explication absente ou trop courte
-- sor-037 : explication absente ou trop courte
-- sor-038 : explication absente ou trop courte
-- sor-039 : explication absente ou trop courte
-- sor-040 : explication absente ou trop courte
-- sor-043 : explication absente ou trop courte
-- sor-044 : explication absente ou trop courte
-- sor-045 : ÉVIDENT ? vrai/faux peut-être tautologique (invi) — Dans D&D 5e, Invisibilité rend invisible.
-- sor-046 : explication absente ou trop courte
-- sor-047 : explication absente ou trop courte
-- sor-051 : explication absente ou trop courte
-- sor-054 : explication absente ou trop courte
-- sor-055 : explication absente ou trop courte
-- sor-056 : explication absente ou trop courte
-- sor-057 : explication absente ou trop courte
-- sor-058 : explication absente ou trop courte
-- sor-059 : explication absente ou trop courte
-- sor-060 : explication absente ou trop courte
-- sor-061 : explication absente ou trop courte
-- sor-065 : explication absente ou trop courte
-- sor-066 : explication absente ou trop courte
-- sor-067 : explication absente ou trop courte
-- sor-067 : ÉVIDENT ? vrai/faux peut-être tautologique (vol) — Dans D&D 5e, le sort Vol permet de voler.
-- sor-068 : explication absente ou trop courte
-- sor-070 : explication absente ou trop courte
+- content/017/a.lm:45 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (lanc) — Dans D&D 5e, que risque un lanceur qui utilise Souhait pour autre chose que reproduire un 
+- content/017/a.lm:105 : ÉVIDENT ? vrai/faux peut-être tautologique (cont) — Dans D&D 5e, Contresort réussit automatiquement contre un sort de niveau 3 ou moins.
+- sorts-magie-dnd : niveaux déséquilibrés [10, 95, 36]
 - gre-003 : explication absente ou trop courte
 - gre-006 : explication absente ou trop courte
 - gre-011 : explication absente ou trop courte

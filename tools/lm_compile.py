@@ -210,7 +210,7 @@ def main():
         for f in sorted(glob.glob(os.path.join(C, '%03d' % n, '*.lm'))):
             a, b = parse(f, errs); new += a; drops += b
         base = [dict(q, **OVR.get(q['id'], {})) for q in base if q['id'] not in drops]
-        mx = max([int(q['id'].split('-')[-1]) for q in base] + [70 if base else 0])
+        mx = max([int(q['id'].split('-')[-1]) for q in base] + [70 if os.path.exists(bp) else 0])   # thème historique : on ne réutilise jamais les numéros 001-070
         for k, q in enumerate(new): q['id'] = '%s-%03d' % (pre, mx + 1 + k); q['conf'] = 'probable'
         qs = base + new
         for q in qs:

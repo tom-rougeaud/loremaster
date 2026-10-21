@@ -14,1062 +14,2259 @@
  },
  "questions": [
   {
-   "id": "sor-001",
-   "concept": "sor-001",
-   "niveau": 1,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 3 provoque une explosion de flammes de 6 m (20 pieds) de rayon ?",
+   "niveau": 1,
+   "q": "Dans D&D 5e, combien d’écoles de magie existe-t-il ?",
    "choix": [
-    "Boule de feu",
-    "Mur de feu",
-    "Éclair",
-    "Rayon ardent"
+    "8",
+    "6",
+    "10",
+    "12"
    ],
    "rep": 0,
-   "expl": "Boule de feu (Fireball) explose en sphère de 6 m de rayon et inflige 8d6 dégâts de feu.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Abjuration, divination, enchantement, évocation, illusion, invocation, nécromancie et transmutation : huit écoles, dont le magicien peut faire sa spécialité.",
+   "id": "sor-071",
    "conf": "probable"
   },
   {
-   "id": "sor-002",
-   "concept": "sor-002",
-   "niveau": 1,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 3 permet de voler ?",
-   "choix": [
-    "Lévitation",
-    "Saut",
-    "Vol",
-    "Pattes d’araignée"
-   ],
-   "rep": 2,
-   "expl": "Vol (Fly) donne une vitesse de vol de 18 m à la cible pendant 10 minutes.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-003",
-   "concept": "sor-003",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 1 permet de soigner les PV d’une créature touchée ?",
-   "choix": [
-    "Soins",
-    "Bénédiction",
-    "Éclair",
-    "Sommeil"
-   ],
-   "rep": 0,
-   "expl": "Soins (Cure Wounds) rend 1d8 + modificateur de caractéristique de lanceur de sorts PV.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Soins",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-004",
-   "concept": "sor-004",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 2 lance trois rayons de feu ?",
-   "choix": [
-    "Charme-personne",
-    "Armure de mage",
-    "Détection de la magie",
-    "Rayon ardent"
-   ],
-   "rep": 3,
-   "expl": "Rayon ardent (Scorching Ray) projette trois rayons qui infligent chacun 2d6 dégâts de feu.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon ardent",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-005",
-   "concept": "sor-005",
    "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 7 ramène un mort à la vie, jusqu’à un siècle après la mort ?",
+   "q": "Dans D&D 5e, à quelle école appartient Boule de feu ?",
    "choix": [
-    "Charme-personne",
-    "Soins",
-    "Sommeil",
-    "Résurrection"
-   ],
-   "rep": 3,
-   "expl": "Résurrection ramène à la vie une créature morte depuis moins d’un siècle, avec une grande fatigue.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Résurrection",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-006",
-   "concept": "sor-006",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 2 rend invisible ?",
-   "choix": [
-    "Confusion",
-    "Flou",
-    "Image miroir",
-    "Invisibilité"
-   ],
-   "rep": 3,
-   "expl": "Invisibilité (Invisibility) rend une créature invisible jusqu’à ce qu’elle attaque ou lance un sort.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Invisibilité",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-007",
-   "concept": "sor-007",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 2 immobilise un humanoïde ?",
-   "choix": [
-    "Cécité",
-    "Silence",
-    "Sommeil",
-    "Immobilisation de personne"
-   ],
-   "rep": 3,
-   "expl": "Immobilisation de personne (Hold Person) paralyse un humanoïde qui rate sa sauvegarde de Sagesse.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Immobilisation de personne",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-008",
-   "concept": "sor-008",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 1 endort des créatures qui ont peu de PV ?",
-   "choix": [
-    "Charme",
-    "Cécité",
-    "Sommeil",
-    "Immobilisation"
-   ],
-   "rep": 2,
-   "expl": "Sommeil (Sleep) endort les créatures par ordre croissant de PV, jusqu’à 5d8 PV au total.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-009",
-   "concept": "sor-009",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 1 détecte la présence de magie à proximité ?",
-   "choix": [
-    "Détection du mal",
-    "Détection des pensées",
-    "Dissipation de la magie",
-    "Détection de la magie"
-   ],
-   "rep": 3,
-   "expl": "Détection de la magie (Detect Magic) révèle la magie à moins de 9 m et l’école des objets visibles.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-010",
-   "concept": "sor-010",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 3 annule le sort qu’une créature est en train de lancer ?",
-   "choix": [
-    "Silence",
-    "Dissipation de la magie",
-    "Contresort",
-    "Bouclier"
-   ],
-   "rep": 2,
-   "expl": "Contresort (Counterspell) est lancé en réaction pour interrompre un sort.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-011",
-   "concept": "sor-011",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 1 lance des projectiles magiques qui touchent automatiquement ?",
-   "choix": [
-    "Rayon ardent",
-    "Projectile magique",
-    "Éclair",
-    "Boule de feu"
-   ],
-   "rep": 1,
-   "expl": "Projectile magique (Magic Missile) lance trois fléchettes de force, 1d4 + 1 chacune, sans jet d’attaque.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-012",
-   "concept": "sor-012",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, dans quelle école de magie se trouve Boule de feu ?",
-   "choix": [
-    "Abjuration",
-    "Divination",
-    "Illusion",
-    "Évocation"
-   ],
-   "rep": 3,
-   "expl": "Boule de feu est un sort d’évocation, comme Projectile magique et Éclair.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-013",
-   "concept": "sor-013",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, dans quelle école de magie se trouve Invisibilité ?",
-   "choix": [
-    "Transmutation",
-    "Illusion",
-    "Nécromancie",
-    "Évocation"
-   ],
-   "rep": 1,
-   "expl": "Invisibilité est un sort d’illusion.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Invisibilité",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-014",
-   "concept": "sor-014",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, dans quelle école de magie se trouve le sort Soins ?",
-   "choix": [
-    "Divination",
-    "Enchantement",
     "Évocation",
+    "Invocation",
+    "Transmutation",
     "Abjuration"
    ],
-   "rep": 2,
-   "expl": "Soins (Cure Wounds) est un sort d’évocation, malgré son effet de guérison.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Soins",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’évocation manipule l’énergie pour créer feu, foudre ou force ; Boule de feu en est l’exemple le plus célèbre.",
+   "id": "sor-072",
    "conf": "probable"
   },
   {
-   "id": "sor-015",
-   "concept": "sor-015",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, dans quelle école de magie se trouve Charme-personne ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quelle école appartient le sort Bouclier ?",
    "choix": [
-    "Invocation",
-    "Enchantement",
-    "Nécromancie",
-    "Illusion"
-   ],
-   "rep": 1,
-   "expl": "Charme-personne (Charm Person) est un sort d’enchantement.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Charme-personne",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-016",
-   "concept": "sor-016",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, dans quelle école de magie se trouve Téléportation ?",
-   "choix": [
-    "Invocation",
-    "Divination",
+    "Abjuration",
     "Évocation",
+    "Illusion",
     "Transmutation"
    ],
    "rep": 0,
-   "expl": "Téléportation (Teleport) est un sort d’invocation (conjuration).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Téléportation",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Bouclier, lancé en réaction, ajoute +5 à la CA jusqu’au début du tour suivant : c’est un sort de protection, donc d’abjuration.",
+   "id": "sor-073",
    "conf": "probable"
   },
   {
-   "id": "sor-017",
-   "concept": "sor-017",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, dans quelle école de magie se trouve Métamorphose ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quelle école appartient Téléportation ?",
    "choix": [
+    "Invocation",
     "Transmutation",
-    "Nécromancie",
-    "Illusion",
+    "Divination",
     "Abjuration"
    ],
    "rep": 0,
-   "expl": "Métamorphose (Polymorph) est un sort de transmutation.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Métamorphose",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les sorts qui déplacent des créatures ou font apparaître des choses relèvent de l’invocation (conjuration en anglais).",
+   "id": "sor-074",
    "conf": "probable"
   },
   {
-   "id": "sor-018",
-   "concept": "sor-018",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, dans quelle école de magie se trouve Animation des morts ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quelle école appartient le sort Soins ?",
    "choix": [
+    "Évocation",
     "Nécromancie",
-    "Illusion",
+    "Abjuration",
+    "Transmutation"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Contre-intuitif mais vrai : Soins (cure wounds) est un sort d’évocation, comme Mot de guérison ; la nécromancie touche plutôt à la mort et à la force vitale volée.",
+   "id": "sor-075",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, à quelle école appartient Contresort ?",
+   "choix": [
+    "Abjuration",
+    "Évocation",
     "Enchantement",
-    "Évocation"
+    "Divination"
    ],
    "rep": 0,
-   "expl": "Animation des morts (Animate Dead) est un sort de nécromancie.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Animation des morts",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Contresort et Dissipation de la magie sont des sorts d’abjuration : ils protègent en annulant la magie adverse.",
+   "id": "sor-076",
    "conf": "probable"
   },
   {
-   "id": "sor-019",
-   "concept": "sor-019",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, dans quelle école de magie se trouve Détection de la magie ?",
-   "choix": [
-    "Divination",
-    "Abjuration",
-    "Illusion",
-    "Évocation"
-   ],
-   "rep": 0,
-   "expl": "Détection de la magie est un sort de divination.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-020",
-   "concept": "sor-020",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, dans quelle école de magie se trouve Bouclier ?",
-   "choix": [
-    "Illusion",
-    "Abjuration",
-    "Divination",
-    "Évocation"
-   ],
-   "rep": 1,
-   "expl": "Bouclier (Shield) est un sort d’abjuration : il protège le lanceur.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Bouclier",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-021",
-   "concept": "sor-021",
    "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, combien d’écoles de magie le magicien compte-t-il ?",
+   "q": "Dans D&D 5e, quelle caractéristique un magicien utilise-t-il pour lancer ses sorts ?",
    "choix": [
-    "6",
-    "12",
+    "Intelligence",
+    "Sagesse",
+    "Charisme",
+    "Constitution"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le magicien apprend ses sorts dans un grimoire : son Intelligence fixe son DD et son bonus d’attaque magique.",
+   "id": "sor-077",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle caractéristique un ensorceleur utilise-t-il pour lancer ses sorts ?",
+   "choix": [
+    "Charisme",
+    "Intelligence",
+    "Sagesse",
+    "Dextérité"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La magie de l’ensorceleur est innée : elle dépend de sa force de personnalité, donc du Charisme, comme pour le barde et l’occultiste.",
+   "id": "sor-078",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle caractéristique un druide utilise-t-il pour lancer ses sorts ?",
+   "choix": [
+    "Sagesse",
+    "Intelligence",
+    "Charisme",
+    "Constitution"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Druides, clercs et rôdeurs lancent leurs sorts grâce à la Sagesse.",
+   "id": "sor-079",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de sorts de concentration un lanceur peut-il maintenir en même temps ?",
+   "choix": [
+    "1",
+    "2",
+    "3",
+    "Autant que son modificateur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "On ne peut se concentrer que sur un sort à la fois ; en lancer un second met fin au premier.",
+   "id": "sor-080",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel est le DD minimal du jet de Constitution pour garder sa concentration après avoir été blessé ?",
+   "choix": [
     "10",
-    "8"
-   ],
-   "rep": 3,
-   "expl": "Huit : abjuration, divination, enchantement, évocation, illusion, invocation, nécromancie et transmutation.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Écoles de magie",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-022",
-   "concept": "sor-022",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 9 exauce presque tout vœu ?",
-   "choix": [
-    "Souhait",
-    "Résurrection",
-    "Arrêt du temps",
-    "Métamorphose"
+    "5",
+    "12",
+    "15"
    ],
    "rep": 0,
-   "expl": "Souhait (Wish) est le sort le plus puissant, avec la possibilité de reproduire n’importe quel sort de niveau 8 ou moins.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le DD vaut 10 ou la moitié des dégâts subis, si ce nombre est plus élevé.",
+   "id": "sor-081",
    "conf": "probable"
   },
   {
-   "id": "sor-023",
-   "concept": "sor-023",
+   "type": "qcm",
    "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 9 arrête le temps pour les autres ?",
+   "q": "Dans D&D 5e, combien de temps de plus faut-il pour lancer un sort sous forme de rituel ?",
    "choix": [
-    "Téléportation",
-    "Arrêt du temps",
-    "Prémonition",
-    "Souhait"
+    "10 minutes",
+    "1 minute",
+    "1 heure",
+    "1 round"
    ],
-   "rep": 1,
-   "expl": "Arrêt du temps (Time Stop) donne au lanceur 1d4 + 1 tours consécutifs pendant que le temps est arrêté.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Arrêt du temps",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Un rituel prend 10 minutes de plus que l’incantation normale, mais ne dépense pas d’emplacement de sort.",
+   "id": "sor-082",
    "conf": "probable"
   },
   {
-   "id": "sor-024",
-   "concept": "sor-024",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 9 fait pleuvoir des météores ?",
+   "niveau": 3,
+   "q": "Dans D&D 5e, à quels niveaux de personnage les sorts mineurs (cantrips) gagnent-ils en puissance ?",
    "choix": [
-    "Boule de feu",
-    "Pluie de météores",
-    "Mur de glace",
-    "Éclair"
+    "5, 11 et 17",
+    "3, 6 et 9",
+    "4, 8 et 12",
+    "10 et 20"
    ],
-   "rep": 1,
-   "expl": "Pluie de météores (Meteor Swarm) inflige jusqu’à 40d6 dégâts de feu et 40d6 contondants.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Pluie de météores",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Trait de feu, Décharge occulte et la plupart des sorts mineurs offensifs gagnent un dé de dégâts aux niveaux 5, 11 et 17.",
+   "id": "sor-083",
    "conf": "probable"
   },
   {
-   "id": "sor-025",
-   "concept": "sor-025",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 9 tue instantanément une créature ayant peu de PV ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort mineur, signature des lanceurs liés à un protecteur, inflige 1d10 dégâts de force ?",
+   "choix": [
+    "Décharge occulte",
+    "Trait de feu",
+    "Rayon de givre",
+    "Flamme sacrée"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Décharge occulte (eldritch blast) est le sort signature de l’occultiste ; ses manifestations occultes peuvent l’améliorer.",
+   "id": "sor-084",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort mineur de clerc ignore les abris et inflige des dégâts radiants ?",
+   "choix": [
+    "Flamme sacrée",
+    "Glas",
+    "Trait de feu",
+    "Décharge occulte"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Flamme sacrée fait descendre une flamme sur la cible, qui doit réussir un jet de Dextérité ; aucun abri ne la protège.",
+   "id": "sor-085",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort mineur de barde inflige des dégâts psychiques et gêne la prochaine attaque de la cible ?",
+   "choix": [
+    "Moquerie cruelle",
+    "Mot de pouvoir étourdissant",
+    "Fou rire de Tasha",
+    "Glas"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Moquerie cruelle (vicious mockery) : une insulte magique qui blesse l’esprit et impose le désavantage à la prochaine attaque de la cible.",
+   "id": "sor-086",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort mineur ralentit la cible de 3 m en plus de lui infliger des dégâts de froid ?",
+   "choix": [
+    "Rayon de givre",
+    "Contact glacial",
+    "Trait de feu",
+    "Poigne électrique"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Rayon de givre inflige 1d8 dégâts de froid et réduit la vitesse de la cible de 3 m (10 pieds) jusqu’à son prochain tour.",
+   "id": "sor-087",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de projectiles lance Projectile magique avec un emplacement de niveau 1 ?",
+   "choix": [
+    "3",
+    "1",
+    "2",
+    "5"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Trois fléchettes de force de 1d4 + 1 dégâts chacune, qui touchent automatiquement ; une de plus par niveau d’emplacement au-dessus du 1er.",
+   "id": "sor-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle forme a la zone du sort Éclair (lightning bolt) ?",
+   "choix": [
+    "Une ligne de 30 m",
+    "Une sphère de 6 m",
+    "Un cône de 18 m",
+    "Un cube de 6 m"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Éclair forme une ligne de 30 m sur 1,5 m de large ; Boule de feu, elle, est une sphère de 6 m de rayon.",
+   "id": "sor-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien de dés de dégâts inflige Pluie de météores au total ?",
+   "choix": [
+    "40d6",
+    "20d6",
+    "10d10",
+    "8d6"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Chacune des quatre sphères inflige 20d6 de feu et 20d6 contondants ; une créature n’est touchée qu’une fois même si elle est dans plusieurs zones.",
+   "id": "sor-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 9 tue sans jet de sauvegarde une créature ayant 100 PV ou moins ?",
    "choix": [
     "Mot de pouvoir mortel",
-    "Charme",
-    "Bénédiction",
-    "Silence"
+    "Doigt de mort",
+    "Désintégration",
+    "Cercle de mort"
    ],
    "rep": 0,
-   "expl": "Mot de pouvoir mortel (Power Word Kill) tue une créature qui a 100 PV ou moins.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mot de pouvoir mortel",
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Mot de pouvoir mortel ne laisse aucune chance si la cible a 100 PV ou moins ; au-delà, il n’a aucun effet.",
+   "id": "sor-091",
    "conf": "probable"
   },
   {
-   "id": "sor-026",
-   "concept": "sor-026",
-   "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 1 permet de parler avec les animaux ?",
+   "niveau": 3,
+   "q": "Dans D&D 5e, que risque un lanceur qui utilise Souhait pour autre chose que reproduire un sort ?",
    "choix": [
-    "Charme",
-    "Communication avec les animaux",
-    "Bouclier",
-    "Dissipation"
+    "Ne plus jamais pouvoir le lancer",
+    "Perdre un niveau",
+    "Devenir un mort-vivant",
+    "Être banni dans les Abysses"
    ],
-   "rep": 1,
-   "expl": "Communication avec les animaux (Speak with Animals) permet de comprendre les bêtes et de leur parler.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Communication avec les animaux",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Après un souhait « libre », le lanceur s’affaiblit et a 33 % de chances de ne plus jamais pouvoir lancer Souhait.",
+   "id": "sor-092",
    "conf": "probable"
   },
   {
-   "id": "sor-027",
-   "concept": "sor-027",
-   "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 3 permet de respirer sous l’eau ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de tours supplémentaires donne Arrêt du temps ?",
    "choix": [
-    "Marche sur l’eau",
-    "Lévitation",
-    "Respiration aquatique",
-    "Vol"
+    "1d4 + 1",
+    "1",
+    "3",
+    "1d6"
    ],
-   "rep": 2,
-   "expl": "Respiration aquatique (Water Breathing) accorde la respiration sous l’eau pendant 24 heures à dix créatures.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Respiration aquatique",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le lanceur agit 1d4 + 1 tours d’affilée pendant que le temps est figé pour tous les autres ; le sort s’arrête s’il affecte une autre créature.",
+   "id": "sor-093",
    "conf": "probable"
   },
   {
-   "id": "sor-028",
-   "concept": "sor-028",
-   "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort de niveau 4 crée un mur de flammes ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle pierre précieuse faut-il pour lancer Retour à la vie (revivify) ?",
    "choix": [
-    "Mur de glace",
-    "Mur de feu",
+    "Un diamant de 300 po",
+    "Un rubis de 100 po",
+    "Une perle de 50 po",
+    "Une émeraude de 1 000 po"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Retour à la vie (niveau 3) ramène un mort depuis moins d’une minute, en consommant un diamant de 300 po.",
+   "id": "sor-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien de temps après la mort Rappel à la vie (raise dead) fonctionne-t-il ?",
+   "choix": [
+    "10 jours",
+    "1 minute",
+    "1 an",
+    "1 siècle"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Rappel à la vie (niveau 5) agit jusqu’à 10 jours après la mort ; Résurrection va jusqu’à un siècle, Résurrection suprême jusqu’à deux.",
+   "id": "sor-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 2, en action bonus, téléporte le lanceur à 9 m ?",
+   "choix": [
+    "Pas brumeux",
+    "Porte dimensionnelle",
+    "Clignotement",
+    "Saut"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Pas brumeux (misty step) est l’évasion favorite des lanceurs encerclés ; Porte dimensionnelle (niveau 4) va beaucoup plus loin.",
+   "id": "sor-096",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 3 donne +2 à la CA, double la vitesse et une action supplémentaire ?",
+   "choix": [
+    "Hâte",
+    "Bénédiction",
+    "Vol",
+    "Lenteur"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Hâte est puissant, mais quand il prend fin, la cible est léthargique et perd son tour suivant.",
+   "id": "sor-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien d’images illusoires crée le sort Image miroir ?",
+   "choix": [
+    "3",
+    "2",
+    "5",
+    "1"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Image miroir crée trois doubles illusoires : chaque attaque peut toucher un double au lieu du lanceur.",
+   "id": "sor-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est la portée maximale de Porte dimensionnelle ?",
+   "choix": [
+    "150 m (500 pieds)",
+    "9 m",
+    "1,5 km",
+    "Illimitée sur le même plan"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Porte dimensionnelle (niveau 4) téléporte le lanceur, et éventuellement un passager, jusqu’à 150 m.",
+   "id": "sor-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 1 permet de lancer un sort de soin en action bonus, à distance ?",
+   "choix": [
+    "Mot de guérison",
+    "Soins",
+    "Prière de guérison",
+    "Aide"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Mot de guérison soigne moins que Soins, mais il se lance en action bonus et à 18 m.",
+   "id": "sor-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel sort de niveau 6 réduit en poussière une créature tombée à 0 PV ?",
+   "choix": [
+    "Désintégration",
+    "Doigt de mort",
+    "Cercle de mort",
+    "Éclair de feu"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Désintégration inflige 10d6 + 40 dégâts de force ; une cible réduite à 0 PV devient un tas de poussière.",
+   "id": "sor-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 3 crée un dôme protecteur pour une nuit de repos ?",
+   "choix": [
+    "Petite hutte de Léomund",
+    "Sanctuaire",
+    "Globe d’invulnérabilité",
+    "Abri de Mordenkainen"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La petite hutte de Léomund est un rituel : un dôme de force de 3 m abrite le groupe pendant 8 heures.",
+   "id": "sor-102",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le Fou rire de Tasha est un sort d’enchantement de niveau 1.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : la cible s’effondre, prise d’un fou rire, et reste neutralisée tant qu’elle rate ses jets de Sagesse.",
+   "id": "sor-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel sort de niveau 1 transporte jusqu’à 225 kg de butin derrière le lanceur ?",
+   "choix": [
+    "Disque flottant de Tenser",
+    "Main de Bigby",
+    "Coffre secret de Léomund",
+    "Sphère d’Otiluke"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le Disque flottant de Tenser (niveau 1, rituel) suit le lanceur en portant jusqu’à 225 kg (500 livres).",
+   "id": "sor-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 7 crée une demeure extradimensionnelle avec serviteurs et banquet ?",
+   "choix": [
+    "Manoir somptueux de Mordenkainen",
+    "Petite hutte de Léomund",
+    "Château de Bigby",
+    "Repli de Rary"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancer des sorts » et chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Le Manoir somptueux de Mordenkainen offre un festin pour cent convives et des serviteurs invisibles.",
+   "id": "sor-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quelle déesse veille sur la magie et la Toile ?",
+   "choix": [
+    "Mystra",
+    "Séluné",
+    "Shar",
+    "Tymora"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015), « Divinités » ; Manuel des Joueurs 5e (2014), annexe B",
+   "expl": "Mystra, la Dame des mystères, entretient la Toile (the Weave), source de toute magie dans les Royaumes Oubliés.",
+   "id": "sor-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans l’histoire des Royaumes Oubliés, quel archimage nétherisien a provoqué la chute de son empire en voulant devenir dieu de la magie ?",
+   "choix": [
+    "Karsus",
+    "Elminster",
+    "Szass Tam",
+    "Larloch"
+   ],
+   "rep": 0,
+   "src": "Netheril: Empire of Magic (TSR, 1996) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Karsus lança le seul sort de niveau 12 jamais créé pour voler la divinité de Mystryl ; la magie s’effondra et Netheril tomba du ciel.",
+   "id": "sor-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quel célèbre sage de Valombre est un élu de Mystra ?",
+   "choix": [
+    "Elminster",
+    "Volo",
+    "Mordenkainen",
+    "Halaster"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Elminster Aumar, sage de Valombre (Shadowdale), est l’un des Élus de Mystra ; il vit depuis plus de mille ans.",
+   "id": "sor-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 1 de l’occultiste maudit une cible pour lui infliger 1d6 dégâts nécrotiques à chaque coup ?",
+   "choix": [
+    "Maléfice",
+    "Marque du chasseur",
+    "Bénédiction",
+    "Faveur divine"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Maléfice (hex) ajoute 1d6 dégâts nécrotiques et gêne une caractéristique de la cible ; la Marque du chasseur du rôdeur est son équivalent, mais ajoute des dégâts de l’arme.",
+   "id": "sor-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de clerc de niveau 3 fait tourner autour du lanceur des entités protectrices qui blessent les ennemis proches ?",
+   "choix": [
+    "Esprits gardiens",
+    "Bénédiction",
+    "Arme spirituelle",
+    "Cercle magique"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Esprits gardiens (spirit guardians) ralentit et blesse les ennemis qui approchent du clerc : un des sorts les plus efficaces du jeu.",
+   "id": "sor-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel sort de niveau 4 enferme une créature dans un globe de force que rien ne traverse ?",
+   "choix": [
+    "Sphère résiliente d’Otiluke",
     "Mur de force",
-    "Mur d’épines"
+    "Cage de force",
+    "Globe d’invulnérabilité"
    ],
-   "rep": 1,
-   "expl": "Mur de feu (Wall of Fire) crée un mur de flammes qui inflige 5d8 dégâts de feu.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mur de feu",
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "La Sphère résiliente d’Otiluke emprisonne une créature dans un globe de force que rien ne traverse.",
+   "id": "sor-111",
    "conf": "probable"
   },
   {
-   "id": "sor-029",
-   "concept": "sor-029",
-   "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort mineur de magicien lance un rayon de froid ?",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel sort de niveau 8 crée une zone où aucune magie ne fonctionne ?",
    "choix": [
-    "Main du mage",
-    "Boule de feu",
-    "Rayon de givre",
-    "Éclair"
+    "Champ antimagie",
+    "Esprit impénétrable",
+    "Dissipation de la magie",
+    "Contresort"
    ],
-   "rep": 2,
-   "expl": "Rayon de givre (Ray of Frost) inflige 1d8 dégâts de froid et réduit la vitesse de la cible.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon de givre",
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Le Champ antimagie est une sphère de 3 m qui suit le lanceur : sorts, objets magiques et créatures invoquées y sont neutralisés.",
+   "id": "sor-112",
    "conf": "probable"
   },
   {
-   "id": "sor-030",
-   "concept": "sor-030",
-   "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quel sort mineur crée une main spectrale pour manipuler des objets ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le nombre maximum de sorts mineurs qu’un magicien de niveau 1 connaît ?",
    "choix": [
-    "Lumière",
-    "Message",
-    "Main du mage",
-    "Prestidigitation"
+    "3",
+    "2",
+    "4",
+    "6"
    ],
-   "rep": 2,
-   "expl": "Main du mage (Mage Hand) crée une main spectrale pendant 1 minute.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Main du mage",
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Un magicien de niveau 1 connaît trois sorts mineurs ; il en apprend un quatrième au niveau 4 et un cinquième au niveau 10.",
+   "id": "sor-113",
    "conf": "probable"
   },
   {
-   "id": "sor-031",
-   "concept": "sor-031",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, Boule de feu inflige des dégâts de feu.",
-   "rep": true,
-   "expl": "Vrai : 8d6 dégâts de feu à tous dans la zone.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-032",
-   "concept": "sor-032",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, Boule de feu soigne les alliés.",
-   "rep": false,
-   "expl": "Faux : elle blesse toutes les créatures de la zone, alliés compris.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-033",
-   "concept": "sor-033",
+   "type": "qcm",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, Contresort annule un sort.",
-   "rep": true,
-   "expl": "Vrai : le lanceur réagit pour contrer un sort.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
+   "q": "Dans D&D 5e, quel est le seul type de sort que l’on peut lancer en action dans un tour où l’on a lancé un sort en action bonus ?",
+   "choix": [
+    "Un sort mineur",
+    "Un sort de niveau 1",
+    "N’importe quel sort",
+    "Un rituel"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Si vous lancez un sort en action bonus, le seul autre sort possible ce tour-ci est un sort mineur dont le temps d’incantation est d’une action.",
+   "id": "sor-114",
    "conf": "probable"
   },
   {
-   "id": "sor-034",
-   "concept": "sor-034",
+   "type": "qcm",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, il existe 12 écoles de magie.",
-   "rep": false,
-   "expl": "Faux : il en existe huit.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Écoles de magie",
+   "q": "Dans D&D 5e, que signifie la lettre « M » dans les composantes d’un sort ?",
+   "choix": [
+    "Matérielle",
+    "Magique",
+    "Mentale",
+    "Mineure"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "V (verbale), S (somatique) et M (matérielle) : un focaliseur arcanique ou une sacoche à composantes remplace les composantes matérielles sans coût indiqué.",
+   "id": "sor-115",
    "conf": "probable"
   },
   {
-   "id": "sor-035",
-   "concept": "sor-035",
+   "type": "vf",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, Sommeil agit sur des créatures ayant peu de PV.",
+   "q": "Dans D&D 5e, Boule de feu enflamme les objets inflammables qui ne sont ni portés ni transportés.",
    "rep": true,
-   "expl": "Vrai : les créatures de moins de PV tombent d’abord.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : le feu se propage aux coins et embrase les objets inflammables qui ne sont pas tenus.",
+   "id": "sor-116",
    "conf": "probable"
   },
   {
-   "id": "sor-036",
-   "concept": "sor-036",
-   "niveau": 3,
    "type": "vf",
-   "q": "Dans D&D 5e, Boule de feu est un sort de niveau 3.",
-   "rep": true,
-   "expl": "Vrai : niveau 3, école d’évocation.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-037",
-   "concept": "sor-037",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Boule de feu est un sort de niveau 1.",
-   "rep": false,
-   "expl": "Faux : c’est un sort de niveau 3.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-038",
-   "concept": "sor-038",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Projectile magique est un sort de niveau 1.",
-   "rep": true,
-   "expl": "Vrai : c’est un classique de niveau 1.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-039",
-   "concept": "sor-039",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Souhait est un sort de niveau 7.",
-   "rep": false,
-   "expl": "Faux : Souhait est un sort de niveau 9.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-040",
-   "concept": "sor-040",
-   "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Souhait est un sort de niveau 5.",
-   "rep": false,
-   "expl": "Faux : c’est un sort de niveau 9.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
-   "conf": "probable"
-  },
-  {
-   "id": "sor-041",
-   "concept": "sor-041",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, un sort mineur peut être lancé à volonté.",
-   "rep": true,
-   "expl": "Vrai : les sorts mineurs (cantrips) ne consomment pas d’emplacement.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Sorts mineurs",
+   "q": "Dans D&D 5e, Projectile magique doit réussir un jet d’attaque pour toucher.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Faux : les fléchettes touchent automatiquement ; seul le sort Bouclier les arrête.",
+   "id": "sor-117",
    "conf": "probable"
   },
   {
-   "id": "sor-042",
-   "concept": "sor-042",
-   "niveau": 2,
    "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le sort Bouclier se lance en réaction.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : on le lance quand on est touché par une attaque ou visé par Projectile magique.",
+   "id": "sor-118",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Soins (cure wounds) appartient à l’école de nécromancie.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Faux : c’est un sort d’évocation, comme Mot de guérison.",
+   "id": "sor-119",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, Contresort réussit automatiquement contre un sort de niveau 3 ou moins.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : au-delà, il faut réussir un test de caractéristique (DD 10 + niveau du sort) ou lancer Contresort à un niveau supérieur.",
+   "id": "sor-120",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
    "q": "Dans D&D 5e, un sort mineur consomme un emplacement de sort.",
    "rep": false,
-   "expl": "Faux : un sort mineur n’en consomme aucun.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 10 « Lancement de sorts », Sorts mineurs",
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Faux : les sorts mineurs se lancent à volonté, sans emplacement.",
+   "id": "sor-121",
    "conf": "probable"
   },
   {
-   "id": "sor-043",
-   "concept": "sor-043",
-   "niveau": 3,
    "type": "vf",
-   "q": "Dans D&D 5e, Détection de la magie est un sort de divination.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Vol est un sort de concentration.",
    "rep": true,
-   "expl": "Vrai : école de divination.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : si la concentration est rompue en plein vol, la cible tombe.",
+   "id": "sor-122",
    "conf": "probable"
   },
   {
-   "id": "sor-044",
-   "concept": "sor-044",
+   "type": "vf",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Détection de la magie est un sort de nécromancie.",
+   "q": "Dans D&D 5e, Image miroir nécessite la concentration.",
    "rep": false,
-   "expl": "Faux : c’est un sort de divination.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Détection de la magie",
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Faux : Image miroir dure une minute sans concentration, ce qui en fait une excellente défense.",
+   "id": "sor-123",
    "conf": "probable"
   },
   {
-   "id": "sor-045",
-   "concept": "sor-045",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, Invisibilité rend invisible.",
-   "rep": true,
-   "expl": "Vrai : jusqu’à ce que la cible attaque ou lance un sort.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Invisibilité",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la Petite hutte de Léomund dure 24 heures.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Faux : le dôme dure 8 heures, juste le temps d’un repos long ; on peut le lancer comme rituel.",
+   "id": "sor-124",
    "conf": "probable"
   },
   {
-   "id": "sor-046",
-   "concept": "sor-046",
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Invisibilité prend fin si la cible attaque ou lance un sort.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : Invisibilité (niveau 2) cesse dès que la cible attaque ou lance un sort ; Invisibilité supérieure (niveau 4) n’a pas cette limite.",
+   "id": "sor-125",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Résurrection est un sort de niveau 7.",
+   "q": "Dans D&D 5e, Résurrection suprême peut ramener un mort jusqu’à 200 ans après son décès.",
    "rep": true,
-   "expl": "Vrai : niveau 7, nécromancie.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Résurrection",
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : Résurrection suprême (niveau 9) fonctionne jusqu’à 200 ans après la mort, même sans corps.",
+   "id": "sor-126",
    "conf": "probable"
   },
   {
-   "id": "sor-047",
-   "concept": "sor-047",
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’occultiste récupère ses emplacements de sort après un repos court.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : la magie de pacte de l’occultiste se recharge après un repos court ou long.",
+   "id": "sor-127",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le magicien peut copier dans son grimoire un sort trouvé sur un parchemin.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : il dépense du temps (2 heures par niveau) et de l’or (50 po par niveau) pour le transcrire.",
+   "id": "sor-128",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Pas brumeux nécessite une action complète.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Faux : c’est une action bonus, d’où sa popularité.",
+   "id": "sor-129",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Arrêt du temps est un sort de niveau 5.",
+   "q": "Dans D&D 5e, Mot de pouvoir mortel demande un jet de sauvegarde de Constitution.",
    "rep": false,
-   "expl": "Faux : c’est un sort de niveau 9.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Arrêt du temps",
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Faux : il n’y a aucun jet de sauvegarde ; seul le seuil de 100 PV compte.",
+   "id": "sor-130",
    "conf": "probable"
   },
   {
-   "id": "sor-048",
-   "concept": "sor-048",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, le magicien peut préparer des sorts après un repos long.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Hâte rend la cible léthargique quand le sort prend fin.",
    "rep": true,
-   "expl": "Vrai : il prépare une liste de sorts à partir de son grimoire.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Magicien, Préparation des sorts »",
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : la cible ne peut ni se déplacer ni agir jusqu’à la fin de son tour suivant.",
+   "id": "sor-131",
    "conf": "probable"
   },
   {
-   "id": "sor-049",
-   "concept": "sor-049",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, un emplacement de sort se récupère à chaque tour.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Charme-personne fonctionne sur les dragons.",
    "rep": false,
-   "expl": "Faux : les emplacements se récupèrent après un repos long.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 3 « Magicien, Récupération arcanique »",
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Faux : Charme-personne n’affecte que les humanoïdes ; Charme-monstre (niveau 4) élargit la cible.",
+   "id": "sor-132",
    "conf": "probable"
   },
   {
-   "id": "sor-050",
-   "concept": "sor-050",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, Lévitation et Vol sont le même sort.",
-   "rep": false,
-   "expl": "Faux : Lévitation (niveau 2) et Vol (niveau 3) sont deux sorts distincts.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Disque flottant de Tenser est un sort d’invocation.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Vrai : le disque de force est « invoqué » ; c’est un rituel de niveau 1 très pratique pour transporter du butin.",
+   "id": "sor-133",
    "conf": "probable"
   },
   {
-   "id": "sor-051",
-   "concept": "sor-051",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Boule de feu ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 3,
-   "expl": "Boule de feu est un sort de niveau 3.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-052",
-   "concept": "sor-052",
    "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de d6 de dégâts inflige Boule de feu à l’incantation de base ?",
+   "q": "Dans D&D 5e, combien de dés de dégâts inflige Boule de feu lancée avec un emplacement de niveau 3 ?",
+   "rep": 8,
    "min": 1,
    "max": 20,
    "pas": 1,
    "unite": "d6",
    "tolerance": 0,
-   "rep": 8,
-   "expl": "Boule de feu inflige 8d6 dégâts de feu, plus 1d6 par niveau d’emplacement supérieur.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "8d6 dégâts de feu (28 en moyenne), +1d6 par niveau d’emplacement au-dessus du 3e.",
+   "id": "sor-134",
+   "conf": "probable"
   },
   {
-   "id": "sor-053",
-   "concept": "sor-053",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, quel est le rayon de Boule de feu, en pieds ?",
-   "min": 5,
-   "max": 60,
-   "pas": 1,
-   "unite": "pieds",
-   "tolerance": 0,
-   "rep": 20,
-   "expl": "Boule de feu a un rayon de 20 pieds (6 m).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Boule de feu",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-054",
-   "concept": "sor-054",
    "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de projectiles lance Projectile magique au niveau de base ?",
-   "min": 1,
-   "max": 10,
-   "pas": 1,
-   "unite": "projectiles",
+   "q": "Dans D&D 5e, combien de PV au plus une cible peut-elle avoir pour être tuée par Mot de pouvoir mortel ?",
+   "rep": 100,
+   "min": 10,
+   "max": 300,
+   "pas": 10,
+   "unite": "PV",
    "tolerance": 0,
-   "rep": 3,
-   "expl": "Trois fléchettes de force.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "100 PV ou moins : au-dessus, le sort n’a aucun effet.",
+   "id": "sor-135",
+   "conf": "probable"
   },
   {
-   "id": "sor-055",
-   "concept": "sor-055",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Mot de pouvoir mortel ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 9,
-   "expl": "C’est un sort de niveau 9.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mot de pouvoir mortel",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-056",
-   "concept": "sor-056",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Résurrection ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 7,
-   "expl": "Résurrection est un sort de niveau 7.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Résurrection",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-057",
-   "concept": "sor-057",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Téléportation ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 7,
-   "expl": "Téléportation est un sort de niveau 7.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Téléportation",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-058",
-   "concept": "sor-058",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Contresort ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 3,
-   "expl": "Contresort est un sort de niveau 3.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-059",
-   "concept": "sor-059",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Vol ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 3,
-   "expl": "Vol est un sort de niveau 3.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-060",
-   "concept": "sor-060",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Souhait ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 9,
-   "expl": "Souhait est un sort de niveau 9.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Souhait",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-061",
-   "concept": "sor-061",
    "niveau": 3,
+   "q": "Dans D&D 5e, combien de pièces d’or vaut le diamant consommé par Résurrection suprême ?",
+   "rep": 25000,
+   "min": 1000,
+   "max": 50000,
+   "pas": 1000,
+   "unite": "po",
+   "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Il faut un diamant d’au moins 25 000 po, contre 1 000 po pour Résurrection et 500 po pour Rappel à la vie.",
+   "id": "sor-136",
+   "conf": "probable"
+  },
+  {
    "type": "slider",
-   "q": "Dans D&D 5e, quelle est la durée de Sommeil, en minutes ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel bonus à la CA donne le sort Bouclier ?",
+   "rep": 5,
    "min": 1,
    "max": 10,
    "pas": 1,
-   "unite": "minute",
+   "unite": "points",
    "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "+5 à la CA jusqu’au début du prochain tour du lanceur, y compris contre l’attaque qui l’a déclenché.",
+   "id": "sor-137",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien de PV soigne Guérison de groupe (mass heal) au total ?",
+   "rep": 700,
+   "min": 100,
+   "max": 1000,
+   "pas": 50,
+   "unite": "PV",
+   "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Guérison de groupe (niveau 9) répartit jusqu’à 700 PV entre les créatures visibles dans la zone.",
+   "id": "sor-138",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le niveau du sort Désintégration ?",
+   "rep": 6,
+   "min": 1,
+   "max": 9,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Désintégration est un sort de transmutation de niveau 6.",
+   "id": "sor-139",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien d’emplacements de sort de niveau 9 un magicien de niveau 20 possède-t-il ?",
    "rep": 1,
-   "expl": "Sommeil dure 1 minute.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-062",
-   "concept": "sor-062",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Main du mage ?",
    "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 0,
-   "expl": "Main du mage est un sort mineur, c’est-à-dire de niveau 0.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Main du mage",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-063",
-   "concept": "sor-063",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, combien de d8 de dégâts inflige Rayon de givre à bas niveau ?",
-   "min": 1,
    "max": 5,
    "pas": 1,
-   "unite": "d8",
+   "unite": "emplacement",
    "tolerance": 0,
-   "rep": 1,
-   "expl": "Rayon de givre inflige 1d8 dégâts de froid (jusqu’à 4d8 au niveau 17).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Rayon de givre",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-064",
-   "concept": "sor-064",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Pluie de météores ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 9,
-   "expl": "Pluie de météores est un sort de niveau 9.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Pluie de météores",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-065",
-   "concept": "sor-065",
-   "niveau": 3,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau d’Arrêt du temps ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 9,
-   "expl": "Arrêt du temps est un sort de niveau 9.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Arrêt du temps",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "sor-066",
-   "concept": "sor-066",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, Contresort est un sort de niveau 3.",
-   "rep": true,
-   "expl": "Vrai : niveau 3, abjuration.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Contresort",
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Même au niveau 20, un lanceur complet n’a qu’un seul emplacement de niveau 9.",
+   "id": "sor-140",
    "conf": "probable"
   },
   {
-   "id": "sor-067",
-   "concept": "sor-067",
+   "type": "slider",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, le sort Vol permet de voler.",
-   "rep": true,
-   "expl": "Vrai : vitesse de vol de 18 m.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Vol",
+   "q": "Dans D&D 5e, combien de pièces d’or coûte, par niveau du sort, la copie d’un sort dans un grimoire ?",
+   "rep": 50,
+   "min": 10,
+   "max": 200,
+   "pas": 10,
+   "unite": "po",
+   "tolerance": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "50 po et 2 heures par niveau de sort : encres rares et essais ratés compris.",
+   "id": "sor-141",
    "conf": "probable"
   },
   {
-   "id": "sor-068",
-   "concept": "sor-068",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Sommeil ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 1,
-   "expl": "Sommeil est un sort de niveau 1.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Sommeil",
-   "conf": "probable",
-   "tol_pct": 0
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, les sorts de niveau 0, lançables à volonté, s’appellent des sorts ____.",
+   "choix": [
+    "mineurs",
+    "rituels",
+    "majeurs",
+    "innés"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les sorts mineurs (cantrips) ne consomment aucun emplacement : Trait de feu, Lumière, Main de mage…",
+   "id": "sor-142",
+   "conf": "probable"
   },
   {
-   "id": "sor-069",
-   "concept": "sor-069",
+   "type": "trou",
    "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Projectile magique ?",
-   "min": 0,
-   "max": 9,
-   "pas": 1,
-   "unite": "niveau",
-   "tolerance": 0,
-   "rep": 1,
-   "expl": "Projectile magique est un sort de niveau 1.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Projectile magique",
-   "conf": "probable",
-   "tol_pct": 0
+   "q": "Dans D&D 5e, l’école de magie qui crée images, sons et faux-semblants s’appelle l’____.",
+   "choix": [
+    "illusion",
+    "enchantement",
+    "divination",
+    "abjuration"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Les illusionnistes créent images, sons et faux-semblants ; l’enchantement, lui, agit directement sur l’esprit.",
+   "id": "sor-143",
+   "conf": "probable"
   },
   {
-   "id": "sor-070",
-   "concept": "sor-070",
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’école qui agit sur l’esprit, comme Charme-personne ou Immobilisation de personne, s’appelle l’____.",
+   "choix": [
+    "enchantement",
+    "illusion",
+    "évocation",
+    "nécromancie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "L’enchantement charme, endort ou paralyse par la magie mentale.",
+   "id": "sor-144",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’école qui révèle des informations, comme Détection de la magie ou Scrutation, s’appelle la ____.",
+   "choix": [
+    "divination",
+    "transmutation",
+    "abjuration",
+    "invocation"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La divination permet de voir à distance, de lire les pensées ou de deviner l’avenir.",
+   "id": "sor-145",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’école qui modifie la matière, comme Métamorphose ou Vol, s’appelle la ____.",
+   "choix": [
+    "transmutation",
+    "invocation",
+    "évocation",
+    "nécromancie"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "La transmutation change les propriétés d’une créature ou d’un objet : forme, vitesse, matière.",
+   "id": "sor-146",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
    "niveau": 3,
+   "q": "Dans D&D 5e, le magicien d’une école se spécialise et devient, par exemple, évocateur, devin ou ____.",
+   "choix": [
+    "nécromancien",
+    "sorcier",
+    "druide",
+    "barde"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Chaque tradition arcanique du magicien correspond à une école : abjurateur, devin, enchanteur, évocateur, illusionniste, invocateur, nécromancien, transmutateur.",
+   "id": "sor-147",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, pour maintenir certains sorts, le lanceur doit garder sa ____.",
+   "choix": [
+    "concentration",
+    "respiration",
+    "baguette",
+    "voix"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Un sort de concentration prend fin si le lanceur perd sa concentration, en lance un autre du même type ou tombe inconscient.",
+   "id": "sor-148",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’objet qui contient les sorts du magicien s’appelle un ____.",
+   "choix": [
+    "grimoire",
+    "codex",
+    "psautier",
+    "carnet"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Le grimoire contient tous les sorts que le magicien peut préparer ; le perdre est une catastrophe.",
+   "id": "sor-149",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’ensorceleur modifie ses sorts grâce à la ____ (sorcery points).",
+   "choix": [
+    "métamagie",
+    "prestidigitation",
+    "divination",
+    "quintessence"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), « Ensorceleur »",
+   "expl": "La métamagie permet de doubler la portée, d’accélérer ou de jumeler un sort en dépensant des points de sorcellerie.",
+   "id": "sor-150",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans les Royaumes Oubliés, la source invisible de toute magie s’appelle la ____.",
+   "choix": [
+    "Toile",
+    "Trame",
+    "Source",
+    "Flamme"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "La Toile (the Weave), gardée par Mystra, relie toute la magie des Royaumes ; certains parlent de la « Toile d’ombre » de Shar.",
+   "id": "sor-151",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le sort Main de ____ (niveau 5) crée une grande main de force qui frappe, pousse ou agrippe.",
+   "choix": [
+    "Bigby",
+    "Mordenkainen",
+    "Tenser",
+    "Otto"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "La Main de Bigby peut cogner, repousser, agripper ou protéger : un sort d’évocation très polyvalent.",
+   "id": "sor-152",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le sort Danse irrésistible d’____ (niveau 6) force la cible à danser sur place.",
+   "choix": [
+    "Otto",
+    "Tasha",
+    "Rary",
+    "Nystul"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "La Danse irrésistible d’Otto n’autorise aucun jet de sauvegarde initial : la cible danse et ne peut plus se déplacer.",
+   "id": "sor-153",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la Flèche acide de ____ (niveau 2) brûle sa cible pendant deux tours.",
+   "choix": [
+    "Melf",
+    "Tenser",
+    "Léomund",
+    "Drawmij"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "La Flèche acide de Melf inflige 4d4 dégâts d’acide à l’impact, puis 2d4 à la fin du tour suivant.",
+   "id": "sor-154",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces écoles n’est pas une école de magie de D&D 5e ?",
+   "choix": [
+    "Élémentalisme",
+    "Abjuration",
+    "Divination",
+    "Nécromancie"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "L’élémentalisme n’est pas une école en 5e. Abjuration, divination et nécromancie font partie des huit.",
+   "id": "sor-155",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts n’est pas un sort d’évocation ?",
+   "choix": [
+    "Contresort",
+    "Boule de feu",
+    "Éclair",
+    "Cône de froid"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Contresort est une abjuration. Boule de feu, Éclair et Cône de froid sont des évocations.",
+   "id": "sor-156",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts ne nécessite pas de concentration ?",
+   "choix": [
+    "Image miroir",
+    "Vol",
+    "Hâte",
+    "Immobilisation de personne"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Image miroir dure une minute sans concentration. Vol, Hâte et Immobilisation de personne exigent la concentration.",
+   "id": "sor-157",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts n’est pas un sort mineur ?",
+   "choix": [
+    "Projectile magique",
+    "Trait de feu",
+    "Rayon de givre",
+    "Décharge occulte"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Projectile magique est un sort de niveau 1. Les trois autres sont des sorts mineurs.",
+   "id": "sor-158",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces sorts n’est pas de niveau 9 ?",
+   "choix": [
+    "Mot de pouvoir étourdissant",
+    "Souhait",
+    "Arrêt du temps",
+    "Pluie de météores"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Mot de pouvoir étourdissant est de niveau 8. Souhait, Arrêt du temps et Pluie de météores sont de niveau 9.",
+   "id": "sor-159",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a pas donné son nom à un sort de D&D ?",
+   "choix": [
+    "Elminster",
+    "Mordenkainen",
+    "Tenser",
+    "Bigby"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Mordenkainen, Tenser et Bigby ont leurs sorts (Manoir, Disque, Main). Elminster n’a pas de sort à son nom dans le Manuel des Joueurs.",
+   "id": "sor-160",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces classes n’utilise pas le Charisme pour lancer ses sorts ?",
+   "choix": [
+    "Druide",
+    "Barde",
+    "Ensorceleur",
+    "Occultiste"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Le druide lance ses sorts grâce à la Sagesse. Barde, ensorceleur et occultiste utilisent le Charisme.",
+   "id": "sor-161",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces sorts de résurrection ne consomme pas de diamant ?",
+   "choix": [
+    "Doux repos",
+    "Retour à la vie",
+    "Rappel à la vie",
+    "Résurrection"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Doux repos (préservation des morts) ne ramène personne : il protège seulement le corps. Les trois autres consomment un diamant.",
+   "id": "sor-162",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts ne permet pas de se déplacer magiquement ?",
+   "choix": [
+    "Bouclier",
+    "Pas brumeux",
+    "Porte dimensionnelle",
+    "Téléportation"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Bouclier protège sans déplacer. Les trois autres téléportent le lanceur.",
+   "id": "sor-163",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces sorts ne soigne pas ?",
+   "choix": [
+    "Lumière",
+    "Soins",
+    "Mot de guérison",
+    "Prière de guérison"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Lumière fait briller un objet. Soins, Mot de guérison et Prière de guérison rendent des points de vie.",
+   "id": "sor-164",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces composantes n’existe pas pour les sorts de D&D 5e ?",
+   "choix": [
+    "Divine",
+    "Verbale",
+    "Somatique",
+    "Matérielle"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Il n’existe que trois composantes : verbale, somatique et matérielle. « Divine » n’en est pas une.",
+   "id": "sor-165",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels de ces sorts infligent des dégâts de feu ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Boule de feu",
+    "Trait de feu",
+    "Mur de feu",
+    "Éclair",
+    "Cône de froid"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Boule de feu, Trait de feu et Mur de feu brûlent. Éclair inflige de la foudre, Cône de froid du froid.",
+   "id": "sor-166",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces sorts sont des abjurations ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bouclier",
+    "Contresort",
+    "Dissipation de la magie",
+    "Boule de feu",
+    "Charme-personne"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Bouclier, Contresort et Dissipation de la magie protègent ou annulent : ce sont des abjurations.",
+   "id": "sor-167",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces sorts nécessitent la concentration ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vol",
+    "Hâte",
+    "Maléfice",
+    "Image miroir",
+    "Projectile magique"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Vol, Hâte et Maléfice demandent la concentration ; Image miroir et Projectile magique non.",
+   "id": "sor-168",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles classes utilisent la Sagesse pour lancer leurs sorts ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Clerc",
+    "Druide",
+    "Rôdeur",
+    "Magicien",
+    "Barde"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Clerc, druide et rôdeur utilisent la Sagesse ; le magicien utilise l’Intelligence, le barde le Charisme.",
+   "id": "sor-169",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels sorts peuvent être lancés comme rituels ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Détection de la magie",
+    "Petite hutte de Léomund",
+    "Appel de familier",
+    "Boule de feu",
+    "Contresort"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Détection de la magie, Petite hutte de Léomund et Appel de familier ont l’étiquette « rituel ». Boule de feu et Contresort non.",
+   "id": "sor-170",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces sorts portent le nom d’un magicien de Greyhawk ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Manoir somptueux de Mordenkainen",
+    "Disque flottant de Tenser",
+    "Main de Bigby",
+    "Boule de feu",
+    "Pas brumeux"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Greyhawk (TSR) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Mordenkainen, Tenser et Bigby sont des magiciens du monde de Greyhawk, membres ou proches du Cercle des Huit.",
+   "id": "sor-171",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts ramènent un mort à la vie ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Retour à la vie",
+    "Rappel à la vie",
+    "Résurrection suprême",
+    "Animation des morts",
+    "Communication avec les morts"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Greyhawk (TSR) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Les trois premiers rendent la vie. Animation des morts crée un serviteur mort-vivant, Communication avec les morts interroge un cadavre.",
+   "id": "sor-172",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels sorts de niveau 9 figurent dans le Manuel des Joueurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Souhait",
+    "Portail",
+    "Prémonition",
+    "Désintégration",
+    "Doigt de mort"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Greyhawk (TSR) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Souhait, Portail et Prémonition sont de niveau 9 ; Désintégration est de niveau 6 et Doigt de mort de niveau 7.",
+   "id": "sor-173",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts mineurs infligent des dégâts ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Trait de feu",
+    "Moquerie cruelle",
+    "Flamme sacrée",
+    "Lumière",
+    "Main de mage"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Greyhawk (TSR) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Trait de feu, Moquerie cruelle et Flamme sacrée blessent ; Lumière et Main de mage sont utilitaires.",
+   "id": "sor-174",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces sorts de résurrection par niveau croissant.",
+   "items": [
+    "Retour à la vie",
+    "Rappel à la vie",
+    "Résurrection",
+    "Résurrection suprême"
+   ],
+   "src": "Greyhawk (TSR) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Niveaux 3, 5, 7 et 9 : plus le sort est puissant, plus la mort peut être ancienne.",
+   "id": "sor-175",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sorts de téléportation par niveau croissant.",
+   "items": [
+    "Pas brumeux",
+    "Porte dimensionnelle",
+    "Téléportation",
+    "Portail"
+   ],
+   "src": "Greyhawk (TSR) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Pas brumeux 2, Porte dimensionnelle 4, Téléportation 7, Portail 9.",
+   "id": "sor-176",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sorts d’évocation par niveau croissant.",
+   "items": [
+    "Projectile magique",
+    "Boule de feu",
+    "Cône de froid",
+    "Pluie de météores"
+   ],
+   "src": "Greyhawk (TSR) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Projectile magique 1, Boule de feu 3, Cône de froid 5, Pluie de météores 9.",
+   "id": "sor-177",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces diamants de résurrection par valeur croissante.",
+   "items": [
+    "Retour à la vie",
+    "Rappel à la vie",
+    "Résurrection",
+    "Résurrection suprême"
+   ],
+   "src": "Greyhawk (TSR) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Retour à la vie consomme un diamant de 300 po, Rappel à la vie de 500 po, Résurrection de 1 000 po et Résurrection suprême de 25 000 po.",
+   "id": "sor-178",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sorts de protection par niveau croissant.",
+   "items": [
+    "Bouclier",
+    "Contresort",
+    "Bannissement",
+    "Globe d’invulnérabilité"
+   ],
+   "src": "Greyhawk (TSR) ; Manuel des Joueurs 5e (2014)",
+   "expl": "Bouclier 1, Contresort 3, Bannissement 4, Globe d’invulnérabilité 6.",
+   "id": "sor-179",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie d’un magicien de D&D 5e dans l’ordre.",
+   "items": [
+    "Choisir une tradition arcanique (niv. 2)",
+    "Apprendre les sorts de niveau 3 (niv. 5)",
+    "Maîtrise des sorts (niv. 18)",
+    "Sorts de prédilection (niv. 20)"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Tradition au niveau 2, sorts de niveau 3 au niveau 5, Maîtrise des sorts au niveau 18 et Sorts de prédilection au niveau 20.",
+   "id": "sor-180",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces sorts mineurs offensifs selon le dé de dégâts, du plus petit au plus grand.",
+   "items": [
+    "Moquerie cruelle",
+    "Rayon de givre",
+    "Décharge occulte"
+   ],
+   "src": "Manuel des Joueurs 5e (2014), « Magicien »",
+   "expl": "Moquerie cruelle 1d4, Rayon de givre 1d8, Décharge occulte 1d10.",
+   "id": "sor-181",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de l’histoire de la magie dans les Royaumes Oubliés dans l’ordre.",
+   "items": [
+    "Chute de Netheril (folie de Karsus)",
+    "Temps des Troubles",
+    "Peste magique"
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Netheril tombe en –339 CV, le Temps des Troubles survient en 1358 CV et la Peste magique (Spellplague) en 1385 CV.",
+   "id": "sor-182",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque sort à son école.",
+   "paires": [
+    [
+     "Boule de feu",
+     "Évocation"
+    ],
+    [
+     "Bouclier",
+     "Abjuration"
+    ],
+    [
+     "Téléportation",
+     "Invocation"
+    ],
+    [
+     "Métamorphose",
+     "Transmutation"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Ces quatre sorts illustrent quatre des huit écoles de magie.",
+   "id": "sor-183",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe ces autres sorts à leur école.",
+   "paires": [
+    [
+     "Charme-personne",
+     "Enchantement"
+    ],
+    [
+     "Invisibilité",
+     "Illusion"
+    ],
+    [
+     "Animation des morts",
+     "Nécromancie"
+    ],
+    [
+     "Scrutation",
+     "Divination"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Les quatre autres écoles : enchantement, illusion, nécromancie, divination.",
+   "id": "sor-184",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque classe à sa caractéristique de lanceur de sorts.",
+   "paires": [
+    [
+     "Magicien",
+     "Intelligence"
+    ],
+    [
+     "Clerc",
+     "Sagesse"
+    ],
+    [
+     "Ensorceleur",
+     "Charisme"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Intelligence pour le magicien, Sagesse pour le clerc, Charisme pour l’ensorceleur.",
+   "id": "sor-185",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sort à son niveau.",
+   "paires": [
+    [
+     "Pas brumeux",
+     "2"
+    ],
+    [
+     "Contresort",
+     "3"
+    ],
+    [
+     "Bannissement",
+     "4"
+    ],
+    [
+     "Désintégration",
+     "6"
+    ],
+    [
+     "Souhait",
+     "9"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Ces niveaux sont ceux du Manuel des Joueurs de 2014.",
+   "id": "sor-186",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque magicien célèbre à son sort.",
+   "paires": [
+    [
+     "Tasha",
+     "Fou rire"
+    ],
+    [
+     "Melf",
+     "Flèche acide"
+    ],
+    [
+     "Otto",
+     "Danse irrésistible"
+    ],
+    [
+     "Léomund",
+     "Petite hutte"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Ces sorts portent les noms de personnages de Greyhawk et des joueurs de Gary Gygax.",
+   "id": "sor-187",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sort mineur à son type de dégâts.",
+   "paires": [
+    [
+     "Trait de feu",
+     "Feu"
+    ],
+    [
+     "Rayon de givre",
+     "Froid"
+    ],
+    [
+     "Décharge occulte",
+     "Force"
+    ],
+    [
+     "Flamme sacrée",
+     "Radiant"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Chaque sort mineur offensif a son élément.",
+   "id": "sor-188",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque composante à sa lettre.",
+   "paires": [
+    [
+     "Verbale",
+     "V"
+    ],
+    [
+     "Somatique",
+     "S"
+    ],
+    [
+     "Matérielle",
+     "M"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Les blocs de sorts indiquent V, S et M : paroles, gestes et objets.",
+   "id": "sor-189",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sort de résurrection au délai maximal après la mort.",
+   "paires": [
+    [
+     "Retour à la vie",
+     "1 minute"
+    ],
+    [
+     "Rappel à la vie",
+     "10 jours"
+    ],
+    [
+     "Résurrection",
+     "100 ans"
+    ],
+    [
+     "Résurrection suprême",
+     "200 ans"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Plus le sort est puissant, plus on peut attendre avant de ramener le défunt.",
+   "id": "sor-190",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque sort à sa zone.",
+   "paires": [
+    [
+     "Boule de feu",
+     "Sphère"
+    ],
+    [
+     "Éclair",
+     "Ligne"
+    ],
+    [
+     "Cône de froid",
+     "Cône"
+    ],
+    [
+     "Mur de feu",
+     "Mur"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "La forme de la zone change tout au placement des sorts en combat.",
+   "id": "sor-191",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un sort de niveau 3\n2. J’explose en sphère de 6 m\n3. J’enflamme les objets autour de moi",
+   "choix": [
+    "Boule de feu",
+    "Éclair",
+    "Cône de froid",
+    "Mur de feu"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Boule de feu, 8d6 dégâts de feu, est le sort le plus célèbre de D&D.",
+   "id": "sor-192",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sort de niveau 1\n2. Je me lance en réaction\n3. Je donne +5 à la CA",
+   "choix": [
+    "Bouclier",
+    "Armure de mage",
+    "Sanctuaire",
+    "Bouclier de la foi"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Bouclier sauve d’innombrables magiciens imprudents.",
+   "id": "sor-193",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sort de niveau 3\n2. Je me lance en réaction\n3. J’annule le sort d’un ennemi",
+   "choix": [
+    "Contresort",
+    "Dissipation de la magie",
+    "Bannissement",
+    "Champ antimagie"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Contresort est indispensable dans les duels de magiciens.",
+   "id": "sor-194",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un sort de niveau 9\n2. Je peux reproduire n’importe quel sort de niveau 8 ou moins\n3. Mais je peux aussi te priver de moi-même à jamais",
+   "choix": [
+    "Souhait",
+    "Portail",
+    "Prémonition",
+    "Arrêt du temps"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Souhait est le sort le plus puissant de D&D, mais il est dangereux d’en abuser.",
+   "id": "sor-195",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sort mineur\n2. Je suis l’arme favorite des lanceurs liés à un protecteur\n3. J’inflige des dégâts de force",
+   "choix": [
+    "Décharge occulte",
+    "Trait de feu",
+    "Flamme sacrée",
+    "Moquerie cruelle"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Décharge occulte (eldritch blast) est le sort mineur le plus utilisé des occultistes.",
+   "id": "sor-196",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis la déesse de la magie\n2. Je garde la Toile\n3. Je choisis des élus comme Elminster",
+   "choix": [
+    "Mystra",
+    "Séluné",
+    "Shar",
+    "Tymora"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Mystra est la déesse de la magie dans les Royaumes Oubliés.",
+   "id": "sor-197",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un sort de niveau 7\n2. Je crée une demeure magique\n3. On y sert un banquet pour cent convives",
+   "choix": [
+    "Manoir somptueux de Mordenkainen",
+    "Petite hutte de Léomund",
+    "Sanctuaire privé de Mordenkainen",
+    "Demi-plan"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Le Manoir somptueux de Mordenkainen est le refuge de luxe des aventuriers.",
+   "id": "sor-198",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sort de niveau 2\n2. Je crée trois copies de toi\n3. Je ne demande pas de concentration",
+   "choix": [
+    "Image miroir",
+    "Flou",
+    "Invisibilité",
+    "Déguisement"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Image miroir multiplie les cibles possibles pour les ennemis.",
+   "id": "sor-199",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un sort de niveau 6\n2. Je ne laisse que de la poussière\n3. Mes dégâts sont de force",
+   "choix": [
+    "Désintégration",
+    "Doigt de mort",
+    "Cercle de mort",
+    "Rayon de soleil"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Désintégration réduit en poussière les créatures et même les murs de force.",
+   "id": "sor-200",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Éclair forme un cône de 18 m.",
+   "rep": false,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Faux : Éclair est une ligne de 30 m sur 1,5 m ; le cône est la forme de Cône de froid ou de Mains brûlantes.",
+   "id": "sor-201",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, Arrêt du temps prend fin si le lanceur affecte une autre créature.",
+   "rep": true,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Vrai : toute action qui touche une autre créature ou un objet porté par elle met fin au sort.",
+   "id": "sor-202",
+   "conf": "probable"
+  },
+  {
    "type": "slider",
-   "q": "Dans D&D 5e, quel est le niveau de Mur de feu ?",
-   "min": 0,
-   "max": 9,
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de mètres de rayon a la sphère de Boule de feu ?",
+   "rep": 6,
+   "min": 1,
+   "max": 20,
    "pas": 1,
-   "unite": "niveau",
+   "unite": "m",
    "tolerance": 0,
-   "rep": 4,
-   "expl": "Mur de feu est un sort de niveau 4.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 11 « Sorts », Mur de feu",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "6 m (20 pieds) de rayon, à une portée de 45 m (150 pieds).",
+   "id": "sor-203",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien de jours après la mort Rappel à la vie peut-il encore agir ?",
+   "rep": 10,
+   "min": 1,
+   "max": 100,
+   "pas": 1,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Rappel à la vie fonctionne jusqu’à 10 jours après la mort ; au-delà, il faut Résurrection.",
+   "id": "sor-204",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quelle distance (en mètres) Pas brumeux téléporte-t-il le lanceur au maximum ?",
+   "rep": 9,
+   "min": 1,
+   "max": 30,
+   "pas": 1,
+   "unite": "m",
+   "tolerance": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "9 m (30 pieds), vers un endroit inoccupé que le lanceur voit.",
+   "id": "sor-205",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts permettent de se rendre invisible ou presque ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Invisibilité",
+    "Invisibilité supérieure",
+    "Image miroir",
+    "Bouclier",
+    "Lumière"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Invisibilité et Invisibilité supérieure rendent invisible ; Image miroir crée des doubles visibles.",
+   "id": "sor-206",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels sorts portent le nom d’un personnage ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sphère résiliente d’Otiluke",
+    "Danse irrésistible d’Otto",
+    "Flèche acide de Melf",
+    "Bouclier de la foi",
+    "Mur de force"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Otiluke, Otto et Melf ont laissé leur nom à des sorts ; Bouclier de la foi et Mur de force sont anonymes.",
+   "id": "sor-207",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sorts de dégâts selon leur dé de dégâts à la base, du plus faible au plus fort.",
+   "items": [
+    "Projectile magique",
+    "Boule de feu",
+    "Désintégration"
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Projectile magique : 3 × (1d4 + 1) ; Boule de feu : 8d6 ; Désintégration : 10d6 + 40.",
+   "id": "sor-208",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sorts par niveau croissant.",
+   "items": [
+    "Mot de guérison",
+    "Esprits gardiens",
+    "Bannissement",
+    "Mot de pouvoir étourdissant"
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Mot de guérison 1, Esprits gardiens 3, Bannissement 4, Mot de pouvoir étourdissant 8.",
+   "id": "sor-209",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, Flamme sacrée ignore les ____ derrière lesquels la cible se cache.",
+   "choix": [
+    "abris",
+    "sorts",
+    "armures",
+    "illusions"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Flamme sacrée frappe d’en haut : la cible ne bénéficie d’aucun abri pour son jet de Dextérité.",
+   "id": "sor-210",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, après un Souhait « libre », le lanceur a ____ % de chances de ne plus jamais pouvoir le lancer.",
+   "choix": [
+    "33",
+    "10",
+    "50",
+    "75"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Un souhait qui sort du simple fait de reproduire un sort affaiblit le lanceur et lui fait courir ce risque.",
+   "id": "sor-211",
+   "conf": "probable"
   }
  ],
  "sources": []

@@ -56,8 +56,10 @@ FIX = {
  'pla-023': {'q': 'Dans D&D 5e, quelle aventure de 2015 oppose les héros aux cultes de l’Œil élémentaire ancien ?'},
  'lyc-003': {'choix': ['En étant mordu par un lycanthrope', 'En mangeant la chair d’un lycanthrope', 'En regardant un lycanthrope sous la pleine lune', 'En portant la peau d’un lycanthrope']},
 }
+REWRITE = {'sorts-magie-dnd'}   # thèmes entièrement réécrits : la base est écartée
 for p in glob.glob(os.path.join(R, 'quiz_base', '*.json')):
     d = json.load(open(p, encoding='utf-8')); n0 = len(d['questions'])
+    if d['theme']['id'] in REWRITE: d['questions'] = []
     d['questions'] = [dict(q, **FIX.get(q['id'], {})) for q in d['questions'] if q['id'] not in DROP]
     json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('corrections v1.6 appliquées')
