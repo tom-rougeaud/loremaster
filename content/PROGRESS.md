@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**22 / 99 thèmes terminés — 3173 questions au total.**
+**23 / 99 thèmes terminés — 3316 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -28,7 +28,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 20 | Royaumes Oubliés (Faerûn) | 141 | 49 | 19 (10) | 8 | 12 | 11 | 10 | 10 | 10 | 12 | 48 % | 22/98/21 | 67 | terminé |
 | 21 | Objets magiques, trésors et équipement | 141 | 50 | 18 (9) | 8 | 13 | 11 | 10 | 10 | 10 | 11 | 48 % | 24/103/14 | 14 | terminé |
 | 22 | Histoire de D&D et campagnes célèbres | 140 | 45 | 20 (10) | 9 | 15 | 10 | 10 | 10 | 10 | 11 | 46 % | 24/95/21 | 83 | terminé |
-| 23 | L’Histoire d’Arda (Silmarillion, grands Âges) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 23 | L’Histoire d’Arda (Silmarillion, grands Âges) | 143 | 50 | 18 (9) | 9 | 14 | 11 | 10 | 10 | 10 | 11 | 48 % | 21/93/29 | 13 | terminé |
 | 24 | Tolkien : thèmes et philosophie | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 25 | Le Hobbit et Le Seigneur des Anneaux | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 26 | Géographie de la Terre du Milieu | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -352,6 +352,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - dieux-plans-dnd : niveaux déséquilibrés [20, 95, 29]
 - royaumes-oublies : niveaux déséquilibrés [22, 98, 21]
 - objets-magiques-dnd : niveaux déséquilibrés [24, 103, 14]
+- histoire-arda : niveaux déséquilibrés [21, 93, 29]
 - gre-003 : explication absente ou trop courte
 - gre-006 : explication absente ou trop courte
 - gre-011 : explication absente ou trop courte

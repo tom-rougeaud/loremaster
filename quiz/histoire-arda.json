@@ -1,0 +1,2334 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "histoire-arda",
+  "nom": "L’Histoire d’Arda (Silmarillion, grands Âges)",
+  "royaume": "Terres de Tolkien",
+  "icone": "etoile",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans l’œuvre de Tolkien, qui est le créateur suprême ?",
+   "choix": [
+    "Eru Ilúvatar",
+    "Manwë",
+    "Melkor",
+    "Aulë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Eru, « l’Unique », crée les Ainur, puis le monde à partir de leur Musique.",
+   "id": "t023-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel récit ouvre Le Silmarillion en racontant la création du monde ?",
+   "choix": [
+    "Ainulindalë",
+    "Valaquenta",
+    "Akallabêth",
+    "Quenta Silmarillion"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "L’Ainulindalë, « Musique des Ainur », décrit les thèmes chantés devant Ilúvatar.",
+   "id": "t023-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Ainu introduit la discorde dans la Grande Musique ?",
+   "choix": [
+    "Melkor",
+    "Manwë",
+    "Ulmo",
+    "Mandos"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Le plus puissant des Ainur veut créer seul ; il deviendra Morgoth, l’Ennemi noir.",
+   "id": "t023-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Vala est le roi d’Arda ?",
+   "choix": [
+    "Manwë",
+    "Ulmo",
+    "Aulë",
+    "Oromë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Seigneur des vents et des airs, il siège au sommet du Taniquetil avec Varda.",
+   "id": "t023-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Valië, créatrice des étoiles, les Elfes invoquent-ils sous le nom d’Elbereth ?",
+   "choix": [
+    "Varda",
+    "Yavanna",
+    "Nienna",
+    "Vána"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Les Elfes l’aiment plus que tous les Valar, car ils se sont éveillés sous ses étoiles.",
+   "id": "t023-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Vala des eaux reste le plus attentif à la Terre du Milieu ?",
+   "choix": [
+    "Ulmo",
+    "Ossë",
+    "Manwë",
+    "Tulkas"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Il parle aux Elfes et aux Hommes par la musique des eaux ; il inspire Tuor et Turgon.",
+   "id": "t023-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Vala a façonné les Nains ?",
+   "choix": [
+    "Aulë",
+    "Oromë",
+    "Tulkas",
+    "Mandos"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Impatient de voir naître les Enfants d’Ilúvatar, le forgeron les crée ; Ilúvatar les adopte.",
+   "id": "t023-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Valië a fait pousser les Deux Arbres de Valinor ?",
+   "choix": [
+    "Yavanna",
+    "Varda",
+    "Estë",
+    "Vairë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Yavanna, Reine de la Terre, est aussi à l’origine des Ents, bergers des arbres.",
+   "id": "t023-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel Vala, arrivé le dernier dans le monde, combat Melkor en riant ?",
+   "choix": [
+    "Tulkas",
+    "Oromë",
+    "Lórien",
+    "Ossë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Tulkas le Fort aime la lutte ; c’est lui qui enchaîne Melkor avec Angainor.",
+   "id": "t023-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Vala, aussi appelé Námo, garde les demeures des morts ?",
+   "choix": [
+    "Mandos",
+    "Lórien",
+    "Manwë",
+    "Aulë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Ses Cavernes accueillent les Elfes morts ; il prononce aussi des sentences redoutées.",
+   "id": "t023-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les Deux Arbres de Valinor ?",
+   "choix": [
+    "Telperion et Laurelin",
+    "Nimloth et Galathilion",
+    "Illuin et Ormal",
+    "Narya et Nenya"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Telperion donnait une lumière d’argent, Laurelin une lumière d’or ; Illuin et Ormal étaient les Lampes.",
+   "id": "t023-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature aide Melkor à détruire les Deux Arbres ?",
+   "choix": [
+    "Ungoliant",
+    "Arachné",
+    "Ancalagon",
+    "Glaurung"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Cette araignée géante dévore leur lumière ; Arachné (Shelob) est l’une de ses descendantes.",
+   "id": "t023-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui a forgé les Silmarils ?",
+   "choix": [
+    "Fëanor",
+    "Celebrimbor",
+    "Aulë",
+    "Finrod"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Le plus doué des Noldor y enferme la lumière mêlée des Deux Arbres.",
+   "id": "t023-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom Fëanor donne-t-il à Melkor après le vol des Silmarils ?",
+   "choix": [
+    "Morgoth",
+    "Sauron",
+    "Gorthaur",
+    "Annatar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Morgoth signifie « l’Ennemi noir » ; Gorthaur et Annatar sont des noms de Sauron.",
+   "id": "t023-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où les Elfes se sont-ils éveillés ?",
+   "choix": [
+    "Cuiviénen",
+    "Valinor",
+    "Doriath",
+    "Hildórien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Ils s’éveillent au bord d’un lac, sous les étoiles ; les Hommes, eux, s’éveillent à Hildórien.",
+   "id": "t023-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels sont les trois clans des Eldar qui entreprennent le Grand Voyage ?",
+   "choix": [
+    "Vanyar, Noldor et Teleri",
+    "Sindar, Nandor et Avari",
+    "Edain, Drúedain et Noldor",
+    "Vanyar, Sindar et Silvains"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Guidés par Oromë, ils partent vers l’ouest ; une partie des Teleri reste en Terre du Milieu.",
+   "id": "t023-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Maia épouse le roi elfe Thingol ?",
+   "choix": [
+    "Melian",
+    "Varda",
+    "Uinen",
+    "Arien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Leur fille Lúthien est la plus belle des Enfants d’Ilúvatar.",
+   "id": "t023-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel royaume caché de Thingol est protégé par une ceinture magique ?",
+   "choix": [
+    "Doriath",
+    "Gondolin",
+    "Nargothrond",
+    "Eregion"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "La Ceinture de Melian égare tous ceux qui veulent y entrer sans permission.",
+   "id": "t023-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel événement sanglant ouvre la révolte des Noldor contre les Valar ?",
+   "choix": [
+    "Le massacre d’Alqualondë",
+    "La chute de Gondolin",
+    "Le sac de Doriath",
+    "La bataille des Champs aux Iris"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Les Noldor tuent des Teleri pour s’emparer de leurs navires blancs : c’est le premier fratricide entre Elfes.",
+   "id": "t023-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle étendue glacée traverse l’armée de Fingolfin pour gagner la Terre du Milieu ?",
+   "choix": [
+    "L’Helcaraxë",
+    "Le Forochel",
+    "Les Ered Engrin",
+    "Le Dor-lómin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Abandonnés par Fëanor, qui a brûlé les navires, Fingolfin et les siens franchissent la Glace broyée.",
+   "id": "t023-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forteresse Morgoth reconstruit-il à son retour en Terre du Milieu ?",
+   "choix": [
+    "Angband",
+    "Utumno",
+    "Barad-dûr",
+    "Minas Morgul"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Angband s’abrite sous les trois pics des Thangorodrim ; Utumno, plus ancienne, avait été détruite par les Valar.",
+   "id": "t023-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi des Noldor défie Morgoth en combat singulier ?",
+   "choix": [
+    "Fingolfin",
+    "Fëanor",
+    "Finrod",
+    "Turgon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Il le blesse sept fois avant de succomber ; Morgoth en gardera une boiterie.",
+   "id": "t023-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Après quelle bataille Fingolfin défie-t-il Morgoth ?",
+   "choix": [
+    "La Dagor Bragollach",
+    "La Nirnaeth Arnoediad",
+    "La Dagor Aglareb",
+    "La Guerre de la Colère"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "La « Bataille de la Flamme subite » brise le siège d’Angband ; désespéré, Fingolfin part seul.",
+   "id": "t023-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi des aigles emporte le corps de Fingolfin ?",
+   "choix": [
+    "Thorondor",
+    "Gwaihir",
+    "Landroval",
+    "Meneldor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Il griffe aussi le visage de Morgoth ; Gwaihir et Landroval sont des aigles du Troisième Âge.",
+   "id": "t023-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’arrachent Beren et Lúthien à la couronne de Morgoth ?",
+   "choix": [
+    "Un Silmaril",
+    "L’Arkenstone",
+    "L’Anneau unique",
+    "Une palantír"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Lúthien endort Morgoth par son chant ; Beren détache un joyau avec un couteau.",
+   "id": "t023-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chien de Valinor aide Beren et Lúthien ?",
+   "choix": [
+    "Huan",
+    "Carcharoth",
+    "Draugluin",
+    "Garm"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Huan ne peut être tué que par le plus grand des loups ; il meurt en tuant Carcharoth.",
+   "id": "t023-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel loup arrache la main de Beren qui tient le Silmaril ?",
+   "choix": [
+    "Carcharoth",
+    "Draugluin",
+    "Huan",
+    "Gaurhoth"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Le joyau lui brûle les entrailles ; il ravage Doriath avant la grande chasse au loup.",
+   "id": "t023-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon, père des dragons, jette un sort sur Túrin ?",
+   "choix": [
+    "Glaurung",
+    "Smaug",
+    "Ancalagon",
+    "Scatha"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Glaurung trompe aussi Nienor, la sœur de Túrin, qui perd la mémoire.",
+   "id": "t023-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment s’appelle l’épée noire de Túrin ?",
+   "choix": [
+    "Gurthang",
+    "Narsil",
+    "Glamdring",
+    "Aeglos"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Forgée à partir d’un fer tombé du ciel, Anglachel est reforgée pour Túrin sous le nom de Gurthang.",
+   "id": "t023-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui trahit la cité cachée de Gondolin ?",
+   "choix": [
+    "Maeglin",
+    "Tuor",
+    "Ecthelion",
+    "Glorfindel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Neveu du roi Turgon, il livre le secret de la cité à Morgoth.",
+   "id": "t023-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui affronte Gothmog, seigneur des Balrogs, lors de la chute de Gondolin ?",
+   "choix": [
+    "Ecthelion",
+    "Glorfindel",
+    "Tuor",
+    "Turgon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Ecthelion de la Fontaine l’entraîne avec lui dans un bassin ; Glorfindel, lui, tue un autre Balrog dans la montagne.",
+   "id": "t023-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui porte un Silmaril jusqu’à Valinor, puis navigue dans le ciel ?",
+   "choix": [
+    "Eärendil",
+    "Elros",
+    "Tuor",
+    "Elrond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Son navire, portant le joyau, devient l’étoile du soir et du matin.",
+   "id": "t023-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le navire d’Eärendil ?",
+   "choix": [
+    "Vingilot",
+    "Alcarondas",
+    "Entulessë",
+    "Hirilondë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Alcarondas est le vaisseau d’Ar-Pharazôn ; Vingilot signifie « fleur d’écume ».",
+   "id": "t023-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel fils d’Eärendil devient le premier roi de Númenor ?",
+   "choix": [
+    "Elros",
+    "Elrond",
+    "Isildur",
+    "Elendil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Son jumeau Elrond choisit le destin des Elfes ; Elros, celui des Hommes.",
+   "id": "t023-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle montagne sacrée se dresse au centre de Númenor ?",
+   "choix": [
+    "Le Meneltarma",
+    "Le Taniquetil",
+    "L’Orodruin",
+    "Le Caradhras"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "On y rendait grâce à Eru ; les rois corrompus cessent d’y monter.",
+   "id": "t023-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dernier roi de Númenor ose attaquer Valinor ?",
+   "choix": [
+    "Ar-Pharazôn",
+    "Tar-Minyatur",
+    "Tar-Palantir",
+    "Ar-Adûnakhôr"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Poussé par Sauron, il débarque en Aman ; Ilúvatar engloutit alors l’île.",
+   "id": "t023-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel récit du Silmarillion raconte la chute de Númenor ?",
+   "choix": [
+    "Akallabêth",
+    "Ainulindalë",
+    "Valaquenta",
+    "Narn i Chîn Húrin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Son nom signifie « Celle qui est tombée », en adûnaïque, la langue de Númenor.",
+   "id": "t023-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sous quel nom Sauron se présente-t-il aux forgerons elfes d’Eregion ?",
+   "choix": [
+    "Annatar",
+    "Gorthaur",
+    "Morgoth",
+    "Curumo"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "« Seigneur des Dons » : il leur enseigne des savoirs et les aide à forger les Anneaux.",
+   "id": "t023-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel petit-fils de Fëanor dirige les forgerons d’Eregion ?",
+   "choix": [
+    "Celebrimbor",
+    "Celeborn",
+    "Círdan",
+    "Curufin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Il forge seul les Trois Anneaux des Elfes, que Sauron n’a jamais touchés.",
+   "id": "t023-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle armée défait Sauron à la fin du Deuxième Âge ?",
+   "choix": [
+    "La Dernière Alliance des Elfes et des Hommes",
+    "L’Armée de Valinor",
+    "La Compagnie grise",
+    "L’Alliance des Nains et des Elfes"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Gil-galad et Elendil y périssent ; Isildur prend l’Anneau à Sauron.",
+   "id": "t023-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Isildur meurt-il, au début du Troisième Âge ?",
+   "choix": [
+    "Aux Champs aux Iris",
+    "À Minas Tirith",
+    "À Fondcombe",
+    "À Osgiliath"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Pris dans une embuscade d’orques, il perd l’Anneau dans l’Anduin.",
+   "id": "t023-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui a publié Le Silmarillion en 1977, après la mort de son auteur ?",
+   "choix": [
+    "Christopher Tolkien",
+    "Rayner Unwin",
+    "C. S. Lewis",
+    "Priscilla Tolkien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Le fils de Tolkien a rassemblé et harmonisé des textes écrits pendant soixante ans.",
+   "id": "t023-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel futur romancier canadien a aidé Christopher Tolkien à éditer Le Silmarillion ?",
+   "choix": [
+    "Guy Gavriel Kay",
+    "Robert Jordan",
+    "Steven Erikson",
+    "Brandon Sanderson"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Guy Gavriel Kay deviendra l’auteur de La Tapisserie de Fionavar.",
+   "id": "t023-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle guerre met fin au Premier Âge ?",
+   "choix": [
+    "La Guerre de la Colère",
+    "La Dernière Alliance",
+    "La Guerre de l’Anneau",
+    "La Dagor Bragollach"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "L’armée des Valar renverse Morgoth ; le Beleriand est englouti par la mer.",
+   "id": "t023-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel dragon ailé, le plus grand de tous, Eärendil abat-il pendant la Guerre de la Colère ?",
+   "choix": [
+    "Ancalagon le Noir",
+    "Glaurung",
+    "Smaug",
+    "Scatha"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "En tombant, il brise les pics des Thangorodrim.",
+   "id": "t023-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Morgoth est-il finalement banni ?",
+   "choix": [
+    "Dans le Vide, au-delà de la Porte de la Nuit",
+    "Au fond de la mer",
+    "Sous les Thangorodrim",
+    "Dans les Cavernes de Mandos"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Les Valar le chassent hors du monde ; Sauron, lui, échappe à leur jugement.",
+   "id": "t023-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Elfe, roi de Nargothrond, meurt pour sauver Beren ?",
+   "choix": [
+    "Finrod Felagund",
+    "Fingon",
+    "Thingol",
+    "Turgon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Prisonniers de Sauron, ils sont dévorés un à un par des loups ; Finrod tue le dernier à mains nues.",
+   "id": "t023-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel fils de Fëanor est délivré des Thangorodrim par Fingon, avec l’aide d’un aigle ?",
+   "choix": [
+    "Maedhros",
+    "Maglor",
+    "Celegorm",
+    "Curufin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Fingon doit lui trancher la main droite pour le libérer de ses chaînes.",
+   "id": "t023-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où les Hommes se sont-ils éveillés ?",
+   "choix": [
+    "Hildórien",
+    "Cuiviénen",
+    "Númenor",
+    "Valinor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Ils s’éveillent au premier lever du Soleil, à l’est de la Terre du Milieu.",
+   "id": "t023-049",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle fille de Finarfin prend part à la révolte des Noldor ?",
+   "choix": [
+    "Galadriel",
+    "Idril",
+    "Aredhel",
+    "Finduilas"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion, éd. Christopher Tolkien (Allen & Unwin, 1977) ; trad. française Le Silmarillion (Christian Bourgois)",
+   "expl": "Elle ne reviendra en Aman qu’à la fin du Troisième Âge, après avoir refusé l’Anneau.",
+   "id": "t023-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Valar sont des Ainur descendus dans le monde.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Vrai : les plus puissants des Ainur entrent dans Arda pour la façonner ; les moins puissants sont les Maiar.",
+   "id": "t023-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sauron est l’un des Valar.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Faux : c’est un Maia, à l’origine au service d’Aulë, corrompu par Melkor.",
+   "id": "t023-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Aulë a façonné les Nains avant l’éveil des Elfes.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Vrai : Ilúvatar les fait dormir jusqu’à l’éveil des Premiers-nés.",
+   "id": "t023-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Lúthien n’a aucun sang divin.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Faux : sa mère Melian est une Maia ; ce sang passe à Elrond, à Elros et à leurs descendants.",
+   "id": "t023-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Soleil est né du dernier fruit de Laurelin.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Vrai : la Lune, elle, naît de la dernière fleur de Telperion.",
+   "id": "t023-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Fëanor a survécu jusqu’à la fin du Premier Âge.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Faux : il meurt peu après son arrivée en Terre du Milieu, blessé par des Balrogs ; son corps se consume.",
+   "id": "t023-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Maedhros a perdu sa main droite sur les Thangorodrim.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Vrai : pendu par le poignet à une falaise, il est délivré par Fingon, qui doit la trancher.",
+   "id": "t023-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Hommes se sont éveillés à Cuiviénen, comme les Elfes.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Faux : les Hommes s’éveillent à Hildórien, au premier lever du Soleil.",
+   "id": "t023-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Silmarillion a été publié du vivant de Tolkien.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Faux : Tolkien meurt en 1973 ; le livre paraît en 1977, édité par son fils.",
+   "id": "t023-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Beleriand est englouti à la fin du Premier Âge.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Vrai : la Guerre de la Colère fait sombrer presque toute la région ; seul le Lindon en subsiste.",
+   "id": "t023-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Númenor est un continent rattaché à la Terre du Milieu.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Faux : c’est une île offerte aux Edain, au milieu de la Grande Mer.",
+   "id": "t023-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Elrond et Elros sont jumeaux.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Vrai : fils d’Eärendil et d’Elwing, ils doivent choisir entre le destin des Elfes et celui des Hommes.",
+   "id": "t023-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Elros a choisi le destin des Elfes.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Faux : c’est Elrond ; Elros devient mortel et premier roi de Númenor.",
+   "id": "t023-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Lors de la chute de Númenor, le monde devient rond.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Vrai : Aman est retirée des cercles du monde ; seuls les Elfes peuvent encore y naviguer par le Droit Chemin.",
+   "id": "t023-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Turgon survit à la chute de Gondolin.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Faux : il meurt dans sa tour ; Tuor, Idril et Eärendil s’échappent.",
+   "id": "t023-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Túrin tue son ami Beleg par erreur.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Valaquenta » et « Quenta Silmarillion »",
+   "expl": "Vrai : dans l’obscurité, il le prend pour un orque ; c’est l’un des drames du Premier Âge.",
+   "id": "t023-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Ungoliant est une servante créée par Sauron.",
+   "rep": false,
+   "src": "John Garth, Tolkien and the Great War (2003)",
+   "expl": "Faux : c’est un être bien plus ancien, alliée de Melkor puis rivale ; elle disparaît dans le sud.",
+   "id": "t023-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Tolkien commence à écrire des récits du Silmarillion pendant la Première Guerre mondiale.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Vrai : il rédige La Chute de Gondolin en 1917, en convalescence après la bataille de la Somme.",
+   "id": "t023-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de Valar le Valaquenta compte-t-il, sans Melkor ?",
+   "rep": 14,
+   "min": 7,
+   "max": 20,
+   "pas": 1,
+   "unite": "Valar",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Sept seigneurs (Manwë, Ulmo, Aulë, Oromë, Mandos, Lórien, Tulkas) et sept Valier.",
+   "id": "t023-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de fils Fëanor a-t-il ?",
+   "rep": 7,
+   "min": 2,
+   "max": 12,
+   "pas": 1,
+   "unite": "fils",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Maedhros, Maglor, Celegorm, Caranthir, Curufin, Amrod et Amras prêtent tous son serment.",
+   "id": "t023-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de fois Fingolfin blesse-t-il Morgoth pendant leur duel ?",
+   "rep": 7,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "blessures",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Sept blessures ; Morgoth, blessé au pied, boitera pour toujours.",
+   "id": "t023-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’ancêtres des Nains Aulë a-t-il façonnés ?",
+   "rep": 7,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "Pères",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Akallabêth » ; The Lord of the Rings, appendice B",
+   "expl": "Les Sept Pères des Nains, dont Durin, l’aîné, éveillé à Khazad-dûm.",
+   "id": "t023-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de navires emportent Elendil et ses fils lors de la chute de Númenor ?",
+   "rep": 9,
+   "min": 3,
+   "max": 20,
+   "pas": 1,
+   "unite": "navires",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Akallabêth » ; The Lord of the Rings, appendice B",
+   "expl": "Quatre pour Elendil, trois pour Isildur et deux pour Anárion.",
+   "id": "t023-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’années dure le Deuxième Âge ?",
+   "rep": 3441,
+   "min": 1000,
+   "max": 5000,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Akallabêth » ; The Lord of the Rings, appendice B",
+   "expl": "Il s’achève par la défaite de Sauron devant la Dernière Alliance.",
+   "id": "t023-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’années dure le Troisième Âge ?",
+   "rep": 3021,
+   "min": 1000,
+   "max": 5000,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Akallabêth » ; The Lord of the Rings, appendice B",
+   "expl": "Il se termine quand les Porteurs de l’Anneau quittent la Terre du Milieu.",
+   "id": "t023-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’années Elros, premier roi de Númenor, a-t-il vécu ?",
+   "rep": 500,
+   "min": 100,
+   "max": 1000,
+   "pas": 10,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Christopher Tolkien, The History of Middle-earth (HarperCollins, 1983-1996)",
+   "expl": "Les Valar ont accordé aux rois de Númenor une vie bien plus longue que celle des autres Hommes.",
+   "id": "t023-076",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de volumes compte The History of Middle-earth ?",
+   "rep": 12,
+   "min": 3,
+   "max": 20,
+   "pas": 1,
+   "unite": "volumes",
+   "tolerance": 0,
+   "src": "Christopher Tolkien, The History of Middle-earth (HarperCollins, 1983-1996)",
+   "expl": "Christopher Tolkien y publie les brouillons successifs de son père, des premiers contes au Seigneur des Anneaux.",
+   "id": "t023-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Avant les Arbres, le monde était éclairé par les deux ____ des Valar.",
+   "choix": [
+    "Lampes",
+    "Étoiles",
+    "Torches",
+    "Lunes"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Illuin et Ormal, détruites par Melkor ; les Valar se retirent alors en Aman.",
+   "id": "t023-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Fëanor et ses fils prononcent un ____ terrible : reprendre les Silmarils à quiconque les détiendra.",
+   "choix": [
+    "serment",
+    "pacte",
+    "chant",
+    "vœu"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Ce serment entraîne les Noldor dans le fratricide et la ruine.",
+   "id": "t023-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Beren est surnommé ____, « le Manchot ».",
+   "choix": [
+    "Erchamion",
+    "Turambar",
+    "Mormegil",
+    "Eluchíl"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Il perd sa main dans la gueule de Carcharoth ; Turambar et Mormegil sont des noms de Túrin.",
+   "id": "t023-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Túrin prend le nom de Turambar, « maître du ____ ».",
+   "choix": [
+    "Destin",
+    "Monde",
+    "Feu",
+    "Nord"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Il croit échapper à la malédiction de Morgoth ; le destin le rattrape pourtant.",
+   "id": "t023-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le roi Turgon règne sur la cité cachée de ____.",
+   "choix": [
+    "Gondolin",
+    "Doriath",
+    "Valmar",
+    "Tirion"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Gondolin, entourée de montagnes, reste secrète pendant des siècles.",
+   "id": "t023-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Thingol et Melian règnent depuis Menegroth, les Mille ____.",
+   "choix": [
+    "Cavernes",
+    "Salles",
+    "Tours",
+    "Portes"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Les Nains aident à creuser ce palais souterrain, au cœur de Doriath.",
+   "id": "t023-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’île de Númenor est aussi appelée ____, la Terre du Don.",
+   "choix": [
+    "Andor",
+    "Arnor",
+    "Anórien",
+    "Amon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Les Valar l’offrent aux Edain pour les récompenser de leur combat contre Morgoth.",
+   "id": "t023-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’île de Númenor a la forme d’une ____ à cinq branches.",
+   "choix": [
+    "étoile",
+    "main",
+    "fleur",
+    "couronne"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Elle est aussi appelée Elenna, « vers l’étoile », car Eärendil guida les Edain jusqu’à elle.",
+   "id": "t023-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Elros, premier roi de Númenor, prend le nom de Tar-____.",
+   "choix": [
+    "Minyatur",
+    "Palantir",
+    "Míriel",
+    "Atanatar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Tar-Palantir est un roi fidèle bien plus tardif, Tar-Míriel la dernière reine légitime.",
+   "id": "t023-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Morgoth porte une couronne de ____ où il a serti les Silmarils.",
+   "choix": [
+    "fer",
+    "or",
+    "mithril",
+    "onyx"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Le poids des joyaux brûlants lui cause une douleur constante.",
+   "id": "t023-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les ____ sont des esprits de feu au service de Morgoth, comme Gothmog.",
+   "choix": [
+    "Balrogs",
+    "dragons",
+    "orques",
+    "wargs"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Ce sont des Maiar corrompus, armés de fouets de flammes.",
+   "id": "t023-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le Vala chasseur Oromë monte le cheval ____.",
+   "choix": [
+    "Nahar",
+    "Rochallor",
+    "Felaróf",
+    "Gripoil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Rochallor est le cheval de Fingolfin, Felaróf celui d’Eorl, Gripoil celui de Gandalf.",
+   "id": "t023-089",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Finrod Felagund fonde la cité souterraine de ____.",
+   "choix": [
+    "Nargothrond",
+    "Gondolin",
+    "Menegroth",
+    "Khazad-dûm"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Il en tire son surnom : Felagund, « tailleur de cavernes », que lui donnent les Nains.",
+   "id": "t023-090",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Valinor se trouve sur le continent d’____.",
+   "choix": [
+    "Aman",
+    "Arda",
+    "Endor",
+    "Andor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Endor est la Terre du Milieu ; Arda désigne le monde entier.",
+   "id": "t023-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un Vala ?",
+   "choix": [
+    "Sauron",
+    "Manwë",
+    "Aulë",
+    "Tulkas"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Sauron est un Maia, un esprit de moindre puissance.",
+   "id": "t023-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Elfes n’est pas un fils de Fëanor ?",
+   "choix": [
+    "Fingon",
+    "Maedhros",
+    "Maglor",
+    "Celegorm"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Fingon est le fils de Fingolfin, demi-frère de Fëanor.",
+   "id": "t023-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces figures n’est pas une Valië ?",
+   "choix": [
+    "Melian",
+    "Varda",
+    "Yavanna",
+    "Nienna"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Melian est une Maia, épouse de Thingol et mère de Lúthien.",
+   "id": "t023-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces peuples n’est pas un clan des Eldar du Grand Voyage ?",
+   "choix": [
+    "Les Edain",
+    "Les Vanyar",
+    "Les Noldor",
+    "Les Teleri"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Les Edain sont les Hommes alliés des Elfes au Premier Âge.",
+   "id": "t023-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces batailles n’appartient pas au Premier Âge ?",
+   "choix": [
+    "La Bataille des Cinq Armées",
+    "La Dagor Bragollach",
+    "La Nirnaeth Arnoediad",
+    "La Guerre de la Colère"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "La Bataille des Cinq Armées se déroule au Troisième Âge, dans Le Hobbit.",
+   "id": "t023-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces êtres n’est pas un dragon ?",
+   "choix": [
+    "Gothmog",
+    "Glaurung",
+    "Ancalagon",
+    "Smaug"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Gothmog est le seigneur des Balrogs ; il tue Fëanor et Fingon.",
+   "id": "t023-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un Maia ?",
+   "choix": [
+    "Fingolfin",
+    "Melian",
+    "Olórin",
+    "Eönwë"
+   ],
+   "rep": 0,
+   "src": "Catalogue HarperCollins (1977-2018)",
+   "expl": "Fingolfin est un roi elfe des Noldor ; Olórin est le nom de Gandalf en Valinor.",
+   "id": "t023-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces livres n’a pas été publié par Christopher Tolkien ?",
+   "choix": [
+    "Le Hobbit",
+    "Le Silmarillion",
+    "Contes et légendes inachevés",
+    "Les Enfants de Húrin"
+   ],
+   "rep": 0,
+   "src": "Catalogue HarperCollins (1977-2018)",
+   "expl": "Le Hobbit paraît en 1937, du vivant de son père.",
+   "id": "t023-099",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces cités n’est pas elfique ?",
+   "choix": [
+    "Khazad-dûm",
+    "Gondolin",
+    "Nargothrond",
+    "Menegroth"
+   ],
+   "rep": 0,
+   "src": "Catalogue HarperCollins (1977-2018)",
+   "expl": "Khazad-dûm, la Moria, est la grande cité des Nains.",
+   "id": "t023-100",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces personnages n’a jamais tenu un Silmaril ?",
+   "choix": [
+    "Fingolfin",
+    "Beren",
+    "Eärendil",
+    "Maedhros"
+   ],
+   "rep": 0,
+   "src": "Christopher Tolkien, préfaces de The Children of Húrin (2007) et The Fall of Gondolin (2018)",
+   "expl": "Maedhros en reprend un après la Guerre de la Colère, mais le joyau lui brûle la main.",
+   "id": "t023-101",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces récits n’est pas l’un des trois « Grands Contes » des Jours anciens ?",
+   "choix": [
+    "Akallabêth",
+    "Les Enfants de Húrin",
+    "Beren et Lúthien",
+    "La Chute de Gondolin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Christopher Tolkien a publié chacun des trois Grands Contes en volume séparé.",
+   "id": "t023-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels sont des Valar ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Manwë",
+    "Ulmo",
+    "Aulë",
+    "Oromë",
+    "Melian",
+    "Sauron"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Melian et Sauron sont des Maiar, des esprits moins puissants que les Valar.",
+   "id": "t023-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels sont des Maiar ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sauron",
+    "Melian",
+    "Olórin",
+    "Fingolfin",
+    "Thingol"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Fingolfin et Thingol sont des rois elfes, nés en Terre du Milieu.",
+   "id": "t023-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels sont des fils de Fëanor ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Maedhros",
+    "Maglor",
+    "Curufin",
+    "Celegorm",
+    "Fingon",
+    "Turgon"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Christopher Tolkien (2007, 2017, 2018)",
+   "expl": "Fingon et Turgon sont les fils de Fingolfin.",
+   "id": "t023-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels récits sont les trois Grands Contes du Premier Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Beren et Lúthien",
+    "Les Enfants de Húrin",
+    "La Chute de Gondolin",
+    "Akallabêth",
+    "Le Hobbit"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Tolkien les considérait comme le cœur de sa mythologie.",
+   "id": "t023-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels sont des royaumes elfiques du Beleriand ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Doriath",
+    "Nargothrond",
+    "Gondolin",
+    "Angband",
+    "Númenor"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Angband est la forteresse de Morgoth, Númenor une île du Deuxième Âge.",
+   "id": "t023-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles créatures servent Morgoth ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Balrogs",
+    "Dragons",
+    "Orques",
+    "Aigles",
+    "Ents"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Les Aigles sont envoyés par Manwë ; les Ents sont nés de la pensée de Yavanna.",
+   "id": "t023-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages ont choisi ou reçu un destin mortel ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lúthien",
+    "Elros",
+    "Elrond",
+    "Galadriel"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Lúthien renonce à l’immortalité pour suivre Beren ; Elros choisit les Hommes.",
+   "id": "t023-109",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Où se trouvent finalement les trois Silmarils ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dans le ciel",
+    "Dans le feu de la terre",
+    "Dans la mer",
+    "Dans Angband",
+    "À Valinor"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Catalogue HarperCollins (1977-2018)",
+   "expl": "Un avec Eärendil, un avec Maedhros dans un gouffre de feu, un jeté par Maglor dans la mer.",
+   "id": "t023-110",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels livres Christopher Tolkien a-t-il édités ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Silmarillion",
+    "Contes et légendes inachevés",
+    "Les Enfants de Húrin",
+    "Le Hobbit",
+    "Le Seigneur des Anneaux"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954)",
+   "expl": "Le Hobbit (1937) et Le Seigneur des Anneaux (1954-1955) paraissent du vivant de Tolkien.",
+   "id": "t023-111",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages ont affronté un Balrog ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ecthelion",
+    "Glorfindel",
+    "Gandalf",
+    "Beren",
+    "Fingolfin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Fingolfin a affronté Morgoth lui-même ; Beren, Morgoth et ses loups.",
+   "id": "t023-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces sources de lumière par ordre d’apparition.",
+   "items": [
+    "Les Deux Lampes",
+    "Les Deux Arbres",
+    "Le Soleil et la Lune"
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Chaque lumière naît de la destruction de la précédente par Melkor.",
+   "id": "t023-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces batailles du Beleriand par ordre chronologique.",
+   "items": [
+    "Dagor-nuin-Giliath",
+    "Dagor Aglareb",
+    "Dagor Bragollach",
+    "Nirnaeth Arnoediad",
+    "Guerre de la Colère"
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Bataille sous les étoiles, Bataille glorieuse, Flamme subite, Larmes innombrables, puis Colère des Valar.",
+   "id": "t023-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "L’éveil des Elfes",
+    "La création des Silmarils",
+    "La destruction des Arbres",
+    "Le premier lever du Soleil"
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Les Silmarils sont forgés en Valinor, bien après le Grand Voyage des Elfes.",
+   "id": "t023-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces cités elfiques selon la date de leur chute.",
+   "items": [
+    "Nargothrond",
+    "Doriath",
+    "Gondolin"
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Nargothrond tombe en 495 du Premier Âge, Doriath en 506 et Gondolin en 510.",
+   "id": "t023-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces personnages du plus ancien au plus récent dans la lignée d’Eärendil.",
+   "items": [
+    "Tuor",
+    "Eärendil",
+    "Elros",
+    "Elendil"
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Elendil, chef des Fidèles de Númenor, descend d’Elros.",
+   "id": "t023-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces périodes dans l’ordre.",
+   "items": [
+    "Années des Lampes",
+    "Années des Arbres",
+    "Premier Âge",
+    "Deuxième Âge",
+    "Troisième Âge"
+   ],
+   "src": "Catalogue HarperCollins (1977-2018)",
+   "expl": "Les Âges du Soleil commencent au premier lever de l’astre.",
+   "id": "t023-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces publications posthumes par date de parution.",
+   "items": [
+    "Le Silmarillion",
+    "Contes et légendes inachevés",
+    "Les Enfants de Húrin",
+    "Beren et Lúthien",
+    "La Chute de Gondolin"
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977), « Akallabêth » et « Des Anneaux de Pouvoir »",
+   "expl": "1977, 1980, 2007, 2017 et 2018 : plus de quarante ans de travail éditorial.",
+   "id": "t023-119",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements du Deuxième Âge par ordre chronologique.",
+   "items": [
+    "Fondation de Númenor",
+    "Forge des Anneaux de Pouvoir",
+    "Chute de Númenor",
+    "Dernière Alliance"
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "De l’an 32 à l’an 3441 du Deuxième Âge : l’Anneau unique est forgé vers l’an 1600, bien avant la chute de l’île.",
+   "id": "t023-120",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces Hauts Rois des Noldor en Terre du Milieu dans l’ordre de leur règne.",
+   "items": [
+    "Fingolfin",
+    "Fingon",
+    "Turgon",
+    "Gil-galad"
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Après la mort de Fëanor, Maedhros renonce à la royauté au profit de Fingolfin.",
+   "id": "t023-121",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la quête du Silmaril dans l’ordre.",
+   "items": [
+    "Beren rencontre Lúthien",
+    "Captivité à Tol-in-Gaurhoth",
+    "Vol du Silmaril à Angband",
+    "Mort de Carcharoth"
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Lúthien délivre Beren de l’île de Sauron avec l’aide de Huan, avant la descente à Angband.",
+   "id": "t023-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Vala à son domaine.",
+   "paires": [
+    [
+     "Manwë",
+     "Air et vents"
+    ],
+    [
+     "Ulmo",
+     "Eaux"
+    ],
+    [
+     "Aulë",
+     "Forge et matière"
+    ],
+    [
+     "Yavanna",
+     "Plantes"
+    ],
+    [
+     "Mandos",
+     "Destin des morts"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Chaque Vala façonne une part du monde selon le thème qu’il a chanté.",
+   "id": "t023-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque clan à son roi lors du Grand Voyage.",
+   "paires": [
+    [
+     "Vanyar",
+     "Ingwë"
+    ],
+    [
+     "Noldor",
+     "Finwë"
+    ],
+    [
+     "Teleri",
+     "Elwë et Olwë"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Elwë s’arrête en Terre du Milieu, où il devient Thingol ; son frère Olwë mène les Teleri en Aman.",
+   "id": "t023-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque roi à son royaume.",
+   "paires": [
+    [
+     "Thingol",
+     "Doriath"
+    ],
+    [
+     "Turgon",
+     "Gondolin"
+    ],
+    [
+     "Finrod",
+     "Nargothrond"
+    ],
+    [
+     "Ar-Pharazôn",
+     "Númenor"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Trois royaumes du Beleriand et l’île des Hommes au Deuxième Âge.",
+   "id": "t023-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque héros à son adversaire.",
+   "paires": [
+    [
+     "Fingolfin",
+     "Morgoth"
+    ],
+    [
+     "Ecthelion",
+     "Gothmog"
+    ],
+    [
+     "Túrin",
+     "Glaurung"
+    ],
+    [
+     "Eärendil",
+     "Ancalagon"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Ces duels sont les grands moments épiques du Premier Âge.",
+   "id": "t023-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque élément à son origine.",
+   "paires": [
+    [
+     "Lumière de Telperion",
+     "Argent"
+    ],
+    [
+     "Lumière de Laurelin",
+     "Or"
+    ],
+    [
+     "Lune",
+     "Fleur de Telperion"
+    ],
+    [
+     "Soleil",
+     "Fruit de Laurelin"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Yavanna et Nienna sauvent une fleur et un fruit des Arbres mourants.",
+   "id": "t023-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque peuple au Vala lié à sa naissance.",
+   "paires": [
+    [
+     "Nains",
+     "Aulë"
+    ],
+    [
+     "Ents",
+     "Yavanna"
+    ],
+    [
+     "Aigles",
+     "Manwë"
+    ],
+    [
+     "Orques",
+     "Morgoth"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980), « Les Istari »",
+   "expl": "Les Orques sont nés de la corruption d’êtres capturés par Morgoth, selon Le Silmarillion.",
+   "id": "t023-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque Istar à son nom de Maia.",
+   "paires": [
+    [
+     "Gandalf",
+     "Olórin"
+    ],
+    [
+     "Saruman",
+     "Curumo"
+    ],
+    [
+     "Radagast",
+     "Aiwendil"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Ces noms apparaissent dans les Contes et légendes inachevés.",
+   "id": "t023-129",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Silmaril à sa destination finale.",
+   "paires": [
+    [
+     "Celui d’Eärendil",
+     "Le ciel"
+    ],
+    [
+     "Celui de Maedhros",
+     "Un gouffre de feu"
+    ],
+    [
+     "Celui de Maglor",
+     "La mer"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Maedhros et Maglor ne peuvent supporter le joyau, qui leur brûle les mains.",
+   "id": "t023-130",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque récit à son contenu.",
+   "paires": [
+    [
+     "Ainulindalë",
+     "La création par la musique"
+    ],
+    [
+     "Valaquenta",
+     "Les Valar et les Maiar"
+    ],
+    [
+     "Quenta Silmarillion",
+     "L’histoire des Silmarils"
+    ],
+    [
+     "Akallabêth",
+     "La chute de Númenor"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Hobbit (1937) ; Unfinished Tales (1980)",
+   "expl": "Le Silmarillion se termine par « Des Anneaux de Pouvoir et du Troisième Âge ».",
+   "id": "t023-131",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque épée à son porteur.",
+   "paires": [
+    [
+     "Gurthang",
+     "Túrin"
+    ],
+    [
+     "Narsil",
+     "Elendil"
+    ],
+    [
+     "Glamdring",
+     "Turgon"
+    ],
+    [
+     "Aranrúth",
+     "Thingol"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Glamdring, trouvée par Gandalf dans un antre de trolls, avait appartenu au roi de Gondolin.",
+   "id": "t023-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis le plus puissant des Ainur\n2. Je voulais créer seul\n3. Fëanor m’a donné mon nom le plus célèbre",
+   "choix": [
+    "Melkor",
+    "Manwë",
+    "Sauron",
+    "Aulë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Melkor devient Morgoth, l’Ennemi noir du monde.",
+   "id": "t023-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Noldo\n2. J’ai forgé trois joyaux\n3. Mon serment a perdu mon peuple",
+   "choix": [
+    "Fëanor",
+    "Celebrimbor",
+    "Fingolfin",
+    "Finrod"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Fëanor est l’Elfe le plus doué, mais aussi le plus orgueilleux.",
+   "id": "t023-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Ma mère est une Maia\n2. J’ai dansé dans la forêt de Neldoreth\n3. Mon chant a endormi Morgoth",
+   "choix": [
+    "Lúthien",
+    "Galadriel",
+    "Idril",
+    "Nienor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Lúthien Tinúviel, « rossignol », est l’héroïne du plus beau conte du Premier Âge.",
+   "id": "t023-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un homme\n2. Un dragon m’a maudit\n3. J’ai tué mon ami par erreur",
+   "choix": [
+    "Túrin",
+    "Beren",
+    "Tuor",
+    "Húrin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Túrin, fils de Húrin, porte la malédiction de Morgoth sur toute sa famille.",
+   "id": "t023-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un marin\n2. Je porte un joyau sacré\n3. Je brille dans le ciel du soir",
+   "choix": [
+    "Eärendil",
+    "Elros",
+    "Tuor",
+    "Círdan"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Les hobbits voient son étoile ; Galadriel en conserve la lumière dans la fiole offerte à Frodo.",
+   "id": "t023-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une araignée\n2. J’ai dévoré la lumière des Arbres\n3. Ma descendante guette les voyageurs aux portes du Mordor",
+   "choix": [
+    "Ungoliant",
+    "Glaurung",
+    "Carcharoth",
+    "Draugluin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Même Morgoth faillit périr dans ses filets quand elle réclama les joyaux.",
+   "id": "t023-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un serpent sans ailes\n2. Je suis le premier de mon espèce\n3. J’ai brûlé Nargothrond",
+   "choix": [
+    "Glaurung",
+    "Ancalagon",
+    "Smaug",
+    "Scatha"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Túrin le tue en lui perçant le ventre depuis un ravin.",
+   "id": "t023-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une île\n2. Les Valar m’ont offerte aux Hommes\n3. L’orgueil de mes rois m’a engloutie",
+   "choix": [
+    "Númenor",
+    "Tol Eressëa",
+    "Tol-in-Gaurhoth",
+    "Himring"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Sa chute rappelle l’Atlantide, mythe qui fascinait Tolkien.",
+   "id": "t023-140",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un Maia\n2. Je me suis fait appeler Annatar\n3. J’ai trompé les forgerons d’Eregion",
+   "choix": [
+    "Sauron",
+    "Saruman",
+    "Melkor",
+    "Gothmog"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Sauron fut d’abord un serviteur d’Aulë avant de rejoindre Melkor.",
+   "id": "t023-141",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Elfe\n2. J’ai épousé une Maia\n3. Je règne sur Doriath",
+   "choix": [
+    "Thingol",
+    "Finwë",
+    "Fingolfin",
+    "Círdan"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Elu Thingol, « Manteau-gris », est le plus grand roi des Sindar.",
+   "id": "t023-142",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un Vala\n2. Je suis le roi d’Arda\n3. Je siège sur le Taniquetil",
+   "choix": [
+    "Manwë",
+    "Ulmo",
+    "Aulë",
+    "Mandos"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Ses aigles lui rapportent tout ce qui se passe en Terre du Milieu.",
+   "id": "t023-143",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
