@@ -1,0 +1,2153 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "trone-de-fer",
+  "nom": "Le Trône de Fer (Westeros)",
+  "royaume": "Magie, littérature et univers fantasy",
+  "icone": "trone",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le titre original anglais de la saga littéraire connue en France sous le nom Le Trône de fer ?",
+   "choix": [
+    "A Song of Ice and Fire",
+    "Game of Thrones",
+    "The Iron Throne",
+    "Winds of Winter"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Game of Thrones est le titre du premier tome, repris par la série d’HBO.",
+   "id": "t068-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quelle année paraît le premier tome du Trône de fer en anglais ?",
+   "choix": [
+    "1996",
+    "1988",
+    "2001",
+    "2011"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Martin avait d’abord prévu une trilogie.",
+   "id": "t068-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conflit médiéval anglais a largement inspiré la rivalité entre Stark et Lannister ?",
+   "choix": [
+    "La guerre des Deux-Roses",
+    "La guerre de Cent Ans",
+    "La conquête normande",
+    "La guerre civile de 1642"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "York et Lancastre deviennent, à peine voilés, Stark et Lannister.",
+   "id": "t068-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monument romain a inspiré le Mur de Westeros ?",
+   "choix": [
+    "Le mur d’Hadrien",
+    "La muraille de Chine",
+    "Le limes de Germanie",
+    "Le mur d’Aurélien"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Martin a raconté l’avoir visité et imaginé ce que voyait un soldat face aux terres sauvages.",
+   "id": "t068-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel événement historique écossais a inspiré les Noces pourpres ?",
+   "choix": [
+    "Le Dîner noir de 1440",
+    "La bataille de Bannockburn",
+    "Le massacre de la Saint-Barthélemy",
+    "La bataille de Culloden"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Le jeune comte de Douglas et son frère y furent assassinés après un repas à Édimbourg.",
+   "id": "t068-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la devise des Stark ?",
+   "choix": [
+    "L’hiver vient",
+    "Feu et Sang",
+    "Nous ne semons pas",
+    "Nôtre est la fureur"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Elle rappelle que, dans le Nord, il faut toujours se préparer au pire.",
+   "id": "t068-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle est la devise des Targaryen ?",
+   "choix": [
+    "Feu et Sang",
+    "L’hiver vient",
+    "Famille, Devoir, Honneur",
+    "Nous ne semons pas"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "C’est aussi le titre de la chronique de leur dynastie publiée en 2018.",
+   "id": "t068-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle maison a pour devise « Nous ne semons pas » ?",
+   "choix": [
+    "Les Greyjoy",
+    "Les Tully",
+    "Les Baratheon",
+    "Les Martell"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Ces Fer-nés vivent de pillage plutôt que d’agriculture.",
+   "id": "t068-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal figure sur les armoiries des Baratheon ?",
+   "choix": [
+    "Un cerf",
+    "Un sanglier",
+    "Un ours",
+    "Un taureau"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il est noir et couronné, sur un fond d’or éclatant.",
+   "id": "t068-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal figure sur la bannière des Greyjoy ?",
+   "choix": [
+    "Un kraken",
+    "Un requin",
+    "Un serpent de mer",
+    "Une baleine"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il est doré, sur fond noir, à l’image de leurs îles de Fer.",
+   "id": "t068-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle fleur orne le blason des Tyrell ?",
+   "choix": [
+    "Une rose",
+    "Un lys",
+    "Une tulipe",
+    "Un chardon"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "La maison règne sur le Bief depuis Hautjardin.",
+   "id": "t068-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel symbole figure sur la bannière des Martell de Dorne ?",
+   "choix": [
+    "Un soleil et une lance",
+    "Un serpent rouge",
+    "Un scorpion noir",
+    "Une tour d’or"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Dorne est le seul royaume que les Targaryen n’ont pas conquis par les armes.",
+   "id": "t068-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la capitale des Sept Couronnes ?",
+   "choix": [
+    "Port-Réal",
+    "Winterfell",
+    "Villevieille",
+    "Vivesaigues"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Aegon le Conquérant la fonde à l’endroit où il débarque.",
+   "id": "t068-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quoi est fait le Trône de fer, selon la légende ?",
+   "choix": [
+    "Des épées des ennemis vaincus d’Aegon",
+    "D’acier valyrien massif",
+    "Des chaînes d’anciens esclaves",
+    "Des boucliers de la Garde de Nuit"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Elles auraient été fondues par le souffle du dragon Balerion.",
+   "id": "t068-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon d’Aegon le Conquérant est surnommé la Terreur noire ?",
+   "choix": [
+    "Balerion",
+    "Vhagar",
+    "Meraxès",
+    "Caraxès"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Ses os ornent ensuite les sous-sols du Donjon Rouge.",
+   "id": "t068-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les trois dragons de Daenerys ?",
+   "choix": [
+    "Drogon, Rhaegal et Viserion",
+    "Balerion, Vhagar et Meraxès",
+    "Syrax, Caraxès et Sunfyre",
+    "Drogon, Vhagar et Ghost"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Rhaegal et Viserion portent les noms de ses frères défunts.",
+   "id": "t068-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon devient une créature des Marcheurs blancs dans la série ?",
+   "choix": [
+    "Viserion",
+    "Drogon",
+    "Rhaegal",
+    "Balerion"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Le Roi de la Nuit le ramène à la vie après l’avoir tué d’une lance de glace.",
+   "id": "t068-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle confrérie garde le Mur ?",
+   "choix": [
+    "La Garde de Nuit",
+    "La Garde royale",
+    "Les Sans-Visage",
+    "La Compagnie dorée"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Ses frères jurés portent le noir et renoncent à toute famille.",
+   "id": "t068-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forteresse sert de quartier général principal à la Garde de Nuit ?",
+   "choix": [
+    "Châteaunoir",
+    "Fort-Levant",
+    "Tour Ombreuse",
+    "Harrenhal"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "C’est là que Jon Snow arrive au début de l’histoire.",
+   "id": "t068-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui a poussé Bran Stark du haut d’une tour au début de l’histoire ?",
+   "choix": [
+    "Jaime Lannister",
+    "Cersei Lannister",
+    "Tyrion Lannister",
+    "Theon Greyjoy"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Bran l’avait surpris avec sa sœur Cersei.",
+   "id": "t068-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel surnom porte Jaime Lannister depuis la mort d’Aerys II ?",
+   "choix": [
+    "Le Régicide",
+    "Le Limier",
+    "Le Lutin",
+    "La Montagne"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il a tué le roi qu’il avait juré de protéger.",
+   "id": "t068-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel surnom porte le roi Aerys II Targaryen ?",
+   "choix": [
+    "Le Roi fou",
+    "Le Roi mendiant",
+    "Le Jeune Loup",
+    "Le Roi de la Nuit"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il voulait brûler Port-Réal au feu grégeois plutôt que de la livrer.",
+   "id": "t068-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment s’appelle l’épée d’Arya Stark ?",
+   "choix": [
+    "Aiguille",
+    "Glace",
+    "Épine",
+    "Dard"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Jon Snow la lui a offerte avant de partir pour le Mur.",
+   "id": "t068-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle l’épée ancestrale des Stark, faite d’acier valyrien ?",
+   "choix": [
+    "Glace",
+    "Aiguille",
+    "Aube",
+    "Grand-Griffe"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Elle sert à décapiter Eddard Stark lui-même.",
+   "id": "t068-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel loup accompagne Jon Snow ?",
+   "choix": [
+    "Fantôme",
+    "Été",
+    "Vent Gris",
+    "Nymeria"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "C’est un loup albinos aux yeux rouges, silencieux.",
+   "id": "t068-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de louveteaux les enfants Stark trouvent-ils au début de l’histoire ?",
+   "choix": [
+    "Six",
+    "Cinq",
+    "Sept",
+    "Trois"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Un pour chacun des cinq enfants Stark, et un sixième pour Jon.",
+   "id": "t068-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui exécute Eddard Stark sur l’ordre de Joffrey ?",
+   "choix": [
+    "Ser Ilyn Payne",
+    "Gregor Clegane",
+    "Jaime Lannister",
+    "Bronn"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Le bourreau royal a eu la langue arrachée sur ordre d’Aerys.",
+   "id": "t068-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel surnom porte Petyr Baelish ?",
+   "choix": [
+    "Littlefinger",
+    "L’Araignée",
+    "Le Limier",
+    "Le Lutin"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il le doit à sa petite taille et à ses origines modestes, les Doigts.",
+   "id": "t068-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel surnom porte Varys, le maître des chuchoteurs ?",
+   "choix": [
+    "L’Araignée",
+    "Littlefinger",
+    "Le Lutin",
+    "Le Corbeau"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il dirige un réseau d’espions qu’il appelle ses « oisillons ».",
+   "id": "t068-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Lors de quel massacre Robb et Catelyn Stark sont-ils assassinés ?",
+   "choix": [
+    "Les Noces pourpres",
+    "Les Noces violettes",
+    "La bataille des Bâtards",
+    "La bataille de la Néra"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Le banquet a lieu aux Jumeaux, chez Walder Frey.",
+   "id": "t068-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi meurt empoisonné lors de son propre mariage ?",
+   "choix": [
+    "Joffrey",
+    "Robert",
+    "Tommen",
+    "Renly"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "On parle des Noces violettes, à cause du vin qui tache son visage.",
+   "id": "t068-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle arme Tyrion utilise-t-il pour tuer son père Tywin ?",
+   "choix": [
+    "Une arbalète",
+    "Une dague",
+    "Du poison",
+    "Une épée"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il le surprend dans les latrines de la Tour de la Main.",
+   "id": "t068-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle substance verte met le feu à la flotte de Stannis à la bataille de la Néra ?",
+   "choix": [
+    "Le feu grégeois",
+    "Le feu de dragon",
+    "La poix ardente",
+    "Le verre-dragon"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Les pyromanciens de Port-Réal la fabriquent en grande quantité.",
+   "id": "t068-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel matériau permet de tuer les Marcheurs blancs ?",
+   "choix": [
+    "Le verre-dragon",
+    "L’argent",
+    "Le fer de météorite",
+    "Le bois de barral"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "C’est de l’obsidienne ; l’acier valyrien les détruit aussi.",
+   "id": "t068-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle cité libre se trouve la Maison du Noir et du Blanc des Sans-Visage ?",
+   "choix": [
+    "Braavos",
+    "Pentos",
+    "Volantis",
+    "Meereen"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Arya y apprend à renoncer à son nom pour devenir « personne ».",
+   "id": "t068-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle institution financière de Braavos prête aux rois de Westeros ?",
+   "choix": [
+    "La Banque de Fer",
+    "La Banque d’Or",
+    "Le Trésor de Valyria",
+    "La Compagnie marchande"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Elle finance aussi les ennemis de ceux qui ne la remboursent pas.",
+   "id": "t068-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie l’expression valyrienne « Valar morghulis » ?",
+   "choix": [
+    "Tous les hommes doivent mourir",
+    "Tous les hommes doivent servir",
+    "L’hiver vient",
+    "Feu et Sang"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "On y répond par « Valar dohaeris », tous les hommes doivent servir.",
+   "id": "t068-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel linguiste a créé les langues dothrakie et valyrienne de la série ?",
+   "choix": [
+    "David J. Peterson",
+    "Marc Okrand",
+    "J. R. R. Tolkien",
+    "Paul Frommer"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il s’est appuyé sur les quelques mots inventés par Martin dans les romans.",
+   "id": "t068-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel compositeur signe le célèbre générique de Game of Thrones ?",
+   "choix": [
+    "Ramin Djawadi",
+    "Hans Zimmer",
+    "Howard Shore",
+    "John Williams"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il compose aussi la musique de House of the Dragon.",
+   "id": "t068-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville croate a servi de décor principal à Port-Réal ?",
+   "choix": [
+    "Dubrovnik",
+    "Split",
+    "Zagreb",
+    "Zadar"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "La première saison avait été tournée en partie à Malte.",
+   "id": "t068-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel pays la majeure partie des scènes de Winterfell a-t-elle été tournée ?",
+   "choix": [
+    "L’Irlande du Nord",
+    "L’Écosse",
+    "L’Islande",
+    "La Norvège"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Le château de Castle Ward a servi de cadre à la cour des Stark.",
+   "id": "t068-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur a remporté quatre Emmy Awards pour le rôle de Tyrion Lannister ?",
+   "choix": [
+    "Peter Dinklage",
+    "Kit Harington",
+    "Nikolaj Coster-Waldau",
+    "Charles Dance"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "C’est un record pour un acteur dans un second rôle dramatique.",
+   "id": "t068-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui monte sur le trône à la fin de la série, en 2019 ?",
+   "choix": [
+    "Bran Stark",
+    "Jon Snow",
+    "Sansa Stark",
+    "Tyrion Lannister"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Sansa, elle, devient reine du Nord indépendant.",
+   "id": "t068-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est, selon la série, le vrai nom de Jon Snow ?",
+   "choix": [
+    "Aegon Targaryen",
+    "Rhaegar Targaryen",
+    "Brandon Stark",
+    "Viserys Targaryen"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Il est le fils de Rhaegar Targaryen et de Lyanna Stark.",
+   "id": "t068-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quel livre de Martin se fonde la série House of the Dragon ?",
+   "choix": [
+    "Feu et Sang",
+    "Le Chevalier errant",
+    "Le Prince de Westeros",
+    "Les Vents de l’hiver"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin, Le Trône de fer (A Song of Ice and Fire, 1996-2011, trad. J’ai lu / Pygmalion) ; Feu et Sang (2018) ; HBO, Game of Thrones (2011-2019) et House of the Dragon (2022-) ; Académie de la télévision (palmarès des Emmy Awards)",
+   "expl": "Elle raconte la guerre civile des Targaryen, la Danse des dragons.",
+   "id": "t068-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La série Game of Thrones compte huit saisons.",
+   "rep": true,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Elle est diffusée sur HBO de 2011 à 2019.",
+   "id": "t068-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le dernier tome du Trône de fer est paru en 2019.",
+   "rep": false,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Faux : le dernier tome paru, Une danse avec les dragons, date de 2011 ; la suite est attendue.",
+   "id": "t068-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La devise des Targaryen est « Feu et Sang ».",
+   "rep": true,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Elle sert de titre à la chronique de la dynastie.",
+   "id": "t068-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dorne a été conquise par les dragons d’Aegon.",
+   "rep": false,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Faux : Dorne résiste et ne rejoint le royaume que par un mariage, bien plus tard.",
+   "id": "t068-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Jaime Lannister a tué le Roi fou.",
+   "rep": true,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Il était pourtant membre de sa Garde royale.",
+   "id": "t068-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le verre-dragon est un métal.",
+   "rep": false,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Faux : c’est de l’obsidienne, une roche volcanique.",
+   "id": "t068-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Noces pourpres ont lieu aux Jumeaux.",
+   "rep": true,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Walder Frey se venge de Robb Stark, qui avait rompu sa promesse de mariage.",
+   "id": "t068-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Garde royale compte douze chevaliers.",
+   "rep": false,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Faux : elle en compte sept, vêtus de blanc.",
+   "id": "t068-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Arya Stark s’entraîne à Braavos.",
+   "rep": true,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Elle y suit l’enseignement des Sans-Visage.",
+   "id": "t068-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Mur a été inspiré par la Grande Muraille de Chine.",
+   "rep": false,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Faux : Martin cite le mur d’Hadrien, dans le nord de l’Angleterre.",
+   "id": "t068-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Ned Stark est exécuté dès la première saison.",
+   "rep": true,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Sa mort, inattendue pour un héros principal, a marqué les spectateurs.",
+   "id": "t068-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Joffrey est le fils biologique du roi Robert.",
+   "rep": false,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Faux : il est né de la relation entre Cersei et son frère Jaime.",
+   "id": "t068-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tyrion est surnommé le Lutin.",
+   "rep": true,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Il est méprisé par son père et sa sœur, mais redouté pour son esprit.",
+   "id": "t068-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Game of Thrones détient le record d’Emmy Awards pour une série dramatique.",
+   "rep": true,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Elle en a remporté cinquante-neuf au fil de ses huit saisons.",
+   "id": "t068-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Sans-Visage peuvent changer d’apparence.",
+   "rep": true,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Ils utilisent des visages pris aux morts.",
+   "id": "t068-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Hodor est un mot inventé par Bran.",
+   "rep": false,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "Faux : c’est la déformation de « Hold the door », tiens la porte, criée dans une vision.",
+   "id": "t068-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît A Game of Thrones, premier tome de la saga ?",
+   "rep": 1996,
+   "min": 1985,
+   "max": 2005,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "Le premier tome remporte le prix Locus et lance une saga mondiale.",
+   "id": "t068-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année débute la série Game of Thrones ?",
+   "rep": 2011,
+   "min": 2000,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "Le pilote avait été en grande partie retourné après un premier essai jugé raté.",
+   "id": "t068-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’épisodes compte la série Game of Thrones ?",
+   "rep": 73,
+   "min": 50,
+   "max": 100,
+   "pas": 1,
+   "unite": "épisodes",
+   "tolerance": 0,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "Les deux dernières saisons sont plus courtes, avec sept puis six épisodes.",
+   "id": "t068-064",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de chevaliers compte la Garde royale ?",
+   "rep": 7,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "chevaliers",
+   "tolerance": 0,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "Sept comme les Sept Couronnes et les Sept dieux de la Foi.",
+   "id": "t068-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de louveteaux les enfants Stark trouvent-ils ?",
+   "rep": 6,
+   "min": 3,
+   "max": 9,
+   "pas": 1,
+   "unite": "louveteaux",
+   "tolerance": 0,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "La mère des louveteaux a été tuée par un cerf.",
+   "id": "t068-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’Emmy Awards la série a-t-elle remportés ?",
+   "rep": 59,
+   "min": 30,
+   "max": 80,
+   "pas": 1,
+   "unite": "prix",
+   "tolerance": 0,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "C’est le record pour une série dramatique.",
+   "id": "t068-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année George R. R. Martin est-il né ?",
+   "rep": 1948,
+   "min": 1930,
+   "max": 1960,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "Il naît à Bayonne, dans le New Jersey, aux États-Unis.",
+   "id": "t068-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année débute House of the Dragon ?",
+   "rep": 2022,
+   "min": 2015,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "La série se déroule environ deux siècles avant Game of Thrones.",
+   "id": "t068-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de tomes du Trône de fer sont parus en anglais ?",
+   "rep": 5,
+   "min": 3,
+   "max": 8,
+   "pas": 1,
+   "unite": "tomes",
+   "tolerance": 0,
+   "src": "George R. R. Martin ; HBO ; Emmy Awards",
+   "expl": "Les Vents de l’hiver et Un rêve de printemps doivent compléter la saga.",
+   "id": "t068-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La devise des Stark est : L’hiver ____.",
+   "choix": [
+    "vient",
+    "arrive",
+    "approche",
+    "est là"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Les Stark sont les gardiens du Nord depuis des millénaires.",
+   "id": "t068-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La capitale des Sept Couronnes s’appelle ____.",
+   "choix": [
+    "Port-Réal",
+    "Port-Royal",
+    "Peyredragon",
+    "Winterfell"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Le Donjon Rouge, château royal, domine la ville.",
+   "id": "t068-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le roi Aerys II est surnommé le Roi ____.",
+   "choix": [
+    "fou",
+    "mendiant",
+    "sanglant",
+    "noir"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Ses crises de folie mènent à la rébellion de Robert.",
+   "id": "t068-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le château des Stark s’appelle ____.",
+   "choix": [
+    "Winterfell",
+    "Wintergarde",
+    "Hivernal",
+    "Castral Roc"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Il est chauffé par des sources chaudes qui coulent dans ses murs.",
+   "id": "t068-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’épée d’Arya s’appelle ____.",
+   "choix": [
+    "Aiguille",
+    "Épingle",
+    "Dague",
+    "Glace"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Elle conseille de « frapper avec le bout pointu ».",
+   "id": "t068-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le loup albinos de Jon Snow s’appelle ____.",
+   "choix": [
+    "Fantôme",
+    "Spectre",
+    "Neige",
+    "Été"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Il ne hurle presque jamais et suit Jon partout.",
+   "id": "t068-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La matière qui tue les Marcheurs blancs s’appelle le verre-____.",
+   "choix": [
+    "dragon",
+    "glace",
+    "feu",
+    "noir"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Les premiers hommes en faisaient des armes.",
+   "id": "t068-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les assassins de Braavos s’appellent les Sans-____.",
+   "choix": [
+    "Visage",
+    "Nom",
+    "Âme",
+    "Cœur"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Ils servent le Dieu Multiface, celui de la mort.",
+   "id": "t068-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La banque des cités libres s’appelle la Banque de ____.",
+   "choix": [
+    "Fer",
+    "Bronze",
+    "Braavos",
+    "Valyria"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "« La Banque de Fer aura son dû », dit-on à Westeros.",
+   "id": "t068-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le massacre des Stark chez les Frey s’appelle les Noces ____.",
+   "choix": [
+    "pourpres",
+    "rouges",
+    "sanglantes",
+    "noires"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Il survient dans le troisième tome et la troisième saison.",
+   "id": "t068-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le linguiste de la série s’appelle David J. ____.",
+   "choix": [
+    "Peterson",
+    "Peters",
+    "Pearson",
+    "Patterson"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Il a aussi créé des langues pour Dune et Star Trek.",
+   "id": "t068-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Trône de fer serait fait d’un millier d’____.",
+   "choix": [
+    "épées",
+    "lances",
+    "boucliers",
+    "haches"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Martin l’imagine plus monstrueux et immense que dans la série.",
+   "id": "t068-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La forteresse de la Garde de Nuit s’appelle ____.",
+   "choix": [
+    "Châteaunoir",
+    "Noirchâteau",
+    "Fort-Nuit",
+    "Corbeaunoir"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Le Mur se dresse juste derrière ses bâtiments.",
+   "id": "t068-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La guerre civile des Targaryen s’appelle la Danse des ____.",
+   "choix": [
+    "dragons",
+    "ombres",
+    "rois",
+    "flammes"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Elle oppose Rhaenyra à son demi-frère Aegon II.",
+   "id": "t068-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces maisons n’existe pas à Westeros ?",
+   "choix": [
+    "Les Malfoy",
+    "Les Stark",
+    "Les Tully",
+    "Les Arryn"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Les Malfoy appartiennent à Harry Potter.",
+   "id": "t068-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dragons n’appartient pas à Daenerys ?",
+   "choix": [
+    "Balerion",
+    "Drogon",
+    "Rhaegal",
+    "Viserion"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Balerion était le dragon d’Aegon le Conquérant.",
+   "id": "t068-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un enfant Stark ?",
+   "choix": [
+    "Theon",
+    "Robb",
+    "Rickon",
+    "Arya"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Theon Greyjoy est le pupille de la famille, otage depuis l’enfance.",
+   "id": "t068-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces villes n’est pas en Essos ?",
+   "choix": [
+    "Villevieille",
+    "Braavos",
+    "Meereen",
+    "Pentos"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Villevieille est la plus ancienne ville de Westeros, siège de la Citadelle.",
+   "id": "t068-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux de tournage n’a pas servi à la série ?",
+   "choix": [
+    "Le Mont-Saint-Michel",
+    "Dubrovnik",
+    "L’Islande",
+    "Malte"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Le Mont-Saint-Michel n’apparaît pas dans la série.",
+   "id": "t068-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces animaux n’est pas un emblème de grande maison ?",
+   "choix": [
+    "L’aigle",
+    "Le loup",
+    "Le lion",
+    "Le kraken"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Les Arryn ont un faucon et une lune, pas un aigle.",
+   "id": "t068-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces surnoms n’est pas porté par un Clegane ?",
+   "choix": [
+    "Le Régicide",
+    "Le Limier",
+    "La Montagne",
+    "La Montagne-à-cheval"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Le Régicide est Jaime Lannister, tueur du Roi fou.",
+   "id": "t068-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a pas porté de couronne ?",
+   "choix": [
+    "Eddard Stark",
+    "Robb Stark",
+    "Joffrey Baratheon",
+    "Bran Stark"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Ned ne fut que Main du Roi, puis seigneur de Winterfell.",
+   "id": "t068-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces tomes n’est pas encore paru ?",
+   "choix": [
+    "Les Vents de l’hiver",
+    "Une danse avec les dragons",
+    "Un festin pour les corbeaux",
+    "Une tempête d’épées"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Martin travaille sur ce sixième tome depuis 2011.",
+   "id": "t068-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces acteurs n’a pas joué dans Game of Thrones ?",
+   "choix": [
+    "Orlando Bloom",
+    "Sean Bean",
+    "Emilia Clarke",
+    "Kit Harington"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Orlando Bloom est Legolas dans Le Seigneur des anneaux.",
+   "id": "t068-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles maisons font partie des grandes maisons de Westeros ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Stark",
+    "Lannister",
+    "Targaryen",
+    "Tyrell",
+    "Atréides",
+    "Harkonnen"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Les Atréides et les Harkonnen viennent de Dune.",
+   "id": "t068-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages sont des enfants Stark ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Robb",
+    "Sansa",
+    "Arya",
+    "Bran",
+    "Theon",
+    "Samwell"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Jon Snow a longtemps été considéré comme le bâtard de Ned.",
+   "id": "t068-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles villes se trouvent en Essos ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Braavos",
+    "Meereen",
+    "Qarth",
+    "Volantis",
+    "Port-Réal",
+    "Lancehélion"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Lancehélion est la capitale de Dorne, à Westeros.",
+   "id": "t068-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages meurent lors des Noces pourpres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Robb Stark",
+    "Catelyn Stark",
+    "Walder Frey",
+    "Roose Bolton",
+    "Edmure Tully"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Edmure, dont on célèbre le mariage, est fait prisonnier.",
+   "id": "t068-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels lieux ont servi de décors à la série ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dubrovnik",
+    "Irlande du Nord",
+    "Islande",
+    "Séville",
+    "Venise",
+    "Prague"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "L’Alcazar de Séville a servi de palais aux Martell.",
+   "id": "t068-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles armes peuvent tuer les Marcheurs blancs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Verre-dragon",
+    "Acier valyrien",
+    "Feu de dragon",
+    "Argent",
+    "Eau bénite"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Les flammes de dragon détruisent aussi leurs morts animés.",
+   "id": "t068-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages ont été membres de la Garde de Nuit ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jon Snow",
+    "Samwell Tarly",
+    "Jeor Mormont",
+    "Bronn",
+    "Davos Mervault"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Jeor Mormont est le lord commandant au début de l’histoire.",
+   "id": "t068-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels titres ont été portés par Daenerys ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mère des dragons",
+    "Briseuse de chaînes",
+    "Khaleesi",
+    "Reine des Ronces",
+    "Main du Roi"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "La Reine des Ronces est Olenna Tyrell, à la langue acérée.",
+   "id": "t068-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages sont des Lannister ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tywin",
+    "Cersei",
+    "Jaime",
+    "Tyrion",
+    "Brienne",
+    "Bronn"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Bronn sert Tyrion puis Jaime, sans appartenir à la famille.",
+   "id": "t068-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels romans appartiennent à la saga principale ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Trône de fer",
+    "Le Choc des rois",
+    "Une danse avec les dragons",
+    "Feu et Sang",
+    "Le Chevalier errant"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Feu et Sang et Le Chevalier errant se déroulent dans le passé de Westeros.",
+   "id": "t068-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces romans de la saga par ordre de parution.",
+   "items": [
+    "A Game of Thrones",
+    "A Clash of Kings",
+    "A Storm of Swords",
+    "A Feast for Crows",
+    "A Dance with Dragons"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Ces romans paraissent en 1996, 1998, 2000, 2005 puis 2011.",
+   "id": "t068-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de la série par ordre chronologique.",
+   "items": [
+    "Exécution de Ned Stark",
+    "Bataille de la Néra",
+    "Noces pourpres",
+    "Bataille des Bâtards"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Ces événements surviennent aux saisons 1, 2, 3 puis 6.",
+   "id": "t068-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces rois de Westeros par ordre de règne.",
+   "items": [
+    "Aerys II",
+    "Robert Baratheon",
+    "Joffrey",
+    "Tommen"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Le trône change souvent de mains en quelques années.",
+   "id": "t068-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces œuvres de Westeros par date de sortie.",
+   "items": [
+    "Le premier roman",
+    "La série Game of Thrones",
+    "Feu et Sang",
+    "House of the Dragon"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Ces œuvres sortent en 1996, 2011, 2018 puis 2022.",
+   "id": "t068-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces moments de l’histoire de Westeros du plus ancien au plus récent.",
+   "items": [
+    "Conquête d’Aegon",
+    "Danse des dragons",
+    "Rébellion de Robert",
+    "Guerre des Cinq Rois"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Près de trois siècles séparent la Conquête de la Guerre des Cinq Rois.",
+   "id": "t068-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la vie de Jon Snow dans l’ordre.",
+   "items": [
+    "Serment de la Garde de Nuit",
+    "Lord commandant",
+    "Mort et retour à la vie",
+    "Roi du Nord"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "La série le fait finalement repartir au-delà du Mur.",
+   "id": "t068-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces batailles par ordre chronologique dans la série.",
+   "items": [
+    "La Néra",
+    "Durlieu",
+    "La bataille des Bâtards",
+    "La Longue Nuit"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Ces batailles ont lieu aux saisons 2, 5, 6 puis 8.",
+   "id": "t068-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du parcours de Daenerys dans l’ordre.",
+   "items": [
+    "Mariage avec Khal Drogo",
+    "Naissance des dragons",
+    "Libération d’Astapor",
+    "Règne à Meereen"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Elle passe de princesse exilée à reine conquérante.",
+   "id": "t068-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la vie d’Arya dans l’ordre.",
+   "items": [
+    "Leçons de Syrio Forel",
+    "Voyage avec le Limier",
+    "Formation à Braavos",
+    "Mort du Roi de la Nuit"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Elle apprend l’escrime à Port-Réal dès la première saison.",
+   "id": "t068-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces dragons célèbres par ordre chronologique d’apparition dans l’histoire de Westeros.",
+   "items": [
+    "Balerion",
+    "Vhagar",
+    "Drogon"
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Balerion vient de Valyria, Vhagar vit jusqu’à la Danse, Drogon naît à l’époque de Daenerys.",
+   "id": "t068-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque maison à son emblème.",
+   "paires": [
+    [
+     "Stark",
+     "Loup"
+    ],
+    [
+     "Lannister",
+     "Lion"
+    ],
+    [
+     "Baratheon",
+     "Cerf"
+    ],
+    [
+     "Greyjoy",
+     "Kraken"
+    ]
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Ces animaux reflètent le caractère de chaque maison.",
+   "id": "t068-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque maison à son château.",
+   "paires": [
+    [
+     "Stark",
+     "Winterfell"
+    ],
+    [
+     "Lannister",
+     "Castral Roc"
+    ],
+    [
+     "Tully",
+     "Vivesaigues"
+    ],
+    [
+     "Tyrell",
+     "Hautjardin"
+    ]
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Chaque grande maison règne sur une région.",
+   "id": "t068-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à son surnom.",
+   "paires": [
+    [
+     "Jaime",
+     "Le Régicide"
+    ],
+    [
+     "Sandor Clegane",
+     "Le Limier"
+    ],
+    [
+     "Varys",
+     "L’Araignée"
+    ],
+    [
+     "Tyrion",
+     "Le Lutin"
+    ]
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Les surnoms en disent souvent plus long que les noms.",
+   "id": "t068-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque enfant Stark à son loup.",
+   "paires": [
+    [
+     "Jon",
+     "Fantôme"
+    ],
+    [
+     "Arya",
+     "Nymeria"
+    ],
+    [
+     "Bran",
+     "Été"
+    ],
+    [
+     "Robb",
+     "Vent Gris"
+    ]
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Le loup de Sansa, Lady, est abattu dès la première saison.",
+   "id": "t068-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque lieu de tournage à son décor.",
+   "paires": [
+    [
+     "Dubrovnik",
+     "Port-Réal"
+    ],
+    [
+     "Islande",
+     "Au-delà du Mur"
+    ],
+    [
+     "Séville",
+     "Dorne"
+    ],
+    [
+     "Irlande du Nord",
+     "Winterfell"
+    ]
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Le tournage s’est déroulé dans une dizaine de pays.",
+   "id": "t068-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque devise à sa maison.",
+   "paires": [
+    [
+     "L’hiver vient",
+     "Stark"
+    ],
+    [
+     "Feu et Sang",
+     "Targaryen"
+    ],
+    [
+     "Nous ne semons pas",
+     "Greyjoy"
+    ],
+    [
+     "Nôtre est la fureur",
+     "Baratheon"
+    ]
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Les devises servent de cri de ralliement aux maisons.",
+   "id": "t068-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque acteur à son rôle.",
+   "paires": [
+    [
+     "Emilia Clarke",
+     "Daenerys"
+    ],
+    [
+     "Kit Harington",
+     "Jon Snow"
+    ],
+    [
+     "Peter Dinklage",
+     "Tyrion"
+    ],
+    [
+     "Sean Bean",
+     "Eddard Stark"
+    ]
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Le casting a révélé de nombreux jeunes acteurs britanniques.",
+   "id": "t068-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque cité à sa particularité.",
+   "paires": [
+    [
+     "Braavos",
+     "Banque de Fer"
+    ],
+    [
+     "Villevieille",
+     "Citadelle des mestres"
+    ],
+    [
+     "Meereen",
+     "Pyramides"
+    ]
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Essos et Westeros comptent de nombreuses cités célèbres.",
+   "id": "t068-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque dragon à son cavalier.",
+   "paires": [
+    [
+     "Balerion",
+     "Aegon le Conquérant"
+    ],
+    [
+     "Drogon",
+     "Daenerys"
+    ],
+    [
+     "Vhagar",
+     "Aemond"
+    ],
+    [
+     "Syrax",
+     "Rhaenyra"
+    ]
+   ],
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Dans House of the Dragon, chaque prince a son dragon.",
+   "id": "t068-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une maison\n2. Mon emblème est un lion\n3. Je paie toujours mes dettes",
+   "choix": [
+    "Les Lannister",
+    "Les Baratheon",
+    "Les Tyrell",
+    "Les Arryn"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Je règne sur Castral Roc et ses mines d’or.",
+   "id": "t068-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une femme\n2. Je suis sortie du feu avec trois dragons\n3. On m’appelle Khaleesi",
+   "choix": [
+    "Daenerys Targaryen",
+    "Cersei Lannister",
+    "Melisandre",
+    "Rhaenyra Targaryen"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Je suis la fille du Roi fou, née sur Peyredragon.",
+   "id": "t068-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un lieu\n2. Je mesure des centaines de mètres de haut\n3. Je protège du Nord sauvage",
+   "choix": [
+    "Le Mur",
+    "Le Donjon Rouge",
+    "Les Eyrié",
+    "Harrenhal"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Bran le Bâtisseur m’aurait élevé il y a huit mille ans.",
+   "id": "t068-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un personnage\n2. Je ne dis qu’un seul mot\n3. Je tiens la porte",
+   "choix": [
+    "Hodor",
+    "Bran",
+    "Bronn",
+    "Podrick"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Mon nom vient d’une vision qui a brisé mon esprit.",
+   "id": "t068-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. Je suis américain\n3. Je fais attendre mes lecteurs depuis 2011",
+   "choix": [
+    "George R. R. Martin",
+    "Robert Jordan",
+    "Patrick Rothfuss",
+    "Joe Abercrombie"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "On m’appelle souvent « le Tolkien américain ».",
+   "id": "t068-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une jeune fille\n2. Je veux devenir personne\n3. J’ai une liste de noms",
+   "choix": [
+    "Arya Stark",
+    "Sansa Stark",
+    "Brienne de Torth",
+    "Gilly"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Je récite chaque soir le nom de ceux que je veux tuer.",
+   "id": "t068-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un trône\n2. Je suis fait d’épées\n3. On dit que je refuse les rois indignes",
+   "choix": [
+    "Le Trône de fer",
+    "Le Siège de Pierre",
+    "Le Trône de sel",
+    "Le Trône des Os"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Aegon m’a voulu inconfortable, pour qu’un roi ne s’y repose jamais.",
+   "id": "t068-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une femme\n2. Je suis prêtresse du Maître de la Lumière\n3. Je porte un collier qui me cache",
+   "choix": [
+    "Melisandre",
+    "Cersei",
+    "Ygritte",
+    "Olenna Tyrell"
+   ],
+   "rep": 0,
+   "src": "George R. R. Martin ; HBO",
+   "expl": "Je sers Stannis Baratheon, que je crois élu.",
+   "id": "t068-131",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
