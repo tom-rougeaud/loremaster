@@ -1,0 +1,1983 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "crpg-tactiques",
+  "nom": "CRPG et jeux de rôle tactiques",
+  "royaume": "Écran, jeux vidéo et culture geek",
+  "icone": "manette",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne en général l’abréviation CRPG ?",
+   "choix": [
+    "Un jeu de rôle sur ordinateur",
+    "Un jeu de cartes en ligne",
+    "Un jeu de course automobile",
+    "Un jeu de réflexion pour console"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "On l’emploie surtout pour les jeux occidentaux à vue isométrique et à riches dialogues.",
+   "id": "t086-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de jeux de rôle tactiques de Nintendo, née en 1990, fait mourir définitivement les unités tombées au combat ?",
+   "choix": [
+    "Fire Emblem",
+    "Advance Wars",
+    "Shining Force",
+    "Disgaea"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Shouzou Kaga en est le créateur, chez Intelligent Systems.",
+   "id": "t086-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le « triangle des armes » de Fire Emblem, quelle arme l’emporte sur la hache ?",
+   "choix": [
+    "L’épée",
+    "La lance",
+    "L’arc",
+    "Le tome"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "L’épée bat la hache, la hache bat la lance, la lance bat l’épée.",
+   "id": "t086-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Fire Emblem : Three Houses, combien de maisons d’élèves peut-on diriger au monastère de Garreg Mach ?",
+   "choix": [
+    "Trois",
+    "Deux",
+    "Quatre",
+    "Cinq"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Les Aigles de Jais, les Lions de Saphir et les Cerfs d’Or.",
+   "id": "t086-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1997, de Yasumi Matsuno, se déroule dans le royaume d’Ivalice ?",
+   "choix": [
+    "Final Fantasy Tactics",
+    "Vagrant Story",
+    "Tactics Ogre",
+    "Final Fantasy XII"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Son héros, Ramza, découvre une conspiration politique et religieuse.",
+   "id": "t086-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1995, aussi de Yasumi Matsuno, est réputé pour son histoire de guerre ethnique dans l’archipel de Valeria ?",
+   "choix": [
+    "Tactics Ogre",
+    "Front Mission",
+    "Shining Force",
+    "Langrisser"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Ses choix moraux mènent à plusieurs fins très différentes.",
+   "id": "t086-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série tactique de Nippon Ichi permet de monter jusqu’au niveau 9 999 ?",
+   "choix": [
+    "Disgaea",
+    "Phantom Brave",
+    "La Pucelle",
+    "Makai Kingdom"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Son humour absurde met en scène un jeune prince démon et ses pingouins explosifs.",
+   "id": "t086-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel jeu de Sega, en 2008, mêle stratégie au tour par tour et action dans une guerre inspirée de 1940 ?",
+   "choix": [
+    "Valkyria Chronicles",
+    "Shining Force",
+    "Front Mission",
+    "Advance Wars"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Ses graphismes imitent des aquarelles en mouvement.",
+   "id": "t086-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1994, de Julian Gollop, oppose une organisation secrète à une invasion extraterrestre ?",
+   "choix": [
+    "X-COM : UFO Defense",
+    "Jagged Alliance",
+    "Syndicate",
+    "Laser Squad"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Il est relancé en 2012 par Firaxis sous le titre XCOM : Enemy Unknown.",
+   "id": "t086-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel phénomène frustrant est devenu un mème chez les joueurs de XCOM ?",
+   "choix": [
+    "Rater un tir à 95 % de chances",
+    "Perdre sa sauvegarde",
+    "Ne jamais trouver de munitions",
+    "Voir les ennemis à travers les murs"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Les probabilités affichées sont pourtant exactes.",
+   "id": "t086-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu post-apocalyptique de 1988, d’Interplay, est l’ancêtre spirituel de Fallout ?",
+   "choix": [
+    "Wasteland",
+    "Mad Max",
+    "Fountain of Dreams",
+    "Arcanum"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Brian Fargo en finance une suite sur Kickstarter en 2012.",
+   "id": "t086-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle équipe belge crée Divinity : Original Sin, financé par le public en 2014 ?",
+   "choix": [
+    "Larian",
+    "Obsidian",
+    "inXile",
+    "Owlcat"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Ses combats jouent avec les surfaces d’huile, de feu, d’eau et d’électricité.",
+   "id": "t086-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’Obsidian, financé sur Kickstarter en 2012, ressuscite le style de Baldur’s Gate ?",
+   "choix": [
+    "Pillars of Eternity",
+    "Tyranny",
+    "Torment : Tides of Numenera",
+    "Wasteland 2"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Il sort en 2015 et se déroule dans le monde d’Eora.",
+   "id": "t086-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu estonien de 2019 n’a presque aucun combat et fait dialoguer le héros avec ses propres compétences ?",
+   "choix": [
+    "Disco Elysium",
+    "Planescape: Torment",
+    "Outer Wilds",
+    "Pentiment"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le policier amnésique Harry Du Bois enquête dans la ville de Revachol.",
+   "id": "t086-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel studio crée Disco Elysium ?",
+   "choix": [
+    "ZA/UM",
+    "Larian",
+    "Owlcat",
+    "CD Projekt"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le studio est né d’un collectif artistique d’Estonie.",
+   "id": "t086-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel studio adapte le jeu de rôle Pathfinder en jeu vidéo avec Kingmaker, en 2018 ?",
+   "choix": [
+    "Owlcat Games",
+    "Paizo",
+    "BioWare",
+    "Obsidian"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Il développe ensuite Wrath of the Righteous et Rogue Trader.",
+   "id": "t086-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel système, typique des jeux Infinity Engine, permet de figer l’action pour donner des ordres ?",
+   "choix": [
+    "Le temps réel avec pause",
+    "Le tour par tour",
+    "Le temps réel pur",
+    "Le combat automatique"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Baldur’s Gate et Icewind Dale l’ont popularisé.",
+   "id": "t086-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2016, de Red Hook, gère le stress et la folie des aventuriers ?",
+   "choix": [
+    "Darkest Dungeon",
+    "Dungeon Keeper",
+    "Slay the Spire",
+    "Battle Brothers"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Un narrateur à la voix grave commente chaque désastre.",
+   "id": "t086-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2014, de Stoic, fait guider une caravane dans un monde nordique illustré à la main ?",
+   "choix": [
+    "The Banner Saga",
+    "Northgard",
+    "Bad North",
+    "Jotun"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Ses graphismes s’inspirent du style de l’animation des années 1950.",
+   "id": "t086-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel jeu de 2018, de Subset Games, fait affronter des insectes géants avec des robots en connaissant tous leurs coups à l’avance ?",
+   "choix": [
+    "Into the Breach",
+    "FTL",
+    "Mechwarrior",
+    "Battletech"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le joueur dispose d’une information parfaite, comme aux échecs.",
+   "id": "t086-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Square Enix, en 2022, fait voter les personnages sur les grandes décisions ?",
+   "choix": [
+    "Triangle Strategy",
+    "Octopath Traveler",
+    "Final Fantasy Tactics",
+    "Bravely Default"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le vote se joue sur la balance des convictions de chacun.",
+   "id": "t086-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2002, de BioWare, permet aux joueurs de créer et d’animer leurs propres aventures ?",
+   "choix": [
+    "Neverwinter Nights",
+    "Baldur’s Gate II",
+    "Icewind Dale",
+    "Dragon Age"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Un outil permet même à un joueur de jouer le rôle de maître du donjon en ligne.",
+   "id": "t086-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel studio crée Arcanum en 2001, un jeu de rôle mêlant magie et révolution industrielle ?",
+   "choix": [
+    "Troika Games",
+    "Black Isle",
+    "BioWare",
+    "Obsidian"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Ce studio est fondé par des vétérans de Fallout.",
+   "id": "t086-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle collection de jeux SSI, à partir de 1988, adapte officiellement Advanced Dungeons & Dragons ?",
+   "choix": [
+    "La « boîte dorée »",
+    "Les Infinity Games",
+    "La collection Aurora",
+    "Les Classics"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Ses boîtes dorées ont donné leur nom à la collection.",
+   "id": "t086-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu français de 2025, de Sandfall Interactive, mêle tour par tour et parades en temps réel ?",
+   "choix": [
+    "Clair Obscur",
+    "Hellblade",
+    "Steelrising",
+    "Greedfall"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Son univers s’inspire de la Belle Époque et de la peinture.",
+   "id": "t086-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quelle ville est installé Sandfall Interactive ?",
+   "choix": [
+    "Montpellier",
+    "Lyon",
+    "Paris",
+    "Bordeaux"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le studio, fondé par d’anciens d’Ubisoft, compte une trentaine de personnes au départ.",
+   "id": "t086-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2016, d’Obsidian, fait servir le joueur dans l’armée d’un seigneur qui a déjà conquis le monde ?",
+   "choix": [
+    "Tyranny",
+    "Pillars of Eternity II",
+    "Dungeon Keeper",
+    "Overlord"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le mal y a déjà triomphé avant le début du jeu.",
+   "id": "t086-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1991, de Westwood, adapte D&D en vue subjective dans les égouts de Waterdeep ?",
+   "choix": [
+    "Eye of the Beholder",
+    "Dungeon Master",
+    "Lands of Lore",
+    "Ultima Underworld"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Son nom évoque le célèbre tyrannoeil de D&D.",
+   "id": "t086-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1987, de FTL Games, invente le donjon en vue subjective et en temps réel ?",
+   "choix": [
+    "Dungeon Master",
+    "Eye of the Beholder",
+    "Wizardry IV",
+    "Might and Magic"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le joueur manipule directement les objets avec la souris.",
+   "id": "t086-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel jeu tactique de 2017 fait diriger une compagnie de mercenaires médiévaux sans héros prédestiné ?",
+   "choix": [
+    "Battle Brothers",
+    "Mordheim",
+    "Kingdom Come",
+    "Mount and Blade"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Les personnages y meurent souvent et sans gloire.",
+   "id": "t086-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle vue caractérise de nombreux CRPG classiques, avec la caméra placée en hauteur et en biais ?",
+   "choix": [
+    "La vue isométrique",
+    "La vue subjective",
+    "La vue de profil",
+    "La vue à la troisième personne"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Elle permet de voir le groupe et le décor en même temps.",
+   "id": "t086-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle célèbre campagne de financement de 2012 lance la renaissance des CRPG sur Kickstarter ?",
+   "choix": [
+    "Double Fine Adventure",
+    "Star Citizen",
+    "Exploding Kittens",
+    "Pebble"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Son succès pousse Wasteland 2 et Pillars of Eternity à tenter leur chance.",
+   "id": "t086-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de compétences parlent dans la tête du héros de Disco Elysium ?",
+   "choix": [
+    "Vingt-quatre",
+    "Six",
+    "Douze",
+    "Cinquante"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Elles se répartissent entre Intellect, Psyché, Physique et Motricité.",
+   "id": "t086-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le nom du royaume de Final Fantasy Tactics, repris dans d’autres jeux de Matsuno ?",
+   "choix": [
+    "Ivalice",
+    "Spira",
+    "Gaia",
+    "Midgar"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "On le retrouve dans Vagrant Story et Final Fantasy XII.",
+   "id": "t086-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2003, de Troika, adapte fidèlement les règles de D&D 3.5 avec un module célèbre ?",
+   "choix": [
+    "Le Temple du mal élémentaire",
+    "Baldur’s Gate II",
+    "Neverwinter Nights",
+    "Icewind Dale II"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Ses combats au tour par tour sont restés une référence pour les puristes.",
+   "id": "t086-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie « permadeath » dans un jeu tactique ?",
+   "choix": [
+    "La mort définitive des personnages",
+    "Un mode sans sauvegarde",
+    "Une mort instantanée",
+    "Un personnage immortel"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Fire Emblem et XCOM en ont fait un ressort dramatique.",
+   "id": "t086-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2017 de Larian est sacré meilleur jeu de rôle de l’année par de nombreux médias ?",
+   "choix": [
+    "Divinity : Original Sin 2",
+    "Pillars of Eternity II",
+    "Pathfinder : Kingmaker",
+    "Tyranny"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Il permet de jouer à quatre en coopération.",
+   "id": "t086-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu tactique de 1992, de Sega, a popularisé le genre sur Mega Drive ?",
+   "choix": [
+    "Shining Force",
+    "Phantasy Star",
+    "Langrisser",
+    "Warsong"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le héros Max y affronte les forces de Runefaust.",
+   "id": "t086-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage de Darkest Dungeon commente l’action de sa voix grave, après avoir causé la ruine du domaine ?",
+   "choix": [
+    "L’Ancêtre",
+    "Le Maître du jeu",
+    "Le Barde",
+    "L’Oracle"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le comédien Wayne June lui prête sa voix inquiétante.",
+   "id": "t086-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2023, d’Owlcat, transpose le jeu de rôle tactique dans l’univers de Warhammer 40,000 ?",
+   "choix": [
+    "Rogue Trader",
+    "Dawn of War",
+    "Mechanicus",
+    "Space Hulk"
+   ],
+   "rep": 0,
+   "src": "Matt Barton, Dungeons and Desktops (2e éd., 2019) ; Felipe Pepe (dir.), The CRPG Book (2018) ; sites des studios (Intelligent Systems, Square Enix, Larian, Obsidian, Owlcat, ZA/UM, Firaxis, Red Hook, Sandfall Interactive) ; archives Kickstarter",
+   "expl": "Le joueur y dirige un libre-marchand doté d’une charte impériale.",
+   "id": "t086-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Fire Emblem est une série de Nintendo.",
+   "rep": true,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Elle est développée par Intelligent Systems depuis 1990.",
+   "id": "t086-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans le triangle des armes, la lance bat la hache.",
+   "rep": false,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Faux : la hache bat la lance, et la lance bat l’épée.",
+   "id": "t086-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Disco Elysium ne comporte presque aucun combat.",
+   "rep": true,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Les conflits se règlent par le dialogue et les jets de compétences.",
+   "id": "t086-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Pillars of Eternity a été développé par BioWare.",
+   "rep": false,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Faux : il a été développé par Obsidian Entertainment.",
+   "id": "t086-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "XCOM : Enemy Unknown est sorti en 2012.",
+   "rep": true,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Il est développé par Firaxis, le studio de Civilization.",
+   "id": "t086-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Disgaea limite le niveau des personnages à 99.",
+   "rep": false,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Faux : on peut y atteindre le niveau 9 999.",
+   "id": "t086-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Divinity : Original Sin a été financé sur Kickstarter.",
+   "rep": true,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Larian y a réuni près d’un million de dollars.",
+   "id": "t086-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Into the Breach se joue en temps réel.",
+   "rep": false,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Faux : c’est un jeu tactique au tour par tour.",
+   "id": "t086-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Final Fantasy Tactics se déroule en Ivalice.",
+   "rep": true,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Ce monde imaginaire est l’œuvre de Yasumi Matsuno.",
+   "id": "t086-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Disco Elysium est un jeu japonais.",
+   "rep": false,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Faux : il est développé par le studio estonien ZA/UM.",
+   "id": "t086-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Clair Obscur : Expedition 33 est un jeu français.",
+   "rep": true,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Il est développé à Montpellier par Sandfall Interactive.",
+   "id": "t086-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Darkest Dungeon est un jeu sans aucune gestion du stress.",
+   "rep": false,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Faux : le stress des aventuriers est au cœur du jeu.",
+   "id": "t086-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Wasteland est un ancêtre de Fallout.",
+   "rep": true,
+   "src": "Barton ; CRPG Book ; studios",
+   "expl": "Fallout devait même s’appeler Wasteland 2 à l’origine.",
+   "id": "t086-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Baldur’s Gate est un jeu au tour par tour.",
+   "rep": false,
+   "src": "Barton ; studios",
+   "expl": "Faux : il utilise le temps réel avec pause ; seul le troisième épisode est au tour par tour.",
+   "id": "t086-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort le premier Fire Emblem ?",
+   "rep": 1990,
+   "min": 1985,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Barton ; studios",
+   "expl": "Il sort uniquement au Japon, sur Famicom.",
+   "id": "t086-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Quel niveau maximum peut atteindre un personnage de Disgaea ?",
+   "rep": 9999,
+   "min": 99,
+   "max": 10000,
+   "pas": 1,
+   "unite": "niveau",
+   "tolerance": 0,
+   "src": "Barton ; studios",
+   "expl": "Les joueurs acharnés y passent des centaines d’heures.",
+   "id": "t086-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Disco Elysium ?",
+   "rep": 2019,
+   "min": 2010,
+   "max": 2024,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Barton ; studios",
+   "expl": "Il remporte de nombreux prix d’écriture.",
+   "id": "t086-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Final Fantasy Tactics ?",
+   "rep": 1997,
+   "min": 1990,
+   "max": 2005,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Barton ; studios",
+   "expl": "Il sort sur la première PlayStation, au Japon puis aux États-Unis.",
+   "id": "t086-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort X-COM : UFO Defense ?",
+   "rep": 1994,
+   "min": 1985,
+   "max": 2005,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Barton ; studios",
+   "expl": "En Europe, il s’appelle UFO : Enemy Unknown.",
+   "id": "t086-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de compétences compte Disco Elysium ?",
+   "rep": 24,
+   "min": 10,
+   "max": 40,
+   "pas": 1,
+   "unite": "compétences",
+   "tolerance": 0,
+   "src": "Barton ; studios",
+   "expl": "Chacune a sa propre voix et sa personnalité.",
+   "id": "t086-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Pillars of Eternity ?",
+   "rep": 2015,
+   "min": 2010,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Barton ; studios",
+   "expl": "Il est l’un des premiers grands succès issus du financement participatif.",
+   "id": "t086-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Clair Obscur : Expedition 33 ?",
+   "rep": 2025,
+   "min": 2018,
+   "max": 2026,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Barton ; studios",
+   "expl": "Il est l’une des grandes surprises de l’année.",
+   "id": "t086-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La série tactique de Nintendo à mort définitive s’appelle Fire ____.",
+   "choix": [
+    "Emblem",
+    "Empire",
+    "Element",
+    "Embers"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Le prince Marth en est le tout premier héros.",
+   "id": "t086-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le royaume de Final Fantasy Tactics s’appelle ____.",
+   "choix": [
+    "Ivalice",
+    "Ivalis",
+    "Ivanhoe",
+    "Valice"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Il est marqué par la sanglante guerre des Lions.",
+   "id": "t086-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le studio estonien de Disco Elysium s’appelle ____.",
+   "choix": [
+    "ZA/UM",
+    "ZOOM",
+    "ZENIT",
+    "ZA/ZU"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Son nom vient d’un mouvement d’avant-garde russe.",
+   "id": "t086-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le studio belge de Divinity : Original Sin s’appelle ____.",
+   "choix": [
+    "Larian",
+    "Lorien",
+    "Lariat",
+    "Lazarus"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Son fondateur et directeur s’appelle Swen Vincke.",
+   "id": "t086-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu du stress et de la folie s’appelle Darkest ____.",
+   "choix": [
+    "Dungeon",
+    "Dawn",
+    "Depths",
+    "Dungeons"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Son esthétique s’inspire de la gravure et de Lovecraft.",
+   "id": "t086-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu tactique de Julian Gollop s’appelle X-____.",
+   "choix": [
+    "COM",
+    "CON",
+    "CAM",
+    "COP"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "L’abréviation signifie Extraterrestrial Combat Unit.",
+   "id": "t086-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le système qui permet de figer l’action s’appelle le temps réel avec ____.",
+   "choix": [
+    "pause",
+    "arrêt",
+    "délai",
+    "freinage"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Il permet de penser chaque mouvement du groupe.",
+   "id": "t086-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de Stoic à la caravane nordique s’appelle The Banner ____.",
+   "choix": [
+    "Saga",
+    "Song",
+    "Story",
+    "Sword"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Sa musique est composée par Austin Wintory.",
+   "id": "t086-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le studio de Pathfinder : Kingmaker s’appelle ____ Games.",
+   "choix": [
+    "Owlcat",
+    "Owlbear",
+    "Bearcat",
+    "Catowl"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Son nom évoque la chouette, symbole de sagesse.",
+   "id": "t086-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu français de Sandfall Interactive s’appelle Clair Obscur : Expedition ____.",
+   "choix": [
+    "33",
+    "31",
+    "13",
+    "42"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Chaque année, une expédition tente d’arrêter la Peintresse.",
+   "id": "t086-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le policier amnésique de Disco Elysium s’appelle Harry Du ____.",
+   "choix": [
+    "Bois",
+    "Bellay",
+    "Barry",
+    "Pont"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Il se réveille dans une chambre d’hôtel dévastée.",
+   "id": "t086-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le créateur de Final Fantasy Tactics s’appelle Yasumi ____.",
+   "choix": [
+    "Matsuno",
+    "Matsumoto",
+    "Mizuno",
+    "Miyamoto"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Il a aussi créé Vagrant Story et Tactics Ogre.",
+   "id": "t086-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La ville de Disco Elysium s’appelle ____.",
+   "choix": [
+    "Revachol",
+    "Revachel",
+    "Rochefort",
+    "Rivendel"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Elle porte encore les cicatrices d’une révolution manquée.",
+   "id": "t086-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces jeux n’est pas un jeu tactique au tour par tour ?",
+   "choix": [
+    "Diablo",
+    "Fire Emblem",
+    "XCOM",
+    "Into the Breach"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Diablo est un jeu de rôle d’action en temps réel.",
+   "id": "t086-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’a pas été financé sur Kickstarter ?",
+   "choix": [
+    "Disco Elysium",
+    "Pillars of Eternity",
+    "Wasteland 2",
+    "Divinity : Original Sin"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Disco Elysium a été financé par un investisseur privé.",
+   "id": "t086-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces studios n’a pas développé de CRPG isométrique ?",
+   "choix": [
+    "Nintendo",
+    "Obsidian",
+    "Larian",
+    "Owlcat"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Nintendo produit surtout des jeux de rôle tactiques et japonais.",
+   "id": "t086-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas l’œuvre de Yasumi Matsuno ?",
+   "choix": [
+    "Fire Emblem",
+    "Final Fantasy Tactics",
+    "Tactics Ogre",
+    "Vagrant Story"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Fire Emblem est l’œuvre de Shouzou Kaga.",
+   "id": "t086-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas sorti avant l’an 2000 ?",
+   "choix": [
+    "Pillars of Eternity",
+    "Wasteland",
+    "Final Fantasy Tactics",
+    "X-COM"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Pillars of Eternity ne sort qu’en 2015, longtemps après les autres.",
+   "id": "t086-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces maisons n’existe pas dans Fire Emblem : Three Houses ?",
+   "choix": [
+    "Les Loups d’Argent",
+    "Les Aigles de Jais",
+    "Les Lions de Saphir",
+    "Les Cerfs d’Or"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Les trois maisons sont dirigées par Edelgard, Dimitri et Claude.",
+   "id": "t086-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces jeux n’utilise pas le temps réel avec pause ?",
+   "choix": [
+    "Divinity : Original Sin 2",
+    "Baldur’s Gate",
+    "Pillars of Eternity",
+    "Icewind Dale"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Divinity : Original Sin 2 se joue au tour par tour.",
+   "id": "t086-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas inspiré de Donjons et Dragons ?",
+   "choix": [
+    "Disco Elysium",
+    "Baldur’s Gate",
+    "Neverwinter Nights",
+    "Eye of the Beholder"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Disco Elysium a son propre système original.",
+   "id": "t086-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas japonais ?",
+   "choix": [
+    "Into the Breach",
+    "Disgaea",
+    "Valkyria Chronicles",
+    "Triangle Strategy"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Into the Breach est l’œuvre du studio indépendant Subset Games, auteur de FTL.",
+   "id": "t086-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux ne se déroule pas dans un univers de fantasy ?",
+   "choix": [
+    "XCOM",
+    "Pillars of Eternity",
+    "Fire Emblem",
+    "Darkest Dungeon"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "XCOM raconte une invasion extraterrestre moderne.",
+   "id": "t086-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels jeux sont des jeux de rôle tactiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fire Emblem",
+    "Final Fantasy Tactics",
+    "Disgaea",
+    "Tactics Ogre",
+    "Diablo",
+    "Minecraft"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Barton ; studios",
+   "expl": "On y déplace des unités case par case sur une grille.",
+   "id": "t086-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux ont été financés sur Kickstarter ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pillars of Eternity",
+    "Wasteland 2",
+    "Divinity : Original Sin",
+    "Fire Emblem",
+    "Final Fantasy Tactics"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Barton ; studios",
+   "expl": "Le financement participatif a relancé le CRPG classique.",
+   "id": "t086-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux utilisent l’Infinity Engine ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Baldur’s Gate",
+    "Icewind Dale",
+    "Planescape: Torment",
+    "Divinity : Original Sin",
+    "Disco Elysium"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ce moteur de BioWare a dominé la fin des années 1990.",
+   "id": "t086-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont l’œuvre de Yasumi Matsuno ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tactics Ogre",
+    "Final Fantasy Tactics",
+    "Vagrant Story",
+    "Fire Emblem",
+    "Disgaea"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ses récits mêlent politique et tragédie.",
+   "id": "t086-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels studios ont développé des CRPG modernes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Larian",
+    "Obsidian",
+    "Owlcat",
+    "inXile",
+    "Nintendo",
+    "Mojang"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ils ont relancé le genre dans les années 2010.",
+   "id": "t086-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux font mourir définitivement les personnages ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fire Emblem en mode classique",
+    "XCOM",
+    "Darkest Dungeon",
+    "Disgaea",
+    "Pokémon"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Barton ; studios",
+   "expl": "La perte d’un soldat aimé y devient un moment marquant.",
+   "id": "t086-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont nés en Europe ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Divinity : Original Sin",
+    "Disco Elysium",
+    "Clair Obscur : Expedition 33",
+    "Fire Emblem",
+    "Disgaea"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Barton ; studios",
+   "expl": "Belgique, Estonie et France ont donné de grands jeux de rôle.",
+   "id": "t086-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles maisons existent dans Fire Emblem : Three Houses ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aigles de Jais",
+    "Lions de Saphir",
+    "Cerfs d’Or",
+    "Loups d’Argent",
+    "Dragons Rouges"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Barton ; studios",
+   "expl": "Chacune est liée à une grande puissance du continent de Fódlan.",
+   "id": "t086-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont réputés pour leur écriture ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Planescape: Torment",
+    "Disco Elysium",
+    "Tactics Ogre",
+    "Into the Breach",
+    "Battle Brothers"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Barton ; studios",
+   "expl": "Les textes y comptent autant que les combats.",
+   "id": "t086-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux ont adapté officiellement Donjons et Dragons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pool of Radiance",
+    "Eye of the Beholder",
+    "Baldur’s Gate",
+    "Disco Elysium",
+    "Darkest Dungeon"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Barton ; studios",
+   "expl": "Les licences D&D ont été confiées à de nombreux studios.",
+   "id": "t086-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces jeux par date de sortie.",
+   "items": [
+    "Wasteland",
+    "Fire Emblem",
+    "X-COM",
+    "Final Fantasy Tactics"
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces jeux sortent en 1988, 1990, 1994 puis 1997.",
+   "id": "t086-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces CRPG par date de sortie.",
+   "items": [
+    "Baldur’s Gate",
+    "Planescape: Torment",
+    "Arcanum",
+    "Neverwinter Nights"
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces jeux sortent en 1998, 1999, 2001 puis 2002.",
+   "id": "t086-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux financés par le public ou modernes par date de sortie.",
+   "items": [
+    "Divinity : Original Sin",
+    "Pillars of Eternity",
+    "Disco Elysium",
+    "Clair Obscur : Expedition 33"
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces jeux sortent en 2014, 2015, 2019 puis 2025.",
+   "id": "t086-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux tactiques japonais par date de sortie.",
+   "items": [
+    "Shining Force",
+    "Tactics Ogre",
+    "Disgaea",
+    "Valkyria Chronicles"
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces jeux sortent en 1992, 1995, 2003 puis 2008.",
+   "id": "t086-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux indépendants par date de sortie.",
+   "items": [
+    "The Banner Saga",
+    "Darkest Dungeon",
+    "Battle Brothers",
+    "Into the Breach"
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces jeux sortent en 2014, 2016, 2017 puis 2018.",
+   "id": "t086-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux d’Obsidian et Owlcat par date de sortie.",
+   "items": [
+    "Pillars of Eternity",
+    "Tyranny",
+    "Pathfinder : Kingmaker"
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces jeux sortent en 2015, 2016 puis 2018.",
+   "id": "t086-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux à vue subjective par date de sortie.",
+   "items": [
+    "Wizardry",
+    "Dungeon Master",
+    "Eye of the Beholder"
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces jeux sortent en 1981, 1987 puis 1991.",
+   "id": "t086-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’un tour typique de XCOM dans l’ordre.",
+   "items": [
+    "Déplacer un soldat",
+    "Se mettre à couvert",
+    "Tirer",
+    "Laisser les aliens jouer"
+   ],
+   "src": "Barton ; studios",
+   "expl": "Chaque soldat dispose de deux actions par tour.",
+   "id": "t086-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces armes dans l’ordre du triangle de Fire Emblem, chacune battant la suivante.",
+   "items": [
+    "Épée",
+    "Hache",
+    "Lance"
+   ],
+   "src": "Barton ; studios",
+   "expl": "Et la lance bat à son tour l’épée, bouclant le triangle.",
+   "id": "t086-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque jeu à son studio.",
+   "paires": [
+    [
+     "Divinity : Original Sin",
+     "Larian"
+    ],
+    [
+     "Pillars of Eternity",
+     "Obsidian"
+    ],
+    [
+     "Disco Elysium",
+     "ZA/UM"
+    ],
+    [
+     "Pathfinder : Kingmaker",
+     "Owlcat"
+    ]
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces studios ont fait renaître le CRPG classique.",
+   "id": "t086-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son pays.",
+   "paires": [
+    [
+     "Disco Elysium",
+     "Estonie"
+    ],
+    [
+     "Divinity : Original Sin",
+     "Belgique"
+    ],
+    [
+     "Clair Obscur : Expedition 33",
+     "France"
+    ],
+    [
+     "Fire Emblem",
+     "Japon"
+    ]
+   ],
+   "src": "Barton ; studios",
+   "expl": "Le jeu de rôle tactique est un genre mondial.",
+   "id": "t086-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son monde.",
+   "paires": [
+    [
+     "Final Fantasy Tactics",
+     "Ivalice"
+    ],
+    [
+     "Pillars of Eternity",
+     "Eora"
+    ],
+    [
+     "Disco Elysium",
+     "Revachol"
+    ],
+    [
+     "Fire Emblem : Three Houses",
+     "Fódlan"
+    ]
+   ],
+   "src": "Barton ; studios",
+   "expl": "Chaque monde est développé avec un soin remarquable.",
+   "id": "t086-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son créateur.",
+   "paires": [
+    [
+     "Fire Emblem",
+     "Shouzou Kaga"
+    ],
+    [
+     "X-COM",
+     "Julian Gollop"
+    ],
+    [
+     "Final Fantasy Tactics",
+     "Yasumi Matsuno"
+    ],
+    [
+     "Wasteland",
+     "Brian Fargo"
+    ]
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces créateurs ont marqué la stratégie et le jeu de rôle.",
+   "id": "t086-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à sa mécanique.",
+   "paires": [
+    [
+     "Darkest Dungeon",
+     "Stress"
+    ],
+    [
+     "Disco Elysium",
+     "Compétences qui parlent"
+    ],
+    [
+     "Triangle Strategy",
+     "Vote des convictions"
+    ]
+   ],
+   "src": "Barton ; studios",
+   "expl": "Chacun de ces jeux apporte une idée originale.",
+   "id": "t086-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque maison de Three Houses à son chef.",
+   "paires": [
+    [
+     "Aigles de Jais",
+     "Edelgard"
+    ],
+    [
+     "Lions de Saphir",
+     "Dimitri"
+    ],
+    [
+     "Cerfs d’Or",
+     "Claude"
+    ]
+   ],
+   "src": "Barton ; studios",
+   "expl": "Chaque route offre une histoire différente.",
+   "id": "t086-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son système de combat.",
+   "paires": [
+    [
+     "Baldur’s Gate",
+     "Temps réel avec pause"
+    ],
+    [
+     "Divinity : Original Sin 2",
+     "Tour par tour"
+    ],
+    [
+     "Clair Obscur : Expedition 33",
+     "Tour par tour avec parades"
+    ]
+   ],
+   "src": "Barton ; studios",
+   "expl": "Le CRPG hésite depuis toujours entre ces formules.",
+   "id": "t086-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son thème.",
+   "paires": [
+    [
+     "XCOM",
+     "Invasion extraterrestre"
+    ],
+    [
+     "The Banner Saga",
+     "Caravane nordique"
+    ],
+    [
+     "Into the Breach",
+     "Robots contre insectes géants"
+    ]
+   ],
+   "src": "Barton ; studios",
+   "expl": "Les jeux tactiques s’adaptent à tous les univers.",
+   "id": "t086-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque moteur ou collection à ses jeux.",
+   "paires": [
+    [
+     "Infinity Engine",
+     "Baldur’s Gate"
+    ],
+    [
+     "Boîte dorée",
+     "Pool of Radiance"
+    ],
+    [
+     "Aurora",
+     "Neverwinter Nights"
+    ]
+   ],
+   "src": "Barton ; studios",
+   "expl": "Ces technologies ont structuré l’histoire du CRPG.",
+   "id": "t086-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une série\n2. Je suis de Nintendo\n3. Mes unités meurent pour de bon",
+   "choix": [
+    "Fire Emblem",
+    "Advance Wars",
+    "Pokémon",
+    "Golden Sun"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Le triangle des armes est ma règle d’or.",
+   "id": "t086-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis estonien\n3. Mes compétences me parlent",
+   "choix": [
+    "Disco Elysium",
+    "Pentiment",
+    "Outer Wilds",
+    "Return of the Obra Dinn"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Mon héros est un policier amnésique et alcoolique.",
+   "id": "t086-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis né en 1994\n3. Je combats des extraterrestres",
+   "choix": [
+    "X-COM",
+    "Jagged Alliance",
+    "Syndicate",
+    "Command and Conquer"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Mon créateur britannique s’appelle Julian Gollop.",
+   "id": "t086-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis belge\n3. Mes surfaces brûlent et électrocutent",
+   "choix": [
+    "Divinity : Original Sin",
+    "Pillars of Eternity",
+    "Tyranny",
+    "Pathfinder"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "J’ai été financé par le public en 2013, sur Kickstarter.",
+   "id": "t086-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis français\n3. Je suis sorti en 2025",
+   "choix": [
+    "Clair Obscur : Expedition 33",
+    "Steelrising",
+    "Greedfall",
+    "Hellblade"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "On m’a conçu à Montpellier, chez Sandfall Interactive.",
+   "id": "t086-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Mes aventuriers deviennent fous\n3. Mon narrateur a une voix grave",
+   "choix": [
+    "Darkest Dungeon",
+    "Slay the Spire",
+    "Hades",
+    "Battle Brothers"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Le petit studio canadien Red Hook m’a créé à Vancouver.",
+   "id": "t086-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je me déroule en Ivalice\n3. Mon héros s’appelle Ramza",
+   "choix": [
+    "Final Fantasy Tactics",
+    "Vagrant Story",
+    "Final Fantasy XII",
+    "Tactics Ogre"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Je suis sorti en 1997 sur la première PlayStation de Sony.",
+   "id": "t086-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis né de Kickstarter\n3. Je fais revivre Baldur’s Gate",
+   "choix": [
+    "Pillars of Eternity",
+    "Tyranny",
+    "Wasteland 2",
+    "Divinity : Original Sin"
+   ],
+   "rep": 0,
+   "src": "Barton ; studios",
+   "expl": "Mon monde de fantasy s’appelle Eora, et ses âmes se réincarnent.",
+   "id": "t086-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
