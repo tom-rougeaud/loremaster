@@ -1,0 +1,2124 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "creatures-hp",
+  "nom": "Bestiaire magique et Animaux fantastiques",
+  "royaume": "Le Monde des Sorciers",
+  "icone": "hibou",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que faut-il faire avant d’approcher un hippogriffe ?",
+   "choix": [
+    "S’incliner et attendre qu’il réponde",
+    "Lui offrir de la viande",
+    "Lui caresser le bec",
+    "Le regarder droit dans les yeux sans bouger"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Drago l’insulte et se fait griffer, ce qui vaut un procès à Buck.",
+   "id": "t035-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature à trois têtes garde la trappe de la Pierre philosophale ?",
+   "choix": [
+    "Touffu",
+    "Norbert",
+    "Crockdur",
+    "Aragog"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ce chien géant s’endort dès qu’on lui joue de la musique.",
+   "id": "t035-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quelle race est le dragon Norbert, élevé par Hagrid ?",
+   "choix": [
+    "Un Norvégien à crête",
+    "Un Magyar à pointes",
+    "Un Boutefeu chinois",
+    "Un Vert gallois"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Hagrid l’a fait éclore d’un œuf gagné aux cartes ; on découvre plus tard que c’est une femelle.",
+   "id": "t035-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Norbert est-il envoyé pour être élevé en sécurité ?",
+   "choix": [
+    "En Roumanie, chez Charlie Weasley",
+    "En Norvège",
+    "À Gringotts",
+    "Dans la Forêt interdite"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Charlie travaille dans une réserve de dragons.",
+   "id": "t035-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle espèce est l’araignée géante Aragog ?",
+   "choix": [
+    "Une Acromantula",
+    "Un Basilic",
+    "Un Strangulot",
+    "Un Scroutt à pétard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ces araignées géantes parlent et mangent les humains ; Aragog épargne Hagrid par loyauté.",
+   "id": "t035-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le phénix de Dumbledore ?",
+   "choix": [
+    "Fumseck",
+    "Hedwige",
+    "Buck",
+    "Errol"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Il arrive dans la Chambre des secrets avec le Choixpeau.",
+   "id": "t035-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pouvoir ont les larmes de phénix ?",
+   "choix": [
+    "Elles guérissent",
+    "Elles rendent invisible",
+    "Elles empoisonnent",
+    "Elles changent en pierre"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Fumseck sauve Harry du venin de Basilic.",
+   "id": "t035-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment le phénix renaît-il ?",
+   "choix": [
+    "De ses propres cendres",
+    "D’un œuf de poule",
+    "De l’eau d’un lac",
+    "D’un éclair"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Harry voit Fumseck s’embraser le jour de leur rencontre dans le bureau de Dumbledore.",
+   "id": "t035-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’est-ce qui tue au premier regard ?",
+   "choix": [
+    "Le Basilic",
+    "Le Sombral",
+    "L’hippogriffe",
+    "Le Boursouf"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ceux qui ne voient son regard que par reflet sont seulement pétrifiés.",
+   "id": "t035-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel bruit est fatal au Basilic ?",
+   "choix": [
+    "Le chant du coq",
+    "Le chant du phénix",
+    "Le hurlement du loup",
+    "Le cri de la mandragore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Hagrid trouve ses coqs tués : quelqu’un voulait protéger le Basilic.",
+   "id": "t035-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quel œuf naît un Basilic, selon la légende ?",
+   "choix": [
+    "Un œuf de poule couvé par un crapaud",
+    "Un œuf de dragon enterré dans la vase",
+    "Un œuf de serpent couvé par un hibou",
+    "Un œuf de phénix tombé des cendres"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Cette légende médiévale existait bien avant Harry Potter.",
+   "id": "t035-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que font les Détraqueurs à leurs victimes ?",
+   "choix": [
+    "Ils aspirent leur bonheur, puis leur âme",
+    "Ils les pétrifient",
+    "Ils les changent en pierre",
+    "Ils les rendent invisibles"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Leur « baiser » arrache l’âme et laisse un corps vide.",
+   "id": "t035-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui peut voir les Sombrals ?",
+   "choix": [
+    "Ceux qui ont vu quelqu’un mourir",
+    "Les élèves de septième année",
+    "Les sorciers de sang pur",
+    "Les professeurs uniquement"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Harry les voit pour la première fois en cinquième année, après la mort de Cedric.",
+   "id": "t035-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature est attirée par tout ce qui brille ?",
+   "choix": [
+    "Le Niffleur",
+    "Le Botruc",
+    "Le Veracrasse",
+    "Le Boursouf"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Celui de Norbert Dragonneau sème le chaos dans une banque de New York.",
+   "id": "t035-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que protègent les Botrucs ?",
+   "choix": [
+    "Les arbres dont on fait les baguettes",
+    "Les trésors des gobelins",
+    "Les œufs de dragon",
+    "Les sources d’eau"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Pickett, le Botruc de Dragonneau, crochète les serrures.",
+   "id": "t035-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature Hagrid fait-il naître en croisant une manticore et un crabe de feu ?",
+   "choix": [
+    "Le Scroutt à pétard",
+    "Le Veracrasse",
+    "Le Boursouflet",
+    "Le Strangulot"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ces bêtes brûlent, piquent et s’entre-dévorent : la classe les déteste.",
+   "id": "t035-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature est réputée la plus ennuyeuse à étudier ?",
+   "choix": [
+    "Le Veracrasse",
+    "Le Basilic",
+    "Le phénix",
+    "Le dragon"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Les élèves doivent les nourrir de laitue en cinquième année.",
+   "id": "t035-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur ont les poulains de licorne à la naissance ?",
+   "choix": [
+    "Doré",
+    "Blanc",
+    "Noir",
+    "Gris"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ils deviennent argentés puis d’un blanc pur en grandissant.",
+   "id": "t035-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel centaure accepte d’enseigner à Poudlard ?",
+   "choix": [
+    "Firenze",
+    "Bane",
+    "Ronan",
+    "Magorian"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Bane et Magorian le considèrent comme un traître.",
+   "id": "t035-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où vivent les êtres de l’eau près de Poudlard ?",
+   "choix": [
+    "Au fond du lac",
+    "Dans la Forêt interdite",
+    "Sous le Saule cogneur",
+    "Dans les toilettes de Mimi"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Leur village sert de décor à la deuxième tâche du Tournoi.",
+   "id": "t035-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le demi-frère géant de Hagrid ?",
+   "choix": [
+    "Graup",
+    "Karkus",
+    "Golgomath",
+    "Aragog"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Hagrid le ramène des montagnes et le cache dans la Forêt interdite.",
+   "id": "t035-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon Harry affronte-t-il lors de la première tâche ?",
+   "choix": [
+    "Le Magyar à pointes",
+    "Le Boutefeu chinois",
+    "Le Suédois à museau court",
+    "Le Vert gallois commun"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "C’est le plus dangereux des quatre ; Harry appelle son balai pour l’affronter.",
+   "id": "t035-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon Fleur Delacour affronte-t-elle ?",
+   "choix": [
+    "Le Vert gallois commun",
+    "Le Magyar à pointes",
+    "Le Boutefeu chinois",
+    "Le Norvégien à crête"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Elle l’endort par un charme, mais sa jupe prend feu.",
+   "id": "t035-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon garde les coffres les plus profonds de Gringotts ?",
+   "choix": [
+    "Un Pansedefer ukrainien aveugle",
+    "Un Magyar à pointes",
+    "Un Norvégien à crête",
+    "Un Boutefeu chinois"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Le trio s’évade sur son dos après avoir volé la coupe de Poufsouffle.",
+   "id": "t035-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur a écrit Les Animaux fantastiques dans le monde des sorciers ?",
+   "choix": [
+    "Norbert Dragonneau",
+    "Gilderoy Lockhart",
+    "Bathilda Tourdesac",
+    "Rubeus Hagrid"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Newt Scamander, en anglais : son manuel est au programme de Poudlard.",
+   "id": "t035-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville se déroule le premier film Les Animaux fantastiques ?",
+   "choix": [
+    "New York",
+    "Londres",
+    "Paris",
+    "Berlin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Norbert Dragonneau y débarque en 1926 avec sa valise pleine de créatures.",
+   "id": "t035-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur incarne Norbert Dragonneau au cinéma ?",
+   "choix": [
+    "Eddie Redmayne",
+    "Daniel Radcliffe",
+    "Jude Law",
+    "Johnny Depp"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Jude Law joue le jeune Dumbledore, Johnny Depp puis Mads Mikkelsen Grindelwald.",
+   "id": "t035-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que contient la valise de Norbert Dragonneau ?",
+   "choix": [
+    "Un monde entier de créatures",
+    "Des potions interdites",
+    "Des Horcruxes",
+    "Des baguettes volées"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Elle s’ouvre sur des habitats magiques bien plus grands qu’elle.",
+   "id": "t035-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pouvoir a l’Occamy ?",
+   "choix": [
+    "Grandir ou rapetisser selon l’espace disponible",
+    "Lire dans les pensées de ses ennemis",
+    "Changer de couleur selon son humeur",
+    "Cracher de la glace sur ses proies"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Il remplit tout l’espace disponible ; ses œufs sont en argent pur et très convoités.",
+   "id": "t035-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quoi servent les poils de Demiguise ?",
+   "choix": [
+    "À tisser des capes d’invisibilité",
+    "À fabriquer des baguettes",
+    "À soigner les brûlures",
+    "À allumer des feux"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Le Demiguise peut devenir invisible et voir un avenir proche.",
+   "id": "t035-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la chouette de Harry ?",
+   "choix": [
+    "Hedwige",
+    "Errol",
+    "Coquecigrue",
+    "Hermès"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Hagrid la lui offre pour son onzième anniversaire.",
+   "id": "t035-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le chat d’Hermione ?",
+   "choix": [
+    "Pattenrond",
+    "Miss Teigne",
+    "Croûtard",
+    "Crockdur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ce chat roux, en partie Fléreur, se méfie aussitôt de Croûtard.",
+   "id": "t035-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal est Crockdur, le compagnon de Hagrid ?",
+   "choix": [
+    "Un chien",
+    "Un chat",
+    "Un hippogriffe",
+    "Un sanglier"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ce gros chien est plutôt peureux, malgré son allure.",
+   "id": "t035-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le petit hibou de Ron, offert par Sirius ?",
+   "choix": [
+    "Coquecigrue",
+    "Errol",
+    "Hermès",
+    "Hedwige"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ginny lui donne ce nom, que Ron trouve ridicule.",
+   "id": "t035-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature Ginny achète-t-elle chez Farces pour sorciers facétieux ?",
+   "choix": [
+    "Un Boursouflet",
+    "Un Niffleur",
+    "Un Botruc",
+    "Un Fléreur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Cette petite boule de poils rose s’appelle Arnold.",
+   "id": "t035-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles créatures infestent les rideaux du square Grimmaurd ?",
+   "choix": [
+    "Des Doxys",
+    "Des lutins de Cornouailles",
+    "Des Botrucs",
+    "Des gnomes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Molly Weasley les combat à coups de vaporisateur.",
+   "id": "t035-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles créatures Lockhart libère-t-il en classe, sans pouvoir les contrôler ?",
+   "choix": [
+    "Des lutins de Cornouailles",
+    "Des Doxys venimeux",
+    "Des gnomes de jardin",
+    "Des Niffleurs affamés"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Hermione les immobilise d’un sort pendant que Lockhart se cache.",
+   "id": "t035-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment les Weasley se débarrassent-ils des gnomes du jardin ?",
+   "choix": [
+    "En les lançant par-dessus la haie",
+    "En les enfermant à la cave",
+    "En les vendant au marché",
+    "En les noyant dans la mare"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Les gnomes reviennent toujours, un peu étourdis.",
+   "id": "t035-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles créatures servent de mascottes à l’équipe de Bulgarie en 1994 ?",
+   "choix": [
+    "Des Vélanes",
+    "Des farfadets",
+    "Des Détraqueurs",
+    "Des centaures"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Leur danse fait perdre la tête aux hommes, dont Ron.",
+   "id": "t035-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles créatures servent de mascottes à l’Irlande en 1994 ?",
+   "choix": [
+    "Des farfadets",
+    "Des Vélanes",
+    "Des gnomes",
+    "Des elfes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ils font pleuvoir un or qui disparaît au bout de quelques heures.",
+   "id": "t035-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature aquatique aux longs doigts Lupin montre-t-il en classe ?",
+   "choix": [
+    "Un Strangulot",
+    "Un Kappa",
+    "Un calmar",
+    "Un Botruc"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Ces démons des eaux attaquent Harry pendant la deuxième tâche.",
+   "id": "t035-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "De quelle créature asiatique Lupin parle-t-il, qui vit dans les mares et étrangle les nageurs ?",
+   "choix": [
+    "Le Kappa",
+    "Le Strangulot",
+    "Le Chaporouge",
+    "Le Pitiponk"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Il vient du folklore japonais ; on le vainc en lui faisant renverser l’eau de son crâne.",
+   "id": "t035-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles créatures volantes tirent les diligences de Poudlard ?",
+   "choix": [
+    "Les Sombrals",
+    "Les hippogriffes",
+    "Les Abraxans",
+    "Les phénix"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Les Abraxans sont les chevaux ailés géants de Beauxbâtons.",
+   "id": "t035-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel nom porte le gros oiseau magique de la valise de Dragonneau, capable de créer des tempêtes ?",
+   "choix": [
+    "Frank",
+    "Pickett",
+    "Dougal",
+    "Rodolphe"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Cet Oiseau-Tonnerre est relâché en Arizona à la fin du premier film.",
+   "id": "t035-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le vrai nom du rat Croûtard ?",
+   "choix": [
+    "Peter Pettigrow",
+    "Remus Lupin",
+    "Sirius Black",
+    "Severus Rogue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Animagus, il s’est caché douze ans dans la famille Weasley.",
+   "id": "t035-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme de serpent prend la fidèle compagne de Voldemort ?",
+   "choix": [
+    "Nagini",
+    "Le Basilic",
+    "Aragog",
+    "Fumseck"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (Gallimard, 2001) ; Warner Bros., Fantastic Beasts (2016-2022)",
+   "expl": "Les Animaux fantastiques révèlent qu’elle était une femme, une Maledictus.",
+   "id": "t035-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Basilic tue ceux qui croisent directement son regard.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Vrai : ceux qui le voient par reflet, comme Hermione dans un miroir, sont pétrifiés.",
+   "id": "t035-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Sombrals sont visibles par tout le monde.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Faux : seuls ceux qui ont vu la mort peuvent les voir.",
+   "id": "t035-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le phénix peut porter des charges très lourdes.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Vrai : Fumseck transporte Harry, Ron, Ginny et Lockhart hors de la Chambre des secrets.",
+   "id": "t035-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Aragog est un serpent géant.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Faux : c’est une Acromantula, une araignée géante.",
+   "id": "t035-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le sang de licorne prolonge la vie, mais maudit celui qui le boit.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Vrai : tuer une créature si pure est un crime terrible.",
+   "id": "t035-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Touffu s’endort quand on lui joue de la musique.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Vrai : Hagrid révèle ce secret par mégarde, et Quirrell en profite.",
+   "id": "t035-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les farfadets d’Irlande font pleuvoir de l’or véritable.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Faux : leur or disparaît au bout de quelques heures ; Ron s’en aperçoit à ses dépens.",
+   "id": "t035-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Vélanes peuvent prendre une forme d’oiseau furieux.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Vrai : en colère, leur visage devient celui d’un oiseau et elles lancent des boules de feu.",
+   "id": "t035-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Hedwige est un hibou grand-duc brun.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Faux : c’est une chouette harfang, entièrement blanche.",
+   "id": "t035-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Pattenrond est en partie Fléreur, une créature très intelligente.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Vrai : il reconnaît aussitôt que Croûtard n’est pas un vrai rat.",
+   "id": "t035-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Détraqueurs sont des alliés fidèles de Dumbledore.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Faux : ils gardent Azkaban pour le ministère, puis rejoignent Voldemort.",
+   "id": "t035-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les centaures se méfient des sorciers et préfèrent vivre à l’écart.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Vrai : ils lisent l’avenir dans les étoiles et refusent qu’on les commande.",
+   "id": "t035-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Norbert Dragonneau est un personnage inventé pour la série des films Harry Potter.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Faux : il est l’auteur fictif d’un manuel de Poudlard, avant de devenir héros de sa propre saga.",
+   "id": "t035-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les êtres de l’eau ne chantent bien que sous l’eau.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Vrai : leur chant, à l’air libre, devient un cri strident ; d’où l’indice de l’œuf d’or.",
+   "id": "t035-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les hippogriffes sont mi-aigles, mi-chevaux.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Vrai : ils sont fiers et rancuniers ; il faut toujours les saluer.",
+   "id": "t035-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Magyar à pointes est le dragon le plus doux du Tournoi.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Faux : c’est le plus dangereux des quatre, et c’est celui de Harry.",
+   "id": "t035-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de têtes possède Touffu ?",
+   "rep": 3,
+   "min": 1,
+   "max": 7,
+   "pas": 1,
+   "unite": "têtes",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et la Coupe de feu (2000)",
+   "expl": "Comme Cerbère dans la mythologie grecque, dont il s’inspire.",
+   "id": "t035-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de dragons affrontent les champions lors de la première tâche ?",
+   "rep": 4,
+   "min": 1,
+   "max": 7,
+   "pas": 1,
+   "unite": "dragons",
+   "tolerance": 0,
+   "src": "Les Animaux fantastiques (2001)",
+   "expl": "Un par champion, puisque Harry s’ajoute aux trois prévus.",
+   "id": "t035-064",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de X compte la classification des créatures les plus dangereuses du ministère ?",
+   "rep": 5,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "X",
+   "tolerance": 0,
+   "src": "Warner Bros., Fantastic Beasts and Where to Find Them (2016)",
+   "expl": "XXXXX : créature tueuse de sorciers, impossible à domestiquer.",
+   "id": "t035-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort le premier film Les Animaux fantastiques ?",
+   "rep": 2016,
+   "min": 2000,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Les Animaux fantastiques (2001), préface",
+   "expl": "Il se déroule en 1926, à New York, avec Eddie Redmayne dans le rôle de Norbert.",
+   "id": "t035-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît la première édition du manuel de Norbert Dragonneau, dans l’histoire ?",
+   "rep": 1927,
+   "min": 1800,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Les Animaux fantastiques (2001), préface",
+   "expl": "Le vrai livre paraît en 2001, au profit d’une association caritative.",
+   "id": "t035-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’yeux possède une Acromantula ?",
+   "rep": 8,
+   "min": 2,
+   "max": 12,
+   "pas": 1,
+   "unite": "yeux",
+   "tolerance": 0,
+   "src": "Les Animaux fantastiques (2001), préface",
+   "expl": "Comme beaucoup d’araignées réelles ; certaines Acromantulas sont grandes comme un éléphant.",
+   "id": "t035-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "À quel âge une licorne devient-elle d’un blanc pur ?",
+   "rep": 7,
+   "min": 1,
+   "max": 15,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Les Animaux fantastiques (2001), préface",
+   "expl": "Elle naît dorée, devient argentée vers deux ans, puis blanche vers sept ans.",
+   "id": "t035-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le phénix de Dumbledore s’appelle ____.",
+   "choix": [
+    "Fumseck",
+    "Hedwige",
+    "Buck",
+    "Touffu"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Une plume de sa queue se trouve dans la baguette de Harry, une autre dans celle de Voldemort.",
+   "id": "t035-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’hippogriffe condamné à mort en troisième année s’appelle ____.",
+   "choix": [
+    "Buck",
+    "Norbert",
+    "Graup",
+    "Crockdur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Harry et Hermione le sauvent grâce au Retourneur de Temps.",
+   "id": "t035-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’araignée géante qui vit dans la Forêt interdite s’appelle ____.",
+   "choix": [
+    "Aragog",
+    "Arachné",
+    "Mosag",
+    "Nagini"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Hagrid l’a élevée quand il était élève ; il pleure à ses funérailles.",
+   "id": "t035-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le roi des serpents dont le regard tue s’appelle le ____.",
+   "choix": [
+    "Basilic",
+    "Magyar",
+    "Sombral",
+    "Strangulot"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Harry le tue avec l’épée de Gryffondor ; ses crochets détruisent des Horcruxes.",
+   "id": "t035-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les chevaux ailés et squelettiques visibles des seuls témoins de la mort sont des ____.",
+   "choix": [
+    "Sombrals",
+    "Abraxans",
+    "Hippogriffes",
+    "Pégases"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Luna les voit depuis la mort de sa mère.",
+   "id": "t035-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La petite créature qui vole tout ce qui brille s’appelle un ____.",
+   "choix": [
+    "Niffleur",
+    "Botruc",
+    "Doxy",
+    "Gnome"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Les gobelins s’en servent parfois pour dénicher de l’or.",
+   "id": "t035-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dragon que Harry affronte lors de la première tâche est un ____ à pointes.",
+   "choix": [
+    "Magyar",
+    "Norvégien",
+    "Suédois",
+    "Gallois"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Ses épines de queue en bronze en font le plus redoutable des quatre.",
+   "id": "t035-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La race du chat d’Hermione, en partie, est le ____.",
+   "choix": [
+    "Fléreur",
+    "Boursouf",
+    "Niffleur",
+    "Botruc"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Les Fléreurs repèrent les personnes louches ou malveillantes.",
+   "id": "t035-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’auteur des Animaux fantastiques s’appelle Norbert ____.",
+   "choix": [
+    "Dragonneau",
+    "Dumbledore",
+    "Tourdesac",
+    "Lockhart"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "En anglais, il s’appelle Newt Scamander.",
+   "id": "t035-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les créatures aquatiques qui attaquent Harry dans le lac s’appellent des ____.",
+   "choix": [
+    "Strangulots",
+    "Kappas",
+    "Veracrasses",
+    "Botrucs"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Lupin apprend à ses élèves à briser leurs doigts fragiles.",
+   "id": "t035-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les créatures qui gardent la prison d’Azkaban s’appellent les ____.",
+   "choix": [
+    "Détraqueurs",
+    "Sombrals",
+    "Gobelins",
+    "Inferi"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Leur présence fait geler l’air et revivre les pires souvenirs.",
+   "id": "t035-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les créatures magiques qui envoûtent les hommes par leur danse sont des ____.",
+   "choix": [
+    "Vélanes",
+    "farfadets",
+    "Doxys",
+    "sirènes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "La grand-mère de Fleur Delacour était une Vélane.",
+   "id": "t035-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces créatures n’est pas un dragon ?",
+   "choix": [
+    "Aragog",
+    "Norbert",
+    "Le Magyar à pointes",
+    "Le Boutefeu chinois"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Aragog est une Acromantula, une araignée géante douée de parole.",
+   "id": "t035-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces animaux n’appartient pas à Harry, Ron ou Hermione ?",
+   "choix": [
+    "Miss Teigne",
+    "Hedwige",
+    "Pattenrond",
+    "Coquecigrue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Miss Teigne est la chatte du concierge Argus Rusard, qui patrouille avec lui.",
+   "id": "t035-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dragons n’apparaît pas lors de la première tâche ?",
+   "choix": [
+    "Le Norvégien à crête",
+    "Le Magyar à pointes",
+    "Le Suédois à museau court",
+    "Le Vert gallois commun"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Le Norvégien à crête est la race de Norbert, en première année.",
+   "id": "t035-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures ne vit pas dans la Forêt interdite ?",
+   "choix": [
+    "Les êtres de l’eau",
+    "Les centaures",
+    "Les Acromantulas",
+    "Les licornes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Les êtres de l’eau vivent au fond du lac, dans un village de pierre.",
+   "id": "t035-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures n’apparaît pas dans la valise de Norbert Dragonneau ?",
+   "choix": [
+    "Fumseck",
+    "Le Niffleur",
+    "L’Occamy",
+    "Le Demiguise"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Fumseck appartient à Dumbledore et vit dans son bureau, près du Choixpeau.",
+   "id": "t035-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces centaures n’est pas hostile aux sorciers ?",
+   "choix": [
+    "Firenze",
+    "Bane",
+    "Magorian",
+    "Aucun ne l’est"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Firenze accepte d’enseigner à Poudlard ; les autres le bannissent.",
+   "id": "t035-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces créatures n’est pas un oiseau ?",
+   "choix": [
+    "Le Niffleur",
+    "Fumseck",
+    "Hedwige",
+    "L’Oiseau-Tonnerre"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Le Niffleur ressemble à une taupe au long museau.",
+   "id": "t035-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces animaux n’est pas un hibou ou une chouette ?",
+   "choix": [
+    "Pattenrond",
+    "Errol",
+    "Coquecigrue",
+    "Hedwige"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Pattenrond est le chat d’Hermione ; Errol est le vieux hibou des Weasley.",
+   "id": "t035-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces créatures n’est pas étudiée par Lupin en troisième année ?",
+   "choix": [
+    "Le Scroutt à pétard",
+    "Le Strangulot",
+    "Le Kappa",
+    "Le Chaporouge"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Les Scroutts à pétard sont l’invention de Hagrid, en quatrième année.",
+   "id": "t035-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures ne garde pas une protection de la Pierre philosophale ?",
+   "choix": [
+    "Le Basilic",
+    "Touffu",
+    "Le troll",
+    "Les clés ailées"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Le Basilic dort dans la Chambre des secrets.",
+   "id": "t035-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures sont des dragons de la première tâche ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Magyar à pointes",
+    "Boutefeu chinois",
+    "Suédois à museau court",
+    "Vert gallois commun",
+    "Norvégien à crête",
+    "Pansedefer ukrainien"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Chaque champion tire au sort une réplique miniature de son dragon.",
+   "id": "t035-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels animaux sont des compagnons de Harry et ses amis ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hedwige",
+    "Pattenrond",
+    "Coquecigrue",
+    "Miss Teigne",
+    "Nagini"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Miss Teigne est à Rusard, Nagini à Voldemort.",
+   "id": "t035-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures vivent dans la Forêt interdite ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Centaures",
+    "Acromantulas",
+    "Licornes",
+    "Sombrals",
+    "Êtres de l’eau",
+    "Calmar géant"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Le lac abrite les êtres de l’eau et le calmar géant.",
+   "id": "t035-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures appartiennent à Norbert Dragonneau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Niffleur",
+    "Botruc",
+    "Occamy",
+    "Fumseck",
+    "Buck"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Sa valise abrite des dizaines d’espèces.",
+   "id": "t035-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures sont liées à Hagrid ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Norbert",
+    "Aragog",
+    "Buck",
+    "Crockdur",
+    "Hedwige",
+    "Nagini"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Hagrid offre Hedwige à Harry, mais elle ne lui appartient pas.",
+   "id": "t035-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures ont des pouvoirs guérisseurs ou vitaux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Phénix",
+    "Licorne",
+    "Basilic",
+    "Détraqueur",
+    "Acromantula"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Larmes de phénix et sang de licorne ont des effets puissants, l’un bénéfique, l’autre maudit.",
+   "id": "t035-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures étaient mascottes à la Coupe du monde de 1994 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vélanes",
+    "Farfadets",
+    "Détraqueurs",
+    "Centaures",
+    "Sombrals"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Les supporters se battent presque à cause des mascottes.",
+   "id": "t035-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures volent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sombrals",
+    "Hippogriffes",
+    "Phénix",
+    "Acromantulas",
+    "Strangulots"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Harry chevauche Buck en troisième année, puis un Sombral en cinquième.",
+   "id": "t035-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures sont dangereuses par leur regard ou leur présence ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Basilic",
+    "Détraqueur",
+    "Boursouflet",
+    "Veracrasse",
+    "Gnome"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Le Boursouflet est un animal de compagnie inoffensif.",
+   "id": "t035-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles créatures sont des « êtres » plutôt que des « bêtes » pour le ministère ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gobelins",
+    "Elfes de maison",
+    "Vampires",
+    "Dragons",
+    "Hippogriffes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Le statut d’être est accordé aux créatures capables de comprendre les lois ; les centaures l’ont refusé.",
+   "id": "t035-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces créatures dans l’ordre où Harry les rencontre.",
+   "items": [
+    "Touffu",
+    "Le Basilic",
+    "Buck",
+    "Le Magyar à pointes"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Une créature majeure par année, de la première à la quatrième.",
+   "id": "t035-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie d’une licorne dans l’ordre.",
+   "items": [
+    "Poulain doré",
+    "Jeune argentée",
+    "Adulte blanche"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Le blanc pur n’apparaît qu’à l’âge adulte.",
+   "id": "t035-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’histoire de Norbert le dragon dans l’ordre.",
+   "items": [
+    "Œuf gagné aux cartes",
+    "Éclosion dans la cabane",
+    "Morsure de Ron",
+    "Départ pour la Roumanie"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Ron doit aller à l’infirmerie avec une main enflée.",
+   "id": "t035-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces dragons de la première tâche dans l’ordre de passage.",
+   "items": [
+    "Suédois à museau court",
+    "Vert gallois commun",
+    "Boutefeu chinois",
+    "Magyar à pointes"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Cedric, Fleur, Krum, puis Harry en dernier.",
+   "id": "t035-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces créatures selon leur taille, de la plus petite à la plus grande.",
+   "items": [
+    "Boursouflet",
+    "Niffleur",
+    "Hippogriffe",
+    "Magyar à pointes"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "De la boule de poils au dragon de plusieurs tonnes.",
+   "id": "t035-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces films Les Animaux fantastiques par date de sortie.",
+   "items": [
+    "Les Animaux fantastiques",
+    "Les Crimes de Grindelwald",
+    "Les Secrets de Dumbledore"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Sorties en 2016, 2018 et 2022 ; la saga devait compter cinq films.",
+   "id": "t035-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la chute du Basilic dans l’ordre.",
+   "items": [
+    "Arrivée de Fumseck",
+    "Le phénix crève les yeux du Basilic",
+    "Harry tire l’épée du Choixpeau",
+    "Le Basilic est transpercé"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Un croc reste planté dans le bras de Harry ; les larmes de Fumseck le sauvent.",
+   "id": "t035-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du procès de Buck dans l’ordre.",
+   "items": [
+    "Drago est griffé",
+    "Plainte de Lucius Malefoy",
+    "Condamnation à mort",
+    "Évasion grâce au Retourneur de Temps"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Buck s’enfuit ensuite avec Sirius Black.",
+   "id": "t035-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque animal à son maître.",
+   "paires": [
+    [
+     "Hedwige",
+     "Harry"
+    ],
+    [
+     "Pattenrond",
+     "Hermione"
+    ],
+    [
+     "Coquecigrue",
+     "Ron"
+    ],
+    [
+     "Crockdur",
+     "Hagrid"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Chaque compagnon reflète un peu son maître.",
+   "id": "t035-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque champion au dragon qu’il affronte.",
+   "paires": [
+    [
+     "Harry",
+     "Magyar à pointes"
+    ],
+    [
+     "Krum",
+     "Boutefeu chinois"
+    ],
+    [
+     "Cedric",
+     "Suédois à museau court"
+    ],
+    [
+     "Fleur",
+     "Vert gallois commun"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Chacun choisit une stratégie différente pour récupérer l’œuf d’or.",
+   "id": "t035-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature à son pouvoir.",
+   "paires": [
+    [
+     "Phénix",
+     "Larmes qui guérissent"
+    ],
+    [
+     "Basilic",
+     "Regard qui tue"
+    ],
+    [
+     "Détraqueur",
+     "Aspire le bonheur"
+    ],
+    [
+     "Sombral",
+     "Invisible pour la plupart"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Ces créatures jouent toutes un rôle décisif dans l’histoire.",
+   "id": "t035-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature à sa catégorie.",
+   "paires": [
+    [
+     "Aragog",
+     "Acromantula"
+    ],
+    [
+     "Norbert",
+     "Dragon"
+    ],
+    [
+     "Buck",
+     "Hippogriffe"
+    ],
+    [
+     "Fumseck",
+     "Phénix"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Hagrid en a connu au moins trois de très près.",
+   "id": "t035-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature à son lieu.",
+   "paires": [
+    [
+     "Êtres de l’eau",
+     "Le lac"
+    ],
+    [
+     "Centaures",
+     "La Forêt interdite"
+    ],
+    [
+     "Détraqueurs",
+     "Azkaban"
+    ],
+    [
+     "Gobelins",
+     "Gringotts"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Les créatures magiques ont chacune leur territoire.",
+   "id": "t035-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque créature de Dragonneau à sa particularité.",
+   "paires": [
+    [
+     "Niffleur",
+     "Vole ce qui brille"
+    ],
+    [
+     "Occamy",
+     "Change de taille"
+    ],
+    [
+     "Demiguise",
+     "Devient invisible"
+    ],
+    [
+     "Botruc",
+     "Garde les arbres à baguette"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Dragonneau défend une vision bienveillante des créatures dangereuses.",
+   "id": "t035-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature au cœur de baguette qu’elle fournit chez Ollivander.",
+   "paires": [
+    [
+     "Phénix",
+     "Plume"
+    ],
+    [
+     "Licorne",
+     "Crin"
+    ],
+    [
+     "Dragon",
+     "Ventricule"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Ollivander n’utilise que ces trois cœurs, réputés les plus puissants.",
+   "id": "t035-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature étudiée avec Lupin à son lieu de vie.",
+   "paires": [
+    [
+     "Kappa",
+     "Japon"
+    ],
+    [
+     "Strangulot",
+     "Lacs britanniques"
+    ],
+    [
+     "Chaporouge",
+     "Champs de bataille"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Lupin enseigne une défense pratique, créature par créature.",
+   "id": "t035-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque géant ou demi-géant à son lien.",
+   "paires": [
+    [
+     "Graup",
+     "Demi-frère de Hagrid"
+    ],
+    [
+     "Olympe Maxime",
+     "Directrice de Beauxbâtons"
+    ],
+    [
+     "Golgomath",
+     "Chef géant rallié aux Mangemorts"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Hagrid et Madame Maxime partent ensemble en mission chez les géants.",
+   "id": "t035-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une chouette blanche\n2. Hagrid m’a offerte\n3. J’apporte le courrier de Harry",
+   "choix": [
+    "Hedwige",
+    "Errol",
+    "Coquecigrue",
+    "Fumseck"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Elle meurt pendant la fuite de Privet Drive, au début du septième tome.",
+   "id": "t035-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis mi-aigle, mi-cheval\n2. On m’a condamné à mort\n3. Sirius m’a emmené",
+   "choix": [
+    "Buck",
+    "Fumseck",
+    "Norbert",
+    "Graup"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Harry et Hermione le sauvent sous la Cabane hurlante.",
+   "id": "t035-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un oiseau de feu\n2. Mes larmes guérissent\n3. Je renais de mes cendres",
+   "choix": [
+    "Fumseck",
+    "Hedwige",
+    "L’Oiseau-Tonnerre",
+    "Coquecigrue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Il chante une complainte à la mort de Dumbledore, puis quitte Poudlard.",
+   "id": "t035-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. J’ai huit pattes\n2. Hagrid m’a élevée\n3. Je vis au cœur de la Forêt interdite",
+   "choix": [
+    "Aragog",
+    "Touffu",
+    "Le Basilic",
+    "Nagini"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Ses enfants, eux, ne respectent pas la promesse faite à Hagrid.",
+   "id": "t035-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un serpent géant\n2. Je vis sous l’école\n3. Mon regard tue",
+   "choix": [
+    "Le Basilic",
+    "Nagini",
+    "Aragog",
+    "Le Magyar"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Les araignées le fuient : c’est un indice clé de la deuxième année.",
+   "id": "t035-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. J’ai trois têtes\n2. Je garde une trappe\n3. La musique m’endort",
+   "choix": [
+    "Touffu",
+    "Aragog",
+    "Crockdur",
+    "Graup"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Hagrid l’a acheté à un étranger dans un pub.",
+   "id": "t035-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dragon\n2. Je suis né dans une cabane\n3. On m’a envoyé en Roumanie",
+   "choix": [
+    "Norbert",
+    "Le Magyar à pointes",
+    "Fumseck",
+    "Buck"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Hagrid pleure en le confiant aux amis de Charlie.",
+   "id": "t035-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. Ma valise est pleine de créatures\n3. Je suis allé à New York en 1926",
+   "choix": [
+    "Norbert Dragonneau",
+    "Gilderoy Lockhart",
+    "Rubeus Hagrid",
+    "Albus Dumbledore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Il a été renvoyé de Poudlard, mais Dumbledore croit en lui.",
+   "id": "t035-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis invisible pour beaucoup\n2. Je tire les diligences de Poudlard\n3. Hagrid m’adore",
+   "choix": [
+    "Le Sombral",
+    "L’hippogriffe",
+    "L’Abraxan",
+    "La licorne"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Harry et ses amis en chevauchent pour rejoindre le ministère.",
+   "id": "t035-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une petite boule de poils rose\n2. Ginny m’a acheté\n3. Je m’appelle Arnold",
+   "choix": [
+    "Le Boursouflet",
+    "Le Niffleur",
+    "Le Vif d’or",
+    "Le Boursouf"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007) ; Les Animaux fantastiques (2001)",
+   "expl": "Les jumeaux Weasley en vendent dans leur boutique.",
+   "id": "t035-128",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Botruc est un petit gardien des arbres dont le bois sert à fabriquer des ____.",
+   "choix": [
+    "baguettes",
+    "balais",
+    "chaudrons",
+    "flûtes"
+   ],
+   "rep": 0,
+   "src": "Warner Bros., Fantastic Beasts and Where to Find Them (2016)",
+   "expl": "Il ressemble à une brindille vivante et se nourrit de cloportes.",
+   "id": "t035-129",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année se déroule l’intrigue du premier film Les Animaux fantastiques ?",
+   "rep": 1926,
+   "min": 1890,
+   "max": 1960,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Warner Bros., Fantastic Beasts and Where to Find Them (2016)",
+   "expl": "Norbert débarque à New York avec sa valise, des décennies avant la naissance de Harry.",
+   "id": "t035-130",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

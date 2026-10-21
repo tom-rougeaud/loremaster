@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**34 / 99 thèmes terminés — 4795 questions au total.**
+**35 / 99 thèmes terminés — 4925 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -40,7 +40,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 32 | La société sorcière | 130 | 44 | 17 (9) | 8 | 12 | 10 | 10 | 8 | 10 | 11 | 47 % | 40/81/9 | 2 | terminé |
 | 33 | Sortilèges, maléfices et métamorphose | 131 | 49 | 17 (9) | 4 | 13 | 10 | 10 | 8 | 10 | 10 | 50 % | 23/97/11 | 6 | terminé |
 | 34 | Potions, alchimie et botanique magique | 130 | 50 | 16 (8) | 5 | 12 | 10 | 10 | 8 | 9 | 10 | 51 % | 17/101/12 | 6 | terminé |
-| 35 | Bestiaire magique et Animaux fantastiques | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 35 | Bestiaire magique et Animaux fantastiques | 130 | 46 | 16 (9) | 8 | 13 | 10 | 10 | 8 | 9 | 10 | 48 % | 19/103/8 | 7 | terminé |
 | 36 | Les forces du Mal (Harry Potter) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 37 | Objets enchantés et secrets de Poudlard | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 38 | L’univers Warhammer et son histoire | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -358,8 +358,8 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - poudlard-histoire : niveaux déséquilibrés [37, 78, 15]
 - societe-sorciere : niveaux déséquilibrés [40, 81, 9]
 - sortileges-hp : niveaux déséquilibrés [23, 97, 11]
-- content/034/a.lm:90 : bonne réponse nettement plus longue que les autres (indice involontaire)
 - potions-botanique-hp : niveaux déséquilibrés [17, 101, 12]
+- creatures-hp : niveaux déséquilibrés [19, 103, 8]
 - gre-003 : explication absente ou trop courte
 - gre-006 : explication absente ou trop courte
 - gre-011 : explication absente ou trop courte
