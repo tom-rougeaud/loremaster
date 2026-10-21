@@ -1,0 +1,2007 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "systemes-magie",
+  "nom": "Les systèmes de magie dans la fiction",
+  "royaume": "Magie, littérature et univers fantasy",
+  "icone": "etoile",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel auteur a énoncé des « lois » célèbres sur la construction des systèmes de magie ?",
+   "choix": [
+    "Brandon Sanderson",
+    "George R. R. Martin",
+    "Terry Pratchett",
+    "Neil Gaiman"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Il les présente dans des essais publiés sur son site à partir de 2007.",
+   "id": "t065-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que dit en substance la première loi de Sanderson ?",
+   "choix": [
+    "La magie ne résout un conflit que si le lecteur la comprend",
+    "La magie doit toujours coûter du sang",
+    "La magie doit rester inexpliquée",
+    "La magie doit être rare"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Plus les règles sont claires, plus la magie peut dénouer l’intrigue sans paraître tricher.",
+   "id": "t065-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon la deuxième loi de Sanderson, qu’est-ce qui rend une magie plus intéressante ?",
+   "choix": [
+    "Ses limites",
+    "Sa puissance",
+    "Son ancienneté",
+    "Son nombre de sorts"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Les faiblesses et les coûts créent davantage de tension que les pouvoirs eux-mêmes.",
+   "id": "t065-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on une magie aux règles précises, presque scientifiques ?",
+   "choix": [
+    "Une magie dure",
+    "Une magie douce",
+    "Une magie noire",
+    "Une magie sauvage"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "On parle en anglais de « hard magic », par opposition à la « soft magic » mystérieuse.",
+   "id": "t065-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Fils-des-Brumes, comment l’allomancien obtient-il ses pouvoirs ?",
+   "choix": [
+    "En avalant et en brûlant des métaux",
+    "En récitant des runes",
+    "En buvant du sang",
+    "En dessinant des cercles"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Chaque métal donne une capacité précise : l’acier pousse les métaux, le fer les attire.",
+   "id": "t065-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Fils-des-Brumes, quel art consiste à stocker sa force ou sa santé dans des objets en métal ?",
+   "choix": [
+    "La ferrochimie",
+    "L’allomancie",
+    "L’hémalurgie",
+    "L’éveil"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Le ferrochimiste se rend plus faible un temps pour être plus fort plus tard.",
+   "id": "t065-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Fils-des-Brumes, quel art utilise des pointes de métal plantées dans le corps ?",
+   "choix": [
+    "L’hémalurgie",
+    "La ferrochimie",
+    "L’allomancie",
+    "La sympathie"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "C’est la plus sombre des trois magies métalliques, car elle exige la mort d’une victime.",
+   "id": "t065-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Terremer, sur quoi repose la puissance d’un mage ?",
+   "choix": [
+    "La connaissance du vrai nom des choses",
+    "La possession d’une baguette",
+    "Un pacte avec un démon",
+    "L’énergie du soleil"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Connaître le vrai nom d’un être donne du pouvoir sur lui : on le cache donc soigneusement.",
+   "id": "t065-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans Terremer, sur quelle île se trouve l’école des sorciers ?",
+   "choix": [
+    "Roke",
+    "Gont",
+    "Havnor",
+    "Atuan"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Ged, surnommé l’Épervier, y apprend son art.",
+   "id": "t065-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans La Roue du temps, quel nom porte la moitié masculine du Pouvoir unique ?",
+   "choix": [
+    "Le saidin",
+    "Le saidar",
+    "Le tairen",
+    "L’angreal"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Elle a été souillée par le Ténébreux, ce qui rend fous les hommes qui l’utilisent.",
+   "id": "t065-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans La Roue du temps, comment s’appellent les femmes qui canalisent le Pouvoir au sein d’un ordre ancien ?",
+   "choix": [
+    "Les Aes Sedai",
+    "Les Bene Gesserit",
+    "Les Sœurs de la Nuit",
+    "Les Moirai"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Elles prêtent serment de ne jamais dire un mot faux.",
+   "id": "t065-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel principe fondamental gouverne l’alchimie de Fullmetal Alchemist ?",
+   "choix": [
+    "L’échange équivalent",
+    "La conservation des âmes",
+    "Le cercle des quatre éléments",
+    "La pierre unique"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Pour obtenir quelque chose, il faut sacrifier quelque chose de valeur égale.",
+   "id": "t065-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel tabou Edward et Alphonse Elric brisent-ils au début de Fullmetal Alchemist ?",
+   "choix": [
+    "La transmutation humaine",
+    "Le vol d’une pierre",
+    "L’alchimie sans cercle",
+    "Le pacte avec un dieu"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "En tentant de ramener leur mère, Ed perd une jambe et Al tout son corps.",
+   "id": "t065-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Avatar, le dernier maître de l’air, sur quoi s’appuie chaque style de maîtrise ?",
+   "choix": [
+    "Un art martial chinois",
+    "Une danse indienne",
+    "Une langue morte",
+    "Un instrument de musique"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Le tai-chi inspire la maîtrise de l’eau, le hung gar celle de la terre.",
+   "id": "t065-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Avatar, quel peuple maîtrise l’air ?",
+   "choix": [
+    "Les nomades de l’air",
+    "La nation du feu",
+    "Le royaume de la terre",
+    "Les tribus de l’eau"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Aang est le dernier survivant de ce peuple.",
+   "id": "t065-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Le Nom du vent, comment s’appelle la magie qui relie deux objets par un lien ?",
+   "choix": [
+    "La sympathie",
+    "La nomination",
+    "L’alchimie",
+    "La sygaldrie"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "L’énergie se transmet d’un objet à l’autre, mais avec des pertes, comme en physique.",
+   "id": "t065-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Le Nom du vent, comment s’appelle la force de volonté qui permet de maintenir une croyance ?",
+   "choix": [
+    "L’Alar",
+    "Le Ki",
+    "Le Mana",
+    "Le Nen"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Kvothe la renforce dès l’enfance auprès de son maître Abenthy.",
+   "id": "t065-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans le Disque-monde, comment s’appelle la couleur de la magie ?",
+   "choix": [
+    "L’octarine",
+    "L’indigo",
+    "Le magenta",
+    "L’orichalque"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Seuls les mages et les chats peuvent la voir.",
+   "id": "t065-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel écrivain a inspiré à Donjons et Dragons sa magie de sorts mémorisés puis oubliés ?",
+   "choix": [
+    "Jack Vance",
+    "J. R. R. Tolkien",
+    "Fritz Leiber",
+    "Robert E. Howard"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Dans La Terre mourante, les mages oublient un sort dès qu’ils l’ont lancé.",
+   "id": "t065-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Harry Potter, de quoi se compose toujours une baguette ?",
+   "choix": [
+    "D’un bois et d’un cœur magique",
+    "D’un métal et d’une pierre",
+    "D’un os de dragon",
+    "D’une plume et d’un ruban"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Les baguettes d’Ollivander utilisent plume de phénix, ventricule de dragon ou crin de licorne.",
+   "id": "t065-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de couleurs de mana compte le jeu de cartes Magic : l’Assemblée ?",
+   "choix": [
+    "Cinq",
+    "Trois",
+    "Quatre",
+    "Sept"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Blanc, bleu, noir, rouge et vert, chacune avec sa philosophie.",
+   "id": "t065-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Naruto, quelle énergie utilisent les ninjas pour leurs techniques ?",
+   "choix": [
+    "Le chakra",
+    "Le ki",
+    "Le Nen",
+    "Le mana"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Ils la façonnent par des signes des mains inspirés du zodiaque chinois.",
+   "id": "t065-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans Hunter × Hunter, combien de catégories de Nen existe-t-il ?",
+   "choix": [
+    "Six",
+    "Quatre",
+    "Cinq",
+    "Sept"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Renforcement, transformation, émission, matérialisation, manipulation et spécialisation.",
+   "id": "t065-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Eragon, quelle propriété a l’ancienne langue ?",
+   "choix": [
+    "On ne peut pas y mentir",
+    "Elle tue celui qui la parle",
+    "Elle ne s’écrit pas",
+    "Seuls les dragons la comprennent"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Les mots y désignent la vraie nature des choses, comme dans Terremer.",
+   "id": "t065-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans The Witcher, comment s’appellent les sorts simples des sorceleurs ?",
+   "choix": [
+    "Les signes",
+    "Les runes",
+    "Les mots",
+    "Les cercles"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Aard, Igni, Yrden, Quen et Axii sont les plus connus.",
+   "id": "t065-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans The Witcher, quel signe projette une onde de choc ?",
+   "choix": [
+    "Aard",
+    "Igni",
+    "Quen",
+    "Axii"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Igni produit des flammes, Quen un bouclier, Axii charme l’esprit.",
+   "id": "t065-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Les Archives de Roshar, de quoi les Chevaliers Radieux tirent-ils leur pouvoir ?",
+   "choix": [
+    "D’une lumière née des tempêtes",
+    "Du mana des étoiles",
+    "Du sang des dragons",
+    "D’anneaux magiques"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Elle est captée dans des gemmes lors des terribles tempêtes qui balaient le monde.",
+   "id": "t065-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Les Archives de Roshar, avec quelles créatures les Radieux nouent-ils un lien ?",
+   "choix": [
+    "Les sprens",
+    "Les élémentaires",
+    "Les démons",
+    "Les djinns"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Syl, une spren d’honneur, est liée au héros Kaladin.",
+   "id": "t065-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Elantris, de quoi dépend la magie appelée AonDor ?",
+   "choix": [
+    "De symboles tracés",
+    "De métaux avalés",
+    "D’un chant sacré",
+    "Des phases lunaires"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Les Aons, sortes d’idéogrammes, doivent être dessinés avec précision.",
+   "id": "t065-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle magie de Sanderson repose sur le « souffle » que l’on peut donner à autrui ?",
+   "choix": [
+    "La biochromie",
+    "L’allomancie",
+    "La ferrochimie",
+    "La sympathie"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Le Souffle permet d’éveiller des objets en leur prenant leur couleur.",
+   "id": "t065-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Jonathan Strange et Mr Norrell, quelle magie les deux héros veulent-ils restaurer ?",
+   "choix": [
+    "La magie anglaise",
+    "La magie égyptienne",
+    "La magie druidique",
+    "La magie des fées seules"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Le roman de Susanna Clarke imagine son retour pendant les guerres napoléoniennes.",
+   "id": "t065-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle école étudient les héros de la série Les Magiciens de Lev Grossman ?",
+   "choix": [
+    "Brakebills",
+    "Poudlard",
+    "Roke",
+    "Unseen University"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "On y apprend une magie très difficile, faite de gestes et de calculs.",
+   "id": "t065-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Docteur Strange, quel artefact contient la Pierre du temps ?",
+   "choix": [
+    "L’Œil d’Agamotto",
+    "Le Manteau de lévitation",
+    "Le Livre des Vishanti",
+    "L’Orbe de Watoomb"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Il permet au sorcier suprême de manipuler le temps.",
+   "id": "t065-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "D’où vient à l’origine le mot « mana », très utilisé dans les jeux ?",
+   "choix": [
+    "D’Océanie",
+    "Du latin",
+    "Du sanskrit",
+    "De l’hébreu"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Il y désigne une force surnaturelle ; Larry Niven en fait une ressource limitée en 1969.",
+   "id": "t065-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans les jeux vidéo, comment appelle-t-on souvent la réserve d’énergie qui alimente les sorts ?",
+   "choix": [
+    "Les points de mana",
+    "Les points de vie",
+    "Les points d’expérience",
+    "Les points de karma"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Le mot vient des langues d’Océanie et a été adopté par la fantasy.",
+   "id": "t065-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne le « coût » d’une magie dans la plupart des systèmes durs ?",
+   "choix": [
+    "Ce que le lanceur sacrifie pour l’utiliser",
+    "Le prix du livre de sorts",
+    "L’âge minimum pour apprendre",
+    "Le nombre de sorts connus"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Fatigue, santé, souvenirs ou années de vie : le coût empêche la magie de tout résoudre.",
+   "id": "t065-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Fils-des-Brumes, comment appelle-t-on ceux qui ne peuvent brûler qu’un seul métal ?",
+   "choix": [
+    "Les Brumants",
+    "Les Fils-des-Brumes",
+    "Les Inquisiteurs",
+    "Les Terrisiens"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Les rares Fils-des-Brumes, eux, peuvent les brûler tous.",
+   "id": "t065-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Fullmetal Alchemist, quel objet permet de contourner l’échange équivalent ?",
+   "choix": [
+    "La pierre philosophale",
+    "L’épée de Rose",
+    "Le cercle d’argent",
+    "Le gant de feu"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "On découvre qu’elle est fabriquée à partir de vies humaines.",
+   "id": "t065-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Jujutsu Kaisen, quel pouvoir naît des émotions négatives des humains ?",
+   "choix": [
+    "L’énergie occulte",
+    "Le chakra",
+    "Le Nen",
+    "Le Haki"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Les exorcistes l’utilisent pour combattre les fléaux qu’elle engendre.",
+   "id": "t065-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Dragon Ball, comment s’appelle l’énergie vitale qu’utilisent les combattants ?",
+   "choix": [
+    "Le ki",
+    "Le chakra",
+    "Le mana",
+    "La Force"
+   ],
+   "rep": 0,
+   "src": "Brandon Sanderson, « Sanderson’s First Law » (2007) et essais suivants (brandonsanderson.com) ; Ursula K. Le Guin, Terremer ; Robert Jordan, La Roue du temps ; Hiromu Arakawa, Fullmetal Alchemist ; Avatar, le dernier maître de l’air (Nickelodeon) ; Wizards of the Coast (Magic, D&D)",
+   "expl": "Le kamehameha de Son Goku en est l’utilisation la plus célèbre.",
+   "id": "t065-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Fullmetal Alchemist, l’alchimie suit la loi de l’échange équivalent.",
+   "rep": true,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "On ne peut rien créer à partir de rien, ni sans rien sacrifier.",
+   "id": "t065-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Terremer, un mage révèle volontiers son vrai nom.",
+   "rep": false,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Faux : on ne le confie qu’à des personnes de toute confiance.",
+   "id": "t065-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Avatar, l’Avatar peut maîtriser les quatre éléments.",
+   "rep": true,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Il est le seul à pouvoir le faire, pour maintenir l’équilibre du monde.",
+   "id": "t065-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans le Disque-monde, tout le monde peut voir l’octarine.",
+   "rep": false,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Faux : seuls les mages et les chats la perçoivent.",
+   "id": "t065-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans La Roue du temps, la moitié masculine du Pouvoir est souillée.",
+   "rep": true,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Le Ténébreux l’a corrompue pendant la Guerre du Pouvoir.",
+   "id": "t065-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Fils-des-Brumes, l’acier permet d’attirer les métaux.",
+   "rep": false,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Faux : l’acier les pousse ; c’est le fer qui les attire.",
+   "id": "t065-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Magic : l’Assemblée a été créé par Richard Garfield.",
+   "rep": true,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Le jeu paraît en 1993 chez Wizards of the Coast.",
+   "id": "t065-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Hunter × Hunter, le Nen comporte quatre catégories.",
+   "rep": false,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Faux : il en compte six, de l’intensification à la spécialisation.",
+   "id": "t065-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La magie de Donjons et Dragons s’inspire de Jack Vance.",
+   "rep": true,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "On l’appelle souvent la « magie vancienne ».",
+   "id": "t065-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans The Witcher, le signe Quen crée des flammes.",
+   "rep": false,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Faux : Quen protège par un bouclier ; c’est Igni qui crée des flammes.",
+   "id": "t065-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Eragon, on ne peut pas mentir dans l’ancienne langue.",
+   "rep": true,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Les elfes jouent cependant sur les mots pour tromper sans mentir.",
+   "id": "t065-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Fullmetal Alchemist, la pierre philosophale est faite de vies humaines.",
+   "rep": true,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Cette révélation est l’un des grands tournants de l’histoire.",
+   "id": "t065-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Nom du vent est le premier tome de la Chronique du tueur de roi.",
+   "rep": true,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa ; Wizards of the Coast",
+   "expl": "Il paraît en 2007 aux États-Unis ; la suite est toujours attendue.",
+   "id": "t065-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La deuxième loi de Sanderson affirme que les pouvoirs comptent plus que les limites.",
+   "rep": false,
+   "src": "Sanderson ; Le Guin ; Wizards of the Coast",
+   "expl": "Faux : elle affirme au contraire que les limites sont plus intéressantes.",
+   "id": "t065-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Le Sorcier de Terremer, d’Ursula K. Le Guin ?",
+   "rep": 1968,
+   "min": 1950,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sanderson ; Le Guin ; Wizards of the Coast",
+   "expl": "Il est l’un des premiers romans de fantasy centrés sur une école de magie.",
+   "id": "t065-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît le jeu Magic : l’Assemblée ?",
+   "rep": 1993,
+   "min": 1980,
+   "max": 2005,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sanderson ; Le Guin ; Wizards of the Coast",
+   "expl": "Il est le premier grand jeu de cartes à collectionner.",
+   "id": "t065-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît L’Empire ultime, premier tome de Fils-des-Brumes ?",
+   "rep": 2006,
+   "min": 1995,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sanderson ; Le Guin ; Wizards of the Coast",
+   "expl": "Sanderson y imagine un monde couvert de cendres, sous le règne du Seigneur Maître.",
+   "id": "t065-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de couleurs de mana compte Magic : l’Assemblée ?",
+   "rep": 5,
+   "min": 3,
+   "max": 8,
+   "pas": 1,
+   "unite": "couleurs",
+   "tolerance": 0,
+   "src": "Sanderson ; Le Guin ; Wizards of the Coast",
+   "expl": "S’y ajoutent les cartes incolores, qui n’appartiennent à aucune couleur.",
+   "id": "t065-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de catégories de Nen existe-t-il dans Hunter × Hunter ?",
+   "rep": 6,
+   "min": 3,
+   "max": 9,
+   "pas": 1,
+   "unite": "catégories",
+   "tolerance": 0,
+   "src": "Sanderson ; Le Guin ; Wizards of the Coast",
+   "expl": "Chaque personnage appartient naturellement à l’une d’elles.",
+   "id": "t065-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année débute la série d’animation Avatar, le dernier maître de l’air ?",
+   "rep": 2005,
+   "min": 1995,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sanderson ; Le Guin ; Wizards of the Coast",
+   "expl": "Elle compte trois saisons, appelées Livres : Eau, Terre et Feu.",
+   "id": "t065-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’ordres de Chevaliers Radieux existe-t-il dans Les Archives de Roshar ?",
+   "rep": 10,
+   "min": 4,
+   "max": 16,
+   "pas": 1,
+   "unite": "ordres",
+   "tolerance": 0,
+   "src": "Sanderson ; Le Guin ; Wizards of the Coast",
+   "expl": "Chacun maîtrise deux des dix Pouvoirs, appelés Surges.",
+   "id": "t065-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année débute le manga Fullmetal Alchemist ?",
+   "rep": 2001,
+   "min": 1990,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sanderson ; Le Guin ; Wizards of the Coast",
+   "expl": "Hiromu Arakawa le publie dans le magazine Shōnen Gangan.",
+   "id": "t065-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans Fullmetal Alchemist, l’alchimie repose sur l’échange ____.",
+   "choix": [
+    "équivalent",
+    "égal",
+    "sacré",
+    "inversé"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ce principe est récité au début de chaque épisode.",
+   "id": "t065-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Fils-des-Brumes, la magie qui consiste à brûler des métaux s’appelle l’____.",
+   "choix": [
+    "allomancie",
+    "alchimie",
+    "hémalurgie",
+    "ferrochimie"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Vin découvre peu à peu qu’elle peut brûler tous les métaux.",
+   "id": "t065-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans le Disque-monde, la couleur de la magie s’appelle l’____.",
+   "choix": [
+    "octarine",
+    "ultraviolet",
+    "octavie",
+    "infrarouge"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "C’est la huitième couleur du spectre selon Pratchett.",
+   "id": "t065-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans La Roue du temps, la moitié féminine du Pouvoir unique s’appelle le ____.",
+   "choix": [
+    "saidar",
+    "saidin",
+    "sa’angreal",
+    "ter’angreal"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Les Aes Sedai l’utilisent en s’y abandonnant plutôt qu’en la dominant.",
+   "id": "t065-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Terremer, l’école des sorciers se trouve sur l’île de ____.",
+   "choix": [
+    "Roke",
+    "Gont",
+    "Atuan",
+    "Havnor"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "On y apprend avant tout les vrais noms des choses.",
+   "id": "t065-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Naruto, l’énergie des ninjas s’appelle le ____.",
+   "choix": [
+    "chakra",
+    "ki",
+    "Nen",
+    "reiatsu"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Le mot vient du sanskrit, où il désigne les centres d’énergie du corps.",
+   "id": "t065-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La magie aux règles précises est appelée magie ____.",
+   "choix": [
+    "dure",
+    "douce",
+    "sauvage",
+    "ancienne"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Avatar et Fullmetal Alchemist en offrent de bons exemples.",
+   "id": "t065-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Le Nom du vent, la magie des liens s’appelle la ____.",
+   "choix": [
+    "sympathie",
+    "sympathologie",
+    "synergie",
+    "symbiose"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Kvothe l’étudie à l’Université, au-delà des mers de son enfance.",
+   "id": "t065-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Les Archives de Roshar, les êtres liés aux Radieux s’appellent les ____.",
+   "choix": [
+    "sprens",
+    "sylphes",
+    "djinns",
+    "wyrms"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ils naissent des émotions et des phénomènes naturels.",
+   "id": "t065-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans The Witcher, le signe de feu s’appelle ____.",
+   "choix": [
+    "Igni",
+    "Aard",
+    "Yrden",
+    "Axii"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Yrden, lui, pose un piège magique sur le sol.",
+   "id": "t065-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Hunter × Hunter, l’énergie des combattants s’appelle le ____.",
+   "choix": [
+    "Nen",
+    "chakra",
+    "ki",
+    "Haki"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Elle s’apprend par l’entraînement et la méditation.",
+   "id": "t065-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans Elantris, la magie des symboles s’appelle l’____.",
+   "choix": [
+    "AonDor",
+    "allomancie",
+    "Ars Arcanum",
+    "Éveil"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Elle cesse brusquement de fonctionner, et le roman en cherche la cause.",
+   "id": "t065-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le jeu Magic : l’Assemblée a été créé par Richard ____.",
+   "choix": [
+    "Garfield",
+    "Gygax",
+    "Garriott",
+    "Arneson"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Il est mathématicien de formation et enseignait à l’université.",
+   "id": "t065-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces éléments n’est pas maîtrisé dans Avatar ?",
+   "choix": [
+    "La lumière",
+    "L’eau",
+    "La terre",
+    "Le feu"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Les quatre éléments sont l’eau, la terre, le feu et l’air.",
+   "id": "t065-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces métaux n’est pas lié à l’allomancie dans Fils-des-Brumes ?",
+   "choix": [
+    "Le plomb",
+    "L’étain",
+    "Le fer",
+    "Le cuivre"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "L’étain affine les sens, le cuivre masque l’usage des autres métaux.",
+   "id": "t065-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces signes n’existe pas dans The Witcher ?",
+   "choix": [
+    "Ignis",
+    "Aard",
+    "Yrden",
+    "Quen"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Le signe de feu s’appelle Igni, sans s ; Ignis est un piège.",
+   "id": "t065-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces couleurs n’est pas une couleur de mana dans Magic ?",
+   "choix": [
+    "Le jaune",
+    "Le blanc",
+    "Le noir",
+    "Le vert"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Les cinq couleurs sont blanc, bleu, noir, rouge et vert.",
+   "id": "t065-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms n’est pas un art métallique de Fils-des-Brumes ?",
+   "choix": [
+    "La sympathie",
+    "L’allomancie",
+    "La ferrochimie",
+    "L’hémalurgie"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "La sympathie appartient au Nom du vent de Patrick Rothfuss.",
+   "id": "t065-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mondes n’a pas d’école de magie ?",
+   "choix": [
+    "Westeros",
+    "Terremer",
+    "Poudlard",
+    "Brakebills"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "À Westeros, la magie est rare et ne s’enseigne pas dans une école.",
+   "id": "t065-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mangas n’utilise pas de système d’énergie nommé ?",
+   "choix": [
+    "Death Note",
+    "Naruto",
+    "Hunter × Hunter",
+    "Jujutsu Kaisen"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Death Note repose sur un cahier, pas sur une énergie à maîtriser.",
+   "id": "t065-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un alchimiste ?",
+   "choix": [
+    "Kaladin",
+    "Edward Elric",
+    "Roy Mustang",
+    "Izumi Curtis"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Kaladin est un Chevalier Radieux des Archives de Roshar.",
+   "id": "t065-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces ingrédients n’est pas un cœur de baguette chez Ollivander ?",
+   "choix": [
+    "Le poil de troll",
+    "La plume de phénix",
+    "Le ventricule de dragon",
+    "Le crin de licorne"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ollivander n’utilise que ces trois cœurs, qu’il juge les plus puissants.",
+   "id": "t065-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas créé de système de magie dure célèbre ?",
+   "choix": [
+    "Lewis Carroll",
+    "Brandon Sanderson",
+    "Hiromu Arakawa",
+    "Patrick Rothfuss"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Le pays des merveilles d’Alice échappe à toute règle.",
+   "id": "t065-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels éléments peuvent être maîtrisés dans Avatar ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Eau",
+    "Terre",
+    "Feu",
+    "Air",
+    "Lumière",
+    "Ombre"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Certains maîtres développent aussi des techniques rares, comme la maîtrise du métal.",
+   "id": "t065-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles magies existent dans l’univers de Fils-des-Brumes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Allomancie",
+    "Ferrochimie",
+    "Hémalurgie",
+    "Sympathie",
+    "Alchimie d’Amestris"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ce sont les trois arts métalliques de Scadrial.",
+   "id": "t065-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels signes existent dans The Witcher ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aard",
+    "Igni",
+    "Quen",
+    "Axii",
+    "Ignis",
+    "Lumos"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Lumos est un sortilège de Harry Potter qui allume la baguette.",
+   "id": "t065-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres reposent sur l’idée de vrai nom ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Terremer",
+    "Eragon",
+    "Le Nom du vent",
+    "Fullmetal Alchemist",
+    "Dragon Ball"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Nommer une chose, c’est avoir prise sur elle.",
+   "id": "t065-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles énergies viennent de mangas ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Chakra",
+    "Nen",
+    "Énergie occulte",
+    "Saidar",
+    "Octarine"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Le saidar vient de La Roue du temps, l’octarine du Disque-monde.",
+   "id": "t065-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles couleurs sont des couleurs de mana dans Magic ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Blanc",
+    "Bleu",
+    "Noir",
+    "Vert",
+    "Jaune",
+    "Violet"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Chaque couleur a ses forces et ses ennemis naturels.",
+   "id": "t065-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels romans sont de Brandon Sanderson ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Elantris",
+    "Warbreaker",
+    "La Voie des rois",
+    "Le Nom du vent",
+    "L’Œil du monde"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Le Nom du vent est de Rothfuss, L’Œil du monde de Robert Jordan.",
+   "id": "t065-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels coûts la magie impose-t-elle dans ces œuvres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Un membre dans Fullmetal Alchemist",
+    "La folie pour les hommes dans La Roue du temps",
+    "Des métaux à avaler dans Fils-des-Brumes",
+    "Rien dans Terremer",
+    "De l’argent dans Le Nom du vent"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Dans Terremer aussi, chaque acte magique trouble l’Équilibre du monde.",
+   "id": "t065-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles écoles de magie sont fictives ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Roke",
+    "Brakebills",
+    "Poudlard",
+    "Université de l’Invisible",
+    "Salamanque",
+    "Oxford"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Salamanque passait pourtant au Moyen Âge pour enseigner la magie dans une grotte.",
+   "id": "t065-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages sont des alchimistes dans Fullmetal Alchemist ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Edward Elric",
+    "Roy Mustang",
+    "Alex Louis Armstrong",
+    "Kvothe",
+    "Kaladin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Kvothe et Kaladin viennent des romans de Rothfuss et de Sanderson.",
+   "id": "t065-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces œuvres par date de parution.",
+   "items": [
+    "Le Sorcier de Terremer",
+    "Magic : l’Assemblée",
+    "Fullmetal Alchemist",
+    "Avatar, le dernier maître de l’air"
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ces œuvres paraissent en 1968, 1993, 2001 et 2005.",
+   "id": "t065-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces romans de Sanderson par date de parution.",
+   "items": [
+    "Elantris",
+    "L’Empire ultime",
+    "Warbreaker",
+    "La Voie des rois"
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ces romans paraissent en 2005, 2006, 2009 et 2010.",
+   "id": "t065-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces œuvres de fantasy par date de parution.",
+   "items": [
+    "La Terre mourante",
+    "Le Sorcier de Terremer",
+    "L’Œil du monde",
+    "Le Nom du vent"
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Vance en 1950, Le Guin en 1968, Jordan en 1990, Rothfuss en 2007.",
+   "id": "t065-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces saisons d’Avatar dans l’ordre.",
+   "items": [
+    "Eau",
+    "Terre",
+    "Feu"
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Aang doit apprendre les éléments dans l’ordre du cycle des Avatars.",
+   "id": "t065-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’apprentissage d’Aang dans l’ordre.",
+   "items": [
+    "Air",
+    "Eau",
+    "Terre",
+    "Feu"
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Il maîtrise l’air depuis l’enfance, puis apprend les autres éléments.",
+   "id": "t065-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces œuvres du plus ancien au plus récent.",
+   "items": [
+    "Dragon Ball",
+    "Naruto",
+    "Jujutsu Kaisen"
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ces mangas débutent en 1984, 1999 puis 2018.",
+   "id": "t065-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes d’une transmutation alchimique dans l’ordre.",
+   "items": [
+    "Compréhension",
+    "Décomposition",
+    "Recomposition"
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "C’est la règle enseignée aux jeunes alchimistes d’Amestris.",
+   "id": "t065-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux par date de sortie.",
+   "items": [
+    "Donjons et Dragons",
+    "Magic : l’Assemblée",
+    "The Witcher, le premier jeu vidéo"
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ces jeux sortent en 1974, 1993 puis 2007.",
+   "id": "t065-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces romans de Sanderson du plus ancien au plus récent.",
+   "items": [
+    "Elantris",
+    "L’Empire ultime",
+    "Le Héros des siècles",
+    "Warbreaker",
+    "La Voie des rois"
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Il publie à un rythme soutenu : 2005, 2006, 2008, 2009 puis 2010.",
+   "id": "t065-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque œuvre à sa magie.",
+   "paires": [
+    [
+     "Fullmetal Alchemist",
+     "Alchimie"
+    ],
+    [
+     "Naruto",
+     "Chakra"
+    ],
+    [
+     "Fils-des-Brumes",
+     "Allomancie"
+    ],
+    [
+     "Hunter × Hunter",
+     "Nen"
+    ]
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Chaque œuvre donne un nom propre à sa magie.",
+   "id": "t065-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque nation d’Avatar à son élément.",
+   "paires": [
+    [
+     "Nomades",
+     "Air"
+    ],
+    [
+     "Tribus",
+     "Eau"
+    ],
+    [
+     "Royaume",
+     "Terre"
+    ],
+    [
+     "Nation",
+     "Feu"
+    ]
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ces quatre peuples se partagent le monde d’Avatar.",
+   "id": "t065-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque signe à son effet.",
+   "paires": [
+    [
+     "Aard",
+     "Onde de choc"
+    ],
+    [
+     "Igni",
+     "Flammes"
+    ],
+    [
+     "Quen",
+     "Bouclier"
+    ],
+    [
+     "Axii",
+     "Charme"
+    ]
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Les sorceleurs n’ont accès qu’à une magie limitée.",
+   "id": "t065-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque métal à son effet dans Fils-des-Brumes.",
+   "paires": [
+    [
+     "Acier",
+     "Pousser les métaux"
+    ],
+    [
+     "Fer",
+     "Attirer les métaux"
+    ],
+    [
+     "Étain",
+     "Affiner les sens"
+    ],
+    [
+     "Cuivre",
+     "Masquer l’allomancie"
+    ]
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Chaque métal a son contraire, qui pousse ou attire, agit dehors ou dedans.",
+   "id": "t065-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque magie à son auteur.",
+   "paires": [
+    [
+     "Allomancie",
+     "Sanderson"
+    ],
+    [
+     "Sympathie",
+     "Rothfuss"
+    ],
+    [
+     "Pouvoir unique",
+     "Jordan"
+    ],
+    [
+     "Vrais noms",
+     "Le Guin"
+    ]
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ces auteurs ont donné des règles précises à leur magie.",
+   "id": "t065-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque couleur de mana à son terrain.",
+   "paires": [
+    [
+     "Blanc",
+     "Plaine"
+    ],
+    [
+     "Bleu",
+     "Île"
+    ],
+    [
+     "Noir",
+     "Marais"
+    ],
+    [
+     "Rouge",
+     "Montagne"
+    ],
+    [
+     "Vert",
+     "Forêt"
+    ]
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Les terrains produisent le mana nécessaire pour jouer les cartes.",
+   "id": "t065-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque école à son œuvre.",
+   "paires": [
+    [
+     "Roke",
+     "Terremer"
+    ],
+    [
+     "Brakebills",
+     "Les Magiciens"
+    ],
+    [
+     "Université de l’Invisible",
+     "Disque-monde"
+    ],
+    [
+     "Université",
+     "Le Nom du vent"
+    ]
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "L’Université de Kvothe n’a pas d’autre nom que celui-ci.",
+   "id": "t065-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque élément d’Avatar à son art martial.",
+   "paires": [
+    [
+     "Eau",
+     "Tai-chi"
+    ],
+    [
+     "Terre",
+     "Hung gar"
+    ],
+    [
+     "Feu",
+     "Shaolin du Nord"
+    ],
+    [
+     "Air",
+     "Baguazhang"
+    ]
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Des maîtres d’arts martiaux ont conseillé les créateurs de la série.",
+   "id": "t065-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque loi de Sanderson à son idée.",
+   "paires": [
+    [
+     "Première",
+     "Comprendre avant de résoudre"
+    ],
+    [
+     "Deuxième",
+     "Les limites valent mieux que les pouvoirs"
+    ],
+    [
+     "Troisième",
+     "Approfondir avant d’ajouter"
+    ]
+   ],
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Sanderson a ensuite ajouté une loi « zéro » : privilégier l’émerveillement.",
+   "id": "t065-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une magie\n2. J’utilise des métaux\n3. On me pratique dans Fils-des-Brumes",
+   "choix": [
+    "L’allomancie",
+    "L’alchimie",
+    "La sympathie",
+    "L’éveil"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ceux qui me pratiquent tous les métaux sont très rares.",
+   "id": "t065-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un principe\n2. Je gouverne l’alchimie d’Amestris\n3. Rien ne naît de rien",
+   "choix": [
+    "L’échange équivalent",
+    "La loi de Sanderson",
+    "L’Équilibre",
+    "Le Pouvoir unique"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "La pierre philosophale permet de me contourner.",
+   "id": "t065-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une couleur\n2. Seuls les mages et les chats me voient\n3. Je viens du Disque-monde",
+   "choix": [
+    "L’octarine",
+    "L’indigo",
+    "Le magenta",
+    "Le pourpre"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Je suis la huitième couleur du spectre selon Terry Pratchett.",
+   "id": "t065-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un garçon\n2. J’ai la tête rasée et des flèches tatouées\n3. Je suis le dernier maître de l’air",
+   "choix": [
+    "Aang",
+    "Zuko",
+    "Sokka",
+    "Iroh"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Je suis resté cent ans prisonnier de la glace.",
+   "id": "t065-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un mage\n2. On m’appelle l’Épervier\n3. J’ai étudié sur Roke",
+   "choix": [
+    "Ged",
+    "Kvothe",
+    "Rincevent",
+    "Raistlin"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Ursula K. Le Guin a raconté mon histoire.",
+   "id": "t065-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. J’ai formulé des lois de la magie\n3. J’ai écrit Fils-des-Brumes",
+   "choix": [
+    "Brandon Sanderson",
+    "Patrick Rothfuss",
+    "Robert Jordan",
+    "Joe Abercrombie"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "J’ai aussi terminé La Roue du temps après la mort de Robert Jordan.",
+   "id": "t065-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Mes cartes demandent du mana\n3. J’ai cinq couleurs",
+   "choix": [
+    "Magic : l’Assemblée",
+    "Hearthstone",
+    "Yu-Gi-Oh!",
+    "Pokémon"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Je suis né en 1993 et j’ai inventé les jeux de cartes à collectionner.",
+   "id": "t065-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un ordre\n2. Je réunis des femmes qui canalisent\n3. Je viens de La Roue du temps",
+   "choix": [
+    "Les Aes Sedai",
+    "Les Bene Gesserit",
+    "Les Radieux",
+    "Les Sœurs de la Nuit"
+   ],
+   "rep": 0,
+   "src": "Sanderson ; Le Guin ; Jordan ; Arakawa",
+   "expl": "Mes membres ne peuvent pas prononcer un mensonge.",
+   "id": "t065-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
