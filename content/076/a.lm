@@ -1,0 +1,82 @@
+# Dés, probabilités et statistiques : le hasard autour de la table.
+% Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)
+Q2 Sur un dé à six faces classique, quelle est la somme de deux faces opposées ? | Sept | Six | Huit | Dix
+= Le 1 est face au 6, le 2 au 5 et le 3 au 4.
+Q2 Avec deux d6, quelle somme sort le plus souvent ? | Sept | Six | Huit | Douze
+= Six combinaisons sur trente-six donnent 7, soit une chance sur six.
+Q2 Avec deux d6, quelle est la probabilité d’obtenir un double six ? | Une chance sur trente-six | Une chance sur six | Une chance sur douze | Une chance sur soixante-douze
+= Il faut un 6 sur chaque dé : un sixième multiplié par un sixième.
+Q2 Avec deux d6, quelle est la probabilité de faire un double quelconque ? | Une chance sur six | Une chance sur trente-six | Une chance sur deux | Une chance sur douze
+= Le premier dé peut faire n’importe quoi ; le second doit l’imiter.
+Q2 Combien de sommes différentes peut-on obtenir avec deux d6 ? | Onze | Douze | Trente-six | Six
+= De 2 à 12 ; trente-six combinaisons y conduisent, de façon inégale.
+Q1 Quelle est la moyenne d’un lancer de d6 ? | 3,5 | 3 | 4 | 6
+= On additionne les six faces, soit 21, et on divise par 6.
+Q1 Quelle est la moyenne d’un lancer de d20 ? | 10,5 | 10 | 11 | 20
+= La moyenne d’un dé à n faces vaut toujours (n + 1) / 2.
+Q2 Quelle est la probabilité d’obtenir un 20 naturel sur un d20 ? | 5 % | 1 % | 10 % | 20 %
+= Une seule face sur vingt, soit un vingtième.
+Q2 Avec l’avantage de D&D, quelle est environ la probabilité d’obtenir au moins un 20 ? | Près de 10 % | 5 % | 20 % | 25 %
+= On calcule un moins la probabilité de ne faire 20 sur aucun des deux dés, soit 9,75 %.
+Q2 Avec le désavantage de D&D, quelle est la probabilité d’obtenir un 20 ? | 0,25 % | 5 % | 2,5 % | 10 %
+= Il faut un 20 sur les deux dés : un sur quatre cents.
+Q2 Quelle fourchette de résultats donne la méthode classique 3d6 pour une caractéristique ? | De 3 à 18 | De 1 à 20 | De 6 à 18 | De 0 à 18
+= C’est pourquoi les caractéristiques de D&D s’arrêtent traditionnellement à 18.
+Q1 Quelle est la moyenne d’un lancer de 3d6 ? | 10,5 | 9 | 12 | 11
+= Trois fois 3,5 ; la courbe des résultats forme déjà une cloche.
+Q2 Quelle est la probabilité de faire 18 avec 3d6 ? | Une chance sur 216 | Une chance sur 18 | Une chance sur 36 | Une chance sur 108
+= Il faut trois 6 : 6 × 6 × 6 = 216 combinaisons possibles.
+Q2 Quelle est la probabilité d’obtenir au moins un 6 en lançant quatre d6 ? | Un peu plus de 50 % | Exactement 66 % | Environ 25 % | Environ 90 %
+= On calcule 1 − (5/6)⁴, soit environ 51,8 %.
+Q2 Quel joueur pose à Pascal un problème célèbre sur les paris aux dés ? | Le chevalier de Méré | Le cardinal de Richelieu | Le duc de Saint-Simon | Le marquis de Sade
+= Il s’étonnait de perdre en pariant sur un double six en vingt-quatre coups.
+Q2 Avec quel mathématicien Pascal fonde-t-il le calcul des probabilités en 1654 ? | Pierre de Fermat | René Descartes | Isaac Newton | Leibniz
+= Leur correspondance porte sur le partage des mises d’une partie interrompue.
+Q2 Quel savant italien de la Renaissance écrit l’un des premiers traités sur les jeux de hasard ? | Jérôme Cardan | Léonard de Vinci | Galilée | Fibonacci
+= Joueur invétéré, il rédige son Liber de ludo aleae vers 1564.
+Q2 Quel savant néerlandais publie en 1657 le premier traité imprimé de probabilités ? | Christian Huygens | Jacques Bernoulli | Spinoza | Leeuwenhoek
+= Il y reprend les idées échangées par Pascal et Fermat.
+Q2 Quel mathématicien démontre la loi des grands nombres dans un ouvrage publié en 1713 ? | Jacques Bernoulli | Blaise Pascal | Pierre-Simon de Laplace | Carl Friedrich Gauss
+= Son Ars Conjectandi paraît après sa mort, publié par son neveu.
+Q2 Avec trois d6, quelle somme Galilée montre-t-il plus fréquente que 9 ? | 10 | 8 | 11 seulement | 12
+= Le 10 se forme de 27 façons, le 9 de 25, sur 216 combinaisons.
+Q3 Comment appelle-t-on l’erreur qui consiste à croire qu’un résultat « doit » sortir après une longue absence ? | Le sophisme du joueur | La loi des grands nombres | Le paradoxe de Monty Hall | Le biais du survivant
+= Les dés n’ont pas de mémoire : chaque lancer est indépendant.
+Q2 Dans quel casino la boule de roulette tombe-t-elle sur le noir vingt-six fois de suite en 1913 ? | Monte-Carlo | Las Vegas | Deauville | Baden-Baden
+= Des joueurs ont perdu des fortunes en misant sur le rouge.
+Q2 Combien de cases compte une roulette européenne ? | Trente-sept | Trente-six | Trente-huit | Quarante
+= Les numéros vont de 0 à 36 ; le zéro donne l’avantage au casino.
+Q2 Dans le jeu télévisé de Monty Hall, une fois qu’une mauvaise option a été révélée, que faut-il faire ? | Changer de choix | Garder son premier choix | Tirer à pile ou face | Abandonner le jeu
+= Changer fait gagner deux fois sur trois.
+Q2 À partir de combien de personnes a-t-on plus d’une chance sur deux que deux soient nées le même jour ? | 23 | 183 | 50 | 366
+= C’est le célèbre paradoxe des anniversaires.
+Q2 Quel est le nombre attendu de lancers pour obtenir un 6 avec un d6 ? | Six | Trois | Trois et demi | Douze
+= En moyenne, il faut autant de lancers que le dé a de faces.
+Q2 Que montre la planche de Galton, où des billes rebondissent sur des clous ? | La courbe en cloche | La loi de Murphy | Le nombre d’or | La suite de Fibonacci
+= Les billes s’accumulent au centre et se raréfient sur les bords.
+Q2 Quel théorème explique que la somme de nombreux dés tend vers une courbe en cloche ? | Le théorème central limite | Le théorème de Pythagore | Le théorème de Thalès | Le dernier théorème de Fermat
+= Laplace l’a établi dans sa forme classique au début du 19e siècle.
+Q2 Quelle forme géométrique a un d10 ? | Un trapézoèdre pentagonal | Un dodécaèdre | Un icosaèdre | Un octaèdre
+= Il n’est pas un solide de Platon, contrairement aux d4, d6, d8, d12 et d20.
+Q1 Combien de solides de Platon existe-t-il ? | Cinq | Quatre | Sept | Douze
+= Le tétraèdre, le cube, l’octaèdre, le dodécaèdre et l’icosaèdre.
+Q1 Quel solide de Platon correspond au d20 ? | L’icosaèdre | Le dodécaèdre | L’octaèdre | Le tétraèdre
+= Ses vingt faces sont des triangles équilatéraux.
+Q2 Dans quel site iranien a-t-on trouvé l’un des plus anciens dés à six faces connus ? | Shahr-i Sokhta | Persépolis | Suse | Pasargades
+= Ce dé, trouvé avec un plateau de jeu, date d’environ cinq mille ans.
+Q2 Avec quels os d’animaux jouait-on déjà aux dés dans l’Antiquité ? | Des astragales | Des vertèbres | Des côtes | Des fémurs
+= Ces petits os de cheville ont donné le jeu des osselets.
+Q2 Quelle phrase latine attribuée à César évoque un coup de dés lors du passage du Rubicon ? | Alea iacta est | Veni, vidi, vici | Carpe diem | Vae victis
+= Elle signifie « le dé est jeté », ou « les dés sont jetés ».
+Q2 Quel mot latin, désignant le dé, a donné l’adjectif français signifiant « soumis au hasard » ? | Alea | Alter | Ala | Altus
+= On le retrouve aussi dans « aléa » ; à Rome, il désignait aussi les jeux de hasard.
+Q2 De quoi vient le mot « chance », selon l’étymologie la plus courante ? | De la chute des dés | D’un dieu romain | D’une déesse grecque | D’un mot arabe désignant l’or
+= Il vient du latin populaire cadentia, « ce qui tombe ».
+Q2 Avec deux d6, quelle est la probabilité de faire 10 ou plus dans un jeu Propulsé par l’Apocalypse ? | Une chance sur six | Une chance sur deux | Une chance sur trois | Une chance sur douze
+= Six combinaisons sur trente-six donnent 10, 11 ou 12.
+Q2 Quelle est la probabilité d’obtenir un Yam’s, cinq dés identiques, en un seul lancer ? | Une chance sur 1 296 | Une chance sur 7 776 | Une chance sur 216 | Une chance sur 36
+= Six résultats gagnants sur 7 776 combinaisons possibles.
+Q2 Que désignent des dés « pipés » ? | Des dés truqués | Des dés neufs | Des dés en ivoire | Des dés géants
+= Ils sont lestés ou rabotés pour favoriser certaines faces.
+Q2 Quelle mesure statistique indique la valeur qui sépare un ensemble de résultats en deux moitiés égales ? | La médiane | La moyenne | Le mode | L’écart-type
+= Pour un d6, elle se situe entre 3 et 4, comme la moyenne.

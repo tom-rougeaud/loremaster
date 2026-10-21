@@ -1,0 +1,46 @@
+% Dénombrements ; Pascal et Fermat ; Bernoulli
+V1 Sur un d6, le 1 est opposé au 6. | V
+= Les faces opposées totalisent toujours 7.
+V1 Avec deux d6, le 12 est aussi fréquent que le 7. | F
+= Faux : le 12 n’a qu’une combinaison, le 7 en a six.
+V1 Un d20 a la forme d’un icosaèdre. | V
+= C’est le plus grand des solides de Platon.
+V1 Après dix lancers sans 6, le prochain a plus de chances d’être un 6. | F
+= Faux : c’est le sophisme du joueur ; la probabilité reste d’un sixième.
+V1 Pascal et Fermat ont échangé des lettres sur les probabilités. | V
+= Leur correspondance de 1654 est considérée comme fondatrice.
+V1 La roulette européenne compte trente-huit cases. | F
+= Faux : elle en compte trente-sept ; la roulette américaine, avec son double zéro, en compte trente-huit.
+V1 Dans le problème de Monty Hall, changer de porte double les chances. | V
+= On passe d’une chance sur trois à deux chances sur trois.
+V1 Le d10 est un solide de Platon. | F
+= Faux : c’est un trapézoèdre pentagonal, aux faces en cerf-volant.
+V1 La moyenne de 3d6 vaut 10,5. | V
+= C’est trois fois la moyenne d’un d6, qui vaut 3,5.
+V1 Avec l’avantage, la probabilité d’un 20 naturel double exactement. | F
+= Faux : elle passe de 5 % à 9,75 %, un peu moins du double.
+V1 Le mot aléatoire vient du latin alea, le dé. | V
+= Le jeu de dés s’appelait aussi alea à Rome.
+V1 Il faut 183 personnes pour qu’un anniversaire commun soit probable. | F
+= Faux : 23 personnes suffisent pour dépasser une chance sur deux.
+V1 Les astragales servaient de dés dans l’Antiquité. | V
+= Leurs quatre faces stables n’avaient pas la même probabilité.
+V1 Avec deux d6, la probabilité de faire un double est d’un sixième. | V
+= Six doubles possibles sur trente-six combinaisons.
+% Dénombrements
+S2 Quelle est, en pourcentage, la probabilité d’un 20 naturel sur un d20 ? | 5 | 0 | 20 | 1 | 0 | %
+= Un vingtième correspond à cinq pour cent.
+S3 Combien de combinaisons ordonnées donnent deux d6 ? | 36 | 6 | 72 | 1 | 0 | combinaisons
+= Six résultats pour le premier dé, multipliés par six pour le second.
+S2 Combien de combinaisons donnent une somme de 7 avec deux d6 ? | 6 | 1 | 11 | 1 | 0 | combinaisons
+= Les combinaisons sont 1 et 6, 2 et 5, 3 et 4, dans les deux sens.
+S3 Combien de combinaisons possibles donnent trois d6 ? | 216 | 18 | 300 | 2 | 0 | combinaisons
+= Six puissance trois, soit six fois six fois six.
+S2 Quel est, en pourcentage arrondi, l’avantage du casino à la roulette européenne ? | 2,7 | 0 | 10 | 0,1 | 0 | %
+= Le zéro rend chaque pari légèrement perdant : un trente-septième de la mise.
+S3 Combien de personnes faut-il réunir pour dépasser une chance sur deux d’anniversaire commun ? | 23 | 10 | 60 | 1 | 0 | personnes
+= Avec 57 personnes, la probabilité dépasse déjà 99 %.
+S3 En quelle année Pascal et Fermat échangent-ils sur le problème des partis ? | 1654 | 1600 | 1700 | 1 | 0 | année
+= Le chevalier de Méré avait soumis la question à Pascal.
+S2 Combien de faces compte au total un set de sept dés de jeu de rôle (d4, d6, d8, deux d10, d12, d20) ? | 70 | 50 | 90 | 1 | 0 | faces
+= On additionne quatre, six, huit, dix, dix, douze et vingt faces.

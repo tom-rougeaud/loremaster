@@ -1,0 +1,1983 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "des-probabilites",
+  "nom": "Dés, probabilités et statistiques",
+  "royaume": "Jeux de rôle, de cartes et de plateau",
+  "icone": "des",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur un dé à six faces classique, quelle est la somme de deux faces opposées ?",
+   "choix": [
+    "Sept",
+    "Six",
+    "Huit",
+    "Dix"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Le 1 est face au 6, le 2 au 5 et le 3 au 4.",
+   "id": "t076-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec deux d6, quelle somme sort le plus souvent ?",
+   "choix": [
+    "Sept",
+    "Six",
+    "Huit",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Six combinaisons sur trente-six donnent 7, soit une chance sur six.",
+   "id": "t076-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec deux d6, quelle est la probabilité d’obtenir un double six ?",
+   "choix": [
+    "Une chance sur trente-six",
+    "Une chance sur six",
+    "Une chance sur douze",
+    "Une chance sur soixante-douze"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Il faut un 6 sur chaque dé : un sixième multiplié par un sixième.",
+   "id": "t076-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec deux d6, quelle est la probabilité de faire un double quelconque ?",
+   "choix": [
+    "Une chance sur six",
+    "Une chance sur trente-six",
+    "Une chance sur deux",
+    "Une chance sur douze"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Le premier dé peut faire n’importe quoi ; le second doit l’imiter.",
+   "id": "t076-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de sommes différentes peut-on obtenir avec deux d6 ?",
+   "choix": [
+    "Onze",
+    "Douze",
+    "Trente-six",
+    "Six"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "De 2 à 12 ; trente-six combinaisons y conduisent, de façon inégale.",
+   "id": "t076-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle est la moyenne d’un lancer de d6 ?",
+   "choix": [
+    "3,5",
+    "3",
+    "4",
+    "6"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "On additionne les six faces, soit 21, et on divise par 6.",
+   "id": "t076-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle est la moyenne d’un lancer de d20 ?",
+   "choix": [
+    "10,5",
+    "10",
+    "11",
+    "20"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "La moyenne d’un dé à n faces vaut toujours (n + 1) / 2.",
+   "id": "t076-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la probabilité d’obtenir un 20 naturel sur un d20 ?",
+   "choix": [
+    "5 %",
+    "1 %",
+    "10 %",
+    "20 %"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Une seule face sur vingt, soit un vingtième.",
+   "id": "t076-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec l’avantage de D&D, quelle est environ la probabilité d’obtenir au moins un 20 ?",
+   "choix": [
+    "Près de 10 %",
+    "5 %",
+    "20 %",
+    "25 %"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "On calcule un moins la probabilité de ne faire 20 sur aucun des deux dés, soit 9,75 %.",
+   "id": "t076-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec le désavantage de D&D, quelle est la probabilité d’obtenir un 20 ?",
+   "choix": [
+    "0,25 %",
+    "5 %",
+    "2,5 %",
+    "10 %"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Il faut un 20 sur les deux dés : un sur quatre cents.",
+   "id": "t076-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle fourchette de résultats donne la méthode classique 3d6 pour une caractéristique ?",
+   "choix": [
+    "De 3 à 18",
+    "De 1 à 20",
+    "De 6 à 18",
+    "De 0 à 18"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "C’est pourquoi les caractéristiques de D&D s’arrêtent traditionnellement à 18.",
+   "id": "t076-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle est la moyenne d’un lancer de 3d6 ?",
+   "choix": [
+    "10,5",
+    "9",
+    "12",
+    "11"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Trois fois 3,5 ; la courbe des résultats forme déjà une cloche.",
+   "id": "t076-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la probabilité de faire 18 avec 3d6 ?",
+   "choix": [
+    "Une chance sur 216",
+    "Une chance sur 18",
+    "Une chance sur 36",
+    "Une chance sur 108"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Il faut trois 6 : 6 × 6 × 6 = 216 combinaisons possibles.",
+   "id": "t076-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la probabilité d’obtenir au moins un 6 en lançant quatre d6 ?",
+   "choix": [
+    "Un peu plus de 50 %",
+    "Exactement 66 %",
+    "Environ 25 %",
+    "Environ 90 %"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "On calcule 1 − (5/6)⁴, soit environ 51,8 %.",
+   "id": "t076-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel joueur pose à Pascal un problème célèbre sur les paris aux dés ?",
+   "choix": [
+    "Le chevalier de Méré",
+    "Le cardinal de Richelieu",
+    "Le duc de Saint-Simon",
+    "Le marquis de Sade"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Il s’étonnait de perdre en pariant sur un double six en vingt-quatre coups.",
+   "id": "t076-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec quel mathématicien Pascal fonde-t-il le calcul des probabilités en 1654 ?",
+   "choix": [
+    "Pierre de Fermat",
+    "René Descartes",
+    "Isaac Newton",
+    "Leibniz"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Leur correspondance porte sur le partage des mises d’une partie interrompue.",
+   "id": "t076-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel savant italien de la Renaissance écrit l’un des premiers traités sur les jeux de hasard ?",
+   "choix": [
+    "Jérôme Cardan",
+    "Léonard de Vinci",
+    "Galilée",
+    "Fibonacci"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Joueur invétéré, il rédige son Liber de ludo aleae vers 1564.",
+   "id": "t076-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel savant néerlandais publie en 1657 le premier traité imprimé de probabilités ?",
+   "choix": [
+    "Christian Huygens",
+    "Jacques Bernoulli",
+    "Spinoza",
+    "Leeuwenhoek"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Il y reprend les idées échangées par Pascal et Fermat.",
+   "id": "t076-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mathématicien démontre la loi des grands nombres dans un ouvrage publié en 1713 ?",
+   "choix": [
+    "Jacques Bernoulli",
+    "Blaise Pascal",
+    "Pierre-Simon de Laplace",
+    "Carl Friedrich Gauss"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Son Ars Conjectandi paraît après sa mort, publié par son neveu.",
+   "id": "t076-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec trois d6, quelle somme Galilée montre-t-il plus fréquente que 9 ?",
+   "choix": [
+    "10",
+    "8",
+    "11 seulement",
+    "12"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Le 10 se forme de 27 façons, le 9 de 25, sur 216 combinaisons.",
+   "id": "t076-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment appelle-t-on l’erreur qui consiste à croire qu’un résultat « doit » sortir après une longue absence ?",
+   "choix": [
+    "Le sophisme du joueur",
+    "La loi des grands nombres",
+    "Le paradoxe de Monty Hall",
+    "Le biais du survivant"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Les dés n’ont pas de mémoire : chaque lancer est indépendant.",
+   "id": "t076-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel casino la boule de roulette tombe-t-elle sur le noir vingt-six fois de suite en 1913 ?",
+   "choix": [
+    "Monte-Carlo",
+    "Las Vegas",
+    "Deauville",
+    "Baden-Baden"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Des joueurs ont perdu des fortunes en misant sur le rouge.",
+   "id": "t076-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de cases compte une roulette européenne ?",
+   "choix": [
+    "Trente-sept",
+    "Trente-six",
+    "Trente-huit",
+    "Quarante"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Les numéros vont de 0 à 36 ; le zéro donne l’avantage au casino.",
+   "id": "t076-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le jeu télévisé de Monty Hall, une fois qu’une mauvaise option a été révélée, que faut-il faire ?",
+   "choix": [
+    "Changer de choix",
+    "Garder son premier choix",
+    "Tirer à pile ou face",
+    "Abandonner le jeu"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Changer fait gagner deux fois sur trois.",
+   "id": "t076-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À partir de combien de personnes a-t-on plus d’une chance sur deux que deux soient nées le même jour ?",
+   "choix": [
+    "23",
+    "183",
+    "50",
+    "366"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "C’est le célèbre paradoxe des anniversaires.",
+   "id": "t076-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le nombre attendu de lancers pour obtenir un 6 avec un d6 ?",
+   "choix": [
+    "Six",
+    "Trois",
+    "Trois et demi",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "En moyenne, il faut autant de lancers que le dé a de faces.",
+   "id": "t076-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que montre la planche de Galton, où des billes rebondissent sur des clous ?",
+   "choix": [
+    "La courbe en cloche",
+    "La loi de Murphy",
+    "Le nombre d’or",
+    "La suite de Fibonacci"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Les billes s’accumulent au centre et se raréfient sur les bords.",
+   "id": "t076-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel théorème explique que la somme de nombreux dés tend vers une courbe en cloche ?",
+   "choix": [
+    "Le théorème central limite",
+    "Le théorème de Pythagore",
+    "Le théorème de Thalès",
+    "Le dernier théorème de Fermat"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Laplace l’a établi dans sa forme classique au début du 19e siècle.",
+   "id": "t076-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme géométrique a un d10 ?",
+   "choix": [
+    "Un trapézoèdre pentagonal",
+    "Un dodécaèdre",
+    "Un icosaèdre",
+    "Un octaèdre"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Il n’est pas un solide de Platon, contrairement aux d4, d6, d8, d12 et d20.",
+   "id": "t076-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de solides de Platon existe-t-il ?",
+   "choix": [
+    "Cinq",
+    "Quatre",
+    "Sept",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Le tétraèdre, le cube, l’octaèdre, le dodécaèdre et l’icosaèdre.",
+   "id": "t076-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel solide de Platon correspond au d20 ?",
+   "choix": [
+    "L’icosaèdre",
+    "Le dodécaèdre",
+    "L’octaèdre",
+    "Le tétraèdre"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Ses vingt faces sont des triangles équilatéraux.",
+   "id": "t076-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel site iranien a-t-on trouvé l’un des plus anciens dés à six faces connus ?",
+   "choix": [
+    "Shahr-i Sokhta",
+    "Persépolis",
+    "Suse",
+    "Pasargades"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Ce dé, trouvé avec un plateau de jeu, date d’environ cinq mille ans.",
+   "id": "t076-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec quels os d’animaux jouait-on déjà aux dés dans l’Antiquité ?",
+   "choix": [
+    "Des astragales",
+    "Des vertèbres",
+    "Des côtes",
+    "Des fémurs"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Ces petits os de cheville ont donné le jeu des osselets.",
+   "id": "t076-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle phrase latine attribuée à César évoque un coup de dés lors du passage du Rubicon ?",
+   "choix": [
+    "Alea iacta est",
+    "Veni, vidi, vici",
+    "Carpe diem",
+    "Vae victis"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Elle signifie « le dé est jeté », ou « les dés sont jetés ».",
+   "id": "t076-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot latin, désignant le dé, a donné l’adjectif français signifiant « soumis au hasard » ?",
+   "choix": [
+    "Alea",
+    "Alter",
+    "Ala",
+    "Altus"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "On le retrouve aussi dans « aléa » ; à Rome, il désignait aussi les jeux de hasard.",
+   "id": "t076-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quoi vient le mot « chance », selon l’étymologie la plus courante ?",
+   "choix": [
+    "De la chute des dés",
+    "D’un dieu romain",
+    "D’une déesse grecque",
+    "D’un mot arabe désignant l’or"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Il vient du latin populaire cadentia, « ce qui tombe ».",
+   "id": "t076-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec deux d6, quelle est la probabilité de faire 10 ou plus dans un jeu Propulsé par l’Apocalypse ?",
+   "choix": [
+    "Une chance sur six",
+    "Une chance sur deux",
+    "Une chance sur trois",
+    "Une chance sur douze"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Six combinaisons sur trente-six donnent 10, 11 ou 12.",
+   "id": "t076-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la probabilité d’obtenir un Yam’s, cinq dés identiques, en un seul lancer ?",
+   "choix": [
+    "Une chance sur 1 296",
+    "Une chance sur 7 776",
+    "Une chance sur 216",
+    "Une chance sur 36"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Six résultats gagnants sur 7 776 combinaisons possibles.",
+   "id": "t076-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désignent des dés « pipés » ?",
+   "choix": [
+    "Des dés truqués",
+    "Des dés neufs",
+    "Des dés en ivoire",
+    "Des dés géants"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Ils sont lestés ou rabotés pour favoriser certaines faces.",
+   "id": "t076-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle mesure statistique indique la valeur qui sépare un ensemble de résultats en deux moitiés égales ?",
+   "choix": [
+    "La médiane",
+    "La moyenne",
+    "Le mode",
+    "L’écart-type"
+   ],
+   "rep": 0,
+   "src": "Calculs vérifiés par dénombrement ; Blaise Pascal et Pierre de Fermat, correspondance (1654) ; Jacques Bernoulli, Ars Conjectandi (1713) ; Christian Huygens, De ratiociniis in ludo aleae (1657) ; CNRTL (étymologies de « hasard », « aléa », « chance ») ; Musée national d’Iran (dés de Shahr-i Sokhta)",
+   "expl": "Pour un d6, elle se situe entre 3 et 4, comme la moyenne.",
+   "id": "t076-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sur un d6, le 1 est opposé au 6.",
+   "rep": true,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Les faces opposées totalisent toujours 7.",
+   "id": "t076-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Avec deux d6, le 12 est aussi fréquent que le 7.",
+   "rep": false,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Faux : le 12 n’a qu’une combinaison, le 7 en a six.",
+   "id": "t076-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un d20 a la forme d’un icosaèdre.",
+   "rep": true,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "C’est le plus grand des solides de Platon.",
+   "id": "t076-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Après dix lancers sans 6, le prochain a plus de chances d’être un 6.",
+   "rep": false,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Faux : c’est le sophisme du joueur ; la probabilité reste d’un sixième.",
+   "id": "t076-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Pascal et Fermat ont échangé des lettres sur les probabilités.",
+   "rep": true,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Leur correspondance de 1654 est considérée comme fondatrice.",
+   "id": "t076-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La roulette européenne compte trente-huit cases.",
+   "rep": false,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Faux : elle en compte trente-sept ; la roulette américaine, avec son double zéro, en compte trente-huit.",
+   "id": "t076-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans le problème de Monty Hall, changer de porte double les chances.",
+   "rep": true,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "On passe d’une chance sur trois à deux chances sur trois.",
+   "id": "t076-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le d10 est un solide de Platon.",
+   "rep": false,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Faux : c’est un trapézoèdre pentagonal, aux faces en cerf-volant.",
+   "id": "t076-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La moyenne de 3d6 vaut 10,5.",
+   "rep": true,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "C’est trois fois la moyenne d’un d6, qui vaut 3,5.",
+   "id": "t076-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Avec l’avantage, la probabilité d’un 20 naturel double exactement.",
+   "rep": false,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Faux : elle passe de 5 % à 9,75 %, un peu moins du double.",
+   "id": "t076-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le mot aléatoire vient du latin alea, le dé.",
+   "rep": true,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Le jeu de dés s’appelait aussi alea à Rome.",
+   "id": "t076-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Il faut 183 personnes pour qu’un anniversaire commun soit probable.",
+   "rep": false,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Faux : 23 personnes suffisent pour dépasser une chance sur deux.",
+   "id": "t076-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les astragales servaient de dés dans l’Antiquité.",
+   "rep": true,
+   "src": "Dénombrements ; Pascal et Fermat ; Bernoulli",
+   "expl": "Leurs quatre faces stables n’avaient pas la même probabilité.",
+   "id": "t076-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Avec deux d6, la probabilité de faire un double est d’un sixième.",
+   "rep": true,
+   "src": "Dénombrements",
+   "expl": "Six doubles possibles sur trente-six combinaisons.",
+   "id": "t076-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quelle est, en pourcentage, la probabilité d’un 20 naturel sur un d20 ?",
+   "rep": 5,
+   "min": 0,
+   "max": 20,
+   "pas": 1,
+   "unite": "%",
+   "tolerance": 0,
+   "src": "Dénombrements",
+   "expl": "Un vingtième correspond à cinq pour cent.",
+   "id": "t076-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de combinaisons ordonnées donnent deux d6 ?",
+   "rep": 36,
+   "min": 6,
+   "max": 72,
+   "pas": 1,
+   "unite": "combinaisons",
+   "tolerance": 0,
+   "src": "Dénombrements",
+   "expl": "Six résultats pour le premier dé, multipliés par six pour le second.",
+   "id": "t076-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de combinaisons donnent une somme de 7 avec deux d6 ?",
+   "rep": 6,
+   "min": 1,
+   "max": 11,
+   "pas": 1,
+   "unite": "combinaisons",
+   "tolerance": 0,
+   "src": "Dénombrements",
+   "expl": "Les combinaisons sont 1 et 6, 2 et 5, 3 et 4, dans les deux sens.",
+   "id": "t076-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de combinaisons possibles donnent trois d6 ?",
+   "rep": 216,
+   "min": 18,
+   "max": 300,
+   "pas": 2,
+   "unite": "combinaisons",
+   "tolerance": 0,
+   "src": "Dénombrements",
+   "expl": "Six puissance trois, soit six fois six fois six.",
+   "id": "t076-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel est, en pourcentage arrondi, l’avantage du casino à la roulette européenne ?",
+   "rep": 2.7,
+   "min": 0,
+   "max": 10,
+   "pas": 0.1,
+   "unite": "%",
+   "tolerance": 0,
+   "src": "Dénombrements",
+   "expl": "Le zéro rend chaque pari légèrement perdant : un trente-septième de la mise.",
+   "id": "t076-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de personnes faut-il réunir pour dépasser une chance sur deux d’anniversaire commun ?",
+   "rep": 23,
+   "min": 10,
+   "max": 60,
+   "pas": 1,
+   "unite": "personnes",
+   "tolerance": 0,
+   "src": "Dénombrements",
+   "expl": "Avec 57 personnes, la probabilité dépasse déjà 99 %.",
+   "id": "t076-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Pascal et Fermat échangent-ils sur le problème des partis ?",
+   "rep": 1654,
+   "min": 1600,
+   "max": 1700,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Dénombrements",
+   "expl": "Le chevalier de Méré avait soumis la question à Pascal.",
+   "id": "t076-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de faces compte au total un set de sept dés de jeu de rôle (d4, d6, d8, deux d10, d12, d20) ?",
+   "rep": 70,
+   "min": 50,
+   "max": 90,
+   "pas": 1,
+   "unite": "faces",
+   "tolerance": 0,
+   "src": "Dénombrements",
+   "expl": "On additionne quatre, six, huit, dix, dix, douze et vingt faces.",
+   "id": "t076-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Avec deux d6, la somme la plus fréquente est ____.",
+   "choix": [
+    "sept",
+    "six",
+    "huit",
+    "douze"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Elle sort en moyenne une fois sur six lancers.",
+   "id": "t076-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le savant qui fonde les probabilités avec Pascal s’appelle Pierre de ____.",
+   "choix": [
+    "Fermat",
+    "Fermont",
+    "Format",
+    "Ferrand"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Il est aussi célèbre pour son « dernier théorème ».",
+   "id": "t076-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’erreur de croire qu’un résultat est « dû » s’appelle le sophisme du ____.",
+   "choix": [
+    "joueur",
+    "parieur",
+    "casino",
+    "hasard"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "On l’appelle aussi l’erreur de Monte-Carlo.",
+   "id": "t076-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le d20 a la forme d’un ____.",
+   "choix": [
+    "icosaèdre",
+    "dodécaèdre",
+    "octaèdre",
+    "décaèdre"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Son nom vient du grec eikosi, qui signifie vingt.",
+   "id": "t076-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le d12 a la forme d’un ____.",
+   "choix": [
+    "dodécaèdre",
+    "icosaèdre",
+    "hexaèdre",
+    "octaèdre"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Ses faces sont des pentagones réguliers.",
+   "id": "t076-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La phrase latine de César au Rubicon est Alea iacta ____.",
+   "choix": [
+    "est",
+    "sunt",
+    "erat",
+    "esse"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "César l’aurait en réalité prononcée en grec, d’après Plutarque.",
+   "id": "t076-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La loi selon laquelle la moyenne observée se stabilise avec la répétition est la loi des grands ____.",
+   "choix": [
+    "nombres",
+    "chiffres",
+    "hasards",
+    "essais"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Jacques Bernoulli en publie la première démonstration.",
+   "id": "t076-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de dés antique fait avec des os s’appelle les ____.",
+   "choix": [
+    "osselets",
+    "dominos",
+    "billes",
+    "quilles"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "On y jouait déjà en Grèce et à Rome, avec des astragales.",
+   "id": "t076-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La courbe obtenue en additionnant de nombreux dés s’appelle la courbe en ____.",
+   "choix": [
+    "cloche",
+    "arc",
+    "vague",
+    "S"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "On l’appelle aussi courbe de Gauss ou loi normale.",
+   "id": "t076-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Des dés truqués sont dits ____.",
+   "choix": [
+    "pipés",
+    "pipeau",
+    "pilés",
+    "piégés"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le mot vient de l’ancien verbe « piper », tromper.",
+   "id": "t076-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le paradoxe des portes du jeu télévisé porte le nom de Monty ____.",
+   "choix": [
+    "Hall",
+    "Hill",
+    "Hale",
+    "Hull"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Monty Hall animait l’émission américaine Let’s Make a Deal.",
+   "id": "t076-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le traité sur les jeux de hasard de Cardan s’intitule Liber de ludo ____.",
+   "choix": [
+    "aleae",
+    "alearum",
+    "ludorum",
+    "taxillorum"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Il n’est publié qu’en 1663, près d’un siècle après sa rédaction.",
+   "id": "t076-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le d10 a la forme d’un trapézoèdre ____.",
+   "choix": [
+    "pentagonal",
+    "hexagonal",
+    "décagonal",
+    "triangulaire"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Ses faces sont des cerfs-volants, sortes de losanges allongés.",
+   "id": "t076-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces dés n’est pas un solide de Platon ?",
+   "choix": [
+    "Le d10",
+    "Le d4",
+    "Le d6",
+    "Le d20"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le d10 est un trapézoèdre pentagonal, pas un solide de Platon.",
+   "id": "t076-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces sommes est impossible avec deux d6 ?",
+   "choix": [
+    "1",
+    "2",
+    "7",
+    "12"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "La plus petite somme possible est 2, avec deux as.",
+   "id": "t076-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces savants n’a pas étudié les probabilités ?",
+   "choix": [
+    "Euclide",
+    "Pascal",
+    "Fermat",
+    "Huygens"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Euclide, géomètre grec, vivait bien avant l’invention du calcul des probabilités.",
+   "id": "t076-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces probabilités est fausse pour deux d6 ?",
+   "choix": [
+    "Faire 7 : une chance sur douze",
+    "Faire 12 : une chance sur trente-six",
+    "Faire un double : une chance sur six",
+    "Faire 2 : une chance sur trente-six"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Faire 7 a en réalité une chance sur six.",
+   "id": "t076-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux ne repose pas sur le hasard ?",
+   "choix": [
+    "Les échecs",
+    "Le craps",
+    "La roulette",
+    "Le Yam’s"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Les échecs sont un jeu à information complète, sans hasard.",
+   "id": "t076-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces mesures n’est pas une mesure de position ?",
+   "choix": [
+    "L’écart-type",
+    "La moyenne",
+    "La médiane",
+    "Le mode"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "L’écart-type mesure la dispersion des résultats.",
+   "id": "t076-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces probabilités est la plus faible ?",
+   "choix": [
+    "Un 20 avec désavantage",
+    "Un 20 naturel",
+    "Un 1 naturel",
+    "Un 20 avec avantage"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Avec désavantage, il faut deux 20 : 0,25 %.",
+   "id": "t076-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mots ne vient pas du vocabulaire des dés ?",
+   "choix": [
+    "Algorithme",
+    "Aléatoire",
+    "Chance",
+    "Hasard"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Algorithme vient du nom du savant persan al-Khwârizmî.",
+   "id": "t076-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces nombres ne peut pas sortir sur un d8 ?",
+   "choix": [
+    "9",
+    "1",
+    "5",
+    "8"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Un d8 donne un résultat entier compris entre 1 et 8.",
+   "id": "t076-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets ne sert pas à produire du hasard ?",
+   "choix": [
+    "Un sablier",
+    "Un dé",
+    "Une roulette",
+    "Une pièce de monnaie"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le sablier sert à mesurer le temps qui passe.",
+   "id": "t076-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels dés sont des solides de Platon ? (plusieurs bonnes réponses)",
+   "choix": [
+    "d4",
+    "d6",
+    "d8",
+    "d20",
+    "d10",
+    "d100"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le d12, un dodécaèdre à faces pentagonales, en est un aussi.",
+   "id": "t076-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles sommes ont une chance sur trente-six avec deux d6 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "2",
+    "12",
+    "7",
+    "6",
+    "8"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Seuls le double un et le double six les produisent.",
+   "id": "t076-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels savants ont fondé le calcul des probabilités au 17e siècle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pascal",
+    "Fermat",
+    "Huygens",
+    "Euclide",
+    "Archimède"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le jeu de dés a été le premier laboratoire des probabilités.",
+   "id": "t076-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles affirmations sur un d6 équilibré sont vraies ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sa moyenne vaut 3,5",
+    "Ses faces opposées totalisent 7",
+    "Chaque face a une chance sur six",
+    "Le 6 sort plus souvent",
+    "Il se souvient des lancers"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Un dé équilibré est sans mémoire ni préférence.",
+   "id": "t076-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux de casino utilisent des dés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le craps",
+    "Le sic bo",
+    "La roulette",
+    "Le blackjack"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le sic bo, d’origine chinoise, se joue avec trois dés.",
+   "id": "t076-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels mots viennent du jeu de dés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aléatoire",
+    "Chance",
+    "Hasard",
+    "Algèbre",
+    "Zéro"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Hasard viendrait de l’arabe az-zahr, un dé, selon l’étymologie la plus répandue.",
+   "id": "t076-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles mesures décrivent la dispersion ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Écart-type",
+    "Variance",
+    "Étendue",
+    "Moyenne",
+    "Mode"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "La moyenne et le mode décrivent plutôt le centre.",
+   "id": "t076-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles probabilités sont proches de 50 % ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Au moins un 6 en quatre lancers",
+    "Anniversaire commun entre 23 personnes",
+    "Un 20 naturel",
+    "Un double six"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Elles valent environ 51,8 % et 50,7 % respectivement.",
+   "id": "t076-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels résultats sont possibles avec 3d6 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "3",
+    "10",
+    "18",
+    "2",
+    "19"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "La fourchette va de 3 à 18 avec trois dés à six faces.",
+   "id": "t076-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles erreurs de raisonnement concernent le hasard ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sophisme du joueur",
+    "Illusion des séries",
+    "Théorème de Thalès",
+    "Loi des grands nombres"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "La loi des grands nombres est un résultat juste, pas une erreur.",
+   "id": "t076-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces dés par nombre de faces croissant.",
+   "items": [
+    "d4",
+    "d8",
+    "d10",
+    "d12",
+    "d20"
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le d6 se placerait juste après le d4 dans ce classement.",
+   "id": "t076-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces savants par date de leur travail sur le hasard.",
+   "items": [
+    "Cardan",
+    "Pascal et Fermat",
+    "Huygens",
+    "Bernoulli"
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Leurs travaux datent de vers 1564, 1654, 1657 puis 1713.",
+   "id": "t076-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sommes de deux d6 de la moins probable à la plus probable.",
+   "items": [
+    "2",
+    "4",
+    "6",
+    "7"
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Une, trois, cinq puis six combinaisons sur trente-six.",
+   "id": "t076-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces probabilités de la plus faible à la plus forte.",
+   "items": [
+    "Un 20 avec désavantage",
+    "Un 20 naturel",
+    "Un 20 avec avantage",
+    "Un 7 avec deux d6"
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "0,25 %, 5 %, 9,75 % puis environ 16,7 %.",
+   "id": "t076-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces solides de Platon par nombre de faces croissant.",
+   "items": [
+    "Tétraèdre",
+    "Cube",
+    "Octaèdre",
+    "Dodécaèdre",
+    "Icosaèdre"
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Ils comptent quatre, six, huit, douze puis vingt faces.",
+   "id": "t076-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sommes de trois d6 de la moins probable à la plus probable.",
+   "items": [
+    "3",
+    "6",
+    "8",
+    "10"
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Une, dix, vingt et une puis vingt-sept combinaisons sur 216.",
+   "id": "t076-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux par nombre de dés croissant.",
+   "items": [
+    "Craps",
+    "Sic bo",
+    "Yam’s"
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "On y lance respectivement deux, trois puis cinq dés à six faces.",
+   "id": "t076-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces lancers par moyenne croissante.",
+   "items": [
+    "d4",
+    "d6",
+    "2d6",
+    "d20",
+    "4d6"
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Les moyennes valent 2,5 ; 3,5 ; 7 ; 10,5 puis 14.",
+   "id": "t076-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sommes de deux d6 de la plus probable à la moins probable.",
+   "items": [
+    "7",
+    "9",
+    "11",
+    "12"
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Six, quatre, deux puis une seule combinaison sur trente-six.",
+   "id": "t076-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque dé à son solide.",
+   "paires": [
+    [
+     "d4",
+     "Tétraèdre"
+    ],
+    [
+     "d6",
+     "Cube"
+    ],
+    [
+     "d8",
+     "Octaèdre"
+    ],
+    [
+     "d20",
+     "Icosaèdre"
+    ]
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Ces formes garantissent des faces équiprobables.",
+   "id": "t076-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque savant à son apport.",
+   "paires": [
+    [
+     "Pascal",
+     "Problème des partis"
+    ],
+    [
+     "Bernoulli",
+     "Loi des grands nombres"
+    ],
+    [
+     "Huygens",
+     "Premier traité imprimé"
+    ],
+    [
+     "Cardan",
+     "Traité sur les jeux"
+    ]
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le hasard est devenu objet de science au 17e siècle.",
+   "id": "t076-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque somme de deux d6 à son nombre de combinaisons.",
+   "paires": [
+    [
+     "2",
+     "Une"
+    ],
+    [
+     "4",
+     "Trois"
+    ],
+    [
+     "6",
+     "Cinq"
+    ],
+    [
+     "7",
+     "Six"
+    ]
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "La distribution forme un triangle parfait.",
+   "id": "t076-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mot à son origine.",
+   "paires": [
+    [
+     "Aléatoire",
+     "Alea, le dé"
+    ],
+    [
+     "Chance",
+     "Chute des dés"
+    ],
+    [
+     "Algorithme",
+     "Al-Khwârizmî"
+    ]
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Les mots du hasard gardent la trace du jeu.",
+   "id": "t076-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mesure à sa définition.",
+   "paires": [
+    [
+     "Moyenne",
+     "Somme divisée par le nombre"
+    ],
+    [
+     "Médiane",
+     "Valeur du milieu"
+    ],
+    [
+     "Mode",
+     "Valeur la plus fréquente"
+    ]
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Ces mesures décrivent le centre d’une série.",
+   "id": "t076-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque situation à sa probabilité.",
+   "paires": [
+    [
+     "20 naturel",
+     "5 %"
+    ],
+    [
+     "Double six",
+     "Environ 2,8 %"
+    ],
+    [
+     "7 avec deux d6",
+     "Environ 16,7 %"
+    ],
+    [
+     "20 avec désavantage",
+     "0,25 %"
+    ]
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Ces valeurs se calculent par simple dénombrement.",
+   "id": "t076-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque paradoxe à son idée.",
+   "paires": [
+    [
+     "Monty Hall",
+     "Changer de porte"
+    ],
+    [
+     "Anniversaires",
+     "Vingt-trois personnes"
+    ],
+    [
+     "Sophisme du joueur",
+     "Les dés n’ont pas de mémoire"
+    ]
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "L’intuition humaine se trompe souvent face au hasard.",
+   "id": "t076-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son nombre de dés.",
+   "paires": [
+    [
+     "Yam’s",
+     "Cinq"
+    ],
+    [
+     "Craps",
+     "Deux"
+    ],
+    [
+     "Sic bo",
+     "Trois"
+    ]
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le nombre de dés change toute la distribution des résultats.",
+   "id": "t076-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque méthode à sa fourchette.",
+   "paires": [
+    [
+     "3d6",
+     "De 3 à 18"
+    ],
+    [
+     "2d6",
+     "De 2 à 12"
+    ],
+    [
+     "d20",
+     "De 1 à 20"
+    ],
+    [
+     "4dF",
+     "De −4 à +4"
+    ]
+   ],
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Les dés Fudge donnent −1, 0 ou +1 chacun.",
+   "id": "t076-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dé\n2. J’ai vingt faces triangulaires\n3. Je suis un icosaèdre",
+   "choix": [
+    "Le d20",
+    "Le d12",
+    "Le d10",
+    "Le d8"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Mon 20 naturel réjouit toujours les joueurs.",
+   "id": "t076-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un savant\n2. J’ai inventé une machine à calculer\n3. J’ai fondé les probabilités avec Fermat",
+   "choix": [
+    "Blaise Pascal",
+    "René Descartes",
+    "Isaac Newton",
+    "Leibniz"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Le chevalier de Méré m’a posé un problème de dés.",
+   "id": "t076-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un paradoxe\n2. Je porte le nom d’un présentateur\n3. Il faut changer de porte",
+   "choix": [
+    "Monty Hall",
+    "Les anniversaires",
+    "Saint-Pétersbourg",
+    "Bertrand"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Même des mathématiciens chevronnés m’ont contesté.",
+   "id": "t076-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une somme\n2. Je suis la plus fréquente avec deux d6\n3. J’ai six combinaisons",
+   "choix": [
+    "Sept",
+    "Six",
+    "Huit",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Au craps, je fais gagner au premier lancer.",
+   "id": "t076-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une erreur\n2. Je crois que le hasard compense\n3. On m’associe à Monte-Carlo",
+   "choix": [
+    "Le sophisme du joueur",
+    "La loi des grands nombres",
+    "Le biais de confirmation",
+    "L’effet papillon"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Les dés, eux, n’ont aucune mémoire des lancers passés.",
+   "id": "t076-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une phrase\n2. César m’aurait prononcée\n3. Je parle de dés jetés",
+   "choix": [
+    "Alea iacta est",
+    "Veni, vidi, vici",
+    "Carpe diem",
+    "Et tu, Brute"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "Je marque le début d’une guerre civile à Rome.",
+   "id": "t076-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une forme\n2. Je ressemble à une cloche\n3. Je nais des grandes sommes de dés",
+   "choix": [
+    "La courbe de Gauss",
+    "L’hyperbole",
+    "La parabole",
+    "La sinusoïde"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "La planche de Galton me dessine avec des billes.",
+   "id": "t076-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un os\n2. Je viens de la cheville\n3. Je servais de dé dans l’Antiquité",
+   "choix": [
+    "L’astragale",
+    "Le fémur",
+    "La rotule",
+    "L’omoplate"
+   ],
+   "rep": 0,
+   "src": "Dénombrements ; Pascal ; Bernoulli",
+   "expl": "J’ai donné mon nom à un jeu d’enfants, les osselets.",
+   "id": "t076-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
