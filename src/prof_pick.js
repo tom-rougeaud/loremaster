@@ -7,7 +7,7 @@ function saveSetup(){store.set("mj",P);}
 function teamNames(){var a=P.tnames&&P.tnames.length?P.tnames:[];return TEAMS.map(function(t,i){return a[i]||t.n;});}
 
 var DURS=[[0,"Auto"],[15,"15 s"],[30,"30 s"],[60,"1 min"],[120,"2 min"]];
-var NQS=[5,10,15,20];
+var NQS=[5,10,15,20,30,40,50,100];
 var TPS=[["c","QCM"],["v","Vrai ou faux"],["s","Curseur"],["i","Intrus"],["h","Texte à trous"],["w","Qui suis-je ?"],["m","Réponses multiples"],["o","Remettre dans l’ordre"],["a","Association"],["p","Pari"]];
 /* niveau : mélangé (défaut), progressif (du plus facile au plus difficile) ou un seul niveau, strictement */
 var DFS=[["mix","Mélangé"],["prog","Progressif"],["1","★ Débutant"],["2","★★ Initié"],["3","★★★ Expert"]];

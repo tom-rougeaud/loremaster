@@ -117,10 +117,13 @@
       <h1 class="big-t">S’entraîner en solo</h1>
       <p class="muted">Sans connexion, à ton rythme. Rien n’est envoyé : ta fiche reste sur cet appareil.</p>
       <label class="lbl">Royaume</label><div class="seg" id="tr-niv"></div>
-      <label class="lbl">Thème</label><select class="inp" id="tr-chap"></select>
+      <label class="lbl">Thèmes · <span class="muted small" id="tr-selinfo"></span></label>
+      <div class="search"><input class="inp" id="tr-search" type="search" placeholder="Rechercher un thème : dragons, sorts…" autocomplete="off"></div>
+      <div class="pick-actions"><button type="button" class="btn btn-sm btn-soft" id="tr-surprise">Surprends-moi</button><button type="button" class="btn btn-sm btn-ghost" id="tr-clear">Tout décocher</button><button type="button" class="btn btn-sm btn-soft hidden" id="tr-rev"></button></div>
+      <div id="tr-tree" class="tree"></div>
       <label class="lbl">Nombre de questions</label><div class="seg" id="tr-nq"></div>
       <label class="lbl">Niveau des questions</label><div class="seg" id="tr-lv"></div><p class="muted small">« Progressif » s’adapte à tes réussites ; un niveau précis ne donne que des questions de ce niveau.</p>
-      <label class="lbl">Type de questions</label><div class="seg" id="tr-fmt"></div>
+      <label class="lbl">Types de questions <span class="muted small">(un ou plusieurs)</span></label><div class="seg" id="tr-fmt"></div>
       <label class="sw"><input type="checkbox" id="tr-dark"><i></i>Inclure les thèmes sombres (horreur, crimes, occulte…)</label>
       <div class="alt"><button type="button" class="btn btn-ghost" id="tr-back">← Retour</button><button type="button" class="btn btn-go btn-big" id="tr-go">C’est parti !</button></div>
     </div>

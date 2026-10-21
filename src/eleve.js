@@ -529,42 +529,99 @@ setInterval(function(){
 },30000);
 
 /* ═══ 7. ENTRAÎNEMENT AUTONOME (hors ligne) ═══ */
-var TR={niv:"all",chap:"",nq:10,fmt:"mix",prog:false,dark:false,lv:"mix"};
+var TR={niv:"all",sel:[],rev:false,nq:10,fmt:"chimosvwa",prog:false,dark:false,lv:"mix"};
+var TR_TPS=[["c","QCM"],["v","Vrai ou faux"],["s","Curseur"],["i","Intrus"],["h","Texte à trous"],["w","Qui suis-je ?"],["m","Réponses multiples"],["o","Remettre dans l’ordre"],["a","Association"]];
+var TR_ALL=TR_TPS.map(function(x){return x[0];}).sort().join(""),TR_NQS=[5,10,20,30,40,50,100],TR_OPEN={},TR_KEYS={};
 function openTrain(){
-  var t=store.get("train2",null);if(t)for(var k in TR)if(t[k]!==undefined)TR[k]=t[k];
+  var t=store.get("train2",null);if(t&&typeof t==="object")for(var k in TR)if(t[k]!==undefined)TR[k]=t[k];
+  /* anciennes versions : un seul thème (chap) et un seul type (fmt) */
+  if(t&&t.chap){if(t.chap==="__rev")TR.rev=true;else if(ITEM_BY_ID[t.chap]&&!(t.sel&&t.sel.length))TR.sel=[t.chap];}
+  if(!Array.isArray(TR.sel))TR.sel=[];
+  TR.sel=TR.sel.filter(function(id){return !!ITEM_BY_ID[id]&&!HIDDEN[id];});
+  TR.fmt=String(TR.fmt||"").split("").filter(function(c){return TR_ALL.indexOf(c)>=0;}).sort().join("");if(!TR.fmt)TR.fmt=TR_ALL;
+  if(TR_NQS.indexOf(+TR.nq)<0)TR.nq=10;
   if(TR.niv!=="all"&&!ROY_BY_ID[TR.niv])TR.niv="all";
   if(["mix","prog","1","2","3"].indexOf(String(TR.lv))<0)TR.lv="mix";TR.lv=String(TR.lv);TR.prog=TR.lv==="prog";
+  if(typeof ICO!=="undefined"&&ICO.dice)$("tr-surprise").innerHTML=ICO.dice+"Surprends-moi";
   renderTrain();show("s-train");
 }
-function trThemes(){return BANK.filter(function(it){return (TR.niv==="all"||it.roy===TR.niv)&&(TR.dark||!it.dark);});}
+function trSave(){store.set("train2",TR);}
+function trThemes(){return BANK.filter(function(it){return (TR.niv==="all"||it.roy===TR.niv)&&(TR.dark||!it.dark)&&!HIDDEN[it.id];});}
+function trNorm(s){s=String(s||"").toLowerCase();return s.normalize?s.normalize("NFD").replace(/[̀-ͯ]/g,""):s;}
+function trIco(it){var t=(typeof TICO!=="undefined"&&TICO)?(TICO[it.ico]||TICO.des||""):"";return t?'<span class="tico" aria-hidden="true">'+t+"</span>":"";}
+function renderTrTree(){
+  var q=trNorm(($("tr-search").value||"").trim()),h="",any=false;TR_KEYS={};
+  var tree=(typeof buildTree==="function")?buildTree({dark:TR.dark}):[];
+  tree.forEach(function(br){
+    if(TR.niv!=="all"&&br.niv.id!==TR.niv)return;
+    var items=[];br.chaps.forEach(function(ch){items=items.concat(ch.items.filter(function(it){return !HIDDEN[it.id]&&(!q||trNorm(it.titre+" "+(it.chap||"")).indexOf(q)>=0);}));});
+    if(!items.length)return;any=true;
+    var key=br.niv.id;TR_KEYS[key]=items;
+    var ns=items.filter(function(it){return TR.sel.indexOf(it.id)>=0;}).length,open=q||(TR_OPEN[key]!==undefined?TR_OPEN[key]:(TR.niv!=="all"||ns>0));
+    h+='<details class="acc chap" data-k="'+esc(key)+'" style="--lc:'+br.niv.color+'"'+(open?" open":"")+'><summary><input type="checkbox" class="chk" data-key="'+esc(key)+'" '+(ns===items.length?"checked":"")+' aria-label="Tout le royaume « '+esc(br.niv.nom)+' »"><span class="cn">'+esc(br.niv.label)+'</span><span class="cnt'+(ns?"":" z")+'">'+ns+" / "+items.length+'</span></summary><div class="subs"><div class="items">'+
+      items.map(function(it){var on=TR.sel.indexOf(it.id)>=0;return '<label class="it'+(on?" sel":"")+'" data-id="'+it.id+'"><input type="checkbox" '+(on?"checked ":"")+'><span class="nm">'+trIco(it)+" "+esc(it.titre)+(it.dark?' <span class="tag t-coral">sombre</span>':"")+'</span><span class="tag">'+it.nvar+" q.</span></label>";}).join("")+"</div></div></details>";
+  });
+  $("tr-tree").innerHTML=any?h:'<div class="none">Aucun thème ne correspond.</div>';
+  trSelInfo();
+}
+function trSelInfo(){
+  var n=TR.sel.length,wk=weakNotions().length;
+  $("tr-selinfo").textContent=TR.rev?"Révision : tes thèmes les plus fragiles":(n?n+" thème"+(n>1?"s":"")+" coché"+(n>1?"s":""):"Aucun thème coché : quelques thèmes seront tirés au hasard");
+  $("tr-rev").classList.toggle("hidden",!wk);
+  $("tr-rev").classList.toggle("on",!!TR.rev);
+  $("tr-rev").textContent=TR.rev?"★ Révision activée ("+wk+" thème"+(wk>1?"s":"")+" fragile"+(wk>1?"s":"")+")":"★ À revoir : mes "+wk+" thème"+(wk>1?"s":"")+" fragile"+(wk>1?"s":"");
+}
 function renderTrain(){
   $("tr-niv").innerHTML='<button type="button" data-v="all"'+(TR.niv==="all"?' class="on"':"")+">Tous</button>"+NIVEAUX.map(function(n){return '<button type="button" data-v="'+n.id+'"'+(TR.niv===n.id?' class="on"':"")+">"+esc(n.court)+"</button>";}).join("");
-  var ths=trThemes(),wk=weakNotions();
-  if(TR.chap==="__rev"&&!wk.length)TR.chap="";
-  if(TR.chap&&TR.chap!=="__rev"&&!ths.some(function(it){return it.id===TR.chap;}))TR.chap="";
-  $("tr-chap").innerHTML=(wk.length?'<option value="__rev"'+(TR.chap==="__rev"?" selected":"")+">★ À revoir : mes "+wk.length+" thème"+(wk.length>1?"s":"")+" fragile"+(wk.length>1?"s":"")+"</option>":"")+'<option value=""'+(TR.chap===""?" selected":"")+'>Tous les thèmes</option>'+ths.map(function(it){return '<option value="'+it.id+'"'+(TR.chap===it.id?" selected":"")+">"+esc(it.titre)+"</option>";}).join("");
-  $("tr-nq").innerHTML=[5,10,20].map(function(n){return '<button type="button" data-v="'+n+'"'+(TR.nq===n?' class="on"':"")+">"+n+"</button>";}).join("");
-  $("tr-fmt").innerHTML=[["mix","Mixte"],["c","QCM"],["v","Vrai ou faux"],["s","Curseur"],["i","Intrus"],["h","Texte à trous"],["w","Qui suis-je ?"],["m","Réponses multiples"],["o","Remettre dans l’ordre"],["a","Association"]].map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(TR.fmt===x[0]?' class="on"':"")+">"+x[1]+"</button>";}).join("");
+  if(!weakNotions().length)TR.rev=false;
+  renderTrTree();
+  $("tr-nq").innerHTML=TR_NQS.map(function(n){return '<button type="button" data-v="'+n+'"'+(+TR.nq===n?' class="on"':"")+">"+n+"</button>";}).join("");
+  var all=TR.fmt===TR_ALL;
+  $("tr-fmt").innerHTML='<button type="button" data-all="1"'+(all?' class="on"':"")+">Tous les types</button>"+TR_TPS.map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(TR.fmt.indexOf(x[0])>=0&&!all?' class="on"':"")+">"+x[1]+"</button>";}).join("");
   $("tr-lv").innerHTML=[["mix","Mélangé"],["prog","Progressif"],["1","★ Débutant"],["2","★★ Initié"],["3","★★★ Expert"]].map(function(x){return '<button type="button" data-v="'+x[0]+'"'+(String(TR.lv)===x[0]?' class="on"':"")+">"+x[1]+"</button>";}).join("");
   $("tr-dark").checked=TR.dark;
 }
-$("tr-niv").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.niv=b.getAttribute("data-v");TR.chap="";renderTrain();});
-$("tr-lv").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.lv=b.getAttribute("data-v");TR.prog=TR.lv==="prog";renderTrain();});
-$("tr-nq").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.nq=+b.getAttribute("data-v");renderTrain();});
-$("tr-fmt").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.fmt=b.getAttribute("data-v");renderTrain();});
-$("tr-chap").addEventListener("change",function(){TR.chap=this.value;});
-$("tr-dark").addEventListener("change",function(){TR.dark=this.checked;renderTrain();});
+function trToggle(id,on){var i=TR.sel.indexOf(id);if(on&&i<0)TR.sel.push(id);if(!on&&i>=0)TR.sel.splice(i,1);}
+$("tr-niv").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.niv=b.getAttribute("data-v");trSave();renderTrain();});
+$("tr-tree").addEventListener("change",function(e){
+  var t=e.target;
+  if(t.matches("input.chk")){(TR_KEYS[t.getAttribute("data-key")]||[]).forEach(function(it){trToggle(it.id,t.checked);});TR.rev=false;trSave();renderTrTree();return;}
+  var row=t.closest(".it");if(!row)return;
+  trToggle(row.getAttribute("data-id"),t.checked);TR.rev=false;trSave();renderTrTree();
+});
+$("tr-tree").addEventListener("click",function(e){if(e.target.closest("input.chk"))e.stopPropagation();});
+$("tr-tree").addEventListener("toggle",function(e){var d=e.target;if(d.matches&&d.matches("details.chap"))TR_OPEN[d.getAttribute("data-k")]=d.open;},true);
+$("tr-search").addEventListener("input",function(){clearTimeout(this._t);this._t=setTimeout(renderTrTree,150);});
+$("tr-clear").addEventListener("click",function(){TR.sel=[];TR.rev=false;trSave();renderTrTree();});
+$("tr-surprise").addEventListener("click",function(){
+  var pool=trThemes();if(!pool.length){toast("Aucun thème disponible.");return;}
+  TR.sel=shuffle(Math.random,pool).slice(0,Math.min(4,pool.length)).map(function(it){return it.id;});TR.rev=false;TR_OPEN={};trSave();renderTrTree();
+  toast(TR.sel.length+" thèmes tirés au sort.");
+});
+$("tr-rev").addEventListener("click",function(){TR.rev=!TR.rev;trSave();trSelInfo();});
+$("tr-lv").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.lv=b.getAttribute("data-v");TR.prog=TR.lv==="prog";trSave();renderTrain();});
+$("tr-nq").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;TR.nq=+b.getAttribute("data-v");trSave();renderTrain();});
+/* types : plusieurs au choix, au moins un ; tout cocher revient à « tous les types » */
+$("tr-fmt").addEventListener("click",function(e){
+  var b=e.target.closest("button");if(!b)return;
+  if(b.getAttribute("data-all")){TR.fmt=TR_ALL;trSave();renderTrain();return;}
+  var v=b.getAttribute("data-v"),cur=TR.fmt===TR_ALL?"":TR.fmt;
+  if(cur.indexOf(v)>=0){if(cur.length<=1){toast("Garde au moins un type coché.");return;}cur=cur.replace(v,"");}else cur=(cur+v).split("").sort().join("");
+  TR.fmt=cur||TR_ALL;trSave();renderTrain();
+});
+$("tr-dark").addEventListener("change",function(){TR.dark=this.checked;if(!TR.dark)TR.sel=TR.sel.filter(function(id){return !ITEM_BY_ID[id].dark;});trSave();renderTrain();});
 $("tr-back").addEventListener("click",function(){show(S.ch?"s-lobby":"s-code");});
-$("tr-go").addEventListener("click",function(){store.set("train2",TR);SND.unlock();startTrain();});
+$("tr-go").addEventListener("click",function(){trSave();SND.unlock();startTrain();});
 function trainItems(){
-  if(TR.chap==="__rev"){var w=weakNotions().slice(0,8).map(function(x){return ITEM_BY_ID[x.id];}).filter(function(it){return it&&!HIDDEN[it.id];});if(w.length)return w;}
-  if(TR.chap&&ITEM_BY_ID[TR.chap])return [ITEM_BY_ID[TR.chap]];
+  if(TR.rev){var w=weakNotions().slice(0,8).map(function(x){return ITEM_BY_ID[x.id];}).filter(function(it){return it&&!HIDDEN[it.id];});if(w.length)return w;}
+  var sel=TR.sel.map(function(id){return ITEM_BY_ID[id];}).filter(function(it){return it&&!HIDDEN[it.id]&&(TR.dark||!it.dark);});
+  if(sel.length)return sel;
   return trThemes();
 }
 function startTrain(){
   var items=trainItems();if(!items.length){toast("Aucun thème pour ce choix.","ko");return;}
-  /* « tous les thèmes » : 8 thèmes tirés au sort, pour ne charger que ce qui servira */
-  if(items.length>8)items=shuffle(Math.random,items).slice(0,8);
+  /* aucun thème coché : 8 thèmes tirés au sort, pour ne charger que ce qui servira */
+  if(!TR.rev&&!TR.sel.length&&items.length>8)items=shuffle(Math.random,items).slice(0,8);
   var b=$("tr-go");b.disabled=true;
   ensureThemes(items.map(function(it){return it.id;}),function(err){
     b.disabled=false;
@@ -583,12 +640,12 @@ function startTrainWith(items){
 function trainPickQuestion(){
   var T=S.train,H=store.get("hist_tr",null);if(!H||typeof H!=="object"||!H.t)H={n:1,t:{}};
   var pool=[];
-  T.items.forEach(function(it){(it.Q||[]).forEach(function(q){if(!T.seen[q.i]&&(TR.fmt==="mix"||q.t===TR.fmt))pool.push({q:q,it:it,rank:H.t[q.i]||0});});});
+  T.items.forEach(function(it){(it.Q||[]).forEach(function(q){if(!T.seen[q.i]&&TR.fmt.indexOf(q.t)>=0)pool.push({q:q,it:it,rank:H.t[q.i]||0});});});
   if(!pool.length)return null;
   /* niveau précis : strictement ce niveau */
   if(+TR.lv>=1){var L=+TR.lv;pool=pool.filter(function(p){return p.q.n===L;});if(!pool.length)return null;}
   var cand=pool;
-  if(TR.lv==="prog"&&TR.chap!=="__rev"){var at=pool.filter(function(p){return p.q.n===T.lvl;});if(!at.length)at=pool.filter(function(p){return Math.abs(p.q.n-T.lvl)<=1;});if(at.length)cand=at;}
+  if(TR.lv==="prog"&&!TR.rev){var at=pool.filter(function(p){return p.q.n===T.lvl;});if(!at.length)at=pool.filter(function(p){return Math.abs(p.q.n-T.lvl)<=1;});if(at.length)cand=at;}
   var mn=Math.min.apply(null,cand.map(function(p){return p.rank;}));
   cand=cand.filter(function(p){return p.rank===mn;});
   var p=cand[Math.floor(Math.random()*cand.length)];
