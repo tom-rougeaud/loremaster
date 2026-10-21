@@ -1,0 +1,2313 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "des-mecaniques-dnd",
+  "nom": "Dés, caractéristiques et mécaniques",
+  "royaume": "Règles et univers de D&D",
+  "icone": "des",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel dé lance-t-on pour un jet d’attaque ?",
+   "choix": [
+    "d20",
+    "d12",
+    "d10",
+    "d6"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1, 7 et 9 ; SRD 5.1",
+   "expl": "Attaques, tests de caractéristique et jets de sauvegarde reposent tous sur le d20 : c’est le cœur du système.",
+   "id": "t018-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dé de jeu de rôle a la forme d’une pyramide ?",
+   "choix": [
+    "d4",
+    "d6",
+    "d8",
+    "d10"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1, 7 et 9 ; SRD 5.1",
+   "expl": "Le d4 est un tétraèdre : il roule mal et pique les pieds de qui marche dessus.",
+   "id": "t018-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dé de jeu de rôle est un dodécaèdre ?",
+   "choix": [
+    "d12",
+    "d10",
+    "d20",
+    "d8"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1, 7 et 9 ; SRD 5.1",
+   "expl": "Le dodécaèdre a douze faces pentagonales ; en 5e, il sert surtout au dé de vie du barbare et à la hache à deux mains.",
+   "id": "t018-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Sur un d20 standard, quelle est la somme de deux faces opposées ?",
+   "choix": [
+    "21",
+    "20",
+    "19",
+    "10"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « dice »",
+   "expl": "Comme les faces opposées d’un d6 font 7, celles d’un d20 bien numéroté font toujours 21.",
+   "id": "t018-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur un dé à six faces classique, quelle est la somme de deux faces opposées ?",
+   "choix": [
+    "7",
+    "6",
+    "12",
+    "8"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), introduction « Les dés de jeu »",
+   "expl": "Le 1 fait face au 6, le 2 au 5 et le 3 au 4 : la règle remonte à l’Antiquité.",
+   "id": "t018-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment obtient-on un résultat de 1 à 100 avec des dés ?",
+   "choix": [
+    "Deux d10, pour les dizaines et les unités",
+    "Cinq d20 additionnés les uns aux autres",
+    "Un d12 multiplié par huit",
+    "Dix d10 additionnés les uns aux autres"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), introduction « Les dés de jeu »",
+   "expl": "C’est le d100 ou « dé de pourcentage » ; un 00 et un 0 donnent 100.",
+   "id": "t018-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de caractéristiques un personnage de D&D 5e possède-t-il ?",
+   "choix": [
+    "6",
+    "4",
+    "5",
+    "8"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Force, Dextérité, Constitution, Intelligence, Sagesse et Charisme.",
+   "id": "t018-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel modificateur correspond à une valeur de 14 ?",
+   "choix": [
+    "+2",
+    "+1",
+    "+3",
+    "+4"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Le modificateur vaut (valeur − 10) / 2, arrondi à l’inférieur : 14 et 15 donnent +2.",
+   "id": "t018-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel modificateur correspond à une valeur de 8 ?",
+   "choix": [
+    "−1",
+    "0",
+    "−2",
+    "−4"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "8 et 9 donnent −1 : c’est la valeur la plus basse de la série standard.",
+   "id": "t018-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel modificateur correspond à une valeur de 1 ?",
+   "choix": [
+    "−5",
+    "−4",
+    "−3",
+    "−6"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "C’est le plus bas possible ; à l’autre bout, 30 donne +10.",
+   "id": "t018-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est la série standard de valeurs de caractéristique ?",
+   "choix": [
+    "15, 14, 13, 12, 10, 8",
+    "16, 14, 12, 12, 10, 8",
+    "15, 15, 13, 12, 10, 8",
+    "14, 14, 14, 12, 10, 10"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "On répartit ces six valeurs à sa guise avant d’ajouter les bonus raciaux.",
+   "id": "t018-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de points dépense-t-on avec la méthode de l’achat de points ?",
+   "choix": [
+    "27",
+    "20",
+    "25",
+    "32"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Chaque valeur part de 8 et ne peut dépasser 15 avant les bonus raciaux.",
+   "id": "t018-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la méthode de tirage des caractéristiques proposée en premier par le Manuel des Joueurs 5e ?",
+   "choix": [
+    "Lancer 4d6 et garder les 3 meilleurs",
+    "Lancer 3d6 et relancer les 1",
+    "Lancer 2d6 et ajouter 6",
+    "Lancer 1d20 et garder le résultat"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "On répète l’opération six fois ; la série standard et l’achat de points sont les alternatives.",
+   "id": "t018-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle valeur maximale un personnage peut-il atteindre dans une caractéristique, sans magie ?",
+   "choix": [
+    "20",
+    "18",
+    "24",
+    "30"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Les augmentations de caractéristique ne dépassent pas 20 ; certains objets ou bienfaits épiques vont au-delà.",
+   "id": "t018-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelle est la valeur maximale absolue d’une caractéristique ?",
+   "choix": [
+    "30",
+    "20",
+    "25",
+    "40"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Seules quelques divinités et créatures légendaires atteignent ce sommet, qui donne +10.",
+   "id": "t018-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle caractéristique sert à l’initiative ?",
+   "choix": [
+    "Dextérité",
+    "Sagesse",
+    "Intelligence",
+    "Charisme"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "L’initiative est un test de Dextérité lancé au début du combat.",
+   "id": "t018-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle caractéristique n’est associée à aucune compétence ?",
+   "choix": [
+    "Constitution",
+    "Force",
+    "Charisme",
+    "Sagesse"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "La Constitution sert aux points de vie, à la concentration et aux sauvegardes contre le poison ou la fatigue.",
+   "id": "t018-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle compétence dépend de la Force ?",
+   "choix": [
+    "Athlétisme",
+    "Acrobaties",
+    "Survie",
+    "Intimidation"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "L’Athlétisme couvre l’escalade, la nage, le saut et la lutte ; c’est la seule compétence de Force.",
+   "id": "t018-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quelle caractéristique l’Intuition est-elle liée ?",
+   "choix": [
+    "Sagesse",
+    "Intelligence",
+    "Charisme",
+    "Dextérité"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "L’Intuition sert à deviner les intentions et à détecter un mensonge.",
+   "id": "t018-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quelle caractéristique l’Investigation est-elle liée ?",
+   "choix": [
+    "Intelligence",
+    "Sagesse",
+    "Dextérité",
+    "Charisme"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "On déduit et on cherche des indices avec l’Intelligence ; on les remarque avec la Perception (Sagesse).",
+   "id": "t018-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, à quelle caractéristique le Dressage est-il lié ?",
+   "choix": [
+    "Sagesse",
+    "Charisme",
+    "Force",
+    "Intelligence"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Calmer une monture ou deviner les intentions d’un animal relève de la Sagesse.",
+   "id": "t018-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de compétences le Manuel des Joueurs 5e (2014) compte-t-il ?",
+   "choix": [
+    "18",
+    "12",
+    "20",
+    "24"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Une de Force, trois de Dextérité, cinq d’Intelligence, cinq de Sagesse et quatre de Charisme.",
+   "id": "t018-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que fait l’Expertise du roublard ou du barde ?",
+   "choix": [
+    "Elle double le bonus de maîtrise",
+    "Elle ajoute +5 au test",
+    "Elle donne l’avantage permanent",
+    "Elle permet de relancer les 1"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Un roublard de niveau 1 avec Expertise ajoute +4 au lieu de +2 à ses tests de Discrétion, par exemple.",
+   "id": "t018-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, comment calcule-t-on le DD de sauvegarde des sorts ?",
+   "choix": [
+    "8 + maîtrise + modificateur",
+    "10 + maîtrise + modificateur",
+    "8 + niveau du sort + modificateur",
+    "12 + modificateur"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Le modificateur est celui de la caractéristique d’incantation : Intelligence, Sagesse ou Charisme selon la classe.",
+   "id": "t018-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de réussites aux jets contre la mort faut-il pour se stabiliser ?",
+   "choix": [
+    "3",
+    "2",
+    "1",
+    "5"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Trois réussites stabilisent, trois échecs tuent ; on lance un d20 contre un DD de 10.",
+   "id": "t018-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, que se passe-t-il sur un 20 naturel à un jet contre la mort ?",
+   "choix": [
+    "Le personnage reprend 1 PV",
+    "Deux réussites sont cochées",
+    "Le personnage meurt",
+    "Il se stabilise à 0 PV"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Il reprend 1 PV et revient à lui ; un 1 naturel compte au contraire comme deux échecs.",
+   "id": "t018-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le DD d’un jet contre la mort ?",
+   "choix": [
+    "10",
+    "15",
+    "12",
+    "5"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "10 ou plus : réussite. La moitié des jets réussissent donc, hors 1 et 20 naturels.",
+   "id": "t018-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que double un coup critique ?",
+   "choix": [
+    "Les dés de dégâts",
+    "Le modificateur de dégâts",
+    "Le total des dégâts",
+    "Le nombre d’attaques"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "On lance deux fois les dés de dégâts, puis on ajoute une seule fois les modificateurs.",
+   "id": "t018-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel bonus de CA donne un abri partiel ?",
+   "choix": [
+    "+2",
+    "+1",
+    "+5",
+    "+3"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Un muret ou une créature entre l’attaquant et la cible suffit à offrir un abri partiel.",
+   "id": "t018-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel bonus de CA donne un abri important ?",
+   "choix": [
+    "+5",
+    "+3",
+    "+4",
+    "+2"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "L’abri important couvre les trois quarts de la cible, comme une meurtrière ; l’abri total empêche tout ciblage direct.",
+   "id": "t018-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e (2014), combien de niveaux l’épuisement compte-t-il ?",
+   "choix": [
+    "6",
+    "3",
+    "5",
+    "10"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Les effets se cumulent ; au niveau 6, la créature meurt.",
+   "id": "t018-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e (2014), quel effet le niveau 4 d’épuisement ajoute-t-il ?",
+   "choix": [
+    "PV maximum réduits de moitié",
+    "Vitesse réduite à 0",
+    "Désavantage aux tests",
+    "Mort"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Niveau 1 : tests ; 2 : vitesse ÷ 2 ; 3 : attaques et sauvegardes ; 4 : PV max ÷ 2 ; 5 : vitesse 0 ; 6 : mort.",
+   "id": "t018-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de réactions une créature peut-elle faire par round ?",
+   "choix": [
+    "1",
+    "2",
+    "0",
+    "Autant que d’attaques"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Attaque d’opportunité, sort de bouclier ou contresort : il faut choisir, la réaction revient au début de son tour.",
+   "id": "t018-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle action impose le désavantage aux attaques contre vous jusqu’à votre prochain tour ?",
+   "choix": [
+    "Esquiver",
+    "Se désengager",
+    "Foncer",
+    "Aider"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Esquiver donne aussi l’avantage aux jets de sauvegarde de Dextérité, tant qu’on voit l’attaquant.",
+   "id": "t018-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle action évite les attaques d’opportunité pendant son déplacement ?",
+   "choix": [
+    "Se désengager",
+    "Esquiver",
+    "Se cacher",
+    "Se tenir prêt"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Se désengager permet de quitter le contact d’un ennemi sans lui offrir d’attaque gratuite.",
+   "id": "t018-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, que coûte un déplacement en terrain difficile ?",
+   "choix": [
+    "Chaque mètre en coûte deux",
+    "Chaque mètre en coûte trois",
+    "La vitesse tombe à 0",
+    "Rien, sauf en combat"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Broussailles, gravats ou neige profonde doublent le coût du mouvement.",
+   "id": "t018-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de dégâts inflige une chute ?",
+   "choix": [
+    "1d6 par tranche de 3 m",
+    "1d10 par tranche de 3 m",
+    "1d6 par mètre",
+    "2d6 par tranche de 3 m"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "La créature tombe aussi à terre, sauf si elle évite les dégâts.",
+   "id": "t018-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel est le plafond des dégâts de chute ?",
+   "choix": [
+    "20d6",
+    "10d6",
+    "30d6",
+    "12d6"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Le plafond est atteint à 60 m de chute ; au-delà, la hauteur ne change plus rien.",
+   "id": "t018-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel DD faut-il battre pour garder sa concentration après avoir subi des dégâts ?",
+   "choix": [
+    "10 ou la moitié des dégâts, le plus élevé",
+    "Toujours 15, quels que soient les dégâts",
+    "Le total des dégâts subis",
+    "10 + le niveau du sort"
+   ],
+   "rep": 0,
+   "src": "Advanced Dungeons & Dragons 2nd Edition Player’s Handbook (TSR, 1989)",
+   "expl": "Il s’agit d’un jet de sauvegarde de Constitution ; chaque source de dégâts impose un jet séparé.",
+   "id": "t018-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans AD&D, que signifie le TAC0 (THAC0) ?",
+   "choix": [
+    "Le jet nécessaire pour toucher une CA de 0",
+    "Le total de points de vie de départ",
+    "Le bonus de maîtrise du personnage",
+    "Le nombre d’attaques par round"
+   ],
+   "rep": 0,
+   "src": "Advanced Dungeons & Dragons 2nd Edition Player’s Handbook (TSR, 1989)",
+   "expl": "On soustrait la CA de la cible au TAC0 pour connaître le nombre à atteindre sur le d20.",
+   "id": "t018-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans AD&D, que signifie une classe d’armure plus basse ?",
+   "choix": [
+    "Une meilleure protection",
+    "Une protection moindre",
+    "Un malus de vitesse",
+    "Rien de particulier"
+   ],
+   "rep": 0,
+   "src": "Call of Cthulhu 7th Edition Keeper Rulebook (Chaosium, 2014)",
+   "expl": "La CA descendait de 10 (sans armure) vers 0 et même en dessous ; la 3e édition l’a rendue croissante.",
+   "id": "t018-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans L’Appel de Cthulhu, quel dé lance-t-on pour un test de compétence ?",
+   "choix": [
+    "d100",
+    "d20",
+    "3d6",
+    "2d6"
+   ],
+   "rep": 0,
+   "src": "Fate Core System (Evil Hat Productions, 2013)",
+   "expl": "Il faut obtenir un résultat inférieur ou égal à sa compétence, exprimée en pourcentage.",
+   "id": "t018-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels dés utilise le jeu Fate ?",
+   "choix": [
+    "Des dés Fudge marqués +, − ou vierges",
+    "Des dés à vingt faces",
+    "Des dés de pourcentage",
+    "Des d10 qui explosent"
+   ],
+   "rep": 0,
+   "src": "Steve Jackson, GURPS Basic Set, 4e éd. (Steve Jackson Games, 2004)",
+   "expl": "On lance quatre dés Fudge (4dF) : le résultat va de −4 à +4.",
+   "id": "t018-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans GURPS, comment réussit-on un test ?",
+   "choix": [
+    "En obtenant sa compétence ou moins sur 3d6",
+    "En dépassant un DD avec 1d20",
+    "En obtenant un 6 sur un d6",
+    "En faisant 10 ou plus sur 2d6"
+   ],
+   "rep": 0,
+   "src": "Shadowrun, Fifth Edition (Catalyst Game Labs, 2013)",
+   "expl": "La courbe en cloche de 3d6 rend les résultats extrêmes rares : 3 et 4 sont toujours des réussites critiques.",
+   "id": "t018-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Shadowrun (5e édition), quels résultats d’un d6 comptent comme succès ?",
+   "choix": [
+    "5 et 6",
+    "6 seulement",
+    "4, 5 et 6",
+    "1 seulement"
+   ],
+   "rep": 0,
+   "src": "Savage Worlds Adventure Edition (Pinnacle Entertainment, 2018)",
+   "expl": "On lance une réserve de d6 et on compte les « succès » ; trop de 1 provoquent une complication.",
+   "id": "t018-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que se passe-t-il quand un dé « explose » ?",
+   "choix": [
+    "On le relance et on ajoute le résultat",
+    "On le retire de la partie",
+    "On perd son tour",
+    "Le MJ choisit le résultat"
+   ],
+   "rep": 0,
+   "src": "Pathfinder Core Rulebook, 2e éd. (Paizo, 2019)",
+   "expl": "Dans Savage Worlds, un dé qui donne son maximum « explose » : on relance et on additionne, sans limite.",
+   "id": "t018-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Pathfinder 2e, comment obtient-on une réussite critique ?",
+   "choix": [
+    "En dépassant le DD de 10 ou plus",
+    "En obtenant un double sur deux d20",
+    "En lançant trois dés au lieu d’un",
+    "En égalant exactement le DD"
+   ],
+   "rep": 0,
+   "src": "Mike Mearls et Jeremy Crawford, Player’s Handbook 5e (2014) ; D&D Next playtest (2012-2014)",
+   "expl": "Rater de 10 ou plus donne un échec critique ; un 20 ou un 1 naturel décale le résultat d’un cran.",
+   "id": "t018-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle édition de D&D a introduit l’avantage et le désavantage ?",
+   "choix": [
+    "La 5e édition",
+    "La 3e édition",
+    "La 4e édition",
+    "La 2e édition d’AD&D"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, System Reference Document 3.0 (2000)",
+   "expl": "La règle, testée pendant le playtest D&D Next, remplace de nombreux petits bonus et malus.",
+   "id": "t018-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle édition de D&D a lancé l’Open Game License et le d20 System ?",
+   "choix": [
+    "La 3e édition",
+    "La 2e édition d’AD&D",
+    "La 4e édition",
+    "La 5e édition"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, System Reference Document 3.0 (2000)",
+   "expl": "En 2000, Wizards of the Coast permet à d’autres éditeurs de publier des jeux compatibles : Pathfinder en naîtra.",
+   "id": "t018-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans D&D 5e, avec l’avantage, on lance deux d20 et on garde le meilleur.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Vrai : avec le désavantage, on garde au contraire le moins bon des deux.",
+   "id": "t018-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e (2014), un 20 naturel à un test de caractéristique est une réussite automatique.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Faux : seuls les jets d’attaque réussissent toujours sur un 20 naturel ; un test peut échouer malgré un 20.",
+   "id": "t018-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’avantage et le désavantage s’annulent, même avec plusieurs sources d’un côté.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Vrai : trois sources d’avantage contre une de désavantage donnent un jet normal.",
+   "id": "t018-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans D&D 5e, l’Athlétisme est une compétence de Constitution.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Faux : c’est la seule compétence de Force ; la Constitution n’a aucune compétence.",
+   "id": "t018-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un personnage meurt sur le coup si les dégâts restants après 0 PV égalent ou dépassent ses PV maximum.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Vrai : c’est la règle des dégâts massifs ; un sort puissant peut ainsi tuer un aventurier de bas niveau d’un coup.",
+   "id": "t018-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, on peut ajouter plusieurs fois son bonus de maîtrise au même jet.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Faux : le bonus de maîtrise ne s’ajoute qu’une fois par jet ; l’Expertise le double, ce qui est différent.",
+   "id": "t018-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, une créature à terre a le désavantage à ses jets d’attaque.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Vrai : se relever coûte la moitié de sa vitesse.",
+   "id": "t018-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, une créature à terre donne l’avantage à toutes les attaques à distance contre elle.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Faux : l’avantage ne vaut qu’au contact (1,5 m) ; plus loin, les attaques ont le désavantage.",
+   "id": "t018-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans D&D 5e, l’initiative se détermine par un test de Dextérité.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Vrai : le MJ lance pour les monstres, souvent une fois par groupe de créatures identiques.",
+   "id": "t018-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e (2014), tout personnage dispose d’une action bonus qu’il peut utiliser librement à chaque tour.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Faux : on n’a d’action bonus que si une capacité, un sort ou une règle en propose une.",
+   "id": "t018-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La moyenne d’un d20 est de 10,5.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Vrai : (1 + 20) / 2 = 10,5 ; avec l’avantage, elle monte à environ 13,8.",
+   "id": "t018-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Sur 2d6, obtenir 2 est aussi probable qu’obtenir 7.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Faux : 7 a six combinaisons sur 36, 2 une seule (double 1).",
+   "id": "t018-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans D&D 5e, on peut dépenser des dés de vie pendant un repos court pour récupérer des PV.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Vrai : on lance chaque dé dépensé et on ajoute son modificateur de Constitution.",
+   "id": "t018-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e (2014), un repos long rend tous les dés de vie dépensés.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Faux : il en rend la moitié du total (au moins un) ; il rend en revanche tous les PV.",
+   "id": "t018-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, toute attaque qui touche une créature inconsciente à 1,5 m ou moins est un coup critique.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7, 8 et 9",
+   "expl": "Vrai : c’est aussi le cas contre une créature paralysée.",
+   "id": "t018-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans D&D 5e, la plus haute valeur de la série standard est 16.",
+   "rep": false,
+   "src": "Advanced Dungeons & Dragons 2nd Edition Player’s Handbook (TSR, 1989)",
+   "expl": "Faux : la série standard est 15, 14, 13, 12, 10, 8.",
+   "id": "t018-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans AD&D 2e, on soustrait la CA de la cible de son TAC0 pour savoir quel nombre obtenir au d20.",
+   "rep": true,
+   "src": "Fate Core System (Evil Hat Productions, 2013)",
+   "expl": "Vrai : avec un TAC0 de 17 contre une CA de 3, il faut 14 ou plus.",
+   "id": "t018-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans Fate, les dés Fudge ont six faces numérotées de 1 à 6.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 3 « Classes »",
+   "expl": "Faux : deux faces portent +, deux −, deux sont vierges.",
+   "id": "t018-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e (2014), un personnage maîtrise les jets de sauvegarde de deux caractéristiques, fixées par sa classe de départ.",
+   "rep": true,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "Vrai : le guerrier maîtrise Force et Constitution, le magicien Intelligence et Sagesse, par exemple.",
+   "id": "t018-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Sur 2d6, quel total est le plus probable ?",
+   "rep": 7,
+   "min": 2,
+   "max": 12,
+   "pas": 1,
+   "unite": "points",
+   "tolerance": 0,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "Six combinaisons sur 36 donnent 7, soit une chance sur six.",
+   "id": "t018-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelle est, en pourcentage arrondi, la probabilité d’obtenir au moins un 20 naturel avec l’avantage ?",
+   "rep": 10,
+   "min": 1,
+   "max": 30,
+   "pas": 1,
+   "unite": "%",
+   "tolerance": 0,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "1 − (19/20)² = 9,75 %, soit presque deux fois plus que les 5 % d’un jet normal.",
+   "id": "t018-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Quelle est la somme de toutes les faces d’un d20 ?",
+   "rep": 210,
+   "min": 100,
+   "max": 300,
+   "pas": 10,
+   "unite": "points",
+   "tolerance": 0,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "1 + 2 + … + 20 = 20 × 21 / 2 = 210 : la formule de Gauss pour les entiers consécutifs.",
+   "id": "t018-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de combinaisons différentes peut-on obtenir en lançant 3d6 ?",
+   "rep": 216,
+   "min": 18,
+   "max": 300,
+   "pas": 1,
+   "unite": "combinaisons",
+   "tolerance": 0,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "6 × 6 × 6 = 216 ; un 18 n’arrive donc qu’une fois sur 216.",
+   "id": "t018-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quelle est la vitesse de base d’un humain, en mètres ?",
+   "rep": 9,
+   "min": 3,
+   "max": 15,
+   "pas": 1,
+   "unite": "m",
+   "tolerance": 0,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "30 pieds, soit 9 mètres ou 6 cases : c’est la vitesse de référence de la plupart des personnages.",
+   "id": "t018-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle est la portée habituelle de la vision dans le noir, en mètres ?",
+   "rep": 18,
+   "min": 3,
+   "max": 36,
+   "pas": 3,
+   "unite": "m",
+   "tolerance": 0,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "60 pieds, soit 18 m ; certains peuples, comme les drows, voient jusqu’à 36 m.",
+   "id": "t018-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel est le maximum de dégâts qu’une chute peut infliger ?",
+   "rep": 120,
+   "min": 20,
+   "max": 200,
+   "pas": 10,
+   "unite": "dégâts",
+   "tolerance": 0,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "Le plafond est de 20d6, soit 120 dégâts au plus.",
+   "id": "t018-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans D&D 5e, combien de points coûte une valeur de 15 avec l’achat de points ?",
+   "rep": 9,
+   "min": 1,
+   "max": 15,
+   "pas": 1,
+   "unite": "points",
+   "tolerance": 0,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "8 coûte 0, 13 coûte 5, 14 coûte 7 et 15 coûte 9 : deux 15 mangent déjà 18 des 27 points.",
+   "id": "t018-076",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quelle est la somme des six valeurs de la série standard de D&D 5e ?",
+   "rep": 72,
+   "min": 50,
+   "max": 100,
+   "pas": 1,
+   "unite": "points",
+   "tolerance": 0,
+   "src": "Probabilités élémentaires des dés ; Player’s Handbook 5e (2014)",
+   "expl": "15 + 14 + 13 + 12 + 10 + 8 = 72, soit une moyenne de 12 par caractéristique.",
+   "id": "t018-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, lancer deux d20 et garder le meilleur, c’est jouer avec l’____.",
+   "choix": [
+    "avantage",
+    "atout",
+    "aubaine",
+    "appui"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9, annexe A « États »",
+   "expl": "L’avantage remplace la plupart des petits bonus de situation des éditions précédentes.",
+   "id": "t018-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Un 20 obtenu sur le dé, avant tout modificateur, est un 20 ____.",
+   "choix": [
+    "naturel",
+    "parfait",
+    "pur",
+    "sec"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9, annexe A « États »",
+   "expl": "Le 20 naturel touche toujours en attaque et inflige un coup critique.",
+   "id": "t018-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, un 20 naturel à un jet d’attaque donne un coup ____.",
+   "choix": [
+    "critique",
+    "fatal",
+    "mortel",
+    "double"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9, annexe A « États »",
+   "expl": "Le coup critique double les dés de dégâts ; certaines capacités l’obtiennent dès 19 ou 18.",
+   "id": "t018-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Avec les dés de pourcentage, un d10 donne les ____ et l’autre les unités.",
+   "choix": [
+    "dizaines",
+    "centaines",
+    "doubles",
+    "paires"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9, annexe A « États »",
+   "expl": "Souvent, le premier d10 est numéroté 00, 10, 20… pour éviter de se tromper.",
+   "id": "t018-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quitter la portée d’un ennemi sans se désengager provoque une attaque d’____.",
+   "choix": [
+    "opportunité",
+    "occasion",
+    "aubaine",
+    "riposte"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9, annexe A « États »",
+   "expl": "L’attaque d’opportunité utilise la réaction de l’ennemi ; se téléporter ou être poussé ne la déclenche pas.",
+   "id": "t018-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, un personnage à 0 PV fait un jet contre la ____ à chaque tour.",
+   "choix": [
+    "mort",
+    "chute",
+    "douleur",
+    "fatigue"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9, annexe A « États »",
+   "expl": "Il lance un d20 sans modificateur : 10 ou plus est une réussite.",
+   "id": "t018-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le ____ de maîtrise passe de +2 au niveau 1 à +6 au niveau 17.",
+   "choix": [
+    "bonus",
+    "score",
+    "rang",
+    "palier"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9, annexe A « États »",
+   "expl": "Il s’ajoute aux attaques, compétences, sauvegardes et DD des sorts que le personnage maîtrise.",
+   "id": "t018-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’état ____ empêche une créature d’agir et de réagir.",
+   "choix": [
+    "neutralisé",
+    "entravé",
+    "agrippé",
+    "charmé"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9, annexe A « États »",
+   "expl": "Neutralisé (incapacitated) fait partie d’autres états plus graves : étourdi, paralysé, inconscient, pétrifié.",
+   "id": "t018-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, une créature ____ a une vitesse de 0 et le désavantage à ses attaques, et les attaques contre elle ont l’avantage.",
+   "choix": [
+    "entravée",
+    "agrippée",
+    "charmée",
+    "assourdie"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9, annexe A « États »",
+   "expl": "Une créature agrippée a aussi une vitesse de 0, mais sans les autres effets de l’état entravé (restrained).",
+   "id": "t018-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, l’action Se tenir ____ permet de préparer une réaction à un déclencheur précis.",
+   "choix": [
+    "prêt",
+    "droit",
+    "debout",
+    "caché"
+   ],
+   "rep": 0,
+   "src": "Chaosium, Basic Role-Playing (1980)",
+   "expl": "On annonce le déclencheur (« si l’orc passe la porte ») et l’action prévue, qui utilise la réaction.",
+   "id": "t018-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le système au d100 de Chaosium, utilisé par L’Appel de Cthulhu, s’appelle Basic Role-____.",
+   "choix": [
+    "Playing",
+    "Gaming",
+    "System",
+    "Dice"
+   ],
+   "rep": 0,
+   "src": "Vampire: The Masquerade (White Wolf, 1991)",
+   "expl": "Basic Role-Playing (BRP) est issu de RuneQuest (1978) ; il mesure tout en pourcentages.",
+   "id": "t018-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans le Monde des Ténèbres, on lance une ____ de d10 et on compte les succès.",
+   "choix": [
+    "réserve",
+    "main",
+    "poignée",
+    "pile"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), introduction « Les dés de jeu »",
+   "expl": "La réserve de dés (dice pool) additionne caractéristique et talent : plus elle est grande, plus on a de chances de réussir.",
+   "id": "t018-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces dés n’appartient pas au set classique de D&D ?",
+   "choix": [
+    "d16",
+    "d4",
+    "d12",
+    "d20"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Le set compte d4, d6, d8, d10, d12 et d20 (souvent avec un second d10 pour les pourcentages).",
+   "id": "t018-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces caractéristiques n’existe pas en D&D 5e ?",
+   "choix": [
+    "Chance",
+    "Sagesse",
+    "Charisme",
+    "Constitution"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "D&D n’a pas de caractéristique de Chance, contrairement à d’autres jeux ; l’inspiration en tient un peu lieu.",
+   "id": "t018-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces compétences ne dépend pas de la Dextérité ?",
+   "choix": [
+    "Athlétisme",
+    "Acrobaties",
+    "Escamotage",
+    "Discrétion"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "L’Athlétisme dépend de la Force ; Acrobaties, Escamotage et Discrétion de la Dextérité.",
+   "id": "t018-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces compétences ne dépend pas du Charisme ?",
+   "choix": [
+    "Intuition",
+    "Tromperie",
+    "Persuasion",
+    "Représentation"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "L’Intuition dépend de la Sagesse : lire les autres n’est pas la même chose que les convaincre.",
+   "id": "t018-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces compétences ne dépend pas de l’Intelligence ?",
+   "choix": [
+    "Médecine",
+    "Arcanes",
+    "Histoire",
+    "Religion"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "La Médecine dépend de la Sagesse ; Arcanes, Histoire et Religion de l’Intelligence.",
+   "id": "t018-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces états n’existe pas dans le Manuel des Joueurs 5e (2014) ?",
+   "choix": [
+    "Saignant",
+    "Étourdi",
+    "Pétrifié",
+    "Charmé"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 1 et 7",
+   "expl": "Les saignements n’existent pas comme état ; quelques monstres infligent des dégâts persistants à la place.",
+   "id": "t018-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces actions ne fait pas partie de la liste du Manuel des Joueurs ?",
+   "choix": [
+    "Charger",
+    "Foncer",
+    "Esquiver",
+    "Aider"
+   ],
+   "rep": 0,
+   "src": "Chaosium ; Paizo ; Wizards of the Coast",
+   "expl": "La charge n’est pas une action en 5e ; le don Charger permet seulement d’attaquer après avoir foncé.",
+   "id": "t018-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces jeux n’utilise pas le d20 comme dé principal ?",
+   "choix": [
+    "L’Appel de Cthulhu",
+    "Pathfinder",
+    "D&D 5e",
+    "Starfinder"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe A",
+   "expl": "L’Appel de Cthulhu utilise le d100 ; Pathfinder et Starfinder dérivent du d20 System.",
+   "id": "t018-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces effets ne fait pas partie de l’épuisement (règles 2014) ?",
+   "choix": [
+    "Perte d’un dé de vie",
+    "Vitesse réduite de moitié",
+    "PV max réduits de moitié",
+    "Désavantage aux tests de caractéristique"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe A",
+   "expl": "L’épuisement ne retire pas de dé de vie ; il se soigne d’un niveau par repos long, avec à boire et à manger.",
+   "id": "t018-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces nombres ne figure pas dans la série standard de D&D 5e ?",
+   "choix": [
+    "11",
+    "15",
+    "13",
+    "8"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe A",
+   "expl": "La série standard saute le 9 et le 11 : 15, 14, 13, 12, 10, 8.",
+   "id": "t018-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles compétences dépendent de la Sagesse en D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Perception",
+    "Survie",
+    "Médecine",
+    "Intuition",
+    "Investigation",
+    "Arcanes"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe A",
+   "expl": "Le Dressage complète les cinq compétences de Sagesse ; Investigation et Arcanes dépendent de l’Intelligence.",
+   "id": "t018-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels dés font partie du set classique de D&D ? (plusieurs bonnes réponses)",
+   "choix": [
+    "d4",
+    "d8",
+    "d12",
+    "d14",
+    "d16"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe A",
+   "expl": "Les dés à 14 ou 16 faces existent, mais aucune règle de D&D ne les utilise.",
+   "id": "t018-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels états imposent le désavantage aux jets d’attaque de la créature qui les subit ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aveuglé",
+    "Empoisonné",
+    "À terre",
+    "Invisible",
+    "Assourdi"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe A",
+   "expl": "Une créature invisible attaque au contraire avec l’avantage ; être assourdi n’a pas d’effet sur l’attaque.",
+   "id": "t018-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles actions figurent dans la liste du Manuel des Joueurs 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Foncer",
+    "Se désengager",
+    "Se tenir prêt",
+    "Charger",
+    "Contre-attaquer"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe A",
+   "expl": "La liste compte aussi Attaquer, Lancer un sort, Esquiver, Aider, Se cacher, Chercher et Utiliser un objet.",
+   "id": "t018-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jets peuvent bénéficier de l’avantage en D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jets d’attaque",
+    "Tests de caractéristique",
+    "Jets de sauvegarde",
+    "Jets de dégâts",
+    "Jets de dés de vie"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "White Wolf (1991) ; Catalyst Game Labs (2013) ; Steve Jackson Games",
+   "expl": "L’avantage ne concerne que les jets de d20.",
+   "id": "t018-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux utilisent une réserve de dés (dice pool) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vampire : la Mascarade",
+    "Shadowrun",
+    "D&D 5e",
+    "GURPS"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Player’s Handbook 5e (2014)",
+   "expl": "D&D lance un seul d20, GURPS toujours 3d6 ; Vampire et Shadowrun lancent plusieurs dés selon le talent.",
+   "id": "t018-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels jets se font avec un d20 en D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jet d’attaque",
+    "Jet de sauvegarde",
+    "Initiative",
+    "Dégâts d’une épée longue",
+    "PV gagnés au niveau supérieur"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014)",
+   "expl": "Les dégâts et les points de vie utilisent les autres dés : d8 pour l’épée longue, dé de vie de la classe pour les PV.",
+   "id": "t018-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles méthodes de création des caractéristiques propose le Manuel des Joueurs 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tirage 4d6",
+    "Série standard",
+    "Achat de points",
+    "Tirage 1d20",
+    "Valeur fixe de 12"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014)",
+   "expl": "L’achat de points est présenté comme une variante, au choix du MJ.",
+   "id": "t018-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels abris existent en D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Abri partiel",
+    "Abri important",
+    "Abri total",
+    "Abri magique",
+    "Abri double"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014)",
+   "expl": "Les abris ne se cumulent pas : seul le plus protecteur compte.",
+   "id": "t018-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles caractéristiques comptent au moins quatre compétences en D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Intelligence",
+    "Sagesse",
+    "Charisme",
+    "Force",
+    "Constitution"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014)",
+   "expl": "Intelligence et Sagesse en ont cinq, Charisme quatre, Dextérité trois, Force une et Constitution aucune.",
+   "id": "t018-109",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels effets a l’état « à terre » en D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Désavantage à ses attaques",
+    "Avantage aux attaques au contact contre lui",
+    "Vitesse réduite à 0",
+    "Échec automatique aux sauvegardes de Force"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Player’s Handbook 5e (2014)",
+   "expl": "Une créature à terre peut ramper ou se relever en dépensant la moitié de sa vitesse.",
+   "id": "t018-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces dés du plus petit au plus grand nombre de faces.",
+   "items": [
+    "d4",
+    "d6",
+    "d8",
+    "d12",
+    "d20"
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe A « Épuisement »",
+   "expl": "4, 6, 8, 12 et 20 faces ; le d10 complète le set.",
+   "id": "t018-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe les effets de l’épuisement dans l’ordre des niveaux.",
+   "items": [
+    "Désavantage aux tests de caractéristique",
+    "Vitesse réduite de moitié",
+    "Désavantage aux attaques et sauvegardes",
+    "PV maximum réduits de moitié",
+    "Vitesse réduite à 0"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 9 « Abri »",
+   "expl": "Niveaux 1 à 5 ; le niveau 6 entraîne la mort.",
+   "id": "t018-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces abris du moins protecteur au plus protecteur.",
+   "items": [
+    "Abri partiel",
+    "Abri important",
+    "Abri total"
+   ],
+   "src": "TSR (1974) ; Chaosium (1981) ; Steve Jackson Games (1986) ; White Wolf (1991)",
+   "expl": "+2 à la CA, +5 à la CA, puis impossible de cibler directement.",
+   "id": "t018-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux par date de parution.",
+   "items": [
+    "Donjons & Dragons",
+    "L’Appel de Cthulhu",
+    "GURPS",
+    "Vampire : la Mascarade"
+   ],
+   "src": "Probabilités élémentaires des dés",
+   "expl": "1974, 1981, 1986 et 1991 : chacun avec son propre système de dés.",
+   "id": "t018-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces lancers par résultat moyen croissant.",
+   "items": [
+    "1d4",
+    "1d6",
+    "2d4",
+    "1d10",
+    "2d6"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 2 « Races »",
+   "expl": "Moyennes : 2,5 ; 3,5 ; 5 ; 5,5 ; 7. La moyenne d’un dé vaut (faces + 1) / 2.",
+   "id": "t018-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces peuples par vitesse de base croissante.",
+   "items": [
+    "Nain",
+    "Humain",
+    "Elfe des bois"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 9 « Faire une attaque »",
+   "expl": "7,5 m pour le nain, 9 m pour l’humain et 10,5 m pour l’elfe des bois (règles 2014).",
+   "id": "t018-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes d’une attaque dans l’ordre.",
+   "items": [
+    "Choisir la cible",
+    "Lancer le d20 avec ses modificateurs",
+    "Comparer le résultat à la CA",
+    "Lancer les dégâts"
+   ],
+   "src": "Probabilités élémentaires des dés",
+   "expl": "Le Manuel des Joueurs résume ainsi toute attaque, au corps à corps comme à distance ou par un sort.",
+   "id": "t018-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces totaux de 2d6 du plus probable au moins probable.",
+   "items": [
+    "7",
+    "6",
+    "4",
+    "2"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Armures »",
+   "expl": "7 sort dans 6 combinaisons sur 36, 6 dans 5, 4 dans 3 et 2 dans une seule.",
+   "id": "t018-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces armures par CA de base croissante.",
+   "items": [
+    "Armure de cuir",
+    "Chemise de mailles",
+    "Cotte de mailles",
+    "Harnois"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Armes »",
+   "expl": "Cuir : 11 + Dex ; chemise de mailles : 13 + Dex (max 2) ; cotte de mailles : 16 ; harnois : 18.",
+   "id": "t018-119",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces armes par dé de dégâts croissant.",
+   "items": [
+    "Dague",
+    "Épée courte",
+    "Épée longue à une main",
+    "Hache à deux mains"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Dague d4, épée courte d6, épée longue d8 (d10 à deux mains), hache à deux mains d12.",
+   "id": "t018-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque compétence à sa caractéristique.",
+   "paires": [
+    [
+     "Athlétisme",
+     "Force"
+    ],
+    [
+     "Escamotage",
+     "Dextérité"
+    ],
+    [
+     "Histoire",
+     "Intelligence"
+    ],
+    [
+     "Survie",
+     "Sagesse"
+    ],
+    [
+     "Tromperie",
+     "Charisme"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Une même situation peut parfois relever de plusieurs compétences : le MJ choisit.",
+   "id": "t018-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque valeur de caractéristique à son modificateur.",
+   "paires": [
+    [
+     "3",
+     "−4"
+    ],
+    [
+     "9",
+     "−1"
+    ],
+    [
+     "12",
+     "+1"
+    ],
+    [
+     "17",
+     "+3"
+    ],
+    [
+     "20",
+     "+5"
+    ]
+   ],
+   "src": "Encyclopædia Britannica, « polyhedron »",
+   "expl": "Modificateur = (valeur − 10) / 2, arrondi à l’inférieur.",
+   "id": "t018-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dé à sa forme.",
+   "paires": [
+    [
+     "d4",
+     "Tétraèdre"
+    ],
+    [
+     "d6",
+     "Cube"
+    ],
+    [
+     "d8",
+     "Octaèdre"
+    ],
+    [
+     "d12",
+     "Dodécaèdre"
+    ],
+    [
+     "d20",
+     "Icosaèdre"
+    ]
+   ],
+   "src": "Wizards of the Coast ; Chaosium ; Evil Hat ; Lumpley Games",
+   "expl": "Ce sont les cinq solides de Platon ; le d10 est un trapézoèdre pentagonal.",
+   "id": "t018-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque jeu à son dé principal.",
+   "paires": [
+    [
+     "D&D 5e",
+     "d20"
+    ],
+    [
+     "L’Appel de Cthulhu",
+     "d100"
+    ],
+    [
+     "Fate",
+     "Dés Fudge"
+    ],
+    [
+     "Apocalypse World",
+     "2d6"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 9",
+   "expl": "Le choix du dé façonne le jeu : courbe plate pour le d20, courbe en cloche pour 2d6 ou 4dF.",
+   "id": "t018-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque abri à son effet.",
+   "paires": [
+    [
+     "Abri partiel",
+     "+2 à la CA"
+    ],
+    [
+     "Abri important",
+     "+5 à la CA"
+    ],
+    [
+     "Abri total",
+     "Ciblage direct impossible"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 9",
+   "expl": "Les bonus s’appliquent aussi aux sauvegardes de Dextérité.",
+   "id": "t018-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque action à son effet.",
+   "paires": [
+    [
+     "Foncer",
+     "Déplacement supplémentaire"
+    ],
+    [
+     "Se désengager",
+     "Pas d’attaque d’opportunité"
+    ],
+    [
+     "Esquiver",
+     "Attaques adverses désavantagées"
+    ],
+    [
+     "Aider",
+     "Avantage pour un allié"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe A",
+   "expl": "Ces actions de base sont à la portée de tous les personnages.",
+   "id": "t018-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque état à son effet principal.",
+   "paires": [
+    [
+     "Aveuglé",
+     "Échoue aux tests liés à la vue"
+    ],
+    [
+     "Assourdi",
+     "N’entend plus rien"
+    ],
+    [
+     "Pétrifié",
+     "Changé en pierre"
+    ],
+    [
+     "Charmé",
+     "Ne peut attaquer le charmeur"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe A",
+   "expl": "Le Manuel des Joueurs détaille ces états dans son annexe A.",
+   "id": "t018-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque niveau d’épuisement à son effet.",
+   "paires": [
+    [
+     "Niveau 1",
+     "Désavantage aux tests"
+    ],
+    [
+     "Niveau 2",
+     "Vitesse divisée par deux"
+    ],
+    [
+     "Niveau 5",
+     "Vitesse à 0"
+    ],
+    [
+     "Niveau 6",
+     "Mort"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 1 « Achat de points »",
+   "expl": "Les effets s’additionnent : au niveau 5, on subit ceux des niveaux 1 à 4.",
+   "id": "t018-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque valeur à son coût en achat de points.",
+   "paires": [
+    [
+     "8",
+     "0 point"
+    ],
+    [
+     "10",
+     "2 points"
+    ],
+    [
+     "13",
+     "5 points"
+    ],
+    [
+     "15",
+     "9 points"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Armes »",
+   "expl": "Le coût grimpe plus vite au-delà de 13 : 14 coûte 7 points et 15 en coûte 9.",
+   "id": "t018-129",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque arme à son dé de dégâts.",
+   "paires": [
+    [
+     "Dague",
+     "d4"
+    ],
+    [
+     "Rapière",
+     "d8"
+    ],
+    [
+     "Hallebarde",
+     "d10"
+    ],
+    [
+     "Hache à deux mains",
+     "d12"
+    ]
+   ],
+   "src": "Encyclopædia Britannica, « icosahedron » ; Player’s Handbook 5e (2014)",
+   "expl": "La rapière est l’arme de finesse la plus puissante ; la hallebarde a l’allonge.",
+   "id": "t018-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un icosaèdre\n2. Mes faces opposées font 21\n3. On me lance pour toucher",
+   "choix": [
+    "Le d20",
+    "Le d12",
+    "Le d10",
+    "Le d8"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « icosahedron » ; Player’s Handbook 5e (2014)",
+   "expl": "Le d20 est devenu le symbole de D&D au point de donner son nom au d20 System.",
+   "id": "t018-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une pyramide\n2. Je fais mal aux pieds la nuit\n3. On me lance pour les dégâts d’une dague",
+   "choix": [
+    "Le d4",
+    "Le d6",
+    "Le d8",
+    "Le d10"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « icosahedron » ; Player’s Handbook 5e (2014)",
+   "expl": "Sur certains d4, on lit le résultat en haut ; sur d’autres, en bas.",
+   "id": "t018-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une caractéristique\n2. Je règle l’initiative\n3. J’améliore la CA en armure légère",
+   "choix": [
+    "Dextérité",
+    "Force",
+    "Constitution",
+    "Sagesse"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « icosahedron » ; Player’s Handbook 5e (2014)",
+   "expl": "La Dextérité sert aussi aux armes de finesse et à distance, et aux sauvegardes contre les souffles.",
+   "id": "t018-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une caractéristique\n2. Je n’ai aucune compétence\n3. J’augmente les points de vie",
+   "choix": [
+    "Constitution",
+    "Force",
+    "Sagesse",
+    "Charisme"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « icosahedron » ; Player’s Handbook 5e (2014)",
+   "expl": "La Constitution sert aussi à maintenir sa concentration sur un sort.",
+   "id": "t018-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un état\n2. Je fais lâcher ce qu’on tient et tomber à terre\n3. Les attaques au contact contre moi sont critiques",
+   "choix": [
+    "Inconscient",
+    "Paralysé",
+    "Étourdi",
+    "Pétrifié"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « icosahedron » ; Player’s Handbook 5e (2014)",
+   "expl": "Une créature inconsciente ne se rend pas compte de ce qui l’entoure ; elle échoue aux sauvegardes de Force et de Dextérité.",
+   "id": "t018-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un état\n2. On ne peut pas s’approcher volontairement de ma source\n3. Je donne le désavantage tant qu’on la voit",
+   "choix": [
+    "Terrorisé",
+    "Charmé",
+    "Étourdi",
+    "Neutralisé"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « icosahedron » ; Player’s Handbook 5e (2014)",
+   "expl": "Terrorisé (frightened) est infligé par la Présence terrifiante des dragons ou le sort Terreur.",
+   "id": "t018-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une action\n2. Je double le déplacement\n3. Le roublard me fait en action bonus",
+   "choix": [
+    "Foncer",
+    "Se désengager",
+    "Se cacher",
+    "Esquiver"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « icosahedron » ; Player’s Handbook 5e (2014)",
+   "expl": "Foncer (dash) ajoute la vitesse du personnage à son déplacement pour le tour.",
+   "id": "t018-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une règle de la 5e\n2. Je ne me cumule jamais\n3. On garde le moins bon des deux dés",
+   "choix": [
+    "Le désavantage",
+    "L’avantage",
+    "Le coup critique",
+    "L’inspiration"
+   ],
+   "rep": 0,
+   "src": "Call of Cthulhu 7th Edition (Chaosium, 2014)",
+   "expl": "Le désavantage reflète une situation défavorable : cible invisible, empoisonnement, attaque à longue portée…",
+   "id": "t018-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. On me joue au d100\n3. Mes investigateurs perdent peu à peu la raison",
+   "choix": [
+    "L’Appel de Cthulhu",
+    "Vampire : la Mascarade",
+    "GURPS",
+    "Fate"
+   ],
+   "rep": 0,
+   "src": "Fate Core System (2013)",
+   "expl": "La Santé mentale (SAN) des investigateurs baisse face aux horreurs du Mythe.",
+   "id": "t018-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un dé\n2. Mes faces portent +, − ou rien\n3. Fate me lance par quatre",
+   "choix": [
+    "Le dé Fudge",
+    "Le d6",
+    "Le d10",
+    "Le d3"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014)",
+   "expl": "Le dé Fudge vient du jeu Fudge de Steffan O’Sullivan (1992), dont Fate est dérivé.",
+   "id": "t018-140",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un nombre\n2. Je suis le DD des jets contre la mort\n3. Je suis la base de la CA sans armure",
+   "choix": [
+    "10",
+    "8",
+    "12",
+    "15"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014)",
+   "expl": "10 sert aussi de base aux scores passifs.",
+   "id": "t018-141",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
