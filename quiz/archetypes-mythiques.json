@@ -1,0 +1,1997 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "archetypes-mythiques",
+  "nom": "Les grands archétypes mythiques",
+  "royaume": "Mythologies et folklores du monde",
+  "icone": "masque",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur décrit le « monomythe » dans Le Héros aux mille et un visages ?",
+   "choix": [
+    "Joseph Campbell",
+    "Carl Gustav Jung",
+    "Vladimir Propp",
+    "Mircea Eliade"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il y montre que les héros de cultures différentes suivent un même parcours.",
+   "id": "t045-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles sont les trois grandes phases du voyage du héros selon Campbell ?",
+   "choix": [
+    "Départ, initiation, retour",
+    "Naissance, combat, mort",
+    "Appel, chute, victoire",
+    "Quête, mariage, royaume"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Le héros quitte le monde ordinaire, est transformé, puis rapporte un bienfait.",
+   "id": "t045-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle étape du parcours montre le héros hésitant à se lancer ?",
+   "choix": [
+    "Le refus de l’appel",
+    "Le passage du seuil",
+    "L’épreuve suprême",
+    "Le retour avec l’élixir"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Ce refus montre que l’aventure coûte quelque chose au héros.",
+   "id": "t045-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cinéaste s’est inspiré des travaux de Campbell pour la première trilogie Star Wars ?",
+   "choix": [
+    "George Lucas",
+    "Steven Spielberg",
+    "Francis Ford Coppola",
+    "Ridley Scott"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il a souvent salué l’influence du monomythe sur l’histoire de Luke Skywalker.",
+   "id": "t045-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel scénariste a adapté le voyage du héros en douze étapes pour Hollywood ?",
+   "choix": [
+    "Christopher Vogler",
+    "Robert McKee",
+    "Syd Field",
+    "Blake Snyder"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Son mémo interne chez Disney est devenu un livre de référence.",
+   "id": "t045-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel folkloriste russe dégage 31 fonctions communes aux contes merveilleux ?",
+   "choix": [
+    "Vladimir Propp",
+    "Alexandre Afanassiev",
+    "Mikhaïl Bakhtine",
+    "Iouri Lotman"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Sa Morphologie du conte paraît en 1928 et inspire tout le structuralisme.",
+   "id": "t045-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel psychiatre suisse développe l’idée d’un inconscient collectif peuplé d’archétypes ?",
+   "choix": [
+    "Carl Gustav Jung",
+    "Sigmund Freud",
+    "Jacques Lacan",
+    "Alfred Adler"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Selon lui, ces images communes surgissent dans les rêves et les mythes.",
+   "id": "t045-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel archétype jungien désigne la part sombre et refoulée de la personnalité ?",
+   "choix": [
+    "L’ombre",
+    "La persona",
+    "L’anima",
+    "Le Soi"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Dans les récits, elle prend souvent la forme d’un double maléfique.",
+   "id": "t045-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on l’archétype du farceur rusé qui bouscule l’ordre établi ?",
+   "choix": [
+    "Le fripon divin",
+    "Le vieux sage",
+    "La grande mère",
+    "Le héros solaire"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "On le nomme aussi trickster, d’après l’anglais.",
+   "id": "t045-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu nordique incarne le mieux l’archétype du fripon ?",
+   "choix": [
+    "Loki",
+    "Thor",
+    "Tyr",
+    "Heimdall"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Ses ruses aident parfois les dieux, avant de causer leur perte.",
+   "id": "t045-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal-fripon est un grand héros des récits amérindiens ?",
+   "choix": [
+    "Le Coyote",
+    "L’ours",
+    "Le bison",
+    "Le saumon"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il crée, vole, triche et se fait souvent prendre à ses propres pièges.",
+   "id": "t045-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle araignée rusée est un héros des contes d’Afrique de l’Ouest ?",
+   "choix": [
+    "Anansi",
+    "Arachné",
+    "Iktomi",
+    "Shelob"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il a obtenu, dit-on, toutes les histoires du monde auprès du dieu du ciel.",
+   "id": "t045-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel singe rusé de la littérature chinoise se rebelle contre le ciel ?",
+   "choix": [
+    "Sun Wukong",
+    "Hanuman",
+    "Zhu Bajie",
+    "Nezha"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Héros du Voyage en Occident, il finit par protéger le moine Tang.",
+   "id": "t045-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel centaure est le mentor d’Achille, de Jason et d’Asclépios ?",
+   "choix": [
+    "Chiron",
+    "Nessos",
+    "Pholos",
+    "Eurytion"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Sage et savant, il est l’exception parmi des centaures souvent violents.",
+   "id": "t045-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel enchanteur joue le rôle de mentor du roi Arthur ?",
+   "choix": [
+    "Merlin",
+    "Gauvain",
+    "Lancelot",
+    "Morgane"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il guide Arthur depuis sa naissance jusqu’à son règne.",
+   "id": "t045-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu égyptien illustre l’archétype du dieu qui meurt et ressuscite ?",
+   "choix": [
+    "Osiris",
+    "Thot",
+    "Anubis",
+    "Sobek"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Tué et démembré par Seth, il est reconstitué par Isis et règne sur les morts.",
+   "id": "t045-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ouvrage de James George Frazer étudie les dieux qui meurent et renaissent ?",
+   "choix": [
+    "Le Rameau d’or",
+    "Le Héros aux mille et un visages",
+    "Mythologiques",
+    "Le Sacré et le Profane"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Ce grand livre d’anthropologie comparée paraît à partir de 1890.",
+   "id": "t045-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros grec descend aux Enfers pour ramener son épouse Eurydice ?",
+   "choix": [
+    "Orphée",
+    "Thésée",
+    "Persée",
+    "Ulysse"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il la perd en se retournant trop tôt, juste avant la sortie.",
+   "id": "t045-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse sumérienne descend aux Enfers chez sa sœur Ereshkigal ?",
+   "choix": [
+    "Inanna",
+    "Ishtar",
+    "Tiamat",
+    "Ninhursag"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Dépouillée à chaque porte, elle meurt avant d’être ramenée à la vie.",
+   "id": "t045-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel saint chrétien est l’archétype du tueur de dragon ?",
+   "choix": [
+    "Saint Georges",
+    "Saint Michel",
+    "Saint Patrick",
+    "Saint Martin"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il délivre une princesse promise au monstre.",
+   "id": "t045-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros nordique tue le dragon Fafnir ?",
+   "choix": [
+    "Sigurd",
+    "Beowulf",
+    "Ragnar",
+    "Thor"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "En goûtant le sang du dragon, il comprend le langage des oiseaux.",
+   "id": "t045-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu japonais tue le serpent à huit têtes Yamata no Orochi ?",
+   "choix": [
+    "Susanoo",
+    "Amaterasu",
+    "Hachiman",
+    "Izanagi"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il l’enivre avec du saké avant de le découper.",
+   "id": "t045-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu védique tue le serpent Vritra pour libérer les eaux ?",
+   "choix": [
+    "Indra",
+    "Agni",
+    "Varuna",
+    "Shiva"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Armé de la foudre, il est le grand guerrier des dieux.",
+   "id": "t045-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le point faible d’Achille ?",
+   "choix": [
+    "Son talon",
+    "Son épaule",
+    "Ses cheveux",
+    "Son cœur"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Sa mère l’a plongé dans le Styx en le tenant par le talon.",
+   "id": "t045-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le point faible de Siegfried, dans la Chanson des Nibelungen ?",
+   "choix": [
+    "Une tache entre les épaules",
+    "Son talon gauche",
+    "Sa longue chevelure",
+    "Son œil droit"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Une feuille de tilleul s’était posée là pendant son bain de sang de dragon.",
+   "id": "t045-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "D’où vient la force de Samson, dans la Bible ?",
+   "choix": [
+    "De ses cheveux",
+    "De son épée",
+    "De sa ceinture",
+    "De sa barbe"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Dalila les fait couper, et il perd sa force.",
+   "id": "t045-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante peut seule tuer le dieu Baldr ?",
+   "choix": [
+    "Le gui",
+    "Le chêne",
+    "L’if",
+    "La rose"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Toutes les autres choses avaient juré de ne pas lui nuire.",
+   "id": "t045-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros est abandonné bébé dans un panier sur le Nil ?",
+   "choix": [
+    "Moïse",
+    "Romulus",
+    "Œdipe",
+    "Persée"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il est recueilli par la fille de Pharaon.",
+   "id": "t045-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels jumeaux fondateurs sont allaités par une louve ?",
+   "choix": [
+    "Romulus et Rémus",
+    "Castor et Pollux",
+    "Apollon et Artémis",
+    "Hunahpu et Xbalanque"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Ils avaient été abandonnés dans le Tibre.",
+   "id": "t045-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi mésopotamien est abandonné dans un panier sur l’Euphrate, selon sa légende ?",
+   "choix": [
+    "Sargon d’Akkad",
+    "Gilgamesh",
+    "Hammourabi",
+    "Nabuchodonosor"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Le récit ressemble beaucoup à celui de Moïse, en plus ancien.",
+   "id": "t045-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros culturel polynésien pêche des îles et ralentit le soleil ?",
+   "choix": [
+    "Maui",
+    "Tāne",
+    "Tangaroa",
+    "Kupe"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il est à la fois bienfaiteur et farceur.",
+   "id": "t045-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel savant français distingue trois fonctions dans la pensée indo-européenne ?",
+   "choix": [
+    "Georges Dumézil",
+    "Claude Lévi-Strauss",
+    "Roland Barthes",
+    "Mircea Eliade"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Souveraineté, guerre et fécondité se retrouvent dans de nombreux panthéons.",
+   "id": "t045-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel anthropologue étudie les mythes comme des structures de « mythèmes » ?",
+   "choix": [
+    "Claude Lévi-Strauss",
+    "Georges Dumézil",
+    "Joseph Campbell",
+    "James Frazer"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il consacre quatre volumes de Mythologiques aux mythes amérindiens.",
+   "id": "t045-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel historien des religions oppose le temps sacré au temps profane ?",
+   "choix": [
+    "Mircea Eliade",
+    "Carl Jung",
+    "Vladimir Propp",
+    "Marcel Mauss"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Pour lui, le rite rejoue le temps des origines.",
+   "id": "t045-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet sacré recherchent les chevaliers de la Table ronde ?",
+   "choix": [
+    "Le Graal",
+    "La Toison d’or",
+    "Excalibur",
+    "La lance de Longinus"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Seul le chevalier le plus pur peut l’atteindre.",
+   "id": "t045-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros grec part chercher la Toison d’or ?",
+   "choix": [
+    "Jason",
+    "Thésée",
+    "Héraclès",
+    "Persée"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Il rassemble les Argonautes à bord du navire Argo.",
+   "id": "t045-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monstre garde l’entrée de Thèbes en posant une énigme ?",
+   "choix": [
+    "Le Sphinx",
+    "La Chimère",
+    "Le Minotaure",
+    "Cerbère"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Œdipe le vainc en trouvant la bonne réponse.",
+   "id": "t045-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’offre Ariane à Thésée pour sortir du labyrinthe ?",
+   "choix": [
+    "Un fil",
+    "Une épée",
+    "Une lampe",
+    "Une clé"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Le fil, dévidé à l’aller, lui montre le chemin du retour.",
+   "id": "t045-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel savant allemand vend son âme au diable dans une célèbre légende ?",
+   "choix": [
+    "Faust",
+    "Paracelse",
+    "Albert le Grand",
+    "Gutenberg"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Méphistophélès lui offre savoir et plaisirs en échange de son âme.",
+   "id": "t045-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel archétype jungien représente la part féminine de l’homme ?",
+   "choix": [
+    "L’anima",
+    "L’ombre",
+    "La persona",
+    "Le Soi"
+   ],
+   "rep": 0,
+   "src": "J. Campbell, Le Héros aux mille et un visages (1949) ; V. Propp, Morphologie du conte (1928) ; C. G. Jung ; G. Dumézil ; J. G. Frazer, Le Rameau d’or",
+   "expl": "Son équivalent masculin chez la femme est l’animus.",
+   "id": "t045-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Selon Campbell, le héros revient souvent avec un bienfait pour sa communauté.",
+   "rep": true,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "C’est le « retour avec l’élixir », dernière étape du voyage.",
+   "id": "t045-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Propp a étudié des contes merveilleux russes.",
+   "rep": true,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Il s’appuie sur un corpus d’une centaine de contes réunis par Afanassiev.",
+   "id": "t045-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le fripon est toujours un personnage parfaitement méchant.",
+   "rep": false,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Faux : il est ambigu, à la fois nuisible et bienfaiteur.",
+   "id": "t045-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans le monomythe, le mentor offre souvent un objet ou un conseil au héros.",
+   "rep": true,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Obi-Wan donne un sabre laser à Luke, Gandalf guide les hobbits.",
+   "id": "t045-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Jung voyait les archétypes comme des inventions d’un seul peuple.",
+   "rep": false,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Faux : il les jugeait universels, présents dans tout l’inconscient collectif.",
+   "id": "t045-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Achille a été plongé dans le Styx pour le rendre invulnérable.",
+   "rep": true,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Le talon par lequel sa mère le tenait reste sa seule faiblesse.",
+   "id": "t045-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans la légende, Saint Georges est vaincu par le dragon.",
+   "rep": false,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Faux : il terrasse le dragon et sauve la princesse.",
+   "id": "t045-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dumézil associe Jupiter, Mars et Quirinus aux trois fonctions.",
+   "rep": true,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Souveraineté, guerre et prospérité dans la Rome archaïque.",
+   "id": "t045-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Orphée réussit à ramener Eurydice parmi les vivants.",
+   "rep": false,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Faux : il se retourne avant la sortie, et elle disparaît.",
+   "id": "t045-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Loki est le père du loup Fenrir.",
+   "rep": true,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Il est aussi le père du serpent Jörmungand et de Hel.",
+   "id": "t045-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le héros de Propp ne rencontre jamais d’auxiliaire magique.",
+   "rep": false,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Faux : l’auxiliaire et le donateur sont deux de ses sept rôles.",
+   "id": "t045-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Osiris devient le souverain du monde des morts.",
+   "rep": true,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Il juge les âmes dans la salle des Deux Vérités.",
+   "id": "t045-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Merlin est le père du roi Arthur.",
+   "rep": false,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil",
+   "expl": "Faux : Arthur est le fils d’Uther Pendragon et d’Ygraine.",
+   "id": "t045-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Sun Wukong est un singe né d’une pierre.",
+   "rep": true,
+   "src": "J. Campbell ; V. Propp ; C. Vogler",
+   "expl": "Il naît d’un rocher fécondé par le ciel et la terre.",
+   "id": "t045-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de fonctions Propp distingue-t-il dans les contes merveilleux ?",
+   "rep": 31,
+   "min": 10,
+   "max": 50,
+   "pas": 1,
+   "unite": "fonctions",
+   "tolerance": 0,
+   "src": "J. Campbell ; V. Propp ; C. Vogler",
+   "expl": "De l’éloignement d’un membre de la famille jusqu’au mariage du héros.",
+   "id": "t045-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’étapes compte le voyage du héros selon Vogler ?",
+   "rep": 12,
+   "min": 5,
+   "max": 20,
+   "pas": 1,
+   "unite": "étapes",
+   "tolerance": 0,
+   "src": "J. Campbell ; V. Propp ; C. Vogler",
+   "expl": "Du monde ordinaire au retour avec l’élixir.",
+   "id": "t045-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de sphères d’action, ou rôles, Propp identifie-t-il ?",
+   "rep": 7,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "rôles",
+   "tolerance": 0,
+   "src": "J. Campbell ; V. Propp ; C. Vogler",
+   "expl": "Agresseur, donateur, auxiliaire, princesse, mandateur, héros et faux héros.",
+   "id": "t045-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît Le Héros aux mille et un visages ?",
+   "rep": 1949,
+   "min": 1900,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Campbell ; V. Propp ; C. Vogler",
+   "expl": "Il devient un classique pour les écrivains et les cinéastes.",
+   "id": "t045-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît la Morphologie du conte de Propp ?",
+   "rep": 1928,
+   "min": 1890,
+   "max": 1970,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Campbell ; V. Propp ; C. Vogler",
+   "expl": "Il ne sera traduit en anglais qu’en 1958.",
+   "id": "t045-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de fonctions Dumézil distingue-t-il chez les Indo-Européens ?",
+   "rep": 3,
+   "min": 2,
+   "max": 7,
+   "pas": 1,
+   "unite": "fonctions",
+   "tolerance": 0,
+   "src": "J. Campbell ; V. Propp ; C. Vogler",
+   "expl": "Souveraineté, guerre et production, chez les Romains comme chez les Indiens.",
+   "id": "t045-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de têtes a le serpent Yamata no Orochi ?",
+   "rep": 8,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "têtes",
+   "tolerance": 0,
+   "src": "J. Campbell ; V. Propp ; C. Vogler",
+   "expl": "Il a aussi huit queues, et son corps couvre huit vallées.",
+   "id": "t045-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’actants compte le schéma de Greimas ?",
+   "rep": 6,
+   "min": 3,
+   "max": 10,
+   "pas": 1,
+   "unite": "actants",
+   "tolerance": 0,
+   "src": "J. Campbell ; V. Propp ; C. Vogler",
+   "expl": "Sujet, objet, destinateur, destinataire, adjuvant et opposant.",
+   "id": "t045-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Campbell appelle ____ le récit commun à tous les héros.",
+   "choix": [
+    "monomythe",
+    "mégamythe",
+    "archétype",
+    "épopée"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Il emprunte ce mot à James Joyce, dans Finnegans Wake.",
+   "id": "t045-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La part sombre de la personnalité, chez Jung, s’appelle l’____.",
+   "choix": [
+    "ombre",
+    "anima",
+    "âme",
+    "ego"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le héros doit souvent affronter son double sombre.",
+   "id": "t045-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le personnage farceur et rusé est appelé, en anglais, le ____.",
+   "choix": [
+    "trickster",
+    "joker",
+    "jester",
+    "rogue"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "En français, on parle de « décepteur » ou de « fripon divin ».",
+   "id": "t045-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’ouvrage de Frazer sur la magie et la religion s’appelle Le Rameau ____.",
+   "choix": [
+    "d’or",
+    "sacré",
+    "d’argent",
+    "de gui"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le titre vient d’un rite du bois sacré de Nemi, près de Rome.",
+   "id": "t045-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le talon d’____ est devenu une expression pour désigner un point faible.",
+   "choix": [
+    "Achille",
+    "Ajax",
+    "Hector",
+    "Ulysse"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Il meurt d’une flèche de Pâris, guidée par Apollon.",
+   "id": "t045-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Sigurd tue le dragon ____ et goûte son sang.",
+   "choix": [
+    "Fafnir",
+    "Nidhogg",
+    "Smaug",
+    "Jörmungand"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Il comprend alors le chant des oiseaux, qui l’avertissent d’une trahison.",
+   "id": "t045-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante qui tue Baldr est le ____.",
+   "choix": [
+    "gui",
+    "houx",
+    "lierre",
+    "chêne"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Loki met une branche de gui dans la main du dieu aveugle Höd.",
+   "id": "t045-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le savant qui vend son âme au diable s’appelle ____.",
+   "choix": [
+    "Faust",
+    "Merlin",
+    "Prospero",
+    "Paracelse"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Goethe en a fait un grand drame en deux parties.",
+   "id": "t045-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Ariane donne à Thésée une pelote de ____.",
+   "choix": [
+    "fil",
+    "laine",
+    "corde",
+    "soie"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "L’expression « le fil d’Ariane » désigne un guide pour sortir d’une difficulté.",
+   "id": "t045-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le singe rusé du Voyage en Occident s’appelle Sun ____.",
+   "choix": [
+    "Wukong",
+    "Tzu",
+    "Yat-sen",
+    "Zhu"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Il porte un bâton qui peut changer de taille à volonté.",
+   "id": "t045-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le centaure qui éduque Achille s’appelle ____.",
+   "choix": [
+    "Chiron",
+    "Nessos",
+    "Pholos",
+    "Centauros"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Immortel, il renonce à son immortalité après une blessure incurable.",
+   "id": "t045-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Propp appelle ____ le personnage qui donne au héros un objet magique.",
+   "choix": [
+    "donateur",
+    "mandateur",
+    "auxiliaire",
+    "adjuvant"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le donateur met souvent le héros à l’épreuve avant de l’aider.",
+   "id": "t045-074",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un fripon ?",
+   "choix": [
+    "Gandalf",
+    "Loki",
+    "Coyote",
+    "Anansi"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Gandalf est l’archétype du vieux sage et du mentor.",
+   "id": "t045-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces héros ne tue pas un dragon ou un serpent géant ?",
+   "choix": [
+    "Orphée",
+    "Sigurd",
+    "Susanoo",
+    "Indra"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Orphée charme les monstres par sa musique.",
+   "id": "t045-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas étudié les mythes ou les contes ?",
+   "choix": [
+    "Isaac Newton",
+    "Joseph Campbell",
+    "Vladimir Propp",
+    "Georges Dumézil"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Newton a pourtant écrit sur la chronologie des royaumes antiques.",
+   "id": "t045-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas un dieu qui meurt et ressuscite ?",
+   "choix": [
+    "Zeus",
+    "Osiris",
+    "Adonis",
+    "Dionysos"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Zeus ne meurt jamais ; les trois autres reviennent du royaume des morts.",
+   "id": "t045-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces héros n’est pas abandonné à sa naissance ?",
+   "choix": [
+    "Ulysse",
+    "Moïse",
+    "Œdipe",
+    "Romulus"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Ulysse grandit auprès de ses parents, à Ithaque.",
+   "id": "t045-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces archétypes ne vient pas de Jung ?",
+   "choix": [
+    "Le donateur",
+    "L’ombre",
+    "L’anima",
+    "La persona"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le donateur est un rôle défini par Propp.",
+   "id": "t045-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages ne descend pas aux Enfers ?",
+   "choix": [
+    "Achille",
+    "Orphée",
+    "Héraclès",
+    "Inanna"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Achille n’y entre qu’une fois mort, où Ulysse le rencontre.",
+   "id": "t045-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’est pas un objet de quête ?",
+   "choix": [
+    "Le fil d’Ariane",
+    "Le Graal",
+    "La Toison d’or",
+    "Les pommes des Hespérides"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le fil est un outil, offert par une alliée.",
+   "id": "t045-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un mentor ?",
+   "choix": [
+    "Achille",
+    "Merlin",
+    "Chiron",
+    "Gandalf"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Achille est un héros, et l’élève du centaure Chiron.",
+   "id": "t045-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces points faibles n’est pas associé au bon héros ?",
+   "choix": [
+    "Achille : ses cheveux",
+    "Siegfried : son dos",
+    "Samson : ses cheveux",
+    "Baldr : le gui"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Achille est vulnérable au talon, pas aux cheveux.",
+   "id": "t045-084",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels personnages sont des fripons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Loki",
+    "Coyote",
+    "Anansi",
+    "Hermès",
+    "Athéna",
+    "Odin le Sage"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Hermès, encore bébé, vole déjà les vaches d’Apollon.",
+   "id": "t045-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des mentors ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Merlin",
+    "Chiron",
+    "Obi-Wan Kenobi",
+    "Méduse",
+    "Loki"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le mentor transmet savoir et confiance au héros.",
+   "id": "t045-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels héros descendent aux Enfers ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Orphée",
+    "Héraclès",
+    "Énée",
+    "Inanna",
+    "Achille",
+    "Persée"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "La catabase, ou descente aux Enfers, est un motif très ancien.",
+   "id": "t045-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels héros tuent un dragon ou un serpent géant ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sigurd",
+    "Saint Georges",
+    "Susanoo",
+    "Indra",
+    "Orphée",
+    "Moïse"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le combat contre le monstre est un des plus vieux récits du monde.",
+   "id": "t045-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels archétypes viennent de Jung ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ombre",
+    "Anima",
+    "Persona",
+    "Soi",
+    "Donateur",
+    "Mandateur"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Donateur et mandateur sont des rôles proppiens.",
+   "id": "t045-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels héros sont abandonnés enfants ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Moïse",
+    "Œdipe",
+    "Romulus",
+    "Sargon",
+    "Ulysse",
+    "Achille"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Ce motif annonce souvent une destinée exceptionnelle.",
+   "id": "t045-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels dieux meurent puis reviennent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Osiris",
+    "Adonis",
+    "Dionysos",
+    "Zeus",
+    "Odin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Frazer les relie aux cycles de la végétation.",
+   "id": "t045-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles étapes appartiennent au voyage du héros ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Appel de l’aventure",
+    "Rencontre du mentor",
+    "Passage du seuil",
+    "Retour avec l’élixir",
+    "Couronnement",
+    "Mariage forcé"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Toutes les étapes ne figurent pas dans chaque récit.",
+   "id": "t045-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels actants appartiennent au schéma de Greimas ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sujet",
+    "Objet",
+    "Adjuvant",
+    "Opposant",
+    "Narrateur",
+    "Lecteur"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le schéma actantiel dérive des travaux de Propp.",
+   "id": "t045-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages appartiennent à l’archétype de la grande mère ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gaïa",
+    "Déméter",
+    "Cybèle",
+    "Méduse",
+    "Circé"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Elles incarnent la fécondité et la protection.",
+   "id": "t045-094",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes du voyage du héros dans l’ordre.",
+   "items": [
+    "Appel de l’aventure",
+    "Passage du seuil",
+    "Épreuve suprême",
+    "Retour"
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le héros revient transformé, porteur d’un savoir nouveau.",
+   "id": "t045-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du mythe d’Orphée dans l’ordre.",
+   "items": [
+    "Mort d’Eurydice",
+    "Descente aux Enfers",
+    "Chant devant Hadès",
+    "Regard en arrière"
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Il est ensuite mis en pièces par des Ménades.",
+   "id": "t045-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du voyage du héros selon Vogler, dans l’ordre.",
+   "items": [
+    "Monde ordinaire",
+    "Refus de l’appel",
+    "Rencontre du mentor",
+    "Récompense",
+    "Retour avec l’élixir"
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le héros quitte le monde connu, puis y revient changé par l’aventure.",
+   "id": "t045-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces auteurs par date de leur ouvrage principal.",
+   "items": [
+    "Frazer",
+    "Propp",
+    "Campbell",
+    "Vogler"
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Frazer en 1890, Propp en 1928, Campbell en 1949, puis Vogler dans les années 1990.",
+   "id": "t045-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du mythe d’Osiris dans l’ordre.",
+   "items": [
+    "Règne d’Osiris",
+    "Meurtre par Seth",
+    "Reconstitution par Isis",
+    "Naissance d’Horus"
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Horus vengera plus tard son père en affrontant Seth.",
+   "id": "t045-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du mythe de Thésée dans l’ordre.",
+   "items": [
+    "Arrivée en Crète",
+    "Aide d’Ariane",
+    "Mort du Minotaure",
+    "Sortie du labyrinthe"
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Il abandonne ensuite Ariane sur l’île de Naxos.",
+   "id": "t045-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la mort de Baldr dans l’ordre.",
+   "items": [
+    "Serment de toutes choses",
+    "Jeu des dieux",
+    "Loki donne le gui à Höd",
+    "Mort de Baldr"
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Seule une géante, Loki déguisé, refuse ensuite de le pleurer.",
+   "id": "t045-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du conte selon Propp dans l’ordre.",
+   "items": [
+    "Éloignement",
+    "Méfait de l’agresseur",
+    "Départ du héros",
+    "Mariage"
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le mariage final récompense souvent le héros.",
+   "id": "t045-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la descente d’Inanna dans l’ordre.",
+   "items": [
+    "Elle franchit les sept portes",
+    "Elle meurt devant Ereshkigal",
+    "Enki la fait ressusciter",
+    "Dumuzi la remplace"
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Dumuzi passe une partie de l’année chez les morts.",
+   "id": "t045-103",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque fripon à sa culture.",
+   "paires": [
+    [
+     "Loki",
+     "Nordique"
+    ],
+    [
+     "Anansi",
+     "Afrique de l’Ouest"
+    ],
+    [
+     "Coyote",
+     "Amérindienne"
+    ],
+    [
+     "Sun Wukong",
+     "Chinoise"
+    ]
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le fripon est l’un des archétypes les plus universels.",
+   "id": "t045-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque mentor à son héros.",
+   "paires": [
+    [
+     "Merlin",
+     "Arthur"
+    ],
+    [
+     "Chiron",
+     "Achille"
+    ],
+    [
+     "Obi-Wan",
+     "Luke"
+    ],
+    [
+     "Gandalf",
+     "Frodon"
+    ]
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Le mentor disparaît souvent pour que le héros grandisse.",
+   "id": "t045-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque héros à son point faible.",
+   "paires": [
+    [
+     "Achille",
+     "Talon"
+    ],
+    [
+     "Siegfried",
+     "Dos"
+    ],
+    [
+     "Samson",
+     "Cheveux"
+    ],
+    [
+     "Baldr",
+     "Gui"
+    ]
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Même les héros les plus forts ont une faille.",
+   "id": "t045-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque tueur de monstre à sa victime.",
+   "paires": [
+    [
+     "Sigurd",
+     "Fafnir"
+    ],
+    [
+     "Susanoo",
+     "Yamata no Orochi"
+    ],
+    [
+     "Indra",
+     "Vritra"
+    ],
+    [
+     "Persée",
+     "Méduse"
+    ]
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Ces combats symbolisent la victoire de l’ordre sur le chaos.",
+   "id": "t045-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque chercheur à son idée.",
+   "paires": [
+    [
+     "Campbell",
+     "Monomythe"
+    ],
+    [
+     "Propp",
+     "Fonctions du conte"
+    ],
+    [
+     "Jung",
+     "Inconscient collectif"
+    ],
+    [
+     "Dumézil",
+     "Trois fonctions"
+    ]
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Ces théories servent encore aux écrivains et scénaristes.",
+   "id": "t045-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque héros à sa quête.",
+   "paires": [
+    [
+     "Jason",
+     "Toison d’or"
+    ],
+    [
+     "Perceval",
+     "Graal"
+    ],
+    [
+     "Orphée",
+     "Eurydice"
+    ],
+    [
+     "Gilgamesh",
+     "Immortalité"
+    ]
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "La quête donne sa direction à l’histoire.",
+   "id": "t045-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque héros abandonné à son lieu.",
+   "paires": [
+    [
+     "Moïse",
+     "Nil"
+    ],
+    [
+     "Romulus",
+     "Tibre"
+    ],
+    [
+     "Sargon",
+     "Euphrate"
+    ],
+    [
+     "Œdipe",
+     "Mont Cithéron"
+    ]
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Chacun est sauvé et recueilli par des étrangers.",
+   "id": "t045-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque archétype jungien à sa définition.",
+   "paires": [
+    [
+     "Persona",
+     "Masque social"
+    ],
+    [
+     "Ombre",
+     "Part refoulée"
+    ],
+    [
+     "Anima",
+     "Féminin intérieur"
+    ],
+    [
+     "Soi",
+     "Totalité de la psyché"
+    ]
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Jung utilise ces images pour analyser rêves et mythes.",
+   "id": "t045-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque fonction de Dumézil à un dieu romain.",
+   "paires": [
+    [
+     "Souveraineté",
+     "Jupiter"
+    ],
+    [
+     "Guerre",
+     "Mars"
+    ],
+    [
+     "Fécondité",
+     "Quirinus"
+    ]
+   ],
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "On retrouve cette triade chez les Indiens et les Scandinaves.",
+   "id": "t045-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je change de forme\n3. Je suis le père de Fenrir",
+   "choix": [
+    "Loki",
+    "Odin",
+    "Thor",
+    "Heimdall"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Enchaîné après la mort de Baldr, je serai libéré au Ragnarök.",
+   "id": "t045-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une araignée\n2. Je suis rusé\n3. Je possède toutes les histoires",
+   "choix": [
+    "Anansi",
+    "Arachné",
+    "Iktomi",
+    "Shelob"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Mes contes ont voyagé jusqu’aux Caraïbes.",
+   "id": "t045-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un centaure\n2. Je suis savant\n3. J’ai éduqué de grands héros",
+   "choix": [
+    "Chiron",
+    "Nessos",
+    "Pholos",
+    "Eurytion"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Blessé par une flèche empoisonnée d’Héraclès, j’ai renoncé à mon immortalité.",
+   "id": "t045-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un héros\n2. J’ai tué Fafnir\n3. Je comprends les oiseaux",
+   "choix": [
+    "Sigurd",
+    "Beowulf",
+    "Siegfried",
+    "Thor"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "On m’appelle Siegfried dans la version allemande de mon histoire.",
+   "id": "t045-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un savant\n2. J’ai étudié des centaines de mythes\n3. J’ai décrit le monomythe",
+   "choix": [
+    "Joseph Campbell",
+    "Carl Jung",
+    "Vladimir Propp",
+    "George Lucas"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Mes conférences ont été filmées au Skywalker Ranch.",
+   "id": "t045-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. Je suis descendue aux Enfers\n3. J’ai été pendue à un crochet",
+   "choix": [
+    "Inanna",
+    "Perséphone",
+    "Isis",
+    "Eurydice"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Ma sœur Ereshkigal règne sur le pays sans retour.",
+   "id": "t045-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un musicien\n2. J’ai charmé Hadès\n3. Je me suis retourné",
+   "choix": [
+    "Orphée",
+    "Apollon",
+    "Thésée",
+    "Pan"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Ma lyre est devenue une constellation, la Lyre.",
+   "id": "t045-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Seth m’a tué\n3. Isis m’a reconstitué",
+   "choix": [
+    "Osiris",
+    "Horus",
+    "Rê",
+    "Anubis"
+   ],
+   "rep": 0,
+   "src": "J. Campbell ; V. Propp ; C. G. Jung ; G. Dumézil ; récits mythologiques",
+   "expl": "Mon fils Horus devient roi d’Égypte après moi.",
+   "id": "t045-120",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
