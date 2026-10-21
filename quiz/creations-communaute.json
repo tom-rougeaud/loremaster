@@ -1,0 +1,2005 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "creations-communaute",
+  "nom": "Mythes urbains et créations de la communauté",
+  "royaume": "Écran, jeux vidéo et culture geek",
+  "icone": "visage",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les histoires d’horreur partagées et recopiées sur Internet ?",
+   "choix": [
+    "Les creepypastas",
+    "Les fanfictions",
+    "Les mèmes",
+    "Les lore-dumps"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Le mot vient de « copypasta », un texte copié-collé de forum en forum.",
+   "id": "t092-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage sans visage, en costume noir, naît en 2009 d’un concours de retouche photo sur un forum ?",
+   "choix": [
+    "Slender Man",
+    "Jeff the Killer",
+    "Siren Head",
+    "Herobrine"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Eric Knudsen, sous le pseudonyme de Victor Surge, publie les deux premières images.",
+   "id": "t092-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quel forum le Slender Man voit-il le jour ?",
+   "choix": [
+    "Something Awful",
+    "Reddit",
+    "4chan",
+    "Tumblr"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Le défi consistait à créer des photos paranormales crédibles.",
+   "id": "t092-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de vidéos YouTube, lancée en 2009, popularise le Slender Man sous la forme de faux documents trouvés ?",
+   "choix": [
+    "Marble Hornets",
+    "Petscop",
+    "Local 58",
+    "Unfiction"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle suit un étudiant qui découvre les rushes d’un film abandonné.",
+   "id": "t092-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle organisation fictive collaborative recense et confine des objets et créatures anormaux ?",
+   "choix": [
+    "La Fondation SCP",
+    "Les Archives X",
+    "Le Bureau 13",
+    "Le Département des Mystères"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Sa devise résume sa mission : sécuriser, contenir, protéger.",
+   "id": "t092-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la première créature célèbre de la Fondation SCP, une statue qui tue quand on ne la regarde pas ?",
+   "choix": [
+    "SCP-173",
+    "SCP-096",
+    "SCP-682",
+    "SCP-049"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Son article de 2007 a lancé tout le projet collaboratif.",
+   "id": "t092-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle classe de la Fondation SCP désigne les entités les plus difficiles à confiner ?",
+   "choix": [
+    "Keter",
+    "Safe",
+    "Euclid",
+    "Neutralisé"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Le nom vient d’une sphère de la kabbale.",
+   "id": "t092-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel SCP est un reptile presque indestructible qui hait toute forme de vie ?",
+   "choix": [
+    "SCP-682",
+    "SCP-173",
+    "SCP-999",
+    "SCP-106"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Les chercheurs ont tenté en vain de nombreuses méthodes pour le détruire.",
+   "id": "t092-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sous quelle licence les textes de la Fondation SCP sont-ils publiés ?",
+   "choix": [
+    "Creative Commons BY-SA",
+    "Copyright exclusif",
+    "Domaine public",
+    "Licence commerciale fermée"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Chacun peut les réutiliser en citant les auteurs et en partageant à l’identique.",
+   "id": "t092-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel espace sans fin, fait de couloirs jaunes et de néons bourdonnants, naît d’une image partagée en 2019 ?",
+   "choix": [
+    "Les Backrooms",
+    "La Zone",
+    "Le Labyrinthe",
+    "Le Néant"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "On y entrerait en « sortant de la réalité » au mauvais endroit.",
+   "id": "t092-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeune vidéaste popularise les Backrooms en 2022 avec des vidéos très réalistes ?",
+   "choix": [
+    "Kane Parsons",
+    "Kris Straub",
+    "Trevor Henderson",
+    "Eric Knudsen"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Il publie sous le nom de Kane Pixels et prépare ensuite un film.",
+   "id": "t092-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment appelle-t-on les lieux de passage vides et étrangement inquiétants, comme un couloir d’hôtel la nuit ?",
+   "choix": [
+    "Les espaces liminaux",
+    "Les non-lieux sacrés",
+    "Les zones grises",
+    "Les antichambres"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Le mot vient du latin limen, qui signifie le seuil.",
+   "id": "t092-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage légendaire de Minecraft serait un joueur fantôme aux yeux blancs ?",
+   "choix": [
+    "Herobrine",
+    "Steve",
+    "Notch",
+    "Enderman"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Les notes de mise à jour du jeu ont longtemps annoncé, par plaisanterie, sa suppression.",
+   "id": "t092-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature géante à la tête formée de haut-parleurs est créée par l’artiste Trevor Henderson ?",
+   "choix": [
+    "Siren Head",
+    "Cartoon Cat",
+    "Slender Man",
+    "Long Horse"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle émet des sons et des voix volés pour attirer ses proies.",
+   "id": "t092-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle creepypasta de Kris Straub, en 2009, évoque une émission pour enfants dont personne ne se souvient vraiment ?",
+   "choix": [
+    "Candle Cove",
+    "Petscop",
+    "Ben Drowned",
+    "Local 58"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle est adaptée en série dans la première saison de Channel Zero.",
+   "id": "t092-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle légende urbaine raconte l’existence d’une borne d’arcade gouvernementale de 1981, provoquant des troubles chez les joueurs ?",
+   "choix": [
+    "Polybius",
+    "Pac-Man noir",
+    "Berzerk",
+    "Tempest"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Aucune trace matérielle de cette borne n’a jamais été retrouvée.",
+   "id": "t092-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle creepypasta de 2010 raconte une cartouche de Zelda hantée, nommée d’après un personnage noyé ?",
+   "choix": [
+    "Ben Drowned",
+    "Killswitch",
+    "NES Godzilla",
+    "Sonic.exe"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle mêle texte, vidéos et faux échanges avec le public.",
+   "id": "t092-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série YouTube de 2017 présente les parties d’un mystérieux jeu PlayStation inquiétant ?",
+   "choix": [
+    "Petscop",
+    "Marble Hornets",
+    "Candle Cove",
+    "Local 58"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Son histoire se reconstruit à partir d’indices cachés dans chaque épisode.",
+   "id": "t092-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel site de récits de fans, géré par une association, reçoit un prix Hugo en 2019 ?",
+   "choix": [
+    "Archive of Our Own",
+    "Wattpad",
+    "FanFiction.net",
+    "Tumblr"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Il est géré par l’Organization for Transformative Works.",
+   "id": "t092-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plateforme canadienne de lecture et d’écriture, née en 2006, a révélé de nombreux auteurs amateurs ?",
+   "choix": [
+    "Wattpad",
+    "Archive of Our Own",
+    "Medium",
+    "Scribd"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "After, d’Anna Todd, y commence comme une fanfiction.",
+   "id": "t092-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle fanfiction de la saga de Rowling, publiée de 2010 à 2015, réécrit l’histoire avec un héros adepte de la démarche scientifique ?",
+   "choix": [
+    "Harry Potter et les méthodes de la rationalité",
+    "My Immortal",
+    "L’Héritier de Serpentard",
+    "Harry Potter et l’Enfant maudit"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle est écrite par le chercheur américain Eliezer Yudkowsky.",
+   "id": "t092-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle fanfiction de Harry Potter, publiée vers 2006, est célèbre pour être considérée comme la pire de l’histoire ?",
+   "choix": [
+    "My Immortal",
+    "Les Méthodes de la rationalité",
+    "Draco Trilogy",
+    "Harry Potter et l’Enfant maudit"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Son héroïne gothique, Ebony, est devenue un sujet de moquerie affectueuse.",
+   "id": "t092-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui aurait inventé le mot « cosplay », en 1984 ?",
+   "choix": [
+    "Le Japonais Nobuyuki Takahashi",
+    "L’Américain Forrest Ackerman",
+    "Le Français Jean Giraud",
+    "Le Britannique Terry Pratchett"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Il forge le terme après avoir visité une convention américaine.",
+   "id": "t092-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mod de Half-Life, sorti en 1999, devient l’un des jeux de tir en ligne les plus joués au monde ?",
+   "choix": [
+    "Counter-Strike",
+    "Team Fortress",
+    "Day of Defeat",
+    "DayZ"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Ses créateurs sont ensuite embauchés par Valve.",
+   "id": "t092-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle carte personnalisée de Warcraft III donne naissance au genre MOBA ?",
+   "choix": [
+    "Defense of the Ancients",
+    "Tower Defense",
+    "Footman Frenzy",
+    "Island Defense"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "On l’appelle DotA ; elle inspire League of Legends et Dota 2.",
+   "id": "t092-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mod de jeu militaire, en 2012, lance la mode des jeux de survie face aux zombies ?",
+   "choix": [
+    "DayZ",
+    "Rust",
+    "H1Z1",
+    "Unturned"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Il est créé par Dean Hall à partir d’ARMA 2.",
+   "id": "t092-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel joueur de World of Warcraft devient célèbre en 2005 en fonçant seul au combat en criant son propre nom ?",
+   "choix": [
+    "Leeroy Jenkins",
+    "Bob Nesbitt",
+    "Tyler Durden",
+    "Gandalf le Gris"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "La vidéo, en réalité mise en scène, devient l’un des premiers mèmes du jeu vidéo.",
+   "id": "t092-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle épidémie virtuelle de World of Warcraft, en 2005, intéresse ensuite des épidémiologistes ?",
+   "choix": [
+    "Le Sang vicié",
+    "La Peste noire virtuelle",
+    "Le Fléau d’Arthas",
+    "La Grippe des gnomes"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Un sort de boss s’échappe du donjon et décime les villes du jeu.",
+   "id": "t092-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel créateur d’Ultima Online voit son personnage tué par un joueur pendant un test public en 1997 ?",
+   "choix": [
+    "Richard Garriott",
+    "Sid Meier",
+    "John Romero",
+    "Peter Molyneux"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Son personnage, Lord British, était censé être invulnérable, mais une protection avait été oubliée.",
+   "id": "t092-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel événement de 2014 voit des dizaines de milliers d’internautes jouer ensemble à Pokémon Rouge par le chat d’une diffusion ?",
+   "choix": [
+    "Twitch Plays Pokémon",
+    "Pokémon Go Fest",
+    "Pokémon Masters",
+    "Pokémon Unite"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Les joueurs vénèrent ironiquement un fossile, devenu le dieu « Lord Helix ».",
+   "id": "t092-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle bataille spatiale de 2014, dans EVE Online, détruit des vaisseaux d’une valeur réelle estimée à plusieurs centaines de milliers de dollars ?",
+   "choix": [
+    "La bataille de B-R5RB",
+    "La bataille de Hoth",
+    "La bataille de Mordor",
+    "La bataille d’Azeroth"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle commence parce qu’un loyer de système stellaire n’a pas été payé à temps.",
+   "id": "t092-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle encyclopédie collaborative héberge des milliers de wikis consacrés aux œuvres de fiction ?",
+   "choix": [
+    "Fandom",
+    "Wikipédia",
+    "Britannica",
+    "Larousse"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle s’appelait d’abord Wikia, à sa création en 2004.",
+   "id": "t092-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel écrivain a ouvert son univers à ses amis écrivains, qui y ont ajouté leurs propres dieux et grimoires ?",
+   "choix": [
+    "H. P. Lovecraft",
+    "J. R. R. Tolkien",
+    "Edgar Allan Poe",
+    "Stephen King"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "August Derleth et Robert Bloch, entre autres, ont enrichi le mythe de Cthulhu.",
+   "id": "t092-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment appelle-t-on un récit de fans qui change un élément clé de l’œuvre, par exemple « et si ce personnage avait survécu » ?",
+   "choix": [
+    "Un univers alternatif",
+    "Un canon",
+    "Un spin-off officiel",
+    "Un reboot"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Les fans l’abrègent souvent en « AU », de l’anglais alternate universe.",
+   "id": "t092-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on l’ensemble des faits officiellement reconnus dans un univers de fiction ?",
+   "choix": [
+    "Le canon",
+    "Le fanon",
+    "Le headcanon",
+    "Le lore alternatif"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Le « fanon », à l’inverse, regroupe les idées populaires chez les fans.",
+   "id": "t092-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle grande convention de bande dessinée et de culture pop naît à San Diego en 1970 ?",
+   "choix": [
+    "Comic-Con",
+    "Japan Expo",
+    "Gen Con",
+    "PAX"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle attire aujourd’hui plus de cent mille visiteurs.",
+   "id": "t092-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle convention consacrée à la culture japonaise naît à Paris en 2000 ?",
+   "choix": [
+    "Japan Expo",
+    "Paris Games Week",
+    "Comic-Con Paris",
+    "Festival d’Angoulême"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle est devenue l’un des plus grands salons du genre en Europe.",
+   "id": "t092-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle convention de jeux, née en 1968, est le berceau historique de Donjons et Dragons ?",
+   "choix": [
+    "Gen Con",
+    "Comic-Con",
+    "PAX",
+    "Essen Spiel"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle se tenait d’abord à Lake Geneva, dans le Wisconsin.",
+   "id": "t092-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature légendaire d’Internet, dessinée comme une silhouette pâle et décharnée à quatre pattes, hanterait les forêts ?",
+   "choix": [
+    "Le Rake",
+    "Le Wendigo de Fallout",
+    "Le Mothman",
+    "Le Chupacabra"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Elle naît sur des forums d’horreur vers 2005 ou 2006.",
+   "id": "t092-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu indépendant de 2012 a transformé la créature sans visage en phénomène de vidéos de réactions ?",
+   "choix": [
+    "Slender : The Eight Pages",
+    "Five Nights at Freddy’s",
+    "Amnesia",
+    "Outlast"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Le joueur doit retrouver huit pages dans une forêt nocturne.",
+   "id": "t092-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel studio de cinéma a annoncé l’adaptation des Backrooms de Kane Parsons ?",
+   "choix": [
+    "A24",
+    "Pixar",
+    "Lucasfilm",
+    "Studio Ghibli"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP, wiki officiel (scp-wiki.wikidot.com, licence CC BY-SA) ; Know Your Meme (articles Slender Man, Backrooms, Herobrine) ; Shira Chess et Eric Newsom (dir.), Folklore, Horror Stories, and the Slender Man (2015) ; Organization for Transformative Works (Archive of Our Own) ; The Lancet Infectious Diseases (2007, incident du Corrupted Blood)",
+   "expl": "Le studio est connu pour ses films d’horreur d’auteur, comme Hérédité.",
+   "id": "t092-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Slender Man est né en 2009 sur un forum.",
+   "rep": true,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Il est apparu sur le forum Something Awful.",
+   "id": "t092-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "SCP-173 est une créature aquatique.",
+   "rep": false,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Faux : c’est une statue qui tue quand on ne la regarde pas.",
+   "id": "t092-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les textes de la Fondation SCP sont sous licence libre.",
+   "rep": true,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Ils sont publiés sous licence Creative Commons BY-SA.",
+   "id": "t092-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Herobrine fait réellement partie du code de Minecraft.",
+   "rep": false,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Faux : c’est une légende inventée par la communauté.",
+   "id": "t092-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Counter-Strike est né comme un mod de Half-Life.",
+   "rep": true,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Il sort en 1999 avant d’être racheté par Valve.",
+   "id": "t092-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Backrooms sont nées dans un roman de 1950.",
+   "rep": false,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Faux : elles naissent d’une image partagée sur Internet en 2019.",
+   "id": "t092-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Archive of Our Own a reçu un prix Hugo.",
+   "rep": true,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Il le reçoit en 2019 dans la catégorie Œuvre apparentée.",
+   "id": "t092-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Leeroy Jenkins est un personnage de Final Fantasy.",
+   "rep": false,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Faux : c’est un joueur de World of Warcraft, devenu un mème.",
+   "id": "t092-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le mot cosplay a été inventé au Japon.",
+   "rep": true,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Il combine les mots anglais costume et play.",
+   "id": "t092-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La borne d’arcade Polybius a été retrouvée dans un musée.",
+   "rep": false,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Faux : aucune trace matérielle de la borne n’a jamais été retrouvée.",
+   "id": "t092-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’épidémie du Sang vicié a intéressé des épidémiologistes.",
+   "rep": true,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Des chercheurs y voient un modèle des comportements humains face à une épidémie.",
+   "id": "t092-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Fondation SCP est une agence gouvernementale réelle.",
+   "rep": false,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Faux : c’est une fiction collaborative écrite par des milliers d’auteurs.",
+   "id": "t092-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "DotA était une carte personnalisée de Warcraft III.",
+   "rep": true,
+   "src": "Fondation SCP ; Know Your Meme ; Chess et Newsom",
+   "expl": "Elle a donné naissance au genre de l’arène de bataille en ligne.",
+   "id": "t092-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Twitch Plays Pokémon se jouait avec une seule personne aux commandes.",
+   "rep": false,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Faux : chaque commande venait des messages de milliers de spectateurs.",
+   "id": "t092-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année naît le Slender Man ?",
+   "rep": 2009,
+   "min": 2000,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Il apparaît en juin, sur un fil de discussion du forum Something Awful.",
+   "id": "t092-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Quel est le numéro de la statue qui a lancé la Fondation SCP ?",
+   "rep": 173,
+   "min": 1,
+   "max": 999,
+   "pas": 1,
+   "unite": "numéro",
+   "tolerance": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Son image s’inspire d’une sculpture réelle de l’artiste Izumi Kato.",
+   "id": "t092-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année naît l’image des Backrooms ?",
+   "rep": 2019,
+   "min": 2010,
+   "max": 2023,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Elle est publiée sur un forum d’images anonyme.",
+   "id": "t092-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Counter-Strike ?",
+   "rep": 1999,
+   "min": 1990,
+   "max": 2005,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le mod devient rapidement un jeu commercial.",
+   "id": "t092-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Leeroy Jenkins devient-il célèbre ?",
+   "rep": 2005,
+   "min": 1999,
+   "max": 2012,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "La vidéo de son raid fait le tour du monde.",
+   "id": "t092-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année naît la Comic-Con de San Diego ?",
+   "rep": 1970,
+   "min": 1960,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Elle réunit moins de trois cents personnes à sa première édition.",
+   "id": "t092-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année naît Japan Expo ?",
+   "rep": 2000,
+   "min": 1990,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Sa première édition se tient à l’Espace Champerret, à Paris.",
+   "id": "t092-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de pages faut-il retrouver dans le jeu Slender de 2012 ?",
+   "rep": 8,
+   "min": 3,
+   "max": 15,
+   "pas": 1,
+   "unite": "pages",
+   "tolerance": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le Slender Man se rapproche à chaque page ramassée.",
+   "id": "t092-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les histoires d’horreur recopiées sur Internet s’appellent des ____.",
+   "choix": [
+    "creepypastas",
+    "creepystories",
+    "fanfictions",
+    "memes"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Elles se transmettent comme les légendes urbaines d’autrefois.",
+   "id": "t092-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’homme sans visage d’Internet s’appelle ____ Man.",
+   "choix": [
+    "Slender",
+    "Shadow",
+    "Silent",
+    "Hollow"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Son nom anglais signifie « l’homme mince ».",
+   "id": "t092-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’organisation fictive qui confine les anomalies s’appelle la Fondation ____.",
+   "choix": [
+    "SCP",
+    "SPC",
+    "CSP",
+    "SOS"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le sigle reprend sa devise : Secure, Contain, Protect.",
+   "id": "t092-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les couloirs jaunes sans fin s’appellent les ____.",
+   "choix": [
+    "Backrooms",
+    "Backstreets",
+    "Darkrooms",
+    "Halls"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le premier niveau, appelé niveau 0, est le plus connu.",
+   "id": "t092-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le joueur fantôme de Minecraft s’appelle ____.",
+   "choix": [
+    "Herobrine",
+    "Herobrian",
+    "Heroblade",
+    "Steve"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "On le dit parfois frère défunt du créateur du jeu.",
+   "id": "t092-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La créature à tête de haut-parleurs s’appelle Siren ____.",
+   "choix": [
+    "Head",
+    "Hand",
+    "Horn",
+    "Heart"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Elle mesure plusieurs dizaines de mètres de haut.",
+   "id": "t092-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La borne d’arcade légendaire de 1981 s’appelle ____.",
+   "choix": [
+    "Polybius",
+    "Pythagore",
+    "Polyphème",
+    "Pegasus"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Son nom évoque l’historien grec Polybe, du 2e siècle avant notre ère.",
+   "id": "t092-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le mod de Half-Life de 1999 s’appelle Counter-____.",
+   "choix": [
+    "Strike",
+    "Attack",
+    "Force",
+    "Terror"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Les terroristes y affrontent les antiterroristes.",
+   "id": "t092-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le joueur qui crie son nom dans World of Warcraft s’appelle Leeroy ____.",
+   "choix": [
+    "Jenkins",
+    "Johnson",
+    "Jackson",
+    "Jameson"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Son cri est devenu une expression pour une action irréfléchie.",
+   "id": "t092-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plateforme canadienne d’écriture amateur s’appelle ____.",
+   "choix": [
+    "Wattpad",
+    "Wordpad",
+    "Watpad",
+    "Webnovel"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Plusieurs de ses histoires ont été adaptées au cinéma.",
+   "id": "t092-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les faits officiels d’un univers de fiction s’appellent le ____.",
+   "choix": [
+    "canon",
+    "fanon",
+    "lore",
+    "dogme"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le mot vient du vocabulaire religieux des textes reconnus.",
+   "id": "t092-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La classe des anomalies SCP les plus dangereuses s’appelle ____.",
+   "choix": [
+    "Keter",
+    "Kether",
+    "Euclid",
+    "Thaumiel"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Thaumiel désigne au contraire des anomalies utilisées pour en contenir d’autres.",
+   "id": "t092-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le vidéaste des Backrooms s’appelle Kane ____.",
+   "choix": [
+    "Parsons",
+    "Pixels",
+    "Peterson",
+    "Palmer"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Il publie sous le pseudonyme de Kane Pixels.",
+   "id": "t092-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas né sur Internet ?",
+   "choix": [
+    "Dracula",
+    "Slender Man",
+    "Siren Head",
+    "Herobrine"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Dracula vient du roman de Bram Stoker, en 1897.",
+   "id": "t092-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas né comme un mod ?",
+   "choix": [
+    "Minecraft",
+    "Counter-Strike",
+    "DayZ",
+    "Defense of the Ancients"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Minecraft est un jeu original de Markus Persson.",
+   "id": "t092-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces classes n’existe pas dans la Fondation SCP ?",
+   "choix": [
+    "Ultra",
+    "Safe",
+    "Euclid",
+    "Keter"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Il existe aussi la classe Thaumiel, pour les anomalies utiles.",
+   "id": "t092-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sites n’est pas consacré à l’écriture de fans ?",
+   "choix": [
+    "Wikipédia",
+    "Archive of Our Own",
+    "Wattpad",
+    "FanFiction.net"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Wikipédia est une encyclopédie généraliste.",
+   "id": "t092-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créations n’est pas une série vidéo d’horreur ?",
+   "choix": [
+    "Critical Role",
+    "Marble Hornets",
+    "Petscop",
+    "Local 58"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Critical Role est une série de parties de jeu de rôle.",
+   "id": "t092-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces événements n’a pas eu lieu dans un jeu en ligne ?",
+   "choix": [
+    "Le Grand Incendie de Londres",
+    "Le Sang vicié",
+    "La bataille de B-R5RB",
+    "La mort de Lord British"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le Grand Incendie de Londres a ravagé la ville réelle en 1666.",
+   "id": "t092-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces SCP n’est pas une créature hostile ?",
+   "choix": [
+    "SCP-999",
+    "SCP-682",
+    "SCP-173",
+    "SCP-096"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "SCP-999 est une gelée orange qui rend tout le monde joyeux.",
+   "id": "t092-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces conventions n’est pas française ?",
+   "choix": [
+    "Gen Con",
+    "Japan Expo",
+    "Paris Games Week",
+    "Festival d’Angoulême"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Gen Con est une convention américaine, née dans le Wisconsin.",
+   "id": "t092-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas contribué au mythe de Cthulhu ?",
+   "choix": [
+    "Jules Verne",
+    "August Derleth",
+    "Robert Bloch",
+    "Clark Ashton Smith"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Jules Verne est mort avant la naissance du mythe.",
+   "id": "t092-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mots n’appartient pas au vocabulaire des fans ?",
+   "choix": [
+    "Le sonnet",
+    "Le canon",
+    "Le fanon",
+    "L’univers alternatif"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le sonnet est une forme poétique classique.",
+   "id": "t092-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles créatures sont nées sur Internet ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Slender Man",
+    "Siren Head",
+    "Herobrine",
+    "SCP-173",
+    "Dracula",
+    "Frankenstein"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le folklore numérique crée ses propres monstres.",
+   "id": "t092-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux sont nés comme des mods ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Counter-Strike",
+    "DayZ",
+    "Defense of the Ancients",
+    "Team Fortress",
+    "Minecraft",
+    "Tetris"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Les communautés de moddeurs ont inventé des genres entiers.",
+   "id": "t092-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles classes existent dans la Fondation SCP ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Safe",
+    "Euclid",
+    "Keter",
+    "Thaumiel",
+    "Ultra",
+    "Omega"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Ces classes indiquent la difficulté de confinement.",
+   "id": "t092-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles plateformes accueillent des écrits de fans ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Archive of Our Own",
+    "Wattpad",
+    "FanFiction.net",
+    "Wikipédia",
+    "LinkedIn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Des millions d’histoires y sont publiées chaque année.",
+   "id": "t092-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels événements célèbres se sont déroulés dans des jeux en ligne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Sang vicié",
+    "Leeroy Jenkins",
+    "La bataille de B-R5RB",
+    "Le bug de l’an 2000",
+    "La panne de Facebook"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Les mondes virtuels ont leur propre histoire.",
+   "id": "t092-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles séries vidéo racontent des histoires d’horreur par fragments ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Marble Hornets",
+    "Petscop",
+    "Local 58",
+    "Critical Role",
+    "Kaamelott"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le spectateur doit reconstruire l’histoire lui-même.",
+   "id": "t092-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles conventions célèbrent la culture populaire ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Comic-Con",
+    "Japan Expo",
+    "Gen Con",
+    "Festival de Cannes",
+    "Salon de l’agriculture"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Les fans s’y retrouvent souvent en costume.",
+   "id": "t092-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels auteurs ont enrichi le mythe de Cthulhu ? (plusieurs bonnes réponses)",
+   "choix": [
+    "August Derleth",
+    "Robert Bloch",
+    "Clark Ashton Smith",
+    "Robert E. Howard",
+    "Jules Verne",
+    "Victor Hugo"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Lovecraft encourageait ses correspondants à emprunter ses créatures.",
+   "id": "t092-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels éléments décrivent les Backrooms ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Papier peint jaune",
+    "Néons bourdonnants",
+    "Moquette humide",
+    "Château médiéval",
+    "Forêt enchantée"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Leur banalité inquiétante fait leur force.",
+   "id": "t092-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels termes désignent des créations de fans ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fanfiction",
+    "Fan art",
+    "Cosplay",
+    "Canon",
+    "Remake officiel"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le canon désigne au contraire l’œuvre officielle.",
+   "id": "t092-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces créations par date d’apparition.",
+   "items": [
+    "SCP-173",
+    "Slender Man",
+    "Les Backrooms"
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "SCP-173 date de 2007, Slender Man de 2009 et les Backrooms de 2019.",
+   "id": "t092-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces conventions par date de création.",
+   "items": [
+    "Gen Con",
+    "Comic-Con",
+    "Japan Expo"
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Elles sont créées en 1968, 1970 puis 2000.",
+   "id": "t092-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces mods par date de sortie.",
+   "items": [
+    "Team Fortress",
+    "Counter-Strike",
+    "Defense of the Ancients",
+    "DayZ"
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Ces mods sortent en 1996, 1999, 2003 puis 2012.",
+   "id": "t092-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements en ligne par date.",
+   "items": [
+    "Mort de Lord British",
+    "Leeroy Jenkins",
+    "Le Sang vicié",
+    "Twitch Plays Pokémon"
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "1997, mai 2005, septembre 2005 puis 2014.",
+   "id": "t092-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces séries vidéo d’horreur par date de lancement.",
+   "items": [
+    "Marble Hornets",
+    "Petscop",
+    "Les vidéos de Kane Pixels"
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Ces séries débutent en 2009, 2017 puis 2022.",
+   "id": "t092-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces plateformes d’écriture par date de création.",
+   "items": [
+    "FanFiction.net",
+    "Wattpad",
+    "Archive of Our Own"
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Ces plateformes naissent en 1998, 2006 puis 2008.",
+   "id": "t092-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la naissance du Slender Man dans l’ordre.",
+   "items": [
+    "Concours de photos truquées",
+    "Série Marble Hornets",
+    "Jeu Slender",
+    "Film Slender Man"
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Ces étapes se succèdent de 2009 à 2018, en moins de dix ans.",
+   "id": "t092-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces classes SCP de la plus facile à la plus difficile à confiner.",
+   "items": [
+    "Safe",
+    "Euclid",
+    "Keter"
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Une anomalie Safe peut parfois être rangée dans un simple coffre fermé à clé.",
+   "id": "t092-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces anomalies de la Fondation par numéro croissant.",
+   "items": [
+    "SCP-049",
+    "SCP-096",
+    "SCP-173",
+    "SCP-682"
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le médecin de la peste, l’Être timide, la statue puis le reptile indestructible.",
+   "id": "t092-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque créature à son origine.",
+   "paires": [
+    [
+     "Slender Man",
+     "Something Awful"
+    ],
+    [
+     "Herobrine",
+     "Minecraft"
+    ],
+    [
+     "Siren Head",
+     "Trevor Henderson"
+    ],
+    [
+     "SCP-173",
+     "Fondation SCP"
+    ]
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Ces créatures sont nées d’une communauté en ligne.",
+   "id": "t092-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mod à son jeu d’origine.",
+   "paires": [
+    [
+     "Counter-Strike",
+     "Half-Life"
+    ],
+    [
+     "DotA",
+     "Warcraft III"
+    ],
+    [
+     "DayZ",
+     "ARMA 2"
+    ],
+    [
+     "Team Fortress",
+     "Quake"
+    ]
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "De nombreux succès commencent comme des créations amateurs.",
+   "id": "t092-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque événement à son jeu.",
+   "paires": [
+    [
+     "Leeroy Jenkins",
+     "World of Warcraft"
+    ],
+    [
+     "Bataille de B-R5RB",
+     "EVE Online"
+    ],
+    [
+     "Lord Helix",
+     "Pokémon Rouge"
+    ]
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Ces moments sont devenus des légendes du jeu en ligne.",
+   "id": "t092-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque terme à sa définition.",
+   "paires": [
+    [
+     "Canon",
+     "Version officielle"
+    ],
+    [
+     "Fanon",
+     "Idée populaire chez les fans"
+    ],
+    [
+     "Univers alternatif",
+     "Récit qui change un élément"
+    ],
+    [
+     "Headcanon",
+     "Interprétation personnelle"
+    ]
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Ce vocabulaire est né dans les communautés de fans.",
+   "id": "t092-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque créateur à sa création.",
+   "paires": [
+    [
+     "Eric Knudsen",
+     "Slender Man"
+    ],
+    [
+     "Kris Straub",
+     "Candle Cove"
+    ],
+    [
+     "Kane Parsons",
+     "Vidéos des Backrooms"
+    ],
+    [
+     "Trevor Henderson",
+     "Siren Head"
+    ]
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Certains auteurs restent anonymes, d’autres deviennent célèbres.",
+   "id": "t092-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque convention à sa ville.",
+   "paires": [
+    [
+     "Comic-Con",
+     "San Diego"
+    ],
+    [
+     "Japan Expo",
+     "Paris"
+    ],
+    [
+     "Gen Con",
+     "Indianapolis"
+    ]
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Gen Con a quitté le Wisconsin pour l’Indiana en 2003.",
+   "id": "t092-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque classe SCP à sa signification.",
+   "paires": [
+    [
+     "Safe",
+     "Confinement facile"
+    ],
+    [
+     "Euclid",
+     "Comportement imprévisible"
+    ],
+    [
+     "Keter",
+     "Confinement très difficile"
+    ]
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Les auteurs inventent aussi des classes plus rares.",
+   "id": "t092-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque plateforme à sa spécialité.",
+   "paires": [
+    [
+     "Archive of Our Own",
+     "Fanfictions"
+    ],
+    [
+     "Wattpad",
+     "Récits amateurs"
+    ],
+    [
+     "Fandom",
+     "Wikis de fiction"
+    ]
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Les fans disposent de nombreux outils pour créer.",
+   "id": "t092-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque légende à son médium.",
+   "paires": [
+    [
+     "Polybius",
+     "Borne d’arcade"
+    ],
+    [
+     "Ben Drowned",
+     "Cartouche de Zelda"
+    ],
+    [
+     "Candle Cove",
+     "Émission de télévision"
+    ],
+    [
+     "Petscop",
+     "Jeu PlayStation"
+    ]
+   ],
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Les légendes numériques détournent des objets familiers.",
+   "id": "t092-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une créature\n2. Je n’ai pas de visage\n3. Je porte un costume noir",
+   "choix": [
+    "Slender Man",
+    "Siren Head",
+    "Jeff the Killer",
+    "Herobrine"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Je suis né sur le forum Something Awful en 2009.",
+   "id": "t092-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une statue\n2. Je bouge quand on cligne des yeux\n3. Je suis un SCP",
+   "choix": [
+    "SCP-173",
+    "SCP-096",
+    "SCP-682",
+    "SCP-049"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "J’ai lancé toute la Fondation SCP en 2007.",
+   "id": "t092-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un lieu\n2. Mes couloirs sont jaunes\n3. Je suis infini",
+   "choix": [
+    "Les Backrooms",
+    "La Zone",
+    "Le Labyrinthe",
+    "Silent Hill"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "On m’atteint en sortant accidentellement de la réalité.",
+   "id": "t092-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un joueur\n2. Je fonce seul au combat\n3. Mon cri est devenu un mème",
+   "choix": [
+    "Leeroy Jenkins",
+    "Lord British",
+    "Herobrine",
+    "Steve"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Le jeu World of Warcraft est mon royaume.",
+   "id": "t092-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un mod\n2. Je viens de Half-Life\n3. Je suis devenu un géant de l’e-sport",
+   "choix": [
+    "Counter-Strike",
+    "Team Fortress",
+    "Day of Defeat",
+    "DayZ"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Je suis né en 1999 et Valve m’a racheté.",
+   "id": "t092-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une borne\n2. Je serais apparue en 1981\n3. Personne ne m’a jamais trouvée",
+   "choix": [
+    "Polybius",
+    "Pong",
+    "Berzerk",
+    "Tempest"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Je suis un pur mythe urbain de l’ère du jeu vidéo.",
+   "id": "t092-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un site\n2. Je recueille des récits de fans\n3. J’ai reçu un prix Hugo",
+   "choix": [
+    "Archive of Our Own",
+    "Wattpad",
+    "FanFiction.net",
+    "Tumblr"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Une association à but non lucratif me gère.",
+   "id": "t092-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un mot\n2. Je viens du Japon\n3. Je désigne l’art du costume",
+   "choix": [
+    "Cosplay",
+    "Manga",
+    "Anime",
+    "Otaku"
+   ],
+   "rep": 0,
+   "src": "Fondation SCP ; Know Your Meme",
+   "expl": "Nobuyuki Takahashi m’aurait inventé en 1984.",
+   "id": "t092-122",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
