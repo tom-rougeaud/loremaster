@@ -1,0 +1,2011 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "mtg-multivers",
+  "nom": "Magic : le Multivers et les Arpenteurs",
+  "royaume": "Jeux de rôle, de cartes et de plateau",
+  "icone": "portail",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on, en français, les mages capables de voyager d’un plan à l’autre dans Magic ?",
+   "choix": [
+    "Les Arpenteurs",
+    "Les Voyageurs",
+    "Les Sentinelles",
+    "Les Archimages"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "En anglais, on les appelle planeswalkers.",
+   "id": "t077-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que doit posséder un mage pour devenir Arpenteur ?",
+   "choix": [
+    "Une étincelle",
+    "Un anneau",
+    "Un dragon",
+    "Une couronne"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Elle s’éveille souvent lors d’un traumatisme ou d’une épreuve extrême.",
+   "id": "t077-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le vide chaotique qui sépare les plans du Multivers ?",
+   "choix": [
+    "Les Éternités aveugles",
+    "Le Néant étoilé",
+    "Le Grand Abîme",
+    "Le Vide astral"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Seuls les Arpenteurs peuvent le traverser sans être détruits.",
+   "id": "t077-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le plan d’origine de Magic, cadre des premières extensions ?",
+   "choix": [
+    "Dominaria",
+    "Ravnica",
+    "Innistrad",
+    "Zendikar"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "On y retrouve la saga de l’Aquilon et la guerre des Frères.",
+   "id": "t077-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels deux frères artificiers s’affrontent dans la guerre qui ravage Dominaria ?",
+   "choix": [
+    "Urza et Mishra",
+    "Jace et Gideon",
+    "Karn et Tezzeret",
+    "Teferi et Ugin"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Leur conflit est raconté dans l’extension La Guerre des Frères, en 2022.",
+   "id": "t077-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan monstrueux mêle chair et métal, sous l’autorité de Yawgmoth puis d’Elesh Norn ?",
+   "choix": [
+    "Phyrexia",
+    "Mirrodin",
+    "Kaladesh",
+    "Amonkhet"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Ses habitants répandent une huile qui contamine tout ce qu’elle touche.",
+   "id": "t077-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan est entièrement recouvert d’une ville, divisée en dix guildes ?",
+   "choix": [
+    "Ravnica",
+    "Kaladesh",
+    "Ixalan",
+    "New Capenna"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Chaque guilde associe deux couleurs de mana.",
+   "id": "t077-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan s’inspire de l’horreur gothique, avec vampires, loups-garous et fantômes ?",
+   "choix": [
+    "Innistrad",
+    "Theros",
+    "Lorwyn",
+    "Tarkir"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "L’ange Avacyn y protège les humains, du moins au début.",
+   "id": "t077-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel plan sauvage abrite les terribles titans Eldrazi ?",
+   "choix": [
+    "Zendikar",
+    "Dominaria",
+    "Kamigawa",
+    "Alara"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Ses terres bougent et se soulèvent, ce qu’on appelle le Tumulte.",
+   "id": "t077-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels sont les trois titans Eldrazi ?",
+   "choix": [
+    "Emrakul, Kozilek et Ulamog",
+    "Bolas, Ugin et Karn",
+    "Urza, Mishra et Yawgmoth",
+    "Avacyn, Sigarda et Bruna"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Ces entités venues des Éternités aveugles dévorent les plans.",
+   "id": "t077-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Emrakul est-elle finalement emprisonnée ?",
+   "choix": [
+    "Dans la lune d’Innistrad",
+    "Dans le Helvault",
+    "Sous Ravnica",
+    "Dans la Forteresse de Phyrexia"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Tamiyo et Nahiri y ont participé, dans l’arc de La Lune d’Ombres et Lune d’Avacyn.",
+   "id": "t077-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan s’inspire de la Grèce antique, avec ses dieux et ses héros ?",
+   "choix": [
+    "Theros",
+    "Amonkhet",
+    "Kaldheim",
+    "Eldraine"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Ses dieux naissent et vivent grâce à la foi des mortels.",
+   "id": "t077-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan s’inspire de l’Égypte antique, transformé par le dragon Nicol Bolas ?",
+   "choix": [
+    "Amonkhet",
+    "Theros",
+    "Tarkir",
+    "Ixalan"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Ses habitants y passent des épreuves mortelles pour atteindre une prétendue vie éternelle.",
+   "id": "t077-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan inventif, inspiré de l’Inde, fonctionne grâce à l’éther ?",
+   "choix": [
+    "Kaladesh",
+    "Mirrodin",
+    "Strixhaven",
+    "Ixalan"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "C’est le plan natal de la pyromancienne Chandra Nalaar.",
+   "id": "t077-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan inspiré du Japon médiéval puis futuriste a donné son nom à plusieurs extensions ?",
+   "choix": [
+    "Kamigawa",
+    "Tarkir",
+    "Ixalan",
+    "Lorwyn"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Néon Dynastie, en 2022, y montre une ville cyberpunk.",
+   "id": "t077-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan mêle pirates, conquistadors et dinosaures autour d’une cité d’or ?",
+   "choix": [
+    "Ixalan",
+    "Zendikar",
+    "Kaladesh",
+    "Eldraine"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "La cité dorée d’Orazca attire toutes les factions.",
+   "id": "t077-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan s’inspire des contes de fées et de la légende arthurienne ?",
+   "choix": [
+    "Eldraine",
+    "Lorwyn",
+    "Theros",
+    "Innistrad"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "On y trouve la cour royale et les Terres sauvages féeriques.",
+   "id": "t077-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel plan s’inspire de la mythologie nordique ?",
+   "choix": [
+    "Kaldheim",
+    "Theros",
+    "Tarkir",
+    "Dominaria"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Ses dix royaumes sont reliés par l’arbre Cosmos.",
+   "id": "t077-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan accueille une université de magie divisée en cinq collèges ?",
+   "choix": [
+    "Strixhaven",
+    "Ravnica",
+    "Kaladesh",
+    "New Capenna"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Chaque collège associe deux couleurs et une discipline.",
+   "id": "t077-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan est peuplé de clans inspirés des steppes et de dragons ?",
+   "choix": [
+    "Tarkir",
+    "Kamigawa",
+    "Zendikar",
+    "Alara"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Le voyage dans le temps de Sarkhan Vol y change toute l’histoire.",
+   "id": "t077-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan artificiel, entièrement métallique, a été créé par le golem Karn ?",
+   "choix": [
+    "Mirrodin",
+    "Phyrexia",
+    "Kaladesh",
+    "Dominaria"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il est ensuite envahi et transformé en Nouvelle-Phyrexia.",
+   "id": "t077-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ancien dragon est le grand méchant de nombreuses intrigues du Multivers ?",
+   "choix": [
+    "Nicol Bolas",
+    "Ugin",
+    "Smaug",
+    "Alduin"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il veut devenir un dieu et domine le Multivers dans La Guerre de l’Étincelle.",
+   "id": "t077-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon esprit, incolore, est le jumeau et l’ennemi de Nicol Bolas ?",
+   "choix": [
+    "Ugin",
+    "Sarkhan",
+    "Bolas",
+    "Karn"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il a aidé à emprisonner les Eldrazi sur Zendikar.",
+   "id": "t077-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel est le nom français du groupe d’Arpenteurs qui jurent de protéger le Multivers ?",
+   "choix": [
+    "Les Sentinelles",
+    "Les Gardiens",
+    "L’Assemblée",
+    "Les Vigilants"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Le Serment des Sentinelles, en 2016, raconte leur fondation.",
+   "id": "t077-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel Arpenteur télépathe, bleu, fait partie des Sentinelles ?",
+   "choix": [
+    "Jace Beleren",
+    "Gideon Jura",
+    "Garruk Wildspeaker",
+    "Sorin Markov"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il devient aussi le Pacte des guildes vivant de Ravnica.",
+   "id": "t077-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle Arpenteuse nécromancienne porte le Voile de chaînes ?",
+   "choix": [
+    "Liliana Vess",
+    "Chandra Nalaar",
+    "Nissa Revane",
+    "Vraska"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Elle a passé un pacte avec quatre démons pour retrouver sa jeunesse.",
+   "id": "t077-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Arpenteur au corps invulnérable meurt pendant La Guerre de l’Étincelle ?",
+   "choix": [
+    "Gideon Jura",
+    "Jace Beleren",
+    "Ajani",
+    "Teferi"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il se sacrifie en sauvant Liliana, en 2019.",
+   "id": "t077-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Arpenteuse elfe est profondément liée à l’âme du monde de Zendikar ?",
+   "choix": [
+    "Nissa Revane",
+    "Chandra Nalaar",
+    "Elspeth Tirel",
+    "Kaya"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Elle entend les esprits des lignes de force de son plan.",
+   "id": "t077-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Arpenteur léonin, blanc et vert, a la crinière dorée ?",
+   "choix": [
+    "Ajani Goldmane",
+    "Garruk",
+    "Gideon",
+    "Tezzeret"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il est l’un des cinq premiers Arpenteurs imprimés sur des cartes.",
+   "id": "t077-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Arpenteur est un maître du temps, originaire de Zhalfir ?",
+   "choix": [
+    "Teferi",
+    "Ugin",
+    "Ral Zarek",
+    "Tamiyo"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il avait fait disparaître sa patrie hors du temps pour la protéger.",
+   "id": "t077-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel Arpenteur vampire d’Innistrad a créé l’ange Avacyn ?",
+   "choix": [
+    "Sorin Markov",
+    "Edgar Markov",
+    "Olivia Voldaren",
+    "Tezzeret"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il l’a créée pour protéger les humains, donc la nourriture des vampires.",
+   "id": "t077-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Arpenteuse kor de Zendikar Sorin a-t-il emprisonnée dans le Helvault ?",
+   "choix": [
+    "Nahiri",
+    "Kaya",
+    "Elspeth",
+    "Tamiyo"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Elle se venge des siècles plus tard en attirant Emrakul sur Innistrad.",
+   "id": "t077-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel golem d’argent, ancien serviteur d’Urza, est devenu Arpenteur ?",
+   "choix": [
+    "Karn",
+    "Tezzeret",
+    "Memnarch",
+    "Ugin"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il est sans doute le plus ancien personnage récurrent du jeu.",
+   "id": "t077-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Arpenteuse gorgone dirige la guilde Golgari de Ravnica ?",
+   "choix": [
+    "Vraska",
+    "Kaya",
+    "Liliana",
+    "Nissa"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Elle a d’abord été une ennemie, puis une alliée de Jace.",
+   "id": "t077-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel bloc de 2006 les Arpenteurs perdent-ils leur puissance quasi divine ?",
+   "choix": [
+    "Spirale temporelle",
+    "Lorwyn",
+    "Mirrodin",
+    "Invasion"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Ils deviennent alors des mortels bien moins puissants qu’avant.",
+   "id": "t077-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle extension de 2007 apparaît pour la première fois le type de carte Arpenteur ?",
+   "choix": [
+    "Lorwyn",
+    "Spirale temporelle",
+    "Zendikar",
+    "Ravnica"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Cinq Arpenteurs y sont imprimés, un par couleur.",
+   "id": "t077-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels marqueurs utilise une carte d’Arpenteur pour ses capacités ?",
+   "choix": [
+    "Des marqueurs de loyauté",
+    "Des marqueurs de vie",
+    "Des marqueurs de mana",
+    "Des marqueurs d’étincelle"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "On en ajoute ou en retire pour activer ses capacités.",
+   "id": "t077-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans l’extension de 2019 qui ravage Ravnica, que cherche à voler Nicol Bolas aux Arpenteurs ?",
+   "choix": [
+    "Leurs étincelles",
+    "Leurs grimoires",
+    "Leurs dragons",
+    "Leurs plans"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Il les attire sur Ravnica grâce à une balise, puis les empêche de repartir.",
+   "id": "t077-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle extension de 2023 raconte l’attaque de Phyrexia contre tout le Multivers ?",
+   "choix": [
+    "L’Invasion des machines",
+    "La Guerre de l’Étincelle",
+    "La Lune d’Ombres",
+    "La Guerre des Frères"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Elesh Norn y mène les Phyrexians grâce aux branches d’un arbre géant qui relie les plans.",
+   "id": "t077-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan d’influence Art déco, dominé par des familles criminelles, apparaît en 2022 ?",
+   "choix": [
+    "New Capenna",
+    "Ravnica",
+    "Kaladesh",
+    "Strixhaven"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Ses familles mafieuses sont dirigées par des démons, des anges et des chats.",
+   "id": "t077-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle extension de 2024 se déroule sur un plan peuplé d’animaux, sans aucun humain ?",
+   "choix": [
+    "Bloomburrow",
+    "Duskmourn",
+    "Eldraine",
+    "Lorwyn"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, magic.wizards.com (Story, Planeswalker’s Guides, Magic Story archives) ; MTG Wiki (fiches des extensions et des personnages) ; Gatherer (cartes officielles)",
+   "expl": "Ses héros sont des souris, des lapins, des loutres et des grenouilles.",
+   "id": "t077-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dominaria est le plan d’origine de Magic.",
+   "rep": true,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "De nombreuses extensions y reviennent régulièrement.",
+   "id": "t077-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Ravnica est un plan couvert de forêts vierges.",
+   "rep": false,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Faux : c’est un plan entièrement urbanisé.",
+   "id": "t077-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Eldrazi sont des entités venues des Éternités aveugles.",
+   "rep": true,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Elles dévorent l’énergie des plans qu’elles traversent.",
+   "id": "t077-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Liliana Vess est une pyromancienne.",
+   "rep": false,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Faux : elle est nécromancienne ; la pyromancienne est Chandra Nalaar.",
+   "id": "t077-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gideon Jura meurt pendant La Guerre de l’Étincelle.",
+   "rep": true,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Il donne sa vie pour sauver Liliana, devenue sa rivale.",
+   "id": "t077-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Nicol Bolas et Ugin sont deux humains jumeaux.",
+   "rep": false,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Faux : ce sont deux anciens dragons jumeaux.",
+   "id": "t077-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Kaladesh est le plan natal de Chandra.",
+   "rep": true,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "On y invente des machines grâce à l’éther.",
+   "id": "t077-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le type de carte Arpenteur existe depuis la première édition de 1993.",
+   "rep": false,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Faux : il apparaît en 2007, dans l’extension Lorwyn.",
+   "id": "t077-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Theros s’inspire de la Grèce antique.",
+   "rep": true,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ses dieux rappellent ceux de l’Olympe et ses héros ceux d’Homère.",
+   "id": "t077-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Mirrodin est un plan naturel recouvert de jungles.",
+   "rep": false,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Faux : c’est un plan artificiel et métallique créé par Karn.",
+   "id": "t077-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Strixhaven est une université de magie.",
+   "rep": true,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ses cinq collèges s’affrontent dans des compétitions.",
+   "id": "t077-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Kaldheim s’inspire de la mythologie égyptienne.",
+   "rep": false,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Faux : il s’inspire des mythes nordiques ; Amonkhet est le plan égyptien.",
+   "id": "t077-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sorin Markov a créé l’ange Avacyn.",
+   "rep": true,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Avacyn finit par devenir folle et doit être détruite.",
+   "id": "t077-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Jace Beleren est un nécromancien.",
+   "rep": false,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Faux : c’est un mage télépathe, maître de l’illusion.",
+   "id": "t077-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année le type de carte Arpenteur apparaît-il ?",
+   "rep": 2007,
+   "min": 1995,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les cinq premiers sont Ajani, Jace, Liliana, Chandra et Garruk.",
+   "id": "t077-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de guildes compte Ravnica ?",
+   "rep": 10,
+   "min": 5,
+   "max": 15,
+   "pas": 1,
+   "unite": "guildes",
+   "tolerance": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Chacune correspond à une paire de couleurs.",
+   "id": "t077-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de titans Eldrazi existe-t-il ?",
+   "rep": 3,
+   "min": 2,
+   "max": 7,
+   "pas": 1,
+   "unite": "titans",
+   "tolerance": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ce sont Emrakul, Kozilek et Ulamog, gigantesques et affamés.",
+   "id": "t077-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de collèges compte l’université de Strixhaven ?",
+   "rep": 5,
+   "min": 3,
+   "max": 10,
+   "pas": 1,
+   "unite": "collèges",
+   "tolerance": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Leurs noms viennent de leurs dragons fondateurs.",
+   "id": "t077-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort La Guerre de l’Étincelle ?",
+   "rep": 2019,
+   "min": 2010,
+   "max": 2023,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Chaque booster contenait au moins un Arpenteur.",
+   "id": "t077-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît l’extension Lorwyn ?",
+   "rep": 2007,
+   "min": 2000,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ce plan celtique ne connaît pas la nuit… jusqu’à la Grande Aurore.",
+   "id": "t077-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’Arpenteurs différents compte l’extension La Guerre de l’Étincelle ?",
+   "rep": 36,
+   "min": 10,
+   "max": 50,
+   "pas": 1,
+   "unite": "Arpenteurs",
+   "tolerance": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Un record jamais égalé dans une seule extension.",
+   "id": "t077-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Le Serment des Sentinelles ?",
+   "rep": 2016,
+   "min": 2010,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les Sentinelles s’y unissent pour défendre Zendikar.",
+   "id": "t077-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les mages qui voyagent entre les plans s’appellent les ____.",
+   "choix": [
+    "Arpenteurs",
+    "Voyageurs",
+    "Marcheurs",
+    "Passeurs"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Leur pouvoir vient d’une étincelle rare.",
+   "id": "t077-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le plan-ville aux dix guildes s’appelle ____.",
+   "choix": [
+    "Ravnica",
+    "Ravenna",
+    "Ravnor",
+    "Kaladesh"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Son nom évoque la ville de Ravenne et une sonorité slave.",
+   "id": "t077-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dragon ennemi de tout le Multivers s’appelle Nicol ____.",
+   "choix": [
+    "Bolas",
+    "Boras",
+    "Bolan",
+    "Balas"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Il est noir et bleu, et extrêmement manipulateur.",
+   "id": "t077-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le vide entre les plans s’appelle les Éternités ____.",
+   "choix": [
+    "aveugles",
+    "obscures",
+    "sombres",
+    "infinies"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les Eldrazi y vivent naturellement, loin des plans.",
+   "id": "t077-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le plan gothique des vampires s’appelle ____.",
+   "choix": [
+    "Innistrad",
+    "Innsbruck",
+    "Ixalan",
+    "Ravnica"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Son ange protecteur s’appelle Avacyn, créée par Sorin.",
+   "id": "t077-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le plan des Eldrazi s’appelle ____.",
+   "choix": [
+    "Zendikar",
+    "Zanzibar",
+    "Zhalfir",
+    "Kaldheim"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Il est riche en ressources magiques et en aventuriers.",
+   "id": "t077-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le groupe d’Arpenteurs défenseurs du Multivers s’appelle les ____.",
+   "choix": [
+    "Sentinelles",
+    "Gardiens",
+    "Veilleurs",
+    "Vigiles"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Gideon, Jace, Chandra et Nissa en sont les fondateurs.",
+   "id": "t077-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La nécromancienne au Voile de chaînes s’appelle Liliana ____.",
+   "choix": [
+    "Vess",
+    "Vance",
+    "Voss",
+    "Vale"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Elle est l’une des Arpenteuses les plus populaires.",
+   "id": "t077-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le golem d’argent devenu Arpenteur s’appelle ____.",
+   "choix": [
+    "Karn",
+    "Kern",
+    "Korn",
+    "Kahn"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Il a créé le plan artificiel de Mirrodin.",
+   "id": "t077-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les marqueurs des Arpenteurs s’appellent des marqueurs de ____.",
+   "choix": [
+    "loyauté",
+    "fidélité",
+    "pouvoir",
+    "magie"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "À zéro marqueur, l’Arpenteur est mis au cimetière.",
+   "id": "t077-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le plan égyptien de Bolas s’appelle ____.",
+   "choix": [
+    "Amonkhet",
+    "Amenhotep",
+    "Akhenaton",
+    "Theros"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ses dieux sont des incarnations de vertus.",
+   "id": "t077-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le maître du temps originaire de Zhalfir s’appelle ____.",
+   "choix": [
+    "Teferi",
+    "Tefnut",
+    "Tezzeret",
+    "Tamiyo"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Il appartient aussi aux Sentinelles depuis 2018.",
+   "id": "t077-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le seigneur de Phyrexia, adversaire d’Urza, s’appelle ____.",
+   "choix": [
+    "Yawgmoth",
+    "Yawgmor",
+    "Yggdrasil",
+    "Ymir"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Il fut d’abord un médecin banni de Thran.",
+   "id": "t077-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces plans n’existe pas dans Magic ?",
+   "choix": [
+    "Westeros",
+    "Ravnica",
+    "Zendikar",
+    "Innistrad"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Westeros appartient à l’univers du Trône de fer.",
+   "id": "t077-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un Arpenteur ?",
+   "choix": [
+    "Avacyn",
+    "Jace",
+    "Chandra",
+    "Gideon"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Avacyn est un ange d’Innistrad, pas une voyageuse.",
+   "id": "t077-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces plans ne s’inspire pas d’une culture antique ou médiévale ?",
+   "choix": [
+    "New Capenna",
+    "Theros",
+    "Amonkhet",
+    "Kaldheim"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "New Capenna s’inspire du style Art déco des années 1920.",
+   "id": "t077-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms n’est pas un titan Eldrazi ?",
+   "choix": [
+    "Ugin",
+    "Emrakul",
+    "Kozilek",
+    "Ulamog"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ugin est le dragon esprit qui les a emprisonnés.",
+   "id": "t077-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a pas fondé les Sentinelles ?",
+   "choix": [
+    "Liliana",
+    "Gideon",
+    "Jace",
+    "Chandra"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Liliana rejoint le groupe plus tard, avec des intentions troubles.",
+   "id": "t077-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces guildes n’existe pas à Ravnica ?",
+   "choix": [
+    "Les Slytherin",
+    "Les Azorius",
+    "Les Izzet",
+    "Les Golgari"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les guildes ont des noms très particuliers : Boros, Simic, Orzhov…",
+   "id": "t077-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dragons n’est pas un ancien dragon de Magic ?",
+   "choix": [
+    "Smaug",
+    "Nicol Bolas",
+    "Ugin",
+    "Chromium"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Smaug est le dragon du Hobbit de Tolkien.",
+   "id": "t077-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces plans n’a pas été envahi lors de L’Invasion des machines ?",
+   "choix": [
+    "Westeros",
+    "Dominaria",
+    "Ravnica",
+    "Kaladesh"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "L’invasion phyrexiane toucha la plupart des plans connus du Multivers.",
+   "id": "t077-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Arpenteurs n’est pas vert ?",
+   "choix": [
+    "Jace",
+    "Nissa",
+    "Garruk",
+    "Wrenn"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Jace est un Arpenteur bleu, mage de l’esprit.",
+   "id": "t077-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces plans n’est pas un plan de Magic ?",
+   "choix": [
+    "Azeroth",
+    "Kamigawa",
+    "Tarkir",
+    "Lorwyn"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Azeroth est le monde de Warcraft, chez Blizzard.",
+   "id": "t077-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels personnages sont des Arpenteurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jace",
+    "Chandra",
+    "Liliana",
+    "Nissa",
+    "Avacyn",
+    "Emrakul"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Avacyn est un ange, Emrakul un titan Eldrazi.",
+   "id": "t077-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels plans s’inspirent de cultures réelles ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Theros",
+    "Amonkhet",
+    "Kaldheim",
+    "Kaladesh",
+    "Phyrexia",
+    "Mirrodin"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Grèce, Égypte, Scandinavie et Inde y sont réinventées.",
+   "id": "t077-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des dragons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nicol Bolas",
+    "Ugin",
+    "Karn",
+    "Teferi",
+    "Sorin"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les anciens dragons sont parmi les êtres les plus puissants du Multivers.",
+   "id": "t077-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels sont les fondateurs des Sentinelles ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gideon",
+    "Jace",
+    "Chandra",
+    "Nissa",
+    "Bolas",
+    "Ugin"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "D’autres Arpenteurs les rejoignent ensuite.",
+   "id": "t077-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles guildes existent à Ravnica ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Azorius",
+    "Izzet",
+    "Golgari",
+    "Boros",
+    "Templiers",
+    "Sith"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les dix guildes se partagent le pouvoir selon le Pacte des guildes.",
+   "id": "t077-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels plans ont été envahis ou contaminés par Phyrexia ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mirrodin",
+    "Dominaria",
+    "Westeros",
+    "Narnia"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Mirrodin devient même la Nouvelle-Phyrexia.",
+   "id": "t077-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages viennent d’Innistrad ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sorin Markov",
+    "Avacyn",
+    "Olivia Voldaren",
+    "Chandra",
+    "Ajani"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Olivia Voldaren est une puissante vampire aristocrate.",
+   "id": "t077-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels Arpenteurs figuraient dans l’extension Lorwyn ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ajani",
+    "Jace",
+    "Liliana",
+    "Garruk",
+    "Gideon",
+    "Teferi"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Le cinquième était la pyromancienne Chandra.",
+   "id": "t077-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles extensions racontent de grandes guerres du Multivers ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La Guerre de l’Étincelle",
+    "L’Invasion des machines",
+    "Bloomburrow",
+    "Strixhaven"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Bloomburrow et Strixhaven sont des extensions plus légères.",
+   "id": "t077-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels plans sont menacés par des horreurs cosmiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Zendikar",
+    "Innistrad",
+    "Theros",
+    "Kaladesh"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Emrakul a quitté Zendikar pour s’abattre sur Innistrad.",
+   "id": "t077-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces extensions par date de sortie.",
+   "items": [
+    "Lorwyn",
+    "Le Serment des Sentinelles",
+    "La Guerre de l’Étincelle",
+    "L’Invasion des machines"
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ces extensions sortent en 2007, 2016, 2019 puis 2023.",
+   "id": "t077-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces premières visites de plans par ordre chronologique.",
+   "items": [
+    "Mirrodin",
+    "Ravnica",
+    "Zendikar",
+    "Innistrad"
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ces plans apparaissent en 2003, 2005, 2009 puis 2011.",
+   "id": "t077-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire des Eldrazi dans l’ordre.",
+   "items": [
+    "Emprisonnement sur Zendikar",
+    "Réveil des titans",
+    "Arrivée d’Emrakul sur Innistrad",
+    "Emprisonnement dans la lune"
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ces événements couvrent les années 2009 à 2016 du jeu.",
+   "id": "t077-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces plans visités par ordre chronologique de première extension.",
+   "items": [
+    "Theros",
+    "Kaladesh",
+    "Ixalan",
+    "Eldraine"
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ces plans apparaissent en 2013, 2016, 2017 puis 2019.",
+   "id": "t077-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’histoire de Mirrodin dans l’ordre.",
+   "items": [
+    "Création par Karn",
+    "Contamination phyrexiane",
+    "Nouvelle-Phyrexia"
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Le plan créé par Karn devient un bastion phyrexian.",
+   "id": "t077-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces extensions de 2024 par date de sortie.",
+   "items": [
+    "Meurtres au manoir Karlov",
+    "Les Hors-la-loi de Croisetonnerre",
+    "Bloomburrow",
+    "Duskmourn"
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Elles sortent en février, avril, août puis septembre.",
+   "id": "t077-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces extensions de Dominaria par ordre chronologique.",
+   "items": [
+    "L’Épopée d’Urza",
+    "Dominaria",
+    "Dominaria United",
+    "La Guerre des Frères"
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ces extensions sortent en 1998, 2018, puis deux fois en 2022.",
+   "id": "t077-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de l’histoire de Gideon dans l’ordre.",
+   "items": [
+    "Éveil de son étincelle",
+    "Fondation des Sentinelles",
+    "Mort sur Ravnica"
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Il meurt en héros en 2019, lors de la bataille de Ravnica.",
+   "id": "t077-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la Guerre de l’Étincelle dans l’ordre.",
+   "items": [
+    "Allumage de la balise",
+    "Arrivée des Arpenteurs sur Ravnica",
+    "Vol des étincelles",
+    "Défaite de Bolas"
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Bolas est finalement enfermé par Ugin et ses alliés.",
+   "id": "t077-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque plan à son inspiration.",
+   "paires": [
+    [
+     "Theros",
+     "Grèce"
+    ],
+    [
+     "Amonkhet",
+     "Égypte"
+    ],
+    [
+     "Kaldheim",
+     "Scandinavie"
+    ],
+    [
+     "Kamigawa",
+     "Japon"
+    ]
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les plans de Magic revisitent les cultures du monde.",
+   "id": "t077-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque Arpenteur à sa couleur principale.",
+   "paires": [
+    [
+     "Jace",
+     "Bleu"
+    ],
+    [
+     "Chandra",
+     "Rouge"
+    ],
+    [
+     "Liliana",
+     "Noir"
+    ],
+    [
+     "Nissa",
+     "Vert"
+    ]
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les couleurs reflètent la philosophie des personnages.",
+   "id": "t077-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à son plan natal.",
+   "paires": [
+    [
+     "Chandra",
+     "Kaladesh"
+    ],
+    [
+     "Nissa",
+     "Zendikar"
+    ],
+    [
+     "Sorin",
+     "Innistrad"
+    ],
+    [
+     "Teferi",
+     "Dominaria"
+    ]
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les Arpenteurs gardent un lien fort avec leur plan d’origine.",
+   "id": "t077-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque menace à son plan.",
+   "paires": [
+    [
+     "Eldrazi",
+     "Zendikar"
+    ],
+    [
+     "Bolas",
+     "Amonkhet"
+    ],
+    [
+     "Elesh Norn",
+     "Phyrexia"
+    ]
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Chaque plan a ses grands ennemis à combattre.",
+   "id": "t077-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque plan à sa particularité.",
+   "paires": [
+    [
+     "Ravnica",
+     "Ville-monde"
+    ],
+    [
+     "Mirrodin",
+     "Plan métallique"
+    ],
+    [
+     "Strixhaven",
+     "Université"
+    ],
+    [
+     "Ixalan",
+     "Dinosaures"
+    ]
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Le Multivers offre une très grande variété de décors.",
+   "id": "t077-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à son objet ou trait.",
+   "paires": [
+    [
+     "Liliana",
+     "Voile de chaînes"
+    ],
+    [
+     "Gideon",
+     "Corps invulnérable"
+    ],
+    [
+     "Jace",
+     "Télépathie"
+    ],
+    [
+     "Karn",
+     "Corps d’argent"
+    ]
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ces attributs les rendent reconnaissables.",
+   "id": "t077-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque extension à son année.",
+   "paires": [
+    [
+     "Lorwyn",
+     "2007"
+    ],
+    [
+     "Le Serment des Sentinelles",
+     "2016"
+    ],
+    [
+     "La Guerre de l’Étincelle",
+     "2019"
+    ],
+    [
+     "L’Invasion des machines",
+     "2023"
+    ]
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Ces extensions marquent les grands tournants de l’histoire.",
+   "id": "t077-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque dragon à sa nature.",
+   "paires": [
+    [
+     "Nicol Bolas",
+     "Ancien dragon tyran"
+    ],
+    [
+     "Ugin",
+     "Dragon esprit"
+    ],
+    [
+     "Chromium",
+     "Ancien dragon de Dominaria"
+    ]
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les anciens dragons sont nés aux débuts de Dominaria.",
+   "id": "t077-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque Arpenteur à son espèce.",
+   "paires": [
+    [
+     "Ajani",
+     "Léonin"
+    ],
+    [
+     "Vraska",
+     "Gorgone"
+    ],
+    [
+     "Wrenn",
+     "Dryade"
+    ],
+    [
+     "Nahiri",
+     "Kor"
+    ]
+   ],
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Les Arpenteurs ne sont pas tous humains.",
+   "id": "t077-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un plan\n2. Je suis une ville entière\n3. J’ai dix guildes",
+   "choix": [
+    "Ravnica",
+    "Kaladesh",
+    "New Capenna",
+    "Mirrodin"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Jace a été mon Pacte des guildes vivant.",
+   "id": "t077-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dragon\n2. Je suis le grand méchant du Multivers\n3. J’ai un jumeau nommé Ugin",
+   "choix": [
+    "Nicol Bolas",
+    "Chromium",
+    "Smaug",
+    "Alduin"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "J’ai voulu devenir dieu en volant les étincelles.",
+   "id": "t077-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une Arpenteuse\n2. Je suis nécromancienne\n3. J’ai signé un pacte avec des démons",
+   "choix": [
+    "Liliana Vess",
+    "Chandra",
+    "Vraska",
+    "Kaya"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Je porte le Voile de chaînes, un artefact maudit.",
+   "id": "t077-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un titan\n2. Je suis une Eldrazi\n3. J’ai fini dans une lune",
+   "choix": [
+    "Emrakul",
+    "Kozilek",
+    "Ulamog",
+    "Avacyn"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Je suis la plus énigmatique des trois titans.",
+   "id": "t077-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un plan\n2. Je suis gothique\n3. Vampires et loups-garous m’habitent",
+   "choix": [
+    "Innistrad",
+    "Theros",
+    "Zendikar",
+    "Lorwyn"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Mon ange protecteur a sombré dans la folie.",
+   "id": "t077-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un golem\n2. Je suis fait d’argent\n3. J’ai créé Mirrodin",
+   "choix": [
+    "Karn",
+    "Memnarch",
+    "Tezzeret",
+    "Urza"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Urza m’a conçu pour voyager dans le temps.",
+   "id": "t077-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un groupe\n2. Je réunis des Arpenteurs\n3. J’ai prêté serment en 2016",
+   "choix": [
+    "Les Sentinelles",
+    "Les Gardiens",
+    "La Cabale",
+    "L’Assemblée"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "Gideon a été le premier chef de notre groupe.",
+   "id": "t077-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un plan\n2. Je suis inspiré de l’Inde\n3. L’éther y fait tourner les machines",
+   "choix": [
+    "Kaladesh",
+    "Amonkhet",
+    "Tarkir",
+    "Mirrodin"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast ; MTG Wiki",
+   "expl": "La pyromancienne Chandra Nalaar y est née et y a grandi.",
+   "id": "t077-122",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
