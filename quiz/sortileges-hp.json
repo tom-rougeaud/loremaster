@@ -1,0 +1,2153 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "sortileges-hp",
+  "nom": "Sortilèges, maléfices et métamorphose",
+  "royaume": "Le Monde des Sorciers",
+  "icone": "baguette",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle formule fait flotter les objets dans les airs, apprise en première année ?",
+   "choix": [
+    "Wingardium Leviosa",
+    "Alohomora",
+    "Accio",
+    "Lumos"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Ron la prononce mal ; Hermione le corrige, puis il assomme un troll grâce à elle.",
+   "id": "t033-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle formule déverrouille les portes ?",
+   "choix": [
+    "Alohomora",
+    "Collaporta",
+    "Nox",
+    "Finite Incantatem"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Collaporta fait l’inverse : elle scelle une porte.",
+   "id": "t033-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège attire un objet vers soi ?",
+   "choix": [
+    "Accio",
+    "Expelliarmus",
+    "Reducto",
+    "Diffindo"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Harry l’utilise pour faire venir son balai face au Magyar à pointes.",
+   "id": "t033-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège est devenu la « signature » de Harry en duel ?",
+   "choix": [
+    "Expelliarmus",
+    "Stupéfix",
+    "Sectumsempra",
+    "Avada Kedavra"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Ce simple sort de désarmement vainc Voldemort lors de leur dernier duel.",
+   "id": "t033-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel maléfice raidit entièrement le corps de la victime ?",
+   "choix": [
+    "Petrificus Totalus",
+    "Rictusempra",
+    "Tarentallegra",
+    "Silencio"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Hermione l’utilise sur Neville en première année pour pouvoir passer.",
+   "id": "t033-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège Harry utilise-t-il contre Drago lors du club de duel ?",
+   "choix": [
+    "Rictusempra",
+    "Serpensortia",
+    "Avada Kedavra",
+    "Riddikulus"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Ce sortilège de chatouillis fait plier Drago de rire.",
+   "id": "t033-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sort Drago lance-t-il au club de duel pour faire apparaître un reptile ?",
+   "choix": [
+    "Serpensortia",
+    "Tarentallegra",
+    "Accio",
+    "Morsmordre"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Harry parle alors au serpent, et l’école découvre qu’il est Fourchelang.",
+   "id": "t033-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle formule ridiculise un épouvantard ?",
+   "choix": [
+    "Riddikulus",
+    "Expecto Patronum",
+    "Lumos",
+    "Finite Incantatem"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il faut imaginer la forme ridicule qu’on veut lui donner et rire.",
+   "id": "t033-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle formule permet de chasser les Détraqueurs ?",
+   "choix": [
+    "Expecto Patronum",
+    "Riddikulus",
+    "Protego",
+    "Lumos Maxima"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Le Patronus, fait de souvenirs heureux, repousse les Détraqueurs.",
+   "id": "t033-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège efface la mémoire ?",
+   "choix": [
+    "Oubliettes",
+    "Silencio",
+    "Confundo",
+    "Legilimens"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Lockhart s’en sert sur ceux dont il vole les exploits… et se l’inflige par accident.",
+   "id": "t033-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait le sortilège Endoloris ?",
+   "choix": [
+    "Il inflige une douleur atroce",
+    "Il tue sur le coup",
+    "Il contrôle l’esprit",
+    "Il plonge dans le sommeil"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Bellatrix Lestrange l’a utilisé sur les parents de Neville, jusqu’à la folie.",
+   "id": "t033-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait le sortilège Impero ?",
+   "choix": [
+    "Il soumet la victime à sa volonté",
+    "Il la tue sur le coup",
+    "Il la fait souffrir",
+    "Il la rend invisible"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Harry apprend à y résister pendant les cours du faux Maugrey.",
+   "id": "t033-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle couleur a l’éclair du sortilège de la Mort ?",
+   "choix": [
+    "Vert",
+    "Rouge",
+    "Bleu",
+    "Blanc"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Harry est le seul connu à y avoir survécu, enfant.",
+   "id": "t033-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle peine encourt un sorcier qui utilise un sortilège impardonnable sur un humain ?",
+   "choix": [
+    "La prison à vie à Azkaban",
+    "Une amende",
+    "Le renvoi de Poudlard",
+    "Une baguette brisée"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Pendant la guerre, le ministère autorise pourtant les Aurors à les employer.",
+   "id": "t033-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui a inventé le sortilège Sectumsempra ?",
+   "choix": [
+    "Le Prince de Sang-Mêlé",
+    "Voldemort",
+    "Bellatrix Lestrange",
+    "Albus Dumbledore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Severus Rogue, élève, l’avait noté dans son manuel de potions.",
+   "id": "t033-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que provoque Sectumsempra ?",
+   "choix": [
+    "De profondes entailles",
+    "Un sommeil profond",
+    "Une lévitation",
+    "Une cécité"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Harry l’utilise sur Drago sans savoir ce qu’il fait ; Rogue le soigne.",
+   "id": "t033-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège suspend la victime par la cheville ?",
+   "choix": [
+    "Levicorpus",
+    "Wingardium Leviosa",
+    "Mobilicorpus",
+    "Rictusempra"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "C’est aussi une invention du Prince, employée par James contre Rogue jeune.",
+   "id": "t033-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège empêche les autres d’entendre une conversation ?",
+   "choix": [
+    "Assurdiato",
+    "Silencio",
+    "Sonorus",
+    "Oubliettes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il remplit les oreilles des voisins d’un bourdonnement.",
+   "id": "t033-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle formule fait apparaître la Marque des Ténèbres ?",
+   "choix": [
+    "Morsmordre",
+    "Avada Kedavra",
+    "Serpensortia",
+    "Incendio"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Les Mangemorts la lancent au-dessus des lieux de leurs crimes.",
+   "id": "t033-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel phénomène se produit quand les baguettes de Harry et de Voldemort s’affrontent ?",
+   "choix": [
+    "Priori Incantatem",
+    "Prior Incantato",
+    "Finite Incantatem",
+    "Expelliarmus"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Leurs baguettes « sœurs » font ressurgir les échos des derniers sorts de celle de Voldemort.",
+   "id": "t033-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sort fait apparaître le dernier sortilège lancé par une baguette ?",
+   "choix": [
+    "Prior Incantato",
+    "Priori Incantatem",
+    "Lumos",
+    "Revelio"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Amos Diggory l’utilise sur la baguette de Harry, trouvée par Winky.",
+   "id": "t033-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sort crée un bouclier magique ?",
+   "choix": [
+    "Protego",
+    "Reducto",
+    "Diffindo",
+    "Episkey"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Harry l’enseigne aux membres de l’Armée de Dumbledore.",
+   "id": "t033-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel sortilège Tonks utilise-t-elle pour réparer le nez cassé de Harry ?",
+   "choix": [
+    "Episkey",
+    "Reparo",
+    "Ferula",
+    "Tergeo"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Ce sort soigne les petites blessures ; Reparo répare les objets.",
+   "id": "t033-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sort Hermione utilise-t-elle souvent pour remettre en état les lunettes de Harry ?",
+   "choix": [
+    "Reparo",
+    "Episkey",
+    "Accio",
+    "Tergeo"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Elle le lance dès leur première rencontre dans le train.",
+   "id": "t033-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sort amplifie la voix, comme un mégaphone ?",
+   "choix": [
+    "Sonorus",
+    "Silencio",
+    "Assurdiato",
+    "Lumos"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Verpey s’en sert pour commenter la Coupe du monde de Quidditch.",
+   "id": "t033-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel charme protège un secret en le confiant à une seule personne ?",
+   "choix": [
+    "Le sortilège de Fidelitas",
+    "L’Assurdiato",
+    "Le Collaporta",
+    "L’Oubliettes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Les Potter choisissent Peter Pettigrow comme Gardien du Secret ; il les trahit.",
+   "id": "t033-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle discipline permet de fermer son esprit à un Legilimens ?",
+   "choix": [
+    "L’Occlumancie",
+    "La Divination",
+    "La Métamorphose",
+    "L’Arithmancie"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Rogue l’enseigne à Harry, sans grand succès.",
+   "id": "t033-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel feu maudit et presque incontrôlable détruit la Salle sur Demande ?",
+   "choix": [
+    "Le Feudeymon",
+    "Le feu Grégeois",
+    "L’Incendio",
+    "Le feu de Chimère"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Crabbe le déclenche et y périt ; le diadème de Serdaigle est détruit.",
+   "id": "t033-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui enseigne la métamorphose à Poudlard au temps de Harry ?",
+   "choix": [
+    "Minerva McGonagall",
+    "Filius Flitwick",
+    "Pomona Chourave",
+    "Horace Slughorn"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Dumbledore occupait ce poste avant de devenir directeur.",
+   "id": "t033-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quoi McGonagall peut-elle se transformer ?",
+   "choix": [
+    "En chat tigré",
+    "En hibou",
+    "En cerf",
+    "En chien noir"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Elle attend Dumbledore sur un muret devant chez les Dursley, sous cette forme.",
+   "id": "t033-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on un sorcier capable de prendre la forme d’une bête à volonté ?",
+   "choix": [
+    "Un Animagus",
+    "Un Métamorphomage",
+    "Un Loup-garou",
+    "Un Change-forme"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il faut s’inscrire auprès du ministère, ce que les Maraudeurs n’ont pas fait.",
+   "id": "t033-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quel animal Sirius Black se transforme-t-il ?",
+   "choix": [
+    "Un gros chien noir",
+    "Un cerf",
+    "Un rat",
+    "Un loup"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Harry le prend d’abord pour le Sinistros, présage de mort.",
+   "id": "t033-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le surnom de Peter Pettigrow chez les Maraudeurs ?",
+   "choix": [
+    "Queudver",
+    "Patmol",
+    "Cornedrue",
+    "Lunard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Sous sa forme de rat, il vit douze ans chez les Weasley, sous le nom de Croûtard.",
+   "id": "t033-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Auror est une Métamorphomage, capable de changer d’apparence à volonté ?",
+   "choix": [
+    "Nymphadora Tonks",
+    "Bellatrix Lestrange",
+    "Minerva McGonagall",
+    "Rita Skeeter"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Elle amuse le petit-déjeuner en se changeant le nez en groin.",
+   "id": "t033-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quel animal le faux Maugrey transforme-t-il Drago Malefoy ?",
+   "choix": [
+    "Une fouine",
+    "Un rat",
+    "Un hérisson",
+    "Un crapaud"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "La « fouine bondissante » restera longtemps une blague à Poudlard.",
+   "id": "t033-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Selon la loi de Gamp, que ne peut-on pas faire apparaître par magie ?",
+   "choix": [
+    "De la nourriture",
+    "De l’eau",
+    "Du feu",
+    "Des oiseaux"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "C’est l’une des cinq exceptions de la loi de Gamp sur la métamorphose élémentaire.",
+   "id": "t033-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme a le Patronus de Harry ?",
+   "choix": [
+    "Un cerf",
+    "Une biche",
+    "Un phénix",
+    "Un loup"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Comme la forme animagus de son père, James.",
+   "id": "t033-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme a le Patronus d’Hermione ?",
+   "choix": [
+    "Une loutre",
+    "Un chat",
+    "Un lièvre",
+    "Un cygne"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "J. K. Rowling a choisi son animal préféré.",
+   "id": "t033-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme a le Patronus de Severus Rogue ?",
+   "choix": [
+    "Une biche",
+    "Un serpent",
+    "Un corbeau",
+    "Un loup"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "C’est la même forme que celui de Lily : la preuve de son amour.",
+   "id": "t033-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle forme a le Patronus de Luna Lovegood ?",
+   "choix": [
+    "Un lièvre",
+    "Une loutre",
+    "Un hibou",
+    "Un cheval"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Celui de Ginny est un cheval, celui de Ron un jack russell.",
+   "id": "t033-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la plus grande peur de Ron, révélée par l’épouvantard ?",
+   "choix": [
+    "Une araignée géante",
+    "Un Détraqueur",
+    "Rogue",
+    "Une momie"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Dans le livre, ses pattes disparaissent ; le film lui ajoute des patins à roulettes.",
+   "id": "t033-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme prend l’épouvantard face à Neville ?",
+   "choix": [
+    "Le professeur Rogue",
+    "Sa grand-mère",
+    "Un Détraqueur",
+    "Une banshee"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Neville l’habille avec les vêtements de sa grand-mère, sous les rires de la classe.",
+   "id": "t033-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme prend l’épouvantard face à Lupin ?",
+   "choix": [
+    "Une pleine lune",
+    "Un loup-garou",
+    "Un Détraqueur",
+    "Rogue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Sa peur trahit sa condition de loup-garou.",
+   "id": "t033-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège permet à McGonagall d’animer les statues lors de la bataille de Poudlard ?",
+   "choix": [
+    "Piertotum Locomotor",
+    "Wingardium Leviosa",
+    "Accio",
+    "Locomotor Mortis"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Les armures et statues du château partent défendre l’école.",
+   "id": "t033-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À partir de quelle année Harry apprend-il les sortilèges informulés ?",
+   "choix": [
+    "La sixième",
+    "La première",
+    "La troisième",
+    "La septième"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Lancer un sort sans le prononcer donne un avantage décisif en duel.",
+   "id": "t033-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège Harry utilise-t-il pour écarter les Détraqueurs de son cousin Dudley ?",
+   "choix": [
+    "Expecto Patronum",
+    "Expelliarmus",
+    "Stupéfix",
+    "Lumos"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Cette magie d’un mineur lui vaut une audience disciplinaire au ministère.",
+   "id": "t033-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel professeur apprend à Harry à produire un Patronus ?",
+   "choix": [
+    "Remus Lupin",
+    "Severus Rogue",
+    "Albus Dumbledore",
+    "Minerva McGonagall"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Il s’entraîne avec un épouvantard qui prend la forme d’un Détraqueur.",
+   "id": "t033-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel sort Hermione utilise-t-elle pour modifier la mémoire de ses parents ?",
+   "choix": [
+    "Oubliettes",
+    "Impero",
+    "Confundo",
+    "Legilimens"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Elle leur fait oublier qu’ils ont une fille et les envoie en Australie pour les protéger.",
+   "id": "t033-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sortilège fait apparaître des oiseaux, utilisé par Hermione contre Ron ?",
+   "choix": [
+    "Avis, puis Oppugno",
+    "Serpensortia",
+    "Accio",
+    "Morsmordre"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007), trad. Jean-François Ménard",
+   "expl": "Jalouse de Lavande, elle lance sur lui les petits oiseaux qu’elle vient de conjurer.",
+   "id": "t033-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le sortilège Expecto Patronum repousse les Détraqueurs.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : le Patronus se nourrit de souvenirs heureux, ce que les Détraqueurs ne peuvent atteindre.",
+   "id": "t033-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Patronus d’un sorcier ne change jamais de forme.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il peut changer après un grand bouleversement, comme celui de Tonks par amour pour Lupin.",
+   "id": "t033-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Expelliarmus sert à désarmer l’adversaire.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : c’est le premier sort que Rogue montre au club de duel.",
+   "id": "t033-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Harry est le seul personnage connu à avoir survécu au sortilège de la Mort.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : il y survit bébé, puis une seconde fois dans la Forêt interdite.",
+   "id": "t033-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les sortilèges impardonnables sont autorisés en duel officiel.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : leur usage contre un humain vaut une condamnation à vie à Azkaban.",
+   "id": "t033-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sirius Black, Peter Pettigrow et James Potter étaient des Animagi non déclarés.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : ils l’étaient devenus pour accompagner Lupin pendant ses transformations.",
+   "id": "t033-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un Animagus peut choisir l’animal en lequel il se transforme.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : la forme dépend de sa personnalité ; elle n’est pas choisie.",
+   "id": "t033-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "On peut faire apparaître de la nourriture à partir de rien.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : selon la loi de Gamp, on peut en multiplier ou en faire venir, mais pas en créer.",
+   "id": "t033-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le sortilège Oubliettes efface les souvenirs.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : les Oubliators du ministère l’utilisent pour effacer ce que des Moldus ont vu.",
+   "id": "t033-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Sectumsempra figure dans les manuels officiels de Poudlard.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : c’est une invention personnelle du Prince de Sang-Mêlé, notée dans les marges.",
+   "id": "t033-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "L’Occlumancie protège l’esprit contre la Legilimancie.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : Voldemort et Rogue en sont maîtres.",
+   "id": "t033-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le sortilège Lumos fait apparaître de la lumière au bout de la baguette.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : Nox l’éteint ; Lumos Maxima produit une lumière bien plus forte.",
+   "id": "t033-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Wingardium Leviosa sert à ouvrir les serrures.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il fait léviter les objets ; c’est Alohomora qui ouvre les serrures.",
+   "id": "t033-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "McGonagall est une Animagus déclarée auprès du ministère.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : elle fait partie des rares Animagi inscrits officiellement au XXe siècle.",
+   "id": "t033-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Hermione réussit le sortilège de lévitation avant Ron, lors de leur premier cours.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : elle corrige même sa prononciation, ce qui le vexe.",
+   "id": "t033-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "On peut lancer un sort de transplanage à l’intérieur de Poudlard.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : des protections l’empêchent, comme Hermione le rappelle sans cesse.",
+   "id": "t033-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les sorciers mineurs peuvent faire de la magie hors de l’école sans risque.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter et la Coupe de feu (2000)",
+   "expl": "Faux : la Trace signale leur magie ; Harry reçoit plusieurs avertissements.",
+   "id": "t033-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de sortilèges impardonnables existe-t-il ?",
+   "rep": 3,
+   "min": 1,
+   "max": 7,
+   "pas": 1,
+   "unite": "sortilèges",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prisonnier d’Azkaban (1999)",
+   "expl": "Le faux Maugrey les montre à ses élèves sur des araignées.",
+   "id": "t033-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’Animagi ont été déclarés au XXe siècle, selon Hermione ?",
+   "rep": 7,
+   "min": 1,
+   "max": 50,
+   "pas": 1,
+   "unite": "Animagi",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et le Prisonnier d’Azkaban (1999)",
+   "expl": "McGonagall en fait partie ; les Maraudeurs, eux, n’ont jamais été déclarés.",
+   "id": "t033-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "À quel âge Harry produit-il son premier Patronus corporel ?",
+   "rep": 13,
+   "min": 11,
+   "max": 17,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "Grâce à un Retourneur de Temps, il se voit lui-même le lancer.",
+   "id": "t033-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’exceptions principales compte la loi de Gamp sur la métamorphose élémentaire ?",
+   "rep": 5,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "exceptions",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "La nourriture en est la plus célèbre ; Hermione l’explique à Ron, affamé.",
+   "id": "t033-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le sortilège ____ fait apparaître de la lumière au bout de la baguette.",
+   "choix": [
+    "Lumos",
+    "Nox",
+    "Accio",
+    "Incendio"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Nox l’éteint ; Lumos Maxima produit une boule de lumière plus puissante.",
+   "id": "t033-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le sortilège de désarmement s’appelle ____.",
+   "choix": [
+    "Expelliarmus",
+    "Stupéfix",
+    "Protego",
+    "Reducto"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry l’apprend au club de duel en deuxième année.",
+   "id": "t033-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sortilège ____ fait tomber la victime inconsciente.",
+   "choix": [
+    "Stupéfix",
+    "Accio",
+    "Lumos",
+    "Sonorus"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il projette un éclair rouge ; les Aurors l’emploient souvent.",
+   "id": "t033-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sortilège qui coupe les cordes ou le tissu s’appelle ____.",
+   "choix": [
+    "Diffindo",
+    "Reducto",
+    "Accio",
+    "Episkey"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry s’en sert pour déchirer le sac d’un camarade et parler à Cedric en privé.",
+   "id": "t033-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sortilège ____ fait jaillir de l’eau de la baguette.",
+   "choix": [
+    "Aguamenti",
+    "Incendio",
+    "Reparo",
+    "Lumos"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry l’utilise pour tenter de donner à boire à Dumbledore dans la caverne.",
+   "id": "t033-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Animagi Sirius, James et Peter étaient surnommés Patmol, Cornedrue et ____.",
+   "choix": [
+    "Queudver",
+    "Lunard",
+    "Croûtard",
+    "Pattenrond"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lunard est le surnom de Lupin, qui n’était pas Animagus mais loup-garou.",
+   "id": "t033-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sortilège ____ annule les effets d’un autre sort en cours.",
+   "choix": [
+    "Finite Incantatem",
+    "Riddikulus",
+    "Protego",
+    "Silencio"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Rogue l’utilise pour mettre fin au chaos du club de duel.",
+   "id": "t033-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’art de lire dans l’esprit des autres s’appelle la ____.",
+   "choix": [
+    "Legilimancie",
+    "Divination",
+    "Clairvoyance",
+    "Métamorphose"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Voldemort et Rogue sont de grands Legilimens, capables de sonder les pensées.",
+   "id": "t033-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le sortilège ____ immobilise les jambes de la victime, qui doit sautiller.",
+   "choix": [
+    "Locomotor Mortis",
+    "Levicorpus",
+    "Petrificus Totalus",
+    "Tarentallegra"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Drago l’inflige à Neville, qui rejoint la salle commune en sautant à pieds joints.",
+   "id": "t033-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sortilège ____ fait danser frénétiquement les jambes de la victime.",
+   "choix": [
+    "Tarentallegra",
+    "Rictusempra",
+    "Levicorpus",
+    "Serpensortia"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Drago l’utilise contre Harry au club de duel organisé par Lockhart.",
+   "id": "t033-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sortilège ____ fait taire une personne ou un animal.",
+   "choix": [
+    "Silencio",
+    "Sonorus",
+    "Assurdiato",
+    "Nox"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Hermione l’utilise sur un corbeau pendant un cours de sortilèges.",
+   "id": "t033-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Une créature qui prend la forme de ce que l’on craint le plus est un ____.",
+   "choix": [
+    "épouvantard",
+    "Détraqueur",
+    "Sinistros",
+    "Patronus"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "On le combat en le rendant ridicule par le rire, de préférence à plusieurs.",
+   "id": "t033-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sortilège ____ fait voler les objets en éclats.",
+   "choix": [
+    "Reducto",
+    "Reparo",
+    "Accio",
+    "Lumos"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "À l’inverse, Reparo répare ce qui est cassé, comme les lunettes de Harry.",
+   "id": "t033-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces sorts n’est pas un sortilège impardonnable ?",
+   "choix": [
+    "Expelliarmus",
+    "Endoloris",
+    "Impero",
+    "Avada Kedavra"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Expelliarmus n’est qu’un sortilège de désarmement.",
+   "id": "t033-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un Animagus ?",
+   "choix": [
+    "Remus Lupin",
+    "Minerva McGonagall",
+    "Sirius Black",
+    "Rita Skeeter"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lupin est un loup-garou : sa transformation lui est imposée par la pleine lune.",
+   "id": "t033-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts n’a pas été inventé par le Prince de Sang-Mêlé ?",
+   "choix": [
+    "Expelliarmus",
+    "Sectumsempra",
+    "Levicorpus",
+    "Assurdiato"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Expelliarmus est un sortilège classique, enseigné à l’école.",
+   "id": "t033-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces formes n’est pas celle d’un Patronus connu ?",
+   "choix": [
+    "Un dragon",
+    "Un cerf",
+    "Une loutre",
+    "Une biche"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry produit un cerf, Hermione une loutre, Rogue une biche.",
+   "id": "t033-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces sorts ne sert pas à attaquer ?",
+   "choix": [
+    "Lumos",
+    "Stupéfix",
+    "Reducto",
+    "Sectumsempra"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lumos sert simplement à s’éclairer dans l’obscurité.",
+   "id": "t033-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces surnoms n’appartient pas aux Maraudeurs ?",
+   "choix": [
+    "Croûtard",
+    "Lunard",
+    "Patmol",
+    "Cornedrue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Croûtard est le nom de rat que Ron donne à Peter Pettigrow, sans le savoir.",
+   "id": "t033-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces disciplines n’est pas une matière de Poudlard ?",
+   "choix": [
+    "La Legilimancie",
+    "La Métamorphose",
+    "Les Sortilèges",
+    "La Défense contre les forces du Mal"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry apprend l’Occlumancie en cours particuliers, hors programme.",
+   "id": "t033-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces sorts ne produit pas de lumière ?",
+   "choix": [
+    "Nox",
+    "Lumos",
+    "Lumos Maxima",
+    "Expecto Patronum"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Nox éteint la lumière de la baguette ; les autres en produisent.",
+   "id": "t033-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces épouvantards ne correspond pas à son élève ?",
+   "choix": [
+    "Neville et une araignée",
+    "Ron et une araignée",
+    "Lupin et une pleine lune",
+    "Harry et un Détraqueur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Celui de Neville prend l’apparence du professeur Rogue.",
+   "id": "t033-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts ne sert pas à protéger ?",
+   "choix": [
+    "Sectumsempra",
+    "Protego",
+    "Expecto Patronum",
+    "Fidelitas"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Sectumsempra inflige de terribles entailles, sans aucune fonction défensive.",
+   "id": "t033-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sont les sortilèges impardonnables ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Avada Kedavra",
+    "Endoloris",
+    "Impero",
+    "Expelliarmus",
+    "Sectumsempra"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Sectumsempra est terrible, mais il ne fait pas partie des trois impardonnables.",
+   "id": "t033-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des Animagi ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Minerva McGonagall",
+    "Sirius Black",
+    "Peter Pettigrow",
+    "Rita Skeeter",
+    "Remus Lupin",
+    "Nymphadora Tonks"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lupin est loup-garou, Tonks Métamorphomage : ni l’un ni l’autre n’est Animagus.",
+   "id": "t033-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts le Prince de Sang-Mêlé a-t-il inventés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sectumsempra",
+    "Levicorpus",
+    "Assurdiato",
+    "Expelliarmus",
+    "Lumos"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry découvre ces inventions dans les marges du vieux manuel de potions.",
+   "id": "t033-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels sorts servent à se défendre ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Protego",
+    "Expelliarmus",
+    "Expecto Patronum",
+    "Avada Kedavra",
+    "Endoloris"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "L’Armée de Dumbledore s’entraîne surtout à ces sorts défensifs.",
+   "id": "t033-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles formes de Patronus sont correctement associées ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Harry : un cerf",
+    "Hermione : une loutre",
+    "Rogue : une biche",
+    "Ron : un phénix",
+    "Luna : un dragon"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ron a un jack russell, Luna un lièvre ; le phénix est celui de Dumbledore.",
+   "id": "t033-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts concernent la mémoire ou l’esprit ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Oubliettes",
+    "Legilimens",
+    "Impero",
+    "Reducto",
+    "Aguamenti"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "L’esprit est un champ de bataille à part entière dans la saga.",
+   "id": "t033-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels sorts Harry utilise-t-il souvent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Expelliarmus",
+    "Expecto Patronum",
+    "Accio",
+    "Avada Kedavra",
+    "Morsmordre"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry refuse de tuer, même pendant la bataille finale.",
+   "id": "t033-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts concernent les objets ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Reparo",
+    "Accio",
+    "Alohomora",
+    "Wingardium Leviosa",
+    "Endoloris",
+    "Legilimens"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les sortilèges du quotidien sont appris dès la première année.",
+   "id": "t033-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages ont lancé un sortilège impardonnable ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bellatrix Lestrange",
+    "Harry Potter",
+    "Barty Croupton Jr",
+    "Hermione Granger",
+    "Neville Londubat"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Harry lance l’Endoloris et l’Imperium pendant la dernière année de la guerre.",
+   "id": "t033-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts sont liés aux duels du club de Lockhart ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Expelliarmus",
+    "Rictusempra",
+    "Tarentallegra",
+    "Serpensortia",
+    "Avada Kedavra",
+    "Piertotum Locomotor"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le club tourne court quand Harry parle au serpent.",
+   "id": "t033-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces cours de Harry par ordre d’apparition du sort appris.",
+   "items": [
+    "Wingardium Leviosa",
+    "Expelliarmus",
+    "Expecto Patronum",
+    "Sortilèges informulés"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Première, deuxième, troisième, puis sixième année.",
+   "id": "t033-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du duel au club de Lockhart dans l’ordre.",
+   "items": [
+    "Démonstration de Rogue et Lockhart",
+    "Duel de Harry et Drago",
+    "Apparition du serpent",
+    "Harry parle Fourchelang"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Cet épisode fait croire à l’école que Harry est l’héritier de Serpentard.",
+   "id": "t033-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes pour vaincre un épouvantard dans l’ordre.",
+   "items": [
+    "Imaginer une forme ridicule",
+    "Prononcer Riddikulus",
+    "Rire",
+    "L’épouvantard disparaît"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le rire est l’arme décisive contre lui ; Lupin le fait pratiquer à toute la classe.",
+   "id": "t033-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces Animagi selon la taille de leur forme animale, du plus petit au plus grand.",
+   "items": [
+    "Rita Skeeter",
+    "Peter Pettigrow",
+    "Minerva McGonagall",
+    "Sirius Black"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Scarabée, rat, chat tigré, puis gros chien noir, de la taille d’un ours.",
+   "id": "t033-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces maléfices de Voldemort et Harry lors du duel du cimetière dans l’ordre.",
+   "items": [
+    "Avada Kedavra contre Expelliarmus",
+    "Priori Incantatem",
+    "Apparition des échos",
+    "Fuite de Harry avec le Portoloin"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les échos de ses parents et de Cedric protègent sa fuite.",
+   "id": "t033-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe dans l’ordre ces étapes du rituel pour devenir Animagus, selon Wizarding World.",
+   "items": [
+    "Garder une feuille de mandragore en bouche un mois",
+    "Préparer la potion",
+    "Attendre un orage",
+    "Boire la potion"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le rituel est long et risqué, d’où la rareté des Animagi.",
+   "id": "t033-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces sorts de lumière, du plus faible au plus fort.",
+   "items": [
+    "Nox",
+    "Lumos",
+    "Lumos Maxima"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Nox éteint, Lumos éclaire, Lumos Maxima projette une lumière intense.",
+   "id": "t033-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque formule à son effet.",
+   "paires": [
+    [
+     "Alohomora",
+     "Ouvrir"
+    ],
+    [
+     "Accio",
+     "Attirer"
+    ],
+    [
+     "Lumos",
+     "Éclairer"
+    ],
+    [
+     "Reparo",
+     "Réparer"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ces sortilèges simples servent dans la vie quotidienne des sorciers.",
+   "id": "t033-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque impardonnable à son effet.",
+   "paires": [
+    [
+     "Avada Kedavra",
+     "Tuer"
+    ],
+    [
+     "Endoloris",
+     "Torturer"
+    ],
+    [
+     "Impero",
+     "Contrôler"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les trois valent la prison à vie à Azkaban s’ils visent un humain.",
+   "id": "t033-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Animagus à sa forme.",
+   "paires": [
+    [
+     "McGonagall",
+     "Chat tigré"
+    ],
+    [
+     "Sirius",
+     "Chien noir"
+    ],
+    [
+     "Pettigrow",
+     "Rat"
+    ],
+    [
+     "Rita Skeeter",
+     "Scarabée"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "James Potter devenait un cerf : d’où son surnom de Cornedrue.",
+   "id": "t033-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à son Patronus.",
+   "paires": [
+    [
+     "Harry",
+     "Cerf"
+    ],
+    [
+     "Hermione",
+     "Loutre"
+    ],
+    [
+     "Ron",
+     "Jack russell"
+    ],
+    [
+     "Luna",
+     "Lièvre"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Patronus reflète souvent un lien affectif profond.",
+   "id": "t033-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque élève à son épouvantard.",
+   "paires": [
+    [
+     "Ron",
+     "Araignée"
+    ],
+    [
+     "Neville",
+     "Rogue"
+    ],
+    [
+     "Harry",
+     "Détraqueur"
+    ],
+    [
+     "Lupin",
+     "Pleine lune"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lupin évite que l’épouvantard de Harry prenne la forme de Voldemort devant la classe.",
+   "id": "t033-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque surnom de Maraudeur à son propriétaire.",
+   "paires": [
+    [
+     "Lunard",
+     "Remus Lupin"
+    ],
+    [
+     "Patmol",
+     "Sirius Black"
+    ],
+    [
+     "Cornedrue",
+     "James Potter"
+    ],
+    [
+     "Queudver",
+     "Peter Pettigrow"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ces surnoms apparaissent sur la carte du Maraudeur.",
+   "id": "t033-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque matière à son professeur.",
+   "paires": [
+    [
+     "Sortilèges",
+     "Flitwick"
+    ],
+    [
+     "Métamorphose",
+     "McGonagall"
+    ],
+    [
+     "Défense en troisième année",
+     "Lupin"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Lupin est sans doute le meilleur professeur de Défense que Harry ait connu.",
+   "id": "t033-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque sort à son inventeur ou utilisateur emblématique.",
+   "paires": [
+    [
+     "Sectumsempra",
+     "Le Prince de Sang-Mêlé"
+    ],
+    [
+     "Feudeymon",
+     "Crabbe"
+    ],
+    [
+     "Piertotum Locomotor",
+     "McGonagall"
+    ],
+    [
+     "Fidelitas",
+     "Les Potter"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Certains sorts sont restés liés à un moment précis de la saga.",
+   "id": "t033-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sort à sa catégorie.",
+   "paires": [
+    [
+     "Wingardium Leviosa",
+     "Sortilège"
+    ],
+    [
+     "Transformation en fouine",
+     "Métamorphose"
+    ],
+    [
+     "Endoloris",
+     "Magie noire"
+    ],
+    [
+     "Expecto Patronum",
+     "Défense"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Poudlard enseigne séparément les sortilèges, la métamorphose et la défense.",
+   "id": "t033-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sort à la couleur de son éclair, selon les romans ou les films.",
+   "paires": [
+    [
+     "Avada Kedavra",
+     "Vert"
+    ],
+    [
+     "Stupéfix",
+     "Rouge"
+    ],
+    [
+     "Expecto Patronum",
+     "Argenté"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ces codes couleur aident à suivre les duels, surtout dans les films.",
+   "id": "t033-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un sortilège\n2. Je désarme\n3. Je suis le préféré de Harry",
+   "choix": [
+    "Expelliarmus",
+    "Stupéfix",
+    "Protego",
+    "Accio"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les Mangemorts le reconnaissent comme la marque de Harry.",
+   "id": "t033-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un gardien d’argent\n2. Je me nourris de bonheur\n3. Je chasse les Détraqueurs",
+   "choix": [
+    "Le Patronus",
+    "L’épouvantard",
+    "Le Sinistros",
+    "Le Feudeymon"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Patronus peut aussi transmettre des messages, comme le fait l’Ordre.",
+   "id": "t033-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je change de forme\n2. Je deviens ce que tu crains\n3. Le rire me vainc",
+   "choix": [
+    "L’épouvantard",
+    "Le Patronus",
+    "Le Métamorphomage",
+    "Le Détraqueur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "On le trouve souvent dans les armoires et les placards sombres.",
+   "id": "t033-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sort noir\n2. Je suis vert\n3. Je tue d’un coup",
+   "choix": [
+    "Avada Kedavra",
+    "Endoloris",
+    "Impero",
+    "Sectumsempra"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il n’existe aucun contre-sort connu, sauf la protection donnée par le sacrifice de Lily.",
+   "id": "t033-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une Auror\n2. Je change d’apparence à volonté\n3. J’ai épousé un loup-garou",
+   "choix": [
+    "Nymphadora Tonks",
+    "Minerva McGonagall",
+    "Bellatrix Lestrange",
+    "Fleur Delacour"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle déteste son prénom et préfère qu’on l’appelle Tonks.",
+   "id": "t033-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sort du Prince\n2. Je fais de profondes entailles\n3. Harry m’a lancé sur Drago",
+   "choix": [
+    "Sectumsempra",
+    "Levicorpus",
+    "Assurdiato",
+    "Diffindo"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Rogue soigne Drago en murmurant un contre-sort qui ressemble à un chant.",
+   "id": "t033-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un feu\n2. Je prends des formes de monstres\n3. J’ai détruit un diadème",
+   "choix": [
+    "Le Feudeymon",
+    "Incendio",
+    "Le feu de dragon",
+    "La Marque des Ténèbres"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il dévore la Salle sur Demande et son immense bric-à-brac.",
+   "id": "t033-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une professeure\n2. Je deviens chat\n3. J’anime les statues pour défendre l’école",
+   "choix": [
+    "Minerva McGonagall",
+    "Pomona Chourave",
+    "Sybille Trelawney",
+    "Rolanda Bibine"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle avoue avoir toujours rêvé de lancer ce sort.",
+   "id": "t033-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un charme de protection\n2. Je cache un secret dans une seule âme\n3. Pettigrow m’a trahi",
+   "choix": [
+    "Le sortilège de Fidelitas",
+    "Assurdiato",
+    "Collaporta",
+    "Protego"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Gardien du Secret est le seul à pouvoir révéler le lieu protégé.",
+   "id": "t033-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sort\n2. Je fais apparaître un crâne et un serpent\n3. Les Mangemorts m’utilisent",
+   "choix": [
+    "Morsmordre",
+    "Serpensortia",
+    "Avada Kedavra",
+    "Incendio"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "La Marque apparaît pour la première fois dans le roman à la Coupe du monde de Quidditch.",
+   "id": "t033-130",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de la cinquième année dans l’ordre.",
+   "items": [
+    "Création de l’Armée de Dumbledore",
+    "Leçons d’Occlumancie avec Rogue",
+    "Découverte de l’AD par Ombrage",
+    "Combat au Département des mystères"
+   ],
+   "src": "J. K. Rowling, Harry Potter et l’Ordre du Phénix (2003)",
+   "expl": "Les sorts appris en secret servent au combat final contre les Mangemorts.",
+   "id": "t033-131",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
