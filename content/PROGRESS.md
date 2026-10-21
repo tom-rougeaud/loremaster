@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**83 / 99 thèmes terminés — 10796 questions au total.**
+**84 / 99 thèmes terminés — 10917 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -89,7 +89,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 81 | Grands classiques du jeu de plateau | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 2 | terminé |
 | 82 | Jeux de cartes à collectionner | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 83 | Du livre à l’écran | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 4 | terminé |
-| 84 | Histoire du RPG vidéo | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 84 | Histoire du RPG vidéo | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 85 | Mondes ouverts et aventure | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 86 | CRPG et jeux de rôle tactiques | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 87 | Chasse aux monstres et bestiaires virtuels | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
