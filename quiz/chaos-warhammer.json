@@ -1,0 +1,1991 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "chaos-warhammer",
+  "nom": "Les Puissances de la Ruine (Chaos)",
+  "royaume": "Les univers Warhammer",
+  "icone": "pentacle",
+  "sombre": true
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment naissent les dieux du Chaos ?",
+   "choix": [
+    "Des émotions et passions des êtres mortels",
+    "D’un pacte avec l’Empereur",
+    "D’une étoile morte",
+    "D’un rituel des Slann"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Le Warp reflète les sentiments des vivants ; les dieux s’en nourrissent.",
+   "id": "t041-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu du Chaos réclame sang et crânes ?",
+   "choix": [
+    "Khorne",
+    "Nurgle",
+    "Tzeentch",
+    "Slaanesh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il se moque d’où vient le sang, pourvu qu’il coule ; son trône repose sur une montagne de crânes.",
+   "id": "t041-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel type de magie Khorne méprise-t-il ?",
+   "choix": [
+    "La sorcellerie",
+    "Les armes à feu",
+    "Les épées",
+    "La force brute"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Ses guerriers voient la magie comme une arme de lâche.",
+   "id": "t041-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel démon majeur ailé sert Khorne ?",
+   "choix": [
+    "Le Buveur de Sang",
+    "Le Grand Immonde",
+    "Le Duc du Changement",
+    "Le Gardien des Secrets"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Fouet et hache en main, il incarne la fureur au combat.",
+   "id": "t041-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu du Chaos est surnommé « Grand-Père » ?",
+   "choix": [
+    "Nurgle",
+    "Khorne",
+    "Tzeentch",
+    "Slaanesh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il aime ses adeptes comme ses enfants et leur offre maladies et résistance à la douleur.",
+   "id": "t041-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel démon majeur, gros et purulent, sert Nurgle ?",
+   "choix": [
+    "Le Grand Immonde",
+    "Le Buveur de Sang",
+    "Le Duc du Changement",
+    "Le Gardien des Secrets"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Jovial et attentionné, il prépare des pestes dans son chaudron.",
+   "id": "t041-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse aeldari est retenue prisonnière dans le jardin de Nurgle ?",
+   "choix": [
+    "Isha",
+    "Morai-Heg",
+    "Lileath",
+    "Asuryan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Nurgle s’en sert pour tester ses maladies ; elle soigne ensuite discrètement les mortels.",
+   "id": "t041-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu du Chaos est le seigneur du changement et des complots ?",
+   "choix": [
+    "Tzeentch",
+    "Nurgle",
+    "Khorne",
+    "Slaanesh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Ses plans sont si tortueux qu’ils se contredisent parfois eux-mêmes.",
+   "id": "t041-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel démon majeur à tête d’oiseau sert Tzeentch ?",
+   "choix": [
+    "Le Duc du Changement",
+    "Le Gardien des Secrets",
+    "Le Buveur de Sang",
+    "Le Grand Immonde"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il connaît une partie de l’avenir et adore manipuler les mortels.",
+   "id": "t041-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que deviennent les démons roses de Tzeentch quand on les blesse ?",
+   "choix": [
+    "Elles se divisent en Horreurs Bleues",
+    "Elles explosent en flammes",
+    "Elles deviennent invisibles",
+    "Elles fusionnent en géant"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Les Horreurs Bleues se divisent à leur tour en petites Horreurs de soufre.",
+   "id": "t041-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel démon de Tzeentch possède deux têtes, l’une voyant le passé, l’autre l’avenir ?",
+   "choix": [
+    "Kairos",
+    "Be’lakor",
+    "Skarbrand",
+    "Ku’gath"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il voit tout, sauf le présent ; ses deux têtes se disputent sans cesse.",
+   "id": "t041-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu du Chaos incarne l’excès et le plaisir ?",
+   "choix": [
+    "Slaanesh",
+    "Tzeentch",
+    "Nurgle",
+    "Khorne"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "C’est le plus jeune des quatre grands dieux.",
+   "id": "t041-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "La naissance de quel dieu provoque la Chute des Aeldari ?",
+   "choix": [
+    "Slaanesh",
+    "Khorne",
+    "Tzeentch",
+    "Nurgle"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "La décadence des Aeldari engendre un dieu qui dévore la plupart de leurs âmes.",
+   "id": "t041-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel démon majeur, gracieux et cruel, sert Slaanesh ?",
+   "choix": [
+    "Le Gardien des Secrets",
+    "Le Duc du Changement",
+    "Le Grand Immonde",
+    "Le Buveur de Sang"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il possède quatre bras, dont deux terminés par des pinces.",
+   "id": "t041-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles servantes aux pinces de crabe combattent pour Slaanesh ?",
+   "choix": [
+    "Les Démonettes",
+    "Les Sanguinaires",
+    "Les Portepestes",
+    "Les Incendiaires"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Agiles et rapides, elles dansent au milieu des combats.",
+   "id": "t041-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels démons à l’épée d’airain forment l’infanterie de Khorne ?",
+   "choix": [
+    "Les Sanguinaires",
+    "Les Démonettes",
+    "Les Portepestes",
+    "Les Horreurs"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Leurs lames sont des Lames d’enfer, capables de trancher l’acier.",
+   "id": "t041-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels démons à un œil comptent les maladies pour Nurgle ?",
+   "choix": [
+    "Les Portepestes",
+    "Les Sanguinaires",
+    "Les Démonettes",
+    "Les Incendiaires"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Ils tiennent le compte de toutes les épidémies du monde, sans jamais y arriver.",
+   "id": "t041-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le symbole commun du Chaos ?",
+   "choix": [
+    "L’étoile à huit branches",
+    "La roue à six rayons",
+    "Le crâne ailé",
+    "L’aigle bicéphale"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Chaque branche figure une flèche pointée dans une direction différente.",
+   "id": "t041-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le nom du premier Prince Démon ?",
+   "choix": [
+    "Be’lakor",
+    "Archaon",
+    "Abaddon",
+    "Angron"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Les dieux l’ont maudit pour qu’il ne règne jamais seul ; il est le Maître Ténébreux.",
+   "id": "t041-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Élu Éternel porte la lame habitée par le démon U’zuhl ?",
+   "choix": [
+    "Archaon",
+    "Abaddon",
+    "Sigvald",
+    "Valkia"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il a rassemblé les six trésors du Chaos avant de mener la Fin des Temps.",
+   "id": "t041-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel seigneur de guerre mène les Croisades Noires contre l’Imperium ?",
+   "choix": [
+    "Abaddon le Fléau",
+    "Kharn le Traître",
+    "Fabius Bile",
+    "Ahriman"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Ancien capitaine des Fils d’Horus, il commande la Black Legion.",
+   "id": "t041-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "D’où partent les Croisades Noires d’Abaddon ?",
+   "choix": [
+    "De l’Œil de la Terreur",
+    "De la Grande Faille",
+    "Du Maelström",
+    "De Terra"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Cette immense tempête du Warp est née lors de la Chute des Aeldari.",
+   "id": "t041-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel champion de Khorne est surnommé « le Traître » ?",
+   "choix": [
+    "Kharn",
+    "Angron",
+    "Skarbrand",
+    "Doombreed"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il a tué ses propres frères d’armes quand le combat ne suffisait plus.",
+   "id": "t041-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque devient le Prince Démon de Khorne ?",
+   "choix": [
+    "Angron",
+    "Mortarion",
+    "Magnus",
+    "Fulgrim"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Les implants des Clous du Boucher l’ont plongé dans une rage éternelle.",
+   "id": "t041-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque devient le Prince Démon de Nurgle ?",
+   "choix": [
+    "Mortarion",
+    "Angron",
+    "Perturabo",
+    "Lorgar"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il a passé de longs jours piégé dans le Warp avec sa Légion, rongée par la Destructrice.",
+   "id": "t041-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque cyclope devient le Prince Démon de Tzeentch ?",
+   "choix": [
+    "Magnus le Rouge",
+    "Lorgar",
+    "Fulgrim",
+    "Horus"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il voulait sauver ses fils de la mutation, et a fini par vendre son âme.",
+   "id": "t041-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque devient le Prince Démon de Slaanesh ?",
+   "choix": [
+    "Fulgrim",
+    "Angron",
+    "Mortarion",
+    "Konrad Curze"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Perfectionniste, il a été corrompu par une épée possédée.",
+   "id": "t041-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Légion est la première à vénérer les dieux du Chaos ?",
+   "choix": [
+    "Les Word Bearers",
+    "Les World Eaters",
+    "Les Night Lords",
+    "Les Iron Warriors"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Leur Primarque, Lorgar, avait été réprimandé par l’Empereur pour son culte.",
+   "id": "t041-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sorcier des Thousand Sons lance la malédiction qui transforme ses frères en armures vides ?",
+   "choix": [
+    "Ahriman",
+    "Magnus",
+    "Lorgar",
+    "Abaddon"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il voulait les sauver de la mutation ; la Rubrique en a fait des automates de poussière.",
+   "id": "t041-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel champion de Nurgle commande la Death Guard en éclaireur ?",
+   "choix": [
+    "Typhus",
+    "Kharn",
+    "Lucius",
+    "Abaddon"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "On le surnomme le Héraut de Nurgle ; son corps abrite un essaim de mouches.",
+   "id": "t041-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel champion de Slaanesh ne peut jamais vraiment mourir ?",
+   "choix": [
+    "Lucius l’Éternel",
+    "Kharn",
+    "Typhus",
+    "Ahriman"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Quiconque le tue en éprouvant de la fierté finit par se transformer en lui.",
+   "id": "t041-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel apothicaire renégat crée des monstres et des clones ?",
+   "choix": [
+    "Fabius Bile",
+    "Belisarius Cawl",
+    "Typhus",
+    "Erebus"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il cherche à créer un « nouvel homme », sans servir aucun dieu.",
+   "id": "t041-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cinquième dieu du Chaos est vénéré par les skavens ?",
+   "choix": [
+    "Le Rat Cornu",
+    "Hashut",
+    "Malal",
+    "Gorkamorka"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il n’est reconnu que dans les mondes de Fantasy et d’Age of Sigmar.",
+   "id": "t041-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles créatures cornues, à moitié animales, servent le Chaos dans les forêts du Vieux Monde ?",
+   "choix": [
+    "Les hommes-bêtes",
+    "Les skavens",
+    "Les ogres",
+    "Les gobelins"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Ils se rassemblent autour de pierres sacrées, les pierres des hardes.",
+   "id": "t041-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel peuple humain du nord du Vieux Monde vénère le Chaos ?",
+   "choix": [
+    "Les Norses",
+    "Les Kislevites",
+    "Les Bretonniens",
+    "Les Tiléens"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Ses pillards traversent la mer à bord de navires-dragons.",
+   "id": "t041-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que se passe-t-il pour un démon tué dans le monde matériel ?",
+   "choix": [
+    "Il retourne dans le Warp",
+    "Il disparaît pour toujours",
+    "Il devient un fantôme",
+    "Il renaît en mortel"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il doit attendre longtemps avant de pouvoir revenir.",
+   "id": "t041-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Age of Sigmar, quel dieu du Chaos est emprisonné par les dieux aelfes ?",
+   "choix": [
+    "Slaanesh",
+    "Khorne",
+    "Nurgle",
+    "Tzeentch"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Malerion et Morathi s’en servent pour récupérer les âmes aelfes qu’il a dévorées.",
+   "id": "t041-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse aelfe d’Age of Sigmar est la mère de Malekith et ancienne alliée de Slaanesh ?",
+   "choix": [
+    "Morathi",
+    "Alarielle",
+    "Isha",
+    "Neferata"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Elle devient une déesse aux deux formes, l’une gracieuse, l’autre monstrueuse.",
+   "id": "t041-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel guerrier du Chaos de Fantasy, très vaniteux, sert Slaanesh ?",
+   "choix": [
+    "Sigvald le Magnifique",
+    "Valkia la Sanglante",
+    "Festus",
+    "Vilitch"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Il ne supporte aucune imperfection, même sur le champ de bataille.",
+   "id": "t041-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle reine des batailles ailée sert Khorne ?",
+   "choix": [
+    "Valkia la Sanglante",
+    "Morathi",
+    "Neferata",
+    "Katarin"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Warhammer : Hordes du Chaos ; Age of Sigmar : Battletomes",
+   "expl": "Elle choisit les plus braves pour les présenter à son dieu.",
+   "id": "t041-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Khorne apprécie les sorciers et la magie.",
+   "rep": false,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Faux : il les méprise et préfère le combat au corps à corps.",
+   "id": "t041-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Nurgle et Tzeentch sont de grands rivaux.",
+   "rep": true,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "La stagnation de l’un s’oppose au changement perpétuel de l’autre.",
+   "id": "t041-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Khorne et Slaanesh se haïssent.",
+   "rep": true,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "La fureur brutale de l’un s’oppose au raffinement de l’autre.",
+   "id": "t041-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les démons de Nurgle sont tristes et malveillants.",
+   "rep": false,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Faux : ils sont joyeux et serviables, malgré leur aspect répugnant.",
+   "id": "t041-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le chiffre sacré de Khorne est le huit.",
+   "rep": true,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Ses champions tuent volontiers par multiples de huit.",
+   "id": "t041-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le chiffre sacré de Tzeentch est le six.",
+   "rep": false,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Faux : c’est le neuf ; le six est celui de Slaanesh.",
+   "id": "t041-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Slaanesh est né de la décadence des Aeldari.",
+   "rep": true,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Son cri de naissance a déchiré l’Œil de la Terreur.",
+   "id": "t041-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Abaddon a été le Primarque des Fils d’Horus.",
+   "rep": false,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Faux : il était le premier capitaine d’Horus, et non un Primarque.",
+   "id": "t041-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Thousand Sons sont pour la plupart réduits à des armures pleines de poussière.",
+   "rep": true,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "C’est la conséquence de la Rubrique d’Ahriman.",
+   "id": "t041-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les dieux du Chaos coopèrent toujours entre eux.",
+   "rep": false,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Faux : ils se livrent un Grand Jeu de rivalités et de trahisons.",
+   "id": "t041-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Be’lakor a été le premier mortel élevé au rang de Prince Démon.",
+   "rep": true,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il a reçu ce don des quatre dieux, avant d’être puni pour son orgueil.",
+   "id": "t041-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Fabius Bile est un fidèle serviteur de Khorne.",
+   "rep": false,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Faux : il ne sert aucun dieu et poursuit ses propres expériences.",
+   "id": "t041-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Un démon tué dans le monde réel peut revenir après un certain temps.",
+   "rep": true,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Seuls des armes ou rituels très rares peuvent le détruire définitivement.",
+   "id": "t041-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les hommes-bêtes vénèrent le Dieu-Empereur.",
+   "rep": false,
+   "src": "Games Workshop, Chaos Daemons",
+   "expl": "Faux : ils sont des enfants du Chaos et haïssent la civilisation humaine.",
+   "id": "t041-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel est le nombre sacré de Nurgle ?",
+   "rep": 7,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "(nombre sacré)",
+   "tolerance": 0,
+   "src": "Games Workshop, Chaos Daemons",
+   "expl": "Sept est son nombre, comme les sept pestes que préparent ses démons.",
+   "id": "t041-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel est le nombre sacré de Slaanesh ?",
+   "rep": 6,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "(nombre sacré)",
+   "tolerance": 0,
+   "src": "Games Workshop, Chaos Daemons",
+   "expl": "Six est son nombre ; ses fidèles l’associent à l’excès.",
+   "id": "t041-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel est le nombre sacré de Tzeentch ?",
+   "rep": 9,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "(nombre sacré)",
+   "tolerance": 0,
+   "src": "Games Workshop, Chaos Daemons",
+   "expl": "Neuf est son nombre ; on dit qu’il a neuf plans pour chaque événement.",
+   "id": "t041-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de branches compte l’étoile du Chaos ?",
+   "rep": 8,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "branches",
+   "tolerance": 0,
+   "src": "Games Workshop, Chaos Daemons",
+   "expl": "Ses huit flèches pointent dans toutes les directions.",
+   "id": "t041-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de Croisades Noires Abaddon a-t-il lancées avant la chute de Cadia ?",
+   "rep": 13,
+   "min": 3,
+   "max": 20,
+   "pas": 1,
+   "unite": "croisades",
+   "tolerance": 0,
+   "src": "Games Workshop, Chaos Daemons",
+   "expl": "La treizième fait enfin tomber Cadia, après dix mille ans de résistance.",
+   "id": "t041-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de Légions Space Marines ont trahi lors de l’Hérésie ?",
+   "rep": 9,
+   "min": 2,
+   "max": 12,
+   "pas": 1,
+   "unite": "Légions",
+   "tolerance": 0,
+   "src": "Games Workshop, Chaos Daemons",
+   "expl": "Neuf Légions sur dix-huit connues ont suivi Horus.",
+   "id": "t041-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de bras possède un Gardien des Secrets ?",
+   "rep": 4,
+   "min": 2,
+   "max": 8,
+   "pas": 1,
+   "unite": "bras",
+   "tolerance": 0,
+   "src": "Games Workshop, Chaos Daemons",
+   "expl": "Deux mains humaines et deux grandes pinces.",
+   "id": "t041-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de trésors du Chaos Archaon rassemble-t-il ?",
+   "rep": 6,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "trésors",
+   "tolerance": 0,
+   "src": "Games Workshop, Chaos Daemons",
+   "expl": "Parmi eux, la Couronne de Domination et l’armure de Morkar.",
+   "id": "t041-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le dieu du sang et des crânes s’appelle ____.",
+   "choix": [
+    "Khorne",
+    "Nurgle",
+    "Tzeentch",
+    "Slaanesh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il est aussi le dieu de l’honneur guerrier dévoyé.",
+   "id": "t041-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le démon majeur de Nurgle s’appelle le Grand ____.",
+   "choix": [
+    "Immonde",
+    "Pestilent",
+    "Putride",
+    "Gras"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il adore ses petits Nurglings, qui grouillent à ses pieds.",
+   "id": "t041-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le démon majeur de Tzeentch s’appelle le Duc du ____.",
+   "choix": [
+    "Changement",
+    "Destin",
+    "Savoir",
+    "Complot"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Ses plumes chatoient de toutes les couleurs.",
+   "id": "t041-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La tempête du Warp d’où partent les Croisades Noires s’appelle l’Œil de la ____.",
+   "choix": [
+    "Terreur",
+    "Ruine",
+    "Mort",
+    "Damnation"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Elle s’est formée au cœur de l’ancien empire aeldari.",
+   "id": "t041-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Abaddon commande la ____ Legion.",
+   "choix": [
+    "Black",
+    "Red",
+    "Iron",
+    "Dark"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il a fait repeindre en noir les armures des Fils d’Horus.",
+   "id": "t041-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La malédiction d’Ahriman sur les Thousand Sons s’appelle la ____.",
+   "choix": [
+    "Rubrique",
+    "Malédiction",
+    "Purge",
+    "Chute"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Elle n’a laissé que des âmes prisonnières dans des armures.",
+   "id": "t041-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le premier Prince Démon s’appelle ____.",
+   "choix": [
+    "Be’lakor",
+    "Archaon",
+    "Angron",
+    "Kharn"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il est aussi appelé le Maître Ténébreux.",
+   "id": "t041-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le champion de Khorne qui a massacré ses alliés s’appelle Kharn le ____.",
+   "choix": [
+    "Traître",
+    "Sanglant",
+    "Furieux",
+    "Boucher"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il a commis ce massacre lors de la bataille de Skalathrax.",
+   "id": "t041-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les servantes infernales de Slaanesh s’appellent les ____.",
+   "choix": [
+    "Démonettes",
+    "Sanguinaires",
+    "Portepestes",
+    "Horreurs"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Leur beauté trouble cache une cruauté sans limite.",
+   "id": "t041-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les petits démons rieurs du Grand-Père s’appellent les ____.",
+   "choix": [
+    "Nurglings",
+    "Gobelins",
+    "Diablotins",
+    "Grouillots"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Ils grimpent sur tout le monde et s’amusent de tout.",
+   "id": "t041-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Primarque des Word Bearers, premier dévot du Chaos, s’appelle ____.",
+   "choix": [
+    "Lorgar",
+    "Horus",
+    "Angron",
+    "Magnus"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Son chapelain Erebus a joué un rôle clé dans la corruption d’Horus.",
+   "id": "t041-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le démon qui habite l’épée d’Archaon s’appelle ____.",
+   "choix": [
+    "U’zuhl",
+    "Be’lakor",
+    "Kairos",
+    "Skarbrand"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "La lame porte le nom de « Tueuse de Rois ».",
+   "id": "t041-074",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces dieux n’est pas un dieu du Chaos ?",
+   "choix": [
+    "Sigmar",
+    "Khorne",
+    "Nurgle",
+    "Slaanesh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Sigmar combat le Chaos depuis sa vie de mortel.",
+   "id": "t041-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces démons ne sert pas Khorne ?",
+   "choix": [
+    "Le Grand Immonde",
+    "Le Buveur de Sang",
+    "Le Sanguinaire",
+    "Le Chien de Khorne"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Le Grand Immonde sert Nurgle, le seigneur des maladies.",
+   "id": "t041-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures ne sert pas Tzeentch ?",
+   "choix": [
+    "La Démonette",
+    "L’Horreur Rose",
+    "Le Duc du Changement",
+    "L’Incendiaire"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "La Démonette sert Slaanesh, le prince des plaisirs.",
+   "id": "t041-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Primarques n’est pas devenu Prince Démon ?",
+   "choix": [
+    "Horus",
+    "Angron",
+    "Mortarion",
+    "Magnus"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Horus est tué par l’Empereur avant d’achever sa transformation.",
+   "id": "t041-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un champion du Chaos ?",
+   "choix": [
+    "Marneus Calgar",
+    "Kharn",
+    "Typhus",
+    "Lucius"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Marneus Calgar est le maître des Ultramarines.",
+   "id": "t041-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces chiffres n’est pas sacré pour un dieu du Chaos ?",
+   "choix": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Six pour Slaanesh, sept pour Nurgle, huit pour Khorne, neuf pour Tzeentch.",
+   "id": "t041-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces Légions n’a pas trahi l’Empereur ?",
+   "choix": [
+    "Les Imperial Fists",
+    "Les Iron Warriors",
+    "Les Night Lords",
+    "Les Alpha Legion"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les Imperial Fists ont défendu le Palais impérial.",
+   "id": "t041-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces peuples n’est pas lié au Chaos ?",
+   "choix": [
+    "Les hommes-lézards",
+    "Les hommes-bêtes",
+    "Les Norses",
+    "Les Guerriers du Chaos"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les hommes-lézards sont les ennemis jurés du Chaos.",
+   "id": "t041-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces couleurs n’est pas associée à un des quatre grands dieux ?",
+   "choix": [
+    "Le jaune",
+    "Le rouge",
+    "Le vert",
+    "Le bleu"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Rouge pour Khorne, vert pour Nurgle, bleu pour Tzeentch, rose ou violet pour Slaanesh.",
+   "id": "t041-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages ne sert pas Nurgle ?",
+   "choix": [
+    "Kairos",
+    "Typhus",
+    "Mortarion",
+    "Ku’gath"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Kairos sert Tzeentch, dont il est l’oracle à deux têtes.",
+   "id": "t041-084",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels démons majeurs servent les quatre dieux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Buveur de Sang",
+    "Grand Immonde",
+    "Duc du Changement",
+    "Gardien des Secrets",
+    "Prince Démon",
+    "Hellbrute"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Un Prince Démon est un mortel élevé, pas un démon né du Warp.",
+   "id": "t041-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des Primarques déchus ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Angron",
+    "Mortarion",
+    "Magnus",
+    "Fulgrim",
+    "Guilliman",
+    "Sanguinius"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Guilliman et Sanguinius sont restés loyaux.",
+   "id": "t041-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels démons servent Nurgle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Portepestes",
+    "Nurglings",
+    "Grand Immonde",
+    "Démonettes",
+    "Horreurs Roses"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les démons de Nurgle sont lents mais presque impossibles à abattre.",
+   "id": "t041-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels champions servent Khorne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Kharn",
+    "Angron",
+    "Valkia la Sanglante",
+    "Typhus",
+    "Ahriman"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Typhus sert Nurgle, Ahriman sert Tzeentch : aucun des deux ne suit Khorne.",
+   "id": "t041-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles Légions sont liées à un dieu précis ? (plusieurs bonnes réponses)",
+   "choix": [
+    "World Eaters",
+    "Death Guard",
+    "Thousand Sons",
+    "Emperor’s Children",
+    "Iron Warriors",
+    "Alpha Legion"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Iron Warriors et Alpha Legion ne servent aucun dieu en particulier.",
+   "id": "t041-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels démons servent Slaanesh ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Démonettes",
+    "Gardien des Secrets",
+    "Enjôleuses",
+    "Sanguinaires",
+    "Portepestes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les Enjôleuses sont des démones montées sur des créatures rapides.",
+   "id": "t041-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages servent Tzeentch ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ahriman",
+    "Magnus le Rouge",
+    "Kairos",
+    "Kharn",
+    "Lucius"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Lucius sert Slaanesh, Kharn sert Khorne.",
+   "id": "t041-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples de Fantasy servent le Chaos ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Guerriers du Chaos",
+    "Hommes-bêtes",
+    "Norses",
+    "Bretonniens",
+    "Hauts elfes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Le Chaos menace surtout le nord du Vieux Monde.",
+   "id": "t041-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels mortels deviennent des Princes Démons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Be’lakor",
+    "Angron",
+    "Mortarion",
+    "Abaddon",
+    "Kharn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Abaddon a longtemps refusé ce sort, voulant rester mortel.",
+   "id": "t041-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles caractéristiques décrivent Nurgle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Maladie",
+    "Désespoir",
+    "Persévérance",
+    "Changement",
+    "Excès"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Ses fidèles ne ressentent plus la douleur et ne craignent plus la mort.",
+   "id": "t041-094",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces dieux selon leur chiffre sacré, du plus petit au plus grand.",
+   "items": [
+    "Slaanesh",
+    "Nurgle",
+    "Khorne",
+    "Tzeentch"
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Six pour Slaanesh, sept pour Nurgle, huit pour Khorne et neuf pour Tzeentch.",
+   "id": "t041-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la naissance de Slaanesh dans l’ordre.",
+   "items": [
+    "Décadence des Aeldari",
+    "Cri de naissance du dieu",
+    "Ouverture de l’Œil de la Terreur",
+    "Exode des Aeldari survivants"
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les survivants fuient sur des vaisseaux-mondes ou se cachent dans la Toile.",
+   "id": "t041-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie d’Abaddon dans l’ordre.",
+   "items": [
+    "Premier capitaine d’Horus",
+    "Mort d’Horus",
+    "Création de la Black Legion",
+    "Chute de Cadia"
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il a brûlé le corps d’Horus pour que nul ne le ressuscite.",
+   "id": "t041-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la corruption de Magnus dans l’ordre.",
+   "items": [
+    "Il étudie la sorcellerie",
+    "Il avertit l’Empereur par la magie",
+    "Prospero est détruite",
+    "Il devient Prince Démon"
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Son message psychique a brisé les protections du Palais impérial.",
+   "id": "t041-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces démons de Tzeentch du plus grand au plus petit.",
+   "items": [
+    "Duc du Changement",
+    "Horreur Rose",
+    "Horreur Bleue",
+    "Horreur de soufre"
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Chaque Horreur blessée se divise en créatures plus petites.",
+   "id": "t041-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la Rubrique d’Ahriman dans l’ordre.",
+   "items": [
+    "Mutations des Thousand Sons",
+    "Ahriman lance la Rubrique",
+    "Les guerriers deviennent poussière",
+    "Ahriman est exilé"
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Magnus le chasse de sa planète pour avoir désobéi.",
+   "id": "t041-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la carrière d’un champion du Chaos dans l’ordre.",
+   "items": [
+    "Il prête serment à un dieu",
+    "Il reçoit des dons et mutations",
+    "Il devient Prince Démon ou Rejeton"
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Rares sont ceux qui atteignent l’immortalité ; les autres deviennent des monstres informes.",
+   "id": "t041-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de la Fin des Temps dans l’ordre.",
+   "items": [
+    "Archaon rassemble ses trésors",
+    "Le Chaos envahit le Vieux Monde",
+    "Destruction du monde",
+    "Naissance des Royaumes Mortels"
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Le monde de Warhammer laisse place à celui d’Age of Sigmar.",
+   "id": "t041-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la chute de Horus dans l’ordre.",
+   "items": [
+    "Blessure sur la lune de Davin",
+    "Corruption par les dieux du Chaos",
+    "Rébellion contre l’Empereur",
+    "Duel final contre l’Empereur"
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Erebus a orchestré sa guérison dans une loge interdite, où le Chaos l’attendait.",
+   "id": "t041-103",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque dieu à son démon majeur.",
+   "paires": [
+    [
+     "Khorne",
+     "Buveur de Sang"
+    ],
+    [
+     "Nurgle",
+     "Grand Immonde"
+    ],
+    [
+     "Tzeentch",
+     "Duc du Changement"
+    ],
+    [
+     "Slaanesh",
+     "Gardien des Secrets"
+    ]
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Chaque démon majeur est l’incarnation de la puissance de son dieu.",
+   "id": "t041-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à sa Légion de prédilection.",
+   "paires": [
+    [
+     "Khorne",
+     "World Eaters"
+    ],
+    [
+     "Nurgle",
+     "Death Guard"
+    ],
+    [
+     "Tzeentch",
+     "Thousand Sons"
+    ],
+    [
+     "Slaanesh",
+     "Emperor’s Children"
+    ]
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Ces Légions vouées à un seul dieu sont dites « Légions dédiées ».",
+   "id": "t041-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à ses démons mineurs.",
+   "paires": [
+    [
+     "Khorne",
+     "Sanguinaires"
+    ],
+    [
+     "Nurgle",
+     "Portepestes"
+    ],
+    [
+     "Tzeentch",
+     "Horreurs"
+    ],
+    [
+     "Slaanesh",
+     "Démonettes"
+    ]
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Ces démons forment le gros des légions démoniaques.",
+   "id": "t041-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à sa couleur.",
+   "paires": [
+    [
+     "Khorne",
+     "Rouge"
+    ],
+    [
+     "Nurgle",
+     "Vert"
+    ],
+    [
+     "Tzeentch",
+     "Bleu"
+    ],
+    [
+     "Slaanesh",
+     "Rose"
+    ]
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les figurines de chaque dieu reprennent ces couleurs.",
+   "id": "t041-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Primarque déchu à son dieu.",
+   "paires": [
+    [
+     "Angron",
+     "Khorne"
+    ],
+    [
+     "Mortarion",
+     "Nurgle"
+    ],
+    [
+     "Magnus",
+     "Tzeentch"
+    ],
+    [
+     "Fulgrim",
+     "Slaanesh"
+    ]
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Chacun est devenu un Prince Démon au service de son dieu.",
+   "id": "t041-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque champion à son dieu.",
+   "paires": [
+    [
+     "Kharn",
+     "Khorne"
+    ],
+    [
+     "Typhus",
+     "Nurgle"
+    ],
+    [
+     "Ahriman",
+     "Tzeentch"
+    ],
+    [
+     "Lucius",
+     "Slaanesh"
+    ]
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Ces champions mènent de nombreuses bandes de guerre.",
+   "id": "t041-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à sa monture de démon.",
+   "paires": [
+    [
+     "Khorne",
+     "Juggernaut"
+    ],
+    [
+     "Slaanesh",
+     "Monture de Slaanesh"
+    ],
+    [
+     "Tzeentch",
+     "Disque de Tzeentch"
+    ],
+    [
+     "Nurgle",
+     "Bête de Nurgle"
+    ]
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les champions chevauchent parfois ces créatures démoniaques.",
+   "id": "t041-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à son titre.",
+   "paires": [
+    [
+     "Archaon",
+     "L’Élu Éternel"
+    ],
+    [
+     "Be’lakor",
+     "Le Maître Ténébreux"
+    ],
+    [
+     "Abaddon",
+     "Le Fléau"
+    ],
+    [
+     "Kharn",
+     "Le Traître"
+    ]
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Ces titres sont connus de tous les ennemis du Chaos.",
+   "id": "t041-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque dieu à son domaine.",
+   "paires": [
+    [
+     "Khorne",
+     "Guerre et colère"
+    ],
+    [
+     "Nurgle",
+     "Maladie et déclin"
+    ],
+    [
+     "Tzeentch",
+     "Magie et changement"
+    ],
+    [
+     "Slaanesh",
+     "Plaisir et excès"
+    ]
+   ],
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les quatre dieux se partagent les grandes passions mortelles.",
+   "id": "t041-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Mon trône est fait de crânes\n3. Je méprise la magie",
+   "choix": [
+    "Khorne",
+    "Nurgle",
+    "Tzeentch",
+    "Slaanesh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Ses fidèles hurlent son nom en se jetant au combat.",
+   "id": "t041-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. On m’appelle Grand-Père\n3. J’aime les maladies",
+   "choix": [
+    "Nurgle",
+    "Khorne",
+    "Tzeentch",
+    "Slaanesh"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il cultive son jardin de pestes dans le Warp.",
+   "id": "t041-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je suis né de la Chute des Aeldari\n3. J’incarne l’excès",
+   "choix": [
+    "Slaanesh",
+    "Tzeentch",
+    "Khorne",
+    "Nurgle"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les Aeldari le craignent plus que tout : il convoite leurs âmes.",
+   "id": "t041-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un seigneur de guerre\n2. J’ai lancé treize Croisades Noires\n3. J’ai servi Horus",
+   "choix": [
+    "Abaddon",
+    "Kharn",
+    "Lorgar",
+    "Typhus"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il porte la Serre d’Horus, la griffe de son ancien maître.",
+   "id": "t041-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Primarque\n2. J’ai un seul œil\n3. Je suis le Prince Démon de Tzeentch",
+   "choix": [
+    "Magnus le Rouge",
+    "Angron",
+    "Mortarion",
+    "Fulgrim"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il règne sur la Planète des Sorciers, dans l’Œil de la Terreur.",
+   "id": "t041-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sorcier\n2. J’ai voulu sauver ma Légion\n3. Je l’ai réduite en poussière",
+   "choix": [
+    "Ahriman",
+    "Magnus",
+    "Lorgar",
+    "Erebus"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il cherche depuis à percer les secrets de Tzeentch.",
+   "id": "t041-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Prince Démon\n2. Je suis le premier de mon espèce\n3. On ne me laisse jamais régner seul",
+   "choix": [
+    "Be’lakor",
+    "Archaon",
+    "Kairos",
+    "Skarbrand"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Les dieux l’ont puni pour sa trop grande ambition.",
+   "id": "t041-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un guerrier\n2. J’ai rassemblé six trésors\n3. J’ai détruit le monde",
+   "choix": [
+    "Archaon",
+    "Abaddon",
+    "Sigvald",
+    "Kharn"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Codex Chaos Space Marines et Chaos Daemons ; Hordes du Chaos ; Age of Sigmar",
+   "expl": "Il continue sa guerre dans les Royaumes Mortels.",
+   "id": "t041-120",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
