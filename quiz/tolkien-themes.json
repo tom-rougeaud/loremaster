@@ -1,0 +1,2275 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "tolkien-themes",
+  "nom": "Tolkien : thèmes et philosophie",
+  "royaume": "Terres de Tolkien",
+  "icone": "plume",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quel pays actuel J. R. R. Tolkien est-il né ?",
+   "choix": [
+    "Afrique du Sud",
+    "Angleterre",
+    "Écosse",
+    "Irlande"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Il naît en 1892 dans l’État libre d’Orange, où son père dirige une banque ; la famille rentre en Angleterre en 1895.",
+   "id": "t024-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel prêtre devient le tuteur de Tolkien et de son frère après la mort de leur mère ?",
+   "choix": [
+    "Francis Morgan",
+    "John Henry Newman",
+    "Robert Murray",
+    "George Sayer"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Prêtre de l’Oratoire de Birmingham, il élève les deux orphelins ; Newman avait fondé cet Oratoire.",
+   "id": "t024-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle religion Tolkien a-t-il été élevé ?",
+   "choix": [
+    "Catholique",
+    "Anglicane",
+    "Méthodiste",
+    "Presbytérienne"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Sa mère s’était convertie au catholicisme ; Tolkien reste croyant toute sa vie.",
+   "id": "t024-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelait le cercle d’amis de lycée de Tolkien à Birmingham ?",
+   "choix": [
+    "Le TCBS",
+    "Les Inklings",
+    "Les Kolbítar",
+    "La Confrérie"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Le « Tea Club and Barrovian Society » réunissait quatre amis passionnés de littérature.",
+   "id": "t024-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quelle grande bataille Tolkien participe-t-il en 1916 ?",
+   "choix": [
+    "La Somme",
+    "Verdun",
+    "Ypres",
+    "Gallipoli"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Il y perd plusieurs amis ; l’expérience des tranchées marque profondément son œuvre.",
+   "id": "t024-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle maladie renvoie Tolkien en Angleterre à la fin de 1916 ?",
+   "choix": [
+    "La fièvre des tranchées",
+    "La grippe espagnole",
+    "Le typhus",
+    "Le paludisme"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Cette fièvre transmise par les poux l’éloigne du front pour de bon.",
+   "id": "t024-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui Tolkien épouse-t-il en 1916 ?",
+   "choix": [
+    "Edith Bratt",
+    "Priscilla Morgan",
+    "Mabel Suffield",
+    "Joy Davidman"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Il l’a rencontrée à 16 ans ; Mabel Suffield était sa mère, Joy Davidman l’épouse de C. S. Lewis.",
+   "id": "t024-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quels noms sont gravés sur la tombe de Tolkien et de son épouse ?",
+   "choix": [
+    "Beren et Lúthien",
+    "Aragorn et Arwen",
+    "Faramir et Éowyn",
+    "Sam et Rosie"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Tolkien voyait en Edith sa Lúthien ; ils reposent au cimetière de Wolvercote, à Oxford.",
+   "id": "t024-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pour quel grand dictionnaire Tolkien travaille-t-il juste après la guerre ?",
+   "choix": [
+    "L’Oxford English Dictionary",
+    "Le dictionnaire de Johnson",
+    "Le Webster",
+    "Le Cambridge Dictionary"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Il y étudie l’origine de nombreux mots, une expérience précieuse pour ses langues inventées.",
+   "id": "t024-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Sur quels mots Tolkien travaille-t-il pour l’Oxford English Dictionary ?",
+   "choix": [
+    "Des mots commençant par W",
+    "Des mots commençant par A",
+    "Des mots d’origine latine",
+    "Des mots d’argot"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Il y rédige notamment sur l’histoire de mots comme « walrus » ou « wasp ».",
+   "id": "t024-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle université Tolkien enseigne-t-il avant Oxford ?",
+   "choix": [
+    "Leeds",
+    "Cambridge",
+    "Birmingham",
+    "Édimbourg"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (Allen & Unwin, 1977)",
+   "expl": "Il y est lecteur en 1920, puis professeur de langue anglaise en 1924.",
+   "id": "t024-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle langue ancienne Tolkien enseigne-t-il à Oxford à partir de 1925 ?",
+   "choix": [
+    "Le vieil anglais",
+    "Le latin",
+    "Le grec ancien",
+    "Le gallois"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, The Inklings (Allen & Unwin, 1978)",
+   "expl": "Il occupe la chaire d’anglo-saxon (Rawlinson et Bosworth), puis celle de langue et littérature anglaises.",
+   "id": "t024-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel pub d’Oxford les Inklings se retrouvaient-ils ?",
+   "choix": [
+    "The Eagle and Child",
+    "The Turf Tavern",
+    "The Bear Inn",
+    "The King’s Arms"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, The Inklings (Allen & Unwin, 1978)",
+   "expl": "Ils l’appelaient familièrement « l’Oiseau et le Bébé » (The Bird and Baby).",
+   "id": "t024-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ami de Tolkien a écrit Le Monde de Narnia ?",
+   "choix": [
+    "C. S. Lewis",
+    "Charles Williams",
+    "Owen Barfield",
+    "G. K. Chesterton"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, « Beowulf: The Monsters and the Critics » (British Academy, 1936)",
+   "expl": "Tolkien a contribué à la conversion de Lewis au christianisme en 1931.",
+   "id": "t024-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’intitule la conférence de 1936 qui renouvelle l’étude de Beowulf ?",
+   "choix": [
+    "Les Monstres et les Critiques",
+    "Du conte de fées",
+    "Mythopoeia",
+    "Feuille, de Niggle"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1939, publié en 1947)",
+   "expl": "Tolkien y défend les monstres du poème, que les critiques jugeaient secondaires.",
+   "id": "t024-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel essai de Tolkien défend la féerie comme une littérature digne des adultes ?",
+   "choix": [
+    "Du conte de fées",
+    "Les Monstres et les Critiques",
+    "Mythopoeia",
+    "Feuille, de Niggle"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, avant-propos de la 2e éd. (1966)",
+   "expl": "Prononcé en 1939 à l’université de St Andrews, il fonde sa vision de la fantasy.",
+   "id": "t024-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans l’avant-propos de 1966, que dit Tolkien de l’allégorie ?",
+   "choix": [
+    "Il s’en méfie et préfère l’« applicabilité »",
+    "Il revendique une allégorie de la guerre",
+    "Il dit que l’Anneau figure la bombe atomique",
+    "Il n’en dit pas un mot"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981), lettres 144 et 163",
+   "expl": "L’applicabilité laisse le lecteur libre de faire des rapprochements, sans que l’auteur les impose.",
+   "id": "t024-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle langue réelle a le plus inspiré le quenya ?",
+   "choix": [
+    "Le finnois",
+    "Le gallois",
+    "L’islandais",
+    "Le latin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981), lettres 144 et 163",
+   "expl": "Tolkien découvre la grammaire finnoise étudiant et dit en avoir été « enivré ».",
+   "id": "t024-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle langue réelle a inspiré le sindarin ?",
+   "choix": [
+    "Le gallois",
+    "Le finnois",
+    "Le breton",
+    "Le gaélique irlandais"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981), lettres 144 et 163",
+   "expl": "Tolkien aimait la sonorité du gallois ; le sindarin en reprend les mutations de consonnes.",
+   "id": "t024-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quelle langue Tolkien fonde-t-il les noms et la langue du Rohan ?",
+   "choix": [
+    "Le vieil anglais",
+    "Le vieux norrois",
+    "Le gothique",
+    "Le gallois"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Story of Kullervo, éd. Verlyn Flieger (2015)",
+   "expl": "Éomer, Théoden ou Edoras sont des mots anglo-saxons : théoden signifie « roi ».",
+   "id": "t024-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel personnage du Kalevala inspire Túrin ?",
+   "choix": [
+    "Kullervo",
+    "Väinämöinen",
+    "Lemminkäinen",
+    "Ilmarinen"
+   ],
+   "rep": 0,
+   "src": "Tom Shippey, The Road to Middle-earth (1982)",
+   "expl": "Comme Túrin, Kullervo est un héros maudit qui épouse sa sœur sans le savoir.",
+   "id": "t024-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Hors de Tolkien, dans quelle œuvre trouve-t-on la liste de noms Durin, Thorin, Fíli ou Gandalf ?",
+   "choix": [
+    "La Völuspá",
+    "Beowulf",
+    "Le Kalevala",
+    "La Chanson de Roland"
+   ],
+   "rep": 0,
+   "src": "Tom Shippey, The Road to Middle-earth (1982)",
+   "expl": "Ce poème norrois énumère des nains : Tolkien y a puisé presque tous ceux du Hobbit.",
+   "id": "t024-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel nom, trouvé dans un poème anglo-saxon, inspire à Tolkien son marin porteur d’étoile ?",
+   "choix": [
+    "Éarendel",
+    "Grendel",
+    "Heorot",
+    "Wiglaf"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Le vers du Crist de Cynewulf qui le mentionne fascine Tolkien dès 1913.",
+   "id": "t024-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel pays un voyage de 1911 inspire-t-il les Monts Brumeux ?",
+   "choix": [
+    "La Suisse",
+    "La Norvège",
+    "L’Écosse",
+    "L’Islande"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Une marche en montagne près d’Interlaken lui laisse des souvenirs repris dans le voyage de Bilbo.",
+   "id": "t024-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quel jouet d’un de ses enfants Tom Bombadil est-il né ?",
+   "choix": [
+    "Une poupée hollandaise",
+    "Un ours en peluche",
+    "Un soldat de plomb",
+    "Un cheval à bascule"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Le personnage apparaît d’abord dans des poèmes, avant d’entrer dans Le Seigneur des Anneaux.",
+   "id": "t024-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quel support Tolkien écrit-il la première phrase du Hobbit ?",
+   "choix": [
+    "Une copie d’examen restée blanche",
+    "Une nappe de restaurant",
+    "Une lettre de son éditeur",
+    "Le carnet d’un élève"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue (1954)",
+   "expl": "En corrigeant des copies, il trouve une page vide et y note une phrase sur un hobbit.",
+   "id": "t024-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quel ouvrage fictif Tolkien prétend-il avoir traduit ses récits ?",
+   "choix": [
+    "Le Livre rouge de la Marche de l’Ouest",
+    "Le Livre de Mazarbul",
+    "Les Annales d’Angband",
+    "Le Grimoire de Fondcombe"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981), lettre 163",
+   "expl": "Bilbo puis Frodo y auraient consigné leurs aventures ; le Livre de Mazarbul est trouvé dans la Moria.",
+   "id": "t024-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déception de jeunesse devant une pièce de Shakespeare inspire la marche des Ents ?",
+   "choix": [
+    "La forêt de Birnam dans Macbeth",
+    "La tempête de La Tempête",
+    "Le fantôme d’Hamlet",
+    "La forêt du Songe d’une nuit d’été"
+   ],
+   "rep": 0,
+   "src": "Tom Shippey, J. R. R. Tolkien: Author of the Century (2000)",
+   "expl": "Les soldats n’y portent que des branches : Tolkien voulait voir une vraie forêt marcher à la guerre.",
+   "id": "t024-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel thème central l’Anneau unique incarne-t-il ?",
+   "choix": [
+    "La corruption par le pouvoir",
+    "L’amour impossible",
+    "La vengeance",
+    "L’exil"
+   ],
+   "rep": 0,
+   "src": "Tom Shippey, J. R. R. Tolkien: Author of the Century (2000)",
+   "expl": "Même les sages, comme Gandalf ou Galadriel, refusent de le prendre pour ne pas être corrompus.",
+   "id": "t024-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle qualité de Bilbo, qui épargne Gollum, s’avère décisive ?",
+   "choix": [
+    "La pitié",
+    "Le courage",
+    "La ruse",
+    "La force"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, « Athrabeth Finrod ah Andreth », Morgoth’s Ring (1993)",
+   "expl": "Gandalf le souligne à Frodo : sans Gollum épargné, l’Anneau n’aurait pas été détruit.",
+   "id": "t024-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel mot elfique désigne l’espoir profond, confiance qui n’attend pas de preuve ?",
+   "choix": [
+    "Estel",
+    "Amdir",
+    "Mellon",
+    "Namárië"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Amdir est l’espoir fondé sur la raison ; Estel est aussi le nom d’enfance d’Aragorn.",
+   "id": "t024-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment les Elfes appellent-ils la mortalité des Hommes ?",
+   "choix": [
+    "Le Don d’Ilúvatar",
+    "La Malédiction de Mandos",
+    "L’Exil des Noldor",
+    "La Longue Défaite"
+   ],
+   "rep": 0,
+   "src": "Tom Shippey, J. R. R. Tolkien: Author of the Century (2000)",
+   "expl": "Les Hommes quittent le monde après la mort ; même les Valar envient ce mystère.",
+   "id": "t024-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage incarne l’industrie qui détruit la nature ?",
+   "choix": [
+    "Saruman",
+    "Sauron",
+    "Denethor",
+    "Gollum"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Tree and Leaf (1964)",
+   "expl": "Il abat les arbres d’Isengard pour ses forges, et les Ents se vengent.",
+   "id": "t024-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle nouvelle de 1945 raconte un peintre qui ne finit jamais son tableau ?",
+   "choix": [
+    "Feuille, de Niggle",
+    "Smith de Grand Wootton",
+    "Roverandom",
+    "Le Fermier Gilles de Ham"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Farmer Giles of Ham (Allen & Unwin, 1949)",
+   "expl": "On y lit souvent un portrait de Tolkien lui-même, perfectionniste incapable d’achever son œuvre.",
+   "id": "t024-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conte publié en 1949 met en scène un paysan bourru face à un dragon ?",
+   "choix": [
+    "Le Fermier Gilles de Ham",
+    "Roverandom",
+    "Smith de Grand Wootton",
+    "Monsieur Merveille"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Letters from Father Christmas (1976)",
+   "expl": "C’est un conte humoristique, plein de jeux de mots savants.",
+   "id": "t024-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles lettres Tolkien écrit-il chaque année à ses enfants ?",
+   "choix": [
+    "Les Lettres du Père Noël",
+    "Les Lettres de Bilbo",
+    "Les Lettres de Gandalf",
+    "Les Lettres du Roi"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Roverandom (1998)",
+   "expl": "Pendant plus de vingt ans, il les illustre lui-même ; elles paraissent en 1976.",
+   "id": "t024-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel conte Tolkien écrit-il pour consoler son fils Michael, qui a perdu un petit chien jouet ?",
+   "choix": [
+    "Roverandom",
+    "Monsieur Merveille",
+    "Smith de Grand Wootton",
+    "Le Fermier Gilles de Ham"
+   ],
+   "rep": 0,
+   "src": "Tolkien et E. V. Gordon, Sir Gawain and the Green Knight (Clarendon Press, 1925)",
+   "expl": "Le jouet était tombé sur une plage en 1925 ; le conte n’est publié qu’en 1998.",
+   "id": "t024-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel poème médiéval Tolkien édite-t-il avec E. V. Gordon en 1925 ?",
+   "choix": [
+    "Sire Gauvain et le Chevalier vert",
+    "La Chanson de Roland",
+    "Les Contes de Canterbury",
+    "Le Roman de la Rose"
+   ],
+   "rep": 0,
+   "src": "London Gazette (1972)",
+   "expl": "Leur édition savante est restée une référence pendant des décennies.",
+   "id": "t024-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle distinction Tolkien reçoit-il de la reine Élisabeth II en 1972 ?",
+   "choix": [
+    "Commandeur de l’Empire britannique",
+    "Prix Nobel de littérature",
+    "Chevalier (Sir)",
+    "Prix Booker"
+   ],
+   "rep": 0,
+   "src": "Vincent Ferré (dir.), Dictionnaire Tolkien (CNRS Éditions, 2012)",
+   "expl": "Il est fait CBE par la reine Élisabeth II, un an avant sa mort.",
+   "id": "t024-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui signe la première traduction du Seigneur des Anneaux chez Christian Bourgois (1972-1973) ?",
+   "choix": [
+    "Francis Ledoux",
+    "Daniel Lauzon",
+    "Pierre Alien",
+    "Vincent Ferré"
+   ],
+   "rep": 0,
+   "src": "Vincent Ferré (dir.), Dictionnaire Tolkien (CNRS Éditions, 2012)",
+   "expl": "Daniel Lauzon en propose une nouvelle traduction de 2014 à 2016 ; Pierre Alien a traduit Le Silmarillion.",
+   "id": "t024-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom Daniel Lauzon donne-t-il au personnage appelé Grands-Pas chez Ledoux ?",
+   "choix": [
+    "Arpenteur",
+    "Rôdeur",
+    "Pas-Long",
+    "Longues-Jambes"
+   ],
+   "rep": 0,
+   "src": "Fox Searchlight, Tolkien (2019)",
+   "expl": "Il cherche à mieux rendre l’anglais Strider, « celui qui marche à grandes enjambées ».",
+   "id": "t024-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur incarne Tolkien dans le film biographique de 2019 ?",
+   "choix": [
+    "Nicholas Hoult",
+    "Ian McKellen",
+    "Martin Freeman",
+    "Benedict Cumberbatch"
+   ],
+   "rep": 0,
+   "src": "Bibliothèque nationale de France, « Tolkien, voyage en Terre du Milieu » (2019-2020)",
+   "expl": "Le film se concentre sur sa jeunesse, ses amis du TCBS et la guerre.",
+   "id": "t024-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle institution parisienne consacre une grande exposition à Tolkien en 2019-2020 ?",
+   "choix": [
+    "La BnF",
+    "Le Louvre",
+    "Le Centre Pompidou",
+    "Le musée d’Orsay"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Manuscrits, cartes et aquarelles y sont montrés pour la première fois en France.",
+   "id": "t024-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui écrit la biographie autorisée de Tolkien, publiée en 1977 ?",
+   "choix": [
+    "Humphrey Carpenter",
+    "Christopher Tolkien",
+    "Tom Shippey",
+    "John Garth"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Tom Shippey et John Garth ont écrit plus tard des études majeures sur son œuvre et sa guerre.",
+   "id": "t024-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel éditeur publie Le Hobbit en 1937 ?",
+   "choix": [
+    "Allen & Unwin",
+    "Penguin",
+    "Faber and Faber",
+    "Macmillan"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Stanley Unwin publiera aussi Le Seigneur des Anneaux.",
+   "id": "t024-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui, à 10 ans, rédige le rapport de lecture qui convainc l’éditeur de publier Le Hobbit ?",
+   "choix": [
+    "Rayner Unwin",
+    "Christopher Tolkien",
+    "Michael Tolkien",
+    "Stanley Unwin"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Le fils de l’éditeur est payé un shilling pour son avis enthousiaste.",
+   "id": "t024-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Le Seigneur des Anneaux paraît-il en trois volumes ?",
+   "choix": [
+    "Pour réduire les coûts d’impression d’après-guerre",
+    "Parce que Tolkien voulait une trilogie",
+    "Pour suivre trois héros différents",
+    "Pour imiter une saga islandaise"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Tolkien le voyait comme un seul roman ; la pénurie de papier pousse l’éditeur à le diviser.",
+   "id": "t024-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel événement de 1965 lance le succès du Seigneur des Anneaux aux États-Unis ?",
+   "choix": [
+    "Une édition de poche non autorisée",
+    "Une adaptation au cinéma",
+    "Une tournée de Tolkien",
+    "Un prix littéraire"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981), lettre 131",
+   "expl": "L’éditeur Ace Books profite d’un flou juridique ; l’édition autorisée qui suit devient un phénomène étudiant.",
+   "id": "t024-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle œuvre Tolkien voulait-il publier en même temps que Le Seigneur des Anneaux ?",
+   "choix": [
+    "Le Silmarillion",
+    "Le Hobbit",
+    "Roverandom",
+    "Les Lettres du Père Noël"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981), lettre 131",
+   "expl": "Il espérait faire paraître les deux ensemble ; Le Silmarillion n’est publié qu’après sa mort.",
+   "id": "t024-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Tolkien a perdu ses deux parents avant l’âge de 13 ans.",
+   "rep": true,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Vrai : son père meurt en 1896, sa mère en 1904, quand il a 12 ans.",
+   "id": "t024-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tolkien a combattu sur le front pendant la Seconde Guerre mondiale.",
+   "rep": false,
+   "src": "John Garth, Tolkien and the Great War (2003)",
+   "expl": "Faux : il combat pendant la Première ; pendant la Seconde, il enseigne à Oxford, et son fils Christopher sert dans la RAF.",
+   "id": "t024-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Deux des amis du TCBS de Tolkien meurent pendant la Grande Guerre.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, avant-propos de la 2e éd. (1966)",
+   "expl": "Vrai : Robert Gilson tombe le premier jour de la Somme, Geoffrey Bache Smith en décembre 1916.",
+   "id": "t024-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tolkien affirmait que Le Seigneur des Anneaux était une allégorie de la Seconde Guerre mondiale.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981)",
+   "expl": "Faux : il le nie expressément dans son avant-propos de 1966.",
+   "id": "t024-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "C. S. Lewis a lu et encouragé Le Seigneur des Anneaux avant sa publication.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981)",
+   "expl": "Vrai : Tolkien lui lisait les chapitres aux réunions des Inklings ; il a dit lui devoir d’avoir terminé le livre.",
+   "id": "t024-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Tolkien appréciait beaucoup Le Monde de Narnia de son ami Lewis.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981)",
+   "expl": "Faux : il en trouvait le mélange de mythologies trop désordonné, même s’il restait l’ami de Lewis.",
+   "id": "t024-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Tolkien considérait Le Seigneur des Anneaux comme une œuvre fondamentalement religieuse et catholique.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981)",
+   "expl": "Vrai : il l’écrit à un ami jésuite en 1953, en précisant que cette dimension est absorbée dans l’histoire.",
+   "id": "t024-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tolkien a inventé ses langues elfiques après avoir écrit Le Seigneur des Anneaux.",
+   "rep": false,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Faux : il les invente dès sa jeunesse ; il disait que les histoires étaient nées pour donner un monde à ses langues.",
+   "id": "t024-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Tolkien a enseigné à Oxford pendant plus de trente ans.",
+   "rep": true,
+   "src": "Nobel Prize archives, nominations de 1961 (ouvertes en 2012)",
+   "expl": "Vrai : de 1925 à sa retraite en 1959, d’abord à Pembroke puis à Merton.",
+   "id": "t024-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Tolkien a été proposé pour le prix Nobel de littérature en 1961.",
+   "rep": true,
+   "src": "Nobel Prize archives, nominations de 1961 (ouvertes en 2012)",
+   "expl": "Vrai : C. S. Lewis l’a nommé ; le jury a écarté sa candidature.",
+   "id": "t024-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tolkien a reçu le prix Nobel de littérature.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1947)",
+   "expl": "Faux : il a été proposé en 1961, mais le prix est allé à Ivo Andrić.",
+   "id": "t024-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le mot « eucatastrophe » a été inventé par Tolkien.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981)",
+   "expl": "Vrai : il le crée dans son essai Du conte de fées pour désigner la joie d’un retournement heureux.",
+   "id": "t024-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le quenya s’inspire surtout du gallois.",
+   "rep": false,
+   "src": "Wayne G. Hammond et Christina Scull, J. R. R. Tolkien: Artist and Illustrator (1995)",
+   "expl": "Faux : il s’inspire surtout du finnois ; c’est le sindarin qui emprunte au gallois.",
+   "id": "t024-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tolkien a illustré lui-même ses livres, notamment Le Hobbit.",
+   "rep": true,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Vrai : il a dessiné cartes, aquarelles et la jaquette de la première édition.",
+   "id": "t024-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Tolkien est mort à Oxford.",
+   "rep": false,
+   "src": "Tom Shippey, The Road to Middle-earth (1982)",
+   "expl": "Faux : il meurt à Bournemouth en septembre 1973 ; il est enterré à Oxford, au cimetière de Wolvercote.",
+   "id": "t024-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le nom « Terre du Milieu » vient du vieil anglais middangeard.",
+   "rep": true,
+   "src": "Peter Jackson, The Fellowship of the Ring (New Line, 2001)",
+   "expl": "Vrai : ce mot désignait le monde des hommes, entre ciel et enfers.",
+   "id": "t024-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tom Bombadil apparaît dans les films de Peter Jackson.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981), lettre 306 ; Humphrey Carpenter (1977)",
+   "expl": "Faux : il a été coupé ; on le voit en revanche dans la série Les Anneaux de Pouvoir.",
+   "id": "t024-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Sam s’inspire en partie des simples soldats que Tolkien a côtoyés pendant la Grande Guerre.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981), lettre 306 ; Humphrey Carpenter (1977)",
+   "expl": "Vrai : Tolkien voyait en lui le reflet du soldat anglais et des ordonnances qu’il avait connus.",
+   "id": "t024-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Hobbit a d’abord été écrit pour un concours littéraire.",
+   "rep": false,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Faux : Tolkien le racontait à ses enfants ; un manuscrit circule ensuite jusqu’à l’éditeur.",
+   "id": "t024-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "En quelle année Tolkien est-il né ?",
+   "rep": 1892,
+   "min": 1870,
+   "max": 1920,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Il naît le 3 janvier 1892 à Bloemfontein.",
+   "id": "t024-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "En quelle année Tolkien meurt-il ?",
+   "rep": 1973,
+   "min": 1950,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Il meurt le 2 septembre 1973, deux ans après Edith.",
+   "id": "t024-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel âge Tolkien a-t-il à la mort de sa mère ?",
+   "rep": 12,
+   "min": 5,
+   "max": 20,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Sa mère, Mabel, meurt du diabète en 1904.",
+   "id": "t024-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "En quelle année paraît Le Hobbit ?",
+   "rep": 1937,
+   "min": 1920,
+   "max": 1960,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, « Beowulf: The Monsters and the Critics » (1936)",
+   "expl": "Le livre paraît le 21 septembre 1937 chez Allen & Unwin.",
+   "id": "t024-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Tolkien prononce-t-il la conférence Les Monstres et les Critiques ?",
+   "rep": 1936,
+   "min": 1920,
+   "max": 1960,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Il la donne le 25 novembre 1936 devant la British Academy.",
+   "id": "t024-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Pendant combien d’années Tolkien occupe-t-il une chaire de professeur à Oxford ?",
+   "rep": 34,
+   "min": 10,
+   "max": 50,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "De 1925 à 1959 : d’abord en anglo-saxon, puis en langue et littérature anglaises.",
+   "id": "t024-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien d’enfants Tolkien a-t-il eus ?",
+   "rep": 4,
+   "min": 1,
+   "max": 8,
+   "pas": 1,
+   "unite": "enfants",
+   "tolerance": 0,
+   "src": "The Tolkien Society, histoire de l’association",
+   "expl": "John, Michael, Christopher et Priscilla.",
+   "id": "t024-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année est fondée la Tolkien Society ?",
+   "rep": 1969,
+   "min": 1950,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "The Tolkien Society, histoire de l’association",
+   "expl": "Tolkien en accepte la présidence d’honneur ; l’association existe toujours.",
+   "id": "t024-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Tolkien naît en 1892 à ____, en Afrique du Sud.",
+   "choix": [
+    "Bloemfontein",
+    "Johannesburg",
+    "Durban",
+    "Pretoria"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, The Inklings (1978)",
+   "expl": "Il garde peu de souvenirs de l’Afrique, sinon une morsure de tarentule.",
+   "id": "t024-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le cercle littéraire de Tolkien et C. S. Lewis à Oxford s’appelait les ____.",
+   "choix": [
+    "Inklings",
+    "Kolbítar",
+    "Martyrs",
+    "Lettrés"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1947)",
+   "expl": "Les membres y lisaient à voix haute leurs textes en cours d’écriture.",
+   "id": "t024-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Tolkien appelle ____ le retournement heureux et soudain d’une histoire.",
+   "choix": [
+    "eucatastrophe",
+    "catharsis",
+    "épiphanie",
+    "péripétie"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1947)",
+   "expl": "C’est pour lui la plus haute fonction du conte : une joie qui fait entrevoir l’espérance.",
+   "id": "t024-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Pour Tolkien, l’écrivain qui invente un monde cohérent est un ____-créateur.",
+   "choix": [
+    "sous",
+    "co",
+    "re",
+    "néo"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1947)",
+   "expl": "Créé à l’image d’un Créateur, l’homme crée à son tour, à une échelle plus modeste.",
+   "id": "t024-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monde inventé par un auteur est, pour Tolkien, un Monde ____.",
+   "choix": [
+    "secondaire",
+    "parallèle",
+    "second",
+    "intérieur"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Le Monde secondaire doit avoir sa propre cohérence pour que le lecteur y croie.",
+   "id": "t024-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Enfant, Tolkien vit près du moulin de ____, l’un des modèles de la Comté.",
+   "choix": [
+    "Sarehole",
+    "Edgbaston",
+    "Moseley",
+    "Hall Green"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E (1955)",
+   "expl": "Ce hameau proche de Birmingham incarne la campagne anglaise que l’industrie engloutit.",
+   "id": "t024-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’alphabet elfique créé par Fëanor dans la fiction s’appelle les ____.",
+   "choix": [
+    "Tengwar",
+    "Cirth",
+    "Sarati",
+    "Ogham"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E (1955)",
+   "expl": "Tolkien l’utilise notamment pour l’inscription de l’Anneau unique.",
+   "id": "t024-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les runes utilisées par les Nains dans l’œuvre de Tolkien s’appellent les ____.",
+   "choix": [
+    "Cirth",
+    "Tengwar",
+    "Sarati",
+    "Futhark"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Elles apparaissent sur le tombeau de Balin dans la Moria.",
+   "id": "t024-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Professeur d’anglo-saxon à Oxford, Tolkien est d’abord rattaché au collège de ____.",
+   "choix": [
+    "Pembroke",
+    "Magdalen",
+    "Exeter",
+    "Balliol"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Il passe à Merton en 1945 ; Exeter était son collège d’étudiant, Magdalen celui de Lewis.",
+   "id": "t024-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "À Oxford, Tolkien fonde un club de lecture de sagas islandaises, les ____ (« mangeurs de charbon »).",
+   "choix": [
+    "Kolbítar",
+    "Inklings",
+    "Skaldar",
+    "Völsungar"
+   ],
+   "rep": 0,
+   "src": "John Garth, Tolkien and the Great War (2003)",
+   "expl": "Le nom désigne ceux qui restent si près du feu qu’ils semblent mordre les braises.",
+   "id": "t024-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Pendant la Grande Guerre, Tolkien est officier des ____ dans les Lancashire Fusiliers.",
+   "choix": [
+    "transmissions",
+    "renseignements",
+    "ravitaillements",
+    "blindés"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Il apprend le morse et les signaux lumineux, ce qui le place près des lignes.",
+   "id": "t024-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Tolkien meurt en 1973 à ____, où il s’était installé avec Edith.",
+   "choix": [
+    "Bournemouth",
+    "Oxford",
+    "Birmingham",
+    "Leeds"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, The Inklings (1978)",
+   "expl": "Après la mort d’Edith en 1971, il revient vivre à Oxford ; il meurt lors d’un séjour à Bournemouth.",
+   "id": "t024-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces écrivains n’était pas membre des Inklings ?",
+   "choix": [
+    "George Orwell",
+    "C. S. Lewis",
+    "Charles Williams",
+    "Owen Barfield"
+   ],
+   "rep": 0,
+   "src": "Catalogue HarperCollins",
+   "expl": "Orwell n’a jamais fréquenté ce cercle d’Oxford.",
+   "id": "t024-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces œuvres n’est pas de Tolkien ?",
+   "choix": [
+    "Le Monde de Narnia",
+    "Roverandom",
+    "Smith de Grand Wootton",
+    "Le Fermier Gilles de Ham"
+   ],
+   "rep": 0,
+   "src": "Ardalambion ; Vincent Ferré (dir.), Dictionnaire Tolkien (2012)",
+   "expl": "Le Monde de Narnia est de C. S. Lewis, l’ami et collègue de Tolkien.",
+   "id": "t024-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces langues n’a pas été inventée par Tolkien ?",
+   "choix": [
+    "L’espéranto",
+    "Le quenya",
+    "Le sindarin",
+    "Le khuzdul"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "L’espéranto a été créé par Ludwik Zamenhof en 1887 ; Tolkien s’y est d’ailleurs intéressé jeune.",
+   "id": "t024-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces villes n’a pas marqué la vie de Tolkien ?",
+   "choix": [
+    "Cambridge",
+    "Birmingham",
+    "Leeds",
+    "Oxford"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Tolkien a étudié et enseigné à Oxford, enseigné à Leeds et grandi à Birmingham.",
+   "id": "t024-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms n’est pas celui d’un enfant de Tolkien ?",
+   "choix": [
+    "Hilary",
+    "John",
+    "Michael",
+    "Priscilla"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Sir Gawain and the Green Knight, Pearl and Sir Orfeo (1975)",
+   "expl": "Hilary est le frère cadet de Tolkien ; ses enfants s’appellent John, Michael, Christopher et Priscilla.",
+   "id": "t024-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces œuvres médiévales Tolkien n’a-t-il ni traduite ni éditée ?",
+   "choix": [
+    "La Chanson de Roland",
+    "Beowulf",
+    "Sire Gauvain et le Chevalier vert",
+    "Sire Orfeo"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1947)",
+   "expl": "Sa traduction de Beowulf paraît en 2014, celle de Gauvain, de Pearl et d’Orfeo en 1975.",
+   "id": "t024-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mots ne désigne pas une fonction du conte selon Tolkien ?",
+   "choix": [
+    "La catharsis",
+    "Le Rétablissement",
+    "L’Évasion",
+    "La Consolation"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "La catharsis vient d’Aristote ; Tolkien parle de Fantaisie, de Rétablissement, d’Évasion et de Consolation.",
+   "id": "t024-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Dans lequel de ces collèges d’Oxford Tolkien n’a-t-il été ni étudiant ni professeur ?",
+   "choix": [
+    "Magdalen",
+    "Exeter",
+    "Pembroke",
+    "Merton"
+   ],
+   "rep": 0,
+   "src": "Vincent Ferré (dir.), Dictionnaire Tolkien (2012)",
+   "expl": "Magdalen était le collège de C. S. Lewis, où les Inklings se réunissaient aussi.",
+   "id": "t024-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces traducteurs n’a pas traduit Tolkien en français ?",
+   "choix": [
+    "Boris Vian",
+    "Francis Ledoux",
+    "Daniel Lauzon",
+    "Pierre Alien"
+   ],
+   "rep": 0,
+   "src": "John Garth, Tolkien and the Great War (2003)",
+   "expl": "Boris Vian a traduit des romans noirs américains, pas Tolkien.",
+   "id": "t024-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces hommes n’était pas membre du TCBS ?",
+   "choix": [
+    "C. S. Lewis",
+    "Robert Gilson",
+    "Geoffrey Bache Smith",
+    "Christopher Wiseman"
+   ],
+   "rep": 0,
+   "src": "Catalogue HarperCollins",
+   "expl": "Tolkien rencontre Lewis bien plus tard, à Oxford, en 1926.",
+   "id": "t024-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces livres n’est pas paru du vivant de Tolkien ?",
+   "choix": [
+    "Le Silmarillion",
+    "Le Hobbit",
+    "Le Seigneur des Anneaux",
+    "Smith de Grand Wootton"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, The Inklings (1978)",
+   "expl": "Le Silmarillion paraît en 1977, quatre ans après sa mort.",
+   "id": "t024-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels écrivains faisaient partie des Inklings ? (plusieurs bonnes réponses)",
+   "choix": [
+    "C. S. Lewis",
+    "Charles Williams",
+    "Owen Barfield",
+    "George Orwell",
+    "Virginia Woolf"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981)",
+   "expl": "Le frère de Lewis, Warren, et Christopher Tolkien en faisaient aussi partie.",
+   "id": "t024-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles langues réelles ont nourri les langues elfiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Finnois",
+    "Gallois",
+    "Japonais",
+    "Basque",
+    "Hongrois"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1947)",
+   "expl": "Le latin et le grec ont aussi compté, surtout pour le quenya.",
+   "id": "t024-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles notions Tolkien développe-t-il dans Du conte de fées ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Eucatastrophe",
+    "Sous-création",
+    "Évasion",
+    "Catharsis",
+    "Allégorie"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Catalogue HarperCollins",
+   "expl": "Tolkien rejette l’allégorie ; la catharsis est une notion d’Aristote.",
+   "id": "t024-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres de Tolkien sont parues de son vivant ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Hobbit",
+    "Le Seigneur des Anneaux",
+    "Feuille, de Niggle",
+    "Le Silmarillion",
+    "Les Enfants de Húrin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Le Silmarillion (1977) et Les Enfants de Húrin (2007) sont posthumes.",
+   "id": "t024-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles villes ont compté dans la vie de Tolkien ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Birmingham",
+    "Leeds",
+    "Oxford",
+    "Cambridge",
+    "Édimbourg"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tom Shippey, J. R. R. Tolkien: Author of the Century (2000)",
+   "expl": "Il n’a jamais enseigné à Cambridge ni à Édimbourg.",
+   "id": "t024-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels thèmes traversent Le Seigneur des Anneaux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le pouvoir qui corrompt",
+    "La pitié",
+    "La mort et l’immortalité",
+    "La vengeance triomphante",
+    "Le progrès technique glorifié"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Catalogue HarperCollins",
+   "expl": "Tolkien disait que son vrai sujet était la mort et le désir d’immortalité.",
+   "id": "t024-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels textes courts Tolkien a-t-il publiés de son vivant ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Fermier Gilles de Ham",
+    "Smith de Grand Wootton",
+    "Feuille, de Niggle",
+    "Roverandom",
+    "Les Lettres du Père Noël"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "John Garth, Tolkien and the Great War (2003)",
+   "expl": "Roverandom (1998) et les Lettres du Père Noël (1976) sont posthumes.",
+   "id": "t024-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels épisodes de la vie de Tolkien ont nourri la Terre du Milieu ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’enfance à Sarehole",
+    "Le voyage en Suisse",
+    "Les tranchées de la Somme",
+    "Un séjour en Inde",
+    "Une vie d’artiste à Paris"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Vincent Ferré (dir.), Dictionnaire Tolkien (2012)",
+   "expl": "Les Marais des Morts doivent beaucoup aux paysages de la Somme.",
+   "id": "t024-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels traducteurs ont traduit Tolkien en français ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Francis Ledoux",
+    "Daniel Lauzon",
+    "Pierre Alien",
+    "Boris Vian",
+    "Marguerite Yourcenar"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Ledoux pour Le Seigneur des Anneaux et le premier Hobbit, Alien pour Le Silmarillion, Lauzon pour les nouvelles traductions.",
+   "id": "t024-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels sont les enfants de Tolkien ? (plusieurs bonnes réponses)",
+   "choix": [
+    "John",
+    "Michael",
+    "Christopher",
+    "Priscilla",
+    "Hilary",
+    "Arthur"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Hilary était son frère cadet, Arthur son père, mort en Afrique du Sud.",
+   "id": "t024-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la vie de Tolkien dans l’ordre.",
+   "items": [
+    "Naissance à Bloemfontein",
+    "Mort de sa mère",
+    "Bataille de la Somme",
+    "Chaire d’anglo-saxon à Oxford"
+   ],
+   "src": "Catalogue HarperCollins",
+   "expl": "1892, 1904, 1916 et 1925 : une enfance d’orphelin, la guerre, puis la carrière savante.",
+   "id": "t024-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces œuvres par date de parution.",
+   "items": [
+    "Le Hobbit",
+    "La Communauté de l’Anneau",
+    "Les Aventures de Tom Bombadil",
+    "Smith de Grand Wootton"
+   ],
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "1937, 1954, 1962 et 1967 : Smith de Grand Wootton est sa dernière œuvre de fiction publiée.",
+   "id": "t024-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces postes de Tolkien dans l’ordre.",
+   "items": [
+    "Lexicographe à l’Oxford English Dictionary",
+    "Professeur à Leeds",
+    "Chaire d’anglo-saxon à Oxford",
+    "Chaire de langue et littérature anglaises à Merton"
+   ],
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "1919, 1920-1925, 1925-1945 et 1945-1959 : une carrière entière consacrée aux langues anciennes.",
+   "id": "t024-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces textes par date de première présentation.",
+   "items": [
+    "Les Monstres et les Critiques",
+    "Du conte de fées",
+    "Feuille, de Niggle"
+   ],
+   "src": "Catalogue HarperCollins",
+   "expl": "1936, 1939 et 1945 : la critique, la théorie, puis une nouvelle presque autobiographique.",
+   "id": "t024-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces publications posthumes par date de parution.",
+   "items": [
+    "Les Lettres du Père Noël",
+    "Le Silmarillion",
+    "Roverandom",
+    "L’Histoire de Kullervo"
+   ],
+   "src": "John Garth, Tolkien and the Great War (2003)",
+   "expl": "1976, 1977, 1998 et 2015 : les inédits paraissent encore des décennies après sa mort.",
+   "id": "t024-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de 1916 dans l’ordre.",
+   "items": [
+    "Mariage avec Edith",
+    "Départ pour la France",
+    "Bataille de la Somme",
+    "Fièvre des tranchées"
+   ],
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Mars, juin, juillet à octobre, puis fin octobre : Tolkien rentre en Angleterre en novembre.",
+   "id": "t024-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe les enfants de Tolkien par date de naissance.",
+   "items": [
+    "John",
+    "Michael",
+    "Christopher",
+    "Priscilla"
+   ],
+   "src": "Carpenter (1977) ; Shippey (1982) ; Garth (2003)",
+   "expl": "1917, 1920, 1924 et 1929 : John deviendra prêtre catholique.",
+   "id": "t024-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces livres sur Tolkien par date de parution.",
+   "items": [
+    "J. R. R. Tolkien: A Biography",
+    "The Road to Middle-earth",
+    "Tolkien and the Great War"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Carpenter en 1977, Shippey en 1982, Garth en 2003.",
+   "id": "t024-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe les trois volumes du Seigneur des Anneaux dans l’ordre de parution.",
+   "items": [
+    "La Communauté de l’Anneau",
+    "Les Deux Tours",
+    "Le Retour du Roi"
+   ],
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Ils paraissent en 1954 et 1955 ; Tolkien n’aimait pas beaucoup le titre du dernier, qui dévoile la fin.",
+   "id": "t024-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces rencontres de Tolkien par ordre chronologique.",
+   "items": [
+    "Edith Bratt",
+    "Les amis du TCBS",
+    "C. S. Lewis"
+   ],
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981)",
+   "expl": "1908, vers 1911 au lycée, puis 1926 à Oxford.",
+   "id": "t024-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque langue à sa source d’inspiration.",
+   "paires": [
+    [
+     "Quenya",
+     "Finnois"
+    ],
+    [
+     "Sindarin",
+     "Gallois"
+    ],
+    [
+     "Langue du Rohan",
+     "Vieil anglais"
+    ],
+    [
+     "Khuzdul",
+     "Langues sémitiques"
+    ]
+   ],
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Tolkien disait que la langue des Nains avait une saveur sémitique.",
+   "id": "t024-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque personne à son lien avec Tolkien.",
+   "paires": [
+    [
+     "C. S. Lewis",
+     "Ami des Inklings"
+    ],
+    [
+     "Geoffrey Bache Smith",
+     "Ami du TCBS"
+    ],
+    [
+     "Francis Morgan",
+     "Tuteur"
+    ],
+    [
+     "Edith Bratt",
+     "Épouse"
+    ]
+   ],
+   "src": "Catalogue HarperCollins",
+   "expl": "Ces quatre personnes ont profondément marqué sa vie et son œuvre.",
+   "id": "t024-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque œuvre à son genre.",
+   "paires": [
+    [
+     "Feuille, de Niggle",
+     "Nouvelle"
+    ],
+    [
+     "Du conte de fées",
+     "Essai"
+    ],
+    [
+     "Mythopoeia",
+     "Poème"
+    ],
+    [
+     "Le Hobbit",
+     "Roman pour enfants"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1947) ; avant-propos de 1966",
+   "expl": "Tolkien a pratiqué presque tous les genres, de l’article savant à la comptine.",
+   "id": "t024-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque notion à sa définition.",
+   "paires": [
+    [
+     "Eucatastrophe",
+     "Retournement heureux soudain"
+    ],
+    [
+     "Sous-création",
+     "Invention d’un monde secondaire"
+    ],
+    [
+     "Applicabilité",
+     "Liberté d’interprétation du lecteur"
+    ],
+    [
+     "Évasion",
+     "Échapper à la prison du réel"
+    ]
+   ],
+   "src": "Tom Shippey, The Road to Middle-earth (1982)",
+   "expl": "Pour Tolkien, l’évasion n’est pas une fuite lâche, mais celle du prisonnier.",
+   "id": "t024-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque source à l’élément qu’elle inspire.",
+   "paires": [
+    [
+     "Kalevala",
+     "Túrin"
+    ],
+    [
+     "Völuspá",
+     "Noms des Nains"
+    ],
+    [
+     "Beowulf",
+     "Coupe volée au dragon"
+    ],
+    [
+     "Macbeth",
+     "Marche des Ents"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, Le Seigneur des Anneaux, trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Tolkien transforme ses lectures savantes en éléments d’histoire.",
+   "id": "t024-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque nom anglais à sa traduction par Francis Ledoux.",
+   "paires": [
+    [
+     "Shire",
+     "Comté"
+    ],
+    [
+     "Rivendell",
+     "Fondcombe"
+    ],
+    [
+     "Strider",
+     "Grands-Pas"
+    ],
+    [
+     "Baggins",
+     "Sacquet"
+    ]
+   ],
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Tolkien avait rédigé un guide des noms pour aider ses traducteurs.",
+   "id": "t024-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à sa ville.",
+   "paires": [
+    [
+     "King Edward’s School",
+     "Birmingham"
+    ],
+    [
+     "Exeter College",
+     "Oxford"
+    ],
+    [
+     "Université de 1920 à 1925",
+     "Leeds"
+    ],
+    [
+     "Lieu de sa mort",
+     "Bournemouth"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Tolkien a passé l’essentiel de sa vie entre Birmingham et Oxford.",
+   "id": "t024-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque attitude à un personnage.",
+   "paires": [
+    [
+     "Pitié",
+     "Bilbo épargnant Gollum"
+    ],
+    [
+     "Orgueil",
+     "Boromir"
+    ],
+    [
+     "Fidélité",
+     "Sam"
+    ],
+    [
+     "Avidité",
+     "Gollum"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E (1955)",
+   "expl": "Les personnages incarnent des choix moraux plutôt que des allégories.",
+   "id": "t024-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque écriture à son inventeur dans la fiction.",
+   "paires": [
+    [
+     "Tengwar",
+     "Fëanor"
+    ],
+    [
+     "Cirth",
+     "Daeron"
+    ],
+    [
+     "Sarati",
+     "Rúmil"
+    ]
+   ],
+   "src": "Shippey (1982) ; Garth (2003) ; Carpenter (1977)",
+   "expl": "Daeron est le ménestrel de Thingol ; Rúmil, un sage de Tirion.",
+   "id": "t024-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque livre à son auteur.",
+   "paires": [
+    [
+     "The Road to Middle-earth",
+     "Tom Shippey"
+    ],
+    [
+     "Tolkien and the Great War",
+     "John Garth"
+    ],
+    [
+     "J. R. R. Tolkien: A Biography",
+     "Humphrey Carpenter"
+    ]
+   ],
+   "src": "Humphrey Carpenter, The Inklings (1978)",
+   "expl": "Tom Shippey a occupé à Leeds la chaire qu’avait tenue Tolkien.",
+   "id": "t024-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un écrivain d’Oxford\n2. J’ai écrit Narnia\n3. J’étais l’ami de Tolkien",
+   "choix": [
+    "C. S. Lewis",
+    "Charles Williams",
+    "Owen Barfield",
+    "George MacDonald"
+   ],
+   "rep": 0,
+   "src": "Catalogue HarperCollins",
+   "expl": "Lewis et Tolkien se sont parfois éloignés, mais Tolkien a été bouleversé par sa mort en 1963.",
+   "id": "t024-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis le fils de Tolkien\n2. J’ai édité Le Silmarillion\n3. J’ai dessiné les cartes du Seigneur des Anneaux",
+   "choix": [
+    "Christopher Tolkien",
+    "Michael Tolkien",
+    "John Tolkien",
+    "Rayner Unwin"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Christopher Tolkien a consacré sa vie à l’œuvre de son père ; il meurt en 2020.",
+   "id": "t024-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. J’ai épousé Tolkien\n2. J’ai dansé dans un bois de ciguë\n3. Mon tombeau porte un nom elfique",
+   "choix": [
+    "Edith Bratt",
+    "Priscilla Tolkien",
+    "Mabel Suffield",
+    "Joy Davidman"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, J. R. R. Tolkien: A Biography (1977)",
+   "expl": "Cette danse, en 1917, inspire à Tolkien la rencontre de Beren et de Lúthien.",
+   "id": "t024-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis prêtre\n2. J’ai élevé Tolkien et son frère\n3. J’appartenais à l’Oratoire de Birmingham",
+   "choix": [
+    "Francis Morgan",
+    "John Henry Newman",
+    "Robert Murray",
+    "Owen Barfield"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1947)",
+   "expl": "Il soutient financièrement les deux garçons et les envoie dans de bonnes écoles.",
+   "id": "t024-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un essai\n2. On m’a prononcé en 1939\n3. J’invente le mot eucatastrophe",
+   "choix": [
+    "Du conte de fées",
+    "Les Monstres et les Critiques",
+    "Mythopoeia",
+    "Feuille, de Niggle"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, « Beowulf: The Monsters and the Critics » (1936)",
+   "expl": "Il paraît en 1947 dans un hommage à Charles Williams, puis dans Tree and Leaf (1964).",
+   "id": "t024-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un poème en vieil anglais\n2. Mon héros affronte Grendel\n3. Tolkien m’a défendu en 1936",
+   "choix": [
+    "Beowulf",
+    "Le Kalevala",
+    "La Völuspá",
+    "Sire Gauvain"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981)",
+   "expl": "Beowulf combat aussi la mère de Grendel, puis un dragon qui garde un trésor.",
+   "id": "t024-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une langue\n2. Je ressemble au finnois\n3. Les Hauts-Elfes me parlent",
+   "choix": [
+    "Le quenya",
+    "Le sindarin",
+    "Le khuzdul",
+    "Le parler noir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Tree and Leaf (1964)",
+   "expl": "Galadriel chante en quenya son adieu à la Communauté en quittant la Lórien.",
+   "id": "t024-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis une nouvelle\n2. Mon héros est un peintre\n3. On me lit souvent comme un autoportrait",
+   "choix": [
+    "Feuille, de Niggle",
+    "Smith de Grand Wootton",
+    "Roverandom",
+    "Monsieur Merveille"
+   ],
+   "rep": 0,
+   "src": "Humphrey Carpenter, The Inklings (1978)",
+   "expl": "Niggle peint une feuille, puis un arbre, puis tout un paysage qu’il ne finira jamais.",
+   "id": "t024-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un pub\n2. Les Inklings m’appelaient « l’Oiseau et le Bébé »\n3. Je suis à Oxford",
+   "choix": [
+    "The Eagle and Child",
+    "The Turf Tavern",
+    "The Bear Inn",
+    "The King’s Arms"
+   ],
+   "rep": 0,
+   "src": "Vincent Ferré (dir.), Dictionnaire Tolkien (2012)",
+   "expl": "Une plaque y rappelle les réunions des Inklings.",
+   "id": "t024-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis traducteur\n2. J’ai retraduit Tolkien en français à partir de 2012\n3. J’ai rebaptisé Grands-Pas",
+   "choix": [
+    "Daniel Lauzon",
+    "Francis Ledoux",
+    "Pierre Alien",
+    "Vincent Ferré"
+   ],
+   "rep": 0,
+   "src": "John Garth, Tolkien and the Great War (2003)",
+   "expl": "Sa traduction suit au plus près le texte et le guide des noms de Tolkien.",
+   "id": "t024-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une bataille\n2. J’ai eu lieu en 1916\n3. Tolkien y a perdu des amis",
+   "choix": [
+    "La Somme",
+    "Verdun",
+    "Ypres",
+    "Gallipoli"
+   ],
+   "rep": 0,
+   "src": "John Garth, Tolkien and the Great War (2003)",
+   "expl": "Plus d’un million de soldats y sont tués, blessés ou disparus.",
+   "id": "t024-140",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
