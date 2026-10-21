@@ -342,3 +342,4 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - content/066/a.lm:3 : mot de la bonne réponse présent dans l’énoncé (« sorcieres ») et absent des autres propositions
 - content/093/a.lm:23 : mot de la bonne réponse présent dans l’énoncé (« leurs ») et absent des autres propositions
 - content/097/a.lm:10 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (pres) — Quel aveu revient dans presque tous les films Star Wars, dans la bouche de héros inquiets 
+- content/099/a.lm:49 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (magi) — Dans le Sorceleur, quelle assemblée sans hommes, fondée en 1267 au château de Montecalvo s
