@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**58 / 99 thèmes terminés — 7747 questions au total.**
+**59 / 99 thèmes terminés — 7868 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -64,7 +64,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 56 | Le Moyen Âge dans la pop culture | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 4 | terminé |
 | 57 | Châteaux forts et sièges célèbres | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 58 | Chevalerie, ordres et héraldique | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 2 | terminé |
-| 59 | Armes, armures et combat médiéval | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 59 | Armes, armures et combat médiéval | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 2 | terminé |
 | 60 | Vie quotidienne et métiers médiévaux | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 61 | Grandes figures du Moyen Âge | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 62 | Médecine, alchimie et croyances médiévales | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -337,3 +337,5 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - content/017/a.lm:45 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (lanc) — Dans D&D 5e, que risque un lanceur qui utilise Souhait pour autre chose que reproduire un 
 - content/017/a.lm:105 : ÉVIDENT ? vrai/faux peut-être tautologique (cont) — Dans D&D 5e, Contresort réussit automatiquement contre un sort de niveau 3 ou moins.
 - content/055/a.lm:23 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (comm) — Comment s’appelle une ville dont les habitants ont obtenu de leur seigneur le droit de s’a
+- content/059/a.lm:33 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (casq) — Quel type de casque portent les Normands de la tapisserie de Bayeux ?
+- content/059/a.lm:33 : mot de la bonne réponse présent dans l’énoncé (« casque ») et absent des autres propositions

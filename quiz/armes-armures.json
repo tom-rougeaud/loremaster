@@ -1,0 +1,1997 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "armes-armures",
+  "nom": "Armes, armures et combat médiéval",
+  "royaume": "Le Moyen Âge historique",
+  "icone": "epee",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on la lame longue maniable aussi bien d’une seule main qu’à deux ?",
+   "choix": [
+    "L’épée bâtarde",
+    "Le glaive",
+    "Le fauchon",
+    "La miséricorde"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "On l’appelle aussi épée « à une main et demie », très répandue aux 14e et 15e siècles.",
+   "id": "t059-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle courte dague servait à achever un adversaire à terre, entre les plaques de son armure ?",
+   "choix": [
+    "La miséricorde",
+    "Le fauchon",
+    "La rondelle de bouclier",
+    "Le stylet romain"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Son nom évoque la grâce que demandait le blessé, ou le coup qui abrégeait ses souffrances.",
+   "id": "t059-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle épée courte, à lame large et légèrement courbe, ressemble à un gros couteau ?",
+   "choix": [
+    "Le fauchon",
+    "L’estoc",
+    "La rapière",
+    "La claymore"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Elle était appréciée des fantassins pour ses coups tranchants.",
+   "id": "t059-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle arme d’hast associe une hache, une pointe et un crochet ?",
+   "choix": [
+    "La hallebarde",
+    "La pique",
+    "La lance",
+    "Le fléau"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Les fantassins suisses en font une arme redoutable contre la cavalerie.",
+   "id": "t059-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle très longue lance d’infanterie, de quatre à six mètres, arrête les charges de cavalerie ?",
+   "choix": [
+    "La pique",
+    "La hallebarde",
+    "La javeline",
+    "La guisarme"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Les carrés de piquiers suisses dominent les champs de bataille à la fin du Moyen Âge.",
+   "id": "t059-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel gourdin de métal à tête souvent garnie d’ailettes assomme sans trancher ?",
+   "choix": [
+    "La masse d’armes",
+    "Le fléau",
+    "La dague",
+    "La lance"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Elle est efficace contre les armures, qu’elle déforme sous le choc.",
+   "id": "t059-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel bois sert traditionnellement à fabriquer l’arc long anglais ?",
+   "choix": [
+    "L’if",
+    "Le chêne",
+    "Le frêne",
+    "Le bouleau"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "On utilise à la fois l’aubier, souple, et le cœur, résistant à la compression.",
+   "id": "t059-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la longueur approximative d’un arc long anglais ?",
+   "choix": [
+    "À peu près la hauteur de l’archer",
+    "Un mètre tout au plus",
+    "Près de trois mètres",
+    "Un demi-mètre environ"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Sa puissance exigeait des années d’entraînement ; les squelettes d’archers en gardent la trace.",
+   "id": "t059-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les projectiles courts et lourds tirés par une arbalète ?",
+   "choix": [
+    "Des carreaux",
+    "Des flèches à plumes",
+    "Des javelots",
+    "Des dards"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Leur tête carrée ou pyramidale perce bien les armures.",
+   "id": "t059-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel concile interdit en 1139 l’usage de l’arbalète entre chrétiens ?",
+   "choix": [
+    "Le deuxième concile du Latran",
+    "Le concile de Clermont",
+    "Le concile de Vienne",
+    "Le concile de Constance"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "L’interdiction n’est guère respectée ; l’arme se répand dans toute l’Europe.",
+   "id": "t059-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mécanisme à manivelle permet de bander les arbalètes les plus puissantes ?",
+   "choix": [
+    "Le cranequin",
+    "Le pied-de-biche",
+    "L’étrier",
+    "Le pavois"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Plus lent, il permet de tendre des arcs d’acier très durs.",
+   "id": "t059-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on la chemise d’anneaux de fer entrelacés portée par les chevaliers ?",
+   "choix": [
+    "Le haubert",
+    "Le gambison",
+    "La brigandine",
+    "Le plastron"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "On dit aussi « cotte de mailles » ; elle peut compter des dizaines de milliers d’anneaux.",
+   "id": "t059-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel vêtement rembourré se porte sous la cotte de mailles pour amortir les chocs ?",
+   "choix": [
+    "Le gambison",
+    "Le surcot",
+    "Le haubert",
+    "Le tabard"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Certains combattants pauvres le portaient seul, comme armure de tissu épais.",
+   "id": "t059-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel grand casque fermé, en forme de seau, est porté par les chevaliers du 13e siècle ?",
+   "choix": [
+    "Le heaume",
+    "Le bassinet",
+    "La salade",
+    "Le morion"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Il couvre toute la tête, avec seulement une fente pour les yeux et des trous pour respirer.",
+   "id": "t059-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel casque à visière pointue est surnommé « à bec de passereau » ?",
+   "choix": [
+    "Le bassinet",
+    "La salade",
+    "Le heaume",
+    "Le casque à nasal"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Sa visière en pointe fait glisser les coups.",
+   "id": "t059-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel type de casque portent les Normands de la tapisserie de Bayeux ?",
+   "choix": [
+    "Un casque conique à protège-nez",
+    "Un heaume en forme de seau",
+    "Une salade à visière",
+    "Un armet fermé"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Une simple barre de métal protège le nez et le milieu du visage.",
+   "id": "t059-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien pèse environ une armure de plates complète du 15e siècle ?",
+   "choix": [
+    "De vingt à vingt-cinq kilos",
+    "De cinq à dix kilos",
+    "De cinquante à soixante kilos",
+    "Plus de cent kilos"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Le poids est réparti sur tout le corps ; un chevalier entraîné peut courir et se relever.",
+   "id": "t059-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles villes sont réputées pour leurs ateliers d’armures au 15e siècle ?",
+   "choix": [
+    "Milan et Augsbourg",
+    "Paris et Londres",
+    "Rome et Madrid",
+    "Lyon et Bruges"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Les armures milanaises et allemandes s’exportent dans toute l’Europe.",
+   "id": "t059-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle pièce d’armure protège la main ?",
+   "choix": [
+    "Le gantelet",
+    "Le soleret",
+    "La grève",
+    "La spalière"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Il est fait de lamelles articulées ou de doigts séparés.",
+   "id": "t059-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle pièce d’armure protège le pied ?",
+   "choix": [
+    "Le soleret",
+    "Le gantelet",
+    "Le cuissot",
+    "Le canon d’avant-bras"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Certains solerets avaient une pointe très longue, à la mode des chaussures « à la poulaine ».",
+   "id": "t059-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel grand bouclier rectangulaire protège les arbalétriers pendant qu’ils rechargent ?",
+   "choix": [
+    "Le pavois",
+    "La targe",
+    "La rondache",
+    "L’écu normand"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "On le plante dans le sol, et l’arbalétrier s’abrite derrière.",
+   "id": "t059-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme ont les boucliers normands de la tapisserie de Bayeux ?",
+   "choix": [
+    "Une forme d’amande allongée",
+    "Une forme ronde",
+    "Une forme carrée",
+    "Une forme d’étoile"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Leur pointe vers le bas protège aussi la jambe du cavalier.",
+   "id": "t059-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le puissant cheval de guerre du chevalier ?",
+   "choix": [
+    "Le destrier",
+    "Le palefroi",
+    "Le roncin",
+    "Le sommier"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Le palefroi sert pour le voyage, le roncin pour les écuyers, le sommier pour les bagages.",
+   "id": "t059-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle bataille de 1066 donne l’Angleterre à Guillaume le Conquérant ?",
+   "choix": [
+    "Hastings",
+    "Bouvines",
+    "Crécy",
+    "Stamford Bridge"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Le roi Harold y est tué ; la légende dit qu’une flèche l’atteint à l’œil.",
+   "id": "t059-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle broderie de près de soixante-dix mètres raconte la conquête de l’Angleterre ?",
+   "choix": [
+    "La tapisserie de Bayeux",
+    "La tenture de l’Apocalypse",
+    "La Dame à la licorne",
+    "La tapisserie de Coventry"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Il s’agit en réalité d’une broderie de laine sur toile de lin.",
+   "id": "t059-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle bataille de 1214 voit la victoire de Philippe Auguste sur l’empereur Otton IV ?",
+   "choix": [
+    "Bouvines",
+    "Crécy",
+    "Courtrai",
+    "Muret"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Le roi y est désarçonné, mais sauvé par sa garde.",
+   "id": "t059-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle bataille de 1302 voit des milices flamandes à pied battre la chevalerie française ?",
+   "choix": [
+    "Courtrai",
+    "Crécy",
+    "Poitiers",
+    "Azincourt"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "On l’appelle la bataille des Éperons d’or, à cause du butin pris aux chevaliers.",
+   "id": "t059-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle bataille de 1346 montre la puissance des archers anglais ?",
+   "choix": [
+    "Crécy",
+    "Bouvines",
+    "Castillon",
+    "Patay"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Les arbalétriers génois, à l’avant de l’armée française, sont débordés.",
+   "id": "t059-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi de France est fait prisonnier à la bataille de Poitiers, en 1356 ?",
+   "choix": [
+    "Jean le Bon",
+    "Philippe VI",
+    "Charles V",
+    "Charles VI"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Sa rançon, énorme, entraîne la création du franc.",
+   "id": "t059-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi d’Angleterre remporte la bataille d’Azincourt en 1415 ?",
+   "choix": [
+    "Henri V",
+    "Édouard III",
+    "Richard II",
+    "Henri IV"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "La boue gêne terriblement les chevaliers français, plus nombreux.",
+   "id": "t059-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle bataille de 1453, gagnée grâce à l’artillerie française, met fin à la guerre de Cent Ans ?",
+   "choix": [
+    "Castillon",
+    "Formigny",
+    "Patay",
+    "Orléans"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Le chef anglais, John Talbot, y trouve la mort.",
+   "id": "t059-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel chef écossais bat les Anglais à Bannockburn en 1314 ?",
+   "choix": [
+    "Robert Bruce",
+    "William Wallace",
+    "Macbeth",
+    "James Douglas"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Il assure ainsi l’indépendance de l’Écosse.",
+   "id": "t059-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chef hussite fait des chariots reliés entre eux une forteresse mobile ?",
+   "choix": [
+    "Jan Žižka",
+    "Jan Hus",
+    "Prokop le Grand",
+    "Sigismond"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Borgne puis aveugle, il ne perd jamais une bataille.",
+   "id": "t059-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel maître d’armes italien écrit vers 1410 un traité illustré, la Fleur des batailles ?",
+   "choix": [
+    "Fiore dei Liberi",
+    "Johannes Liechtenauer",
+    "Filippo Vadi",
+    "Achille Marozzo"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Il y enseigne le combat à l’épée, à la lance, à la dague et à mains nues.",
+   "id": "t059-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on aujourd’hui la pratique sportive qui reconstitue les techniques d’escrime anciennes ?",
+   "choix": [
+    "Les AMHE, arts martiaux historiques",
+    "Le kendo japonais",
+    "L’escrime olympique moderne",
+    "Le béhourd en armure"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "On utilise les traités anciens pour retrouver les gestes des maîtres.",
+   "id": "t059-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle arme de cavalerie le chevalier tient-il « couchée » sous le bras pour charger ?",
+   "choix": [
+    "La lance",
+    "La pique",
+    "La hallebarde",
+    "Le fléau"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Un crochet fixé à la cuirasse, l’arrêt, absorbe une partie du choc.",
+   "id": "t059-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle arme à feu portative apparaît en Europe au 15e siècle ?",
+   "choix": [
+    "L’arquebuse",
+    "Le mousquet à silex",
+    "Le fusil à aiguille",
+    "Le revolver"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "On l’allume avec une mèche qui brûle lentement.",
+   "id": "t059-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le grand canon de siège médiéval, tirant des boulets de pierre ?",
+   "choix": [
+    "La bombarde",
+    "La couleuvrine",
+    "Le trébuchet",
+    "La baliste"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Certaines, comme Mons Meg en Écosse, pèsent plusieurs tonnes.",
+   "id": "t059-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel nom porte la formation écossaise en hérisson de lances ?",
+   "choix": [
+    "Le schiltron",
+    "La tortue",
+    "La phalange",
+    "Le carré suisse"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Les lanciers serrés y résistent à la charge des chevaliers.",
+   "id": "t059-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mythe sur les armures est faux ?",
+   "choix": [
+    "Il fallait une grue pour hisser le chevalier sur son cheval",
+    "Les armures étaient faites sur mesure",
+    "Les armures pouvaient être décorées",
+    "Les armures protégeaient bien des flèches"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée (Paris), collections et fiches pédagogiques ; Royal Armouries (Leeds) ; Ph. Contamine, La Guerre au Moyen Âge (PUF) ; Fiore dei Liberi, Flos Duellatorum (vers 1410)",
+   "expl": "Cette image, popularisée par le cinéma, ne repose sur aucune source sérieuse.",
+   "id": "t059-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un chevalier en armure de plates pouvait se relever seul après une chute.",
+   "rep": true,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les reconstitutions modernes montrent qu’il peut même courir et sauter.",
+   "id": "t059-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’arc long anglais pouvait tirer plus vite qu’une arbalète.",
+   "rep": true,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Un bon archer tire environ dix flèches par minute, contre deux ou trois carreaux.",
+   "id": "t059-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La cotte de mailles est faite de plaques de métal soudées.",
+   "rep": false,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Faux : elle est faite d’anneaux entrelacés et rivetés.",
+   "id": "t059-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’armure de plates complète se généralise dès le 11e siècle.",
+   "rep": false,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Faux : elle se généralise au 15e siècle ; au 11e, on porte surtout la cotte de mailles.",
+   "id": "t059-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La tapisserie de Bayeux est en réalité une broderie.",
+   "rep": true,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Elle a été brodée à la laine, sans doute en Angleterre, peu après 1066.",
+   "id": "t059-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "À Courtrai, des fantassins battent des chevaliers.",
+   "rep": true,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les milices flamandes utilisent le terrain marécageux et le goedendag, une masse à pointe.",
+   "id": "t059-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le destrier est un cheval de bât.",
+   "rep": false,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Faux : c’est le cheval de guerre ; le cheval de bât s’appelle le sommier.",
+   "id": "t059-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Henri V gagne la bataille d’Azincourt.",
+   "rep": true,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Sa victoire inspire une célèbre pièce de Shakespeare.",
+   "id": "t059-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La miséricorde est une grande épée à deux mains.",
+   "rep": false,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Faux : c’est une dague fine, pour le coup de grâce.",
+   "id": "t059-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’arbalète était interdite par l’Église entre chrétiens.",
+   "rep": true,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "L’interdiction de 1139 n’a eu presque aucun effet.",
+   "id": "t059-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le gambison est porté par-dessus l’armure, comme décoration.",
+   "rep": false,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Faux : il se porte en dessous, ou seul, pour amortir les coups.",
+   "id": "t059-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "À Castillon, l’artillerie joue un rôle décisif.",
+   "rep": true,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les canons français fauchent les Anglais qui chargent leur camp retranché.",
+   "id": "t059-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Jean le Bon gagne la bataille de Poitiers.",
+   "rep": false,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Faux : il la perd et devient prisonnier des Anglais.",
+   "id": "t059-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les ateliers de Milan exportaient leurs armures dans toute l’Europe.",
+   "rep": true,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Ils fabriquaient aussi des pièces de série, comme des armures prêtes à porter.",
+   "id": "t059-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année a lieu la bataille d’Hastings ?",
+   "rep": 1066,
+   "min": 1000,
+   "max": 1150,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Guillaume est couronné à Westminster le jour de Noël.",
+   "id": "t059-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année a lieu la bataille de Bouvines ?",
+   "rep": 1214,
+   "min": 1150,
+   "max": 1300,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "C’est un dimanche, 27 juillet, jour où l’on ne devait pas combattre.",
+   "id": "t059-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année a lieu la bataille de Crécy ?",
+   "rep": 1346,
+   "min": 1300,
+   "max": 1400,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Elle ouvre une série de victoires anglaises dans la guerre de Cent Ans.",
+   "id": "t059-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année a lieu la bataille d’Azincourt ?",
+   "rep": 1415,
+   "min": 1350,
+   "max": 1453,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Elle a lieu le 25 octobre, jour de la Saint-Crépin.",
+   "id": "t059-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de kilos pèse environ une armure de plates complète ?",
+   "rep": 25,
+   "min": 5,
+   "max": 80,
+   "pas": 1,
+   "unite": "kilos",
+   "tolerance": 5,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Un soldat moderne porte souvent davantage de matériel.",
+   "id": "t059-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de flèches par minute un bon archer anglais pouvait-il tirer ?",
+   "rep": 10,
+   "min": 2,
+   "max": 30,
+   "pas": 1,
+   "unite": "flèches",
+   "tolerance": 2,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Il gardait souvent ses flèches plantées dans le sol devant lui.",
+   "id": "t059-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de mètres mesure environ la tapisserie de Bayeux ?",
+   "rep": 70,
+   "min": 20,
+   "max": 150,
+   "pas": 1,
+   "unite": "mètres",
+   "tolerance": 2,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Sa fin est perdue ; elle mesure environ cinquante centimètres de haut.",
+   "id": "t059-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année le deuxième concile du Latran interdit-il l’arbalète entre chrétiens ?",
+   "rep": 1139,
+   "min": 1050,
+   "max": 1250,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Le même concile condamne aussi les tournois, jugés trop meurtriers.",
+   "id": "t059-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La chemise d’anneaux de fer s’appelle le ____.",
+   "choix": [
+    "haubert",
+    "gambison",
+    "heaume",
+    "soleret"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "On dit aussi la cotte de mailles ; elle descend souvent jusqu’aux genoux.",
+   "id": "t059-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les projectiles de l’arbalète s’appellent des ____.",
+   "choix": [
+    "carreaux",
+    "traits de feu",
+    "javelots",
+    "boulets"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Le mot « carreau » vient de leur tête de section carrée.",
+   "id": "t059-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le cheval de guerre du chevalier s’appelle le ____.",
+   "choix": [
+    "destrier",
+    "palefroi",
+    "roncin",
+    "sommier"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Son nom viendrait de ce qu’on le menait de la main droite.",
+   "id": "t059-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La dague du coup de grâce s’appelle la ____.",
+   "choix": [
+    "miséricorde",
+    "rondelle",
+    "baselarde",
+    "estoc"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Elle pouvait se glisser à travers la visière ou sous l’aisselle.",
+   "id": "t059-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le grand casque fermé du 13e siècle s’appelle le ____.",
+   "choix": [
+    "heaume",
+    "bassinet",
+    "morion",
+    "cabasset"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les chevaliers y fixent parfois un cimier pour être reconnus.",
+   "id": "t059-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le grand bouclier planté des arbalétriers s’appelle le ____.",
+   "choix": [
+    "pavois",
+    "targe",
+    "écu",
+    "bouclier rond"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Le mot a donné « pavoiser », décorer de drapeaux.",
+   "id": "t059-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’arme d’hast suisse à hache et crochet s’appelle la ____.",
+   "choix": [
+    "hallebarde",
+    "pique",
+    "lance",
+    "masse"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "La garde suisse du Vatican la porte encore aujourd’hui.",
+   "id": "t059-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le bois de l’arc long anglais est l’____.",
+   "choix": [
+    "if",
+    "érable",
+    "orme",
+    "hêtre"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Il fallait parfois importer l’if d’Italie ou d’Espagne.",
+   "id": "t059-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La bataille gagnée par Henri V en 1415 s’appelle ____.",
+   "choix": [
+    "Azincourt",
+    "Crécy",
+    "Poitiers",
+    "Castillon"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Elle se déroule dans le Pas-de-Calais actuel.",
+   "id": "t059-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La broderie qui raconte la bataille d’Hastings s’appelle la tapisserie de ____.",
+   "choix": [
+    "Bayeux",
+    "Caen",
+    "Rouen",
+    "Hastings"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Elle aurait été commandée par Odon, demi-frère de Guillaume.",
+   "id": "t059-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le mécanisme à manivelle pour bander une arbalète s’appelle le ____.",
+   "choix": [
+    "cranequin",
+    "pied-de-biche",
+    "moulinet",
+    "treuil"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Le pied-de-biche, levier plus léger, sert aux arbalètes moins puissantes.",
+   "id": "t059-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le vêtement rembourré porté sous l’armure s’appelle le ____.",
+   "choix": [
+    "gambison",
+    "haubert",
+    "tabard",
+    "surcot"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Il est fait de nombreuses couches de lin ou de coton piquées ensemble.",
+   "id": "t059-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le maître d’armes italien auteur de la Fleur des batailles s’appelle Fiore dei ____.",
+   "choix": [
+    "Liberi",
+    "Medici",
+    "Vadi",
+    "Marozzo"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Son traité est l’un des plus anciens sur l’escrime à l’épée longue.",
+   "id": "t059-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces armes n’est pas une arme blanche ?",
+   "choix": [
+    "L’arquebuse",
+    "L’épée bâtarde",
+    "Le fauchon",
+    "La miséricorde"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "L’arquebuse est une arme à feu, apparue au 15e siècle.",
+   "id": "t059-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces pièces ne protège pas la tête ?",
+   "choix": [
+    "Le soleret",
+    "Le heaume",
+    "Le bassinet",
+    "La salade"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Le soleret protège le pied ; les trois autres sont des casques.",
+   "id": "t059-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces chevaux n’est pas un cheval de guerre ?",
+   "choix": [
+    "Le sommier",
+    "Le destrier",
+    "Le coursier",
+    "Le cheval barde"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Le sommier porte les bagages et ne va pas au combat.",
+   "id": "t059-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces batailles n’appartient pas à la guerre de Cent Ans ?",
+   "choix": [
+    "Hastings",
+    "Crécy",
+    "Poitiers",
+    "Azincourt"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Hastings date de 1066, bien avant le conflit.",
+   "id": "t059-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces armes n’est pas une arme d’hast ?",
+   "choix": [
+    "La masse d’armes",
+    "La hallebarde",
+    "La pique",
+    "La guisarme"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les armes d’hast sont montées sur une longue hampe ; la masse est courte.",
+   "id": "t059-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces boucliers n’est pas médiéval ?",
+   "choix": [
+    "Le scutum des légions",
+    "Le pavois",
+    "La targe",
+    "L’écu normand"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Le scutum est le bouclier des légionnaires romains.",
+   "id": "t059-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces armes n’est pas une arme de jet ou de tir ?",
+   "choix": [
+    "La masse d’armes",
+    "L’arc long",
+    "L’arbalète",
+    "La fronde"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "La masse d’armes s’utilise au corps à corps.",
+   "id": "t059-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces chefs n’a pas commandé de bataille célèbre ?",
+   "choix": [
+    "Fiore dei Liberi",
+    "Henri V",
+    "Robert Bruce",
+    "Jan Žižka"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Fiore dei Liberi est un maître d’armes, auteur de traités.",
+   "id": "t059-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces pièces d’armure ne protège pas la jambe ?",
+   "choix": [
+    "La spalière",
+    "La grève",
+    "Le cuissot",
+    "La genouillère"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "La spalière protège l’épaule ; les autres couvrent la jambe et le genou.",
+   "id": "t059-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces batailles n’a pas été gagnée par des fantassins contre des chevaliers ?",
+   "choix": [
+    "Bouvines",
+    "Courtrai",
+    "Bannockburn",
+    "Morgarten"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "À Bouvines, la cavalerie du roi joue un rôle majeur.",
+   "id": "t059-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles pièces protègent la tête ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Heaume",
+    "Bassinet",
+    "Salade",
+    "Armet",
+    "Soleret",
+    "Gantelet"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "L’armet, fermé et ajusté, apparaît au 15e siècle en Italie.",
+   "id": "t059-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles batailles appartiennent à la guerre de Cent Ans ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Crécy",
+    "Poitiers",
+    "Azincourt",
+    "Castillon",
+    "Hastings",
+    "Bouvines"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "La guerre de Cent Ans dure de 1337 à 1453.",
+   "id": "t059-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles armes sont des armes d’hast ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hallebarde",
+    "Pique",
+    "Vouge",
+    "Guisarme",
+    "Fauchon",
+    "Miséricorde"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Elles permettent de tenir l’ennemi à distance.",
+   "id": "t059-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels éléments composent l’équipement d’un chevalier du 11e siècle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Haubert",
+    "Casque à nasal",
+    "Écu en amande",
+    "Lance",
+    "Armure de plates",
+    "Arquebuse"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "C’est l’équipement des Normands de la tapisserie de Bayeux.",
+   "id": "t059-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles batailles voient des fantassins vaincre des chevaliers ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Courtrai",
+    "Bannockburn",
+    "Morgarten",
+    "Hastings",
+    "Bouvines"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Ces batailles annoncent le déclin de la chevalerie lourde.",
+   "id": "t059-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles armes à feu apparaissent à la fin du Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bombarde",
+    "Couleuvrine",
+    "Arquebuse",
+    "Trébuchet",
+    "Baliste"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "La poudre transforme la guerre au 15e siècle.",
+   "id": "t059-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels mythes sur les chevaliers sont faux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ils avaient besoin d’une grue",
+    "Ils ne pouvaient pas se relever",
+    "Ils portaient un gambison",
+    "Ils montaient des destriers"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les sources montrent des chevaliers agiles malgré leur armure.",
+   "id": "t059-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels maîtres ont laissé des traités de combat ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fiore dei Liberi",
+    "Johannes Liechtenauer",
+    "Filippo Vadi",
+    "Henri V",
+    "Jan Žižka"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Liechtenauer fonde la tradition allemande de l’épée longue.",
+   "id": "t059-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels chevaux existent au Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Destrier",
+    "Palefroi",
+    "Roncin",
+    "Sommier",
+    "Pur-sang arabe moderne",
+    "Cheval de trait boulonnais"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Ces races modernes sont fixées bien plus tard.",
+   "id": "t059-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles pièces protègent le bras ou la main ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gantelet",
+    "Canon d’avant-bras",
+    "Cubitière",
+    "Grève",
+    "Soleret"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "La cubitière protège le coude, articulation délicate à couvrir.",
+   "id": "t059-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces batailles par ordre chronologique.",
+   "items": [
+    "Hastings",
+    "Bouvines",
+    "Crécy",
+    "Azincourt",
+    "Castillon"
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "En 1066, 1214, 1346, 1415 et 1453 : quatre siècles de batailles.",
+   "id": "t059-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces protections de corps par ordre d’apparition.",
+   "items": [
+    "Cotte de mailles",
+    "Brigandine",
+    "Armure de plates complète"
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "La brigandine, faite de plaques rivetées dans du tissu, fait la transition.",
+   "id": "t059-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces casques par ordre d’apparition.",
+   "items": [
+    "Casque à nasal",
+    "Heaume",
+    "Bassinet",
+    "Armet"
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Du 11e au 15e siècle, le casque protège de mieux en mieux le visage.",
+   "id": "t059-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du tir à l’arbalète dans l’ordre.",
+   "items": [
+    "Poser le pied dans l’étrier",
+    "Bander la corde",
+    "Placer le carreau",
+    "Viser et tirer"
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Le rechargement est lent, d’où l’usage du pavois.",
+   "id": "t059-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces armes du plus court au plus long.",
+   "items": [
+    "Miséricorde",
+    "Épée bâtarde",
+    "Hallebarde",
+    "Pique"
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "La pique peut dépasser cinq mètres, la miséricorde tient dans la main.",
+   "id": "t059-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la bataille d’Azincourt dans l’ordre.",
+   "items": [
+    "Les armées se font face",
+    "Les archers anglais tirent",
+    "La chevalerie française s’enlise",
+    "Défaite française"
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les archers s’étaient protégés derrière des pieux plantés en terre.",
+   "id": "t059-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la bataille d’Hastings dans l’ordre.",
+   "items": [
+    "Débarquement de Guillaume",
+    "Mur de boucliers anglais",
+    "Fausse fuite normande",
+    "Mort d’Harold"
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les Normands simulent la fuite pour attirer les Anglais hors de leurs lignes.",
+   "id": "t059-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces pièces d’armure du haut vers le bas du corps.",
+   "items": [
+    "Heaume",
+    "Spalière",
+    "Cuissot",
+    "Soleret"
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "L’épaule, la cuisse et le pied sont protégés par des pièces spécifiques.",
+   "id": "t059-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces batailles de fantassins victorieux par ordre chronologique.",
+   "items": [
+    "Courtrai",
+    "Bannockburn",
+    "Morgarten"
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "1302, 1314 et 1315 : trois victoires en treize ans.",
+   "id": "t059-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque pièce d’armure à la partie du corps.",
+   "paires": [
+    [
+     "Heaume",
+     "Tête"
+    ],
+    [
+     "Gantelet",
+     "Main"
+    ],
+    [
+     "Soleret",
+     "Pied"
+    ],
+    [
+     "Spalière",
+     "Épaule"
+    ]
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Une armure complète compte plus de deux cents pièces.",
+   "id": "t059-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque bataille à son vainqueur.",
+   "paires": [
+    [
+     "Hastings",
+     "Guillaume le Conquérant"
+    ],
+    [
+     "Bouvines",
+     "Philippe Auguste"
+    ],
+    [
+     "Azincourt",
+     "Henri V"
+    ],
+    [
+     "Bannockburn",
+     "Robert Bruce"
+    ]
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Ces batailles ont changé le destin de royaumes entiers.",
+   "id": "t059-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque arme à son projectile ou usage.",
+   "paires": [
+    [
+     "Arbalète",
+     "Carreaux"
+    ],
+    [
+     "Arc long",
+     "Flèches"
+    ],
+    [
+     "Bombarde",
+     "Boulets de pierre"
+    ],
+    [
+     "Miséricorde",
+     "Coup de grâce"
+    ]
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Chaque arme correspond à une manière de combattre.",
+   "id": "t059-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque cheval à son usage.",
+   "paires": [
+    [
+     "Destrier",
+     "Guerre"
+    ],
+    [
+     "Palefroi",
+     "Voyage"
+    ],
+    [
+     "Sommier",
+     "Bagages"
+    ],
+    [
+     "Roncin",
+     "Écuyer"
+    ]
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Un chevalier possède souvent plusieurs chevaux.",
+   "id": "t059-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque bataille à son année.",
+   "paires": [
+    [
+     "Hastings",
+     "1066"
+    ],
+    [
+     "Bouvines",
+     "1214"
+    ],
+    [
+     "Crécy",
+     "1346"
+    ],
+    [
+     "Castillon",
+     "1453"
+    ]
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Ces dates jalonnent l’histoire militaire du Moyen Âge.",
+   "id": "t059-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque formation ou tactique à son peuple.",
+   "paires": [
+    [
+     "Schiltron",
+     "Écossais"
+    ],
+    [
+     "Carré de piquiers",
+     "Suisses"
+    ],
+    [
+     "Chariots reliés",
+     "Hussites"
+    ]
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "L’infanterie invente de nouvelles parades contre la cavalerie.",
+   "id": "t059-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque protection à sa matière.",
+   "paires": [
+    [
+     "Haubert",
+     "Anneaux de fer"
+    ],
+    [
+     "Gambison",
+     "Tissu matelassé"
+    ],
+    [
+     "Armure de plates",
+     "Acier"
+    ]
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "L’armure évolue avec les progrès de la métallurgie.",
+   "id": "t059-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque ville à sa spécialité militaire.",
+   "paires": [
+    [
+     "Milan",
+     "Armures italiennes"
+    ],
+    [
+     "Augsbourg",
+     "Armures allemandes"
+    ],
+    [
+     "Gênes",
+     "Arbalétriers mercenaires"
+    ]
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les arbalétriers génois sont des mercenaires recherchés.",
+   "id": "t059-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque bataille à sa particularité.",
+   "paires": [
+    [
+     "Courtrai",
+     "Éperons d’or"
+    ],
+    [
+     "Azincourt",
+     "Boue"
+    ],
+    [
+     "Castillon",
+     "Artillerie"
+    ],
+    [
+     "Hastings",
+     "Fausse fuite"
+    ]
+   ],
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Chaque victoire repose sur un élément décisif.",
+   "id": "t059-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une arme\n2. Je tire des carreaux\n3. L’Église m’a interdite",
+   "choix": [
+    "L’arbalète",
+    "L’arc long",
+    "La fronde",
+    "L’arquebuse"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "On me reprochait de permettre à un roturier de tuer un chevalier.",
+   "id": "t059-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un arc\n2. Je suis en if\n3. J’ai triomphé à Crécy",
+   "choix": [
+    "L’arc long anglais",
+    "L’arc composite",
+    "L’arc court",
+    "L’arbalète"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les archers s’entraînaient chaque dimanche, selon les lois anglaises.",
+   "id": "t059-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une broderie\n2. Je raconte la conquête de l’Angleterre\n3. Je mesure près de soixante-dix mètres",
+   "choix": [
+    "La tapisserie de Bayeux",
+    "La Dame à la licorne",
+    "La tenture de l’Apocalypse",
+    "Le Bayeux Book"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "On me conserve en Normandie depuis le 11e siècle.",
+   "id": "t059-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un roi\n2. J’ai été capturé à Poitiers\n3. Ma rançon a créé le franc",
+   "choix": [
+    "Jean le Bon",
+    "Philippe VI",
+    "Charles VI",
+    "Louis IX"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "On dit que je suis retourné en captivité pour tenir ma parole.",
+   "id": "t059-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un roi\n2. J’ai gagné Azincourt\n3. Shakespeare m’a célébré",
+   "choix": [
+    "Henri V",
+    "Édouard III",
+    "Richard II",
+    "Henri VIII"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "J’ai épousé Catherine de Valois, fille du roi de France.",
+   "id": "t059-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un chef\n2. J’ai inventé une forteresse de chariots\n3. Je ne voyais plus",
+   "choix": [
+    "Jan Žižka",
+    "Jan Hus",
+    "Robert Bruce",
+    "William Wallace"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Mes troupes hussites ont battu plusieurs croisades.",
+   "id": "t059-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une arme\n2. J’ai une hache, une pointe et un crochet\n3. Les Suisses m’adorent",
+   "choix": [
+    "La hallebarde",
+    "La pique",
+    "La masse",
+    "La guisarme"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "On me voit encore entre les mains de la Garde suisse.",
+   "id": "t059-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une protection\n2. Je suis faite d’anneaux\n3. On me porte sur un gambison",
+   "choix": [
+    "Le haubert",
+    "La brigandine",
+    "La cuirasse",
+    "Le plastron"
+   ],
+   "rep": 0,
+   "src": "Musée de l’Armée ; Royal Armouries ; Ph. Contamine",
+   "expl": "Les Romains utilisaient déjà une protection semblable.",
+   "id": "t059-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
