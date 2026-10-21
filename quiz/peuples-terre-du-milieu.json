@@ -1,0 +1,2289 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "peuples-terre-du-milieu",
+  "nom": "Peuples Libres et forces de l’Ombre",
+  "royaume": "Terres de Tolkien",
+  "icone": "arc",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle taille les hobbits mesurent-ils en général ?",
+   "choix": [
+    "Entre deux et quatre pieds",
+    "Moins d’un pied",
+    "Environ six pieds",
+    "Plus de huit pieds"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue « Des hobbits » (1954) ; trad. Francis Ledoux (1972)",
+   "expl": "Soit à peu près 60 cm à 1,20 m ; ils sont plus petits que les Nains.",
+   "id": "t027-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles sont les trois lignées de hobbits ?",
+   "choix": [
+    "Pieds-Velus, Forts et Pâles",
+    "Touque, Sacquet et Brandebouc",
+    "Hobbitebourg, Bree et Bouc",
+    "Grands, Petits et Moyens"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue « Des hobbits » (1954) ; trad. Francis Ledoux (1972)",
+   "expl": "Les Pieds-Velus sont les plus nombreux, les Forts aiment l’eau, les Pâles les bois.",
+   "id": "t027-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante les hobbits disent-ils avoir été les premiers à fumer ?",
+   "choix": [
+    "L’herbe à pipe",
+    "L’athelas",
+    "La feuille de mallorn",
+    "La fleur d’elanor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue « Des hobbits » (1954) ; trad. Francis Ledoux (1972)",
+   "expl": "La meilleure, la Feuille de Longoulet, vient du Quartier Sud.",
+   "id": "t027-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quel âge un hobbit devient-il majeur ?",
+   "choix": [
+    "33 ans",
+    "18 ans",
+    "21 ans",
+    "50 ans"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue « Des hobbits » (1954) ; trad. Francis Ledoux (1972)",
+   "expl": "Avant, on parle d’« années de l’irresponsabilité » ; Frodon fête sa majorité le jour des 111 ans de Bilbo.",
+   "id": "t027-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle famille hobbite, réputée pour son goût de l’aventure, est celle de Pippin ?",
+   "choix": [
+    "Les Touque",
+    "Les Sacquet",
+    "Les Gamegie",
+    "Les Bolger"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A « Le Peuple de Durin »",
+   "expl": "Le Thain de la Comté est toujours choisi parmi les Touque.",
+   "id": "t027-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quelle maison des Nains appartiennent Thorin et Gimli ?",
+   "choix": [
+    "Le Peuple de Durin",
+    "Les Pieds-de-Fer",
+    "Les Barbes-de-Feu",
+    "Les Larges-Poings"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A « Le Peuple de Durin »",
+   "expl": "Le Peuple de Durin est l’aînée des sept maisons des Nains.",
+   "id": "t027-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui est le père de Gimli ?",
+   "choix": [
+    "Glóin",
+    "Balin",
+    "Dáin",
+    "Óin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A « Le Peuple de Durin »",
+   "expl": "Glóin faisait partie de la compagnie de Thorin dans Le Hobbit.",
+   "id": "t027-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel orque avait tué le roi nain Thrór dans la Moria ?",
+   "choix": [
+    "Azog",
+    "Bolg",
+    "Uglúk",
+    "Gorbag"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A « Le Peuple de Durin »",
+   "expl": "Ce meurtre provoque la guerre des Nains et des Orques ; Azog meurt à la bataille d’Azanulbizar.",
+   "id": "t027-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel fils d’Azog mène les gobelins à la Bataille des Cinq Armées ?",
+   "choix": [
+    "Bolg",
+    "Uglúk",
+    "Shagrat",
+    "Grishnákh"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Beorn, sous sa forme d’ours, le tue pendant la bataille et disperse sa garde.",
+   "id": "t027-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les Elfes Gris restés en Terre du Milieu sous le roi Thingol ?",
+   "choix": [
+    "Les Sindar",
+    "Les Noldor",
+    "Les Vanyar",
+    "Les Avari"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Leur langue, le sindarin, est la plus parlée des langues elfiques au Troisième Âge.",
+   "id": "t027-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quel peuple elfique appartiennent la plupart des sujets de Thranduil ?",
+   "choix": [
+    "Les Elfes sylvains",
+    "Les Noldor",
+    "Les Vanyar",
+    "Les Teleri d’Aman"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Thranduil et Legolas sont d’origine sindarine, mais leur peuple est surtout sylvain.",
+   "id": "t027-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel seigneur de Fondcombe est surnommé le Semi-Elfe ?",
+   "choix": [
+    "Elrond",
+    "Celeborn",
+    "Círdan",
+    "Glorfindel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Fils d’Eärendil, il a choisi d’être compté parmi les Elfes.",
+   "id": "t027-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où vont les Elfes qui meurent de blessure ou de chagrin ?",
+   "choix": [
+    "Aux Cavernes de Mandos",
+    "Au-delà des cercles du monde",
+    "Dans la Gisombre",
+    "Dans le Lindon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Leur esprit peut, après un temps, renaître en Aman ; seuls les Hommes quittent le monde.",
+   "id": "t027-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi les Elfes quittent-ils peu à peu la Terre du Milieu ?",
+   "choix": [
+    "Leur temps s’achève et ils partent vers l’Ouest",
+    "Sauron les chasse",
+    "Les Hommes les expulsent",
+    "Ils sont punis par les Valar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Après la destruction de l’Anneau, la puissance des Trois s’éteint aussi.",
+   "id": "t027-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle Elfe de Lothlórien est l’une des dernières Noldor venues d’Aman ?",
+   "choix": [
+    "Galadriel",
+    "Arwen",
+    "Nimrodel",
+    "Idril"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Elle a vu la lumière des Deux Arbres ; Arwen, elle, est née en Terre du Milieu.",
+   "id": "t027-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les descendants des Hommes de Númenor ?",
+   "choix": [
+    "Les Dúnedain",
+    "Les Éothéod",
+    "Les Drúedain",
+    "Les Haradrim"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Les Hommes de l’Ouest vivent plus longtemps que les autres ; Aragorn en est le chef.",
+   "id": "t027-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les Dúnedain qui veillent sur l’Eriador dans l’ombre ?",
+   "choix": [
+    "Les Rôdeurs du Nord",
+    "Les Chevaliers de Dol Amroth",
+    "Les Gardes de la Citadelle",
+    "Les Fidèles"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Méprisés à Bree, ils protègent la Comté sans que les hobbits le sachent.",
+   "id": "t027-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment appelle-t-on les Hommes sauvages de la forêt de Drúadan ?",
+   "choix": [
+    "Les Woses",
+    "Les Dunlendings",
+    "Les Lossoth",
+    "Les Éothéod"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977) ; The Lord of the Rings (1954-1955)",
+   "expl": "Ces Drúedain ont une très ancienne lignée ; Tolkien leur consacre un récit dans les Contes inachevés.",
+   "id": "t027-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels Hommes du sud combattent montés sur des olifants ?",
+   "choix": [
+    "Les Haradrim",
+    "Les Orientaux",
+    "Les Rohirrim",
+    "Les corsaires d’Umbar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre III, chap. 4 « Sylvebarbe »",
+   "expl": "Sam est émerveillé de voir enfin un « olifant », animal des contes de la Comté.",
+   "id": "t027-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment les Ents se décrivent-ils ?",
+   "choix": [
+    "Comme des bergers des arbres",
+    "Comme des arbres qui marchent",
+    "Comme des Elfes changés en bois",
+    "Comme des géants de pierre"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre III, chap. 4 « Sylvebarbe »",
+   "expl": "Ils protègent les forêts, comme des bergers veillent sur leurs troupeaux.",
+   "id": "t027-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’ont perdu les bergers des arbres depuis des âges ?",
+   "choix": [
+    "Les Ents-femmes",
+    "Leur langue",
+    "Leur forêt",
+    "Leur roi"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre III, chap. 4 « Sylvebarbe »",
+   "expl": "Elles aimaient les jardins et les champs ; on n’a jamais retrouvé leur trace.",
+   "id": "t027-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle l’assemblée des Ents réunie à Fangorn ?",
+   "choix": [
+    "L’Entmoot",
+    "Le Conseil blanc",
+    "Le Thing",
+    "L’Ost des arbres"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre III, chap. 4 « Sylvebarbe »",
+   "expl": "Elle dure trois jours avant que les Ents ne décident de marcher sur Isengard.",
+   "id": "t027-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel jeune Ent impulsif se lie d’amitié avec Merry et Pippin ?",
+   "choix": [
+    "Vif-Sorbier",
+    "Sylvebarbe",
+    "Le Vieil Homme Saule",
+    "Finglas"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre III, chap. 4 « Sylvebarbe »",
+   "expl": "Bregalad, en elfique ; il pleure les sorbiers abattus par les orques de Saruman.",
+   "id": "t027-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les arbres sombres qui écrasent les orques après le Gouffre de Helm ?",
+   "choix": [
+    "Les Huorns",
+    "Les mallorns",
+    "Les Ents-femmes",
+    "Les Galgals"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980), « Les Istari »",
+   "expl": "Ce sont des arbres à demi éveillés, guidés par les Ents.",
+   "id": "t027-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Istar dirige l’Ordre des Magiciens au début de l’histoire ?",
+   "choix": [
+    "Saruman",
+    "Gandalf",
+    "Radagast",
+    "Alatar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980), « Les Istari »",
+   "expl": "Saruman le Blanc préside aussi le Conseil blanc, avant de trahir.",
+   "id": "t027-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment appelle-t-on les deux Istari partis vers l’est, dont on ignore le destin ?",
+   "choix": [
+    "Les Mages bleus",
+    "Les Mages gris",
+    "Les Mages noirs",
+    "Les Mages verts"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Alatar et Pallando ne réapparaissent jamais dans le récit.",
+   "id": "t027-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que furent les Nazgûl avant de tomber sous la coupe de Sauron ?",
+   "choix": [
+    "Des rois humains",
+    "Des seigneurs elfes",
+    "Des princes nains",
+    "Des Maiar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980), « La chasse à l’Anneau »",
+   "expl": "Ils reçurent neuf Anneaux de Pouvoir et devinrent des spectres.",
+   "id": "t027-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel Nazgûl, originaire de l’est, est le second du Roi-Sorcier ?",
+   "choix": [
+    "Khamûl",
+    "Gothmog",
+    "Uglúk",
+    "Azog"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 11",
+   "expl": "Il réside à Dol Guldur et mène la chasse dans la Comté.",
+   "id": "t027-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que redoutent les Nazgûl, selon Aragorn au Mont Venteux ?",
+   "choix": [
+    "Le feu",
+    "Le fer",
+    "L’or",
+    "Le chant"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Aragorn les repousse avec des torches enflammées.",
+   "id": "t027-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que montent les Nazgûl après la perte de leurs chevaux noirs ?",
+   "choix": [
+    "Des bêtes ailées",
+    "Des wargs",
+    "Des olifants",
+    "Des dragons de feu"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Ces créatures monstrueuses viennent d’un monde plus ancien, selon Gandalf.",
+   "id": "t027-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel émissaire du Seigneur sombre, à la Porte Noire, a oublié jusqu’à son propre nom ?",
+   "choix": [
+    "La Bouche de Sauron",
+    "Le Roi-Sorcier",
+    "Gríma",
+    "Gothmog"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Ce Númenóréen noir, lieutenant de Barad-dûr, montre la cotte de mithril de Frodon pour décourager l’Ouest.",
+   "id": "t027-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est l’emblème de Sauron ?",
+   "choix": [
+    "Un Œil rouge",
+    "Une Main blanche",
+    "Une Lune pâle",
+    "Un Arbre blanc"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "L’Œil sans paupière orne les boucliers des orques du Mordor.",
+   "id": "t027-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel avantage les Uruk-hai ont-ils sur les orques ordinaires ?",
+   "choix": [
+    "Ils supportent le soleil",
+    "Ils volent",
+    "Ils deviennent invisibles",
+    "Ils ne mangent jamais"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Plus grands et plus forts, ils marchent de jour sans faiblir.",
+   "id": "t027-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi les trolls de Bilbo restent-ils figés au bord du chemin ?",
+   "choix": [
+    "Le soleil les a pétrifiés",
+    "Un sort les a gelés",
+    "Ils dorment depuis l’hiver",
+    "Gandalf les a enchaînés"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les trolls de Bilbo en sont restés pétrifiés jusqu’au Seigneur des Anneaux.",
+   "id": "t027-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature à tentacules surgit d’un lac devant les portes de la Moria ?",
+   "choix": [
+    "Le Guetteur de l’eau",
+    "Arachné",
+    "Le Balrog",
+    "Un Huorn"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Il referme les portes derrière la Communauté, ce qui la force à traverser la Moria.",
+   "id": "t027-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels oiseaux noirs espionnent pour Saruman ?",
+   "choix": [
+    "Les crebain",
+    "Les Aigles",
+    "Les grives",
+    "Les corbeaux d’Erebor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Ces corneilles du Pays de Dun obligent la Communauté à se cacher.",
+   "id": "t027-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels esprits mauvais hantent les tertres à l’est de la Vieille Forêt ?",
+   "choix": [
+    "Les Êtres des Galgals",
+    "Les Nazgûl",
+    "Les Huorns",
+    "Les Morts"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Le Roi-Sorcier les avait envoyés dans les tombes des anciens rois.",
+   "id": "t027-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel chef des Uruk-hai d’Isengard enlève Merry et Pippin ?",
+   "choix": [
+    "Uglúk",
+    "Grishnákh",
+    "Shagrat",
+    "Gorbag"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Il est tué par Éomer quand les Rohirrim encerclent les orques.",
+   "id": "t027-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel orque du Mordor tente de s’enfuir avec les hobbits pour prendre l’Anneau ?",
+   "choix": [
+    "Grishnákh",
+    "Uglúk",
+    "Lugdush",
+    "Bolg"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Il se doute qu’ils portent quelque chose de précieux ; une flèche des Rohirrim l’abat.",
+   "id": "t027-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels grands loups maléfiques s’allient aux orques ?",
+   "choix": [
+    "Les wargs",
+    "Les crebain",
+    "Les Huorns",
+    "Les mûmakil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Ils attaquent la Communauté en Eriador et les nains dans Le Hobbit.",
+   "id": "t027-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de repas les hobbits prennent-ils par jour, quand ils le peuvent ?",
+   "choix": [
+    "Six",
+    "Trois",
+    "Deux",
+    "Dix"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Tolkien le précise dans le prologue : ils aiment manger et boire souvent.",
+   "id": "t027-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quoi les hobbits sont-ils apparentés, selon Tolkien ?",
+   "choix": [
+    "Aux Hommes",
+    "Aux Nains",
+    "Aux Elfes",
+    "Aux Ents"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Le prologue en fait des parents des Hommes, malgré leur petite taille.",
+   "id": "t027-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel peuple de chevaux et de cavaliers descend des Éothéod du nord ?",
+   "choix": [
+    "Les Rohirrim",
+    "Les Dúnedain",
+    "Les Drúedain",
+    "Les Haradrim"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Ils ne descendent pas de Númenor ; ils sont venus du nord à l’appel du Gondor.",
+   "id": "t027-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment appelle-t-on les ancêtres des sept maisons des Nains ?",
+   "choix": [
+    "Les Sept Pères",
+    "Les Sept Rois",
+    "Les Sept Forges",
+    "Les Sept Clans de Moria"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Chaque maison descend de l’un des Sept Pères façonnés par Aulë.",
+   "id": "t027-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels êtres Gandalf appelle-t-il les plus anciens qui marchent encore sous le soleil ?",
+   "choix": [
+    "Les Ents",
+    "Les Elfes",
+    "Les Nains",
+    "Les hobbits"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II",
+   "expl": "Sylvebarbe est, selon lui, le plus vieux des êtres vivants qui foulent la Terre du Milieu.",
+   "id": "t027-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le peuple elfique de la Lothlórien ?",
+   "choix": [
+    "Les Galadhrim",
+    "Les Noldor",
+    "Les Vanyar",
+    "Les Eldar d’Aman"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II",
+   "expl": "Le « peuple des arbres » vit dans les mallorns, sous la garde de Galadriel et Celeborn.",
+   "id": "t027-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Elfe de la Lórien guide la Communauté jusqu’à Caras Galadhon ?",
+   "choix": [
+    "Haldir",
+    "Glorfindel",
+    "Legolas",
+    "Lindir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Il exige d’abord de bander les yeux de Gimli ; Aragorn obtient que tous aient les yeux bandés, par équité.",
+   "id": "t027-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel peuple d’Hommes vit près de la baie glacée de Forochel ?",
+   "choix": [
+    "Les Lossoth",
+    "Les Woses",
+    "Les Éothéod",
+    "Les Dunlendings"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Return of the King (1955)",
+   "expl": "Ces « Hommes des Neiges » aident le dernier roi d’Arthedain, Arvedui, qui périt pourtant en mer.",
+   "id": "t027-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel lieutenant de Minas Morgul prend la tête de l’armée après la chute du Roi-Sorcier ?",
+   "choix": [
+    "Gothmog",
+    "Shagrat",
+    "Uglúk",
+    "Khamûl"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Il porte le même nom que le seigneur des Balrogs du Premier Âge.",
+   "id": "t027-049",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la langue commune de la Terre du Milieu ?",
+   "choix": [
+    "Le westron",
+    "Le sindarin",
+    "Le khuzdul",
+    "Le rohirric"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937)",
+   "expl": "Le westron, ou parler commun, est la langue que Tolkien « traduit » en anglais.",
+   "id": "t027-050",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Qui est le roi des Elfes de la Forêt Noire ?",
+   "choix": [
+    "Thranduil",
+    "Elrond",
+    "Celeborn",
+    "Círdan"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937)",
+   "expl": "Père de Legolas, il emprisonne Thorin et ses compagnons dans Le Hobbit.",
+   "id": "t027-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Naines ressemblent tant aux Nains que les autres peuples les distinguent à peine.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, « On Fairy-Stories » (1947) ; The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : elles sont peu nombreuses, voyagent rarement et portent la barbe, selon les appendices.",
+   "id": "t027-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Elfes de Tolkien sont de petites créatures ailées.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre III, chap. 4",
+   "expl": "Faux : ils sont grands, beaux et immortels ; Tolkien rejetait les fées miniatures des contes victoriens.",
+   "id": "t027-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Ents parlent très lentement, car leur langue demande beaucoup de temps.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue (1954)",
+   "expl": "Vrai : Sylvebarbe trouve que dire quoi que ce soit en entique prend un temps infini.",
+   "id": "t027-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les hobbits sont apparentés aux Nains.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue (1954)",
+   "expl": "Faux : selon le prologue, ce sont des parents des Hommes.",
+   "id": "t027-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Selon le prologue, les hobbits sont des parents des Hommes.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : Tolkien les rattache aux Grandes Gens, malgré leur petite taille.",
+   "id": "t027-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tous les orques supportent sans gêne la lumière du soleil.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : la plupart la détestent ; seuls les Uruk-hai de Saruman et de Sauron la supportent bien.",
+   "id": "t027-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Saruman a créé des êtres mêlant Orques et Hommes.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : Sylvebarbe et Gandalf évoquent ces croisements ; on en voit à Bree et dans la Comté.",
+   "id": "t027-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Au début du récit, Gandalf est le chef des Istari.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980), « Les Istari »",
+   "expl": "Faux : c’est Saruman ; Gandalf ne prend sa place qu’en revenant en Gandalf le Blanc.",
+   "id": "t027-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Istari sont des Maiar envoyés en Terre du Milieu par les Valar.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : ils ont pris l’apparence de vieillards pour aider les peuples contre Sauron, sans les dominer.",
+   "id": "t027-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Nazgûl sont des Elfes corrompus.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : ce sont neuf rois humains asservis par les Anneaux.",
+   "id": "t027-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Une prophétie annonce que le Roi-Sorcier ne tombera pas de la main d’un homme.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : Glorfindel l’avait annoncé ; il tombe sous les coups d’Éowyn et de Merry.",
+   "id": "t027-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Aigles sont des serviteurs de Sauron.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Faux : ils sont envoyés par Manwë et viennent souvent en aide aux Peuples libres.",
+   "id": "t027-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Après la mort d’Aragorn, Legolas et Gimli partent ensemble vers l’Ouest.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Vrai : selon les appendices, Gimli serait le seul Nain à avoir fait ce voyage.",
+   "id": "t027-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Rohirrim descendent des Hommes de Númenor.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Faux : ils viennent des Éothéod, des Hommes du Nord sans sang númenóréen.",
+   "id": "t027-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Dúnedain vivent bien plus longtemps que les autres Hommes.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : Aragorn vit jusqu’à 210 ans, signe de son sang royal.",
+   "id": "t027-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gollum est un orque.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : c’était un hobbit de la lignée des Forts, transformé par l’Anneau.",
+   "id": "t027-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sylvebarbe compte parmi les plus anciens êtres vivants de la Terre du Milieu.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : il a connu la forêt immense qui couvrait autrefois toute la région.",
+   "id": "t027-068",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Uruk-hai de Saruman portent l’Œil rouge sur leurs boucliers.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980)",
+   "expl": "Faux : ils portent la Main blanche de Saruman ; l’Œil est l’emblème de Sauron.",
+   "id": "t027-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien d’Istari sont venus en Terre du Milieu ?",
+   "rep": 5,
+   "min": 2,
+   "max": 9,
+   "pas": 1,
+   "unite": "Istari",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue",
+   "expl": "Saruman, Gandalf, Radagast et les deux Mages bleus.",
+   "id": "t027-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de repas par jour les hobbits apprécient-ils, quand ils le peuvent ?",
+   "rep": 6,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "repas",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue",
+   "expl": "Le prologue mentionne six repas par jour, quand on peut se les offrir.",
+   "id": "t027-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de lignées de hobbits le prologue distingue-t-il ?",
+   "rep": 3,
+   "min": 1,
+   "max": 7,
+   "pas": 1,
+   "unite": "lignées",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Two Towers (1954)",
+   "expl": "Pieds-Velus, Forts et Pâles, arrivés dans l’Eriador à des époques différentes.",
+   "id": "t027-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de jours dure l’Entmoot ?",
+   "rep": 3,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendices A et B",
+   "expl": "Pour les Ents, c’est une décision prise très vite.",
+   "id": "t027-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Jusqu’à quel âge Aragorn vit-il ?",
+   "rep": 210,
+   "min": 90,
+   "max": 300,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendices A et B",
+   "expl": "Il choisit de mourir de lui-même, comme les anciens rois de Númenor.",
+   "id": "t027-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année du Troisième Âge les Nains réveillent-ils le Balrog de la Moria ?",
+   "rep": 1980,
+   "min": 1000,
+   "max": 3000,
+   "pas": 1,
+   "unite": "T.A.",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendices A et B",
+   "expl": "En creusant en quête de mithril, ils libèrent le Fléau de Durin, qui tue le roi Durin VI.",
+   "id": "t027-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Quel âge a Gimli pendant la Guerre de l’Anneau ?",
+   "rep": 139,
+   "min": 40,
+   "max": 200,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendices A et B",
+   "expl": "Né en 2879 du Troisième Âge, il est encore jeune pour un Nain.",
+   "id": "t027-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les hobbits appellent ____ un objet inutile qu’ils ne veulent pas jeter.",
+   "choix": [
+    "mathom",
+    "trésor",
+    "babiole",
+    "bricole"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Les mathoms s’échangent en cadeau ; un musée de la Comté, la Maison des Mathoms, en est plein.",
+   "id": "t027-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Nains parlent entre eux une langue secrète, le ____.",
+   "choix": [
+    "khuzdul",
+    "sindarin",
+    "quenya",
+    "westron"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954)",
+   "expl": "Ils ne la révèlent presque jamais aux autres peuples et gardent secrets leurs vrais noms.",
+   "id": "t027-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le métal léger et précieux de la Moria est le ____.",
+   "choix": [
+    "mithril",
+    "adamant",
+    "galvorn",
+    "électrum"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Two Towers (1954)",
+   "expl": "« Vrai-argent » : il ne ternit jamais et vaut dix fois son poids en or.",
+   "id": "t027-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les bergers des arbres de Fangorn s’appellent les ____.",
+   "choix": [
+    "Ents",
+    "Huorns",
+    "mallorns",
+    "Woses"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980)",
+   "expl": "Ils sont nés de la pensée de Yavanna pour protéger les arbres.",
+   "id": "t027-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Gandalf, Saruman et Radagast appartiennent à l’ordre des ____.",
+   "choix": [
+    "Istari",
+    "Valar",
+    "Eldar",
+    "Edain"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Le mot quenya signifie « ceux qui savent ».",
+   "id": "t027-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le roi des Aigles, ____, est surnommé le Seigneur des Vents.",
+   "choix": [
+    "Gwaihir",
+    "Thorondor",
+    "Landroval",
+    "Meneldor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Il emporte Gandalf du sommet d’Orthanc, puis du pic où il a vaincu le Balrog.",
+   "id": "t027-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’emblème des Uruk-hai de Saruman est une ____ blanche.",
+   "choix": [
+    "main",
+    "tour",
+    "lune",
+    "étoile"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "On la voit sur leurs boucliers, avec la rune S en métal blanc sur leurs casques.",
+   "id": "t027-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les cavaliers du Rohan se nomment eux-mêmes les ____.",
+   "choix": [
+    "Eorlingas",
+    "Dúnedain",
+    "Éothéod",
+    "Edain"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Ils se disent les « fils d’Eorl », le fondateur du royaume.",
+   "id": "t027-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Les trolls que Sauron a rendus capables de supporter le soleil sont les ____.",
+   "choix": [
+    "Olog-hai",
+    "Uruk-hai",
+    "Snaga",
+    "Ologs-noirs"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Ces trolls rusés et redoutables combattent à la Porte Noire.",
+   "id": "t027-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Balrog de la Moria est appelé le Fléau de ____.",
+   "choix": [
+    "Durin",
+    "Thrór",
+    "Balin",
+    "Moria"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Il tue le roi Durin VI puis son fils ; les Nains fuient la Moria.",
+   "id": "t027-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les hobbits de la lignée des ____ aiment l’eau et les bateaux.",
+   "choix": [
+    "Forts",
+    "Pâles",
+    "Pieds-Velus",
+    "Touque"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Sméagol et Déagol appartenaient à cette lignée, vivant près de l’Anduin.",
+   "id": "t027-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le plus puissant des Nazgûl est le Roi-____ d’Angmar.",
+   "choix": [
+    "Sorcier",
+    "Démon",
+    "Spectre",
+    "Mage"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Capitaine des Neuf, il dirige l’assaut contre Minas Tirith.",
+   "id": "t027-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Nains de la lignée de Durin sont surnommés les Longues-____.",
+   "choix": [
+    "Barbes",
+    "Haches",
+    "Mains",
+    "Tresses"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "C’est la plus ancienne des sept maisons des Nains.",
+   "id": "t027-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces peuples ne fait pas partie des Peuples libres ?",
+   "choix": [
+    "Les Orques",
+    "Les Elfes",
+    "Les Nains",
+    "Les Ents"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Orques servent l’Ombre ; les autres s’y opposent.",
+   "id": "t027-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms n’est pas une lignée de hobbits ?",
+   "choix": [
+    "Les Touque",
+    "Les Pieds-Velus",
+    "Les Forts",
+    "Les Pâles"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Touque sont une famille, issue de la lignée des Pâles.",
+   "id": "t027-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un Istar ?",
+   "choix": [
+    "Elrond",
+    "Gandalf",
+    "Saruman",
+    "Radagast"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Elrond est le Semi-Elfe, seigneur de Fondcombe.",
+   "id": "t027-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un orque ?",
+   "choix": [
+    "Gríma",
+    "Uglúk",
+    "Grishnákh",
+    "Shagrat"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Gríma Langue de Serpent est un Homme du Rohan, au service de Saruman.",
+   "id": "t027-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un Nain ?",
+   "choix": [
+    "Bard",
+    "Gimli",
+    "Glóin",
+    "Dáin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Bard est un Homme d’Esgaroth, qui devient roi de Dale.",
+   "id": "t027-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces peuples n’est pas allié de Sauron ?",
+   "choix": [
+    "Les Rohirrim",
+    "Les Haradrim",
+    "Les Orientaux",
+    "Les corsaires d’Umbar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Rohirrim sont les fidèles alliés du Gondor.",
+   "id": "t027-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures ne sert pas l’Ombre ?",
+   "choix": [
+    "Les Huorns",
+    "Les wargs",
+    "Les crebain",
+    "Les Êtres des Galgals"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Huorns, guidés par les Ents, écrasent l’armée de Saruman.",
+   "id": "t027-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces noms n’est pas celui d’un Aigle ?",
+   "choix": [
+    "Gripoil",
+    "Gwaihir",
+    "Landroval",
+    "Meneldor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Gripoil est le cheval de Gandalf, seigneur des chevaux du Rohan.",
+   "id": "t027-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un Elfe ?",
+   "choix": [
+    "Beorn",
+    "Legolas",
+    "Haldir",
+    "Glorfindel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Beorn est un change-peau, un Homme capable de devenir ours.",
+   "id": "t027-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces orques ne sert pas Saruman ?",
+   "choix": [
+    "Shagrat",
+    "Uglúk",
+    "Lugdush",
+    "Mauhúr"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Shagrat commande la tour de Cirith Ungol, au service de Sauron.",
+   "id": "t027-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels peuples font partie des Peuples libres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Elfes",
+    "Nains",
+    "Hobbits",
+    "Ents",
+    "Orques",
+    "Trolls"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Hommes et Ents s’allient aussi contre l’Ombre.",
+   "id": "t027-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Qui sont des Istari ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gandalf",
+    "Saruman",
+    "Radagast",
+    "Elrond",
+    "Tom Bombadil"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Tom Bombadil n’appartient à aucun ordre connu.",
+   "id": "t027-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures servent l’Ombre ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Wargs",
+    "Crebain",
+    "Bêtes ailées",
+    "Aigles",
+    "Huorns"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Aigles et les Huorns aident les Peuples libres.",
+   "id": "t027-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Qui a du sang de Númenor ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aragorn",
+    "Faramir",
+    "Boromir",
+    "Théoden",
+    "Bard"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "La maison des intendants descend des Númenóréens ; Théoden et Bard sont des Hommes du Nord.",
+   "id": "t027-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels orques apparaissent dans Le Seigneur des Anneaux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Uglúk",
+    "Grishnákh",
+    "Shagrat",
+    "Azog",
+    "Bolg"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Azog et Bolg appartiennent à l’époque du Hobbit et de la guerre des Nains.",
+   "id": "t027-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels noms désignent des peuples elfiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Noldor",
+    "Sindar",
+    "Elfes sylvains",
+    "Edain",
+    "Drúedain"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Edain et les Drúedain sont des Hommes.",
+   "id": "t027-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels êtres sont des Maiar ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gandalf",
+    "Sauron",
+    "Le Balrog",
+    "Elrond",
+    "Aragorn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Maiar sont des esprits venus d’avant la création du monde.",
+   "id": "t027-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples d’Hommes combattent pour Sauron ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Haradrim",
+    "Orientaux",
+    "Corsaires d’Umbar",
+    "Rohirrim",
+    "Hommes de Dol Amroth"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Le Gondor affronte à la fois le Mordor et ces alliés venus du sud et de l’est.",
+   "id": "t027-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures ne supportent pas la lumière du soleil ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Trolls de pierre",
+    "Gobelins des montagnes",
+    "Uruk-hai",
+    "Olog-hai"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. R. R. Tolkien, The Hobbit (1937)",
+   "expl": "Sauron et Saruman ont cherché à créer des serviteurs capables de combattre le jour.",
+   "id": "t027-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels Nains participent à la quête d’Erebor ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Thorin",
+    "Balin",
+    "Glóin",
+    "Gimli",
+    "Dáin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Gimli, trop jeune, n’était pas du voyage ; Dáin n’arrive qu’à la bataille.",
+   "id": "t027-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces êtres du plus petit au plus grand.",
+   "items": [
+    "Hobbit",
+    "Nain",
+    "Homme",
+    "Troll",
+    "Ent"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les Ents mesurent environ quatorze pieds, plus de quatre mètres.",
+   "id": "t027-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces hobbits du plus jeune au plus âgé pendant la quête.",
+   "items": [
+    "Pippin",
+    "Merry",
+    "Sam",
+    "Frodon"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendices A et B",
+   "expl": "28, 36, 38 et 50 ans en 3018 : Pippin n’est même pas majeur.",
+   "id": "t027-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces peuples selon leur durée de vie habituelle, de la plus courte à la plus longue.",
+   "items": [
+    "Homme ordinaire",
+    "Hobbit",
+    "Nain",
+    "Elfe"
+   ],
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980)",
+   "expl": "Les hobbits vivent environ cent ans, les Nains environ deux cent cinquante, les Elfes ne meurent pas de vieillesse.",
+   "id": "t027-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces Istari du plus haut au plus bas rang initial.",
+   "items": [
+    "Saruman",
+    "Gandalf",
+    "Radagast"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Saruman était le chef de l’ordre ; Radagast avait le moins d’influence.",
+   "id": "t027-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de l’histoire des Nains de Durin par ordre chronologique.",
+   "items": [
+    "Réveil du Balrog",
+    "Arrivée de Smaug à Erebor",
+    "Bataille d’Azanulbizar",
+    "Reconquête d’Erebor"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "1980, 2770, 2799 et 2941 du Troisième Âge.",
+   "id": "t027-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la vie de Gollum dans l’ordre.",
+   "items": [
+    "Meurtre de Déagol",
+    "Vie sous les Monts Brumeux",
+    "Jeu d’énigmes avec Bilbo",
+    "Chute dans la Crevasse du Destin"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Gollum porte l’Anneau près de cinq cents ans.",
+   "id": "t027-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la campagne des Ents dans l’ordre.",
+   "items": [
+    "Arrivée de Merry et Pippin",
+    "Entmoot",
+    "Marche sur Isengard",
+    "Inondation d’Isengard"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Ents détournent l’Isen pour noyer les forges de Saruman.",
+   "id": "t027-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces rois du Rohan dans l’ordre de leur règne.",
+   "items": [
+    "Eorl",
+    "Brego",
+    "Helm",
+    "Théoden"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Brego est le 2e roi, Helm le 9e et Théoden le 17e.",
+   "id": "t027-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces Nains dans l’ordre de succession de la lignée de Durin.",
+   "items": [
+    "Thrór",
+    "Thráin",
+    "Thorin",
+    "Dáin"
+   ],
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954)",
+   "expl": "À la mort de Thorin, son cousin Dáin devient Roi sous la Montagne.",
+   "id": "t027-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces êtres dans l’ordre où ils apparaissent dans La Communauté de l’Anneau.",
+   "items": [
+    "Les Cavaliers noirs",
+    "Tom Bombadil",
+    "Le Guetteur de l’eau",
+    "Le Balrog"
+   ],
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954)",
+   "expl": "Le Guetteur attaque devant les portes de la Moria, le Balrog surgit à l’intérieur.",
+   "id": "t027-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque personnage à son peuple.",
+   "paires": [
+    [
+     "Legolas",
+     "Elfes"
+    ],
+    [
+     "Gimli",
+     "Nains"
+    ],
+    [
+     "Éomer",
+     "Rohirrim"
+    ],
+    [
+     "Aragorn",
+     "Dúnedain"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980)",
+   "expl": "La Communauté et ses alliés réunissent presque tous les Peuples libres.",
+   "id": "t027-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Istar à sa couleur.",
+   "paires": [
+    [
+     "Saruman",
+     "Blanc"
+    ],
+    [
+     "Gandalf",
+     "Gris"
+    ],
+    [
+     "Radagast",
+     "Brun"
+    ],
+    [
+     "Alatar et Pallando",
+     "Bleu"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, prologue",
+   "expl": "Gandalf devient le Blanc après sa mort et son retour.",
+   "id": "t027-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lignée de hobbits à son goût.",
+   "paires": [
+    [
+     "Pieds-Velus",
+     "Les collines et les terriers"
+    ],
+    [
+     "Forts",
+     "L’eau et les bateaux"
+    ],
+    [
+     "Pâles",
+     "Les bois et l’aventure"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les Pâles sont les plus grands et les plus clairs de peau.",
+   "id": "t027-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque emblème à son maître.",
+   "paires": [
+    [
+     "Main blanche",
+     "Saruman"
+    ],
+    [
+     "Œil rouge",
+     "Sauron"
+    ],
+    [
+     "Lune au visage de mort",
+     "Minas Morgul"
+    ],
+    [
+     "Cheval blanc",
+     "Rohan"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les emblèmes permettent d’identifier les armées sur le champ de bataille.",
+   "id": "t027-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque orque à son camp.",
+   "paires": [
+    [
+     "Uglúk",
+     "Isengard"
+    ],
+    [
+     "Grishnákh",
+     "Barad-dûr"
+    ],
+    [
+     "Shagrat",
+     "Cirith Ungol"
+    ],
+    [
+     "Bolg",
+     "Monts Brumeux"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les orques des différents camps se méprisent et se battent entre eux.",
+   "id": "t027-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature à sa victime célèbre.",
+   "paires": [
+    [
+     "Balrog",
+     "Gandalf"
+    ],
+    [
+     "Arachné",
+     "Frodon"
+    ],
+    [
+     "Roi-Sorcier",
+     "Théoden"
+    ],
+    [
+     "Azog",
+     "Thrór"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Gandalf revient de la mort ; Frodon n’était qu’engourdi par le venin.",
+   "id": "t027-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque nom à sa description.",
+   "paires": [
+    [
+     "Sylvebarbe",
+     "Le plus vieil Ent"
+    ],
+    [
+     "Vif-Sorbier",
+     "Un Ent impulsif"
+    ],
+    [
+     "Huorns",
+     "Arbres à demi éveillés"
+    ],
+    [
+     "Vieil Homme Saule",
+     "Arbre malveillant"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Tous les arbres éveillés ne sont pas bienveillants envers les voyageurs.",
+   "id": "t027-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque peuple à sa langue.",
+   "paires": [
+    [
+     "Elfes",
+     "Sindarin et quenya"
+    ],
+    [
+     "Nains",
+     "Khuzdul"
+    ],
+    [
+     "Serviteurs de Barad-dûr",
+     "Parler noir"
+    ],
+    [
+     "Rohirrim",
+     "Rohirric"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Le westron, ou parler commun, sert de langue d’échange entre tous.",
+   "id": "t027-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature à sa faiblesse.",
+   "paires": [
+    [
+     "Trolls de pierre",
+     "Le soleil"
+    ],
+    [
+     "Nazgûl",
+     "Le feu"
+    ],
+    [
+     "Arachné",
+     "La lumière de la fiole"
+    ],
+    [
+     "Smaug",
+     "Une plaque nue sur la poitrine"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Même les plus terribles adversaires ont un point faible.",
+   "id": "t027-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Nain à sa place dans l’histoire.",
+   "paires": [
+    [
+     "Glóin",
+     "Père de Gimli"
+    ],
+    [
+     "Balin",
+     "Seigneur de la Moria"
+    ],
+    [
+     "Dáin",
+     "Roi sous la Montagne"
+    ],
+    [
+     "Thrór",
+     "Grand-père de Thorin"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Balin tente de reprendre la Moria en 2989 ; sa colonie disparaît en cinq ans.",
+   "id": "t027-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis le plus vieux berger des arbres\n2. Je parle très lentement\n3. J’accueille deux hobbits",
+   "choix": [
+    "Sylvebarbe",
+    "Vif-Sorbier",
+    "Tom Bombadil",
+    "Le Vieil Homme Saule"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Il dit qu’il ne faut jamais se presser, sauf pour défendre ses arbres.",
+   "id": "t027-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis le Seigneur des Vents\n2. J’ai sauvé Gandalf d’Orthanc\n3. Je l’ai retrouvé sur un sommet après le Balrog",
+   "choix": [
+    "Gwaihir",
+    "Thorondor",
+    "Gripoil",
+    "Landroval"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Avec son frère Landroval, il emporte aussi Frodon et Sam de la Montagne du Destin.",
+   "id": "t027-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis le capitaine des Neuf\n2. J’ai régné sur Angmar\n3. Aucun homme ne peut me tuer",
+   "choix": [
+    "Le Roi-Sorcier",
+    "Khamûl",
+    "La Bouche de Sauron",
+    "Gothmog"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Il brise de sa masse la porte de Minas Tirith.",
+   "id": "t027-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un Homme de Númenor tombé dans l’ombre\n2. J’ai oublié mon nom\n3. Je parle pour mon maître à la Porte Noire",
+   "choix": [
+    "La Bouche de Sauron",
+    "Le Roi-Sorcier",
+    "Gríma",
+    "Saruman"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Gandalf rejette ses conditions et reprend la cotte de mithril de Frodon.",
+   "id": "t027-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un magicien\n2. Je parle aux bêtes\n3. Ma robe est brune",
+   "choix": [
+    "Radagast",
+    "Saruman",
+    "Gandalf",
+    "Alatar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Il vit à Rhosgobel, en lisière de la Forêt Noire.",
+   "id": "t027-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un démon de feu et d’ombre\n2. Je dormais sous la Moria\n3. Les Nains m’appellent leur Fléau",
+   "choix": [
+    "Le Balrog",
+    "Smaug",
+    "Arachné",
+    "Le Guetteur de l’eau"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Gandalf le poursuit jusqu’au sommet du Zirakzigil, où il le terrasse.",
+   "id": "t027-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un guerrier d’Isengard\n2. Je marche au soleil\n3. Une main blanche orne mon bouclier",
+   "choix": [
+    "Un Uruk-hai",
+    "Un gobelin",
+    "Un Olog-hai",
+    "Un warg"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Les Uruk-hai sont plus grands, plus forts et plus disciplinés que les orques ordinaires.",
+   "id": "t027-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Nain\n2. Mon père a suivi Thorin\n3. Une dame elfe m’a ému",
+   "choix": [
+    "Gimli",
+    "Balin",
+    "Dáin",
+    "Thorin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Gimli garde précieusement les cheveux de Galadriel enfermés dans du cristal.",
+   "id": "t027-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je vis dans un lac sombre\n2. J’ai de longs tentacules\n3. Je garde les portes de la Moria",
+   "choix": [
+    "Le Guetteur de l’eau",
+    "Arachné",
+    "Le Balrog",
+    "Gollum"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Tolkien n’a jamais précisé sa nature exacte.",
+   "id": "t027-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Nous sommes des oiseaux noirs\n2. Nous espionnons pour Saruman\n3. Nous venons du Pays de Dun",
+   "choix": [
+    "Les crebain",
+    "Les Aigles",
+    "Les grives",
+    "Les bêtes ailées"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Leur vol en nuée force la Communauté à se cacher près de la Houssaye.",
+   "id": "t027-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Nous aimons manger six fois par jour\n2. Nous marchons pieds nus\n3. Nous vivons dans des trous",
+   "choix": [
+    "Les hobbits",
+    "Les Nains",
+    "Les Ents",
+    "Les Drúedain"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Leurs pieds ont une semelle de cuir naturelle et sont couverts de poils bouclés.",
+   "id": "t027-140",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**26 / 99 thèmes terminés — 3738 questions au total.**
+**27 / 99 thèmes terminés — 3878 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -32,7 +32,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 24 | Tolkien : thèmes et philosophie | 140 | 49 | 19 (10) | 8 | 12 | 11 | 10 | 10 | 10 | 11 | 49 % | 26/91/23 | 44 | terminé |
 | 25 | Le Hobbit et Le Seigneur des Anneaux | 142 | 49 | 19 (10) | 9 | 13 | 10 | 10 | 10 | 10 | 12 | 48 % | 36/91/15 | 6 | terminé |
 | 26 | Géographie de la Terre du Milieu | 140 | 51 | 18 (9) | 7 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 34/82/24 | 5 | terminé |
-| 27 | Peuples Libres et forces de l’Ombre | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 27 | Peuples Libres et forces de l’Ombre | 140 | 51 | 18 (9) | 7 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 31/84/25 | 21 | terminé |
 | 28 | Énigmes, citations et devises de Tolkien | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 29 | Magie, artefacts et Anneaux de Pouvoir | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 30 | Tolkien à l’écran | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
