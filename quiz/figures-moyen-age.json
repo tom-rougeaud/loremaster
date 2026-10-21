@@ -1,0 +1,2020 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "figures-moyen-age",
+  "nom": "Grandes figures du Moyen Âge",
+  "royaume": "Le Moyen Âge historique",
+  "icone": "couronne",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville Clovis est-il baptisé, selon la tradition ?",
+   "choix": [
+    "Reims",
+    "Paris",
+    "Soissons",
+    "Tours"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "L’évêque Remi le baptise ; la date exacte, autour de l’an 500, reste discutée.",
+   "id": "t061-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet est au cœur de l’anecdote du « vase de Soissons » ?",
+   "choix": [
+    "Un vase pris lors d’un pillage",
+    "Une coupe offerte par le pape",
+    "Une urne funéraire royale",
+    "Un vase rempli d’or"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Clovis venge plus tard l’affront d’un guerrier qui l’avait brisé d’un coup de hache.",
+   "id": "t061-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jour Charlemagne est-il couronné empereur à Rome ?",
+   "choix": [
+    "Le jour de Noël de l’an 800",
+    "Le jour de Pâques de l’an 800",
+    "Le 14 juillet 789",
+    "Le 1er janvier 814"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Le pape Léon III pose la couronne sur sa tête dans la basilique Saint-Pierre.",
+   "id": "t061-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville Charlemagne choisit-il comme résidence principale ?",
+   "choix": [
+    "Aix-la-Chapelle",
+    "Paris",
+    "Rome",
+    "Ratisbonne"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il y fait bâtir une chapelle palatine octogonale, où il est enterré.",
+   "id": "t061-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel savant anglo-saxon dirige l’école du palais de Charlemagne ?",
+   "choix": [
+    "Alcuin",
+    "Bède le Vénérable",
+    "Éginhard",
+    "Raban Maur"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il participe à la réforme de l’écriture, la minuscule caroline.",
+   "id": "t061-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle nouvelle écriture claire se répand sous Charlemagne ?",
+   "choix": [
+    "La minuscule caroline",
+    "L’onciale",
+    "La gothique",
+    "La cursive romaine"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Elle a inspiré les caractères d’imprimerie que nous lisons encore.",
+   "id": "t061-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi anglo-saxon résiste aux Vikings et est surnommé « le Grand » ?",
+   "choix": [
+    "Alfred",
+    "Harold",
+    "Æthelred",
+    "Edgar"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Selon la légende, réfugié chez une paysanne, il laisse brûler des galettes.",
+   "id": "t061-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle relique Saint Louis fait-il installer dans la Sainte-Chapelle ?",
+   "choix": [
+    "La couronne d’épines",
+    "Le Saint Graal",
+    "La lance de Longinus",
+    "Le saint suaire"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il l’achète à l’empereur de Constantinople pour une somme colossale.",
+   "id": "t061-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sous quel arbre Saint Louis rend-il la justice, selon Joinville ?",
+   "choix": [
+    "Un chêne de Vincennes",
+    "Un tilleul de Paris",
+    "Un orme de Reims",
+    "Un platane de Tours"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Joinville, son ami, écrit sa vie quelques décennies après sa mort.",
+   "id": "t061-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où meurt Saint Louis pendant la huitième croisade, en 1270 ?",
+   "choix": [
+    "Devant Tunis",
+    "À Jérusalem",
+    "À Damiette",
+    "À Acre"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il meurt d’une épidémie, sans doute la dysenterie, dans son camp.",
+   "id": "t061-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle reine épouse successivement le roi de France Louis VII et le roi d’Angleterre Henri II ?",
+   "choix": [
+    "Aliénor d’Aquitaine",
+    "Blanche de Castille",
+    "Anne de Bretagne",
+    "Isabelle de France"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Elle est la mère de Richard Cœur de Lion et de Jean sans Terre.",
+   "id": "t061-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle reine de France est régente pendant la minorité de son fils Saint Louis ?",
+   "choix": [
+    "Blanche de Castille",
+    "Aliénor d’Aquitaine",
+    "Isabeau de Bavière",
+    "Marguerite de Provence"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Elle gouverne avec fermeté face aux grands barons révoltés.",
+   "id": "t061-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui retient Richard Cœur de Lion prisonnier au retour de la croisade ?",
+   "choix": [
+    "Le duc Léopold d’Autriche",
+    "Philippe Auguste",
+    "Saladin",
+    "Le pape"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il est livré à l’empereur Henri VI, qui exige une énorme rançon.",
+   "id": "t061-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ménestrel aurait retrouvé Richard Cœur de Lion en chantant sous les murs de sa prison ?",
+   "choix": [
+    "Blondel",
+    "Taillefer",
+    "Rutebeuf",
+    "Jean Bodel"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Cette jolie légende apparaît des décennies après les faits.",
+   "id": "t061-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel sultan reprend Jérusalem aux croisés en 1187 ?",
+   "choix": [
+    "Saladin",
+    "Baybars",
+    "Mehmed II",
+    "Nur ad-Din"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Sa victoire de Hattin, la même année, anéantit l’armée du royaume de Jérusalem.",
+   "id": "t061-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel empereur germanique se noie en Cilicie pendant la troisième croisade ?",
+   "choix": [
+    "Frédéric Barberousse",
+    "Frédéric II",
+    "Henri VI",
+    "Otton IV"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Une légende dit qu’il dort dans une montagne, attendant de revenir.",
+   "id": "t061-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel conquérant unifie les tribus mongoles en 1206 ?",
+   "choix": [
+    "Gengis Khan",
+    "Kubilaï Khan",
+    "Tamerlan",
+    "Attila"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Son empire devient le plus vaste empire continu de l’histoire.",
+   "id": "t061-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel voyageur vénitien dicte le récit de ses voyages en Chine dans une prison de Gênes ?",
+   "choix": [
+    "Marco Polo",
+    "Christophe Colomb",
+    "Jean de Mandeville",
+    "Guillaume de Rubrouck"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Son compagnon de cellule, Rustichello de Pise, rédige le Devisement du monde.",
+   "id": "t061-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel voyageur marocain parcourt près de cent vingt mille kilomètres au 14e siècle ?",
+   "choix": [
+    "Ibn Battuta",
+    "Ibn Khaldoun",
+    "Averroès",
+    "Al-Idrissi"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il visite l’Afrique, l’Inde et la Chine pendant près de trente ans.",
+   "id": "t061-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel empereur du Mali éblouit Le Caire par son or lors de son pèlerinage à La Mecque, en 1324 ?",
+   "choix": [
+    "Mansa Musa",
+    "Soundiata Keïta",
+    "Askia Mohammed",
+    "Sonni Ali"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il distribue tant d’or que son cours aurait baissé en Égypte pendant des années.",
+   "id": "t061-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quel village de Lorraine naît Jeanne d’Arc ?",
+   "choix": [
+    "Domrémy",
+    "Vaucouleurs",
+    "Chinon",
+    "Orléans"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Elle y entend, vers treize ans, des voix qui lui confient une mission.",
+   "id": "t061-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville Jeanne d’Arc rencontre-t-elle le dauphin Charles en 1429 ?",
+   "choix": [
+    "Chinon",
+    "Reims",
+    "Bourges",
+    "Tours"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Selon la tradition, elle le reconnaît caché parmi ses courtisans.",
+   "id": "t061-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Charles VII est-il sacré en juillet 1429, en présence de Jeanne d’Arc ?",
+   "choix": [
+    "Reims",
+    "Paris",
+    "Saint-Denis",
+    "Orléans"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Les rois de France sont traditionnellement sacrés dans cette cathédrale.",
+   "id": "t061-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Où Jeanne d’Arc est-elle capturée en 1430 ?",
+   "choix": [
+    "Compiègne",
+    "Rouen",
+    "Paris",
+    "Orléans"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Les Bourguignons la vendent aux Anglais.",
+   "id": "t061-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville Jeanne d’Arc est-elle brûlée en 1431 ?",
+   "choix": [
+    "Rouen",
+    "Paris",
+    "Reims",
+    "Orléans"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Son procès est conduit par l’évêque Pierre Cauchon.",
+   "id": "t061-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi de France est surnommé « l’universelle aragne » pour ses intrigues ?",
+   "choix": [
+    "Louis XI",
+    "Charles VII",
+    "Philippe le Bel",
+    "Louis XII"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il préfère la ruse et la diplomatie à la guerre.",
+   "id": "t061-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle écrivaine, veuve à vingt-cinq ans, vit de sa plume et écrit La Cité des dames ?",
+   "choix": [
+    "Christine de Pizan",
+    "Marie de France",
+    "Héloïse",
+    "Marguerite de Navarre"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Elle défend les femmes face aux auteurs qui les dénigrent.",
+   "id": "t061-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle abbesse allemande du 12e siècle compose de la musique et écrit sur les plantes ?",
+   "choix": [
+    "Hildegarde de Bingen",
+    "Claire d’Assise",
+    "Catherine de Sienne",
+    "Héloïse"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Elle est proclamée docteur de l’Église en 2012.",
+   "id": "t061-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel philosophe et théologien parisien du 12e siècle vit une célèbre histoire d’amour avec Héloïse ?",
+   "choix": [
+    "Pierre Abélard",
+    "Thomas d’Aquin",
+    "Bernard de Clairvaux",
+    "Pierre Lombard"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Leur correspondance est l’une des plus célèbres du Moyen Âge.",
+   "id": "t061-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel théologien dominicain écrit la Somme théologique ?",
+   "choix": [
+    "Thomas d’Aquin",
+    "Albert le Grand",
+    "Bonaventure",
+    "Guillaume d’Ockham"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il cherche à concilier la foi chrétienne et la philosophie d’Aristote.",
+   "id": "t061-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel poète florentin écrit la Divine Comédie ?",
+   "choix": [
+    "Dante",
+    "Pétrarque",
+    "Boccace",
+    "Machiavel"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il y voyage à travers l’Enfer, le Purgatoire et le Paradis.",
+   "id": "t061-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel écrivain italien situe les cent nouvelles du Décaméron pendant la peste de 1348 ?",
+   "choix": [
+    "Boccace",
+    "Dante",
+    "Pétrarque",
+    "Arioste"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Dix jeunes gens, réfugiés à la campagne, racontent chacun une histoire par jour.",
+   "id": "t061-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel poète anglais écrit les Contes de Canterbury ?",
+   "choix": [
+    "Geoffrey Chaucer",
+    "William Langland",
+    "Thomas Malory",
+    "John Gower"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Des pèlerins se racontent des histoires en route vers la tombe de Thomas Becket.",
+   "id": "t061-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel archevêque de Canterbury est assassiné dans sa cathédrale en 1170 ?",
+   "choix": [
+    "Thomas Becket",
+    "Anselme",
+    "Lanfranc",
+    "Stephen Langton"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Le roi Henri II avait exprimé sa colère contre lui ; quatre chevaliers l’ont pris au mot.",
+   "id": "t061-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel imprimeur de Mayence imprime une célèbre Bible vers 1455 ?",
+   "choix": [
+    "Gutenberg",
+    "Caxton",
+    "Fust",
+    "Manuce"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "On l’appelle la Bible à quarante-deux lignes, par le nombre de lignes par colonne.",
+   "id": "t061-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel réformateur tchèque est brûlé au concile de Constance en 1415 ?",
+   "choix": [
+    "Jan Hus",
+    "John Wyclif",
+    "Jérôme de Prague",
+    "Jan Žižka"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Sa mort déclenche les guerres hussites en Bohême.",
+   "id": "t061-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel prince de Valachie, surnommé l’Empaleur, a inspiré le nom de Dracula ?",
+   "choix": [
+    "Vlad III",
+    "Mircea l’Ancien",
+    "Étienne le Grand",
+    "Mathias Corvin"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Son père appartenait à l’ordre du Dragon, d’où le surnom de Dracula, « fils du dragon ».",
+   "id": "t061-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chevalier castillan, surnommé le Cid, prend Valence en 1094 ?",
+   "choix": [
+    "Rodrigue Díaz de Vivar",
+    "Alphonse VI",
+    "Ferdinand III",
+    "Pélage"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il inspire le Cantar de mio Cid, puis la pièce de Corneille.",
+   "id": "t061-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel riche marchand devient l’argentier du roi Charles VII ?",
+   "choix": [
+    "Jacques Cœur",
+    "Étienne Marcel",
+    "Nicolas Flamel",
+    "Jean Ango"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Son magnifique palais se visite encore à Bourges.",
+   "id": "t061-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel abbé de Saint-Denis fait reconstruire son église, berceau de l’art gothique ?",
+   "choix": [
+    "Suger",
+    "Bernard de Clairvaux",
+    "Maurice de Sully",
+    "Abélard"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il veut une église pleine de lumière, grâce à de grands vitraux.",
+   "id": "t061-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chef de la première croisade refuse le titre de roi de Jérusalem ?",
+   "choix": [
+    "Godefroy de Bouillon",
+    "Raymond de Saint-Gilles",
+    "Bohémond de Tarente",
+    "Baudouin de Boulogne"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, Saint Louis (Gallimard) ; R. Pernoud, Jeanne d’Arc (Seuil) ; G. Duby, Guillaume le Maréchal ; J. Favier, Charlemagne (Fayard) ; Encyclopædia Universalis, notices biographiques",
+   "expl": "Il prend le titre d’« avoué du Saint-Sépulcre », ne voulant pas porter couronne d’or là où le Christ avait porté couronne d’épines.",
+   "id": "t061-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Charlemagne a été couronné empereur par le pape.",
+   "rep": true,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Le pape Léon III le couronne à Rome, le 25 décembre 800.",
+   "id": "t061-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Charlemagne a inventé l’école.",
+   "rep": false,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Faux : il a encouragé l’enseignement, mais les écoles existaient avant lui.",
+   "id": "t061-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Saint Louis a participé à deux croisades.",
+   "rep": true,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "La septième en Égypte, la huitième à Tunis, où il meurt.",
+   "id": "t061-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Aliénor d’Aquitaine a été reine de France et reine d’Angleterre.",
+   "rep": true,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Elle meurt à plus de quatre-vingts ans, à l’abbaye de Fontevraud.",
+   "id": "t061-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Saladin a pris Jérusalem en 1099.",
+   "rep": false,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Faux : il la reprend en 1187 ; en 1099, ce sont les croisés qui la prennent.",
+   "id": "t061-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gengis Khan a conquis la Chine entière de son vivant.",
+   "rep": false,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Faux : la conquête est achevée par son petit-fils Kubilaï, en 1279.",
+   "id": "t061-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Jeanne d’Arc a été canonisée en 1920.",
+   "rep": true,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Elle avait été réhabilitée dès 1456, lors d’un second procès.",
+   "id": "t061-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Marco Polo a écrit lui-même son livre de voyages.",
+   "rep": false,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Faux : il l’a dicté à Rustichello de Pise, en prison.",
+   "id": "t061-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dante est l’auteur de la Divine Comédie.",
+   "rep": true,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Il l’écrit en toscan, la langue du peuple, et non en latin.",
+   "id": "t061-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Mansa Musa était un souverain du Mali.",
+   "rep": true,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Son règne marque l’apogée de l’empire du Mali au 14e siècle.",
+   "id": "t061-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Thomas Becket a été assassiné dans sa cathédrale.",
+   "rep": true,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Il est canonisé dès 1173 ; sa tombe devient un grand lieu de pèlerinage.",
+   "id": "t061-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Christine de Pizan est née à Paris.",
+   "rep": false,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Faux : elle est née à Venise et arrive enfant à la cour de Charles V.",
+   "id": "t061-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gutenberg est italien.",
+   "rep": false,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Faux : il est allemand, de Mayence, sur les bords du Rhin.",
+   "id": "t061-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Godefroy de Bouillon a refusé le titre de roi de Jérusalem.",
+   "rep": true,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier",
+   "expl": "Son frère Baudouin, lui, accepte la couronne après sa mort.",
+   "id": "t061-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Charlemagne est-il couronné empereur ?",
+   "rep": 800,
+   "min": 700,
+   "max": 900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier",
+   "expl": "Il règne sur un empire qui va de l’Elbe à l’Èbre.",
+   "id": "t061-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année meurt Saint Louis ?",
+   "rep": 1270,
+   "min": 1200,
+   "max": 1350,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier",
+   "expl": "Il est canonisé dès 1297, sous le règne de son petit-fils Philippe le Bel.",
+   "id": "t061-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Saladin reprend-il Jérusalem ?",
+   "rep": 1187,
+   "min": 1099,
+   "max": 1250,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier",
+   "expl": "La nouvelle provoque la troisième croisade.",
+   "id": "t061-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Jeanne d’Arc est-elle brûlée à Rouen ?",
+   "rep": 1431,
+   "min": 1400,
+   "max": 1453,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier",
+   "expl": "Elle a environ dix-neuf ans ; ses cendres sont jetées dans la Seine.",
+   "id": "t061-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Gengis Khan est-il proclamé souverain des Mongols ?",
+   "rep": 1206,
+   "min": 1100,
+   "max": 1300,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier",
+   "expl": "Il est proclamé lors d’une grande assemblée, le kouriltaï.",
+   "id": "t061-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Mansa Musa fait-il son célèbre pèlerinage ?",
+   "rep": 1324,
+   "min": 1200,
+   "max": 1450,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier",
+   "expl": "Son voyage le fait figurer sur l’Atlas catalan de 1375, tenant une pépite d’or.",
+   "id": "t061-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Thomas Becket est-il assassiné ?",
+   "rep": 1170,
+   "min": 1100,
+   "max": 1250,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier",
+   "expl": "Henri II fait pénitence sur sa tombe quatre ans plus tard.",
+   "id": "t061-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Jan Hus est-il brûlé à Constance ?",
+   "rep": 1415,
+   "min": 1350,
+   "max": 1500,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier",
+   "expl": "On lui avait pourtant promis un sauf-conduit.",
+   "id": "t061-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’empereur couronné à Noël de l’an 800 s’appelle ____.",
+   "choix": [
+    "Charlemagne",
+    "Clovis",
+    "Charles Martel",
+    "Pépin le Bref"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Son nom signifie « Charles le Grand », du latin Carolus Magnus.",
+   "id": "t061-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La résidence favorite de Charlemagne est Aix-la-____.",
+   "choix": [
+    "Chapelle",
+    "Ville",
+    "Cité",
+    "Couronne"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Elle s’appelle aujourd’hui Aachen, en Allemagne.",
+   "id": "t061-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’édifice parisien bâti pour abriter la couronne d’épines s’appelle la Sainte-____.",
+   "choix": [
+    "Chapelle",
+    "Couronne",
+    "Croix",
+    "Église"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Ses vitraux comptent parmi les plus beaux du gothique rayonnant.",
+   "id": "t061-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La reine mère de Richard Cœur de Lion s’appelle Aliénor d’____.",
+   "choix": [
+    "Aquitaine",
+    "Anjou",
+    "Autriche",
+    "Arles"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Elle gouverne l’Angleterre pendant la captivité de son fils.",
+   "id": "t061-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sultan qui reprend Jérusalem en 1187 s’appelle ____.",
+   "choix": [
+    "Saladin",
+    "Baybars",
+    "Soliman",
+    "Mehmed"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Il est respecté jusque chez ses ennemis pour sa générosité.",
+   "id": "t061-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le conquérant mongol s’appelle Gengis ____.",
+   "choix": [
+    "Khan",
+    "Bey",
+    "Shah",
+    "Pacha"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Son nom de naissance est Temüdjin ; son titre signifierait « souverain universel ».",
+   "id": "t061-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le voyageur vénitien qui raconte la Chine s’appelle Marco ____.",
+   "choix": [
+    "Polo",
+    "Pisani",
+    "Zeno",
+    "Conti"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Il dit avoir servi Kubilaï Khan pendant dix-sept ans.",
+   "id": "t061-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le village natal de Jeanne d’Arc s’appelle ____.",
+   "choix": [
+    "Domrémy",
+    "Vaucouleurs",
+    "Chinon",
+    "Compiègne"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Sa maison natale se visite encore, dans les Vosges actuelles.",
+   "id": "t061-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’auteur de La Cité des dames s’appelle Christine de ____.",
+   "choix": [
+    "Pizan",
+    "France",
+    "Navarre",
+    "Poitiers"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Elle écrit aussi un poème à la gloire de Jeanne d’Arc, en 1429.",
+   "id": "t061-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le poète de la Divine Comédie s’appelle ____.",
+   "choix": [
+    "Dante",
+    "Virgile",
+    "Pétrarque",
+    "Boccace"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Le poète latin Virgile est son guide en Enfer et au Purgatoire.",
+   "id": "t061-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’auteur des Contes de Canterbury s’appelle Geoffrey ____.",
+   "choix": [
+    "Chaucer",
+    "Malory",
+    "Langland",
+    "Gower"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "On le considère comme le père de la littérature anglaise.",
+   "id": "t061-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’imprimeur de Mayence s’appelle Johannes ____.",
+   "choix": [
+    "Gutenberg",
+    "Fust",
+    "Schöffer",
+    "Caxton"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Il perd son atelier au profit de son associé, à qui il devait de l’argent.",
+   "id": "t061-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le prince de Valachie surnommé l’Empaleur s’appelle Vlad ____.",
+   "choix": [
+    "III",
+    "II",
+    "Ier",
+    "IV"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Bram Stoker emprunte son surnom pour son vampire, en 1897.",
+   "id": "t061-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un roi de France ?",
+   "choix": [
+    "Richard Cœur de Lion",
+    "Saint Louis",
+    "Philippe Auguste",
+    "Louis XI"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Richard est roi d’Angleterre, même s’il parle surtout français.",
+   "id": "t061-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces femmes n’a pas été reine ?",
+   "choix": [
+    "Christine de Pizan",
+    "Aliénor d’Aquitaine",
+    "Blanche de Castille",
+    "Anne de Bretagne"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Christine de Pizan est une écrivaine, jamais couronnée.",
+   "id": "t061-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’est pas italien ?",
+   "choix": [
+    "Chaucer",
+    "Dante",
+    "Boccace",
+    "Pétrarque"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Chaucer est anglais, mais il connaissait bien l’œuvre des Italiens.",
+   "id": "t061-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces voyageurs n’a pas écrit sur l’Asie ?",
+   "choix": [
+    "Mansa Musa",
+    "Marco Polo",
+    "Ibn Battuta",
+    "Guillaume de Rubrouck"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Mansa Musa est un empereur du Mali, célèbre pour son pèlerinage.",
+   "id": "t061-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux n’est pas lié à Jeanne d’Arc ?",
+   "choix": [
+    "Aix-la-Chapelle",
+    "Domrémy",
+    "Chinon",
+    "Rouen"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Aix-la-Chapelle est la résidence de Charlemagne.",
+   "id": "t061-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a pas participé aux croisades ?",
+   "choix": [
+    "Charlemagne",
+    "Saint Louis",
+    "Richard Cœur de Lion",
+    "Frédéric Barberousse"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Charlemagne meurt en 814, bien avant la première croisade.",
+   "id": "t061-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces savants n’est pas un théologien ?",
+   "choix": [
+    "Gutenberg",
+    "Thomas d’Aquin",
+    "Abélard",
+    "Albert le Grand"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Gutenberg est un orfèvre et imprimeur, et non un homme d’Église.",
+   "id": "t061-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a pas été brûlé vif ?",
+   "choix": [
+    "Thomas Becket",
+    "Jeanne d’Arc",
+    "Jan Hus",
+    "Jacques de Molay"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Thomas Becket a été tué à l’épée par quatre chevaliers.",
+   "id": "t061-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces souverains n’est pas mongol ou turco-mongol ?",
+   "choix": [
+    "Saladin",
+    "Gengis Khan",
+    "Kubilaï Khan",
+    "Tamerlan"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Saladin est un sultan d’origine kurde, fondateur de la dynastie ayyoubide.",
+   "id": "t061-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces écrivains n’a pas écrit au Moyen Âge ?",
+   "choix": [
+    "Molière",
+    "Dante",
+    "Chaucer",
+    "Christine de Pizan"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Molière écrit au 17e siècle, sous Louis XIV.",
+   "id": "t061-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels personnages sont des rois ou empereurs francs ou français ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Clovis",
+    "Charlemagne",
+    "Saint Louis",
+    "Louis XI",
+    "Alfred",
+    "Saladin"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Alfred est anglo-saxon, Saladin sultan d’Égypte et de Syrie.",
+   "id": "t061-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels lieux sont liés à Jeanne d’Arc ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Domrémy",
+    "Chinon",
+    "Reims",
+    "Rouen",
+    "Aix-la-Chapelle",
+    "Canterbury"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Elle traverse la France en à peine deux ans d’épopée.",
+   "id": "t061-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels écrivains sont italiens ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dante",
+    "Pétrarque",
+    "Boccace",
+    "Chaucer",
+    "Christine de Pizan"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Christine de Pizan, née à Venise, écrit pourtant en français.",
+   "id": "t061-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages ont voyagé très loin de chez eux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Marco Polo",
+    "Ibn Battuta",
+    "Mansa Musa",
+    "Louis XI",
+    "Suger"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Les grands voyages relient l’Europe, l’Afrique et l’Asie.",
+   "id": "t061-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles femmes ont marqué le Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aliénor d’Aquitaine",
+    "Hildegarde de Bingen",
+    "Christine de Pizan",
+    "Jeanne d’Arc",
+    "Marie Curie",
+    "Marie-Antoinette"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Marie Curie et Marie-Antoinette vivent bien plus tard.",
+   "id": "t061-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages ont participé aux croisades ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Godefroy de Bouillon",
+    "Richard Cœur de Lion",
+    "Saint Louis",
+    "Frédéric Barberousse",
+    "Charlemagne",
+    "Gutenberg"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Les croisades s’étalent de 1095 à 1291, date de la chute d’Acre.",
+   "id": "t061-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels théologiens ou philosophes sont médiévaux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Thomas d’Aquin",
+    "Abélard",
+    "Albert le Grand",
+    "Descartes",
+    "Kant"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Descartes et Kant appartiennent aux Temps modernes.",
+   "id": "t061-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des souverains musulmans ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Saladin",
+    "Mansa Musa",
+    "Mehmed II",
+    "Gengis Khan",
+    "Charlemagne"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Gengis Khan pratiquait la religion traditionnelle des Mongols.",
+   "id": "t061-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages ont été canonisés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Saint Louis",
+    "Jeanne d’Arc",
+    "Thomas Becket",
+    "Thomas d’Aquin",
+    "Abélard",
+    "Jan Hus"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Jan Hus est condamné comme hérétique par le concile de Constance.",
+   "id": "t061-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles œuvres sont médiévales ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Divine Comédie",
+    "Décaméron",
+    "Contes de Canterbury",
+    "Cité des dames",
+    "Les Misérables",
+    "Hamlet"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Hamlet date de 1600, Les Misérables de 1862.",
+   "id": "t061-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces souverains par ordre chronologique.",
+   "items": [
+    "Clovis",
+    "Charlemagne",
+    "Hugues Capet",
+    "Saint Louis",
+    "Louis XI"
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Du 5e au 15e siècle, ils jalonnent l’histoire de la France.",
+   "id": "t061-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la vie de Jeanne d’Arc dans l’ordre.",
+   "items": [
+    "Domrémy",
+    "Chinon",
+    "Reims",
+    "Compiègne",
+    "Rouen"
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Tout se passe en un peu plus de deux ans.",
+   "id": "t061-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces écrivains par ordre chronologique.",
+   "items": [
+    "Dante",
+    "Boccace",
+    "Chaucer",
+    "Christine de Pizan"
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Ils écrivent entre le début du 14e et le début du 15e siècle.",
+   "id": "t061-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces conquérants par ordre chronologique.",
+   "items": [
+    "Gengis Khan",
+    "Kubilaï Khan",
+    "Tamerlan",
+    "Mehmed II"
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Du 13e au 15e siècle, les empires d’Asie dominent une partie du monde.",
+   "id": "t061-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la vie d’Aliénor d’Aquitaine dans l’ordre.",
+   "items": [
+    "Duchesse d’Aquitaine",
+    "Reine de France",
+    "Reine d’Angleterre",
+    "Retraite à Fontevraud"
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Son mariage avec Henri II fait passer l’Aquitaine sous contrôle anglais.",
+   "id": "t061-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de la troisième croisade dans l’ordre.",
+   "items": [
+    "Prise de Jérusalem par Saladin",
+    "Noyade de Barberousse",
+    "Siège d’Acre",
+    "Captivité de Richard"
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Richard est capturé en 1192, sur le chemin du retour.",
+   "id": "t061-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces grands voyageurs par ordre chronologique.",
+   "items": [
+    "Marco Polo",
+    "Mansa Musa",
+    "Ibn Battuta",
+    "Christophe Colomb"
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Fin du 13e, 1324, de 1325 à 1354, puis 1492.",
+   "id": "t061-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de la vie de Saint Louis dans l’ordre.",
+   "items": [
+    "Régence de Blanche de Castille",
+    "Septième croisade",
+    "Construction de la Sainte-Chapelle",
+    "Mort devant Tunis"
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "La Sainte-Chapelle est consacrée en 1248, juste avant son départ en croisade.",
+   "id": "t061-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces personnages religieux par ordre chronologique.",
+   "items": [
+    "Bernard de Clairvaux",
+    "Thomas Becket",
+    "Thomas d’Aquin",
+    "Jan Hus"
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Ils vivent aux 12e, 13e puis 15e siècles ; Bernard précède de peu Becket.",
+   "id": "t061-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque personnage à son surnom.",
+   "paires": [
+    [
+     "Louis XI",
+     "L’universelle aragne"
+    ],
+    [
+     "Richard",
+     "Cœur de Lion"
+    ],
+    [
+     "Frédéric Ier",
+     "Barberousse"
+    ],
+    [
+     "Vlad III",
+     "L’Empaleur"
+    ]
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Les surnoms des souverains résument souvent leur réputation.",
+   "id": "t061-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque écrivain à son œuvre.",
+   "paires": [
+    [
+     "Dante",
+     "Divine Comédie"
+    ],
+    [
+     "Boccace",
+     "Décaméron"
+    ],
+    [
+     "Chaucer",
+     "Contes de Canterbury"
+    ],
+    [
+     "Christine de Pizan",
+     "La Cité des dames"
+    ]
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Ces œuvres sont écrites en langue vulgaire, et non en latin.",
+   "id": "t061-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque souverain à sa ville.",
+   "paires": [
+    [
+     "Charlemagne",
+     "Aix-la-Chapelle"
+    ],
+    [
+     "Saint Louis",
+     "Paris"
+    ],
+    [
+     "Saladin",
+     "Damas"
+    ],
+    [
+     "Mansa Musa",
+     "Niani"
+    ]
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Niani est considérée comme la capitale du Mali médiéval.",
+   "id": "t061-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque lieu à un épisode de la vie de Jeanne d’Arc.",
+   "paires": [
+    [
+     "Chinon",
+     "Rencontre du dauphin"
+    ],
+    [
+     "Reims",
+     "Sacre de Charles VII"
+    ],
+    [
+     "Compiègne",
+     "Capture"
+    ],
+    [
+     "Rouen",
+     "Bûcher"
+    ]
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Le procès de Rouen dure plusieurs mois, de janvier à mai 1431.",
+   "id": "t061-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque théologien à son œuvre ou à son histoire.",
+   "paires": [
+    [
+     "Thomas d’Aquin",
+     "Somme théologique"
+    ],
+    [
+     "Abélard",
+     "Amour pour Héloïse"
+    ],
+    [
+     "Bernard de Clairvaux",
+     "Prédication de la deuxième croisade"
+    ]
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Ces penseurs ont marqué l’université et l’Église.",
+   "id": "t061-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque voyageur à son origine.",
+   "paires": [
+    [
+     "Marco Polo",
+     "Venise"
+    ],
+    [
+     "Ibn Battuta",
+     "Tanger"
+    ],
+    [
+     "Christophe Colomb",
+     "Gênes"
+    ]
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Les Italiens et les Marocains sillonnent alors le monde connu.",
+   "id": "t061-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à sa mort.",
+   "paires": [
+    [
+     "Thomas Becket",
+     "Assassiné dans sa cathédrale"
+    ],
+    [
+     "Barberousse",
+     "Noyé en Cilicie"
+    ],
+    [
+     "Saint Louis",
+     "Mort devant Tunis"
+    ],
+    [
+     "Jeanne d’Arc",
+     "Brûlée à Rouen"
+    ]
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Leurs morts sont devenues légendaires et ont marqué leur époque.",
+   "id": "t061-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque reine à son rôle.",
+   "paires": [
+    [
+     "Blanche de Castille",
+     "Régente"
+    ],
+    [
+     "Aliénor d’Aquitaine",
+     "Reine de deux royaumes"
+    ],
+    [
+     "Anne de Bretagne",
+     "Duchesse et deux fois reine de France"
+    ]
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Ces femmes ont exercé un pouvoir réel, malgré les obstacles de leur temps.",
+   "id": "t061-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque figure à sa contribution.",
+   "paires": [
+    [
+     "Gutenberg",
+     "Imprimerie"
+    ],
+    [
+     "Suger",
+     "Art gothique"
+    ],
+    [
+     "Alcuin",
+     "Minuscule caroline"
+    ],
+    [
+     "Hildegarde de Bingen",
+     "Musique et sciences naturelles"
+    ]
+   ],
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Le Moyen Âge est aussi une époque d’inventions et de création.",
+   "id": "t061-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un empereur\n2. On m’a couronné à Noël\n3. J’ai résidé à Aix-la-Chapelle",
+   "choix": [
+    "Charlemagne",
+    "Clovis",
+    "Otton Ier",
+    "Charles le Chauve"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Ma barbe fleurie n’est qu’une légende chantée par les poètes.",
+   "id": "t061-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un roi\n2. J’ai rendu la justice sous un chêne\n3. Je suis mort devant Tunis",
+   "choix": [
+    "Saint Louis",
+    "Philippe Auguste",
+    "Louis VII",
+    "Charles V"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Mon ami Joinville a raconté ma vie dans un livre plein d’anecdotes.",
+   "id": "t061-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une reine\n2. J’ai épousé deux rois\n3. Je suis la mère de Richard",
+   "choix": [
+    "Aliénor d’Aquitaine",
+    "Blanche de Castille",
+    "Isabeau de Bavière",
+    "Anne de Bretagne"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Je repose à Fontevraud, près de mon époux et de mon fils.",
+   "id": "t061-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sultan\n2. J’ai vaincu à Hattin\n3. J’ai repris Jérusalem",
+   "choix": [
+    "Saladin",
+    "Baybars",
+    "Nur ad-Din",
+    "Mehmed II"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "Mon nom complet est Salah ad-Din Yusuf ibn Ayyoub.",
+   "id": "t061-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une jeune fille\n2. J’ai entendu des voix\n3. J’ai fait sacrer le roi",
+   "choix": [
+    "Jeanne d’Arc",
+    "Christine de Pizan",
+    "Hildegarde",
+    "Blanche de Castille"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "On m’appelait la Pucelle d’Orléans, après ma victoire de 1429.",
+   "id": "t061-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un empereur\n2. Je suis allé à La Mecque\n3. Mon or a ébloui Le Caire",
+   "choix": [
+    "Mansa Musa",
+    "Soundiata Keïta",
+    "Saladin",
+    "Haroun al-Rachid"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "On me représente sur une carte catalane, couronné et tenant une pépite.",
+   "id": "t061-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un poète\n2. J’ai visité l’Enfer\n3. Béatrice m’a guidé au Paradis",
+   "choix": [
+    "Dante",
+    "Virgile",
+    "Pétrarque",
+    "Boccace"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "J’ai été exilé de Florence et je suis mort à Ravenne.",
+   "id": "t061-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une écrivaine\n2. J’ai vécu de ma plume\n3. J’ai défendu les femmes",
+   "choix": [
+    "Christine de Pizan",
+    "Marie de France",
+    "Héloïse",
+    "Hildegarde de Bingen"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; R. Pernoud ; J. Favier ; notices biographiques",
+   "expl": "J’ai été l’une des premières femmes de lettres professionnelles d’Europe.",
+   "id": "t061-122",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
