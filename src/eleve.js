@@ -180,6 +180,7 @@ function onMsg(m){
   if(!S.ch)return;   /* donjon quittée : on ignore les derniers messages en route */
   if(MEL.eng&&MEL_IN[m.t]){melRecv(m);return;}   /* mêlée : le créateur reçoit les messages des autres */
   if(m.to&&m.to!==S.pid)return;
+  if(S.melee&&melHook(m))return;
   if(S.melee&&(m.t==="lb"||m.t==="hb"||m.t==="q"||m.t==="rv"||m.t==="cd"||m.t==="en"||m.t==="wt")){S.lastHost=Date.now();S.hostWarn=false;}
   if(m.t==="q"||m.t==="rv"||m.t==="cd"||m.t==="en"||m.t==="ru"||m.t==="dv")markActive();
   switch(m.t){
@@ -797,6 +798,7 @@ $("go-carnet").addEventListener("click",openCarnet);
     CODE=sess.code;renderSlots();
     rejoinSess(sess,false);
   }
+  if(/[?&]melee=1/.test(location.search)&&!m&&!MEL.eng&&!(fresh&&lmConfig()&&!lmConfig().bad&&sess.code)){try{$("go-melee").click();}catch(e){}}
   try{pwaInit();}catch(e){}
   window.addEventListener("pagehide",function(){try{melSave();}catch(e){}if(S.ch)S.ch.send({t:"bye",id:S.pid});});
 })();

@@ -20,13 +20,14 @@
 @media (max-width:560px){.doors{gap:.6rem}.hero p{font-size:.95rem}}
 .door{display:block;text-decoration:none;border-radius:var(--r-lg);padding:1rem 1.1rem;box-shadow:var(--frame),var(--sh);transition:transform .15s,box-shadow .15s;position:relative;overflow:hidden;border:1px solid var(--gold);color:var(--ink)}
 .door.mj{background-color:color-mix(in srgb,var(--pg-mj) 14%,var(--card));background-image:var(--tex)}
+.door.me{grid-column:1/-1;background-color:color-mix(in srgb,#B8892F 16%,var(--card));background-image:var(--tex)}
 .door.pl{background-color:color-mix(in srgb,var(--pg-pl) 14%,var(--card));background-image:var(--tex)}
 .door:hover{transform:translateY(-3px);box-shadow:var(--frame),var(--sh-lg)}
 .door:active{transform:translateY(2px)}
 .door h2{font-size:1.45rem;margin:.3rem 0 .15rem}
 .door p{margin:0;color:var(--ink2);font-size:.92rem;line-height:1.3}
 .door .ic{width:2.6rem;height:2.6rem;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff}
-.door.mj .ic{background:var(--pg-mj)}.door.pl .ic{background:var(--pg-pl)}
+.door.me .ic{background:#B8892F}.door.me .go{background:#B8892F}.door.mj .ic{background:var(--pg-mj)}.door.pl .ic{background:var(--pg-pl)}
 .door .ic svg{width:1.5rem;height:1.5rem}
 .door .go{display:inline-flex;margin-top:.6rem;border-radius:999px;padding:.4rem .9rem;font-weight:700;color:#fff;font-size:.95rem}
 .door.mj .go{background:var(--pg-mj)}.door.pl .go{background:var(--pg-pl)}
@@ -52,9 +53,10 @@
   <div class="doors">
     <a class="door mj" href="mj.html"><span class="ic" id="ic-mj"></span><h2>Je suis MJ</h2><p>J’ouvre un donjon et je mène la partie.</p><span class="go">Espace MJ →</span></a>
     <a class="door pl" href="joueur.html"><span class="ic" id="ic-pl"></span><h2>Je suis aventurier</h2><p>Je tape le code du donjon et je joue !</p><span class="go">Rejoindre →</span></a>
+    <a class="door me" href="joueur.html?melee=1"><span class="ic" id="ic-me"></span><h2>Mêlée entre ami(e)s</h2><p>Sans MJ : chacun(e) choisit son thème, tout le monde joue et s’affronte. Un QR code suffit pour inviter.</p><span class="go">Lancer une mêlée →</span></a>
   </div>
   <div class="feats">
-    <div class="feat"><b>3 modes de jeu</b><span>Chacun sa quête, Duel de guildes, Les Aventuriers contre le MJ.</span></div>
+    <div class="feat"><b>4 modes de jeu</b><span>Chacun sa quête, Duel de guildes, Les Aventuriers contre le MJ, et la Mêlée entre ami(e)s sans MJ.</span></div>
     <div class="feat"><b>Des thèmes par royaumes</b><span>Bestiaires, mythes et légendes, jeux de rôle, cinéma et littérature de fantasy… en QCM, vrai ou faux et estimation au curseur.</span></div>
     <div class="feat"><b>Respect des joueurs</b><span>Un surnom suffit, aucun compte, aucune publicité, aucun traceur.</span></div>
   </div>
@@ -84,7 +86,7 @@
 /*@@LOOKJS@@*/
 $("brand").outerHTML=brandHtml("","index.html");
 $("biglogo").innerHTML='<img src="'+LOGO_FULL_URI+'" alt="Lore Master">';
-$("ic-mj").innerHTML=ICO.crown;$("ic-pl").innerHTML=ICO.shield;
+$("ic-mj").innerHTML=ICO.crown;$("ic-pl").innerHTML=ICO.shield;$("ic-me").innerHTML=ICO.swords;
 $("foot").innerHTML=footHtml();
 initZoom("index",$("zoom"));
 $("b-look").addEventListener("click",openLook);
