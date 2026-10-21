@@ -44,3 +44,6 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 80 : titres français des tomes de Sorcellerie ! ; mention de Project Aon.
 - Thème 81 : armes du Cluedo français selon les éditions.
 - Thème 82 : lieu de présentation de Magic (Origins 1993, Dallas) ; titres de cartes Yu-Gi-Oh! en français.
+- Thèmes 83 à 98 : noms et titres français des œuvres (films, séries, jeux, animés) selon les éditions et doublages en vigueur ; dates de sortie françaises parfois différentes des sorties d’origine.
+- Thème 97 : répliques volontairement paraphrasées (aucune citation littérale) ; vérifier qu’elles restent reconnaissables sans être recopiées.
+- Thème 99 : noms français de Skyrim (Faillaise, Confrérie noire, Compagnons), de Dragon Age (Gardes des Ombres) et du Sorceleur (Loge des magiciennes) ; date de 1717 pour la Grande Loge, discutée par certains historiens.
