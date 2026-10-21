@@ -60,6 +60,20 @@ def base(h): return h.replace('<!--@@FAVICON@@-->',fav).replace('<!--@@MANIFEST@
 def js(h): return h.replace('/*@@COMMONJS@@*/',common).replace('/*@@LOOKJS@@*/',look)
 for pg in ['index.html','contact.html','confidentialite.html']:
     w(pg,js(base(rd('src/'+pg))))
+# Page Révisions : métadonnées + stats ; version locale avec toutes les questions embarquées
+def _rv(full):
+    th=[]
+    for t in bank['th']:
+        st={};lv=[0,0,0]
+        for q in t['Q']:
+            st[q['t']]=st.get(q['t'],0)+1; lv[q['n']-1]+=1
+        d={'id':t['id'],'nom':t['nom'],'roy':t['roy'],'dk':t['dk'],'nb':len(t['Q']),'st':st,'lv':lv}
+        if full: d['S']=t['S']; d['Q']=t['Q']
+        th.append(d)
+    return json.dumps({'full':full,'roy':bank['roy'],'th':th},ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
+w('revisions.html',js(base(rd('src/revisions.html'))).replace('/*@@RVDATA@@*/',_rv(False)))
+io.open(os.path.join(here,'build','revisions_local.html'),'w',encoding='utf-8').write(
+    js(base(rd('src/revisions.html'))).replace('/*@@RVDATA@@*/',_rv(True)))
 def game(h):
     return (js(base(h)).replace('/*@@FXCSS@@*/',rd('src/fx.css')).replace('/*@@QUIZ@@*/',quiz)
             .replace('/*@@SUPABASE@@*/',supa).replace('/*@@FXJS@@*/',fx).replace('/*@@BANK@@*/',bankjs).replace('/*@@ICONSJS@@*/',iconsjs))

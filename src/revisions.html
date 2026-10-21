@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<!--@@MANIFEST@@-->
+<meta name="theme-color" content="#111827">
+<title>Lore Master — Révisions</title>
+<!--@@FAVICON@@-->
+<style>
+/*@@THEMECSS@@*/
+.wrap{max-width:62rem;margin:0 auto;padding:.6rem 1rem 1rem}
+h1{font-size:2rem;margin:.6rem 0 .1rem}
+.lead{color:var(--ink2);margin:0 0 .8rem}
+.big{display:flex;flex-wrap:wrap;gap:.5rem;margin:.4rem 0 .9rem}
+.big .chip b{font-size:1.05rem;margin-right:.15rem}
+.srch{padding:.6rem .8rem;margin-bottom:.4rem}
+@media (min-width:821px){.srch{position:sticky;top:.3rem;z-index:30}}
+.srch .seg button{padding:.35rem .6rem;font-size:.8rem}
+.srch .row{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-top:.45rem}
+.srch .row .lbl{font-weight:800;font-size:.8rem;color:var(--ink2)}
+.sinfo{font-weight:700;color:var(--ink2);font-size:.9rem;min-height:1.2rem;margin:.3rem 0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:.6rem 0 1rem}
+@media (max-width:820px){.stats{grid-template-columns:1fr}}
+.stats h3{font-size:1.05rem;margin:0 0 .5rem}
+.bar{display:grid;grid-template-columns:minmax(6.5rem,38%) 1fr auto;gap:.5rem;align-items:center;margin:.22rem 0;font-size:.85rem}
+.bar .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:700}
+.bar .tr{height:.8rem;border-radius:999px;background:var(--chip);overflow:hidden}
+.bar .tr i{display:block;height:100%;border-radius:999px;background:var(--c,var(--violet))}
+.bar .n{font-weight:900;font-variant-numeric:tabular-nums}
+details.roy{margin:.5rem 0;border-radius:var(--r);background:var(--card);border:1px solid var(--line2);border-left:7px solid var(--c);box-shadow:var(--sh)}
+details.roy>summary{list-style:none;cursor:pointer;display:flex;gap:.6rem;align-items:center;padding:.7rem .9rem;font-weight:900;font-size:1.1rem}
+details.roy>summary::-webkit-details-marker{display:none}
+details.roy>summary .cnt,details.th>summary .cnt{margin-left:auto;font-weight:900;font-variant-numeric:tabular-nums;color:var(--ink2);font-size:.9rem;white-space:nowrap}
+details.roy>summary::after,details.th>summary::after{content:"▾";color:var(--ink3)}
+details.roy[open]>summary::after,details.th[open]>summary::after{content:"▴"}
+.roy-b{padding:0 .6rem .6rem}
+details.th{margin:.35rem 0;border-radius:12px;background:var(--bg2);border:1px solid var(--line)}
+details.th>summary{list-style:none;cursor:pointer;display:flex;gap:.5rem;align-items:center;padding:.55rem .75rem;font-weight:800}
+details.th>summary::-webkit-details-marker{display:none}
+.th-b{padding:.2rem .6rem .7rem}
+.th-st{display:flex;flex-wrap:wrap;gap:.3rem;margin:.1rem 0 .4rem}
+h4.ty{display:flex;gap:.5rem;align-items:center;margin:.8rem 0 .3rem;font-size:.95rem;color:var(--ink2);border-bottom:1px solid var(--line);padding-bottom:.2rem}
+h4.ty span{margin-left:auto;font-variant-numeric:tabular-nums}
+.q{background:var(--card);border:1px solid var(--line2);border-radius:12px;padding:.6rem .75rem;margin:.4rem 0;box-shadow:var(--sh)}
+.qm{display:flex;flex-wrap:wrap;gap:.3rem;align-items:center;margin-bottom:.3rem}
+.qm .qid{margin-left:auto;font-size:.72rem;color:var(--ink3);font-weight:700}
+.qt{font-weight:800;line-height:1.35}
+.qa{margin:.4rem 0 .3rem;display:grid;gap:.18rem}
+.qa .o{border-radius:8px;padding:.2rem .5rem;background:var(--bg2);border:1px solid var(--line)}
+.qa .o.ok{background:var(--mint-l);border-color:var(--mint);color:var(--mint-t);font-weight:800}
+.qa .o.ok::before{content:"✓ "}
+.qa .pr{display:grid;grid-template-columns:1fr auto 1fr;gap:.4rem;align-items:center}
+.qa .pr b{text-align:center;color:var(--ink3)}
+.qa ol{margin:0;padding-left:1.4rem}.qa ol li{padding:.1rem 0}
+.qa .val{font-weight:900;color:var(--mint-t)}
+.qx{font-size:.92rem;color:var(--ink2)}
+.qs{font-size:.8rem;color:var(--ink3);font-style:italic;margin-top:.15rem}
+mark{background:var(--gold-l);color:inherit;border-radius:3px;padding:0 .1rem}
+.more{margin:.8rem 0;text-align:center}
+.hid{display:none}
+</style>
+</head>
+<body>
+<header class="top"><span id="brand"></span><span class="sp"></span><div class="tools"><div class="zoom" id="zoom"></div></div></header>
+<main class="wrap">
+  <h1>Révisions</h1>
+  <p class="lead">Toutes les questions de Lore Master avec leurs bonnes réponses, leurs explications et leurs sources.</p>
+  <div class="big" id="big"></div>
+  <div class="stats" id="stats"></div>
+  <div class="srch card">
+    <input class="inp" id="q" type="search" placeholder="Rechercher un terme : dragon, Gandalf, 1993, runes…" autocomplete="off" aria-label="Rechercher dans toutes les questions">
+    <div class="row"><span class="lbl">Type</span><div class="seg" id="ft"></div></div>
+    <div class="row"><span class="lbl">Niveau</span><div class="seg" id="fl"></div><button type="button" class="btn btn-ghost btn-sm" id="fold">Tout replier</button></div>
+    <div class="sinfo" id="info"></div>
+  </div>
+  <div id="tree"></div>
+  <div id="res" class="hid"></div>
+  <div id="foot"></div>
+</main>
+<script type="application/json" id="lm-rv">/*@@RVDATA@@*/</script>
+<script>
+/*@@COMMONJS@@*/
+/*@@LOOKJS@@*/
+(function(){
+"use strict";
+function $(i){return document.getElementById(i);}
+var D=JSON.parse(document.getElementById("lm-rv").textContent),FULL=!!D.full;
+var TYPES=[["c","QCM"],["v","Vrai ou faux"],["s","Curseur"],["i","Intrus"],["h","Texte à trous"],["w","Qui suis-je ?"],["m","Réponses multiples"],["o","Remettre dans l’ordre"],["a","Association"]];
+var TN={};TYPES.forEach(function(t){TN[t[0]]=t[1];});
+var LV={1:"★ Débutant",2:"★★ Initié",3:"★★★ Expert"};
+var ROY={},TH={},LOAD={},PAGE=60;
+D.roy.forEach(function(r){ROY[r.id]=r;r.th=[];});
+D.th.forEach(function(t){TH[t.id]=t;if(ROY[t.roy])ROY[t.roy].th.push(t);if(t.Q)prep(t);});
+var ft="",fl=0,query="",shown=PAGE;
+function nf(n){return Number(n).toLocaleString("fr-FR");}
+function norm(s){s=String(s||"").toLowerCase();return s.normalize?s.normalize("NFD").replace(/[̀-ͯ]/g,""):s;}
+function prep(t){
+  if(t.ready)return;t.ready=true;
+  t.Q.forEach(function(q){q.src=(t.S&&t.S[q.s])||"";q.th=t.id;
+    q._b=norm([q.q,(q.c||[]).join(" "),(q.d||[]).join(" "),q.x,q.src,t.nom].join(" | "));});
+}
+/* ─── chargement d’un thème (page de l’app) ─── */
+function load(id){
+  var t=TH[id];if(t.Q)return Promise.resolve(t);
+  if(LOAD[id])return LOAD[id];
+  LOAD[id]=fetch("q/"+id+".json?v="+encodeURIComponent(LM_VERSION)).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();})
+    .then(function(j){t.Q=j.Q;t.S=j.S;prep(t);return t;}).catch(function(e){delete LOAD[id];throw e;});
+  return LOAD[id];
+}
+/* ─── statistiques ─── */
+function total(f){return D.th.reduce(function(s,t){return s+f(t);},0);}
+var NQ=total(function(t){return t.nb;});
+function bars(rows,col){
+  var mx=Math.max.apply(null,rows.map(function(r){return r.n;}))||1;
+  return rows.map(function(r){return '<div class="bar"><span class="nm" title="'+esc(r.nm)+'">'+esc(r.nm)+'</span><span class="tr"><i style="width:'+Math.max(1,Math.round(100*r.n/mx))+'%;--c:'+(r.c||col)+'"></i></span><span class="n">'+nf(r.n)+'</span></div>';}).join("");
+}
+function renderStats(){
+  $("big").innerHTML='<span class="chip"><b>'+nf(NQ)+'</b> questions</span><span class="chip"><b>'+nf(D.th.length)+'</b> thèmes</span><span class="chip"><b>'+nf(D.roy.length)+'</b> Royaumes</span>';
+  var byR=D.roy.map(function(r){return {nm:r.court||r.nom,n:r.th.reduce(function(s,t){return s+t.nb;},0),c:r.couleur};});
+  var byT=TYPES.map(function(t){return {nm:t[1],n:total(function(x){return (x.st&&x.st[t[0]])||0;})};});
+  var byL=[1,2,3].map(function(l){return {nm:LV[l],n:total(function(x){return (x.lv&&x.lv[l-1])||0;})};});
+  $("stats").innerHTML='<div class="card"><h3>Par Royaume</h3>'+bars(byR,"var(--violet)")+'</div><div class="card"><h3>Par type de question</h3>'+bars(byT,"var(--sky,var(--violet))")+'</div><div class="card"><h3>Par niveau</h3>'+bars(byL,"var(--mint)")+'</div>';
+}
+/* ─── affichage d’une question ─── */
+function hl(s,terms){
+  s=esc(s);if(!terms.length)return s;
+  terms.forEach(function(w){if(w.length<2)return;var re=new RegExp("("+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","gi");s=s.replace(re,"<mark>$1</mark>");});
+  return s;
+}
+function ansHtml(q,H){
+  var c=q.c||[],h=function(x){return H(String(x));},o=function(x,ok){return '<div class="o'+(ok?" ok":"")+'">'+h(x)+"</div>";},k;
+  switch(q.t){
+    case "c":case "w":return c.map(function(x,i){return o(x,i===q.r);}).join("");
+    case "i":return c.map(function(x,i){return o(x+(i===q.r?" (l’intrus)":""),i===q.r);}).join("");
+    case "h":return c.map(function(x,i){return o(x,i===q.r);}).join("");
+    case "v":return o(q.r?"Vrai":"Faux",true);
+    case "m":return c.map(function(x,i){return o(x,q.r.indexOf(i)>=0);}).join("");
+    case "o":return "<ol>"+c.map(function(x){return "<li>"+h(x)+"</li>";}).join("")+"</ol>";
+    case "a":return c.map(function(x,i){return '<div class="pr"><div class="o">'+h(x)+"</div><b>→</b><div class=\"o ok\">"+h(q.d[i])+"</div></div>";}).join("");
+    case "s":k=nf(q.r)+(q.u?" "+q.u:"");
+      return '<div class="o ok">'+h(k)+'</div><div class="o">Curseur de '+nf(q.mn)+" à "+nf(q.mx)+(q.p?", pas de "+nf(q.p):"")+(q.tl?", tolérance ± "+nf(q.tl):"")+"</div>";
+  }
+  return "";
+}
+function qHtml(q,terms,withTh){
+  var t=TH[q.th],H=function(s){return hl(s,terms);},stem=String(q.q);
+  if(q.t==="h"&&stem.indexOf("____")>=0)stem=stem.replace("____","____");
+  return '<article class="q"><div class="qm"><span class="tag">'+TN[q.t]+'</span><span class="tag t-sun">'+LV[q.n]+'</span>'+(withTh?'<span class="tag t-theme" style="--tc:'+(ROY[t.roy]?ROY[t.roy].couleur:"#666")+'">'+esc(t.nom)+"</span>":"")+'<span class="qid">'+esc(q.i)+'</span></div>'+
+    '<div class="qt">'+H(stem).replace(/\n/g,"<br>")+'</div><div class="qa">'+ansHtml(q,H)+'</div>'+
+    (q.x?'<div class="qx">'+H(q.x)+"</div>":"")+(q.src?'<div class="qs">Source : '+H(q.src)+"</div>":"")+"</article>";
+}
+function okF(q){return (!ft||q.t===ft)&&(!fl||q.n===fl);}
+/* ─── arbre Royaume › thème › type ─── */
+function chips(t){
+  return TYPES.filter(function(x){return t.st&&t.st[x[0]];}).map(function(x){return '<span class="tag">'+x[1]+" · "+nf(t.st[x[0]])+"</span>";}).join("")+
+    [1,2,3].filter(function(l){return t.lv&&t.lv[l-1];}).map(function(l){return '<span class="tag t-sun">'+LV[l]+" · "+nf(t.lv[l-1])+"</span>";}).join("");
+}
+function renderTree(){
+  $("tree").innerHTML=D.roy.map(function(r){
+    var n=r.th.reduce(function(s,t){return s+t.nb;},0);
+    return '<details class="roy" style="--c:'+r.couleur+'" data-r="'+r.id+'"><summary>'+esc(r.nom)+'<span class="cnt">'+nf(r.th.length)+" thèmes · "+nf(n)+" q.</span></summary><div class=\"roy-b\">"+
+      r.th.map(function(t){return '<details class="th" data-id="'+t.id+'"><summary>'+esc(t.nom)+(t.dk?' <span class="tag t-dark">sombre</span>':"")+'<span class="cnt">'+nf(t.nb)+' q.</span></summary><div class="th-b"></div></details>';}).join("")+"</div></details>";
+  }).join("");
+}
+function fillTheme(d){
+  var id=d.getAttribute("data-id"),t=TH[id],b=d.querySelector(".th-b");
+  if(!t.Q){b.innerHTML='<p class="muted">Chargement…</p>';load(id).then(function(){fillTheme(d);},function(){b.innerHTML='<p class="muted">Chargement impossible : vérifiez la connexion.</p>';});return;}
+  var h='<div class="th-st">'+chips(t)+"</div>",n=0;
+  TYPES.forEach(function(ty){
+    var qs=t.Q.filter(function(q){return q.t===ty[0]&&okF(q);});if(!qs.length)return;n+=qs.length;
+    h+='<h4 class="ty">'+ty[1]+"<span>"+nf(qs.length)+" q.</span></h4>"+qs.map(function(q){return qHtml(q,[],false);}).join("");
+  });
+  b.innerHTML=n?h:h+'<p class="muted">Aucune question avec ces filtres.</p>';
+}
+$("tree").addEventListener("toggle",function(e){var d=e.target;if(d.matches&&d.matches("details.th")&&d.open&&!d.querySelector(".th-b .q")&&!d.getAttribute("data-f"))fillTheme(d);},true);
+function refreshOpen(){[].slice.call(document.querySelectorAll("details.th[open]")).forEach(fillTheme);}
+/* ─── recherche ─── */
+function allLoaded(){return D.th.every(function(t){return t.Q;});}
+function loadAll(cb){
+  if(allLoaded()){cb();return;}
+  var done=0,N=D.th.length,fail=0;
+  $("info").textContent="Chargement des thèmes… 0 / "+N;
+  D.th.forEach(function(t){load(t.id).then(function(){done++;},function(){fail++;done++;}).then(function(){
+    $("info").textContent="Chargement des thèmes… "+done+" / "+N;
+    if(done===N){if(fail)$("info").textContent=fail+" thème(s) n’ont pas pu être chargés : vérifiez la connexion.";cb();}});});
+}
+function search(){
+  var terms=norm(query).split(/\s+/).filter(Boolean),raw=query.trim().split(/\s+/).filter(Boolean);
+  if(!terms.length){$("res").classList.add("hid");$("tree").classList.remove("hid");$("info").textContent="";return;}
+  $("tree").classList.add("hid");$("res").classList.remove("hid");
+  var tok=++SEQ;
+  loadAll(function(){
+    if(tok!==SEQ)return;
+    var out=[];D.th.forEach(function(t){if(t.Q)t.Q.forEach(function(q){if(okF(q)&&terms.every(function(w){return q._b.indexOf(w)>=0;}))out.push(q);});});
+    var shownN=Math.min(out.length,shown);
+    $("info").textContent=out.length?nf(out.length)+" question"+(out.length>1?"s":"")+" trouvée"+(out.length>1?"s":"")+(out.length>shownN?" · "+nf(shownN)+" affichées":""):"Aucune question trouvée.";
+    $("res").innerHTML=out.slice(0,shownN).map(function(q){return qHtml(q,raw,true);}).join("")+(out.length>shownN?'<div class="more"><button type="button" class="btn btn-soft" id="more">Afficher '+nf(Math.min(PAGE,out.length-shownN))+' de plus</button></div>':"");
+  });
+}
+var SEQ=0,TM=null;
+$("q").addEventListener("input",function(){query=this.value;shown=PAGE;clearTimeout(TM);TM=setTimeout(search,200);});
+$("res").addEventListener("click",function(e){if(e.target.id==="more"){shown+=PAGE;search();}});
+/* ─── filtres ─── */
+function renderFilters(){
+  $("ft").innerHTML='<button type="button" data-v=""'+(ft?"":' class="on"')+">Tous</button>"+TYPES.map(function(t){return '<button type="button" data-v="'+t[0]+'"'+(ft===t[0]?' class="on"':"")+">"+t[1]+"</button>";}).join("");
+  $("fl").innerHTML='<button type="button" data-v="0"'+(fl?"":' class="on"')+">Tous</button>"+[1,2,3].map(function(l){return '<button type="button" data-v="'+l+'"'+(fl===l?' class="on"':"")+">"+LV[l]+"</button>";}).join("");
+}
+$("ft").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;ft=b.getAttribute("data-v");shown=PAGE;renderFilters();refreshOpen();search();});
+$("fl").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;fl=+b.getAttribute("data-v");shown=PAGE;renderFilters();refreshOpen();search();});
+$("fold").addEventListener("click",function(){[].slice.call(document.querySelectorAll("#tree details[open]")).forEach(function(d){d.open=false;});});
+/* ─── démarrage ─── */
+$("brand").outerHTML=brandHtml("révisions",FULL?"#":"index.html");
+$("foot").innerHTML=footHtml();
+initZoom("revisions",$("zoom"));
+renderStats();renderFilters();renderTree();
+})();
+</script>
+</body>
+</html>

@@ -657,7 +657,7 @@ td:last-child{border-radius:0 12px 12px 0}
    Les textes français utilisent l’apostrophe typographique ’.
 ═══════════════════════════════════════════════════════════════ */
 "use strict";
-var LM_VERSION="1.9.1";
+var LM_VERSION="1.9.2";
 function $(id){return document.getElementById(id);}
 function $$(sel,root){return [].slice.call((root||document).querySelectorAll(sel));}
 function esc(s){return String(s===undefined||s===null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
@@ -747,7 +747,7 @@ var TH_MAP={"dragons-dnd":0,"classes-dnd":1,"fees-sylvains":2,"creatures-marines
 function themeColor(id){id=String(id||"");if(TH_MAP[id]!==undefined)return TH_COL[TH_MAP[id]];var h=0;for(var i=0;i<id.length;i++)h=(h*31+id.charCodeAt(i))>>>0;return TH_COL[h%TH_COL.length];}
 function themeChip(titre,id){return titre?'<span class="tag t-theme" style="--tc:'+themeColor(id)+'" title="Thème de la question">'+esc(titre)+"</span>":"";}
 function brandHtml(sub,href){return '<a class="brand" href="'+(href||"index.html")+'" title="Accueil Lore Master">'+logoSvg()+'<img class="wm" src="'+LOGO_WORD_URI+'" alt="Lore Master" height="28">'+(sub?'<small>'+esc(sub)+'</small>':"")+'</a>';}
-function footHtml(){return '<div class="foot"><nav class="foot-l"><a href="index.html">Accueil</a><a href="index.html#apropos">À propos</a><a href="contact.html">Contact</a><a href="confidentialite.html">Confidentialité</a></nav><div class="foot-t">Lore Master v'+LM_VERSION+' · outil libre CC BY-NC 4.0 · D&amp;D est une marque de Wizards of the Coast, sans lien avec cet outil.</div></div>';}
+function footHtml(){return '<div class="foot"><nav class="foot-l"><a href="index.html">Accueil</a><a href="index.html#apropos">À propos</a><a href="revisions.html">Révisions</a><a href="contact.html">Contact</a><a href="confidentialite.html">Confidentialité</a></nav><div class="foot-t">Lore Master v'+LM_VERSION+' · outil libre CC BY-NC 4.0 · D&amp;D est une marque de Wizards of the Coast, sans lien avec cet outil.</div></div>';}
 
 /* ─── Équipes, réponses, modes ─── */
 var TEAMS=[
