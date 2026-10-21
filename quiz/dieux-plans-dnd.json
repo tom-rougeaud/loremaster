@@ -1,0 +1,2374 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "dieux-plans-dnd",
+  "nom": "Dieux, panthéons et plans d’existence",
+  "royaume": "Règles et univers de D&D",
+  "icone": "soleil",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans les Royaumes Oubliés, quelle déesse règne sur la magie ?",
+   "choix": [
+    "Mystra",
+    "Tymora",
+    "Selûne",
+    "Chauntea"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe B « Les dieux du multivers » ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Mystra entretient la Toile, la trame qui rend possible toute magie des Royaumes.",
+   "id": "t019-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans les Royaumes Oubliés, quelle déesse surnommée « Dame Fortune » règne sur la chance ?",
+   "choix": [
+    "Tymora",
+    "Mystra",
+    "Shar",
+    "Umberlee"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe B « Les dieux du multivers » ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Les aventuriers jettent une pièce en son honneur ; sa sœur Beshaba incarne la malchance.",
+   "id": "t019-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quel dieu règne sur l’aube et le renouveau ?",
+   "choix": [
+    "Lathander",
+    "Tempus",
+    "Helm",
+    "Oghma"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe B « Les dieux du multivers » ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Le Seigneur du Matin est vénéré par ceux qui commencent quelque chose : artisans, marchands, jeunes nobles.",
+   "id": "t019-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quel dieu règne sur la guerre ?",
+   "choix": [
+    "Tempus",
+    "Torm",
+    "Tyr",
+    "Bane"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe B « Les dieux du multivers » ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Le Seigneur des Batailles ne prend aucun camp : il aime la guerre elle-même.",
+   "id": "t019-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quelle déesse des ténèbres et de la perte est la jumelle et rivale de Selûne ?",
+   "choix": [
+    "Shar",
+    "Lolth",
+    "Umberlee",
+    "Talona"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe B « Les dieux du multivers » ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Shar et Selûne sont nées ensemble ; leur combat éternel oppose la nuit noire à la lumière de la lune.",
+   "id": "t019-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, quel dieu juge aujourd’hui les âmes des morts ?",
+   "choix": [
+    "Kelemvor",
+    "Myrkul",
+    "Cyric",
+    "Bhaal"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe B « Les dieux du multivers » ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Kelemvor Lyonsbane, mortel devenu dieu, a remplacé Cyric, qui gouvernait les morts avec cruauté.",
+   "id": "t019-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Après le Temps des Troubles, quelle mortelle devient la nouvelle Mystra ?",
+   "choix": [
+    "Minuit",
+    "Alustriel",
+    "Laeral",
+    "Storm"
+   ],
+   "rep": 0,
+   "src": "Richard Awlinson (Scott Ciencin et Troy Denning), trilogie Avatar : Shadowdale, Tantras, Waterdeep (TSR, 1989) ; Forgotten Realms Adventures (1990)",
+   "expl": "Ariel Manx, dite Minuit, reçoit le pouvoir de Mystra en 1358 CV.",
+   "id": "t019-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Pendant le Temps des Troubles, quel mortel s’empare des portefeuilles de Bhaal et de Myrkul ?",
+   "choix": [
+    "Cyric",
+    "Kelemvor",
+    "Adon",
+    "Elminster"
+   ],
+   "rep": 0,
+   "src": "Richard Awlinson (Scott Ciencin et Troy Denning), trilogie Avatar : Shadowdale, Tantras, Waterdeep (TSR, 1989) ; Forgotten Realms Adventures (1990)",
+   "expl": "Ce voleur sans scrupules tue Bhaal ; Minuit détruit Myrkul, et Ao fait de Cyric le nouveau dieu des morts.",
+   "id": "t019-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel trio forme les « Trois Morts » des Royaumes Oubliés ?",
+   "choix": [
+    "Bane, Bhaal et Myrkul",
+    "Bane, Shar et Cyric",
+    "Bhaal, Talos et Malar",
+    "Myrkul, Talona et Jergal"
+   ],
+   "rep": 0,
+   "src": "Richard Awlinson (Scott Ciencin et Troy Denning), trilogie Avatar : Shadowdale, Tantras, Waterdeep (TSR, 1989) ; Forgotten Realms Adventures (1990)",
+   "expl": "Tyrannie, meurtre et mort : leurs fidèles jouent un grand rôle dans Baldur’s Gate 3.",
+   "id": "t019-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle entité supérieure aux dieux des Royaumes Oubliés provoque le Temps des Troubles ?",
+   "choix": [
+    "Ao",
+    "Tharizdun",
+    "Asmodée",
+    "Jergal"
+   ],
+   "rep": 0,
+   "src": "Richard Awlinson (Scott Ciencin et Troy Denning), trilogie Avatar : Shadowdale, Tantras, Waterdeep (TSR, 1989) ; Forgotten Realms Adventures (1990)",
+   "expl": "Ao chasse les dieux sur Toril après le vol des Tablettes du Destin.",
+   "id": "t019-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans les Royaumes Oubliés, que devient l’âme de ceux qui n’ont vénéré aucun dieu ?",
+   "choix": [
+    "Elle est scellée dans le Mur des Infidèles",
+    "Elle se réincarne aussitôt",
+    "Elle erre dans le Styx",
+    "Elle rejoint Ao"
+   ],
+   "rep": 0,
+   "src": "Richard Awlinson (Scott Ciencin et Troy Denning), trilogie Avatar : Shadowdale, Tantras, Waterdeep (TSR, 1989) ; Forgotten Realms Adventures (1990)",
+   "expl": "Le Mur entoure la Cité du Jugement, sur le plan de la Fugue.",
+   "id": "t019-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle déesse araignée est vénérée par la plupart des drows ?",
+   "choix": [
+    "Lolth",
+    "Eilistraee",
+    "Kiaransalee",
+    "Shar"
+   ],
+   "rep": 0,
+   "src": "Richard Awlinson (Scott Ciencin et Troy Denning), trilogie Avatar : Shadowdale, Tantras, Waterdeep (TSR, 1989) ; Forgotten Realms Adventures (1990)",
+   "expl": "La Reine-Araignée règne sur les fosses de la Toile démoniaque, dans l’Abysse.",
+   "id": "t019-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu a créé les nains, selon leurs légendes ?",
+   "choix": [
+    "Moradin",
+    "Clangeddin",
+    "Dumathoin",
+    "Garl Glittergold"
+   ],
+   "rep": 0,
+   "src": "Richard Awlinson (Scott Ciencin et Troy Denning), trilogie Avatar : Shadowdale, Tantras, Waterdeep (TSR, 1989) ; Forgotten Realms Adventures (1990)",
+   "expl": "Le Forgeur d’Âmes a façonné les premiers nains dans sa forge.",
+   "id": "t019-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu dirige le panthéon elfique (Seldarine) ?",
+   "choix": [
+    "Corellon Larethian",
+    "Sehanine",
+    "Rillifane",
+    "Solonor"
+   ],
+   "rep": 0,
+   "src": "Richard Awlinson (Scott Ciencin et Troy Denning), trilogie Avatar : Shadowdale, Tantras, Waterdeep (TSR, 1989) ; Forgotten Realms Adventures (1990)",
+   "expl": "Corellon est aussi le patron des arts et de la magie elfiques.",
+   "id": "t019-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu borgne est vénéré par les orcs ?",
+   "choix": [
+    "Gruumsh",
+    "Maglubiyet",
+    "Kurtulmak",
+    "Bane"
+   ],
+   "rep": 0,
+   "src": "Richard Awlinson (Scott Ciencin et Troy Denning), trilogie Avatar : Shadowdale, Tantras, Waterdeep (TSR, 1989) ; Forgotten Realms Adventures (1990)",
+   "expl": "Gruumsh voue une haine éternelle aux elfes ; ses prêtres se crèvent parfois un œil en son honneur.",
+   "id": "t019-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Selon le mythe, qui a crevé l’œil de Gruumsh ?",
+   "choix": [
+    "Corellon Larethian",
+    "Moradin",
+    "Lolth",
+    "Bahamut"
+   ],
+   "rep": 0,
+   "src": "Monster Manual 5e (2014), « Tiamat » ; Rise of Tiamat (2014)",
+   "expl": "Le duel entre Corellon et Gruumsh explique la haine qui oppose elfes et orcs.",
+   "id": "t019-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de têtes Tiamat, reine des dragons maléfiques, possède-t-elle ?",
+   "choix": [
+    "5",
+    "3",
+    "7",
+    "9"
+   ],
+   "rep": 0,
+   "src": "Monster Manual 5e (2014), « Tiamat » ; Rise of Tiamat (2014)",
+   "expl": "Une tête par dragon chromatique : noir, bleu, vert, rouge et blanc.",
+   "id": "t019-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon de platine est le dieu des dragons bons ?",
+   "choix": [
+    "Bahamut",
+    "Io",
+    "Aasterinian",
+    "Chronepsis"
+   ],
+   "rep": 0,
+   "src": "Greyhawk ; Player’s Handbook 5e (2014), annexe B ; Dungeon Master’s Guide 5e (2014), artefacts",
+   "expl": "Bahamut, le Dragon de Platine, est l’ennemi juré de Tiamat.",
+   "id": "t019-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Greyhawk, quel dieu liche a laissé derrière lui une main et un œil devenus artefacts ?",
+   "choix": [
+    "Vecna",
+    "Kas",
+    "Nerull",
+    "Iuz"
+   ],
+   "rep": 0,
+   "src": "Greyhawk ; Player’s Handbook 5e (2014), annexe B ; Dungeon Master’s Guide 5e (2014), artefacts",
+   "expl": "Vecna a perdu sa main et son œil lors de sa chute ; ces reliques corrompent qui les greffe.",
+   "id": "t019-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui a trahi Vecna avec l’épée que celui-ci lui avait offerte ?",
+   "choix": [
+    "Kas",
+    "Acererak",
+    "Iuz",
+    "Strahd"
+   ],
+   "rep": 0,
+   "src": "Greyhawk ; Player’s Handbook 5e (2014), annexe B ; Dungeon Master’s Guide 5e (2014), artefacts",
+   "expl": "L’épée de Kas et Vecna se cherchent toujours dans les légendes de D&D.",
+   "id": "t019-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Greyhawk, de quel dieu tyrannique Heironeous est-il le demi-frère et l’ennemi ?",
+   "choix": [
+    "Hextor",
+    "Pelor",
+    "Kord",
+    "Nerull"
+   ],
+   "rep": 0,
+   "src": "Keith Baker, Eberron Campaign Setting (2004) ; Eberron: Rising from the Last War (2019)",
+   "expl": "Heironeous incarne la bravoure chevaleresque, Hextor la tyrannie : leurs fidèles se haïssent.",
+   "id": "t019-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle, en anglais, le panthéon principal d’Eberron ?",
+   "choix": [
+    "The Sovereign Host",
+    "The Dark Six",
+    "The Silver Flame",
+    "The Blood of Vol"
+   ],
+   "rep": 0,
+   "src": "Keith Baker, Eberron Campaign Setting (2004) ; Eberron: Rising from the Last War (2019)",
+   "expl": "Les Dark Six sont ses dieux maléfiques ; la Flamme d’argent et le Sang de Vol sont d’autres religions.",
+   "id": "t019-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Eberron, quel pays est gouverné par l’Église de la Flamme d’argent ?",
+   "choix": [
+    "La Thrane",
+    "Le Karrnath",
+    "L’Aundair",
+    "Le Breland"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "La Thrane est devenue une théocratie pendant la Dernière Guerre.",
+   "id": "t019-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Dragonlance, quel vieux magicien distrait est en réalité un avatar de Paladine ?",
+   "choix": [
+    "Fizban",
+    "Raistlin",
+    "Par-Salian",
+    "Dalamar"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Fizban oublie son nom et rate ses boules de feu, mais protège les héros de la Lance.",
+   "id": "t019-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Dragonlance, quelle déesse maléfique correspond à Tiamat ?",
+   "choix": [
+    "Takhisis",
+    "Zeboim",
+    "Chemosh",
+    "Mishakal"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Créer un multivers »",
+   "expl": "La Reine des Ténèbres mène la Guerre de la Lance contre Paladine, équivalent de Bahamut.",
+   "id": "t019-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment s’appelle le modèle cosmologique de D&D où les plans extérieurs forment un cercle ?",
+   "choix": [
+    "La Grande Roue",
+    "L’Arbre-monde",
+    "L’Axe du monde",
+    "La Toile"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Créer un multivers »",
+   "expl": "L’Arbre-monde (Royaumes de 3e) et l’Axe du monde (4e) sont des modèles alternatifs.",
+   "id": "t019-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan sombre et lugubre est le reflet du Plan matériel ?",
+   "choix": [
+    "La Gisombre (Shadowfell)",
+    "La Féerie (Feywild)",
+    "Le plan éthéré",
+    "Les Limbes"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Créer un multivers »",
+   "expl": "Couleurs ternes, émotions éteintes : la Gisombre attire les âmes en peine.",
+   "id": "t019-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan lumineux et exubérant est peuplé de fées ?",
+   "choix": [
+    "La Féerie (Feywild)",
+    "La Gisombre (Shadowfell)",
+    "Le plan astral",
+    "Arborée"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Créer un multivers »",
+   "expl": "Le temps y passe parfois différemment : on peut y perdre des années en une nuit.",
+   "id": "t019-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel plan flottent les cadavres pétrifiés de dieux morts ?",
+   "choix": [
+    "Le plan astral",
+    "Le plan éthéré",
+    "Les Limbes",
+    "Mechanus"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Créer un multivers »",
+   "expl": "Les githyankis ont bâti leur capitale, Tu’narath, sur le corps d’un dieu mort.",
+   "id": "t019-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan extérieur n’est qu’un chaos de matière sans cesse changeante ?",
+   "choix": [
+    "Les Limbes",
+    "Le Pandémonium",
+    "L’Abysse",
+    "Carcérie"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Créer un multivers »",
+   "expl": "Seule la volonté y façonne la matière ; les githzerais y entretiennent des monastères stables.",
+   "id": "t019-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel plan extérieur d’ordre absolu est fait de rouages géants ?",
+   "choix": [
+    "Mechanus",
+    "Arcadie",
+    "Achéron",
+    "Le Mont Céleste"
+   ],
+   "rep": 0,
+   "src": "David « Zeb » Cook, Planescape Campaign Setting (TSR, 1994)",
+   "expl": "C’est le plan du loyal neutre, peuplé de modrons dirigés par Primus.",
+   "id": "t019-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville en forme d’anneau flotte au-dessus de la Flèche, au centre des Terres extérieures ?",
+   "choix": [
+    "Sigil",
+    "Eauprofonde",
+    "Tu’narath",
+    "La Cité d’Airain"
+   ],
+   "rep": 0,
+   "src": "David « Zeb » Cook, Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Ses innombrables portails relient tous les plans : on l’appelle la Cité des Portes.",
+   "id": "t019-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui gouverne Sigil sans jamais prononcer un mot ?",
+   "choix": [
+    "La Dame des Douleurs",
+    "Asmodée",
+    "Vlaakith",
+    "La Reine Corneille"
+   ],
+   "rep": 0,
+   "src": "David « Zeb » Cook, Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Son ombre écorche ceux qui l’approchent de trop près ; elle interdit l’entrée aux dieux.",
+   "id": "t019-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment la Dame des Douleurs punit-elle souvent ceux qui la défient ?",
+   "choix": [
+    "En les exilant dans un labyrinthe",
+    "En les changeant en pierre",
+    "En les livrant aux Enfers",
+    "En effaçant leur nom"
+   ],
+   "rep": 0,
+   "src": "David « Zeb » Cook, Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Les labyrinthes sont des demi-plans sans issue apparente ; ses ennemis y errent parfois pour toujours.",
+   "id": "t019-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la guerre éternelle entre démons et diables ?",
+   "choix": [
+    "La Guerre du Sang",
+    "La Guerre de l’Aube",
+    "La Guerre de la Lance",
+    "La Guerre des Larmes"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), chap. 1 « La Guerre du Sang »",
+   "expl": "Chaos contre loi au sein du mal : les yugoloths vendent leurs services aux deux camps.",
+   "id": "t019-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui règne sur Nessus, la neuvième strate des Neuf Enfers ?",
+   "choix": [
+    "Asmodée",
+    "Méphistophélès",
+    "Baalzébul",
+    "Dispater"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate: Descent into Avernus (2019)",
+   "expl": "Asmodée est le seigneur suprême des Enfers ; il trône au plus profond de Nessus.",
+   "id": "t019-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel archidiable, ange déchu, gouverne Avernus en 5e ?",
+   "choix": [
+    "Zariel",
+    "Bel",
+    "Glasya",
+    "Fierna"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate: Descent into Avernus (2019)",
+   "expl": "Zariel était une ange guerrière ; fascinée par la Guerre du Sang, elle a basculé dans le mal ; Bel la sert désormais.",
+   "id": "t019-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle strate des Neuf Enfers Méphistophélès gouverne-t-il ?",
+   "choix": [
+    "Cania",
+    "Stygie",
+    "Nessus",
+    "Malbolge"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate: Descent into Avernus (2019)",
+   "expl": "Cania, la huitième strate, est un désert glacé où l’archidiable étudie les feux infernaux.",
+   "id": "t019-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel seigneur de l’Abysse a deux têtes de babouin ?",
+   "choix": [
+    "Démogorgon",
+    "Orcus",
+    "Graz’zt",
+    "Yeenoghu"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate: Descent into Avernus (2019)",
+   "expl": "Le Prince des Démons est déchiré entre ses deux têtes, Aameul et Hathradiah.",
+   "id": "t019-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel prince démon règne sur les morts-vivants, armé d’une baguette redoutée ?",
+   "choix": [
+    "Orcus",
+    "Démogorgon",
+    "Baphomet",
+    "Juiblex"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 11 « Sorts »",
+   "expl": "La baguette d’Orcus est un artefact qui tue d’un simple contact.",
+   "id": "t019-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel sort de niveau 7 exige une tige de métal fourchue accordée à la destination ?",
+   "choix": [
+    "Changement de plan",
+    "Portail",
+    "Téléportation",
+    "Projection astrale"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 11 « Sorts »",
+   "expl": "La tige doit être accordée au plan visé ; le sort peut aussi bannir une créature récalcitrante.",
+   "id": "t019-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel lien relie le corps d’un voyageur astral à son esprit ?",
+   "choix": [
+    "Une corde d’argent",
+    "Une chaîne d’or",
+    "Un fil écarlate",
+    "Un rayon de lune"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Plans intérieurs »",
+   "expl": "Si la corde est tranchée, le corps et l’esprit meurent ; seule une épée d’argent githyanki en est vraiment capable.",
+   "id": "t019-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle capitale des éfrits se dresse sur le plan élémentaire du Feu ?",
+   "choix": [
+    "La Cité d’Airain",
+    "Sigil",
+    "Tu’narath",
+    "Menzoberranzan"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Plans intérieurs »",
+   "expl": "Gouvernée par le Grand Sultan, elle accueille un célèbre marché d’esclaves et de merveilles.",
+   "id": "t019-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel décor de campagne de 1994 fait voyager les héros à travers toute la Grande Roue ?",
+   "choix": [
+    "Planescape",
+    "Spelljammer",
+    "Ravenloft",
+    "Dark Sun"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Plans intérieurs »",
+   "expl": "Planescape a inspiré le jeu vidéo Planescape: Torment (1999) et un retour en 5e en 2023.",
+   "id": "t019-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui a conçu le décor Planescape ?",
+   "choix": [
+    "David « Zeb » Cook",
+    "Ed Greenwood",
+    "Margaret Weis",
+    "Keith Baker"
+   ],
+   "rep": 0,
+   "src": "Van Richten’s Guide to Ravenloft (2021)",
+   "expl": "Les illustrations de Tony DiTerlizzi ont donné son style unique au décor.",
+   "id": "t019-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la cosmologie de la 5e, où se trouvent les Domaines de l’effroi (Ravenloft) ?",
+   "choix": [
+    "Dans la Gisombre",
+    "Dans la Féerie",
+    "Dans l’Abysse",
+    "Dans le plan astral"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe C ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Chaque domaine est une prison née des brumes de la Gisombre, gouvernée par un seigneur maudit.",
+   "id": "t019-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse règne sur la Gisombre depuis sa forteresse de Letherna ?",
+   "choix": [
+    "La Reine Corneille",
+    "Shar",
+    "Lolth",
+    "Kiaransalee"
+   ],
+   "rep": 0,
+   "src": "The Wild Beyond the Witchlight (2021) ; Dungeon Master’s Guide 5e (2014)",
+   "expl": "La Reine Corneille recueille les souvenirs des mourants ; ses corbeaux l’informent.",
+   "id": "t019-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle cour de la Féerie la reine Titania dirige-t-elle ?",
+   "choix": [
+    "La Cour d’Été (Seelie)",
+    "La Cour du Crépuscule",
+    "La Cour de Cendre",
+    "La Cour d’Ivoire"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Yugoloths »",
+   "expl": "La Cour du Crépuscule (Unseelie) obéit à la Reine de l’Air et des Ténèbres.",
+   "id": "t019-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels fiélons mercenaires de Géhenne servent les deux camps de la Guerre du Sang ?",
+   "choix": [
+    "Les yugoloths",
+    "Les modrons",
+    "Les slaadis",
+    "Les archons"
+   ],
+   "rep": 0,
+   "src": "Monster Manual 5e (2014), « Slaadi »",
+   "expl": "Créés par des guenaudes nocturnes, les yugoloths vendent leur loyauté au plus offrant.",
+   "id": "t019-049",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles créatures chaotiques en forme de grands crapauds peuplent les Limbes ?",
+   "choix": [
+    "Les slaadis",
+    "Les githzerais",
+    "Les modrons",
+    "Les yugoloths"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Les archidiables »",
+   "expl": "Leur reproduction passe par des œufs ou une maladie qui transforme l’hôte en slaad.",
+   "id": "t019-050",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle fille d’Asmodée règne sur Malbolge en 5e ?",
+   "choix": [
+    "Glasya",
+    "Fierna",
+    "Zariel",
+    "Tiamat"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Les archidiables »",
+   "expl": "Glasya, princesse du crime et des contrats truqués, a succédé à la guenaude Malagard.",
+   "id": "t019-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, Mystra a été assassinée au moment de la Magepeste.",
+   "rep": true,
+   "src": "Sword Coast Adventurer’s Guide (2015), chap. 2 « Religion dans les Royaumes »",
+   "expl": "Vrai : en 1385 CV, Cyric, aidé de Shar, la tue ; la Toile s’effondre et la Magepeste ravage Faerûn.",
+   "id": "t019-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans les Royaumes Oubliés, Kelemvor est le dieu des morts depuis la création du monde.",
+   "rep": false,
+   "src": "Sword Coast Adventurer’s Guide (2015), chap. 2 « Religion dans les Royaumes »",
+   "expl": "Faux : il ne le devient qu’après le Temps des Troubles, à la place de Cyric ; Jergal puis Myrkul l’avaient précédé.",
+   "id": "t019-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, Selûne et Shar sont jumelles.",
+   "rep": true,
+   "src": "Sword Coast Adventurer’s Guide (2015), chap. 2 « Religion dans les Royaumes »",
+   "expl": "Vrai : nées de l’essence primordiale, elles ont créé ensemble le monde avant de se déchirer.",
+   "id": "t019-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Eilistraee est la déesse araignée maléfique des drows.",
+   "rep": false,
+   "src": "Sword Coast Adventurer’s Guide (2015), chap. 2 « Religion dans les Royaumes »",
+   "expl": "Faux : fille de Lolth et Corellon, Eilistraee est la déesse bienveillante du chant, de la danse et du clair de lune.",
+   "id": "t019-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Royaumes Oubliés ont un plan de la Fugue, où les âmes des morts attendent d’être réclamées par leur dieu.",
+   "rep": true,
+   "src": "Planescape Campaign Setting (TSR, 1994) ; Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Vrai : les serviteurs des dieux viennent y chercher leurs fidèles ; Kelemvor juge ceux qui restent.",
+   "id": "t019-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Styx efface la mémoire de ceux qui boivent son eau ou s’y baignent.",
+   "rep": true,
+   "src": "Planescape Campaign Setting (TSR, 1994) ; Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Vrai : le fleuve serpente à travers les plans inférieurs, et une simple éclaboussure peut faire tout oublier.",
+   "id": "t019-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les githyankis et les githzerais vivent en paix sur le même plan.",
+   "rep": false,
+   "src": "Planescape Campaign Setting (TSR, 1994) ; Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Faux : anciens esclaves des flagelleurs mentaux, ils se sont déchirés ; les uns vivent dans le plan astral, les autres dans les Limbes.",
+   "id": "t019-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans Planescape, les dieux ne peuvent pas entrer dans Sigil.",
+   "rep": true,
+   "src": "Planescape Campaign Setting (TSR, 1994) ; Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Vrai : la Dame des Douleurs leur en interdit l’accès, ce qui fait de Sigil une ville neutre entre les puissances.",
+   "id": "t019-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans Planescape, on entre dans Sigil par des portails qui demandent souvent une clé.",
+   "rep": true,
+   "src": "Planescape Campaign Setting (TSR, 1994) ; Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Vrai : la clé peut être un objet, un geste, une pensée ou un mot ; sans elle, le portail reste inerte.",
+   "id": "t019-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Guerre du Sang oppose les anges aux démons.",
+   "rep": false,
+   "src": "Planescape Campaign Setting (TSR, 1994) ; Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Faux : elle oppose démons (chaos) et diables (loi) ; les anges n’en font pas partie.",
+   "id": "t019-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Abysse compte exactement neuf strates.",
+   "rep": false,
+   "src": "Baldur’s Gate: Descent into Avernus (2019)",
+   "expl": "Faux : ce sont les Enfers qui en ont neuf ; l’Abysse en aurait au moins 666, peut-être une infinité.",
+   "id": "t019-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "En 5e, Tiamat est retenue prisonnière dans Avernus, première strate des Enfers.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), annexe B",
+   "expl": "Vrai : Asmodée la retient là par un pacte ; ses fidèles du Culte du Dragon cherchent à la libérer.",
+   "id": "t019-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Vecna est à l’origine un dieu des Royaumes Oubliés.",
+   "rep": false,
+   "src": "Eberron: Rising from the Last War (2019), chap. 1 « Religion »",
+   "expl": "Faux : il vient de Greyhawk ; il apparaît ensuite dans d’autres mondes, notamment Ravenloft.",
+   "id": "t019-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans Eberron, aucun dieu du Sovereign Host ne s’est jamais manifesté de façon prouvée.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), « Changement de plan »",
+   "expl": "Vrai : la foi y repose sur la croyance, pas sur des apparitions ; certains doutent même de l’existence des dieux.",
+   "id": "t019-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "En 5e, le sort Changement de plan ne nécessite aucune composante matérielle.",
+   "rep": false,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Les plans miroirs »",
+   "expl": "Faux : il faut une tige de métal fourchue, d’une valeur d’au moins 250 po, accordée au plan visé.",
+   "id": "t019-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans la cosmologie de la 5e, la Féerie et la Gisombre sont des reflets du Plan matériel.",
+   "rep": true,
+   "src": "Black Isle Studios, Planescape: Torment (1999)",
+   "expl": "Vrai : on y retrouve la même géographie, mais exubérante dans la Féerie et lugubre dans la Gisombre.",
+   "id": "t019-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Planescape: Torment est un jeu de plateau.",
+   "rep": false,
+   "src": "Monster Manual 5e (2014) ; Fizban’s Treasury of Dragons (2021)",
+   "expl": "Faux : c’est un jeu vidéo de rôle de 1999, célèbre pour son héros immortel et amnésique, l’Anonyme.",
+   "id": "t019-068",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Bahamut et Tiamat sont alliés contre les autres dieux.",
+   "rep": false,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 ; Planescape Campaign Setting (1994)",
+   "expl": "Faux : le Dragon de Platine et la Reine des dragons maléfiques sont ennemis jurés.",
+   "id": "t019-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de strates compte le Mont Céleste, plan du loyal bon ?",
+   "rep": 7,
+   "min": 1,
+   "max": 20,
+   "pas": 1,
+   "unite": "strates",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 ; Planescape Campaign Setting (1994)",
+   "expl": "Les sept cieux s’élèvent sur une montagne sacrée, au-dessus d’un océan d’eau bénite.",
+   "id": "t019-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de plans extérieurs entourent les Terres extérieures dans la Grande Roue ?",
+   "rep": 16,
+   "min": 5,
+   "max": 30,
+   "pas": 1,
+   "unite": "plans",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 ; Planescape Campaign Setting (1994)",
+   "expl": "Seize plans, du Mont Céleste à Arcadie, chacun relié aux Terres extérieures par une ville-portail.",
+   "id": "t019-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de strates l’Abysse compte-t-elle selon la tradition ?",
+   "rep": 666,
+   "min": 100,
+   "max": 1000,
+   "pas": 1,
+   "unite": "strates",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 ; Planescape Campaign Setting (1994)",
+   "expl": "Le chiffre est traditionnel : personne n’a jamais pu les compter, et l’Abysse est peut-être infinie.",
+   "id": "t019-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Quelle strate de l’Abysse abrite les fosses de la Toile démoniaque de Lolth ?",
+   "rep": 66,
+   "min": 1,
+   "max": 200,
+   "pas": 1,
+   "unite": "strate n°",
+   "tolerance": 0,
+   "src": "Planescape, The Great Modron March (TSR, 1997)",
+   "expl": "La 66e strate est un réseau de toiles où Lolth conserve les âmes de ses fidèles.",
+   "id": "t019-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Tous les combien d’années les modrons partent-ils pour la Grande Marche ?",
+   "rep": 289,
+   "min": 50,
+   "max": 500,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Forgotten Realms Adventures (TSR, 1990)",
+   "expl": "Tous les 289 ans, une armée de modrons quitte Mechanus pour traverser les plans extérieurs.",
+   "id": "t019-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année du Calendrier des Vallées (CV) commence le Temps des Troubles ?",
+   "rep": 1358,
+   "min": 1300,
+   "max": 1500,
+   "pas": 1,
+   "unite": "CV",
+   "tolerance": 0,
+   "src": "Forgotten Realms Campaign Guide (2008)",
+   "expl": "En 1358 CV, les dieux sont chassés sur Toril sous forme mortelle.",
+   "id": "t019-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année du Calendrier des Vallées (CV) la Magepeste frappe-t-elle ?",
+   "rep": 1385,
+   "min": 1300,
+   "max": 1500,
+   "pas": 1,
+   "unite": "CV",
+   "tolerance": 0,
+   "src": "David « Zeb » Cook, Planescape Campaign Setting (TSR, 1994)",
+   "expl": "La mort de Mystra en 1385 CV bouleverse la carte de Faerûn ; la 4e édition fait un bond d’un siècle.",
+   "id": "t019-076",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît le décor de campagne Planescape ?",
+   "rep": 1994,
+   "min": 1980,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "David « Zeb » Cook, Planescape Campaign Setting (TSR, 1994)",
+   "expl": "TSR le publie pour AD&D 2e ; il revient en 5e en 2023.",
+   "id": "t019-077",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de factions se partagent l’influence à Sigil dans Planescape ?",
+   "rep": 15,
+   "min": 3,
+   "max": 30,
+   "pas": 1,
+   "unite": "factions",
+   "tolerance": 0,
+   "src": "David « Zeb » Cook, Planescape Campaign Setting (TSR, 1994)",
+   "expl": "Ces factions philosophiques (Harmonium, Mercykillers…) sont chassées de la ville par la Dame après la Guerre des Factions.",
+   "id": "t019-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, pendant le Temps des ____, les dieux errent sous forme mortelle.",
+   "choix": [
+    "Troubles",
+    "Ténèbres",
+    "Larmes",
+    "Cendres"
+   ],
+   "rep": 0,
+   "src": "Forgotten Realms Adventures (1990) ; Forgotten Realms Campaign Guide (2008)",
+   "expl": "En 1358 CV, Ao punit les dieux pour le vol des Tablettes du Destin.",
+   "id": "t019-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans les Royaumes Oubliés, la ____ ravage la magie après la mort de Mystra en 1385 CV.",
+   "choix": [
+    "Magepeste",
+    "Mortemagie",
+    "Déchirure",
+    "Fracture"
+   ],
+   "rep": 0,
+   "src": "Forgotten Realms Adventures (1990) ; Forgotten Realms Campaign Guide (2008)",
+   "expl": "La Magepeste (Spellplague) déforme les terres et les êtres touchés par le feu bleu.",
+   "id": "t019-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans les Royaumes Oubliés, Kelemvor accueille les âmes dans la Cité du ____.",
+   "choix": [
+    "Jugement",
+    "Repos",
+    "Silence",
+    "Néant"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (1994)",
+   "expl": "La Cité du Jugement se dresse sur le plan de la Fugue, entourée du Mur des Infidèles.",
+   "id": "t019-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Sigil est surnommée la Cité des ____.",
+   "choix": [
+    "Portes",
+    "Clés",
+    "Lames",
+    "Anneaux"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Chaque arche, chaque porte ou cadre de Sigil peut être un portail vers un autre plan.",
+   "id": "t019-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Eberron, l’Église de la Flamme d’____ gouverne la Thrane.",
+   "choix": [
+    "argent",
+    "or",
+    "airain",
+    "ivoire"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "La Flamme d’argent est une force sacrée née du sacrifice d’un couatl ; ses fidèles combattent les fiélons.",
+   "id": "t019-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Dragonlance, la Guerre de la ____ oppose les héros aux armées de Takhisis.",
+   "choix": [
+    "Lance",
+    "Couronne",
+    "Rose",
+    "Larme"
+   ],
+   "rep": 0,
+   "src": "Menzoberranzan (TSR, 1992) ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Les héros retrouvent les Lancedragons, armes forgées pour tuer les dragons.",
+   "id": "t019-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les fosses de la ____ démoniaque sont le domaine de Lolth dans l’Abysse.",
+   "choix": [
+    "Toile",
+    "Spirale",
+    "Ruche",
+    "Forge"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "La Reine-Araignée y tisse ses complots ; les drows morts en sa faveur y deviennent ses serviteurs.",
+   "id": "t019-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le plan ____ est un brouillard qui chevauche le Plan matériel ; les fantômes y séjournent.",
+   "choix": [
+    "éthéré",
+    "astral",
+    "brumeux",
+    "spectral"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Le sort Forme éthérée y fait passer un aventurier, invisible et intangible pour le monde matériel.",
+   "id": "t019-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Mont ____ est le plan des archons, d’alignement loyal bon.",
+   "choix": [
+    "Céleste",
+    "Olympe",
+    "Sacré",
+    "Divin"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Ses sept strates s’élèvent jusqu’à la lumière parfaite de la Chambre illuminée.",
+   "id": "t019-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les modrons de ____ suivent un ordre parfait sous l’autorité de Primus.",
+   "choix": [
+    "Mechanus",
+    "Arcadie",
+    "Achéron",
+    "Limbes"
+   ],
+   "rep": 0,
+   "src": "Curse of Strahd (2016)",
+   "expl": "Chaque modron obéit au rang supérieur, des monodrones jusqu’à Primus, le Un et Premier.",
+   "id": "t019-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le domaine du vampire Strahd, en Ravenloft, s’appelle la ____.",
+   "choix": [
+    "Barovie",
+    "Valachie",
+    "Moldavie",
+    "Sylvanie"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe B ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Strahd von Zarovich est le premier et le plus célèbre des Seigneurs du Domaine.",
+   "id": "t019-089",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Moradin, père des nains, est surnommé le Forgeur d’____.",
+   "choix": [
+    "Âmes",
+    "Étoiles",
+    "Épées",
+    "Montagnes"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe B ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Il aurait forgé les âmes des premiers nains dans le cœur de la terre.",
+   "id": "t019-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’appartient pas aux « Trois Morts » ?",
+   "choix": [
+    "Cyric",
+    "Bane",
+    "Bhaal",
+    "Myrkul"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Cyric a usurpé les pouvoirs de Bhaal et Myrkul, mais il n’a jamais fait partie du trio.",
+   "id": "t019-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces plans n’est pas un plan élémentaire ?",
+   "choix": [
+    "Mechanus",
+    "Le plan de l’Air",
+    "Le plan du Feu",
+    "Le plan de l’Eau"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Mechanus est un plan extérieur ; avec la Terre, l’Air, le Feu et l’Eau forment les plans intérieurs.",
+   "id": "t019-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces plans n’est pas un plan extérieur de la Grande Roue ?",
+   "choix": [
+    "Le plan éthéré",
+    "Arborée",
+    "Ysgard",
+    "Achéron"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Le plan éthéré est un plan de transition, comme le plan astral.",
+   "id": "t019-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces fiélons n’est pas un archidiable des Neuf Enfers ?",
+   "choix": [
+    "Orcus",
+    "Dispater",
+    "Mammon",
+    "Levistus"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Orcus est un prince démon de l’Abysse, seigneur des morts-vivants.",
+   "id": "t019-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces fiélons n’est pas un seigneur démon ?",
+   "choix": [
+    "Méphistophélès",
+    "Démogorgon",
+    "Graz’zt",
+    "Yeenoghu"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), annexe B",
+   "expl": "Méphistophélès est un archidiable, seigneur de Cania dans les Neuf Enfers.",
+   "id": "t019-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’appartient pas au panthéon des Royaumes Oubliés ?",
+   "choix": [
+    "Pelor",
+    "Tymora",
+    "Tempus",
+    "Oghma"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Pelor, dieu du soleil, vient du monde de Greyhawk.",
+   "id": "t019-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces dieux n’appartient pas au Sovereign Host d’Eberron ?",
+   "choix": [
+    "Le Dévoreur",
+    "Aureon",
+    "Onatar",
+    "Olladra"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 « Le Chaos élémentaire »",
+   "expl": "Le Dévoreur, dieu des tempêtes et de la mer destructrice, fait partie des Dark Six.",
+   "id": "t019-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces plans n’est pas un plan para-élémentaire ?",
+   "choix": [
+    "La Foudre",
+    "La Glace",
+    "Le Magma",
+    "La Vase"
+   ],
+   "rep": 0,
+   "src": "Monster Manual 5e (2014)",
+   "expl": "Les quatre plans para-élémentaires sont la Glace, le Magma, la Vase et la Fumée.",
+   "id": "t019-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures n’est pas un fiélon ?",
+   "choix": [
+    "Le slaad",
+    "Le yugoloth",
+    "Le diable",
+    "Le démon"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 11",
+   "expl": "Les slaadis sont des aberrations nées du chaos des Limbes.",
+   "id": "t019-099",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts ne permet pas de quitter le Plan matériel ?",
+   "choix": [
+    "Téléportation",
+    "Changement de plan",
+    "Portail",
+    "Forme éthérée"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Téléportation déplace d’un lieu à un autre sur le même plan.",
+   "id": "t019-100",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces dieux n’est pas un dieu de la mort des Royaumes Oubliés ?",
+   "choix": [
+    "Tymora",
+    "Myrkul",
+    "Kelemvor",
+    "Jergal"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Jergal, Myrkul et Kelemvor ont tour à tour régné sur les morts ; Tymora est la déesse de la chance.",
+   "id": "t019-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels plans sont des plans extérieurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mechanus",
+    "Arborée",
+    "Ysgard",
+    "Le plan astral",
+    "Le plan éthéré"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Astral et éthéré sont des plans de transition qui relient les autres.",
+   "id": "t019-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels archidiables gouvernent une strate des Neuf Enfers ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dispater",
+    "Mammon",
+    "Méphistophélès",
+    "Orcus",
+    "Graz’zt"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Orcus et Graz’zt sont des seigneurs démons de l’Abysse.",
+   "id": "t019-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels plans sont d’alignement mauvais ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’Abysse",
+    "Les Neuf Enfers",
+    "Hadès",
+    "L’Élysée",
+    "Arborée"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe B",
+   "expl": "Chaotique, loyal et neutre mauvais ; l’Élysée est neutre bon et Arborée chaotique bon.",
+   "id": "t019-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels dieux appartiennent au panthéon de Greyhawk ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vecna",
+    "Heironeous",
+    "Pelor",
+    "Saint Cuthbert",
+    "Mystra",
+    "Tymora"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Fizban’s Treasury of Dragons (2021)",
+   "expl": "Mystra et Tymora viennent des Royaumes Oubliés.",
+   "id": "t019-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels dieux sont des dieux dragons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bahamut",
+    "Tiamat",
+    "Io",
+    "Moradin",
+    "Lolth"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 11",
+   "expl": "Io, le Dragon aux Neuf Yeux, serait l’ancêtre de tous les dragons ; il se serait scindé en Bahamut et Tiamat.",
+   "id": "t019-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts permettent de voyager vers un autre plan ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Changement de plan",
+    "Portail",
+    "Projection astrale",
+    "Téléportation",
+    "Porte dimensionnelle"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Téléportation et Porte dimensionnelle restent sur le même plan.",
+   "id": "t019-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels plans sont des reflets du Plan matériel dans la 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La Féerie",
+    "La Gisombre",
+    "Les Limbes",
+    "Mechanus",
+    "Arborée"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Monster Manual 5e (2014) ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Les plans miroirs partagent la géographie du Plan matériel, avec une atmosphère très différente.",
+   "id": "t019-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures sont des fiélons ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Démons",
+    "Diables",
+    "Yugoloths",
+    "Slaadis",
+    "Modrons"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Les slaadis sont des aberrations, les modrons des créatures artificielles de Mechanus.",
+   "id": "t019-109",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels dieux ont régné sur les morts dans les Royaumes Oubliés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Kelemvor",
+    "Myrkul",
+    "Jergal",
+    "Lathander",
+    "Chauntea"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "TSR (1987-1994) ; Wizards of the Coast (2022-2023)",
+   "expl": "Lathander est le dieu de l’aube, Chauntea la déesse de l’agriculture.",
+   "id": "t019-110",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels décors de campagne sont consacrés aux voyages entre les plans ou les étoiles ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Planescape",
+    "Spelljammer",
+    "Dark Sun",
+    "Dragonlance"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Spelljammer fait voyager des navires dans l’espace ; Planescape à travers les plans.",
+   "id": "t019-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces strates des Neuf Enfers de la moins profonde à la plus profonde.",
+   "items": [
+    "Avernus",
+    "Dis",
+    "Minauros",
+    "Phlégéthos",
+    "Stygie"
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2 ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Ce sont les strates 1 à 5 ; suivent Malbolge, Maladomini, Cania et Nessus.",
+   "id": "t019-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces quatre strates inférieures des Neuf Enfers, de la moins profonde à la plus profonde.",
+   "items": [
+    "Malbolge",
+    "Maladomini",
+    "Cania",
+    "Nessus"
+   ],
+   "src": "Forgotten Realms Adventures (1990) ; Forgotten Realms Campaign Guide (2008) ; Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Strates 6 à 9 : Glasya, Baalzébul, Méphistophélès, puis Asmodée tout au fond.",
+   "id": "t019-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements des Royaumes Oubliés par ordre chronologique.",
+   "items": [
+    "Temps des Troubles",
+    "Magepeste",
+    "Seconde Fracture"
+   ],
+   "src": "TSR (1980-1994) ; Wizards of the Coast (2004)",
+   "expl": "1358, 1385, puis 1482-1487 CV pour la Seconde Fracture (Sundering), qui sépare de nouveau Abeir et Toril.",
+   "id": "t019-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces décors de campagne par date de parution.",
+   "items": [
+    "Greyhawk",
+    "Dragonlance",
+    "Royaumes Oubliés",
+    "Planescape",
+    "Eberron"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 11",
+   "expl": "1980 pour le folio de Greyhawk, 1984 pour Dragonlance, 1987 pour les Royaumes, 1994 pour Planescape et 2004 pour Eberron.",
+   "id": "t019-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sorts de déplacement par niveau croissant.",
+   "items": [
+    "Pas brumeux",
+    "Porte dimensionnelle",
+    "Téléportation",
+    "Portail"
+   ],
+   "src": "Jeff Grubb, Manual of the Planes (1987) ; Planescape (1994) ; Planescape: Adventures in the Multiverse (2023)",
+   "expl": "Niveaux 2, 4, 7 et 9 : seul Portail ouvre un passage vers un autre plan.",
+   "id": "t019-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces livres consacrés aux plans par date de parution.",
+   "items": [
+    "Manual of the Planes",
+    "Planescape Campaign Setting",
+    "Planescape: Adventures in the Multiverse"
+   ],
+   "src": "BioWare (1998) ; Black Isle Studios (1999) ; Larian Studios (2023)",
+   "expl": "1987, 1994 et 2023 : de la première description des plans au retour de Sigil en 5e.",
+   "id": "t019-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces jeux vidéo par date de sortie.",
+   "items": [
+    "Baldur’s Gate",
+    "Planescape: Torment",
+    "Baldur’s Gate 3"
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "1998, 1999, puis 2023 : Bhaal, son héritage et les Trois Morts sont au cœur des deux Baldur’s Gate.",
+   "id": "t019-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces dieux dans l’ordre chronologique où ils ont régné sur les morts.",
+   "items": [
+    "Jergal",
+    "Myrkul",
+    "Cyric",
+    "Kelemvor"
+   ],
+   "src": "Planescape Campaign Setting (1994) ; Dungeon Master’s Guide 5e (2014)",
+   "expl": "Jergal cède son pouvoir aux Trois Morts (dont Myrkul), Cyric hérite après le Temps des Troubles, puis Kelemvor.",
+   "id": "t019-119",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces plans dans l’ordre de la Grande Roue, du Mont Céleste vers Arborée.",
+   "items": [
+    "Mont Céleste",
+    "Bytopie",
+    "Élysée",
+    "Terres des Bêtes",
+    "Arborée"
+   ],
+   "src": "Forgotten Realms Adventures (1990)",
+   "expl": "On glisse du loyal bon au chaotique bon, en passant par le neutre bon de l’Élysée.",
+   "id": "t019-120",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du destin de Cyric dans l’ordre.",
+   "items": [
+    "Voleur mortel",
+    "Meurtre de Bhaal",
+    "Dieu des morts",
+    "Dieu de la discorde, déchu du royaume des morts"
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe B",
+   "expl": "Après sa folie, Ao lui retire la mort, confiée à Kelemvor ; il garde la discorde, le meurtre et le mensonge.",
+   "id": "t019-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque dieu des Royaumes Oubliés à son domaine.",
+   "paires": [
+    [
+     "Mystra",
+     "Magie"
+    ],
+    [
+     "Tymora",
+     "Chance"
+    ],
+    [
+     "Tempus",
+     "Guerre"
+    ],
+    [
+     "Lathander",
+     "Aube"
+    ],
+    [
+     "Oghma",
+     "Savoir"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe B",
+   "expl": "Le Manuel des Joueurs propose aussi pour chacun un domaine de clerc conseillé.",
+   "id": "t019-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à son peuple.",
+   "paires": [
+    [
+     "Moradin",
+     "Nains"
+    ],
+    [
+     "Corellon Larethian",
+     "Elfes"
+    ],
+    [
+     "Gruumsh",
+     "Orcs"
+    ],
+    [
+     "Yondalla",
+     "Halfelins"
+    ],
+    [
+     "Garl Glittergold",
+     "Gnomes"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Chaque peuple de D&D a son panthéon, mené par un dieu créateur.",
+   "id": "t019-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque plan à son alignement.",
+   "paires": [
+    [
+     "Mont Céleste",
+     "Loyal bon"
+    ],
+    [
+     "Neuf Enfers",
+     "Loyal mauvais"
+    ],
+    [
+     "Abysse",
+     "Chaotique mauvais"
+    ],
+    [
+     "Mechanus",
+     "Loyal neutre"
+    ],
+    [
+     "Limbes",
+     "Chaotique neutre"
+    ]
+   ],
+   "src": "Monster Manual 5e (2014) ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Dans la Grande Roue, l’alignement façonne le paysage même de chaque plan.",
+   "id": "t019-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque plan à ses habitants typiques.",
+   "paires": [
+    [
+     "Limbes",
+     "Slaadis"
+    ],
+    [
+     "Mechanus",
+     "Modrons"
+    ],
+    [
+     "Géhenne",
+     "Yugoloths"
+    ],
+    [
+     "Plan astral",
+     "Githyankis"
+    ]
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018) ; Descent into Avernus (2019)",
+   "expl": "Chaos, ordre, mercenaires du mal et pirates de l’astral.",
+   "id": "t019-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque strate des Enfers à son seigneur.",
+   "paires": [
+    [
+     "Avernus",
+     "Zariel"
+    ],
+    [
+     "Dis",
+     "Dispater"
+    ],
+    [
+     "Minauros",
+     "Mammon"
+    ],
+    [
+     "Cania",
+     "Méphistophélès"
+    ],
+    [
+     "Nessus",
+     "Asmodée"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), annexe B",
+   "expl": "Chaque archidiable rivalise avec les autres tout en obéissant à Asmodée.",
+   "id": "t019-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à son symbole.",
+   "paires": [
+    [
+     "Tymora",
+     "Pièce de monnaie"
+    ],
+    [
+     "Torm",
+     "Gantelet blanc"
+    ],
+    [
+     "Tempus",
+     "Épée enflammée"
+    ],
+    [
+     "Myrkul",
+     "Crâne blanc"
+    ],
+    [
+     "Lolth",
+     "Araignée"
+    ]
+   ],
+   "src": "TSR ; Wizards of the Coast",
+   "expl": "Les clercs portent ces symboles sur leur bouclier ou leur amulette.",
+   "id": "t019-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créateur à son décor de campagne.",
+   "paires": [
+    [
+     "Ed Greenwood",
+     "Royaumes Oubliés"
+    ],
+    [
+     "Keith Baker",
+     "Eberron"
+    ],
+    [
+     "Gary Gygax",
+     "Greyhawk"
+    ],
+    [
+     "David « Zeb » Cook",
+     "Planescape"
+    ]
+   ],
+   "src": "Mordenkainen’s Tome of Foes (2018), « Seigneurs démons »",
+   "expl": "Ed Greenwood imaginait les Royaumes depuis son enfance ; Keith Baker a gagné un concours pour Eberron.",
+   "id": "t019-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque prince démon à son domaine.",
+   "paires": [
+    [
+     "Orcus",
+     "Morts-vivants"
+    ],
+    [
+     "Yeenoghu",
+     "Gnolls"
+    ],
+    [
+     "Baphomet",
+     "Minotaures"
+    ],
+    [
+     "Juiblex",
+     "Vases"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Chaque seigneur démon a des fidèles parmi les mortels, qui se transforment parfois à son image.",
+   "id": "t019-129",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque plan à sa description.",
+   "paires": [
+    [
+     "Plan éthéré",
+     "Brume aux frontières du réel"
+    ],
+    [
+     "Plan astral",
+     "Mer argentée de la pensée"
+    ],
+    [
+     "Féerie",
+     "Monde féerique exubérant"
+    ],
+    [
+     "Gisombre",
+     "Reflet lugubre du monde"
+    ]
+   ],
+   "src": "Keith Baker (2004) ; Margaret Weis et Tracy Hickman (1984) ; Gary Gygax (1980)",
+   "expl": "Ces quatre plans sont les plus proches du Plan matériel.",
+   "id": "t019-130",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque décor à ses dieux emblématiques.",
+   "paires": [
+    [
+     "Eberron",
+     "Sovereign Host"
+    ],
+    [
+     "Dragonlance",
+     "Paladine et Takhisis"
+    ],
+    [
+     "Greyhawk",
+     "Heironeous et Hextor"
+    ],
+    [
+     "Royaumes Oubliés",
+     "Mystra et Tymora"
+    ]
+   ],
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Chaque monde a son propre panthéon, même si des dieux comme Vecna ou Bahamut voyagent entre eux.",
+   "id": "t019-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. J’ai péri lors de la Magepeste\n3. Ma Toile soutient toute la magie des Royaumes",
+   "choix": [
+    "Mystra",
+    "Shar",
+    "Selûne",
+    "Tymora"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Mystra est revenue à la vie lors de la Seconde Fracture.",
+   "id": "t019-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. Ma jumelle est la lune\n3. Je règne sur la nuit, la perte et l’oubli",
+   "choix": [
+    "Shar",
+    "Selûne",
+    "Lolth",
+    "Umberlee"
+   ],
+   "rep": 0,
+   "src": "Sword Coast Adventurer’s Guide (2015)",
+   "expl": "Shar a créé la Trame d’ombre, rivale de la Toile de Mystra.",
+   "id": "t019-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’étais un voleur mortel\n3. J’ai tué Bhaal pendant le Temps des Troubles",
+   "choix": [
+    "Cyric",
+    "Kelemvor",
+    "Bane",
+    "Myrkul"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (1994)",
+   "expl": "Cyric, le Prince des Mensonges, est aussi célèbre pour sa folie que pour sa cruauté.",
+   "id": "t019-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une ville en anneau\n2. Je flotte au-dessus d’une flèche infinie\n3. Mes portails mènent partout",
+   "choix": [
+    "Sigil",
+    "La Cité d’Airain",
+    "Tu’narath",
+    "Eauprofonde"
+   ],
+   "rep": 0,
+   "src": "Planescape Campaign Setting (1994)",
+   "expl": "On ne voit jamais de ciel à Sigil : seulement l’autre côté de l’anneau, au-dessus de sa tête.",
+   "id": "t019-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une silhouette muette\n2. Des lames entourent mon visage\n3. Même les dieux ne peuvent entrer chez moi",
+   "choix": [
+    "La Dame des Douleurs",
+    "Asmodée",
+    "La Reine Corneille",
+    "Vlaakith"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Personne ne connaît sa nature exacte ; mieux vaut ne pas la nommer à voix haute.",
+   "id": "t019-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un archidiable\n2. Je règne au fond de Nessus\n3. Je suis le seigneur de tous les Enfers",
+   "choix": [
+    "Asmodée",
+    "Méphistophélès",
+    "Baalzébul",
+    "Dispater"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Asmodée manipule les autres archidiables et les mortels par des contrats.",
+   "id": "t019-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un plan\n2. Mes rouages tournent sans fin\n3. Les modrons me servent",
+   "choix": [
+    "Mechanus",
+    "Arcadie",
+    "Achéron",
+    "Les Limbes"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Mechanus est le royaume de l’ordre parfait, où tout se mesure et se calcule.",
+   "id": "t019-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis une reine liche\n2. Mon peuple pille le plan astral\n3. Je règne depuis Tu’narath",
+   "choix": [
+    "Vlaakith",
+    "Lolth",
+    "Zariel",
+    "Iggwilv"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Vlaakith dévore l’essence des githyankis les plus puissants pour prolonger sa non-vie.",
+   "id": "t019-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un peuple\n2. J’ai fui l’esclavage des flagelleurs mentaux\n3. Je médite dans les Limbes",
+   "choix": [
+    "Les githzerais",
+    "Les githyankis",
+    "Les slaadis",
+    "Les modrons"
+   ],
+   "rep": 0,
+   "src": "Fizban’s Treasury of Dragons (2021)",
+   "expl": "Les githzerais suivent la voie de Zerthimon et maîtrisent des pouvoirs psioniques.",
+   "id": "t019-140",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je suis un dragon de platine\n3. J’apparais parfois sous les traits d’un vieil homme entouré de canaris",
+   "choix": [
+    "Bahamut",
+    "Tiamat",
+    "Io",
+    "Aasterinian"
+   ],
+   "rep": 0,
+   "src": "Baldur’s Gate: Descent into Avernus (2019)",
+   "expl": "Bahamut voyage souvent déguisé, accompagné de sept canaris qui sont des dragons d’or métamorphosés.",
+   "id": "t019-141",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. J’ai cinq têtes\n3. Je suis enchaînée en Avernus",
+   "choix": [
+    "Tiamat",
+    "Zariel",
+    "Glasya",
+    "Lolth"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 2",
+   "expl": "Tiamat attend le jour où son culte la libérera pour régner sur le monde.",
+   "id": "t019-142",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un plan\n2. Mes strates sont innombrables\n3. Les démons y pullulent",
+   "choix": [
+    "L’Abysse",
+    "Les Neuf Enfers",
+    "Carcérie",
+    "Le Pandémonium"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), artefacts",
+   "expl": "Chaque strate de l’Abysse peut refléter la personnalité d’un seigneur démon.",
+   "id": "t019-143",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’étais une liche\n3. Ma main et mon œil sont des artefacts",
+   "choix": [
+    "Vecna",
+    "Orcus",
+    "Acererak",
+    "Kas"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), artefacts",
+   "expl": "Vecna, le Murmuré, règne sur les secrets ; il a même menacé la cosmologie entière dans Die Vecna Die!",
+   "id": "t019-144",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
