@@ -1,0 +1,1990 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "chasse-monstres-jv",
+  "nom": "Chasse aux monstres et bestiaires virtuels",
+  "royaume": "Écran, jeux vidéo et culture geek",
+  "icone": "griffe",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel éditeur japonais crée la série Monster Hunter, en 2004 ?",
+   "choix": [
+    "Capcom",
+    "Square Enix",
+    "Bandai Namco",
+    "Konami"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Le premier épisode sort sur PlayStation 2 et mise sur la chasse en coopération.",
+   "id": "t087-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait-on principalement des monstres vaincus dans Monster Hunter ?",
+   "choix": [
+    "On en fabrique des équipements",
+    "On les adopte comme animaux",
+    "On les vend aux enchères",
+    "On les expose au musée"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Chaque nouvelle armure demande de chasser plusieurs fois la même créature.",
+   "id": "t087-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel wyverne volant, surnommé le roi du ciel, est l’emblème de Monster Hunter ?",
+   "choix": [
+    "Rathalos",
+    "Tigrex",
+    "Nargacuga",
+    "Diablos"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Sa compagne, Rathian, est surnommée la reine de la terre.",
+   "id": "t087-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les chats compagnons qui accompagnent les chasseurs ?",
+   "choix": [
+    "Les Palicos",
+    "Les Moglis",
+    "Les Félinos",
+    "Les Tanukis"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Ils appartiennent à l’espèce des Félynes et parlent avec des jeux de mots.",
+   "id": "t087-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de types d’armes propose la série Monster Hunter depuis ses épisodes récents ?",
+   "choix": [
+    "Quatorze",
+    "Cinq",
+    "Huit",
+    "Vingt"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Lance, morpho-hache, insectoglaive ou corne de chasse : chacune a son style.",
+   "id": "t087-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel épisode de Monster Hunter, en 2018, devient le plus grand succès de Capcom ?",
+   "choix": [
+    "Monster Hunter : World",
+    "Monster Hunter Rise",
+    "Monster Hunter 4",
+    "Monster Hunter Wilds"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Il dépasse vingt millions d’exemplaires vendus.",
+   "id": "t087-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment peut-on capturer un monstre affaibli dans Monster Hunter ?",
+   "choix": [
+    "Piège et tranquillisants",
+    "Une Poké Ball",
+    "Un filet magique",
+    "Un festin empoisonné"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "La capture rapporte d’autres matériaux que l’élimination.",
+   "id": "t087-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien d’espèces compte le Pokédex national à la fin de la neuvième génération ?",
+   "choix": [
+    "1 025",
+    "151",
+    "500",
+    "2 000"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "La première génération n’en comptait que 151.",
+   "id": "t087-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le nom français du professeur qui confie son premier Pokémon au héros de Pokémon Rouge ?",
+   "choix": [
+    "Le professeur Chen",
+    "Le professeur Orme",
+    "Le professeur Seko",
+    "Le professeur Sorbier"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "En anglais, il s’appelle Professor Oak, le chêne.",
+   "id": "t087-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel Pokémon porte le numéro 001 du Pokédex national ?",
+   "choix": [
+    "Bulbizarre",
+    "Pikachu",
+    "Salamèche",
+    "Mew"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Il est le premier Pokémon de type Plante et Poison de la liste.",
+   "id": "t087-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Pokémon a été créé par manipulation génétique à partir de Mew ?",
+   "choix": [
+    "Mewtwo",
+    "Métamorph",
+    "Évoli",
+    "Porygon"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Il est le grand légendaire de la première génération.",
+   "id": "t087-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de types différents existe-t-il dans Pokémon depuis l’ajout du type Fée ?",
+   "choix": [
+    "Dix-huit",
+    "Quinze",
+    "Douze",
+    "Vingt"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Le type Fée apparaît en 2013 pour équilibrer les dragons.",
+   "id": "t087-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le triangle de base des Pokémon de départ, quel type l’emporte sur l’Eau ?",
+   "choix": [
+    "La Plante",
+    "Le Feu",
+    "L’Électrik",
+    "La Glace"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Le Feu bat la Plante, la Plante bat l’Eau, l’Eau bat le Feu.",
+   "id": "t087-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien d’évolutions différentes possède Évoli ?",
+   "choix": [
+    "Huit",
+    "Trois",
+    "Cinq",
+    "Dix"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Pyroli, Aquali, Voltali, Mentali, Noctali, Phyllali, Givrali et Nymphali.",
+   "id": "t087-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est, depuis la sixième génération, la probabilité de base de rencontrer un Pokémon chromatique ?",
+   "choix": [
+    "Une chance sur 4 096",
+    "Une chance sur 100",
+    "Une chance sur 8",
+    "Une chance sur 1 000 000"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Elle était d’une sur 8 192 dans les premières générations.",
+   "id": "t087-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel bug célèbre de Pokémon Rouge et Bleu fait apparaître un Pokémon glitché ?",
+   "choix": [
+    "MissingNo.",
+    "Pikabug",
+    "Ditto Error",
+    "Mew Glitch"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Il se rencontre en surfant sur la côte de Cramois’Île après une manipulation.",
+   "id": "t087-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel studio américain crée Pokémon GO, sorti en 2016 ?",
+   "choix": [
+    "Niantic",
+    "Game Freak",
+    "Nintendo",
+    "Rovio"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Le jeu utilise la réalité augmentée et la géolocalisation.",
+   "id": "t087-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2022 se déroule dans la région de Hisui, ancêtre de Sinnoh ?",
+   "choix": [
+    "Légendes Pokémon : Arceus",
+    "Pokémon Écarlate",
+    "Pokémon Diamant",
+    "Pokémon Épée"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Le joueur y remplit le tout premier Pokédex de la région.",
+   "id": "t087-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jouet électronique japonais de 1996 demande de nourrir et soigner une créature virtuelle ?",
+   "choix": [
+    "Le Tamagotchi",
+    "Le Game Boy",
+    "Le Furby",
+    "Le Digivice"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Son nom combine tamago, l’œuf, et watch, la montre.",
+   "id": "t087-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de 1997, issue d’un animal virtuel, met en scène des monstres numériques ?",
+   "choix": [
+    "Digimon",
+    "Pokémon",
+    "Monster Rancher",
+    "Yo-kai Watch"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Son nom est la contraction de Digital Monsters.",
+   "id": "t087-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 1997 génère des créatures à partir des CD de musique insérés dans la console ?",
+   "choix": [
+    "Monster Rancher",
+    "Pokémon Stadium",
+    "Digimon World",
+    "Jade Cocoon"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Chaque disque donne une créature différente.",
+   "id": "t087-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2024, surnommé « Pokémon avec des fusils », fait capturer des créatures appelées Pals ?",
+   "choix": [
+    "Palworld",
+    "Temtem",
+    "Cassette Beasts",
+    "Nexomon"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Il s’est vendu à plusieurs millions d’exemplaires en quelques jours.",
+   "id": "t087-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série d’Atlus permet de négocier avec des démons pour les recruter puis les fusionner ?",
+   "choix": [
+    "Shin Megami Tensei",
+    "Persona Q",
+    "Devil May Cry",
+    "Disgaea"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Les fusions donnent des démons de plus en plus puissants.",
+   "id": "t087-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel épisode de Dragon Quest, en 1992, permet pour la première fois de recruter des monstres ?",
+   "choix": [
+    "Dragon Quest V",
+    "Dragon Quest III",
+    "Dragon Quest VIII",
+    "Dragon Quest XI"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Le Gluant, monstre emblématique de la série, peut y devenir un compagnon.",
+   "id": "t087-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de Level-5, née en 2013, fait collectionner des esprits malicieux à l’aide d’une montre ?",
+   "choix": [
+    "Yo-kai Watch",
+    "Inazuma Eleven",
+    "Ni no Kuni",
+    "Professeur Layton"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Ses créatures s’inspirent directement des yokai du folklore japonais.",
+   "id": "t087-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans The Witcher 3, où Geralt consigne-t-il ses connaissances sur les créatures ?",
+   "choix": [
+    "Dans le bestiaire",
+    "Dans le grimoire",
+    "Dans le journal de Jaskier",
+    "Dans un codex runique"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Lire les entrées révèle les faiblesses de chaque monstre.",
+   "id": "t087-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2017 fait apprivoiser des dinosaures pour rester en vie sur une île ?",
+   "choix": [
+    "ARK : Survival Evolved",
+    "Jurassic World Evolution",
+    "The Isle",
+    "Primal Carnage"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "On y nourrit les créatures assommées pour gagner leur confiance.",
+   "id": "t087-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Bandai Namco, sorti en 2010, fait chasser des monstres appelés Aragami ?",
+   "choix": [
+    "God Eater",
+    "Toukiden",
+    "Freedom Wars",
+    "Soul Sacrifice"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Les chasseurs y manient des armes vivantes capables de dévorer.",
+   "id": "t087-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2023, coédité par EA et Koei Tecmo, fait construire des machines appelées Karakuri pour chasser ?",
+   "choix": [
+    "Wild Hearts",
+    "Toukiden 2",
+    "Dauntless",
+    "Monster Hunter Rise"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Il s’inspire du Japon féodal et de la nature déchaînée.",
+   "id": "t087-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu gratuit de 2019 fait chasser d’énormes Béhémoths dans un monde d’îles flottantes ?",
+   "choix": [
+    "Dauntless",
+    "Monster Hunter Stories",
+    "Wild Hearts",
+    "Lost Ark"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Ses serveurs ont fermé en 2025, faute de joueurs suffisants.",
+   "id": "t087-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2008, de Will Wright, permet de créer ses propres créatures et de les faire évoluer ?",
+   "choix": [
+    "Spore",
+    "Les Sims",
+    "SimLife",
+    "Black and White"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Le joueur suit son espèce de la cellule jusqu’à la conquête spatiale.",
+   "id": "t087-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie « Pikachu » d’après ses créateurs ?",
+   "choix": [
+    "Étincelle et couinement",
+    "Le nom d’un fruit jaune",
+    "Petit éclair rapide",
+    "Joue électrique"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "« Pika » évoque l’étincelle, « chu » le couinement de la souris.",
+   "id": "t087-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel est le numéro de Pikachu dans le Pokédex national ?",
+   "choix": [
+    "25",
+    "1",
+    "151",
+    "100"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Il est devenu la mascotte de toute la franchise.",
+   "id": "t087-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Pokémon peut se transformer en n’importe quel autre Pokémon ?",
+   "choix": [
+    "Métamorph",
+    "Mew",
+    "Évoli",
+    "Zarbi"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Il est très utilisé pour faire éclore des œufs dans les pensions.",
+   "id": "t087-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Pokémon légendaire est présenté comme le dieu créateur de l’univers Pokémon ?",
+   "choix": [
+    "Arceus",
+    "Mew",
+    "Rayquaza",
+    "Dialga"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Il possède la capacité unique Jugement et change de type selon l’objet tenu.",
+   "id": "t087-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom porte en français l’objet qui sert à capturer les Pokémon ?",
+   "choix": [
+    "La Poké Ball",
+    "La Poké Cage",
+    "La Monstroballe",
+    "La Capturbulle"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Ses couleurs rouge et blanche sont devenues emblématiques.",
+   "id": "t087-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle extension de Monster Hunter Rise, en 2022, introduit de nouveaux monstres dans un royaume européen ?",
+   "choix": [
+    "Sunbreak",
+    "Iceborne",
+    "Ultimate",
+    "Frontier"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Elle s’inspire des légendes gothiques européennes.",
+   "id": "t087-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle extension de Monster Hunter : World, en 2019, mène les chasseurs vers une région glacée ?",
+   "choix": [
+    "Iceborne",
+    "Sunbreak",
+    "Wilds",
+    "Rise"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Elle ajoute le terrible dragon ancien Velkhana.",
+   "id": "t087-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de jeux de rôle de Level-5 et du studio Ghibli fait combattre des « familiers » ?",
+   "choix": [
+    "Ni no Kuni",
+    "Yo-kai Watch",
+    "Dragon Quest Monsters",
+    "Tales of"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Le studio Ghibli en signe les scènes animées.",
+   "id": "t087-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne l’abréviation « pokédex » ?",
+   "choix": [
+    "Une encyclopédie des Pokémon",
+    "Un dresseur expérimenté",
+    "Un type de Poké Ball",
+    "Un badge d’arène"
+   ],
+   "rep": 0,
+   "src": "Capcom (chiffres de ventes officiels, Monster Hunter) ; The Pokémon Company (Pokédex officiel, pokemon.com) ; Bandai (historique du Tamagotchi) ; Niantic ; Atlus ; Pocketpair ; Poképédia (encyclopédie francophone)",
+   "expl": "Le joueur doit la remplir en rencontrant ou capturant chaque espèce.",
+   "id": "t087-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Monster Hunter est une série de Capcom.",
+   "rep": true,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Elle est née en 2004 sur la PlayStation 2 de Sony.",
+   "id": "t087-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Rathalos est surnommé la reine de la terre.",
+   "rep": false,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Faux : c’est Rathian ; Rathalos est le roi du ciel.",
+   "id": "t087-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Mewtwo a été créé à partir de Mew.",
+   "rep": true,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Les scientifiques du manoir de Cramois’Île en ont laissé des notes.",
+   "id": "t087-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Pokémon GO a été développé par Game Freak.",
+   "rep": false,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Faux : il a été développé par l’américain Niantic.",
+   "id": "t087-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le type Fée existe dans Pokémon depuis 2013.",
+   "rep": true,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Il apparaît avec Pokémon X et Y, sur Nintendo 3DS.",
+   "id": "t087-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Bulbizarre porte le numéro 025 du Pokédex.",
+   "rep": false,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Faux : il porte le numéro 001 ; le 025 est Pikachu.",
+   "id": "t087-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Tamagotchi est né au Japon.",
+   "rep": true,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Il est commercialisé par Bandai en 1996.",
+   "id": "t087-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Évoli possède trois évolutions seulement.",
+   "rep": false,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Faux : il en possède huit à ce jour, de Pyroli à Nymphali.",
+   "id": "t087-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Shin Megami Tensei permet de fusionner des démons.",
+   "rep": true,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "La fusion se pratique traditionnellement dans la Cathédrale des ombres.",
+   "id": "t087-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Monster Hunter : World est sorti en 2004.",
+   "rep": false,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Faux : il sort en 2018 ; c’est le premier Monster Hunter qui sort en 2004.",
+   "id": "t087-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Palworld met en scène des créatures appelées Pals.",
+   "rep": true,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Elles peuvent travailler dans la base du joueur.",
+   "id": "t087-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Palicos sont des dragons.",
+   "rep": false,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Faux : ce sont des chats compagnons très bavards.",
+   "id": "t087-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Digimon signifie Digital Monsters.",
+   "rep": true,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "La série naît d’un animal virtuel concurrent du Tamagotchi.",
+   "id": "t087-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Pokémon, l’Eau est faible contre le Feu.",
+   "rep": false,
+   "src": "Capcom ; The Pokémon Company",
+   "expl": "Faux : c’est le Feu qui est faible contre l’Eau.",
+   "id": "t087-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’espèces compte la première génération de Pokémon ?",
+   "rep": 151,
+   "min": 100,
+   "max": 251,
+   "pas": 1,
+   "unite": "espèces",
+   "tolerance": 0,
+   "src": "Capcom ; The Pokémon Company",
+   "expl": "Mew, le 151e, était un secret des programmeurs.",
+   "id": "t087-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort le premier Monster Hunter ?",
+   "rep": 2004,
+   "min": 1998,
+   "max": 2012,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Capcom ; The Pokémon Company",
+   "expl": "Le jeu permet de chasser en ligne à quatre joueurs.",
+   "id": "t087-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de types existe-t-il dans Pokémon ?",
+   "rep": 18,
+   "min": 10,
+   "max": 25,
+   "pas": 1,
+   "unite": "types",
+   "tolerance": 0,
+   "src": "Capcom ; The Pokémon Company",
+   "expl": "Chaque type a ses forces et ses faiblesses.",
+   "id": "t087-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’évolutions possède Évoli ?",
+   "rep": 8,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "évolutions",
+   "tolerance": 0,
+   "src": "Capcom ; The Pokémon Company",
+   "expl": "Chacune de ces formes correspond à un type différent.",
+   "id": "t087-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de types d’armes compte Monster Hunter ?",
+   "rep": 14,
+   "min": 6,
+   "max": 20,
+   "pas": 1,
+   "unite": "armes",
+   "tolerance": 0,
+   "src": "Capcom ; The Pokémon Company",
+   "expl": "Chaque arme demande un long apprentissage.",
+   "id": "t087-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Pokémon GO ?",
+   "rep": 2016,
+   "min": 2010,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Capcom ; The Pokémon Company",
+   "expl": "L’été 2016 voit des foules entières chasser les Pokémon dans les rues.",
+   "id": "t087-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’espèces compte le Pokédex national à la fin de la deuxième génération ?",
+   "rep": 251,
+   "min": 151,
+   "max": 400,
+   "pas": 1,
+   "unite": "espèces",
+   "tolerance": 0,
+   "src": "Capcom ; The Pokémon Company",
+   "expl": "La deuxième génération ajoute cent nouvelles espèces, jusqu’à Celebi.",
+   "id": "t087-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année naît le Tamagotchi ?",
+   "rep": 1996,
+   "min": 1990,
+   "max": 2005,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Capcom ; The Pokémon Company",
+   "expl": "Il s’en est vendu des dizaines de millions dans le monde.",
+   "id": "t087-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’encyclopédie des Pokémon s’appelle le ____.",
+   "choix": [
+    "Pokédex",
+    "Pokédico",
+    "Pokélist",
+    "Pokénet"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Le professeur Chen confie le premier au héros.",
+   "id": "t087-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le wyverne roi du ciel de Monster Hunter s’appelle ____.",
+   "choix": [
+    "Rathalos",
+    "Rathian",
+    "Tigrex",
+    "Diablos"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Il crache du feu et empoisonne avec ses griffes.",
+   "id": "t087-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les chats compagnons de Monster Hunter s’appellent les ____.",
+   "choix": [
+    "Palicos",
+    "Mogwaïs",
+    "Chachas",
+    "Félins"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ils combattent, soignent et ramassent des objets.",
+   "id": "t087-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jouet virtuel japonais de 1996 s’appelle le ____.",
+   "choix": [
+    "Tamagotchi",
+    "Tamagochi",
+    "Tamagucci",
+    "Takopi"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Il tient dans la paume de la main et pend souvent à un porte-clés.",
+   "id": "t087-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La série de monstres numériques s’appelle ____.",
+   "choix": [
+    "Digimon",
+    "Digimons",
+    "Digital",
+    "Digivolve"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ses héros humains sont appelés les Digisauveurs.",
+   "id": "t087-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Pokémon créé à partir de Mew s’appelle ____.",
+   "choix": [
+    "Mewtwo",
+    "Mewdeux",
+    "Mew II",
+    "Mewz"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Son nom signifie simplement « Mew deux », en anglais.",
+   "id": "t087-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Pokémon qui se transforme en tout autre s’appelle ____.",
+   "choix": [
+    "Métamorph",
+    "Morphéo",
+    "Mimiqui",
+    "Zarbi"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "En anglais, il s’appelle Ditto, « idem ».",
+   "id": "t087-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dieu créateur de l’univers Pokémon s’appelle ____.",
+   "choix": [
+    "Arceus",
+    "Arcanin",
+    "Areus",
+    "Arceos"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Il est au cœur de Légendes Pokémon : Arceus.",
+   "id": "t087-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de 2024 aux créatures armées s’appelle ____.",
+   "choix": [
+    "Palworld",
+    "Pokéworld",
+    "Palmon",
+    "Palmworld"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Il est développé par le studio japonais Pocketpair.",
+   "id": "t087-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La série de Level-5 aux esprits japonais s’appelle Yo-kai ____.",
+   "choix": [
+    "Watch",
+    "Hunt",
+    "Quest",
+    "Ball"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Son héros porte une montre qui révèle les esprits.",
+   "id": "t087-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le bug célèbre de Pokémon Rouge s’appelle ____.",
+   "choix": [
+    "MissingNo.",
+    "Glitchmon",
+    "Bugmon",
+    "NullNo."
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Son nom signifie « numéro manquant » en anglais.",
+   "id": "t087-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le studio de Pokémon GO s’appelle ____.",
+   "choix": [
+    "Niantic",
+    "Nintendo",
+    "Nianctic",
+    "Niantik"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Il a aussi créé le jeu de géolocalisation Ingress.",
+   "id": "t087-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La région ancienne de Légendes Pokémon : Arceus s’appelle ____.",
+   "choix": [
+    "Hisui",
+    "Hoenn",
+    "Hisoka",
+    "Hiroshi"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Elle correspond à Sinnoh plusieurs siècles plus tôt.",
+   "id": "t087-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces jeux n’est pas un jeu de capture de créatures ?",
+   "choix": [
+    "Tetris",
+    "Pokémon",
+    "Palworld",
+    "Digimon"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Tetris est un jeu de réflexion sans créatures.",
+   "id": "t087-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres n’appartient pas à Monster Hunter ?",
+   "choix": [
+    "Pikachu",
+    "Rathalos",
+    "Tigrex",
+    "Nargacuga"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Pikachu est un Pokémon, pas un monstre de Capcom.",
+   "id": "t087-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Pokémon n’est pas une évolution d’Évoli ?",
+   "choix": [
+    "Arcanin",
+    "Pyroli",
+    "Aquali",
+    "Voltali"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Arcanin est l’évolution de Caninos, grâce à une Pierre Feu.",
+   "id": "t087-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas édité par Capcom ?",
+   "choix": [
+    "Wild Hearts",
+    "Monster Hunter Rise",
+    "Monster Hunter : World",
+    "Monster Hunter Stories"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Wild Hearts est coédité par EA et Koei Tecmo.",
+   "id": "t087-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces types n’existe pas dans Pokémon ?",
+   "choix": [
+    "Lumière",
+    "Fée",
+    "Acier",
+    "Ténèbres"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Les dix-huit types n’incluent pas de type Lumière.",
+   "id": "t087-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces séries n’est pas japonaise ?",
+   "choix": [
+    "Dauntless",
+    "Pokémon",
+    "Monster Hunter",
+    "Yo-kai Watch"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Dauntless est développé par le studio canadien Phoenix Labs.",
+   "id": "t087-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces Pokémon n’est pas un Pokémon de départ de la première génération ?",
+   "choix": [
+    "Pikachu",
+    "Bulbizarre",
+    "Salamèche",
+    "Carapuce"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Pikachu n’est le Pokémon de départ que dans l’édition Jaune.",
+   "id": "t087-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets ne sert pas à capturer ?",
+   "choix": [
+    "Le Pokédex",
+    "La Poké Ball",
+    "La Super Ball",
+    "L’Hyper Ball"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Le Pokédex sert seulement à recenser les espèces.",
+   "id": "t087-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux ne propose pas de bestiaire de monstres ?",
+   "choix": [
+    "Tetris",
+    "The Witcher 3",
+    "Monster Hunter",
+    "Dark Souls"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Tetris ne contient que des blocs qui tombent.",
+   "id": "t087-084",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels jeux proposent de capturer des créatures ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pokémon",
+    "Palworld",
+    "Digimon World",
+    "Yo-kai Watch",
+    "Tetris",
+    "FIFA"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "La collection de créatures est un genre à part entière.",
+   "id": "t087-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels monstres appartiennent à Monster Hunter ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rathalos",
+    "Rathian",
+    "Tigrex",
+    "Velkhana",
+    "Pikachu",
+    "Dracaufeu"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Les monstres de la série sont devenus de vraies stars.",
+   "id": "t087-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels Pokémon sont des évolutions d’Évoli ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pyroli",
+    "Aquali",
+    "Mentali",
+    "Nymphali",
+    "Arcanin",
+    "Raichu"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Raichu est l’évolution de Pikachu, avec une Pierre Foudre.",
+   "id": "t087-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux viennent de Capcom ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Monster Hunter : World",
+    "Monster Hunter Rise",
+    "Monster Hunter Wilds",
+    "Wild Hearts",
+    "Dauntless"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Capcom domine le genre de la chasse aux monstres.",
+   "id": "t087-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jouets ou jeux mettent en scène un animal virtuel à élever ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tamagotchi",
+    "Digimon",
+    "Nintendogs",
+    "Tetris",
+    "Pac-Man"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ils jouent sur l’attachement du joueur à sa créature.",
+   "id": "t087-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels types existent dans Pokémon ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Feu",
+    "Eau",
+    "Plante",
+    "Fée",
+    "Lumière",
+    "Métal liquide"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Le type Acier existe, mais pas de type Métal liquide.",
+   "id": "t087-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux s’inspirent du folklore japonais ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Yo-kai Watch",
+    "Toukiden",
+    "Wild Hearts",
+    "ARK",
+    "Spore"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Les yokai et les oni y deviennent des adversaires ou des compagnons.",
+   "id": "t087-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels Pokémon sont légendaires ou fabuleux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mew",
+    "Mewtwo",
+    "Arceus",
+    "Rayquaza",
+    "Pikachu",
+    "Évoli"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ils sont souvent uniques dans chaque partie.",
+   "id": "t087-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux permettent de chasser en coopération en ligne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Monster Hunter : World",
+    "God Eater",
+    "Dauntless",
+    "Pokémon Rouge",
+    "Tamagotchi"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "La chasse à plusieurs est au cœur du genre.",
+   "id": "t087-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels studios ont créé des jeux de créatures ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Game Freak",
+    "Pocketpair",
+    "Level-5",
+    "Valve",
+    "id Software"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Valve et id Software sont surtout connus pour leurs jeux de tir.",
+   "id": "t087-094",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces jeux par date de sortie.",
+   "items": [
+    "Pokémon Rouge et Vert",
+    "Monster Hunter",
+    "Pokémon GO",
+    "Palworld"
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ces jeux sortent en 1996, 2004, 2016 puis 2024.",
+   "id": "t087-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces Monster Hunter par date de sortie.",
+   "items": [
+    "Monster Hunter",
+    "Monster Hunter : World",
+    "Monster Hunter Rise",
+    "Monster Hunter Wilds"
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ces jeux sortent en 2004, 2018, 2021 puis 2025.",
+   "id": "t087-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces Pokémon par numéro de Pokédex croissant.",
+   "items": [
+    "Bulbizarre",
+    "Pikachu",
+    "Évoli",
+    "Mew"
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ils portent les numéros 1, 25, 133 puis 151 du Pokédex.",
+   "id": "t087-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces créatures virtuelles par date de création.",
+   "items": [
+    "Tamagotchi",
+    "Digimon",
+    "Nintendogs",
+    "Palworld"
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ces créatures apparaissent en 1996, 1997, 2005 puis 2024.",
+   "id": "t087-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’une chasse dans Monster Hunter dans l’ordre.",
+   "items": [
+    "Accepter une quête",
+    "Pister le monstre",
+    "Affaiblir le monstre",
+    "Récupérer les matériaux"
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "On peut aussi capturer la bête au lieu de l’abattre.",
+   "id": "t087-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux de chasse par date de sortie.",
+   "items": [
+    "God Eater",
+    "Toukiden",
+    "Dauntless",
+    "Wild Hearts"
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ces jeux sortent en 2010, 2013, 2019 puis 2023.",
+   "id": "t087-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces types dans l’ordre du triangle de départ, chacun battant le suivant.",
+   "items": [
+    "Feu",
+    "Plante",
+    "Eau"
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Et l’Eau bat à son tour le Feu, bouclant le cycle.",
+   "id": "t087-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces générations de Pokémon par nombre d’espèces cumulé croissant.",
+   "items": [
+    "Première génération",
+    "Deuxième génération",
+    "Quatrième génération",
+    "Neuvième génération"
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Le Pokédex compte successivement 151, 251, 493 puis 1 025 espèces.",
+   "id": "t087-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces situations de la plus faible à la plus forte probabilité de rencontrer un Pokémon chromatique.",
+   "items": [
+    "Premières générations",
+    "Depuis la sixième génération",
+    "Avec le Charme Chroma"
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Une sur 8 192, puis une sur 4 096, puis environ une sur 1 365 avec le Charme Chroma.",
+   "id": "t087-103",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque jeu à son studio ou éditeur.",
+   "paires": [
+    [
+     "Monster Hunter",
+     "Capcom"
+    ],
+    [
+     "Pokémon GO",
+     "Niantic"
+    ],
+    [
+     "Palworld",
+     "Pocketpair"
+    ],
+    [
+     "Yo-kai Watch",
+     "Level-5"
+    ]
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Chaque studio a sa vision des créatures.",
+   "id": "t087-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque créature à son jeu.",
+   "paires": [
+    [
+     "Rathalos",
+     "Monster Hunter"
+    ],
+    [
+     "Mewtwo",
+     "Pokémon"
+    ],
+    [
+     "Agumon",
+     "Digimon"
+    ],
+    [
+     "Jibanyan",
+     "Yo-kai Watch"
+    ]
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ces créatures sont devenues des mascottes.",
+   "id": "t087-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque évolution d’Évoli à son type.",
+   "paires": [
+    [
+     "Pyroli",
+     "Feu"
+    ],
+    [
+     "Aquali",
+     "Eau"
+    ],
+    [
+     "Voltali",
+     "Électrik"
+    ],
+    [
+     "Nymphali",
+     "Fée"
+    ]
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Chaque évolution dépend d’une pierre ou d’une condition particulière.",
+   "id": "t087-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à sa mécanique de capture.",
+   "paires": [
+    [
+     "Pokémon",
+     "Poké Ball"
+    ],
+    [
+     "Monster Hunter",
+     "Piège et tranquillisant"
+    ],
+    [
+     "ARK",
+     "Assommer puis nourrir"
+    ]
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Chaque jeu invente sa façon d’apprivoiser.",
+   "id": "t087-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque compagnon à son jeu.",
+   "paires": [
+    [
+     "Palico",
+     "Monster Hunter"
+    ],
+    [
+     "Pikachu",
+     "Pokémon Jaune"
+    ],
+    [
+     "Agumon",
+     "Digimon Adventure"
+    ]
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Les compagnons rendent l’aventure plus vivante.",
+   "id": "t087-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à sa région ou son monde.",
+   "paires": [
+    [
+     "Légendes Pokémon : Arceus",
+     "Hisui"
+    ],
+    [
+     "Monster Hunter : World",
+     "Nouveau Monde"
+    ],
+    [
+     "Palworld",
+     "Archipel de Palpagos"
+    ]
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Chaque jeu possède son propre territoire de chasse.",
+   "id": "t087-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son année.",
+   "paires": [
+    [
+     "Tamagotchi",
+     "1996"
+    ],
+    [
+     "Monster Hunter",
+     "2004"
+    ],
+    [
+     "Pokémon GO",
+     "2016"
+    ],
+    [
+     "Palworld",
+     "2024"
+    ]
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "La passion des créatures virtuelles traverse les décennies.",
+   "id": "t087-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son inspiration culturelle.",
+   "paires": [
+    [
+     "Yo-kai Watch",
+     "Folklore japonais"
+    ],
+    [
+     "Monster Hunter Rise",
+     "Japon féodal"
+    ],
+    [
+     "Sunbreak",
+     "Gothique européen"
+    ]
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Les créatures puisent dans les légendes du monde entier.",
+   "id": "t087-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monstre de Monster Hunter à son surnom.",
+   "paires": [
+    [
+     "Rathalos",
+     "Roi du ciel"
+    ],
+    [
+     "Rathian",
+     "Reine de la terre"
+    ],
+    [
+     "Velkhana",
+     "Dragon des glaces"
+    ]
+   ],
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Les surnoms évoquent la puissance de chaque bête.",
+   "id": "t087-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une série\n2. Je suis de Capcom\n3. On y traque de gigantesques créatures",
+   "choix": [
+    "Monster Hunter",
+    "Resident Evil",
+    "Devil May Cry",
+    "Dragon’s Dogma"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Mes chasseurs fabriquent leurs armures avec les restes de leurs proies.",
+   "id": "t087-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un Pokémon\n2. Je suis jaune\n3. Je porte le numéro 25",
+   "choix": [
+    "Pikachu",
+    "Raichu",
+    "Pichu",
+    "Voltali"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Je suis devenu la mascotte de toute ma franchise.",
+   "id": "t087-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jouet\n2. Je suis né en 1996\n3. Il faut me nourrir et me soigner",
+   "choix": [
+    "Tamagotchi",
+    "Furby",
+    "Digivice",
+    "Pokéwalker"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Mon nom japonais évoque un œuf et une montre.",
+   "id": "t087-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Pokémon\n2. Je peux devenir huit Pokémon différents\n3. Je suis brun et duveteux",
+   "choix": [
+    "Évoli",
+    "Goupix",
+    "Caninos",
+    "Pikachu"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Je change de forme selon la pierre ou l’amitié.",
+   "id": "t087-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. On me surnomme Pokémon avec des fusils\n3. Je suis sorti en 2024",
+   "choix": [
+    "Palworld",
+    "Temtem",
+    "Cassette Beasts",
+    "Nexomon"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Mes créatures travaillent aussi dans des usines.",
+   "id": "t087-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un chat\n2. J’accompagne les chasseurs\n3. Je fais des jeux de mots",
+   "choix": [
+    "Palico",
+    "Meowth",
+    "Jibanyan",
+    "Chachat"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "J’appartiens à l’espèce des Félynes, très serviables.",
+   "id": "t087-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Pokémon\n2. Je suis le dieu créateur\n3. Mon attaque s’appelle Jugement",
+   "choix": [
+    "Arceus",
+    "Mew",
+    "Rayquaza",
+    "Giratina"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "On me rencontre au sommet du mont Couronné.",
+   "id": "t087-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. J’utilise la réalité augmentée\n3. Je fais marcher les joueurs",
+   "choix": [
+    "Pokémon GO",
+    "Ingress",
+    "Minecraft Earth",
+    "Wizards Unite"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Le studio américain Niantic m’a développé.",
+   "id": "t087-120",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Pokémon n’est pas légendaire ou fabuleux ?",
+   "choix": [
+    "Ronflex",
+    "Mewtwo",
+    "Arceus",
+    "Rayquaza"
+   ],
+   "rep": 0,
+   "src": "Capcom ; The Pokémon Company ; Bandai",
+   "expl": "Ronflex est un Pokémon rare, mais il n’a rien de légendaire.",
+   "id": "t087-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
