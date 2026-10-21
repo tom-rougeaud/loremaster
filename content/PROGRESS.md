@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**30 / 99 thèmes terminés — 4274 questions au total.**
+**31 / 99 thèmes terminés — 4404 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -36,7 +36,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 28 | Énigmes, citations et devises de Tolkien | 129 | 49 | 16 (9) | 4 | 12 | 10 | 10 | 8 | 10 | 10 | 50 % | 16/90/23 | 24 | terminé |
 | 29 | Magie, artefacts et Anneaux de Pouvoir | 127 | 41 | 16 (8) | 7 | 13 | 10 | 10 | 9 | 10 | 11 | 45 % | 23/82/22 | 13 | terminé |
 | 30 | Tolkien à l’écran | 140 | 50 | 18 (9) | 8 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 30/86/24 | 18 | terminé |
-| 31 | Histoire de la magie et de Poudlard | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 31 | Histoire de la magie et de Poudlard | 130 | 45 | 16 (8) | 7 | 13 | 10 | 10 | 8 | 10 | 11 | 47 % | 37/78/15 | 9 | terminé |
 | 32 | La société sorcière | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 33 | Sortilèges, maléfices et métamorphose | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 34 | Potions, alchimie et botanique magique | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -355,6 +355,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - histoire-arda : niveaux déséquilibrés [21, 93, 29]
 - quete-anneau : niveaux déséquilibrés [36, 91, 15]
 - citations-tolkien : niveaux déséquilibrés [16, 90, 23]
+- poudlard-histoire : niveaux déséquilibrés [37, 78, 15]
 - gre-003 : explication absente ou trop courte
 - gre-006 : explication absente ou trop courte
 - gre-011 : explication absente ou trop courte

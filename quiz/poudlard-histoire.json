@@ -1,0 +1,2146 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "poudlard-histoire",
+  "nom": "Histoire de la magie et de Poudlard",
+  "royaume": "Le Monde des Sorciers",
+  "icone": "chateau",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel fondateur a donné son nom à la maison au blason orné d’un lion ?",
+   "choix": [
+    "Godric Gryffondor",
+    "Salazar Serpentard",
+    "Rowena Serdaigle",
+    "Helga Poufsouffle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Gryffondor valorise le courage ; son épée réapparaît pour ceux qui en ont besoin.",
+   "id": "t031-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal orne le blason de Poufsouffle ?",
+   "choix": [
+    "Un blaireau",
+    "Un lion",
+    "Un aigle",
+    "Un serpent"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Les élèves de Poufsouffle sont réputés pour leur loyauté et leur patience.",
+   "id": "t031-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles sont les couleurs de Serdaigle dans les romans ?",
+   "choix": [
+    "Bleu et bronze",
+    "Bleu et argent",
+    "Vert et argent",
+    "Jaune et noir"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Les films ont adopté le bleu et l’argent ; les romans parlent de bleu et de bronze.",
+   "id": "t031-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles sont les couleurs de Serpentard ?",
+   "choix": [
+    "Vert et argent",
+    "Rouge et or",
+    "Bleu et bronze",
+    "Jaune et noir"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Sa salle commune se trouve dans les cachots, sous le lac.",
+   "id": "t031-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel fantôme est celui de Serpentard ?",
+   "choix": [
+    "Le Baron Sanglant",
+    "Nick Quasi-Sans-Tête",
+    "La Dame Grise",
+    "Le Moine Gras"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Même Peeves le craint ; il est couvert de taches de sang argentées.",
+   "id": "t031-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel fantôme est celui de Poufsouffle ?",
+   "choix": [
+    "Le Moine Gras",
+    "La Dame Grise",
+    "Le Baron Sanglant",
+    "Mimi Geignarde"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Ce fantôme jovial plaide souvent pour qu’on pardonne à Peeves.",
+   "id": "t031-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui est en réalité la Dame Grise ?",
+   "choix": [
+    "Helena, fille de Rowena Serdaigle",
+    "La mère de Mimi Geignarde",
+    "La première directrice de Poudlard",
+    "Une élève tuée par le Basilic"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Elle avait volé le diadème de sa mère ; Harry obtient d’elle sa cachette.",
+   "id": "t031-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel pays se trouve Poudlard ?",
+   "choix": [
+    "En Écosse",
+    "Au pays de Galles",
+    "En Irlande",
+    "En Cornouailles"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "J. K. Rowling l’a confirmé : l’école se cache dans les Highlands.",
+   "id": "t031-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "D’où part le Poudlard Express ?",
+   "choix": [
+    "De la gare de King’s Cross, quai 9¾",
+    "De la gare de Paddington, quai 7",
+    "De la gare de Waterloo, quai 4½",
+    "De Pré-au-Lard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "On y accède en traversant la barrière entre les quais 9 et 10.",
+   "id": "t031-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature vit dans le lac de Poudlard ?",
+   "choix": [
+    "Un calmar géant",
+    "Un dragon d’eau",
+    "Un kraken",
+    "Le monstre du Loch Ness"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Les élèves le voient parfois paresser à la surface ; des êtres de l’eau vivent aussi au fond.",
+   "id": "t031-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À qui appartenait le Choixpeau magique avant d’être enchanté pour la répartition ?",
+   "choix": [
+    "À Godric Gryffondor",
+    "À Merlin",
+    "À Salazar Serpentard",
+    "À Albus Dumbledore"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Les quatre fondateurs y ont mis leur savoir pour qu’il répartisse les élèves après eux.",
+   "id": "t031-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel fondateur quitte l’école après une dispute sur l’admission des enfants nés de Moldus ?",
+   "choix": [
+    "Salazar Serpentard",
+    "Godric Gryffondor",
+    "Rowena Serdaigle",
+    "Helga Poufsouffle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Selon la légende, il laisse derrière lui une Chambre secrète que seul son héritier peut ouvrir.",
+   "id": "t031-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui dirige Poudlard juste avant Albus Dumbledore ?",
+   "choix": [
+    "Armando Dippet",
+    "Phineas Nigellus Black",
+    "Severus Rogue",
+    "Dolores Ombrage"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "C’est sous sa direction que Hagrid est renvoyé, à tort.",
+   "id": "t031-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui devient directeur de Poudlard après la mort de Dumbledore ?",
+   "choix": [
+    "Severus Rogue",
+    "Minerva McGonagall",
+    "Horace Slughorn",
+    "Dolores Ombrage"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Placé là par les Mangemorts, il protège en secret les élèves.",
+   "id": "t031-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel ancien directeur, ancêtre de Sirius, dialogue depuis son portrait ?",
+   "choix": [
+    "Phineas Nigellus Black",
+    "Armando Dippet",
+    "Dilys Derwent",
+    "Everard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Il passe d’un portrait à l’autre, entre Poudlard et la maison des Black.",
+   "id": "t031-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel professeur dirige la maison Serdaigle ?",
+   "choix": [
+    "Filius Flitwick",
+    "Pomona Chourave",
+    "Minerva McGonagall",
+    "Horace Slughorn"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Ce petit professeur de sortilèges est un ancien champion de duel.",
+   "id": "t031-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel professeur dirige la maison Poufsouffle ?",
+   "choix": [
+    "Pomona Chourave",
+    "Filius Flitwick",
+    "Sybille Trelawney",
+    "Aurora Sinistra"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Elle enseigne la botanique dans les serres de l’école.",
+   "id": "t031-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle matière le fantôme Binns enseigne-t-il ?",
+   "choix": [
+    "L’histoire de la magie",
+    "La divination",
+    "L’astronomie",
+    "L’étude des runes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Il est mort un jour dans son fauteuil et a continué son cours comme si de rien n’était.",
+   "id": "t031-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel sujet revient sans cesse dans les cours du professeur Binns ?",
+   "choix": [
+    "Les révoltes des gobelins",
+    "Les guerres des géants",
+    "Les croisades",
+    "La chute de l’Atlantide"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Ses élèves, Harry compris, s’endorment presque tous.",
+   "id": "t031-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la chatte du concierge Argus Rusard ?",
+   "choix": [
+    "Miss Teigne",
+    "Pattenrond",
+    "Miss Patate",
+    "Croûtard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Pattenrond est le chat de Hermione, Croûtard le rat de Ron.",
+   "id": "t031-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pour quelle raison Hagrid a-t-il été renvoyé de Poudlard ?",
+   "choix": [
+    "On l’a accusé d’avoir ouvert la Chambre",
+    "Il avait volé une baguette",
+    "Il élevait un dragon en cachette",
+    "Il avait frappé un professeur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Tom Jedusor l’avait dénoncé à tort ; sa baguette est brisée.",
+   "id": "t031-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel élève accuse faussement Hagrid d’avoir ouvert la Chambre des secrets ?",
+   "choix": [
+    "Tom Jedusor",
+    "Lucius Malefoy",
+    "Severus Rogue",
+    "Peter Pettigrow"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "C’est en réalité lui qui l’a ouverte ; il reçoit même une récompense.",
+   "id": "t031-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "De qui Sybille Trelawney tient-elle, selon elle, son don ?",
+   "choix": [
+    "De son arrière-arrière-grand-mère, célèbre voyante",
+    "De sa mère, une centaure",
+    "D’un pacte avec un fantôme",
+    "D’une boule de cristal héritée de Merlin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Sybille fait elle-même deux vraies prophéties, dont celle qui lie Harry à Voldemort.",
+   "id": "t031-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel centaure enseigne la divination après le renvoi de Trelawney ?",
+   "choix": [
+    "Firenze",
+    "Bane",
+    "Ronan",
+    "Magorian"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Ses congénères le bannissent de la forêt pour avoir servi les humains.",
+   "id": "t031-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Selon Wizarding World, qui fut le premier ministre de la Magie ?",
+   "choix": [
+    "Ulick Gamp",
+    "Cornelius Fudge",
+    "Albus Dumbledore",
+    "Artemisia Lufkin"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Il prend ses fonctions en 1707 ; Artemisia Lufkin est la première femme ministre.",
+   "id": "t031-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui Dumbledore vainc-il en duel en 1945 ?",
+   "choix": [
+    "Gellert Grindelwald",
+    "Lord Voldemort",
+    "Tom Jedusor",
+    "Igor Karkaroff"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Ce duel légendaire met fin à la guerre menée par Grindelwald.",
+   "id": "t031-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Selon Wizarding World, dans quelle maison Merlin a-t-il été réparti ?",
+   "choix": [
+    "Serpentard",
+    "Gryffondor",
+    "Serdaigle",
+    "Poufsouffle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Une preuve que l’ambition n’est pas toujours du côté du mal.",
+   "id": "t031-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles écoles participent au Tournoi des trois sorciers ?",
+   "choix": [
+    "Poudlard, Beauxbâtons et Durmstrang",
+    "Poudlard, Ilvermorny et Castelobruxo",
+    "Beauxbâtons, Uagadou et Mahoutokoro",
+    "Poudlard, Durmstrang et Ilvermorny"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Le tournoi, très ancien, avait été suspendu à cause du nombre de morts.",
+   "id": "t031-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui dirige Beauxbâtons ?",
+   "choix": [
+    "Olympe Maxime",
+    "Igor Karkaroff",
+    "Fleur Delacour",
+    "Minerva McGonagall"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Comme Hagrid, elle a du sang de géant, ce qu’elle refuse d’admettre.",
+   "id": "t031-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle école américaine fonde Isolt Sayre ?",
+   "choix": [
+    "Ilvermorny",
+    "Salem",
+    "Castelobruxo",
+    "Durmstrang"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Ses maisons portent des noms de créatures : Serpent cornu, Wampus, Oiseau-Tonnerre et Puckwudgie.",
+   "id": "t031-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie la devise latine de Poudlard ?",
+   "choix": [
+    "Ne jamais chatouiller un dragon qui dort",
+    "La magie est la seule vraie puissance",
+    "Le savoir libère ceux qui cherchent",
+    "Toujours fidèles aux quatre maisons"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "La devise figure sur le blason de l’école.",
+   "id": "t031-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À partir de quelle année les élèves peuvent-ils aller à Pré-au-Lard ?",
+   "choix": [
+    "La troisième",
+    "La première",
+    "La cinquième",
+    "La septième"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Il faut une autorisation signée ; Harry, sans elle, utilise la carte du Maraudeur.",
+   "id": "t031-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la meilleure note possible aux BUSE ?",
+   "choix": [
+    "Optimal",
+    "Excellent",
+    "Effort exceptionnel",
+    "Parfait"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Viennent ensuite Effort exceptionnel et Acceptable ; Piètre, Désolant et Troll sont des échecs.",
+   "id": "t031-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quel âge un sorcier devient-il majeur ?",
+   "choix": [
+    "17 ans",
+    "16 ans",
+    "18 ans",
+    "21 ans"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "La Trace qui surveille la magie des mineurs disparaît alors.",
+   "id": "t031-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel élève fait gagner à Gryffondor les derniers points décisifs de la Coupe des Quatre Maisons en première année ?",
+   "choix": [
+    "Neville Londubat",
+    "Ron Weasley",
+    "Hermione Granger",
+    "Harry Potter"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Dumbledore lui accorde dix points pour avoir osé tenir tête à ses amis.",
+   "id": "t031-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment entre-t-on dans la salle commune de Gryffondor ?",
+   "choix": [
+    "En donnant un mot de passe à la Grosse Dame",
+    "En répondant à une énigme",
+    "En frappant sur un tonneau",
+    "En parlant à une statue"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Le portrait de la Grosse Dame garde l’entrée de la tour.",
+   "id": "t031-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment entre-t-on dans la salle commune de Serdaigle ?",
+   "choix": [
+    "En résolvant une énigme",
+    "En donnant un mot de passe",
+    "En tapotant un tonneau",
+    "En chatouillant une poire"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Il n’y a pas de mot de passe : il faut savoir réfléchir.",
+   "id": "t031-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment accède-t-on aux cuisines de Poudlard ?",
+   "choix": [
+    "En chatouillant une poire sur un tableau",
+    "En disant un mot de passe",
+    "En passant par la Forêt interdite",
+    "En traversant un miroir"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "La poire se change en poignée de porte ; des centaines d’elfes de maison y travaillent.",
+   "id": "t031-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui sont les quatre amis surnommés les Maraudeurs ?",
+   "choix": [
+    "James, Sirius, Remus et Peter",
+    "Fred, George, Lee et Ron",
+    "Harry, Ron, Hermione et Neville",
+    "Dumbledore, Grindelwald, Doge et Abelforth"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Ils créent la carte du Maraudeur pendant leur scolarité.",
+   "id": "t031-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel esprit frappeur sème le désordre dans le château ?",
+   "choix": [
+    "Peeves",
+    "Nick Quasi-Sans-Tête",
+    "Kreattur",
+    "Dobby"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Même Rusard ne parvient pas à le chasser ; seul le Baron Sanglant l’impressionne.",
+   "id": "t031-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel fantôme hante les toilettes des filles du premier étage ?",
+   "choix": [
+    "Mimi Geignarde",
+    "La Dame Grise",
+    "Helena Serdaigle",
+    "La Grosse Dame"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Elle a été tuée par le Basilic lors de la première ouverture de la Chambre des secrets.",
+   "id": "t031-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel professeur de Défense contre les forces du Mal, en deuxième année, est un imposteur qui s’attribue les exploits des autres ?",
+   "choix": [
+    "Gilderoy Lockhart",
+    "Quirinus Quirrell",
+    "Remus Lupin",
+    "Dolores Ombrage"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Spécialiste du sortilège d’amnésie, il finit par se l’infliger à lui-même.",
+   "id": "t031-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui enseigne le vol sur balai aux élèves de première année ?",
+   "choix": [
+    "Madame Bibine",
+    "Madame Pomfresh",
+    "Madame Pince",
+    "Madame Rosmerta"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Elle arbitre aussi les matchs de Quidditch de l’école.",
+   "id": "t031-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel arbre violent du parc cache un passage vers Pré-au-Lard ?",
+   "choix": [
+    "Le Saule cogneur",
+    "Le Chêne noir",
+    "Le Hêtre hurleur",
+    "L’If sanglant"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Il a été planté l’année où Remus Lupin est entré à Poudlard, pour cacher ses transformations.",
+   "id": "t031-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Du haut de quelle tour Dumbledore tombe-t-il à la fin du sixième roman ?",
+   "choix": [
+    "La tour d’astronomie",
+    "La tour de Gryffondor",
+    "La tour nord",
+    "La tour de divination"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (Gallimard, 1998) et suivants ; Wizarding World (Pottermore), « Hogwarts School »",
+   "expl": "Rogue le frappe du sortilège de la Mort sous les yeux de Harry, caché.",
+   "id": "t031-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Choixpeau tient compte des souhaits de l’élève qu’il répartit.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : Harry lui demande de ne pas l’envoyer à Serpentard, et il l’écoute.",
+   "id": "t031-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Hermione est répartie à Serdaigle.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : elle va à Gryffondor, même si le Choixpeau a hésité.",
+   "id": "t031-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Poudlard apparaît aux Moldus comme une ruine dangereuse.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : des panneaux préviennent de ne pas s’approcher ; les sortilèges cachent le reste.",
+   "id": "t031-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les élèves peuvent transplaner dans l’enceinte de Poudlard.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : c’est impossible, sauf pour les elfes de maison ; Hermione le répète souvent.",
+   "id": "t031-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Avant d’être directeur, Dumbledore enseignait la métamorphose à Poudlard.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : il était professeur de métamorphose quand Tom Jedusor était élève.",
+   "id": "t031-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Rogue enseigne les potions pendant toute la scolarité de Harry.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : en sixième année, il obtient enfin la Défense contre les forces du Mal ; Slughorn reprend les potions.",
+   "id": "t031-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le plafond de la Grande Salle est enchanté pour ressembler au ciel extérieur.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : Hermione l’a lu dans L’Histoire de Poudlard dès son arrivée.",
+   "id": "t031-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Moine Gras est le fantôme de Serdaigle.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : c’est celui de Poufsouffle ; Serdaigle a la Dame Grise.",
+   "id": "t031-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Peeves est le fantôme d’un ancien élève.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : c’est un esprit frappeur, qui n’a jamais été vivant.",
+   "id": "t031-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Salazar Serpentard parlait le Fourchelang.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : la langue des serpents est rare ; Voldemort en a hérité, et Harry malgré lui.",
+   "id": "t031-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Rowena Serdaigle a créé la Chambre des secrets.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : selon la légende, c’est l’œuvre de Salazar Serpentard.",
+   "id": "t031-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Forêt interdite est en principe interdite aux élèves.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : ils n’y vont qu’en retenue, accompagnés, ou en désobéissant.",
+   "id": "t031-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Harry est réparti à Serpentard.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il est réparti à Gryffondor, comme ses parents.",
+   "id": "t031-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Neville Londubat devient professeur de botanique à Poudlard.",
+   "rep": true,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vrai : l’épilogue et J. K. Rowling l’ont confirmé.",
+   "id": "t031-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dumbledore a dirigé Poudlard dès sa jeunesse.",
+   "rep": false,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Faux : il succède à Armando Dippet ; il a d’abord été professeur.",
+   "id": "t031-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les élèves de première année rejoignent le château en traversant le lac.",
+   "rep": true,
+   "src": "Wizarding World (Pottermore), « Hogwarts School of Witchcraft and Wizardry »",
+   "expl": "Vrai : ils voyagent en barques avec Hagrid et découvrent ainsi le château illuminé.",
+   "id": "t031-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Vers quelle année Poudlard a-t-elle été fondée, selon la chronologie officielle ?",
+   "rep": 990,
+   "min": 500,
+   "max": 1500,
+   "pas": 10,
+   "unite": "après J.-C.",
+   "tolerance": 10,
+   "src": "Wizarding World (Pottermore), « International Statute of Wizarding Secrecy »",
+   "expl": "L’école a plus de mille ans ; une réponse à 10 ans près est acceptée.",
+   "id": "t031-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année le Code international du secret magique est-il signé ?",
+   "rep": 1689,
+   "min": 1500,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Wizarding World (Pottermore), « Ministers for Magic »",
+   "expl": "Il entre en vigueur en 1692 et oblige les sorciers à se cacher.",
+   "id": "t031-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année est créé le ministère de la Magie britannique ?",
+   "rep": 1707,
+   "min": 1500,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Le premier ministre de la Magie est Ulick Gamp, jusqu’en 1718.",
+   "id": "t031-064",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’escaliers compte Poudlard ?",
+   "rep": 142,
+   "min": 50,
+   "max": 300,
+   "pas": 1,
+   "unite": "escaliers",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter à l’école des sorciers (1998)",
+   "expl": "Certains changent de place, d’autres ont une marche qui disparaît.",
+   "id": "t031-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien d’années dure la scolarité à Poudlard ?",
+   "rep": 7,
+   "min": 4,
+   "max": 10,
+   "pas": 1,
+   "unite": "années",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter et les Reliques de la Mort (2007)",
+   "expl": "De 11 à 17 ou 18 ans ; Harry, Ron et Hermione ne terminent pas la septième.",
+   "id": "t031-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Dumbledore vainc-il Grindelwald ?",
+   "rep": 1945,
+   "min": 1900,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter ; Wizarding World (chronologie)",
+   "expl": "La même année que la fin de la Seconde Guerre mondiale chez les Moldus.",
+   "id": "t031-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Harry entre-t-il à Poudlard ?",
+   "rep": 1991,
+   "min": 1980,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. K. Rowling, Harry Potter ; Wizarding World (chronologie)",
+   "expl": "Né le 31 juillet 1980, il entre à Poudlard à 11 ans.",
+   "id": "t031-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les nouveaux élèves sont répartis dans les maisons par le ____ magique.",
+   "choix": [
+    "Choixpeau",
+    "Grimoire",
+    "Miroir",
+    "Chaudron"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il lit dans les pensées de l’élève, posé sur sa tête devant toute l’école.",
+   "id": "t031-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les quatre maisons sont Gryffondor, Serpentard, Serdaigle et ____.",
+   "choix": [
+    "Poufsouffle",
+    "Patacitrouille",
+    "Pomfresh",
+    "Peeves"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Helga Poufsouffle acceptait tous les élèves sans distinction.",
+   "id": "t031-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le concierge de Poudlard s’appelle Argus ____.",
+   "choix": [
+    "Rusard",
+    "Rogue",
+    "Rubeus",
+    "Ronald"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il rêve de pouvoir suspendre les élèves par les pouces, comme autrefois.",
+   "id": "t031-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le garde-chasse de Poudlard s’appelle Rubeus ____.",
+   "choix": [
+    "Hagrid",
+    "Rusard",
+    "Dubois",
+    "Graup"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Demi-géant, il vit dans une cabane à l’orée de la Forêt interdite.",
+   "id": "t031-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les examens de cinquième année s’appellent les ____.",
+   "choix": [
+    "BUSE",
+    "ASPIC",
+    "Optimaux",
+    "Trolls"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "« Brevet universel de sorcellerie élémentaire » : ils décident des matières suivies ensuite.",
+   "id": "t031-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le village sorcier voisin de Poudlard s’appelle ____.",
+   "choix": [
+    "Pré-au-Lard",
+    "Godric’s Hollow",
+    "Little Whinging",
+    "Loutry Ste Chaspoule"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "On y trouve Honeydukes, les Trois Balais et la Cabane hurlante.",
+   "id": "t031-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Code international du ____ magique cache l’existence des sorciers.",
+   "choix": [
+    "secret",
+    "silence",
+    "sceau",
+    "serment"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le briser expose à des sanctions du ministère de la Magie.",
+   "id": "t031-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le fantôme de Gryffondor s’appelle Nick Quasi-Sans-____.",
+   "choix": [
+    "Tête",
+    "Corps",
+    "Bras",
+    "Cou"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il n’a jamais pu rejoindre le club des Chasseurs sans tête.",
+   "id": "t031-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La salle commune de Poufsouffle se cache derrière des ____, près des cuisines.",
+   "choix": [
+    "tonneaux",
+    "tapisseries",
+    "statues",
+    "miroirs"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il faut tapoter le bon rythme sur le bon tonneau, sinon on est arrosé de vinaigre.",
+   "id": "t031-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "En première année, les élèves traversent le lac en ____.",
+   "choix": [
+    "barque",
+    "radeau",
+    "ferry",
+    "gondole"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Hagrid les guide ; c’est leur première vision du château.",
+   "id": "t031-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les élèves plus âgés rejoignent le château dans des diligences tirées par des ____.",
+   "choix": [
+    "Sombrals",
+    "hippogriffes",
+    "chevaux ailés",
+    "licornes"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Seuls ceux qui ont vu la mort peuvent voir ces créatures.",
+   "id": "t031-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Hagrid finit par enseigner les Soins aux créatures ____.",
+   "choix": [
+    "magiques",
+    "sauvages",
+    "fantastiques",
+    "dangereuses"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Son premier cours, avec un hippogriffe, tourne mal à cause de Drago Malefoy.",
+   "id": "t031-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La directrice de Gryffondor, professeur de métamorphose, s’appelle Minerva ____.",
+   "choix": [
+    "McGonagall",
+    "Chourave",
+    "Bibine",
+    "Pomfresh"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Animagus, elle peut prendre la forme d’un chat tigré.",
+   "id": "t031-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un fondateur de Poudlard ?",
+   "choix": [
+    "Merlin",
+    "Godric Gryffondor",
+    "Rowena Serdaigle",
+    "Helga Poufsouffle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Merlin est un ancien élève célèbre, réparti à Serpentard selon Wizarding World.",
+   "id": "t031-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces fantômes n’est pas celui d’une maison ?",
+   "choix": [
+    "Mimi Geignarde",
+    "Le Baron Sanglant",
+    "La Dame Grise",
+    "Le Moine Gras"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Mimi hante les toilettes des filles du premier étage.",
+   "id": "t031-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces lieux n’est pas une école de sorcellerie ?",
+   "choix": [
+    "Sainte-Mangouste",
+    "Beauxbâtons",
+    "Durmstrang",
+    "Ilvermorny"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Sainte-Mangouste est l’hôpital des sorciers, à Londres.",
+   "id": "t031-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a jamais dirigé Poudlard ?",
+   "choix": [
+    "Cornelius Fudge",
+    "Armando Dippet",
+    "Severus Rogue",
+    "Dolores Ombrage"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Fudge est ministre de la Magie ; Ombrage dirige brièvement l’école en cinquième année.",
+   "id": "t031-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces professeurs ne dirige pas de maison ?",
+   "choix": [
+    "Sybille Trelawney",
+    "Filius Flitwick",
+    "Pomona Chourave",
+    "Minerva McGonagall"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Trelawney enseigne la divination dans sa tour, loin des autres.",
+   "id": "t031-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces notes n’existe pas aux BUSE ?",
+   "choix": [
+    "Super",
+    "Optimal",
+    "Acceptable",
+    "Troll"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "L’échelle va d’Optimal à Troll, en passant par Désolant.",
+   "id": "t031-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux ne se trouve pas à Poudlard ou dans son parc ?",
+   "choix": [
+    "Le Chaudron Baveur",
+    "La Forêt interdite",
+    "Le Saule cogneur",
+    "La tour d’astronomie"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Chaudron Baveur est le pub qui mène au Chemin de Traverse, à Londres.",
+   "id": "t031-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces professeurs n’a jamais enseigné la Défense contre les forces du Mal ?",
+   "choix": [
+    "Filius Flitwick",
+    "Quirinus Quirrell",
+    "Remus Lupin",
+    "Dolores Ombrage"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Flitwick enseigne les sortilèges pendant toute la saga.",
+   "id": "t031-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un Maraudeur ?",
+   "choix": [
+    "Severus Rogue",
+    "James Potter",
+    "Sirius Black",
+    "Peter Pettigrow"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Rogue était au contraire la cible favorite des Maraudeurs.",
+   "id": "t031-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces animaux n’est pas l’emblème d’une maison ?",
+   "choix": [
+    "Le dragon",
+    "Le lion",
+    "Le blaireau",
+    "L’aigle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le dragon figure seulement dans la devise de l’école.",
+   "id": "t031-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Qui sont les fondateurs de Poudlard ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Godric Gryffondor",
+    "Salazar Serpentard",
+    "Rowena Serdaigle",
+    "Helga Poufsouffle",
+    "Merlin",
+    "Albus Dumbledore"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ils fondent l’école il y a plus de mille ans, loin des regards moldus.",
+   "id": "t031-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Qui a dirigé Poudlard ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Albus Dumbledore",
+    "Severus Rogue",
+    "Minerva McGonagall",
+    "Dolores Ombrage",
+    "Cornelius Fudge",
+    "Rubeus Hagrid"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ombrage est nommée par le ministère en cinquième année, mais le bureau refuse de s’ouvrir à elle.",
+   "id": "t031-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels sont des fantômes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nick Quasi-Sans-Tête",
+    "Mimi Geignarde",
+    "Le professeur Binns",
+    "Peeves",
+    "Dobby"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Peeves est un esprit frappeur, Dobby un elfe de maison.",
+   "id": "t031-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Qui a enseigné la Défense contre les forces du Mal ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Quirinus Quirrell",
+    "Gilderoy Lockhart",
+    "Remus Lupin",
+    "Severus Rogue",
+    "Filius Flitwick",
+    "Pomona Chourave"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le poste semblait maudit : aucun professeur ne restait plus d’un an.",
+   "id": "t031-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels lieux se trouvent à Pré-au-Lard ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Les Trois Balais",
+    "La Tête de Sanglier",
+    "Honeydukes",
+    "Le Chaudron Baveur",
+    "Gringotts"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Chaudron Baveur et Gringotts se trouvent à Londres, sur le Chemin de Traverse.",
+   "id": "t031-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles maisons ont leur salle commune dans une tour ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gryffondor",
+    "Serdaigle",
+    "Serpentard",
+    "Poufsouffle"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Serpentard vit dans les cachots, Poufsouffle au sous-sol, près des cuisines.",
+   "id": "t031-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels élèves sont à Gryffondor ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Neville Londubat",
+    "Ginny Weasley",
+    "Seamus Finnigan",
+    "Luna Lovegood",
+    "Cedric Diggory"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Luna est à Serdaigle, Cedric à Poufsouffle : deux élèves très appréciés.",
+   "id": "t031-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels élèves sont à Serdaigle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Luna Lovegood",
+    "Cho Chang",
+    "Cedric Diggory",
+    "Drago Malefoy",
+    "Pansy Parkinson"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Cedric est à Poufsouffle, Drago et Pansy à Serpentard.",
+   "id": "t031-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels examens passent les élèves de Poudlard ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Les BUSE",
+    "Les ASPIC",
+    "Le baccalauréat",
+    "Les GCSE",
+    "Le brevet"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les ASPIC, en septième année, ouvrent les carrières comme celle d’Auror.",
+   "id": "t031-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels animaux la lettre de Poudlard autorise-t-elle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Un hibou",
+    "Un chat",
+    "Un crapaud",
+    "Un dragon",
+    "Un chien"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Hagrid sait que les dragons sont interdits… ce qui ne l’empêche pas d’en élever un.",
+   "id": "t031-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces directeurs de Poudlard par ordre chronologique.",
+   "items": [
+    "Armando Dippet",
+    "Albus Dumbledore",
+    "Severus Rogue",
+    "Minerva McGonagall"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ombrage dirige aussi l’école, brièvement, pendant la cinquième année de Harry.",
+   "id": "t031-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la scolarité dans l’ordre.",
+   "items": [
+    "La Répartition",
+    "Les BUSE",
+    "Les ASPIC"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Répartition en première année, BUSE en cinquième, ASPIC en septième.",
+   "id": "t031-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces professeurs de Défense contre les forces du Mal dans l’ordre.",
+   "items": [
+    "Quirrell",
+    "Lockhart",
+    "Lupin",
+    "Le faux Maugrey",
+    "Ombrage"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "De la première à la cinquième année de Harry ; Rogue suit en sixième année.",
+   "id": "t031-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Fondation de Poudlard",
+    "Départ de Serpentard",
+    "Code international du secret",
+    "Création du ministère"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Vers 990, peu après la fondation, puis 1689 et 1707.",
+   "id": "t031-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la rentrée en première année dans l’ordre.",
+   "items": [
+    "Le quai 9¾",
+    "Le voyage en train",
+    "La traversée du lac",
+    "La Répartition"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le banquet de bienvenue commence juste après la Répartition.",
+   "id": "t031-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces romans dans l’ordre de parution.",
+   "items": [
+    "À l’école des sorciers",
+    "La Chambre des secrets",
+    "Le Prisonnier d’Azkaban",
+    "La Coupe de feu"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les quatre premiers tomes paraissent en anglais de 1997 à 2000.",
+   "id": "t031-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces notes des BUSE par ordre décroissant.",
+   "items": [
+    "Optimal",
+    "Effort exceptionnel",
+    "Acceptable",
+    "Piètre",
+    "Désolant"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Troll vient tout en bas ; Fred et George assurent que c’est la note de Ron en divination.",
+   "id": "t031-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces dates de l’histoire sorcière par ordre chronologique.",
+   "items": [
+    "Code international du secret",
+    "Création du ministère",
+    "Duel Dumbledore-Grindelwald",
+    "Entrée de Harry à Poudlard"
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "1689, 1707, 1945 et 1991 : trois siècles d’histoire sorcière.",
+   "id": "t031-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque maison à sa qualité principale.",
+   "paires": [
+    [
+     "Gryffondor",
+     "Courage"
+    ],
+    [
+     "Serdaigle",
+     "Intelligence"
+    ],
+    [
+     "Poufsouffle",
+     "Loyauté"
+    ],
+    [
+     "Serpentard",
+     "Ambition"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le Choixpeau rappelle ces valeurs dans sa chanson de rentrée.",
+   "id": "t031-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque maison à son fantôme.",
+   "paires": [
+    [
+     "Gryffondor",
+     "Nick Quasi-Sans-Tête"
+    ],
+    [
+     "Serpentard",
+     "Le Baron Sanglant"
+    ],
+    [
+     "Serdaigle",
+     "La Dame Grise"
+    ],
+    [
+     "Poufsouffle",
+     "Le Moine Gras"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Chaque fantôme assiste aux banquets à la table de sa maison.",
+   "id": "t031-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque maison à son directeur, à l’époque de Harry.",
+   "paires": [
+    [
+     "Gryffondor",
+     "McGonagall"
+    ],
+    [
+     "Serpentard",
+     "Rogue"
+    ],
+    [
+     "Serdaigle",
+     "Flitwick"
+    ],
+    [
+     "Poufsouffle",
+     "Chourave"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Slughorn remplace Rogue à la tête de Serpentard en sixième année.",
+   "id": "t031-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque maison à son animal.",
+   "paires": [
+    [
+     "Gryffondor",
+     "Lion"
+    ],
+    [
+     "Serpentard",
+     "Serpent"
+    ],
+    [
+     "Serdaigle",
+     "Aigle"
+    ],
+    [
+     "Poufsouffle",
+     "Blaireau"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Les films ont parfois donné un corbeau à Serdaigle ; les romans parlent d’un aigle.",
+   "id": "t031-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque maison à l’entrée de sa salle commune.",
+   "paires": [
+    [
+     "Gryffondor",
+     "Portrait de la Grosse Dame"
+    ],
+    [
+     "Serdaigle",
+     "Heurtoir à énigme"
+    ],
+    [
+     "Poufsouffle",
+     "Tonneaux"
+    ],
+    [
+     "Serpentard",
+     "Mur de pierre des cachots"
+    ]
+   ],
+   "src": "Wizarding World (Pottermore), « Wizarding Schools »",
+   "expl": "Chaque entrée reflète le caractère de la maison.",
+   "id": "t031-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque école à son pays.",
+   "paires": [
+    [
+     "Beauxbâtons",
+     "France"
+    ],
+    [
+     "Ilvermorny",
+     "États-Unis"
+    ],
+    [
+     "Mahoutokoro",
+     "Japon"
+    ],
+    [
+     "Castelobruxo",
+     "Brésil"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Durmstrang se trouve quelque part dans le nord de l’Europe, sans plus de précision.",
+   "id": "t031-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque matière à son professeur.",
+   "paires": [
+    [
+     "Métamorphose",
+     "McGonagall"
+    ],
+    [
+     "Sortilèges",
+     "Flitwick"
+    ],
+    [
+     "Botanique",
+     "Chourave"
+    ],
+    [
+     "Histoire de la magie",
+     "Binns"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Ces professeurs enseignent pendant toute la scolarité de Harry.",
+   "id": "t031-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque personnage à son rôle à Poudlard.",
+   "paires": [
+    [
+     "Rusard",
+     "Concierge"
+    ],
+    [
+     "Hagrid",
+     "Garde-chasse"
+    ],
+    [
+     "Madame Pomfresh",
+     "Infirmière"
+    ],
+    [
+     "Madame Pince",
+     "Bibliothécaire"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Le personnel de Poudlard ne se limite pas aux professeurs.",
+   "id": "t031-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque relique à son fondateur.",
+   "paires": [
+    [
+     "Épée",
+     "Gryffondor"
+    ],
+    [
+     "Coupe",
+     "Poufsouffle"
+    ],
+    [
+     "Médaillon",
+     "Serpentard"
+    ],
+    [
+     "Diadème",
+     "Serdaigle"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Voldemort a voulu transformer plusieurs de ces reliques en Horcruxes.",
+   "id": "t031-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque école à son chef pendant le Tournoi.",
+   "paires": [
+    [
+     "Poudlard",
+     "Dumbledore"
+    ],
+    [
+     "Beauxbâtons",
+     "Olympe Maxime"
+    ],
+    [
+     "Durmstrang",
+     "Igor Karkaroff"
+    ]
+   ],
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Chaque chef accompagne son champion pendant les épreuves.",
+   "id": "t031-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un chapeau\n2. J’ai appartenu à Gryffondor\n3. Je chante chaque année",
+   "choix": [
+    "Le Choixpeau",
+    "La Coupe de feu",
+    "Le Miroir du Riséd",
+    "Le Saule cogneur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Chaque année, sa chanson présente les maisons et met parfois en garde l’école.",
+   "id": "t031-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un fantôme\n2. Un basilic m’a tuée\n3. Je hante des toilettes",
+   "choix": [
+    "Mimi Geignarde",
+    "La Dame Grise",
+    "La Grosse Dame",
+    "Helena Serdaigle"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle est morte dans les années 1940, en voyant les yeux du Basilic.",
+   "id": "t031-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une fondatrice\n2. J’aimais l’intelligence\n3. Ma fille m’a volé mon diadème",
+   "choix": [
+    "Rowena Serdaigle",
+    "Helga Poufsouffle",
+    "Olympe Maxime",
+    "La Dame Grise"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Son diadème donnait la sagesse à qui le portait.",
+   "id": "t031-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis concierge\n2. Je suis un Cracmol\n3. Ma chatte me prévient de tout",
+   "choix": [
+    "Argus Rusard",
+    "Rubeus Hagrid",
+    "Mondingus Fletcher",
+    "Kreattur"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il suit en secret des cours de magie par correspondance.",
+   "id": "t031-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une école\n2. Je suis en France\n3. Mes élèves arrivent dans un carrosse volant",
+   "choix": [
+    "Beauxbâtons",
+    "Durmstrang",
+    "Ilvermorny",
+    "Poudlard"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Fleur Delacour en est la championne lors du Tournoi.",
+   "id": "t031-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis professeur\n2. Je suis un fantôme\n3. J’enseigne l’histoire de la magie",
+   "choix": [
+    "Binns",
+    "Firenze",
+    "Flitwick",
+    "Le Moine Gras"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "C’est le seul professeur fantôme de l’école.",
+   "id": "t031-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un village\n2. Je suis entièrement sorcier\n3. Les élèves me rendent visite certains week-ends",
+   "choix": [
+    "Pré-au-Lard",
+    "Godric’s Hollow",
+    "Little Hangleton",
+    "Pré-de-la-Lune"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "La Cabane hurlante y passe pour la maison la plus hantée de Grande-Bretagne.",
+   "id": "t031-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis directeur\n2. J’ai été Mangemort\n3. Je dirige Durmstrang",
+   "choix": [
+    "Igor Karkaroff",
+    "Lucius Malefoy",
+    "Severus Rogue",
+    "Barty Croupton"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il avait livré des noms pour sortir d’Azkaban ; il fuit au retour de Voldemort.",
+   "id": "t031-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis professeure\n2. Je deviens chatte à volonté\n3. Je dirige Gryffondor",
+   "choix": [
+    "Minerva McGonagall",
+    "Pomona Chourave",
+    "Sybille Trelawney",
+    "Dolores Ombrage"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Elle accueille les élèves de première année le jour de la Répartition.",
+   "id": "t031-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un esprit frappeur\n2. Je ne suis pas un fantôme\n3. Seul le Baron Sanglant me fait peur",
+   "choix": [
+    "Peeves",
+    "Nick Quasi-Sans-Tête",
+    "Kreattur",
+    "Dobby"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il célèbre bruyamment la défaite de Voldemort à la fin de la saga.",
+   "id": "t031-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un fondateur\n2. Je parlais la langue des reptiles\n3. J’ai quitté l’école fâché",
+   "choix": [
+    "Salazar Serpentard",
+    "Godric Gryffondor",
+    "Tom Jedusor",
+    "Gellert Grindelwald"
+   ],
+   "rep": 0,
+   "src": "J. K. Rowling, Harry Potter (Gallimard, 1998-2007)",
+   "expl": "Il ne voulait admettre que des élèves issus de familles de sorciers.",
+   "id": "t031-130",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
