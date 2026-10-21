@@ -1,0 +1,1982 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "contes-fables",
+  "nom": "Contes, fables et origines de la fantasy",
+  "royaume": "Magie, littérature et univers fantasy",
+  "icone": "plume",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sous quel titre Charles Perrault publie-t-il ses contes en prose en 1697 ?",
+   "choix": [
+    "Histoires ou contes du temps passé",
+    "Contes de la Bibliothèque bleue",
+    "Le Cabinet des fées",
+    "Contes et nouvelles en vers"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Le frontispice porte aussi « Contes de ma mère l’Oye ».",
+   "id": "t071-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle autrice invente l’expression « contes de fées » avec son recueil de 1697 ?",
+   "choix": [
+    "Madame d’Aulnoy",
+    "Madame de La Fayette",
+    "Madame de Sévigné",
+    "Madame Leprince de Beaumont"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Elle publie Les Contes des fées la même année que Perrault.",
+   "id": "t071-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la version de Perrault, comment se termine Le Petit Chaperon rouge ?",
+   "choix": [
+    "Le loup la mange",
+    "Un chasseur la sauve",
+    "Elle tue le loup",
+    "Sa grand-mère la sauve"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Perrault y ajoute une morale en vers contre les « loups doucereux ».",
+   "id": "t071-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle version ajoute le chasseur qui délivre le Petit Chaperon rouge du ventre du loup ?",
+   "choix": [
+    "Celle des frères Grimm",
+    "Celle de Perrault",
+    "Celle d’Andersen",
+    "Celle de La Fontaine"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Les Grimm donnent ainsi une fin heureuse au conte.",
+   "id": "t071-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans La Barbe bleue, comment le mari découvre-t-il la désobéissance de sa femme ?",
+   "choix": [
+    "La clé tachée de sang ne se nettoie pas",
+    "Un miroir parle",
+    "Un oiseau la dénonce",
+    "Elle laisse tomber sa bague"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "La tache, magique, réapparaît dès qu’on l’efface.",
+   "id": "t071-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel titre le Chat botté invente-t-il pour son maître ?",
+   "choix": [
+    "Le marquis de Carabas",
+    "Le comte de Monte-Cristo",
+    "Le duc de Bourgogne",
+    "Le baron de Münchhausen"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Grâce à ses ruses, le fils du meunier épouse une princesse.",
+   "id": "t071-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet magique le Petit Poucet vole-t-il à l’ogre ?",
+   "choix": [
+    "Des bottes de sept lieues",
+    "Un manteau d’invisibilité",
+    "Une poule aux œufs d’or",
+    "Une lampe magique"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Elles s’ajustent à la taille de celui qui les porte.",
+   "id": "t071-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans La Belle au bois dormant de Perrault, qui veut dévorer les enfants de l’héroïne après son réveil ?",
+   "choix": [
+    "Une reine ogresse",
+    "La méchante fée",
+    "Le roi son père",
+    "Un dragon"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Les adaptations modernes oublient presque toujours cette seconde partie.",
+   "id": "t071-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels frères allemands publient leurs Contes de l’enfance et du foyer à partir de 1812 ?",
+   "choix": [
+    "Jacob et Wilhelm Grimm",
+    "Hans et Fritz Hoffmann",
+    "Ludwig et Achim von Arnim",
+    "August et Friedrich Schlegel"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Ils étaient aussi linguistes et ont commencé un grand dictionnaire allemand.",
+   "id": "t071-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de contes compte la dernière édition des frères Grimm, en 1857 ?",
+   "choix": [
+    "Environ deux cents",
+    "Douze",
+    "Mille et un",
+    "Cinquante"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "On y ajoute dix légendes religieuses pour enfants.",
+   "id": "t071-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Blanche-Neige des Grimm, quel châtiment subit la reine à la fin ?",
+   "choix": [
+    "Elle danse dans des souliers de fer rougis",
+    "Elle est changée en pierre",
+    "Elle est enfermée dans le miroir",
+    "Elle est exilée"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "La violence de cette fin est souvent effacée des adaptations.",
+   "id": "t071-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le nom du petit lutin dont il faut deviner le nom, chez les Grimm ?",
+   "choix": [
+    "Rumpelstilzchen",
+    "Tom Pouce",
+    "Obéron",
+    "Puck"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "On le traduit souvent en français par Grigrigredinmenufretin ou Tracassin.",
+   "id": "t071-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quel pays vit le conteur Hans Christian Andersen ?",
+   "choix": [
+    "Le Danemark",
+    "La Norvège",
+    "L’Allemagne",
+    "La Suède"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Fils d’un cordonnier d’Odense, il devient une gloire nationale.",
+   "id": "t071-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conte d’Andersen raconte un souverain dupé par deux escrocs qui prétendent tisser une étoffe invisible ?",
+   "choix": [
+    "Les Habits neufs de l’empereur",
+    "Le Rossignol",
+    "La Reine des neiges",
+    "Le Briquet"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "C’est un enfant qui ose dire que l’empereur est nu.",
+   "id": "t071-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conte d’Andersen a inspiré, de très loin, le film Frozen de Disney en 2013 ?",
+   "choix": [
+    "La Reine des neiges",
+    "La Petite Sirène",
+    "La Petite Fille aux allumettes",
+    "Le Vilain Petit Canard"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Le film de 2013 en change entièrement l’histoire.",
+   "id": "t071-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la version d’Andersen, que perd la Petite Sirène en échange de ses jambes ?",
+   "choix": [
+    "Sa voix",
+    "Ses cheveux",
+    "Son nom",
+    "Sa mémoire"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "La sorcière lui coupe la langue ; chaque pas lui fait mal comme des couteaux.",
+   "id": "t071-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel recueil napolitain du 17e siècle contient des versions anciennes de Cendrillon et Raiponce ?",
+   "choix": [
+    "Le Pentamerone de Basile",
+    "Le Décaméron de Boccace",
+    "Les Nuits facétieuses",
+    "Les Contes de Canterbury"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Son titre original est Lo cunto de li cunti, le conte des contes.",
+   "id": "t071-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur vénitien du 16e siècle publie l’une des premières versions du Chat botté ?",
+   "choix": [
+    "Straparola",
+    "Boccace",
+    "L’Arioste",
+    "Basile"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Son recueil s’intitule Les Nuits facétieuses.",
+   "id": "t071-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel orientaliste français traduit Les Mille et Une Nuits à partir de 1704 ?",
+   "choix": [
+    "Antoine Galland",
+    "Champollion",
+    "Silvestre de Sacy",
+    "Ernest Renan"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Sa traduction fait découvrir le recueil à toute l’Europe.",
+   "id": "t071-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels contes célèbres ne figurent dans aucun manuscrit arabe ancien des Mille et Une Nuits ?",
+   "choix": [
+    "Aladin et Ali Baba",
+    "Sindbad et le roi Shahryar",
+    "Le Pêcheur et le Génie",
+    "Le Cheval d’ébène"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Galland les tient du conteur syrien Hanna Diyab, rencontré à Paris.",
+   "id": "t071-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui raconte des histoires chaque nuit pour échapper à la mort dans Les Mille et Une Nuits ?",
+   "choix": [
+    "Shéhérazade",
+    "Dinarzade",
+    "Badroulboudour",
+    "Morgiane"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Le roi Shahryar renonce peu à peu à la tuer.",
+   "id": "t071-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel fabuliste grec antique est l’inspirateur principal de La Fontaine ?",
+   "choix": [
+    "Ésope",
+    "Homère",
+    "Hésiode",
+    "Platon"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Selon la tradition, il était un esclave phrygien d’une grande laideur.",
+   "id": "t071-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À qui La Fontaine dédie-t-il son premier recueil de Fables, en 1668 ?",
+   "choix": [
+    "Au Dauphin",
+    "À Louis XIV",
+    "À Madame de Montespan",
+    "À Fouquet"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Le fils de Louis XIV, élève de Bossuet, a alors six ans.",
+   "id": "t071-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel recueil indien de fables animalières est traduit en arabe sous le titre Kalila et Dimna ?",
+   "choix": [
+    "Le Panchatantra",
+    "Le Ramayana",
+    "Le Mahabharata",
+    "Les Jataka"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Il voyage ensuite jusqu’en Europe et inspire La Fontaine lui-même.",
+   "id": "t071-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle autrice publie en 1756 la version abrégée de La Belle et la Bête qui s’impose ?",
+   "choix": [
+    "Madame Leprince de Beaumont",
+    "Madame de Villeneuve",
+    "Madame d’Aulnoy",
+    "Madame de Staël"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Elle reprend en la raccourcissant la longue version de Madame de Villeneuve, de 1740.",
+   "id": "t071-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chercheur russe décompose en 1928 les contes merveilleux en trente et une fonctions ?",
+   "choix": [
+    "Vladimir Propp",
+    "Mikhaïl Bakhtine",
+    "Roman Jakobson",
+    "Alexandre Afanassiev"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Méfait, départ du héros, épreuves et mariage reviennent dans le même ordre.",
+   "id": "t071-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel collecteur rassemble les contes populaires russes au 19e siècle ?",
+   "choix": [
+    "Alexandre Afanassiev",
+    "Vladimir Propp",
+    "Alexandre Pouchkine",
+    "Nicolas Gogol"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Il est le « Grimm russe », avec près de six cents contes.",
+   "id": "t071-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel psychanalyste publie en 1976 un livre célèbre sur la valeur des contes pour les enfants ?",
+   "choix": [
+    "Bruno Bettelheim",
+    "Sigmund Freud",
+    "Carl Gustav Jung",
+    "Françoise Dolto"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Son livre, Psychanalyse des contes de fées, est aussi très discuté.",
+   "id": "t071-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot Tolkien invente-t-il pour le retournement heureux et inattendu propre aux contes ?",
+   "choix": [
+    "L’eucatastrophe",
+    "La catharsis",
+    "Le deus ex machina",
+    "La péripétie"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Il l’explique dans son essai Du conte de fées.",
+   "id": "t071-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel érudit écossais publie à partir de 1889 des recueils de contes classés par couleurs ?",
+   "choix": [
+    "Andrew Lang",
+    "Walter Scott",
+    "George MacDonald",
+    "Robert Burns"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Le Livre bleu des fées ouvre la série des Fairy Books.",
+   "id": "t071-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui écrit Alice au pays des merveilles en 1865 ?",
+   "choix": [
+    "Lewis Carroll",
+    "Edward Lear",
+    "J. M. Barrie",
+    "Charles Kingsley"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Il est en réalité Charles Dodgson, professeur de mathématiques à Oxford.",
+   "id": "t071-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur italien crée Pinocchio en 1881 ?",
+   "choix": [
+    "Carlo Collodi",
+    "Gianni Rodari",
+    "Italo Calvino",
+    "Edmondo De Amicis"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Le pantin paraît d’abord en feuilleton dans un journal pour enfants.",
+   "id": "t071-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui écrit Le Magicien d’Oz en 1900 ?",
+   "choix": [
+    "L. Frank Baum",
+    "Mark Twain",
+    "Washington Irving",
+    "Nathaniel Hawthorne"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Baum voulait créer un conte de fées proprement américain.",
+   "id": "t071-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plus ancienne version connue de Cendrillon est racontée par le géographe grec Strabon ?",
+   "choix": [
+    "L’histoire de Rhodopis",
+    "L’histoire de Psyché",
+    "L’histoire d’Europe",
+    "L’histoire de Danaé"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Un aigle y dépose la sandale de la jeune femme aux pieds du pharaon.",
+   "id": "t071-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle question oppose les spécialistes à propos de la pantoufle de Cendrillon chez Perrault ?",
+   "choix": [
+    "Verre ou vair",
+    "Or ou argent",
+    "Bois ou cuir",
+    "Soie ou satin"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Perrault écrit bien « verre », mais Balzac a lancé l’idée d’une faute pour « vair ».",
+   "id": "t071-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la classification internationale des contes types ?",
+   "choix": [
+    "La classification Aarne-Thompson-Uther",
+    "La classification de Dewey",
+    "La classification de Linné",
+    "La classification de Propp"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Cendrillon y porte par exemple le numéro 510A.",
+   "id": "t071-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur allemand écrit Casse-Noisette et le Roi des souris en 1816 ?",
+   "choix": [
+    "E. T. A. Hoffmann",
+    "Goethe",
+    "Novalis",
+    "Wilhelm Hauff"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Tchaïkovski en tire son célèbre ballet, d’après une adaptation de Dumas.",
+   "id": "t071-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle sorcière russe vit dans une maison montée sur des pattes de poule ?",
+   "choix": [
+    "Baba Yaga",
+    "Morgane",
+    "Hécate",
+    "Circé"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Elle se déplace dans un mortier qu’elle dirige avec un pilon.",
+   "id": "t071-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conte d’Oscar Wilde raconte une statue qui donne son or aux pauvres ?",
+   "choix": [
+    "Le Prince heureux",
+    "Le Géant égoïste",
+    "Le Rossignol et la Rose",
+    "L’Anniversaire de l’Infante"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Une hirondelle l’aide, au prix de sa vie.",
+   "id": "t071-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel collecteur norvégien publie, avec Jørgen Moe, les contes populaires de son pays au 19e siècle ?",
+   "choix": [
+    "Peter Christen Asbjørnsen",
+    "Henrik Ibsen",
+    "Knut Hamsun",
+    "Edvard Grieg"
+   ],
+   "rep": 0,
+   "src": "BnF, « Il était une fois… les contes de fées » (exposition, 2001) et Gallica ; Marc Soriano, Les Contes de Perrault (1968) ; Jack Zipes, The Oxford Companion to Fairy Tales (2000) ; Vladimir Propp, Morphologie du conte (1928) ; J. R. R. Tolkien, Du conte de fées (1939, publié 1947)",
+   "expl": "Leurs trolls ont fixé l’image du troll scandinave, grand, laid et un peu sot.",
+   "id": "t071-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Perrault a publié ses contes en 1697.",
+   "rep": true,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Il a alors près de soixante-dix ans et vient de quitter la cour.",
+   "id": "t071-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les frères Grimm ont inventé tous leurs contes.",
+   "rep": false,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Faux : ils les ont recueillis auprès de conteurs et de livres, puis réécrits.",
+   "id": "t071-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Andersen était danois.",
+   "rep": true,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Sa maison natale d’Odense est devenue un musée.",
+   "id": "t071-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Chez Perrault, un chasseur sauve le Petit Chaperon rouge.",
+   "rep": false,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Faux : le loup la mange et l’histoire s’arrête là.",
+   "id": "t071-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Aladin a été ajouté aux Mille et Une Nuits par Galland.",
+   "rep": true,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Il l’a entendu d’un conteur syrien, Hanna Diyab.",
+   "id": "t071-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Fontaine a inventé tous les sujets de ses fables.",
+   "rep": false,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Faux : il reprend beaucoup Ésope, Phèdre et des sources indiennes.",
+   "id": "t071-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Madame d’Aulnoy a popularisé l’expression « contes de fées ».",
+   "rep": true,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Son recueil Les Contes des fées paraît en 1697.",
+   "id": "t071-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Petite Sirène d’Andersen épouse le prince.",
+   "rep": false,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Faux : le prince en épouse une autre et elle se change en écume.",
+   "id": "t071-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les frères Grimm étaient aussi linguistes.",
+   "rep": true,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Jacob Grimm a formulé une loi célèbre sur les consonnes germaniques.",
+   "id": "t071-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Pinocchio est un conte allemand.",
+   "rep": false,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Faux : il est italien, écrit par Carlo Collodi.",
+   "id": "t071-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Chat botté existe chez Straparola avant Perrault.",
+   "rep": true,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Il apparaît dans Les Nuits facétieuses, au 16e siècle.",
+   "id": "t071-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Blanche-Neige des Grimm, la reine connaît une fin violente.",
+   "rep": true,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Elle doit danser jusqu’à la mort dans des souliers de fer brûlants.",
+   "id": "t071-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Baba Yaga appartient au folklore slave.",
+   "rep": true,
+   "src": "BnF ; Zipes ; Soriano",
+   "expl": "Elle peut aider ou dévorer les héros, selon les contes.",
+   "id": "t071-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Vladimir Propp a classé les contes par couleurs.",
+   "rep": false,
+   "src": "BnF ; Zipes",
+   "expl": "Faux : c’est Andrew Lang qui a publié des recueils de couleurs ; Propp a étudié leur structure.",
+   "id": "t071-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Perrault publie-t-il ses Histoires ou contes du temps passé ?",
+   "rep": 1697,
+   "min": 1650,
+   "max": 1750,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "BnF ; Zipes",
+   "expl": "Le livre est signé du nom de son jeune fils, Pierre Darmancour.",
+   "id": "t071-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît le premier volume des contes des frères Grimm ?",
+   "rep": 1812,
+   "min": 1780,
+   "max": 1850,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "BnF ; Zipes",
+   "expl": "Il paraît à Noël, à Berlin, sans illustrations.",
+   "id": "t071-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît le premier recueil des Fables de La Fontaine ?",
+   "rep": 1668,
+   "min": 1620,
+   "max": 1700,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "BnF ; Zipes",
+   "expl": "Il contient six livres de fables, dédiés au Dauphin.",
+   "id": "t071-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de fonctions Propp distingue-t-il dans le conte merveilleux ?",
+   "rep": 31,
+   "min": 12,
+   "max": 50,
+   "pas": 1,
+   "unite": "fonctions",
+   "tolerance": 0,
+   "src": "BnF ; Zipes",
+   "expl": "Toutes n’apparaissent pas dans chaque conte, mais l’ordre est toujours le même.",
+   "id": "t071-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît Alice au pays des merveilles ?",
+   "rep": 1865,
+   "min": 1830,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "BnF ; Zipes",
+   "expl": "Il est illustré par John Tenniel, dessinateur du journal Punch.",
+   "id": "t071-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Galland commence-t-il sa traduction des Mille et Une Nuits ?",
+   "rep": 1704,
+   "min": 1650,
+   "max": 1750,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "BnF ; Zipes",
+   "expl": "La publication s’étend sur plus de dix ans.",
+   "id": "t071-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît La Petite Sirène d’Andersen ?",
+   "rep": 1837,
+   "min": 1800,
+   "max": 1880,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "BnF ; Zipes",
+   "expl": "Sa statue de bronze veille sur le port de Copenhague depuis 1913.",
+   "id": "t071-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît la version de La Belle et la Bête de Madame Leprince de Beaumont ?",
+   "rep": 1756,
+   "min": 1700,
+   "max": 1800,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "BnF ; Zipes",
+   "expl": "Elle paraît dans un magazine éducatif destiné aux jeunes filles.",
+   "id": "t071-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’auteur de Cendrillon et du Petit Poucet s’appelle Charles ____.",
+   "choix": [
+    "Perrault",
+    "Pernault",
+    "Perrin",
+    "Perret"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Il était aussi un haut fonctionnaire au service de Colbert.",
+   "id": "t071-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La conteuse des Mille et Une Nuits s’appelle ____.",
+   "choix": [
+    "Shéhérazade",
+    "Schéhérazade",
+    "Salomé",
+    "Scheherazar"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Elle sauve sa vie et celle des autres femmes du royaume.",
+   "id": "t071-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le titre inventé par le Chat botté est le marquis de ____.",
+   "choix": [
+    "Carabas",
+    "Carrabas",
+    "Caravas",
+    "Calabas"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Ce nom est devenu proverbial pour un riche propriétaire.",
+   "id": "t071-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les bottes du Petit Poucet sont des bottes de ____ lieues.",
+   "choix": [
+    "sept",
+    "cent",
+    "mille",
+    "dix"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Elles permettent de parcourir une grande distance en un pas.",
+   "id": "t071-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La sorcière russe à la maison sur pattes de poule s’appelle Baba ____.",
+   "choix": [
+    "Yaga",
+    "Yagga",
+    "Yoga",
+    "Yana"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Son nom signifierait « vieille femme » ou « grand-mère ».",
+   "id": "t071-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le traducteur des Mille et Une Nuits s’appelle Antoine ____.",
+   "choix": [
+    "Galland",
+    "Gallant",
+    "Galant",
+    "Garland"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Il était antiquaire du roi et professeur au Collège royal.",
+   "id": "t071-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le fabuliste grec s’appelle ____.",
+   "choix": [
+    "Ésope",
+    "Hésiode",
+    "Éole",
+    "Esquyle"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Plusieurs centaines de fables lui sont attribuées.",
+   "id": "t071-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le recueil napolitain de Basile s’appelle le ____.",
+   "choix": [
+    "Pentamerone",
+    "Décaméron",
+    "Heptaméron",
+    "Mahabharata"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Il est construit en cinq journées de dix contes.",
+   "id": "t071-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le chercheur des trente et une fonctions du conte s’appelle Vladimir ____.",
+   "choix": [
+    "Propp",
+    "Prokofiev",
+    "Pouchkine",
+    "Popov"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Son livre devient célèbre en Occident dans les années 1950-1960.",
+   "id": "t071-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le créateur de Pinocchio s’appelle Carlo ____.",
+   "choix": [
+    "Collodi",
+    "Goldoni",
+    "Gozzi",
+    "Calvino"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Son vrai nom est Carlo Lorenzini, Collodi étant un village toscan.",
+   "id": "t071-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le retournement heureux selon Tolkien s’appelle l’____.",
+   "choix": [
+    "eucatastrophe",
+    "apocatastase",
+    "eucharistie",
+    "épiphanie"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "C’est pour lui la joie la plus haute que puisse offrir un conte.",
+   "id": "t071-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le conteur syrien qui a fourni Aladin à Galland s’appelle Hanna ____.",
+   "choix": [
+    "Diyab",
+    "Dib",
+    "Daoud",
+    "Haddad"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Son propre récit de voyage a été retrouvé et publié récemment.",
+   "id": "t071-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La première version longue de La Belle et la Bête est de Madame de ____.",
+   "choix": [
+    "Villeneuve",
+    "Beaumont",
+    "Sévigné",
+    "Genlis"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Cette version originale compte plus de trois cents pages.",
+   "id": "t071-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces contes n’est pas de Perrault ?",
+   "choix": [
+    "Hansel et Gretel",
+    "Cendrillon",
+    "Le Petit Poucet",
+    "La Barbe bleue"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Hansel et Gretel est un conte recueilli par les Grimm.",
+   "id": "t071-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces contes n’est pas d’Andersen ?",
+   "choix": [
+    "Le Chat botté",
+    "La Petite Sirène",
+    "Le Vilain Petit Canard",
+    "Le Soldat de plomb"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Le Chat botté est un conte de Perrault, d’après Straparola.",
+   "id": "t071-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’est pas un fabuliste ?",
+   "choix": [
+    "Andersen",
+    "Ésope",
+    "Phèdre",
+    "La Fontaine"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Andersen est un conteur, pas un auteur de fables.",
+   "id": "t071-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’apparaît pas dans Les Mille et Une Nuits ?",
+   "choix": [
+    "Pinocchio",
+    "Sindbad",
+    "Aladin",
+    "Ali Baba"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Pinocchio est né sous la plume de Carlo Collodi.",
+   "id": "t071-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’est pas allemand ?",
+   "choix": [
+    "Perrault",
+    "Les frères Grimm",
+    "Hoffmann",
+    "Wilhelm Hauff"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Perrault est français, membre de l’Académie.",
+   "id": "t071-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces œuvres n’est pas un conte de fées littéraire du 19e siècle ?",
+   "choix": [
+    "Les Fables de La Fontaine",
+    "Alice au pays des merveilles",
+    "Pinocchio",
+    "Le Prince heureux"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Les Fables de La Fontaine datent du 17e siècle.",
+   "id": "t071-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces savants n’a pas étudié ou collecté les contes ?",
+   "choix": [
+    "Isaac Newton",
+    "Vladimir Propp",
+    "Alexandre Afanassiev",
+    "Andrew Lang"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Newton s’intéressait plutôt à la physique et à l’alchimie.",
+   "id": "t071-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces conteurs n’est pas scandinave ?",
+   "choix": [
+    "Afanassiev",
+    "Andersen",
+    "Asbjørnsen",
+    "Moe"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Afanassiev est russe ; les trois autres sont danois ou norvégiens.",
+   "id": "t071-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces contes est absent des manuscrits arabes anciens des Mille et Une Nuits ?",
+   "choix": [
+    "Ali Baba et les quarante voleurs",
+    "Le Pêcheur et le Génie",
+    "Le Portefaix et les trois dames",
+    "Le Roi Shahryar"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Ali Baba et Aladin sont des contes « orphelins », sans manuscrit arabe antérieur.",
+   "id": "t071-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’apparaît pas chez Perrault ?",
+   "choix": [
+    "La lampe magique",
+    "La clé de Barbe bleue",
+    "Les bottes de sept lieues",
+    "La pantoufle de verre"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "La lampe magique est celle d’Aladin, dans Les Mille et Une Nuits.",
+   "id": "t071-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels contes figurent chez Perrault ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cendrillon",
+    "Le Petit Chaperon rouge",
+    "La Barbe bleue",
+    "Raiponce",
+    "La Petite Sirène"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Raiponce est chez les Grimm, La Petite Sirène chez Andersen.",
+   "id": "t071-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels contes ont été recueillis par les frères Grimm ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Blanche-Neige",
+    "Hansel et Gretel",
+    "Raiponce",
+    "Le Roi grenouille",
+    "Le Vilain Petit Canard",
+    "Aladin"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Le Roi grenouille ouvre leur recueil, au numéro un.",
+   "id": "t071-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels contes sont d’Andersen ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La Petite Sirène",
+    "La Reine des neiges",
+    "La Petite Fille aux allumettes",
+    "Le Petit Poucet",
+    "Blanche-Neige"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Andersen invente la plupart de ses contes.",
+   "id": "t071-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels fabulistes ont inspiré La Fontaine ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ésope",
+    "Phèdre",
+    "Pilpay",
+    "Andersen",
+    "Grimm"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Pilpay est le nom donné en Europe au sage du Panchatantra.",
+   "id": "t071-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages appartiennent aux Mille et Une Nuits ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Shéhérazade",
+    "Sindbad",
+    "Aladin",
+    "Baba Yaga",
+    "Raiponce"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Sindbad le marin vit sept voyages extraordinaires.",
+   "id": "t071-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres s’adressent d’abord aux enfants ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Alice au pays des merveilles",
+    "Pinocchio",
+    "Le Magicien d’Oz",
+    "Le Pentamerone",
+    "Les Nuits facétieuses"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Les recueils italiens anciens visent un public adulte.",
+   "id": "t071-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels auteurs ont étudié la structure ou le sens des contes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Propp",
+    "Bettelheim",
+    "Tolkien",
+    "Collodi",
+    "Baum"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Collodi et Baum ont écrit des contes, sans les théoriser.",
+   "id": "t071-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels contes ont des versions plus anciennes que Perrault ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cendrillon",
+    "Le Chat botté",
+    "La Belle au bois dormant",
+    "Le Magicien d’Oz",
+    "Pinocchio"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Basile et Straparola en offrent des versions italiennes antérieures.",
+   "id": "t071-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles femmes ont écrit des contes de fées ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Madame d’Aulnoy",
+    "Madame Leprince de Beaumont",
+    "Madame de Villeneuve",
+    "Madame de Sévigné",
+    "Madame de Staël"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Les conteuses sont très nombreuses dans les salons de la fin du 17e siècle.",
+   "id": "t071-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets magiques viennent des contes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bottes de sept lieues",
+    "Lampe d’Aladin",
+    "Miroir de la reine",
+    "Anneau unique",
+    "Sabre laser"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "L’anneau unique vient de Tolkien, le sabre laser de Star Wars.",
+   "id": "t071-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces recueils par ordre chronologique.",
+   "items": [
+    "Les Nuits facétieuses",
+    "Le Pentamerone",
+    "Contes de Perrault",
+    "Contes des Grimm"
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Ces recueils paraissent vers 1550, en 1634, 1697 puis 1812.",
+   "id": "t071-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces œuvres par date de parution.",
+   "items": [
+    "Alice au pays des merveilles",
+    "Pinocchio",
+    "Le Magicien d’Oz",
+    "Peter Pan, le roman"
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Ces œuvres paraissent en 1865, 1881, 1900 puis 1911.",
+   "id": "t071-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces fabulistes par ordre chronologique.",
+   "items": [
+    "Ésope",
+    "Phèdre",
+    "La Fontaine",
+    "Florian"
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Grèce archaïque, Rome du 1er siècle, 17e puis 18e siècle.",
+   "id": "t071-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces fonctions du conte dans l’ordre fixé par Propp.",
+   "items": [
+    "Méfait",
+    "Départ du héros",
+    "Épreuve",
+    "Victoire",
+    "Mariage"
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Ces fonctions s’enchaînent toujours dans le même ordre.",
+   "id": "t071-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de Cendrillon chez Perrault dans l’ordre.",
+   "items": [
+    "Arrivée de la marraine",
+    "Premier bal",
+    "Perte de la pantoufle",
+    "Essai de la pantoufle"
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Chez Perrault, Cendrillon pardonne à ses demi-sœurs.",
+   "id": "t071-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de La Barbe bleue dans l’ordre.",
+   "items": [
+    "Remise de la clé",
+    "Ouverture du cabinet",
+    "Tache de sang",
+    "Arrivée des frères"
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Les frères arrivent juste à temps pour tuer Barbe bleue.",
+   "id": "t071-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces œuvres de Madame Leprince de Beaumont, Galland et Grimm par date.",
+   "items": [
+    "Les Mille et Une Nuits de Galland",
+    "La Belle et la Bête de Beaumont",
+    "Contes des Grimm"
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Ces œuvres paraissent en 1704, 1756 puis 1812.",
+   "id": "t071-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces contes d’Andersen par date de parution.",
+   "items": [
+    "La Petite Sirène",
+    "Le Vilain Petit Canard",
+    "La Petite Fille aux allumettes"
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Ces contes paraissent en 1837, 1843 puis 1845.",
+   "id": "t071-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces théoriciens du conte par date de leur ouvrage majeur.",
+   "items": [
+    "Propp",
+    "Tolkien",
+    "Bettelheim"
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "1928, 1947 pour la publication de l’essai, puis 1976.",
+   "id": "t071-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque conte à son auteur.",
+   "paires": [
+    [
+     "Cendrillon",
+     "Perrault"
+    ],
+    [
+     "Blanche-Neige",
+     "Grimm"
+    ],
+    [
+     "La Petite Sirène",
+     "Andersen"
+    ],
+    [
+     "Pinocchio",
+     "Collodi"
+    ]
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Chaque pays d’Europe a ses grands conteurs.",
+   "id": "t071-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque auteur à son pays.",
+   "paires": [
+    [
+     "Perrault",
+     "France"
+    ],
+    [
+     "Grimm",
+     "Allemagne"
+    ],
+    [
+     "Andersen",
+     "Danemark"
+    ],
+    [
+     "Afanassiev",
+     "Russie"
+    ]
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Le 19e siècle voit naître partout des collecteurs nationaux.",
+   "id": "t071-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à son objet.",
+   "paires": [
+    [
+     "Cendrillon",
+     "Pantoufle"
+    ],
+    [
+     "Barbe bleue",
+     "Clé"
+    ],
+    [
+     "Aladin",
+     "Lampe"
+    ],
+    [
+     "Petit Poucet",
+     "Bottes"
+    ]
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Les objets magiques font avancer l’intrigue.",
+   "id": "t071-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque recueil à sa langue d’origine.",
+   "paires": [
+    [
+     "Pentamerone",
+     "Napolitain"
+    ],
+    [
+     "Mille et Une Nuits",
+     "Arabe"
+    ],
+    [
+     "Panchatantra",
+     "Sanskrit"
+    ]
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Les contes voyagent d’une langue à l’autre depuis des siècles.",
+   "id": "t071-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque théoricien à son idée.",
+   "paires": [
+    [
+     "Propp",
+     "Fonctions du conte"
+    ],
+    [
+     "Tolkien",
+     "Eucatastrophe"
+    ],
+    [
+     "Bettelheim",
+     "Valeur psychologique"
+    ]
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Chacun cherche ce qui fait la force des contes.",
+   "id": "t071-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque conte à sa fin.",
+   "paires": [
+    [
+     "Petit Chaperon rouge de Perrault",
+     "Mangée par le loup"
+    ],
+    [
+     "Petite Sirène",
+     "Écume"
+    ],
+    [
+     "Blanche-Neige des Grimm",
+     "Souliers de fer"
+    ]
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Les fins originales sont souvent plus sombres que les adaptations.",
+   "id": "t071-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque conteuse à son œuvre.",
+   "paires": [
+    [
+     "Madame d’Aulnoy",
+     "L’Oiseau bleu"
+    ],
+    [
+     "Madame Leprince de Beaumont",
+     "La Belle et la Bête"
+    ],
+    [
+     "Madame de Murat",
+     "Le Palais de la vengeance"
+    ]
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Les conteuses ont dominé la mode des contes vers 1700.",
+   "id": "t071-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque œuvre à son pays d’origine.",
+   "paires": [
+    [
+     "Alice",
+     "Angleterre"
+    ],
+    [
+     "Pinocchio",
+     "Italie"
+    ],
+    [
+     "Le Magicien d’Oz",
+     "États-Unis"
+    ]
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Chaque nation produit ses classiques de l’enfance.",
+   "id": "t071-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque version de Cendrillon à sa culture.",
+   "paires": [
+    [
+     "Rhodopis",
+     "Égypte grecque"
+    ],
+    [
+     "Ye Xian",
+     "Chine"
+    ],
+    [
+     "Cenerentola",
+     "Naples"
+    ],
+    [
+     "Aschenputtel",
+     "Allemagne"
+    ]
+   ],
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Le conte existe sous des centaines de formes dans le monde.",
+   "id": "t071-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un conteur\n2. Je suis danois\n3. J’ai écrit La Petite Sirène",
+   "choix": [
+    "Andersen",
+    "Perrault",
+    "Grimm",
+    "Collodi"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "J’ai aussi écrit des romans et des récits de voyage.",
+   "id": "t071-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un recueil\n2. Je parais en 1697\n3. On m’appelle aussi Contes de ma mère l’Oye",
+   "choix": [
+    "Histoires ou contes du temps passé",
+    "Le Pentamerone",
+    "Contes de l’enfance et du foyer",
+    "Le Cabinet des fées"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Mon auteur est l’académicien Charles Perrault.",
+   "id": "t071-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une femme\n2. Je raconte une histoire chaque nuit\n3. Je sauve ma vie ainsi",
+   "choix": [
+    "Shéhérazade",
+    "Dinarzade",
+    "Morgiane",
+    "Badroulboudour"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Ma sœur Dinarzade m’aide à commencer chaque récit.",
+   "id": "t071-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un animal\n2. Je suis l’unique héritage d’un fils de meunier\n3. Je fais de mon maître un marquis",
+   "choix": [
+    "Le Chat botté",
+    "Le Renard",
+    "Le Lion",
+    "Le Corbeau"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Je ruse sans jamais me servir de la moindre magie.",
+   "id": "t071-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un pantin\n2. Mon nez s’allonge quand je mens\n3. Je viens d’Italie",
+   "choix": [
+    "Pinocchio",
+    "Arlequin",
+    "Polichinelle",
+    "Guignol"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Mon père, le menuisier Geppetto, m’a taillé dans une bûche.",
+   "id": "t071-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une sorcière\n2. Je viens de Russie\n3. Ma maison marche sur des pattes de poule",
+   "choix": [
+    "Baba Yaga",
+    "Morgane",
+    "Carabosse",
+    "Maléfique"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Je voyage dans un mortier, en effaçant mes traces avec un balai.",
+   "id": "t071-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un savant\n2. Je suis russe\n3. J’ai trouvé trente et une fonctions dans les contes",
+   "choix": [
+    "Vladimir Propp",
+    "Afanassiev",
+    "Bakhtine",
+    "Lotman"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "Mon livre s’intitule Morphologie du conte.",
+   "id": "t071-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un fabuliste\n2. Je suis français\n3. J’ai écrit Le Corbeau et le Renard",
+   "choix": [
+    "La Fontaine",
+    "Perrault",
+    "Florian",
+    "Ésope"
+   ],
+   "rep": 0,
+   "src": "BnF ; Zipes ; Propp",
+   "expl": "J’ai publié douze livres de fables entre 1668 et 1694.",
+   "id": "t071-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
