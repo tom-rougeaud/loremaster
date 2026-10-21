@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**28 / 99 thèmes terminés — 4007 questions au total.**
+**29 / 99 thèmes terminés — 4134 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -34,7 +34,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 26 | Géographie de la Terre du Milieu | 140 | 51 | 18 (9) | 7 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 34/82/24 | 5 | terminé |
 | 27 | Peuples Libres et forces de l’Ombre | 140 | 51 | 18 (9) | 7 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 31/84/25 | 21 | terminé |
 | 28 | Énigmes, citations et devises de Tolkien | 129 | 49 | 16 (9) | 4 | 12 | 10 | 10 | 8 | 10 | 10 | 50 % | 16/90/23 | 24 | terminé |
-| 29 | Magie, artefacts et Anneaux de Pouvoir | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 29 | Magie, artefacts et Anneaux de Pouvoir | 127 | 41 | 16 (8) | 7 | 13 | 10 | 10 | 9 | 10 | 11 | 45 % | 23/82/22 | 13 | terminé |
 | 30 | Tolkien à l’écran | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 31 | Histoire de la magie et de Poudlard | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 32 | La société sorcière | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |

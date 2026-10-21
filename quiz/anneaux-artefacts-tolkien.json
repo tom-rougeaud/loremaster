@@ -1,0 +1,2077 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "anneaux-artefacts-tolkien",
+  "nom": "Magie, artefacts et Anneaux de Pouvoir",
+  "royaume": "Terres de Tolkien",
+  "icone": "couronne",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien d’anneaux le poème de l’Anneau attribue-t-il aux rois des Elfes ?",
+   "choix": [
+    "3",
+    "7",
+    "9",
+    "1"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Trois pour les Elfes, sept pour les Nains, neuf pour les Hommes, et un pour le Seigneur sombre.",
+   "id": "t029-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui a forgé les Trois Anneaux des Elfes ?",
+   "choix": [
+    "Celebrimbor",
+    "Sauron",
+    "Fëanor",
+    "Aulë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Il les forge seul, après le départ d’Annatar : Sauron ne les a jamais touchés.",
+   "id": "t029-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que deviennent les Hommes qui reçoivent les Neuf Anneaux ?",
+   "choix": [
+    "Les Nazgûl",
+    "Les Rois des Morts",
+    "Les Rôdeurs",
+    "Les Orientaux"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Ils vivent des siècles, mais deviennent des spectres asservis à Sauron.",
+   "id": "t029-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel effet les Sept Anneaux ont-ils sur les Nains ?",
+   "choix": [
+    "Ils attisent leur soif d’or",
+    "Ils les rendent invisibles",
+    "Ils en font des spectres",
+    "Ils les rendent immortels"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Les Nains résistent à la domination de Sauron, mais leur avidité grandit.",
+   "id": "t029-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel Elfe a confié l’anneau Narya à Gandalf ?",
+   "choix": [
+    "Círdan",
+    "Elrond",
+    "Galadriel",
+    "Gil-galad"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Le gardien des Havres Gris pressent que le magicien en aura plus besoin que lui.",
+   "id": "t029-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel est le plus puissant des Trois Anneaux ?",
+   "choix": [
+    "Vilya",
+    "Narya",
+    "Nenya",
+    "Aucun, ils sont égaux"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "L’anneau de l’air, orné d’un saphir, est confié par Gil-galad à Elrond.",
+   "id": "t029-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle pierre orne l’anneau Nenya ?",
+   "choix": [
+    "Un adamant blanc",
+    "Un rubis",
+    "Un saphir",
+    "Une émeraude"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Galadriel le porte ; Frodon l’aperçoit à son doigt, brillant comme une étoile.",
+   "id": "t029-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que devient un mortel qui passe l’Anneau unique à son doigt ?",
+   "choix": [
+    "Il devient invisible",
+    "Il devient immortel",
+    "Il peut voler",
+    "Il devient géant"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Mais il entre aussi dans le monde des ombres, où les Nazgûl le voient.",
+   "id": "t029-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’arrive-t-il à la vie de ceux qui gardent longtemps l’Anneau ?",
+   "choix": [
+    "Elle est étirée, sans être renouvelée",
+    "Elle devient éternelle et heureuse",
+    "Elle est raccourcie",
+    "Rien ne change"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Bilbo ne vieillit presque pas, mais se sent usé et las, comme aminci.",
+   "id": "t029-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où l’Anneau unique peut-il être détruit ?",
+   "choix": [
+    "Dans le feu où il a été forgé",
+    "Au fond de la mer",
+    "Sous le marteau d’un nain",
+    "Dans la forge de Fondcombe"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Même le feu d’un dragon ne suffirait pas, explique Gandalf.",
+   "id": "t029-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel document Gandalf retrouve-t-il à Minas Tirith au sujet de l’Anneau ?",
+   "choix": [
+    "Un parchemin d’Isildur",
+    "Le Livre rouge",
+    "Une lettre de Celebrimbor",
+    "Les annales d’Angmar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Isildur y décrit l’Anneau brûlant et ses lettres qui s’effaçaient en refroidissant.",
+   "id": "t029-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi l’Anneau glisse-t-il du doigt d’Isildur dans l’Anduin ?",
+   "choix": [
+    "Il veut rejoindre son maître",
+    "Il était trop grand pour lui",
+    "Un orque le lui arrache",
+    "Isildur le jette au fleuve"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "L’Anneau a sa volonté propre et trahit ceux qui le portent.",
+   "id": "t029-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui a probablement fabriqué les palantíri ?",
+   "choix": [
+    "Fëanor",
+    "Sauron",
+    "Celebrimbor",
+    "Saruman"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Gandalf pense qu’elles viennent des Noldor d’Aman, peut-être de Fëanor lui-même.",
+   "id": "t029-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui a rapporté les palantíri de Númenor ?",
+   "choix": [
+    "Elendil",
+    "Ar-Pharazôn",
+    "Isildur seul",
+    "Círdan"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Elendil et ses fils les sauvent du naufrage et les répartissent entre l’Arnor et le Gondor.",
+   "id": "t029-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle palantír Saruman utilise-t-il ?",
+   "choix": [
+    "Celle d’Orthanc",
+    "Celle de Minas Ithil",
+    "Celle d’Amon Sûl",
+    "Celle de Minas Anor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Il croit espionner Sauron, mais c’est Sauron qui le domine.",
+   "id": "t029-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle palantír Sauron contrôle-t-il ?",
+   "choix": [
+    "Celle de Minas Ithil",
+    "Celle d’Orthanc",
+    "Celle d’Osgiliath",
+    "Celle des Tours Blanches"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Prise avec la cité devenue Minas Morgul, elle lui permet d’agir sur les autres pierres.",
+   "id": "t029-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Aragorn regarde-t-il dans la palantír d’Orthanc ?",
+   "choix": [
+    "Pour pousser Sauron à se précipiter",
+    "Pour retrouver Frodon et Sam",
+    "Pour parler à Arwen à Fondcombe",
+    "Pour espionner Saruman"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "En lui montrant l’héritier d’Isildur et Andúril, il trouble les plans de l’Ennemi.",
+   "id": "t029-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Vers où regardait la palantír des Tours Blanches, près des Havres Gris ?",
+   "choix": [
+    "Uniquement vers l’Ouest",
+    "Vers le Mordor",
+    "Vers le Nord",
+    "Vers toutes les directions"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Elendil y contemplait la mer et, au-delà, Tol Eressëa.",
+   "id": "t029-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Où Galadriel a-t-elle recueilli la lumière enfermée dans sa fiole ?",
+   "choix": [
+    "Dans l’eau de son Miroir",
+    "Dans un Silmaril",
+    "Dans la lune",
+    "Dans la Bruinen"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "C’est la lumière de l’étoile d’Eärendil, reflétée dans la vasque.",
+   "id": "t029-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que montre le Miroir de Galadriel ?",
+   "choix": [
+    "Passé, présent et avenirs possibles",
+    "Seulement l’avenir certain",
+    "Seulement le passé lointain",
+    "Les pensées de ceux qui regardent"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Galadriel prévient que même elle ne sait pas toujours ce qu’il montrera.",
+   "id": "t029-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle propriété ont les capes offertes par les Elfes de la Lórien ?",
+   "choix": [
+    "Elles aident à se dissimuler",
+    "Elles rendent invisible",
+    "Elles protègent du feu",
+    "Elles permettent de voler"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Leur couleur change selon la lumière et le paysage.",
+   "id": "t029-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Que fait la corde elfique de Sam quand il regrette de l’avoir laissée attachée ?",
+   "choix": [
+    "Elle se dénoue toute seule",
+    "Elle se rompt net",
+    "Elle s’allonge d’elle-même",
+    "Elle prend feu"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Sam soupçonne qu’il l’a simplement appelée au bon moment.",
+   "id": "t029-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait le fragment de lame de Morgul resté dans l’épaule de Frodon ?",
+   "choix": [
+    "Il remonte vers son cœur",
+    "Il le rend invisible",
+    "Il le guérit",
+    "Il fond aussitôt"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "S’il l’avait atteint, Frodon serait devenu un spectre au service de Sauron.",
+   "id": "t029-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que devient la lame du poignard de Morgul trouvé au Mont Venteux ?",
+   "choix": [
+    "Elle se dissipe comme de la fumée",
+    "Elle se brise en sept",
+    "Elle brille en bleu",
+    "Elle s’enfonce dans la terre"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Seule la poignée reste entre les mains d’Aragorn.",
+   "id": "t029-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec quelle arme Merry blesse-t-il le Roi-Sorcier ?",
+   "choix": [
+    "Une lame des Galgals",
+    "Dard",
+    "Andúril",
+    "Un javelot du Rohan"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Tom Bombadil la lui avait donnée en sortant du tertre.",
+   "id": "t029-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Pourquoi la lame de Merry blesse-t-elle si bien le Roi-Sorcier ?",
+   "choix": [
+    "Elle fut forgée en Arnor pour combattre Angmar",
+    "Elle est faite de mithril pur",
+    "Elle vient de la cité de Gondolin",
+    "Galadriel l’a bénie en Lórien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Les Dúnedain du Nord l’avaient faite pour combattre son royaume ; elle se consume après le coup.",
+   "id": "t029-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cor se fend en deux et résonne jusqu’au Gondor ?",
+   "choix": [
+    "Le cor de Boromir",
+    "Le cor de la Marche",
+    "Le cor de Helm",
+    "Le cor de Bouc"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Denethor et Faramir l’entendent sonner au loin ; Faramir voit ensuite passer la barque funéraire de son frère.",
+   "id": "t029-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel présent Éowyn offre-t-elle à Merry après la guerre ?",
+   "choix": [
+    "Un cor d’argent",
+    "Une épée",
+    "Un cheval",
+    "Un bouclier"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Le cor de la Marche réveille la Comté contre les hommes de Sharkey.",
+   "id": "t029-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel bijou Arwen donne-t-elle à Frodon ?",
+   "choix": [
+    "Une gemme blanche en pendentif",
+    "Un anneau elfique",
+    "Une couronne d’argent",
+    "Une broche verte"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Elle doit l’aider quand le souvenir de sa peur et de ses blessures le tourmentera.",
+   "id": "t029-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où l’Arkenstone repose-t-elle finalement ?",
+   "choix": [
+    "Sur la poitrine de Thorin, dans sa tombe",
+    "Dans la salle du trésor d’Erebor",
+    "Dans le palais du roi des Elfes",
+    "Au fond du Long Lac"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Bard l’y dépose ; le roi des Elfes pose Orcrist sur la tombe.",
+   "id": "t029-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel joyau royal du Nord Aragorn porte-t-il au front ?",
+   "choix": [
+    "L’Elendilmir",
+    "L’Arkenstone",
+    "Un Silmaril",
+    "La pierre d’Elessar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Cette étoile blanche était l’insigne des rois d’Arnor.",
+   "id": "t029-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel symbole de royauté Elrond remet-il à Aragorn ?",
+   "choix": [
+    "Le sceptre d’Annúminas",
+    "La couronne d’Eärnur",
+    "Le trône de Gondor",
+    "Le cor de Boromir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Ce sceptre d’argent, insigne des rois d’Arnor, avait plus de cinq mille ans.",
+   "id": "t029-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle épée est brisée sous Elendil, puis reforgée pour Aragorn ?",
+   "choix": [
+    "Narsil",
+    "Glamdring",
+    "Orcrist",
+    "Anglachel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Elle devient Andúril, « Flamme de l’Ouest ».",
+   "id": "t029-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pour quels prodiges Gandalf est-il célèbre chez les hobbits ?",
+   "choix": [
+    "Ses feux d’artifice",
+    "Ses potions",
+    "Ses chansons",
+    "Ses tours de cartes"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Les vieux hobbits se souviennent encore de ses fusées en forme de dragon.",
+   "id": "t029-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel effet a la boisson des Ents ?",
+   "choix": [
+    "Elle fait grandir",
+    "Elle rend invisible",
+    "Elle fait dormir",
+    "Elle donne des ailes"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Merry et Pippin en sortent plus grands que tous les autres hobbits.",
+   "id": "t029-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Selon la tradition de son peuple, quel roi nain reçut l’un des Sept Anneaux des Elfes eux-mêmes ?",
+   "choix": [
+    "Durin III",
+    "Thrór",
+    "Thorin",
+    "Dáin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Ils affirment que leur anneau ne venait pas de Sauron ; il passa ensuite à Thrór et Thráin.",
+   "id": "t029-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi l’Anneau semble-t-il s’alourdir à l’approche du Mordor ?",
+   "choix": [
+    "Il pèse sur l’esprit de Frodon",
+    "Il grossit vraiment",
+    "Il se remplit de cendres",
+    "Il se couvre de rouille"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Son pouvoir grandit près de son maître, et Frodon se sent écrasé.",
+   "id": "t029-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que se passe-t-il pour les Trois Anneaux quand l’Unique est détruit ?",
+   "choix": [
+    "Ils perdent leur pouvoir",
+    "Ils deviennent plus forts",
+    "Ils sont détruits aussi",
+    "Ils passent aux Hommes"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Leurs gardiens quittent alors la Terre du Milieu : le temps des Elfes s’achève.",
+   "id": "t029-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’arrive-t-il à Barad-dûr quand l’Anneau est détruit ?",
+   "choix": [
+    "Elle s’effondre",
+    "Elle est assiégée",
+    "Elle reste intacte",
+    "Elle prend feu sans tomber"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Les fondations de la Tour Sombre étaient liées au pouvoir de l’Anneau.",
+   "id": "t029-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui, après Sauron, a gardé l’Anneau unique le plus longtemps ?",
+   "choix": [
+    "Gollum",
+    "Bilbo",
+    "Isildur",
+    "Frodon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Il le garde près de cinq siècles sous les Monts Brumeux.",
+   "id": "t029-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que voit Frodon quand il passe l’Anneau au Mont Venteux ?",
+   "choix": [
+    "Les Nazgûl tels qu’ils sont",
+    "Le Mordor dans le lointain",
+    "Le visage de Sauron",
+    "Gandalf captif à Orthanc"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2 et livre II, chap. 2 ; The Silmarillion (1977), « Des Anneaux de Pouvoir »",
+   "expl": "Leurs visages pâles et leurs yeux brillent dans le monde des ombres.",
+   "id": "t029-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Sauron n’a jamais touché les Trois Anneaux des Elfes.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 7",
+   "expl": "Vrai : Celebrimbor les forge seul ; ils restent pourtant liés au pouvoir de l’Unique.",
+   "id": "t029-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "L’Anneau unique rend Tom Bombadil invisible quand il le passe à son doigt.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Faux : rien ne se passe ; Tom fait même disparaître l’Anneau un instant, par jeu.",
+   "id": "t029-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Nains ne sont pas devenus des spectres malgré les Sept Anneaux.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2",
+   "expl": "Vrai : ils résistent à la domination, mais l’or et la colère les gagnent plus facilement.",
+   "id": "t029-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "L’Anneau unique garde toujours la même taille.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Silmarillion (1977)",
+   "expl": "Faux : il peut grandir ou rétrécir, et glisse parfois exprès d’un doigt.",
+   "id": "t029-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Celebrimbor a été trompé par Sauron, qui se faisait appeler Annatar.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : le « Seigneur des Dons » lui enseigne son art avant de forger l’Unique en secret.",
+   "id": "t029-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gandalf porte l’Anneau unique pendant la quête.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : il refuse même de le toucher longtemps, de peur d’être corrompu.",
+   "id": "t029-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La puissance des Trois a servi à préserver la Lothlórien et Fondcombe.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : Nenya et Vilya y retiennent le temps et la beauté ; c’est pourquoi ces lieux déclinent après la guerre.",
+   "id": "t029-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les palantíri ont été créées par Sauron.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Return of the King (1955), livre V, chap. 7",
+   "expl": "Faux : elles viennent d’Aman ; Sauron n’a fait que prendre le contrôle de l’une d’elles.",
+   "id": "t029-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Denethor a été trompé par ce que Sauron lui montrait dans la palantír.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Return of the King (1955), livre V, chap. 7",
+   "expl": "Vrai : la pierre ne lui montre que ce qui nourrit son désespoir.",
+   "id": "t029-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Frapper le Roi-Sorcier n’a aucune conséquence pour Merry.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Faux : son bras reste glacé et il souffre du Souffle noir, soigné par Aragorn.",
+   "id": "t029-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Chaque année, à la date de sa blessure, Frodon souffre de nouveau.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre IV",
+   "expl": "Vrai : la lame de Morgul et le dard d’Arachné ont laissé des blessures qui ne guérissent jamais vraiment.",
+   "id": "t029-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La fiole de Galadriel ne brille qu’en plein jour.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre IV",
+   "expl": "Faux : elle brille surtout dans les ténèbres, quand tout autre lumière a disparu.",
+   "id": "t029-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gollum ne supporte pas le pain elfique.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 7",
+   "expl": "Vrai : le lembas a pour lui le goût de la poussière et l’étouffe.",
+   "id": "t029-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Miroir de Galadriel montre uniquement un avenir certain.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 2",
+   "expl": "Faux : il montre aussi le passé et des choses qui pourraient ne jamais arriver.",
+   "id": "t029-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Isildur a refusé de détruire l’Anneau dans la Montagne du Destin.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 1",
+   "expl": "Vrai : Elrond et Círdan le lui conseillaient ; il l’a gardé en dédommagement de la mort de son père et de son frère.",
+   "id": "t029-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Bilbo laisse l’Anneau à Frodon sans aucune hésitation.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Faux : il s’emporte et hésite ; Gandalf doit hausser le ton pour qu’il le laisse.",
+   "id": "t029-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien d’anneaux le poème de l’Anneau attribue-t-il aux seigneurs nains ?",
+   "rep": 7,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "anneaux",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les seigneurs nains les gardaient dans leurs salles de pierre.",
+   "id": "t029-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien d’anneaux le poème de l’Anneau attribue-t-il aux Hommes mortels ?",
+   "rep": 9,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "anneaux",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Neuf ont fait de leurs porteurs des Nazgûl, esclaves de Sauron.",
+   "id": "t029-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de palantíri Elendil a-t-il rapportées de Númenor ?",
+   "rep": 7,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "pierres",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Quatre vont au Gondor, trois en Arnor, réparties entre les tours des deux royaumes.",
+   "id": "t029-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien des Sept Anneaux des Nains ont été détruits par des dragons ?",
+   "rep": 4,
+   "min": 1,
+   "max": 7,
+   "pas": 1,
+   "unite": "anneaux",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Sauron a repris les trois autres, dont celui de Thráin, à Dol Guldur.",
+   "id": "t029-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Pendant combien d’années Bilbo a-t-il gardé l’Anneau ?",
+   "rep": 60,
+   "min": 10,
+   "max": 100,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "De 2941 à 3001 du Troisième Âge : il ne vieillit presque pas pendant tout ce temps.",
+   "id": "t029-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Pendant combien d’années Gollum a-t-il gardé l’Anneau, environ ?",
+   "rep": 478,
+   "min": 100,
+   "max": 800,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 25,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "De 2463 à 2941 du Troisième Âge ; une réponse à 25 ans près est acceptée.",
+   "id": "t029-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Vers quelle année du Deuxième Âge Sauron forge-t-il l’Anneau unique ?",
+   "rep": 1600,
+   "min": 500,
+   "max": 3000,
+   "pas": 50,
+   "unite": "D.A.",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Les Elfes l’entendent prononcer l’inscription et ôtent aussitôt leurs anneaux.",
+   "id": "t029-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’anneau de Galadriel, l’anneau de l’eau, s’appelle ____.",
+   "choix": [
+    "Nenya",
+    "Narya",
+    "Vilya",
+    "Narsil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Galadriel avoue le porter quand Frodon l’aperçoit à son doigt.",
+   "id": "t029-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’anneau de Gandalf, l’anneau du feu, s’appelle ____.",
+   "choix": [
+    "Narya",
+    "Nenya",
+    "Vilya",
+    "Nimloth"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Il est orné d’un rubis ; Gandalf le garde caché jusqu’au départ des Havres Gris.",
+   "id": "t029-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’anneau d’Elrond, l’anneau de l’air, s’appelle ____.",
+   "choix": [
+    "Vilya",
+    "Narya",
+    "Nenya",
+    "Silmaril"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "C’est le plus puissant des Trois ; Gil-galad le lui avait confié.",
+   "id": "t029-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les pierres de vision rapportées de Númenor s’appellent les ____.",
+   "choix": [
+    "palantíri",
+    "silmarils",
+    "elessar",
+    "mallorns"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Le mot signifie « ce qui voit au loin » ; on en compte sept.",
+   "id": "t029-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Sauron a forgé l’Anneau unique dans les flammes de l’____.",
+   "choix": [
+    "Orodruin",
+    "Erebor",
+    "Caradhras",
+    "Mindolluin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "C’est pourquoi seul le feu de ce volcan peut le détruire.",
+   "id": "t029-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Celebrimbor, le forgeron des Trois, était le petit-fils de ____.",
+   "choix": [
+    "Fëanor",
+    "Fingolfin",
+    "Finrod",
+    "Thingol"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Comme son grand-père, il est un artisan de génie trompé par sa soif de créer.",
+   "id": "t029-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’épée de Bilbo, Dard, brille en ____ à l’approche des orques.",
+   "choix": [
+    "bleu",
+    "rouge",
+    "vert",
+    "blanc"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Forgée à Gondolin, elle garde la haine des Elfes pour les orques.",
+   "id": "t029-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Miroir de Galadriel est une vasque d’argent remplie d’____.",
+   "choix": [
+    "eau",
+    "huile",
+    "vin",
+    "mercure"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Galadriel y verse l’eau d’un ruisseau, puis souffle dessus.",
+   "id": "t029-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’épée Narsil s’est brisée sous le corps de son roi, ____.",
+   "choix": [
+    "Elendil",
+    "Isildur",
+    "Gil-galad",
+    "Anárion"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Isildur en ramasse le tronçon pour trancher le doigt de Sauron.",
+   "id": "t029-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’Anneau unique est fait d’____.",
+   "choix": [
+    "or",
+    "argent",
+    "mithril",
+    "fer"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Un simple anneau d’or, sans pierre, qui semble parfois plus lourd qu’il ne devrait.",
+   "id": "t029-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Anneaux de Pouvoir ont été forgés en ____, le pays de Celebrimbor.",
+   "choix": [
+    "Eregion",
+    "Lindon",
+    "Lothlórien",
+    "Gondolin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "L’Eregion, ou Houssaye, est ravagée par Sauron en guise de représailles.",
+   "id": "t029-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La voix de ____ envoûte presque tous ceux qui l’écoutent.",
+   "choix": [
+    "Saruman",
+    "Gandalf",
+    "Radagast",
+    "Denethor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "À Orthanc, même vaincu, il manque de retourner Théoden.",
+   "id": "t029-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "À Orthanc, Gandalf brise le ____ de Saruman.",
+   "choix": [
+    "bâton",
+    "anneau",
+    "trône",
+    "miroir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Il le chasse ainsi de l’Ordre et du Conseil.",
+   "id": "t029-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces noms n’est pas l’un des Trois Anneaux ?",
+   "choix": [
+    "Narsil",
+    "Nenya",
+    "Narya",
+    "Vilya"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Narsil est l’épée d’Elendil, reforgée en Andúril.",
+   "id": "t029-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a jamais passé l’Anneau unique à son doigt ?",
+   "choix": [
+    "Gandalf",
+    "Isildur",
+    "Bilbo",
+    "Sam"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Gandalf le tient un instant dans sa main, mais refuse de le porter.",
+   "id": "t029-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces palantíri n’a jamais existé ?",
+   "choix": [
+    "Celle de Fondcombe",
+    "Celle d’Orthanc",
+    "Celle de Minas Ithil",
+    "Celle d’Amon Sûl"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Fondcombe n’a pas de pierre de vision ; Elrond s’en passe très bien.",
+   "id": "t029-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets ne vient pas de Galadriel ?",
+   "choix": [
+    "Le cor de la Marche",
+    "La fiole",
+    "Les capes elfiques",
+    "La boîte de terre"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Le cor de la Marche est offert à Merry par Éowyn.",
+   "id": "t029-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces objets n’est pas une épée ?",
+   "choix": [
+    "Nenya",
+    "Dard",
+    "Andúril",
+    "Glamdring"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Nenya est l’anneau de Galadriel, l’anneau de l’eau.",
+   "id": "t029-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages ne garde pas l’un des Trois à la fin du Troisième Âge ?",
+   "choix": [
+    "Saruman",
+    "Gandalf",
+    "Galadriel",
+    "Elrond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Saruman a voulu forger son propre anneau, mais n’a jamais reçu l’un des Trois.",
+   "id": "t029-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces pouvoirs n’est pas donné par l’Anneau à un mortel ?",
+   "choix": [
+    "Voler",
+    "Devenir invisible",
+    "Vivre très longtemps",
+    "Voir le monde des ombres"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "L’Anneau ne donne pas d’ailes ; ses vrais pouvoirs dépendent de la force de son porteur.",
+   "id": "t029-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces armes ne brille pas à l’approche des orques ?",
+   "choix": [
+    "La hache de Gimli",
+    "Dard",
+    "Glamdring",
+    "Orcrist"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Les trois lames de Gondolin brillent ; la hache de Gimli est une arme naine ordinaire.",
+   "id": "t029-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces objets n’a pas été fabriqué au Premier Âge ?",
+   "choix": [
+    "La fiole de Galadriel",
+    "Les Silmarils",
+    "Glamdring",
+    "Narsil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Narsil est l’œuvre du Nain Telchar ; la fiole n’est offerte qu’au Troisième Âge.",
+   "id": "t029-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’a jamais regardé dans une palantír ?",
+   "choix": [
+    "Frodon",
+    "Pippin",
+    "Aragorn",
+    "Denethor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Frodon voit bien des choses dans le Miroir de Galadriel, mais jamais dans une pierre.",
+   "id": "t029-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels sont les Trois Anneaux des Elfes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Narya",
+    "Nenya",
+    "Vilya",
+    "Narsil",
+    "Nimloth"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Nimloth est l’Arbre blanc de Númenor, abattu sur l’ordre de Sauron.",
+   "id": "t029-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Qui garde l’un des Trois à la fin du Troisième Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gandalf",
+    "Galadriel",
+    "Elrond",
+    "Saruman",
+    "Celeborn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Celeborn ne porte pas d’anneau ; c’est Galadriel qui détient Nenya.",
+   "id": "t029-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles palantíri apparaissent dans le récit ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Orthanc",
+    "Minas Ithil",
+    "Minas Anor",
+    "Fondcombe",
+    "Edoras"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Saruman, Sauron et Denethor les utilisent chacun.",
+   "id": "t029-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles lames brillent à l’approche des orques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dard",
+    "Glamdring",
+    "Orcrist",
+    "Andúril",
+    "La hache de Gimli"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Ces trois lames ont été forgées à Gondolin au Premier Âge.",
+   "id": "t029-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels effets l’Anneau a-t-il sur son porteur ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Invisibilité",
+    "Vie étirée",
+    "Corruption",
+    "Immortalité véritable",
+    "Capacité de voler"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "L’Anneau ne donne pas une vraie immortalité : il use lentement ceux qui le gardent.",
+   "id": "t029-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets sont liés à Isildur ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’Anneau unique",
+    "Narsil",
+    "Le fruit de l’Arbre blanc",
+    "La fiole",
+    "Dard"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Il sauve un fruit de Nimloth avant la chute de Númenor.",
+   "id": "t029-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets marquent la royauté d’Aragorn ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Andúril",
+    "L’Elendilmir",
+    "Le sceptre d’Annúminas",
+    "Le cor de Boromir",
+    "Le bâton de Saruman"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "La couronne ailée du Gondor lui est remise par Frodon et posée par Gandalf.",
+   "id": "t029-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels peuples ont reçu des Anneaux de Pouvoir ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Elfes",
+    "Nains",
+    "Hommes",
+    "Hobbits",
+    "Ents"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Les hobbits n’entrent dans l’histoire de l’Anneau que par hasard.",
+   "id": "t029-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets sont brisés ou détruits pendant la guerre ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’Anneau unique",
+    "Le bâton de Saruman",
+    "Le cor de Boromir",
+    "La fiole",
+    "Dard"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Dard et la fiole survivent ; Frodon les laisse à Sam.",
+   "id": "t029-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles blessures magiques ou monstrueuses Frodon subit-il ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lame de Morgul",
+    "Dard d’Arachné",
+    "Doigt arraché par Gollum",
+    "Flèche elfique",
+    "Morsure de warg"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B ; The Silmarillion (1977)",
+   "expl": "Frodon reçoit aussi un coup de lance dans la Moria, arrêté par la cotte de mithril.",
+   "id": "t029-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces groupes d’anneaux par nombre croissant.",
+   "items": [
+    "L’Unique",
+    "Les Trois",
+    "Les Sept",
+    "Les Neuf"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Un, trois, sept et neuf : vingt anneaux en tout.",
+   "id": "t029-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire des Anneaux par ordre chronologique.",
+   "items": [
+    "Arrivée d’Annatar en Eregion",
+    "Forge des Trois",
+    "Forge de l’Unique",
+    "Guerre des Elfes et de Sauron"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Vers 1200, 1590, 1600 et 1693 du Deuxième Âge.",
+   "id": "t029-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Isildur prend l’Anneau",
+    "L’Anneau glisse dans l’Anduin",
+    "Déagol le trouve",
+    "Bilbo le trouve"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "L’Anneau dort plus de deux mille ans au fond du fleuve.",
+   "id": "t029-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire de l’épée d’Elendil dans l’ordre.",
+   "items": [
+    "Forge de Narsil",
+    "Narsil brisée sous Elendil",
+    "Isildur tranche le doigt de Sauron",
+    "Andúril reforgée"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "L’épée brisée est gardée à Fondcombe pendant tout le Troisième Âge.",
+   "id": "t029-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements liés aux palantíri dans l’ordre.",
+   "items": [
+    "Elendil les apporte de Númenor",
+    "Perte de celle d’Osgiliath",
+    "Saruman est piégé par Sauron",
+    "Aragorn se révèle à Sauron"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "La pierre d’Osgiliath tombe dans le fleuve pendant la guerre civile du Gondor, en 1437.",
+   "id": "t029-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces moments de la destruction de l’Anneau dans l’ordre.",
+   "items": [
+    "Frodon refuse de jeter l’Anneau",
+    "Gollum arrache le doigt",
+    "Gollum tombe dans le feu",
+    "Barad-dûr s’effondre"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Sam et Frodon sont ensuite sauvés par les Aigles.",
+   "id": "t029-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces armes de la plus ancienne à la plus récente.",
+   "items": [
+    "Glamdring",
+    "La lame des Galgals de Merry",
+    "Andúril"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Premier Âge à Gondolin, Troisième Âge en Arnor, puis 3018 à Fondcombe.",
+   "id": "t029-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la blessure de Frodon au Mont Venteux dans l’ordre.",
+   "items": [
+    "Coup de lame de Morgul",
+    "Le fragment remonte vers le cœur",
+    "Fuite jusqu’au gué",
+    "Elrond retire l’éclat"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Elrond extrait le fragment profondément enfoncé, et Frodon se réveille à Fondcombe.",
+   "id": "t029-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la chute de Saruman dans l’ordre.",
+   "items": [
+    "Trahison du Conseil blanc",
+    "Gandalf prisonnier à Orthanc",
+    "Inondation d’Isengard",
+    "Bâton brisé"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Saruman reste ensuite enfermé dans sa tour, avant de s’en aller vers la Comté.",
+   "id": "t029-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque anneau elfique à son élément.",
+   "paires": [
+    [
+     "Narya",
+     "Feu"
+    ],
+    [
+     "Nenya",
+     "Eau"
+    ],
+    [
+     "Vilya",
+     "Air"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "On les appelle l’Anneau de feu, l’Anneau d’adamant et l’Anneau de saphir.",
+   "id": "t029-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque anneau elfique à son gardien.",
+   "paires": [
+    [
+     "Narya",
+     "Gandalf"
+    ],
+    [
+     "Nenya",
+     "Galadriel"
+    ],
+    [
+     "Vilya",
+     "Elrond"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Les trois gardiens partent ensemble des Havres Gris.",
+   "id": "t029-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque groupe d’anneaux à ses destinataires.",
+   "paires": [
+    [
+     "Trois",
+     "Rois elfes"
+    ],
+    [
+     "Sept",
+     "Seigneurs nains"
+    ],
+    [
+     "Neuf",
+     "Hommes mortels"
+    ],
+    [
+     "Un",
+     "Seigneur sombre"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Le poème de l’Anneau résume ainsi la répartition des Anneaux de Pouvoir.",
+   "id": "t029-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque palantír à son utilisateur.",
+   "paires": [
+    [
+     "Orthanc",
+     "Saruman"
+    ],
+    [
+     "Minas Ithil",
+     "Sauron"
+    ],
+    [
+     "Minas Anor",
+     "Denethor"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Ces trois hommes, ou presque hommes, sont tous trompés ou dominés par la pierre.",
+   "id": "t029-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque objet à son effet.",
+   "paires": [
+    [
+     "Fiole",
+     "Lumière dans les ténèbres"
+    ],
+    [
+     "Capes elfiques",
+     "Camouflage"
+    ],
+    [
+     "Lembas",
+     "Nourriture"
+    ],
+    [
+     "Corde elfique",
+     "Se dénoue à l’appel"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Les présents de la Lórien sauvent plusieurs fois la Communauté.",
+   "id": "t029-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque arme à sa particularité.",
+   "paires": [
+    [
+     "Dard",
+     "Brille près des orques"
+    ],
+    [
+     "Lame des Galgals",
+     "Blesse le Roi-Sorcier"
+    ],
+    [
+     "Lame de Morgul",
+     "Éclat qui remonte au cœur"
+    ],
+    [
+     "Andúril",
+     "Épée reforgée du roi"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Les armes de Tolkien ont une histoire, un nom et souvent un pouvoir.",
+   "id": "t029-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque anneau elfique à sa pierre.",
+   "paires": [
+    [
+     "Narya",
+     "Rubis"
+    ],
+    [
+     "Nenya",
+     "Adamant blanc"
+    ],
+    [
+     "Vilya",
+     "Saphir"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Rouge pour le feu, blanc pour l’eau, bleu pour l’air.",
+   "id": "t029-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet à son créateur.",
+   "paires": [
+    [
+     "Les Trois",
+     "Celebrimbor"
+    ],
+    [
+     "L’Unique",
+     "Sauron"
+    ],
+    [
+     "Narsil",
+     "Telchar"
+    ],
+    [
+     "Les Silmarils",
+     "Fëanor"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Telchar, de Nogrod, est le plus célèbre forgeron nain du Premier Âge.",
+   "id": "t029-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet à son destin.",
+   "paires": [
+    [
+     "L’Anneau unique",
+     "Détruit dans le feu"
+    ],
+    [
+     "L’Arkenstone",
+     "Tombe de Thorin"
+    ],
+    [
+     "Le cor de Boromir",
+     "Fendu en deux"
+    ],
+    [
+     "Le bâton de Saruman",
+     "Brisé par Gandalf"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Peu d’objets de pouvoir survivent à la fin du Troisième Âge.",
+   "id": "t029-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque magicien à son talent.",
+   "paires": [
+    [
+     "Saruman",
+     "Voix envoûtante"
+    ],
+    [
+     "Gandalf",
+     "Feu et lumière"
+    ],
+    [
+     "Radagast",
+     "Langage des bêtes"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Les Istari ont chacun leurs dons, selon leur caractère.",
+   "id": "t029-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis en or\n2. Je rends invisible\n3. Je dois être détruit dans le feu",
+   "choix": [
+    "L’Anneau unique",
+    "Narya",
+    "Nenya",
+    "Vilya"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Il porte une inscription qui n’apparaît que dans le feu.",
+   "id": "t029-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un anneau de feu\n2. Círdan m’a confié\n3. J’aide à ranimer les cœurs",
+   "choix": [
+    "Narya",
+    "Nenya",
+    "Vilya",
+    "L’Anneau unique"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Gandalf s’en sert pour encourager les peuples contre Sauron.",
+   "id": "t029-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un anneau d’eau\n2. Je protège la Lórien\n3. Une Dame elfe me porte",
+   "choix": [
+    "Nenya",
+    "Narya",
+    "Vilya",
+    "L’Anneau de Thrór"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Galadriel l’utilise pour préserver son pays du temps qui passe.",
+   "id": "t029-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis le plus puissant des Trois\n2. Je porte un saphir\n3. Elrond me garde",
+   "choix": [
+    "Vilya",
+    "Narya",
+    "Nenya",
+    "Narsil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Gil-galad l’avait confié à Elrond avant de mourir.",
+   "id": "t029-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une pierre ronde\n2. Je montre des lieux lointains\n3. Saruman me consulte",
+   "choix": [
+    "La palantír d’Orthanc",
+    "Le Miroir de Galadriel",
+    "L’Arkenstone",
+    "La fiole de Galadriel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Pippin la regarde et croise le regard de Sauron.",
+   "id": "t029-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une vasque d’argent\n2. On me remplit d’eau\n3. Je montre ce qui pourrait être",
+   "choix": [
+    "Le Miroir de Galadriel",
+    "La palantír",
+    "La fiole",
+    "Le Livre rouge"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Sam y voit la Comté dévastée, et Frodon l’Œil de Sauron.",
+   "id": "t029-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un petit flacon de cristal\n2. Je contiens la lumière d’une étoile\n3. J’ai fait fuir une araignée",
+   "choix": [
+    "La fiole de Galadriel",
+    "Le Miroir",
+    "La palantír",
+    "Le lembas"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Frodon et Sam l’utilisent dans les ténèbres de Cirith Ungol.",
+   "id": "t029-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une lame\n2. Mon éclat remonte vers le cœur\n3. Le Roi-Sorcier me manie",
+   "choix": [
+    "La lame de Morgul",
+    "La lame des Galgals",
+    "Dard",
+    "Andúril"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Seuls les soins d’Elrond sauvent Frodon de ce poison spectral.",
+   "id": "t029-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une épée brisée\n2. J’ai tranché un doigt\n3. On m’a reforgée pour un roi",
+   "choix": [
+    "Narsil",
+    "Glamdring",
+    "Orcrist",
+    "Anglachel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Ses fragments sont gardés à Fondcombe pendant des siècles.",
+   "id": "t029-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un forgeron elfe\n2. J’ai forgé les Trois\n3. Sauron m’a trompé",
+   "choix": [
+    "Celebrimbor",
+    "Fëanor",
+    "Círdan",
+    "Gil-galad"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Sauron le tue lors de la conquête de l’Eregion.",
+   "id": "t029-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un cor\n2. On m’a fendu en deux\n3. Mon appel a résonné jusqu’au Gondor",
+   "choix": [
+    "Le cor de Boromir",
+    "Le cor de la Marche",
+    "Le cor de Helm",
+    "Le cor de Bouc"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice B",
+   "expl": "Boromir le sonne en défendant Merry et Pippin.",
+   "id": "t029-127",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
