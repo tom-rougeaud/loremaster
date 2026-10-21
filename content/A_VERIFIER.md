@@ -47,3 +47,7 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thèmes 83 à 98 : noms et titres français des œuvres (films, séries, jeux, animés) selon les éditions et doublages en vigueur ; dates de sortie françaises parfois différentes des sorties d’origine.
 - Thème 97 : répliques volontairement paraphrasées (aucune citation littérale) ; vérifier qu’elles restent reconnaissables sans être recopiées.
 - Thème 99 : noms français de Skyrim (Faillaise, Confrérie noire, Compagnons), de Dragon Age (Gardes des Ombres) et du Sorceleur (Loge des magiciennes) ; date de 1717 pour la Grande Loge, discutée par certains historiens.
+
+## Revérification du 21 octobre 2026
+- Corrigé après source : Doux repos (002), Esquive totale et Savoir-faire (016), Effrayé au lieu de Terrorisé (018), Malcador sur le Trône d’or (043), Docteur Olive au Cluedo (081), Origins sans ville (082), traduction D&D 1983 sans nom d’éditeur (022), Loge sans traduction contestée (099), Phandalin en anglais (001, 005, 007, 020).
+- Non vérifié en source : Gisombre/Féerie, Château-Suif, Castelmithral, Lunargent, Portail Béant, noms Ledoux (thèmes 25 à 27), Salle Va-et-Vient et Barnabas le Follet (037), noms français Warhammer (38 à 43, anglais ajouté en explication), noms Fils-des-Brumes (065), Skyrim et Dragon Age (099).
