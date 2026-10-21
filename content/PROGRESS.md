@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**21 / 99 thèmes terminés — 3033 questions au total.**
+**22 / 99 thèmes terminés — 3173 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -27,7 +27,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 19 | Dieux, panthéons et plans d’existence | 144 | 51 | 18 (9) | 9 | 12 | 11 | 10 | 10 | 10 | 13 | 48 % | 20/95/29 | 57 | terminé |
 | 20 | Royaumes Oubliés (Faerûn) | 141 | 49 | 19 (10) | 8 | 12 | 11 | 10 | 10 | 10 | 12 | 48 % | 22/98/21 | 67 | terminé |
 | 21 | Objets magiques, trésors et équipement | 141 | 50 | 18 (9) | 8 | 13 | 11 | 10 | 10 | 10 | 11 | 48 % | 24/103/14 | 14 | terminé |
-| 22 | Histoire de D&D et campagnes célèbres | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 22 | Histoire de D&D et campagnes célèbres | 140 | 45 | 20 (10) | 9 | 15 | 10 | 10 | 10 | 10 | 11 | 46 % | 24/95/21 | 83 | terminé |
 | 23 | L’Histoire d’Arda (Silmarillion, grands Âges) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 24 | Tolkien : thèmes et philosophie | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 25 | Le Hobbit et Le Seigneur des Anneaux | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -351,8 +351,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - sorts-magie-dnd : niveaux déséquilibrés [10, 95, 36]
 - dieux-plans-dnd : niveaux déséquilibrés [20, 95, 29]
 - royaumes-oublies : niveaux déséquilibrés [22, 98, 21]
-- content/021/a.lm:14 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (troi) — Quel anneau légendaire peut modifier la réalité à trois reprises avant de perdre sa magie 
-- content/021/a.lm:14 : mot de la bonne réponse présent dans l’énoncé (« trois ») et absent des autres propositions
 - objets-magiques-dnd : niveaux déséquilibrés [24, 103, 14]
 - gre-003 : explication absente ou trop courte
 - gre-006 : explication absente ou trop courte

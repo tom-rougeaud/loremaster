@@ -1,0 +1,2263 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "histoire-dnd",
+  "nom": "Histoire de D&D et campagnes célèbres",
+  "royaume": "Règles et univers de D&D",
+  "icone": "livre",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Avec qui Gary Gygax a-t-il créé Donjons & Dragons ?",
+   "choix": [
+    "Dave Arneson",
+    "Ed Greenwood",
+    "Jeff Perren",
+    "Don Kaye"
+   ],
+   "rep": 0,
+   "src": "Jon Peterson, Playing at the World (Unreason Press, 2012) ; Michael Witwer, Empire of Imagination (Bloomsbury, 2015)",
+   "expl": "Jeff Perren a coécrit Chainmail avec Gygax ; Don Kaye a cofondé TSR.",
+   "id": "t022-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle société publie Donjons & Dragons en 1974 ?",
+   "choix": [
+    "TSR",
+    "Wizards of the Coast",
+    "Games Workshop",
+    "Chaosium"
+   ],
+   "rep": 0,
+   "src": "Jon Peterson, Playing at the World (Unreason Press, 2012) ; Michael Witwer, Empire of Imagination (Bloomsbury, 2015)",
+   "expl": "La petite société de Gygax, basée dans le Wisconsin, vend d’abord le jeu par correspondance.",
+   "id": "t022-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifiait à l’origine le sigle TSR ?",
+   "choix": [
+    "Tactical Studies Rules",
+    "Tabletop Strategy Rules",
+    "The Story Rules",
+    "Tactical Simulations Research"
+   ],
+   "rep": 0,
+   "src": "Jon Peterson, Playing at the World (Unreason Press, 2012) ; Michael Witwer, Empire of Imagination (Bloomsbury, 2015)",
+   "expl": "La société s’appelle d’abord Tactical Studies Rules, puis TSR Hobbies et enfin TSR, Inc.",
+   "id": "t022-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelait la campagne de Dave Arneson, berceau de D&D ?",
+   "choix": [
+    "Blackmoor",
+    "Greyhawk",
+    "Mystara",
+    "Krynn"
+   ],
+   "rep": 0,
+   "src": "Jon Peterson, Playing at the World (Unreason Press, 2012) ; Michael Witwer, Empire of Imagination (Bloomsbury, 2015)",
+   "expl": "Arneson y fait explorer des souterrains dès 1971 ; Gygax découvre le concept en y jouant.",
+   "id": "t022-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de livrets contenait la boîte originale de 1974 ?",
+   "choix": [
+    "3",
+    "1",
+    "5",
+    "7"
+   ],
+   "rep": 0,
+   "src": "Jon Peterson, Playing at the World (Unreason Press, 2012) ; Michael Witwer, Empire of Imagination (Bloomsbury, 2015)",
+   "expl": "Men & Magic, Monsters & Treasure et The Underworld & Wilderness Adventures.",
+   "id": "t022-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel livret ouvrait la boîte de 1974 ?",
+   "choix": [
+    "Men & Magic",
+    "Monsters & Treasure",
+    "The Underworld & Wilderness Adventures",
+    "Chainmail"
+   ],
+   "rep": 0,
+   "src": "Ken St. Andre, Tunnels & Trolls (Flying Buffalo, 1975)",
+   "expl": "Le volume 1 présentait les classes : guerrier, magicien et clerc.",
+   "id": "t022-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de rôle de Ken St. Andre, paru en 1975, est souvent cité comme le deuxième de l’histoire ?",
+   "choix": [
+    "Tunnels & Trolls",
+    "L’Appel de Cthulhu",
+    "Traveller",
+    "RuneQuest"
+   ],
+   "rep": 0,
+   "src": "Basic Set (TSR, 1983) ; Larry Elmore, entretiens",
+   "expl": "Ken St. Andre voulait un jeu plus simple que D&D, aux règles mieux expliquées.",
+   "id": "t022-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel illustrateur a peint la couverture de la célèbre boîte rouge de 1983 ?",
+   "choix": [
+    "Larry Elmore",
+    "Erol Otus",
+    "Frank Frazetta",
+    "Tony DiTerlizzi"
+   ],
+   "rep": 0,
+   "src": "Basic Set (TSR, 1983) ; Larry Elmore, entretiens",
+   "expl": "Le guerrier face au dragon rouge est devenu l’une des images les plus célèbres de D&D.",
+   "id": "t022-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Que signifie le sigle BECMI ?",
+   "choix": [
+    "Basic, Expert, Companion, Master, Immortals",
+    "Basic, Epic, Champion, Monster, Immortal",
+    "Beginner, Expert, Champion, Mythic, Infinite",
+    "Basic, Elf, Cleric, Magic-user, Invoker"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, communiqué (1997) ; Hasbro, rapport annuel (1999)",
+   "expl": "Les cinq boîtes de Frank Mentzer (1983-1986) menaient les personnages jusqu’à l’immortalité.",
+   "id": "t022-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle entreprise a racheté TSR en 1997 ?",
+   "choix": [
+    "Wizards of the Coast",
+    "Hasbro",
+    "Games Workshop",
+    "Mattel"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, communiqué (1997) ; Hasbro, rapport annuel (1999)",
+   "expl": "TSR, au bord de la faillite, est sauvée par l’éditeur de Magic.",
+   "id": "t022-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle entreprise possède Wizards of the Coast depuis 1999 ?",
+   "choix": [
+    "Hasbro",
+    "Mattel",
+    "Microsoft",
+    "Disney"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, communiqué (1997) ; Hasbro, rapport annuel (1999)",
+   "expl": "Hasbro rachète Wizards of the Coast, et donc D&D, deux ans après le rachat de TSR.",
+   "id": "t022-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de cartes a fait la fortune de Wizards of the Coast avant le rachat de TSR ?",
+   "choix": [
+    "Magic: The Gathering",
+    "Pokémon",
+    "Yu-Gi-Oh!",
+    "Hearthstone"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 3e (2000) ; Player’s Handbook 5e (2014)",
+   "expl": "Créé par Richard Garfield, Magic paraît en 1993 et invente le jeu de cartes à collectionner.",
+   "id": "t022-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui sont les concepteurs principaux de la 3e édition (2000) ?",
+   "choix": [
+    "Jonathan Tweet, Monte Cook et Skip Williams",
+    "Mike Mearls et Jeremy Crawford",
+    "Gygax et Arneson",
+    "Rob Heinsoo et Andy Collins"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 3e (2000) ; Player’s Handbook 5e (2014)",
+   "expl": "La 3e simplifie et unifie les règles autour du d20 : plus haut, c’est toujours mieux.",
+   "id": "t022-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui sont les concepteurs principaux de la 5e édition (2014) ?",
+   "choix": [
+    "Mike Mearls et Jeremy Crawford",
+    "Jonathan Tweet et Monte Cook",
+    "Gary Gygax et Frank Mentzer",
+    "Rob Heinsoo et James Wyatt"
+   ],
+   "rep": 0,
+   "src": "Paizo, Pathfinder Roleplaying Game Core Rulebook (2009)",
+   "expl": "Ils s’appuient sur un playtest public de deux ans, appelé D&D Next.",
+   "id": "t022-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu Paizo publie-t-il en 2009 en prolongeant les règles de la 3.5 ?",
+   "choix": [
+    "Pathfinder",
+    "Starfinder",
+    "13th Age",
+    "Shadow of the Demon Lord"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, « SRD 5.1 in the Creative Commons » (janvier 2023)",
+   "expl": "Beaucoup de joueurs restés fidèles à la 3.5 l’adoptent quand la 4e paraît.",
+   "id": "t022-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sous quelle licence le SRD 5.1 est-il placé en 2023, après la polémique sur l’OGL ?",
+   "choix": [
+    "Creative Commons",
+    "GPL",
+    "MIT",
+    "OGL 1.1"
+   ],
+   "rep": 0,
+   "src": "Rona Jaffe, Mazes and Monsters (1981) ; CBS, Mazes and Monsters (1982)",
+   "expl": "Face à la colère des joueurs et des éditeurs, Wizards renonce à modifier l’OGL et libère le SRD 5.1.",
+   "id": "t022-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur joue dans le téléfilm Mazes and Monsters (1982), qui dépeint le jeu de rôle comme dangereux ?",
+   "choix": [
+    "Tom Hanks",
+    "Tom Cruise",
+    "Kevin Bacon",
+    "Michael J. Fox"
+   ],
+   "rep": 0,
+   "src": "Marvel Productions et TSR, Dungeons & Dragons (CBS, 1983-1985)",
+   "expl": "C’est l’un des premiers rôles de Tom Hanks ; le film nourrit la panique morale contre D&D.",
+   "id": "t022-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel méchant cornu affronte les héros du dessin animé D&D de 1983 ?",
+   "choix": [
+    "Venger",
+    "Skeletor",
+    "Mumm-Ra",
+    "Shredder"
+   ],
+   "rep": 0,
+   "src": "Netflix, Stranger Things, saison 1 (2016)",
+   "expl": "Venger, la Force du Mal, convoite les armes magiques des enfants.",
+   "id": "t022-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de 2016 s’ouvre sur une partie de D&D entre amis ?",
+   "choix": [
+    "Stranger Things",
+    "Dark",
+    "The Witcher",
+    "Mercredi"
+   ],
+   "rep": 0,
+   "src": "Netflix, Stranger Things, saison 1 (2016)",
+   "expl": "Les enfants de Hawkins nomment les menaces qu’ils affrontent d’après des monstres de D&D.",
+   "id": "t022-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monstre de D&D donne son surnom à la créature de la première saison de Stranger Things ?",
+   "choix": [
+    "Le Démogorgon",
+    "Le Tarasque",
+    "Le Tyrannoeil",
+    "La Liche"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, Tomb of Horrors (TSR, 1978)",
+   "expl": "Dans le jeu, Démogorgon est un prince démon ; la série l’a rendu célèbre auprès du grand public.",
+   "id": "t022-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel module de 1978 est un donjon piégé conçu pour punir les joueurs trop sûrs d’eux ?",
+   "choix": [
+    "Tomb of Horrors",
+    "Keep on the Borderlands",
+    "Village of Hommlet",
+    "Isle of Dread"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, Expedition to the Barrier Peaks (TSR, 1980)",
+   "expl": "Gygax l’avait d’abord préparé pour le tournoi d’Origins 1975.",
+   "id": "t022-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel module de 1980 fait explorer un vaisseau spatial écrasé ?",
+   "choix": [
+    "Expedition to the Barrier Peaks",
+    "The Lost Caverns of Tsojcanth",
+    "The Hidden Shrine of Tamoachan",
+    "Dwellers of the Forbidden City"
+   ],
+   "rep": 0,
+   "src": "Tracy et Laura Hickman, Ravenloft (TSR, 1983)",
+   "expl": "Robots, pistolets laser et monstres extraterrestres s’invitent dans le monde de Greyhawk.",
+   "id": "t022-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui a écrit le module Ravenloft (1983) ?",
+   "choix": [
+    "Tracy et Laura Hickman",
+    "Gary Gygax",
+    "Frank Mentzer",
+    "Tom Moldvay"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, Keep on the Borderlands (TSR, 1979)",
+   "expl": "Ils voulaient un vampire avec une vraie histoire ; Strahd est devenu l’un des grands méchants de D&D.",
+   "id": "t022-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel module d’initiation de 1979 propose aux débutants d’explorer les Cavernes du Chaos ?",
+   "choix": [
+    "Keep on the Borderlands",
+    "Village of Hommlet",
+    "Isle of Dread",
+    "Castle Amber"
+   ],
+   "rep": 0,
+   "src": "David « Zeb » Cook et Tom Moldvay, The Isle of Dread (TSR, 1981)",
+   "expl": "Fourni avec la boîte de base, il a été joué par des générations de débutants.",
+   "id": "t022-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel module de 1981 se déroule sur une île peuplée de dinosaures ?",
+   "choix": [
+    "Isle of Dread",
+    "Tomb of Horrors",
+    "Castle Amber",
+    "Ravenloft"
+   ],
+   "rep": 0,
+   "src": "David C. Sutherland III et Gary Gygax, Queen of the Demonweb Pits (TSR, 1980)",
+   "expl": "Fourni avec la boîte Expert, il présente aussi le monde connu de Mystara.",
+   "id": "t022-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel module de 1980 conclut la saga des géants et des drows dans le domaine de Lolth ?",
+   "choix": [
+    "Queen of the Demonweb Pits",
+    "Vault of the Drow",
+    "Against the Giants",
+    "White Plume Mountain"
+   ],
+   "rep": 0,
+   "src": "Gen Con, historique officiel",
+   "expl": "Les héros y poursuivent la Reine-Araignée jusque dans l’Abysse.",
+   "id": "t022-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville se tient la convention Gen Con depuis 2003 ?",
+   "choix": [
+    "Indianapolis",
+    "Lake Geneva",
+    "Milwaukee",
+    "Chicago"
+   ],
+   "rep": 0,
+   "src": "Dragon n° 1 (TSR, juin 1976)",
+   "expl": "Née à Lake Geneva en 1968, elle est devenue l’une des plus grandes conventions de jeux au monde.",
+   "id": "t022-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel magazine officiel TSR lance-t-elle en 1976 ?",
+   "choix": [
+    "Dragon",
+    "Dungeon",
+    "White Dwarf",
+    "Casus Belli"
+   ],
+   "rep": 0,
+   "src": "Dragon n° 1 (TSR, juin 1976)",
+   "expl": "White Dwarf est le magazine de Games Workshop (1977) ; Dungeon, celui des scénarios (1986).",
+   "id": "t022-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel magazine précède Dragon chez TSR ?",
+   "choix": [
+    "The Strategic Review",
+    "White Dwarf",
+    "Dungeon",
+    "Polyhedron"
+   ],
+   "rep": 0,
+   "src": "The New York Times, « Gary Gygax, Game Pioneer, Dies at 69 » (5 mars 2008)",
+   "expl": "Lancée en 1975, The Strategic Review est remplacée l’année suivante par Dragon.",
+   "id": "t022-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quelle année meurt Gary Gygax ?",
+   "choix": [
+    "2008",
+    "1999",
+    "2014",
+    "2001"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (Evil Hat, 2014)",
+   "expl": "Il meurt le 4 mars 2008 ; Dave Arneson s’éteint l’année suivante.",
+   "id": "t022-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui prend le contrôle de TSR en 1985 et écarte Gygax ?",
+   "choix": [
+    "Lorraine Williams",
+    "Brian Blume",
+    "Kevin Blume",
+    "Peter Adkison"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, entretiens ; Player’s Handbook 5e (2014), noms de sorts",
+   "expl": "Peter Adkison est le fondateur de Wizards of the Coast, qui rachètera TSR en 1997.",
+   "id": "t022-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage de Gary Gygax a donné son nom à de nombreux sorts ?",
+   "choix": [
+    "Mordenkainen",
+    "Tenser",
+    "Robilar",
+    "Melf"
+   ],
+   "rep": 0,
+   "src": "Critical Role (2015) ; Explorer’s Guide to Wildemount (2020)",
+   "expl": "Tenser était joué par son fils Ernie, Melf par son fils Luke, Robilar par Rob Kuntz.",
+   "id": "t022-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle émission a popularisé, à partir de 2015, les parties de D&D diffusées en direct ?",
+   "choix": [
+    "Critical Role",
+    "Dimension 20",
+    "HarmonQuest",
+    "Acquisitions Incorporated"
+   ],
+   "rep": 0,
+   "src": "Critical Role (2015) ; Explorer’s Guide to Wildemount (2020)",
+   "expl": "Des comédiens de doublage y jouent chaque semaine, devant des millions de spectateurs.",
+   "id": "t022-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le monde de Critical Role ?",
+   "choix": [
+    "Exandria",
+    "Toril",
+    "Golarion",
+    "Eberron"
+   ],
+   "rep": 0,
+   "src": "Wizards of the Coast, communiqué sur D&D Beyond (2022)",
+   "expl": "Matthew Mercer l’a créé ; il est devenu un décor officiel de D&D avec Wildemount (2020).",
+   "id": "t022-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel outil numérique Wizards of the Coast rachète-t-il en 2022 ?",
+   "choix": [
+    "D&D Beyond",
+    "Roll20",
+    "Foundry VTT",
+    "Fantasy Grounds"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "D&D Beyond propose fiches de personnage et livres numériques ; il appartenait à Fandom.",
+   "id": "t022-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quelle année paraît la révision du Manuel des Joueurs de la 5e édition ?",
+   "choix": [
+    "2024",
+    "2022",
+    "2020",
+    "2026"
+   ],
+   "rep": 0,
+   "src": "Advanced Dungeons & Dragons 2nd Edition Player’s Handbook (TSR, 1989)",
+   "expl": "Elle célèbre aussi les 50 ans du jeu, sans être présentée comme une 6e édition.",
+   "id": "t022-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui dirige la conception de la 2e édition d’AD&D (1989) ?",
+   "choix": [
+    "David « Zeb » Cook",
+    "Gary Gygax",
+    "Frank Mentzer",
+    "Jonathan Tweet"
+   ],
+   "rep": 0,
+   "src": "Advanced Dungeons & Dragons 2nd Edition Player’s Handbook (TSR, 1989)",
+   "expl": "Gygax a quitté TSR ; la 2e édition clarifie les règles et retire les éléments jugés sulfureux.",
+   "id": "t022-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles classes la 2e édition d’AD&D retire-t-elle du Manuel des Joueurs ?",
+   "choix": [
+    "L’assassin et le moine",
+    "Le barde et le druide",
+    "Le paladin et le rôdeur",
+    "Le clerc et le voleur"
+   ],
+   "rep": 0,
+   "src": "Advanced Dungeons & Dragons 2nd Edition Player’s Handbook (TSR, 1989)",
+   "expl": "L’assassin choquait en pleine panique morale ; les deux reviendront dans des suppléments ou éditions suivantes.",
+   "id": "t022-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment la 2e édition d’AD&D renomme-t-elle démons et diables ?",
+   "choix": [
+    "Tanar’ri et baatezu",
+    "Slaadis et modrons",
+    "Obyriths et yugoloths",
+    "Archons et guardinals"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 4e (2008)",
+   "expl": "Les mots « démon » et « diable » disparaissent pour apaiser les critiques ; la 3e les rétablit.",
+   "id": "t022-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle édition (2008) donne à toutes les classes des pouvoirs à volonté, de rencontre et quotidiens ?",
+   "choix": [
+    "La 4e",
+    "La 3e",
+    "La 5e",
+    "La 2e"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, The Village of Hommlet (TSR, 1979)",
+   "expl": "Inspirée des jeux tactiques, elle divise les joueurs et inspire, en réaction, le succès de Pathfinder.",
+   "id": "t022-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel module de 1979 présente une petite communauté paisible, menacée par un sanctuaire maléfique tout proche ?",
+   "choix": [
+    "The Village of Hommlet",
+    "Tomb of Horrors",
+    "Ravenloft",
+    "Castle Amber"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Frank Mentzer, The Temple of Elemental Evil (TSR, 1985)",
+   "expl": "Il prépare The Temple of Elemental Evil, que Gygax et Frank Mentzer achèveront en 1985.",
+   "id": "t022-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mégadonjon de 1985, signé Gygax et Mentzer, oppose les héros à des cultes de l’air, de l’eau, du feu et de la terre ?",
+   "choix": [
+    "The Temple of Elemental Evil",
+    "Village of Hommlet",
+    "Against the Giants",
+    "Isle of Dread"
+   ],
+   "rep": 0,
+   "src": "James M. Ward et Robert J. Kuntz, Deities & Demigods (TSR, 1980)",
+   "expl": "Ce mégadonjon a été adapté en jeu vidéo en 2003.",
+   "id": "t022-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quels univers ont disparu des rééditions de Deities & Demigods pour des raisons de droits ?",
+   "choix": [
+    "Le Mythe de Cthulhu et Melniboné",
+    "La Grèce et l’Égypte",
+    "Les Nordiques et les Celtes",
+    "L’Inde et la Chine"
+   ],
+   "rep": 0,
+   "src": "SSI, Pool of Radiance (1988)",
+   "expl": "Ces deux univers appartenaient à d’autres éditeurs ; les premiers tirages sont recherchés des collectionneurs.",
+   "id": "t022-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu vidéo de 1988 inaugure la série « Gold Box » de SSI ?",
+   "choix": [
+    "Pool of Radiance",
+    "Eye of the Beholder",
+    "Baldur’s Gate",
+    "Ultima"
+   ],
+   "rep": 0,
+   "src": "Grog (Guide du rôliste galactique), fiche « Donjons & Dragons – boîte rouge »",
+   "expl": "Il se déroule à Phlan, dans les Royaumes Oubliés, et adapte fidèlement les règles d’AD&D.",
+   "id": "t022-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel éditeur publie en 1983 la traduction française de la boîte de base de D&D ?",
+   "choix": [
+    "Transecom",
+    "Hexagonal",
+    "Jeux Descartes",
+    "Black Book Éditions"
+   ],
+   "rep": 0,
+   "src": "Grog (Guide du rôliste galactique), fiche « Donjons & Dragons – boîte rouge »",
+   "expl": "La boîte rouge en français fait découvrir le jeu à toute une génération de rôlistes.",
+   "id": "t022-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Donjons & Dragons est généralement considéré comme le premier jeu de rôle commercial.",
+   "rep": true,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Vrai : publié en 1974, il fonde un nouveau loisir, même si des expériences comme Braunstein l’avaient précédé.",
+   "id": "t022-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La première boîte de D&D, en 1974, était illustrée par Larry Elmore.",
+   "rep": false,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Faux : Elmore peint la boîte rouge de 1983 ; les livrets de 1974 étaient illustrés de dessins amateurs.",
+   "id": "t022-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Gary Gygax a fondé le rassemblement de joueurs Gen Con.",
+   "rep": true,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Vrai : il l’organise dès 1968 à Lake Geneva, avant même la création de D&D.",
+   "id": "t022-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Wizards of the Coast a créé Donjons & Dragons.",
+   "rep": false,
+   "src": "Michael Reaves, « Requiem » (script, 1985)",
+   "expl": "Faux : Wizards a racheté TSR, le premier éditeur, en 1997.",
+   "id": "t022-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "L’épisode final prévu du dessin animé Le Sourire du dragon, « Requiem », n’a jamais été animé.",
+   "rep": true,
+   "src": "Rotten Tomatoes, Dungeons & Dragons (2000)",
+   "expl": "Vrai : la série s’arrête avant ; le script de Michael Reaves a ensuite été lu en version audio.",
+   "id": "t022-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le film Donjons & Dragons de 2000 a été un grand succès critique.",
+   "rep": false,
+   "src": "Joseph P. Laycock, Dangerous Games (University of California Press, 2015)",
+   "expl": "Faux : malgré Jeremy Irons, il a été très mal reçu ; L’Honneur des voleurs (2023) a eu bien plus de succès.",
+   "id": "t022-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans les années 1980, des groupes accusaient D&D de pousser au satanisme.",
+   "rep": true,
+   "src": "Joseph P. Laycock, Dangerous Games (University of California Press, 2015)",
+   "expl": "Vrai : c’est la « panique satanique » ; aucune étude sérieuse n’a jamais confirmé ces accusations.",
+   "id": "t022-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La 3e édition de D&D a été publiée par TSR.",
+   "rep": false,
+   "src": "Shannon Appelcline, Designers & Dragons (2014)",
+   "expl": "Faux : elle paraît en 2000 chez Wizards of the Coast, qui a racheté TSR en 1997.",
+   "id": "t022-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Pathfinder doit une partie de son succès aux joueurs qui refusaient de passer à la 4e édition.",
+   "rep": true,
+   "src": "Shannon Appelcline, Designers & Dragons (2014)",
+   "expl": "Vrai : en prolongeant la 3.5 dès 2009, Paizo a dépassé un temps les ventes de D&D.",
+   "id": "t022-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "En 2023, Wizards of the Coast a retiré le SRD 5.1 de toute licence libre.",
+   "rep": false,
+   "src": "Gary Gygax, Tomb of Horrors (1978)",
+   "expl": "Faux : après la polémique sur l’OGL, il l’a au contraire placé sous licence Creative Commons.",
+   "id": "t022-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Tomb of Horrors a d’abord servi de scénario de tournoi.",
+   "rep": true,
+   "src": "Gary Gygax, Tomb of Horrors (1978)",
+   "expl": "Vrai : Gygax l’a créé pour la convention Origins de 1975, avant de le publier en 1978.",
+   "id": "t022-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le module Ravenloft (1983) a été écrit par Gary Gygax.",
+   "rep": false,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Faux : il est l’œuvre de Tracy et Laura Hickman.",
+   "id": "t022-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "On attribue à Dave Arneson et à sa campagne Blackmoor l’idée des aventures en souterrain.",
+   "rep": true,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Vrai : ses joueurs exploraient les sous-sols du château de Blackmoor dès 1971.",
+   "id": "t022-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le premier tirage de D&D comptait un million d’exemplaires.",
+   "rep": false,
+   "src": "Netflix, Stranger Things, saison 4 (2022)",
+   "expl": "Faux : il ne comptait que 1 000 exemplaires, assemblés à la main.",
+   "id": "t022-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans Stranger Things, Vecna est le grand méchant de la quatrième saison.",
+   "rep": true,
+   "src": "Netflix, Stranger Things, saison 4 (2022)",
+   "expl": "Vrai : les héros le nomment d’après la liche de D&D, ce qui a ravivé l’intérêt pour ce personnage.",
+   "id": "t022-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Critical Role a commencé en 2010.",
+   "rep": false,
+   "src": "Wizards of the Coast, 50e anniversaire (2024)",
+   "expl": "Faux : la première diffusion date du 12 mars 2015.",
+   "id": "t022-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Donjons & Dragons a fêté ses 50 ans en 2024.",
+   "rep": true,
+   "src": "Wizards of the Coast, 50e anniversaire (2024)",
+   "expl": "Vrai : 1974-2024 ; l’anniversaire a coïncidé avec la révision des livres de base.",
+   "id": "t022-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Hasbro a revendu Wizards of the Coast en 2015.",
+   "rep": false,
+   "src": "TSR (1977-1978)",
+   "expl": "Faux : Wizards of the Coast, et donc D&D, appartient toujours à Hasbro.",
+   "id": "t022-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Monster Manual d’AD&D est paru avant le Players Handbook.",
+   "rep": true,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Vrai : le Monster Manual sort en 1977, le Players Handbook en 1978, le Dungeon Masters Guide en 1979.",
+   "id": "t022-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Gygax et Arneson sont restés associés sans aucun conflit jusqu’à la fin de leur vie.",
+   "rep": false,
+   "src": "Gygax et Perren, Chainmail (Guidon Games, 1971)",
+   "expl": "Faux : Arneson a poursuivi TSR en justice pour ses droits d’auteur ; un accord a été trouvé en 1981.",
+   "id": "t022-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Chainmail, le jeu de figurines dont D&D est issu ?",
+   "rep": 1971,
+   "min": 1960,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "TSR, Dungeons & Dragons (1974)",
+   "expl": "Coécrit avec Jeff Perren, il contient un supplément fantastique avec elfes, dragons et sorciers.",
+   "id": "t022-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "En quelle année paraît Donjons & Dragons ?",
+   "rep": 1974,
+   "min": 1960,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Gen Con, historique officiel",
+   "expl": "La boîte paraît en janvier 1974 ; D&D a fêté ses 50 ans en 2024.",
+   "id": "t022-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Gygax fonde-t-il la convention Gen Con ?",
+   "rep": 1968,
+   "min": 1950,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "La première édition se tient à Lake Geneva et réunit une centaine de passionnés de wargames.",
+   "id": "t022-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’exemplaires compte le premier tirage de D&D ?",
+   "rep": 1000,
+   "min": 100,
+   "max": 10000,
+   "pas": 100,
+   "unite": "exemplaires",
+   "tolerance": 0,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Ce premier tirage est épuisé en moins d’un an ; il est aujourd’hui très recherché.",
+   "id": "t022-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien coûtait la boîte originale de D&D en 1974 ?",
+   "rep": 10,
+   "min": 1,
+   "max": 50,
+   "pas": 1,
+   "unite": "dollars",
+   "tolerance": 0,
+   "src": "Marvel Productions, Dungeons & Dragons (CBS, 1983-1985)",
+   "expl": "Dix dollars, un prix élevé à l’époque pour trois livrets agrafés.",
+   "id": "t022-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’épisodes compte le dessin animé Le Sourire du dragon ?",
+   "rep": 27,
+   "min": 10,
+   "max": 60,
+   "pas": 1,
+   "unite": "épisodes",
+   "tolerance": 0,
+   "src": "Wizards of the Coast, communiqué (1997)",
+   "expl": "Trois saisons de 1983 à 1985, sans épisode final.",
+   "id": "t022-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Wizards of the Coast rachète-t-elle TSR ?",
+   "rep": 1997,
+   "min": 1985,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Player’s Handbook 3e (2000)",
+   "expl": "TSR croulait sous les dettes ; Wizards déménage la production à Seattle.",
+   "id": "t022-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît la 3e édition de D&D ?",
+   "rep": 2000,
+   "min": 1990,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Advanced Dungeons & Dragons 2nd Edition (TSR, 1989)",
+   "expl": "Elle introduit le d20 System et l’Open Game License.",
+   "id": "t022-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît la 2e édition d’AD&D ?",
+   "rep": 1989,
+   "min": 1980,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Advanced Dungeons & Dragons 2nd Edition (TSR, 1989)",
+   "expl": "Elle restera la règle de référence pendant toute la décennie 1990.",
+   "id": "t022-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Gary Gygax fonde TSR en 1973 avec son ami Don ____.",
+   "choix": [
+    "Kaye",
+    "Arneson",
+    "Kuntz",
+    "Blume"
+   ],
+   "rep": 0,
+   "src": "Gygax et Perren, Chainmail (1971)",
+   "expl": "Don Kaye meurt en 1975 ; Brian Blume devient alors l’associé principal de Gygax.",
+   "id": "t022-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Avant D&D, Gygax coécrit avec Jeff Perren le jeu de figurines ____.",
+   "choix": [
+    "Chainmail",
+    "Warhammer",
+    "Braunstein",
+    "Swordplay"
+   ],
+   "rep": 0,
+   "src": "Basic Set (TSR, 1983)",
+   "expl": "Les combats des premiers D&D renvoyaient d’ailleurs aux règles de Chainmail.",
+   "id": "t022-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La boîte rouge de 1983 est rédigée par Frank ____.",
+   "choix": [
+    "Mentzer",
+    "Moldvay",
+    "Holmes",
+    "Miller"
+   ],
+   "rep": 0,
+   "src": "Marvel Productions, Dungeons & Dragons (1983-1985)",
+   "expl": "Mentzer écrit ensuite les boîtes Expert, Companion, Master et Immortals.",
+   "id": "t022-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "En France, le dessin animé D&D de 1983 s’intitule Le ____ du dragon.",
+   "choix": [
+    "Sourire",
+    "Souffle",
+    "Secret",
+    "Signe"
+   ],
+   "rep": 0,
+   "src": "Rona Jaffe, Mazes and Monsters (1981)",
+   "expl": "Six enfants y sont transportés dans un monde magique par un manège d’attractions.",
+   "id": "t022-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le roman Mazes and ____ inspire en 1982 un téléfilm alarmiste sur le jeu de rôle.",
+   "choix": [
+    "Monsters",
+    "Mysteries",
+    "Magic",
+    "Mayhem"
+   ],
+   "rep": 0,
+   "src": "James M. Ward, entretiens ; Player’s Handbook (1978)",
+   "expl": "Le roman s’inspire librement de la disparition d’un étudiant, faussement attribuée à D&D par la presse.",
+   "id": "t022-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le magicien Drawmij doit son nom au concepteur James ____, écrit à l’envers.",
+   "choix": [
+    "Ward",
+    "Wadsworth",
+    "Warden",
+    "Wolfe"
+   ],
+   "rep": 0,
+   "src": "Amazon Prime Video, The Legend of Vox Machina (2022)",
+   "expl": "Drawmij est « Jim Ward » à l’envers ; il donne son nom au sort Instant summons (Convocation instantanée).",
+   "id": "t022-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La série animée The Legend of ____ Machina adapte la première campagne de Critical Role.",
+   "choix": [
+    "Vox",
+    "Mox",
+    "Rex",
+    "Lux"
+   ],
+   "rep": 0,
+   "src": "Gen Con, historique officiel",
+   "expl": "Financée d’abord par les fans sur Kickstarter, la série a été reprise par Amazon.",
+   "id": "t022-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Gen Con est fondée en 1968 à Lake ____, dans le Wisconsin.",
+   "choix": [
+    "Geneva",
+    "Michigan",
+    "Superior",
+    "Tahoe"
+   ],
+   "rep": 0,
+   "src": "D&D Next playtest (2012-2014)",
+   "expl": "TSR y naît aussi : la petite ville est le berceau du jeu de rôle.",
+   "id": "t022-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Avant la 5e édition, Wizards organise un vaste playtest public appelé D&D ____.",
+   "choix": [
+    "Next",
+    "Nova",
+    "Neo",
+    "Prime"
+   ],
+   "rep": 0,
+   "src": "John Lang (Pen of Chaos), Le Donjon de Naheulbeuk (2001)",
+   "expl": "Des dizaines de milliers de joueurs y testent les règles pendant deux ans.",
+   "id": "t022-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le Donjon de ____ est une saga audio française parodiant les jeux de rôle.",
+   "choix": [
+    "Naheulbeuk",
+    "Mordor",
+    "Montprofond",
+    "Barovie"
+   ],
+   "rep": 0,
+   "src": "Joseph P. Laycock, Dangerous Games (2015)",
+   "expl": "Créée par John Lang en 2001, elle a donné des romans, des bandes dessinées et un jeu vidéo.",
+   "id": "t022-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’association BADD, hostile à D&D, est fondée en 1983 par Patricia ____.",
+   "choix": [
+    "Pulling",
+    "Pullman",
+    "Palmer",
+    "Parker"
+   ],
+   "rep": 0,
+   "src": "Tracy et Laura Hickman, Ravenloft (1983)",
+   "expl": "Après le suicide de son fils, elle accuse le jeu ; ses affirmations seront largement démenties.",
+   "id": "t022-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le module Ravenloft présente le vampire Strahd von ____.",
+   "choix": [
+    "Zarovich",
+    "Dracul",
+    "Carstein",
+    "Lahm"
+   ],
+   "rep": 0,
+   "src": "Netflix, Stranger Things (2016)",
+   "expl": "Strahd revient en 2016 dans Curse of Strahd, l’une des aventures les plus appréciées de la 5e.",
+   "id": "t022-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Stranger Things, les héros jouent à D&D à Hawkins, dans l’____.",
+   "choix": [
+    "Indiana",
+    "Ohio",
+    "Iowa",
+    "Illinois"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 3e (2000)",
+   "expl": "La série se déroule dans les années 1980, en pleine popularité du jeu… et de la panique morale.",
+   "id": "t022-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les concepteurs de la 3e édition créent le ____ System, base de nombreux jeux.",
+   "choix": [
+    "d20",
+    "d10",
+    "d6",
+    "d100"
+   ],
+   "rep": 0,
+   "src": "Paizo, Pathfinder (2009)",
+   "expl": "Grâce à l’Open Game License, des centaines de produits compatibles voient le jour.",
+   "id": "t022-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monde de Pathfinder s’appelle ____.",
+   "choix": [
+    "Golarion",
+    "Exandria",
+    "Oerth",
+    "Mystara"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2014)",
+   "expl": "Oerth est le monde de Greyhawk, Mystara celui des boîtes Basic, Exandria celui de Critical Role.",
+   "id": "t022-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms n’est pas lié aux débuts de TSR ?",
+   "choix": [
+    "Peter Adkison",
+    "Gary Gygax",
+    "Don Kaye",
+    "Brian Blume"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2014)",
+   "expl": "Peter Adkison a fondé Wizards of the Coast en 1990.",
+   "id": "t022-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces modules n’a pas été publié par TSR ?",
+   "choix": [
+    "Curse of Strahd",
+    "Tomb of Horrors",
+    "Isle of Dread",
+    "Ravenloft"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2014)",
+   "expl": "Curse of Strahd paraît en 2016 chez Wizards of the Coast.",
+   "id": "t022-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces éditions n’est pas parue chez Wizards of the Coast ?",
+   "choix": [
+    "AD&D 2e",
+    "3e",
+    "4e",
+    "5e"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2014)",
+   "expl": "La 2e édition d’AD&D (1989) est une édition TSR.",
+   "id": "t022-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces décors n’a pas été publié par TSR ?",
+   "choix": [
+    "Eberron",
+    "Dark Sun",
+    "Planescape",
+    "Spelljammer"
+   ],
+   "rep": 0,
+   "src": "Marvel Productions, Dungeons & Dragons (1983-1985)",
+   "expl": "Eberron naît en 2004 d’un concours organisé par Wizards of the Coast.",
+   "id": "t022-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’apparaît pas dans le dessin animé de 1983 ?",
+   "choix": [
+    "Drizzt",
+    "Hank le rôdeur",
+    "Presto le magicien",
+    "Uni la licorne"
+   ],
+   "rep": 0,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Drizzt n’apparaît qu’en 1988 dans les romans de R. A. Salvatore.",
+   "id": "t022-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas paru en 1974-1975 ?",
+   "choix": [
+    "Vampire : la Mascarade",
+    "Donjons & Dragons",
+    "Tunnels & Trolls",
+    "Empire of the Petal Throne"
+   ],
+   "rep": 0,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Vampire date de 1991 ; Empire of the Petal Throne (1975) décrit le monde de Tékumel.",
+   "id": "t022-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces titres ne faisait pas partie de la boîte de 1974 ?",
+   "choix": [
+    "Chainmail",
+    "Men & Magic",
+    "Monsters & Treasure",
+    "The Underworld & Wilderness Adventures"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 11",
+   "expl": "Chainmail était un jeu séparé, mais la boîte renvoyait à ses règles de combat.",
+   "id": "t022-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sorts ne porte pas le nom d’un personnage des premières campagnes ?",
+   "choix": [
+    "Boule de feu",
+    "Main de Bigby",
+    "Disque flottant de Tenser",
+    "Coffre secret de Léomund"
+   ],
+   "rep": 0,
+   "src": "Riot Games et Fortiche, Arcane (2021)",
+   "expl": "Bigby, Tenser et Léomund étaient des personnages des premières campagnes de Greyhawk.",
+   "id": "t022-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces œuvres n’est pas liée à D&D ?",
+   "choix": [
+    "Arcane",
+    "Critical Role",
+    "Dimension 20",
+    "The Legend of Vox Machina"
+   ],
+   "rep": 0,
+   "src": "Catalogues TSR et Wizards of the Coast",
+   "expl": "Arcane adapte l’univers du jeu vidéo League of Legends.",
+   "id": "t022-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a dirigé aucune édition de D&D ?",
+   "choix": [
+    "R. A. Salvatore",
+    "David « Zeb » Cook",
+    "Jonathan Tweet",
+    "Mike Mearls"
+   ],
+   "rep": 0,
+   "src": "TSR, Dungeons & Dragons (1974)",
+   "expl": "Salvatore est romancier, créateur de Drizzt ; les trois autres ont dirigé des éditions.",
+   "id": "t022-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels livrets formaient la boîte originale de 1974 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Men & Magic",
+    "Monsters & Treasure",
+    "The Underworld & Wilderness Adventures",
+    "Chainmail",
+    "Deities & Demigods"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Catalogues TSR",
+   "expl": "Deities & Demigods ne paraît qu’en 1980, pour AD&D.",
+   "id": "t022-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels décors ont été publiés par TSR ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Greyhawk",
+    "Dragonlance",
+    "Dark Sun",
+    "Eberron",
+    "Ravnica"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Marvel Productions, Dungeons & Dragons (1983-1985)",
+   "expl": "Ravnica vient de Magic: The Gathering, adapté par Wizards en 2018.",
+   "id": "t022-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels personnages du dessin animé sont des enfants transportés dans le royaume ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hank",
+    "Sheila",
+    "Presto",
+    "Venger",
+    "Tiamat"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Catalogues Wizards of the Coast",
+   "expl": "Venger et Tiamat sont leurs ennemis ; le Maître du donjon les guide de ses énigmes.",
+   "id": "t022-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles éditions sont parues chez Wizards of the Coast ? (plusieurs bonnes réponses)",
+   "choix": [
+    "3e",
+    "4e",
+    "5e",
+    "AD&D 1re édition",
+    "AD&D 2e"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Catalogues Wizards of the Coast",
+   "expl": "Les éditions d’AD&D sont des éditions TSR.",
+   "id": "t022-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels modules sont parus chez TSR avant 1985 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tomb of Horrors",
+    "Ravenloft",
+    "Isle of Dread",
+    "Curse of Strahd",
+    "Tomb of Annihilation"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 11",
+   "expl": "Curse of Strahd (2016) et Tomb of Annihilation (2017) sont des aventures de la 5e.",
+   "id": "t022-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sorts portent le nom de personnages des campagnes de Greyhawk ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Disque flottant de Tenser",
+    "Main de Bigby",
+    "Manoir somptueux de Mordenkainen",
+    "Boule de feu",
+    "Éclair"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Joseph P. Laycock, Dangerous Games (2015)",
+   "expl": "Ces noms rendent hommage aux premiers joueurs de Gygax et à leurs personnages.",
+   "id": "t022-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres ont nourri la panique morale contre D&D ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mazes and Monsters",
+    "Dark Dungeons",
+    "Stranger Things",
+    "Critical Role"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Player’s Handbook 3e (2000)",
+   "expl": "Dark Dungeons est une brochure religieuse de Jack Chick (1984) qui dépeint D&D comme une initiation occulte.",
+   "id": "t022-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Qui a dirigé la conception de la 3e édition ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jonathan Tweet",
+    "Monte Cook",
+    "Skip Williams",
+    "Mike Mearls",
+    "Frank Mentzer"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Critical Role ; Dimension 20 ; Acquisitions Incorporated",
+   "expl": "Mearls dirigera la 5e, Mentzer avait écrit la boîte rouge.",
+   "id": "t022-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles émissions montrent de vraies parties de jeu de rôle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Critical Role",
+    "Dimension 20",
+    "Acquisitions Incorporated",
+    "Stranger Things",
+    "Le Sourire du dragon"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Traveller (1977) ; RuneQuest (1978) ; Vampire (1991) ; Shadowrun (1989)",
+   "expl": "Stranger Things et Le Sourire du dragon sont des fictions scénarisées.",
+   "id": "t022-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux de rôle sont parus avant 1980 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Donjons & Dragons",
+    "Traveller",
+    "RuneQuest",
+    "Vampire : la Mascarade",
+    "Shadowrun"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "TSR (1977-1991)",
+   "expl": "Shadowrun paraît en 1989, Vampire en 1991.",
+   "id": "t022-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces boîtes de base de D&D par date de parution.",
+   "items": [
+    "Holmes",
+    "Moldvay",
+    "Mentzer (boîte rouge)",
+    "Rules Cyclopedia"
+   ],
+   "src": "TSR (1977-1991)",
+   "expl": "1977, 1981, 1983 et 1991 : quinze ans de « D&D Basic », à côté d’AD&D.",
+   "id": "t022-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Chainmail",
+    "Premier D&D",
+    "Rachat de TSR par Wizards",
+    "Rachat de Wizards par Hasbro"
+   ],
+   "src": "TSR (1978-1984)",
+   "expl": "1971, 1974, 1997 et 1999 : en un quart de siècle, D&D passe d’un garage du Wisconsin à un géant du jouet.",
+   "id": "t022-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces modules par date de parution.",
+   "items": [
+    "Tomb of Horrors",
+    "Isle of Dread",
+    "Ravenloft",
+    "Dragons of Despair"
+   ],
+   "src": "Wizards of the Coast (2018-2023)",
+   "expl": "1978, 1981, 1983 et 1984 ; Dragons of Despair ouvre la saga Dragonlance.",
+   "id": "t022-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces livres de décor de la 5e par date de parution.",
+   "items": [
+    "Guildmasters’ Guide to Ravnica",
+    "Eberron: Rising from the Last War",
+    "Strixhaven",
+    "Planescape: Adventures in the Multiverse"
+   ],
+   "src": "Critical Role (2015-2025)",
+   "expl": "2018, 2019, 2021 et 2023 : la 5e a multiplié les mondes, dont certains venus de Magic.",
+   "id": "t022-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces campagnes de Critical Role dans l’ordre.",
+   "items": [
+    "Vox Machina",
+    "Mighty Nein",
+    "Bells Hells"
+   ],
+   "src": "CBS (1983) ; New Line (2000) ; Amazon (2022) ; Paramount (2023)",
+   "expl": "Campagnes 1, 2 et 3 : de Tal’Dorei à Wildemount, puis à Marquet.",
+   "id": "t022-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces adaptations à l’écran par date.",
+   "items": [
+    "Le Sourire du dragon",
+    "Donjons & Dragons (film)",
+    "The Legend of Vox Machina",
+    "L’Honneur des voleurs"
+   ],
+   "src": "Michael Witwer, Empire of Imagination (2015)",
+   "expl": "1983, 2000, 2022 et 2023 : quarante ans d’adaptations, des dessins animés au cinéma.",
+   "id": "t022-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la carrière de Gygax dans l’ordre.",
+   "items": [
+    "Fondation de Gen Con",
+    "Fondation de TSR",
+    "Publication de D&D",
+    "Éviction de TSR"
+   ],
+   "src": "Wizards of the Coast (2000, 2022, 2023)",
+   "expl": "1968, 1973, 1974 et 1985 : écarté de TSR, Gygax continue ensuite à créer d’autres jeux.",
+   "id": "t022-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements juridiques et commerciaux par ordre chronologique.",
+   "items": [
+    "Open Game License",
+    "Rachat de D&D Beyond",
+    "SRD 5.1 en Creative Commons"
+   ],
+   "src": "Flying Buffalo (1975) ; GDW (1977) ; Chaosium (1978)",
+   "expl": "2000, 2022 et 2023 : la licence libre a connu une crise avant d’être consolidée.",
+   "id": "t022-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux de rôle par date de parution.",
+   "items": [
+    "Donjons & Dragons",
+    "Tunnels & Trolls",
+    "Traveller",
+    "RuneQuest"
+   ],
+   "src": "Gygax (1978) ; Sutherland et Gygax (1980)",
+   "expl": "1974, 1975, 1977 et 1978 : les premiers jeux de rôle naissent en quelques années.",
+   "id": "t022-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces modules dans l’ordre de la grande campagne des géants et des drows.",
+   "items": [
+    "Against the Giants",
+    "Descent into the Depths of the Earth",
+    "Vault of the Drow",
+    "Queen of the Demonweb Pits"
+   ],
+   "src": "Player’s Handbook (1989, 2000, 2008, 2014)",
+   "expl": "Des géants à Lolth : les héros remontent la piste d’un complot jusqu’à l’Abysse.",
+   "id": "t022-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque édition à son concepteur principal.",
+   "paires": [
+    [
+     "AD&D 2e",
+     "David « Zeb » Cook"
+    ],
+    [
+     "3e",
+     "Jonathan Tweet"
+    ],
+    [
+     "4e",
+     "Rob Heinsoo"
+    ],
+    [
+     "5e",
+     "Mike Mearls et Jeremy Crawford"
+    ]
+   ],
+   "src": "TSR (1977-1983)",
+   "expl": "Chaque édition reflète la vision de son équipe et de son époque.",
+   "id": "t022-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque boîte de base à son auteur.",
+   "paires": [
+    [
+     "Boîte de 1977",
+     "J. Eric Holmes"
+    ],
+    [
+     "Boîte de 1981",
+     "Tom Moldvay"
+    ],
+    [
+     "Boîte rouge de 1983",
+     "Frank Mentzer"
+    ]
+   ],
+   "src": "Catalogues TSR et Wizards of the Coast",
+   "expl": "Holmes était un neurologue passionné ; Moldvay et Mentzer travaillaient chez TSR.",
+   "id": "t022-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque décor à son créateur.",
+   "paires": [
+    [
+     "Greyhawk",
+     "Gary Gygax"
+    ],
+    [
+     "Blackmoor",
+     "Dave Arneson"
+    ],
+    [
+     "Dragonlance",
+     "Weis et Hickman"
+    ],
+    [
+     "Eberron",
+     "Keith Baker"
+    ]
+   ],
+   "src": "TSR (1978-1983)",
+   "expl": "Blackmoor et Greyhawk sont nés des parties personnelles des deux fondateurs.",
+   "id": "t022-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque module à son auteur.",
+   "paires": [
+    [
+     "Tomb of Horrors",
+     "Gary Gygax"
+    ],
+    [
+     "Ravenloft",
+     "Tracy et Laura Hickman"
+    ],
+    [
+     "White Plume Mountain",
+     "Lawrence Schick"
+    ],
+    [
+     "Isle of Dread",
+     "Cook et Moldvay"
+    ]
+   ],
+   "src": "Gary Gygax, entretiens",
+   "expl": "Ces modules sont tous revenus en 5e, dans des recueils ou des adaptations.",
+   "id": "t022-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage de Greyhawk à son joueur.",
+   "paires": [
+    [
+     "Mordenkainen",
+     "Gary Gygax"
+    ],
+    [
+     "Robilar",
+     "Rob Kuntz"
+    ],
+    [
+     "Tenser",
+     "Ernie Gygax"
+    ],
+    [
+     "Melf",
+     "Luke Gygax"
+    ]
+   ],
+   "src": "Marvel Productions, Dungeons & Dragons (1983-1985)",
+   "expl": "Les fils de Gygax faisaient partie de ses premiers joueurs.",
+   "id": "t022-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage du dessin animé à sa classe.",
+   "paires": [
+    [
+     "Hank",
+     "Rôdeur"
+    ],
+    [
+     "Presto",
+     "Magicien"
+    ],
+    [
+     "Sheila",
+     "Voleuse"
+    ],
+    [
+     "Bobby",
+     "Barbare"
+    ],
+    [
+     "Diana",
+     "Acrobate"
+    ]
+   ],
+   "src": "Critical Role (2015-2025)",
+   "expl": "Le sixième enfant, Eric, est un cavalier ; Uni est la licorne de Bobby.",
+   "id": "t022-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque campagne de Critical Role à son groupe.",
+   "paires": [
+    [
+     "Campagne 1",
+     "Vox Machina"
+    ],
+    [
+     "Campagne 2",
+     "Mighty Nein"
+    ],
+    [
+     "Campagne 3",
+     "Bells Hells"
+    ]
+   ],
+   "src": "Shannon Appelcline, Designers & Dragons (2014)",
+   "expl": "Les trois campagnes se déroulent à des époques différentes d’Exandria.",
+   "id": "t022-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque entreprise à son rôle.",
+   "paires": [
+    [
+     "TSR",
+     "Premier éditeur de D&D"
+    ],
+    [
+     "Wizards of the Coast",
+     "Éditeur depuis 1997"
+    ],
+    [
+     "Hasbro",
+     "Propriétaire depuis 1999"
+    ],
+    [
+     "Paizo",
+     "Éditeur de Pathfinder"
+    ]
+   ],
+   "src": "TSR (1978-1983)",
+   "expl": "Paizo a d’abord publié les magazines Dragon et Dungeon sous licence (2002-2007).",
+   "id": "t022-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque illustrateur à sa couverture.",
+   "paires": [
+    [
+     "Larry Elmore",
+     "Boîte rouge (1983)"
+    ],
+    [
+     "Erol Otus",
+     "Boîte de Moldvay (1981)"
+    ],
+    [
+     "David C. Trampier",
+     "Players Handbook (1978)"
+    ]
+   ],
+   "src": "Netflix, Stranger Things (2016-2025)",
+   "expl": "La couverture de Trampier montre des voleurs arrachant les yeux-joyaux d’une immense idole démoniaque.",
+   "id": "t022-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque monstre de D&D à la saison de Stranger Things où il apparaît.",
+   "paires": [
+    [
+     "Démogorgon",
+     "Saison 1"
+    ],
+    [
+     "Flagelleur mental",
+     "Saisons 2 et 3"
+    ],
+    [
+     "Vecna",
+     "Saison 4"
+    ]
+   ],
+   "src": "Michael Witwer, Empire of Imagination (2015)",
+   "expl": "Les héros donnent à chaque menace le nom d’un monstre de leur Manuel des Monstres.",
+   "id": "t022-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis né en 1938\n2. J’ai fondé Gen Con\n3. J’ai cosigné Donjons & Dragons",
+   "choix": [
+    "Gary Gygax",
+    "Dave Arneson",
+    "Ed Greenwood",
+    "Frank Mentzer"
+   ],
+   "rep": 0,
+   "src": "Jon Peterson, Playing at the World (2012)",
+   "expl": "Gygax était cordonnier et agent d’assurances avant de vivre du jeu.",
+   "id": "t022-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je menais la campagne de Blackmoor\n2. J’ai imaginé l’exploration de souterrains\n3. J’ai cosigné Donjons & Dragons",
+   "choix": [
+    "Dave Arneson",
+    "Gary Gygax",
+    "Rob Kuntz",
+    "Jeff Perren"
+   ],
+   "rep": 0,
+   "src": "Marvel Productions (1983-1985)",
+   "expl": "Arneson venait des wargames napoléoniens et du jeu Braunstein de David Wesely.",
+   "id": "t022-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dessin animé\n2. On me diffuse dès 1983\n3. Six enfants s’y perdent dans un royaume magique",
+   "choix": [
+    "Le Sourire du dragon",
+    "Les Maîtres de l’univers",
+    "Les Mystérieuses Cités d’or",
+    "Les Bisounours"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, Tomb of Horrors (1978)",
+   "expl": "Il a fait découvrir D&D à beaucoup d’enfants européens dans les années 1980.",
+   "id": "t022-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une crypte\n2. On m’a conçu pour punir les joueurs trop confiants\n3. La liche Acererak m’habite",
+   "choix": [
+    "Tomb of Horrors",
+    "Ravenloft",
+    "White Plume Mountain",
+    "Castle Amber"
+   ],
+   "rep": 0,
+   "src": "Tracy et Laura Hickman, Ravenloft (1983)",
+   "expl": "Ses pièges mortels, comme la bouche du démon vert, sont devenus légendaires.",
+   "id": "t022-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un vampire\n2. Les Hickman m’ont créé\n3. Je règne sur la Barovie",
+   "choix": [
+    "Strahd von Zarovich",
+    "Acererak",
+    "Vecna",
+    "Kas"
+   ],
+   "rep": 0,
+   "src": "Basic Set (TSR, 1983)",
+   "expl": "Strahd a conclu un pacte avec des puissances obscures pour obtenir l’amour de Tatyana.",
+   "id": "t022-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une boîte de jeu\n2. Je suis rouge\n3. Un dragon peint par Elmore orne ma couverture",
+   "choix": [
+    "La boîte de base de Mentzer",
+    "La boîte grise des Royaumes",
+    "La boîte de Holmes",
+    "La boîte de Moldvay"
+   ],
+   "rep": 0,
+   "src": "Paizo (2009)",
+   "expl": "Traduite en français en 1983, elle a été pour beaucoup la porte d’entrée du jeu de rôle.",
+   "id": "t022-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu de rôle\n2. Je suis né en 2009\n3. Je prolonge les règles 3.5",
+   "choix": [
+    "Pathfinder",
+    "13th Age",
+    "Starfinder",
+    "Dungeon World"
+   ],
+   "rep": 0,
+   "src": "Shannon Appelcline, Designers & Dragons (2014)",
+   "expl": "Pathfinder a connu une 2e édition en 2019, avec ses propres règles.",
+   "id": "t022-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une entreprise\n2. J’ai inventé Magic\n3. J’ai racheté TSR",
+   "choix": [
+    "Wizards of the Coast",
+    "Hasbro",
+    "Paizo",
+    "Games Workshop"
+   ],
+   "rep": 0,
+   "src": "Netflix, Stranger Things (2016)",
+   "expl": "Fondée à Seattle en 1990, elle publie D&D depuis plus de vingt-cinq ans.",
+   "id": "t022-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une série\n2. Je débute en 2016\n3. Mes héros jouent à D&D dans une cave de l’Indiana",
+   "choix": [
+    "Stranger Things",
+    "Dark",
+    "The Witcher",
+    "Arcane"
+   ],
+   "rep": 0,
+   "src": "CBS, Mazes and Monsters (1982)",
+   "expl": "Le Club Hellfire de la saison 4 est un club de D&D de lycée.",
+   "id": "t022-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un téléfilm\n2. Je date de 1982\n3. Tom Hanks y perd pied entre jeu et réalité",
+   "choix": [
+    "Mazes and Monsters",
+    "Donjons & Dragons",
+    "Willow",
+    "Krull"
+   ],
+   "rep": 0,
+   "src": "Dragon n° 1 (1976)",
+   "expl": "Le film reprend les peurs de l’époque, sans fondement réel.",
+   "id": "t022-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un magazine\n2. Je suis né en 1976\n3. J’ai succédé à The Strategic Review",
+   "choix": [
+    "Dragon",
+    "Dungeon",
+    "White Dwarf",
+    "Polyhedron"
+   ],
+   "rep": 0,
+   "src": "Dragon n° 1 (1976)",
+   "expl": "Dragon a paru en version papier jusqu’en 2007, avant de passer au numérique.",
+   "id": "t022-140",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
