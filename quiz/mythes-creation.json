@@ -1,0 +1,1987 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "mythes-creation",
+  "nom": "Mythes de création du monde",
+  "royaume": "Mythologies et folklores du monde",
+  "icone": "soleil",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon Hésiode, quelle entité apparaît la toute première ?",
+   "choix": [
+    "Le Chaos",
+    "Gaïa",
+    "Ouranos",
+    "Éros"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Il est un vide béant, d’où naissent ensuite Gaïa, le Tartare et Éros.",
+   "id": "t044-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Titan mutile son père Ouranos à l’aide d’une faucille ?",
+   "choix": [
+    "Cronos",
+    "Atlas",
+    "Hypérion",
+    "Japet"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Gaïa avait forgé l’arme pour délivrer ses enfants emprisonnés.",
+   "id": "t044-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Zeus échappe-t-il à son père, qui dévore ses enfants ?",
+   "choix": [
+    "Rhéa fait avaler une pierre à Cronos",
+    "Il se cache dans l’Olympe",
+    "Il est changé en aigle",
+    "Héra le cache sous terre"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "L’enfant est élevé en Crète, nourri par la chèvre Amalthée.",
+   "id": "t044-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon une tradition grecque, qui façonne les premiers hommes dans l’argile ?",
+   "choix": [
+    "Prométhée",
+    "Zeus",
+    "Héphaïstos",
+    "Hermès"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Il leur offre ensuite le feu, volé aux dieux, ce qui lui vaut un terrible châtiment.",
+   "id": "t044-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle première femme, façonnée sur l’ordre de Zeus, ouvre une jarre de malheurs ?",
+   "choix": [
+    "Pandore",
+    "Ève",
+    "Gaïa",
+    "Rhéa"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Seule l’Espérance reste au fond de la jarre.",
+   "id": "t044-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la mythologie nordique, quel abîme sépare le monde du feu et celui de la glace ?",
+   "choix": [
+    "Ginnungagap",
+    "Yggdrasil",
+    "Midgard",
+    "Bifröst"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "La rencontre du froid et du chaud y fait naître le premier être.",
+   "id": "t044-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel géant primordial nordique donne son corps pour former le monde ?",
+   "choix": [
+    "Ymir",
+    "Surt",
+    "Thrym",
+    "Mimir"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Sa chair devient la terre, son sang la mer, son crâne la voûte céleste.",
+   "id": "t044-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle vache primordiale nourrit Ymir de son lait ?",
+   "choix": [
+    "Audhumla",
+    "Sleipnir",
+    "Heidrun",
+    "Kamadhenu"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "En léchant la glace salée, elle libère Buri, ancêtre des dieux.",
+   "id": "t044-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels frères tuent Ymir pour façonner le monde ?",
+   "choix": [
+    "Odin, Vili et Vé",
+    "Thor, Loki et Baldr",
+    "Freyr, Njord et Tyr",
+    "Odin, Thor et Loki"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Le sang du géant noie presque toute sa race.",
+   "id": "t044-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quoi les dieux nordiques façonnent-ils le premier couple humain ?",
+   "choix": [
+    "De deux troncs d’arbres",
+    "D’argile rouge",
+    "D’os de géant",
+    "De grains de maïs"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Ask et Embla reçoivent souffle, esprit et apparence.",
+   "id": "t044-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la cosmogonie d’Héliopolis, quel dieu émerge seul de l’océan primordial ?",
+   "choix": [
+    "Atoum",
+    "Osiris",
+    "Horus",
+    "Seth"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Il crée ensuite, à partir de lui-même, le premier couple divin.",
+   "id": "t044-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment les Égyptiens appellent-ils l’océan primordial ?",
+   "choix": [
+    "Le Noun",
+    "Le Nil",
+    "L’Apsû",
+    "Le Ginnungagap"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Il entoure toujours le monde et menace de le submerger.",
+   "id": "t044-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel couple divin égyptien représente le ciel et la terre ?",
+   "choix": [
+    "Nout et Geb",
+    "Isis et Osiris",
+    "Shou et Tefnout",
+    "Rê et Hathor"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Shou, l’air, soulève Nout pour la séparer de Geb.",
+   "id": "t044-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu de Memphis crée le monde par la pensée et la parole ?",
+   "choix": [
+    "Ptah",
+    "Khnoum",
+    "Thot",
+    "Amon"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Le monde naît de ce que son cœur conçoit et de ce que sa langue prononce.",
+   "id": "t044-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu égyptien à tête de bélier façonne les humains sur un tour de potier ?",
+   "choix": [
+    "Khnoum",
+    "Ptah",
+    "Sobek",
+    "Anubis"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Il modèle aussi le ka de chaque enfant avant sa naissance.",
+   "id": "t044-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel récit babylonien raconte la victoire de Marduk sur Tiamat ?",
+   "choix": [
+    "L’Enuma Elish",
+    "L’Épopée de Gilgamesh",
+    "Le Popol Vuh",
+    "Le Kojiki"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Son titre reprend ses premiers mots, qui signifient « Lorsqu’en haut ».",
+   "id": "t044-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait Marduk du corps de Tiamat ?",
+   "choix": [
+    "Il le fend pour former ciel et terre",
+    "Il le jette dans l’abîme des eaux",
+    "Il le transforme en étoile filante",
+    "Il le livre en pâture aux hommes"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Le Tigre et l’Euphrate coulent de ses yeux.",
+   "id": "t044-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec quoi Marduk et Ea créent-ils l’humanité, selon l’Enuma Elish ?",
+   "choix": [
+    "Le sang de Kingu, le rebelle",
+    "De l’argile du Nil",
+    "Les larmes de Marduk",
+    "Des grains de blé"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Les humains sont destinés à servir les dieux, pour les soulager du travail.",
+   "id": "t044-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon la Genèse, en combien de jours Dieu crée-t-il le monde ?",
+   "choix": [
+    "Six, et se repose le septième",
+    "Sept, et se repose le huitième",
+    "Trois, et se repose le quatrième",
+    "Dix, puis il se repose"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Ce récit fonde la semaine et le jour de repos.",
+   "id": "t044-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la mythologie chinoise, quel géant naît d’un œuf cosmique et sépare ciel et terre ?",
+   "choix": [
+    "Pangu",
+    "Nüwa",
+    "Fuxi",
+    "Huangdi"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "À sa mort, son souffle devient le vent et ses yeux le soleil et la lune.",
+   "id": "t044-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse chinoise façonne les humains dans la terre jaune ?",
+   "choix": [
+    "Nüwa",
+    "Chang’e",
+    "Xiwangmu",
+    "Guanyin"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Elle répare aussi le ciel brisé avec des pierres de cinq couleurs.",
+   "id": "t044-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel couple divin japonais crée les îles de l’archipel ?",
+   "choix": [
+    "Izanagi et Izanami",
+    "Amaterasu et Susanoo",
+    "Ninigi et Konohana",
+    "Raijin et Fujin"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Ils remuent l’océan avec une lance céleste ; les gouttes forment la première île.",
+   "id": "t044-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quelle partie d’Izanagi naît la déesse du soleil Amaterasu ?",
+   "choix": [
+    "De son œil gauche",
+    "De son nez",
+    "De sa main droite",
+    "De son cœur"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Elle naît quand il se purifie, après sa visite au pays des morts.",
+   "id": "t044-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel recueil japonais de 712 raconte les mythes des origines ?",
+   "choix": [
+    "Le Kojiki",
+    "Le Genji monogatari",
+    "Le Manyôshû",
+    "Le Heike monogatari"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Il retrace l’histoire depuis la création jusqu’aux premiers empereurs.",
+   "id": "t044-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le mythe maori, quel dieu sépare Rangi, le ciel, et Papa, la terre ?",
+   "choix": [
+    "Tāne",
+    "Tangaroa",
+    "Maui",
+    "Tū"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Il pousse son père vers le haut avec ses jambes, laissant entrer la lumière.",
+   "id": "t044-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon le Popol Vuh, de quoi les dieux façonnent-ils enfin les vrais humains ?",
+   "choix": [
+    "De maïs",
+    "De boue",
+    "De bois",
+    "De pierre"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Les hommes de boue se dissolvaient, ceux de bois n’avaient ni âme ni mémoire.",
+   "id": "t044-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la cosmologie aztèque, sous quel soleil vivons-nous ?",
+   "choix": [
+    "Le cinquième",
+    "Le premier",
+    "Le troisième",
+    "Le septième"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Les quatre soleils précédents ont été détruits par des catastrophes.",
+   "id": "t044-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel petit dieu aztèque se jette dans le brasier pour devenir le soleil ?",
+   "choix": [
+    "Nanahuatzin",
+    "Quetzalcoatl",
+    "Huitzilopochtli",
+    "Tlaloc"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Couvert de plaies, il se montre plus courageux que le dieu riche et fier.",
+   "id": "t044-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le mythe des Haudenosaunee, sur quel animal la terre est-elle posée ?",
+   "choix": [
+    "Une tortue",
+    "Un serpent",
+    "Un éléphant",
+    "Un aigle"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "L’Amérique du Nord est parfois appelée l’Île de la Tortue.",
+   "id": "t044-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui tombe du ciel dans le mythe de création des Haudenosaunee ?",
+   "choix": [
+    "La Femme Céleste",
+    "Le Grand Esprit",
+    "Le Corbeau",
+    "Le Coyote"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Des oiseaux la recueillent et un petit animal plonge chercher de la terre.",
+   "id": "t044-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le Kalevala finnois, de quoi naît le monde ?",
+   "choix": [
+    "Des œufs brisés d’un canard",
+    "Du corps d’un géant",
+    "D’une fleur de lotus",
+    "D’un arbre géant"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "L’oiseau avait pondu sur le genou d’Ilmatar, la fille des airs.",
+   "id": "t044-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quel serpent Vishnou dort-il au milieu de l’océan cosmique ?",
+   "choix": [
+    "Shesha",
+    "Vasuki",
+    "Kaliya",
+    "Apophis"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "De son nombril sort le lotus où naît Brahma, le créateur.",
+   "id": "t044-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel géant cosmique est sacrifié pour créer le monde, dans le Rig-Veda ?",
+   "choix": [
+    "Purusha",
+    "Ymir",
+    "Pangu",
+    "Kingu"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Son corps démembré donne naissance aux castes, au ciel et à la terre.",
+   "id": "t044-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que cherchent les dieux et les démons en barattant la mer de lait ?",
+   "choix": [
+    "L’amrita, boisson d’immortalité",
+    "L’or caché des abysses",
+    "La lune engloutie",
+    "Le premier des humains"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Ils utilisent une montagne comme baratte et un serpent comme corde.",
+   "id": "t044-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu inca sort du lac Titicaca pour créer le monde ?",
+   "choix": [
+    "Viracocha",
+    "Inti",
+    "Pachamama",
+    "Manco Cápac"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Il crée d’abord une race de géants, qu’il détruit par un déluge.",
+   "id": "t044-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu yoruba descend du ciel par une chaîne pour créer la terre ?",
+   "choix": [
+    "Obatala",
+    "Shango",
+    "Ogun",
+    "Eshu"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Une poule éparpille la terre qu’il apporte ; la ville d’Ife naît à cet endroit.",
+   "id": "t044-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment les Aborigènes d’Australie appellent-ils l’époque des origines ?",
+   "choix": [
+    "Le Temps du Rêve",
+    "L’Âge d’Or",
+    "Le Grand Sommeil",
+    "Le Ragnarök"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Les ancêtres y ont façonné les paysages en les parcourant.",
+   "id": "t044-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle grande créature façonne rivières et vallées dans de nombreux récits aborigènes ?",
+   "choix": [
+    "Le Serpent arc-en-ciel",
+    "Le Grand Kangourou",
+    "L’Émeu céleste",
+    "Le Dingo de feu"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Il est lié à l’eau, à la pluie et à la fertilité.",
+   "id": "t044-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle divinité orphique jaillit de l’œuf cosmique ?",
+   "choix": [
+    "Phanès",
+    "Chronos",
+    "Nyx",
+    "Hypnos"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Être lumineux et ailé, il est aussi appelé Protogonos, le premier-né.",
+   "id": "t044-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la religion de Zarathoustra, quel principe bon s’oppose à l’esprit destructeur Angra Mainyu ?",
+   "choix": [
+    "Ahura Mazda",
+    "Mithra",
+    "Ahriman",
+    "Zurvan"
+   ],
+   "rep": 0,
+   "src": "Hésiode, Théogonie ; Snorri Sturluson, Edda ; Enuma Elish ; Kojiki (712) ; Popol Vuh ; Rig-Veda ; Y. Bonnefoy (dir.), Dictionnaire des mythologies (Flammarion)",
+   "expl": "Le monde est le champ de bataille de ces deux puissances.",
+   "id": "t044-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Chez Hésiode, Gaïa enfante seule Ouranos, le ciel étoilé.",
+   "rep": true,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Elle s’unit ensuite à lui pour enfanter les Titans.",
+   "id": "t044-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans la mythologie nordique, le monde naît du corps d’un dieu bienveillant.",
+   "rep": false,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Faux : il naît du corps d’Ymir, un géant primordial.",
+   "id": "t044-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Audhumla est une vache primordiale.",
+   "rep": true,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Elle se nourrit en léchant des blocs de glace salée.",
+   "id": "t044-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans l’Enuma Elish, Tiamat est une déesse de l’eau salée.",
+   "rep": true,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Apsû, son époux, représente l’eau douce.",
+   "id": "t044-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans la Genèse, l’homme est créé le premier jour.",
+   "rep": false,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Faux : il est créé le sixième jour, après les animaux.",
+   "id": "t044-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans le Popol Vuh, les hommes de bois sont parfaits et très pieux.",
+   "rep": false,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Faux : ils n’ont ni âme ni mémoire, et les dieux les détruisent.",
+   "id": "t044-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Pangu sépare le ciel et la terre en grandissant chaque jour.",
+   "rep": true,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Il les écarte pendant dix-huit mille ans, puis meurt d’épuisement.",
+   "id": "t044-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Izanami meurt en donnant naissance au dieu du feu.",
+   "rep": true,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Izanagi la suit au pays des morts, mais doit fuir devant son aspect.",
+   "id": "t044-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Aztèques pensent vivre sous le premier soleil du monde.",
+   "rep": false,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Faux : c’est le cinquième, qui doit être détruit par des séismes.",
+   "id": "t044-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans le mythe maori, Rangi et Papa sont séparés par leurs propres enfants.",
+   "rep": true,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Leurs enfants vivaient écrasés dans l’obscurité, entre ciel et terre.",
+   "id": "t044-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Prométhée est récompensé par Zeus pour avoir donné le feu aux hommes.",
+   "rep": false,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Faux : il est enchaîné sur un rocher, où un aigle lui dévore le foie.",
+   "id": "t044-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Khnoum crée les humains sur un tour de potier.",
+   "rep": true,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "C’est un dieu lié à la crue du Nil et à la cataracte d’Éléphantine.",
+   "id": "t044-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans le Kalevala, le monde naît d’œufs brisés.",
+   "rep": true,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh",
+   "expl": "Le jaune devient le soleil, le blanc la lune, les coquilles le ciel.",
+   "id": "t044-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Selon Hésiode, l’âge d’or est le dernier des âges de l’humanité.",
+   "rep": false,
+   "src": "Hésiode, Les Travaux et les Jours ; Théogonie",
+   "expl": "Faux : c’est le premier ; nous vivons dans l’âge de fer, le plus dur.",
+   "id": "t044-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’âges de l’humanité Hésiode décrit-il ?",
+   "rep": 5,
+   "min": 2,
+   "max": 9,
+   "pas": 1,
+   "unite": "âges",
+   "tolerance": 0,
+   "src": "Hésiode, Les Travaux et les Jours ; Théogonie",
+   "expl": "Or, argent, bronze, héros et fer, dans Les Travaux et les Jours.",
+   "id": "t044-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Selon la Genèse, quel jour Dieu se repose-t-il ?",
+   "rep": 7,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "e jour",
+   "tolerance": 0,
+   "src": "Hésiode, Les Travaux et les Jours ; Théogonie",
+   "expl": "Ce jour de repos devient le sabbat de la tradition juive.",
+   "id": "t044-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de soleils les Aztèques comptent-ils, en incluant le nôtre ?",
+   "rep": 5,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "soleils",
+   "tolerance": 0,
+   "src": "Hésiode, Les Travaux et les Jours ; Théogonie",
+   "expl": "Chaque soleil a été détruit par un élément différent.",
+   "id": "t044-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de mondes compte la cosmologie nordique ?",
+   "rep": 9,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "mondes",
+   "tolerance": 0,
+   "src": "Hésiode, Les Travaux et les Jours ; Théogonie",
+   "expl": "Ils sont reliés par le frêne Yggdrasil, l’arbre du monde.",
+   "id": "t044-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année est achevé le Kojiki ?",
+   "rep": 712,
+   "min": 500,
+   "max": 1200,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Hésiode, Les Travaux et les Jours ; Théogonie",
+   "expl": "Il est commandé par la cour impériale pour fixer les traditions.",
+   "id": "t044-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de dieux compte l’Ennéade d’Héliopolis ?",
+   "rep": 9,
+   "min": 4,
+   "max": 12,
+   "pas": 1,
+   "unite": "dieux",
+   "tolerance": 0,
+   "src": "Hésiode, Les Travaux et les Jours ; Théogonie",
+   "expl": "Atoum, Shou, Tefnout, Geb, Nout, Osiris, Isis, Seth et Nephtys.",
+   "id": "t044-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de couleurs ont les pierres avec lesquelles Nüwa répare le ciel ?",
+   "rep": 5,
+   "min": 2,
+   "max": 9,
+   "pas": 1,
+   "unite": "couleurs",
+   "tolerance": 0,
+   "src": "Hésiode, Les Travaux et les Jours ; Théogonie",
+   "expl": "Elle coupe aussi les pattes d’une tortue géante pour soutenir le ciel.",
+   "id": "t044-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de dieux de l’Ogdoade d’Hermopolis existe-t-il ?",
+   "rep": 8,
+   "min": 4,
+   "max": 12,
+   "pas": 1,
+   "unite": "dieux",
+   "tolerance": 0,
+   "src": "Hésiode, Les Travaux et les Jours ; Théogonie",
+   "expl": "Quatre couples de dieux-grenouilles et de déesses-serpents.",
+   "id": "t044-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Chez Hésiode, la première entité qui apparaît est le ____.",
+   "choix": [
+    "Chaos",
+    "Cosmos",
+    "Néant",
+    "Logos"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Le mot grec désigne une béance, et non le désordre.",
+   "id": "t044-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le géant dont le corps forme le monde nordique s’appelle ____.",
+   "choix": [
+    "Ymir",
+    "Surt",
+    "Mimir",
+    "Fafnir"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Les dieux font le ciel de son crâne et les nuages de sa cervelle.",
+   "id": "t044-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le premier couple humain nordique s’appelle Ask et ____.",
+   "choix": [
+    "Embla",
+    "Freyja",
+    "Sigyn",
+    "Idunn"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Ils sont tirés de deux arbres échoués sur le rivage.",
+   "id": "t044-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’océan primordial égyptien s’appelle le ____.",
+   "choix": [
+    "Noun",
+    "Nil",
+    "Nout",
+    "Neith"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Chaque année, la crue du Nil rappelle ses eaux originelles.",
+   "id": "t044-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dieu babylonien vainqueur de Tiamat s’appelle ____.",
+   "choix": [
+    "Marduk",
+    "Enlil",
+    "Ea",
+    "Anu"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Il devient le roi des dieux et le protecteur de Babylone.",
+   "id": "t044-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le géant chinois né d’un œuf cosmique s’appelle ____.",
+   "choix": [
+    "Pangu",
+    "Nüwa",
+    "Fuxi",
+    "Yu"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Les parasites de son corps deviennent, dit-on, les humains.",
+   "id": "t044-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dieu japonais qui crée les îles avec son épouse s’appelle ____.",
+   "choix": [
+    "Izanagi",
+    "Susanoo",
+    "Ninigi",
+    "Raijin"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Son épouse Izanami devient la reine du monde des morts.",
+   "id": "t044-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le recueil des mythes mayas k’iche’ s’appelle le Popol ____.",
+   "choix": [
+    "Vuh",
+    "Nah",
+    "Vuj",
+    "Kan"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Il a été transcrit en alphabet latin au 16e siècle.",
+   "id": "t044-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le récit babylonien de la création s’appelle l’Enuma ____.",
+   "choix": [
+    "Elish",
+    "Anu",
+    "Marduk",
+    "Tiamat"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Il était récité lors des fêtes du Nouvel An à Babylone.",
+   "id": "t044-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans la tradition hindoue, Brahma naît d’un ____ sorti du nombril de Vishnou.",
+   "choix": [
+    "lotus",
+    "œuf",
+    "serpent",
+    "pétale"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Le lotus symbolise la pureté et la naissance de l’univers.",
+   "id": "t044-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le temps des origines aborigène s’appelle le Temps du ____.",
+   "choix": [
+    "Rêve",
+    "Sommeil",
+    "Chant",
+    "Souffle"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "On le nomme aussi Dreaming ou Tjukurpa selon les langues.",
+   "id": "t044-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le premier dieu des Égyptiens, à Héliopolis, émerge sur une colline appelée le ____.",
+   "choix": [
+    "Benben",
+    "Nekhen",
+    "Djed",
+    "Ankh"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Cette pierre sacrée inspire la forme des pyramides et des obélisques.",
+   "id": "t044-074",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces dieux n’est pas égyptien ?",
+   "choix": [
+    "Marduk",
+    "Atoum",
+    "Ptah",
+    "Khnoum"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Marduk est le dieu de Babylone, vainqueur de Tiamat.",
+   "id": "t044-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces êtres n’est pas un géant primordial sacrifié ?",
+   "choix": [
+    "Prométhée",
+    "Ymir",
+    "Pangu",
+    "Purusha"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Prométhée est un Titan puni pour avoir aidé les hommes.",
+   "id": "t044-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces matériaux n’a pas servi aux dieux du Popol Vuh pour faire des humains ?",
+   "choix": [
+    "L’or",
+    "La boue",
+    "Le bois",
+    "Le maïs"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Seuls les hommes de maïs sont capables d’adorer leurs créateurs.",
+   "id": "t044-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces récits n’est pas japonais ?",
+   "choix": [
+    "L’Enuma Elish",
+    "Le Kojiki",
+    "Le Nihon shoki",
+    "Le mythe d’Izanagi"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "L’Enuma Elish est un poème babylonien, écrit en akkadien.",
+   "id": "t044-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures n’est pas une vache, un animal ou un oiseau des origines ?",
+   "choix": [
+    "Le Benben",
+    "Audhumla",
+    "Le canard du Kalevala",
+    "La tortue de l’Île de la Tortue"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Le Benben est une colline ou une pierre sacrée.",
+   "id": "t044-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas un Titan ?",
+   "choix": [
+    "Zeus",
+    "Cronos",
+    "Japet",
+    "Hypérion"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Zeus est un Olympien, fils de Cronos, qui renverse les Titans.",
+   "id": "t044-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces enfants de Pangu n’existe pas dans le mythe ?",
+   "choix": [
+    "Les dragons nés de ses dents",
+    "Le soleil né d’un œil",
+    "La lune née de l’autre œil",
+    "Les rivières nées de son sang"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Son corps devient montagnes, rivières, astres et végétation.",
+   "id": "t044-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas un créateur ?",
+   "choix": [
+    "Hadès",
+    "Ptah",
+    "Viracocha",
+    "Obatala"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Hadès règne sur les morts, sans rôle dans la création.",
+   "id": "t044-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces enfants n’est pas né de la purification d’Izanagi ?",
+   "choix": [
+    "Izanami",
+    "Amaterasu",
+    "Tsukuyomi",
+    "Susanoo"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Izanami est son épouse ; les trois autres naissent de ses yeux et de son nez.",
+   "id": "t044-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces animaux ne porte pas ou ne soutient pas le monde dans les mythes ?",
+   "choix": [
+    "Le cheval",
+    "La tortue",
+    "Le serpent",
+    "L’éléphant"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Tortue, serpent et éléphant apparaissent dans de nombreux récits.",
+   "id": "t044-084",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels êtres participent à la création nordique ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ymir",
+    "Audhumla",
+    "Odin",
+    "Zeus",
+    "Marduk"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Le monde nordique naît dans le vide entre feu et glace.",
+   "id": "t044-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels dieux font partie de l’Ennéade d’Héliopolis ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Atoum",
+    "Shou",
+    "Geb",
+    "Isis",
+    "Ptah",
+    "Anubis"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Ptah est le dieu créateur de Memphis, et non d’Héliopolis.",
+   "id": "t044-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels récits racontent un déluge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’Épopée de Gilgamesh",
+    "La Genèse",
+    "Le mythe de Deucalion",
+    "Le Kalevala",
+    "Le Kojiki"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Utnapishtim, Noé et Deucalion survivent chacun à une grande inondation.",
+   "id": "t044-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels créateurs façonnent les humains dans la terre ou l’argile ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Prométhée",
+    "Nüwa",
+    "Khnoum",
+    "Odin",
+    "Pangu"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Odin les tire d’arbres, Pangu ne crée pas volontairement les hommes.",
+   "id": "t044-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels mythes font naître le monde d’un œuf ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pangu",
+    "Le Kalevala",
+    "Phanès",
+    "Ymir",
+    "Tiamat"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "L’œuf cosmique est l’un des motifs les plus répandus.",
+   "id": "t044-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels éléments composent l’univers nordique des origines ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Muspelheim",
+    "Niflheim",
+    "Ginnungagap",
+    "Olympe",
+    "Duat"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Le feu de Muspelheim rencontre la glace de Niflheim.",
+   "id": "t044-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels mythes séparent le ciel et la terre ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rangi et Papa",
+    "Geb et Nout",
+    "Pangu",
+    "Ask et Embla",
+    "Pandore"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Le motif de la séparation du ciel et de la terre se retrouve sur tous les continents.",
+   "id": "t044-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels âges de l’humanité décrit Hésiode ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Or",
+    "Argent",
+    "Bronze",
+    "Fer",
+    "Cristal",
+    "Diamant"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Il ajoute aussi un âge des héros, entre le bronze et le fer.",
+   "id": "t044-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels éléments apparaissent dans le barattage de la mer de lait ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le mont Mandara",
+    "Le serpent Vasuki",
+    "La tortue Kurma",
+    "Le frêne Yggdrasil",
+    "La vache Audhumla"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Vishnou prend la forme d’une tortue pour soutenir la montagne.",
+   "id": "t044-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles divinités sont liées au soleil ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Amaterasu",
+    "Rê",
+    "Nanahuatzin",
+    "Tsukuyomi",
+    "Nout"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Tsukuyomi est le dieu de la lune, Nout la déesse du ciel.",
+   "id": "t044-094",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces générations de dieux grecs dans l’ordre.",
+   "items": [
+    "Ouranos",
+    "Cronos",
+    "Zeus"
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Chaque fils renverse son père pour prendre le pouvoir.",
+   "id": "t044-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la création nordique dans l’ordre.",
+   "items": [
+    "Rencontre du feu et de la glace",
+    "Naissance d’Ymir",
+    "Mort d’Ymir",
+    "Création d’Ask et Embla"
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Les dieux façonnent le monde avant d’y installer les hommes.",
+   "id": "t044-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces humains du Popol Vuh dans l’ordre de leur création.",
+   "items": [
+    "Hommes de boue",
+    "Hommes de bois",
+    "Hommes de maïs"
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Chaque essai raté est détruit par les dieux.",
+   "id": "t044-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces âges d’Hésiode dans l’ordre.",
+   "items": [
+    "Âge d’or",
+    "Âge d’argent",
+    "Âge de bronze",
+    "Âge des héros",
+    "Âge de fer"
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "L’humanité se dégrade d’âge en âge, sauf pendant l’âge des héros.",
+   "id": "t044-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la cosmogonie d’Héliopolis dans l’ordre.",
+   "items": [
+    "Le Noun",
+    "Atoum",
+    "Shou et Tefnout",
+    "Geb et Nout",
+    "Osiris et Isis"
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Chaque génération naît de la précédente.",
+   "id": "t044-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’Enuma Elish dans l’ordre.",
+   "items": [
+    "Mélange d’Apsû et de Tiamat",
+    "Naissance des dieux",
+    "Victoire de Marduk",
+    "Création des humains"
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "L’humanité arrive en dernier, pour servir les dieux.",
+   "id": "t044-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du mythe d’Izanagi et Izanami dans l’ordre.",
+   "items": [
+    "Création des îles",
+    "Mort d’Izanami",
+    "Descente aux enfers",
+    "Naissance d’Amaterasu"
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Izanagi se purifie dans une rivière en revenant du pays des morts.",
+   "id": "t044-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du mythe de Prométhée dans l’ordre.",
+   "items": [
+    "Création des hommes",
+    "Vol du feu",
+    "Châtiment sur le rocher",
+    "Délivrance par Héraclès"
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Héraclès tue l’aigle qui lui dévorait le foie.",
+   "id": "t044-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces soleils aztèques par ordre de création.",
+   "items": [
+    "Soleil de jaguar",
+    "Soleil de vent",
+    "Soleil de pluie de feu",
+    "Soleil d’eau",
+    "Soleil de mouvement"
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Le cinquième soleil, Nahui Ollin, est celui du mouvement.",
+   "id": "t044-103",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque peuple à son récit de création.",
+   "paires": [
+    [
+     "Babyloniens",
+     "Enuma Elish"
+    ],
+    [
+     "Mayas k’iche’",
+     "Popol Vuh"
+    ],
+    [
+     "Japonais",
+     "Kojiki"
+    ],
+    [
+     "Grecs",
+     "Théogonie"
+    ]
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Ces textes figurent parmi les plus anciens récits écrits de l’humanité.",
+   "id": "t044-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créateur à sa matière.",
+   "paires": [
+    [
+     "Prométhée",
+     "Argile"
+    ],
+    [
+     "Odin",
+     "Troncs d’arbres"
+    ],
+    [
+     "Gucumatz",
+     "Maïs"
+    ],
+    [
+     "Marduk",
+     "Sang de Kingu"
+    ]
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Chaque peuple imagine des origines différentes pour l’humanité.",
+   "id": "t044-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque géant à ce que devient son corps.",
+   "paires": [
+    [
+     "Ymir",
+     "Le monde nordique"
+    ],
+    [
+     "Pangu",
+     "La terre chinoise"
+    ],
+    [
+     "Tiamat",
+     "Le ciel et la terre babyloniens"
+    ],
+    [
+     "Purusha",
+     "Les castes indiennes"
+    ]
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Le motif du corps démembré qui devient le monde est très répandu.",
+   "id": "t044-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu égyptien à son élément.",
+   "paires": [
+    [
+     "Shou",
+     "Air"
+    ],
+    [
+     "Tefnout",
+     "Humidité"
+    ],
+    [
+     "Geb",
+     "Terre"
+    ],
+    [
+     "Nout",
+     "Ciel"
+    ]
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Ces dieux forment les deux premières générations après Atoum.",
+   "id": "t044-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque enfant d’Izanagi à son domaine.",
+   "paires": [
+    [
+     "Amaterasu",
+     "Soleil"
+    ],
+    [
+     "Tsukuyomi",
+     "Lune"
+    ],
+    [
+     "Susanoo",
+     "Tempête et mer"
+    ]
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Amaterasu devient l’ancêtre mythique de la famille impériale.",
+   "id": "t044-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque mythe à son animal.",
+   "paires": [
+    [
+     "Haudenosaunee",
+     "Tortue"
+    ],
+    [
+     "Kalevala",
+     "Canard"
+    ],
+    [
+     "Nordique",
+     "Vache"
+    ],
+    [
+     "Yoruba",
+     "Poule"
+    ]
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Les animaux jouent souvent un rôle clé dans les récits des origines.",
+   "id": "t044-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque mythe de déluge à son survivant.",
+   "paires": [
+    [
+     "Genèse",
+     "Noé"
+    ],
+    [
+     "Gilgamesh",
+     "Utnapishtim"
+    ],
+    [
+     "Grèce",
+     "Deucalion"
+    ],
+    [
+     "Inde",
+     "Manu"
+    ]
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Manu est sauvé par Vishnou, sous la forme d’un poisson.",
+   "id": "t044-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à sa région.",
+   "paires": [
+    [
+     "Viracocha",
+     "Andes"
+    ],
+    [
+     "Obatala",
+     "Pays yoruba"
+    ],
+    [
+     "Tāne",
+     "Nouvelle-Zélande"
+    ],
+    [
+     "Ptah",
+     "Memphis"
+    ]
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "La création est racontée partout, sous des formes très variées.",
+   "id": "t044-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque couple primordial à sa culture.",
+   "paires": [
+    [
+     "Rangi et Papa",
+     "Maori"
+    ],
+    [
+     "Geb et Nout",
+     "Égypte"
+    ],
+    [
+     "Apsû et Tiamat",
+     "Babylone"
+    ],
+    [
+     "Izanagi et Izanami",
+     "Japon"
+    ]
+   ],
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Le couple ciel-terre ou eau douce-eau salée est souvent à l’origine de tout.",
+   "id": "t044-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un géant\n2. Je suis né de la glace\n3. Mon corps est devenu le monde",
+   "choix": [
+    "Ymir",
+    "Pangu",
+    "Purusha",
+    "Surt"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Odin et ses frères m’ont tué pour bâtir l’univers.",
+   "id": "t044-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. Je suis l’eau salée\n3. Marduk m’a coupée en deux",
+   "choix": [
+    "Tiamat",
+    "Gaïa",
+    "Nout",
+    "Izanami"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Mes enfants divins ont fini par se révolter contre moi.",
+   "id": "t044-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Titan\n2. J’ai volé le feu\n3. Un aigle me dévore le foie",
+   "choix": [
+    "Prométhée",
+    "Cronos",
+    "Atlas",
+    "Japet"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Mon frère Épiméthée a épousé Pandore, malgré mes avertissements.",
+   "id": "t044-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. J’ai façonné les humains\n3. J’ai réparé le ciel",
+   "choix": [
+    "Nüwa",
+    "Amaterasu",
+    "Isis",
+    "Gaïa"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "On me représente souvent avec une queue de serpent.",
+   "id": "t044-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’ai créé le monde par la parole\n3. Je suis vénéré à Memphis",
+   "choix": [
+    "Ptah",
+    "Atoum",
+    "Khnoum",
+    "Thot"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Je suis aussi le patron des artisans et des bâtisseurs.",
+   "id": "t044-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je me suis jeté dans le feu\n3. Je suis devenu le soleil",
+   "choix": [
+    "Nanahuatzin",
+    "Quetzalcoatl",
+    "Tonatiuh",
+    "Tlaloc"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Mon rival orgueilleux, hésitant, est devenu la lune.",
+   "id": "t044-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’ai séparé mes parents\n3. J’ai laissé entrer la lumière",
+   "choix": [
+    "Tāne",
+    "Shou",
+    "Pangu",
+    "Kronos"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Je suis le dieu des forêts et des oiseaux chez les Maori.",
+   "id": "t044-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une femme\n2. On m’a offert une jarre\n3. J’ai libéré les malheurs",
+   "choix": [
+    "Pandore",
+    "Ève",
+    "Psyché",
+    "Perséphone"
+   ],
+   "rep": 0,
+   "src": "Hésiode ; Snorri Sturluson ; Enuma Elish ; Kojiki ; Popol Vuh ; Rig-Veda",
+   "expl": "Mon nom signifie « celle qui a tous les dons ».",
+   "id": "t044-120",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
