@@ -1,0 +1,1968 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "livres-heros",
+  "nom": "Livres dont vous êtes le héros",
+  "royaume": "Jeux de rôle, de cartes et de plateau",
+  "icone": "livre",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le premier livre de la série Défis fantastiques, paru en 1982 ?",
+   "choix": [
+    "Le Sorcier de la Montagne de Feu",
+    "La Cité des voleurs",
+    "Le Labyrinthe de la mort",
+    "La Forêt de la malédiction"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Le lecteur y affronte le sorcier Zagor dans sa montagne.",
+   "id": "t080-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels auteurs britanniques créent la série Défis fantastiques ?",
+   "choix": [
+    "Steve Jackson et Ian Livingstone",
+    "Joe Dever et Gary Chalk",
+    "J. H. Brennan et Dave Morris",
+    "Gary Gygax et Dave Arneson"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Ils avaient fondé ensemble Games Workshop en 1975.",
+   "id": "t080-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles sont les trois caractéristiques du héros des Défis fantastiques ?",
+   "choix": [
+    "Habileté, Endurance et Chance",
+    "Force, Agilité et Magie",
+    "Courage, Ruse et Foi",
+    "Vie, Mana et Or"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "On les détermine en lançant des dés au début de l’aventure.",
+   "id": "t080-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment détermine-t-on l’Habileté de départ dans les Défis fantastiques ?",
+   "choix": [
+    "Un dé plus six",
+    "Deux dés plus douze",
+    "Un dé seulement",
+    "Trois dés"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Elle varie donc de 7 à 12 ; c’est la plus précieuse.",
+   "id": "t080-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment détermine-t-on l’Endurance de départ dans les Défis fantastiques ?",
+   "choix": [
+    "Deux dés plus douze",
+    "Un dé plus six",
+    "Un dé fois deux",
+    "Trois dés plus dix"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Elle varie donc de 14 à 24 et baisse à chaque blessure.",
+   "id": "t080-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de paragraphes compte la plupart des livres de Défis fantastiques ?",
+   "choix": [
+    "Quatre cents",
+    "Cent",
+    "Mille",
+    "Deux cent cinquante"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Le dernier paragraphe est souvent celui de la victoire.",
+   "id": "t080-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle collection française publie ces livres-jeux à partir de 1983 ?",
+   "choix": [
+    "Un livre dont vous êtes le héros, chez Gallimard",
+    "Bibliothèque verte, chez Hachette",
+    "J’ai lu Jeunesse",
+    "Le Livre de poche jeunesse"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "L’expression est devenue le nom courant du genre en France.",
+   "id": "t080-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur crée Loup Solitaire, dernier des seigneurs kaï, en 1984 ?",
+   "choix": [
+    "Joe Dever",
+    "Ian Livingstone",
+    "Steve Jackson",
+    "J. H. Brennan"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Il en écrit vingt-huit volumes avant sa mort en 2016.",
+   "id": "t080-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quel pays Loup Solitaire est-il originaire ?",
+   "choix": [
+    "Le Sommerlund",
+    "La Gloranthe",
+    "L’Allansia",
+    "Le Kharé"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Ce royaume est menacé par les Maîtres des Ténèbres.",
+   "id": "t080-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle épée légendaire Loup Solitaire récupère-t-il dans sa série ?",
+   "choix": [
+    "Le Glaive de Sommer",
+    "Excalibur",
+    "Stormbringer",
+    "Glamdring"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Cette arme solaire est mortelle pour les créatures des ténèbres.",
+   "id": "t080-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Que remplace la table de hasard de Loup Solitaire ?",
+   "choix": [
+    "Les dés",
+    "Les cartes",
+    "Une boussole",
+    "Une pièce de monnaie"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "On pointe un chiffre de 0 à 9 avec un crayon, les yeux fermés.",
+   "id": "t080-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dessinateur illustre les premiers volumes de Loup Solitaire ?",
+   "choix": [
+    "Gary Chalk",
+    "Russ Nicholson",
+    "John Blanche",
+    "Moebius"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Il a aussi cocréé l’univers du Magnamund avec Joe Dever.",
+   "id": "t080-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment s’appelle le monde de Loup Solitaire ?",
+   "choix": [
+    "Le Magnamund",
+    "Titan",
+    "Mystara",
+    "Glorantha"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Le Sommerlund n’en est qu’un royaume parmi d’autres.",
+   "id": "t080-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment s’appelle le monde des Défis fantastiques ?",
+   "choix": [
+    "Titan",
+    "Le Magnamund",
+    "Krynn",
+    "Aventurie"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Le continent d’Allansia en est la région la plus connue.",
+   "id": "t080-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de Steve Jackson, en quatre tomes, contient un livre de sorts à mémoriser ?",
+   "choix": [
+    "Sorcellerie !",
+    "Loup Solitaire",
+    "La Quête du Graal",
+    "La Voie du Tigre"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Chaque sort porte un code de trois lettres qu’il faut retenir de mémoire.",
+   "id": "t080-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de J. H. Brennan envoie le héros mort « au paragraphe 14 » ?",
+   "choix": [
+    "La Quête du Graal",
+    "Défis fantastiques",
+    "Loup Solitaire",
+    "Sorcellerie !"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Le héros, Pip, y est envoyé dans le passé par l’enchanteur Merlin.",
+   "id": "t080-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel livre de Steve Jackson, en 1984, ajoute une jauge de Peur à l’aventure ?",
+   "choix": [
+    "Le Manoir de l’Enfer",
+    "Le Labyrinthe de la mort",
+    "La Cité des voleurs",
+    "La Forêt de la malédiction"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Si la peur atteint son maximum, le héros meurt d’effroi.",
+   "id": "t080-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel livre de Ian Livingstone se déroule dans un dédale piégé servant de jeu au baron Sukumvit ?",
+   "choix": [
+    "Le Labyrinthe de la mort",
+    "Le Sorcier de la Montagne de Feu",
+    "Le Manoir de l’Enfer",
+    "L’Île du roi lézard"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Les concurrents s’y affrontent pour une fortune.",
+   "id": "t080-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville de pirates se déroule La Cité des voleurs ?",
+   "choix": [
+    "Port Blacksand",
+    "Fang",
+    "Kharé",
+    "Holmgard"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Le héros y cherche de l’aide contre le nécromancien Zanbar Bone.",
+   "id": "t080-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de 1985 fait incarner un ninja surnommé le Vengeur ?",
+   "choix": [
+    "La Voie du Tigre",
+    "Loup Solitaire",
+    "La Quête du Graal",
+    "Sorcellerie !"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Mark Smith et Jamie Thomson en sont les auteurs.",
+   "id": "t080-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série américaine de 1979 lance les livres à embranchements pour enfants ?",
+   "choix": [
+    "Choose Your Own Adventure",
+    "Fighting Fantasy",
+    "Lone Wolf",
+    "Grail Quest"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Edward Packard en est l’inventeur, avec La Caverne du temps.",
+   "id": "t080-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle série de livres-jeux de 1995 propose un monde ouvert dans lequel on peut voyager librement ?",
+   "choix": [
+    "Les Terres de Légende",
+    "Défis fantastiques",
+    "Loup Solitaire",
+    "La Quête du Graal"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Dave Morris et Jamie Thomson l’ont conçue comme un jeu de rôle en livres.",
+   "id": "t080-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de rôle propose dès 1976 les premières aventures en solitaire ?",
+   "choix": [
+    "Tunnels & Trolls",
+    "Donjons et Dragons",
+    "RuneQuest",
+    "Traveller"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Buffalo Castle est souvent considéré comme le premier livre-jeu solo.",
+   "id": "t080-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle technique de triche était célèbre chez les jeunes lecteurs de livres-jeux ?",
+   "choix": [
+    "Garder un doigt dans la page",
+    "Arracher les pages",
+    "Lire à l’envers",
+    "Recopier le livre"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Certains gardaient même plusieurs doigts coincés dans les pages.",
+   "id": "t080-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel nom donne-t-on au genre en anglais ?",
+   "choix": [
+    "Gamebook",
+    "Playbook",
+    "Comicbook",
+    "Guidebook"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "On parle aussi de livre-jeu en français.",
+   "id": "t080-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel film interactif de Netflix, en 2018, reprend le principe des choix du lecteur ?",
+   "choix": [
+    "Black Mirror : Bandersnatch",
+    "Stranger Things",
+    "Love, Death and Robots",
+    "Midnight Mass"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Son héros programme justement un jeu tiré d’un livre à choix multiples.",
+   "id": "t080-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel studio britannique adapte Sorcellerie ! et 80 Days en jeux numériques narratifs ?",
+   "choix": [
+    "Inkle",
+    "Ubisoft",
+    "Telltale",
+    "Bioware"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Il a aussi créé son propre langage d’écriture interactive, Ink.",
+   "id": "t080-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le Steve Jackson des Défis fantastiques ?",
+   "choix": [
+    "Le cofondateur britannique de Games Workshop",
+    "Le créateur américain de GURPS",
+    "Un acteur de cinéma",
+    "Un footballeur"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Les deux Steve Jackson, l’un britannique, l’autre américain, sont souvent confondus.",
+   "id": "t080-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le sorcier que l’on combat dans Le Sorcier de la Montagne de Feu ?",
+   "choix": [
+    "Zagor",
+    "Zanbar Bone",
+    "Balthus Dire",
+    "Razaak"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Il faut trouver les bonnes clés pour ouvrir son coffre.",
+   "id": "t080-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel éditeur publie la première édition anglaise des Défis fantastiques ?",
+   "choix": [
+    "Puffin Books",
+    "Penguin Classics",
+    "Bloomsbury",
+    "Gallimard"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Puffin est la branche jeunesse de Penguin.",
+   "id": "t080-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les talents secrets que maîtrise Loup Solitaire ?",
+   "choix": [
+    "Les disciplines kaï",
+    "Les arts runiques",
+    "Les voies du tigre",
+    "Les signes"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Camouflage, chasse, sixième sens ou maîtrise psychique en font partie.",
+   "id": "t080-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle caractéristique, propre aux Défis fantastiques, baisse chaque fois qu’on la teste ?",
+   "choix": [
+    "La Chance",
+    "L’Habileté",
+    "L’Endurance",
+    "L’Or"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "On la récupère avec des potions ou des événements favorables.",
+   "id": "t080-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel projet en ligne met gratuitement à disposition, avec l’accord de Joe Dever, les livres de Loup Solitaire en anglais ?",
+   "choix": [
+    "Project Aon",
+    "Project Gutenberg",
+    "Wikisource",
+    "Archive Kaï"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Il est animé par des bénévoles depuis la fin des années 1990.",
+   "id": "t080-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel « livre-jeu » contient un tableau des combats à lire grâce au rapport de force ?",
+   "choix": [
+    "Loup Solitaire",
+    "Le Manoir de l’Enfer",
+    "Choose Your Own Adventure",
+    "Sorcellerie !"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "On soustrait l’Habileté de l’ennemi à la sienne pour trouver la colonne.",
+   "id": "t080-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que doit-on faire quand l’Endurance du héros tombe à zéro dans les Défis fantastiques ?",
+   "choix": [
+    "Recommencer l’aventure",
+    "Passer au paragraphe 1",
+    "Gagner une vie",
+    "Changer de héros"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "La mort est fréquente, et souvent très soudaine.",
+   "id": "t080-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle série le héros est-il appelé Pip, un garçon envoyé à la cour du roi Arthur ?",
+   "choix": [
+    "La Quête du Graal",
+    "Défis fantastiques",
+    "Loup Solitaire",
+    "Les Terres de Légende"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "L’humour absurde de J. H. Brennan y est omniprésent.",
+   "id": "t080-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel nom a pris la collection de Gallimard lors de ses rééditions des années 2000 et 2010 ?",
+   "choix": [
+    "Un livre dont vous êtes le héros",
+    "Choisis ton destin",
+    "Livres-jeux Gallimard",
+    "Tu es le héros"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Le nom historique a été conservé pour séduire les nostalgiques.",
+   "id": "t080-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur anglais signe Le Labyrinthe de la mort et L’Île du roi lézard ?",
+   "choix": [
+    "Ian Livingstone",
+    "Steve Jackson",
+    "Joe Dever",
+    "Mark Smith"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Il deviendra ensuite un acteur majeur du jeu vidéo britannique.",
+   "id": "t080-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Sorcellerie !, comment s’appelle la cité des pièges du deuxième tome ?",
+   "choix": [
+    "Kharé",
+    "Port Blacksand",
+    "Holmgard",
+    "Firetop"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Elle porte le surnom de « cité des pièges ».",
+   "id": "t080-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom porte la couronne volée qu’il faut retrouver dans Sorcellerie ! ?",
+   "choix": [
+    "La Couronne des rois",
+    "La Couronne de fer",
+    "Le Diadème de Zagor",
+    "La Couronne de Sommer"
+   ],
+   "rep": 0,
+   "src": "Jonathan Green, You Are the Hero : A History of Fighting Fantasy Gamebooks (2014) ; Gallimard Jeunesse, catalogue « Un livre dont vous êtes le héros » ; Project Aon (archives officielles de Loup Solitaire) ; Demian Katz, Gamebooks.org (base bibliographique)",
+   "expl": "Sans elle, les royaumes d’Analand perdent leur cohésion.",
+   "id": "t080-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Sorcier de la Montagne de Feu est paru en 1982.",
+   "rep": true,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Il a été vendu à des millions d’exemplaires.",
+   "id": "t080-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Loup Solitaire est une série de Ian Livingstone.",
+   "rep": false,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Faux : elle est l’œuvre du Britannique Joe Dever.",
+   "id": "t080-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Défis fantastiques utilisent deux dés à six faces.",
+   "rep": true,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "On les lance pour les combats et les tests.",
+   "id": "t080-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Loup Solitaire utilise des dés à vingt faces.",
+   "rep": false,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Faux : il utilise une table de hasard numérotée de 0 à 9.",
+   "id": "t080-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Steve Jackson et Ian Livingstone ont fondé Games Workshop.",
+   "rep": true,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ils l’ont créé à Londres en 1975, avec John Peake.",
+   "id": "t080-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Steve Jackson de GURPS est celui des Défis fantastiques.",
+   "rep": false,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Faux : ce sont deux auteurs différents, l’un américain, l’autre britannique.",
+   "id": "t080-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gallimard lance sa collection en 1983.",
+   "rep": true,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Elle est publiée dans la gamme Folio Junior.",
+   "id": "t080-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Quête du Graal se déroule au Japon.",
+   "rep": false,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Faux : elle se déroule dans le monde du roi Arthur.",
+   "id": "t080-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Bandersnatch est un épisode interactif de Black Mirror.",
+   "rep": true,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Il comporte plusieurs fins très différentes.",
+   "id": "t080-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Choose Your Own Adventure est une série française.",
+   "rep": false,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Faux : elle est américaine, publiée par Bantam.",
+   "id": "t080-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Manoir de l’Enfer utilise une jauge de Peur.",
+   "rep": true,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "C’est un rare livre de la série tourné vers l’horreur.",
+   "id": "t080-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Joe Dever a terminé lui-même tous les livres de Loup Solitaire.",
+   "rep": false,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Faux : son fils Ben et Vincent Lazzari ont repris l’écriture après sa mort.",
+   "id": "t080-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sorcellerie ! comporte quatre tomes.",
+   "rep": true,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ils forment une seule grande aventure à travers Kakhabad.",
+   "id": "t080-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Voie du Tigre fait incarner un chevalier arthurien.",
+   "rep": false,
+   "src": "Green ; Gallimard",
+   "expl": "Faux : on y incarne un ninja, sur le monde d’Orb.",
+   "id": "t080-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Le Sorcier de la Montagne de Feu ?",
+   "rep": 1982,
+   "min": 1970,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Green ; Gallimard",
+   "expl": "Sa couverture montre le sorcier qui donne son titre au livre.",
+   "id": "t080-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de paragraphes compte un livre classique des Défis fantastiques ?",
+   "rep": 400,
+   "min": 100,
+   "max": 1000,
+   "pas": 50,
+   "unite": "paragraphes",
+   "tolerance": 0,
+   "src": "Green ; Gallimard",
+   "expl": "Le paragraphe 400 est généralement celui de la victoire.",
+   "id": "t080-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Gallimard lance-t-il la collection Un livre dont vous êtes le héros ?",
+   "rep": 1983,
+   "min": 1975,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Green ; Gallimard",
+   "expl": "La collection compte des centaines de titres.",
+   "id": "t080-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît le premier Loup Solitaire ?",
+   "rep": 1984,
+   "min": 1975,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Green ; Gallimard",
+   "expl": "Il s’intitule Les Maîtres des Ténèbres en français.",
+   "id": "t080-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quelle est l’Endurance maximale de départ dans les Défis fantastiques ?",
+   "rep": 24,
+   "min": 12,
+   "max": 36,
+   "pas": 1,
+   "unite": "points",
+   "tolerance": 0,
+   "src": "Green ; Gallimard",
+   "expl": "Deux dés donnent au mieux 12, auxquels on ajoute 12.",
+   "id": "t080-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quelle est l’Habileté maximale de départ dans les Défis fantastiques ?",
+   "rep": 12,
+   "min": 6,
+   "max": 20,
+   "pas": 1,
+   "unite": "points",
+   "tolerance": 0,
+   "src": "Green ; Gallimard",
+   "expl": "Un dé donne au mieux 6, auxquels on ajoute 6.",
+   "id": "t080-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "À quel paragraphe envoie la mort dans La Quête du Graal ?",
+   "rep": 14,
+   "min": 1,
+   "max": 400,
+   "pas": 1,
+   "unite": "paragraphe",
+   "tolerance": 0,
+   "src": "Green ; Gallimard",
+   "expl": "Ce paragraphe est devenu une plaisanterie célèbre.",
+   "id": "t080-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Bandersnatch ?",
+   "rep": 2018,
+   "min": 2010,
+   "max": 2022,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Green ; Gallimard",
+   "expl": "Il est diffusé fin décembre sur Netflix.",
+   "id": "t080-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La série britannique de livres-jeux de 1982 s’appelle Défis ____.",
+   "choix": [
+    "fantastiques",
+    "fantasy",
+    "héroïques",
+    "magiques"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Son titre anglais est Fighting Fantasy, chez Puffin.",
+   "id": "t080-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le héros de Joe Dever s’appelle Loup ____.",
+   "choix": [
+    "Solitaire",
+    "Gris",
+    "Blanc",
+    "Noir"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Il est le dernier survivant des seigneurs kaï.",
+   "id": "t080-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le sorcier de la Montagne de Feu s’appelle ____.",
+   "choix": [
+    "Zagor",
+    "Zagar",
+    "Zorg",
+    "Zanbar"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Il a été ressuscité dans des suites ultérieures.",
+   "id": "t080-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le royaume de Loup Solitaire s’appelle le ____.",
+   "choix": [
+    "Sommerlund",
+    "Summerland",
+    "Sommerset",
+    "Sunderland"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Sa capitale, Holmgard, est assiégée dès le premier tome.",
+   "id": "t080-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’épée solaire de Loup Solitaire s’appelle le Glaive de ____.",
+   "choix": [
+    "Sommer",
+    "Soleil",
+    "Lumière",
+    "Kaï"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Elle a été forgée par les dieux pour le Sommerlund.",
+   "id": "t080-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monde des Défis fantastiques s’appelle ____.",
+   "choix": [
+    "Titan",
+    "Tartare",
+    "Terra",
+    "Taron"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "On y trouve Allansia, Kakhabad et le Vieux Monde.",
+   "id": "t080-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le héros de La Quête du Graal s’appelle ____.",
+   "choix": [
+    "Pip",
+    "Pim",
+    "Pop",
+    "Pat"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Il est guidé par l’enchanteur Merlin, plutôt farceur.",
+   "id": "t080-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La série de livres-jeux sur un ninja s’appelle La Voie du ____.",
+   "choix": [
+    "Tigre",
+    "Dragon",
+    "Serpent",
+    "Loup"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Le héros y venge la mort de son père adoptif.",
+   "id": "t080-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’auteur du Labyrinthe de la mort s’appelle Ian ____.",
+   "choix": [
+    "Livingstone",
+    "Livingston",
+    "Linton",
+    "Lewiston"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Il a aussi cofondé Games Workshop avec Steve Jackson.",
+   "id": "t080-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’épisode interactif de Black Mirror s’appelle ____.",
+   "choix": [
+    "Bandersnatch",
+    "Jabberwock",
+    "Snark",
+    "Mome Rath"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Son nom vient d’une créature de Lewis Carroll.",
+   "id": "t080-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les disciplines de Loup Solitaire s’appellent les disciplines ____.",
+   "choix": [
+    "kaï",
+    "kaïs",
+    "ki",
+    "zen"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Il en choisit cinq au début de la série.",
+   "id": "t080-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’auteur de La Quête du Graal s’appelle J. H. ____.",
+   "choix": [
+    "Brennan",
+    "Brennen",
+    "Bremen",
+    "Brandon"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Il est irlandais et a écrit aussi sur l’occultisme.",
+   "id": "t080-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La cité des pièges de Sorcellerie ! s’appelle ____.",
+   "choix": [
+    "Kharé",
+    "Karé",
+    "Khara",
+    "Kharn"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Le héros doit y découvrir un sort pour ouvrir la porte nord.",
+   "id": "t080-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces livres n’est pas un Défis fantastiques ?",
+   "choix": [
+    "Les Maîtres des Ténèbres",
+    "Le Sorcier de la Montagne de Feu",
+    "La Cité des voleurs",
+    "Le Labyrinthe de la mort"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Les Maîtres des Ténèbres est le premier Loup Solitaire.",
+   "id": "t080-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas écrit de livres-jeux ?",
+   "choix": [
+    "Victor Hugo",
+    "Joe Dever",
+    "Ian Livingstone",
+    "J. H. Brennan"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Victor Hugo n’a écrit que des récits linéaires.",
+   "id": "t080-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces héros n’est pas issu d’un livre-jeu ?",
+   "choix": [
+    "Frodon",
+    "Loup Solitaire",
+    "Pip",
+    "Le Vengeur"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Frodon est le héros du Seigneur des anneaux.",
+   "id": "t080-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces caractéristiques n’existe pas dans les Défis fantastiques ?",
+   "choix": [
+    "La Magie",
+    "L’Habileté",
+    "L’Endurance",
+    "La Chance"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Certains livres ajoutent des jauges particulières, comme la Peur.",
+   "id": "t080-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mondes n’appartient pas aux livres-jeux ?",
+   "choix": [
+    "La Terre du Milieu",
+    "Titan",
+    "Le Magnamund",
+    "Les Terres de Légende"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "La Terre du Milieu est le monde de Tolkien.",
+   "id": "t080-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces éditeurs n’a pas publié de livres-jeux en français ?",
+   "choix": [
+    "La Pléiade",
+    "Gallimard",
+    "Megara",
+    "Alkonost"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "La Pléiade publie des œuvres classiques complètes.",
+   "id": "t080-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces outils ne sert pas à jouer à un livre-jeu ?",
+   "choix": [
+    "Une manette",
+    "Des dés",
+    "Un crayon",
+    "Une feuille d’aventure"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Les livres-jeux se jouent avec un simple papier et un crayon.",
+   "id": "t080-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces livres n’est pas de Steve Jackson ?",
+   "choix": [
+    "Le Labyrinthe de la mort",
+    "Le Manoir de l’Enfer",
+    "Sorcellerie !",
+    "Le Sorcier de la Montagne de Feu"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Le Labyrinthe de la mort est de Ian Livingstone ; Le Sorcier a été écrit à quatre mains.",
+   "id": "t080-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces séries n’est pas britannique ?",
+   "choix": [
+    "Choose Your Own Adventure",
+    "Défis fantastiques",
+    "Loup Solitaire",
+    "La Quête du Graal"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Choose Your Own Adventure est américaine.",
+   "id": "t080-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas une fiction interactive ?",
+   "choix": [
+    "Tetris",
+    "Bandersnatch",
+    "80 Days",
+    "Sorcellerie ! numérique"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Tetris est un jeu de réflexion sans histoire.",
+   "id": "t080-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels livres appartiennent aux Défis fantastiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Sorcier de la Montagne de Feu",
+    "La Cité des voleurs",
+    "Le Labyrinthe de la mort",
+    "Les Maîtres des Ténèbres",
+    "La Caverne du temps"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Les deux autres appartiennent à Loup Solitaire et Choose Your Own Adventure.",
+   "id": "t080-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles caractéristiques ont les héros des Défis fantastiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Habileté",
+    "Endurance",
+    "Chance",
+    "Mana",
+    "Charisme"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Elles sont notées sur la feuille d’aventure.",
+   "id": "t080-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels auteurs ont écrit des livres-jeux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Joe Dever",
+    "Ian Livingstone",
+    "J. H. Brennan",
+    "Edward Packard",
+    "Victor Hugo",
+    "Tolkien"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ces auteurs ont marqué les livres-jeux des années 1980.",
+   "id": "t080-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles séries sont britanniques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Défis fantastiques",
+    "Loup Solitaire",
+    "La Quête du Graal",
+    "Choose Your Own Adventure",
+    "Tunnels & Trolls"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Le Royaume-Uni a dominé l’âge d’or des livres-jeux.",
+   "id": "t080-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres sont des fictions interactives numériques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bandersnatch",
+    "80 Days",
+    "Le Hobbit",
+    "Pinocchio"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Le numérique a donné une nouvelle vie au genre.",
+   "id": "t080-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels éléments trouve-t-on dans Loup Solitaire ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Table de hasard",
+    "Disciplines kaï",
+    "Glaive de Sommer",
+    "Paragraphe 14",
+    "Jauge de Peur"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Le paragraphe 14 et la Peur appartiennent à d’autres séries.",
+   "id": "t080-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux appartiennent au monde des Défis fantastiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Allansia",
+    "Port Blacksand",
+    "Kharé",
+    "Sommerlund",
+    "Holmgard"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Le Sommerlund et Holmgard appartiennent au Magnamund.",
+   "id": "t080-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles séries proposent une aventure en plusieurs tomes liés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sorcellerie !",
+    "Loup Solitaire",
+    "La Quête du Graal",
+    "Le Manoir de l’Enfer",
+    "Le Labyrinthe de la mort"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Les livres de Défis fantastiques sont généralement indépendants.",
+   "id": "t080-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels moyens remplacent les dés dans certains livres-jeux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Table de hasard",
+    "Pages à feuilleter au hasard",
+    "Manette",
+    "Cartes à collectionner"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Certains livres demandent d’ouvrir une page au hasard pour lire un nombre imprimé.",
+   "id": "t080-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles personnes ont cofondé Games Workshop ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Steve Jackson",
+    "Ian Livingstone",
+    "Joe Dever",
+    "Gary Gygax"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ils ont aussi importé Donjons et Dragons au Royaume-Uni.",
+   "id": "t080-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces œuvres par date de parution.",
+   "items": [
+    "Buffalo Castle",
+    "La Caverne du temps",
+    "Le Sorcier de la Montagne de Feu",
+    "Les Maîtres des Ténèbres"
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ces œuvres paraissent en 1976, 1979, 1982 puis 1984.",
+   "id": "t080-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces livres de Défis fantastiques par date de parution.",
+   "items": [
+    "Le Sorcier de la Montagne de Feu",
+    "La Cité des voleurs",
+    "Le Labyrinthe de la mort"
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ces livres paraissent en 1982, 1983 puis 1984.",
+   "id": "t080-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de création d’un héros des Défis fantastiques dans l’ordre.",
+   "items": [
+    "Lancer pour l’Habileté",
+    "Lancer pour l’Endurance",
+    "Lancer pour la Chance",
+    "Choisir une potion"
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "On choisit au départ entre une potion d’adresse, de vigueur ou de bonne fortune.",
+   "id": "t080-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces œuvres interactives par date de sortie.",
+   "items": [
+    "Choose Your Own Adventure",
+    "Sorcellerie ! version numérique",
+    "80 Days",
+    "Bandersnatch"
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ces œuvres sortent en 1979, 2013, 2014 puis 2018.",
+   "id": "t080-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces séries par date de lancement.",
+   "items": [
+    "Défis fantastiques",
+    "Sorcellerie !",
+    "La Quête du Graal",
+    "La Voie du Tigre"
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ces séries débutent en 1982, 1983, 1984 puis 1985.",
+   "id": "t080-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’un combat des Défis fantastiques dans l’ordre.",
+   "items": [
+    "Lancer deux dés pour l’ennemi",
+    "Lancer deux dés pour soi",
+    "Comparer les totaux",
+    "Retirer deux points d’Endurance au perdant"
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "On ajoute l’Habileté de chacun à ses dés.",
+   "id": "t080-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces tomes de Sorcellerie ! dans l’ordre.",
+   "items": [
+    "Les Collines maléfiques",
+    "La Cité des pièges",
+    "Les Sept Serpents",
+    "La Couronne des rois"
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ils racontent une seule quête à travers Kakhabad.",
+   "id": "t080-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la série Loup Solitaire dans l’ordre.",
+   "items": [
+    "Destruction du monastère kaï",
+    "Fuite vers Holmgard",
+    "Récupération du Glaive de Sommer"
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Les deux premiers tomes racontent ces événements.",
+   "id": "t080-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces nombres par ordre croissant.",
+   "items": [
+    "Habileté maximale de départ",
+    "Paragraphe de mort de La Quête du Graal",
+    "Endurance maximale de départ",
+    "Paragraphes d’un Défis fantastiques"
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ces nombres valent douze, quatorze, vingt-quatre puis quatre cents.",
+   "id": "t080-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque série à son auteur.",
+   "paires": [
+    [
+     "Défis fantastiques",
+     "Jackson et Livingstone"
+    ],
+    [
+     "Loup Solitaire",
+     "Joe Dever"
+    ],
+    [
+     "La Quête du Graal",
+     "J. H. Brennan"
+    ],
+    [
+     "Choose Your Own Adventure",
+     "Edward Packard"
+    ]
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ces auteurs ont lancé l’âge d’or du livre-jeu.",
+   "id": "t080-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque héros à sa série.",
+   "paires": [
+    [
+     "Loup Solitaire",
+     "Magnamund"
+    ],
+    [
+     "Pip",
+     "Quête du Graal"
+    ],
+    [
+     "Le Vengeur",
+     "La Voie du Tigre"
+    ]
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Chaque série a son héros emblématique et son monde.",
+   "id": "t080-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque méchant à son livre.",
+   "paires": [
+    [
+     "Zagor",
+     "Le Sorcier de la Montagne de Feu"
+    ],
+    [
+     "Zanbar Bone",
+     "La Cité des voleurs"
+    ],
+    [
+     "Baron Sukumvit",
+     "Le Labyrinthe de la mort"
+    ]
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Sukumvit est moins un méchant qu’un organisateur cruel.",
+   "id": "t080-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque potion de départ à son effet.",
+   "paires": [
+    [
+     "Potion d’adresse",
+     "Rend l’Habileté"
+    ],
+    [
+     "Potion de vigueur",
+     "Rend l’Endurance"
+    ],
+    [
+     "Potion de bonne fortune",
+     "Rend la Chance"
+    ]
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "La potion de bonne fortune augmente même la Chance de départ d’un point.",
+   "id": "t080-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monde à sa série.",
+   "paires": [
+    [
+     "Titan",
+     "Défis fantastiques"
+    ],
+    [
+     "Magnamund",
+     "Loup Solitaire"
+    ],
+    [
+     "Orb",
+     "La Voie du Tigre"
+    ]
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Ces mondes ont été développés au fil des volumes.",
+   "id": "t080-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque œuvre à son support.",
+   "paires": [
+    [
+     "Bandersnatch",
+     "Film interactif"
+    ],
+    [
+     "80 Days",
+     "Jeu mobile"
+    ],
+    [
+     "Le Sorcier de la Montagne de Feu",
+     "Livre"
+    ]
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Le genre a migré du papier vers les écrans.",
+   "id": "t080-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque éditeur à son pays.",
+   "paires": [
+    [
+     "Puffin",
+     "Royaume-Uni"
+    ],
+    [
+     "Gallimard",
+     "France"
+    ],
+    [
+     "Bantam",
+     "États-Unis"
+    ]
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Bantam publie Choose Your Own Adventure.",
+   "id": "t080-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque lieu à son monde.",
+   "paires": [
+    [
+     "Port Blacksand",
+     "Titan"
+    ],
+    [
+     "Holmgard",
+     "Magnamund"
+    ],
+    [
+     "Camelot",
+     "Quête du Graal"
+    ]
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Port Blacksand se trouve en Allansia, sur Titan.",
+   "id": "t080-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mécanique à sa série.",
+   "paires": [
+    [
+     "Paragraphe 14",
+     "La Quête du Graal"
+    ],
+    [
+     "Jauge de Peur",
+     "Le Manoir de l’Enfer"
+    ],
+    [
+     "Table de hasard",
+     "Loup Solitaire"
+    ],
+    [
+     "Livre de sorts",
+     "Sorcellerie !"
+    ]
+   ],
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Chaque série a apporté sa petite innovation.",
+   "id": "t080-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un livre\n2. Je suis paru en 1982\n3. Zagor m’habite",
+   "choix": [
+    "Le Sorcier de la Montagne de Feu",
+    "La Cité des voleurs",
+    "Le Labyrinthe de la mort",
+    "Le Manoir de l’Enfer"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Je suis le tout premier volume des Défis fantastiques.",
+   "id": "t080-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un héros\n2. Je suis le dernier des seigneurs kaï\n3. Joe Dever m’a créé",
+   "choix": [
+    "Loup Solitaire",
+    "Pip",
+    "Le Vengeur",
+    "Zagor"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Avant de devenir le dernier kaï, je m’appelais Silent Wolf.",
+   "id": "t080-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. J’ai cofondé Games Workshop\n3. J’ai écrit Le Labyrinthe de la mort",
+   "choix": [
+    "Ian Livingstone",
+    "Steve Jackson",
+    "Joe Dever",
+    "Gary Chalk"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "J’ai ensuite travaillé pour Eidos et Tomb Raider.",
+   "id": "t080-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une série\n2. Mon héros s’appelle Pip\n3. Je t’envoie au 14 quand tu meurs",
+   "choix": [
+    "La Quête du Graal",
+    "Loup Solitaire",
+    "Défis fantastiques",
+    "Sorcellerie !"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "L’enchanteur Merlin me sert de guide et de narrateur.",
+   "id": "t080-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une collection\n2. Je suis française\n3. Je suis née en 1983",
+   "choix": [
+    "Un livre dont vous êtes le héros",
+    "Bibliothèque rose",
+    "Chair de poule",
+    "Folio Junior classique"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "L’éditeur Gallimard me publie depuis le début.",
+   "id": "t080-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un film\n2. Je suis un épisode de Black Mirror\n3. Le spectateur choisit",
+   "choix": [
+    "Bandersnatch",
+    "White Christmas",
+    "San Junipero",
+    "Nosedive"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Je suis sorti fin 2018 sur Netflix et j’ai plusieurs fins.",
+   "id": "t080-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une série\n2. J’ai quatre tomes\n3. Mes sorts ont des codes de trois lettres",
+   "choix": [
+    "Sorcellerie !",
+    "Loup Solitaire",
+    "La Voie du Tigre",
+    "Les Terres de Légende"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "Le Britannique Steve Jackson m’a écrite.",
+   "id": "t080-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville\n2. Je suis remplie de voleurs\n3. Je suis sur Titan",
+   "choix": [
+    "Port Blacksand",
+    "Holmgard",
+    "Kharé",
+    "Fang"
+   ],
+   "rep": 0,
+   "src": "Green ; Gallimard ; Project Aon",
+   "expl": "On m’appelle aussi « la cité des voleurs ».",
+   "id": "t080-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
