@@ -1,0 +1,1991 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "fantasy-fondatrice",
+  "nom": "Fantasy épique et fondatrice",
+  "royaume": "Magie, littérature et univers fantasy",
+  "icone": "sablier",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel écrivain et artisan anglais est souvent présenté comme l’inventeur de la fantasy à monde imaginaire ?",
+   "choix": [
+    "William Morris",
+    "Charles Dickens",
+    "Lewis Carroll",
+    "Thomas Hardy"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Ses romans des années 1890, comme La Source au bout du monde, ont inspiré Tolkien.",
+   "id": "t070-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pasteur écossais publie Phantastes en 1858, roman de rêve et de féerie ?",
+   "choix": [
+    "George MacDonald",
+    "Walter Scott",
+    "Robert Louis Stevenson",
+    "James Barrie"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "C. S. Lewis disait que ce livre avait « baptisé son imagination ».",
+   "id": "t070-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel lord irlandais écrit La Fille du roi des elfes en 1924 ?",
+   "choix": [
+    "Lord Dunsany",
+    "Lord Byron",
+    "Oscar Wilde",
+    "W. B. Yeats"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Ses récits poétiques ont influencé Lovecraft comme Tolkien.",
+   "id": "t070-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman d’E. R. Eddison, en 1922, met en scène des guerriers sur la planète Mercure ?",
+   "choix": [
+    "Le Serpent Ouroboros",
+    "Le Château d’Otrante",
+    "Lud-en-Brume",
+    "Phantastes"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Mercure n’y est qu’un décor de légende, sans aucune science-fiction.",
+   "id": "t070-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Hope Mirrlees, en 1926, imagine un pays où les fruits féeriques sont interdits ?",
+   "choix": [
+    "Lud-en-Brume",
+    "La Fille du roi des elfes",
+    "Phantastes",
+    "Titus d’Enfer"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Ce classique méconnu a été redécouvert grâce à Neil Gaiman.",
+   "id": "t070-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "En quelle année paraît Le Hobbit de Tolkien ?",
+   "choix": [
+    "1937",
+    "1925",
+    "1954",
+    "1965"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Le livre est d’abord pensé pour les enfants de l’auteur.",
+   "id": "t070-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Entre quelles années paraît Le Seigneur des anneaux en anglais ?",
+   "choix": [
+    "1954 et 1955",
+    "1937 et 1939",
+    "1965 et 1966",
+    "1949 et 1951"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "L’éditeur le publie en trois volumes pour limiter les risques, d’où l’idée erronée d’une trilogie.",
+   "id": "t070-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cercle littéraire d’Oxford réunissait Tolkien et C. S. Lewis ?",
+   "choix": [
+    "Les Inklings",
+    "Les Apôtres",
+    "Le Bloomsbury Group",
+    "Les Préraphaélites"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Ils se retrouvaient au pub The Eagle and Child pour lire leurs textes.",
+   "id": "t070-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel écrivain, ami de Tolkien, crée le monde de Narnia ?",
+   "choix": [
+    "C. S. Lewis",
+    "Charles Williams",
+    "Owen Barfield",
+    "Mervyn Peake"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Le premier tome publié, Le Lion, la Sorcière blanche et l’Armoire magique, paraît en 1950.",
+   "id": "t070-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur et illustrateur crée l’immense château de Gormenghast ?",
+   "choix": [
+    "Mervyn Peake",
+    "Lord Dunsany",
+    "T. H. White",
+    "William Morris"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Sa trilogie gothique ne contient presque aucune magie.",
+   "id": "t070-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur raconte l’enfance du roi Arthur dans Excalibur, l’épée dans la pierre, en 1938 ?",
+   "choix": [
+    "T. H. White",
+    "C. S. Lewis",
+    "Thomas Malory",
+    "Alfred Tennyson"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Le livre forme ensuite le début de La Quête du roi Arthur, et inspire Disney.",
+   "id": "t070-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel éditeur américain lance en 1969 une collection de rééditions des classiques de la fantasy ?",
+   "choix": [
+    "Ballantine",
+    "Penguin",
+    "Gallimard",
+    "Scholastic"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Lin Carter la dirige et remet en lumière Morris, Dunsany ou Eddison.",
+   "id": "t070-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle édition américaine pirate du Seigneur des anneaux déclenche en 1965 un débat sur les droits d’auteur ?",
+   "choix": [
+    "L’édition Ace Books",
+    "L’édition Ballantine",
+    "L’édition Allen & Unwin",
+    "L’édition Houghton Mifflin"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "La polémique fait connaître le livre auprès des étudiants américains.",
+   "id": "t070-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros albinos, rongé par son épée buveuse d’âmes, crée Michael Moorcock ?",
+   "choix": [
+    "Elric de Melniboné",
+    "Conan",
+    "Corum",
+    "Fafhrd"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Il est l’une des incarnations du Champion éternel de Moorcock.",
+   "id": "t070-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel essai de Michael Moorcock critique la fantasy jugée trop confortable de Tolkien ?",
+   "choix": [
+    "Epic Pooh",
+    "Le Chant du monde",
+    "Sur les contes de fées",
+    "Le Héros aux mille visages"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Il y compare Le Seigneur des anneaux à Winnie l’ourson.",
+   "id": "t070-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Terry Brooks, en 1977, est souvent accusé de trop imiter Tolkien ?",
+   "choix": [
+    "L’Épée de Shannara",
+    "Les Chroniques de Thomas Covenant",
+    "La Belgariade",
+    "Magicien"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Premier grand succès de librairie du genre après Tolkien, il prouve aux éditeurs que la fantasy épique peut se vendre en masse.",
+   "id": "t070-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros de Stephen R. Donaldson est un lépreux qui refuse de croire au monde magique ?",
+   "choix": [
+    "Thomas Covenant",
+    "Garion",
+    "Pug",
+    "Rand al’Thor"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Cet antihéros commet dès le début un acte impardonnable.",
+   "id": "t070-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cycle de David Eddings suit le jeune Garion, héritier caché ?",
+   "choix": [
+    "La Belgariade",
+    "La Roue du temps",
+    "L’Assassin royal",
+    "Shannara"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Il le prolonge ensuite par un second cycle, La Mallorée.",
+   "id": "t070-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de Raymond E. Feist ouvre la saga de Midkemia en 1982 ?",
+   "choix": [
+    "Magicien",
+    "L’Assassin royal",
+    "Légende",
+    "Les Jardins de la Lune"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Son héros Pug y passe d’orphelin à grand magicien.",
+   "id": "t070-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel univers de jeu de rôle donne naissance aux romans de Margaret Weis et Tracy Hickman ?",
+   "choix": [
+    "Dragonlance",
+    "Forgotten Realms",
+    "Warhammer",
+    "Greyhawk"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Raistlin, le mage aux yeux en sablier, y devient un personnage culte.",
+   "id": "t070-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle saga de Robert Jordan compte quatorze tomes principaux ?",
+   "choix": [
+    "La Roue du temps",
+    "L’Épée de vérité",
+    "Shannara",
+    "Le Livre des martyrs"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Brandon Sanderson la termine après la mort de Jordan en 2007.",
+   "id": "t070-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le héros principal de La Roue du temps, le Dragon réincarné ?",
+   "choix": [
+    "Rand al’Thor",
+    "Perrin Aybara",
+    "Matrim Cauthon",
+    "Lan Mandragoran"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Il doit affronter le Ténébreux lors de l’Ultime Bataille.",
+   "id": "t070-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cycle de Tad Williams, commencé en 1988, a inspiré George R. R. Martin ?",
+   "choix": [
+    "L’Arcane des épées",
+    "La Roue du temps",
+    "Shannara",
+    "La Belgariade"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Martin a raconté que ce livre l’avait poussé à écrire une fantasy plus adulte.",
+   "id": "t070-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle autrice raconte la légende arthurienne du point de vue des femmes dans Les Dames du lac ?",
+   "choix": [
+    "Marion Zimmer Bradley",
+    "Ursula K. Le Guin",
+    "Anne McCaffrey",
+    "Robin Hobb"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Morgane y devient la narratrice principale.",
+   "id": "t070-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur canadien a aidé Christopher Tolkien à éditer Le Silmarillion ?",
+   "choix": [
+    "Guy Gavriel Kay",
+    "Steven Erikson",
+    "R. Scott Bakker",
+    "Charles de Lint"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Il crée ensuite sa propre fantasy historique, comme Tigane.",
+   "id": "t070-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est le narrateur de L’Assassin royal de Robin Hobb ?",
+   "choix": [
+    "FitzChevalerie",
+    "Le Fou",
+    "Vérité",
+    "Burrich"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Bâtard d’un prince, il est formé en secret comme assassin.",
+   "id": "t070-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom réel se cache derrière le pseudonyme Robin Hobb ?",
+   "choix": [
+    "Margaret Astrid Lindholm Ogden",
+    "Marion Zimmer Bradley",
+    "Andre Norton",
+    "Anne Rice"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Elle a aussi publié sous le nom de Megan Lindholm.",
+   "id": "t070-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle saga de Steven Erikson s’ouvre avec Les Jardins de la Lune en 1999 ?",
+   "choix": [
+    "Le Livre des martyrs",
+    "La Roue du temps",
+    "L’Assassin royal",
+    "La Compagnie noire"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Dix tomes très denses, nés d’un univers de jeu de rôle créé avec un ami archéologue.",
+   "id": "t070-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de David Gemmell met en scène le vieux guerrier Druss défendant une forteresse ?",
+   "choix": [
+    "Légende",
+    "Magicien",
+    "Elric",
+    "Le Seigneur des anneaux"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Gemmell l’écrit en 1984, alors qu’il se croit atteint d’un cancer.",
+   "id": "t070-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cycle de Lloyd Alexander s’inspire des légendes galloises ?",
+   "choix": [
+    "Les Chroniques de Prydain",
+    "Narnia",
+    "Terremer",
+    "Shannara"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Disney en adapte une partie dans Taram et le Chaudron magique.",
+   "id": "t070-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur français écrit La Quête d’Ewilan à partir de 2003 ?",
+   "choix": [
+    "Pierre Bottero",
+    "Pierre Grimbert",
+    "Jean-Philippe Jaworski",
+    "Pierre Pevel"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "L’héroïne y passe de notre monde à celui de Gwendalavir.",
+   "id": "t070-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur français publie en 1996 Le Secret de Ji, saga de fantasy épique ?",
+   "choix": [
+    "Pierre Grimbert",
+    "Pierre Bottero",
+    "Bernard Werber",
+    "Mathieu Gaborit"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Elle suit les descendants des héritiers d’un mystérieux secret.",
+   "id": "t070-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel roman de Jean-Philippe Jaworski, en 2009, suit un assassin cynique dans une république marchande ?",
+   "choix": [
+    "Gagner la guerre",
+    "Janua Vera",
+    "La Horde du Contrevent",
+    "Les Lames du cardinal"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Don Benvenuto Gesufal en est le narrateur, à la langue savoureuse.",
+   "id": "t070-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle maison d’édition française, fondée en 2000, a beaucoup fait pour la fantasy en France ?",
+   "choix": [
+    "Bragelonne",
+    "Gallimard Jeunesse",
+    "Actes Sud",
+    "La Pléiade"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Elle publie notamment Gemmell, Hobb ou Abercrombie.",
+   "id": "t070-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui traduit le premier Le Seigneur des anneaux dans notre langue, en 1972-1973 ?",
+   "choix": [
+    "Francis Ledoux",
+    "Daniel Lauzon",
+    "Laurence Dyèvre",
+    "Jacques Sternberg"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Daniel Lauzon en a proposé une nouvelle traduction entre 2014 et 2016.",
+   "id": "t070-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel nom porte la « monomythe » théorisée par Joseph Campbell, souvent appliquée à la fantasy épique ?",
+   "choix": [
+    "Le voyage du héros",
+    "La quête inversée",
+    "Le cycle du roi",
+    "La chute de l’ange"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Son livre Le Héros aux mille visages paraît en 1949.",
+   "id": "t070-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’est-ce qu’un « monde secondaire » selon Tolkien ?",
+   "choix": [
+    "Un monde inventé, cohérent, distinct du nôtre",
+    "Une suite de roman",
+    "Un monde parallèle accessible par une porte",
+    "Un rêve du héros"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Il développe cette idée dans son essai Du conte de fées.",
+   "id": "t070-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur de La Compagnie noire raconte la guerre du point de vue de mercenaires ?",
+   "choix": [
+    "Glen Cook",
+    "Joe Abercrombie",
+    "Steven Erikson",
+    "David Gemmell"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Le médecin de la compagnie, Toubib, en tient les annales.",
+   "id": "t070-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle saga de Joe Abercrombie, lancée en 2006, renouvelle la fantasy avec cynisme ?",
+   "choix": [
+    "La Première Loi",
+    "La Compagnie noire",
+    "La Roue du temps",
+    "Le Trône de fer"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Le tortionnaire Glokta en est l’un des personnages les plus marquants.",
+   "id": "t070-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle collection d’après-guerre a révélé au public anglophone la fantasy de Conan en livre de poche ?",
+   "choix": [
+    "Les éditions Lancer",
+    "Les éditions Penguin",
+    "Les éditions Folio",
+    "Les éditions Hachette"
+   ],
+   "rep": 0,
+   "src": "John Clute et John Grant, The Encyclopedia of Fantasy (1997) ; Lin Carter, Imaginary Worlds (1973) ; Anne Besson, La Fantasy (Klincksieck, 2007) ; Humphrey Carpenter, J. R. R. Tolkien, une biographie ; sites officiels des éditeurs (Bragelonne, Pocket, J’ai lu)",
+   "expl": "Leurs couvertures peintes par Frank Frazetta ont fixé l’image du barbare.",
+   "id": "t070-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Seigneur des anneaux a été publié en trois volumes.",
+   "rep": true,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Tolkien le concevait pourtant comme un seul roman, en six livres.",
+   "id": "t070-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "C. S. Lewis et Tolkien ne se connaissaient pas.",
+   "rep": false,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Faux : ils étaient amis et membres des Inklings.",
+   "id": "t070-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "William Morris a écrit de la fantasy avant Tolkien.",
+   "rep": true,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Il publie ses romans de fantasy dans les années 1890.",
+   "id": "t070-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Elric de Melniboné est un héros de Robert E. Howard.",
+   "rep": false,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Faux : il est l’œuvre de Michael Moorcock.",
+   "id": "t070-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Roue du temps a été terminée par Brandon Sanderson.",
+   "rep": true,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Il écrit les trois derniers tomes à partir des notes de Robert Jordan.",
+   "id": "t070-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gormenghast est une saga riche en magie et en dragons.",
+   "rep": false,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Faux : c’est une fantasy gothique presque sans surnaturel.",
+   "id": "t070-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Robin Hobb est un pseudonyme.",
+   "rep": true,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "L’autrice a aussi publié sous le nom de Megan Lindholm.",
+   "id": "t070-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Hobbit est paru après Le Seigneur des anneaux.",
+   "rep": false,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Faux : il paraît en 1937, dix-sept ans avant.",
+   "id": "t070-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dragonlance est né d’un univers de jeu de rôle.",
+   "rep": true,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Il a été créé pour le jeu Donjons et Dragons, chez TSR.",
+   "id": "t070-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Pierre Bottero a écrit Le Seigneur des anneaux en français.",
+   "rep": false,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Faux : il est l’auteur de La Quête d’Ewilan.",
+   "id": "t070-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tad Williams a influencé George R. R. Martin.",
+   "rep": true,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Martin a souvent salué L’Arcane des épées.",
+   "id": "t070-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Guy Gavriel Kay a travaillé sur Le Silmarillion.",
+   "rep": true,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Il a aidé Christopher Tolkien à mettre en forme les textes de son père.",
+   "id": "t070-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Lord Dunsany était irlandais.",
+   "rep": true,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Il vivait au château de Dunsany, en Irlande.",
+   "id": "t070-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Épée de Shannara est sorti avant Le Hobbit.",
+   "rep": false,
+   "src": "Clute et Grant ; Besson",
+   "expl": "Faux : il paraît en 1977, quarante ans après Le Hobbit.",
+   "id": "t070-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Le Hobbit ?",
+   "rep": 1937,
+   "min": 1920,
+   "max": 1960,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Clute et Grant ; Besson",
+   "expl": "Il est édité par Allen & Unwin, à Londres.",
+   "id": "t070-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît Phantastes, de George MacDonald ?",
+   "rep": 1858,
+   "min": 1800,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Clute et Grant ; Besson",
+   "expl": "Il est l’un des tout premiers romans de fantasy pour adultes.",
+   "id": "t070-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de tomes principaux compte La Roue du temps ?",
+   "rep": 14,
+   "min": 7,
+   "max": 20,
+   "pas": 1,
+   "unite": "tomes",
+   "tolerance": 0,
+   "src": "Clute et Grant ; Besson",
+   "expl": "S’y ajoute un prologue, Nouveau Printemps.",
+   "id": "t070-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît L’Épée de Shannara ?",
+   "rep": 1977,
+   "min": 1960,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Clute et Grant ; Besson",
+   "expl": "Il est l’un des premiers romans de fantasy à entrer dans la liste des meilleures ventes du New York Times.",
+   "id": "t070-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît le premier volume du Seigneur des anneaux ?",
+   "rep": 1954,
+   "min": 1937,
+   "max": 1970,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Clute et Grant ; Besson",
+   "expl": "La Communauté de l’anneau ouvre l’histoire en juillet.",
+   "id": "t070-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Magicien, de Raymond E. Feist ?",
+   "rep": 1982,
+   "min": 1970,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Clute et Grant ; Besson",
+   "expl": "Le monde de Midkemia est né d’une campagne de jeu de rôle entre amis.",
+   "id": "t070-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de tomes compte Le Livre des martyrs de Steven Erikson ?",
+   "rep": 10,
+   "min": 5,
+   "max": 14,
+   "pas": 1,
+   "unite": "tomes",
+   "tolerance": 0,
+   "src": "Clute et Grant ; Besson",
+   "expl": "Le dernier, Le Dieu estropié, paraît en 2011.",
+   "id": "t070-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît L’Apprenti assassin, premier tome de L’Assassin royal ?",
+   "rep": 1995,
+   "min": 1985,
+   "max": 2005,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Clute et Grant ; Besson",
+   "expl": "Robin Hobb consacre ensuite plusieurs cycles à Fitz et au Fou.",
+   "id": "t070-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le cercle d’amis de Tolkien et Lewis s’appelle les ____.",
+   "choix": [
+    "Inklings",
+    "Hobbits",
+    "Oxfordiens",
+    "Lettrés"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Le nom joue sur « ink », l’encre, et l’idée d’une intuition vague.",
+   "id": "t070-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le héros albinos de Moorcock s’appelle ____ de Melniboné.",
+   "choix": [
+    "Elric",
+    "Eldric",
+    "Corum",
+    "Erekosë"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Son épée noire, Stormbringer, se nourrit des âmes.",
+   "id": "t070-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le château de Mervyn Peake s’appelle ____.",
+   "choix": [
+    "Gormenghast",
+    "Gondolin",
+    "Grayskull",
+    "Glamis"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Titus d’Enfer, paru en 1946, en est le premier tome.",
+   "id": "t070-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monde de C. S. Lewis s’appelle ____.",
+   "choix": [
+    "Narnia",
+    "Neverland",
+    "Nimbus",
+    "Nod"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "On y entre par une armoire, un tableau ou une bague magique.",
+   "id": "t070-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le héros de La Roue du temps s’appelle Rand al’____.",
+   "choix": [
+    "Thor",
+    "Thar",
+    "Thir",
+    "Tor"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Il est berger dans le village de Deux-Rivières.",
+   "id": "t070-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La saga de Robin Hobb consacrée à Fitz s’intitule L’Assassin ____.",
+   "choix": [
+    "royal",
+    "du roi",
+    "maudit",
+    "des ombres"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Fitz y est lié par la magie à son loup Œil-de-Nuit.",
+   "id": "t070-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le héros de Shannara est issu de la lignée des ____.",
+   "choix": [
+    "Ohmsford",
+    "Hobbit",
+    "Elessedil",
+    "Belgarath"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Shea Ohmsford y découvre qu’il descend d’un roi elfe.",
+   "id": "t070-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La saga de Steven Erikson s’appelle Le Livre des ____.",
+   "choix": [
+    "martyrs",
+    "morts",
+    "héros",
+    "dieux"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Son monde est d’une profondeur historique vertigineuse.",
+   "id": "t070-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le guerrier âgé de Légende s’appelle ____.",
+   "choix": [
+    "Druss",
+    "Drogo",
+    "Duncan",
+    "Durin"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "On le surnomme la Légende, et il manie la hache Snaga.",
+   "id": "t070-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le lépreux de Stephen R. Donaldson s’appelle Thomas ____.",
+   "choix": [
+    "Covenant",
+    "Covent",
+    "Cromwell",
+    "Cooper"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Il se surnomme lui-même l’Incrédule, car il refuse ce monde.",
+   "id": "t070-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’auteur de La Quête d’Ewilan s’appelle Pierre ____.",
+   "choix": [
+    "Bottero",
+    "Grimbert",
+    "Pevel",
+    "Bordage"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Il était professeur des écoles avant de devenir écrivain.",
+   "id": "t070-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le serpent qui se mord la queue donne son titre au roman d’Eddison : Le Serpent ____.",
+   "choix": [
+    "Ouroboros",
+    "Jörmungand",
+    "Basilic",
+    "Léviathan"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Le cycle du récit revient à son point de départ.",
+   "id": "t070-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’assassin narrateur de Gagner la guerre s’appelle Benvenuto ____.",
+   "choix": [
+    "Gesufal",
+    "Borgia",
+    "Cellini",
+    "Ezzelino"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Il sert le podestat Leonide Ducatore à Ciudalia.",
+   "id": "t070-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces auteurs n’est pas un Inkling ?",
+   "choix": [
+    "Michael Moorcock",
+    "Tolkien",
+    "C. S. Lewis",
+    "Charles Williams"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Moorcock a au contraire critiqué Tolkien.",
+   "id": "t070-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces livres n’est pas de Tolkien ?",
+   "choix": [
+    "La Belgariade",
+    "Le Hobbit",
+    "Le Silmarillion",
+    "Les Enfants de Húrin"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "La Belgariade est l’œuvre de David Eddings.",
+   "id": "t070-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’est pas français ?",
+   "choix": [
+    "Robin Hobb",
+    "Pierre Bottero",
+    "Pierre Grimbert",
+    "Jean-Philippe Jaworski"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Robin Hobb est une autrice américaine, installée sur la côte ouest.",
+   "id": "t070-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces héros n’appartient pas à la fantasy épique classique ?",
+   "choix": [
+    "Sherlock Holmes",
+    "Rand al’Thor",
+    "Garion",
+    "Pug"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Sherlock Holmes est un détective de Conan Doyle.",
+   "id": "t070-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs a précédé Tolkien ?",
+   "choix": [
+    "George MacDonald",
+    "Terry Brooks",
+    "Robert Jordan",
+    "Robin Hobb"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "MacDonald publie Phantastes dès 1858, avant la naissance de Tolkien.",
+   "id": "t070-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces cycles n’est pas écrit par une femme ?",
+   "choix": [
+    "La Belgariade",
+    "L’Assassin royal",
+    "Terremer",
+    "Les Dames du lac"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "David Eddings l’a cependant écrit en étroite collaboration avec son épouse Leigh.",
+   "id": "t070-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces cycles ne compte pas au moins dix tomes ?",
+   "choix": [
+    "Narnia",
+    "La Roue du temps",
+    "Le Livre des martyrs",
+    "Shannara"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Le cycle de Narnia ne compte que sept tomes.",
+   "id": "t070-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces romans n’est pas de William Morris ?",
+   "choix": [
+    "Lilith",
+    "La Source au bout du monde",
+    "Le Bois au-delà du monde",
+    "Les Eaux des îles fabuleuses"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Lilith est un roman de George MacDonald, paru en 1895.",
+   "id": "t070-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces éditeurs n’est pas spécialisé en fantasy ?",
+   "choix": [
+    "La Pléiade",
+    "Bragelonne",
+    "Mnémos",
+    "Les Moutons électriques"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "La Pléiade publie les classiques sur papier bible chez Gallimard.",
+   "id": "t070-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un mage ?",
+   "choix": [
+    "Druss",
+    "Raistlin",
+    "Pug",
+    "Belgarath"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Druss est un guerrier qui combat à la hache.",
+   "id": "t070-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels auteurs étaient membres des Inklings ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tolkien",
+    "C. S. Lewis",
+    "Charles Williams",
+    "Moorcock",
+    "Howard"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Le groupe se réunit des années 1930 aux années 1950.",
+   "id": "t070-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels auteurs ont écrit avant Tolkien ? (plusieurs bonnes réponses)",
+   "choix": [
+    "William Morris",
+    "George MacDonald",
+    "Lord Dunsany",
+    "E. R. Eddison",
+    "Terry Brooks",
+    "Robin Hobb"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Tolkien a lu et admiré plusieurs de ces pionniers.",
+   "id": "t070-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels auteurs français écrivent de la fantasy ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pierre Bottero",
+    "Jean-Philippe Jaworski",
+    "Pierre Grimbert",
+    "David Eddings",
+    "Raymond Feist"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "La fantasy française se développe surtout à partir des années 1990.",
+   "id": "t070-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels cycles ont été influencés par des jeux de rôle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dragonlance",
+    "Midkemia",
+    "Le Livre des martyrs",
+    "Narnia",
+    "Gormenghast"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Plusieurs mondes sont nés autour d’une table de jeu.",
+   "id": "t070-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages viennent de La Roue du temps ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rand al’Thor",
+    "Moiraine",
+    "Perrin",
+    "Egwene",
+    "Fitz",
+    "Garion"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Fitz vient de Robin Hobb, Garion de David Eddings.",
+   "id": "t070-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres revisitent la légende arthurienne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Les Dames du lac",
+    "Excalibur, l’épée dans la pierre",
+    "Le Hobbit",
+    "L’Assassin royal"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Bradley et White donnent deux visions très différentes de Camelot.",
+   "id": "t070-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels héros sont des antihéros ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Thomas Covenant",
+    "Elric",
+    "Benvenuto Gesufal",
+    "Glokta",
+    "Aragorn",
+    "Garion"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces personnages tranchent avec les héros purs des premières sagas.",
+   "id": "t070-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels livres ont été édités ou réédités par la collection Ballantine Adult Fantasy ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Serpent Ouroboros",
+    "La Fille du roi des elfes",
+    "Lilith",
+    "Le Trône de fer",
+    "Fils-des-Brumes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Cette collection a sauvé de l’oubli de nombreux classiques.",
+   "id": "t070-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages appartiennent à L’Assassin royal ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fitz",
+    "Le Fou",
+    "Vérité",
+    "Burrich",
+    "Raistlin",
+    "Moiraine"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Le Fou de Robin Hobb est l’un des personnages les plus mystérieux de la fantasy.",
+   "id": "t070-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels romans appartiennent à la fantasy épique des années 1970-1980 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’Épée de Shannara",
+    "Magicien",
+    "La Belgariade",
+    "Phantastes",
+    "Le Hobbit"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces romans popularisent la fantasy épique auprès d’un large public.",
+   "id": "t070-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces romans par ordre de parution.",
+   "items": [
+    "Phantastes",
+    "La Fille du roi des elfes",
+    "Le Hobbit",
+    "Le Seigneur des anneaux"
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces romans paraissent en 1858, 1924, 1937 puis 1954.",
+   "id": "t070-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sagas par date de début.",
+   "items": [
+    "L’Épée de Shannara",
+    "Magicien",
+    "La Roue du temps",
+    "L’Assassin royal"
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces sagas débutent en 1977, 1982, 1990 puis 1995.",
+   "id": "t070-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces pionniers par date de naissance.",
+   "items": [
+    "George MacDonald",
+    "William Morris",
+    "Lord Dunsany",
+    "J. R. R. Tolkien"
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ils naissent en 1824, 1834, 1878 puis 1892.",
+   "id": "t070-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces romans français par date de parution.",
+   "items": [
+    "Le Secret de Ji",
+    "La Quête d’Ewilan",
+    "Gagner la guerre"
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces romans paraissent en 1996, 2003 puis 2009.",
+   "id": "t070-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces romans de 1920 à 1950 par ordre chronologique.",
+   "items": [
+    "Le Serpent Ouroboros",
+    "Lud-en-Brume",
+    "Titus d’Enfer",
+    "Le Lion, la Sorcière blanche et l’Armoire magique"
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces romans paraissent en 1922, 1926, 1946 puis 1950.",
+   "id": "t070-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’édition du Seigneur des anneaux en France par ordre chronologique.",
+   "items": [
+    "Traduction de Francis Ledoux",
+    "Films de Peter Jackson",
+    "Traduction de Daniel Lauzon"
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces étapes se placent en 1972, vers 2001 puis entre 2014 et 2016.",
+   "id": "t070-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces œuvres de fantasy sombre par date.",
+   "items": [
+    "Elric",
+    "La Compagnie noire",
+    "La Première Loi"
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces œuvres débutent en 1961, 1984 puis 2006.",
+   "id": "t070-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces romans de Tad Williams, Gemmell et Erikson par date de parution.",
+   "items": [
+    "Légende",
+    "L’Arcane des épées",
+    "Les Jardins de la Lune"
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces romans paraissent en 1984, 1988 puis 1999.",
+   "id": "t070-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces volumes du Seigneur des anneaux dans l’ordre.",
+   "items": [
+    "La Communauté de l’anneau",
+    "Les Deux Tours",
+    "Le Retour du roi"
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Les trois volumes paraissent entre juillet 1954 et octobre 1955.",
+   "id": "t070-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque auteur à son œuvre.",
+   "paires": [
+    [
+     "Tolkien",
+     "Le Seigneur des anneaux"
+    ],
+    [
+     "C. S. Lewis",
+     "Narnia"
+    ],
+    [
+     "Robert Jordan",
+     "La Roue du temps"
+    ],
+    [
+     "Robin Hobb",
+     "L’Assassin royal"
+    ]
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces œuvres ont façonné la fantasy moderne.",
+   "id": "t070-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque pionnier à son roman.",
+   "paires": [
+    [
+     "George MacDonald",
+     "Phantastes"
+    ],
+    [
+     "Lord Dunsany",
+     "La Fille du roi des elfes"
+    ],
+    [
+     "E. R. Eddison",
+     "Le Serpent Ouroboros"
+    ],
+    [
+     "Hope Mirrlees",
+     "Lud-en-Brume"
+    ]
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces livres ont précédé la vague tolkienienne.",
+   "id": "t070-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque héros à son cycle.",
+   "paires": [
+    [
+     "Garion",
+     "La Belgariade"
+    ],
+    [
+     "Pug",
+     "Midkemia"
+    ],
+    [
+     "Fitz",
+     "L’Assassin royal"
+    ],
+    [
+     "Raistlin",
+     "Dragonlance"
+    ]
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Chacun a marqué une génération de lecteurs.",
+   "id": "t070-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque auteur français à son œuvre.",
+   "paires": [
+    [
+     "Pierre Bottero",
+     "La Quête d’Ewilan"
+    ],
+    [
+     "Pierre Grimbert",
+     "Le Secret de Ji"
+    ],
+    [
+     "Jean-Philippe Jaworski",
+     "Gagner la guerre"
+    ]
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "La fantasy française a désormais ses propres classiques.",
+   "id": "t070-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque héros à son arme ou compagnon.",
+   "paires": [
+    [
+     "Elric",
+     "Stormbringer"
+    ],
+    [
+     "Druss",
+     "Snaga"
+    ],
+    [
+     "Fitz",
+     "Œil-de-Nuit"
+    ]
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Les armes ont souvent une personnalité dans la fantasy.",
+   "id": "t070-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque auteur à sa nationalité.",
+   "paires": [
+    [
+     "Lord Dunsany",
+     "Irlandais"
+    ],
+    [
+     "Guy Gavriel Kay",
+     "Canadien"
+    ],
+    [
+     "Robert Jordan",
+     "Américain"
+    ],
+    [
+     "William Morris",
+     "Anglais"
+    ]
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "La fantasy épique est d’abord un genre anglophone.",
+   "id": "t070-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque saga à son nombre de tomes principaux.",
+   "paires": [
+    [
+     "Narnia",
+     "Sept"
+    ],
+    [
+     "La Roue du temps",
+     "Quatorze"
+    ],
+    [
+     "Le Livre des martyrs",
+     "Dix"
+    ],
+    [
+     "La Belgariade",
+     "Cinq"
+    ]
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Certaines sagas s’étendent sur des décennies d’écriture.",
+   "id": "t070-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monde à son créateur.",
+   "paires": [
+    [
+     "Gormenghast",
+     "Mervyn Peake"
+    ],
+    [
+     "Midkemia",
+     "Raymond E. Feist"
+    ],
+    [
+     "Prydain",
+     "Lloyd Alexander"
+    ]
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Chaque monde a sa propre géographie et sa propre histoire.",
+   "id": "t070-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque essai à son auteur.",
+   "paires": [
+    [
+     "Du conte de fées",
+     "Tolkien"
+    ],
+    [
+     "Epic Pooh",
+     "Moorcock"
+    ],
+    [
+     "Le Héros aux mille visages",
+     "Campbell"
+    ],
+    [
+     "Imaginary Worlds",
+     "Lin Carter"
+    ]
+   ],
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Ces textes réfléchissent à ce qu’est la fantasy.",
+   "id": "t070-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. J’étais artisan et poète\n3. J’ai inventé la fantasy moderne dans les années 1890",
+   "choix": [
+    "William Morris",
+    "Lord Dunsany",
+    "George MacDonald",
+    "Tolkien"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Mes papiers peints sont encore célèbres.",
+   "id": "t070-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un héros\n2. Je suis albinos\n3. Mon épée boit les âmes",
+   "choix": [
+    "Elric",
+    "Conan",
+    "Corum",
+    "Druss"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Je suis l’empereur d’une île décadente et cruelle.",
+   "id": "t070-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un cercle\n2. Je réunis Tolkien et Lewis\n3. Je me réunis dans un pub d’Oxford",
+   "choix": [
+    "Les Inklings",
+    "Les Préraphaélites",
+    "Le Bloomsbury Group",
+    "La Table ronde"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Le pub s’appelle The Eagle and Child, à Oxford.",
+   "id": "t070-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une saga\n2. J’ai quatorze tomes\n3. Sanderson m’a terminée",
+   "choix": [
+    "La Roue du temps",
+    "Le Livre des martyrs",
+    "Shannara",
+    "L’Épée de vérité"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Mon premier tome s’appelle L’Œil du monde.",
+   "id": "t070-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un narrateur\n2. Je suis un bâtard royal\n3. Je suis formé à l’assassinat",
+   "choix": [
+    "FitzChevalerie",
+    "Kvothe",
+    "Garion",
+    "Pug"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Robin Hobb m’a fait vivre dans plusieurs cycles.",
+   "id": "t070-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un château\n2. Je suis immense et gothique\n3. Mervyn Peake m’a créé",
+   "choix": [
+    "Gormenghast",
+    "Castral Roc",
+    "Poudlard",
+    "Minas Tirith"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "On y suit Titus, l’héritier de la maison d’Enfer.",
+   "id": "t070-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. Je suis français\n3. J’ai écrit La Quête d’Ewilan",
+   "choix": [
+    "Pierre Bottero",
+    "Pierre Grimbert",
+    "Pierre Pevel",
+    "Pierre Bordage"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Je suis mort en 2009, dans un accident de moto.",
+   "id": "t070-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un roman\n2. Je parais en 1858\n3. J’ai baptisé l’imagination de C. S. Lewis",
+   "choix": [
+    "Phantastes",
+    "Lilith",
+    "Le Hobbit",
+    "Narnia"
+   ],
+   "rep": 0,
+   "src": "Clute et Grant ; Besson ; Carpenter",
+   "expl": "Mon auteur est le pasteur écossais George MacDonald.",
+   "id": "t070-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
