@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**45 / 99 thèmes terminés — 6152 questions au total.**
+**46 / 99 thèmes terminés — 6223 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -51,7 +51,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 43 | Grandes sagas et batailles de Warhammer | 120 | 40 | 14 (7) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 13/101/6 | 3 | terminé |
 | 44 | Mythes de création du monde | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 12/102/6 | 4 | terminé |
 | 45 | Les grands archétypes mythiques | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 12/102/6 | 4 | terminé |
-| 46 | Mythologie grecque (monstres et héros) | 70 | 31 | 22 (11) | 17 | 0 | 0 | 0 | 0 | 0 | 0 | 76 % | 35/26/9 | 4 | base |
+| 46 | Mythologie grecque (monstres et héros) | 141 | 45 | 18 (9) | 15 | 14 | 12 | 10 | 10 | 9 | 8 | 45 % | 18/111/12 | 8 | terminé |
 | 47 | Mythologie nordique | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 48 | Égypte, Celtes et légende arthurienne | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 49 | Folklore slave et yokai japonais | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -370,42 +370,4 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - sagas-warhammer : niveaux déséquilibrés [13, 101, 6]
 - mythes-creation : niveaux déséquilibrés [12, 102, 6]
 - archetypes-mythiques : niveaux déséquilibrés [12, 102, 6]
-- gre-003 : explication absente ou trop courte
-- gre-006 : explication absente ou trop courte
-- gre-011 : explication absente ou trop courte
-- gre-012 : explication absente ou trop courte
-- gre-014 : explication absente ou trop courte
-- gre-015 : explication absente ou trop courte
-- gre-017 : explication absente ou trop courte
-- gre-018 : explication absente ou trop courte
-- gre-019 : explication absente ou trop courte
-- gre-021 : explication absente ou trop courte
-- gre-024 : explication absente ou trop courte
-- gre-024 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (argo) — Dans la mythologie grecque, comment s’appelle le navire de Jason et des Argonautes ?
-- gre-025 : explication absente ou trop courte
-- gre-028 : explication absente ou trop courte
-- gre-030 : explication absente ou trop courte
-- gre-031 : explication absente ou trop courte
-- gre-039 : explication absente ou trop courte
-- gre-041 : ÉVIDENT ? vrai/faux peut-être tautologique (grec) — Dans la mythologie grecque, l’Olympe est une montagne de Grèce.
-- gre-043 : explication absente ou trop courte
-- gre-045 : explication absente ou trop courte
-- gre-048 : explication absente ou trop courte
-- gre-049 : explication absente ou trop courte
-- gre-050 : explication absente ou trop courte
-- gre-051 : explication absente ou trop courte
-- gre-054 : explication absente ou trop courte
-- gre-055 : explication absente ou trop courte
-- gre-056 : explication absente ou trop courte
-- gre-057 : explication absente ou trop courte
-- gre-058 : explication absente ou trop courte
-- gre-059 : explication absente ou trop courte
-- gre-060 : explication absente ou trop courte
-- gre-061 : explication absente ou trop courte
-- gre-064 : explication absente ou trop courte
-- gre-065 : explication absente ou trop courte
-- gre-066 : explication absente ou trop courte
-- gre-067 : explication absente ou trop courte
-- gre-068 : explication absente ou trop courte
-- gre-069 : explication absente ou trop courte
-- gre-070 : explication absente ou trop courte
+- mythologie-grecque : niveaux déséquilibrés [18, 111, 12]
