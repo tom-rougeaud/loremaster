@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**24 / 99 thèmes terminés — 3456 questions au total.**
+**25 / 99 thèmes terminés — 3598 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -30,7 +30,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 22 | Histoire de D&D et campagnes célèbres | 140 | 45 | 20 (10) | 9 | 15 | 10 | 10 | 10 | 10 | 11 | 46 % | 24/95/21 | 83 | terminé |
 | 23 | L’Histoire d’Arda (Silmarillion, grands Âges) | 143 | 50 | 18 (9) | 9 | 14 | 11 | 10 | 10 | 10 | 11 | 48 % | 21/93/29 | 13 | terminé |
 | 24 | Tolkien : thèmes et philosophie | 140 | 49 | 19 (10) | 8 | 12 | 11 | 10 | 10 | 10 | 11 | 49 % | 26/91/23 | 44 | terminé |
-| 25 | Le Hobbit et Le Seigneur des Anneaux | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 25 | Le Hobbit et Le Seigneur des Anneaux | 142 | 49 | 19 (10) | 9 | 13 | 10 | 10 | 10 | 10 | 12 | 48 % | 36/91/15 | 6 | terminé |
 | 26 | Géographie de la Terre du Milieu | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 27 | Peuples Libres et forces de l’Ombre | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 28 | Énigmes, citations et devises de Tolkien | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -353,6 +353,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - royaumes-oublies : niveaux déséquilibrés [22, 98, 21]
 - objets-magiques-dnd : niveaux déséquilibrés [24, 103, 14]
 - histoire-arda : niveaux déséquilibrés [21, 93, 29]
+- quete-anneau : niveaux déséquilibrés [36, 91, 15]
 - gre-003 : explication absente ou trop courte
 - gre-006 : explication absente ou trop courte
 - gre-011 : explication absente ou trop courte

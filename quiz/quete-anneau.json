@@ -1,0 +1,2320 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "quete-anneau",
+  "nom": "Le Hobbit et Le Seigneur des Anneaux",
+  "royaume": "Terres de Tolkien",
+  "icone": "anneau",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment s’appelle la maison de Bilbo, au début de son aventure ?",
+   "choix": [
+    "Cul-de-Sac",
+    "La Maison Ronde",
+    "Creux-de-Crique",
+    "Le Grand Smial"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Son confortable trou de hobbit est creusé sous la Colline.",
+   "id": "t025-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Qui mène la compagnie des nains ?",
+   "choix": [
+    "Thorin Écu-de-Chêne",
+    "Balin",
+    "Dáin",
+    "Glóin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Héritier du royaume d’Erebor, il veut reprendre son trésor au dragon.",
+   "id": "t025-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Gandalf vient-il à bout des trois trolls ?",
+   "choix": [
+    "Il les fait se disputer jusqu’à l’aube",
+    "Il les endort par un sort",
+    "Il les noie dans la rivière",
+    "Il les foudroie d’un éclair"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Imitant leurs voix, il prolonge leur dispute : la lumière du jour les change en pierre.",
+   "id": "t025-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui lit les lettres lunaires cachées sur la carte de Thrór ?",
+   "choix": [
+    "Elrond",
+    "Gandalf",
+    "Beorn",
+    "Thranduil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Ces lettres n’apparaissent qu’à la lumière d’une lune de la même phase que le jour où elles furent écrites.",
+   "id": "t025-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel change-peau accueille la compagnie après les Monts Brumeux ?",
+   "choix": [
+    "Beorn",
+    "Radagast",
+    "Tom Bombadil",
+    "Bard"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Il prend la forme d’un grand ours noir et vit entouré d’animaux.",
+   "id": "t025-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quoi porte la dernière question de Bilbo pendant le jeu d’énigmes avec Gollum ?",
+   "choix": [
+    "Ce qu’il a dans sa poche",
+    "Le nom de son père",
+    "Le nombre de ses doigts",
+    "La couleur du ciel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Ce n’est pas une vraie énigme, mais Gollum se laisse prendre et ne trouve pas la réponse.",
+   "id": "t025-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui tue le dragon Smaug ?",
+   "choix": [
+    "Bard l’Archer",
+    "Thorin",
+    "Bilbo",
+    "Beorn"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Descendant des seigneurs de Dale, il tire sa dernière flèche, la flèche noire.",
+   "id": "t025-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui apprend à Bard le point faible de Smaug ?",
+   "choix": [
+    "Une grive",
+    "Un corbeau",
+    "Gandalf",
+    "Bilbo"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "La grive avait entendu Bilbo décrire la plaque nue sur la poitrine du dragon.",
+   "id": "t025-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel joyau Thorin désire-t-il plus que tout ?",
+   "choix": [
+    "L’Arkenstone",
+    "Le Silmaril",
+    "Le collier de Girion",
+    "La gemme d’Elendil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Le Cœur de la Montagne avait été trouvé par son ancêtre Thráin Ier sous Erebor.",
+   "id": "t025-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui arrive des Monts de Fer au secours de Thorin ?",
+   "choix": [
+    "Dáin Pied-d’Acier",
+    "Balin",
+    "Bard",
+    "Thranduil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Cousin de Thorin, Dáin devient ensuite roi sous la Montagne.",
+   "id": "t025-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles armées s’affrontent à la Bataille des Cinq Armées ?",
+   "choix": [
+    "Elfes, Hommes, Nains, Gobelins et Wargs",
+    "Elfes, Nains, Ents, Trolls et Orques",
+    "Hommes, Nains, Aigles, Dragons et Wargs",
+    "Elfes, Hommes, Orques, Trolls et Géants"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "L’arrivée des gobelins réconcilie les trois peuples qui allaient se battre pour le trésor.",
+   "id": "t025-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le sous-titre du Hobbit ?",
+   "choix": [
+    "Histoire d’un aller et retour",
+    "Le Livre rouge de l’Ouest",
+    "La Quête de la Montagne",
+    "Le Voyage du cambrioleur"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "Le titre de travail de Bilbo pour ses mémoires évoque ce voyage aller-retour.",
+   "id": "t025-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que découvre Bilbo en rentrant chez lui à la fin du Hobbit ?",
+   "choix": [
+    "La vente aux enchères de ses biens",
+    "Sa maison détruite",
+    "Un dragon dans son jardin",
+    "Une fête en son honneur"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "On le croyait mort ; les Sacquet de Besace ne lui rendent pas toutes ses cuillères.",
+   "id": "t025-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle montagne abrite le trésor gardé par Smaug ?",
+   "choix": [
+    "Erebor",
+    "Caradhras",
+    "Orodruin",
+    "Mont Gundabad"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (Allen & Unwin, 1937) ; trad. Francis Ledoux (1969) et Daniel Lauzon (2012)",
+   "expl": "La Montagne Solitaire était le royaume des nains de Durin avant l’arrivée du dragon.",
+   "id": "t025-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "À quelle date la serrure de la porte secrète d’Erebor se révèle-t-elle ?",
+   "choix": [
+    "Le jour de Durin",
+    "La nuit du solstice",
+    "La fête de la mi-été",
+    "La première pleine lune"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Le dernier rayon du soleil désigne le trou de la serrure, le jour où lune et soleil sont ensemble au ciel en fin d’automne.",
+   "id": "t025-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Bilbo disparaît-il pendant le discours de sa fête d’anniversaire ?",
+   "choix": [
+    "En passant l’Anneau à son doigt",
+    "Grâce à un tour de Gandalf",
+    "Par une trappe",
+    "Dans un nuage de fumée"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Gandalf ajoute un éclair pour masquer le tour ; il n’apprécie pourtant guère la plaisanterie.",
+   "id": "t025-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle auberge de Bree les hobbits rencontrent-ils Grands-Pas ?",
+   "choix": [
+    "Le Poney Fringant",
+    "Le Dragon Vert",
+    "Le Cochon Doré",
+    "La Taverne du Pont"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Elle est tenue par Prosper Poiredebeurré, qui avait oublié de transmettre une lettre de Gandalf.",
+   "id": "t025-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui se cache sous le nom de Grands-Pas ?",
+   "choix": [
+    "Aragorn",
+    "Boromir",
+    "Faramir",
+    "Éomer"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Ce rôdeur du Nord est l’héritier d’Isildur.",
+   "id": "t025-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quelle colline Frodon est-il poignardé par le Roi-Sorcier ?",
+   "choix": [
+    "Le Mont Venteux",
+    "Amon Hen",
+    "Le Caradhras",
+    "Erebor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Amon Sûl, la Tour des Vents, gardait jadis une palantír ; la lame de Morgul y blesse Frodon.",
+   "id": "t025-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans le livre, quel elfe aide Frodon à atteindre le gué de la Bruinen ?",
+   "choix": [
+    "Glorfindel",
+    "Arwen",
+    "Legolas",
+    "Elrond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Peter Jackson a confié ce rôle à Arwen dans le film de 2001.",
+   "id": "t025-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel tombeau la Communauté découvre-t-elle dans la Moria ?",
+   "choix": [
+    "Celui de Balin",
+    "Celui de Durin",
+    "Celui de Thorin",
+    "Celui d’Isildur"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Le Livre de Mazarbul raconte la fin tragique de la colonie que Balin avait fondée.",
+   "id": "t025-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel démon Gandalf affronte-t-il sur le pont de Khazad-dûm ?",
+   "choix": [
+    "Un Balrog",
+    "Un dragon",
+    "Un Nazgûl",
+    "Un troll des cavernes"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Ce démon de l’ancien monde, réveillé par les nains, entraîne Gandalf dans l’abîme.",
+   "id": "t025-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que contient la fiole que Galadriel offre à Frodon ?",
+   "choix": [
+    "La lumière de l’étoile d’Eärendil",
+    "De l’eau de la Bruinen",
+    "Une potion de soins",
+    "Du miel de Beorn"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Cette lumière met en fuite Arachné dans les ténèbres de Cirith Ungol.",
+   "id": "t025-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Que Galadriel offre-t-elle à Sam ?",
+   "choix": [
+    "Une boîte de terre de son jardin",
+    "Une corde elfique tressée",
+    "Une dague des Galgals",
+    "Une broche d’argent vert"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Avec elle, Sam fait repousser les arbres de la Comté ; un mallorn y pousse même.",
+   "id": "t025-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Que Gimli demande-t-il à Galadriel en guise de présent ?",
+   "choix": [
+    "Un de ses cheveux",
+    "Une hache",
+    "Une gemme",
+    "Une carte"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Elle lui en donne trois ; le nain qui se méfiait des elfes devient son admirateur dévoué.",
+   "id": "t025-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui tente de prendre l’Anneau à Frodon sur l’Amon Hen ?",
+   "choix": [
+    "Boromir",
+    "Aragorn",
+    "Gimli",
+    "Sam"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Il le regrette aussitôt et meurt peu après en défendant Merry et Pippin.",
+   "id": "t025-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Au Gouffre de Helm, comment se termine le concours d’orques abattus entre les deux amis de la Communauté ?",
+   "choix": [
+    "Gimli gagne d’une seule victime",
+    "Legolas gagne de dix victimes",
+    "Ils finissent à égalité",
+    "Aucun des deux ne compte"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Gimli en compte 42, Legolas 41 : la rivalité scelle leur amitié.",
+   "id": "t025-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel hobbit regarde dans la palantír d’Orthanc ?",
+   "choix": [
+    "Pippin",
+    "Merry",
+    "Sam",
+    "Frodon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Il se retrouve face à Sauron, qui le croit porteur de l’Anneau.",
+   "id": "t025-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel capitaine du Gondor découvre Frodon et Sam en Ithilien ?",
+   "choix": [
+    "Faramir",
+    "Boromir",
+    "Imrahil",
+    "Beregond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Frère de Boromir, il refuse de s’emparer de l’Anneau dans le livre.",
+   "id": "t025-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle araignée géante attaque Frodon près de Cirith Ungol ?",
+   "choix": [
+    "Arachné",
+    "Ungoliant",
+    "Carcharoth",
+    "Smaug"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Arachné (Shelob) est une descendante d’Ungoliant ; Sam la blesse avec Dard et la fiole.",
+   "id": "t025-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui garde l’Anneau quand Frodon est capturé par les orques ?",
+   "choix": [
+    "Sam",
+    "Gollum",
+    "Merry",
+    "Faramir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Le croyant mort, Sam prend l’Anneau pour finir la mission, avant de le lui rendre.",
+   "id": "t025-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui tue le Roi-Sorcier d’Angmar ?",
+   "choix": [
+    "Éowyn, aidée de Merry",
+    "Aragorn",
+    "Théoden",
+    "Gandalf"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Merry le blesse avec une lame des Galgals ; Éowyn lui porte le coup fatal.",
+   "id": "t025-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Par où Aragorn conduit-il ses renforts jusqu’aux Champs du Pelennor ?",
+   "choix": [
+    "Par les Chemins des Morts, puis en navire",
+    "Par les mines de la Moria",
+    "À dos d’aigle géant",
+    "Par la route du Rohan"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "L’Armée des Morts l’aide à s’emparer des navires d’Umbar.",
+   "id": "t025-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui tente de se brûler vif avec son fils à Minas Tirith ?",
+   "choix": [
+    "Denethor",
+    "Théoden",
+    "Saruman",
+    "Gríma"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Pippin et Gandalf sauvent Faramir ; Denethor meurt seul sur le bûcher.",
+   "id": "t025-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait Frodon au bord de la Crevasse du Destin ?",
+   "choix": [
+    "Il décide de garder l’Anneau",
+    "Il le jette aussitôt dans le feu",
+    "Il le confie à Sam",
+    "Il appelle les aigles"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "À ce moment, nul n’aurait pu résister ; Gollum surgit alors.",
+   "id": "t025-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui fait finalement tomber l’Anneau dans le feu ?",
+   "choix": [
+    "Gollum",
+    "Sam",
+    "Frodon",
+    "Gandalf"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Il arrache le doigt de Frodon, puis bascule dans la lave avec son « trésor ».",
+   "id": "t025-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sous quel nom Saruman règne-t-il sur la Comté à la fin du récit ?",
+   "choix": [
+    "Sharkey",
+    "Lotho",
+    "Bill Fougeron",
+    "Langue de Serpent"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Un surnom orque signifiant « vieil homme » ; Lotho Sacquet de Besace était son homme de paille.",
+   "id": "t025-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "D’où Frodon quitte-t-il la Terre du Milieu ?",
+   "choix": [
+    "Des Havres Gris",
+    "De Fondcombe",
+    "De Dol Amroth",
+    "De Pelargir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Il part avec Bilbo, Gandalf, Elrond et Galadriel vers les Terres Immortelles.",
+   "id": "t025-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle armure Bilbo donne-t-il à Frodon à Fondcombe ?",
+   "choix": [
+    "Une cotte de mailles de mithril",
+    "Un bouclier elfique",
+    "Un casque d’argent",
+    "Une cape d’invisibilité"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Elle vaut plus que la Comté entière ; elle sauve Frodon d’un coup de lance dans la Moria.",
+   "id": "t025-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom porte l’épée reforgée d’Aragorn ?",
+   "choix": [
+    "Andúril",
+    "Narsil",
+    "Glamdring",
+    "Anglachel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "« Flamme de l’Ouest » : elle est reforgée à Fondcombe à partir des fragments de Narsil.",
+   "id": "t025-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le cheval de Gandalf ?",
+   "choix": [
+    "Gripoil",
+    "Nivacrin",
+    "Hasufel",
+    "Arod"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Ce seigneur des chevaux du Rohan ne se laisse monter que par Gandalf.",
+   "id": "t025-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui Sam épouse-t-il à son retour ?",
+   "choix": [
+    "Rose Chaumine",
+    "Lobelia Sacquet de Besace",
+    "Baie d’Or",
+    "Arwen"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Ils ont treize enfants ; la première s’appelle Elanor.",
+   "id": "t025-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel était le nom de Gollum avant que l’Anneau ne le change ?",
+   "choix": [
+    "Sméagol",
+    "Déagol",
+    "Gríma",
+    "Gorbag"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Il était un Fort, un peuple apparenté aux hobbits, vivant près de l’Anduin.",
+   "id": "t025-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui Sméagol tue-t-il pour s’emparer de l’Anneau ?",
+   "choix": [
+    "Déagol",
+    "Isildur",
+    "Bilbo",
+    "Bard"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Son ami venait de trouver l’Anneau au fond de la rivière, le jour de l’anniversaire de Sméagol.",
+   "id": "t025-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui accueille les hobbits avec Tom Bombadil dans sa maison ?",
+   "choix": [
+    "Baie d’Or",
+    "Galadriel",
+    "Arwen",
+    "Rose Chaumine"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "La « Fille de la Rivière » est l’épouse de Tom.",
+   "id": "t025-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel arbre malveillant emprisonne Merry et Pippin près de la rivière Tournesaules ?",
+   "choix": [
+    "Le Vieil Homme Saule",
+    "Sylvebarbe",
+    "Le Mallorn",
+    "L’Arbre Blanc"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Tom Bombadil le force à les relâcher par son chant.",
+   "id": "t025-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel fermier, redouté pour ses chiens, aide finalement les hobbits à fuir ?",
+   "choix": [
+    "Le père Maggotte",
+    "Le père Chaumine",
+    "Prosper Poiredebeurré",
+    "Ted Sablonnier"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Frodon l’avait craint enfant, après lui avoir volé des champignons.",
+   "id": "t025-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel orque commande la tour de Cirith Ungol ?",
+   "choix": [
+    "Shagrat",
+    "Gorbag",
+    "Uglúk",
+    "Grishnákh"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Sa dispute avec Gorbag pour la cotte de mithril provoque un massacre qui aide Sam.",
+   "id": "t025-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment le Gondor appelle-t-il le Rohan à l’aide ?",
+   "choix": [
+    "En allumant les feux d’alarme sur les montagnes",
+    "En envoyant un aigle",
+    "Par une palantír",
+    "En sonnant le cor de Boromir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (Allen & Unwin, 1954-1955) ; trad. Francis Ledoux (Christian Bourgois, 1972-1973)",
+   "expl": "Pippin les voit s’allumer un à un en arrivant à Minas Tirith.",
+   "id": "t025-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Au début de son histoire, Bilbo est casanier et n’aime pas l’aventure.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Hobbit (1937)",
+   "expl": "Vrai : son côté Touque, plus aventureux, finit pourtant par l’emporter.",
+   "id": "t025-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Thorin survit à la Bataille des Cinq Armées.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Hobbit (1937)",
+   "expl": "Faux : mortellement blessé, il se réconcilie avec Bilbo avant de mourir.",
+   "id": "t025-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Bilbo cache l’Arkenstone et la remet aux assiégeants pour éviter la guerre.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Hobbit (1937)",
+   "expl": "Vrai : il la confie à Bard et au roi des Elfes pour qu’ils négocient avec Thorin.",
+   "id": "t025-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Smaug est tué par Thorin.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : c’est Bard l’Archer qui l’abat au-dessus d’Esgaroth.",
+   "id": "t025-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans le livre, l’Anneau n’a aucun pouvoir sur Tom Bombadil.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : il le passe à son doigt sans disparaître et voit Frodon quand celui-ci le porte.",
+   "id": "t025-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans le livre, Arwen emmène Frodon jusqu’au gué de la Bruinen.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : c’est l’elfe Glorfindel ; le film de 2001 a confié ce rôle à Arwen.",
+   "id": "t025-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gandalf revient de la mort sous le nom de Gandalf le Blanc.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : il remplace Saruman, qui a trahi son ordre.",
+   "id": "t025-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans le livre, Saruman meurt à Isengard.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : il meurt dans la Comté, égorgé par Gríma Langue de Serpent.",
+   "id": "t025-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Merry et Pippin grandissent après avoir bu la boisson des Ents.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : ils deviennent les plus grands hobbits connus.",
+   "id": "t025-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans le livre, Faramir tente de s’emparer de l’Anneau.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : il refuse de le prendre ; c’est le film qui le montre tenté.",
+   "id": "t025-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sam porte l’Anneau pendant un moment.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : il fait partie des rares Porteurs ; il partira lui aussi vers l’Ouest, des années plus tard.",
+   "id": "t025-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Frodon jette volontairement l’Anneau dans le feu.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : il le revendique ; c’est la chute de Gollum qui le détruit.",
+   "id": "t025-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Aragorn épouse Arwen.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : la fille d’Elrond renonce à l’immortalité, comme Lúthien avant elle.",
+   "id": "t025-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Seigneur des Anneaux est la suite directe du Silmarillion.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : c’est la suite du Hobbit ; Le Silmarillion raconte des événements bien plus anciens.",
+   "id": "t025-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Nazgûl sont au nombre de neuf.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : ce sont neuf rois humains asservis par les Neuf Anneaux.",
+   "id": "t025-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Boromir meurt en défendant Merry et Pippin.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : il sonne du cor jusqu’à la fin, criblé de flèches par les Uruk-hai.",
+   "id": "t025-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La Comté sort intacte de la Guerre de l’Anneau.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : à leur retour, les hobbits doivent la libérer des hommes de Sharkey.",
+   "id": "t025-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Bilbo part vers les Terres Immortelles avec Frodon.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Vrai : comme Porteur de l’Anneau, il reçoit cette grâce à 131 ans.",
+   "id": "t025-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gimli quitte la Lothlórien sans rien demander à Galadriel.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Faux : il ose demander un cheveu ; elle lui en offre trois.",
+   "id": "t025-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de nains accompagnent Bilbo dans Le Hobbit ?",
+   "rep": 13,
+   "min": 5,
+   "max": 20,
+   "pas": 1,
+   "unite": "nains",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Thorin et ses douze compagnons ; Gandalf trouve que treize porte malheur, d’où le cambrioleur.",
+   "id": "t025-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel âge Bilbo fête-t-il au début du Seigneur des Anneaux ?",
+   "rep": 111,
+   "min": 50,
+   "max": 150,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Son « onze-vingt-et-unième » anniversaire, le même jour que les 33 ans de Frodon.",
+   "id": "t025-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel âge Frodon a-t-il le jour de la grande fête d’anniversaire ?",
+   "rep": 33,
+   "min": 18,
+   "max": 50,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "C’est la « majorité » des hobbits ; ils sont nés le même jour, le 22 septembre.",
+   "id": "t025-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de membres compte la Communauté de l’Anneau ?",
+   "rep": 9,
+   "min": 5,
+   "max": 13,
+   "pas": 1,
+   "unite": "membres",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Neuf Marcheurs pour faire face aux Neuf Cavaliers.",
+   "id": "t025-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’orques Gimli dit-il avoir abattus au Gouffre de Helm ?",
+   "rep": 42,
+   "min": 10,
+   "max": 60,
+   "pas": 1,
+   "unite": "orques",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Legolas en compte 41 ; Gimli gagne leur concours d’une victime.",
+   "id": "t025-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’années séparent la fête de Bilbo du départ de Frodon ?",
+   "rep": 17,
+   "min": 1,
+   "max": 30,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Gandalf met tout ce temps à confirmer la vraie nature de l’Anneau.",
+   "id": "t025-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Quel âge a Aragorn pendant la Guerre de l’Anneau ?",
+   "rep": 87,
+   "min": 30,
+   "max": 120,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Descendant des rois de Númenor, il vivra 210 ans.",
+   "id": "t025-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quel âge a Bilbo au début du Hobbit ?",
+   "rep": 50,
+   "min": 20,
+   "max": 80,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Il est alors un respectable hobbit d’âge mûr.",
+   "id": "t025-076",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de fois Sam est-il élu maire de la Comté ?",
+   "rep": 7,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "mandats",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Sept mandats de sept ans, d’après les appendices.",
+   "id": "t025-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Thorin porte le surnom d’Écu-de-____.",
+   "choix": [
+    "Chêne",
+    "Fer",
+    "Pierre",
+    "Bronze"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937) ; trad. Francis Ledoux (1969)",
+   "expl": "Lors d’une bataille, il se protège d’une branche de chêne en guise de bouclier.",
+   "id": "t025-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Bilbo s’échappe du palais du roi des Elfes en cachant les nains dans des ____.",
+   "choix": [
+    "tonneaux",
+    "paniers",
+    "sacs",
+    "coffres"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937) ; trad. Francis Ledoux (1969)",
+   "expl": "Les tonneaux flottent sur la rivière jusqu’à Esgaroth.",
+   "id": "t025-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’épée de Bilbo, ____, brille en bleu à l’approche des orques.",
+   "choix": [
+    "Dard",
+    "Orcrist",
+    "Glamdring",
+    "Andúril"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Il la nomme ainsi après avoir tué une araignée géante dans la Forêt Noire.",
+   "id": "t025-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Pour ouvrir les portes de la Moria, il faut dire « ____ », « ami » en elfique.",
+   "choix": [
+    "mellon",
+    "elen",
+    "namárië",
+    "aiya"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Gandalf cherche longtemps la formule, alors que l’inscription donnait la réponse.",
+   "id": "t025-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le berger des arbres qui accueille Merry et Pippin s’appelle ____.",
+   "choix": [
+    "Sylvebarbe",
+    "Vif-Sorbier",
+    "Vieil Homme Saule",
+    "Bombadil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Le plus vieil Ent de Fangorn réunit l’Entmoot, puis marche sur Isengard.",
+   "id": "t025-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le conseiller traître de Théoden s’appelle Gríma Langue de ____.",
+   "choix": [
+    "Serpent",
+    "Vipère",
+    "Venin",
+    "Couleuvre"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Il est au service de Saruman, qui lui a promis Éowyn.",
+   "id": "t025-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante royale qui soigne les blessés s’appelle l’____.",
+   "choix": [
+    "athelas",
+    "elanor",
+    "niphredil",
+    "simbelmynë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Une vieille comptine de Minas Tirith dit que les mains du roi sont des mains de guérisseur.",
+   "id": "t025-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les Cavaliers noirs sont aussi appelés les ____.",
+   "choix": [
+    "Nazgûl",
+    "Uruk-hai",
+    "Huorns",
+    "Drúedain"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Les Esprits servants de l’Anneau sont invisibles sans leurs manteaux noirs.",
+   "id": "t025-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le chef des Nazgûl est le Roi-Sorcier d’____.",
+   "choix": [
+    "Angmar",
+    "Arnor",
+    "Umbar",
+    "Rhûn"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Il avait détruit le royaume du Nord au Troisième Âge.",
+   "id": "t025-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La Communauté se repose dans la forêt elfique de la ____.",
+   "choix": [
+    "Lothlórien",
+    "Forêt Noire",
+    "Vieille Forêt",
+    "Fangorn"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Galadriel et Celeborn y règnent parmi les mallorns aux feuilles d’or.",
+   "id": "t025-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "À la fin du récit, Saruman est tué par ____.",
+   "choix": [
+    "Langue de Serpent",
+    "Sam",
+    "Gandalf",
+    "Merry"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Humilié par Saruman devant les hobbits, Gríma se retourne contre son maître.",
+   "id": "t025-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Bilbo puis Frodon racontent leurs aventures dans le Livre ____.",
+   "choix": [
+    "Rouge",
+    "Noir",
+    "d’Or",
+    "Gris"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Le Livre rouge de la Marche de l’Ouest est la source fictive du récit.",
+   "id": "t025-089",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Peregrin Touque est surnommé ____.",
+   "choix": [
+    "Pippin",
+    "Merry",
+    "Fatty",
+    "Sam"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Pippin est le plus jeune des hobbits de la Communauté.",
+   "id": "t025-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces nains n’appartient pas à la compagnie de Thorin ?",
+   "choix": [
+    "Dáin",
+    "Balin",
+    "Bombur",
+    "Ori"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Dáin arrive à la fin, avec l’armée des Monts de Fer.",
+   "id": "t025-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas membre de la Communauté de l’Anneau ?",
+   "choix": [
+    "Faramir",
+    "Boromir",
+    "Legolas",
+    "Gimli"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Faramir rencontre Frodon et Sam plus tard, en Ithilien.",
+   "id": "t025-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un hobbit ?",
+   "choix": [
+    "Bard",
+    "Lobelia",
+    "Lotho",
+    "Fatty Bolger"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Bard est un homme d’Esgaroth, descendant des seigneurs de Dale.",
+   "id": "t025-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces cadeaux ne vient pas de Galadriel ?",
+   "choix": [
+    "La cotte de mithril",
+    "La fiole d’étoile",
+    "La boîte de terre",
+    "Les trois cheveux"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "La cotte de mithril est un cadeau de Bilbo, qui la tenait de Thorin.",
+   "id": "t025-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces épées n’a pas été trouvée dans l’antre des trolls ?",
+   "choix": [
+    "Andúril",
+    "Dard",
+    "Glamdring",
+    "Orcrist"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Andúril est reforgée à Fondcombe à partir de Narsil.",
+   "id": "t025-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Par lequel de ces lieux Frodon et Sam ne passent-ils pas après la séparation ?",
+   "choix": [
+    "Le Gouffre de Helm",
+    "Les Marais des Morts",
+    "L’Ithilien",
+    "Cirith Ungol"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Le Gouffre de Helm est le théâtre de la bataille d’Aragorn, Legolas et Gimli.",
+   "id": "t025-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces créatures n’apparaît pas dans Le Hobbit ?",
+   "choix": [
+    "Le Balrog",
+    "Les trolls",
+    "Les wargs",
+    "Les araignées"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Le Balrog apparaît dans Le Seigneur des Anneaux, dans la Moria.",
+   "id": "t025-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages ne meurt pas pendant la Guerre de l’Anneau ?",
+   "choix": [
+    "Faramir",
+    "Boromir",
+    "Théoden",
+    "Denethor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Faramir, sauvé du bûcher, épouse Éowyn et devient prince d’Ithilien.",
+   "id": "t025-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms n’est pas un nom de Gandalf ?",
+   "choix": [
+    "Elessar",
+    "Mithrandir",
+    "Olórin",
+    "Le Pèlerin gris"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Elessar, « pierre elfique », est le nom de règne d’Aragorn.",
+   "id": "t025-099",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms n’est pas un nom d’Aragorn ?",
+   "choix": [
+    "Ecthelion",
+    "Grands-Pas",
+    "Elessar",
+    "Estel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Ecthelion est un intendant du Gondor, et le nom d’un héros de Gondolin.",
+   "id": "t025-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Qui fait partie de la Communauté de l’Anneau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Frodon",
+    "Aragorn",
+    "Legolas",
+    "Gimli",
+    "Faramir",
+    "Glorfindel"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Faramir et Glorfindel ne partent pas avec les Neuf Marcheurs.",
+   "id": "t025-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles épées viennent de l’antre des trolls ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dard",
+    "Glamdring",
+    "Orcrist",
+    "Andúril",
+    "Narsil"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Les trois lames ont été forgées à Gondolin au Premier Âge.",
+   "id": "t025-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Qui a porté l’Anneau unique ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bilbo",
+    "Frodon",
+    "Sam",
+    "Gollum",
+    "Gandalf",
+    "Boromir"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Gandalf refuse de le toucher longtemps ; Boromir n’a jamais pu s’en emparer.",
+   "id": "t025-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Qui meurt à la Bataille des Cinq Armées ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Thorin",
+    "Fíli",
+    "Kíli",
+    "Balin",
+    "Bilbo"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Fíli et Kíli, neveux de Thorin, meurent en le défendant.",
+   "id": "t025-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Par quels lieux passe la Communauté avant de se séparer ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fondcombe",
+    "La Moria",
+    "La Lothlórien",
+    "Le Gouffre de Helm",
+    "Minas Tirith"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "La Communauté se sépare sur l’Amon Hen, au-dessus des chutes de Rauros.",
+   "id": "t025-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Qui abat ensemble le Roi-Sorcier ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Éowyn",
+    "Merry",
+    "Aragorn",
+    "Théoden"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Une ancienne prophétie disait qu’il ne tomberait pas de la main d’un homme.",
+   "id": "t025-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles créatures servent Sauron ou Saruman ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Orques",
+    "Uruk-hai",
+    "Nazgûl",
+    "Huorns",
+    "Aigles"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Les Huorns aident le Rohan ; les Aigles sauvent Frodon et Sam.",
+   "id": "t025-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples se battent du côté de Bilbo à la Bataille des Cinq Armées ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Elfes",
+    "Hommes",
+    "Nains",
+    "Gobelins",
+    "Wargs"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Les Aigles et Beorn arrivent en renfort à la fin de la bataille.",
+   "id": "t025-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels hobbits partent des Havres Gris à la fin du Seigneur des Anneaux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Frodon",
+    "Bilbo",
+    "Merry",
+    "Pippin"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Sam reste dans la Comté avec sa famille ; il partira bien plus tard.",
+   "id": "t025-109",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels présents Galadriel offre-t-elle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Une fiole de lumière",
+    "Une boîte de terre",
+    "Des cheveux d’or",
+    "Une cotte de mithril",
+    "Une épée reforgée"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Elle offre aussi des capes, une corde, un arc et des ceintures.",
+   "id": "t025-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes du Hobbit dans l’ordre.",
+   "items": [
+    "Les trolls",
+    "Les gobelins des Monts Brumeux",
+    "Beorn",
+    "La Forêt Noire",
+    "Esgaroth"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "De la Comté à la Montagne Solitaire, le voyage dure presque un an.",
+   "id": "t025-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la Communauté dans l’ordre.",
+   "items": [
+    "Le Caradhras",
+    "La Moria",
+    "La Lothlórien",
+    "L’Amon Hen"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "La neige du Caradhras force la Communauté à passer sous la montagne.",
+   "id": "t025-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la fuite hors de la Comté dans l’ordre.",
+   "items": [
+    "La Vieille Forêt",
+    "Les Hauts des Galgals",
+    "Bree",
+    "Le Mont Venteux",
+    "Le gué de la Bruinen"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Tom Bombadil sauve deux fois les hobbits avant Bree.",
+   "id": "t025-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces batailles par ordre chronologique.",
+   "items": [
+    "Le Gouffre de Helm",
+    "Les Champs du Pelennor",
+    "La Porte Noire",
+    "La bataille dans la Comté"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "La dernière bataille de la guerre se déroule chez les hobbits eux-mêmes.",
+   "id": "t025-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du voyage de Frodon et Sam dans l’ordre.",
+   "items": [
+    "Les Marais des Morts",
+    "L’Ithilien",
+    "Cirith Ungol",
+    "La Montagne du Destin"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Gollum les guide jusqu’à l’antre d’Arachné, où il espère récupérer l’Anneau.",
+   "id": "t025-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces porteurs de l’Anneau par ordre chronologique.",
+   "items": [
+    "Isildur",
+    "Déagol",
+    "Sméagol",
+    "Bilbo",
+    "Frodon"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Après Sauron, l’Anneau passe à Isildur, dort dans l’Anduin, puis trouve d’autres mains.",
+   "id": "t025-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de la fin du récit dans l’ordre.",
+   "items": [
+    "Destruction de l’Anneau",
+    "Couronnement d’Aragorn",
+    "Libération de la Comté",
+    "Départ des Havres Gris"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Frodon part en 3021, deux ans après la libération de la Comté.",
+   "id": "t025-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de l’histoire de Gandalf dans l’ordre.",
+   "items": [
+    "Gandalf le Gris",
+    "Chute dans la Moria",
+    "Retour en blanc",
+    "Départ des Havres Gris"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Revenu plus puissant, il garde son humour et sa pipe.",
+   "id": "t025-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces lieux du Hobbit de l’ouest à l’est.",
+   "items": [
+    "Hobbitebourg",
+    "Fondcombe",
+    "La Forêt Noire",
+    "Erebor"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Bilbo traverse presque toute la carte du nord de la Terre du Milieu.",
+   "id": "t025-119",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces moments de la bataille des Champs du Pelennor dans l’ordre.",
+   "items": [
+    "Arrivée des Rohirrim",
+    "Chute de Théoden",
+    "Mort du Roi-Sorcier",
+    "Arrivée des navires d’Aragorn"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Les voiles noires des corsaires portent en réalité Aragorn et ses alliés.",
+   "id": "t025-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque épée à son porteur.",
+   "paires": [
+    [
+     "Dard",
+     "Bilbo puis Frodon"
+    ],
+    [
+     "Glamdring",
+     "Gandalf"
+    ],
+    [
+     "Orcrist",
+     "Thorin"
+    ],
+    [
+     "Andúril",
+     "Aragorn"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Orcrist est déposée sur la tombe de Thorin ; elle brille à l’approche des orques.",
+   "id": "t025-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque personnage à son peuple.",
+   "paires": [
+    [
+     "Legolas",
+     "Elfes"
+    ],
+    [
+     "Gimli",
+     "Nains"
+    ],
+    [
+     "Boromir",
+     "Hommes du Gondor"
+    ],
+    [
+     "Éomer",
+     "Rohirrim"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "La Communauté rassemble presque tous les Peuples libres.",
+   "id": "t025-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque cadeau de Galadriel à son destinataire.",
+   "paires": [
+    [
+     "Fiole de lumière",
+     "Frodon"
+    ],
+    [
+     "Boîte de terre",
+     "Sam"
+    ],
+    [
+     "Trois cheveux",
+     "Gimli"
+    ],
+    [
+     "Arc des Galadhrim",
+     "Legolas"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Aragorn reçoit un fourreau pour Andúril et la pierre verte Elessar.",
+   "id": "t025-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monture à son cavalier.",
+   "paires": [
+    [
+     "Gripoil",
+     "Gandalf"
+    ],
+    [
+     "Nivacrin",
+     "Théoden"
+    ],
+    [
+     "Bill le poney",
+     "Sam"
+    ],
+    [
+     "Hasufel",
+     "Aragorn"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Éomer prête Hasufel et Arod à Aragorn et à Legolas.",
+   "id": "t025-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque lieu à son seigneur.",
+   "paires": [
+    [
+     "Fondcombe",
+     "Elrond"
+    ],
+    [
+     "Lothlórien",
+     "Galadriel et Celeborn"
+    ],
+    [
+     "Isengard",
+     "Saruman"
+    ],
+    [
+     "Minas Tirith",
+     "Denethor"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Denethor gouverne Minas Tirith comme intendant, en l’absence du roi.",
+   "id": "t025-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque créature à son repaire.",
+   "paires": [
+    [
+     "Smaug",
+     "Erebor"
+    ],
+    [
+     "Arachné",
+     "Cirith Ungol"
+    ],
+    [
+     "Balrog",
+     "Moria"
+    ],
+    [
+     "Gollum",
+     "Les Monts Brumeux"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Gollum vivait sur un îlot d’un lac souterrain, sous les montagnes.",
+   "id": "t025-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à son surnom.",
+   "paires": [
+    [
+     "Aragorn",
+     "Grands-Pas"
+    ],
+    [
+     "Thorin",
+     "Écu-de-Chêne"
+    ],
+    [
+     "Gríma",
+     "Langue de Serpent"
+    ],
+    [
+     "Saruman",
+     "Sharkey"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Les surnoms disent souvent l’essentiel d’un personnage.",
+   "id": "t025-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque hobbit à son nom de famille.",
+   "paires": [
+    [
+     "Frodon",
+     "Sacquet"
+    ],
+    [
+     "Sam",
+     "Gamegie"
+    ],
+    [
+     "Merry",
+     "Brandebouc"
+    ],
+    [
+     "Pippin",
+     "Touque"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Noms de la traduction de Francis Ledoux ; Daniel Lauzon a ensuite proposé Frodo et Gamgie.",
+   "id": "t025-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à sa faute.",
+   "paires": [
+    [
+     "Boromir",
+     "Veut prendre l’Anneau"
+    ],
+    [
+     "Denethor",
+     "Cède au désespoir"
+    ],
+    [
+     "Saruman",
+     "Trahit le Conseil blanc"
+    ],
+    [
+     "Gríma",
+     "Empoisonne l’esprit de Théoden"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Tolkien montre que chacun peut tomber, mais aussi se relever, comme Boromir.",
+   "id": "t025-129",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet à son origine.",
+   "paires": [
+    [
+     "Cotte de mithril",
+     "Trésor d’Erebor"
+    ],
+    [
+     "Fiole",
+     "Galadriel"
+    ],
+    [
+     "Andúril",
+     "Narsil reforgée"
+    ],
+    [
+     "Dard",
+     "Antre des trolls"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Les objets du récit passent de main en main et relient Le Hobbit au Seigneur des Anneaux.",
+   "id": "t025-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un hobbit\n2. J’ai trouvé un anneau sous la montagne\n3. Je fête mes 111 ans",
+   "choix": [
+    "Bilbo",
+    "Frodon",
+    "Sam",
+    "Merry"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Bilbo écrit ensuite ses mémoires à Fondcombe.",
+   "id": "t025-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un dragon\n2. Je dors sur l’or d’Erebor\n3. Une flèche noire m’abat",
+   "choix": [
+    "Smaug",
+    "Glaurung",
+    "Scatha",
+    "Ancalagon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Smaug avait chassé les nains de la Montagne Solitaire près de deux siècles plus tôt.",
+   "id": "t025-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je change de peau\n2. Je deviens un grand ours noir\n3. J’accueille les nains chez moi",
+   "choix": [
+    "Beorn",
+    "Radagast",
+    "Tom Bombadil",
+    "Bard"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Il combat sous forme d’ours à la Bataille des Cinq Armées.",
+   "id": "t025-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un archer\n2. Je descends des seigneurs de Dale\n3. J’ai abattu le dragon",
+   "choix": [
+    "Bard",
+    "Thranduil",
+    "Legolas",
+    "Dáin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Bard rebâtit ensuite la ville de Dale et en devient le roi.",
+   "id": "t025-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un rôdeur\n2. On m’appelle Grands-Pas\n3. Je deviens roi",
+   "choix": [
+    "Aragorn",
+    "Boromir",
+    "Faramir",
+    "Éomer"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Il prend le nom de roi Elessar Telcontar et rétablit le royaume réunifié.",
+   "id": "t025-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un ancien hobbit\n2. J’ai tué mon ami pour un trésor\n3. Je parle à mon « précieux »",
+   "choix": [
+    "Gollum",
+    "Bilbo",
+    "Lotho",
+    "Déagol"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "L’Anneau a prolongé sa vie de plusieurs siècles en le dévorant de l’intérieur.",
+   "id": "t025-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un elfe\n2. Je compte mes victimes avec un nain\n3. Je viens de la Forêt Noire",
+   "choix": [
+    "Legolas",
+    "Glorfindel",
+    "Haldir",
+    "Elrond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Fils de Thranduil, Legolas devient l’ami inséparable de Gimli.",
+   "id": "t025-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une femme du Rohan\n2. Je me déguise en guerrier\n3. J’abats le Roi-Sorcier",
+   "choix": [
+    "Éowyn",
+    "Arwen",
+    "Galadriel",
+    "Rose"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Nièce de Théoden, elle épouse Faramir après la guerre.",
+   "id": "t025-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis jardinier\n2. Je porte Frodon sur la montagne\n3. J’épouse Rose Chaumine",
+   "choix": [
+    "Sam",
+    "Merry",
+    "Pippin",
+    "Bilbo"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Tolkien voyait en Sam le véritable héros de l’histoire.",
+   "id": "t025-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un être très ancien\n2. Je chante dans la Vieille Forêt\n3. L’Anneau n’a aucun pouvoir sur moi",
+   "choix": [
+    "Tom Bombadil",
+    "Sylvebarbe",
+    "Gandalf",
+    "Radagast"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Elrond le dit « sans père » : nul ne sait vraiment ce qu’il est.",
+   "id": "t025-140",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis intendant\n2. Je regarde dans une palantír\n3. Je désespère et je me brûle",
+   "choix": [
+    "Denethor",
+    "Théoden",
+    "Saruman",
+    "Faramir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "La pierre de Minas Tirith lui montrait ce que Sauron voulait bien lui faire voir.",
+   "id": "t025-141",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un magicien\n2. Ma robe blanche devient multicolore\n3. Je trahis le Conseil",
+   "choix": [
+    "Saruman",
+    "Gandalf",
+    "Radagast",
+    "Le Roi-Sorcier"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; trad. Francis Ledoux (1972-1973)",
+   "expl": "Saruman étudie trop longtemps l’art de l’Ennemi et finit par vouloir l’Anneau.",
+   "id": "t025-142",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

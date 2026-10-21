@@ -11,3 +11,4 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 19 : noms français (Gisombre, Féerie, Dame des Douleurs, Magepeste, Calendrier des Vallées, Mur des Infidèles) à confronter aux traductions officielles.
 - Thème 20 : noms français (Château-Suif, Castelmithral, Lunargent, Phandaline, Portail Béant, Herbeverte, Hautemoisson, Calendrier des Vallées) à confronter aux traductions officielles.
 - Thème 22 : éditeur de la traduction française de 1983 (Transecom) et titre VF « Le Sourire du dragon » à reconfirmer.
+- Thèmes 23-25 : noms VF de Ledoux à confirmer (Nivacrin, Tournesaules, Père Maggotte, Bill Fougeron, Arachné, Gouffre de Helm).
