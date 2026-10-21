@@ -1,0 +1,2121 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "mythes-ameriques",
+  "nom": "Mythes aztèques, mayas et amérindiens",
+  "royaume": "Mythologies et folklores du monde",
+  "icone": "pyramide",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forme prend le dieu Quetzalcoatl ?",
+   "choix": [
+    "Un serpent à plumes",
+    "Un jaguar ailé",
+    "Un aigle à deux têtes",
+    "Un singe hurleur"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Son nom réunit l’oiseau quetzal et le serpent ; il est lié au vent et au savoir.",
+   "id": "t051-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu aztèque porte un miroir fumant à la place d’un pied ?",
+   "choix": [
+    "Tezcatlipoca",
+    "Quetzalcoatl",
+    "Tlaloc",
+    "Xipe Totec"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Rival de Quetzalcoatl, il voit tout dans son miroir d’obsidienne.",
+   "id": "t051-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu aztèque du soleil et de la guerre naît tout armé de Coatlicue ?",
+   "choix": [
+    "Huitzilopochtli",
+    "Tonatiuh",
+    "Tezcatlipoca",
+    "Mixcoatl"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Il tue aussitôt sa sœur Coyolxauhqui et ses quatre cents frères.",
+   "id": "t051-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que devient la tête de Coyolxauhqui, tuée par son frère ?",
+   "choix": [
+    "La lune",
+    "Une montagne",
+    "Un volcan",
+    "Le soleil couchant"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Une grande pierre sculptée la montrant démembrée a été découverte au Templo Mayor en 1978.",
+   "id": "t051-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu aztèque de la pluie est reconnaissable à ses yeux cerclés et ses crocs ?",
+   "choix": [
+    "Tlaloc",
+    "Chaac",
+    "Ehecatl",
+    "Xochipilli"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Il partageait le sommet du Templo Mayor avec Huitzilopochtli.",
+   "id": "t051-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment s’appelle le monde des morts aztèque ?",
+   "choix": [
+    "Le Mictlan",
+    "Le Xibalba",
+    "L’Aztlan",
+    "Le Tlalocan"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Les morts mettent quatre ans à le traverser, en franchissant neuf niveaux.",
+   "id": "t051-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal guide les morts aztèques à travers un fleuve du Mictlan ?",
+   "choix": [
+    "Un chien",
+    "Un jaguar",
+    "Un aigle",
+    "Un colibri"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "On enterrait parfois un chien avec le défunt ; la race xoloitzcuintli porte le nom du dieu Xolotl.",
+   "id": "t051-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu aztèque du printemps porte la peau d’un sacrifié ?",
+   "choix": [
+    "Xipe Totec",
+    "Tlaloc",
+    "Mictlantecuhtli",
+    "Ehecatl"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Comme la graine perd son enveloppe, il symbolise le renouveau de la végétation.",
+   "id": "t051-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel signe annonce aux Aztèques l’endroit où fonder leur capitale ?",
+   "choix": [
+    "Un aigle dévorant un serpent sur un cactus",
+    "Un jaguar sur un volcan",
+    "Un serpent enroulé dans un lac",
+    "Une étoile filante sur une île"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Ce symbole figure aujourd’hui au centre du drapeau mexicain.",
+   "id": "t051-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle était la capitale des Aztèques, bâtie sur un lac ?",
+   "choix": [
+    "Tenochtitlan",
+    "Teotihuacan",
+    "Tula",
+    "Chichén Itzá"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Mexico s’élève aujourd’hui sur ses ruines.",
+   "id": "t051-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quelle terre mythique les Aztèques disent-ils venir ?",
+   "choix": [
+    "Aztlan",
+    "Tollan",
+    "Tamoanchan",
+    "Mictlan"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Le nom « Aztèque » en dérive, même si eux-mêmes se disaient Mexicas.",
+   "id": "t051-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que rapporte Quetzalcoatl du monde des morts pour créer les nouveaux humains ?",
+   "choix": [
+    "Des ossements",
+    "Du maïs",
+    "Une pierre de jade",
+    "Un miroir"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Il les arrose de son propre sang pour leur donner vie.",
+   "id": "t051-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle cérémonie aztèque a lieu tous les cinquante-deux ans ?",
+   "choix": [
+    "Le Feu Nouveau",
+    "La danse des volants",
+    "Le jeu de balle sacré",
+    "La fête des morts"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Tous les feux sont éteints ; on craint la fin du monde jusqu’à ce qu’une flamme renaisse.",
+   "id": "t051-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels jumeaux héros affrontent les seigneurs de Xibalba dans le Popol Vuh ?",
+   "choix": [
+    "Hunahpu et Xbalanque",
+    "Romulus et Rémus",
+    "Castor et Pollux",
+    "Hun et Vucub"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Ils triomphent par la ruse, le jeu de balle et la résurrection.",
+   "id": "t051-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le monde souterrain des Mayas k’iche’ ?",
+   "choix": [
+    "Xibalba",
+    "Mictlan",
+    "Uku Pacha",
+    "Duat"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Son nom évoque la peur ; ses seigneurs s’appellent Un-Mort et Sept-Mort.",
+   "id": "t051-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où pend la tête de Hun Hunahpu, le père des jumeaux ?",
+   "choix": [
+    "Dans un calebassier",
+    "Sur un pieu du terrain de jeu",
+    "Dans un cénote",
+    "Sur le temple de Kukulkán"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Elle crache dans la main de la jeune Xquic, qui tombe enceinte des jumeaux.",
+   "id": "t051-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel oiseau orgueilleux se prend pour le soleil, avant d’être abattu par les jumeaux ?",
+   "choix": [
+    "Vucub Caquix",
+    "Kukulkán",
+    "Quetzal",
+    "Itzamna"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Les jumeaux lui arrachent ses dents de pierres précieuses.",
+   "id": "t051-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que deviennent les jumeaux héros à la fin de leur aventure ?",
+   "choix": [
+    "Le soleil et la lune",
+    "Deux montagnes",
+    "Deux étoiles filantes",
+    "Deux jaguars"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Leur victoire inaugure l’ère des vrais humains.",
+   "id": "t051-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel phénomène se produit au Castillo de Chichén Itzá aux équinoxes ?",
+   "choix": [
+    "Une ombre de serpent descend l’escalier",
+    "Le soleil traverse une fente du temple",
+    "La pyramide résonne comme une cloche",
+    "Une source jaillit du sommet"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Les triangles de lumière évoquent le corps de Kukulkán.",
+   "id": "t051-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel dieu maya de la pluie manie une hache-éclair ?",
+   "choix": [
+    "Chaac",
+    "Tlaloc",
+    "Itzamna",
+    "Kinich Ahau"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Ses masques au long nez ornent de nombreux édifices du Yucatán.",
+   "id": "t051-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse maya est liée à la lune, au tissage et aux naissances ?",
+   "choix": [
+    "Ixchel",
+    "Coatlicue",
+    "Mama Quilla",
+    "Xquic"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Les femmes venaient en pèlerinage dans son sanctuaire de l’île de Cozumel.",
+   "id": "t051-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel moine dominicain recopie et traduit le Popol Vuh au début du 18e siècle ?",
+   "choix": [
+    "Francisco Ximénez",
+    "Bernardino de Sahagún",
+    "Diego de Landa",
+    "Bartolomé de las Casas"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Sa copie est aujourd’hui conservée à Chicago.",
+   "id": "t051-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel dieu inca incarne le soleil ?",
+   "choix": [
+    "Inti",
+    "Viracocha",
+    "Illapa",
+    "Supay"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "L’empereur, ou Sapa Inca, se disait son fils.",
+   "id": "t051-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse inca représente la Terre nourricière ?",
+   "choix": [
+    "Pachamama",
+    "Mama Quilla",
+    "Mama Ocllo",
+    "Mama Cocha"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "On lui offre encore aujourd’hui des feuilles de coca et de la chicha dans les Andes.",
+   "id": "t051-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel couple fondateur sort du lac Titicaca pour fonder la dynastie inca ?",
+   "choix": [
+    "Manco Cápac et Mama Ocllo",
+    "Inti et Mama Quilla",
+    "Viracocha et Pachamama",
+    "Atahualpa et Huáscar"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Un bâton d’or qui s’enfonce dans le sol leur indique l’emplacement de Cuzco.",
+   "id": "t051-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle grande fête inca célèbre le soleil au solstice de juin ?",
+   "choix": [
+    "Inti Raymi",
+    "Qoyllur Rit’i",
+    "Capac Raymi",
+    "Pachakuti"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Elle est encore rejouée chaque année à Cuzco, sur l’esplanade de Sacsayhuamán.",
+   "id": "t051-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel temple inca de Cuzco était couvert de plaques d’or ?",
+   "choix": [
+    "Le Coricancha",
+    "Machu Picchu",
+    "Sacsayhuamán",
+    "Ollantaytambo"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Son nom signifie « enclos d’or » ; un couvent espagnol a été bâti dessus.",
+   "id": "t051-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel grand esprit ailé des Plaines et de la côte nord-ouest fait gronder l’orage ?",
+   "choix": [
+    "L’Oiseau-Tonnerre",
+    "Le Corbeau",
+    "L’Aigle de Jade",
+    "Le Colibri de feu"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Ses yeux lancent les éclairs ; il figure au sommet de nombreux mâts totémiques.",
+   "id": "t051-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel oiseau fripon vole la lumière du monde, enfermée dans une boîte, chez les peuples de la côte Pacifique ?",
+   "choix": [
+    "Le Corbeau",
+    "Le Coyote",
+    "L’aigle",
+    "La chouette"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Il se fait naître comme petit-fils du chef qui gardait le soleil.",
+   "id": "t051-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel esprit cannibale des forêts glacées hante les récits algonquiens ?",
+   "choix": [
+    "Le Wendigo",
+    "Le Sasquatch",
+    "Le Skinwalker",
+    "Le Thunderbird"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Il incarne la faim insatiable de l’hiver et la peur de dévorer les siens.",
+   "id": "t051-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel joueur de flûte bossu apporte fertilité et musique chez les Hopis ?",
+   "choix": [
+    "Kokopelli",
+    "Iktomi",
+    "Glooscap",
+    "Nanabozho"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Son image se retrouve sur de nombreux pétroglyphes du sud-ouest américain.",
+   "id": "t051-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle femme sacrée apporte la pipe sacrée au peuple lakota ?",
+   "choix": [
+    "La Femme Bison Blanc",
+    "La Femme Araignée",
+    "La Femme Céleste",
+    "Sedna"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Elle repart en se changeant en jeune bison blanc.",
+   "id": "t051-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel fripon araignée appartient aux récits lakotas ?",
+   "choix": [
+    "Iktomi",
+    "Anansi",
+    "Kokopelli",
+    "Glooscap"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Il porte le même genre de ruses qu’Anansi, l’araignée africaine.",
+   "id": "t051-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse inuit de la mer règne sur les animaux marins ?",
+   "choix": [
+    "Sedna",
+    "Pachamama",
+    "Ixchel",
+    "Nerrivik"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Ses doigts coupés par son père deviennent phoques, morses et baleines.",
+   "id": "t051-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros culturel des Ojibwés transforme le monde après le déluge ?",
+   "choix": [
+    "Nanabozho",
+    "Glooscap",
+    "Kokopelli",
+    "Wakan Tanka"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Il est aussi un lièvre farceur, protecteur et maladroit.",
+   "id": "t051-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet ojibwé, tendu comme une toile, retient les cauchemars ?",
+   "choix": [
+    "Le capteur de rêves",
+    "Le mât totémique",
+    "La pipe sacrée",
+    "Le wampum"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "La tradition le relie à la Femme Araignée, protectrice des enfants.",
+   "id": "t051-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels êtres masqués, esprits des ancêtres et de la pluie, visitent les villages hopis ?",
+   "choix": [
+    "Les kachinas",
+    "Les wendigos",
+    "Les skinwalkers",
+    "Les manitous"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "On offre aux enfants des poupées kachinas sculptées pour leur apprendre à les reconnaître.",
+   "id": "t051-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels jumeaux héros du peuple navajo débarrassent le monde des géants qui le ravagent ?",
+   "choix": [
+    "Les fils de la Femme Changeante",
+    "Hunahpu et Xbalanque",
+    "Glooscap et son frère Malsum",
+    "Manco Cápac et Ayar Cachi"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "On les appelle le Tueur de Monstres et Né-pour-l’Eau ; leur père est le Soleil.",
+   "id": "t051-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que sculptent les peuples de la côte nord-ouest pour raconter l’histoire de leur famille ?",
+   "choix": [
+    "Des mâts totémiques",
+    "Des masques de jade",
+    "Des pyramides",
+    "Des statues de pierre"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Chaque animal représente un clan, un ancêtre ou un récit.",
+   "id": "t051-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu aztèque des morts règne au plus profond du monde souterrain ?",
+   "choix": [
+    "Mictlantecuhtli",
+    "Tlaloc",
+    "Xolotl",
+    "Tezcatlipoca"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "On le représente en squelette, parfois couvert de taches de sang.",
+   "id": "t051-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conquistador arrive au Mexique en 1519 et fait tomber Tenochtitlan ?",
+   "choix": [
+    "Hernán Cortés",
+    "Francisco Pizarro",
+    "Christophe Colomb",
+    "Pedro de Alvarado"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "L’empereur Moctezuma II l’accueille d’abord, avant que la guerre n’éclate.",
+   "id": "t051-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conquistador capture l’empereur inca Atahualpa en 1532 ?",
+   "choix": [
+    "Francisco Pizarro",
+    "Hernán Cortés",
+    "Diego de Almagro",
+    "Vasco Núñez de Balboa"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "Atahualpa paie une rançon d’une salle remplie d’or, mais il est exécuté.",
+   "id": "t051-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de balle rituel était pratiqué par les Aztèques et les Mayas ?",
+   "choix": [
+    "Avec une balle de caoutchouc, sans les mains",
+    "Avec une balle de cuir, au pied",
+    "Avec une raquette de bois",
+    "Avec une crosse et une balle de pierre"
+   ],
+   "rep": 0,
+   "src": "M. Graulich, Mythes et rituels du Mexique ancien préhispanique ; Popol Vuh, trad. A. Breton ; Garcilaso de la Vega, Commentaires royaux des Incas ; Smithsonian, National Museum of the American Indian",
+   "expl": "On frappait la lourde balle avec les hanches ; certains matchs se terminaient par un sacrifice.",
+   "id": "t051-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Quetzalcoatl est un serpent à plumes.",
+   "rep": true,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les Mayas l’appellent Kukulkán, et les K’iche’ Gucumatz.",
+   "id": "t051-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tezcatlipoca et Quetzalcoatl sont souvent des rivaux.",
+   "rep": true,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Leur lutte provoque la destruction de plusieurs soleils successifs.",
+   "id": "t051-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Mictlan est le paradis des guerriers aztèques.",
+   "rep": false,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Faux : c’est le monde des morts ordinaires ; les guerriers rejoignent le soleil.",
+   "id": "t051-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Coyolxauhqui est la sœur de Huitzilopochtli.",
+   "rep": true,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Elle voulait tuer leur mère Coatlicue, enceinte de façon mystérieuse.",
+   "id": "t051-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tenochtitlan était bâtie au milieu d’un lac.",
+   "rep": true,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Des chaussées la reliaient à la terre ferme ; les conquistadors la comparaient à Venise.",
+   "id": "t051-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les jumeaux du Popol Vuh perdent contre les seigneurs de Xibalba.",
+   "rep": false,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Faux : ils les vainquent par la ruse, en feignant de mourir et de ressusciter.",
+   "id": "t051-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Chaac est un dieu maya du feu.",
+   "rep": false,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Faux : c’est le dieu de la pluie, invoqué pendant les sécheresses du Yucatán.",
+   "id": "t051-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le calendrier maya prévoyait la fin du monde en 2012.",
+   "rep": false,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Faux : le 21 décembre 2012 marquait seulement la fin d’un grand cycle du compte long.",
+   "id": "t051-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Inti est le dieu inca de la lune.",
+   "rep": false,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Faux : c’est le dieu du soleil ; la lune est Mama Quilla.",
+   "id": "t051-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Manco Cápac est le fondateur légendaire de la dynastie inca.",
+   "rep": true,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Il enseigne l’agriculture aux hommes, et Mama Ocllo le tissage aux femmes.",
+   "id": "t051-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Oiseau-Tonnerre est un esprit de la mer.",
+   "rep": false,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Faux : c’est un esprit du ciel, de l’orage et de la guerre.",
+   "id": "t051-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Wendigo est associé à l’hiver et à la famine.",
+   "rep": true,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le mot désigne aussi une maladie mentale décrite par certains peuples algonquiens.",
+   "id": "t051-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sedna règne sur les animaux de la mer.",
+   "rep": true,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les chamanes descendaient la peigner pour qu’elle libère le gibier.",
+   "id": "t051-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Incas utilisaient des cordelettes nouées appelées quipus.",
+   "rep": true,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Ces nœuds servaient à compter, et peut-être à noter des récits.",
+   "id": "t051-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Pachamama est une déesse de la mer.",
+   "rep": false,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Faux : elle est la Terre-Mère ; la mer est le domaine de Mama Cocha.",
+   "id": "t051-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Kokopelli est un dieu aztèque.",
+   "rep": false,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Faux : c’est une figure des Hopis et d’autres peuples du sud-ouest des États-Unis.",
+   "id": "t051-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le capteur de rêves vient de la tradition ojibwée.",
+   "rep": true,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Il s’est ensuite répandu dans de nombreuses nations.",
+   "id": "t051-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Aztèques sacrifiaient au dieu Tlaloc pour obtenir la pluie.",
+   "rep": true,
+   "src": "Mythes mésoaméricains et andins",
+   "expl": "Les sacrifices d’enfants lui étaient particulièrement destinés.",
+   "id": "t051-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de niveaux compte le Mictlan aztèque ?",
+   "rep": 9,
+   "min": 3,
+   "max": 13,
+   "pas": 1,
+   "unite": "niveaux",
+   "tolerance": 0,
+   "src": "Mythes mésoaméricains et andins",
+   "expl": "Mictlantecuhtli et son épouse règnent au plus profond.",
+   "id": "t051-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Tous les combien d’années les Aztèques célèbrent-ils le Feu Nouveau ?",
+   "rep": 52,
+   "min": 20,
+   "max": 100,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Mythes mésoaméricains et andins",
+   "expl": "C’est le « siècle » aztèque, où les deux calendriers coïncident à nouveau.",
+   "id": "t051-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de jours compte le calendrier rituel aztèque et maya ?",
+   "rep": 260,
+   "min": 100,
+   "max": 365,
+   "pas": 5,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "Mythes mésoaméricains et andins",
+   "expl": "Il combine vingt signes de jours et treize nombres.",
+   "id": "t051-064",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de frères Huitzilopochtli tue-t-il à sa naissance ?",
+   "rep": 400,
+   "min": 10,
+   "max": 1000,
+   "pas": 10,
+   "unite": "frères",
+   "tolerance": 0,
+   "src": "Mythes mésoaméricains et andins",
+   "expl": "Ces « quatre cents » sont devenus les étoiles du sud.",
+   "id": "t051-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’années un mort aztèque met-il à atteindre le fond du Mictlan ?",
+   "rep": 4,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Mythes mésoaméricains et andins",
+   "expl": "Il doit franchir des montagnes qui s’entrechoquent et des vents d’obsidienne.",
+   "id": "t051-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année la Pierre de Coyolxauhqui est-elle découverte à Mexico ?",
+   "rep": 1978,
+   "min": 1900,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Mythes mésoaméricains et andins",
+   "expl": "Des ouvriers de l’électricité la mettent au jour par hasard.",
+   "id": "t051-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de jours comporte l’année solaire aztèque ?",
+   "rep": 365,
+   "min": 260,
+   "max": 400,
+   "pas": 5,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "Mythes mésoaméricains et andins",
+   "expl": "Dix-huit mois de vingt jours, plus cinq jours néfastes.",
+   "id": "t051-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année se termine le grand cycle du compte long maya qui a tant fait parler ?",
+   "rep": 2012,
+   "min": 1999,
+   "max": 2050,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Mythes mésoaméricains et andins",
+   "expl": "Le 13e baktun s’achevait le 21 décembre.",
+   "id": "t051-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le serpent à plumes aztèque s’appelle ____.",
+   "choix": [
+    "Quetzalcoatl",
+    "Tlaloc",
+    "Kukulkán",
+    "Xolotl"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Il est aussi le dieu des prêtres, de l’écriture et du calendrier.",
+   "id": "t051-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monde des morts maya s’appelle ____.",
+   "choix": [
+    "Xibalba",
+    "Mictlan",
+    "Aztlan",
+    "Tollan"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "On y accédait, disait-on, par des grottes et des cénotes.",
+   "id": "t051-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La capitale aztèque s’appelle ____.",
+   "choix": [
+    "Tenochtitlan",
+    "Teotihuacan",
+    "Cuzco",
+    "Tula"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Elle comptait sans doute plus de deux cent mille habitants.",
+   "id": "t051-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dieu aztèque au miroir fumant s’appelle ____.",
+   "choix": [
+    "Tezcatlipoca",
+    "Tlaloc",
+    "Tonatiuh",
+    "Xipe"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Il est le patron des sorciers et des guerriers.",
+   "id": "t051-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dieu inca du soleil s’appelle ____.",
+   "choix": [
+    "Inti",
+    "Illapa",
+    "Supay",
+    "Viracocha"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "On le représente comme un disque d’or à visage humain.",
+   "id": "t051-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La Terre-Mère andine s’appelle ____.",
+   "choix": [
+    "Pachamama",
+    "Mama Quilla",
+    "Coatlicue",
+    "Ixchel"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le 1er août, on lui offre la première part des repas.",
+   "id": "t051-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La fête inca du soleil s’appelle l’Inti ____.",
+   "choix": [
+    "Raymi",
+    "Pacha",
+    "Quilla",
+    "Wasi"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Elle se tient au solstice d’hiver austral, le 24 juin.",
+   "id": "t051-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les jumeaux du Popol Vuh s’appellent Hunahpu et ____.",
+   "choix": [
+    "Xbalanque",
+    "Xquic",
+    "Vucub",
+    "Ixchel"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Hunahpu devient le soleil, Xbalanque la lune.",
+   "id": "t051-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’esprit cannibale des forêts glacées s’appelle le ____.",
+   "choix": [
+    "Wendigo",
+    "Sasquatch",
+    "Skinwalker",
+    "Kachina"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "On le décrit maigre comme un squelette et toujours affamé.",
+   "id": "t051-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La déesse inuit de la mer s’appelle ____.",
+   "choix": [
+    "Sedna",
+    "Nuliajuk",
+    "Pinga",
+    "Ixchel"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "D’autres groupes inuits l’appellent Nuliajuk ou Takannaaluk.",
+   "id": "t051-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le joueur de flûte bossu hopi s’appelle ____.",
+   "choix": [
+    "Kokopelli",
+    "Iktomi",
+    "Kachina",
+    "Tawa"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "On le dit capable de faire venir la pluie et les récoltes.",
+   "id": "t051-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’objet ojibwé qui filtre les cauchemars s’appelle le ____ de rêves.",
+   "choix": [
+    "capteur",
+    "piège",
+    "filet",
+    "cercle"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "On le suspendait au-dessus du berceau des enfants.",
+   "id": "t051-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La déesse mère de Huitzilopochtli, à la jupe de serpents, s’appelle ____.",
+   "choix": [
+    "Coatlicue",
+    "Coyolxauhqui",
+    "Chalchiuhtlicue",
+    "Xochiquetzal"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Elle tombe enceinte en recueillant une boule de plumes.",
+   "id": "t051-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces dieux n’est pas aztèque ?",
+   "choix": [
+    "Inti",
+    "Quetzalcoatl",
+    "Tlaloc",
+    "Tezcatlipoca"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Inti est le dieu inca du soleil, dans les Andes.",
+   "id": "t051-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas maya ?",
+   "choix": [
+    "Huitzilopochtli",
+    "Chaac",
+    "Ixchel",
+    "Itzamna"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Huitzilopochtli est le dieu tutélaire des Aztèques.",
+   "id": "t051-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces villes n’est pas inca ?",
+   "choix": [
+    "Tenochtitlan",
+    "Cuzco",
+    "Machu Picchu",
+    "Ollantaytambo"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Tenochtitlan est la capitale aztèque, au Mexique.",
+   "id": "t051-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces êtres n’appartient pas aux traditions nord-amérindiennes ?",
+   "choix": [
+    "Xbalanque",
+    "Le Wendigo",
+    "Kokopelli",
+    "L’Oiseau-Tonnerre"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Xbalanque est l’un des jumeaux mayas du Popol Vuh.",
+   "id": "t051-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mondes n’est pas un monde des morts ?",
+   "choix": [
+    "Aztlan",
+    "Mictlan",
+    "Xibalba",
+    "Uku Pacha"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Aztlan est la terre d’origine des Aztèques.",
+   "id": "t051-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces fripons n’est pas amérindien ?",
+   "choix": [
+    "Anansi",
+    "Iktomi",
+    "Le Corbeau",
+    "Nanabozho"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Anansi vient des récits d’Afrique de l’Ouest.",
+   "id": "t051-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas lié à la pluie ?",
+   "choix": [
+    "Huitzilopochtli",
+    "Tlaloc",
+    "Chaac",
+    "Cocijo"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Huitzilopochtli est le dieu du soleil et de la guerre.",
+   "id": "t051-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces personnages n’est pas inca ?",
+   "choix": [
+    "Xquic",
+    "Manco Cápac",
+    "Mama Ocllo",
+    "Pachacútec"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Xquic est la mère des jumeaux du Popol Vuh.",
+   "id": "t051-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’est pas amérindien ?",
+   "choix": [
+    "Le boomerang",
+    "Le capteur de rêves",
+    "Le mât totémique",
+    "La pipe sacrée"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le boomerang appartient aux peuples aborigènes d’Australie.",
+   "id": "t051-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces animaux n’est pas lié à Quetzalcoatl ?",
+   "choix": [
+    "Le chien",
+    "Le serpent",
+    "L’oiseau quetzal",
+    "Le vent"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le chien est l’animal de Xolotl, son double, qui guide les morts.",
+   "id": "t051-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels dieux appartiennent au panthéon aztèque ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Quetzalcoatl",
+    "Tlaloc",
+    "Tezcatlipoca",
+    "Huitzilopochtli",
+    "Inti",
+    "Chaac"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Inti est un dieu inca, Chaac un dieu maya de la pluie.",
+   "id": "t051-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages apparaissent dans le Popol Vuh ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hunahpu",
+    "Xbalanque",
+    "Xquic",
+    "Vucub Caquix",
+    "Manco Cápac",
+    "Sedna"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le Popol Vuh est le livre sacré des Mayas k’iche’ du Guatemala.",
+   "id": "t051-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles divinités sont incas ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Inti",
+    "Pachamama",
+    "Mama Quilla",
+    "Viracocha",
+    "Tlaloc",
+    "Ixchel"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le culte du soleil était au cœur de l’État inca.",
+   "id": "t051-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels êtres appartiennent aux traditions nord-amérindiennes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Oiseau-Tonnerre",
+    "Wendigo",
+    "Kokopelli",
+    "Iktomi",
+    "Quetzalcoatl",
+    "Viracocha"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Chaque nation possède ses propres récits, très divers.",
+   "id": "t051-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux sont associés aux Mayas ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Chichén Itzá",
+    "Tikal",
+    "Palenque",
+    "Cuzco",
+    "Tenochtitlan"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les grandes cités mayas s’étendent du Mexique au Honduras.",
+   "id": "t051-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels éléments composent le symbole de la fondation de Tenochtitlan ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aigle",
+    "Serpent",
+    "Cactus nopal",
+    "Jaguar",
+    "Lama"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "On le retrouve aujourd’hui sur les pièces et le drapeau du Mexique.",
+   "id": "t051-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles divinités sont liées à la lune ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Coyolxauhqui",
+    "Ixchel",
+    "Mama Quilla",
+    "Inti",
+    "Tonatiuh"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Inti et Tonatiuh sont des dieux du soleil.",
+   "id": "t051-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels êtres sont des fripons amérindiens ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Coyote",
+    "Corbeau",
+    "Iktomi",
+    "Nanabozho",
+    "Pachamama",
+    "Tlaloc"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les fripons sont à la fois créateurs et farceurs.",
+   "id": "t051-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels êtres ou objets sont liés aux Hopis ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Kachinas",
+    "Kokopelli",
+    "Femme Araignée",
+    "Mâts totémiques",
+    "Wendigo"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les mâts totémiques viennent de la côte nord-ouest, le Wendigo du nord-est.",
+   "id": "t051-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels animaux sont sacrés pour les Aztèques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aigle",
+    "Jaguar",
+    "Serpent",
+    "Lama",
+    "Bison"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les guerriers d’élite se divisaient en chevaliers aigles et chevaliers jaguars.",
+   "id": "t051-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces civilisations par ordre d’apogée, de la plus ancienne à la plus récente.",
+   "items": [
+    "Mayas classiques",
+    "Aztèques",
+    "Incas"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "L’apogée maya se situe vers 250-900 ; Aztèques et Incas fleurissent au 15e siècle.",
+   "id": "t051-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la naissance de Huitzilopochtli dans l’ordre.",
+   "items": [
+    "Coatlicue recueille une boule de plumes",
+    "Coyolxauhqui veut la tuer",
+    "Huitzilopochtli naît tout armé",
+    "Il tue sa sœur et ses frères"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Ce combat rejoue chaque matin la victoire du soleil sur la lune et les étoiles.",
+   "id": "t051-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire des jumeaux du Popol Vuh dans l’ordre.",
+   "items": [
+    "Mort de leur père à Xibalba",
+    "Naissance des jumeaux",
+    "Épreuves à Xibalba",
+    "Ils deviennent soleil et lune"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Leur père avait été vaincu au jeu de balle par les seigneurs de la mort.",
+   "id": "t051-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la fondation de Tenochtitlan dans l’ordre.",
+   "items": [
+    "Départ d’Aztlan",
+    "Longue migration",
+    "Vision de l’aigle",
+    "Fondation sur le lac"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "La ville est fondée vers 1325, selon la tradition.",
+   "id": "t051-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la légende de Manco Cápac dans l’ordre.",
+   "items": [
+    "Sortie du lac Titicaca",
+    "Voyage vers le nord",
+    "Le bâton d’or s’enfonce",
+    "Fondation de Cuzco"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Cuzco devient le « nombril du monde » inca.",
+   "id": "t051-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du voyage d’un mort aztèque dans l’ordre.",
+   "items": [
+    "Mort et funérailles",
+    "Traversée du fleuve avec le chien",
+    "Épreuves des neuf niveaux",
+    "Arrivée devant Mictlantecuhtli"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le voyage dure quatre ans, à travers neuf niveaux.",
+   "id": "t051-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du mythe de Sedna dans l’ordre.",
+   "items": [
+    "Sedna épouse un oiseau",
+    "Son père l’emmène en kayak",
+    "Il la jette à la mer",
+    "Ses doigts deviennent animaux marins"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Elle devient au fond de l’océan la maîtresse des bêtes marines.",
+   "id": "t051-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du vol de la lumière par le Corbeau dans l’ordre.",
+   "items": [
+    "Il se change en aiguille de pin",
+    "Une fille l’avale en buvant",
+    "Il naît comme petit-fils du chef",
+    "Il libère le soleil de la boîte"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le petit-fils capricieux obtient du grand-père toutes les boîtes, une par une.",
+   "id": "t051-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Fondation de Tenochtitlan",
+    "Arrivée de Cortés au Mexique",
+    "Copie du Popol Vuh par Ximénez",
+    "Découverte de la Pierre de Coyolxauhqui"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Vers 1325, en 1519, vers 1701 puis en 1978.",
+   "id": "t051-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces calendriers mésoaméricains du plus court au plus long.",
+   "items": [
+    "Calendrier rituel",
+    "Année solaire",
+    "Cycle de cinquante-deux ans"
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "260 jours, 365 jours, puis la grande « roue calendaire ».",
+   "id": "t051-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque dieu à sa civilisation.",
+   "paires": [
+    [
+     "Quetzalcoatl",
+     "Aztèques"
+    ],
+    [
+     "Chaac",
+     "Mayas"
+    ],
+    [
+     "Inti",
+     "Incas"
+    ],
+    [
+     "Sedna",
+     "Inuits"
+    ]
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Chaque civilisation a ses dieux propres, même si certains se ressemblent.",
+   "id": "t051-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu aztèque à son domaine.",
+   "paires": [
+    [
+     "Tlaloc",
+     "Pluie"
+    ],
+    [
+     "Huitzilopochtli",
+     "Soleil et guerre"
+    ],
+    [
+     "Mictlantecuhtli",
+     "Morts"
+    ],
+    [
+     "Xipe Totec",
+     "Printemps"
+    ]
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le panthéon aztèque compte des centaines de divinités.",
+   "id": "t051-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monde des morts à sa civilisation.",
+   "paires": [
+    [
+     "Mictlan",
+     "Aztèques"
+    ],
+    [
+     "Xibalba",
+     "Mayas"
+    ],
+    [
+     "Uku Pacha",
+     "Incas"
+    ]
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les Incas divisaient le monde en trois : ciel, terre et monde d’en bas.",
+   "id": "t051-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque divinité inca à son domaine.",
+   "paires": [
+    [
+     "Inti",
+     "Soleil"
+    ],
+    [
+     "Mama Quilla",
+     "Lune"
+    ],
+    [
+     "Pachamama",
+     "Terre"
+    ],
+    [
+     "Illapa",
+     "Tonnerre"
+    ]
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les Incas honoraient aussi montagnes et sources, les huacas.",
+   "id": "t051-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque être amérindien à son peuple.",
+   "paires": [
+    [
+     "Kokopelli",
+     "Hopis"
+    ],
+    [
+     "Iktomi",
+     "Lakotas"
+    ],
+    [
+     "Nanabozho",
+     "Ojibwés"
+    ],
+    [
+     "Sedna",
+     "Inuits"
+    ]
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "L’Amérique du Nord compte des centaines de nations et de traditions.",
+   "id": "t051-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à sa civilisation.",
+   "paires": [
+    [
+     "Chichén Itzá",
+     "Mayas"
+    ],
+    [
+     "Tenochtitlan",
+     "Aztèques"
+    ],
+    [
+     "Cuzco",
+     "Incas"
+    ]
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Ces cités étaient de grands centres religieux et politiques.",
+   "id": "t051-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage du Popol Vuh à son rôle.",
+   "paires": [
+    [
+     "Hunahpu",
+     "Futur soleil"
+    ],
+    [
+     "Xbalanque",
+     "Future lune"
+    ],
+    [
+     "Xquic",
+     "Mère des jumeaux"
+    ],
+    [
+     "Vucub Caquix",
+     "Faux soleil"
+    ]
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Le Popol Vuh mêle création, aventures et généalogie royale.",
+   "id": "t051-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet ou rite à son peuple.",
+   "paires": [
+    [
+     "Capteur de rêves",
+     "Ojibwés"
+    ],
+    [
+     "Poupée kachina",
+     "Hopis"
+    ],
+    [
+     "Mât totémique",
+     "Peuples de la côte nord-ouest"
+    ],
+    [
+     "Pipe sacrée",
+     "Lakotas"
+    ]
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Ces objets sacrés ne sont pas de simples décorations.",
+   "id": "t051-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque divinité aztèque à son apparence.",
+   "paires": [
+    [
+     "Tezcatlipoca",
+     "Miroir fumant"
+    ],
+    [
+     "Tlaloc",
+     "Yeux cerclés"
+    ],
+    [
+     "Xipe Totec",
+     "Peau d’écorché"
+    ],
+    [
+     "Coatlicue",
+     "Jupe de serpents"
+    ]
+   ],
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les codex peints permettent de reconnaître ces dieux à leurs attributs.",
+   "id": "t051-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je suis un serpent à plumes\n3. On m’appelle Kukulkán chez les Mayas",
+   "choix": [
+    "Quetzalcoatl",
+    "Tlaloc",
+    "Tezcatlipoca",
+    "Itzamna"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Je suis parti vers l’est en promettant de revenir.",
+   "id": "t051-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’ai un miroir fumant\n3. Je suis le rival de Quetzalcoatl",
+   "choix": [
+    "Tezcatlipoca",
+    "Huitzilopochtli",
+    "Xipe Totec",
+    "Tlaloc"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Mon nom signifie « miroir qui fume », comme l’obsidienne polie.",
+   "id": "t051-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je suis né tout armé\n3. J’ai tué ma sœur la lune",
+   "choix": [
+    "Huitzilopochtli",
+    "Tonatiuh",
+    "Quetzalcoatl",
+    "Mixcoatl"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les Aztèques m’offraient des cœurs pour que le soleil continue sa course.",
+   "id": "t051-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jumeau\n2. J’ai joué à la balle contre la mort\n3. Je suis devenu le soleil",
+   "choix": [
+    "Hunahpu",
+    "Xbalanque",
+    "Hun Hunahpu",
+    "Vucub Caquix"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Mon frère et moi avons humilié les seigneurs de Xibalba.",
+   "id": "t051-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. Je suis la Terre-Mère\n3. Les Andins me font des offrandes",
+   "choix": [
+    "Pachamama",
+    "Mama Quilla",
+    "Coatlicue",
+    "Ixchel"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "On m’offre encore la première gorgée de boisson, versée au sol.",
+   "id": "t051-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un esprit ailé\n2. Mes yeux lancent des éclairs\n3. Je suis au sommet des mâts totémiques",
+   "choix": [
+    "L’Oiseau-Tonnerre",
+    "Le Corbeau",
+    "Le quetzal",
+    "Le condor"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Je combats souvent une baleine ou un serpent cornu.",
+   "id": "t051-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un esprit\n2. J’ai toujours faim\n3. Je hante les forêts glacées",
+   "choix": [
+    "Le Wendigo",
+    "Le Sasquatch",
+    "Le Skinwalker",
+    "La Llorona"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "On dit que je grandis à chaque repas, si bien que je ne suis jamais rassasié.",
+   "id": "t051-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un empereur\n2. Les Espagnols m’ont capturé\n3. J’ai offert une salle pleine d’or",
+   "choix": [
+    "Atahualpa",
+    "Moctezuma",
+    "Manco Cápac",
+    "Pachacútec"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Mon frère Huáscar et moi venions de nous disputer l’empire.",
+   "id": "t051-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. Je vis au fond de la mer\n3. Mes doigts sont devenus des phoques",
+   "choix": [
+    "Sedna",
+    "Ixchel",
+    "Chalchiuhtlicue",
+    "Pachamama"
+   ],
+   "rep": 0,
+   "src": "Mythes mésoaméricains, andins et nord-amérindiens",
+   "expl": "Les chamanes viennent me coiffer pour calmer ma colère.",
+   "id": "t051-130",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

@@ -25,3 +25,4 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 48 : noms français des fils d’Horus et des déesses gauloises, « pierre de Fál », nombre de morceaux d’Osiris (14 chez Plutarque), « Siège Périlleux », pilier des Nautes (Cernunnos).
 - Thème 49 : transcriptions françaises (domovoï, léchi, vodianoï, roussalka, Zmeï Gorynytch, Péroun, Mokoch), paroles de Setsubun (résumées), date du catalogue de Toriyama Sekien.
 - Thème 50 : rôle de Hanna Diyab (Aladin), noms des Huit Immortels, dates de Ferdowsi, translittérations (Shâhnâmeh, Zahhak, Rakhsh).
+- Thème 51 : noms des jumeaux navajos, mythe du Corbeau voleur de lumière (version haïda), date de découverte de la pierre de Coyolxauhqui, nombre d’années du voyage au Mictlan.
