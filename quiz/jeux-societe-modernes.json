@@ -1,0 +1,1998 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "jeux-societe-modernes",
+  "nom": "Le jeu de société moderne",
+  "royaume": "Jeux de rôle, de cartes et de plateau",
+  "icone": "pion",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Klaus Teuber, paru en 1995, lance la vague du jeu de société moderne ?",
+   "choix": [
+    "Catan",
+    "Carcassonne",
+    "Risk",
+    "Monopoly"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Son titre d’origine est Les Colons de Catane ; il remporte le Spiel des Jahres la même année.",
+   "id": "t074-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que se passe-t-il quand un joueur obtient 7 aux dés à Catan ?",
+   "choix": [
+    "Le voleur se déplace",
+    "Il gagne une route",
+    "Il rejoue",
+    "Il perd un point"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Les joueurs qui ont plus de sept cartes en défaussent la moitié.",
+   "id": "t074-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de points de victoire faut-il pour gagner une partie classique de Catan ?",
+   "choix": [
+    "Dix",
+    "Sept",
+    "Douze",
+    "Quinze"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Colonies, villes, plus longue route et plus grande armée rapportent des points.",
+   "id": "t074-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le plus prestigieux prix de jeu de société, décerné en Allemagne depuis 1979 ?",
+   "choix": [
+    "Le Spiel des Jahres",
+    "L’As d’Or",
+    "Le Golden Geek",
+    "Le Origins Award"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Son logo, un pion rouge, fait exploser les ventes d’un jeu.",
+   "id": "t074-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel prix allemand, créé en 2011, récompense les jeux pour joueurs confirmés ?",
+   "choix": [
+    "Le Kennerspiel des Jahres",
+    "Le Kinderspiel des Jahres",
+    "Le Deutscher Spiele Preis",
+    "L’As d’Or Expert"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Le jeu 7 Wonders en est le tout premier lauréat.",
+   "id": "t074-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quelle ville française sont décernés les As d’Or ?",
+   "choix": [
+    "Cannes",
+    "Paris",
+    "Lyon",
+    "Essen"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Ils sont remis lors du Festival international des jeux, chaque hiver.",
+   "id": "t074-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville allemande se tient le plus grand salon de jeux de société au monde ?",
+   "choix": [
+    "Essen",
+    "Berlin",
+    "Munich",
+    "Nuremberg"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Le salon Spiel y réunit chaque automne plus de cent mille visiteurs.",
+   "id": "t074-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Klaus-Jürgen Wrede consiste à poser des tuiles pour bâtir une cité médiévale ?",
+   "choix": [
+    "Carcassonne",
+    "Catan",
+    "Azul",
+    "Kingdomino"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Il remporte le Spiel des Jahres en 2001.",
+   "id": "t074-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot désigne les petits pions en forme de bonhomme popularisés par Carcassonne ?",
+   "choix": [
+    "Meeples",
+    "Pawns",
+    "Minis",
+    "Tokens"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Le mot vient de « my people », mes personnes.",
+   "id": "t074-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’Alan R. Moon fait relier des villes par des lignes de chemin de fer ?",
+   "choix": [
+    "Les Aventuriers du rail",
+    "Catan",
+    "Trans Europa",
+    "Paris Connection"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "L’éditeur Days of Wonder le publie en 2004.",
+   "id": "t074-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Jean-Louis Roubira demande de deviner une carte à partir d’une phrase évocatrice ?",
+   "choix": [
+    "Dixit",
+    "Mysterium",
+    "Codenames",
+    "Concept"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Les illustrations oniriques de Marie Cardouat ont fait son succès.",
+   "id": "t074-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quelle ville est installé Libellud, l’éditeur de Dixit ?",
+   "choix": [
+    "Poitiers",
+    "Lyon",
+    "Bruxelles",
+    "Nantes"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "L’éditeur a aussi publié Mysterium et Seasons.",
+   "id": "t074-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu coopératif de Matt Leacock fait combattre quatre maladies à travers le monde ?",
+   "choix": [
+    "Pandemic",
+    "Hanabi",
+    "Gloomhaven",
+    "The Crew"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Les joueurs gagnent ou perdent tous ensemble.",
+   "id": "t074-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Donald X. Vaccarino invente le principe du deck-building en 2008 ?",
+   "choix": [
+    "Dominion",
+    "Magic",
+    "Ascension",
+    "Star Realms"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Chaque joueur construit son paquet de cartes pendant la partie.",
+   "id": "t074-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’Uwe Rosenberg demande de faire prospérer une ferme du 17e siècle ?",
+   "choix": [
+    "Agricola",
+    "Puerto Rico",
+    "Caylus",
+    "Terra Mystica"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Il est emblématique du placement d’ouvriers.",
+   "id": "t074-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur français a créé 7 Wonders et Hanabi ?",
+   "choix": [
+    "Antoine Bauza",
+    "Bruno Cathala",
+    "Bruno Faidutti",
+    "Marc André"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "7 Wonders remporte le premier Kennerspiel des Jahres en 2011, Hanabi le Spiel des Jahres en 2013.",
+   "id": "t074-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle mécanique de 7 Wonders consiste à choisir une carte puis passer le reste de sa main au voisin ?",
+   "choix": [
+    "Le draft",
+    "Le deck-building",
+    "Le placement d’ouvriers",
+    "Le stop ou encore"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Chaque joueur bâtit une civilisation en trois âges.",
+   "id": "t074-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle particularité étonnante a le jeu Hanabi ?",
+   "choix": [
+    "On ne voit pas ses propres cartes",
+    "On joue les yeux bandés",
+    "On joue sans parler du tout",
+    "On joue seul"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Chacun voit les cartes des autres et donne des indices très limités.",
+   "id": "t074-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Vlaada Chvátil oppose deux maîtres-espions qui font deviner des mots à leur équipe ?",
+   "choix": [
+    "Codenames",
+    "Dixit",
+    "Time’s Up",
+    "Just One"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Il remporte le Spiel des Jahres en 2016.",
+   "id": "t074-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Michael Kiesling s’inspire des carreaux de faïence portugais ?",
+   "choix": [
+    "Azul",
+    "Sagrada",
+    "Patchwork",
+    "Calico"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Les azulejos ont été apportés au Portugal par le roi Manuel Ier, émerveillé par l’Alhambra.",
+   "id": "t074-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2017, d’Isaac Childres, est resté des années premier du classement de BoardGameGeek ?",
+   "choix": [
+    "Gloomhaven",
+    "Twilight Imperium",
+    "Terraforming Mars",
+    "Brass"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Sa boîte gigantesque pèse près de dix kilos.",
+   "id": "t074-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu d’Elizabeth Hargrave, en 2019, met en scène des oiseaux réels ?",
+   "choix": [
+    "Wingspan",
+    "Azul",
+    "Everdell",
+    "Cascadia"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Ses illustrations naturalistes et sa précision ont séduit un public nouveau.",
+   "id": "t074-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Jacob Fryxelius propose de rendre Mars habitable ?",
+   "choix": [
+    "Terraforming Mars",
+    "Mars Attacks",
+    "Red Planet",
+    "Twilight Imperium"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Les joueurs y augmentent la température, l’oxygène et les océans.",
+   "id": "t074-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Bruno Cathala remporte le Spiel des Jahres en 2017 ?",
+   "choix": [
+    "Kingdomino",
+    "Splendor",
+    "Abyss",
+    "Five Tribes"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Il consiste à bâtir un petit royaume de dominos de paysages.",
+   "id": "t074-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Marc André fait collectionner des pierres précieuses et des cartes de développement ?",
+   "choix": [
+    "Splendor",
+    "Azul",
+    "Dixit",
+    "Hanabi"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Il paraît en 2014 chez l’éditeur Space Cowboys.",
+   "id": "t074-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel jeu français de 2001 oppose chaque nuit des villageois à des lycanthropes cachés parmi eux ?",
+   "choix": [
+    "Les Loups-garous",
+    "Mafia",
+    "Skull",
+    "The Resistance"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Philippe des Pallières et Hervé Marly s’inspirent du jeu russe Mafia.",
+   "id": "t074-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel psychologue invente en 1986 le jeu Mafia, ancêtre des Loups-garous ?",
+   "choix": [
+    "Dimitri Davidoff",
+    "Klaus Teuber",
+    "Alexeï Pajitnov",
+    "Richard Garfield"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Il le crée à l’université de Moscou pour ses étudiants.",
+   "id": "t074-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Dobble, combien de symboles deux cartes ont-elles toujours en commun ?",
+   "choix": [
+    "Un seul",
+    "Deux",
+    "Trois",
+    "Aucun"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Ce jeu de rapidité repose sur une construction mathématique ingénieuse.",
+   "id": "t074-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel principe définit un jeu « legacy » ?",
+   "choix": [
+    "Les parties modifient durablement le jeu",
+    "Le jeu est hérité des grands-parents",
+    "On joue en ligne",
+    "Le jeu dure une seule partie"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "On colle des autocollants, on déchire des cartes et on ouvre des boîtes secrètes.",
+   "id": "t074-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel jeu de 2011, de Rob Daviau, invente le format legacy ?",
+   "choix": [
+    "Risk Legacy",
+    "Pandemic Legacy",
+    "Gloomhaven",
+    "Charterstone"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Pandemic Legacy, en 2015, rend ensuite le concept célèbre.",
+   "id": "t074-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle gamme de jeux d’évasion en boîte remporte le Kennerspiel des Jahres en 2017 ?",
+   "choix": [
+    "EXIT",
+    "Unlock!",
+    "Escape Room",
+    "Deckscape"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Certains éléments du jeu doivent être pliés ou découpés.",
+   "id": "t074-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel site communautaire, créé en 2000, recense et classe les jeux de société du monde entier ?",
+   "choix": [
+    "BoardGameGeek",
+    "Tric Trac",
+    "Ludovox",
+    "Reddit"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Ses notes et ses classements font référence chez les joueurs.",
+   "id": "t074-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plateforme de financement participatif a révolutionné l’édition de jeux de société ?",
+   "choix": [
+    "Kickstarter",
+    "eBay",
+    "Etsy",
+    "Steam"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Frosthaven y bat un record en 2020, avec près de treize millions de dollars.",
+   "id": "t074-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les jeux d’inspiration allemande, sobres et peu dépendants du hasard ?",
+   "choix": [
+    "Les eurogames",
+    "Les ameritrash",
+    "Les party games",
+    "Les wargames"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Ils s’opposent aux jeux américains plus thématiques et chargés de dés.",
+   "id": "t074-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu coopératif de plis, de Thomas Sing, emmène les joueurs dans l’espace ?",
+   "choix": [
+    "The Crew",
+    "Hanabi",
+    "Pandemic",
+    "Magic Maze"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Il remporte le Kennerspiel des Jahres en 2020.",
+   "id": "t074-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de Wolfgang Kramer, paru en 1994, fait ramasser des têtes de bœuf ?",
+   "choix": [
+    "6 qui prend !",
+    "Love Letter",
+    "Skull",
+    "Coloretto"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Plus on ramasse de têtes de bœuf, plus on perd la partie.",
+   "id": "t074-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de bluff d’Hervé Marly se joue avec des sous-bocks fleuris et des crânes ?",
+   "choix": [
+    "Skull",
+    "Perudo",
+    "Coup",
+    "Love Letter"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Chaque joueur doit retourner des disques sans tomber sur un crâne.",
+   "id": "t074-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel jeu de Seiji Kanai se joue avec seulement seize cartes ?",
+   "choix": [
+    "Love Letter",
+    "Coup",
+    "Hanabi",
+    "The Mind"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Les joueurs y tentent de faire parvenir une lettre à la princesse.",
+   "id": "t074-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom porte le genre des jeux où l’on note ses résultats de dés sur une feuille ?",
+   "choix": [
+    "Roll and write",
+    "Push your luck",
+    "Deck-building",
+    "Draft"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Qwixx et Welcome to… en sont des exemples.",
+   "id": "t074-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu coopératif de R. Eric Reuss, paru en 2017, fait défendre une île par ses esprits contre des colons ?",
+   "choix": [
+    "Spirit Island",
+    "Catan",
+    "Robinson Crusoé",
+    "Gloomhaven"
+   ],
+   "rep": 0,
+   "src": "Palmarès officiel du Spiel des Jahres (spiel-des-jahres.de) ; palmarès des As d’Or, Festival international des jeux de Cannes ; BoardGameGeek (fiches des jeux) ; sites des éditeurs (Kosmos, Days of Wonder, Libellud, Repos Production, Asmodee)",
+   "expl": "Les rôles habituels y sont inversés : les colonisateurs sont les ennemis.",
+   "id": "t074-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Catan a été créé par Klaus Teuber.",
+   "rep": true,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il était prothésiste dentaire avant de devenir auteur de jeux.",
+   "id": "t074-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Spiel des Jahres est un prix français.",
+   "rep": false,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Faux : il est décerné en Allemagne par un jury de critiques.",
+   "id": "t074-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dixit est un jeu français.",
+   "rep": true,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il est publié par l’éditeur Libellud, installé à Poitiers.",
+   "id": "t074-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Pandemic, les joueurs s’affrontent les uns contre les autres.",
+   "rep": false,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Faux : c’est un jeu entièrement coopératif.",
+   "id": "t074-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Antoine Bauza est l’auteur de 7 Wonders.",
+   "rep": true,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il a aussi créé Takenoko, Tokaido et Ghost Stories.",
+   "id": "t074-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Aventuriers du rail a été créé par Bruno Cathala.",
+   "rep": false,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Faux : il est l’œuvre de l’Américain Alan R. Moon.",
+   "id": "t074-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Hanabi, on ne voit pas ses propres cartes.",
+   "rep": true,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "On les tient tournées vers les autres joueurs.",
+   "id": "t074-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le mot meeple vient de l’allemand.",
+   "rep": false,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Faux : il vient de la contraction anglaise de « my people ».",
+   "id": "t074-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Essen accueille un salon mondial du jeu de société.",
+   "rep": true,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il se tient chaque année en octobre, dans un immense parc d’expositions.",
+   "id": "t074-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gloomhaven est un petit jeu de cartes rapide.",
+   "rep": false,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Faux : c’est une énorme campagne de plusieurs dizaines de scénarios.",
+   "id": "t074-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Kennerspiel des Jahres a été créé en 2011.",
+   "rep": true,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il distingue les jeux un peu plus exigeants.",
+   "id": "t074-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Loups-garous de Thiercelieux est inspiré du jeu Mafia.",
+   "rep": true,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Mafia a été inventé en 1986 à Moscou par Dimitri Davidoff.",
+   "id": "t074-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dominion a lancé la mécanique du deck-building.",
+   "rep": true,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Des centaines de jeux l’ont reprise depuis.",
+   "id": "t074-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Azul s’inspire des vitraux gothiques.",
+   "rep": false,
+   "src": "Spiel des Jahres ; BoardGameGeek",
+   "expl": "Faux : il s’inspire des azulejos, carreaux de faïence portugais.",
+   "id": "t074-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Catan ?",
+   "rep": 1995,
+   "min": 1980,
+   "max": 2005,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Spiel des Jahres ; BoardGameGeek",
+   "expl": "Il s’est vendu à plus de quarante millions d’exemplaires.",
+   "id": "t074-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année est créé le Spiel des Jahres ?",
+   "rep": 1979,
+   "min": 1960,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Spiel des Jahres ; BoardGameGeek",
+   "expl": "Son premier lauréat est Hase und Igel, Le Lièvre et la Tortue.",
+   "id": "t074-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de points faut-il pour gagner à Catan ?",
+   "rep": 10,
+   "min": 5,
+   "max": 20,
+   "pas": 1,
+   "unite": "points",
+   "tolerance": 0,
+   "src": "Spiel des Jahres ; BoardGameGeek",
+   "expl": "Certaines extensions demandent davantage de points.",
+   "id": "t074-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de cartes compte le jeu Love Letter d’origine ?",
+   "rep": 16,
+   "min": 8,
+   "max": 52,
+   "pas": 1,
+   "unite": "cartes",
+   "tolerance": 0,
+   "src": "Spiel des Jahres ; BoardGameGeek",
+   "expl": "C’est l’un des jeux les plus minimalistes jamais publiés.",
+   "id": "t074-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Dixit ?",
+   "rep": 2008,
+   "min": 1995,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Spiel des Jahres ; BoardGameGeek",
+   "expl": "Il remporte le Spiel des Jahres en 2010.",
+   "id": "t074-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Les Aventuriers du rail ?",
+   "rep": 2004,
+   "min": 1990,
+   "max": 2012,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Spiel des Jahres ; BoardGameGeek",
+   "expl": "Il remporte le Spiel des Jahres la même année.",
+   "id": "t074-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année est créé le site BoardGameGeek ?",
+   "rep": 2000,
+   "min": 1990,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Spiel des Jahres ; BoardGameGeek",
+   "expl": "Il est fondé par Scott Alden et Derk Solko.",
+   "id": "t074-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de maladies les joueurs combattent-ils dans Pandemic ?",
+   "rep": 4,
+   "min": 2,
+   "max": 8,
+   "pas": 1,
+   "unite": "maladies",
+   "tolerance": 0,
+   "src": "Spiel des Jahres ; BoardGameGeek",
+   "expl": "Chaque maladie est représentée par une couleur de cubes.",
+   "id": "t074-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le jeu des colons de Klaus Teuber s’appelle ____.",
+   "choix": [
+    "Catan",
+    "Carcassonne",
+    "Cathan",
+    "Katan"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il se joue sur une île faite d’hexagones.",
+   "id": "t074-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les pions en forme de bonhomme s’appellent des ____.",
+   "choix": [
+    "meeples",
+    "mipples",
+    "pawns",
+    "peeples"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Le mot est aujourd’hui utilisé pour tous les jeux.",
+   "id": "t074-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le grand prix allemand du jeu s’appelle le Spiel des ____.",
+   "choix": [
+    "Jahres",
+    "Jahrhunderts",
+    "Kinder",
+    "Lebens"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Son nom allemand signifie « jeu de l’année ».",
+   "id": "t074-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de Jean-Louis Roubira aux cartes oniriques s’appelle ____.",
+   "choix": [
+    "Dixit",
+    "Dixie",
+    "Dictum",
+    "Mysterium"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Son nom latin signifie « il a dit », comme le conteur.",
+   "id": "t074-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le salon allemand du jeu se tient à ____.",
+   "choix": [
+    "Essen",
+    "Essex",
+    "Aix",
+    "Hambourg"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il est né en 1983 d’une simple rencontre entre joueurs.",
+   "id": "t074-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La mécanique où l’on construit son paquet en jouant s’appelle le ____-building.",
+   "choix": [
+    "deck",
+    "card",
+    "pack",
+    "hand"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Le jeu Dominion en est le fondateur, en 2008.",
+   "id": "t074-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les jeux qui changent définitivement après chaque partie s’appellent les jeux ____.",
+   "choix": [
+    "legacy",
+    "heritage",
+    "campagne",
+    "évolutifs"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Le mot anglais signifie héritage, ce qu’on transmet.",
+   "id": "t074-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’auteur français de 7 Wonders s’appelle Antoine ____.",
+   "choix": [
+    "Bauza",
+    "Bauer",
+    "Bausa",
+    "Bazin"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il a été professeur de jeu vidéo avant de vivre de ses jeux.",
+   "id": "t074-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le prix des jeux français remis à Cannes s’appelle l’As d’____.",
+   "choix": [
+    "Or",
+    "Argent",
+    "Cœur",
+    "Pique"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il est décerné chaque année depuis 1988.",
+   "id": "t074-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de Matt Leacock contre les maladies s’appelle ____.",
+   "choix": [
+    "Pandemic",
+    "Epidemic",
+    "Plague",
+    "Contagion"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il a été réédité en français sous le titre Pandémie.",
+   "id": "t074-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu des oiseaux d’Elizabeth Hargrave s’appelle ____.",
+   "choix": [
+    "Wingspan",
+    "Wingman",
+    "Birdland",
+    "Feathers"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il compte cent soixante-dix cartes d’oiseaux différentes.",
+   "id": "t074-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’auteur de Dominion s’appelle Donald X. ____.",
+   "choix": [
+    "Vaccarino",
+    "Valentino",
+    "Vaccaro",
+    "Vicario"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Il est aussi l’auteur de Kingdom Builder.",
+   "id": "t074-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’illustratrice de Dixit s’appelle Marie ____.",
+   "choix": [
+    "Cardouat",
+    "Cardinal",
+    "Caudron",
+    "Cordier"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ses images ont lancé la mode des jeux très illustrés.",
+   "id": "t074-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces jeux n’est pas coopératif ?",
+   "choix": [
+    "Catan",
+    "Pandemic",
+    "Hanabi",
+    "The Crew"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Catan est un jeu compétitif de commerce et de développement.",
+   "id": "t074-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’est pas français ?",
+   "choix": [
+    "Uwe Rosenberg",
+    "Antoine Bauza",
+    "Bruno Cathala",
+    "Marc André"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Uwe Rosenberg est un auteur allemand, maître des jeux de ferme.",
+   "id": "t074-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’a pas remporté le Spiel des Jahres ?",
+   "choix": [
+    "Monopoly",
+    "Catan",
+    "Carcassonne",
+    "Azul"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Le Monopoly date des années 1930, bien avant le prix.",
+   "id": "t074-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’utilise pas le draft ?",
+   "choix": [
+    "Les Aventuriers du rail",
+    "7 Wonders",
+    "Sushi Go!",
+    "It’s a Wonderful World"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Les Aventuriers du rail repose sur la collection de cartes et la pose de wagons.",
+   "id": "t074-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces éditeurs n’est pas français ou belge ?",
+   "choix": [
+    "Kosmos",
+    "Libellud",
+    "Repos Production",
+    "Space Cowboys"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Kosmos est un grand éditeur allemand, à Stuttgart.",
+   "id": "t074-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas un jeu d’ambiance ?",
+   "choix": [
+    "Agricola",
+    "Time’s Up",
+    "Codenames",
+    "Dixit"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Agricola est un jeu de gestion exigeant.",
+   "id": "t074-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas un jeu à rôles cachés ?",
+   "choix": [
+    "Azul",
+    "Les Loups-garous",
+    "Mafia",
+    "The Resistance"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Azul est un jeu de placement de tuiles abstrait.",
+   "id": "t074-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces jeux n’a pas remporté le Kennerspiel des Jahres ?",
+   "choix": [
+    "Catan",
+    "7 Wonders",
+    "EXIT",
+    "Wingspan"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Catan a remporté le Spiel des Jahres en 1995, avant la création du Kennerspiel.",
+   "id": "t074-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas un jeu de pose de tuiles ?",
+   "choix": [
+    "Dominion",
+    "Carcassonne",
+    "Kingdomino",
+    "Azul"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Dominion est un jeu de cartes, sans tuiles.",
+   "id": "t074-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces mécaniques n’existe pas ?",
+   "choix": [
+    "Le dé-roulé inversé",
+    "Le placement d’ouvriers",
+    "Le deck-building",
+    "Le draft"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Les autres sont des mécaniques classiques du jeu moderne.",
+   "id": "t074-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels jeux sont coopératifs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pandemic",
+    "Hanabi",
+    "The Crew",
+    "Spirit Island",
+    "Catan",
+    "Monopoly"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Dans un jeu coopératif, tous gagnent ou perdent ensemble.",
+   "id": "t074-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux ont remporté le Spiel des Jahres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Catan",
+    "Carcassonne",
+    "Dixit",
+    "Azul",
+    "Gloomhaven",
+    "Monopoly"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Gloomhaven, jugé trop complexe, n’a pas été retenu.",
+   "id": "t074-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels auteurs sont français ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Antoine Bauza",
+    "Bruno Cathala",
+    "Marc André",
+    "Klaus Teuber",
+    "Alan R. Moon"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "La France est l’un des pays majeurs de la création ludique.",
+   "id": "t074-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux utilisent des tuiles ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Carcassonne",
+    "Azul",
+    "Kingdomino",
+    "Dominion",
+    "Love Letter"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Les tuiles permettent de construire un paysage commun ou personnel.",
+   "id": "t074-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux reposent sur le bluff ou les rôles cachés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Skull",
+    "Les Loups-garous",
+    "Mafia",
+    "Azul",
+    "Wingspan"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Le mensonge y est la principale compétence.",
+   "id": "t074-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux appartiennent au format legacy ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Risk Legacy",
+    "Pandemic Legacy",
+    "Charterstone",
+    "Dobble",
+    "Splendor"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Leurs parties se suivent comme une campagne.",
+   "id": "t074-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux se jouent principalement avec des cartes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dominion",
+    "Love Letter",
+    "6 qui prend !",
+    "Hanabi",
+    "Carcassonne",
+    "Catan"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Catan utilise aussi des cartes, mais son cœur reste le plateau.",
+   "id": "t074-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux ont été financés sur Kickstarter ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gloomhaven",
+    "Frosthaven",
+    "Kingdom Death : Monster",
+    "Catan",
+    "Carcassonne"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ces campagnes ont réuni des millions de dollars.",
+   "id": "t074-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux sont des jeux d’ambiance ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Time’s Up",
+    "Codenames",
+    "Dixit",
+    "Just One",
+    "Agricola",
+    "Terraforming Mars"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ils se jouent en groupe, avec des règles simples.",
+   "id": "t074-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles ressources existent dans Catan ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bois",
+    "Argile",
+    "Laine",
+    "Minerai",
+    "Pétrole",
+    "Or"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "La plus convoitée change d’une partie à l’autre selon les tirages.",
+   "id": "t074-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces jeux par date de parution.",
+   "items": [
+    "Catan",
+    "Carcassonne",
+    "Les Aventuriers du rail",
+    "Dixit"
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ces jeux paraissent en 1995, 2000, 2004 puis 2008.",
+   "id": "t074-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux d’Antoine Bauza par date de parution.",
+   "items": [
+    "Ghost Stories",
+    "7 Wonders",
+    "Takenoko",
+    "Tokaido"
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ces jeux paraissent en 2008, 2010, 2011 puis 2012.",
+   "id": "t074-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux coopératifs par date de parution.",
+   "items": [
+    "Pandemic",
+    "Hanabi",
+    "Spirit Island",
+    "The Crew"
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ces jeux paraissent en 2008, 2010, 2017 puis 2019.",
+   "id": "t074-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’histoire des jeux legacy dans l’ordre.",
+   "items": [
+    "Risk Legacy",
+    "Pandemic Legacy",
+    "Gloomhaven"
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ces jeux paraissent en 2011, 2015 puis 2017.",
+   "id": "t074-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces lauréats du Spiel des Jahres par ordre chronologique.",
+   "items": [
+    "Catan",
+    "Carcassonne",
+    "Dominion",
+    "Codenames"
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ils sont récompensés en 1995, 2001, 2009 puis 2016.",
+   "id": "t074-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces éléments par ordre de création.",
+   "items": [
+    "Spiel des Jahres",
+    "Salon d’Essen",
+    "As d’Or",
+    "BoardGameGeek"
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ils sont créés en 1979, 1983, 1988 puis 2000.",
+   "id": "t074-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’un tour de Catan dans l’ordre.",
+   "items": [
+    "Lancer les dés",
+    "Récolter les ressources",
+    "Commercer",
+    "Construire"
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Depuis la refonte des règles, commerce et construction peuvent se mêler.",
+   "id": "t074-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux du plus court au plus long, en durée moyenne.",
+   "items": [
+    "Love Letter",
+    "Les Aventuriers du rail",
+    "Terraforming Mars",
+    "Twilight Imperium"
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Les parties vont de vingt minutes à toute une journée.",
+   "id": "t074-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces campagnes Kickstarter par date.",
+   "items": [
+    "Exploding Kittens",
+    "Gloomhaven, second tirage",
+    "Frosthaven"
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Elles ont lieu en 2015, 2017 puis 2020 ; Frosthaven réunit près de treize millions de dollars.",
+   "id": "t074-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque jeu à son auteur.",
+   "paires": [
+    [
+     "Catan",
+     "Klaus Teuber"
+    ],
+    [
+     "Carcassonne",
+     "Klaus-Jürgen Wrede"
+    ],
+    [
+     "Dixit",
+     "Jean-Louis Roubira"
+    ],
+    [
+     "Pandemic",
+     "Matt Leacock"
+    ]
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Les auteurs de jeux sont désormais crédités sur les boîtes.",
+   "id": "t074-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à sa mécanique.",
+   "paires": [
+    [
+     "Dominion",
+     "Deck-building"
+    ],
+    [
+     "7 Wonders",
+     "Draft"
+    ],
+    [
+     "Agricola",
+     "Placement d’ouvriers"
+    ],
+    [
+     "Carcassonne",
+     "Pose de tuiles"
+    ]
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Chacun de ces jeux a popularisé une mécanique.",
+   "id": "t074-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son thème.",
+   "paires": [
+    [
+     "Wingspan",
+     "Oiseaux"
+    ],
+    [
+     "Terraforming Mars",
+     "Planète rouge"
+    ],
+    [
+     "Azul",
+     "Faïence"
+    ],
+    [
+     "Pandemic",
+     "Maladies"
+    ]
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Le thème guide l’habillage et l’ambiance.",
+   "id": "t074-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque prix à son pays.",
+   "paires": [
+    [
+     "Spiel des Jahres",
+     "Allemagne"
+    ],
+    [
+     "As d’Or",
+     "France"
+    ],
+    [
+     "Origins Award",
+     "États-Unis"
+    ]
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Chaque pays a ses propres récompenses ludiques.",
+   "id": "t074-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque éditeur à son jeu phare.",
+   "paires": [
+    [
+     "Libellud",
+     "Dixit"
+    ],
+    [
+     "Days of Wonder",
+     "Les Aventuriers du rail"
+    ],
+    [
+     "Repos Production",
+     "7 Wonders"
+    ],
+    [
+     "Kosmos",
+     "Catan"
+    ]
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Ces éditeurs ont bâti leur réputation sur un succès.",
+   "id": "t074-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son principe.",
+   "paires": [
+    [
+     "Hanabi",
+     "Cartes invisibles pour soi"
+    ],
+    [
+     "Dobble",
+     "Un symbole commun"
+    ],
+    [
+     "Codenames",
+     "Indices en un mot"
+    ]
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Une idée simple peut faire un grand jeu.",
+   "id": "t074-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque prix allemand à son public.",
+   "paires": [
+    [
+     "Spiel des Jahres",
+     "Famille"
+    ],
+    [
+     "Kennerspiel",
+     "Joueurs confirmés"
+    ],
+    [
+     "Kinderspiel",
+     "Enfants"
+    ]
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Les trois prix ont chacun un pion de couleur différente.",
+   "id": "t074-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son année.",
+   "paires": [
+    [
+     "Catan",
+     "1995"
+    ],
+    [
+     "Carcassonne",
+     "2000"
+    ],
+    [
+     "Dominion",
+     "2008"
+    ],
+    [
+     "Gloomhaven",
+     "2017"
+    ]
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Le jeu moderne se renouvelle sans cesse.",
+   "id": "t074-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son inspiration.",
+   "paires": [
+    [
+     "Les Loups-garous",
+     "Mafia"
+    ],
+    [
+     "Azul",
+     "Azulejos"
+    ],
+    [
+     "Spirit Island",
+     "Colonisation inversée"
+    ],
+    [
+     "Agricola",
+     "Ferme du 17e siècle"
+    ]
+   ],
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Le thème naît souvent d’une observation historique ou culturelle.",
+   "id": "t074-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis né en 1995\n3. Mon île est faite d’hexagones",
+   "choix": [
+    "Catan",
+    "Carcassonne",
+    "Risk",
+    "Twilight Imperium"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "On dit souvent « qui a du bois contre de l’argile ? » en jouant à moi.",
+   "id": "t074-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Mes cartes sont oniriques\n3. Le conteur doit être ni trop clair ni trop obscur",
+   "choix": [
+    "Dixit",
+    "Mysterium",
+    "Codenames",
+    "Concept"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Je suis né à Poitiers, chez l’éditeur Libellud, en 2008.",
+   "id": "t074-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. Je suis français\n3. J’ai créé 7 Wonders et Hanabi",
+   "choix": [
+    "Antoine Bauza",
+    "Bruno Cathala",
+    "Bruno Faidutti",
+    "Ludovic Maublanc"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "J’ai aussi imaginé un panda gourmand dans Takenoko.",
+   "id": "t074-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un pion\n2. J’ai la forme d’un bonhomme\n3. Carcassonne m’a rendu célèbre",
+   "choix": [
+    "Le meeple",
+    "Le pion",
+    "Le cube",
+    "La figurine"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Mon nom vient de l’anglais « my people ».",
+   "id": "t074-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un prix\n2. Je suis allemand\n3. Mon logo est un pion rouge",
+   "choix": [
+    "Le Spiel des Jahres",
+    "L’As d’Or",
+    "Le Golden Geek",
+    "Le Kennerspiel"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Je suis né en 1979, grâce à des critiques allemands.",
+   "id": "t074-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis coopératif\n3. Quatre maladies menacent le monde",
+   "choix": [
+    "Pandemic",
+    "Hanabi",
+    "The Crew",
+    "Spirit Island"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "Mon auteur a ensuite créé Forbidden Island.",
+   "id": "t074-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je change à chaque partie\n3. On colle des autocollants sur mon plateau",
+   "choix": [
+    "Risk Legacy",
+    "Catan",
+    "Azul",
+    "Dobble"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "J’ai inventé un nouveau format de jeu, en 2011.",
+   "id": "t074-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Mes tuiles imitent la faïence\n3. Je viens du Portugal par mon thème",
+   "choix": [
+    "Azul",
+    "Sagrada",
+    "Patchwork",
+    "Calico"
+   ],
+   "rep": 0,
+   "src": "Spiel des Jahres ; As d’Or ; BoardGameGeek",
+   "expl": "J’ai remporté le Spiel des Jahres en 2018.",
+   "id": "t074-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

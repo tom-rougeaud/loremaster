@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**73 / 99 thèmes terminés — 9584 questions au total.**
+**74 / 99 thèmes terminés — 9705 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -79,7 +79,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 71 | Contes, fables et origines de la fantasy | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 23/74/24 | 4 | terminé |
 | 72 | Romantasy et Young Adult modernes | 122 | 41 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/74/24 | 3 | terminé |
 | 73 | BD, mangas et comics de fantasy | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 4 | terminé |
-| 74 | Le jeu de société moderne | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 74 | Le jeu de société moderne | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 75 | Vocabulaire du JdR et culture de table | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 76 | Dés, probabilités et statistiques | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 77 | Magic : le Multivers et les Arpenteurs | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |

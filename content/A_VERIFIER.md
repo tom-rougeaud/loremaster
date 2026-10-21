@@ -29,3 +29,11 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 52 : nom du chasseur François Antoine, date et lieu des reliques d’Aubert (Avranches), « Marie-Morgane », Troménie tous les six ans.
 - Thème 53 : allégories du castor et de l’aigle (selon les versions), symboles des tentures de La Dame à la licorne, « Stryge ».
 - Thème 54 : titre français du film sur le Mothman, date des premières observations du Jersey Devil, rôle exact de Heuvelmans dans l’invention du mot cryptozoologie.
+- Thème 64 : date d’apparition du mot « cyberpunk » (nouvelle de Bruce Bethke, écrite vers 1980, publiée en 1983).
+- Thème 65 : noms français de Fils-des-Brumes (« Brumants », « ferrochimie », « hémalurgie ») et de La Roue du temps (« saidin », « saidar ») selon les traductions en vente.
+- Thème 66 : chiffres (dix pendus à Pendle, dix-neuf à Salem) et formulation « dernière sorcière exécutée en Europe occidentale » pour Anna Göldi.
+- Thème 67 : titre français de The Water of the Wondrous Isles (rendu ici « Les Eaux des îles fabuleuses ») ; nom des ættir.
+- Thème 68 : noms français des lieux (Port-Réal, Châteaunoir, Castral Roc, Vivesaigues, Hautjardin, Lancehélion) et devise Baratheon « Nôtre est la fureur ».
+- Thème 69 : noms français (Ablette, Gwynt, Brokilon, Le Cauchemar du loup) ; titre français Le Baptême du feu.
+- Thème 72 : titres français de Sunrise on the Reaping (« Lever de soleil sur la moisson ») et From Blood and Ash (« Le Sang et la Cendre »).
+- Thème 73 : collectif « Elfes » (Soleil, 2013) et détail Christophe Blain sur Donjon Potron-Minet.
