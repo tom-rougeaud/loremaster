@@ -1,0 +1,2130 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "citations-tolkien",
+  "nom": "Énigmes, citations et devises de Tolkien",
+  "royaume": "Terres de Tolkien",
+  "icone": "parchemin",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel enjeu Gollum fixe-t-il au jeu d’énigmes ?",
+   "choix": [
+    "Manger le hobbit ou lui montrer la sortie",
+    "Le vainqueur garde le trésor du lac",
+    "Le perdant devient le serviteur de l’autre",
+    "Le vainqueur reçoit tous les poissons"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "Le jeu d’énigmes est sacré et très ancien : même Gollum n’ose pas tricher ouvertement.",
+   "id": "t028-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la réponse de la première énigme de Gollum, sur une chose aux racines invisibles plus haute que les arbres ?",
+   "choix": [
+    "Une montagne",
+    "Un arbre",
+    "Le ciel",
+    "Une tour"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "Bilbo trouve vite : il a déjà entendu ce genre d’énigme.",
+   "id": "t028-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle réponse cache l’énigme de Bilbo sur trente chevaux blancs sur une colline rouge ?",
+   "choix": [
+    "Les dents",
+    "Les étoiles",
+    "La neige",
+    "Les nuages"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "Gollum trouve la réponse : il ne lui reste plus que six dents.",
+   "id": "t028-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la réponse de l’énigme de Gollum sur une voix sans bouche qui vole sans ailes ?",
+   "choix": [
+    "Le vent",
+    "L’écho",
+    "Un oiseau",
+    "Le temps"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "Bilbo, un peu déstabilisé, trouve tout de même.",
+   "id": "t028-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quoi Bilbo fait-il penser Gollum avec son énigme sur un œil dans un visage bleu ?",
+   "choix": [
+    "Au soleil sur les pâquerettes",
+    "À la lune au-dessus des eaux",
+    "À une étoile dans la nuit",
+    "À un lac sous le ciel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "L’énigme évoque un souvenir lointain de Gollum, quand il vivait à la surface.",
+   "id": "t028-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la réponse de l’énigme de Gollum sur ce qu’on ne peut ni voir ni sentir et qui remplit les trous ?",
+   "choix": [
+    "L’obscurité",
+    "Le silence",
+    "L’air",
+    "L’eau"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "Bilbo a de la chance : il connaît une énigme proche.",
+   "id": "t028-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle réponse cache l’énigme de Bilbo sur une boîte sans charnière qui renferme un trésor doré ?",
+   "choix": [
+    "Un œuf",
+    "Un coffre",
+    "Une noix",
+    "Un cœur"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "Gollum met longtemps à trouver : il se souvient de sa grand-mère qui lui apprenait à gober les œufs.",
+   "id": "t028-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la réponse de l’énigme de Gollum sur un être vivant sans souffle, froid comme la mort ?",
+   "choix": [
+    "Un poisson",
+    "Un serpent",
+    "Un fantôme",
+    "Une pierre"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "Bilbo pense aux poissons du lac de Gollum… et trouve.",
+   "id": "t028-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle est la réponse de la dernière vraie énigme de Gollum, sur ce qui dévore tout ?",
+   "choix": [
+    "Le temps",
+    "Le feu",
+    "La mort",
+    "La mer"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "Bilbo, paniqué, demande qu’on lui laisse du temps… et tombe juste sans le vouloir.",
+   "id": "t028-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle question finale Bilbo pose-t-il, qui n’est pas une vraie énigme ?",
+   "choix": [
+    "Ce qu’il a dans sa poche",
+    "Son propre nom",
+    "L’âge de Gollum",
+    "Le nom du lac"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5 « Énigmes dans l’obscurité »",
+   "expl": "Gollum réclame trois essais et perd : il ne connaissait pas l’Anneau dans la poche.",
+   "id": "t028-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Bilbo peut-il s’enfuir sans que Gollum le voie ?",
+   "choix": [
+    "L’Anneau le rend invisible",
+    "Gollum s’endort",
+    "Il éteint la lumière",
+    "Gandalf l’aide"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 12 « Renseignements de l’intérieur »",
+   "expl": "Gollum, qui cherchait l’Anneau pour tuer Bilbo, découvre qu’il l’a perdu.",
+   "id": "t028-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Bilbo répond-il à Smaug par des surnoms énigmatiques ?",
+   "choix": [
+    "Pour ne pas révéler son nom au dragon",
+    "Pour le flatter",
+    "Pour le faire rire",
+    "Pour gagner du temps avant l’aube"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 12 « Renseignements de l’intérieur »",
+   "expl": "Il sait qu’il ne faut jamais donner son vrai nom à un dragon.",
+   "id": "t028-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel surnom de Bilbo met Smaug sur la piste des hommes du Lac ?",
+   "choix": [
+    "Celui qui monte les tonneaux",
+    "Le gagnant de l’anneau",
+    "Le coupeur de toiles",
+    "L’ami des ours"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "Le dragon en déduit que les gens d’Esgaroth ont aidé les nains, et va brûler leur ville.",
+   "id": "t028-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Gandalf a-t-il du mal à ouvrir les portes de la Moria ?",
+   "choix": [
+    "Il ne voit pas que l’inscription donne le mot",
+    "La porte a été murée de l’intérieur",
+    "Il a perdu la clé de Durin",
+    "Des orques bloquent l’entrée"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "Il pensait devoir trouver une formule secrète ; il suffisait de dire « ami » en elfique.",
+   "id": "t028-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mot elfique ouvre les portes de la Moria ?",
+   "choix": [
+    "Mellon",
+    "Elen",
+    "Anor",
+    "Namárië"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "C’est l’époque où l’on se faisait confiance, regrette Gandalf.",
+   "id": "t028-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "En quelle écriture l’inscription des portes de la Moria est-elle tracée ?",
+   "choix": [
+    "Les lettres de Fëanor",
+    "Les runes des Nains",
+    "Les lettres latines",
+    "Les hiéroglyphes de Númenor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "Les Tengwar y transcrivent du sindarin ; les portes sont l’œuvre du Nain Narvi et de l’Elfe Celebrimbor.",
+   "id": "t028-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle langue l’inscription de l’Anneau unique est-elle rédigée ?",
+   "choix": [
+    "Le Parler noir",
+    "Le sindarin",
+    "Le khuzdul",
+    "Le quenya"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "Elle est tracée en lettres elfiques, mais la langue est celle du Mordor.",
+   "id": "t028-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment l’inscription du bijou de Bilbo devient-elle visible ?",
+   "choix": [
+    "Quand on le chauffe",
+    "Quand on le plonge dans l’eau",
+    "À la lumière de la lune",
+    "Quand on le porte"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2",
+   "expl": "Gandalf jette l’Anneau dans le feu de Frodon pour le prouver.",
+   "id": "t028-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’explique Gandalf à Frodon sur la pitié de Bilbo envers Gollum ?",
+   "choix": [
+    "Qu’elle aura peut-être un rôle à jouer",
+    "Qu’elle était une erreur",
+    "Qu’elle a fâché les Elfes",
+    "Qu’elle a renforcé Sauron"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2",
+   "expl": "Il refuse de juger trop vite : même Gollum a peut-être encore un rôle à jouer.",
+   "id": "t028-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que répond Gandalf à Frodon, qui regrette de vivre une époque si sombre ?",
+   "choix": [
+    "Qu’il faut décider quoi faire du temps donné",
+    "Qu’il aurait dû refuser l’héritage",
+    "Que tout finira forcément bien",
+    "Que Bilbo est seul responsable"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 5",
+   "expl": "C’est l’une des idées les plus célèbres du roman, résumée ici sans la citer.",
+   "id": "t028-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "De quel feu Gandalf se dit-il le serviteur face au Balrog ?",
+   "choix": [
+    "Le Feu secret",
+    "Le feu d’Udûn",
+    "Le feu de la Montagne",
+    "Le feu des Silmarils"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 5",
+   "expl": "Il oppose ce feu sacré à la flamme d’Udûn, celle du Balrog.",
+   "id": "t028-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que crie Gandalf à ses compagnons en tombant du pont de Khazad-dûm ?",
+   "choix": [
+    "Qu’ils doivent fuir",
+    "Qu’il reviendra",
+    "Qu’ils doivent le venger",
+    "Qu’ils doivent le rattraper"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 7",
+   "expl": "Ses derniers mots dans la Moria traitent ses amis de fous et leur ordonnent de s’enfuir.",
+   "id": "t028-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que dit Galadriel quand elle refuse l’Anneau que Frodon lui offre ?",
+   "choix": [
+    "Qu’elle a passé l’épreuve et partira vers l’Ouest",
+    "Qu’elle le prendra plus tard, en secret",
+    "Qu’il revient de droit à Elrond",
+    "Qu’il est trop faible pour la tenter"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 11",
+   "expl": "Elle accepte de décliner et de redevenir elle-même : c’est sa victoire sur la tentation.",
+   "id": "t028-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle histoire Aragorn chante-t-il aux hobbits au Mont Venteux ?",
+   "choix": [
+    "Celle de Beren et Lúthien",
+    "Celle de la chute de Gondolin",
+    "Celle d’Eärendil",
+    "Celle de la Dernière Alliance"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Il raconte en vers l’histoire de Tinúviel, qu’il relie à son propre amour pour Arwen.",
+   "id": "t028-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage compose les chants de la Route qui reviennent tout au long du récit ?",
+   "choix": [
+    "Bilbo",
+    "Frodon",
+    "Sam",
+    "Gandalf"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Return of the King (1955), livre VI, chap. 1",
+   "expl": "Frodon les reprend en quittant la Comté, puis Bilbo vieilli à Fondcombe.",
+   "id": "t028-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Pourquoi Sam chante-t-il dans la tour de Cirith Ungol ?",
+   "choix": [
+    "Pour retrouver Frodon prisonnier",
+    "Pour se donner du courage avant la bataille",
+    "Pour endormir les orques",
+    "Pour appeler les Aigles"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre III, chap. 4",
+   "expl": "Frodon, enfermé, lui répond d’une voix faible et Sam le localise.",
+   "id": "t028-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’ont remarqué Merry et Pippin dans la vieille liste des êtres vivants que récite Sylvebarbe ?",
+   "choix": [
+    "Les hobbits n’y figurent pas",
+    "Les Ents n’y figurent pas",
+    "Les Orques y sont nommés en premier",
+    "Les Elfes y sont absents"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Return of the King (1955), livre V, chap. 6",
+   "expl": "Sylvebarbe accepte d’ajouter les hobbits à sa liste.",
+   "id": "t028-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que révèle Éowyn au Roi-Sorcier avant de l’abattre ?",
+   "choix": [
+    "Qu’elle n’est pas un homme",
+    "Qu’elle est la fille de Théoden",
+    "Qu’elle est une Elfe",
+    "Qu’elle porte l’Anneau"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Return of the King (1955), livre VI, chap. 5",
+   "expl": "La prophétie disait qu’aucun homme ne le tuerait.",
+   "id": "t028-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelles paroles Aragorn reprend-il en recevant la couronne ?",
+   "choix": [
+    "Celles d’Elendil à son arrivée de la mer",
+    "Celles de Gandalf au pont de la Moria",
+    "Celles d’Isildur devant Sauron",
+    "Celles d’Eorl au Celebrant"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937) ; The Lord of the Rings, appendice E",
+   "expl": "Il les prononce en quenya : elles rappellent qu’Elendil venait de Númenor engloutie.",
+   "id": "t028-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec quelle écriture la carte de Thrór est-elle illustrée dans Le Hobbit ?",
+   "choix": [
+    "Des runes",
+    "Des hiéroglyphes",
+    "Des idéogrammes",
+    "L’alphabet grec"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937) ; The Lord of the Rings, appendice E",
+   "expl": "Tolkien y utilise des runes inspirées de l’anglo-saxon pour figurer celles des Nains.",
+   "id": "t028-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment Elrond découvre-t-il les lettres cachées sur la carte de Thrór ?",
+   "choix": [
+    "En la lisant sous une lune de même phase",
+    "En chauffant la carte au feu",
+    "En la plongeant dans l’eau",
+    "En la lisant dans un miroir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 5",
+   "expl": "Ces lettres lunaires indiquent comment trouver la serrure le jour de Durin.",
+   "id": "t028-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle écriture le tombeau de Balin est-il gravé ?",
+   "choix": [
+    "Des runes naines",
+    "Les lettres de Fëanor",
+    "Le Parler noir",
+    "L’alphabet commun"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "L’inscription nomme Balin, fils de Fundin, seigneur de la Moria.",
+   "id": "t028-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le mot sindarin « mellon » ?",
+   "choix": [
+    "Ami",
+    "Étoile",
+    "Porte",
+    "Elfe"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Gandalf a d’abord pris la phrase de l’inscription pour une énigme compliquée.",
+   "id": "t028-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le nom de Mordor ?",
+   "choix": [
+    "Pays noir",
+    "Montagne de feu",
+    "Tour sombre",
+    "Plaine des morts"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "En sindarin, mor signifie « noir » et dor « pays » : on retrouve mor dans Moria et Morannon.",
+   "id": "t028-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le nom de Minas Tirith ?",
+   "choix": [
+    "Tour de garde",
+    "Tour du soleil",
+    "Tour de la lune",
+    "Tour des rois"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Elle s’appelait Minas Anor, « Tour du soleil », avant la chute de Minas Ithil.",
+   "id": "t028-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le nom de Mithrandir, donné à Gandalf ?",
+   "choix": [
+    "Le Pèlerin gris",
+    "Le Mage blanc",
+    "Le Porteur de feu",
+    "Le Vieux sage"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Les Elfes du Gondor et de la Lórien l’appellent ainsi.",
+   "id": "t028-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le nom d’Elessar ?",
+   "choix": [
+    "Pierre elfique",
+    "Roi des Hommes",
+    "Épée de l’Ouest",
+    "Étoile du Nord"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Galadriel lui offre la pierre verte qui porte ce nom.",
+   "id": "t028-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Que signifie Estel, nom d’enfance d’Aragorn ?",
+   "choix": [
+    "Espoir",
+    "Courage",
+    "Étoile",
+    "Roi"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Elrond le lui donne pour cacher son identité aux espions de Sauron.",
+   "id": "t028-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie Undómiel, surnom d’Arwen ?",
+   "choix": [
+    "L’Étoile du soir",
+    "La Rose des Elfes",
+    "La Dame blanche",
+    "La Fille du matin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Elle rappelle Lúthien, à qui elle ressemble.",
+   "id": "t028-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le mot Nazgûl ?",
+   "choix": [
+    "Spectre de l’Anneau",
+    "Cavalier noir",
+    "Roi mort",
+    "Ombre de feu"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "En Parler noir, nazg signifie « anneau » et gûl « spectre ».",
+   "id": "t028-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le nom Palantír ?",
+   "choix": [
+    "Ce qui voit au loin",
+    "Pierre noire",
+    "Œil de feu",
+    "Miroir d’eau"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Les sept pierres de vision ont été rapportées de Númenor par Elendil.",
+   "id": "t028-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le mot lembas ?",
+   "choix": [
+    "Pain de voyage",
+    "Pain d’elfe",
+    "Gâteau de miel",
+    "Galette de route"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Une bouchée suffit à nourrir un voyageur pour une journée de marche.",
+   "id": "t028-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le nom de l’épée Andúril ?",
+   "choix": [
+    "Flamme de l’Ouest",
+    "Lame du roi",
+    "Étoile brisée",
+    "Feu du Nord"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "C’est Narsil reforgée, dont le nom unit le soleil et la lune.",
+   "id": "t028-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Que signifie le nom de l’épée Glamdring ?",
+   "choix": [
+    "Marteau-à-ennemis",
+    "Fend-gobelins",
+    "Flamme bleue",
+    "Lame de Gondolin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Les gobelins l’appellent « Batteuse » ; Orcrist est la « Fend-gobelins ».",
+   "id": "t028-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie le nom elfique de Legolas ?",
+   "choix": [
+    "Feuille verte",
+    "Arc d’argent",
+    "Œil de faucon",
+    "Pied léger"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Le nom convient à un prince des Elfes sylvains de la Forêt Noire.",
+   "id": "t028-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "De quel poème norrois vient le nom de Gandalf, qui signifie « elfe au bâton » ?",
+   "choix": [
+    "La Völuspá",
+    "Beowulf",
+    "Le Kalevala",
+    "Le Chant des Nibelungen"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Tolkien l’avait d’abord donné au chef des nains dans ses brouillons du Hobbit.",
+   "id": "t028-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Selon Tolkien, de quel mot de la langue du Rohan vient le mot « hobbit » ?",
+   "choix": [
+    "Holbytla, « bâtisseur de trous »",
+    "Hobbe, « petit homme »",
+    "Hob, « lutin »",
+    "Hobban, « enfant »"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Tolkien imagine cette étymologie dans les appendices, pour donner au mot une origine dans son monde.",
+   "id": "t028-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Pourquoi Tolkien a-t-il appelé le dragon Smaug ?",
+   "choix": [
+    "D’un verbe germanique : « se glisser dans un trou »",
+    "D’un dieu nordique du feu et des forges",
+    "D’un roi saxon célèbre pour son avarice",
+    "D’un mot latin désignant la fumée"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Il parlait lui-même d’une « plaisanterie de philologue ».",
+   "id": "t028-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "D’où vient le nom de Gollum ?",
+   "choix": [
+    "Du bruit de gorge qu’il fait en parlant",
+    "D’un mot elfique",
+    "D’un nom de famille hobbit",
+    "D’un mot du Parler noir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E ; The Letters (1981)",
+   "expl": "Sméagol est son vrai nom ; Gollum est un surnom imitant sa déglutition.",
+   "id": "t028-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans Le Hobbit, Gollum et Bilbo s’affrontent dans un jeu d’énigmes.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5",
+   "expl": "Vrai : le jeu se déroule au bord du lac souterrain, sous les Monts Brumeux.",
+   "id": "t028-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La dernière question de Bilbo à Gollum est une énigme parfaitement régulière.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5",
+   "expl": "Faux : demander ce qu’on a dans sa poche n’est pas une vraie énigme, ce que Gollum lui reproche.",
+   "id": "t028-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Bilbo trouve la réponse « le temps » presque par hasard.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "Vrai : il voulait seulement demander un peu plus de temps pour réfléchir.",
+   "id": "t028-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le mot de passe des portes de la Moria était écrit sur la porte elle-même.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "Vrai : l’inscription invitait à dire « ami » pour entrer ; Gandalf l’a d’abord mal comprise.",
+   "id": "t028-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’inscription de l’Anneau unique est écrite en elfique.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Return of the King (1955)",
+   "expl": "Faux : les lettres sont elfiques, mais la langue est le Parler noir du Mordor.",
+   "id": "t028-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "L’étendard qu’Arwen confectionne pour Aragorn porte l’Arbre blanc, sept étoiles et une couronne.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Return of the King (1955)",
+   "expl": "Vrai : Aragorn le déploie sur les navires des corsaires en arrivant au Pelennor.",
+   "id": "t028-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’emblème du Rohan est un dragon rouge.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Return of the King (1955)",
+   "expl": "Faux : c’est un cheval blanc sur fond vert.",
+   "id": "t028-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La bannière des intendants du Gondor est entièrement blanche.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "Vrai : elle ne porte aucun emblème, car les intendants gouvernent en attendant le retour du roi.",
+   "id": "t028-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les portes de la Moria portent l’emblème de Durin et l’étoile de la maison de Fëanor.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Vrai : avec deux arbres, signe de l’amitié ancienne entre les Nains de la Moria et les Elfes de l’Eregion.",
+   "id": "t028-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le mot « hobbit » vient, selon Tolkien, d’un mot elfique signifiant « petit homme ».",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Faux : il le rattache au rohirric holbytla, « bâtisseur de trous ».",
+   "id": "t028-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le nom Gandalf vient de la mythologie nordique.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Letters of J. R. R. Tolkien (1981)",
+   "expl": "Vrai : Gandálfr figure dans la liste des nains de la Völuspá.",
+   "id": "t028-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Tolkien a choisi le nom de Smaug pour sa ressemblance avec un mot elfique signifiant « feu ».",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Two Towers (1954), livre III, chap. 4",
+   "expl": "Faux : il le rattache à un verbe germanique qui veut dire « se glisser dans un trou ».",
+   "id": "t028-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sylvebarbe oublie les hobbits dans sa vieille liste des êtres vivants.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Return of the King (1955)",
+   "expl": "Vrai : il accepte ensuite de les y ajouter, à la demande de Merry et Pippin.",
+   "id": "t028-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Éowyn combat le Roi-Sorcier sous son vrai nom, sans se cacher.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II",
+   "expl": "Faux : elle s’est déguisée en cavalier, sous le nom de Dernhelm, pour suivre l’armée.",
+   "id": "t028-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Galadriel refuse l’Anneau quand Frodon le lui propose.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II",
+   "expl": "Vrai : elle sait qu’elle deviendrait une reine terrible et choisit de rester elle-même.",
+   "id": "t028-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le nom Minas Tirith signifie « Tour du soleil ».",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E",
+   "expl": "Faux : il signifie « Tour de garde » ; « Tour du soleil » est le sens de son ancien nom, Minas Anor.",
+   "id": "t028-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien d’étoiles figurent sur la bannière d’Aragorn ?",
+   "rep": 7,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "étoiles",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E",
+   "expl": "Elles rappellent les sept étoiles d’Elendil, liées aux navires et aux pierres de vision.",
+   "id": "t028-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien d’étoiles entourent l’emblème de Durin sur les portes de la Moria ?",
+   "rep": 7,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "étoiles",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E",
+   "expl": "Elles rappellent la couronne d’étoiles que Durin vit dans le lac Miroir.",
+   "id": "t028-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de branches compte l’étoile de la maison de Fëanor ?",
+   "rep": 8,
+   "min": 4,
+   "max": 12,
+   "pas": 1,
+   "unite": "branches",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E",
+   "expl": "Cette étoile à huit rais figure sur les portes de la Moria, sous l’arche.",
+   "id": "t028-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Sur combien de lignes l’inscription de l’Anneau est-elle gravée ?",
+   "rep": 2,
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "lignes",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice E",
+   "expl": "Une ligne à l’extérieur, une à l’intérieur, en lettres de feu.",
+   "id": "t028-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le jeu d’énigmes se déroule au bord d’un lac, sous les Monts ____.",
+   "choix": [
+    "Brumeux",
+    "Blancs",
+    "Gris",
+    "Bleus"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5",
+   "expl": "Gollum y vit sur un îlot rocheux, au milieu d’une eau froide et noire.",
+   "id": "t028-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Pour sa dernière question, Bilbo demande ce qu’il a dans sa ____.",
+   "choix": [
+    "poche",
+    "main",
+    "bouche",
+    "sacoche"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954)",
+   "expl": "Il pense tout haut en touchant l’Anneau ; Gollum croit que c’est une énigme.",
+   "id": "t028-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Pour ouvrir les portes de la Moria, il faut dire « ami » en ____.",
+   "choix": [
+    "elfique",
+    "nain",
+    "westron",
+    "quenya ancien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954)",
+   "expl": "Le mot sindarin est mellon ; Gandalf le trouve après de longs essais.",
+   "id": "t028-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’inscription de l’Anneau apparaît quand on le jette dans le ____.",
+   "choix": [
+    "feu",
+    "lac",
+    "vent",
+    "sable"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Les lettres semblent alors brûler à la surface de l’or, sans la marquer.",
+   "id": "t028-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le nom Mordor signifie « Pays ____ ».",
+   "choix": [
+    "noir",
+    "maudit",
+    "brûlé",
+    "perdu"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Le préfixe mor revient dans Moria, « Gouffre noir ».",
+   "id": "t028-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le nom d’Aragorn devenu roi est Elessar, « Pierre ____ ».",
+   "choix": [
+    "elfique",
+    "royale",
+    "verte",
+    "blanche"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Il porte la pierre verte que Galadriel lui a remise en Lórien.",
+   "id": "t028-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Nazgûl sont les « Spectres de l’____ ».",
+   "choix": [
+    "Anneau",
+    "Ombre",
+    "Ouest",
+    "Abîme"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Le mot vient du Parler noir : nazg, « anneau », et gûl, « spectre ».",
+   "id": "t028-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le nom de Gandalf chez les Elfes est Mithrandir, le Pèlerin ____.",
+   "choix": [
+    "gris",
+    "blanc",
+    "errant",
+    "sage"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Les Nains l’appellent Tharkûn, et les Hommes du Sud Incánus.",
+   "id": "t028-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’épée de Gandalf, Glamdring, signifie « ____-à-ennemis ».",
+   "choix": [
+    "Marteau",
+    "Lame",
+    "Fléau",
+    "Hache"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Forgée à Gondolin, elle appartenait au roi Turgon.",
+   "id": "t028-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le mot lembas désigne le pain de ____ des Elfes.",
+   "choix": [
+    "voyage",
+    "fête",
+    "guerre",
+    "prière"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Les Elfes de la Lórien en offrent à la Communauté ; Gollum le déteste.",
+   "id": "t028-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Selon Tolkien, le mot hobbit vient du rohirric holbytla, « bâtisseur de ____ ».",
+   "choix": [
+    "trous",
+    "maisons",
+    "ponts",
+    "tours"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Les hobbits vivent traditionnellement dans des terriers confortables creusés dans les collines.",
+   "id": "t028-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le bruit de gorge de Sméagol lui vaut le surnom de ____.",
+   "choix": [
+    "Gollum",
+    "Gorbag",
+    "Grishnákh",
+    "Glaurung"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Tolkien imite ainsi le bruit de déglutition qu’il fait en parlant.",
+   "id": "t028-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces réponses n’appartient pas au jeu d’énigmes de Bilbo et Gollum ?",
+   "choix": [
+    "La lune",
+    "Le vent",
+    "L’œuf",
+    "Le temps"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 12",
+   "expl": "Les réponses incluent aussi la montagne, les dents, l’obscurité et le poisson.",
+   "id": "t028-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces surnoms Bilbo ne se donne-t-il pas devant Smaug ?",
+   "choix": [
+    "Tueur de dragons",
+    "Celui qui monte les tonneaux",
+    "Le gagnant de l’anneau",
+    "Le coupeur de toiles"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Se vanter d’être un tueur de dragons aurait été particulièrement imprudent.",
+   "id": "t028-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms ne vient pas du vieil anglais ?",
+   "choix": [
+    "Mithrandir",
+    "Théoden",
+    "Éowyn",
+    "Meduseld"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Mithrandir est un nom sindarin ; les noms du Rohan viennent de l’anglo-saxon.",
+   "id": "t028-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms ne désigne pas Gandalf ?",
+   "choix": [
+    "Undómiel",
+    "Mithrandir",
+    "Olórin",
+    "Tharkûn"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Undómiel, « l’Étoile du soir », est le surnom d’Arwen.",
+   "id": "t028-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces noms ne désigne pas Aragorn ?",
+   "choix": [
+    "Glorfindel",
+    "Estel",
+    "Elessar",
+    "Grands-Pas"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "Glorfindel est le seigneur elfe qui aide Frodon à rejoindre Fondcombe.",
+   "id": "t028-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces éléments ne figure pas sur les portes de la Moria ?",
+   "choix": [
+    "Un dragon",
+    "Un marteau et une enclume",
+    "Une étoile à huit branches",
+    "Deux arbres"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les portes portent aussi une couronne et sept étoiles, l’emblème de Durin.",
+   "id": "t028-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces emblèmes n’est pas celui d’un allié du Gondor ?",
+   "choix": [
+    "La Main blanche",
+    "Le Cheval blanc",
+    "Le navire au cygne",
+    "L’Arbre blanc"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "La Main blanche est l’emblème de Saruman.",
+   "id": "t028-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces langues n’a pas été inventée par Tolkien ?",
+   "choix": [
+    "Le gotique",
+    "Le quenya",
+    "Le Parler noir",
+    "Le khuzdul"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Le gotique est une langue germanique ancienne réelle, que Tolkien adorait.",
+   "id": "t028-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces chants n’est pas chanté dans Le Seigneur des Anneaux ?",
+   "choix": [
+    "Une ballade sur Excalibur",
+    "Un chant sur Nimrodel",
+    "Un chant de la Route",
+    "Un chant sur Beren et Lúthien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Excalibur appartient au cycle arthurien, pas à la Terre du Milieu.",
+   "id": "t028-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mots n’est pas d’origine sindarine ?",
+   "choix": [
+    "Nazgûl",
+    "Mellon",
+    "Mordor",
+    "Mithrandir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Nazgûl vient du Parler noir, la langue créée par Sauron.",
+   "id": "t028-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles réponses font partie du jeu d’énigmes du Hobbit ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La montagne",
+    "Les dents",
+    "Le poisson",
+    "La lune",
+    "L’arc-en-ciel"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Le jeu compte aussi le vent, l’obscurité, l’œuf et le temps.",
+   "id": "t028-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels noms Bilbo se donne-t-il devant Smaug ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Celui qui monte les tonneaux",
+    "Le gagnant de l’anneau",
+    "Le coupeur de toiles",
+    "Le tueur de dragons",
+    "Le roi sous la montagne"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Chaque surnom rappelle une étape de son voyage, sans dire son nom.",
+   "id": "t028-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels noms viennent du sindarin ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mordor",
+    "Minas Tirith",
+    "Mithrandir",
+    "Théoden",
+    "Nazgûl"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Théoden vient du vieil anglais, Nazgûl du Parler noir.",
+   "id": "t028-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels noms désignent Gandalf ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mithrandir",
+    "Olórin",
+    "Le Pèlerin gris",
+    "Elessar",
+    "Undómiel"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Elessar désigne Aragorn, Undómiel Arwen.",
+   "id": "t028-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels éléments ornent les portes de la Moria ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Un marteau et une enclume",
+    "Sept étoiles",
+    "Deux arbres",
+    "Un œil rouge",
+    "Une main blanche"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "L’œil et la main sont les emblèmes de Sauron et de Saruman.",
+   "id": "t028-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels emblèmes appartiennent aux Peuples libres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’Arbre blanc",
+    "Le Cheval blanc",
+    "Le navire au cygne",
+    "L’Œil rouge",
+    "La lune au crâne"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "L’Œil rouge est l’emblème de Sauron, la lune au crâne celui de Minas Morgul.",
+   "id": "t028-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels chants entend-on dans Le Seigneur des Anneaux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le chant de la Route",
+    "Le lai de Nimrodel",
+    "Le récit de Tinúviel",
+    "La ballade d’Excalibur",
+    "La chanson de Roland"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Tolkien a glissé des dizaines de poèmes dans son roman.",
+   "id": "t028-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels mots appartiennent au Parler noir ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nazgûl",
+    "Uruk",
+    "Ghâsh",
+    "Mellon",
+    "Elen"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Ghâsh signifie « feu » ; mellon et elen sont des mots elfiques.",
+   "id": "t028-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages refusent l’Anneau quand on le leur propose ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Galadriel",
+    "Gandalf",
+    "Faramir",
+    "Boromir",
+    "Gollum"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Boromir veut le prendre ; Gollum le réclame sans cesse.",
+   "id": "t028-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels noms Tolkien a-t-il tirés de la Völuspá ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gandalf",
+    "Thorin",
+    "Durin",
+    "Frodon",
+    "Aragorn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5",
+   "expl": "Frodon vient du vieil anglais frōd, « sage » ; Aragorn est un nom sindarin.",
+   "id": "t028-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces énigmes de Gollum dans l’ordre du jeu.",
+   "items": [
+    "La montagne",
+    "Le vent",
+    "L’obscurité",
+    "Le poisson",
+    "Le temps"
+   ],
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5",
+   "expl": "Gollum propose ses énigmes en alternance avec celles de Bilbo.",
+   "id": "t028-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces énigmes de Bilbo dans l’ordre du jeu.",
+   "items": [
+    "Les dents",
+    "Le soleil sur les pâquerettes",
+    "L’œuf",
+    "Le poisson sur la table",
+    "La poche"
+   ],
+   "src": "J. R. R. Tolkien, The Hobbit (1937), chap. 5",
+   "expl": "La dernière, sur sa poche, met fin au jeu.",
+   "id": "t028-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la rencontre avec Gollum dans l’ordre.",
+   "items": [
+    "Bilbo trouve l’Anneau",
+    "Le jeu d’énigmes",
+    "La question sur la poche",
+    "La fuite invisible"
+   ],
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre II, chap. 4",
+   "expl": "Bilbo trouve l’Anneau à tâtons, avant même de rencontrer Gollum.",
+   "id": "t028-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’entrée dans la Moria dans l’ordre.",
+   "items": [
+    "Lecture de l’inscription",
+    "Échec des formules magiques",
+    "Le mot « ami » est prononcé",
+    "Attaque du Guetteur de l’eau"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice A",
+   "expl": "Le Guetteur arrache les arbres et referme les portes derrière la Communauté.",
+   "id": "t028-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces noms d’Aragorn dans l’ordre où il les porte.",
+   "items": [
+    "Estel",
+    "Grands-Pas",
+    "Elessar"
+   ],
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2",
+   "expl": "Enfant à Fondcombe, rôdeur à Bree, roi à Minas Tirith.",
+   "id": "t028-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la révélation de l’Anneau dans l’ordre.",
+   "items": [
+    "Gandalf jette l’Anneau au feu",
+    "Des lettres apparaissent",
+    "Gandalf lit l’inscription",
+    "Frodon comprend ce qu’il porte"
+   ],
+   "src": "J. R. R. Tolkien, The Fellowship of the Ring (1954), livre I, chap. 2",
+   "expl": "Gandalf n’ose pas prononcer l’inscription dans la Comté et la traduit.",
+   "id": "t028-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque énigme à sa réponse.",
+   "paires": [
+    [
+     "Racines invisibles, plus haute que les arbres",
+     "La montagne"
+    ],
+    [
+     "Trente chevaux blancs sur une colline rouge",
+     "Les dents"
+    ],
+    [
+     "Voix sans bouche",
+     "Le vent"
+    ],
+    [
+     "Boîte sans charnière",
+     "L’œuf"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Ces énigmes sont décrites ici, sans reprendre les vers de Tolkien.",
+   "id": "t028-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque nom à son sens.",
+   "paires": [
+    [
+     "Mordor",
+     "Pays noir"
+    ],
+    [
+     "Minas Tirith",
+     "Tour de garde"
+    ],
+    [
+     "Osgiliath",
+     "Citadelle des étoiles"
+    ],
+    [
+     "Barad-dûr",
+     "Tour sombre"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Les noms de lieux de Tolkien ont presque tous un sens précis.",
+   "id": "t028-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque nom de personnage à son sens.",
+   "paires": [
+    [
+     "Legolas",
+     "Feuille verte"
+    ],
+    [
+     "Elessar",
+     "Pierre elfique"
+    ],
+    [
+     "Undómiel",
+     "Étoile du soir"
+    ],
+    [
+     "Mithrandir",
+     "Pèlerin gris"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Les noms elfiques décrivent souvent un trait de caractère ou un destin.",
+   "id": "t028-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque nom du Rohan à son sens en vieil anglais.",
+   "paires": [
+    [
+     "Théoden",
+     "Roi"
+    ],
+    [
+     "Éowyn",
+     "Joie des chevaux"
+    ],
+    [
+     "Meduseld",
+     "Salle de l’hydromel"
+    ],
+    [
+     "Edoras",
+     "Les cours"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendice F",
+   "expl": "Tolkien fait parler les Rohirrim comme les Anglo-Saxons.",
+   "id": "t028-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque épée à son sens.",
+   "paires": [
+    [
+     "Andúril",
+     "Flamme de l’Ouest"
+    ],
+    [
+     "Glamdring",
+     "Marteau-à-ennemis"
+    ],
+    [
+     "Orcrist",
+     "Fend-gobelins"
+    ],
+    [
+     "Narsil",
+     "Soleil et lune"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Dard, l’épée de Bilbo, est le seul nom donné par un hobbit.",
+   "id": "t028-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque emblème à son peuple.",
+   "paires": [
+    [
+     "Arbre blanc",
+     "Gondor"
+    ],
+    [
+     "Cheval blanc",
+     "Rohan"
+    ],
+    [
+     "Navire au cygne",
+     "Dol Amroth"
+    ],
+    [
+     "Marteau et enclume",
+     "Nains de Durin"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les emblèmes permettent de reconnaître les alliés sur le champ de bataille.",
+   "id": "t028-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque emblème à son maître.",
+   "paires": [
+    [
+     "Main blanche",
+     "Saruman"
+    ],
+    [
+     "Œil rouge",
+     "Sauron"
+    ],
+    [
+     "Lune au crâne",
+     "Minas Morgul"
+    ],
+    [
+     "Bannière blanche",
+     "Intendants"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "La bannière des intendants n’a pas d’emblème : le trône attend son roi.",
+   "id": "t028-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque écriture à son usage.",
+   "paires": [
+    [
+     "Tengwar",
+     "Inscription de l’Anneau"
+    ],
+    [
+     "Runes naines",
+     "Tombeau de Balin"
+    ],
+    [
+     "Lettres lunaires",
+     "Carte de Thrór"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Tolkien a dessiné lui-même ces inscriptions dans ses livres.",
+   "id": "t028-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque mot à sa langue.",
+   "paires": [
+    [
+     "Mellon",
+     "Sindarin"
+    ],
+    [
+     "Namárië",
+     "Quenya"
+    ],
+    [
+     "Nazg",
+     "Parler noir"
+    ],
+    [
+     "Théoden",
+     "Langue du Rohan"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Tolkien rend la langue du Rohan par du vieil anglais.",
+   "id": "t028-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque chanteur à son chant.",
+   "paires": [
+    [
+     "Aragorn",
+     "Beren et Lúthien"
+    ],
+    [
+     "Legolas",
+     "Nimrodel"
+    ],
+    [
+     "Sam",
+     "Chant de la tour"
+    ],
+    [
+     "Bilbo",
+     "Chant de la Route"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les chants rythment le voyage et rappellent les légendes anciennes.",
+   "id": "t028-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis sacré et très ancien\n3. Bilbo m’a gagné avec une question sur sa poche",
+   "choix": [
+    "Le jeu d’énigmes",
+    "Le jeu de l’Anneau",
+    "Le jeu de Durin",
+    "Le jeu des tonneaux"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Gollum n’ose pas tricher ouvertement, car le jeu est respecté par tous.",
+   "id": "t028-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un mot elfique\n2. Je signifie « ami »\n3. J’ouvre les portes de la Moria",
+   "choix": [
+    "Mellon",
+    "Elen",
+    "Anor",
+    "Ithil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Gandalf rit en le découvrant : la réponse était sous ses yeux.",
+   "id": "t028-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis gravée\n2. On ne me voit que dans le feu\n3. Je suis en Parler noir",
+   "choix": [
+    "L’inscription de l’Anneau",
+    "Le tombeau de Balin",
+    "La carte de Thrór",
+    "Les portes de la Moria"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Ses deux lignes reprennent le cœur du poème de l’Anneau.",
+   "id": "t028-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un étendard\n2. Arwen m’a brodé\n3. Je porte sept étoiles et un arbre",
+   "choix": [
+    "La bannière d’Aragorn",
+    "La bannière du Rohan",
+    "La bannière des intendants",
+    "La bannière de Dol Amroth"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Elle se déploie au mât des navires noirs, à la surprise générale.",
+   "id": "t028-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un nom\n2. Je signifie « Pays noir »\n3. Je désigne le royaume de Sauron",
+   "choix": [
+    "Mordor",
+    "Moria",
+    "Morannon",
+    "Morgul"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Mor signifie « noir » dans ces quatre noms ; Moria est le « Gouffre noir ».",
+   "id": "t028-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un nom nordique\n2. Je signifie « elfe au bâton »\n3. Je désigne un magicien gris",
+   "choix": [
+    "Gandalf",
+    "Radagast",
+    "Saruman",
+    "Olórin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Tolkien l’a trouvé dans la liste des nains de la Völuspá.",
+   "id": "t028-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un surnom\n2. J’imite un bruit de gorge\n3. Je désigne Sméagol",
+   "choix": [
+    "Gollum",
+    "Grishnákh",
+    "Gorbag",
+    "Gríma"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Le surnom est si fort qu’il remplace presque son vrai nom.",
+   "id": "t028-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un pain elfique\n2. Une bouchée nourrit pour la journée\n3. Gollum me déteste",
+   "choix": [
+    "Le lembas",
+    "Le cram",
+    "Le pain de Beorn",
+    "Le miel de la Lórien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Le cram, biscuit des Hommes de Dale, est bien moins savoureux.",
+   "id": "t028-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un dragon\n2. Mon nom évoque un verbe pour « se glisser dans un trou »\n3. Je dors sur l’or d’Erebor",
+   "choix": [
+    "Smaug",
+    "Glaurung",
+    "Scatha",
+    "Ancalagon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Tolkien appelait cette étymologie une plaisanterie de philologue.",
+   "id": "t028-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un emblème\n2. Je suis blanc sur fond vert\n3. Je flotte sur Edoras",
+   "choix": [
+    "Le cheval du Rohan",
+    "L’Arbre du Gondor",
+    "Le cygne de Dol Amroth",
+    "La Main de Saruman"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Unfinished Tales (1980) ; The Lord of the Rings (1954-1955)",
+   "expl": "Les Rohirrim vénèrent les chevaux, qu’ils élèvent depuis des générations.",
+   "id": "t028-127",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces noms de Gandalf dans l’ordre de son histoire.",
+   "items": [
+    "Olórin",
+    "Gandalf le Gris",
+    "Gandalf le Blanc"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Maia en Valinor, puis magicien gris pendant deux mille ans, il revient en blanc après sa mort.",
+   "id": "t028-128",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces chants dans l’ordre où ils apparaissent dans le récit.",
+   "items": [
+    "Le chant de la Route",
+    "Le récit de Tinúviel",
+    "Le lai de Nimrodel",
+    "Le chant de Sam dans la tour"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "De la Comté au Mordor, les chants jalonnent tout le voyage.",
+   "id": "t028-129",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
