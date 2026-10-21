@@ -1,0 +1,1986 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "vocabulaire-jdr",
+  "nom": "Vocabulaire du JdR et culture de table",
+  "royaume": "Jeux de rôle, de cartes et de plateau",
+  "icone": "des",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie l’abréviation PNJ ?",
+   "choix": [
+    "Personnage non joueur",
+    "Point de niveau joueur",
+    "Partie non jouée",
+    "Pouvoir naturel du joueur"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Le meneur de jeu interprète tous les PNJ : aubergistes, rois, monstres…",
+   "id": "t075-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment appelle-t-on, dans Donjons et Dragons, l’arbitre qui décrit le monde et joue les PNJ ?",
+   "choix": [
+    "Le Dungeon Master",
+    "Le capitaine",
+    "Le narrateur suprême",
+    "Le seigneur des dés"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Les autres jeux parlent plutôt de meneur de jeu, ou MJ.",
+   "id": "t075-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quoi sert l’écran du meneur de jeu ?",
+   "choix": [
+    "Cacher ses notes et ses jets de dés",
+    "Projeter des images",
+    "Afficher la carte aux joueurs",
+    "Protéger les dés de la poussière"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Il porte souvent, côté meneur, les tables de règles les plus utiles.",
+   "id": "t075-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que représentent les points de vie d’un personnage ?",
+   "choix": [
+    "Sa résistance aux blessures",
+    "Sa fortune en pièces d’or",
+    "Son expérience acquise",
+    "Sa chance aux dés"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "À zéro, le personnage tombe inconscient ou meurt, selon les règles.",
+   "id": "t075-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle, dans D&D, le jet qui permet d’échapper à un piège ou à un sort ?",
+   "choix": [
+    "Le jet de sauvegarde",
+    "Le jet d’attaque",
+    "Le jet d’initiative",
+    "Le jet de dégâts"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "On lance un d20 et on ajoute le bonus de la caractéristique concernée.",
+   "id": "t075-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que mesure la classe d’armure dans D&D ?",
+   "choix": [
+    "La difficulté à toucher le personnage",
+    "Le poids de l’armure",
+    "Le prix de l’armure",
+    "Le niveau du personnage"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "L’attaquant doit égaler ou dépasser ce nombre avec son jet.",
+   "id": "t075-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie obtenir un « 20 naturel » au d20 ?",
+   "choix": [
+    "Un coup critique",
+    "On a 20 points de bonus",
+    "On a perdu",
+    "On rejoue deux fois"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Dans D&D, il touche automatiquement et double les dés de dégâts.",
+   "id": "t075-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne l’expression « TPK » ?",
+   "choix": [
+    "La mort de tout le groupe",
+    "Un trésor trouvé",
+    "Une partie sans combat",
+    "Le tour du meneur"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "C’est l’abréviation anglaise de « total party kill ».",
+   "id": "t075-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on un joueur qui cherche avant tout à rendre son personnage surpuissant ?",
+   "choix": [
+    "Un grosbill",
+    "Un rôliste",
+    "Un tank",
+    "Un healer"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Le mot vient du jargon français des années 1980, popularisé par le magazine Casus Belli.",
+   "id": "t075-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne l’« optimisation min-max » ?",
+   "choix": [
+    "Maximiser les forces et sacrifier les faiblesses",
+    "Jouer le moins longtemps possible",
+    "Lancer le minimum de dés",
+    "Ne jamais combattre"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Un guerrier très fort mais incapable de parler à quiconque en est l’exemple type.",
+   "id": "t075-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que reproche-t-on à un meneur qui pratique le « railroading » ?",
+   "choix": [
+    "Il impose son histoire",
+    "Il triche aux dés",
+    "Il improvise trop",
+    "Il parle trop vite"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "L’expression compare le scénario à des rails de chemin de fer.",
+   "id": "t075-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on une partie où les joueurs explorent librement un monde ouvert ?",
+   "choix": [
+    "Un bac à sable",
+    "Un donjon linéaire",
+    "Un one-shot",
+    "Un dungeon crawl"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Le meneur prépare des lieux et des factions plutôt qu’une intrigue fixe.",
+   "id": "t075-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’est-ce qu’un « one-shot » ?",
+   "choix": [
+    "Un scénario joué en une seule séance",
+    "Un personnage tué d’un coup",
+    "Un sort unique",
+    "Un dé à une face"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Il s’oppose à la campagne, qui s’étend sur de nombreuses séances.",
+   "id": "t075-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "À quoi sert la « session zéro » ?",
+   "choix": [
+    "Préparer ensemble la campagne et ses limites",
+    "Jouer sans dés",
+    "Tester un nouveau jeu en solo",
+    "Tuer tous les personnages"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "On y crée les personnages et on discute des thèmes à éviter.",
+   "id": "t075-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait un joueur qui touche la « X-Card » posée sur la table ?",
+   "choix": [
+    "Il retire un contenu qui le met mal à l’aise",
+    "Il gagne un point d’expérience",
+    "Il prend la place du meneur",
+    "Il annule un jet raté"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Il n’a pas besoin de se justifier ; l’outil est créé par John Stavropoulos.",
+   "id": "t075-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans l’outil « lignes et voiles », que représente une ligne ?",
+   "choix": [
+    "Un sujet totalement exclu du jeu",
+    "Un sujet évoqué hors champ",
+    "Une règle de combat",
+    "Une limite de temps"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Un voile désigne un sujet présent dans l’histoire, mais qu’on ne décrit pas en détail.",
+   "id": "t075-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de faces compte un d12 ?",
+   "choix": [
+    "Douze",
+    "Dix",
+    "Vingt",
+    "Six"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "C’est le dé de vie du barbare dans D&D, le plus généreux.",
+   "id": "t075-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment obtient-on habituellement un résultat de 1 à 100, dit « d100 » ?",
+   "choix": [
+    "En lançant deux d10, l’un pour les dizaines",
+    "En lançant cinq d20",
+    "Avec un dé à cent faces obligatoire",
+    "En multipliant deux d10"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "On parle aussi de dés de pourcentage, très utilisés dans L’Appel de Cthulhu.",
+   "id": "t075-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne l’« avantage » dans D&D cinquième édition ?",
+   "choix": [
+    "Garder le meilleur de deux d20",
+    "Ajouter dix au jet",
+    "Rejouer son tour",
+    "Choisir son résultat"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Le désavantage oblige au contraire à garder le plus faible.",
+   "id": "t075-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien d’alignements compte le système classique de D&D ?",
+   "choix": [
+    "Neuf",
+    "Trois",
+    "Six",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Ils combinent loyal, neutre ou chaotique avec bon, neutre ou mauvais.",
+   "id": "t075-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est l’alignement d’un personnage qui suit ses propres règles pour faire le bien ?",
+   "choix": [
+    "Chaotique bon",
+    "Loyal mauvais",
+    "Neutre strict",
+    "Loyal neutre"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Robin des Bois en est l’exemple souvent cité.",
+   "id": "t075-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le jeu de rôle joué en costume, avec des déplacements réels ?",
+   "choix": [
+    "Le grandeur nature",
+    "Le jeu de plateau",
+    "Le wargame",
+    "Le théâtre forum"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "On l’appelle aussi GN en France, ou LARP en anglais.",
+   "id": "t075-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel magazine français, fondé en 1980, est la référence historique du jeu de rôle ?",
+   "choix": [
+    "Casus Belli",
+    "Dragon Magazine",
+    "Pilote",
+    "Jeux et Stratégie"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Son nom latin signifie « motif de guerre ».",
+   "id": "t075-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série audio française, née en 2001, parodie les aventuriers de jeu de rôle ?",
+   "choix": [
+    "Le Donjon de Naheulbeuk",
+    "Kaamelott",
+    "Les Chevaliers du Fiel",
+    "Reflets d’acide"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "John Lang, alias Pen of Chaos, en est l’auteur.",
+   "id": "t075-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le genre de vidéo ou de podcast où l’on regarde une vraie partie de jeu de rôle ?",
+   "choix": [
+    "L’actual play",
+    "Le let’s play",
+    "Le speedrun",
+    "Le tutoriel"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Critical Role, lancé en 2015, en est l’exemple le plus célèbre.",
+   "id": "t075-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel comédien de doublage mène la célèbre série Critical Role ?",
+   "choix": [
+    "Matthew Mercer",
+    "Matt Colville",
+    "Brennan Lee Mulligan",
+    "Wil Wheaton"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Ses joueurs sont aussi des comédiens de doublage professionnels.",
+   "id": "t075-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cliché fait commencer les aventures dans une auberge où les héros se rencontrent ?",
+   "choix": [
+    "La taverne de départ",
+    "Le donjon final",
+    "La prison commune",
+    "Le naufrage"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Il est si répandu qu’il est devenu une plaisanterie entre rôlistes.",
+   "id": "t075-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel monstre de D&D se fait passer pour un coffre au trésor ?",
+   "choix": [
+    "Le mimique",
+    "Le tyrannoeil",
+    "Le flagelleur mental",
+    "Le cube gélatineux"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Il colle à ses victimes avant de les dévorer.",
+   "id": "t075-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monstre transparent de D&D occupe toute la largeur des couloirs qu’il nettoie ?",
+   "choix": [
+    "Le cube gélatineux",
+    "Le mimique",
+    "La vase grise",
+    "Le pudding noir"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Les objets qu’il n’a pas digérés flottent à l’intérieur.",
+   "id": "t075-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les jeux « Propulsé par l’Apocalypse », quel résultat sur 2d6 donne une réussite totale ?",
+   "choix": [
+    "10 ou plus",
+    "6 ou moins",
+    "Exactement 7",
+    "12 seulement"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "De 7 à 9, c’est une réussite partielle, avec une complication.",
+   "id": "t075-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels dés particuliers utilise le système FATE ?",
+   "choix": [
+    "Des dés à symboles + et −",
+    "Des dés à vingt faces",
+    "Des dés à cent faces",
+    "Des dés de poker"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Ils dérivent des dés du système Fudge, créé dans les années 1990.",
+   "id": "t075-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne un « dé qui explose » dans certains jeux ?",
+   "choix": [
+    "Un dé relancé et ajouté s’il fait le maximum",
+    "Un dé détruit",
+    "Un dé qui annule tous les autres",
+    "Un dé lancé par le meneur"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Cela permet, en théorie, des résultats illimités.",
+   "id": "t075-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le mouvement qui revient aux règles et à l’esprit des premiers D&D ?",
+   "choix": [
+    "L’OSR",
+    "Le PbtA",
+    "La NSR",
+    "Le FATE"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "L’abréviation signifie Old School Renaissance, ou Revival.",
+   "id": "t075-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel jeu de 2009, dérivé de D&D 3.5, est publié par Paizo ?",
+   "choix": [
+    "Pathfinder",
+    "Starfinder",
+    "Warhammer",
+    "Shadowrun"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Il naît du mécontentement de joueurs face à la quatrième édition.",
+   "id": "t075-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel téléfilm de 1982 avec Tom Hanks entretient la peur des jeux de rôle ?",
+   "choix": [
+    "Mazes and Monsters",
+    "Stranger Things",
+    "Dragonslayer",
+    "Willow"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Il s’inspire d’un fait divers qui avait été faussement relié à D&D.",
+   "id": "t075-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de Netflix fait jouer ses héros à D&D dès la première scène, en 2016 ?",
+   "choix": [
+    "Stranger Things",
+    "The Witcher",
+    "Community",
+    "The Big Bang Theory"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Le monstre de la série prend le nom d’un démon du jeu, le Démogorgon.",
+   "id": "t075-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le phénomène où les émotions du personnage débordent sur le joueur ?",
+   "choix": [
+    "Le bleed",
+    "Le méta-jeu",
+    "Le roleplay",
+    "Le fluff"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Le terme est surtout employé dans le grandeur nature.",
+   "id": "t075-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne le « méta-jeu » ?",
+   "choix": [
+    "Exploiter un savoir de joueur",
+    "Jouer plusieurs jeux à la fois",
+    "Changer de meneur",
+    "Jouer en ligne"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Savoir qu’un monstre craint le feu parce qu’on a lu le manuel en est un exemple.",
+   "id": "t075-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel principe rappelle que le meneur a le dernier mot sur les règles ?",
+   "choix": [
+    "La règle zéro",
+    "La règle d’or du d20",
+    "Le principe du dé caché",
+    "La loi de l’écran"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Elle permet d’adapter le jeu au plaisir de la table.",
+   "id": "t075-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel nom porte le personnage fourre-tout qui fait réussir les actions spectaculaires parce que c’est amusant ?",
+   "choix": [
+    "La règle du cool",
+    "La règle du fun",
+    "La loi du héros",
+    "Le bonus de style"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax et Dave Arneson, Dungeons & Dragons (TSR, 1974) ; Wizards of the Coast, Manuel des joueurs 5e édition (2014) ; Casus Belli (archives) ; Vincent Baker, Apocalypse World (2010) ; John Stavropoulos, X-Card (2013) ; Shannon Appelcline, Designers & Dragons (2011)",
+   "expl": "Le meneur accepte une action improbable parce qu’elle est mémorable.",
+   "id": "t075-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "PNJ signifie personnage non joueur.",
+   "rep": true,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Les personnages des joueurs sont les PJ.",
+   "id": "t075-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un one-shot est une longue campagne.",
+   "rep": false,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Faux : c’est un scénario joué en une seule séance.",
+   "id": "t075-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le d100 s’obtient souvent avec deux d10.",
+   "rep": true,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "L’un indique les dizaines, l’autre les unités.",
+   "id": "t075-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le grandeur nature se joue uniquement autour d’une table.",
+   "rep": false,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Faux : on s’y déplace et on porte des costumes.",
+   "id": "t075-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Casus Belli est un magazine français de jeu de rôle.",
+   "rep": true,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Il a connu plusieurs interruptions et renaissances.",
+   "id": "t075-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le railroading laisse une grande liberté aux joueurs.",
+   "rep": false,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Faux : il les enferme dans une histoire prévue d’avance.",
+   "id": "t075-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Critical Role est une série de parties de D&D filmées.",
+   "rep": true,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Elle a donné naissance à la série animée La Légende de Vox Machina.",
+   "id": "t075-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La X-Card oblige le joueur à expliquer son malaise.",
+   "rep": false,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Faux : on peut l’utiliser sans aucune justification.",
+   "id": "t075-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "D&D classique compte neuf alignements.",
+   "rep": true,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ils forment une grille de trois sur trois.",
+   "id": "t075-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le mimique est un monstre en forme de livre.",
+   "rep": false,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Faux : il prend généralement la forme d’un coffre.",
+   "id": "t075-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Donjon de Naheulbeuk est une création française.",
+   "rep": true,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Il est devenu romans, bandes dessinées et jeu vidéo.",
+   "id": "t075-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un 1 naturel au d20 est généralement une réussite critique.",
+   "rep": false,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Faux : c’est en général un échec automatique, souvent comique.",
+   "id": "t075-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les jeux Propulsé par l’Apocalypse utilisent 2d6.",
+   "rep": true,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le système est créé par Vincent Baker avec Apocalypse World.",
+   "id": "t075-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Pathfinder est publié par Wizards of the Coast.",
+   "rep": false,
+   "src": "Gygax et Arneson ; Wizards of the Coast",
+   "expl": "Faux : il est publié par Paizo, à Redmond.",
+   "id": "t075-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de faces compte le dé emblématique de D&D ?",
+   "rep": 20,
+   "min": 4,
+   "max": 30,
+   "pas": 1,
+   "unite": "faces",
+   "tolerance": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast",
+   "expl": "Le d20 décide des attaques, des sauvegardes et des tests.",
+   "id": "t075-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Donjons et Dragons ?",
+   "rep": 1974,
+   "min": 1960,
+   "max": 1990,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast",
+   "expl": "Les trois premiers livrets sont vendus dans une boîte en bois.",
+   "id": "t075-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’alignements compte D&D classique ?",
+   "rep": 9,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "alignements",
+   "tolerance": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast",
+   "expl": "Les dernières éditions les présentent comme des repères, pas des contraintes.",
+   "id": "t075-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année est fondé le magazine Casus Belli ?",
+   "rep": 1980,
+   "min": 1970,
+   "max": 1995,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast",
+   "expl": "Il est d’abord lancé par François Marcela-Froideval.",
+   "id": "t075-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année débute Critical Role ?",
+   "rep": 2015,
+   "min": 2005,
+   "max": 2022,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast",
+   "expl": "Les épisodes durent souvent plus de trois heures.",
+   "id": "t075-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année naît la saga audio Le Donjon de Naheulbeuk ?",
+   "rep": 2001,
+   "min": 1990,
+   "max": 2012,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast",
+   "expl": "Elle se diffuse d’abord en fichiers MP3 sur Internet.",
+   "id": "t075-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "À partir de quel total sur 2d6 obtient-on une réussite totale dans les jeux Propulsé par l’Apocalypse ?",
+   "rep": 10,
+   "min": 6,
+   "max": 12,
+   "pas": 1,
+   "unite": "points",
+   "tolerance": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast",
+   "expl": "C’est le seuil commun à presque tous les jeux de cette famille.",
+   "id": "t075-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de dés classiques différents comprend un set de jeu de rôle habituel ?",
+   "rep": 7,
+   "min": 4,
+   "max": 10,
+   "pas": 1,
+   "unite": "dés",
+   "tolerance": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast",
+   "expl": "d4, d6, d8, deux d10 pour les pourcentages, d12 et d20.",
+   "id": "t075-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Un personnage joué par le meneur s’appelle un ____.",
+   "choix": [
+    "PNJ",
+    "PJ",
+    "MJ",
+    "XP"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Il peut être un allié, un ennemi ou un simple figurant.",
+   "id": "t075-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le panneau qui cache les notes du meneur s’appelle l’____.",
+   "choix": [
+    "écran",
+    "écrin",
+    "ardoise",
+    "paravent"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Certains meneurs jouent « à découvert », sans écran.",
+   "id": "t075-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La mort de tout le groupe s’appelle un ____.",
+   "choix": [
+    "TPK",
+    "PvP",
+    "GN",
+    "PNJ"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "C’est le cauchemar des joueurs comme des meneurs.",
+   "id": "t075-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Un joueur qui rend son personnage surpuissant est un ____.",
+   "choix": [
+    "grosbill",
+    "grobill",
+    "munchkin",
+    "gamer"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "En anglais, on dit plutôt munchkin ou powergamer.",
+   "id": "t075-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de rôle en costume s’appelle le ____ nature.",
+   "choix": [
+    "grandeur",
+    "pleine",
+    "taille",
+    "vraie"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "On l’abrège souvent en GN, ou LARP en anglais.",
+   "id": "t075-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le magazine historique du jeu de rôle français s’appelle Casus ____.",
+   "choix": [
+    "Belli",
+    "Bellum",
+    "Belle",
+    "Ludi"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Il a révélé de nombreux auteurs de jeux français.",
+   "id": "t075-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La série audio de Pen of Chaos s’appelle Le Donjon de ____.",
+   "choix": [
+    "Naheulbeuk",
+    "Naheulbeck",
+    "Neuchâtel",
+    "Nahelburg"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Son elfe, son nain et son ogre sont devenus cultes.",
+   "id": "t075-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monstre qui imite un coffre s’appelle le ____.",
+   "choix": [
+    "mimique",
+    "mime",
+    "caméléon",
+    "sosie"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Les aventuriers prudents tapent sur les coffres avant de les ouvrir.",
+   "id": "t075-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le monstre transparent des couloirs s’appelle le cube ____.",
+   "choix": [
+    "gélatineux",
+    "gluant",
+    "visqueux",
+    "translucide"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Il mesure trois mètres de côté et paralyse ses proies.",
+   "id": "t075-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’utilisation d’informations que le personnage ignore s’appelle le ____-jeu.",
+   "choix": [
+    "méta",
+    "hors",
+    "para",
+    "sur"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "C’est l’un des reproches les plus courants à table.",
+   "id": "t075-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La partie préparatoire d’une campagne s’appelle la session ____.",
+   "choix": [
+    "zéro",
+    "une",
+    "test",
+    "pilote"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "On y fixe le ton et les limites de la campagne.",
+   "id": "t075-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le phénomène où les émotions du personnage atteignent le joueur s’appelle le ____.",
+   "choix": [
+    "bleed",
+    "blend",
+    "bleep",
+    "burn"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le mot anglais signifie « saigner », ou déteindre.",
+   "id": "t075-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le mouvement de retour aux premiers D&D s’appelle l’____.",
+   "choix": [
+    "OSR",
+    "OGL",
+    "NPC",
+    "DMG"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Il valorise la débrouillardise des joueurs plus que les règles.",
+   "id": "t075-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces dés n’existe pas dans un set classique ?",
+   "choix": [
+    "Le d7",
+    "Le d4",
+    "Le d12",
+    "Le d20"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le set classique ne contient que des dés pairs.",
+   "id": "t075-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mots ne désigne pas le meneur ?",
+   "choix": [
+    "Le PJ",
+    "Le MJ",
+    "Le maître du donjon",
+    "Le conteur"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le PJ est le personnage incarné par un joueur.",
+   "id": "t075-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces outils ne sert pas à la sécurité émotionnelle ?",
+   "choix": [
+    "Le jet d’initiative",
+    "La X-Card",
+    "Les lignes et voiles",
+    "La session zéro"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le jet d’initiative fixe l’ordre de combat.",
+   "id": "t075-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces alignements n’existe pas dans D&D ?",
+   "choix": [
+    "Chaotique gentil",
+    "Loyal bon",
+    "Neutre mauvais",
+    "Chaotique neutre"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Les axes sont loyal-neutre-chaotique et bon-neutre-mauvais.",
+   "id": "t075-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces monstres n’est pas issu de D&D ?",
+   "choix": [
+    "Le Dalek",
+    "Le tyrannoeil",
+    "Le flagelleur mental",
+    "Le cube gélatineux"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le Dalek est un ennemi de la série britannique Doctor Who.",
+   "id": "t075-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas un jeu de rôle ?",
+   "choix": [
+    "Catan",
+    "Pathfinder",
+    "L’Appel de Cthulhu",
+    "Vampire"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Catan est un jeu de plateau, sans personnage à incarner.",
+   "id": "t075-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces séries n’est pas un actual play ?",
+   "choix": [
+    "Stranger Things",
+    "Critical Role",
+    "Dimension 20",
+    "The Adventure Zone"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Stranger Things est une série de fiction qui montre des parties de D&D.",
+   "id": "t075-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces systèmes n’utilise pas principalement le d20 ?",
+   "choix": [
+    "Propulsé par l’Apocalypse",
+    "D&D",
+    "Pathfinder",
+    "Starfinder"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Les jeux PbtA utilisent deux dés à six faces.",
+   "id": "t075-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces mots n’appartient pas au jargon du jeu de rôle ?",
+   "choix": [
+    "Le hors-jeu",
+    "Le PNJ",
+    "Le one-shot",
+    "Le bac à sable"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le hors-jeu appartient au vocabulaire du football.",
+   "id": "t075-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas créé de jeu de rôle ?",
+   "choix": [
+    "Hergé",
+    "Gary Gygax",
+    "Dave Arneson",
+    "Vincent Baker"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Hergé est le créateur de Tintin, sans lien avec le jeu de rôle.",
+   "id": "t075-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels dés font partie d’un set classique ? (plusieurs bonnes réponses)",
+   "choix": [
+    "d4",
+    "d6",
+    "d12",
+    "d20",
+    "d7",
+    "d15"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces dés reprennent les formes des solides de Platon, plus le d10.",
+   "id": "t075-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels mots désignent l’arbitre du jeu ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Meneur de jeu",
+    "Maître du donjon",
+    "Conteur",
+    "Personnage joueur",
+    "Grosbill"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le Conteur est le terme employé dans Vampire : la Mascarade.",
+   "id": "t075-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels outils aident à la sécurité émotionnelle à table ? (plusieurs bonnes réponses)",
+   "choix": [
+    "X-Card",
+    "Lignes et voiles",
+    "Session zéro",
+    "Écran du meneur",
+    "Jet de sauvegarde"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces outils se sont répandus dans les années 2010.",
+   "id": "t075-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels monstres sont des classiques de D&D ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tyrannoeil",
+    "Mimique",
+    "Cube gélatineux",
+    "Flagelleur mental",
+    "Pikachu",
+    "Dalek"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le tyrannoeil est l’une des créatures emblématiques du jeu.",
+   "id": "t075-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles émissions ou séries montrent de vraies parties de jeu de rôle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Critical Role",
+    "Dimension 20",
+    "The Adventure Zone",
+    "Stranger Things",
+    "Game of Thrones"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "L’actual play a donné une nouvelle visibilité au loisir.",
+   "id": "t075-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels styles de campagne existent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Bac à sable",
+    "Dungeon crawl",
+    "Campagne linéaire",
+    "Speedrun",
+    "Tour par tour en ligne"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Chaque style demande une préparation différente au meneur.",
+   "id": "t075-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels termes décrivent un comportement souvent mal vu à table ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Grosbill",
+    "Méta-jeu",
+    "Railroading",
+    "Roleplay",
+    "Session zéro"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces travers peuvent gâcher le plaisir collectif.",
+   "id": "t075-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels axes composent les alignements de D&D ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Loyal ou chaotique",
+    "Bon ou mauvais",
+    "Fort ou faible",
+    "Riche ou pauvre"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "La neutralité occupe le centre de chaque axe.",
+   "id": "t075-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles œuvres de fiction ont représenté le jeu de rôle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Stranger Things",
+    "Mazes and Monsters",
+    "Le Donjon de Naheulbeuk",
+    "Le Seigneur des anneaux",
+    "Harry Potter"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Elles oscillent entre panique morale et affection nostalgique.",
+   "id": "t075-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux utilisent des dés spéciaux ou peu courants ? (plusieurs bonnes réponses)",
+   "choix": [
+    "FATE",
+    "Star Wars, le jeu de rôle de Fantasy Flight",
+    "D&D",
+    "Pathfinder"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Les dés narratifs de Star Wars affichent des symboles plutôt que des nombres.",
+   "id": "t075-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces dés du plus petit au plus grand nombre de faces.",
+   "items": [
+    "d4",
+    "d6",
+    "d8",
+    "d12",
+    "d20"
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le d10 se glisserait entre le d8 et le d12.",
+   "id": "t075-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Parution de D&D",
+    "Fondation de Casus Belli",
+    "Naissance de Naheulbeuk",
+    "Lancement de Critical Role"
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces événements datent de 1974, 1980, 2001 puis 2015.",
+   "id": "t075-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes habituelles d’un combat dans D&D dans l’ordre.",
+   "items": [
+    "Jet d’initiative",
+    "Jet d’attaque",
+    "Comparaison à la classe d’armure",
+    "Jet de dégâts"
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le combat se découpe en rounds de six secondes.",
+   "id": "t075-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces durées de jeu de la plus courte à la plus longue.",
+   "items": [
+    "One-shot",
+    "Mini-campagne",
+    "Campagne",
+    "Mégacampagne"
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Certaines campagnes durent plusieurs années.",
+   "id": "t075-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces éditions de D&D par ordre chronologique.",
+   "items": [
+    "AD&D",
+    "D&D 3e édition",
+    "D&D 4e édition",
+    "D&D 5e édition"
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces éditions paraissent en 1977, 2000, 2008 puis 2014.",
+   "id": "t075-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux par date de parution.",
+   "items": [
+    "D&D",
+    "L’Appel de Cthulhu",
+    "Vampire : la Mascarade",
+    "Apocalypse World"
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces jeux paraissent en 1974, 1981, 1991 puis 2010.",
+   "id": "t075-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la préparation d’une campagne dans l’ordre.",
+   "items": [
+    "Choix du jeu",
+    "Session zéro",
+    "Création des personnages",
+    "Première séance"
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "La session zéro peut inclure la création des personnages.",
+   "id": "t075-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces résultats des jeux PbtA du plus faible au plus fort.",
+   "items": [
+    "6 ou moins",
+    "De 7 à 9",
+    "10 ou plus"
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Un échec permet au meneur de faire un « mouvement dur ».",
+   "id": "t075-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’un jet de sauvegarde dans D&D dans l’ordre.",
+   "items": [
+    "Le meneur annonce la caractéristique",
+    "Le joueur lance le d20",
+    "Il ajoute son bonus",
+    "On compare au degré de difficulté"
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le degré de difficulté est souvent fixé par le sort ou le piège.",
+   "id": "t075-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque abréviation à son sens.",
+   "paires": [
+    [
+     "PJ",
+     "Personnage joueur"
+    ],
+    [
+     "PNJ",
+     "Personnage non joueur"
+    ],
+    [
+     "MJ",
+     "Meneur de jeu"
+    ],
+    [
+     "XP",
+     "Expérience"
+    ]
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Le jargon du jeu de rôle est plein de sigles.",
+   "id": "t075-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque alignement à son exemple.",
+   "paires": [
+    [
+     "Chaotique bon",
+     "Robin des Bois"
+    ],
+    [
+     "Loyal bon",
+     "Paladin"
+    ],
+    [
+     "Loyal mauvais",
+     "Tyran"
+    ],
+    [
+     "Chaotique mauvais",
+     "Démon"
+    ]
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Les exemples varient beaucoup selon les tables.",
+   "id": "t075-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque système à son dé principal.",
+   "paires": [
+    [
+     "D&D",
+     "d20"
+    ],
+    [
+     "PbtA",
+     "2d6"
+    ],
+    [
+     "L’Appel de Cthulhu",
+     "d100"
+    ],
+    [
+     "FATE",
+     "Dés Fudge"
+    ]
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Chaque système repose sur sa propre mécanique de base.",
+   "id": "t075-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque outil à sa fonction.",
+   "paires": [
+    [
+     "X-Card",
+     "Retirer un contenu"
+    ],
+    [
+     "Ligne",
+     "Sujet exclu"
+    ],
+    [
+     "Voile",
+     "Sujet hors champ"
+    ]
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "La sécurité permet à chacun de jouer sereinement.",
+   "id": "t075-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque terme à sa définition.",
+   "paires": [
+    [
+     "One-shot",
+     "Une séance"
+    ],
+    [
+     "Bac à sable",
+     "Monde ouvert"
+    ],
+    [
+     "Railroading",
+     "Histoire imposée"
+    ],
+    [
+     "TPK",
+     "Mort du groupe"
+    ]
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces termes reviennent dans toutes les discussions de rôlistes.",
+   "id": "t075-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque actual play à son support principal.",
+   "paires": [
+    [
+     "Critical Role",
+     "Vidéo en direct"
+    ],
+    [
+     "The Adventure Zone",
+     "Podcast"
+    ],
+    [
+     "Naheulbeuk",
+     "Saga audio MP3"
+    ]
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Naheulbeuk est une fiction écrite, pas une vraie partie.",
+   "id": "t075-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monstre à sa ruse.",
+   "paires": [
+    [
+     "Mimique",
+     "Imiter un coffre"
+    ],
+    [
+     "Cube gélatineux",
+     "Être invisible dans un couloir"
+    ],
+    [
+     "Flagelleur mental",
+     "Dévorer les cerveaux"
+    ]
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces monstres jouent sur la paranoïa des joueurs.",
+   "id": "t075-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque éditeur à son jeu.",
+   "paires": [
+    [
+     "Wizards of the Coast",
+     "D&D"
+    ],
+    [
+     "Paizo",
+     "Pathfinder"
+    ],
+    [
+     "Chaosium",
+     "L’Appel de Cthulhu"
+    ]
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces éditeurs américains dominent le marché.",
+   "id": "t075-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque créateur à son apport.",
+   "paires": [
+    [
+     "Gary Gygax",
+     "D&D"
+    ],
+    [
+     "Vincent Baker",
+     "Apocalypse World"
+    ],
+    [
+     "John Stavropoulos",
+     "X-Card"
+    ],
+    [
+     "Matthew Mercer",
+     "Critical Role"
+    ]
+   ],
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Ces créateurs ont chacun transformé la pratique du jeu de rôle.",
+   "id": "t075-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dé\n2. J’ai vingt faces\n3. Je décide des attaques dans D&D",
+   "choix": [
+    "Le d20",
+    "Le d12",
+    "Le d100",
+    "Le d6"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Mes 20 naturels font crier les joueurs de joie.",
+   "id": "t075-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un monstre\n2. Je ressemble à un coffre\n3. Je dévore les imprudents",
+   "choix": [
+    "Le mimique",
+    "Le cube gélatineux",
+    "Le tyrannoeil",
+    "Le kobold"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Mon nom évoque l’imitation, ma grande spécialité.",
+   "id": "t075-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un magazine\n2. Je suis français\n3. Mon nom est latin",
+   "choix": [
+    "Casus Belli",
+    "Dragon Magazine",
+    "Jeux et Stratégie",
+    "Backstab"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "J’ai accompagné l’essor du jeu de rôle en France.",
+   "id": "t075-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une saga\n2. Je suis française et audio\n3. Mes héros sont maladroits",
+   "choix": [
+    "Le Donjon de Naheulbeuk",
+    "Reflets d’acide",
+    "Kaamelott",
+    "Le Visiteur du futur"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Mon auteur s’appelle John Lang, alias Pen of Chaos.",
+   "id": "t075-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une carte\n2. On me touche sans se justifier\n3. Je retire un contenu gênant",
+   "choix": [
+    "La X-Card",
+    "La carte du MJ",
+    "La carte joker",
+    "La carte vitale"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "John Stavropoulos m’a créée en 2013 pour les conventions.",
+   "id": "t075-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un joueur\n2. Je veux un personnage surpuissant\n3. J’optimise tout",
+   "choix": [
+    "Le grosbill",
+    "Le rôliste",
+    "Le meneur",
+    "Le figurant"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Les anglophones m’appellent plutôt munchkin.",
+   "id": "t075-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une émission\n2. Je montre une vraie partie de D&D\n3. Mes joueurs sont comédiens de doublage",
+   "choix": [
+    "Critical Role",
+    "Stranger Things",
+    "Dimension 20",
+    "Community"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "Mon meneur s’appelle Matthew Mercer, voix de nombreux jeux.",
+   "id": "t075-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une séance\n2. Je précède la campagne\n3. On y parle des limites",
+   "choix": [
+    "La session zéro",
+    "Le one-shot",
+    "Le TPK",
+    "La pause"
+   ],
+   "rep": 0,
+   "src": "Gygax et Arneson ; Wizards of the Coast ; Casus Belli",
+   "expl": "On m’appelle aussi la séance de présentation.",
+   "id": "t075-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
