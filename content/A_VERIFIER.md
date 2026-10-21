@@ -23,3 +23,4 @@ Format : thème · question · doute. Coché quand c’est vérifié (avec la so
 - Thème 43 : chronologie de l’Hérésie (ordre Calth/Prospero/Isstvan V), rôle de Constantin Valdor et de Malcador, première guerre d’Armageddon (Angron), noms français « Massacre du Site de Largage », « Guerres des Portails », « Croisades de l’Aube ».
 - Thème 46 (refonte) : 34 questions de la base retirées (trop évidentes ou en double), explications complétées ; vérifier l’ordre des travaux d’Héraclès selon Apollodore et l’ordre des étapes du retour d’Ulysse.
 - Thème 48 : noms français des fils d’Horus et des déesses gauloises, « pierre de Fál », nombre de morceaux d’Osiris (14 chez Plutarque), « Siège Périlleux », pilier des Nautes (Cernunnos).
+- Thème 49 : transcriptions françaises (domovoï, léchi, vodianoï, roussalka, Zmeï Gorynytch, Péroun, Mokoch), paroles de Setsubun (résumées), date du catalogue de Toriyama Sekien.
