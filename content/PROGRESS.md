@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**96 / 99 thèmes terminés — 12369 questions au total.**
+**97 / 99 thèmes terminés — 12490 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -102,7 +102,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 94 | Langues inventées de la pop culture | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 95 | Parodies et comédies fantastiques | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 96 | Grands illustrateurs de l’imaginaire | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
-| 97 | Citations et répliques cultes geek | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 97 | Citations et répliques cultes geek | 121 | 40 | 14 (7) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 3 | terminé |
 | 98 | Botanique et herboristerie dans la fiction | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 99 | Guildes, factions et ordres secrets | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 
@@ -342,3 +342,4 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - content/060/a.lm:79 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (fete) — Quelle fête populaire renverse l’ordre social le temps d’une journée, avec l’élection d’un
 - content/066/a.lm:3 : mot de la bonne réponse présent dans l’énoncé (« sorcieres ») et absent des autres propositions
 - content/093/a.lm:23 : mot de la bonne réponse présent dans l’énoncé (« leurs ») et absent des autres propositions
+- content/097/a.lm:10 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (pres) — Quel aveu revient dans presque tous les films Star Wars, dans la bouche de héros inquiets 
