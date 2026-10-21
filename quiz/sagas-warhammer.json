@@ -1,0 +1,1960 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "sagas-warhammer",
+  "nom": "Grandes sagas et batailles de Warhammer",
+  "royaume": "Les univers Warhammer",
+  "icone": "catapulte",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel titre l’Empereur accorde-t-il à Horus après le Triomphe d’Ullanor ?",
+   "choix": [
+    "Maître de Guerre",
+    "Régent de Terra",
+    "Grand Chapelain",
+    "Prince des Primarques"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Horus commande dès lors toute la Grande Croisade, à la place de l’Empereur.",
+   "id": "t043-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quelle lune Horus est-il gravement blessé, avant sa corruption ?",
+   "choix": [
+    "Davin",
+    "Ullanor",
+    "Isstvan",
+    "Calth"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Une lame chaotique l’empoisonne ; on le soigne dans une loge interdite.",
+   "id": "t043-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chapelain des Word Bearers manipule Horus pour le livrer au Chaos ?",
+   "choix": [
+    "Erebus",
+    "Kor Phaeron",
+    "Lorgar",
+    "Abaddon"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Il agit dans l’ombre depuis des décennies, au nom des dieux du Chaos.",
+   "id": "t043-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait Horus des loyalistes de ses propres Légions sur Isstvan III ?",
+   "choix": [
+    "Il les bombarde de virus",
+    "Il les envoie en exil",
+    "Il les enferme sur Terra",
+    "Il les accueille en héros"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Une poignée de survivants résiste dans les ruines, guidée par Saul Tarvitz et Garviel Loken.",
+   "id": "t043-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel capitaine de la Death Guard s’échappe à bord de l’Eisenstein pour avertir Terra ?",
+   "choix": [
+    "Nathaniel Garro",
+    "Saul Tarvitz",
+    "Garviel Loken",
+    "Ezekyle Abaddon"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Il apporte la première nouvelle de la trahison d’Horus.",
+   "id": "t043-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on la trahison d’Isstvan V, où les loyalistes sont pris en tenaille ?",
+   "choix": [
+    "Le Massacre du Site de Largage",
+    "La Chute de Prospero",
+    "La Bataille de Calth",
+    "Le Siège de Terra"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "La deuxième vague, censée les aider, ouvre le feu sur eux.",
+   "id": "t043-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque est décapité par Fulgrim sur Isstvan V ?",
+   "choix": [
+    "Ferrus Manus",
+    "Vulkan",
+    "Corvus Corax",
+    "Rogal Dorn"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Les deux Primarques étaient pourtant de grands amis, unis par l’amour de la forge.",
+   "id": "t043-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Légion loyale est presque anéantie avec les Iron Hands et les Salamanders sur Isstvan V ?",
+   "choix": [
+    "La Raven Guard",
+    "Les White Scars",
+    "Les Blood Angels",
+    "Les Ultramarines"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Corvus Corax échappe de justesse au massacre.",
+   "id": "t043-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Légion incendie Prospero, la planète des Thousand Sons ?",
+   "choix": [
+    "Les Space Wolves",
+    "Les Ultramarines",
+    "Les World Eaters",
+    "Les Imperial Fists"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Leman Russ devait ramener Magnus, mais Horus a fait changer l’ordre.",
+   "id": "t043-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait Leman Russ à Magnus lors de leur duel sur Prospero ?",
+   "choix": [
+    "Il lui brise le dos",
+    "Il lui arrache un œil",
+    "Il le décapite",
+    "Il le change en pierre"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Magnus disparaît alors dans le Warp avec sa planète.",
+   "id": "t043-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quel monde les Word Bearers attaquent-ils les Ultramarines par surprise ?",
+   "choix": [
+    "Calth",
+    "Macragge",
+    "Signus",
+    "Prospero"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "La bataille dévaste le système ; la guerre continue ensuite sous terre.",
+   "id": "t043-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Légion est piégée par les démons dans le système de Signus ?",
+   "choix": [
+    "Les Blood Angels",
+    "Les Dark Angels",
+    "Les Space Wolves",
+    "Les Iron Hands"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Sanguinius y affronte des démons de Khorne et révèle sa nature angélique.",
+   "id": "t043-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui défend le Palais impérial pendant le Siège de Terra ?",
+   "choix": [
+    "Rogal Dorn",
+    "Roboute Guilliman",
+    "Lion El’Jonson",
+    "Corvus Corax"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Les murs sont tenus aussi par les Blood Angels, les White Scars et les Custodes.",
+   "id": "t043-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel champion des Imperial Fists est célèbre pour son duel à la Porte de l’Éternité ?",
+   "choix": [
+    "Sigismund",
+    "Saul Tarvitz",
+    "Garviel Loken",
+    "Nathaniel Garro"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Il devient plus tard le premier Grand Maréchal des Black Templars.",
+   "id": "t043-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où l’Empereur affronte-t-il son fils rebelle pour la dernière fois ?",
+   "choix": [
+    "À bord du vaisseau amiral ennemi",
+    "Dans la salle du trône",
+    "Sur la lune de Davin",
+    "Sur les murs du Palais"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "L’Empereur se téléporte sur le Vengeful Spirit, avec quelques fidèles.",
+   "id": "t043-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Primarque meurt en affrontant Horus juste avant l’Empereur ?",
+   "choix": [
+    "Sanguinius",
+    "Rogal Dorn",
+    "Leman Russ",
+    "Vulkan"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Sa mort pèse encore sur les Blood Angels dix mille ans plus tard.",
+   "id": "t043-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui découvre le corps de l’Empereur et le porte jusqu’au Trône d’Or ?",
+   "choix": [
+    "Rogal Dorn",
+    "Roboute Guilliman",
+    "Malcador",
+    "Sigismund"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Il le ramène blessé à mort, pour qu’il soit installé sur le Trône d’Or.",
+   "id": "t043-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on la contre-offensive des loyalistes après le Siège de Terra ?",
+   "choix": [
+    "La Grande Purge",
+    "La Croisade Indomitus",
+    "La Guerre du Ciel",
+    "La Fin des Temps"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Les Légions traîtresses sont repoussées jusqu’à l’Œil de la Terreur.",
+   "id": "t043-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel commissaire tient la ruche Hadès lors de la seconde guerre d’Armageddon ?",
+   "choix": [
+    "Sebastian Yarrick",
+    "Ciaphas Cain",
+    "Ibram Gaunt",
+    "Ursarkar Creed"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Il perd un bras contre un Ork, et y gagne une réputation de héros.",
+   "id": "t043-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle croisade noire d’Abaddon devient la guerre gothique ?",
+   "choix": [
+    "La douzième",
+    "La première",
+    "La treizième",
+    "La quatrième"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Abaddon y cherche les forteresses noires, d’anciennes armes des Anciens.",
+   "id": "t043-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel seigneur des Astral Claws provoque la guerre de Badab ?",
+   "choix": [
+    "Lufgt Huron",
+    "Kor Phaeron",
+    "Fabius Bile",
+    "Erebus"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Le Tyran de Badab finit par fonder les Red Corsairs, des pirates renégats.",
+   "id": "t043-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel régiment de la Garde mène le terrible siège de Vraks ?",
+   "choix": [
+    "Le Death Korps de Krieg",
+    "Les Cadiens",
+    "Les Catachans",
+    "Les Valhallans"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Ce siège contre un cardinal apostat dure dix-sept ans.",
+   "id": "t043-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel régiment combat lors de la croisade des mondes de Sabbat, dans les romans de Dan Abnett ?",
+   "choix": [
+    "Le Premier et Unique de Tanith",
+    "Le Death Korps de Krieg",
+    "Les Cadiens de la 8e",
+    "Les Mordiens"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Les Fantômes de Gaunt sont les derniers survivants de leur monde.",
+   "id": "t043-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui envahit l’Ultramar lors de la guerre de la Peste ?",
+   "choix": [
+    "La Death Guard de Mortarion",
+    "Les World Eaters d’Angron",
+    "Les Orks de Ghazghkull",
+    "Les Tyranides de Léviathan"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Guilliman repousse son ancien frère après de longs combats.",
+   "id": "t043-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu de la mort provoque la Nécro-tempête dans Age of Sigmar ?",
+   "choix": [
+    "Nagash",
+    "Sigmar",
+    "Archaon",
+    "Teclis"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Le grand rituel déclenche les Guerres des Âmes.",
+   "id": "t043-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les guerres où les Stormcast Eternals reconquièrent les passages entre les royaumes ?",
+   "choix": [
+    "Les Guerres des Portails",
+    "Les Guerres des Âmes",
+    "Les Croisades de l’Aube",
+    "Les Royaumes Brisés"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Elles ouvrent le récit d’Age of Sigmar, en 2015.",
+   "id": "t043-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les expéditions qui fondent de nouvelles cités dans Age of Sigmar ?",
+   "choix": [
+    "Les Croisades de l’Aube",
+    "Les Croisades Noires",
+    "Les Guerres des Âmes",
+    "Les Guerres des Portails"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Des colons, escortés de soldats, partent bâtir des cités dans les terres sauvages.",
+   "id": "t043-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle insulte elfique déclenche la plus grande guerre contre les nains ?",
+   "choix": [
+    "La barbe d’un ambassadeur nain est rasée",
+    "Un roi elfe est assassiné",
+    "Une forteresse naine est pillée",
+    "Un trésor elfique est volé"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Les nains notent cette offense dans le Livre des Rancunes.",
+   "id": "t043-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on la guerre civile qui sépare les hauts elfes et les elfes noirs ?",
+   "choix": [
+    "La Déchirure",
+    "La Grande Purge",
+    "La Fin des Temps",
+    "La guerre de la Barbe"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Une partie d’Ulthuan sombre dans l’océan pendant ce conflit.",
+   "id": "t043-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville de Kislev est corrompue par le Chaos pendant la Grande Guerre ?",
+   "choix": [
+    "Praag",
+    "Erengrad",
+    "Middenheim",
+    "Altdorf"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Ses murs et ses habitants fusionnent en une masse hurlante.",
+   "id": "t043-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel événement précède directement la création des Royaumes Mortels ?",
+   "choix": [
+    "La Fin des Temps",
+    "La Tempête du Chaos",
+    "La Grande Guerre contre le Chaos",
+    "La guerre de la Barbe"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Le vieux monde est anéanti par Archaon, et seuls quelques fragments subsistent.",
+   "id": "t043-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel seigneur de guerre ork lance la troisième guerre d’Armageddon ?",
+   "choix": [
+    "Ghazghkull",
+    "Grimgor",
+    "Snagrod",
+    "Gorbad"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Il revient avec une armada plus grande que lors de son premier assaut.",
+   "id": "t043-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels traîtres se cachent dans la deuxième vague d’Isstvan V ?",
+   "choix": [
+    "Night Lords, Iron Warriors, Word Bearers et Alpha Legion",
+    "Ultramarines, Blood Angels, Dark Angels et White Scars",
+    "Space Wolves, Imperial Fists, Salamanders et Iron Hands",
+    "Raven Guard, Ultramarines, White Scars et Space Wolves"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Ils feignent de venir en renfort avant de tirer sur les loyalistes.",
+   "id": "t043-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel loyaliste des Luna Wolves est le héros du premier roman de L’Hérésie d’Horus ?",
+   "choix": [
+    "Garviel Loken",
+    "Saul Tarvitz",
+    "Nathaniel Garro",
+    "Sigismund"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Il voit, impuissant, son Primarque s’éloigner peu à peu de l’Empereur.",
+   "id": "t043-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Légion loyale, très éloignée de Terra, arrive trop tard pour le Siège ?",
+   "choix": [
+    "Les Ultramarines",
+    "Les Imperial Fists",
+    "Les Blood Angels",
+    "Les White Scars"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Guilliman fonde même un Imperium Secundus, croyant Terra tombée.",
+   "id": "t043-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est l’enjeu de la dernière bataille de la guerre gothique ?",
+   "choix": [
+    "Les forteresses noires",
+    "Les Primarques perdus",
+    "La pierre esprit d’Eldrad",
+    "Le marteau de Sigmar"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Ces stations millénaires peuvent détruire une étoile lorsqu’elles agissent ensemble.",
+   "id": "t043-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom porte la croisade qui conquiert la galaxie avant l’Hérésie ?",
+   "choix": [
+    "La Grande Croisade",
+    "La croisade Indomitus",
+    "La croisade de Sabbat",
+    "La Croisade noire"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Menée par l’Empereur, elle réunit des milliers de mondes humains.",
+   "id": "t043-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel régent de l’Empereur est le dernier à tenir le Trône pendant le Siège ?",
+   "choix": [
+    "Malcador le Sigillite",
+    "Rogal Dorn",
+    "Sigismund",
+    "Constantin Valdor"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Il meurt en remplaçant l’Empereur sur le Trône d’Or.",
+   "id": "t043-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel capitaine-général des Custodes combat pendant tout le Siège de Terra ?",
+   "choix": [
+    "Constantin Valdor",
+    "Trajann Valoris",
+    "Sigismund",
+    "Malcador"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Il est l’un des prédécesseurs de Trajann Valoris, chef des Custodes au 41e millénaire.",
+   "id": "t043-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu du Chaos frappe particulièrement Ultramar dans la guerre de la Peste ?",
+   "choix": [
+    "Nurgle",
+    "Khorne",
+    "Tzeentch",
+    "Slaanesh"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus (2006-2019) et Le Siège de Terra ; Games Workshop, Horus Heresy (Forge World), Codex et Battletomes",
+   "expl": "Mortarion voulait faire d’Ultramar le jardin de son dieu.",
+   "id": "t043-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Hérésie d’Horus a lieu environ dix mille ans avant l’époque principale de 40k.",
+   "rep": true,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Elle se déroule au 31e millénaire, quand l’Empereur marchait encore parmi les hommes.",
+   "id": "t043-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Horus a remporté son duel contre l’Empereur.",
+   "rep": false,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Faux : l’Empereur le tue, mais en est mortellement blessé.",
+   "id": "t043-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Sur Isstvan V, les Iron Hands, les Salamanders et la Raven Guard sont trahis.",
+   "rep": true,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ils croient que les autres Légions viennent les soutenir.",
+   "id": "t043-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Calth oppose les Space Wolves aux Thousand Sons.",
+   "rep": false,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Faux : c’est sur Prospero ; sur Calth, les Word Bearers attaquent les Ultramarines.",
+   "id": "t043-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Malcador remplace l’Empereur sur le Trône d’Or pendant le Siège.",
+   "rep": true,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Cette charge épuise sa vie en quelques jours.",
+   "id": "t043-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Ferrus Manus survit au massacre d’Isstvan V.",
+   "rep": false,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Faux : il est tué par Fulgrim, son ancien ami.",
+   "id": "t043-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La guerre de Badab oppose des Space Marines à d’autres Space Marines.",
+   "rep": true,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Plusieurs chapitres se rangent derrière Huron contre l’Imperium.",
+   "id": "t043-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Grande Croisade a lieu après l’Hérésie d’Horus.",
+   "rep": false,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Faux : elle la précède ; l’Hérésie y met fin brutalement.",
+   "id": "t043-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Croisades de l’Aube servent à fonder de nouvelles cités.",
+   "rep": true,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "C’est le grand thème de la troisième édition d’Age of Sigmar.",
+   "id": "t043-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Siège de Vraks dure seulement quelques jours.",
+   "rep": false,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Faux : il dure dix-sept ans et coûte des millions de vies.",
+   "id": "t043-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sigismund est un champion des Imperial Fists.",
+   "rep": true,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Il fonde ensuite les Black Templars, qui portent encore son nom en vénération.",
+   "id": "t043-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Ghazghkull ne combat qu’une seule fois sur Armageddon.",
+   "rep": false,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Faux : il revient pour une troisième guerre, plus de cinquante ans plus tard.",
+   "id": "t043-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Guerres des Âmes sont déclenchées par la Nécro-tempête de Nagash.",
+   "rep": true,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Des légions de spectres envahissent alors tous les Royaumes Mortels.",
+   "id": "t043-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Déchirure oppose des nains à des orques.",
+   "rep": false,
+   "src": "Black Library ; Games Workshop",
+   "expl": "Faux : c’est la guerre civile des elfes, entre partisans de Malekith et du Roi Phénix.",
+   "id": "t043-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de Légions Space Marines ont-elles été connues de la Grande Croisade, sans compter les deux disparues ?",
+   "rep": 18,
+   "min": 9,
+   "max": 20,
+   "pas": 1,
+   "unite": "Légions",
+   "tolerance": 0,
+   "src": "Black Library ; Games Workshop",
+   "expl": "Neuf restent fidèles, neuf suivent Horus.",
+   "id": "t043-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’années dure le siège de Vraks ?",
+   "rep": 17,
+   "min": 2,
+   "max": 40,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Black Library ; Games Workshop",
+   "expl": "Le Death Korps de Krieg y perd des millions de soldats.",
+   "id": "t043-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de Légions loyales tombent dans le piège d’Isstvan V ?",
+   "rep": 3,
+   "min": 1,
+   "max": 9,
+   "pas": 1,
+   "unite": "Légions",
+   "tolerance": 0,
+   "src": "Black Library ; Games Workshop",
+   "expl": "Iron Hands, Salamanders et Raven Guard, presque anéanties dans le piège.",
+   "id": "t043-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de Légions traîtresses composent la deuxième vague d’Isstvan V ?",
+   "rep": 4,
+   "min": 1,
+   "max": 9,
+   "pas": 1,
+   "unite": "Légions",
+   "tolerance": 0,
+   "src": "Black Library ; Games Workshop",
+   "expl": "Night Lords, Iron Warriors, Word Bearers et Alpha Legion.",
+   "id": "t043-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Au cours de quel millénaire a lieu l’Hérésie d’Horus ?",
+   "rep": 31,
+   "min": 25,
+   "max": 42,
+   "pas": 1,
+   "unite": "e millénaire",
+   "tolerance": 0,
+   "src": "Black Library ; Games Workshop",
+   "expl": "On le note M31 ; la Grande Croisade a commencé au 30e millénaire.",
+   "id": "t043-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Quelle Croisade noire fait tomber Cadia ?",
+   "rep": 13,
+   "min": 1,
+   "max": 20,
+   "pas": 1,
+   "unite": "e croisade",
+   "tolerance": 0,
+   "src": "Black Library ; Games Workshop",
+   "expl": "Abaddon y réussit enfin là où il avait échoué douze fois.",
+   "id": "t043-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’années séparent la deuxième et la troisième guerre d’Armageddon ?",
+   "rep": 57,
+   "min": 10,
+   "max": 100,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 2,
+   "src": "Black Library ; Games Workshop",
+   "expl": "De 941 à 998 du 41e millénaire, entre deux invasions de Ghazghkull.",
+   "id": "t043-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît le premier roman de L’Hérésie d’Horus ?",
+   "rep": 2006,
+   "min": 1997,
+   "max": 2016,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Black Library ; Games Workshop",
+   "expl": "L’Ascension d’Horus, de Dan Abnett, ouvre une série de plus de cinquante volumes.",
+   "id": "t043-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La guerre civile qui déchire l’Imperium s’appelle l’Hérésie d’____.",
+   "choix": [
+    "Horus",
+    "Erebus",
+    "Lorgar",
+    "Abaddon"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Elle ravage la galaxie pendant près de sept ans.",
+   "id": "t043-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Horus est grièvement blessé sur la lune de ____.",
+   "choix": [
+    "Davin",
+    "Calth",
+    "Isstvan",
+    "Signus"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Les loges guerrières de Davin cachaient d’anciens cultes du Chaos.",
+   "id": "t043-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le capitaine Garro s’enfuit à bord de l’____.",
+   "choix": [
+    "Eisenstein",
+    "Vengeful Spirit",
+    "Phalanx",
+    "Macragge’s Honour"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ce vaisseau de la Death Guard rejoint Terra, très endommagé.",
+   "id": "t043-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La planète des Thousand Sons, incendiée par les Space Wolves, s’appelle ____.",
+   "choix": [
+    "Prospero",
+    "Fenris",
+    "Calth",
+    "Baal"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Sa capitale, Tizca, était appelée la Cité de la Lumière.",
+   "id": "t043-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le régent qui se sacrifie sur le Trône d’Or s’appelle Malcador le ____.",
+   "choix": [
+    "Sigillite",
+    "Sage",
+    "Sombre",
+    "Fidèle"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Il dirigeait les services secrets de l’Empereur.",
+   "id": "t043-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le vaisseau amiral d’Horus s’appelle le Vengeful ____.",
+   "choix": [
+    "Spirit",
+    "Heart",
+    "Soul",
+    "Fury"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "C’est sur ce pont que s’achève l’Hérésie.",
+   "id": "t043-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La contre-attaque qui suit le Siège de Terra s’appelle la Grande ____.",
+   "choix": [
+    "Purge",
+    "Croisade",
+    "Revanche",
+    "Chasse"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Elle repousse les traîtres dans l’Œil de la Terreur.",
+   "id": "t043-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le tyran de Badab s’appelle Lufgt ____.",
+   "choix": [
+    "Huron",
+    "Kraken",
+    "Typhon",
+    "Vardus"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Il survit à ses blessures et devient un seigneur pirate redouté.",
+   "id": "t043-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les guerres déclenchées par la Nécro-tempête s’appellent les Guerres des ____.",
+   "choix": [
+    "Âmes",
+    "Morts",
+    "Ombres",
+    "Spectres"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Nagash veut faire de tous les royaumes un domaine de la mort.",
+   "id": "t043-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La guerre civile des elfes s’appelle la ____.",
+   "choix": [
+    "Déchirure",
+    "Séparation",
+    "Grande Guerre",
+    "Chute"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Malekith, vaincu, fuit vers Naggaroth avec ses partisans.",
+   "id": "t043-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le seigneur de guerre ork qui attaque Armageddon s’appelle ____.",
+   "choix": [
+    "Ghazghkull",
+    "Grimgor",
+    "Gorbad",
+    "Snagrod"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Il deviendra le Prophète de la Waaagh, menace pour toute la galaxie.",
+   "id": "t043-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La grande victoire qui précède la nomination d’Horus a lieu sur ____.",
+   "choix": [
+    "Ullanor",
+    "Davin",
+    "Calth",
+    "Isstvan"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Elle met fin à un immense empire ork, juste avant le retour de l’Empereur sur Terra.",
+   "id": "t043-074",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces événements n’appartient pas à l’Hérésie d’Horus ?",
+   "choix": [
+    "La chute de Cadia",
+    "Isstvan V",
+    "Le Siège de Terra",
+    "La bataille de Calth"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La chute de Cadia a lieu au 41e millénaire.",
+   "id": "t043-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces Légions n’a pas été trahie sur Isstvan V ?",
+   "choix": [
+    "Les Blood Angels",
+    "Les Iron Hands",
+    "Les Salamanders",
+    "La Raven Guard"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Les Blood Angels sont piégés au même moment dans le système de Signus.",
+   "id": "t043-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces héros n’est pas un loyaliste de l’Hérésie ?",
+   "choix": [
+    "Erebus",
+    "Garviel Loken",
+    "Saul Tarvitz",
+    "Nathaniel Garro"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Erebus est le chapelain des Word Bearers qui a corrompu Horus.",
+   "id": "t043-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces guerres n’appartient pas à Age of Sigmar ?",
+   "choix": [
+    "La guerre de Badab",
+    "Les Guerres des Portails",
+    "Les Guerres des Âmes",
+    "Les Croisades de l’Aube"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La guerre de Badab appartient à Warhammer 40,000.",
+   "id": "t043-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces conflits n’appartient pas au monde de Fantasy ?",
+   "choix": [
+    "La guerre gothique",
+    "La guerre de la Barbe",
+    "La Déchirure",
+    "La Tempête du Chaos"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La guerre gothique est une croisade noire du 41e millénaire.",
+   "id": "t043-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces planètes n’est pas un champ de bataille de l’Hérésie ?",
+   "choix": [
+    "Armageddon",
+    "Isstvan III",
+    "Prospero",
+    "Calth"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Armageddon est surtout célèbre pour les guerres contre Ghazghkull.",
+   "id": "t043-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages ne défend pas le Palais impérial ?",
+   "choix": [
+    "Lorgar",
+    "Rogal Dorn",
+    "Sanguinius",
+    "Jaghatai Khan"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Lorgar a trahi l’Empereur et attaqué l’Ultramar.",
+   "id": "t043-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces Primarques n’est pas mort pendant l’Hérésie ?",
+   "choix": [
+    "Rogal Dorn",
+    "Ferrus Manus",
+    "Sanguinius",
+    "Horus"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Dorn survit à l’Hérésie, et disparaît plus tard dans une autre guerre.",
+   "id": "t043-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces Légions n’appartient pas à la deuxième vague d’Isstvan V ?",
+   "choix": [
+    "Les World Eaters",
+    "Les Night Lords",
+    "Les Iron Warriors",
+    "Les Word Bearers"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Les World Eaters faisaient partie des traîtres de la première vague.",
+   "id": "t043-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces héros n’apparaît pas dans les romans de la Black Library sur l’Hérésie ?",
+   "choix": [
+    "Ibram Gaunt",
+    "Garviel Loken",
+    "Nathaniel Garro",
+    "Saul Tarvitz"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ibram Gaunt vit au 41e millénaire, dans la croisade de Sabbat.",
+   "id": "t043-084",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles batailles appartiennent à l’Hérésie d’Horus ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Isstvan V",
+    "Calth",
+    "Prospero",
+    "Le Siège de Terra",
+    "La chute de Cadia",
+    "Vraks"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Vraks et Cadia appartiennent au 41e millénaire.",
+   "id": "t043-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles Légions sont trahies sur Isstvan V ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Iron Hands",
+    "Salamanders",
+    "Raven Guard",
+    "Blood Angels",
+    "Ultramarines"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Elles perdent la majorité de leurs guerriers dans le massacre.",
+   "id": "t043-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages défendent Terra pendant le Siège ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Rogal Dorn",
+    "Sanguinius",
+    "Sigismund",
+    "Constantin Valdor",
+    "Erebus",
+    "Lorgar"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Erebus et Lorgar sont du côté des traîtres.",
+   "id": "t043-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles guerres opposent l’Imperium aux Orks ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Seconde guerre d’Armageddon",
+    "Troisième guerre d’Armageddon",
+    "Guerre gothique",
+    "Guerre de Badab"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La guerre gothique oppose l’Imperium au Chaos, Badab à des Space Marines renégats.",
+   "id": "t043-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels conflits appartiennent à Age of Sigmar ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Guerres des Portails",
+    "Guerres des Âmes",
+    "Croisades de l’Aube",
+    "Grande Purge",
+    "Hérésie d’Horus"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ces conflits suivent la naissance des Royaumes Mortels.",
+   "id": "t043-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages trahissent l’Empereur ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Horus",
+    "Erebus",
+    "Fulgrim",
+    "Lorgar",
+    "Rogal Dorn",
+    "Vulkan"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Vulkan survit à Isstvan V et reste fidèle.",
+   "id": "t043-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels conflits appartiennent au monde de Fantasy ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La guerre de la Barbe",
+    "La Déchirure",
+    "La Tempête du Chaos",
+    "La guerre gothique",
+    "Les Guerres des Âmes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La Tempête du Chaos fut une campagne mondiale jouée par les joueurs en 2004.",
+   "id": "t043-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels héros loyalistes résistent sur Isstvan III ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Saul Tarvitz",
+    "Garviel Loken",
+    "Abaddon",
+    "Erebus"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ils tiennent des semaines face à leurs propres frères.",
+   "id": "t043-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels Primarques combattent sur Isstvan V ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ferrus Manus",
+    "Vulkan",
+    "Corvus Corax",
+    "Fulgrim",
+    "Guilliman",
+    "Lion El’Jonson"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Guilliman et le Lion sont loin, à l’autre bout de la galaxie.",
+   "id": "t043-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels événements suivent directement la mort d’Horus ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’Empereur est placé sur le Trône d’Or",
+    "La Grande Purge commence",
+    "La Grande Croisade commence",
+    "Horus est nommé Maître de Guerre"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La Grande Croisade et la nomination d’Horus précèdent l’Hérésie.",
+   "id": "t043-094",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la chute d’Horus dans l’ordre.",
+   "items": [
+    "Triomphe d’Ullanor",
+    "Blessure sur Davin",
+    "Massacre d’Isstvan III",
+    "Siège de Terra"
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Quelques années à peine séparent le triomphe de la trahison.",
+   "id": "t043-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces batailles de l’Hérésie par ordre chronologique.",
+   "items": [
+    "Isstvan III",
+    "Isstvan V",
+    "Siège de Terra"
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Calth et Prospero se déroulent en parallèle d’Isstvan V.",
+   "id": "t043-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du dernier duel dans l’ordre.",
+   "items": [
+    "L’Empereur monte à bord du vaisseau",
+    "Mort de Sanguinius",
+    "Mort d’Horus",
+    "L’Empereur est placé sur le Trône"
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "L’Empereur doit tuer Horus, malgré son amour pour lui.",
+   "id": "t043-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces guerres d’Armageddon par ordre chronologique.",
+   "items": [
+    "Première guerre (Angron)",
+    "Seconde guerre",
+    "Troisième guerre"
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La première, au 41e millénaire, oppose les Chevaliers Gris à Angron.",
+   "id": "t043-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces conflits d’Age of Sigmar dans l’ordre.",
+   "items": [
+    "Guerres des Portails",
+    "Guerres des Âmes",
+    "Croisades de l’Aube"
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "De la reconquête des portails à la fondation des cités.",
+   "id": "t043-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du massacre d’Isstvan V dans l’ordre.",
+   "items": [
+    "Première vague loyaliste",
+    "Arrivée de la deuxième vague",
+    "Les traîtres ouvrent le feu",
+    "Mort de Ferrus Manus"
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La trahison était soigneusement préparée par Horus.",
+   "id": "t043-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’histoire des elfes du Vieux Monde dans l’ordre.",
+   "items": [
+    "Règne d’Aenarion",
+    "La Déchirure",
+    "La guerre de la Barbe",
+    "La Fin des Temps"
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La guerre de la Barbe affaiblit durablement elfes et nains.",
+   "id": "t043-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces croisades par ordre chronologique.",
+   "items": [
+    "La Grande Croisade",
+    "La croisade de Sabbat",
+    "La croisade Indomitus"
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Du 30e au 42e millénaire : trois grandes campagnes de reconquête.",
+   "id": "t043-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du siège de Vraks dans l’ordre.",
+   "items": [
+    "Révolte du cardinal apostat",
+    "Arrivée du Death Korps de Krieg",
+    "Dix-sept ans de siège",
+    "Chute de la citadelle"
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Le cardinal Xaphan avait livré la planète au Chaos.",
+   "id": "t043-103",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque bataille à ses adversaires.",
+   "paires": [
+    [
+     "Calth",
+     "Word Bearers contre Ultramarines"
+    ],
+    [
+     "Prospero",
+     "Space Wolves contre Thousand Sons"
+    ],
+    [
+     "Signus",
+     "Démons contre Blood Angels"
+    ]
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Horus attaque ses frères loyaux sur plusieurs fronts à la fois.",
+   "id": "t043-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque héros loyaliste à sa Légion.",
+   "paires": [
+    [
+     "Garviel Loken",
+     "Luna Wolves"
+    ],
+    [
+     "Saul Tarvitz",
+     "Emperor’s Children"
+    ],
+    [
+     "Nathaniel Garro",
+     "Death Guard"
+    ],
+    [
+     "Sigismund",
+     "Imperial Fists"
+    ]
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ces héros ont refusé de suivre leur Légion dans la trahison.",
+   "id": "t043-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque conflit à son univers.",
+   "paires": [
+    [
+     "Hérésie d’Horus",
+     "40k"
+    ],
+    [
+     "Déchirure",
+     "Fantasy"
+    ],
+    [
+     "Guerres des Âmes",
+     "Age of Sigmar"
+    ]
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Les trois univers ont chacun leurs grandes sagas.",
+   "id": "t043-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque victime à son meurtrier.",
+   "paires": [
+    [
+     "Ferrus Manus",
+     "Fulgrim"
+    ],
+    [
+     "Sanguinius",
+     "Horus"
+    ],
+    [
+     "Horus",
+     "L’Empereur"
+    ]
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Les Primarques s’entretuent dans cette guerre fratricide.",
+   "id": "t043-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque guerre à son ennemi principal.",
+   "paires": [
+    [
+     "Guerre gothique",
+     "Abaddon"
+    ],
+    [
+     "Guerre de Badab",
+     "Huron"
+    ],
+    [
+     "Guerres d’Armageddon",
+     "Ghazghkull"
+    ],
+    [
+     "Guerre de la Peste",
+     "Mortarion"
+    ]
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ces conflits marquent le 41e millénaire.",
+   "id": "t043-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque roman à son héros.",
+   "paires": [
+    [
+     "L’Ascension d’Horus",
+     "Garviel Loken"
+    ],
+    [
+     "Le Premier et Unique",
+     "Ibram Gaunt"
+    ],
+    [
+     "Xenos",
+     "Gregor Eisenhorn"
+    ]
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ces trois romans sont signés Dan Abnett.",
+   "id": "t043-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à son rôle dans l’Hérésie.",
+   "paires": [
+    [
+     "Ullanor",
+     "Triomphe d’Horus"
+    ],
+    [
+     "Davin",
+     "Blessure d’Horus"
+    ],
+    [
+     "Isstvan V",
+     "Massacre"
+    ],
+    [
+     "Terra",
+     "Siège final"
+    ]
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "La route de la trahison passe par ces étapes.",
+   "id": "t043-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque Custodes ou régent à son rôle.",
+   "paires": [
+    [
+     "Malcador",
+     "Régent de l’Empereur"
+    ],
+    [
+     "Constantin Valdor",
+     "Capitaine-général"
+    ],
+    [
+     "Rogal Dorn",
+     "Défenseur du Palais"
+    ]
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ces trois figures tiennent Terra jusqu’au retour de l’Empereur.",
+   "id": "t043-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque conflit d’Age of Sigmar à son déclencheur.",
+   "paires": [
+    [
+     "Guerres des Portails",
+     "Retour de Sigmar"
+    ],
+    [
+     "Guerres des Âmes",
+     "Nécro-tempête"
+    ],
+    [
+     "Croisades de l’Aube",
+     "Besoin de nouvelles terres"
+    ]
+   ],
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Chaque édition du jeu raconte un nouveau chapitre.",
+   "id": "t043-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un Primarque\n2. J’ai été Maître de Guerre\n3. J’ai trahi mon père",
+   "choix": [
+    "Horus",
+    "Lorgar",
+    "Fulgrim",
+    "Angron"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Il voulait, disait-il, sauver l’humanité d’un Empereur tyrannique.",
+   "id": "t043-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un chapelain\n2. J’ai conduit Horus au Chaos\n3. Je sers les Word Bearers",
+   "choix": [
+    "Erebus",
+    "Kor Phaeron",
+    "Lorgar",
+    "Typhus"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Il a volé la lame maudite qui a blessé Horus sur Davin.",
+   "id": "t043-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un capitaine\n2. J’ai fui avec l’Eisenstein\n3. J’ai prévenu Terra",
+   "choix": [
+    "Nathaniel Garro",
+    "Saul Tarvitz",
+    "Garviel Loken",
+    "Sigismund"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Il devient ensuite un agent de Malcador.",
+   "id": "t043-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un régent\n2. J’ai tenu le Trône à la place de l’Empereur\n3. J’en suis mort",
+   "choix": [
+    "Malcador",
+    "Rogal Dorn",
+    "Constantin Valdor",
+    "Sigismund"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Il était surnommé le Sigillite, et dirigeait les agents secrets de l’Empereur.",
+   "id": "t043-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un champion\n2. J’ai défendu la Porte de l’Éternité\n3. J’ai fondé les Black Templars",
+   "choix": [
+    "Sigismund",
+    "Rogal Dorn",
+    "Garviel Loken",
+    "Nathaniel Garro"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Il est l’un des meilleurs bretteurs de son époque.",
+   "id": "t043-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un seigneur\n2. J’ai régné sur Badab\n3. Je suis devenu pirate",
+   "choix": [
+    "Lufgt Huron",
+    "Abaddon",
+    "Erebus",
+    "Fabius Bile"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ses Red Corsairs pillent depuis le Maelström.",
+   "id": "t043-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville\n2. J’étais à Kislev\n3. Le Chaos m’a transformée",
+   "choix": [
+    "Praag",
+    "Kislev",
+    "Erengrad",
+    "Middenheim"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Ses survivants ont gardé des cicatrices de cette corruption.",
+   "id": "t043-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une guerre\n2. Je suis née d’une insulte faite à un ambassadeur\n3. J’oppose deux peuples anciens",
+   "choix": [
+    "La guerre de la Barbe",
+    "La Déchirure",
+    "La Fin des Temps",
+    "La guerre gothique"
+   ],
+   "rep": 0,
+   "src": "Black Library, L’Hérésie d’Horus ; Games Workshop, Codex et Battletomes",
+   "expl": "Les nains ne l’ont jamais vraiment oubliée.",
+   "id": "t043-120",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
