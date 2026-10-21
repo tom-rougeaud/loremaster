@@ -1,0 +1,1990 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "runes-tarot",
+  "nom": "Runes, symboles et tarot",
+  "royaume": "Magie, littérature et univers fantasy",
+  "icone": "rune",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on l’alphabet runique ancien, d’après ses premières lettres ?",
+   "choix": [
+    "Le futhark",
+    "L’ogham",
+    "Le cyrillique",
+    "L’abjad"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Les six premières runes se lisent f, u, th, a, r, k.",
+   "id": "t067-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de runes compte le futhark ancien ?",
+   "choix": [
+    "Vingt-quatre",
+    "Seize",
+    "Vingt-six",
+    "Trente-trois"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Elles sont réparties en trois groupes de huit, appelés ættir.",
+   "id": "t067-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de runes compte le futhark récent de l’époque viking ?",
+   "choix": [
+    "Seize",
+    "Vingt-quatre",
+    "Douze",
+    "Trente"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Paradoxalement, l’alphabet se simplifie alors que la langue compte plus de sons.",
+   "id": "t067-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon le poème eddique Hávamál, comment Odin découvre-t-il les runes ?",
+   "choix": [
+    "Pendu neuf nuits à l’arbre du monde",
+    "En buvant à la source de Mímir",
+    "En combattant un géant",
+    "En les recevant des nains"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Blessé de sa propre lance, il se sacrifie lui-même pour obtenir ce savoir.",
+   "id": "t067-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie à l’origine le mot « rune » ?",
+   "choix": [
+    "Secret ou mystère",
+    "Pierre gravée",
+    "Lettre de feu",
+    "Chant de guerre"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Le mot se retrouve dans le gotique runa et le vieil anglais rūn.",
+   "id": "t067-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel pays se trouvent les pierres de Jelling, souvent appelées « l’acte de baptême » du pays ?",
+   "choix": [
+    "Le Danemark",
+    "La Norvège",
+    "La Suède",
+    "L’Islande"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Harald à la Dent bleue y proclame avoir rendu les Danois chrétiens.",
+   "id": "t067-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel logo moderne combine les runes des initiales de Harald à la Dent bleue ?",
+   "choix": [
+    "Le logo Bluetooth",
+    "Le logo Nokia",
+    "Le logo Volvo",
+    "Le logo Lego"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Les runes H et B sont fusionnées en un seul signe.",
+   "id": "t067-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle pierre suédoise porte la plus longue inscription runique connue ?",
+   "choix": [
+    "La pierre de Rök",
+    "La pierre de Jelling",
+    "La pierre de Kensington",
+    "La pierre de Rosette"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Gravée au 9e siècle, elle compte plus de sept cents signes.",
+   "id": "t067-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle pierre runique trouvée au Minnesota en 1898 est considérée comme un faux ?",
+   "choix": [
+    "La pierre de Kensington",
+    "La pierre de Rök",
+    "La pierre de Jelling",
+    "La pierre de Dighton"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Elle prétend relater un voyage scandinave en Amérique en 1362.",
+   "id": "t067-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où des Varègues ont-ils gravé des runes sur une grande statue de lion, aujourd’hui à Venise ?",
+   "choix": [
+    "Sur le lion du Pirée",
+    "Sur le lion de Saint-Marc",
+    "Sur le lion de Belfort",
+    "Sur le lion de Lucerne"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Le lion a été rapporté d’Athènes à Venise en 1687.",
+   "id": "t067-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel monument d’Istanbul un Viking a-t-il gravé son nom en runes ?",
+   "choix": [
+    "Sainte-Sophie",
+    "La Mosquée bleue",
+    "Le palais de Topkapi",
+    "La citerne Basilique"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "On y lit encore le nom « Halfdan », sur une balustrade de la galerie.",
+   "id": "t067-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel alphabet irlandais ancien se grave par entailles le long de l’arête des pierres ?",
+   "choix": [
+    "L’ogham",
+    "Le futhark",
+    "Le gaélique moderne",
+    "L’onciale"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Son nom est rattaché au dieu irlandais de l’éloquence, Ogma.",
+   "id": "t067-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quel pays l’ogham est-il surtout attesté ?",
+   "choix": [
+    "En Irlande",
+    "En Suède",
+    "En Islande",
+    "En Bretagne"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "On en trouve aussi au pays de Galles et en Écosse.",
+   "id": "t067-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel écrivain s’inspire des runes pour l’écriture des nains, appelée Cirth ?",
+   "choix": [
+    "J. R. R. Tolkien",
+    "C. S. Lewis",
+    "Robert E. Howard",
+    "Terry Pratchett"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "La carte de Thorin, dans Le Hobbit, utilise des runes anglo-saxonnes.",
+   "id": "t067-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle région d’Europe le tarot naît-il au 15e siècle ?",
+   "choix": [
+    "En Italie du Nord",
+    "En Égypte",
+    "En Bohême",
+    "En Provence"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Il s’appelle alors « carte da trionfi », les cartes des triomphes.",
+   "id": "t067-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle famille milanaise fait peindre l’un des plus anciens tarots connus ?",
+   "choix": [
+    "Les Visconti",
+    "Les Médicis",
+    "Les Borgia",
+    "Les Este"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Plusieurs de ces cartes enluminées sont conservées à New York et à Bergame.",
+   "id": "t067-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle était la fonction première du tarot ?",
+   "choix": [
+    "Un jeu de cartes",
+    "Un outil de divination",
+    "Un calendrier",
+    "Un livre de prières"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "L’usage divinatoire n’apparaît qu’à la fin du 18e siècle.",
+   "id": "t067-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel érudit affirme en 1781, sans preuve, que le tarot vient de l’Égypte ancienne ?",
+   "choix": [
+    "Antoine Court de Gébelin",
+    "Champollion",
+    "Eliphas Lévi",
+    "Papus"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Champollion n’avait pas encore déchiffré les hiéroglyphes, ce qui laissait place aux spéculations.",
+   "id": "t067-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Parisien est le premier à faire du tarot un métier de cartomancien, dans les années 1780 ?",
+   "choix": [
+    "Etteilla",
+    "Cagliostro",
+    "Mesmer",
+    "Mlle Lenormand"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Son pseudonyme est son vrai nom, Alliette, écrit à l’envers.",
+   "id": "t067-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de cartes compte un jeu de tarot complet ?",
+   "choix": [
+    "Soixante-dix-huit",
+    "Cinquante-deux",
+    "Trente-deux",
+    "Cent"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Il réunit vingt-deux arcanes majeurs et cinquante-six arcanes mineurs.",
+   "id": "t067-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien d’arcanes majeurs compte le tarot ?",
+   "choix": [
+    "Vingt-deux",
+    "Vingt et un",
+    "Douze",
+    "Treize"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Ils vont du Mat, sans numéro, au Monde, numéroté XXI.",
+   "id": "t067-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel arcane du tarot de Marseille porte le numéro XIII mais aucun nom ?",
+   "choix": [
+    "La Mort",
+    "Le Diable",
+    "Le Pendu",
+    "La Maison Dieu"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "On l’appelle souvent l’« arcane sans nom ».",
+   "id": "t067-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel arcane majeur montre un homme suspendu par un pied ?",
+   "choix": [
+    "Le Pendu",
+    "Le Mat",
+    "L’Hermite",
+    "Le Bateleur"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Il porte le numéro XII et symbolise souvent le sacrifice.",
+   "id": "t067-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel arcane majeur ouvre la série avec le numéro I ?",
+   "choix": [
+    "Le Bateleur",
+    "Le Mat",
+    "La Papesse",
+    "Le Monde"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Il est représenté en jongleur derrière une table chargée d’objets.",
+   "id": "t067-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle carte du tarot de Marseille montre une tour frappée par la foudre ?",
+   "choix": [
+    "La Maison Dieu",
+    "L’Étoile",
+    "La Lune",
+    "Le Chariot"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Elle porte le numéro XVI ; d’autres jeux l’appellent La Tour.",
+   "id": "t067-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles sont les quatre couleurs du tarot de Marseille ?",
+   "choix": [
+    "Épées, coupes, deniers, bâtons",
+    "Cœur, carreau, trèfle, pique",
+    "Feu, eau, air, terre",
+    "Or, argent, cuivre, fer"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Ce sont les couleurs des cartes italiennes et espagnoles.",
+   "id": "t067-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle artiste dessine en 1909 le célèbre tarot dit Rider-Waite ?",
+   "choix": [
+    "Pamela Colman Smith",
+    "Frieda Harris",
+    "Leonora Carrington",
+    "Niki de Saint Phalle"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "On parle désormais souvent du tarot Rider-Waite-Smith pour lui rendre justice.",
+   "id": "t067-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel occultiste crée le tarot de Thoth avec la peintre Frieda Harris ?",
+   "choix": [
+    "Aleister Crowley",
+    "Arthur Edward Waite",
+    "Eliphas Lévi",
+    "Papus"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Le jeu est publié en 1969, après leur mort.",
+   "id": "t067-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Au jeu de tarot français, combien y a-t-il d’atouts numérotés ?",
+   "choix": [
+    "Vingt et un",
+    "Vingt-deux",
+    "Seize",
+    "Quatorze"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "L’Excuse, ancienne carte du Mat, ne porte pas de numéro.",
+   "id": "t067-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Au jeu de tarot, quelles cartes forment les trois « bouts » ?",
+   "choix": [
+    "Le Petit, le 21 et l’Excuse",
+    "Les quatre rois",
+    "Les trois dames",
+    "Le 1, le 2 et le 3"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Plus on en possède, moins il faut de points pour gagner.",
+   "id": "t067-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel symbole représente un serpent qui se mord la queue ?",
+   "choix": [
+    "L’ouroboros",
+    "Le caducée",
+    "L’ankh",
+    "Le triskèle"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Connu dès l’Égypte ancienne, il symbolise le cycle éternel.",
+   "id": "t067-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel symbole est formé d’un bâton entouré de deux serpents et surmonté d’ailes ?",
+   "choix": [
+    "Le caducée d’Hermès",
+    "Le bâton d’Asclépios",
+    "Le trident",
+    "La férule"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Le symbole de la médecine est plutôt le bâton d’Asclépios, avec un seul serpent.",
+   "id": "t067-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel symbole égyptien en forme de croix à boucle représente la vie ?",
+   "choix": [
+    "L’ankh",
+    "L’œil oudjat",
+    "Le scarabée",
+    "Le djed"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Les dieux le tiennent souvent à la main.",
+   "id": "t067-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel symbole celtique est formé de trois spirales ou trois jambes réunies ?",
+   "choix": [
+    "Le triskèle",
+    "La triquetra",
+    "Le pentacle",
+    "Le valknut"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "On le retrouve sur le drapeau de l’île de Man et en Bretagne.",
+   "id": "t067-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel symbole nordique est formé de trois triangles entrelacés ?",
+   "choix": [
+    "Le valknut",
+    "Le vegvísir",
+    "Le triskèle",
+    "Le mjöllnir"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Il apparaît sur des pierres gravées de Gotland, souvent près d’Odin.",
+   "id": "t067-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quand date réellement le vegvísir, la « boussole viking » populaire en tatouage ?",
+   "choix": [
+    "Du 19e siècle",
+    "De l’âge du bronze",
+    "De l’époque viking",
+    "De l’Empire romain"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Il apparaît dans un manuscrit islandais ; rien ne prouve que les Vikings l’aient connu.",
+   "id": "t067-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle étoile à cinq branches est utilisée en magie et en protection ?",
+   "choix": [
+    "Le pentagramme",
+    "L’hexagramme",
+    "La rose des vents",
+    "L’étoile de David"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Tracée d’un seul trait, elle passait chez les pythagoriciens pour un signe de santé.",
+   "id": "t067-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien d’hexagrammes compte le Yi Jing, le classique chinois des changements ?",
+   "choix": [
+    "Soixante-quatre",
+    "Vingt-deux",
+    "Huit",
+    "Cent huit"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Chacun est formé de six traits pleins ou brisés.",
+   "id": "t067-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que représente la main de Fatma, ou hamsa ?",
+   "choix": [
+    "Une main ouverte protectrice",
+    "Un poing levé",
+    "Une main tenant une clé",
+    "Deux mains jointes"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "On la retrouve dans les traditions juives et musulmanes, contre le mauvais œil.",
+   "id": "t067-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu gravé à Marseille en 1760 sert de modèle à de nombreuses éditions modernes ?",
+   "choix": [
+    "Le tarot de Nicolas Conver",
+    "Le tarot Visconti",
+    "Le tarot de Thoth",
+    "Le tarot d’Etteilla"
+   ],
+   "rep": 0,
+   "src": "Lucien Musset, Introduction à la runologie (1965) ; Musée national du Danemark (pierres de Jelling) ; Michael Dummett, The Game of Tarot (1980) ; BnF, « Tarots enluminés » et collection de cartes à jouer ; Fédération française de tarot, règlement officiel",
+   "expl": "Il date de 1760 et a été largement copié au 20e siècle.",
+   "id": "t067-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le futhark ancien compte vingt-quatre runes.",
+   "rep": true,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Il est utilisé de façon ancienne, du 2e au 8e siècle environ.",
+   "id": "t067-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le tarot a été inventé dans l’Égypte ancienne.",
+   "rep": false,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Faux : il naît en Italie au 15e siècle ; l’origine égyptienne est un mythe du 18e siècle.",
+   "id": "t067-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le logo Bluetooth vient de runes.",
+   "rep": true,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Le nom de la technologie rend hommage au roi danois Harald à la Dent bleue.",
+   "id": "t067-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Vikings utilisaient le vegvísir pour naviguer.",
+   "rep": false,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Faux : ce symbole n’est attesté qu’au 19e siècle, en Islande.",
+   "id": "t067-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le tarot compte vingt-deux arcanes majeurs.",
+   "rep": true,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Les cinquante-six autres cartes forment les arcanes mineurs.",
+   "id": "t067-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le bâton d’Asclépios porte deux serpents.",
+   "rep": false,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Faux : il n’en porte qu’un ; le caducée d’Hermès en porte deux.",
+   "id": "t067-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’ogham est un alphabet irlandais.",
+   "rep": true,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Plus de trois cents pierres gravées en ogham sont connues.",
+   "id": "t067-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La pierre de Kensington prouve que les Vikings ont atteint le Minnesota.",
+   "rep": false,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Faux : la plupart des spécialistes la considèrent comme un faux du 19e siècle.",
+   "id": "t067-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’arcane XIII du tarot de Marseille n’a pas de nom.",
+   "rep": true,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Il représente pourtant un squelette tenant une faux.",
+   "id": "t067-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les runes s’écrivaient obligatoirement de gauche à droite.",
+   "rep": false,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Faux : elles pouvaient aussi s’écrire de droite à gauche, ou en alternant.",
+   "id": "t067-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’ouroboros représente un serpent qui se mord la queue.",
+   "rep": true,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Les alchimistes en font un symbole de l’unité de la matière.",
+   "id": "t067-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un graffiti runique existe dans Sainte-Sophie, à Istanbul.",
+   "rep": true,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Il est sans doute l’œuvre d’un mercenaire de la garde varangienne.",
+   "id": "t067-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Au tarot français, l’Excuse fait partie des bouts.",
+   "rep": true,
+   "src": "Musset ; Dummett ; Musée national du Danemark",
+   "expl": "Elle permet de ne pas fournir la couleur demandée.",
+   "id": "t067-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le futhark récent compte plus de runes que le futhark ancien.",
+   "rep": false,
+   "src": "Musset ; Dummett",
+   "expl": "Faux : il en compte seize, contre vingt-quatre.",
+   "id": "t067-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de runes compte chacun des trois ættir du futhark ancien ?",
+   "rep": 8,
+   "min": 4,
+   "max": 12,
+   "pas": 1,
+   "unite": "runes",
+   "tolerance": 0,
+   "src": "Musset ; Dummett",
+   "expl": "Chaque ætt porte le nom de sa première rune : Fehu, Hagalaz et Tiwaz.",
+   "id": "t067-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de cartes reçoit chaque joueur au tarot à quatre, sachant que six vont au chien ?",
+   "rep": 18,
+   "min": 10,
+   "max": 24,
+   "pas": 1,
+   "unite": "cartes",
+   "tolerance": 0,
+   "src": "Musset ; Dummett",
+   "expl": "Les 78 cartes moins les 6 du chien donnent 72 cartes, soit 18 par joueur.",
+   "id": "t067-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’arcanes mineurs compte le tarot ?",
+   "rep": 56,
+   "min": 40,
+   "max": 64,
+   "pas": 1,
+   "unite": "cartes",
+   "tolerance": 0,
+   "src": "Musset ; Dummett",
+   "expl": "Quatorze cartes dans chacune des quatre couleurs.",
+   "id": "t067-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Court de Gébelin invente-t-il l’origine égyptienne du tarot ?",
+   "rep": 1781,
+   "min": 1700,
+   "max": 1850,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Musset ; Dummett",
+   "expl": "Il l’expose dans son vaste ouvrage, Le Monde primitif.",
+   "id": "t067-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année la pierre de Kensington est-elle découverte ?",
+   "rep": 1898,
+   "min": 1850,
+   "max": 1950,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Musset ; Dummett",
+   "expl": "Elle est trouvée par un fermier d’origine suédoise.",
+   "id": "t067-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît le tarot Rider-Waite ?",
+   "rep": 1909,
+   "min": 1880,
+   "max": 1950,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Musset ; Dummett",
+   "expl": "Il est publié à Londres par la maison Rider.",
+   "id": "t067-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de nuits Odin reste-t-il pendu à l’arbre du monde ?",
+   "rep": 9,
+   "min": 3,
+   "max": 13,
+   "pas": 1,
+   "unite": "nuits",
+   "tolerance": 0,
+   "src": "Musset ; Dummett",
+   "expl": "Le chiffre neuf revient souvent dans la mythologie nordique.",
+   "id": "t067-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’hexagrammes compte le Yi Jing ?",
+   "rep": 64,
+   "min": 22,
+   "max": 108,
+   "pas": 1,
+   "unite": "hexagrammes",
+   "tolerance": 0,
+   "src": "Musset ; Dummett",
+   "expl": "Leibniz y a vu une anticipation du calcul binaire.",
+   "id": "t067-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’alphabet runique tire son nom de ses six premières lettres : le ____.",
+   "choix": [
+    "futhark",
+    "futhorc",
+    "alphabet",
+    "ogham"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Les Anglo-Saxons, qui prononçaient autrement, parlaient de futhorc.",
+   "id": "t067-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le roi danois des pierres de Jelling s’appelle Harald à la Dent ____.",
+   "choix": [
+    "bleue",
+    "noire",
+    "d’or",
+    "rouge"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Il règne au 10e siècle et convertit le Danemark.",
+   "id": "t067-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’alphabet irlandais ancien s’appelle l’____.",
+   "choix": [
+    "ogham",
+    "ogam",
+    "oghma",
+    "onciale"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "On le grave sur l’arête des pierres, de bas en haut.",
+   "id": "t067-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le serpent qui se mord la queue s’appelle l’____.",
+   "choix": [
+    "ouroboros",
+    "hydre",
+    "basilic",
+    "uræus"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Son nom grec signifie « qui dévore sa queue ».",
+   "id": "t067-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La croix égyptienne à boucle s’appelle l’____.",
+   "choix": [
+    "ankh",
+    "oudjat",
+    "djed",
+    "ouas"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Elle a été reprise par les coptes, chrétiens d’Égypte.",
+   "id": "t067-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’arcane sans numéro du tarot de Marseille s’appelle le ____.",
+   "choix": [
+    "Mat",
+    "Fou",
+    "Bateleur",
+    "Pendu"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Il devient l’Excuse dans le jeu de tarot français.",
+   "id": "t067-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le tarot divinatoire d’Etteilla doit son nom à l’auteur Jean-Baptiste ____.",
+   "choix": [
+    "Alliette",
+    "Etteil",
+    "Lenormand",
+    "Gébelin"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Il retourne son nom pour s’en faire un pseudonyme.",
+   "id": "t067-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plus longue inscription runique se trouve sur la pierre de ____.",
+   "choix": [
+    "Rök",
+    "Jelling",
+    "Kensington",
+    "Uppsala"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Son texte, plein d’énigmes, reste en partie mystérieux.",
+   "id": "t067-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le symbole des trois spirales s’appelle le ____.",
+   "choix": [
+    "triskèle",
+    "trèfle",
+    "trident",
+    "triangle"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Son nom grec signifie « à trois jambes ».",
+   "id": "t067-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le tarot dessiné par Pamela Colman Smith s’appelle le tarot Rider-____.",
+   "choix": [
+    "Waite",
+    "White",
+    "Wright",
+    "Wilde"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Arthur Edward Waite en a conçu la symbolique.",
+   "id": "t067-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le classique chinois des soixante-quatre hexagrammes s’appelle le Yi ____.",
+   "choix": [
+    "Jing",
+    "Ching",
+    "Jang",
+    "Ming"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "On le transcrit aussi Yi King en français.",
+   "id": "t067-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Les trois groupes de huit runes s’appellent des ____.",
+   "choix": [
+    "ættir",
+    "eddas",
+    "sagas",
+    "futharks"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Chacun porte le nom de sa première rune.",
+   "id": "t067-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La boussole viking des tatouages s’appelle le ____.",
+   "choix": [
+    "vegvísir",
+    "valknut",
+    "ægishjálmur",
+    "mjöllnir"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Son nom islandais signifie « indicateur de chemin ».",
+   "id": "t067-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces cartes n’est pas un arcane majeur ?",
+   "choix": [
+    "Le Roi de coupe",
+    "Le Pendu",
+    "La Lune",
+    "Le Monde"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le Roi de coupe appartient aux arcanes mineurs.",
+   "id": "t067-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces symboles n’est pas égyptien ?",
+   "choix": [
+    "Le triskèle",
+    "L’ankh",
+    "L’œil oudjat",
+    "Le scarabée"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le triskèle est surtout associé aux Celtes.",
+   "id": "t067-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces couleurs n’existe pas dans le tarot de Marseille ?",
+   "choix": [
+    "Les cœurs",
+    "Les épées",
+    "Les deniers",
+    "Les bâtons"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Les cœurs appartiennent au jeu de cartes français classique.",
+   "id": "t067-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces pierres n’est pas runique ?",
+   "choix": [
+    "La pierre de Rosette",
+    "La pierre de Rök",
+    "La pierre de Jelling",
+    "La pierre de Kensington"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "La pierre de Rosette porte des hiéroglyphes, du démotique et du grec.",
+   "id": "t067-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces alphabets n’est pas runique ?",
+   "choix": [
+    "L’ogham",
+    "Le futhark ancien",
+    "Le futhark récent",
+    "Le futhorc anglo-saxon"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "L’ogham est un système irlandais, fait d’encoches.",
+   "id": "t067-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas lié au tarot ?",
+   "choix": [
+    "Champollion",
+    "Court de Gébelin",
+    "Etteilla",
+    "Arthur Edward Waite"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Champollion déchiffre les hiéroglyphes en 1822.",
+   "id": "t067-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces symboles n’est pas nordique ?",
+   "choix": [
+    "L’ankh",
+    "Le valknut",
+    "Le mjöllnir",
+    "Le vegvísir"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "L’ankh est égyptien ; les trois autres sont nordiques.",
+   "id": "t067-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces arcanes ne porte pas le numéro qu’on lui attribue ?",
+   "choix": [
+    "Le Soleil, XX",
+    "La Lune, XVIII",
+    "L’Étoile, XVII",
+    "Le Diable, XV"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le Soleil porte le numéro XIX ; le XX est le Jugement.",
+   "id": "t067-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux ne porte pas de graffiti runique ?",
+   "choix": [
+    "Le Colisée",
+    "Sainte-Sophie",
+    "Le lion du Pirée",
+    "Maeshowe"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le tombeau néolithique de Maeshowe, dans les Orcades, porte des dizaines d’inscriptions vikings.",
+   "id": "t067-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’est pas un symbole de la médecine ou du commerce ?",
+   "choix": [
+    "Le marteau de Thor",
+    "Le caducée",
+    "Le bâton d’Asclépios",
+    "La coupe d’Hygie"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le caducée d’Hermès est d’abord le symbole du commerce.",
+   "id": "t067-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles cartes sont des arcanes majeurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Bateleur",
+    "La Papesse",
+    "Le Monde",
+    "Le Valet d’épée",
+    "L’As de coupe"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Les valets et les as appartiennent aux arcanes mineurs.",
+   "id": "t067-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels symboles viennent de l’Égypte ancienne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ankh",
+    "Œil oudjat",
+    "Scarabée",
+    "Triskèle",
+    "Valknut"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "L’œil oudjat est aussi appelé œil d’Horus.",
+   "id": "t067-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels lieux portent des inscriptions runiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jelling",
+    "Rök",
+    "Sainte-Sophie",
+    "Lion du Pirée",
+    "Rosette",
+    "Lascaux"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Les Vikings ont laissé des traces jusqu’à Byzance.",
+   "id": "t067-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles affirmations sur le tarot sont exactes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Il naît en Italie",
+    "Il sert d’abord à jouer",
+    "Il compte 78 cartes",
+    "Il vient d’Égypte",
+    "Il a toujours servi à prédire l’avenir"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "La divination par le tarot ne commence qu’à la fin du 18e siècle.",
+   "id": "t067-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels symboles sont celtiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Triskèle",
+    "Triquetra",
+    "Ogham",
+    "Ankh",
+    "Hamsa"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "La hamsa vient du Maghreb et du Proche-Orient.",
+   "id": "t067-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sont les bouts au tarot français ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Petit",
+    "Le 21",
+    "L’Excuse",
+    "Le Roi de cœur",
+    "La Dame de pique"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le Petit est l’atout numéro 1, le plus faible et le plus convoité.",
+   "id": "t067-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels alphabets sont runiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Futhark ancien",
+    "Futhark récent",
+    "Futhorc",
+    "Ogham",
+    "Cyrillique"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le cyrillique dérive de l’alphabet grec, l’ogham est irlandais.",
+   "id": "t067-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels symboles modernes ou récents sont souvent présentés à tort comme vikings ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vegvísir",
+    "Casque à cornes",
+    "Valknut",
+    "Mjöllnir"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le valknut et le marteau de Thor sont, eux, attestés à l’époque viking.",
+   "id": "t067-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux de tarot existent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tarot de Marseille",
+    "Rider-Waite",
+    "Thoth",
+    "Visconti-Sforza",
+    "Uno",
+    "Mahjong"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Chacun de ces jeux possède sa propre iconographie.",
+   "id": "t067-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles couleurs appartiennent au tarot de Marseille ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Épées",
+    "Coupes",
+    "Deniers",
+    "Bâtons",
+    "Cœurs",
+    "Piques"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Les deniers sont parfois appelés pentacles dans les jeux anglais.",
+   "id": "t067-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces arcanes majeurs par numéro croissant.",
+   "items": [
+    "Le Bateleur",
+    "L’Empereur",
+    "La Roue de Fortune",
+    "La Mort",
+    "Le Monde"
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Ils portent les numéros I, IV, X, XIII et XXI.",
+   "id": "t067-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire du tarot dans l’ordre chronologique.",
+   "items": [
+    "Tarot Visconti-Sforza",
+    "Tarot de Conver",
+    "Court de Gébelin",
+    "Tarot Rider-Waite"
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Ces étapes se placent vers 1450, en 1760, 1781 puis 1909.",
+   "id": "t067-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces alphabets par ordre chronologique d’apparition.",
+   "items": [
+    "Futhark ancien",
+    "Ogham",
+    "Futhark récent"
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le futhark ancien apparaît au 2e siècle, l’ogham vers le 4e, le futhark récent vers 800.",
+   "id": "t067-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Pierres de Jelling",
+    "Lion du Pirée rapporté à Venise",
+    "Découverte de la pierre de Kensington"
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Ces événements datent de vers 965, de 1687 puis de 1898.",
+   "id": "t067-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces autres arcanes, du plus petit numéro au plus grand.",
+   "items": [
+    "La Papesse",
+    "L’Amoureux",
+    "La Justice",
+    "Le Pendu",
+    "L’Étoile"
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Ils portent les numéros II, VI, VIII, XII et XVII.",
+   "id": "t067-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces premières runes du futhark dans l’ordre.",
+   "items": [
+    "Fehu",
+    "Uruz",
+    "Thurisaz",
+    "Ansuz",
+    "Raidho"
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Les noms reconstitués correspondent à f, u, th, a et r.",
+   "id": "t067-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux de tarot par date de création.",
+   "items": [
+    "Tarot de Marseille de Conver",
+    "Rider-Waite",
+    "Tarot de Thoth"
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Ces jeux paraissent en 1760, 1909 et 1969.",
+   "id": "t067-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces arcanes de la fin du jeu par numéro croissant.",
+   "items": [
+    "L’Étoile",
+    "La Lune",
+    "Le Soleil",
+    "Le Jugement",
+    "Le Monde"
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Ils portent les numéros XVII, XVIII, XIX, XX et XXI.",
+   "id": "t067-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces alphabets selon leur nombre de signes, du plus petit au plus grand.",
+   "items": [
+    "Futhark récent",
+    "Ogham",
+    "Futhark ancien"
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Seize runes, vingt lettres, puis vingt-quatre runes.",
+   "id": "t067-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque symbole à sa culture.",
+   "paires": [
+    [
+     "Ankh",
+     "Égypte"
+    ],
+    [
+     "Triskèle",
+     "Celtes"
+    ],
+    [
+     "Valknut",
+     "Scandinavie"
+    ],
+    [
+     "Yin-yang",
+     "Chine"
+    ]
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Chaque culture a ses signes sacrés ou protecteurs.",
+   "id": "t067-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque lieu à son inscription.",
+   "paires": [
+    [
+     "Jelling",
+     "Harald à la Dent bleue"
+    ],
+    [
+     "Sainte-Sophie",
+     "Halfdan"
+    ],
+    [
+     "Kensington",
+     "Faux voyage de 1362"
+    ]
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Ces inscriptions racontent ou inventent des histoires vikings.",
+   "id": "t067-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personne au tarot qui lui est lié.",
+   "paires": [
+    [
+     "Pamela Colman Smith",
+     "Rider-Waite"
+    ],
+    [
+     "Frieda Harris",
+     "Thoth"
+    ],
+    [
+     "Nicolas Conver",
+     "Marseille"
+    ],
+    [
+     "Etteilla",
+     "Divination"
+    ]
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Peintres, graveurs et occultistes ont façonné l’image du tarot.",
+   "id": "t067-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque arcane à son numéro.",
+   "paires": [
+    [
+     "Le Bateleur",
+     "I"
+    ],
+    [
+     "La Mort",
+     "XIII"
+    ],
+    [
+     "Le Pendu",
+     "XII"
+    ],
+    [
+     "Le Monde",
+     "XXI"
+    ]
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Le Mat est le seul arcane majeur sans numéro.",
+   "id": "t067-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque symbole à sa forme.",
+   "paires": [
+    [
+     "Ouroboros",
+     "Serpent qui se mord la queue"
+    ],
+    [
+     "Caducée",
+     "Deux serpents ailés"
+    ],
+    [
+     "Hamsa",
+     "Main ouverte"
+    ],
+    [
+     "Pentagramme",
+     "Étoile à cinq branches"
+    ]
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Ces symboles traversent les siècles et les religions.",
+   "id": "t067-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque couleur du tarot à son équivalent français.",
+   "paires": [
+    [
+     "Épées",
+     "Pique"
+    ],
+    [
+     "Coupes",
+     "Cœur"
+    ],
+    [
+     "Deniers",
+     "Carreau"
+    ],
+    [
+     "Bâtons",
+     "Trèfle"
+    ]
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Cette correspondance est traditionnelle, mais pas absolue.",
+   "id": "t067-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque alphabet à son pays.",
+   "paires": [
+    [
+     "Ogham",
+     "Irlande"
+    ],
+    [
+     "Futhorc",
+     "Angleterre"
+    ],
+    [
+     "Futhark récent",
+     "Scandinavie"
+    ]
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Chaque peuple adapte l’écriture à sa langue.",
+   "id": "t067-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque divination à son support.",
+   "paires": [
+    [
+     "Tarot",
+     "Cartes"
+    ],
+    [
+     "Yi Jing",
+     "Hexagrammes"
+    ],
+    [
+     "Runes",
+     "Pierres ou bâtonnets gravés"
+    ]
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "La divination par les runes est surtout une pratique moderne.",
+   "id": "t067-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque auteur à son œuvre.",
+   "paires": [
+    [
+     "Court de Gébelin",
+     "Le Monde primitif"
+    ],
+    [
+     "Eliphas Lévi",
+     "Dogme et rituel de la haute magie"
+    ],
+    [
+     "Michael Dummett",
+     "The Game of Tarot"
+    ]
+   ],
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Dummett, philosophe d’Oxford, a démontré l’origine ludique du tarot.",
+   "id": "t067-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un logo\n2. Je suis fait de deux runes\n3. Je rends hommage à un roi danois",
+   "choix": [
+    "Bluetooth",
+    "Volvo",
+    "Nokia",
+    "Lego"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Les runes utilisées sont celles des lettres H et B.",
+   "id": "t067-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Je me suis pendu neuf nuits\n3. J’ai découvert les runes",
+   "choix": [
+    "Odin",
+    "Thor",
+    "Loki",
+    "Tyr"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Je n’ai qu’un œil, que j’ai donné pour la sagesse.",
+   "id": "t067-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une carte\n2. Je porte le numéro XIII\n3. Je n’ai pas de nom",
+   "choix": [
+    "La Mort",
+    "Le Diable",
+    "Le Pendu",
+    "La Lune"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Mon squelette fauche des têtes et des mains.",
+   "id": "t067-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une pierre\n2. Je suis au Minnesota\n3. On me croit fausse",
+   "choix": [
+    "La pierre de Kensington",
+    "La pierre de Rök",
+    "La pierre de Jelling",
+    "La pierre de Rosette"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Un musée m’est consacré à Alexandria, dans le Minnesota.",
+   "id": "t067-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un alphabet\n2. Je viens d’Irlande\n3. Je suis fait d’entailles",
+   "choix": [
+    "L’ogham",
+    "Le futhark",
+    "Le gaélique",
+    "L’onciale"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Je suis souvent gravé sur des pierres funéraires.",
+   "id": "t067-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un symbole\n2. Je suis un serpent\n3. Je me mords la queue",
+   "choix": [
+    "L’ouroboros",
+    "Le caducée",
+    "Le Léviathan",
+    "Jörmungand"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "Les alchimistes m’ont beaucoup dessiné dans leurs traités.",
+   "id": "t067-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un érudit\n2. J’ai écrit Le Monde primitif\n3. J’ai cru le tarot égyptien",
+   "choix": [
+    "Court de Gébelin",
+    "Champollion",
+    "Etteilla",
+    "Eliphas Lévi"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "J’étais pasteur protestant et franc-maçon.",
+   "id": "t067-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une carte\n2. Je n’ai pas de numéro\n3. Je deviens l’Excuse au jeu de tarot",
+   "choix": [
+    "Le Mat",
+    "Le Bateleur",
+    "Le Monde",
+    "Le Pendu"
+   ],
+   "rep": 0,
+   "src": "Musset ; Dummett ; BnF",
+   "expl": "On me représente en vagabond suivi d’un chien.",
+   "id": "t067-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
