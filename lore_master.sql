@@ -188,7 +188,6 @@ begin
   if not found or r.last_seen < now() - interval '4 hours' then
     return json_build_object('ok', false, 'err', 'not_found');
   end if;
-  if r.status = 'ended' then return json_build_object('ok', false, 'err', 'ended'); end if;
 
   -- reconnexion : même joueur, sa place est conservée
   if p_player is not null and exists (select 1 from lm_players where id = p_player and room_code = r.code) then
@@ -200,6 +199,8 @@ begin
     update lm_players set pseudo = v_ps, last_seen = now() where id = p_player;
     return json_build_object('ok', true, 'id', p_player, 'pseudo', v_ps, 'mode', r.mode, 'status', r.status);
   end if;
+
+  if r.status = 'ended' then return json_build_object('ok', false, 'err', 'ended'); end if;   -- (v1.10 : un joueur déjà inscrit peut revenir après la fin)
 
   -- places libérées par les aventuriers partis sans prévenir
   delete from lm_players where room_code = r.code and last_seen < now() - interval '2 minutes';

@@ -112,7 +112,7 @@ function hostJoin(code){
 }
 function joinRoom(code,pseudo,pid){
   return rpc("lm_join",{p_code:code,p_pseudo:pseudo,p_player:pid}).then(function(r){
-    if(!r||!r.ok)throw new Error(JOIN_ERR[r&&r.err]||"Impossible d’entrer dans le donjon.");
+    if(!r||!r.ok){var je=new Error(JOIN_ERR[r&&r.err]||"Impossible d’entrer dans le donjon.");je.fatal=!!(r&&(r.err==="not_found"||r.err==="ended"||r.err==="full"));throw je;}
     S.host=false;S.code=code;S.pid=r.id;S.pseudo=r.pseudo;S.mode=r.mode;S.team=-1;S.score=0;
     S.melee=r.mode==="melee";if(S.melee){S.mode="solo";S.mel={th:null,nq:MEL_NQ[1],rd:false};MEL.pick=false;S.lastHost=Date.now();S.hostWarn=false;}
     store.set("pseudo",r.pseudo);store.set("sess",{code:code,pid:r.id,pseudo:r.pseudo,at:Date.now()});
@@ -122,10 +122,22 @@ function joinRoom(code,pseudo,pid){
     S.ch=ch;S.phase="lobby";
     $("m-leave").classList.remove("hidden");
     hello();renderLobby();show("s-lobby");
-    if(S.melee)setTimeout(melSendMp,400);
-    clearInterval(S.ping);S.ping=setInterval(ping,40000);
+        clearInterval(S.ping);S.ping=setInterval(ping,40000);
   });
 }
+/* retour dans une partie en cours après un rechargement ou une absence : seule une salle disparue efface la session ;
+   une coupure réseau laisse un bouton « Reprendre ma partie » */
+function rejoinSess(sess,fromLink){
+  $("rejoin").classList.add("hidden");
+  return joinRoom(sess.code,sess.pseudo,sess.pid).then(function(){$("rejoin").classList.add("hidden");},function(e){
+    if(e&&e.fatal){store.del("sess");CODE=fromLink?CODE:"";renderSlots();if(fromLink)codeErr(e.message);return;}
+    $("rj-t").textContent="Partie "+sess.code+" · "+sess.pseudo+" — "+((e&&e.message)||"connexion impossible pour l’instant")+".";
+    $("rejoin").classList.remove("hidden");
+    if(fromLink)gotoPseudo();
+  });
+}
+$("rj-go").addEventListener("click",function(){var s=store.get("sess",null);if(!s){$("rejoin").classList.add("hidden");return;}var b=this;b.disabled=true;rejoinSess(s,false).then(function(){b.disabled=false;});});
+$("rj-no").addEventListener("click",function(){store.del("sess");$("rejoin").classList.add("hidden");});
 function hello(){if(S.ch)S.ch.send(S.host?{t:"hi",id:S.pid,p:S.pseudo,host:1}:{t:"hi",id:S.pid,p:S.pseudo});}
 function onNet(st){if(st==="up")hello();}
 function ping(){
@@ -138,7 +150,7 @@ function ping(){
 }
 function leaveRoom(manual){
   if(MEL.eng)MEL.stop();
-  if(S.ch){S.ch.send({t:"bye",id:S.pid});var c=S.ch;setTimeout(function(){c.close();},300);}
+  if(S.ch){S.ch.send({t:"bye",id:S.pid,m:manual?1:0});var c=S.ch;setTimeout(function(){c.close();},300);}
   if(S.pid&&manual&&!S.host)rpc("lm_leave",{p_player:S.pid}).catch(function(){});
   S.host=false;
   clearInterval(S.ping);clearInterval(S.timer);
@@ -198,11 +210,12 @@ function onMsg(m){
     case "no":
       if(m.why==="full"){kicked(JOIN_ERR.full);}
       else if(m.why==="pseudo"){leaveRoom(true);gotoPseudo();psErr(JOIN_ERR.pseudo_taken);}
-      else if(m.why==="started")kicked("La mêlée a déjà commencé : demande au créateur de lancer une revanche.");
+      else if(m.why==="started")kicked("La mêlée a déjà commencé : attends la fin de la partie ou une revanche (demande au/à la créateur(trice)).");
       else if(m.why==="hostmode")kicked("Ce code ne fonctionne qu’en mode « Les Aventuriers VS le MJ ».");
       else kicked(JOIN_ERR.ended);
       break;
-    case "x":kicked(S.melee?"Le créateur a fermé la mêlée. Merci d’avoir joué !":"Le donjon a été fermé par le MJ. Merci d’avoir joué !");break;
+    case "ev":melEvent(m);break;
+    case "x":kicked(S.melee?"Le/la créateur(trice) a fermé la mêlée. Merci d’avoir joué !":"Le donjon a été fermé par le MJ. Merci d’avoir joué !");break;
     case "rh":hello();break;
   }
 }
@@ -487,8 +500,7 @@ function showReveal(m){
   $("rv-wait").classList.remove("hidden");$("rv-next").classList.add("hidden");$("mel-nx").classList.add("hidden");
   if(S.melee&&m.lbd){
     $("rv-extra").innerHTML+=melBoard(m);S.melRv=m;
-    $("rv-wait").classList.add("hidden");$("mel-nx").classList.remove("hidden");
-    var mb=$("mel-next");mb.disabled=false;mb.textContent=m.last?"Voir le podium":"Question suivante";
+    $("rv-wait").classList.add("hidden");melRvStart(m);
   }
   show("s-rv");
   revealFx(st,pts);
@@ -776,14 +788,15 @@ $("go-carnet").addEventListener("click",openCarnet);
   renderSlots();show("s-code");
   /* lien direct (QR code) : joueur.html?c=4F2A */
   var m=location.search.match(/[?&]c=([0-9a-fA-F]{4})/);
-  var sess=store.get("sess",null);
-  if(m){CODE=m[1].toUpperCase();renderSlots();
-    if(sess&&sess.code===CODE&&Date.now()-sess.at<3*3600e3){joinRoom(CODE,sess.pseudo,sess.pid).catch(function(){gotoPseudo();});}
+  var sess=store.get("sess",null),fresh=sess&&sess.code&&Date.now()-sess.at<3*3600e3;
+  if(MEL.tryResume()){}   /* créateur d’une mêlée : on reprend la partie là où elle en était */
+  else if(m){CODE=m[1].toUpperCase();renderSlots();
+    if(fresh&&sess.code===CODE)rejoinSess(sess,true);
     else checkCode();
-  }else if(sess&&Date.now()-sess.at<3*3600e3&&lmConfig()&&!lmConfig().bad){
+  }else if(fresh&&lmConfig()&&!lmConfig().bad){
     CODE=sess.code;renderSlots();
-    joinRoom(sess.code,sess.pseudo,sess.pid).catch(function(){store.del("sess");CODE="";renderSlots();});
+    rejoinSess(sess,false);
   }
   try{pwaInit();}catch(e){}
-  window.addEventListener("pagehide",function(){if(S.ch)S.ch.send({t:"bye",id:S.pid});});
+  window.addEventListener("pagehide",function(){try{melSave();}catch(e){}if(S.ch)S.ch.send({t:"bye",id:S.pid});});
 })();

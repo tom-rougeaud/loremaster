@@ -80,7 +80,7 @@ def game(h):
 prof=game(rd('src/prof.html')).replace('/*@@PROFCSS@@*/',rd('src/prof.css')+rd('src/v11.css')).replace('/*@@QRJS@@*/',qrjs)
 profjs='\n'.join(safe_js(rd('src/'+n)) for n in ['prof_pick.js','prof_preview.js','prof_room.js','prof_game.js','prof_duel.js','prof_end.js','prof_players.js','prof_init.js'])
 w('mj.html',prof.replace('/*@@PROFJS@@*/',profjs))
-el=game(rd('src/eleve.html')).replace('/*@@ELEVECSS@@*/',rd('src/eleve.css')+rd('src/melee.css')+rd('src/v11.css')).replace('/*@@PROGRESS@@*/',progress).replace('/*@@ELEVEJS@@*/',safe_js(rd('src/eleve.js'))+'\n'+safe_js(rd('src/melee.js'))).replace('/*@@QRJS@@*/',qrjs)
+el=game(rd('src/eleve.html')).replace('/*@@ELEVECSS@@*/',rd('src/eleve.css')+rd('src/melee.css')+rd('src/v11.css')).replace('/*@@PROGRESS@@*/',progress).replace('/*@@ELEVEJS@@*/',safe_js(rd('src/melee.js'))+'\n'+safe_js(rd('src/eleve.js'))).replace('/*@@QRJS@@*/',qrjs)
 w('joueur.html',el)
 cfg=rd('src/config.js')
 if len(sys.argv)>2:

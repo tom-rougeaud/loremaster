@@ -45,6 +45,7 @@
     <div class="slots" id="slots"><span></span><span></span><span></span><span></span></div>
     <div class="hexpad" id="hexpad"></div>
     <div id="code-err" class="err hidden"></div>
+    <div class="card rejoin hidden" id="rejoin"><b>Une partie t’attend</b><p class="muted small" id="rj-t"></p><div class="alt"><button type="button" class="btn btn-go" id="rj-go">Reprendre ma partie</button><button type="button" class="btn btn-ghost btn-sm" id="rj-no">Non merci</button></div></div>
     <div class="alt">
       <button type="button" class="btn btn-go" id="go-melee"></button>
       <button type="button" class="btn btn-soft" id="go-train"></button>
@@ -97,7 +98,7 @@
   <section id="s-rv" class="screen hidden">
     <div class="rv-card" id="rv-card"></div>
     <div id="rv-extra"></div>
-    <div class="alt hidden" id="mel-nx"><button type="button" class="btn btn-go btn-big" id="mel-next">Question suivante</button></div>
+    <div class="alt hidden" id="mel-nx"><button type="button" class="btn btn-go btn-big hidden" id="mel-next">Question suivante</button><p class="center muted" id="mel-nxt"></p></div>
     <div class="rv-wait" id="rv-wait"><div class="dots"><span></span><span></span><span></span></div><span>Attends la prochaine épreuve…</span></div>
     <div class="rv-next hidden" id="rv-next"><button type="button" class="btn btn-ghost btn-sm tr-chg" id="tr-chg" title="Mettre la série en pause pour changer de thème ; tu pourras la reprendre">Pause</button><button type="button" class="btn btn-go btn-big tr-nx" id="tr-next">Question suivante</button></div>
   </section>
