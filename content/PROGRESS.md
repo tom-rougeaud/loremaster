@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**68 / 99 thèmes terminés — 8968 questions au total.**
+**69 / 99 thèmes terminés — 9099 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -74,7 +74,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 66 | Sorcellerie et procès de sorcières | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 4 | terminé |
 | 67 | Runes, symboles et tarot | 121 | 40 | 14 (8) | 8 | 13 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/73/24 | 4 | terminé |
 | 68 | Le Trône de Fer (Westeros) | 131 | 45 | 16 (9) | 9 | 14 | 10 | 10 | 10 | 9 | 8 | 47 % | 26/79/26 | 3 | terminé |
-| 69 | Le Sorceleur (The Witcher) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 69 | Le Sorceleur (The Witcher) | 131 | 44 | 16 (9) | 9 | 14 | 10 | 10 | 10 | 10 | 8 | 46 % | 26/79/26 | 2 | terminé |
 | 70 | Fantasy épique et fondatrice | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 71 | Contes, fables et origines de la fantasy | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 72 | Romantasy et Young Adult modernes | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |

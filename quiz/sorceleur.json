@@ -1,0 +1,2156 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "sorceleur",
+  "nom": "Le Sorceleur (The Witcher)",
+  "royaume": "Magie, littérature et univers fantasy",
+  "icone": "loup",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quelle nationalité est Andrzej Sapkowski, créateur du Sorceleur ?",
+   "choix": [
+    "Polonaise",
+    "Tchèque",
+    "Russe",
+    "Ukrainienne"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il naît en 1948 à Łódź et travaille d’abord dans le commerce extérieur.",
+   "id": "t069-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel magazine paraît la toute première nouvelle du Sorceleur, en 1986 ?",
+   "choix": [
+    "Fantastyka",
+    "Weird Tales",
+    "Bifrost",
+    "Analog"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Sapkowski l’écrit pour un concours ; il termine troisième, mais les lecteurs l’adorent.",
+   "id": "t069-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel est le nom polonais du sorceleur ?",
+   "choix": [
+    "Wiedźmin",
+    "Wojownik",
+    "Czarodziej",
+    "Rycerz"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Le traducteur français a forgé « sorceleur » pour rendre ce mot inventé.",
+   "id": "t069-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le héros de la saga ?",
+   "choix": [
+    "Geralt de Riv",
+    "Vesemir de Kaer Morhen",
+    "Lambert le Loup",
+    "Eskel de Cintra"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il a lui-même choisi « de Riv » pour sonner plus noble.",
+   "id": "t069-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi Geralt a-t-il les cheveux blancs ?",
+   "choix": [
+    "Il a subi plus de mutations que les autres",
+    "Il est très âgé",
+    "Il est à moitié elfe",
+    "Il a été maudit par une sorcière"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il a si bien supporté l’Épreuve des Herbes qu’on lui a infligé des expériences supplémentaires.",
+   "id": "t069-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le rite de mutation imposé aux jeunes apprentis de Kaer Morhen ?",
+   "choix": [
+    "L’Épreuve des Herbes",
+    "Le Rite du Loup",
+    "L’Initiation du Sang",
+    "La Mutation d’Argent"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "La plupart des enfants n’y survivent pas.",
+   "id": "t069-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle forteresse sont formés les sorceleurs de l’École du Loup ?",
+   "choix": [
+    "Kaer Morhen",
+    "Aretuza",
+    "Vengerberg",
+    "Novigrad"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Elle est presque abandonnée à l’époque de Geralt.",
+   "id": "t069-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel vieux sorceleur fait figure de père pour Geralt ?",
+   "choix": [
+    "Vesemir",
+    "Lambert",
+    "Eskel",
+    "Coën"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Un film d’animation de Netflix raconte sa jeunesse en 2021.",
+   "id": "t069-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Contre quels adversaires Geralt réserve-t-il son épée d’argent ?",
+   "choix": [
+    "Les monstres",
+    "Les humains",
+    "Les bêtes sauvages",
+    "Les chevaliers en armure"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "L’argent est néfaste à la plupart des créatures surnaturelles.",
+   "id": "t069-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait le médaillon en forme de tête de loup de Geralt ?",
+   "choix": [
+    "Il vibre près de la magie",
+    "Il le rend invisible",
+    "Il soigne ses blessures",
+    "Il appelle son cheval"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il signale un sort, un monstre ou un objet enchanté.",
+   "id": "t069-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment s’appelle la jument de Geralt ?",
+   "choix": [
+    "Ablette",
+    "Fidèle",
+    "Tempête",
+    "Pégase"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il donne ce nom à toutes ses montures successives.",
+   "id": "t069-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel surnom terrible Geralt gagne-t-il après un combat dans une petite ville ?",
+   "choix": [
+    "Le Boucher de Blaviken",
+    "Le Loup blanc de Cintra",
+    "Le Tueur de rois",
+    "Le Fléau de Sodden"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il y tue Renfri et sa bande, pris au piège d’un choix entre deux maux.",
+   "id": "t069-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle question morale traverse la nouvelle sur Renfri et le mage Stregobor ?",
+   "choix": [
+    "Faut-il choisir le moindre mal ?",
+    "Faut-il obéir au roi ?",
+    "Faut-il croire aux dieux ?",
+    "Faut-il tuer les dragons ?"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Geralt refuse d’abord de choisir, puis s’y trouve contraint.",
+   "id": "t069-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conte célèbre Sapkowski réinvente-t-il avec Renfri ?",
+   "choix": [
+    "Blanche-Neige",
+    "Le Petit Chaperon rouge",
+    "Cendrillon",
+    "Hansel et Gretel"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Les sept nains y deviennent des brigands.",
+   "id": "t069-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conte la nouvelle consacrée à Nivellen réécrit-elle ?",
+   "choix": [
+    "La Belle et la Bête",
+    "Raiponce",
+    "La Petite Sirène",
+    "Le Chat botté"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Nivellen, maudit, vit sous les traits d’un monstre dans son manoir.",
+   "id": "t069-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle sorcière forme avec Geralt un couple tumultueux ?",
+   "choix": [
+    "Yennefer de Vengerberg",
+    "Triss Merigold",
+    "Philippa Eilhart",
+    "Tissaia de Vries"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Elle sent le lilas et la groseille, selon une formule qui revient souvent.",
+   "id": "t069-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle infirmité Yennefer avait-elle avant de devenir magicienne ?",
+   "choix": [
+    "Une bosse",
+    "La cécité",
+    "La surdité",
+    "Une jambe paralysée"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Sa transformation physique est le prix de sa formation à Aretuza.",
+   "id": "t069-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle l’école de magiciennes où se forme Yennefer ?",
+   "choix": [
+    "Aretuza",
+    "Ban Ard",
+    "Oxenfurt",
+    "Kaer Morhen"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Les garçons étudient de leur côté à Ban Ard.",
+   "id": "t069-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle princesse est l’« enfant surprise » de Geralt ?",
+   "choix": [
+    "Ciri",
+    "Adda",
+    "Renfri",
+    "Pavetta"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Le destin les lie par une promesse faite avant sa naissance.",
+   "id": "t069-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle loi lie Geralt à Ciri ?",
+   "choix": [
+    "La Loi de la Surprise",
+    "La Loi du Sang",
+    "Le Pacte des Rois",
+    "Le Serment des Sorceleurs"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Geralt réclame en récompense ce qu’on possède sans le savoir : un enfant à naître.",
+   "id": "t069-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel surnom porte la reine Calanthe, grand-mère de Ciri ?",
+   "choix": [
+    "La Lionne",
+    "La Louve blanche",
+    "La Reine des Ronces",
+    "L’Impératrice noire"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Sa petite-fille Ciri est surnommée le Lionceau.",
+   "id": "t069-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pouvoir rare et convoité coule dans les veines de Ciri ?",
+   "choix": [
+    "Le Sang Ancien",
+    "Le Sang de dragon",
+    "Le Sang des Sorceleurs",
+    "Le Sang de Lune"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il lui permet de voyager entre les mondes et le temps.",
+   "id": "t069-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est le père de Ciri, révélé à la fin de la saga ?",
+   "choix": [
+    "Emhyr var Emreis",
+    "Foltest de Temeria",
+    "Radovid de Rédanie",
+    "Eredin Bréacc Glas"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il était autrefois Duny, le chevalier maudit à tête de hérisson.",
+   "id": "t069-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel empire du Sud envahit les royaumes du Nord ?",
+   "choix": [
+    "Nilfgaard",
+    "Temeria",
+    "Rédanie",
+    "Kaedwen"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Ses soldats portent des armures noires ornées d’un soleil.",
+   "id": "t069-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le barde ami de Geralt dans les versions françaises ?",
+   "choix": [
+    "Jaskier",
+    "Dandelion",
+    "Zoltan",
+    "Regis"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Son nom signifie « renoncule » en polonais ; les traductions anglaises l’ont appelé Dandelion.",
+   "id": "t069-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nain truculent accompagne Geralt dans Le Baptême du feu ?",
+   "choix": [
+    "Zoltan Chivay",
+    "Yarpen Zigrin",
+    "Brouver Hoog",
+    "Golan Vivaldi"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il a aussi un perroquet qui jure comme un charretier.",
+   "id": "t069-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel compagnon de Geralt est en réalité un vampire supérieur ?",
+   "choix": [
+    "Regis",
+    "Cahir",
+    "Milva",
+    "Jaskier"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il a renoncé au sang et devient l’un des personnages les plus sages de la saga.",
+   "id": "t069-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels elfes rebelles mènent la guérilla contre les humains ?",
+   "choix": [
+    "Les Scoia’tael",
+    "Les Aen Elle",
+    "Les Dryades",
+    "Les Seidhe"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Leur nom signifie « écureuils », à cause de la queue d’écureuil qu’ils portent.",
+   "id": "t069-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle troupe spectrale poursuit Ciri à travers les mondes ?",
+   "choix": [
+    "La Chasse sauvage",
+    "La Garde noire",
+    "Les Cavaliers d’Apocalypse",
+    "La Meute grise"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Ce sont des elfes d’un autre monde, les Aen Elle.",
+   "id": "t069-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel événement ancien a fait arriver les monstres dans le monde du Sorceleur ?",
+   "choix": [
+    "La Conjonction des Sphères",
+    "La Chute de Valyria",
+    "La Grande Guerre",
+    "Le Déluge"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Elle a mêlé plusieurs univers il y a environ mille cinq cents ans.",
+   "id": "t069-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monstre est la princesse Adda, fille du roi Foltest ?",
+   "choix": [
+    "Une stryge",
+    "Une bruxa",
+    "Un loup-garou",
+    "Une dryade"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Geralt lève sa malédiction en résistant jusqu’au chant du coq.",
+   "id": "t069-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel studio polonais développe les jeux vidéo The Witcher ?",
+   "choix": [
+    "CD Projekt Red",
+    "Techland",
+    "Bloober Team",
+    "People Can Fly"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il est installé à Varsovie et a aussi créé Cyberpunk 2077.",
+   "id": "t069-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel sous-titre porte The Witcher 3, sorti en 2015 ?",
+   "choix": [
+    "Wild Hunt",
+    "Assassins of Kings",
+    "Blood and Wine",
+    "Hearts of Stone"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Il est souvent cité parmi les meilleurs jeux de rôle de tous les temps.",
+   "id": "t069-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle région inspirée de la France viticole sert de cadre à l’extension Blood and Wine ?",
+   "choix": [
+    "Toussaint",
+    "Skellige",
+    "Velen",
+    "Novigrad"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "On y croise chevaliers errants, vignobles et contes de fées.",
+   "id": "t069-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de cartes, joué dans les auberges de The Witcher 3, est devenu un jeu à part entière ?",
+   "choix": [
+    "Le Gwynt",
+    "Le poker de dés",
+    "La Bataille",
+    "Le Tarot"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Les joueurs le pratiquent souvent plus que la quête principale.",
+   "id": "t069-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel archipel de The Witcher 3 s’inspire des Vikings ?",
+   "choix": [
+    "Skellige",
+    "Toussaint",
+    "Temeria",
+    "Vizima"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Ses clans se disputent le trône à la mort du roi Bran.",
+   "id": "t069-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur incarne Geralt dans les trois premières saisons de la série Netflix ?",
+   "choix": [
+    "Henry Cavill",
+    "Liam Hemsworth",
+    "Jason Momoa",
+    "Tom Hardy"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Grand joueur des jeux vidéo, il a lui-même réclamé le rôle.",
+   "id": "t069-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel acteur reprend le rôle de Geralt à partir de la quatrième saison ?",
+   "choix": [
+    "Liam Hemsworth",
+    "Henry Cavill",
+    "Chris Hemsworth",
+    "Richard Madden"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Le changement d’acteur a suscité de nombreux débats chez les fans.",
+   "id": "t069-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle actrice joue Yennefer dans la série Netflix ?",
+   "choix": [
+    "Anya Chalotra",
+    "Freya Allan",
+    "Anna Shaffer",
+    "Emilia Clarke"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Freya Allan interprète Ciri, Anna Shaffer joue Triss.",
+   "id": "t069-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie Zireael, le nom elfique de l’épée de Ciri et son surnom ?",
+   "choix": [
+    "Hirondelle",
+    "Étoile",
+    "Louve",
+    "Lune"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Le titre La Tour de l’Hirondelle y fait aussi allusion.",
+   "id": "t069-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel signe de sorceleur permet d’influencer l’esprit d’un adversaire ?",
+   "choix": [
+    "Axii",
+    "Aard",
+    "Igni",
+    "Yrden"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Geralt l’utilise souvent pour éviter un combat ou obtenir une information.",
+   "id": "t069-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Geralt et Yennefer semblent-ils se trouver à la toute fin de La Dame du lac ?",
+   "choix": [
+    "Sur l’Île aux Pommes",
+    "À Kaer Morhen",
+    "À Vengerberg",
+    "À Cintra"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Ce lieu évoque l’Avalon de la légende arthurienne.",
+   "id": "t069-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans quelle bataille les magiciens repoussent-ils Nilfgaard sur une colline, au prix de lourdes pertes ?",
+   "choix": [
+    "La bataille de Sodden",
+    "La bataille de Brenna",
+    "Le coup de Thanedd",
+    "La prise de Cintra"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Une stèle y commémore les magiciens morts, dont Yennefer a failli faire partie.",
+   "id": "t069-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forêt protégée par les dryades est interdite aux humains ?",
+   "choix": [
+    "Brokilon",
+    "Velen",
+    "Toussaint",
+    "Sodden"
+   ],
+   "rep": 0,
+   "src": "Andrzej Sapkowski, Le Sorceleur (trad. Laurence Dyèvre, Bragelonne / Milady) ; CD Projekt Red, The Witcher 1-3 (2007-2015) ; Netflix, The Witcher (2019-) ; Fantastyka (archives, 1986)",
+   "expl": "Ciri y est recueillie par la reine Eithné dans L’Épée de la providence.",
+   "id": "t069-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Andrzej Sapkowski est polonais.",
+   "rep": true,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "La saga puise largement dans les légendes slaves.",
+   "id": "t069-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Sorceleur a d’abord été un jeu vidéo avant de devenir une saga.",
+   "rep": false,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Faux : les nouvelles paraissent dès 1986, les jeux à partir de 2007.",
+   "id": "t069-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Geralt utilise une épée d’argent contre les monstres.",
+   "rep": true,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Son épée d’acier sert contre les humains et les bêtes ordinaires.",
+   "id": "t069-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Ciri est la fille biologique de Geralt.",
+   "rep": false,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Faux : elle lui est liée par la Loi de la Surprise, pas par le sang.",
+   "id": "t069-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Yennefer a été formée à Aretuza.",
+   "rep": true,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "L’école se trouve sur l’île de Thanedd, au large du Nord.",
+   "id": "t069-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Kaer Morhen forme des magiciennes.",
+   "rep": false,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Faux : c’est la forteresse des sorceleurs de l’École du Loup.",
+   "id": "t069-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "The Witcher 3 est développé par CD Projekt Red.",
+   "rep": true,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le studio est basé à Varsovie, en Pologne.",
+   "id": "t069-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Henry Cavill a joué Geralt dans toutes les saisons de la série.",
+   "rep": false,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Faux : Liam Hemsworth reprend le rôle à partir de la saison 4.",
+   "id": "t069-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les sorceleurs ont des yeux de chat.",
+   "rep": true,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Leurs pupilles leur permettent de voir dans la pénombre.",
+   "id": "t069-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Jaskier est un sorceleur.",
+   "rep": false,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Faux : c’est un barde, poète et séducteur.",
+   "id": "t069-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Toussaint s’inspire de la France.",
+   "rep": true,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "L’extension Blood and Wine évoque la Bourgogne et ses chevaliers.",
+   "id": "t069-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Emhyr var Emreis est le père de Ciri.",
+   "rep": true,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Il veut l’épouser pour des raisons politiques, ce que la saga rend troublant.",
+   "id": "t069-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Chasse sauvage est composée d’elfes d’un autre monde.",
+   "rep": true,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Dans les jeux, son roi s’appelle Eredin.",
+   "id": "t069-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les sorceleurs peuvent avoir des enfants facilement.",
+   "rep": false,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Faux : les mutations les rendent stériles.",
+   "id": "t069-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Épreuve des Herbes est sans danger pour les enfants.",
+   "rep": false,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Faux : la grande majorité des enfants y meurt.",
+   "id": "t069-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le nom de Jaskier signifie « renoncule » en polonais.",
+   "rep": true,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "La version anglaise l’a traduit par Dandelion, le pissenlit.",
+   "id": "t069-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît la première nouvelle du Sorceleur ?",
+   "rep": 1986,
+   "min": 1970,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Elle s’intitule simplement Le Sorceleur.",
+   "id": "t069-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort The Witcher 3 : Wild Hunt ?",
+   "rep": 2015,
+   "min": 2007,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le jeu a remporté des centaines de prix de « jeu de l’année ».",
+   "id": "t069-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort le premier jeu vidéo The Witcher ?",
+   "rep": 2007,
+   "min": 1999,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Il est réalisé avec le moteur graphique de Neverwinter Nights.",
+   "id": "t069-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année débute la série Netflix The Witcher ?",
+   "rep": 2019,
+   "min": 2010,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Elle a été tournée en grande partie en Hongrie et en Pologne.",
+   "id": "t069-064",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année naît Andrzej Sapkowski ?",
+   "rep": 1948,
+   "min": 1930,
+   "max": 1970,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Il est né la même année que George R. R. Martin.",
+   "id": "t069-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de romans compte la saga principale du Sorceleur, sans les recueils de nouvelles ?",
+   "rep": 5,
+   "min": 3,
+   "max": 9,
+   "pas": 1,
+   "unite": "romans",
+   "tolerance": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "La saga va du Sang des elfes à La Dame du lac.",
+   "id": "t069-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît La Dame du lac en Pologne ?",
+   "rep": 1999,
+   "min": 1990,
+   "max": 2010,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "C’est le dernier tome de la saga principale.",
+   "id": "t069-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de signes principaux un sorceleur utilise-t-il dans les jeux ?",
+   "rep": 5,
+   "min": 3,
+   "max": 8,
+   "pas": 1,
+   "unite": "signes",
+   "tolerance": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ce sont Aard, Igni, Yrden, Quen et Axii, tirés des romans.",
+   "id": "t069-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort l’extension Blood and Wine ?",
+   "rep": 2016,
+   "min": 2010,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Elle offre une conclusion paisible à l’histoire de Geralt.",
+   "id": "t069-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le héros de la saga s’appelle Geralt de ____.",
+   "choix": [
+    "Riv",
+    "Riva",
+    "Rivia",
+    "Rive"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Les versions anglaises disent « of Rivia ».",
+   "id": "t069-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La forteresse de l’École du Loup s’appelle Kaer ____.",
+   "choix": [
+    "Morhen",
+    "Morgan",
+    "Moren",
+    "Mordor"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Elle se trouve dans les montagnes de Kaedwen.",
+   "id": "t069-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La magicienne aimée de Geralt s’appelle Yennefer de ____.",
+   "choix": [
+    "Vengerberg",
+    "Vizima",
+    "Vergen",
+    "Verden"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Elle porte une étoile d’obsidienne autour du cou.",
+   "id": "t069-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le lien entre Geralt et Ciri s’appelle la Loi de la ____.",
+   "choix": [
+    "Surprise",
+    "Destinée",
+    "Promesse",
+    "Providence"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Cette coutume ancienne réclame un enfant à naître.",
+   "id": "t069-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’empire qui envahit le Nord s’appelle ____.",
+   "choix": [
+    "Nilfgaard",
+    "Nordling",
+    "Niflheim",
+    "Nazair"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Les gens du Nord l’appellent souvent l’Empire noir.",
+   "id": "t069-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le barde ami de Geralt s’appelle ____ dans les éditions françaises.",
+   "choix": [
+    "Jaskier",
+    "Dandelion",
+    "Pissenlit",
+    "Zoltan"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Sa chanson fait le succès de Geralt dans la série Netflix.",
+   "id": "t069-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le studio des jeux The Witcher s’appelle CD Projekt ____.",
+   "choix": [
+    "Red",
+    "Blue",
+    "Black",
+    "Gold"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Il a été fondé en 1994 comme distributeur de jeux.",
+   "id": "t069-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le jeu de cartes de The Witcher 3 s’appelle le ____.",
+   "choix": [
+    "Gwynt",
+    "Gwent",
+    "Gobelin",
+    "Tarok"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "En anglais, on l’appelle Gwent ; il est né en Pologne sous le nom de Gwint.",
+   "id": "t069-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les elfes rebelles s’appellent les Scoia’____.",
+   "choix": [
+    "tael",
+    "tel",
+    "taal",
+    "thel"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ils combattent pour les droits des non-humains.",
+   "id": "t069-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La jument de Geralt s’appelle ____.",
+   "choix": [
+    "Ablette",
+    "Gardon",
+    "Sardine",
+    "Truite"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le nom vient d’un poisson, comme Roach en anglais.",
+   "id": "t069-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’épreuve des enfants sorceleurs s’appelle l’Épreuve des ____.",
+   "choix": [
+    "Herbes",
+    "Fleurs",
+    "Poisons",
+    "Mutations"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "On y administre des décoctions et des mutagènes.",
+   "id": "t069-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’événement qui a mêlé les mondes s’appelle la Conjonction des ____.",
+   "choix": [
+    "Sphères",
+    "Planètes",
+    "Lunes",
+    "Astres"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Les humains eux-mêmes seraient arrivés à cette occasion.",
+   "id": "t069-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le nom elfique de Ciri, qui signifie hirondelle, est ____.",
+   "choix": [
+    "Zireael",
+    "Zerrikania",
+    "Ziraël",
+    "Zelda"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Elle prend aussi le nom de Falka dans un moment sombre de sa vie.",
+   "id": "t069-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le vampire supérieur compagnon de Geralt s’appelle Emiel ____.",
+   "choix": [
+    "Regis",
+    "Rex",
+    "Rhys",
+    "Rivas"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Il adore les infusions de mandragore et les longues discussions.",
+   "id": "t069-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces personnages n’est pas un sorceleur ?",
+   "choix": [
+    "Jaskier",
+    "Geralt",
+    "Vesemir",
+    "Lambert"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Jaskier est un barde et un poète, pas un guerrier.",
+   "id": "t069-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces signes n’existe pas ?",
+   "choix": [
+    "Lumos",
+    "Aard",
+    "Igni",
+    "Quen"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Lumos est un sortilège de Harry Potter qui produit de la lumière.",
+   "id": "t069-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces royaumes n’est pas un royaume du Nord ?",
+   "choix": [
+    "Nilfgaard",
+    "Temeria",
+    "Rédanie",
+    "Kaedwen"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Nilfgaard est l’empire du Sud qui envahit le Nord.",
+   "id": "t069-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces femmes n’est pas magicienne ?",
+   "choix": [
+    "Calanthe",
+    "Yennefer",
+    "Triss Merigold",
+    "Philippa Eilhart"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Calanthe est la reine guerrière de Cintra.",
+   "id": "t069-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas développé par CD Projekt Red ?",
+   "choix": [
+    "Dragon Age",
+    "The Witcher 3",
+    "Cyberpunk 2077",
+    "Thronebreaker"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Dragon Age est développé par le studio canadien BioWare.",
+   "id": "t069-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces titres n’est pas un roman de la saga ?",
+   "choix": [
+    "Le Trône de fer",
+    "Le Sang des elfes",
+    "Le Temps du mépris",
+    "La Dame du lac"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le Trône de fer est la saga de George R. R. Martin.",
+   "id": "t069-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux n’est pas une région de The Witcher 3 ?",
+   "choix": [
+    "Mordor",
+    "Velen",
+    "Novigrad",
+    "Skellige"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le Mordor appartient au monde de Tolkien.",
+   "id": "t069-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces acteurs n’a pas joué dans la série Netflix ?",
+   "choix": [
+    "Kit Harington",
+    "Henry Cavill",
+    "Freya Allan",
+    "Anya Chalotra"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Kit Harington est Jon Snow dans Game of Thrones.",
+   "id": "t069-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces monstres n’est pas tiré du folklore slave ?",
+   "choix": [
+    "Le minotaure",
+    "La stryge",
+    "La kikimora",
+    "Le leshen"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le minotaure vient de la mythologie grecque.",
+   "id": "t069-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces compagnons n’est pas humain ?",
+   "choix": [
+    "Zoltan Chivay",
+    "Jaskier",
+    "Milva",
+    "Cahir"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Zoltan est un nain fort en gueule et fidèle.",
+   "id": "t069-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels personnages sont des sorceleurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Geralt",
+    "Vesemir",
+    "Lambert",
+    "Eskel",
+    "Jaskier",
+    "Regis"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ils appartiennent tous à l’École du Loup.",
+   "id": "t069-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels signes un sorceleur peut-il utiliser ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aard",
+    "Igni",
+    "Yrden",
+    "Quen",
+    "Lumos",
+    "Expelliarmus"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Lumos et Expelliarmus sont des sortilèges de Harry Potter.",
+   "id": "t069-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles magiciennes apparaissent dans la saga ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Yennefer",
+    "Triss",
+    "Philippa",
+    "Tissaia",
+    "Calanthe",
+    "Milva"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Milva est une archère, Calanthe une reine.",
+   "id": "t069-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux appartiennent à la série The Witcher ? (plusieurs bonnes réponses)",
+   "choix": [
+    "The Witcher",
+    "Assassins of Kings",
+    "Wild Hunt",
+    "Cyberpunk 2077",
+    "Dying Light"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Cyberpunk 2077 vient du même studio, mais dans un autre univers.",
+   "id": "t069-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels contes Sapkowski réécrit-il dans ses nouvelles ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Blanche-Neige",
+    "La Belle et la Bête",
+    "La Petite Sirène",
+    "Le Chat botté",
+    "Pinocchio"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "La Petite Sirène inspire la nouvelle Un petit sacrifice.",
+   "id": "t069-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles régions apparaissent dans The Witcher 3 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Velen",
+    "Novigrad",
+    "Skellige",
+    "Toussaint",
+    "Mordor",
+    "Azeroth"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Toussaint n’est accessible que dans l’extension Blood and Wine.",
+   "id": "t069-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels monstres Geralt affronte-t-il dans la saga ou les jeux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Stryge",
+    "Bruxa",
+    "Noyeur",
+    "Leshen",
+    "Dalek",
+    "Xénomorphe"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Les monstres du Sorceleur viennent surtout du folklore slave.",
+   "id": "t069-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels titres appartiennent à la saga écrite par Sapkowski ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Dernier Vœu",
+    "L’Épée de la providence",
+    "La Saison des orages",
+    "Blood and Wine",
+    "Le Cauchemar du loup"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Blood and Wine est une extension de jeu, Le Cauchemar du loup un film d’animation.",
+   "id": "t069-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels acteurs ont joué dans la série Netflix ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Henry Cavill",
+    "Anya Chalotra",
+    "Freya Allan",
+    "Joey Batey",
+    "Pedro Pascal",
+    "Kit Harington"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Joey Batey interprète Jaskier, le barde.",
+   "id": "t069-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles caractéristiques ont les sorceleurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Yeux de chat",
+    "Vieillissement ralenti",
+    "Stérilité",
+    "Ailes",
+    "Immortalité"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Leurs mutations leur donnent aussi des réflexes surhumains.",
+   "id": "t069-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces romans de la saga par ordre de parution.",
+   "items": [
+    "Le Sang des elfes",
+    "Le Temps du mépris",
+    "Le Baptême du feu",
+    "La Tour de l’Hirondelle",
+    "La Dame du lac"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Un par an, de 1994 à 1999, sauf en 1998.",
+   "id": "t069-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux vidéo par date de sortie.",
+   "items": [
+    "The Witcher",
+    "Assassins of Kings",
+    "Wild Hunt",
+    "Blood and Wine"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ces jeux sortent en 2007, 2011, 2015 puis 2016.",
+   "id": "t069-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces œuvres par date de sortie.",
+   "items": [
+    "Première nouvelle",
+    "Premier jeu vidéo",
+    "Série Netflix"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ces œuvres apparaissent en 1986, 2007 puis 2019.",
+   "id": "t069-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la vie de Geralt dans l’ordre.",
+   "items": [
+    "Abandon à Kaer Morhen",
+    "Épreuve des Herbes",
+    "Massacre de Blaviken",
+    "Rencontre avec Ciri"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Il devient sorceleur bien avant les événements de la saga.",
+   "id": "t069-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du destin de Ciri dans l’ordre.",
+   "items": [
+    "Chute de Cintra",
+    "Rencontre avec Geralt",
+    "Entraînement à Kaer Morhen",
+    "Fuite dans d’autres mondes"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Elle passe de princesse choyée à fugitive traquée.",
+   "id": "t069-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces recueils et romans par ordre de parution en Pologne.",
+   "items": [
+    "L’Épée de la providence",
+    "Le Dernier Vœu",
+    "Le Sang des elfes",
+    "La Saison des orages"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ces livres paraissent en 1992, 1993, 1994 puis 2013.",
+   "id": "t069-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces interprètes de Geralt par ordre chronologique.",
+   "items": [
+    "Michał Żebrowski",
+    "Henry Cavill",
+    "Liam Hemsworth"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "L’acteur polonais Michał Żebrowski incarne le premier Geralt, au cinéma puis en série télévisée.",
+   "id": "t069-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sorties par ordre chronologique.",
+   "items": [
+    "Wild Hunt",
+    "Hearts of Stone",
+    "Blood and Wine"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Wild Hunt sort en mai 2015, Hearts of Stone en octobre 2015, Blood and Wine en mai 2016.",
+   "id": "t069-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de la saga dans l’ordre.",
+   "items": [
+    "Bataille de Sodden",
+    "Coup de Thanedd",
+    "Bataille de Brenna"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ce sont trois grands moments des guerres contre Nilfgaard.",
+   "id": "t069-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque personnage à son rôle.",
+   "paires": [
+    [
+     "Geralt",
+     "Sorceleur"
+    ],
+    [
+     "Yennefer",
+     "Magicienne"
+    ],
+    [
+     "Jaskier",
+     "Barde"
+    ],
+    [
+     "Zoltan",
+     "Nain"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Chacun accompagne Geralt à sa manière dans ses aventures.",
+   "id": "t069-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque signe à son effet.",
+   "paires": [
+    [
+     "Aard",
+     "Onde de choc"
+    ],
+    [
+     "Igni",
+     "Feu"
+    ],
+    [
+     "Quen",
+     "Protection"
+    ],
+    [
+     "Yrden",
+     "Piège magique"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ces signes sont simples, mais efficaces au combat.",
+   "id": "t069-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque lieu à sa fonction.",
+   "paires": [
+    [
+     "Kaer Morhen",
+     "École des sorceleurs"
+    ],
+    [
+     "Aretuza",
+     "École des magiciennes"
+    ],
+    [
+     "Oxenfurt",
+     "Université"
+    ],
+    [
+     "Cintra",
+     "Royaume de Calanthe"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ces lieux structurent la géographie de la saga.",
+   "id": "t069-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque actrice ou acteur à son rôle.",
+   "paires": [
+    [
+     "Henry Cavill",
+     "Geralt"
+    ],
+    [
+     "Anya Chalotra",
+     "Yennefer"
+    ],
+    [
+     "Freya Allan",
+     "Ciri"
+    ],
+    [
+     "Joey Batey",
+     "Jaskier"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le quatuor principal de la série Netflix.",
+   "id": "t069-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque conte à sa réécriture.",
+   "paires": [
+    [
+     "Blanche-Neige",
+     "Renfri"
+    ],
+    [
+     "La Belle et la Bête",
+     "Nivellen"
+    ],
+    [
+     "La Petite Sirène",
+     "Sh’eenaz"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Sapkowski détourne souvent les contes avec ironie.",
+   "id": "t069-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à sa nature.",
+   "paires": [
+    [
+     "Regis",
+     "Vampire"
+    ],
+    [
+     "Zoltan",
+     "Nain"
+    ],
+    [
+     "Milva",
+     "Humaine"
+    ],
+    [
+     "Eredin",
+     "Elfe"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le Sorceleur mêle sans cesse humains et non-humains.",
+   "id": "t069-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque région de The Witcher 3 à son inspiration.",
+   "paires": [
+    [
+     "Skellige",
+     "Scandinavie"
+    ],
+    [
+     "Toussaint",
+     "France viticole"
+    ],
+    [
+     "Velen",
+     "Marais slaves"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le jeu s’inspire de nombreuses régions de toute l’Europe.",
+   "id": "t069-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à son année.",
+   "paires": [
+    [
+     "The Witcher",
+     "2007"
+    ],
+    [
+     "Assassins of Kings",
+     "2011"
+    ],
+    [
+     "Wild Hunt",
+     "2015"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "CD Projekt Red met quatre ans à faire chaque épisode.",
+   "id": "t069-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à son surnom.",
+   "paires": [
+    [
+     "Ciri",
+     "Lionceau de Cintra"
+    ],
+    [
+     "Calanthe",
+     "Lionne de Cintra"
+    ],
+    [
+     "Geralt",
+     "Loup blanc"
+    ],
+    [
+     "Emhyr",
+     "Flamme blanche"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Emhyr est appelé « la Flamme blanche qui danse sur les tombes de ses ennemis ».",
+   "id": "t069-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sorceleur\n2. J’ai les cheveux blancs\n3. Je suis de l’École du Loup",
+   "choix": [
+    "Geralt",
+    "Vesemir",
+    "Lambert",
+    "Eskel"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "On m’appelle aussi le Loup blanc, à cause de mes cheveux.",
+   "id": "t069-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une magicienne\n2. Je sens le lilas et la groseille\n3. J’aime Geralt",
+   "choix": [
+    "Yennefer",
+    "Triss",
+    "Philippa",
+    "Fringilla"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Je cherche à retrouver la capacité d’avoir des enfants.",
+   "id": "t069-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une princesse\n2. J’ai le Sang Ancien\n3. Je suis l’enfant surprise de Geralt",
+   "choix": [
+    "Ciri",
+    "Adda",
+    "Pavetta",
+    "Renfri"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Je suis l’héroïne du prochain grand jeu de CD Projekt Red.",
+   "id": "t069-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un barde\n2. Je suis l’ami de Geralt\n3. J’ai une chanson célèbre sur lui",
+   "choix": [
+    "Jaskier",
+    "Regis",
+    "Zoltan",
+    "Cahir"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "On m’appelle Dandelion dans les traductions anglaises.",
+   "id": "t069-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. Je suis polonais\n3. J’ai créé Geralt",
+   "choix": [
+    "Andrzej Sapkowski",
+    "Stanisław Lem",
+    "Witold Gombrowicz",
+    "Czesław Miłosz"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Je ne crois pas beaucoup aux jeux vidéo, mais ils ont fait ma célébrité.",
+   "id": "t069-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un empire\n2. Je viens du Sud\n3. Mes soldats portent un soleil",
+   "choix": [
+    "Nilfgaard",
+    "Rédanie",
+    "Temeria",
+    "Zerrikanie"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Mon empereur s’appelle Emhyr var Emreis.",
+   "id": "t069-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une forteresse\n2. Je suis presque en ruines\n3. J’ai formé des sorceleurs",
+   "choix": [
+    "Kaer Morhen",
+    "Aretuza",
+    "Stygga",
+    "Vengerberg"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Ciri s’y entraîne pendant un hiver avec les derniers loups.",
+   "id": "t069-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je suis sorti en 2015\n3. Je suis le troisième de ma série",
+   "choix": [
+    "The Witcher 3 : Wild Hunt",
+    "Cyberpunk 2077",
+    "Skyrim",
+    "Dragon Age : Inquisition"
+   ],
+   "rep": 0,
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Je me déroule dans un vaste monde ouvert.",
+   "id": "t069-129",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces nouvelles et romans selon l’ordre de lecture conseillé.",
+   "items": [
+    "Le Dernier Vœu",
+    "L’Épée de la providence",
+    "Le Sang des elfes",
+    "La Dame du lac"
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "On commence par les nouvelles, qui présentent Geralt, Yennefer et Ciri.",
+   "id": "t069-130",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monstre à sa description.",
+   "paires": [
+    [
+     "Stryge",
+     "Princesse maudite"
+    ],
+    [
+     "Noyeur",
+     "Créature des eaux"
+    ],
+    [
+     "Leshen",
+     "Esprit de la forêt"
+    ],
+    [
+     "Bruxa",
+     "Vampire femelle"
+    ]
+   ],
+   "src": "Sapkowski ; CD Projekt Red ; Netflix",
+   "expl": "Le bestiaire du Sorceleur emprunte beaucoup aux légendes slaves.",
+   "id": "t069-131",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
