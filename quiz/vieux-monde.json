@@ -1,0 +1,1988 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "vieux-monde",
+  "nom": "Le Vieux Monde (Warhammer Fantasy)",
+  "royaume": "Les univers Warhammer",
+  "icone": "bouclier",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel héros fonde l’Empire en unissant les tribus humaines ?",
+   "choix": [
+    "Sigmar Heldenhammer",
+    "Magnus le Pieux",
+    "Karl Franz",
+    "Gilles le Breton"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Il est couronné empereur après la victoire du col du Feu Noir.",
+   "id": "t039-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Contre qui Sigmar remporte-t-il la bataille du col du Feu Noir ?",
+   "choix": [
+    "Les orques et les gobelins",
+    "Les elfes noirs",
+    "Les morts-vivants de Nagash",
+    "Les skavens"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Il combat aux côtés des nains du roi Kurgan.",
+   "id": "t039-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel est le nom de la capitale de l’Empire au temps de Karl Franz ?",
+   "choix": [
+    "Altdorf",
+    "Middenheim",
+    "Nuln",
+    "Marienburg"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "C’est aussi la ville des Collèges de magie et de la grande cathédrale de Sigmar.",
+   "id": "t039-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu à l’effigie du loup est vénéré à Middenheim ?",
+   "choix": [
+    "Ulric",
+    "Sigmar",
+    "Taal",
+    "Morr"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Dieu de l’hiver et de la guerre, il rivalise avec le culte de Sigmar.",
+   "id": "t039-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quel immense rocher Middenheim est-elle bâtie ?",
+   "choix": [
+    "Le Fauschlag",
+    "Le Mont Éternel",
+    "Le Pic du Corbeau",
+    "La Dent de Gork"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "On l’appelle la « Cité du Loup blanc », presque imprenable.",
+   "id": "t039-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle cité impériale est célèbre pour son école d’artillerie ?",
+   "choix": [
+    "Nuln",
+    "Talabheim",
+    "Averheim",
+    "Wolfenburg"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Ses fonderies produisent canons et mortiers pour les armées de l’Empire.",
+   "id": "t039-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui fonde les Collèges de magie de l’Empire, avec Magnus le Pieux ?",
+   "choix": [
+    "Teclis",
+    "Malekith",
+    "Nagash",
+    "Thorgrim"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Le mage haut elfe enseigne aux humains à manier un seul vent de magie à la fois.",
+   "id": "t039-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de Collèges de magie compte l’Empire ?",
+   "choix": [
+    "Huit",
+    "Quatre",
+    "Douze",
+    "Sept"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Un par vent de magie : feu, bêtes, métal, vie, lumière, ombre, mort et cieux.",
+   "id": "t039-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle machine de guerre impériale est un char blindé que plus personne ne sait construire ?",
+   "choix": [
+    "Le tank à vapeur",
+    "Le canon feu d’enfer",
+    "Le gyrocoptère",
+    "La catapulte à crânes"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Mû par la vapeur, il n’en reste que quelques exemplaires gardés à Nuln et Altdorf.",
+   "id": "t039-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle créature monte souvent l’empereur Karl Franz ?",
+   "choix": [
+    "Un griffon",
+    "Un dragon",
+    "Un pégase",
+    "Un hippogriffe"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Son griffon, Griffe-de-Mort, l’accompagne dans les grandes batailles.",
+   "id": "t039-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse les chevaliers de Bretonnie vénèrent-ils ?",
+   "choix": [
+    "La Dame du Lac",
+    "Shallya",
+    "Myrmidia",
+    "Isha"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Seuls les chevaliers les plus purs boivent à son Graal.",
+   "id": "t039-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les chevaliers bretonniens qui ont bu à la coupe sacrée de la Dame ?",
+   "choix": [
+    "Les chevaliers du Graal",
+    "Les chevaliers du Royaume",
+    "Les chevaliers errants",
+    "Les chevaliers Pégase"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Ils sont presque des saints aux yeux du peuple.",
+   "id": "t039-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi règne sur la Bretonnie ?",
+   "choix": [
+    "Louen Cœur de Lion",
+    "Karl Franz",
+    "Finubar",
+    "Thorgrim"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Il est le champion de la Dame et le premier des chevaliers.",
+   "id": "t039-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle souveraine glaciale gouverne Kislev ?",
+   "choix": [
+    "La tsarine Katarin",
+    "Alarielle",
+    "Morathi",
+    "Neferata"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "On la surnomme la Reine des Glaces ; sa magie glace ses ennemis.",
+   "id": "t039-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la capitale des nains, au cœur des Montagnes du Bord du Monde ?",
+   "choix": [
+    "Karaz-a-Karak",
+    "Karak Huit-Pics",
+    "Karak Kadrin",
+    "Zharr-Naggrund"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "On l’appelle aussi le Pic Éternel ; le Haut Roi y siège.",
+   "id": "t039-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel Haut Roi des nains porte le Livre des Rancunes ?",
+   "choix": [
+    "Thorgrim",
+    "Ungrim",
+    "Kragg",
+    "Gotrek"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Il est porté sur un trône par quatre guerriers.",
+   "id": "t039-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que note-t-on dans le Livre des Rancunes ?",
+   "choix": [
+    "Les torts subis par le peuple nain",
+    "Les dettes des marchands humains",
+    "Les noms des héros morts",
+    "Les recettes de bière"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Une rancune ne s’efface que lorsqu’elle est vengée.",
+   "id": "t039-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que jurent les Tueurs nains ?",
+   "choix": [
+    "De mourir en affrontant un monstre redoutable",
+    "De ne jamais quitter leur forteresse",
+    "De servir le Haut Roi à vie",
+    "De ne plus boire de bière"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Ils cherchent ainsi à laver une honte personnelle.",
+   "id": "t039-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel métal précieux et très résistant est forgé par les nains ?",
+   "choix": [
+    "Le gromril",
+    "Le mithril",
+    "L’adamantium",
+    "La malepierre"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Les meilleures armures naines sont en gromril, et ornées de runes.",
+   "id": "t039-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quelle île vivent les hauts elfes ?",
+   "choix": [
+    "Ulthuan",
+    "Lustrie",
+    "Albion",
+    "Naggaroth"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Elle protège en son centre le Grand Vortex, qui draine la magie du monde.",
+   "id": "t039-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel titre porte le souverain des hauts elfes ?",
+   "choix": [
+    "Roi Phénix",
+    "Haut Roi",
+    "Roi Sorcier",
+    "Empereur Éternel"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Le premier fut Aenarion, qui sauva les elfes des démons.",
+   "id": "t039-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mage elfe a créé le Grand Vortex ?",
+   "choix": [
+    "Caledor",
+    "Teclis",
+    "Malekith",
+    "Bel-Korhadris"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Le Dompteur de dragons et ses mages y restent prisonniers à jamais, figés dans le sortilège.",
+   "id": "t039-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel frère jumeau de Teclis est un guerrier hors pair ?",
+   "choix": [
+    "Tyrion",
+    "Imrik",
+    "Eltharion",
+    "Finubar"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Ils descendent tous deux d’Aenarion ; Teclis est le mage, Tyrion le guerrier.",
+   "id": "t039-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où vivent les elfes noirs ?",
+   "choix": [
+    "Naggaroth",
+    "Athel Loren",
+    "Ulthuan",
+    "Nehekhara"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Une terre glacée et hostile, à l’ouest du monde.",
+   "id": "t039-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui règne sur les elfes noirs ?",
+   "choix": [
+    "Malekith, le Roi Sorcier",
+    "Aenarion",
+    "Tyrion",
+    "Orion"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Fils d’Aenarion, il voulait le trône du Roi Phénix.",
+   "id": "t039-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les forteresses flottantes des elfes de Naggaroth ?",
+   "choix": [
+    "Les Arches Noires",
+    "Les Navires-Dragons",
+    "Les Tours de Hag",
+    "Les Citadelles du Vide"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Ce sont d’anciennes cités emportées en mer lors de la Déchirure.",
+   "id": "t039-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle forêt vivent les elfes sylvains ?",
+   "choix": [
+    "Athel Loren",
+    "Drakwald",
+    "Laurelorn",
+    "Reikwald"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "La forêt elle-même, animée et méfiante, protège ses habitants.",
+   "id": "t039-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels dieux jumeaux les orques vénèrent-ils ?",
+   "choix": [
+    "Gork et Mork",
+    "Khorne et Nurgle",
+    "Ulric et Taal",
+    "Grungni et Grimnir"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "L’un est brutalement rusé, l’autre rusément brutal ; on ne sait jamais lequel.",
+   "id": "t039-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment les orques appellent-ils leur grande ruée guerrière ?",
+   "choix": [
+    "La Waaagh !",
+    "La Horde",
+    "La Grande Ruée",
+    "Le Raid"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Plus elle grandit, plus l’énergie des orques la rend puissante.",
+   "id": "t039-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle est la capitale des skavens ?",
+   "choix": [
+    "Skavenblight",
+    "Skavenland",
+    "Ratville",
+    "Malefosse"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Une cité cachée dans les marais, en pays tiléen.",
+   "id": "t039-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui gouverne les skavens ?",
+   "choix": [
+    "Le Conseil des Treize",
+    "Le Roi Rat",
+    "Les Prophètes Gris seuls",
+    "Le clan Eshin"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Le Rat Cornu lui-même y occupe le treizième siège.",
+   "id": "t039-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel clan skaven est spécialisé dans les armes à malepierre et l’ingénierie ?",
+   "choix": [
+    "Le clan Skryre",
+    "Le clan Pestilens",
+    "Le clan Eshin",
+    "Le clan Moulder"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Ses lance-feu et canons à éclairs sont aussi dangereux pour leurs servants.",
+   "id": "t039-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel clan skaven crée des monstres comme les rats-ogres ?",
+   "choix": [
+    "Le clan Moulder",
+    "Le clan Skryre",
+    "Le clan Eshin",
+    "Le clan Mors"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Ses maîtres-éleveurs vivent dans la ville de Hell Pit.",
+   "id": "t039-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle province règnent les comtes vampires von Carstein ?",
+   "choix": [
+    "La Sylvanie",
+    "Le Stirland",
+    "La Bretonnie",
+    "Kislev"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Une contrée maudite où les morts reposent mal.",
+   "id": "t039-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel vampire tente le premier de conquérir l’Empire à la tête des morts ?",
+   "choix": [
+    "Vlad von Carstein",
+    "Mannfred von Carstein",
+    "Nagash",
+    "Settra"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Son anneau le ramène à la vie, jusqu’à ce qu’on le lui vole.",
+   "id": "t039-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi des tombes se fait appeler l’Impérissable ?",
+   "choix": [
+    "Settra",
+    "Arkhan",
+    "Khalida",
+    "Nagash"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Ancien roi de Khemri, il méprise toute autre forme de mort-vivant.",
+   "id": "t039-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel désert règnent les rois des tombes ?",
+   "choix": [
+    "Nehekhara",
+    "Lustrie",
+    "Araby",
+    "Les Terres Arides"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Une civilisation inspirée de l’Égypte antique, ravagée par Nagash.",
+   "id": "t039-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels mages-prêtres obèses dirigent les hommes-lézards ?",
+   "choix": [
+    "Les Slann",
+    "Les Skinks",
+    "Les Saurus",
+    "Les Kroxigors"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Ils suivent le grand plan des Anciens, disparus depuis longtemps.",
+   "id": "t039-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel continent vivent les hommes-lézards ?",
+   "choix": [
+    "La Lustrie",
+    "Naggaroth",
+    "Nehekhara",
+    "Kislev"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Leurs cités-temples sont cachées dans la jungle.",
+   "id": "t039-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle lune verte est liée au Chaos ?",
+   "choix": [
+    "Morrslieb",
+    "Mannslieb",
+    "Sigmarsheim",
+    "Ulricslune"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions) ; Warhammer : The Old World (2024)",
+   "expl": "Quand elle est pleine, les sorciers et les morts s’agitent.",
+   "id": "t039-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sigmar est un ancien chef de tribu humain devenu dieu.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Il disparaît après cinquante ans de règne, et son culte devient religion d’État.",
+   "id": "t039-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les nains et les hauts elfes s’entendent parfaitement depuis toujours.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Faux : la guerre de la Barbe les a opposés et laissé de lourdes rancunes.",
+   "id": "t039-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Marienburg s’est séparée de l’Empire pour devenir indépendante.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Le grand port marchand a acheté son indépendance.",
+   "id": "t039-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Malekith est le fils d’Aenarion.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Il ne pardonne pas d’avoir été écarté du trône du Roi Phénix.",
+   "id": "t039-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les skavens sont des hommes-lézards.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Faux : ce sont des hommes-rats, nés de la malepierre.",
+   "id": "t039-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Slann sont les serviteurs des Anciens.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Ils veulent rétablir le grand plan de ces êtres disparus.",
+   "id": "t039-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Kislev est un royaume du sud, au climat désertique.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Faux : c’est un royaume du nord, froid, voisin des Désolations du Chaos.",
+   "id": "t039-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Collèges de magie sont fondés après la Grande Guerre contre le Chaos.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Magnus le Pieux les crée avec l’aide de Teclis.",
+   "id": "t039-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Nagash est un vampire de Sylvanie.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Faux : c’est le premier nécromancien, ancien prêtre de Nehekhara.",
+   "id": "t039-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Tueurs nains portent souvent une crête de cheveux teints en orange.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Ils se rasent la tête et ne portent que peu d’armure.",
+   "id": "t039-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Bretonnie est inspirée de la France médiévale.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Chevaliers, quêtes et Graal rappellent les romans arthuriens.",
+   "id": "t039-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les elfes sylvains vivent sur l’île d’Ulthuan.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Faux : ils vivent dans la forêt d’Athel Loren, sur le continent.",
+   "id": "t039-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les hommes-bêtes sont des créatures du Chaos qui vivent dans les forêts.",
+   "rep": true,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Ils haïssent la civilisation et attaquent les villages isolés.",
+   "id": "t039-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Settra l’Impérissable est un vampire.",
+   "rep": false,
+   "src": "Games Workshop, Warhammer : Livres d’armée",
+   "expl": "Faux : c’est une momie, roi des tombes de Khemri.",
+   "id": "t039-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de vents de magie existe-t-il ?",
+   "rep": 8,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "vents",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée",
+   "expl": "Ils proviennent du Chaos et se séparent en traversant le monde.",
+   "id": "t039-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de tribus Sigmar unit-il pour fonder l’Empire ?",
+   "rep": 12,
+   "min": 3,
+   "max": 20,
+   "pas": 1,
+   "unite": "tribus",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée",
+   "expl": "Leurs chefs deviennent les premiers comtes de l’Empire.",
+   "id": "t039-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de membres compte le conseil qui dirige les skavens ?",
+   "rep": 13,
+   "min": 5,
+   "max": 20,
+   "pas": 1,
+   "unite": "membres",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée",
+   "expl": "Le treizième siège est réservé au Rat Cornu.",
+   "id": "t039-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année du calendrier impérial Mordheim est-elle détruite par une comète ?",
+   "rep": 1999,
+   "min": 1000,
+   "max": 2522,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée",
+   "expl": "La comète à deux queues semblait annoncer le retour de Sigmar.",
+   "id": "t039-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année du calendrier impérial a lieu la Tempête du Chaos ?",
+   "rep": 2522,
+   "min": 1999,
+   "max": 2600,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée",
+   "expl": "Archaon assiège alors Middenheim ; c’était une campagne mondiale de 2004.",
+   "id": "t039-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de lunes le monde de Warhammer possède-t-il ?",
+   "rep": 2,
+   "min": 1,
+   "max": 4,
+   "pas": 1,
+   "unite": "lunes",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée",
+   "expl": "Mannslieb, la lune blanche, et Morrslieb, la lune du Chaos.",
+   "id": "t039-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année du calendrier impérial a lieu la Grande Guerre contre le Chaos ?",
+   "rep": 2302,
+   "min": 2000,
+   "max": 2522,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée",
+   "expl": "Magnus le Pieux repousse le Chaos devant Kislev, puis devient empereur.",
+   "id": "t039-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de comtes vampires von Carstein mènent les guerres contre l’Empire ?",
+   "rep": 3,
+   "min": 1,
+   "max": 8,
+   "pas": 1,
+   "unite": "vampires",
+   "tolerance": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée",
+   "expl": "Vlad, Konrad et Mannfred, durant les guerres des Comtes Vampires.",
+   "id": "t039-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le fondateur de l’Empire s’appelle ____ Heldenhammer.",
+   "choix": [
+    "Sigmar",
+    "Magnus",
+    "Karl",
+    "Ulric"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Son nom signifie « marteau des héros » ; il porte Ghal Maraz.",
+   "id": "t039-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Haut Roi des nains tient le Livre des ____.",
+   "choix": [
+    "Rancunes",
+    "Serments",
+    "Ancêtres",
+    "Runes"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Chaque injure faite aux nains y est consignée à l’encre ou au sang.",
+   "id": "t039-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les chevaliers de Bretonnie servent la Dame du ____.",
+   "choix": [
+    "Lac",
+    "Graal",
+    "Bois",
+    "Royaume"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Elle apparaît aux chevaliers en quête du Graal.",
+   "id": "t039-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le souverain des elfes noirs est appelé le Roi ____.",
+   "choix": [
+    "Sorcier",
+    "Phénix",
+    "Noir",
+    "Maudit"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Brûlé par les flammes d’Asuryan, il porte une armure ardente.",
+   "id": "t039-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La pierre du Chaos convoitée par les skavens s’appelle la ____.",
+   "choix": [
+    "malepierre",
+    "pierre noire",
+    "gromril",
+    "warpite"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "On l’utilise pour la magie, les armes et même la nourriture.",
+   "id": "t039-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les mages-prêtres des hommes-lézards s’appellent les ____.",
+   "choix": [
+    "Slann",
+    "Saurus",
+    "Skinks",
+    "Kroxigors"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Certains comptent parmi les sorciers les plus puissants du monde.",
+   "id": "t039-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le premier nécromancien du monde s’appelle ____.",
+   "choix": [
+    "Nagash",
+    "Settra",
+    "Vlad",
+    "Arkhan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Il a anéanti Nehekhara par un grand rituel.",
+   "id": "t039-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La lune du Chaos s’appelle ____.",
+   "choix": [
+    "Morrslieb",
+    "Mannslieb",
+    "Morrgul",
+    "Morrlune"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Son nom évoque Morr, le dieu des morts ; on la dit faite de malepierre.",
+   "id": "t039-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le grand tourbillon de magie qui protège Ulthuan s’appelle le Grand ____.",
+   "choix": [
+    "Vortex",
+    "Cercle",
+    "Puits",
+    "Maelström"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "S’il cédait, les démons envahiraient à nouveau le monde.",
+   "id": "t039-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le métal sacré des nains s’appelle le ____.",
+   "choix": [
+    "gromril",
+    "mithril",
+    "adamantium",
+    "ithilmar"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "L’ithilmar, lui, est le métal léger des hauts elfes.",
+   "id": "t039-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La forêt des elfes sylvains s’appelle Athel ____.",
+   "choix": [
+    "Loren",
+    "Lor",
+    "Ulthuan",
+    "Arden"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Son roi Orion et sa reine Ariel y incarnent les dieux eux-mêmes.",
+   "id": "t039-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le roi des orques qui saccage le Solland s’appelle Gorbad ____.",
+   "choix": [
+    "Griffe-de-Fer",
+    "Peau-de-Fer",
+    "Crocs-d’Acier",
+    "Tête-de-Pierre"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "La province de Solland ne s’est jamais relevée de ce saccage.",
+   "id": "t039-074",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces peuples n’est pas un peuple elfe ?",
+   "choix": [
+    "Les Slann",
+    "Les hauts elfes",
+    "Les elfes noirs",
+    "Les elfes sylvains"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Les Slann sont des hommes-lézards, les mages-prêtres de la Lustrie.",
+   "id": "t039-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces cités ne fait pas partie de l’Empire ?",
+   "choix": [
+    "Couronne",
+    "Altdorf",
+    "Middenheim",
+    "Nuln"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Couronne est la capitale de la Bretonnie.",
+   "id": "t039-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces clans n’est pas un clan skaven ?",
+   "choix": [
+    "Le clan Carstein",
+    "Le clan Skryre",
+    "Le clan Pestilens",
+    "Le clan Eshin"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Von Carstein est une lignée de vampires.",
+   "id": "t039-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un vampire ?",
+   "choix": [
+    "Settra",
+    "Vlad von Carstein",
+    "Mannfred von Carstein",
+    "Neferata"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Settra est un roi momifié, qui méprise les vampires.",
+   "id": "t039-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas vénéré dans l’Empire ?",
+   "choix": [
+    "Khaine",
+    "Sigmar",
+    "Ulric",
+    "Shallya"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Khaine est le dieu du meurtre des elfes.",
+   "id": "t039-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un elfe ?",
+   "choix": [
+    "Thorgrim",
+    "Teclis",
+    "Tyrion",
+    "Malekith"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Thorgrim est le Haut Roi des nains, à Karaz-a-Karak.",
+   "id": "t039-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures n’est pas une monture des hauts elfes ?",
+   "choix": [
+    "Le sang-froid",
+    "Le dragon",
+    "Le griffon",
+    "Le grand aigle"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Les sangs-froids sont des reptiles chevauchés par les elfes noirs.",
+   "id": "t039-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces vents de magie n’existe pas ?",
+   "choix": [
+    "Le vent du Sable",
+    "Aqshy",
+    "Ghur",
+    "Ulgu"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Les huit vents ont chacun un nom en langue elfique.",
+   "id": "t039-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces royaumes n’est pas humain ?",
+   "choix": [
+    "Karaz-a-Karak",
+    "Kislev",
+    "La Bretonnie",
+    "La Tilée"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Karaz-a-Karak est la grande forteresse des nains.",
+   "id": "t039-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas lié au Chaos ?",
+   "choix": [
+    "Karl Franz",
+    "Archaon",
+    "Be’lakor",
+    "Valkia"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Karl Franz défend l’Empire contre le Chaos.",
+   "id": "t039-084",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles cités font partie de l’Empire ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Altdorf",
+    "Middenheim",
+    "Nuln",
+    "Couronne",
+    "Lothern"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Lothern est le grand port des hauts elfes.",
+   "id": "t039-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples sont des morts-vivants ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Les comtes vampires",
+    "Les rois des tombes",
+    "Les skavens",
+    "Les hommes-bêtes",
+    "Les ogres"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Les deux armées doivent beaucoup à Nagash.",
+   "id": "t039-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des hauts elfes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Teclis",
+    "Tyrion",
+    "Finubar",
+    "Malekith",
+    "Orion"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Malekith règne sur les elfes noirs, Orion sur les elfes sylvains.",
+   "id": "t039-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels dieux sont vénérés par les humains de l’Empire ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sigmar",
+    "Ulric",
+    "Morr",
+    "Shallya",
+    "Khaine",
+    "Hashut"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Hashut est le dieu-taureau des nains du Chaos.",
+   "id": "t039-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels clans font partie de la société skaven ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Skryre",
+    "Pestilens",
+    "Eshin",
+    "Moulder",
+    "Carstein",
+    "Lahmia"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Le clan Eshin forme des assassins redoutés.",
+   "id": "t039-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles machines de guerre appartiennent à l’Empire ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le tank à vapeur",
+    "Le canon feu d’enfer",
+    "La batterie de roquettes",
+    "Le gyrocoptère",
+    "La catapulte à crânes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Le gyrocoptère est une invention naine, la catapulte à crânes une arme du Chaos.",
+   "id": "t039-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples vivent à Naggaroth ou à Ulthuan ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Elfes noirs",
+    "Hauts elfes",
+    "Nains",
+    "Hommes-lézards"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Les deux peuples elfes se haïssent depuis la Déchirure.",
+   "id": "t039-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures servent les hommes-lézards ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Saurus",
+    "Skinks",
+    "Kroxigors",
+    "Stégadons",
+    "Rats-ogres",
+    "Hydres"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Les rats-ogres sont skavens, les hydres élevées par les elfes noirs.",
+   "id": "t039-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels vents de magie sont correctement associés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aqshy : feu",
+    "Shyish : mort",
+    "Ghyran : vie",
+    "Chamon : lumière",
+    "Ulgu : bêtes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Chamon est le vent du métal, Ulgu celui de l’ombre.",
+   "id": "t039-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont des vampires ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Vlad von Carstein",
+    "Mannfred von Carstein",
+    "Neferata",
+    "Settra",
+    "Arkhan"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Arkhan le Noir est une liche, fidèle lieutenant de Nagash.",
+   "id": "t039-094",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces comtes vampires dans l’ordre de leurs guerres contre l’Empire.",
+   "items": [
+    "Vlad",
+    "Konrad",
+    "Mannfred"
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Mannfred est le plus rusé : il attend son heure pendant des siècles.",
+   "id": "t039-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces événements de l’histoire de l’Empire par ordre chronologique.",
+   "items": [
+    "Bataille du col du Feu Noir",
+    "Couronnement de Sigmar",
+    "Grande Guerre contre le Chaos",
+    "Tempête du Chaos"
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "De la naissance de l’Empire à l’assaut d’Archaon sur Middenheim.",
+   "id": "t039-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’histoire des elfes dans l’ordre.",
+   "items": [
+    "Invasion des démons",
+    "Règne d’Aenarion",
+    "Création du Grand Vortex",
+    "La Déchirure"
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "La Déchirure sépare définitivement hauts elfes et elfes noirs.",
+   "id": "t039-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la vie de Sigmar dans l’ordre.",
+   "items": [
+    "Il unit les tribus",
+    "Il gagne au col du Feu Noir",
+    "Il est couronné empereur",
+    "Il disparaît vers l’est"
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Il part rendre Ghal Maraz aux nains, et n’est jamais revu.",
+   "id": "t039-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la Grande Guerre contre le Chaos dans l’ordre.",
+   "items": [
+    "Le Chaos envahit Kislev",
+    "Magnus unit les provinces",
+    "Victoire devant Kislev",
+    "Fondation des Collèges de magie"
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Magnus devient ensuite empereur, réunifiant l’Empire divisé.",
+   "id": "t039-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces peuples du nord au sud.",
+   "items": [
+    "Kislev",
+    "L’Empire",
+    "La Tilée",
+    "Araby"
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Le Vieux Monde ressemble à l’Europe, Araby au monde arabe.",
+   "id": "t039-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la carrière d’un Tueur nain dans l’ordre.",
+   "items": [
+    "Une honte frappe le nain",
+    "Il prête le serment du Tueur",
+    "Il cherche un adversaire terrible",
+    "Il meurt glorieusement"
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Tant qu’il survit, sa honte n’est pas effacée.",
+   "id": "t039-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de la chute de Nehekhara dans l’ordre.",
+   "items": [
+    "Nagash découvre la nécromancie",
+    "Nagash est chassé",
+    "Nagash prépare son grand rituel",
+    "Les rois se relèvent en momies"
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Le rituel fait mourir puis ressuscite tous les habitants de Nehekhara.",
+   "id": "t039-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces dates du calendrier impérial par ordre chronologique.",
+   "items": [
+    "Fondation de l’Empire",
+    "Destruction de Mordheim",
+    "Grande Guerre contre le Chaos",
+    "Tempête du Chaos"
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "An 1, 1999, 2302 et 2522 du calendrier impérial.",
+   "id": "t039-103",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque peuple à sa terre.",
+   "paires": [
+    [
+     "Hauts elfes",
+     "Ulthuan"
+    ],
+    [
+     "Elfes noirs",
+     "Naggaroth"
+    ],
+    [
+     "Elfes sylvains",
+     "Athel Loren"
+    ],
+    [
+     "Hommes-lézards",
+     "Lustrie"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Les elfes ont autrefois colonisé une grande partie du Vieux Monde.",
+   "id": "t039-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque souverain à son peuple.",
+   "paires": [
+    [
+     "Karl Franz",
+     "Empire"
+    ],
+    [
+     "Louen Cœur de Lion",
+     "Bretonnie"
+    ],
+    [
+     "Thorgrim",
+     "Nains"
+    ],
+    [
+     "Finubar",
+     "Hauts elfes"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Ces souverains forment parfois une alliance fragile contre le Chaos.",
+   "id": "t039-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque clan skaven à sa spécialité.",
+   "paires": [
+    [
+     "Skryre",
+     "Ingénierie"
+    ],
+    [
+     "Pestilens",
+     "Maladies"
+    ],
+    [
+     "Eshin",
+     "Assassinats"
+    ],
+    [
+     "Moulder",
+     "Monstres"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Les clans se trahissent volontiers les uns les autres.",
+   "id": "t039-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu à son domaine.",
+   "paires": [
+    [
+     "Ulric",
+     "Loup et hiver"
+    ],
+    [
+     "Morr",
+     "Mort"
+    ],
+    [
+     "Shallya",
+     "Pitié"
+    ],
+    [
+     "Ranald",
+     "Voleurs"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Le panthéon de l’Empire couvre tous les aspects de la vie.",
+   "id": "t039-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque cité à sa spécialité.",
+   "paires": [
+    [
+     "Nuln",
+     "Artillerie"
+    ],
+    [
+     "Altdorf",
+     "Collèges de magie"
+    ],
+    [
+     "Middenheim",
+     "Culte d’Ulric"
+    ],
+    [
+     "Marienburg",
+     "Commerce maritime"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Chaque province de l’Empire a ses fiertés et ses rivalités.",
+   "id": "t039-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque vent de magie à son domaine.",
+   "paires": [
+    [
+     "Azyr",
+     "Cieux"
+    ],
+    [
+     "Hysh",
+     "Lumière"
+    ],
+    [
+     "Ulgu",
+     "Ombre"
+    ],
+    [
+     "Chamon",
+     "Métal"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Chaque Collège porte une couleur, comme le Collège céleste, en bleu.",
+   "id": "t039-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à sa monture.",
+   "paires": [
+    [
+     "Karl Franz",
+     "Griffon"
+    ],
+    [
+     "Malekith",
+     "Dragon noir"
+    ],
+    [
+     "Thorgrim",
+     "Trône porté"
+    ],
+    [
+     "Louen Cœur de Lion",
+     "Hippogriffe"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Le roi de Bretonnie chevauche Beaquis, un hippogriffe.",
+   "id": "t039-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque peuple à son dieu principal.",
+   "paires": [
+    [
+     "Orques",
+     "Gork et Mork"
+    ],
+    [
+     "Skavens",
+     "Rat Cornu"
+    ],
+    [
+     "Nains du Chaos",
+     "Hashut"
+    ],
+    [
+     "Elfes noirs",
+     "Khaine"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Chaque peuple voit le monde à travers ses dieux.",
+   "id": "t039-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mort-vivant à son titre.",
+   "paires": [
+    [
+     "Settra",
+     "L’Impérissable"
+    ],
+    [
+     "Nagash",
+     "Le Grand Nécromancien"
+    ],
+    [
+     "Arkhan",
+     "Le Noir"
+    ],
+    [
+     "Neferata",
+     "Reine de Lahmia"
+    ]
+   ],
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Tous sont liés, de près ou de loin, à l’ancienne Nehekhara.",
+   "id": "t039-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un empereur\n2. Je chevauche un griffon\n3. Je porte Ghal Maraz",
+   "choix": [
+    "Karl Franz",
+    "Sigmar",
+    "Magnus le Pieux",
+    "Louen Cœur de Lion"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Il est l’empereur de l’Empire au temps de la Tempête du Chaos.",
+   "id": "t039-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un mage\n2. J’ai fondé les Collèges\n3. Mon frère est un grand guerrier",
+   "choix": [
+    "Teclis",
+    "Tyrion",
+    "Malekith",
+    "Caledor"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Il est d’une santé fragile, ce qui l’a poussé vers la magie.",
+   "id": "t039-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un roi\n2. On me porte sur un trône\n3. Je tiens le Livre des Rancunes",
+   "choix": [
+    "Thorgrim",
+    "Ungrim",
+    "Kurgan",
+    "Gotrek"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Il a juré de venger toutes les rancunes de son peuple.",
+   "id": "t039-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. Les hommes-rats me vénèrent\n3. Je siège au Conseil des Treize",
+   "choix": [
+    "Le Rat Cornu",
+    "Thanquol",
+    "Queek",
+    "Skrolk"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Ses prophètes gris transmettent ses volontés aux seigneurs skavens.",
+   "id": "t039-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un nécromancien\n2. J’ai détruit Nehekhara\n3. Je veux régner sur tous les morts",
+   "choix": [
+    "Nagash",
+    "Settra",
+    "Vlad von Carstein",
+    "Arkhan"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Il revient régulièrement, malgré toutes ses morts.",
+   "id": "t039-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un vampire\n2. Mon anneau me ressuscite\n3. J’ai attaqué l’Empire le premier",
+   "choix": [
+    "Vlad von Carstein",
+    "Mannfred von Carstein",
+    "Konrad von Carstein",
+    "Neferata"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "On lui vole son anneau au siège d’Altdorf, et il meurt pour de bon.",
+   "id": "t039-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un roi elfe\n2. J’ai été brûlé par une flamme sacrée\n3. Je règne sur Naggaroth",
+   "choix": [
+    "Malekith",
+    "Aenarion",
+    "Tyrion",
+    "Finubar"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Il a tenté de passer la flamme d’Asuryan, qui l’a rejeté.",
+   "id": "t039-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un mage-prêtre\n2. Je suis un crapaud géant\n3. Je sers les Anciens",
+   "choix": [
+    "Un Slann",
+    "Un Skink",
+    "Un Saurus",
+    "Un Kroxigor"
+   ],
+   "rep": 0,
+   "src": "Games Workshop, Warhammer : Livres d’armée (6e à 8e éditions)",
+   "expl": "Ils restent assis sur des palanquins portés par leurs serviteurs.",
+   "id": "t039-120",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
