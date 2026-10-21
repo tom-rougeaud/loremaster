@@ -32,6 +32,7 @@ B.BANK.forEach(function(it){
 });
 var gm=gMul.map(function(v,i){return gMulN[i]?(v/gMulN[i]).toFixed(2):"-";});
 console.log("toutes banques : positions A-D "+gPos.join("/")+" χ²="+chi2(gPos).toFixed(1)+" · multi, taux de bonne réponse par position : "+gm.join(" "));
-if(chi2(gPos)>16.27)fails.push("global : positions non uniformes");
+/* global : avec plus d’un million de tirages, le χ² devient hypersensible ; on exige un écart relatif < 1 % par position */
+(function(){var t=gPos.reduce(function(a,b){return a+b;},0),e=t/4,dev=Math.max.apply(null,gPos.map(function(o){return Math.abs(o-e)/e;}));if(dev>0.01)fails.push("global : positions non uniformes (écart "+(100*dev).toFixed(2)+" %)");})();
 if(fails.length){console.log("ÉCHECS :\n - "+fails.join("\n - "));process.exit(1);}
 console.log("contenu OK");

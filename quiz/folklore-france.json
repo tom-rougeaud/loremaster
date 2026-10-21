@@ -1,0 +1,2121 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "folklore-france",
+  "nom": "Folklore français et breton",
+  "royaume": "Mythologies et folklores du monde",
+  "icone": "trefle",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui est l’Ankou dans les croyances bretonnes ?",
+   "choix": [
+    "L’ouvrier de la Mort, qui collecte les âmes",
+    "Un lutin farceur qui égare les voyageurs",
+    "Un saint guérisseur des fièvres",
+    "Le roi d’une ville engloutie sous la mer"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Le dernier mort de l’année devient l’Ankou de l’année suivante, selon de nombreux récits.",
+   "id": "t052-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel bruit annonce le passage de l’Ankou, selon la légende ?",
+   "choix": [
+    "Le grincement de sa charrette",
+    "Le chant d’un coq noir",
+    "Le son d’une cloche fêlée",
+    "Le hurlement d’un loup"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Celui qui entend la charrette grincer la nuit sait qu’un mort est proche.",
+   "id": "t052-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que tient l’Ankou à la main ?",
+   "choix": [
+    "Une faux au tranchant retourné",
+    "Une lanterne à flamme verte",
+    "Un bâton de pèlerin noueux",
+    "Une épée brisée en deux"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Il ne fauche pas vers lui, comme un paysan, mais vers l’avant.",
+   "id": "t052-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels petits êtres bretons dansent la nuit en ronde autour des menhirs ?",
+   "choix": [
+    "Les korrigans",
+    "Les farfadets",
+    "Les lutins verts",
+    "Les sotrés"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Ils obligent parfois les passants à danser avec eux jusqu’à l’épuisement.",
+   "id": "t052-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville légendaire est engloutie dans la baie de Douarnenez ?",
+   "choix": [
+    "Ys",
+    "Is-sur-Tille",
+    "Lyonesse",
+    "Avalon"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Selon la légende, Paris (« Par-Is », pareille à Ys) aurait été nommée ainsi.",
+   "id": "t052-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle princesse provoque la submersion de la ville d’Ys ?",
+   "choix": [
+    "Dahut",
+    "Morgane",
+    "Mélusine",
+    "Viviane"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Elle vole à son père la clé des écluses pour son amant, qui est le diable.",
+   "id": "t052-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel roi d’Ys échappe aux flots sur son cheval ?",
+   "choix": [
+    "Gradlon",
+    "Arthur",
+    "Morvan",
+    "Nominoë"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Sa statue équestre se dresse entre les flèches de la cathédrale de Quimper.",
+   "id": "t052-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel saint conseille à Gradlon de lâcher sa fille dans les flots ?",
+   "choix": [
+    "Saint Guénolé",
+    "Saint Malo",
+    "Saint Yves",
+    "Saint Corentin"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Les flots se retirent dès que Dahut tombe à la mer.",
+   "id": "t052-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles femmes fantômes lavent des linceuls au lavoir, après le coucher du soleil ?",
+   "choix": [
+    "Les lavandières de nuit",
+    "Les dames blanches",
+    "Les fileuses de lune",
+    "Les pleureuses"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Elles demandent de l’aide pour tordre le linge, et noient ceux qui se trompent de sens.",
+   "id": "t052-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle fée du Poitou devient serpente chaque samedi ?",
+   "choix": [
+    "Mélusine",
+    "Morgane",
+    "Viviane",
+    "Morgause"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Son époux Raymondin promet de ne jamais la voir ce jour-là, puis trahit sa promesse.",
+   "id": "t052-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle famille noble prétend descendre de la fée Mélusine ?",
+   "choix": [
+    "Les Lusignan",
+    "Les Montmorency",
+    "Les Rohan",
+    "Les Bourbon"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Les Lusignan sont devenus rois de Chypre et de Jérusalem.",
+   "id": "t052-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle sainte dompte la Tarasque avec de l’eau bénite et sa ceinture ?",
+   "choix": [
+    "Sainte Marthe",
+    "Sainte Geneviève",
+    "Sainte Marguerite",
+    "Sainte Blandine"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Les habitants tuent ensuite la bête apprivoisée, puis se repentent et nomment leur ville Tarascon.",
+   "id": "t052-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon légendaire est associé à la ville de Metz ?",
+   "choix": [
+    "Le Graoully",
+    "La Tarasque",
+    "La Gargouille",
+    "La Vouivre"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Saint Clément l’aurait chassé de l’amphithéâtre romain de la ville.",
+   "id": "t052-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon de la Seine est vaincu par saint Romain à Rouen ?",
+   "choix": [
+    "La Gargouille",
+    "Le Graoully",
+    "La Tarasque",
+    "Le Drac"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Sa tête, impossible à brûler, aurait été fixée sur les murs de la cathédrale.",
+   "id": "t052-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle bête sème la terreur en Lozère de 1764 à 1767 ?",
+   "choix": [
+    "La bête du Gévaudan",
+    "La bête des Vosges",
+    "Le loup de Paris",
+    "La bête du Vexin"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Plus d’une centaine de victimes lui sont attribuées.",
+   "id": "t052-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel homme du pays abat, selon la tradition, la bête du Gévaudan en 1767 ?",
+   "choix": [
+    "Jean Chastel",
+    "François Antoine",
+    "Jean Valjean",
+    "Antoine de Beauterne"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "On raconte qu’il aurait utilisé des balles bénites.",
+   "id": "t052-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel serpent ailé de Franche-Comté porte une escarboucle sur le front ?",
+   "choix": [
+    "La vouivre",
+    "La guivre de Lorraine",
+    "Le Drac",
+    "La Tarasque"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Celui qui vole la pierre pendant qu’elle se baigne devient riche, s’il survit.",
+   "id": "t052-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel écrivain publie le roman La Vouivre en 1943 ?",
+   "choix": [
+    "Marcel Aymé",
+    "Jean Giono",
+    "Marcel Pagnol",
+    "Colette"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Le roman a été adapté au cinéma en 1989.",
+   "id": "t052-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel animal imaginaire aurait les pattes plus courtes d’un côté pour marcher à flanc de montagne ?",
+   "choix": [
+    "Le dahu",
+    "Le tamia",
+    "Le chamois boiteux",
+    "Le gaspard"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "On envoie les naïfs le chasser la nuit, avec un sac et une lanterne.",
+   "id": "t052-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel esprit des eaux du Rhône enlève une lavandière à Beaucaire pour nourrir son fils ?",
+   "choix": [
+    "Le Drac",
+    "La vouivre",
+    "Le korrigan",
+    "Le Graoully"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Gervais de Tilbury raconte cette histoire dès le 13e siècle.",
+   "id": "t052-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel saint ressuscite trois enfants mis au saloir par un boucher ?",
+   "choix": [
+    "Saint Nicolas",
+    "Saint Martin",
+    "Saint Michel",
+    "Saint Éloi"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Il est le patron de la Lorraine et des écoliers ; on le fête le 6 décembre.",
+   "id": "t052-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage sombre accompagne saint Nicolas pour punir les enfants désobéissants ?",
+   "choix": [
+    "Le Père Fouettard",
+    "Croquemitaine",
+    "Le marchand de sable",
+    "L’Ankou"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Selon une légende, il s’agirait du boucher repenti.",
+   "id": "t052-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon la légende de Carnac, que sont les alignements de menhirs ?",
+   "choix": [
+    "Des soldats changés en pierre par saint Cornély",
+    "Les tombes de géants",
+    "Des korrigans pétrifiés par le soleil",
+    "Les colonnes d’un temple englouti"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Poursuivi par une armée, le saint les aurait figés d’un geste.",
+   "id": "t052-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel archange apparaît à l’évêque Aubert pour lui demander de bâtir un sanctuaire sur un mont ?",
+   "choix": [
+    "Saint Michel",
+    "Saint Gabriel",
+    "Saint Raphaël",
+    "Saint Georges"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Aubert hésite si longtemps que l’archange lui perce le crâne du doigt.",
+   "id": "t052-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel géant populaire aurait laissé menhirs et collines en vidant ses chaussures ?",
+   "choix": [
+    "Gargantua",
+    "Pantagruel",
+    "Goliath",
+    "Grandgousier"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Rabelais s’est inspiré de ce géant des légendes avant d’en faire un héros.",
+   "id": "t052-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom donne-t-on à la troupe de cavaliers fantômes qui traverse le ciel les nuits d’orage ?",
+   "choix": [
+    "La chasse sauvage",
+    "La danse macabre",
+    "La procession des âmes",
+    "La charge des Templiers"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "On l’appelle aussi « mesnie Hellequin », ou chasse Gallery dans l’ouest.",
+   "id": "t052-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui publie en 1697 les contes de La Belle au bois dormant et de Barbe-Bleue ?",
+   "choix": [
+    "Charles Perrault",
+    "Les frères Grimm",
+    "Jean de La Fontaine",
+    "Madame d’Aulnoy"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Son recueil s’intitule Histoires ou contes du temps passé.",
+   "id": "t052-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage de Perrault tue ses épouses curieuses ?",
+   "choix": [
+    "Barbe-Bleue",
+    "L’Ogre",
+    "Riquet à la houppe",
+    "Le marquis de Carabas"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "La clé tachée de sang trahit la dernière épouse, qui a ouvert le cabinet interdit.",
+   "id": "t052-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel enfant sème des cailloux pour retrouver son chemin ?",
+   "choix": [
+    "Le Petit Poucet",
+    "Le Petit Chaperon rouge",
+    "Jean de l’Ours",
+    "Le Chat botté"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Il vole ensuite les bottes de sept lieues de l’ogre.",
+   "id": "t052-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel folkloriste breton publie La Légende de la mort en 1893 ?",
+   "choix": [
+    "Anatole Le Braz",
+    "Paul Sébillot",
+    "Théodore Botrel",
+    "Ernest Renan"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Il y rassemble des récits recueillis auprès des paysans et des marins.",
+   "id": "t052-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel recueil de chants populaires bretons paraît en 1839 ?",
+   "choix": [
+    "Le Barzaz Breiz",
+    "La Légende de la mort",
+    "Les Contes du temps passé",
+    "Le Mabinogion"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Son auteur, La Villemarqué, a été critiqué pour avoir retouché les chants.",
+   "id": "t052-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle fête de nuit bretonne, avec chants et danses, est inscrite au patrimoine de l’UNESCO ?",
+   "choix": [
+    "Le fest-noz",
+    "Le pardon",
+    "La Saint-Jean",
+    "Le bagad"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Elle est inscrite en 2012 au patrimoine culturel immatériel.",
+   "id": "t052-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les grandes processions religieuses bretonnes en l’honneur d’un saint ?",
+   "choix": [
+    "Les pardons",
+    "Les fest-noz",
+    "Les troménies seules",
+    "Les gwerz"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Le plus célèbre, la Troménie de Locronan, a lieu tous les six ans.",
+   "id": "t052-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où se trouve la brèche que Roland aurait taillée avec son épée ?",
+   "choix": [
+    "Dans les Pyrénées",
+    "Dans les Alpes",
+    "Dans le Massif central",
+    "En Bretagne"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "La « brèche de Roland » est une entaille de cent mètres dans la falaise.",
+   "id": "t052-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel sanctuaire du Quercy une épée plantée dans le rocher passe-t-elle pour Durandal ?",
+   "choix": [
+    "Rocamadour",
+    "Conques",
+    "Lourdes",
+    "Moissac"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Roland l’aurait lancée de très loin, avant de mourir à Roncevaux.",
+   "id": "t052-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle figure fantôme apparaît au bord des routes pour avertir les automobilistes ?",
+   "choix": [
+    "La dame blanche",
+    "La lavandière",
+    "La Vouivre",
+    "Mélusine"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Elle disparaît souvent de la voiture au passage d’un virage dangereux.",
+   "id": "t052-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que signifie l’expression « courir le garou » dans les campagnes françaises ?",
+   "choix": [
+    "Être changé en bête la nuit",
+    "Chasser les loups l’hiver",
+    "Fuir le recensement",
+    "Faire le tour du village en courant"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Le garou devait courir sept paroisses avant l’aube.",
+   "id": "t052-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dragon femelle du Morvan ou de Bourgogne est parfois appelé la guivre ?",
+   "choix": [
+    "La vouivre",
+    "La Tarasque",
+    "La Gargouille",
+    "Le Graoully"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Son nom vient du latin vipera, la vipère.",
+   "id": "t052-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle forêt de l’Île-de-France le Grand Veneur, chasseur fantôme, aurait-il été aperçu par Henri IV ?",
+   "choix": [
+    "Fontainebleau",
+    "Compiègne",
+    "Rambouillet",
+    "Saint-Germain"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Il aurait apostrophé le roi peu avant son assassinat.",
+   "id": "t052-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans quel département se trouve le Mont-Saint-Michel ?",
+   "choix": [
+    "La Manche",
+    "L’Ille-et-Vilaine",
+    "Le Calvados",
+    "Les Côtes-d’Armor"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Le Couesnon, qui marque la frontière, l’aurait rendu normand, dit un dicton.",
+   "id": "t052-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conte de Perrault met en scène un animal rusé qui fait la fortune d’un fils de meunier ?",
+   "choix": [
+    "Le Chat botté",
+    "Riquet à la houppe",
+    "Les Fées",
+    "Peau d’âne"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Il invente pour son maître le titre de marquis de Carabas.",
+   "id": "t052-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle sirène bretonne attire les navigateurs sur les récifs ?",
+   "choix": [
+    "Marie-Morgane",
+    "Mélusine",
+    "Lorelei",
+    "Ondine"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "On dit parfois qu’il s’agit de Dahut, transformée après la chute d’Ys.",
+   "id": "t052-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel lutin du Poitou et de Vendée porte un nom passé dans la langue courante ?",
+   "choix": [
+    "Le farfadet",
+    "Le korrigan",
+    "Le drac",
+    "Le gobelin"
+   ],
+   "rep": 0,
+   "src": "A. Le Braz, La Légende de la mort chez les Bretons armoricains (1893) ; P. Sébillot, Le Folklore de France (1904-1907) ; Th. Hersart de La Villemarqué, Barzaz Breiz (1839) ; Ch. Perrault, Histoires ou contes du temps passé (1697)",
+   "expl": "Le mot désigne aujourd’hui un petit être espiègle en général.",
+   "id": "t052-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Ankou est la personnification de la mort en Bretagne.",
+   "rep": true,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Il apparaît souvent sous les traits d’un squelette ou d’un grand homme maigre.",
+   "id": "t052-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La ville d’Ys est engloutie à cause du roi Gradlon.",
+   "rep": false,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Faux : c’est sa fille Dahut qui ouvre les écluses.",
+   "id": "t052-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les korrigans sont des géants.",
+   "rep": false,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Faux : ce sont de petits êtres, parfois malicieux, parfois dangereux.",
+   "id": "t052-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Mélusine fonde des châteaux en une seule nuit.",
+   "rep": true,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Elle bâtit notamment le château de Lusignan, dans le Poitou.",
+   "id": "t052-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Tarasque est un dragon de Provence.",
+   "rep": true,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Elle sort chaque année en procession à Tarascon, au mois de juin.",
+   "id": "t052-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La bête du Gévaudan a été identifiée avec certitude comme un loup.",
+   "rep": false,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Faux : sa nature exacte, loup, hybride ou autre animal, reste discutée.",
+   "id": "t052-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le dahu est un vrai animal des Alpes.",
+   "rep": false,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Faux : c’est une créature imaginaire, prétexte à une farce.",
+   "id": "t052-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Saint Nicolas est fêté le 6 décembre.",
+   "rep": true,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Il distribue des friandises aux enfants sages dans l’est de la France.",
+   "id": "t052-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Gargouille de Rouen vivait dans la Seine.",
+   "rep": true,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Elle renversait les bateaux et inondait la ville.",
+   "id": "t052-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Charles Perrault a écrit les Contes de ma mère l’Oye.",
+   "rep": true,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "C’est le sous-titre de son recueil de 1697.",
+   "id": "t052-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Barbe-Bleue est un conte des frères Grimm.",
+   "rep": false,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Faux : c’est un conte de Charles Perrault.",
+   "id": "t052-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Barzaz Breiz a été écrit par Anatole Le Braz.",
+   "rep": false,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Faux : il a été publié par Théodore Hersart de La Villemarqué.",
+   "id": "t052-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les alignements de Carnac comptent près de trois mille menhirs.",
+   "rep": true,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Ils ont été dressés il y a plus de six mille ans.",
+   "id": "t052-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La vouivre est un serpent ailé de Franche-Comté.",
+   "rep": true,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Elle a donné son nom à une rivière et à de nombreux lieux-dits.",
+   "id": "t052-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Gargouille de Rouen a été vaincue par saint Michel.",
+   "rep": false,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Faux : selon la légende, c’est saint Romain, évêque de Rouen, qui l’a vaincue.",
+   "id": "t052-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Petit Poucet est l’aîné de sa fratrie.",
+   "rep": false,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault",
+   "expl": "Faux : c’est le plus jeune et le plus petit de sept frères.",
+   "id": "t052-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Gargantua était un géant du folklore avant de devenir un héros de Rabelais.",
+   "rep": true,
+   "src": "Le Braz ; Sébillot ; Perrault",
+   "expl": "Des chroniques populaires racontaient déjà ses exploits avant 1534.",
+   "id": "t052-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Perrault publie-t-il ses Histoires ou contes du temps passé ?",
+   "rep": 1697,
+   "min": 1600,
+   "max": 1800,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Le Braz ; Sébillot ; Perrault",
+   "expl": "Le recueil réunit huit contes en prose, suivis d’une morale en vers.",
+   "id": "t052-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année la bête du Gévaudan commence-t-elle ses attaques ?",
+   "rep": 1764,
+   "min": 1700,
+   "max": 1800,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Le Braz ; Sébillot ; Perrault",
+   "expl": "Le roi Louis XV envoie ses propres chasseurs pour l’abattre.",
+   "id": "t052-062",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’enfants le boucher a-t-il mis au saloir dans la légende de saint Nicolas ?",
+   "rep": 3,
+   "min": 1,
+   "max": 7,
+   "pas": 1,
+   "unite": "enfants",
+   "tolerance": 0,
+   "src": "Le Braz ; Sébillot ; Perrault",
+   "expl": "Ils reviennent à la vie après sept ans dans le saloir.",
+   "id": "t052-063",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît le Barzaz Breiz ?",
+   "rep": 1839,
+   "min": 1789,
+   "max": 1900,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Le Braz ; Sébillot ; Perrault",
+   "expl": "Il fait découvrir la poésie bretonne à toute l’Europe.",
+   "id": "t052-064",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de frères compte la famille du Petit Poucet ?",
+   "rep": 7,
+   "min": 3,
+   "max": 10,
+   "pas": 1,
+   "unite": "garçons",
+   "tolerance": 0,
+   "src": "Le Braz ; Sébillot ; Perrault",
+   "expl": "Tous les sept sont abandonnés dans la forêt par leurs parents.",
+   "id": "t052-065",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Tous les combien d’années se déroule la grande Troménie de Locronan ?",
+   "rep": 6,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Le Braz ; Sébillot ; Perrault",
+   "expl": "La procession parcourt douze kilomètres autour de la montagne.",
+   "id": "t052-066",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de lieues parcourent d’une enjambée les bottes de l’ogre ?",
+   "rep": 7,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "lieues",
+   "tolerance": 0,
+   "src": "Le Braz ; Sébillot ; Perrault",
+   "expl": "Elles s’ajustent à la taille de celui qui les chausse.",
+   "id": "t052-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année le fest-noz est-il inscrit au patrimoine immatériel de l’UNESCO ?",
+   "rep": 2012,
+   "min": 2000,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Le Braz ; Sébillot ; Perrault",
+   "expl": "Il réunit chaque année des milliers de danseurs.",
+   "id": "t052-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "L’ouvrier de la Mort, en Bretagne, s’appelle l’____.",
+   "choix": [
+    "Ankou",
+    "Ys",
+    "Ogre",
+    "Erlkönig"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "On le représente souvent sur les ossuaires et les églises des enclos paroissiaux.",
+   "id": "t052-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La ville bretonne engloutie s’appelle ____.",
+   "choix": [
+    "Ys",
+    "Is",
+    "Ker",
+    "Avalon"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Par temps calme, on entendrait encore sonner ses cloches.",
+   "id": "t052-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La fille du roi Gradlon s’appelle ____.",
+   "choix": [
+    "Dahut",
+    "Morgane",
+    "Iseult",
+    "Azénor"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Certaines versions en font une sirène, ou « Marie-Morgane ».",
+   "id": "t052-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La fée serpente du Poitou s’appelle ____.",
+   "choix": [
+    "Mélusine",
+    "Morgane",
+    "Viviane",
+    "Dahut"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Démasquée, elle s’envole par la fenêtre en poussant un cri déchirant.",
+   "id": "t052-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dragon apprivoisé par sainte Marthe s’appelle la ____.",
+   "choix": [
+    "Tarasque",
+    "Gargouille",
+    "Vouivre",
+    "Coulobre"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Elle a une carapace de tortue, une queue de serpent et une tête de lion.",
+   "id": "t052-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dragon de Metz s’appelle le ____.",
+   "choix": [
+    "Graoully",
+    "Drac",
+    "Dahu",
+    "Coulobre"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Une figure du Graoully est encore exposée dans la crypte de la cathédrale.",
+   "id": "t052-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’animal imaginaire aux pattes inégales s’appelle le ____.",
+   "choix": [
+    "dahu",
+    "dragon",
+    "drac",
+    "garou"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "On dit qu’il existe un dahu « dextrogyre » et un dahu « lévogyre ».",
+   "id": "t052-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le serpent ailé à l’escarboucle s’appelle la ____.",
+   "choix": [
+    "vouivre",
+    "tarasque",
+    "guivre",
+    "gargouille"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "La pierre lui sert d’œil ; sans elle, elle est aveugle.",
+   "id": "t052-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les petits êtres dansants de Bretagne s’appellent les ____.",
+   "choix": [
+    "korrigans",
+    "farfadets",
+    "gnomes",
+    "kobolds"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Ils gardent souvent des trésors cachés sous les dolmens.",
+   "id": "t052-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’auteur des Contes du temps passé s’appelle Charles ____.",
+   "choix": [
+    "Perrault",
+    "Nodier",
+    "Grimm",
+    "Pourrat"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Il était aussi un haut fonctionnaire au service de Colbert.",
+   "id": "t052-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le saint qui ressuscite les trois enfants s’appelle saint ____.",
+   "choix": [
+    "Nicolas",
+    "Martin",
+    "Yves",
+    "Michel"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Il est aussi l’ancêtre du Père Noël, via le Sinterklaas néerlandais.",
+   "id": "t052-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le saint qui conseille Gradlon s’appelle saint ____.",
+   "choix": [
+    "Guénolé",
+    "Corentin",
+    "Malo",
+    "Pol"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Il est le fondateur de l’abbaye de Landévennec.",
+   "id": "t052-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’esprit des eaux de Beaucaire s’appelle le ____.",
+   "choix": [
+    "Drac",
+    "Graoully",
+    "Dahu",
+    "Garou"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Il avait la forme d’un dragon ou d’un serpent, et parfois d’un homme.",
+   "id": "t052-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le folkloriste auteur de La Légende de la mort s’appelle Anatole ____.",
+   "choix": [
+    "Le Braz",
+    "Le Goffic",
+    "Renan",
+    "Botrel"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Il enseignait au lycée de Quimper et recueillait des récits en breton.",
+   "id": "t052-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces êtres n’est pas breton ?",
+   "choix": [
+    "La Tarasque",
+    "L’Ankou",
+    "Les korrigans",
+    "Les lavandières de nuit"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "La Tarasque appartient au folklore provençal.",
+   "id": "t052-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dragons n’est pas français ?",
+   "choix": [
+    "Smaug",
+    "La Tarasque",
+    "Le Graoully",
+    "La Gargouille"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Smaug est le dragon du Hobbit de Tolkien.",
+   "id": "t052-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces contes n’est pas de Perrault ?",
+   "choix": [
+    "Hansel et Gretel",
+    "Barbe-Bleue",
+    "Le Petit Poucet",
+    "Cendrillon"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Hansel et Gretel a été recueilli par les frères Grimm.",
+   "id": "t052-085",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces saints n’a pas vaincu de dragon ?",
+   "choix": [
+    "Saint Nicolas",
+    "Sainte Marthe",
+    "Saint Romain",
+    "Saint Clément"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Saint Nicolas est célèbre pour avoir ressuscité trois enfants.",
+   "id": "t052-086",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas lié à la ville d’Ys ?",
+   "choix": [
+    "Mélusine",
+    "Gradlon",
+    "Dahut",
+    "Guénolé"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Mélusine appartient aux légendes du Poitou.",
+   "id": "t052-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas recueilli de folklore breton ?",
+   "choix": [
+    "Charles Perrault",
+    "Anatole Le Braz",
+    "Paul Sébillot",
+    "La Villemarqué"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Perrault écrivait pour les salons parisiens du Grand Siècle.",
+   "id": "t052-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux n’est pas lié à Roland ?",
+   "choix": [
+    "Carnac",
+    "Roncevaux",
+    "Rocamadour",
+    "La brèche de Roland"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Carnac est célèbre pour ses alignements de menhirs.",
+   "id": "t052-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces créatures n’est pas un serpent ou un dragon ?",
+   "choix": [
+    "Le dahu",
+    "La vouivre",
+    "La Tarasque",
+    "Le Graoully"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Le dahu est un animal imaginaire de montagne.",
+   "id": "t052-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces êtres n’est pas un esprit des eaux ?",
+   "choix": [
+    "L’Ankou",
+    "Le Drac",
+    "Les lavandières de nuit",
+    "Dahut devenue sirène"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "L’Ankou parcourt les routes avec sa charrette.",
+   "id": "t052-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages ne fait pas peur aux enfants ?",
+   "choix": [
+    "Le marchand de sable",
+    "Le Père Fouettard",
+    "Croquemitaine",
+    "L’Ogre"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Le marchand de sable endort les enfants en douceur.",
+   "id": "t052-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels êtres appartiennent au folklore breton ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ankou",
+    "Korrigans",
+    "Lavandières de nuit",
+    "Dahut",
+    "Tarasque",
+    "Graoully"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "La Tarasque est provençale, le Graoully lorrain.",
+   "id": "t052-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels dragons appartiennent au folklore français ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tarasque",
+    "Graoully",
+    "Gargouille",
+    "Vouivre",
+    "Fafnir",
+    "Smaug"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Presque chaque région a son dragon vaincu par un saint.",
+   "id": "t052-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels contes sont de Charles Perrault ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Barbe-Bleue",
+    "Le Petit Poucet",
+    "Cendrillon",
+    "Le Chat botté",
+    "Hansel et Gretel",
+    "Blanche-Neige"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Hansel et Gretel et Blanche-Neige ont été recueillis par les Grimm.",
+   "id": "t052-095",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages sont liés à la légende d’Ys ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gradlon",
+    "Dahut",
+    "Saint Guénolé",
+    "Mélusine",
+    "Raymondin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Mélusine et Raymondin appartiennent aux légendes du Poitou.",
+   "id": "t052-096",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels saints sont liés à un dragon ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sainte Marthe",
+    "Saint Romain",
+    "Saint Clément",
+    "Saint Nicolas",
+    "Saint Yves"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Saint Yves est le patron des avocats et de la Bretagne.",
+   "id": "t052-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels folkloristes ont recueilli des traditions bretonnes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Anatole Le Braz",
+    "Paul Sébillot",
+    "La Villemarqué",
+    "Charles Perrault",
+    "Jacob Grimm"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Sébillot a aussi recueilli des traditions de toute la France.",
+   "id": "t052-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux sont associés à des légendes de Roland ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Roncevaux",
+    "Rocamadour",
+    "La brèche de Roland",
+    "Carnac",
+    "Douarnenez"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "La Chanson de Roland raconte sa mort à Roncevaux.",
+   "id": "t052-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages accompagnent ou effraient les enfants dans les traditions ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Père Fouettard",
+    "Croquemitaine",
+    "Marchand de sable",
+    "Gradlon",
+    "Raymondin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Croquemitaine était invoqué pour obliger les enfants à rester sages.",
+   "id": "t052-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels êtres sont des fantômes ou annonciateurs de mort ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ankou",
+    "Lavandières de nuit",
+    "Dame blanche",
+    "Dahu",
+    "Farfadet"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Ces récits servaient aussi à empêcher les enfants de sortir la nuit.",
+   "id": "t052-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles créatures se cachent dans l’eau ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Drac",
+    "Gargouille",
+    "Lavandières de nuit",
+    "Dahu",
+    "Ankou"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Les lavandières hantent les lavoirs au bord des rivières.",
+   "id": "t052-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la légende d’Ys dans l’ordre.",
+   "items": [
+    "Dahut vole la clé",
+    "Elle ouvre les écluses",
+    "Gradlon s’enfuit à cheval",
+    "Dahut tombe dans les flots"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "La princesse devient ensuite une sirène, selon certaines versions.",
+   "id": "t052-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la légende de Mélusine dans l’ordre.",
+   "items": [
+    "Rencontre avec Raymondin",
+    "Mariage et promesse",
+    "Raymondin l’épie un samedi",
+    "Mélusine s’envole"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Elle revient, dit-on, crier sur les tours chaque fois qu’un Lusignan va mourir.",
+   "id": "t052-104",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la légende de la Tarasque dans l’ordre.",
+   "items": [
+    "La bête terrorise la région",
+    "Sainte Marthe l’apprivoise",
+    "Les habitants la tuent",
+    "La ville prend le nom de Tarascon"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "La fête de la Tarasque est inscrite à l’UNESCO avec les géants processionnels.",
+   "id": "t052-105",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces recueils par date de parution.",
+   "items": [
+    "Contes de Perrault",
+    "Barzaz Breiz",
+    "La Légende de la mort",
+    "Le Folklore de France"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Publiés en 1697, 1839, 1893, puis de 1904 à 1907.",
+   "id": "t052-106",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la légende de saint Nicolas dans l’ordre.",
+   "items": [
+    "Trois enfants demandent l’hospitalité",
+    "Le boucher les met au saloir",
+    "Saint Nicolas arrive",
+    "Les enfants ressuscitent"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Cette légende date du Moyen Âge et explique son rôle de protecteur des enfants.",
+   "id": "t052-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire de la bête du Gévaudan dans l’ordre.",
+   "items": [
+    "Premières attaques",
+    "Arrivée des chasseurs du roi",
+    "Un grand loup est tué",
+    "Jean Chastel abat la bête"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Le loup tué par François Antoine en 1765 n’arrête pas les attaques.",
+   "id": "t052-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du Petit Poucet dans l’ordre.",
+   "items": [
+    "Abandon dans la forêt",
+    "Retour grâce aux cailloux",
+    "Arrivée chez l’ogre",
+    "Vol des bottes de sept lieues"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Les miettes de pain, la seconde fois, sont mangées par les oiseaux.",
+   "id": "t052-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la fondation du Mont-Saint-Michel dans l’ordre.",
+   "items": [
+    "Apparition de l’archange",
+    "Hésitation d’Aubert",
+    "Doigt de l’archange dans son crâne",
+    "Construction du sanctuaire"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Le crâne percé d’Aubert est conservé à Avranches.",
+   "id": "t052-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements par date.",
+   "items": [
+    "Mort de Roland à Roncevaux",
+    "Contes de Perrault",
+    "Bête du Gévaudan",
+    "Barzaz Breiz"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "En 778, 1697, 1764 et 1839 : plus de mille ans de légendes.",
+   "id": "t052-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’une rencontre avec les lavandières de nuit dans l’ordre.",
+   "items": [
+    "Un passant les aperçoit",
+    "Elles lui demandent de l’aide",
+    "Il tord le linge dans le mauvais sens",
+    "Elles l’étranglent dans le drap"
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Il fallait tordre dans le même sens qu’elles pour s’en tirer.",
+   "id": "t052-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque créature à sa région.",
+   "paires": [
+    [
+     "Tarasque",
+     "Provence"
+    ],
+    [
+     "Graoully",
+     "Lorraine"
+    ],
+    [
+     "Mélusine",
+     "Poitou"
+    ],
+    [
+     "Korrigans",
+     "Bretagne"
+    ]
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Chaque région française a ses légendes propres.",
+   "id": "t052-113",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque dragon au saint qui l’a vaincu.",
+   "paires": [
+    [
+     "Tarasque",
+     "Sainte Marthe"
+    ],
+    [
+     "Gargouille",
+     "Saint Romain"
+    ],
+    [
+     "Graoully",
+     "Saint Clément"
+    ]
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Ces légendes symbolisent la victoire du christianisme sur le paganisme.",
+   "id": "t052-114",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à sa légende.",
+   "paires": [
+    [
+     "Gradlon",
+     "Ys"
+    ],
+    [
+     "Raymondin",
+     "Mélusine"
+    ],
+    [
+     "Jean Chastel",
+     "Gévaudan"
+    ],
+    [
+     "Aubert",
+     "Mont-Saint-Michel"
+    ]
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Ces personnages ont souvent existé, mais leur histoire a été embellie.",
+   "id": "t052-115",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque conte de Perrault à son objet.",
+   "paires": [
+    [
+     "Cendrillon",
+     "Pantoufle de verre"
+    ],
+    [
+     "Barbe-Bleue",
+     "Clé tachée"
+    ],
+    [
+     "Le Petit Poucet",
+     "Bottes de sept lieues"
+    ],
+    [
+     "Le Chat botté",
+     "Bottes"
+    ]
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Les objets magiques font souvent basculer le récit.",
+   "id": "t052-116",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque folkloriste à son œuvre.",
+   "paires": [
+    [
+     "Anatole Le Braz",
+     "La Légende de la mort"
+    ],
+    [
+     "La Villemarqué",
+     "Barzaz Breiz"
+    ],
+    [
+     "Paul Sébillot",
+     "Le Folklore de France"
+    ],
+    [
+     "Charles Perrault",
+     "Contes du temps passé"
+    ]
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Ces recueils ont sauvé une part de la tradition orale.",
+   "id": "t052-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque être breton à son rôle.",
+   "paires": [
+    [
+     "Ankou",
+     "Collecteur des âmes"
+    ],
+    [
+     "Korrigans",
+     "Danseurs nocturnes"
+    ],
+    [
+     "Lavandières",
+     "Laveuses de linceuls"
+    ]
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "La mort occupe une grande place dans les légendes bretonnes.",
+   "id": "t052-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque lieu à sa légende.",
+   "paires": [
+    [
+     "Carnac",
+     "Soldats pétrifiés"
+    ],
+    [
+     "Douarnenez",
+     "Ville d’Ys"
+    ],
+    [
+     "Tarascon",
+     "Tarasque"
+    ],
+    [
+     "Lusignan",
+     "Mélusine"
+    ]
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Les paysages sont souvent expliqués par des récits merveilleux.",
+   "id": "t052-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage de saint Nicolas à son rôle.",
+   "paires": [
+    [
+     "Saint Nicolas",
+     "Récompenser"
+    ],
+    [
+     "Père Fouettard",
+     "Punir"
+    ],
+    [
+     "Boucher",
+     "Criminel"
+    ]
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Le Père Fouettard porte souvent une barbe noire et un martinet.",
+   "id": "t052-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque créature à son trait.",
+   "paires": [
+    [
+     "Vouivre",
+     "Escarboucle"
+    ],
+    [
+     "Dahu",
+     "Pattes inégales"
+    ],
+    [
+     "Ankou",
+     "Faux retournée"
+    ],
+    [
+     "Mélusine",
+     "Queue de serpent"
+    ]
+   ],
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Ces détails permettent de reconnaître chaque être.",
+   "id": "t052-121",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis la Mort\n2. Je conduis une charrette\n3. Je suis le dernier mort de l’année",
+   "choix": [
+    "L’Ankou",
+    "Le Drac",
+    "La dame blanche",
+    "Le Grand Veneur"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "On me croise dans les enclos paroissiaux sculpté sur les ossuaires.",
+   "id": "t052-122",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une princesse\n2. J’ai volé une clé\n3. J’ai noyé ma ville",
+   "choix": [
+    "Dahut",
+    "Mélusine",
+    "Morgane",
+    "Azénor"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Mon père Gradlon m’a laissée tomber dans les flots.",
+   "id": "t052-123",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une fée\n2. Je deviens serpente le samedi\n3. J’ai bâti Lusignan",
+   "choix": [
+    "Mélusine",
+    "Viviane",
+    "Dahut",
+    "Morgane"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Mon image figure sur le logo d’une célèbre chaîne de cafés américaine.",
+   "id": "t052-124",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dragon\n2. J’ai une carapace\n3. Sainte Marthe m’a apprivoisé",
+   "choix": [
+    "La Tarasque",
+    "Le Graoully",
+    "La Gargouille",
+    "La vouivre"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "On me promène encore dans les rues de ma ville chaque année.",
+   "id": "t052-125",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un animal mystérieux\n2. J’ai terrorisé la Lozère\n3. Louis XV m’a fait chasser",
+   "choix": [
+    "La bête du Gévaudan",
+    "Le loup-garou",
+    "Le Graoully",
+    "La Tarasque"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Mon mystère inspire encore livres et films.",
+   "id": "t052-126",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un animal\n2. Je n’existe pas\n3. Mes pattes sont inégales",
+   "choix": [
+    "Le dahu",
+    "Le Drac",
+    "La vouivre",
+    "Le farfadet"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "On organise des chasses au dahu pour se moquer des citadins.",
+   "id": "t052-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un esprit\n2. J’aime danser en rond\n3. Je vis près des dolmens",
+   "choix": [
+    "Le korrigan",
+    "Le farfadet",
+    "Le Drac",
+    "L’Ankou"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Je peux punir ceux qui refusent de danser avec moi.",
+   "id": "t052-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un saint\n2. J’ai ressuscité trois enfants\n3. Je protège la Lorraine",
+   "choix": [
+    "Saint Nicolas",
+    "Saint Martin",
+    "Saint Clément",
+    "Saint Romain"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "Le Père Fouettard m’accompagne dans ma tournée du 6 décembre.",
+   "id": "t052-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur\n2. J’ai écrit Barbe-Bleue\n3. J’ai publié mes contes en 1697",
+   "choix": [
+    "Charles Perrault",
+    "Jean de La Fontaine",
+    "Jacob Grimm",
+    "Madame d’Aulnoy"
+   ],
+   "rep": 0,
+   "src": "Le Braz ; Sébillot ; La Villemarqué ; Perrault ; Gervais de Tilbury",
+   "expl": "J’ai aussi défendu les Modernes dans une célèbre querelle littéraire.",
+   "id": "t052-130",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
