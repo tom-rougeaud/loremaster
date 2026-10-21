@@ -1,0 +1,1986 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "botanique-fiction",
+  "nom": "Botanique et herboristerie dans la fiction",
+  "royaume": "Écran, jeux vidéo et culture geek",
+  "icone": "champignon",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante à racine humaine pousse un cri mortel quand on l’arrache, selon la légende ?",
+   "choix": [
+    "La mandragore",
+    "L’aconit",
+    "La belladone",
+    "La verveine"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "On disait qu’il fallait la faire arracher par un chien attaché à sa racine.",
+   "id": "t098-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel professeur de botanique enseigne la Botanique à Poudlard ?",
+   "choix": [
+    "Le professeur Chourave",
+    "Le professeur Rogue",
+    "Le professeur Flitwick",
+    "Le professeur Brûlopot"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Elle dirige la maison Poufsouffle et ses serres.",
+   "id": "t098-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante de Poudlard enserre ses victimes mais recule devant la lumière et le feu ?",
+   "choix": [
+    "Le Filet du Diable",
+    "Le Saule cogneur",
+    "La Tentacula vénéneuse",
+    "La Mimbulus mimbletonia"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Hermione s’en souvient juste à temps pour sauver ses amis.",
+   "id": "t098-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel arbre de Poudlard frappe violemment tout ce qui s’approche de lui ?",
+   "choix": [
+    "Le Saule cogneur",
+    "Le Saule pleureur",
+    "Le Chêne frappeur",
+    "L’Orme batailleur"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Il cache l’entrée d’un passage secret vers la Cabane hurlante.",
+   "id": "t098-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante permet à Harry de respirer sous l’eau lors du Tournoi des Trois Sorciers ?",
+   "choix": [
+    "La Branchiflore",
+    "La Mandragore",
+    "L’Algue de Gringotts",
+    "Le Lierre des mers"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Elle lui fait pousser des branchies et des palmes.",
+   "id": "t098-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle potion, à base d’aconit, permet à un professeur lycanthrope de garder ses esprits pendant la pleine lune ?",
+   "choix": [
+    "La potion Tue-loup",
+    "Le Polynectar",
+    "La Felix Felicis",
+    "Le Veritaserum"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Le professeur Rogue la lui prépare à contrecœur.",
+   "id": "t098-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante guérisseuse, appelée aussi feuille-des-rois, Aragorn utilise-t-il pour soigner ?",
+   "choix": [
+    "L’athelas",
+    "Le mallorn",
+    "La simbelmynë",
+    "L’elanor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Dans les mains d’un roi, elle révèle tout son pouvoir.",
+   "id": "t098-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quels arbres aux feuilles dorées poussent en Lothlórien ?",
+   "choix": [
+    "Les mallorns",
+    "Les athelas",
+    "Les huorns",
+    "Les oliphants"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Les elfes y bâtissent leurs demeures, dans les hautes branches.",
+   "id": "t098-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel végétal symbolise les rois du Gondor, dans la cour de Minas Tirith ?",
+   "choix": [
+    "L’Arbre blanc",
+    "Le Chêne d’argent",
+    "Le Mallorn d’or",
+    "Le Saule noir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Aragorn en découvre une jeune pousse sur les pentes du Mindolluin.",
+   "id": "t098-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appellent les deux arbres de lumière de Valinor, chez Tolkien ?",
+   "choix": [
+    "Telperion et Laurelin",
+    "Nimloth et Celeborn",
+    "Galathilion et Mallorn",
+    "Elanor et Niphredil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Leur lumière est conservée dans les Silmarils.",
+   "id": "t098-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel végétal malveillant, dans la forêt voisine du Pays-de-Bouc, capture Merry et Pippin ?",
+   "choix": [
+    "Le Vieil Homme Saule",
+    "Sylvebarbe",
+    "Un huorn de Fangorn",
+    "Le Mallorn noir"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Tom Bombadil le force à les relâcher en chantant.",
+   "id": "t098-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle fleur blanche pousse sur les tombes des rois du Rohan ?",
+   "choix": [
+    "La simbelmynë",
+    "L’elanor",
+    "La niphredil",
+    "L’athelas"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Son nom signifie « toujours-en-mémoire ».",
+   "id": "t098-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels gardiens des arbres, chez Tolkien, ressemblent eux-mêmes à des arbres ?",
+   "choix": [
+    "Les Ents",
+    "Les Huorns seuls",
+    "Les Drúedain",
+    "Les Beornides"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Leur plus vieux représentant s’appelle Sylvebarbe.",
+   "id": "t098-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom porte la feuille à fumer cultivée par les hobbits ?",
+   "choix": [
+    "L’herbe à pipe",
+    "Le tabac des Galgals",
+    "La feuille d’Elrond",
+    "Le thé de la Comté"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "La meilleure, selon Merry et Pippin, vient de Longoulet.",
+   "id": "t098-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pain elfique, enveloppé de feuilles de mallorn, nourrit la Communauté ?",
+   "choix": [
+    "Le lembas",
+    "Le cram",
+    "Le miruvor",
+    "Le pain de Beorn"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Un seul morceau suffit à soutenir un voyageur toute une journée.",
+   "id": "t098-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante carnivore et chantante réclame du sang humain dans La Petite Boutique des horreurs ?",
+   "choix": [
+    "Audrey II",
+    "Groot",
+    "Triffide",
+    "Mandragore"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Le timide fleuriste Seymour lui donne le nom de sa bien-aimée.",
+   "id": "t098-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel personnage des Gardiens de la Galaxie est un être végétal qui ne dit presque qu’une seule phrase ?",
+   "choix": [
+    "Groot",
+    "Rocket",
+    "Drax",
+    "Mantis"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Son espèce porte le nom latin de Flora colossus.",
+   "id": "t098-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roman de John Wyndham, en 1951, met en scène des plantes carnivores qui se déplacent ?",
+   "choix": [
+    "Le Jour des Triffides",
+    "La Petite Boutique des horreurs",
+    "Annihilation",
+    "Les Coucous de Midwich"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Presque toute l’humanité est aveuglée au début du roman.",
+   "id": "t098-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel arbre sacré relie les Na’vi à leur déesse dans le film Avatar ?",
+   "choix": [
+    "L’Arbre des âmes",
+    "L’Arbre-Maison seulement",
+    "L’Arbre des vœux",
+    "L’Yggdrasil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Les Na’vi peuvent y entendre les voix de leurs ancêtres.",
+   "id": "t098-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Nausicaä de la Vallée du vent, quelle forêt toxique couvre une grande partie du monde ?",
+   "choix": [
+    "La Mer de la Décomposition",
+    "La Forêt interdite",
+    "La Forêt des Esprits",
+    "Le Bois sans retour"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Nausicaä découvre qu’elle purifie en réalité la terre polluée.",
+   "id": "t098-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2009 oppose un potager défensif à des morts-vivants ?",
+   "choix": [
+    "Plants vs. Zombies",
+    "Stardew Valley",
+    "Pikmin",
+    "Garden Warfare seulement"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Le tournesol produit l’énergie solaire qui permet de planter les autres.",
+   "id": "t098-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ennemi de Super Mario est un végétal carnivore qui sort des tuyaux ?",
+   "choix": [
+    "La Plante Piranha",
+    "Le Goomba",
+    "Le Koopa",
+    "Le Bob-omb"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Elle attend souvent que Mario s’éloigne pour sortir.",
+   "id": "t098-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle fleur donne à Mario le pouvoir de lancer des boules de feu ?",
+   "choix": [
+    "La Fleur de feu",
+    "La Fleur de glace",
+    "La Super Étoile",
+    "Le Super Champignon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Son costume devient alors blanc et rouge.",
+   "id": "t098-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Skyrim, comment découvre-t-on les effets d’un ingrédient d’alchimie ?",
+   "choix": [
+    "En le goûtant ou en le mélangeant",
+    "En le lisant dans un livre seulement",
+    "En le vendant",
+    "En le plantant"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Chaque ingrédient possède quatre effets à découvrir.",
+   "id": "t098-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante lumineuse et sonore des Elder Scrolls tinte quand on s’en approche ?",
+   "choix": [
+    "La racine de Nirn",
+    "La mandragore",
+    "La vipérine",
+    "La fleur de lune"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Une longue quête d’Oblivion consiste à en récolter des dizaines.",
+   "id": "t098-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu de 2016, créé par un seul développeur, fait reprendre la ferme d’un grand-père ?",
+   "choix": [
+    "Stardew Valley",
+    "Harvest Moon",
+    "Animal Crossing",
+    "Farming Simulator"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Eric Barone l’a développé seul pendant plus de quatre ans.",
+   "id": "t098-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel champignon parasite transforme l’humanité en monstres dans The Last of Us ?",
+   "choix": [
+    "Le cordyceps",
+    "Le mycélium noir",
+    "Le fusarium",
+    "Le tue-mouche"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Il existe vraiment et parasite certains insectes dans la nature.",
+   "id": "t098-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom de plante a été donné à l’héroïne enfermée dans une tour, chez les frères Grimm ?",
+   "choix": [
+    "Raiponce",
+    "Violette",
+    "Églantine",
+    "Mélisse"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Sa mère enceinte avait une envie irrésistible de raiponce du jardin de la sorcière.",
+   "id": "t098-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel fruit empoisonné fait tomber Blanche-Neige dans un profond sommeil ?",
+   "choix": [
+    "Une pomme",
+    "Une poire",
+    "Une prune",
+    "Une cerise"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "La reine en empoisonne seulement la moitié rouge.",
+   "id": "t098-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante pousse jusqu’au ciel dans le conte de Jack ?",
+   "choix": [
+    "Un haricot magique",
+    "Un chêne géant",
+    "Une vigne enchantée",
+    "Un tournesol"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Jack l’échange contre la vache de sa mère.",
+   "id": "t098-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel arbre géant parlant protège la forêt Kokiri dans Zelda ?",
+   "choix": [
+    "L’Arbre Mojo",
+    "L’Arbre Bojo",
+    "Le Grand Chêne",
+    "Yggdrasil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Les Kokiri, ses enfants, ne grandissent jamais.",
+   "id": "t098-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel arbre abrite l’esprit de la forêt dans Mon voisin Totoro ?",
+   "choix": [
+    "Un camphrier géant",
+    "Un cerisier",
+    "Un ginkgo",
+    "Un érable"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Les enfants s’y rendent pour remercier Totoro.",
+   "id": "t098-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante parasite les druides cueillaient-ils avec une serpe d’or, selon Pline l’Ancien ?",
+   "choix": [
+    "Le gui",
+    "Le lierre",
+    "La verveine",
+    "Le houx"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Il fallait le recueillir dans un tissu blanc, sans qu’il touche le sol.",
+   "id": "t098-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante toxique doit son nom à son usage cosmétique par les dames italiennes ?",
+   "choix": [
+    "La belladone",
+    "L’aconit",
+    "La digitale",
+    "La ciguë"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Ses gouttes dilataient les pupilles pour rendre le regard plus séduisant.",
+   "id": "t098-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante, appelée aussi tue-loup, est l’une des plus toxiques d’Europe ?",
+   "choix": [
+    "L’aconit",
+    "La verveine",
+    "La camomille",
+    "La lavande"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "On l’associe aux loups-garous dans de nombreuses fictions.",
+   "id": "t098-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle abbesse médiévale décrit les vertus de centaines de plantes dans son livre Physica ?",
+   "choix": [
+    "Hildegarde de Bingen",
+    "Héloïse",
+    "Christine de Pizan",
+    "Jeanne d’Arc"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Elle est aussi compositrice, mystique et naturaliste.",
+   "id": "t098-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle doctrine ancienne prétend que l’apparence d’une plante indique la partie du corps qu’elle soigne ?",
+   "choix": [
+    "La théorie des signatures",
+    "La loi des semblables seulement",
+    "L’alchimie végétale",
+    "La médecine des humeurs"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "La noix, qui ressemble à un cerveau, était ainsi censée soigner la tête.",
+   "id": "t098-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel arbre, aux baies rouges, passait pour protéger des sorcières dans les îles Britanniques ?",
+   "choix": [
+    "Le sorbier",
+    "L’if",
+    "Le bouleau",
+    "Le saule"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "On en plantait près des maisons et l’on en faisait des croix pour les étables.",
+   "id": "t098-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon une croyance populaire, que permettait la graine de fougère récoltée la nuit de la Saint-Jean ?",
+   "choix": [
+    "Devenir invisible",
+    "Voler",
+    "Parler aux animaux",
+    "Devenir riche"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Shakespeare évoque cette croyance dans Henri IV.",
+   "id": "t098-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle première question Rogue pose-t-il à Harry sur l’asphodèle et l’armoise ?",
+   "choix": [
+    "Ce qu’on obtient en les mélangeant",
+    "Où elles poussent",
+    "Comment elles fleurissent",
+    "Leur prix au Chemin de Traverse"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, Le Seigneur des anneaux (trad. Daniel Lauzon) ; J. K. Rowling, Harry Potter (trad. Jean-François Ménard) ; Muséum national d’histoire naturelle et Jardin des Plantes (fiches sur la mandragore, l’aconit, la belladone) ; Pline l’Ancien, Histoire naturelle, livre XVI (le gui) ; Hildegarde de Bingen, Physica ; sites des éditeurs de jeux (Bethesda, PopCap, ConcernedApe)",
+   "expl": "Le mélange donne une puissante potion de sommeil, la Goutte du Mort vivant.",
+   "id": "t098-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La mandragore pousserait un cri mortel quand on l’arrache, selon la légende.",
+   "rep": true,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Les élèves de Poudlard portent des cache-oreilles pour la rempoter.",
+   "id": "t098-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Filet du Diable aime la lumière.",
+   "rep": false,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Faux : il la craint et recule devant le feu.",
+   "id": "t098-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’athelas est aussi appelée feuille-des-rois.",
+   "rep": true,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Les herboristes de Minas Tirith en ont oublié la vertu.",
+   "id": "t098-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les mallorns poussent dans la Comté.",
+   "rep": false,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Faux : ils poussent en Lothlórien ; Sam en plante un seul dans la Comté.",
+   "id": "t098-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Audrey II est une plante carnivore.",
+   "rep": true,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Elle se nourrit de sang, puis de personnes entières.",
+   "id": "t098-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Groot est un robot.",
+   "rep": false,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Faux : c’est un être végétal capable de repousser.",
+   "id": "t098-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La belladone dilate les pupilles.",
+   "rep": true,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Son nom italien signifie « belle dame ».",
+   "id": "t098-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le gui était cueilli par les druides avec une serpe de fer.",
+   "rep": false,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Faux : selon Pline, ils utilisaient une serpe d’or.",
+   "id": "t098-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le cordyceps existe vraiment dans la nature.",
+   "rep": true,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Il parasite surtout des insectes, comme certaines fourmis.",
+   "id": "t098-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Stardew Valley a été créé par une grande équipe de studio.",
+   "rep": false,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Faux : Eric Barone l’a développé presque entièrement seul.",
+   "id": "t098-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Ents gardent les arbres dans l’œuvre de Tolkien.",
+   "rep": true,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Ils ressemblent eux-mêmes à des arbres qui marchent.",
+   "id": "t098-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’Arbre Mojo protège la forêt d’Hyrule dans Mario.",
+   "rep": false,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Faux : il appartient à The Legend of Zelda.",
+   "id": "t098-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Hildegarde de Bingen a écrit sur les plantes médicinales.",
+   "rep": true,
+   "src": "Tolkien ; Rowling ; Muséum national d’histoire naturelle",
+   "expl": "Elle vivait au 12e siècle, en Rhénanie, dans un monastère.",
+   "id": "t098-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Branchiflore permet de voler.",
+   "rep": false,
+   "src": "Tolkien ; Rowling ; jeux",
+   "expl": "Faux : elle permet de respirer sous l’eau.",
+   "id": "t098-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’effets possède chaque ingrédient d’alchimie dans Skyrim ?",
+   "rep": 4,
+   "min": 1,
+   "max": 10,
+   "pas": 1,
+   "unite": "effets",
+   "tolerance": 0,
+   "src": "Tolkien ; Rowling ; jeux",
+   "expl": "Il faut combiner deux ingrédients partageant un effet pour faire une potion.",
+   "id": "t098-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’arbres de lumière illuminent Valinor ?",
+   "rep": 2,
+   "min": 1,
+   "max": 7,
+   "pas": 1,
+   "unite": "arbres",
+   "tolerance": 0,
+   "src": "Tolkien ; Rowling ; jeux",
+   "expl": "Ils sont détruits par Melkor et l’araignée Ungoliant.",
+   "id": "t098-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît Le Jour des Triffides ?",
+   "rep": 1951,
+   "min": 1930,
+   "max": 1970,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Tolkien ; Rowling ; jeux",
+   "expl": "Il est adapté au cinéma en 1962, puis à la télévision.",
+   "id": "t098-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Plants vs. Zombies ?",
+   "rep": 2009,
+   "min": 2000,
+   "max": 2015,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Tolkien ; Rowling ; jeux",
+   "expl": "Il est développé par le studio PopCap Games.",
+   "id": "t098-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort Stardew Valley ?",
+   "rep": 2016,
+   "min": 2010,
+   "max": 2020,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Tolkien ; Rowling ; jeux",
+   "expl": "Il s’est vendu à plus de quarante millions d’exemplaires.",
+   "id": "t098-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quel siècle vit Hildegarde de Bingen ?",
+   "rep": 12,
+   "min": 8,
+   "max": 16,
+   "pas": 1,
+   "unite": "e siècle",
+   "tolerance": 0,
+   "src": "Tolkien ; Rowling ; jeux",
+   "expl": "Elle est proclamée docteure de l’Église en 2012.",
+   "id": "t098-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année sort la version musicale de La Petite Boutique des horreurs au cinéma ?",
+   "rep": 1986,
+   "min": 1960,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Tolkien ; Rowling ; jeux",
+   "expl": "Le premier film, de Roger Corman, date de 1960.",
+   "id": "t098-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Pendant combien de jours avant la pleine lune Lupin doit-il boire la potion Tue-loup ?",
+   "rep": 7,
+   "min": 1,
+   "max": 14,
+   "pas": 1,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "Tolkien ; Rowling ; jeux",
+   "expl": "Il doit en boire un gobelet chaque jour de la semaine qui précède la transformation.",
+   "id": "t098-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La plante à racine humaine qui crie s’appelle la ____.",
+   "choix": [
+    "mandragore",
+    "mandarine",
+    "mandoline",
+    "mangrove"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Son nom vient du grec ancien mandragoras.",
+   "id": "t098-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’arbre qui frappe à Poudlard s’appelle le Saule ____.",
+   "choix": [
+    "cogneur",
+    "pleureur",
+    "frappeur",
+    "batteur"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Il a abîmé la voiture volante de Mr Weasley.",
+   "id": "t098-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante qui permet de respirer sous l’eau s’appelle la ____.",
+   "choix": [
+    "Branchiflore",
+    "Branchiale",
+    "Algueflore",
+    "Aquaflore"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "En anglais, on l’appelle gillyweed, l’herbe à branchies.",
+   "id": "t098-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante guérisseuse d’Aragorn s’appelle l’____.",
+   "choix": [
+    "athelas",
+    "asphodèle",
+    "aconit",
+    "atheline"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Son parfum ranime les blessés du Souffle noir.",
+   "id": "t098-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les arbres dorés de la Lothlórien s’appellent les ____.",
+   "choix": [
+    "mallorns",
+    "mellyrn",
+    "mallons",
+    "mellons"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Mellyrn est le pluriel sindarin correct, mais les traductions disent souvent mallorns.",
+   "id": "t098-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le gardien des arbres le plus vieux de Fangorn s’appelle ____.",
+   "choix": [
+    "Sylvebarbe",
+    "Sylvain",
+    "Barbebois",
+    "Sylvestre"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Il parle si lentement qu’un simple bonjour peut durer des heures.",
+   "id": "t098-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante carnivore de La Petite Boutique des horreurs s’appelle Audrey ____.",
+   "choix": [
+    "II",
+    "I",
+    "III",
+    "Junior"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "On découvre qu’elle vient de l’espace et veut conquérir la Terre.",
+   "id": "t098-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le pain des elfes s’appelle le ____.",
+   "choix": [
+    "lembas",
+    "lambas",
+    "lembos",
+    "cram"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Le cram, lui, est un biscuit dur fabriqué par les hommes du Val.",
+   "id": "t098-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante toxique au nom de « belle dame » s’appelle la ____.",
+   "choix": [
+    "belladone",
+    "belladona",
+    "bellamie",
+    "bellefleur"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Elle était utilisée dans les recettes de « baumes de sorcières ».",
+   "id": "t098-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante parasite sacrée des druides s’appelle le ____.",
+   "choix": [
+    "gui",
+    "houx",
+    "lierre",
+    "buis"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "On s’embrasse encore dessous au Nouvel An.",
+   "id": "t098-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’arbre parlant de la forêt Kokiri s’appelle l’Arbre ____.",
+   "choix": [
+    "Mojo",
+    "Bojo",
+    "Deku",
+    "Kodo"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "En anglais, il s’appelle le Grand Arbre Deku.",
+   "id": "t098-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La plante qui tinte dans Oblivion s’appelle la racine de ____.",
+   "choix": [
+    "Nirn",
+    "Nirvana",
+    "Neron",
+    "Nerev"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Nirn est le nom du monde des Elder Scrolls.",
+   "id": "t098-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "La fleur blanche des tombes du Rohan s’appelle la ____.",
+   "choix": [
+    "simbelmynë",
+    "simbelmine",
+    "simbeline",
+    "elanor"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Les cavaliers la voient fleurir comme une neige d’été.",
+   "id": "t098-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces plantes n’appartient pas à Harry Potter ?",
+   "choix": [
+    "L’athelas",
+    "La Branchiflore",
+    "Le Filet du Diable",
+    "Le Saule cogneur"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "L’athelas appartient à l’œuvre de Tolkien.",
+   "id": "t098-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces êtres n’est pas végétal ?",
+   "choix": [
+    "Totoro",
+    "Groot",
+    "Audrey II",
+    "Sylvebarbe"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Totoro est un esprit de la forêt à l’allure animale.",
+   "id": "t098-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces plantes n’est pas toxique ?",
+   "choix": [
+    "La camomille",
+    "La belladone",
+    "L’aconit",
+    "La ciguë"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "La camomille est utilisée en tisane apaisante.",
+   "id": "t098-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces arbres n’appartient pas à Tolkien ?",
+   "choix": [
+    "Le Saule cogneur",
+    "Le Vieil Homme Saule",
+    "Telperion",
+    "L’Arbre blanc"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Le Saule cogneur pousse dans le parc de Poudlard.",
+   "id": "t098-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux ne met pas les plantes au centre ?",
+   "choix": [
+    "Tetris",
+    "Plants vs. Zombies",
+    "Stardew Valley",
+    "Pikmin"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Tetris ne fait pousser que des lignes de blocs.",
+   "id": "t098-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces contes ne fait pas intervenir une plante essentielle ?",
+   "choix": [
+    "Le Petit Poucet",
+    "Jack et le haricot magique",
+    "Raiponce",
+    "Blanche-Neige"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Le Petit Poucet utilise des cailloux et du pain.",
+   "id": "t098-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces fleurs n’appartient pas à Tolkien ?",
+   "choix": [
+    "L’asphodèle",
+    "L’elanor",
+    "La niphredil",
+    "La simbelmynë"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "L’asphodèle apparaît plutôt dans Harry Potter et la mythologie grecque.",
+   "id": "t098-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces professeurs n’enseigne pas à Poudlard ?",
+   "choix": [
+    "Le professeur Tournesol",
+    "Le professeur Chourave",
+    "Le professeur Rogue",
+    "Le professeur McGonagall"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Tournesol est le savant distrait de Tintin.",
+   "id": "t098-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces plantes n’est pas associée aux sorcières dans le folklore ?",
+   "choix": [
+    "La tomate",
+    "La mandragore",
+    "La belladone",
+    "L’aconit"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "La tomate est arrivée d’Amérique et n’a pas ce passé sulfureux.",
+   "id": "t098-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un gardien des arbres ?",
+   "choix": [
+    "Gollum",
+    "Sylvebarbe",
+    "Vif-Sorbier",
+    "Les Huorns"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Gollum vit dans les grottes et les marais.",
+   "id": "t098-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles plantes appartiennent à Harry Potter ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Mandragore",
+    "Branchiflore",
+    "Filet du Diable",
+    "Saule cogneur",
+    "Athelas",
+    "Mallorn"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Le professeur Chourave en enseigne l’entretien.",
+   "id": "t098-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles plantes appartiennent à Tolkien ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Athelas",
+    "Mallorn",
+    "Simbelmynë",
+    "Elanor",
+    "Branchiflore",
+    "Audrey II"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Tolkien était un amoureux passionné des arbres.",
+   "id": "t098-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles plantes sont toxiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aconit",
+    "Belladone",
+    "Ciguë",
+    "Digitale",
+    "Camomille",
+    "Menthe"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Elles étaient utilisées en médecine à très faible dose.",
+   "id": "t098-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels êtres végétaux sont doués de parole ou de pensée ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sylvebarbe",
+    "Groot",
+    "Audrey II",
+    "L’Arbre Mojo",
+    "Totoro",
+    "Navi"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "La fiction donne volontiers une âme aux plantes.",
+   "id": "t098-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux font une grande place au jardinage ou aux plantes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Plants vs. Zombies",
+    "Stardew Valley",
+    "Pikmin",
+    "Tetris",
+    "Doom"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Cultiver peut être aussi captivant que combattre.",
+   "id": "t098-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles plantes apparaissent dans les contes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La raiponce",
+    "Le haricot magique",
+    "La pomme empoisonnée",
+    "L’athelas",
+    "La Branchiflore"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Le jardin est un lieu de tentation dans de nombreux contes.",
+   "id": "t098-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels arbres sont sacrés dans des œuvres de fiction ? (plusieurs bonnes réponses)",
+   "choix": [
+    "L’Arbre blanc du Gondor",
+    "L’Arbre des âmes d’Avatar",
+    "Telperion",
+    "Le Saule cogneur",
+    "La Plante Piranha"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Ces arbres symbolisent la vie d’un peuple.",
+   "id": "t098-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles plantes passaient pour protéger des sorcières ou du mal ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le sorbier",
+    "L’ail",
+    "Le millepertuis",
+    "La belladone",
+    "La mandragore"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "La belladone et la mandragore étaient au contraire associées aux sorcières.",
+   "id": "t098-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels personnages enseignent ou pratiquent l’herboristerie ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le professeur Chourave",
+    "Hildegarde de Bingen",
+    "Neville Londubat",
+    "Gollum",
+    "Bowser"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Neville devient lui-même professeur de botanique.",
+   "id": "t098-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles plantes sont carnivores ou dangereuses dans la fiction ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Audrey II",
+    "Triffides",
+    "Plante Piranha",
+    "Tentacula vénéneuse",
+    "Tournesol de PvZ",
+    "Athelas"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Ces plantes renversent le rapport entre l’homme et la nature.",
+   "id": "t098-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces œuvres par date de parution.",
+   "items": [
+    "Le Jour des Triffides",
+    "Le Seigneur des anneaux",
+    "La Petite Boutique des horreurs, premier film",
+    "Plants vs. Zombies"
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Ces œuvres paraissent en 1951, 1954, 1960 puis 2009.",
+   "id": "t098-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces jeux par date de sortie.",
+   "items": [
+    "Super Mario Bros.",
+    "Plants vs. Zombies",
+    "Skyrim",
+    "Stardew Valley"
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Ces jeux sortent en 1985, 2009, 2011 puis 2016.",
+   "id": "t098-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire des arbres de Tolkien dans l’ordre.",
+   "items": [
+    "Création des Deux Arbres",
+    "Destruction par Ungoliant",
+    "Plantation de l’Arbre blanc à Minas Tirith",
+    "Découverte d’une jeune pousse par Aragorn"
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "L’Arbre blanc descend lointainement de Telperion.",
+   "id": "t098-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces films par date de sortie.",
+   "items": [
+    "Nausicaä",
+    "Mon voisin Totoro",
+    "Avatar",
+    "Les Gardiens de la Galaxie"
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Ces films sortent en 1984, 1988, 2009 puis 2014.",
+   "id": "t098-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du rempotage des mandragores à Poudlard dans l’ordre.",
+   "items": [
+    "Mettre des cache-oreilles",
+    "Arracher la mandragore",
+    "La placer dans un nouveau pot",
+    "La recouvrir de terreau"
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Les jeunes mandragores ne font que s’évanouir les élèves.",
+   "id": "t098-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces auteurs ou savants par ordre chronologique.",
+   "items": [
+    "Pline l’Ancien",
+    "Hildegarde de Bingen",
+    "Paracelse",
+    "John Wyndham"
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "1er siècle, 12e siècle, 16e siècle puis 20e siècle.",
+   "id": "t098-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces plantes de la moins à la plus toxique pour l’homme.",
+   "items": [
+    "La camomille",
+    "La digitale",
+    "L’aconit"
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "L’aconit peut tuer même par simple contact prolongé avec la peau.",
+   "id": "t098-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de Jack et le haricot magique dans l’ordre.",
+   "items": [
+    "Échange de la vache",
+    "Pousse du haricot",
+    "Montée au château du géant",
+    "Chute du géant"
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Jack coupe la tige pour échapper au géant.",
+   "id": "t098-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces romans de Harry Potter selon la première apparition de ces plantes.",
+   "items": [
+    "Le Filet du Diable",
+    "Le Saule cogneur",
+    "La Branchiflore"
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Elles apparaissent dans le tome 1, le tome 2 puis le tome 4.",
+   "id": "t098-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque plante à son œuvre.",
+   "paires": [
+    [
+     "Athelas",
+     "Le Seigneur des anneaux"
+    ],
+    [
+     "Branchiflore",
+     "Harry Potter"
+    ],
+    [
+     "Audrey II",
+     "La Petite Boutique des horreurs"
+    ],
+    [
+     "Triffide",
+     "Le Jour des Triffides"
+    ]
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Chaque œuvre invente ses propres végétaux.",
+   "id": "t098-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque plante à son pouvoir.",
+   "paires": [
+    [
+     "Branchiflore",
+     "Respirer sous l’eau"
+    ],
+    [
+     "Athelas",
+     "Guérir"
+    ],
+    [
+     "Mandragore",
+     "Cri mortel"
+    ],
+    [
+     "Filet du Diable",
+     "Étrangler"
+    ]
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "La botanique magique suit des règles précises.",
+   "id": "t098-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque arbre à son monde.",
+   "paires": [
+    [
+     "Mallorn",
+     "Terre du Milieu"
+    ],
+    [
+     "Saule cogneur",
+     "Poudlard"
+    ],
+    [
+     "Arbre Mojo",
+     "Hyrule"
+    ],
+    [
+     "Arbre des âmes",
+     "Pandora"
+    ]
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Les arbres sont souvent le cœur d’un monde imaginaire.",
+   "id": "t098-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque plante toxique à sa légende.",
+   "paires": [
+    [
+     "Belladone",
+     "Belles dames italiennes"
+    ],
+    [
+     "Aconit",
+     "Loups-garous"
+    ],
+    [
+     "Mandragore",
+     "Cri mortel"
+    ]
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Le folklore entoure ces plantes de récits inquiétants.",
+   "id": "t098-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque personnage à sa plante.",
+   "paires": [
+    [
+     "Raiponce",
+     "Raiponce du jardin"
+    ],
+    [
+     "Blanche-Neige",
+     "Pomme empoisonnée"
+    ],
+    [
+     "Jack",
+     "Haricot magique"
+    ]
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Les contes sont pleins de jardins dangereux.",
+   "id": "t098-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque jeu à sa plante.",
+   "paires": [
+    [
+     "Mario",
+     "Fleur de feu"
+    ],
+    [
+     "Plants vs. Zombies",
+     "Tournesol"
+    ],
+    [
+     "Oblivion",
+     "Racine de Nirn"
+    ]
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Les plantes donnent souvent des pouvoirs dans les jeux.",
+   "id": "t098-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque gardien à sa forêt.",
+   "paires": [
+    [
+     "Sylvebarbe",
+     "Fangorn"
+    ],
+    [
+     "Totoro",
+     "Forêt du camphrier"
+    ],
+    [
+     "L’Arbre Mojo",
+     "Forêt Kokiri"
+    ]
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Chaque forêt imaginaire a son gardien protecteur.",
+   "id": "t098-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque savant à son ouvrage.",
+   "paires": [
+    [
+     "Pline l’Ancien",
+     "Histoire naturelle"
+    ],
+    [
+     "Hildegarde de Bingen",
+     "Physica"
+    ],
+    [
+     "Paracelse",
+     "Théorie des signatures"
+    ]
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Ces auteurs ont nourri l’herboristerie pendant des siècles.",
+   "id": "t098-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque arbre de Tolkien à ce qu’il a donné ou à son lieu.",
+   "paires": [
+    [
+     "Telperion",
+     "La Lune"
+    ],
+    [
+     "Laurelin",
+     "Le Soleil"
+    ],
+    [
+     "Nimloth",
+     "Númenor"
+    ]
+   ],
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "La dernière fleur de Telperion devient la Lune, le dernier fruit de Laurelin le Soleil.",
+   "id": "t098-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une plante\n2. Ma racine ressemble à un humain\n3. Mon cri peut tuer",
+   "choix": [
+    "La mandragore",
+    "L’aconit",
+    "Le ginseng",
+    "La raiponce"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Les élèves de Poudlard me rempotent avec des cache-oreilles.",
+   "id": "t098-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un arbre\n2. Je frappe ceux qui approchent\n3. Je pousse à Poudlard",
+   "choix": [
+    "Le Saule cogneur",
+    "Le Vieil Homme Saule",
+    "Sylvebarbe",
+    "L’Arbre Mojo"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Je cache l’entrée de la Cabane hurlante.",
+   "id": "t098-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une plante\n2. On m’appelle feuille-des-rois\n3. Je guéris entre les mains d’un roi",
+   "choix": [
+    "L’athelas",
+    "La simbelmynë",
+    "L’elanor",
+    "La niphredil"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Aragorn m’utilise après la bataille des champs du Pelennor.",
+   "id": "t098-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un Ent\n2. Je suis le plus vieux de Fangorn\n3. Je parle lentement",
+   "choix": [
+    "Sylvebarbe",
+    "Vif-Sorbier",
+    "Bregalad",
+    "Le Vieil Homme Saule"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "J’ai mené l’assaut des Ents contre l’Isengard.",
+   "id": "t098-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une plante\n2. Je chante et je dévore\n3. Je vis dans une boutique",
+   "choix": [
+    "Audrey II",
+    "Groot",
+    "Triffide",
+    "Plante Piranha"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Mon nom vient de la bien-aimée de Seymour.",
+   "id": "t098-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un être végétal\n2. Je dis surtout trois mots\n3. Je fais partie des Gardiens de la Galaxie",
+   "choix": [
+    "Groot",
+    "Rocket",
+    "Drax",
+    "Ego"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Je peux repousser à partir d’une simple bouture.",
+   "id": "t098-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une plante\n2. Les druides me cueillaient avec une serpe d’or\n3. Je pousse sur les chênes",
+   "choix": [
+    "Le gui",
+    "Le houx",
+    "Le lierre",
+    "La verveine"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Panoramix me cueille aussi dans Astérix.",
+   "id": "t098-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. Je mets des végétaux contre des morts-vivants\n3. Je suis né en 2009",
+   "choix": [
+    "Plants vs. Zombies",
+    "Stardew Valley",
+    "Pikmin",
+    "Minecraft"
+   ],
+   "rep": 0,
+   "src": "Tolkien ; Rowling ; folklore",
+   "expl": "Le studio américain PopCap Games m’a créé.",
+   "id": "t098-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
