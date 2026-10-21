@@ -1,0 +1,2293 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "egypte-celtes-arthur",
+  "nom": "Égypte, Celtes et légende arthurienne",
+  "royaume": "Mythologies et folklores du monde",
+  "icone": "ankh",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel serpent géant attaque chaque nuit la barque du soleil ?",
+   "choix": [
+    "Apophis",
+    "Ouroboros",
+    "Mehen",
+    "Sobek"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Si Rê était vaincu, le soleil ne se lèverait plus ; les prêtres récitaient des formules contre lui.",
+   "id": "t048-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le monde souterrain que traverse le soleil la nuit ?",
+   "choix": [
+    "La Douat",
+    "Le Noun",
+    "L’Amenti des vivants",
+    "Le Tartare"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Le défunt doit y franchir des portes gardées par des génies redoutables.",
+   "id": "t048-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Contre quoi pèse-t-on le cœur du défunt lors du jugement ?",
+   "choix": [
+    "La plume de Maât",
+    "Le sceptre d’Osiris",
+    "Une pierre du Nil",
+    "Le scarabée de Khépri"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Un cœur plus lourd que la plume trahit une vie de fautes.",
+   "id": "t048-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel monstre dévore le cœur des défunts jugés coupables ?",
+   "choix": [
+    "Ammit",
+    "Apophis",
+    "Sekhmet",
+    "Taouret"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Mi-crocodile, mi-lion, mi-hippopotame, elle est appelée « la Dévoreuse ».",
+   "id": "t048-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu à tête d’ibis note le résultat de la pesée du cœur ?",
+   "choix": [
+    "Thot",
+    "Anubis",
+    "Horus",
+    "Ptah"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Dieu de l’écriture et du savoir, il est aussi lié à la lune.",
+   "id": "t048-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu à tête de chacal préside à l’embaumement ?",
+   "choix": [
+    "Anubis",
+    "Seth",
+    "Oupouaout",
+    "Khonsou"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Il guide aussi le défunt jusqu’à la salle du jugement.",
+   "id": "t048-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que contenaient les vases canopes ?",
+   "choix": [
+    "Les organes du défunt",
+    "Les offrandes de nourriture",
+    "Les bijoux du roi",
+    "Les textes sacrés"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Foie, poumons, estomac et intestins sont protégés par les quatre fils d’Horus.",
+   "id": "t048-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel organe laisse-t-on généralement dans le corps de la momie ?",
+   "choix": [
+    "Le cœur",
+    "Le cerveau",
+    "Le foie",
+    "Les poumons"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Il doit être pesé au tribunal d’Osiris ; le cerveau, lui, est jeté.",
+   "id": "t048-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel recueil de formules accompagne les défunts dans leur voyage ?",
+   "choix": [
+    "Le Livre des Morts",
+    "Le Livre de Thot",
+    "Les Textes de Memphis",
+    "Le Papyrus de Turin"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Les Égyptiens l’appelaient « Livre pour sortir au jour ».",
+   "id": "t048-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse à tête de lionne faillit exterminer l’humanité ?",
+   "choix": [
+    "Sekhmet",
+    "Bastet",
+    "Hathor",
+    "Mout"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Rê l’enivre avec de la bière teinte en rouge, qu’elle prend pour du sang.",
+   "id": "t048-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse à forme de chatte était vénérée à Bubastis ?",
+   "choix": [
+    "Bastet",
+    "Sekhmet",
+    "Nekhbet",
+    "Ouadjet"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Des milliers de chats momifiés y ont été retrouvés.",
+   "id": "t048-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu est représenté par un scarabée poussant le soleil ?",
+   "choix": [
+    "Khépri",
+    "Atoum",
+    "Amon",
+    "Chou"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Comme le scarabée roule sa boule, il fait rouler le soleil du matin.",
+   "id": "t048-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse à tête ou à cornes de vache est liée à l’amour et à la musique ?",
+   "choix": [
+    "Hathor",
+    "Isis",
+    "Nout",
+    "Neith"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Elle porte un disque solaire entre ses cornes.",
+   "id": "t048-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu crocodile est vénéré au Fayoum et à Kom Ombo ?",
+   "choix": [
+    "Sobek",
+    "Khnoum",
+    "Montou",
+    "Min"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "On élevait des crocodiles sacrés parés de bijoux dans ses temples.",
+   "id": "t048-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pharaon impose le culte d’Aton, le disque solaire ?",
+   "choix": [
+    "Akhénaton",
+    "Toutânkhamon",
+    "Ramsès II",
+    "Khéops"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Après sa mort, le culte d’Amon est rétabli et son nom martelé.",
+   "id": "t048-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Seth tue-t-il Osiris, selon Plutarque ?",
+   "choix": [
+    "Il l’enferme dans un coffre jeté au Nil",
+    "Il le jette aux crocodiles",
+    "Il l’empoisonne pendant un banquet",
+    "Il le transperce d’une lance"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Le coffre était fait à ses mesures exactes, pour un faux concours.",
+   "id": "t048-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Que perd Horus lors de son combat contre Seth ?",
+   "choix": [
+    "Un œil",
+    "Une main",
+    "Ses ailes",
+    "Son trône"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Guéri, cet œil devient l’oudjat, un puissant symbole de protection.",
+   "id": "t048-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Isis obtient-elle le pouvoir de Rê ?",
+   "choix": [
+    "En lui arrachant son nom secret",
+    "En volant sa barque solaire",
+    "En devenant son épouse",
+    "En buvant le sang du dieu"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Elle crée un serpent qui le mord, et ne le guérit qu’en échange de son nom.",
+   "id": "t048-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu égyptien nain et grimaçant protège les foyers et les naissances ?",
+   "choix": [
+    "Bès",
+    "Ptah",
+    "Khonsou",
+    "Min"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts des anciens Égyptiens ; Plutarque, Isis et Osiris ; B. Mathieu et D. Meeks, dictionnaires de la religion égyptienne ; Musée du Louvre, département des Antiquités égyptiennes",
+   "expl": "Son visage effrayant, tirant la langue, chasse les mauvais esprits.",
+   "id": "t048-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel architecte de la pyramide de Djéser fut divinisé ?",
+   "choix": [
+    "Imhotep",
+    "Hémiounou",
+    "Senenmout",
+    "Amenhotep"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Les Grecs l’ont assimilé à leur dieu guérisseur Asclépios.",
+   "id": "t048-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le peuple divin de la mythologie irlandaise ?",
+   "choix": [
+    "Les Tuatha Dé Danann",
+    "Les Fomoires",
+    "Les Fir Bolg",
+    "Les Fianna"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Ils arrivent en Irlande dans des nuées, avant de se retirer dans les tertres.",
+   "id": "t048-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi des Tuatha Dé Danann reçoit une main d’argent ?",
+   "choix": [
+    "Nuada",
+    "Lug",
+    "Dagda",
+    "Bres"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Un roi devait être sans défaut : il perd son trône, puis le retrouve.",
+   "id": "t048-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu irlandais maîtrise tous les arts à la fois ?",
+   "choix": [
+    "Lug",
+    "Dagda",
+    "Ogma",
+    "Dian Cecht"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Il entre à Tara en prouvant qu’il sait tout faire ; la ville de Lyon lui doit peut-être son nom.",
+   "id": "t048-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel géant fomoire possède un œil qui tue d’un regard ?",
+   "choix": [
+    "Balor",
+    "Bres",
+    "Elatha",
+    "Indech"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Son petit-fils Lug crève cet œil d’une pierre de fronde.",
+   "id": "t048-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet du Dagda nourrit tous ceux qui s’en approchent ?",
+   "choix": [
+    "Un chaudron inépuisable",
+    "Une harpe d’or",
+    "Une épée de lumière",
+    "Une pierre hurlante"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Il possède aussi une massue qui tue d’un côté et ressuscite de l’autre.",
+   "id": "t048-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait la pierre de Fál, à Tara ?",
+   "choix": [
+    "Elle crie sous le futur roi d’Irlande",
+    "Elle guérit les blessures",
+    "Elle rend invisible",
+    "Elle éteint les feux"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "C’est l’un des quatre trésors apportés par les Tuatha Dé Danann.",
+   "id": "t048-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse irlandaise de la guerre prend la forme d’une corneille ?",
+   "choix": [
+    "La Morrígan",
+    "Brigid",
+    "Ériu",
+    "Áine"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Elle annonce la mort des guerriers et apparaît à Cúchulainn.",
+   "id": "t048-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "D’où vient le nom de Cúchulainn ?",
+   "choix": [
+    "Il a tué le chien du forgeron Culann",
+    "Il est né d’un chien",
+    "Il chasse avec des chiens",
+    "Il hurle comme un chien"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Il promet de remplacer l’animal et de garder lui-même la maison.",
+   "id": "t048-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel récit épique irlandais raconte la razzia des vaches de Cooley ?",
+   "choix": [
+    "La Táin Bó Cúailnge",
+    "Le Mabinogion",
+    "Le Lebor Gabála",
+    "La Navigation de Bran"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Cúchulainn y défend seul l’Ulster contre l’armée de la reine Medb.",
+   "id": "t048-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment Fionn mac Cumhaill obtient-il la sagesse ?",
+   "choix": [
+    "En goûtant le saumon de la connaissance",
+    "En buvant à un puits sacré",
+    "En lisant les runes",
+    "En dormant sur un tertre"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Il se brûle le pouce sur la peau du poisson et le porte à sa bouche.",
+   "id": "t048-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel pays de l’éternelle jeunesse Oisín passe-t-il trois siècles ?",
+   "choix": [
+    "Tír na nÓg",
+    "Avalon",
+    "Annwn",
+    "Hy-Brasil"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Revenu en Irlande, il vieillit d’un coup en touchant le sol.",
+   "id": "t048-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quoi les enfants de Lir sont-ils changés par leur belle-mère ?",
+   "choix": [
+    "En cygnes",
+    "En cerfs",
+    "En saumons",
+    "En corbeaux"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Ils restent ainsi neuf cents ans, sur les lacs et les mers d’Irlande.",
+   "id": "t048-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel dieu gaulois aux bois de cerf figure sur le chaudron de Gundestrup ?",
+   "choix": [
+    "Cernunnos",
+    "Taranis",
+    "Teutatès",
+    "Ésus"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Il tient un torque et un serpent à tête de bélier.",
+   "id": "t048-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle déesse gauloise protège les chevaux et les cavaliers ?",
+   "choix": [
+    "Épona",
+    "Sirona",
+    "Rosmerta",
+    "Nantosuelta"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Elle est l’une des rares divinités celtes adoptées par l’armée romaine.",
+   "id": "t048-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec quoi les druides coupent-ils le gui, selon Pline l’Ancien ?",
+   "choix": [
+    "Une faucille d’or",
+    "Une épée de bronze",
+    "Un couteau de silex",
+    "Une hache de fer"
+   ],
+   "rep": 0,
+   "src": "Lebor Gabála Érenn ; Táin Bó Cúailnge ; Mabinogion ; J. Markale, Les Celtes ; C. Sterckx, Mythologie du monde celte",
+   "expl": "Le gui est recueilli dans un linge blanc, puis deux taureaux blancs sont sacrifiés.",
+   "id": "t048-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel poète gallois naît après qu’un garçon a goûté au chaudron de Ceridwen ?",
+   "choix": [
+    "Taliesin",
+    "Myrddin",
+    "Aneirin",
+    "Pwyll"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Gwion Bach, poursuivi par la sorcière, est avalé puis renaît sous ce nom.",
+   "id": "t048-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel château Arthur est-il conçu, grâce à un sortilège de Merlin ?",
+   "choix": [
+    "Tintagel",
+    "Camelot",
+    "Caerleon",
+    "Carlisle"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Uther y prend l’apparence du duc de Cornouailles pour rejoindre Ygraine.",
+   "id": "t048-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Qui rend Excalibur au lac à la mort d’Arthur ?",
+   "choix": [
+    "Bedivere",
+    "Gauvain",
+    "Keu",
+    "Lancelot"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Il hésite deux fois avant d’obéir ; une main sort de l’eau pour saisir l’épée.",
+   "id": "t048-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel chevalier est l’amant de la reine Guenièvre ?",
+   "choix": [
+    "Lancelot",
+    "Gauvain",
+    "Perceval",
+    "Tristan"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Leur amour provoque la division de la Table ronde.",
+   "id": "t048-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui élève Lancelot dans son domaine sous les eaux ?",
+   "choix": [
+    "La Dame du Lac",
+    "Morgane",
+    "Ygraine",
+    "Guenièvre"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "C’est de là que vient son surnom de « Lancelot du Lac ».",
+   "id": "t048-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chevalier, fils de Lancelot, achève la quête du Graal ?",
+   "choix": [
+    "Galaad",
+    "Perceval",
+    "Bohort",
+    "Gauvain"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Il est le seul à pouvoir s’asseoir sans danger sur le Siège Périlleux.",
+   "id": "t048-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Qui tue le roi Arthur à la bataille de Camlann ?",
+   "choix": [
+    "Mordred",
+    "Lancelot",
+    "Méléagant",
+    "Agravain"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Arthur le tue aussi, mais reçoit une blessure mortelle.",
+   "id": "t048-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle île Arthur est-il emporté après sa dernière bataille ?",
+   "choix": [
+    "Avalon",
+    "Tír na nÓg",
+    "Lyonesse",
+    "Ys"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Selon la légende, il y attend l’heure de revenir.",
+   "id": "t048-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chevalier voit sa force croître jusqu’à midi, avec le soleil ?",
+   "choix": [
+    "Gauvain",
+    "Lancelot",
+    "Keu",
+    "Perceval"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Il est aussi le héros de Sire Gauvain et le Chevalier Vert.",
+   "id": "t048-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel auteur champenois du 12e siècle écrit Le Conte du Graal ?",
+   "choix": [
+    "Chrétien de Troyes",
+    "Robert de Boron",
+    "Marie de France",
+    "Wace"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Le roman, consacré à Perceval, reste inachevé.",
+   "id": "t048-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi gardien du Graal souffre d’une blessure qui ne guérit pas ?",
+   "choix": [
+    "Le Roi Pêcheur",
+    "Le roi Pellès",
+    "Le roi Marc",
+    "Le roi Ban"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Sa terre est stérile tant qu’il n’est pas guéri.",
+   "id": "t048-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle fée enferme Merlin pour toujours, dans certaines versions ?",
+   "choix": [
+    "Viviane",
+    "Morgane",
+    "Ygraine",
+    "Iseult"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Elle utilise un charme qu’il lui a lui-même enseigné.",
+   "id": "t048-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel philtre lie à jamais Tristan et Iseult ?",
+   "choix": [
+    "Un philtre d’amour",
+    "Un philtre d’oubli",
+    "Un philtre de jeunesse",
+    "Un philtre de sommeil"
+   ],
+   "rep": 0,
+   "src": "Geoffroy de Monmouth, Historia regum Britanniae (vers 1136) ; Chrétien de Troyes ; Thomas Malory, Le Morte d’Arthur (1485)",
+   "expl": "Il était destiné à Iseult et à son futur époux, le roi Marc.",
+   "id": "t048-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Anubis a une tête de chacal.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Les chacals rôdaient autour des nécropoles, d’où ce choix protecteur.",
+   "id": "t048-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Égyptiens retiraient le cerveau du défunt avant la momification.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Ils l’extrayaient souvent par le nez, à l’aide d’un crochet.",
+   "id": "t048-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Bastet est une déesse crocodile.",
+   "rep": false,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Faux : elle a la forme d’une chatte ; le crocodile est Sobek.",
+   "id": "t048-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le corps d’Osiris est découpé et dispersé par Seth.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Isis retrouve les morceaux à travers toute l’Égypte.",
+   "id": "t048-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Horus est représenté avec une tête de faucon.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Ses yeux sont le soleil et la lune ; le pharaon est son incarnation vivante.",
+   "id": "t048-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Akhénaton impose le culte du dieu Amon.",
+   "rep": false,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Faux : il impose Aton et ferme les temples d’Amon.",
+   "id": "t048-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La momification durait environ soixante-dix jours.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Le corps séchait d’abord quarante jours dans le natron.",
+   "id": "t048-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Nuada perd une main lors de la première bataille de Mag Tuired.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Le médecin Dian Cecht lui fabrique une main d’argent.",
+   "id": "t048-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Lug est le grand-père de Balor.",
+   "rep": false,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Faux : c’est l’inverse, Balor est le grand-père de Lug.",
+   "id": "t048-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Cúchulainn se transforme en monstre furieux au combat.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "On appelle ce spasme le ríastrad : ses muscles se tordent et sa chevelure flamboie.",
+   "id": "t048-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le gui était sacré pour les druides.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Il pousse rarement sur le chêne, ce qui le rend précieux.",
+   "id": "t048-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Oisín reste jeune après son retour en Irlande.",
+   "rep": false,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Faux : il vieillit de trois siècles en touchant le sol.",
+   "id": "t048-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Excalibur est toujours l’épée tirée de la pierre, dans toutes les versions.",
+   "rep": false,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Faux : chez Malory, elle est donnée par la Dame du Lac, la première épée s’étant brisée.",
+   "id": "t048-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Galaad est le fils de Lancelot et d’Élaine.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Lancelot est trompé par un enchantement qui lui fait croire qu’Élaine est Guenièvre.",
+   "id": "t048-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Mordred est un allié fidèle d’Arthur.",
+   "rep": false,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Faux : il usurpe le trône et la reine pendant l’absence du roi.",
+   "id": "t048-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Perceval est le héros du Conte du Graal de Chrétien de Troyes.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Il ne pose pas la question qui aurait guéri le Roi Pêcheur.",
+   "id": "t048-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Sobek est représenté avec une tête de faucon.",
+   "rep": false,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Faux : Sobek a une tête de crocodile ; le faucon est l’animal d’Horus.",
+   "id": "t048-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Merlin est né d’une mère mortelle et d’un démon.",
+   "rep": true,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Il hérite de son père la connaissance du passé, et de Dieu celle de l’avenir.",
+   "id": "t048-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Tristan et Iseult s’aiment sans aucun obstacle.",
+   "rep": false,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "Faux : Iseult est l’épouse du roi Marc, l’oncle de Tristan.",
+   "id": "t048-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de jours durait une momification complète ?",
+   "rep": 70,
+   "min": 10,
+   "max": 200,
+   "pas": 5,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "Ce délai correspond aussi à la disparition de l’étoile Sirius.",
+   "id": "t048-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de fils d’Horus protègent les vases canopes ?",
+   "rep": 4,
+   "min": 2,
+   "max": 8,
+   "pas": 1,
+   "unite": "fils",
+   "tolerance": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "Amset, Hâpy, Douamoutef et Qébehsénouf, chacun lié à un point cardinal.",
+   "id": "t048-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En combien de morceaux Seth découpe-t-il Osiris, selon Plutarque ?",
+   "rep": 14,
+   "min": 4,
+   "max": 30,
+   "pas": 1,
+   "unite": "morceaux",
+   "tolerance": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "Isis en retrouve treize ; le dernier a été mangé par un poisson.",
+   "id": "t048-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’années les enfants de Lir restent-ils cygnes ?",
+   "rep": 900,
+   "min": 100,
+   "max": 1000,
+   "pas": 50,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "Trois périodes de trois cents ans, en trois lieux différents.",
+   "id": "t048-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de trésors les Tuatha Dé Danann apportent-ils en Irlande ?",
+   "rep": 4,
+   "min": 2,
+   "max": 9,
+   "pas": 1,
+   "unite": "trésors",
+   "tolerance": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "La pierre de Fál, la lance de Lug, l’épée de Nuada et le chaudron du Dagda.",
+   "id": "t048-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien d’années Oisín passe-t-il au Tír na nÓg ?",
+   "rep": 300,
+   "min": 10,
+   "max": 500,
+   "pas": 10,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "Pour lui, il ne s’est écoulé que trois ans.",
+   "id": "t048-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Vers quelle année Geoffroy de Monmouth écrit-il son Histoire des rois de Bretagne ?",
+   "rep": 1136,
+   "min": 900,
+   "max": 1400,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 4,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "Il fait d’Arthur un grand roi conquérant de l’Europe.",
+   "id": "t048-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît Le Morte d’Arthur de Thomas Malory ?",
+   "rep": 1485,
+   "min": 1300,
+   "max": 1600,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "Il est imprimé par William Caxton, l’un des premiers imprimeurs anglais.",
+   "id": "t048-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de chevaliers achèvent la quête du Graal chez Malory ?",
+   "rep": 3,
+   "min": 1,
+   "max": 12,
+   "pas": 1,
+   "unite": "chevaliers",
+   "tolerance": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais ; romans arthuriens",
+   "expl": "Galaad, Perceval et Bohort ; seul Bohort revient à Camelot.",
+   "id": "t048-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le dieu égyptien à tête de chacal s’appelle ____.",
+   "choix": [
+    "Anubis",
+    "Thot",
+    "Horus",
+    "Sobek"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Il pèse le cœur du défunt et surveille la balance.",
+   "id": "t048-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La déesse de la vérité et de l’ordre du monde s’appelle ____.",
+   "choix": [
+    "Maât",
+    "Isis",
+    "Nout",
+    "Mout"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Elle porte une plume d’autruche sur la tête.",
+   "id": "t048-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le serpent ennemi du soleil s’appelle ____.",
+   "choix": [
+    "Apophis",
+    "Sobek",
+    "Seth",
+    "Khépri"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Seth lui-même aide parfois Rê à le combattre depuis la proue de la barque.",
+   "id": "t048-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’œil d’Horus, symbole de protection, s’appelle l’____.",
+   "choix": [
+    "oudjat",
+    "ankh",
+    "djed",
+    "ba"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "On le peignait sur les bateaux et les amulettes.",
+   "id": "t048-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La croix ansée, symbole de vie, s’appelle l’____.",
+   "choix": [
+    "ankh",
+    "oudjat",
+    "djed",
+    "shen"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Les dieux la tendent souvent vers le nez du pharaon, pour lui donner le souffle.",
+   "id": "t048-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les vases qui contiennent les organes du défunt s’appellent les vases ____.",
+   "choix": [
+    "canopes",
+    "funéraires",
+    "sacrés",
+    "royaux"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Leurs couvercles représentent souvent les quatre fils d’Horus.",
+   "id": "t048-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le roi irlandais à la main d’argent s’appelle ____.",
+   "choix": [
+    "Nuada",
+    "Balor",
+    "Bres",
+    "Lug"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Il meurt plus tard sous les coups de Balor, lors de la seconde bataille de Mag Tuired.",
+   "id": "t048-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le peuple divin irlandais s’appelle les Tuatha Dé ____.",
+   "choix": [
+    "Danann",
+    "Gallia",
+    "Mór",
+    "Fomoire"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Leur nom signifie « peuples de la déesse Danu ».",
+   "id": "t048-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le héros irlandais nommé d’après un chien s’appelle ____.",
+   "choix": [
+    "Cúchulainn",
+    "Fionn",
+    "Oisín",
+    "Conchobar"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Il meurt attaché à un pilier pour mourir debout.",
+   "id": "t048-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’épée du roi Arthur s’appelle ____.",
+   "choix": [
+    "Excalibur",
+    "Durandal",
+    "Joyeuse",
+    "Gram"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Son fourreau protège aussi son porteur de toute blessure.",
+   "id": "t048-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La reine épouse d’Arthur s’appelle ____.",
+   "choix": [
+    "Guenièvre",
+    "Iseult",
+    "Morgane",
+    "Ygraine"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Elle se retire dans un couvent après la chute de Camelot.",
+   "id": "t048-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’île où Arthur repose s’appelle ____.",
+   "choix": [
+    "Avalon",
+    "Tintagel",
+    "Lyonesse",
+    "Erin"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Son nom évoque les pommes ; on l’associe parfois à Glastonbury.",
+   "id": "t048-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Le siège réservé au chevalier qui trouvera le Graal s’appelle le Siège ____.",
+   "choix": [
+    "Périlleux",
+    "Sacré",
+    "Royal",
+    "Éternel"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Tout autre chevalier qui s’y assoit est foudroyé.",
+   "id": "t048-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces dieux n’est pas égyptien ?",
+   "choix": [
+    "Lug",
+    "Thot",
+    "Anubis",
+    "Sobek"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Lug est un dieu irlandais, vainqueur de Balor.",
+   "id": "t048-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces organes n’est pas conservé dans un vase canope ?",
+   "choix": [
+    "Le cœur",
+    "Le foie",
+    "Les poumons",
+    "L’estomac"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Le cœur reste dans le corps pour être pesé au jugement.",
+   "id": "t048-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces déesses n’a pas une forme féline ?",
+   "choix": [
+    "Hathor",
+    "Bastet",
+    "Sekhmet",
+    "Mafdet"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Hathor est liée à la vache, et non au chat ou au lion.",
+   "id": "t048-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces trésors n’appartient pas aux Tuatha Dé Danann ?",
+   "choix": [
+    "Le Graal",
+    "La pierre de Fál",
+    "La lance de Lug",
+    "Le chaudron du Dagda"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Le Graal appartient à la légende arthurienne.",
+   "id": "t048-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas irlandais ?",
+   "choix": [
+    "Taliesin",
+    "Cúchulainn",
+    "Fionn",
+    "Oisín"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Taliesin est un poète gallois, né du chaudron de Ceridwen.",
+   "id": "t048-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas gaulois ?",
+   "choix": [
+    "Dagda",
+    "Cernunnos",
+    "Taranis",
+    "Épona"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Le Dagda est un dieu irlandais, père de nombreux Tuatha Dé Danann.",
+   "id": "t048-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces chevaliers n’achève pas la quête du Graal chez Malory ?",
+   "choix": [
+    "Lancelot",
+    "Galaad",
+    "Perceval",
+    "Bohort"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Lancelot n’aperçoit le Graal qu’en rêve, à cause de son amour coupable.",
+   "id": "t048-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un chevalier de la Table ronde ?",
+   "choix": [
+    "Uther Pendragon",
+    "Gauvain",
+    "Keu",
+    "Bedivere"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Uther est le père d’Arthur, roi avant lui.",
+   "id": "t048-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces auteurs n’a pas écrit sur Arthur ?",
+   "choix": [
+    "Homère",
+    "Chrétien de Troyes",
+    "Thomas Malory",
+    "Geoffroy de Monmouth"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Homère est le poète grec de l’Iliade et de l’Odyssée.",
+   "id": "t048-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces femmes n’est pas une fée ou une enchanteresse arthurienne ?",
+   "choix": [
+    "Guenièvre",
+    "Morgane",
+    "Viviane",
+    "Nimue"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Guenièvre est la reine, sans pouvoirs magiques.",
+   "id": "t048-099",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux n’appartient pas à la légende arthurienne ?",
+   "choix": [
+    "Tara",
+    "Camelot",
+    "Tintagel",
+    "Brocéliande"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Tara est la colline royale des rois d’Irlande.",
+   "id": "t048-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels dieux sont égyptiens ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Anubis",
+    "Thot",
+    "Bastet",
+    "Sobek",
+    "Lug",
+    "Cernunnos"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Lug et Cernunnos sont des dieux celtes, irlandais et gaulois.",
+   "id": "t048-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages assistent à la pesée du cœur ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Anubis",
+    "Thot",
+    "Ammit",
+    "Osiris",
+    "Bastet",
+    "Sobek"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Osiris préside le tribunal des morts, entouré de quarante-deux juges.",
+   "id": "t048-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels trésors apportent les Tuatha Dé Danann ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pierre de Fál",
+    "Lance de Lug",
+    "Épée de Nuada",
+    "Chaudron du Dagda",
+    "Excalibur",
+    "Graal"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Ces quatre objets viennent de quatre cités merveilleuses du nord.",
+   "id": "t048-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels héros appartiennent aux récits irlandais ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cúchulainn",
+    "Fionn mac Cumhaill",
+    "Oisín",
+    "Lancelot",
+    "Gauvain"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Oisín est le fils de Fionn et un grand poète.",
+   "id": "t048-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels dieux sont gaulois ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cernunnos",
+    "Taranis",
+    "Teutatès",
+    "Épona",
+    "Dagda",
+    "Nuada"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Le Dagda et Nuada sont des dieux irlandais.",
+   "id": "t048-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels chevaliers appartiennent à la Table ronde ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lancelot",
+    "Gauvain",
+    "Perceval",
+    "Galaad",
+    "Roland",
+    "Olivier"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Roland et Olivier sont des paladins de Charlemagne.",
+   "id": "t048-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages sont des femmes de la légende arthurienne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Guenièvre",
+    "Morgane",
+    "Viviane",
+    "Ygraine",
+    "Brigid",
+    "Épona"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Brigid et Épona sont des déesses celtes.",
+   "id": "t048-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels animaux sont liés à des dieux égyptiens ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Chacal",
+    "Ibis",
+    "Faucon",
+    "Crocodile",
+    "Loup",
+    "Aigle"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Anubis, Thot, Horus et Sobek prennent ces formes.",
+   "id": "t048-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels auteurs ont écrit sur Arthur ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Geoffroy de Monmouth",
+    "Chrétien de Troyes",
+    "Thomas Malory",
+    "Robert de Boron",
+    "Snorri Sturluson",
+    "Plutarque"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Robert de Boron relie le Graal au sang du Christ.",
+   "id": "t048-109",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels lieux appartiennent à la légende arthurienne ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Camelot",
+    "Avalon",
+    "Brocéliande",
+    "Tintagel",
+    "Tara",
+    "Bubastis"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Brocéliande est située en Bretagne, autour de la forêt de Paimpont.",
+   "id": "t048-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la vie d’Arthur dans l’ordre.",
+   "items": [
+    "Conception à Tintagel",
+    "Épée tirée de la pierre",
+    "Fondation de la Table ronde",
+    "Bataille de Camlann"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Arthur est ensuite emmené à Avalon pour y guérir de ses blessures.",
+   "id": "t048-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du jugement des morts égyptien dans l’ordre.",
+   "items": [
+    "Arrivée dans la salle du jugement",
+    "Confession négative",
+    "Pesée du cœur",
+    "Verdict d’Osiris"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Le défunt affirme devant les juges ne pas avoir commis une longue liste de fautes.",
+   "id": "t048-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la momification dans l’ordre.",
+   "items": [
+    "Retrait des organes",
+    "Séchage dans le natron",
+    "Bandelettes",
+    "Mise au tombeau"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Des amulettes sont glissées entre les bandelettes.",
+   "id": "t048-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du mythe d’Osiris dans l’ordre, selon Plutarque.",
+   "items": [
+    "Coffre jeté au Nil",
+    "Isis retrouve le corps",
+    "Seth le découpe",
+    "Isis rassemble les morceaux"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Seth retrouve le corps caché par Isis et le disperse à travers l’Égypte.",
+   "id": "t048-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces moments de la course du soleil égyptien par ordre chronologique, du matin à la nuit.",
+   "items": [
+    "Khépri au lever",
+    "Rê à midi",
+    "Atoum au coucher",
+    "Traversée de la Douat"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Le soleil change de nom selon l’heure de la journée.",
+   "id": "t048-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la vie de Cúchulainn dans l’ordre.",
+   "items": [
+    "Il tue le chien de Culann",
+    "Il défend l’Ulster seul",
+    "Il meurt attaché à un pilier"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "La Morrígan, en corneille, se pose sur son épaule quand il meurt.",
+   "id": "t048-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de l’histoire d’Oisín dans l’ordre.",
+   "items": [
+    "Rencontre avec la fée Niamh",
+    "Séjour au Tír na nÓg",
+    "Retour en Irlande",
+    "Il vieillit d’un coup"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Il tombe de cheval en aidant des hommes à soulever une pierre.",
+   "id": "t048-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces auteurs arthuriens par ordre chronologique.",
+   "items": [
+    "Geoffroy de Monmouth",
+    "Chrétien de Troyes",
+    "Thomas Malory"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Du 12e au 15e siècle, la légende ne cesse de s’enrichir.",
+   "id": "t048-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la fin d’Arthur dans l’ordre.",
+   "items": [
+    "Lancelot est banni",
+    "Mordred usurpe le trône",
+    "Bataille de Camlann",
+    "Excalibur est rendue au lac"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Arthur part ensuite vers Avalon sur une barque.",
+   "id": "t048-119",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du mythe de Taliesin dans l’ordre.",
+   "items": [
+    "Ceridwen prépare un breuvage",
+    "Gwion Bach en goûte trois gouttes",
+    "Poursuite et métamorphoses",
+    "Renaissance en Taliesin"
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Ceridwen, changée en poule, avale Gwion devenu grain de blé.",
+   "id": "t048-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque dieu égyptien à son animal.",
+   "paires": [
+    [
+     "Anubis",
+     "Chacal"
+    ],
+    [
+     "Thot",
+     "Ibis"
+    ],
+    [
+     "Sobek",
+     "Crocodile"
+    ],
+    [
+     "Bastet",
+     "Chatte"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Les animaux sacrés étaient parfois momifiés par millions.",
+   "id": "t048-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque fils d’Horus à l’organe qu’il protège.",
+   "paires": [
+    [
+     "Amset",
+     "Foie"
+    ],
+    [
+     "Hâpy",
+     "Poumons"
+    ],
+    [
+     "Douamoutef",
+     "Estomac"
+    ],
+    [
+     "Qébehsénouf",
+     "Intestins"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Chacun a une tête différente : homme, babouin, chacal et faucon.",
+   "id": "t048-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque trésor irlandais à son propriétaire.",
+   "paires": [
+    [
+     "Lance",
+     "Lug"
+    ],
+    [
+     "Épée",
+     "Nuada"
+    ],
+    [
+     "Chaudron",
+     "Dagda"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "La pierre de Fál, elle, appartient à toute la royauté.",
+   "id": "t048-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque héros irlandais à son exploit.",
+   "paires": [
+    [
+     "Cúchulainn",
+     "Défendre l’Ulster"
+    ],
+    [
+     "Fionn",
+     "Goûter le saumon"
+    ],
+    [
+     "Lug",
+     "Tuer Balor"
+    ],
+    [
+     "Oisín",
+     "Partir au Tír na nÓg"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Ces récits forment le cœur de la littérature irlandaise ancienne.",
+   "id": "t048-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque dieu gaulois à son attribut.",
+   "paires": [
+    [
+     "Cernunnos",
+     "Bois de cerf"
+    ],
+    [
+     "Taranis",
+     "Roue"
+    ],
+    [
+     "Épona",
+     "Cheval"
+    ],
+    [
+     "Ésus",
+     "Arbre et serpe"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Le poète Lucain cite Teutatès, Ésus et Taranis comme dieux sanguinaires.",
+   "id": "t048-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque chevalier à sa particularité.",
+   "paires": [
+    [
+     "Gauvain",
+     "Force solaire"
+    ],
+    [
+     "Galaad",
+     "Pureté"
+    ],
+    [
+     "Lancelot",
+     "Amour pour la reine"
+    ],
+    [
+     "Keu",
+     "Sénéchal moqueur"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Chaque chevalier incarne une vertu ou une faiblesse.",
+   "id": "t048-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque œuvre à son auteur.",
+   "paires": [
+    [
+     "Historia regum Britanniae",
+     "Geoffroy de Monmouth"
+    ],
+    [
+     "Le Conte du Graal",
+     "Chrétien de Troyes"
+    ],
+    [
+     "Le Morte d’Arthur",
+     "Thomas Malory"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Malory rassemble les récits français en un seul grand livre anglais.",
+   "id": "t048-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque femme à son rôle.",
+   "paires": [
+    [
+     "Ygraine",
+     "Mère d’Arthur"
+    ],
+    [
+     "Guenièvre",
+     "Épouse d’Arthur"
+    ],
+    [
+     "Morgane",
+     "Demi-sœur d’Arthur"
+    ],
+    [
+     "Viviane",
+     "Dame du Lac"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Les femmes de la légende jouent souvent un rôle décisif.",
+   "id": "t048-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque héros à celle qu’il aime.",
+   "paires": [
+    [
+     "Tristan",
+     "Iseult"
+    ],
+    [
+     "Lancelot",
+     "Guenièvre"
+    ],
+    [
+     "Uther",
+     "Ygraine"
+    ],
+    [
+     "Oisín",
+     "Niamh"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Ces amours, souvent interdites, font avancer les récits.",
+   "id": "t048-129",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque divinité égyptienne à son domaine.",
+   "paires": [
+    [
+     "Thot",
+     "Écriture"
+    ],
+    [
+     "Maât",
+     "Vérité"
+    ],
+    [
+     "Sekhmet",
+     "Fureur"
+    ],
+    [
+     "Hathor",
+     "Musique et amour"
+    ]
+   ],
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Les dieux égyptiens ont souvent plusieurs fonctions.",
+   "id": "t048-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’ai une tête d’ibis\n3. J’ai inventé l’écriture",
+   "choix": [
+    "Thot",
+    "Anubis",
+    "Horus",
+    "Ptah"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Les Grecs m’ont assimilé à Hermès, d’où le nom d’Hermès Trismégiste.",
+   "id": "t048-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une déesse\n2. Je suis une lionne\n3. J’ai failli détruire l’humanité",
+   "choix": [
+    "Sekhmet",
+    "Bastet",
+    "Hathor",
+    "Neith"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Rê m’a apaisée avec de la bière teinte en rouge, que j’ai bue jusqu’à l’ivresse.",
+   "id": "t048-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un scarabée\n2. Je fais rouler le soleil\n3. Je suis le matin",
+   "choix": [
+    "Khépri",
+    "Atoum",
+    "Rê",
+    "Amon"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Mon nom évoque l’idée de « devenir », car le soleil renaît chaque matin.",
+   "id": "t048-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’ai une main d’argent\n3. Je suis roi des Tuatha Dé Danann",
+   "choix": [
+    "Nuada",
+    "Lug",
+    "Dagda",
+    "Bres"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Mon épée, l’un des quatre trésors, ne laisse échapper personne.",
+   "id": "t048-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un géant\n2. Mon œil tue\n3. Mon petit-fils me l’a crevé",
+   "choix": [
+    "Balor",
+    "Bres",
+    "Ymir",
+    "Polyphème"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Je suis le chef des Fomoires, ennemis des Tuatha Dé Danann.",
+   "id": "t048-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un héros\n2. J’ai tué un chien\n3. J’ai défendu l’Ulster seul",
+   "choix": [
+    "Cúchulainn",
+    "Fionn",
+    "Conall",
+    "Ferdiad"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "J’ai dû tuer mon ami Ferdiad en combat singulier.",
+   "id": "t048-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un dieu\n2. J’ai des bois de cerf\n3. Je figure sur un chaudron",
+   "choix": [
+    "Cernunnos",
+    "Taranis",
+    "Lug",
+    "Ésus"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "On me retrouve aussi sur le pilier des Nautes, à Paris.",
+   "id": "t048-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une épée\n2. Une dame du lac m’a donnée\n3. On m’a rendue aux eaux",
+   "choix": [
+    "Excalibur",
+    "Durandal",
+    "Joyeuse",
+    "Clarent"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Mon fourreau valait encore plus que moi, selon Merlin.",
+   "id": "t048-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un chevalier\n2. Je suis le fils de Lancelot\n3. J’ai trouvé le Graal",
+   "choix": [
+    "Galaad",
+    "Perceval",
+    "Bohort",
+    "Gauvain"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Je meurs en extase, après avoir contemplé le Graal.",
+   "id": "t048-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une fée\n2. Je suis la demi-sœur d’Arthur\n3. Je l’emporte à Avalon",
+   "choix": [
+    "Morgane",
+    "Viviane",
+    "Guenièvre",
+    "Ygraine"
+   ],
+   "rep": 0,
+   "src": "Livre des Morts ; Plutarque ; récits irlandais et gallois ; romans arthuriens",
+   "expl": "Je suis tantôt ennemie, tantôt protectrice du roi.",
+   "id": "t048-140",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}

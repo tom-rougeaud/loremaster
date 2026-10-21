@@ -12,13 +12,13 @@ V2 Un artefact ne peut généralement être détruit que d’une manière bien p
 V1 Une épée longue +1 est un objet magique rare. | F
 = Faux : une arme +1 est peu commune ; +2 est rare et +3 très rare.
 % Player’s Handbook 5e (2014), chap. 5 « Équipement »
-V2 Argenter une arme coûte 100 po de plus. | V
+V1 Argenter une arme coûte 100 po de plus. | V
 = Vrai : l’argent blesse certains lycanthropes et fiélons insensibles aux armes ordinaires.
 V1 Les pièces d’électrum valent plus que les pièces d’or. | F
 = Faux : une pièce d’électrum vaut une demi-pièce d’or, soit 5 pièces d’argent.
 V1 Une pièce de platine vaut dix pièces d’or. | V
 = Vrai : c’est la plus précieuse des cinq pièces du Manuel des Joueurs.
-V2 Le Guide du Maître 5e ne propose aucun objet magique commun. | F
+V1 Le Guide du Maître 5e ne propose aucun objet magique commun. | F
 = Faux : la potion de soins est un objet commun ; Xanathar en ajoute beaucoup d’autres, souvent amusants.
 V2 Certains objets magiques sont doués de conscience et poursuivent leurs propres buts. | V
 = Vrai : un objet conscient a des valeurs d’Intelligence, de Sagesse et de Charisme, et peut entrer en conflit avec son porteur.
@@ -28,11 +28,11 @@ V2 Pour lancer un sort depuis un parchemin sans test, il suffit que ce sort figu
 = Vrai : il faut aussi pouvoir lancer des sorts de ce niveau, sinon un test de caractéristique est nécessaire.
 V2 On peut lancer depuis un parchemin n’importe quel sort, même absent de la liste de sa classe. | F
 = Faux : le sort doit appartenir à la liste de sa classe ; sinon le parchemin est illisible.
-V2 Une carte du Deck of Many Things peut accorder des souhaits. | V
+V1 Une carte du Deck of Many Things peut accorder des souhaits. | V
 = Vrai : la Lune accorde de 1 à 3 souhaits ; d’autres cartes peuvent au contraire tout faire perdre.
 V1 Une potion de soins rend toujours le même nombre de points de vie. | F
 = Faux : on lance des dés : 2d4 + 2 pour une potion de soins ordinaire.
-V2 Un objet maudit peut empêcher son porteur de s’en séparer. | V
+V1 Un objet maudit peut empêcher son porteur de s’en séparer. | V
 = Vrai : la hache du berserker, par exemple, ne se laisse pas lâcher tant que la malédiction n’est pas levée.
 V2 Les gantelets de puissance d’ogre augmentent la Force même si elle dépasse déjà 19. | F
 = Faux : ils fixent la Force à 19 et n’ont aucun effet si elle est déjà supérieure ou égale.
@@ -41,14 +41,14 @@ S3 Combien de livres (VO) un sac sans fond peut-il contenir ? | 500 | 100 | 1000
 S3 Combien de livres (VO) un bâton inamovible peut-il supporter avant de céder ? | 8000 | 1000 | 10000 | 500 | 0 | livres
 = Environ 4 tonnes ; au-delà, il se désactive et tombe.
 % Player’s Handbook 5e (2014), chap. 5
-S2 Combien de pièces de monnaie pèsent une livre (VO) dans D&D 5e ? | 50 | 10 | 100 | 10 | 0 | pièces
+S3 Combien de pièces de monnaie pèsent une livre (VO) dans D&D 5e ? | 50 | 10 | 100 | 10 | 0 | pièces
 = Un trésor de 5 000 pièces pèse donc 100 livres : de quoi poser des problèmes de transport.
-S2 Combien coûte un harnois dans le Manuel des Joueurs ? | 1500 | 100 | 3000 | 100 | 0 | po
+S3 Combien coûte un harnois dans le Manuel des Joueurs ? | 1500 | 100 | 3000 | 100 | 0 | po
 = C’est l’armure la plus chère du Manuel des Joueurs : un objectif pour bien des guerriers débutants.
 S1 Combien coûte une potion de soins dans le Manuel des Joueurs ? | 50 | 5 | 200 | 5 | 0 | po
 = C’est le seul objet magique vendu dans la liste d’équipement du Manuel des Joueurs.
 % Dungeon Master’s Guide 5e (2014), chap. 7
-S2 Combien de charges possède un Staff of the Magi (bâton de thaumaturge) ? | 50 | 10 | 100 | 5 | 0 | charges
+S3 Combien de charges possède un Staff of the Magi (bâton de thaumaturge) ? | 50 | 10 | 100 | 5 | 0 | charges
 = Il regagne 4d6 + 2 charges par jour ; le briser déclenche une explosion terrible.
 S2 Combien de cartes compte la version complète du Deck of Many Things ? | 22 | 10 | 40 | 1 | 0 | cartes
 = La version courante n’en compte que 13 ; le MJ choisit laquelle utiliser.

@@ -2,58 +2,58 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**47 / 99 thèmes terminés — 6363 questions au total.**
+**48 / 99 thèmes terminés — 6503 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Dragons chromatiques et métalliques | 140 | 51 | 19 (10) | 16 | 8 | 11 | 11 | 8 | 9 | 7 | 50 % | 32/75/33 | 81 | terminé |
-| 2 | Morts-vivants | 141 | 50 | 17 (9) | 18 | 11 | 11 | 11 | 8 | 8 | 7 | 48 % | 25/79/37 | 57 | terminé |
-| 3 | Démons et diables | 148 | 59 | 17 (9) | 18 | 10 | 11 | 11 | 8 | 8 | 6 | 51 % | 17/84/47 | 79 | terminé |
-| 4 | Géants | 140 | 48 | 17 (8) | 18 | 11 | 11 | 12 | 8 | 8 | 7 | 46 % | 16/78/46 | 50 | terminé |
-| 5 | Aberrations | 140 | 52 | 16 (7) | 16 | 9 | 11 | 11 | 8 | 8 | 9 | 49 % | 19/72/49 | 50 | terminé |
-| 6 | Fées, sylvains et créatures des bois | 140 | 52 | 16 (8) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 49 % | 17/75/48 | 64 | terminé |
-| 7 | Gobelinoïdes et humanoïdes | 140 | 54 | 17 (8) | 12 | 10 | 11 | 11 | 8 | 8 | 9 | 51 % | 21/85/34 | 43 | terminé |
-| 8 | Monstres de donjon | 140 | 48 | 19 (9) | 14 | 10 | 11 | 12 | 9 | 9 | 8 | 48 % | 20/86/34 | 33 | terminé |
-| 9 | Élémentaires et créatures planaires | 140 | 51 | 17 (8) | 13 | 9 | 11 | 12 | 9 | 9 | 9 | 49 % | 19/66/55 | 40 | terminé |
-| 10 | Lycanthropes et métamorphes | 140 | 46 | 16 (7) | 18 | 10 | 12 | 12 | 9 | 9 | 8 | 44 % | 16/73/51 | 41 | terminé |
-| 11 | Créatures marines et aquatiques | 141 | 56 | 16 (8) | 13 | 10 | 11 | 11 | 8 | 8 | 8 | 51 % | 17/78/46 | 56 | terminé |
-| 12 | Bêtes et monstruosités | 141 | 56 | 16 (8) | 14 | 9 | 11 | 11 | 8 | 8 | 8 | 51 % | 19/83/39 | 63 | terminé |
-| 13 | Golems, constructions et animés | 140 | 50 | 16 (7) | 14 | 11 | 11 | 11 | 10 | 9 | 8 | 47 % | 14/75/51 | 34 | terminé |
-| 14 | L’art du Maître du Jeu | 141 | 49 | 18 (9) | 8 | 14 | 11 | 10 | 10 | 10 | 11 | 48 % | 28/86/27 | 71 | terminé |
-| 15 | Races jouables et peuples d’aventuriers | 141 | 44 | 19 (11) | 8 | 14 | 12 | 12 | 10 | 10 | 12 | 45 % | 11/97/33 | 34 | terminé |
-| 16 | Classes de personnage et archétypes | 142 | 44 | 16 (9) | 8 | 18 | 11 | 12 | 12 | 11 | 10 | 42 % | 11/94/37 | 6 | terminé |
-| 17 | Sorts célèbres et écoles de magie | 141 | 44 | 21 (12) | 11 | 15 | 11 | 11 | 10 | 9 | 9 | 46 % | 10/95/36 | 8 | terminé |
-| 18 | Dés, caractéristiques et mécaniques | 141 | 49 | 19 (10) | 9 | 12 | 10 | 11 | 10 | 10 | 11 | 48 % | 26/82/33 | 39 | terminé |
-| 19 | Dieux, panthéons et plans d’existence | 144 | 51 | 18 (9) | 9 | 12 | 11 | 10 | 10 | 10 | 13 | 48 % | 20/95/29 | 57 | terminé |
-| 20 | Royaumes Oubliés (Faerûn) | 141 | 49 | 19 (10) | 8 | 12 | 11 | 10 | 10 | 10 | 12 | 48 % | 22/98/21 | 67 | terminé |
-| 21 | Objets magiques, trésors et équipement | 141 | 50 | 18 (9) | 8 | 13 | 11 | 10 | 10 | 10 | 11 | 48 % | 24/103/14 | 14 | terminé |
-| 22 | Histoire de D&D et campagnes célèbres | 140 | 45 | 20 (10) | 9 | 15 | 10 | 10 | 10 | 10 | 11 | 46 % | 24/95/21 | 83 | terminé |
-| 23 | L’Histoire d’Arda (Silmarillion, grands Âges) | 143 | 50 | 18 (9) | 9 | 14 | 11 | 10 | 10 | 10 | 11 | 48 % | 21/93/29 | 13 | terminé |
-| 24 | Tolkien : thèmes et philosophie | 140 | 49 | 19 (10) | 8 | 12 | 11 | 10 | 10 | 10 | 11 | 49 % | 26/91/23 | 44 | terminé |
-| 25 | Le Hobbit et Le Seigneur des Anneaux | 142 | 49 | 19 (10) | 9 | 13 | 10 | 10 | 10 | 10 | 12 | 48 % | 36/91/15 | 6 | terminé |
-| 26 | Géographie de la Terre du Milieu | 140 | 51 | 18 (9) | 7 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 34/82/24 | 5 | terminé |
-| 27 | Peuples Libres et forces de l’Ombre | 140 | 51 | 18 (9) | 7 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 31/84/25 | 21 | terminé |
-| 28 | Énigmes, citations et devises de Tolkien | 129 | 49 | 16 (9) | 4 | 12 | 10 | 10 | 8 | 10 | 10 | 50 % | 16/90/23 | 24 | terminé |
-| 29 | Magie, artefacts et Anneaux de Pouvoir | 127 | 41 | 16 (8) | 7 | 13 | 10 | 10 | 9 | 10 | 11 | 45 % | 23/82/22 | 13 | terminé |
-| 30 | Tolkien à l’écran | 140 | 50 | 18 (9) | 8 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 30/86/24 | 18 | terminé |
-| 31 | Histoire de la magie et de Poudlard | 130 | 45 | 16 (8) | 7 | 13 | 10 | 10 | 8 | 10 | 11 | 47 % | 37/78/15 | 9 | terminé |
-| 32 | La société sorcière | 130 | 44 | 17 (9) | 8 | 12 | 10 | 10 | 8 | 10 | 11 | 47 % | 40/81/9 | 2 | terminé |
-| 33 | Sortilèges, maléfices et métamorphose | 131 | 49 | 17 (9) | 4 | 13 | 10 | 10 | 8 | 10 | 10 | 50 % | 23/97/11 | 6 | terminé |
-| 34 | Potions, alchimie et botanique magique | 130 | 50 | 16 (8) | 5 | 12 | 10 | 10 | 8 | 9 | 10 | 51 % | 17/101/12 | 6 | terminé |
-| 35 | Bestiaire magique et Animaux fantastiques | 130 | 46 | 16 (9) | 8 | 13 | 10 | 10 | 8 | 9 | 10 | 48 % | 19/103/8 | 7 | terminé |
-| 36 | Les forces du Mal (Harry Potter) | 132 | 45 | 18 (9) | 8 | 12 | 10 | 10 | 9 | 10 | 10 | 48 % | 13/103/16 | 11 | terminé |
-| 37 | Objets enchantés et secrets de Poudlard | 134 | 46 | 17 (9) | 8 | 13 | 10 | 10 | 10 | 10 | 10 | 47 % | 16/111/7 | 13 | terminé |
-| 38 | L’univers Warhammer et son histoire | 121 | 41 | 14 (7) | 8 | 12 | 10 | 10 | 10 | 8 | 8 | 45 % | 11/104/6 | 4 | terminé |
-| 39 | Le Vieux Monde (Warhammer Fantasy) | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 13/100/7 | 3 | terminé |
-| 40 | L’Imperium (Warhammer 40k) | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 14/101/5 | 3 | terminé |
-| 41 | Les Puissances de la Ruine (Chaos) | 120 | 40 | 14 (7) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 13/100/7 | 3 | terminé |
-| 42 | Xenos et peuples non humains (40k) | 120 | 40 | 14 (7) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 14/99/7 | 2 | terminé |
-| 43 | Grandes sagas et batailles de Warhammer | 120 | 40 | 14 (7) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 13/101/6 | 3 | terminé |
-| 44 | Mythes de création du monde | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 12/102/6 | 4 | terminé |
-| 45 | Les grands archétypes mythiques | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 12/102/6 | 4 | terminé |
-| 46 | Mythologie grecque (monstres et héros) | 141 | 45 | 18 (9) | 15 | 14 | 12 | 10 | 10 | 9 | 8 | 45 % | 18/111/12 | 8 | terminé |
-| 47 | Mythologie nordique | 140 | 46 | 20 (10) | 9 | 13 | 11 | 11 | 10 | 10 | 10 | 47 % | 16/116/8 | 2 | terminé |
-| 48 | Égypte, Celtes et légende arthurienne | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 2 | Morts-vivants | 141 | 50 | 17 (9) | 18 | 11 | 11 | 11 | 8 | 8 | 7 | 48 % | 28/76/37 | 57 | terminé |
+| 3 | Démons et diables | 148 | 59 | 17 (9) | 18 | 10 | 11 | 11 | 8 | 8 | 6 | 51 % | 30/71/47 | 79 | terminé |
+| 4 | Géants | 140 | 48 | 17 (8) | 18 | 11 | 11 | 12 | 8 | 8 | 7 | 46 % | 28/66/46 | 50 | terminé |
+| 5 | Aberrations | 140 | 52 | 16 (7) | 16 | 9 | 11 | 11 | 8 | 8 | 9 | 49 % | 28/63/49 | 50 | terminé |
+| 6 | Fées, sylvains et créatures des bois | 140 | 52 | 16 (8) | 18 | 12 | 11 | 11 | 8 | 8 | 4 | 49 % | 28/64/48 | 64 | terminé |
+| 7 | Gobelinoïdes et humanoïdes | 140 | 54 | 17 (8) | 12 | 10 | 11 | 11 | 8 | 8 | 9 | 51 % | 28/78/34 | 43 | terminé |
+| 8 | Monstres de donjon | 140 | 48 | 19 (9) | 14 | 10 | 11 | 12 | 9 | 9 | 8 | 48 % | 28/78/34 | 33 | terminé |
+| 9 | Élémentaires et créatures planaires | 140 | 51 | 17 (8) | 13 | 9 | 11 | 12 | 9 | 9 | 9 | 49 % | 28/57/55 | 40 | terminé |
+| 10 | Lycanthropes et métamorphes | 140 | 46 | 16 (7) | 18 | 10 | 12 | 12 | 9 | 9 | 8 | 44 % | 28/61/51 | 41 | terminé |
+| 11 | Créatures marines et aquatiques | 141 | 56 | 16 (8) | 13 | 10 | 11 | 11 | 8 | 8 | 8 | 51 % | 28/67/46 | 56 | terminé |
+| 12 | Bêtes et monstruosités | 141 | 56 | 16 (8) | 14 | 9 | 11 | 11 | 8 | 8 | 8 | 51 % | 28/74/39 | 63 | terminé |
+| 13 | Golems, constructions et animés | 140 | 50 | 16 (7) | 14 | 11 | 11 | 11 | 10 | 9 | 8 | 47 % | 28/61/51 | 34 | terminé |
+| 14 | L’art du Maître du Jeu | 141 | 49 | 18 (9) | 8 | 14 | 11 | 10 | 10 | 10 | 11 | 48 % | 28/85/28 | 71 | terminé |
+| 15 | Races jouables et peuples d’aventuriers | 141 | 44 | 19 (11) | 8 | 14 | 12 | 12 | 10 | 10 | 12 | 45 % | 28/80/33 | 34 | terminé |
+| 16 | Classes de personnage et archétypes | 142 | 44 | 16 (9) | 8 | 18 | 11 | 12 | 12 | 11 | 10 | 42 % | 28/77/37 | 6 | terminé |
+| 17 | Sorts célèbres et écoles de magie | 141 | 44 | 21 (12) | 11 | 15 | 11 | 11 | 10 | 9 | 9 | 46 % | 28/77/36 | 8 | terminé |
+| 18 | Dés, caractéristiques et mécaniques | 141 | 49 | 19 (10) | 9 | 12 | 10 | 11 | 10 | 10 | 11 | 48 % | 28/80/33 | 39 | terminé |
+| 19 | Dieux, panthéons et plans d’existence | 144 | 51 | 18 (9) | 9 | 12 | 11 | 10 | 10 | 10 | 13 | 48 % | 29/86/29 | 57 | terminé |
+| 20 | Royaumes Oubliés (Faerûn) | 141 | 49 | 19 (10) | 8 | 12 | 11 | 10 | 10 | 10 | 12 | 48 % | 28/85/28 | 67 | terminé |
+| 21 | Objets magiques, trésors et équipement | 141 | 50 | 18 (9) | 8 | 13 | 11 | 10 | 10 | 10 | 11 | 48 % | 28/85/28 | 14 | terminé |
+| 22 | Histoire de D&D et campagnes célèbres | 140 | 45 | 20 (10) | 9 | 15 | 10 | 10 | 10 | 10 | 11 | 46 % | 28/84/28 | 83 | terminé |
+| 23 | L’Histoire d’Arda (Silmarillion, grands Âges) | 143 | 50 | 18 (9) | 9 | 14 | 11 | 10 | 10 | 10 | 11 | 48 % | 29/85/29 | 13 | terminé |
+| 24 | Tolkien : thèmes et philosophie | 140 | 49 | 19 (10) | 8 | 12 | 11 | 10 | 10 | 10 | 11 | 49 % | 28/84/28 | 44 | terminé |
+| 25 | Le Hobbit et Le Seigneur des Anneaux | 142 | 49 | 19 (10) | 9 | 13 | 10 | 10 | 10 | 10 | 12 | 48 % | 36/78/28 | 6 | terminé |
+| 26 | Géographie de la Terre du Milieu | 140 | 51 | 18 (9) | 7 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 34/78/28 | 5 | terminé |
+| 27 | Peuples Libres et forces de l’Ombre | 140 | 51 | 18 (9) | 7 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 31/81/28 | 21 | terminé |
+| 28 | Énigmes, citations et devises de Tolkien | 129 | 49 | 16 (9) | 4 | 12 | 10 | 10 | 8 | 10 | 10 | 50 % | 26/77/26 | 24 | terminé |
+| 29 | Magie, artefacts et Anneaux de Pouvoir | 127 | 41 | 16 (8) | 7 | 13 | 10 | 10 | 9 | 10 | 11 | 45 % | 25/77/25 | 13 | terminé |
+| 30 | Tolkien à l’écran | 140 | 50 | 18 (9) | 8 | 13 | 10 | 10 | 10 | 10 | 11 | 49 % | 30/82/28 | 18 | terminé |
+| 31 | Histoire de la magie et de Poudlard | 130 | 45 | 16 (8) | 7 | 13 | 10 | 10 | 8 | 10 | 11 | 47 % | 37/67/26 | 9 | terminé |
+| 32 | La société sorcière | 130 | 44 | 17 (9) | 8 | 12 | 10 | 10 | 8 | 10 | 11 | 47 % | 40/64/26 | 2 | terminé |
+| 33 | Sortilèges, maléfices et métamorphose | 131 | 49 | 17 (9) | 4 | 13 | 10 | 10 | 8 | 10 | 10 | 50 % | 26/79/26 | 6 | terminé |
+| 34 | Potions, alchimie et botanique magique | 130 | 50 | 16 (8) | 5 | 12 | 10 | 10 | 8 | 9 | 10 | 51 % | 26/78/26 | 6 | terminé |
+| 35 | Bestiaire magique et Animaux fantastiques | 130 | 46 | 16 (9) | 8 | 13 | 10 | 10 | 8 | 9 | 10 | 48 % | 26/78/26 | 7 | terminé |
+| 36 | Les forces du Mal (Harry Potter) | 132 | 45 | 18 (9) | 8 | 12 | 10 | 10 | 9 | 10 | 10 | 48 % | 26/80/26 | 11 | terminé |
+| 37 | Objets enchantés et secrets de Poudlard | 134 | 46 | 17 (9) | 8 | 13 | 10 | 10 | 10 | 10 | 10 | 47 % | 27/80/27 | 13 | terminé |
+| 38 | L’univers Warhammer et son histoire | 121 | 41 | 14 (7) | 8 | 12 | 10 | 10 | 10 | 8 | 8 | 45 % | 24/73/24 | 4 | terminé |
+| 39 | Le Vieux Monde (Warhammer Fantasy) | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/72/24 | 3 | terminé |
+| 40 | L’Imperium (Warhammer 40k) | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/72/24 | 3 | terminé |
+| 41 | Les Puissances de la Ruine (Chaos) | 120 | 40 | 14 (7) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/72/24 | 3 | terminé |
+| 42 | Xenos et peuples non humains (40k) | 120 | 40 | 14 (7) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/72/24 | 2 | terminé |
+| 43 | Grandes sagas et batailles de Warhammer | 120 | 40 | 14 (7) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/72/24 | 3 | terminé |
+| 44 | Mythes de création du monde | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/72/24 | 4 | terminé |
+| 45 | Les grands archétypes mythiques | 120 | 40 | 14 (8) | 8 | 12 | 10 | 10 | 9 | 9 | 8 | 45 % | 24/72/24 | 4 | terminé |
+| 46 | Mythologie grecque (monstres et héros) | 141 | 45 | 18 (9) | 15 | 14 | 12 | 10 | 10 | 9 | 8 | 45 % | 28/85/28 | 8 | terminé |
+| 47 | Mythologie nordique | 140 | 46 | 20 (10) | 9 | 13 | 11 | 11 | 10 | 10 | 10 | 47 % | 28/84/28 | 2 | terminé |
+| 48 | Égypte, Celtes et légende arthurienne | 140 | 48 | 19 (11) | 9 | 13 | 11 | 10 | 10 | 10 | 10 | 48 % | 28/84/28 | 5 | terminé |
 | 49 | Folklore slave et yokai japonais | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 50 | Mythes d’Orient (dragons chinois, djinns) | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 51 | Mythes aztèques, mayas et amérindiens | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -176,7 +176,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - dem-069 : explication absente ou trop courte
 - dem-070 : explication absente ou trop courte
 - content/003/a.lm:19 : bonne réponse nettement plus longue que les autres (indice involontaire)
-- demons-diables-dnd : niveaux déséquilibrés [17, 84, 47]
 - gea-034 : explication absente ou trop courte
 - gea-043 : explication absente ou trop courte
 - gea-047 : explication absente ou trop courte
@@ -199,11 +198,9 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - gea-069 : explication absente ou trop courte
 - gea-070 : explication absente ou trop courte
 - content/004/a.lm:11 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (stor) — Dans Storm King’s Thunder, quel jarl géant du givre cherche à faire régner un hiver éterne
-- geants-dnd : niveaux déséquilibrés [16, 78, 46]
 - abe-009 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mort) — Dans D&D 5e, quel mort-vivant est un tyrannœil revenu à la mort ?
 - abe-027 : explication absente ou trop courte
 - content/005/b.lm:9 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (gith) — Les githyanki et les githzerai doivent leur nom à ____, l’héroïne qui mena la révolte cont
-- aberrations-dnd : niveaux déséquilibrés [19, 72, 49]
 - fee-034 : explication absente ou trop courte
 - fee-048 : explication absente ou trop courte
 - fee-055 : explication absente ou trop courte
@@ -214,7 +211,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - fee-061 : explication absente ou trop courte
 - fee-062 : explication absente ou trop courte
 - fee-066 : explication absente ou trop courte
-- fees-sylvains : niveaux déséquilibrés [17, 75, 48]
 - gob-032 : explication absente ou trop courte
 - gob-037 : explication absente ou trop courte
 - gob-051 : explication absente ou trop courte
@@ -249,7 +245,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - don-068 : explication absente ou trop courte
 - don-069 : explication absente ou trop courte
 - don-070 : explication absente ou trop courte
-- monstres-donjon : niveaux déséquilibrés [20, 86, 34]
 - pla-001 : explication absente ou trop courte
 - pla-002 : explication absente ou trop courte
 - pla-003 : explication absente ou trop courte
@@ -291,7 +286,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - pla-069 : explication absente ou trop courte
 - pla-070 : explication absente ou trop courte
 - content/009/c.lm:8 : ÉVIDENT ? vrai/faux peut-être tautologique (plan) — Dans D&D 5e, la Féerie et la Gisombre sont des plans « échos » du Plan Matériel.
-- plans-elementaires : niveaux déséquilibrés [19, 66, 55]
 - lyc-020 : explication absente ou trop courte
 - lyc-033 : explication absente ou trop courte
 - lyc-034 : explication absente ou trop courte
@@ -316,7 +310,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - lyc-068 : explication absente ou trop courte
 - lyc-070 : explication absente ou trop courte
 - content/010/a.lm:8 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (loup) — Dans D&D 5e, sous quelle forme un loup-garou peut-il transmettre sa malédiction ?
-- lycanthropes-metamorphes : niveaux déséquilibrés [16, 73, 51]
 - mar-037 : explication absente ou trop courte
 - mar-054 : explication absente ou trop courte
 - mar-057 : explication absente ou trop courte
@@ -324,8 +317,6 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - mar-069 : explication absente ou trop courte
 - mar-070 : explication absente ou trop courte
 - content/011/a.lm:35 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (nage) — Dans D&D 5e, que coûte la nage à un personnage qui n’a pas de vitesse de nage ?
-- creatures-marines : niveaux déséquilibrés [17, 78, 46]
-- betes-monstruosites : niveaux déséquilibrés [19, 83, 39]
 - gol-044 : explication absente ou trop courte
 - gol-050 : explication absente ou trop courte
 - gol-052 : explication absente ou trop courte
@@ -343,32 +334,5 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - content/013/a.lm:46 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (arti) — Dans D&D 5e, quelle sous-classe d’artificier crée un canon occulte ?
 - content/013/a.lm:58 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mord) — Dans D&D 5e, quel sort de niveau 4 crée un chien de garde invisible qui aboie et mord ?
 - content/013/b.lm:23 : ÉVIDENT ? vrai/faux peut-être tautologique (anim) — Dans D&D 5e, le sort Animation d’objets peut animer jusqu’à dix objets de taille Minuscule
-- golems-constructions : niveaux déséquilibrés [14, 75, 51]
-- races-dnd : niveaux déséquilibrés [11, 97, 33]
-- classes-dnd : niveaux déséquilibrés [11, 94, 37]
 - content/017/a.lm:45 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (lanc) — Dans D&D 5e, que risque un lanceur qui utilise Souhait pour autre chose que reproduire un 
 - content/017/a.lm:105 : ÉVIDENT ? vrai/faux peut-être tautologique (cont) — Dans D&D 5e, Contresort réussit automatiquement contre un sort de niveau 3 ou moins.
-- sorts-magie-dnd : niveaux déséquilibrés [10, 95, 36]
-- dieux-plans-dnd : niveaux déséquilibrés [20, 95, 29]
-- royaumes-oublies : niveaux déséquilibrés [22, 98, 21]
-- objets-magiques-dnd : niveaux déséquilibrés [24, 103, 14]
-- histoire-arda : niveaux déséquilibrés [21, 93, 29]
-- quete-anneau : niveaux déséquilibrés [36, 91, 15]
-- citations-tolkien : niveaux déséquilibrés [16, 90, 23]
-- poudlard-histoire : niveaux déséquilibrés [37, 78, 15]
-- societe-sorciere : niveaux déséquilibrés [40, 81, 9]
-- sortileges-hp : niveaux déséquilibrés [23, 97, 11]
-- potions-botanique-hp : niveaux déséquilibrés [17, 101, 12]
-- creatures-hp : niveaux déséquilibrés [19, 103, 8]
-- forces-du-mal-hp : niveaux déséquilibrés [13, 103, 16]
-- objets-hp : niveaux déséquilibrés [16, 111, 7]
-- lore-warhammer : niveaux déséquilibrés [11, 104, 6]
-- vieux-monde : niveaux déséquilibrés [13, 100, 7]
-- imperium-40k : niveaux déséquilibrés [14, 101, 5]
-- chaos-warhammer : niveaux déséquilibrés [13, 100, 7]
-- xenos-40k : niveaux déséquilibrés [14, 99, 7]
-- sagas-warhammer : niveaux déséquilibrés [13, 101, 6]
-- mythes-creation : niveaux déséquilibrés [12, 102, 6]
-- archetypes-mythiques : niveaux déséquilibrés [12, 102, 6]
-- mythologie-grecque : niveaux déséquilibrés [18, 111, 12]
-- mythologie-nordique : niveaux déséquilibrés [16, 116, 8]

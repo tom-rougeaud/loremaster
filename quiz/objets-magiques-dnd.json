@@ -875,7 +875,7 @@
   },
   {
    "type": "vf",
-   "niveau": 2,
+   "niveau": 1,
    "q": "Argenter une arme coûte 100 po de plus.",
    "rep": true,
    "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
@@ -905,7 +905,7 @@
   },
   {
    "type": "vf",
-   "niveau": 2,
+   "niveau": 1,
    "q": "Le Guide du Maître 5e ne propose aucun objet magique commun.",
    "rep": false,
    "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
@@ -955,7 +955,7 @@
   },
   {
    "type": "vf",
-   "niveau": 2,
+   "niveau": 1,
    "q": "Une carte du Deck of Many Things peut accorder des souhaits.",
    "rep": true,
    "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
@@ -975,7 +975,7 @@
   },
   {
    "type": "vf",
-   "niveau": 2,
+   "niveau": 1,
    "q": "Un objet maudit peut empêcher son porteur de s’en séparer.",
    "rep": true,
    "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
@@ -1025,7 +1025,7 @@
   },
   {
    "type": "slider",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Combien de pièces de monnaie pèsent une livre (VO) dans D&D 5e ?",
    "rep": 50,
    "min": 10,
@@ -1040,7 +1040,7 @@
   },
   {
    "type": "slider",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Combien coûte un harnois dans le Manuel des Joueurs ?",
    "rep": 1500,
    "min": 100,
@@ -1070,7 +1070,7 @@
   },
   {
    "type": "slider",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Combien de charges possède un Staff of the Magi (bâton de thaumaturge) ?",
    "rep": 50,
    "min": 10,
@@ -1627,7 +1627,7 @@
   },
   {
    "type": "multi",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Quelles pièces existent dans le Manuel des Joueurs ? (plusieurs bonnes réponses)",
    "choix": [
     "Cuivre",
@@ -1745,7 +1745,7 @@
   },
   {
    "type": "ordre",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Classe ces potions de soins par puissance croissante.",
    "items": [
     "Soins",
@@ -1760,7 +1760,7 @@
   },
   {
    "type": "ordre",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Classe ces ceintures de géant par Force donnée, de la plus faible à la plus forte.",
    "items": [
     "Géant des collines",
@@ -1775,7 +1775,7 @@
   },
   {
    "type": "ordre",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Classe ces armures par CA de base croissante.",
    "items": [
     "Demi-plate",
@@ -1790,7 +1790,7 @@
   },
   {
    "type": "ordre",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Classe ces aventures par date de parution.",
    "items": [
     "Tomb of Horrors",
@@ -1804,7 +1804,7 @@
   },
   {
    "type": "ordre",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Classe ces objets par prix croissant.",
    "items": [
     "Torche",
@@ -1820,7 +1820,7 @@
   },
   {
    "type": "ordre",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Classe ces montures par prix croissant.",
    "items": [
     "Mule",
@@ -1863,7 +1863,7 @@
   },
   {
    "type": "assoc",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Associe chaque rareté à sa fourchette de valeur.",
    "paires": [
     [
@@ -1913,7 +1913,7 @@
   },
   {
    "type": "assoc",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Associe chaque ceinture à la Force qu’elle donne.",
    "paires": [
     [
@@ -1967,7 +1967,7 @@
   },
   {
    "type": "assoc",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Associe chaque pièce à sa valeur en pièces d’argent.",
    "paires": [
     [
@@ -1994,7 +1994,7 @@
   },
   {
    "type": "assoc",
-   "niveau": 2,
+   "niveau": 3,
    "q": "Associe chaque arme de White Plume Mountain à sa forme.",
    "paires": [
     [
