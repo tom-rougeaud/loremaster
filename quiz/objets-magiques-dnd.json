@@ -1,0 +1,2300 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "objets-magiques-dnd",
+  "nom": "Objets magiques, trésors et équipement",
+  "royaume": "Règles et univers de D&D",
+  "icone": "fiole",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, avec combien d’objets magiques un personnage peut-il être harmonisé en même temps ?",
+   "choix": [
+    "3",
+    "1",
+    "5",
+    "10"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Au-delà de trois, il doit rompre une harmonisation pour en commencer une autre.",
+   "id": "t021-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de temps faut-il pour s’harmoniser avec un objet magique ?",
+   "choix": [
+    "Un repos court",
+    "Une minute",
+    "Un repos long",
+    "Une semaine"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Le personnage passe ce repos court au contact de l’objet, sans autre activité.",
+   "id": "t021-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle rareté vient juste au-dessus de « très rare » ?",
+   "choix": [
+    "Légendaire",
+    "Épique",
+    "Mythique",
+    "Unique"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Commun, peu commun, rare, très rare, légendaire ; les artefacts sont à part.",
+   "id": "t021-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon le Guide du Maître 5e, quelle est la fourchette de valeur d’un objet magique rare ?",
+   "choix": [
+    "501 à 5 000 po",
+    "101 à 500 po",
+    "5 001 à 50 000 po",
+    "50 à 100 po"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Les fourchettes servent à fixer un prix quand les héros veulent acheter ou vendre.",
+   "id": "t021-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que se passe-t-il quand on place un sac sans fond dans un puits portatif ?",
+   "choix": [
+    "Une faille vers le plan astral s’ouvre",
+    "Les deux objets fusionnent en un seul",
+    "Rien de particulier ne se produit",
+    "Le sac double de capacité"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Les deux espaces extradimensionnels se détruisent ; tout ce qui est proche peut être aspiré dans le plan astral.",
+   "id": "t021-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait une épée vorpale sur un 20 naturel ?",
+   "choix": [
+    "Elle tranche la tête de la cible",
+    "Elle détruit un mort-vivant",
+    "Elle double ses dégâts",
+    "Elle se brise"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Les créatures sans tête ou immunisées aux dégâts tranchants y échappent ; les autres meurent sur le coup.",
+   "id": "t021-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel anneau légendaire peut modifier la réalité à trois reprises avant de perdre sa magie ?",
+   "choix": [
+    "L’anneau de trois souhaits",
+    "L’anneau de renvoi des sorts",
+    "L’anneau d’influence animale",
+    "L’anneau de stockage de sorts"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Chaque charge lance Souhait ; une fois la dernière utilisée, l’anneau devient ordinaire.",
+   "id": "t021-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle valeur de Force donnent les gantelets de puissance d’ogre ?",
+   "choix": [
+    "19",
+    "17",
+    "21",
+    "23"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Ils n’ont aucun effet si la Force du porteur est déjà de 19 ou plus.",
+   "id": "t021-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle valeur de Force donne une ceinture de force de géant des tempêtes ?",
+   "choix": [
+    "29",
+    "25",
+    "27",
+    "30"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "C’est la plus puissante des ceintures de géant : collines 21, pierre et givre 23, feu 25, nuages 27.",
+   "id": "t021-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de points de vie rend une potion de soins ordinaire ?",
+   "choix": [
+    "2d4 + 2",
+    "1d8",
+    "4d4 + 4",
+    "10"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "C’est la plus répandue des potions ; elle coûte 50 po dans le Manuel des Joueurs.",
+   "id": "t021-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Combien de points de vie rend une potion de soins suprêmes ?",
+   "choix": [
+    "10d4 + 20",
+    "8d4 + 8",
+    "6d4 + 6",
+    "20d4"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Elle rend 45 PV en moyenne ; la potion de soins supérieurs rend 8d4 + 8.",
+   "id": "t021-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Combien de pièces d’argent vaut une pièce d’or ?",
+   "choix": [
+    "10",
+    "100",
+    "5",
+    "2"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "1 po = 10 pa = 100 pc ; une pièce de platine vaut 10 po.",
+   "id": "t021-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de pièces de cuivre vaut une pièce d’or ?",
+   "choix": [
+    "100",
+    "10",
+    "50",
+    "1000"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Un paysan gagne quelques pièces de cuivre ou d’argent par jour ; l’or est la monnaie des aventuriers.",
+   "id": "t021-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Combien vaut une pièce d’électrum ?",
+   "choix": [
+    "Une demi-pièce d’or",
+    "Deux pièces d’or",
+    "Dix pièces d’argent",
+    "Un dixième de pièce d’or"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "L’électrum, alliage d’or et d’argent, vaut 5 pièces d’argent ; il est rare et souvent ancien.",
+   "id": "t021-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle armure offre la meilleure CA de base dans le Manuel des Joueurs ?",
+   "choix": [
+    "Le harnois",
+    "La cotte de mailles",
+    "La clibanion",
+    "La demi-plate"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Harnois 18, clibanion 17, cotte de mailles 16, demi-plate 15 + Dex (max 2).",
+   "id": "t021-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel avantage offre une armure en mithral ?",
+   "choix": [
+    "Ni Force requise ni désavantage en Discrétion",
+    "+1 à la CA",
+    "La résistance au feu",
+    "L’immunité aux coups critiques"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Le mithral, léger et souple, se porte même sous des vêtements.",
+   "id": "t021-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel avantage offre une armure en adamantium ?",
+   "choix": [
+    "Les coups critiques deviennent normaux",
+    "+2 à la CA contre tout",
+    "Elle ne pèse presque rien",
+    "La résistance à la magie"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Ce métal extrêmement dur protège des coups les plus dévastateurs.",
+   "id": "t021-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel bonus donne un anneau de protection ?",
+   "choix": [
+    "+1 à la CA et aux sauvegardes",
+    "+2 à la CA",
+    "La résistance à tous les dégâts",
+    "L’avantage aux sauvegardes"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "La cape de protection donne exactement le même bonus ; les deux se cumulent.",
+   "id": "t021-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel bonus de CA donnent des bracelets de défense à un porteur sans armure ni bouclier ?",
+   "choix": [
+    "+2",
+    "+1",
+    "+3",
+    "+5"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Ils sont prisés des moines et des magiciens.",
+   "id": "t021-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels dégâts supplémentaires inflige une langue de feu enflammée ?",
+   "choix": [
+    "2d6 de feu",
+    "1d6 de feu",
+    "3d6 de feu",
+    "1d10 de froid"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Sur un mot de commande, la lame s’embrase et éclaire comme une torche.",
+   "id": "t021-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle arme +3 inflige 2d8 dégâts de plus aux géants quand on la lance ?",
+   "choix": [
+    "Le marteau de lancer nain",
+    "La hachette de retour",
+    "La lance tonnerre",
+    "Le javelot de foudre"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Elle inflige 1d8 dégâts de plus quand on la lance, et 2d8 contre un géant.",
+   "id": "t021-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle épée légendaire seul un paladin peut-il harmoniser ?",
+   "choix": [
+    "La vengeresse sacrée",
+    "La lame solaire",
+    "L’épée vorpale",
+    "La langue de feu"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Elle inflige 2d10 dégâts radiants de plus aux fiélons et morts-vivants et protège les alliés proches des sorts.",
+   "id": "t021-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle épée réduite à sa poignée fait jaillir un rayon de lumière tranchant ?",
+   "choix": [
+    "La lame solaire",
+    "La vengeresse sacrée",
+    "La langue de feu",
+    "L’épée tueuse de dragons"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Seule la poignée existe : la lame apparaît sur un mot de commande, et frappe fort les morts-vivants.",
+   "id": "t021-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que risque une baguette quand on utilise sa dernière charge ?",
+   "choix": [
+    "Elle tombe en poussière sur un 1 au d20",
+    "Elle explose toujours",
+    "Elle se recharge à vide",
+    "Rien du tout"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Beaucoup de baguettes et bâtons de la 5e suivent cette règle.",
+   "id": "t021-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel bâton peut, en se brisant, déclencher une frappe vengeresse dévastatrice ?",
+   "choix": [
+    "Staff of the Magi",
+    "Staff of Frost",
+    "Staff of Charming",
+    "Staff of the Woodlands"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Artefacts »",
+   "expl": "Le bâton de thaumaturge (Staff of the Magi) a 50 charges ; le Staff of Power partage cette capacité.",
+   "id": "t021-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel artefact de Greyhawk se greffe dans l’orbite vide de son porteur ?",
+   "choix": [
+    "L’Œil de Vecna",
+    "La Main de Vecna",
+    "L’Épée de Kas",
+    "La Baguette d’Orcus"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Il donne la vision véritable et d’autres pouvoirs, au prix d’une lente corruption.",
+   "id": "t021-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle arme intelligente de White Plume Mountain dévore les âmes ?",
+   "choix": [
+    "Blackrazor",
+    "Wave",
+    "Whelm",
+    "Stormbringer"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Blackrazor, épée noire et avide, ressemble à Stormbringer, l’épée d’Elric de Melniboné.",
+   "id": "t021-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans quel module de 1979 trouve-t-on Blackrazor, Wave et Whelm ?",
+   "choix": [
+    "White Plume Mountain",
+    "Tomb of Horrors",
+    "Keep on the Borderlands",
+    "Ravenloft"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Lawrence Schick l’a écrit pour TSR ; il a été réédité dans Tales from the Yawning Portal (2017).",
+   "id": "t021-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle carte du Deck of Many Things emprisonne le personnage ?",
+   "choix": [
+    "Le Donjon",
+    "Le Vide",
+    "Le Crâne",
+    "Le Soleil"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Le personnage disparaît, enfermé dans une sphère magique, jusqu’à ce qu’on le retrouve.",
+   "id": "t021-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait une perle de pouvoir ?",
+   "choix": [
+    "Elle rend un emplacement de sort de niveau 3 ou moins",
+    "Elle lance Boule de feu",
+    "Elle fait respirer sous l’eau",
+    "Elle donne la vision dans le noir"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Une fois par jour, sur un mot de commande, son porteur récupère un emplacement dépensé.",
+   "id": "t021-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait un collier de boules de feu ?",
+   "choix": [
+    "Ses perles explosent quand on les lance",
+    "Il protège son porteur du feu",
+    "Il éclaire comme une torche",
+    "Il soigne les brûlures graves"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Chaque perle lancée explose comme le sort ; on peut en lancer plusieurs ensemble pour plus de dégâts.",
+   "id": "t021-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que donne une cape de déplacement ?",
+   "choix": [
+    "Le désavantage aux attaques adverses",
+    "Le vol pendant une heure",
+    "La téléportation à courte portée",
+    "L’invisibilité à volonté"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "L’image du porteur semble décalée ; l’effet cesse un moment après qu’il a été touché.",
+   "id": "t021-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait un sac à malices ?",
+   "choix": [
+    "On en tire une boule qui devient un animal",
+    "Il avale tout ce qu’on y met",
+    "Il produit de la nourriture",
+    "Il change de couleur"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Il existe en gris, rouille et brun, chacun avec sa table d’animaux.",
+   "id": "t021-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet maudit ressemble à un sac sans fond, mais engloutit ce qu’on y met ?",
+   "choix": [
+    "Le sac dévoreur",
+    "Le sac à malices",
+    "Le havresac d’Hévard",
+    "Le puits portatif"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "C’est en fait l’ouverture d’une créature extradimensionnelle ; mieux vaut ne pas y plonger le bras.",
+   "id": "t021-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle Force faut-il pour porter un harnois sans perdre de vitesse ?",
+   "choix": [
+    "15",
+    "13",
+    "17",
+    "12"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Sinon, la vitesse baisse de 3 m ; la cotte de mailles demande 13.",
+   "id": "t021-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien d’utilisations offre une trousse de soins ?",
+   "choix": [
+    "10",
+    "5",
+    "3",
+    "20"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Elle permet de stabiliser une créature à 0 PV sans test de Médecine.",
+   "id": "t021-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne l’expression « Monty Haul » chez les rôlistes ?",
+   "choix": [
+    "Une campagne trop généreuse en trésors",
+    "Un donjon extrêmement mortel",
+    "Une longue chasse au dragon",
+    "Un style de jeu sans combat"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Le terme vient de Monty Hall, présentateur du jeu télévisé Let’s Make a Deal, où l’on gagnait des cadeaux.",
+   "id": "t021-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels dégâts supplémentaires inflige une épée tueuse de dragons contre un dragon ?",
+   "choix": [
+    "3d6",
+    "2d6",
+    "1d6",
+    "4d6"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Elle compte aussi comme une arme +1 contre toutes les cibles.",
+   "id": "t021-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que donne une pierre porte-bonheur ?",
+   "choix": [
+    "+1 aux tests et aux sauvegardes",
+    "+1 à la CA",
+    "Relancer les 1",
+    "L’avantage aux attaques"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "La pierre (luckstone) est une agate polie, souvent portée en pendentif.",
+   "id": "t021-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet permet de changer d’apparence à volonté, tant qu’on le garde sur la tête ?",
+   "choix": [
+    "Le chapeau de déguisement",
+    "La cape elfique",
+    "La gemme de vision",
+    "Le masque de la bête"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "L’illusion peut changer vêtements et allure, mais le sort prend fin si l’on retire le chapeau.",
+   "id": "t021-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel pouvoir offre chaque charge d’une gemme de vision ?",
+   "choix": [
+    "Voir à travers les illusions",
+    "Éclairer comme en plein jour",
+    "Espionner un lieu lointain",
+    "Lire les pensées"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Elle a 3 charges ; chaque charge donne 10 minutes de vision véritable.",
+   "id": "t021-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle valeur d’Intelligence donne un bandeau d’intellect ?",
+   "choix": [
+    "19",
+    "17",
+    "21",
+    "23"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Comme les gantelets de puissance d’ogre pour la Force, il fixe la valeur sans l’augmenter au-delà.",
+   "id": "t021-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que donnent des bottes de rapidité, une fois activées ?",
+   "choix": [
+    "Une vitesse doublée",
+    "Le vol",
+    "La téléportation",
+    "L’avantage à l’initiative"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "On les active en claquant des talons ; les attaques d’opportunité contre le porteur ont aussi le désavantage.",
+   "id": "t021-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que donne une cape elfique ?",
+   "choix": [
+    "L’avantage en Discrétion",
+    "Le vol",
+    "La résistance au froid",
+    "+1 à la CA"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Capuche relevée, son porteur est aussi plus difficile à repérer : les tests pour le voir ont le désavantage.",
+   "id": "t021-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait une baguette de merveilles ?",
+   "choix": [
+    "Elle produit un effet aléatoire",
+    "Elle lance toujours un éclair",
+    "Elle soigne ses alliés",
+    "Elle lance une Boule de feu"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Papillons, pluie de gemmes ou éclair : le résultat est imprévisible, parfois dangereux pour le porteur.",
+   "id": "t021-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Combien de niveaux de sorts un anneau de stockage de sorts peut-il contenir ?",
+   "choix": [
+    "5",
+    "3",
+    "9",
+    "10"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Un lanceur y stocke ses sorts ; n’importe quel porteur peut ensuite les lancer.",
+   "id": "t021-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait un cor du Valhalla ?",
+   "choix": [
+    "Il invoque des berserkers spectraux",
+    "Il réveille les morts alentour",
+    "Il appelle un dragon d’argent",
+    "Il assourdit tous les ennemis"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Selon le métal du cor, il invoque de 2 à 5 berserkers venus d’Ysgard.",
+   "id": "t021-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Que donne l’étude d’un manuel de santé corporelle ?",
+   "choix": [
+    "+2 en Constitution et au maximum",
+    "+1 en Force",
+    "Des PV temporaires",
+    "L’immunité au poison"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (TSR, 1979)",
+   "expl": "Il faut 48 heures d’étude en 6 jours ; le livre perd ensuite sa magie pendant un siècle.",
+   "id": "t021-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que fait une flasque de fer ?",
+   "choix": [
+    "Elle emprisonne une créature d’un autre plan",
+    "Elle garde l’eau toujours fraîche",
+    "Elle produit de l’huile sans fin",
+    "Elle change le fer en or"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019) ; Tasha’s Cauldron of Everything (2020), « Artificier »",
+   "expl": "On peut ensuite libérer la créature, qui obéit pendant une heure.",
+   "id": "t021-049",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Avec combien d’objets magiques un artificier de niveau 18 peut-il être harmonisé ?",
+   "choix": [
+    "6",
+    "3",
+    "4",
+    "5"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019) ; Tasha’s Cauldron of Everything (2020), « Artificier »",
+   "expl": "Il passe de 3 à 4 objets au niveau 10, 5 au niveau 14 et 6 au niveau 18.",
+   "id": "t021-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un objet qui demande une harmonisation ne livre pas ses pouvoirs magiques tant qu’on ne s’est pas harmonisé avec lui.",
+   "rep": true,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Vrai : sans harmonisation, on n’en tire que les avantages non magiques, s’il y en a.",
+   "id": "t021-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans D&D 5e, un personnage peut s’harmoniser avec autant d’objets qu’il le souhaite.",
+   "rep": false,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Faux : la limite est de trois objets à la fois, sauf capacités spéciales comme celles de l’artificier.",
+   "id": "t021-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Placer un sac sans fond dans un autre sac sans fond ouvre une faille vers le plan astral.",
+   "rep": true,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Vrai : comme avec un puits portatif, les deux objets sont détruits et une faille aspire ce qui est proche.",
+   "id": "t021-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans les règles de 2014, boire une potion demande une action bonus.",
+   "rep": false,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Faux : boire ou faire boire une potion demande une action ; certaines tables jouent avec une règle maison plus souple.",
+   "id": "t021-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Un artefact ne peut généralement être détruit que d’une manière bien précise.",
+   "rep": true,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Vrai : le Guide du Maître propose pour chaque artefact un moyen de destruction unique, souvent une quête entière.",
+   "id": "t021-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Une épée longue +1 est un objet magique rare.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Faux : une arme +1 est peu commune ; +2 est rare et +3 très rare.",
+   "id": "t021-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Argenter une arme coûte 100 po de plus.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Vrai : l’argent blesse certains lycanthropes et fiélons insensibles aux armes ordinaires.",
+   "id": "t021-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les pièces d’électrum valent plus que les pièces d’or.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Faux : une pièce d’électrum vaut une demi-pièce d’or, soit 5 pièces d’argent.",
+   "id": "t021-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Une pièce de platine vaut dix pièces d’or.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Vrai : c’est la plus précieuse des cinq pièces du Manuel des Joueurs.",
+   "id": "t021-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Guide du Maître 5e ne propose aucun objet magique commun.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Faux : la potion de soins est un objet commun ; Xanathar en ajoute beaucoup d’autres, souvent amusants.",
+   "id": "t021-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Certains objets magiques sont doués de conscience et poursuivent leurs propres buts.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Vrai : un objet conscient a des valeurs d’Intelligence, de Sagesse et de Charisme, et peut entrer en conflit avec son porteur.",
+   "id": "t021-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "N’importe quelle classe peut s’harmoniser avec une vengeresse sacrée.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Faux : seule une paladine ou un paladin peut s’harmoniser avec elle.",
+   "id": "t021-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Pour lancer un sort depuis un parchemin sans test, il suffit que ce sort figure sur la liste de sa classe.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Vrai : il faut aussi pouvoir lancer des sorts de ce niveau, sinon un test de caractéristique est nécessaire.",
+   "id": "t021-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "On peut lancer depuis un parchemin n’importe quel sort, même absent de la liste de sa classe.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Faux : le sort doit appartenir à la liste de sa classe ; sinon le parchemin est illisible.",
+   "id": "t021-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Une carte du Deck of Many Things peut accorder des souhaits.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Vrai : la Lune accorde de 1 à 3 souhaits ; d’autres cartes peuvent au contraire tout faire perdre.",
+   "id": "t021-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Une potion de soins rend toujours le même nombre de points de vie.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Faux : on lance des dés : 2d4 + 2 pour une potion de soins ordinaire.",
+   "id": "t021-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Un objet maudit peut empêcher son porteur de s’en séparer.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Vrai : la hache du berserker, par exemple, ne se laisse pas lâcher tant que la malédiction n’est pas levée.",
+   "id": "t021-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les gantelets de puissance d’ogre augmentent la Force même si elle dépasse déjà 19.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "Faux : ils fixent la Force à 19 et n’ont aucun effet si elle est déjà supérieure ou égale.",
+   "id": "t021-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de livres (VO) un sac sans fond peut-il contenir ?",
+   "rep": 500,
+   "min": 100,
+   "max": 1000,
+   "pas": 50,
+   "unite": "livres",
+   "tolerance": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Équipement »",
+   "expl": "500 livres (environ 250 kg) pour un volume de 64 pieds cubes ; le sac lui-même pèse toujours 15 livres.",
+   "id": "t021-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de livres (VO) un bâton inamovible peut-il supporter avant de céder ?",
+   "rep": 8000,
+   "min": 1000,
+   "max": 10000,
+   "pas": 500,
+   "unite": "livres",
+   "tolerance": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "Environ 4 tonnes ; au-delà, il se désactive et tombe.",
+   "id": "t021-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de pièces de monnaie pèsent une livre (VO) dans D&D 5e ?",
+   "rep": 50,
+   "min": 10,
+   "max": 100,
+   "pas": 10,
+   "unite": "pièces",
+   "tolerance": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "Un trésor de 5 000 pièces pèse donc 100 livres : de quoi poser des problèmes de transport.",
+   "id": "t021-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien coûte un harnois dans le Manuel des Joueurs ?",
+   "rep": 1500,
+   "min": 100,
+   "max": 3000,
+   "pas": 100,
+   "unite": "po",
+   "tolerance": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "C’est l’armure la plus chère du Manuel des Joueurs : un objectif pour bien des guerriers débutants.",
+   "id": "t021-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien coûte une potion de soins dans le Manuel des Joueurs ?",
+   "rep": 50,
+   "min": 5,
+   "max": 200,
+   "pas": 5,
+   "unite": "po",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "C’est le seul objet magique vendu dans la liste d’équipement du Manuel des Joueurs.",
+   "id": "t021-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de charges possède un Staff of the Magi (bâton de thaumaturge) ?",
+   "rep": 50,
+   "min": 10,
+   "max": 100,
+   "pas": 5,
+   "unite": "charges",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Il regagne 4d6 + 2 charges par jour ; le briser déclenche une explosion terrible.",
+   "id": "t021-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de cartes compte la version complète du Deck of Many Things ?",
+   "rep": 22,
+   "min": 10,
+   "max": 40,
+   "pas": 1,
+   "unite": "cartes",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "La version courante n’en compte que 13 ; le MJ choisit laquelle utiliser.",
+   "id": "t021-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de charges possède une baguette de projectiles magiques ?",
+   "rep": 7,
+   "min": 1,
+   "max": 20,
+   "pas": 1,
+   "unite": "charges",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Elle regagne 1d6 + 1 charges chaque aube ; chaque charge lance le sort au niveau 1.",
+   "id": "t021-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, pour profiter des objets les plus puissants, il faut d’abord s’y ____.",
+   "choix": [
+    "harmoniser",
+    "lier",
+    "accorder",
+    "ouvrir"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "L’harmonisation crée un lien magique entre l’objet et son porteur ; elle demande un repos court.",
+   "id": "t021-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le sac sans ____ contient bien plus que ce que sa taille laisse croire.",
+   "choix": [
+    "fond",
+    "limite",
+    "poids",
+    "fin"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Il ouvre sur un espace extradimensionnel, toujours accessible en fouillant d’une main.",
+   "id": "t021-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les pierres de ____ tournent autour de la tête de leur porteur.",
+   "choix": [
+    "ioun",
+    "lune",
+    "nimbe",
+    "givre"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Chacune donne un pouvoir différent : vigilance, protection, absorption de sorts…",
+   "id": "t021-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les armes ____ blessent les lycanthropes et certains fiélons.",
+   "choix": [
+    "argentées",
+    "dorées",
+    "bénies",
+    "ferrées"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Argenter une arme coûte 100 po dans le Manuel des Joueurs.",
+   "id": "t021-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le bâton ____ reste fixé dans les airs quand on appuie sur son bouton.",
+   "choix": [
+    "inamovible",
+    "immuable",
+    "fixe",
+    "figé"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Il peut retenir une porte, servir d’échelle ou bloquer une herse, jusqu’à environ 4 tonnes.",
+   "id": "t021-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’____ de Kwalish est un sous-marin magique en forme de homard.",
+   "choix": [
+    "appareil",
+    "engin",
+    "vaisseau",
+    "char"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Ses pinces et ses leviers demandent de longs essais avant d’être maîtrisés.",
+   "id": "t021-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La ____ de Vecna est un artefact qu’on greffe au bout d’un bras amputé.",
+   "choix": [
+    "Main",
+    "Griffe",
+    "Lame",
+    "Paume"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Elle donne une force immense et des sorts, mais pousse son porteur vers le mal.",
+   "id": "t021-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Un ____ de sort se consume quand on lance le sort qu’il contient.",
+   "choix": [
+    "parchemin",
+    "grimoire",
+    "talisman",
+    "sceau"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Trésors »",
+   "expl": "Le grimoire du magicien, lui, ne se consume pas : il sert à préparer les sorts.",
+   "id": "t021-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La ceinture de force de ____ des tempêtes fixe la Force de son porteur à 29.",
+   "choix": [
+    "géant",
+    "titan",
+    "dragon",
+    "colosse"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Outils »",
+   "expl": "Chaque type de géant a sa ceinture : plus le géant est puissant, plus la Force donnée est haute.",
+   "id": "t021-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Les outils de ____ servent à crocheter les serrures et à désamorcer les pièges.",
+   "choix": [
+    "voleur",
+    "serrurier",
+    "cambrioleur",
+    "forgeron"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Le roublard les maîtrise dès le niveau 1.",
+   "id": "t021-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La ____ d’annihilation détruit tout ce qu’elle touche.",
+   "choix": [
+    "sphère",
+    "bulle",
+    "orbe",
+    "perle"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Cette sphère de néant d’environ 60 cm de diamètre peut être déplacée par la volonté d’un lanceur talentueux.",
+   "id": "t021-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La ____ de feu est une épée qui s’embrase sur un mot de commande.",
+   "choix": [
+    "langue",
+    "lame",
+    "flamme",
+    "griffe"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Langue de feu (flame tongue) ajoute 2d6 dégâts de feu et éclaire comme une torche.",
+   "id": "t021-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le ____ portatif se déplie en un trou de 3 m de profondeur sur n’importe quelle surface.",
+   "choix": [
+    "puits",
+    "trou",
+    "gouffre",
+    "tunnel"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Plié, il tient dans une poche ; déplié, il forme un cercle noir de 1,8 m de diamètre.",
+   "id": "t021-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces raretés n’existe pas en D&D 5e ?",
+   "choix": [
+    "Épique",
+    "Peu commun",
+    "Très rare",
+    "Légendaire"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "Les raretés vont de commun à légendaire ; « épique » n’en fait pas partie.",
+   "id": "t021-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces pièces n’existe pas dans le Manuel des Joueurs ?",
+   "choix": [
+    "Pièce de bronze",
+    "Pièce d’électrum",
+    "Pièce de platine",
+    "Pièce de cuivre"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "Les cinq pièces sont cuivre, argent, électrum, or et platine.",
+   "id": "t021-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’est pas un artefact ?",
+   "choix": [
+    "Sac sans fond",
+    "Main de Vecna",
+    "Baguette d’Orcus",
+    "Hache des seigneurs nains"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "Le sac sans fond est un objet peu commun, très répandu.",
+   "id": "t021-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets n’est pas maudit ?",
+   "choix": [
+    "Cape de protection",
+    "Hache du berserker",
+    "Sac dévoreur",
+    "Armure de vulnérabilité"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (1979) ; Michael Moorcock, Elric",
+   "expl": "La cape de protection donne +1 à la CA et aux sauvegardes, sans aucun défaut.",
+   "id": "t021-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces armes n’appartient pas au trésor de White Plume Mountain ?",
+   "choix": [
+    "Stormbringer",
+    "Blackrazor",
+    "Wave",
+    "Whelm"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (1979) ; Michael Moorcock, Elric",
+   "expl": "Stormbringer est l’épée d’Elric dans les romans de Michael Moorcock.",
+   "id": "t021-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets ne demande pas d’harmonisation ?",
+   "choix": [
+    "Sac sans fond",
+    "Anneau de protection",
+    "Cape de protection",
+    "Bracelets de défense"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (1979) ; Michael Moorcock, Elric",
+   "expl": "Tout le monde peut utiliser un sac sans fond ; c’est ce qui le rend si populaire.",
+   "id": "t021-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces ceintures de force de géant n’existe pas ?",
+   "choix": [
+    "Géant des sables",
+    "Géant des collines",
+    "Géant du feu",
+    "Géant des nuages"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (1979) ; Michael Moorcock, Elric",
+   "expl": "Les ceintures existent pour les géants des collines, de pierre, du givre, du feu, des nuages et des tempêtes.",
+   "id": "t021-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces potions n’existe pas dans le Guide du Maître 5e ?",
+   "choix": [
+    "Potion de résurrection",
+    "Potion de soins",
+    "Potion de vol",
+    "Potion de respiration aquatique"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Armures »",
+   "expl": "Ramener un mort demande des sorts de haut niveau, pas une simple potion.",
+   "id": "t021-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces armures n’est pas une armure lourde ?",
+   "choix": [
+    "Armure de cuir clouté",
+    "Harnois",
+    "Cotte de mailles",
+    "Clibanion"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "L’armure de cuir clouté est une armure légère (CA 12 + Dex).",
+   "id": "t021-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces objets ne permet pas de voler ?",
+   "choix": [
+    "Bottes elfiques",
+    "Balai volant",
+    "Tapis volant",
+    "Bottes ailées"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Les bottes elfiques rendent silencieux, sans quitter le sol.",
+   "id": "t021-099",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces anneaux n’existe pas dans le Guide du Maître 5e ?",
+   "choix": [
+    "Anneau de résurrection",
+    "Anneau d’invisibilité",
+    "Anneau de régénération",
+    "Anneau de feuille morte"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Aucun anneau ne ramène les morts ; celui de régénération fait repousser les membres perdus.",
+   "id": "t021-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets demandent une harmonisation ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Anneau de protection",
+    "Cape de protection",
+    "Bracelets de défense",
+    "Sac sans fond",
+    "Potion de soins"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Les potions et la plupart des objets de rangement ne demandent aucune harmonisation.",
+   "id": "t021-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets sont des artefacts ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Main de Vecna",
+    "Œil de Vecna",
+    "Baguette d’Orcus",
+    "Épée vorpale",
+    "Sac sans fond"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "L’épée vorpale est légendaire, mais ce n’est pas un artefact.",
+   "id": "t021-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles raretés existent en D&D 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Peu commun",
+    "Rare",
+    "Très rare",
+    "Légendaire",
+    "Épique",
+    "Mythique"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Commun complète la liste ; les artefacts forment une catégorie à part.",
+   "id": "t021-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets sont maudits ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Hache du berserker",
+    "Sac dévoreur",
+    "Armure de vulnérabilité",
+    "Cape elfique",
+    "Anneau de protection"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Une malédiction ne se révèle souvent qu’après l’harmonisation.",
+   "id": "t021-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels objets permettent de voler ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tapis volant",
+    "Balai volant",
+    "Bottes ailées",
+    "Bottes elfiques",
+    "Gantelets de puissance d’ogre"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Les bottes ailées donnent une vitesse de vol pendant quelques heures par jour.",
+   "id": "t021-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets fixent une caractéristique à 19 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gantelets de puissance d’ogre",
+    "Bandeau d’intellect",
+    "Amulette de santé",
+    "Anneau de protection",
+    "Cape de déplacement"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "Force, Intelligence et Constitution passent à 19 ; les deux autres objets améliorent la défense.",
+   "id": "t021-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles pièces existent dans le Manuel des Joueurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cuivre",
+    "Argent",
+    "Électrum",
+    "Platine",
+    "Bronze",
+    "Fer"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "Lawrence Schick, White Plume Mountain (1979)",
+   "expl": "Avec l’or, cela fait cinq pièces ; le bronze et le fer n’ont pas cours dans le Manuel des Joueurs.",
+   "id": "t021-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles armes forment le trio de White Plume Mountain ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Blackrazor",
+    "Wave",
+    "Whelm",
+    "Stormbringer",
+    "Excalibur"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Une épée, un trident et un marteau, tous trois conscients.",
+   "id": "t021-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets améliorent la CA ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Anneau de protection",
+    "Bracelets de défense",
+    "Cape de protection",
+    "Bottes de rapidité",
+    "Sac sans fond"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Les bottes de rapidité gênent les attaques d’opportunité, mais ne changent pas la CA.",
+   "id": "t021-109",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels objets ouvrent un espace extradimensionnel pour ranger des affaires ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sac sans fond",
+    "Puits portatif",
+    "Havresac d’Hévard",
+    "Bourse ordinaire",
+    "Carquois simple"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Le havresac d’Hévard (Heward’s handy haversack) range chaque objet dans une poche et le présente aussitôt.",
+   "id": "t021-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces raretés de la plus commune à la plus rare.",
+   "items": [
+    "Commun",
+    "Peu commun",
+    "Rare",
+    "Très rare",
+    "Légendaire"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "Plus la rareté monte, plus l’objet est puissant et cher.",
+   "id": "t021-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces pièces par valeur croissante.",
+   "items": [
+    "Cuivre",
+    "Argent",
+    "Électrum",
+    "Or",
+    "Platine"
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "En pièces de cuivre : 1, 10, 50, 100 et 1 000 ; l’électrum vaut une demi-pièce d’or.",
+   "id": "t021-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces potions de soins par puissance croissante.",
+   "items": [
+    "Soins",
+    "Soins majeurs",
+    "Soins supérieurs",
+    "Soins suprêmes"
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "2d4 + 2, 4d4 + 4, 8d4 + 8 puis 10d4 + 20 PV.",
+   "id": "t021-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces ceintures de géant par Force donnée, de la plus faible à la plus forte.",
+   "items": [
+    "Géant des collines",
+    "Géant du feu",
+    "Géant des nuages",
+    "Géant des tempêtes"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "21, 25, 27 et 29 de Force : la ceinture du géant des tempêtes est légendaire.",
+   "id": "t021-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces armures par CA de base croissante.",
+   "items": [
+    "Demi-plate",
+    "Cotte de mailles",
+    "Clibanion",
+    "Harnois"
+   ],
+   "src": "TSR (1978-1979) ; Wizards of the Coast (2017)",
+   "expl": "Demi-plate 15 (+ Dex max 2), cotte de mailles 16, clibanion 17, harnois 18.",
+   "id": "t021-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces aventures par date de parution.",
+   "items": [
+    "Tomb of Horrors",
+    "White Plume Mountain",
+    "Tomb of Annihilation"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "1978, 1979 puis 2017 ; les deux tombeaux sont l’œuvre du même liche, Acererak.",
+   "id": "t021-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces objets par prix croissant.",
+   "items": [
+    "Torche",
+    "Corde de chanvre (15 m)",
+    "Épée longue",
+    "Cotte de mailles",
+    "Harnois"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "Torche 1 pc, corde 1 po, épée longue 15 po, cotte de mailles 75 po, harnois 1 500 po.",
+   "id": "t021-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces montures par prix croissant.",
+   "items": [
+    "Mule",
+    "Poney",
+    "Cheval de selle",
+    "Cheval de guerre"
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7 « Harmonisation »",
+   "expl": "Mule 8 po, poney 30 po, cheval de selle 75 po et cheval de guerre 400 po.",
+   "id": "t021-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe dans l’ordre ces étapes pour utiliser un objet qui demande une harmonisation.",
+   "items": [
+    "Découvrir les propriétés de l’objet",
+    "Passer un repos court à son contact",
+    "Profiter de ses pouvoirs"
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Un repos court au contact de l’objet ou le sort Identification révèlent ses propriétés.",
+   "id": "t021-119",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces objets par nombre de charges croissant.",
+   "items": [
+    "Wand of Magic Missiles",
+    "Staff of Power",
+    "Staff of the Magi"
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Baguette de projectiles magiques 7 charges, Staff of Power 20, Staff of the Magi 50.",
+   "id": "t021-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque rareté à sa fourchette de valeur.",
+   "paires": [
+    [
+     "Peu commun",
+     "101 à 500 po"
+    ],
+    [
+     "Rare",
+     "501 à 5 000 po"
+    ],
+    [
+     "Très rare",
+     "5 001 à 50 000 po"
+    ],
+    [
+     "Légendaire",
+     "Plus de 50 000 po"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Un objet commun vaut de 50 à 100 po ; les artefacts n’ont pas de prix.",
+   "id": "t021-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque objet à la caractéristique qu’il fixe à 19.",
+   "paires": [
+    [
+     "Gantelets de puissance d’ogre",
+     "Force"
+    ],
+    [
+     "Bandeau d’intellect",
+     "Intelligence"
+    ],
+    [
+     "Amulette de santé",
+     "Constitution"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Ces objets sont précieux pour un personnage dont la caractéristique est faible.",
+   "id": "t021-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque ceinture à la Force qu’elle donne.",
+   "paires": [
+    [
+     "Géant des collines",
+     "21"
+    ],
+    [
+     "Géant du feu",
+     "25"
+    ],
+    [
+     "Géant des nuages",
+     "27"
+    ],
+    [
+     "Géant des tempêtes",
+     "29"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Les ceintures de géant de pierre et du givre donnent 23.",
+   "id": "t021-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque potion à ses points de vie rendus.",
+   "paires": [
+    [
+     "Soins",
+     "2d4 + 2"
+    ],
+    [
+     "Soins majeurs",
+     "4d4 + 4"
+    ],
+    [
+     "Soins supérieurs",
+     "8d4 + 8"
+    ],
+    [
+     "Soins suprêmes",
+     "10d4 + 20"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5",
+   "expl": "Seule la potion de soins ordinaire est commune ; les autres sont de plus en plus rares.",
+   "id": "t021-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque pièce à sa valeur en pièces d’argent.",
+   "paires": [
+    [
+     "Cuivre",
+     "1/10"
+    ],
+    [
+     "Électrum",
+     "5"
+    ],
+    [
+     "Or",
+     "10"
+    ],
+    [
+     "Platine",
+     "100"
+    ]
+   ],
+   "src": "Lawrence Schick, White Plume Mountain (1979)",
+   "expl": "Le cuivre est la monnaie des petites gens, le platine celle des grandes fortunes.",
+   "id": "t021-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque arme de White Plume Mountain à sa forme.",
+   "paires": [
+    [
+     "Blackrazor",
+     "Épée"
+    ],
+    [
+     "Wave",
+     "Trident"
+    ],
+    [
+     "Whelm",
+     "Marteau de guerre"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Wave appartient à un dieu de la mer, Whelm a été forgé par des nains contre les géants.",
+   "id": "t021-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque objet à son effet.",
+   "paires": [
+    [
+     "Cape de déplacement",
+     "Attaques désavantagées"
+    ],
+    [
+     "Bottes de rapidité",
+     "Vitesse doublée"
+    ],
+    [
+     "Chapeau de déguisement",
+     "Apparence changée"
+    ],
+    [
+     "Perle de pouvoir",
+     "Emplacement de sort récupéré"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 5 « Outils »",
+   "expl": "Des objets peu communs ou rares, très prisés des aventuriers.",
+   "id": "t021-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque outil à son usage.",
+   "paires": [
+    [
+     "Outils de voleur",
+     "Crocheter"
+    ],
+    [
+     "Trousse de soins",
+     "Stabiliser"
+    ],
+    [
+     "Matériel d’herboriste",
+     "Préparer des potions de soins"
+    ],
+    [
+     "Kit de déguisement",
+     "Changer d’apparence"
+    ]
+   ],
+   "src": "Player’s Handbook 5e (2014) ; Dungeon Master’s Guide 5e (2014)",
+   "expl": "La maîtrise d’un outil permet d’ajouter son bonus de maîtrise aux tests qui l’utilisent.",
+   "id": "t021-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque matière à son avantage.",
+   "paires": [
+    [
+     "Mithral",
+     "Pas de désavantage en Discrétion"
+    ],
+    [
+     "Adamantium",
+     "Coups critiques annulés"
+    ],
+    [
+     "Argent",
+     "Blesse les lycanthropes"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Les matériaux rares changent les propriétés des armes et armures.",
+   "id": "t021-129",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque arme magique à son effet.",
+   "paires": [
+    [
+     "Épée vorpale",
+     "Décapitation"
+    ],
+    [
+     "Langue de feu",
+     "Dégâts de feu"
+    ],
+    [
+     "Lame solaire",
+     "Dégâts radiants"
+    ],
+    [
+     "Épée tueuse de dragons",
+     "Dégâts contre les dragons"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Chaque arme a son style : la lame solaire est la terreur des morts-vivants.",
+   "id": "t021-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un sac\n2. Je pèse toujours le même poids\n3. Je contiens bien plus que ma taille",
+   "choix": [
+    "Le sac sans fond",
+    "Le sac dévoreur",
+    "Le sac à malices",
+    "La bourse du marchand"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Le sac sans fond est l’objet magique le plus utile pour transporter un trésor.",
+   "id": "t021-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je remplace un membre tranché\n2. Je viens d’une liche\n3. Je donne une force terrible",
+   "choix": [
+    "La Main de Vecna",
+    "L’Œil de Vecna",
+    "L’Épée de Kas",
+    "La Baguette d’Orcus"
+   ],
+   "rep": 0,
+   "src": "Lawrence Schick, White Plume Mountain (1979)",
+   "expl": "Ses pouvoirs grandissent à mesure que son porteur sert les desseins de Vecna.",
+   "id": "t021-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une épée noire\n2. J’ai une conscience\n3. Je dévore les âmes",
+   "choix": [
+    "Blackrazor",
+    "Wave",
+    "Whelm",
+    "La vengeresse sacrée"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Blackrazor donne des PV temporaires à son porteur à chaque âme dévorée.",
+   "id": "t021-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu de cartes\n2. Je peux offrir des souhaits\n3. Je peux aussi tout faire perdre",
+   "choix": [
+    "Le Deck of Many Things",
+    "Le jeu de tarot du devin",
+    "Les cartes d’illusion",
+    "Le jeu du joueur"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Beaucoup de MJ le redoutent : une seule pioche peut bouleverser une campagne.",
+   "id": "t021-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un bâton\n2. J’ai cinquante charges\n3. Je peux exploser en frappe vengeresse",
+   "choix": [
+    "Staff of the Magi",
+    "Staff of Frost",
+    "Staff of the Woodlands",
+    "Staff of Charming"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Le porteur qui le brise a une chance d’être transporté sur un autre plan plutôt que d’être tué.",
+   "id": "t021-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un globe de néant\n2. Je flotte\n3. J’anéantis tout ce que je touche",
+   "choix": [
+    "La sphère d’annihilation",
+    "La boule de cristal",
+    "La perle de pouvoir",
+    "La pierre de ioun"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "On la trouve dans des pièges célèbres, comme la bouche de démon de Tomb of Horrors.",
+   "id": "t021-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une hache\n2. Je rends mon porteur furieux\n3. Je refuse qu’on me lâche",
+   "choix": [
+    "La hache du berserker",
+    "La hache des seigneurs nains",
+    "Le marteau de lancer nain",
+    "La hache de bataille +1"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Elle donne des PV supplémentaires, mais pousse le porteur à attaquer la créature la plus proche.",
+   "id": "t021-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un sous-marin\n2. J’ai la forme d’un homard\n3. Un magicien m’a conçu",
+   "choix": [
+    "L’appareil de Kwalish",
+    "Le tapis volant",
+    "La flasque de fer",
+    "Le cube de force"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Kwalish est un magicien de Greyhawk ; son appareil apparaît dans Expedition to the Barrier Peaks.",
+   "id": "t021-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une cape\n2. Je brouille ma position\n3. On me frappe souvent à côté",
+   "choix": [
+    "La cape de déplacement",
+    "La cape elfique",
+    "La cape de protection",
+    "La cape de la raie manta"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Comme la bête éclipsante, dont elle est souvent faite, elle trompe le regard des ennemis.",
+   "id": "t021-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis tissé\n2. Je traverse les airs\n3. On peut m’emporter roulé",
+   "choix": [
+    "Le tapis volant",
+    "Le balai volant",
+    "Le havresac d’Hévard",
+    "La couverture de l’aubergiste"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Sa taille détermine le nombre de passagers et sa vitesse.",
+   "id": "t021-140",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis nacré\n2. Je rends un emplacement de sort\n3. Les magiciens m’adorent",
+   "choix": [
+    "La perle de pouvoir",
+    "La pierre de ioun",
+    "La gemme de vision",
+    "Le collier de boules de feu"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 7",
+   "expl": "Elle est peu commune et demande l’harmonisation d’un lanceur de sorts.",
+   "id": "t021-141",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
