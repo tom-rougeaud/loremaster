@@ -14,1021 +14,2292 @@
  },
  "questions": [
   {
-   "id": "rac-001",
-   "concept": "rac-001",
+   "type": "qcm",
    "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race jouable est réputée pour sa barbe et son goût pour la forge ?",
+   "q": "Dans le Manuel des Joueurs 5e (2014), combien de races jouables sont présentées ?",
    "choix": [
-    "Les nains",
-    "Les gnomes",
-    "Les halflings",
-    "Les elfes"
+    "9",
+    "7",
+    "12",
+    "15"
    ],
    "rep": 0,
-   "expl": "Les nains sont des forgerons et mineurs.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Nain, elfe, halfelin, humain, drakéide, gnome, demi-elfe, demi-orque et tieffelin : neuf races, la plupart avec des sous-races.",
+   "id": "rac-071",
    "conf": "probable"
   },
   {
-   "id": "rac-002",
-   "concept": "rac-002",
-   "niveau": 1,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle race jouable est de petite taille et aime la bonne chère ?",
-   "choix": [
-    "Les drakéides",
-    "Les halfelins",
-    "Les nains",
-    "Les demi-orques"
-   ],
-   "rep": 1,
-   "expl": "Halfelins (halflings).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-003",
-   "concept": "rac-003",
-   "niveau": 1,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race jouable a des oreilles pointues et une grande longévité ?",
-   "choix": [
-    "Les nains",
-    "Les demi-orques",
-    "Les humains",
-    "Les elfes"
-   ],
-   "rep": 3,
-   "expl": "Les elfes vivent longtemps.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-004",
-   "concept": "rac-004",
    "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race jouable descend des dragons ?",
+   "q": "Dans le Manuel des Joueurs de 2024, par quel mot le terme « race » a-t-il été remplacé ?",
    "choix": [
-    "Les drakéides",
-    "Les demi-elfes",
-    "Les gnomes",
-    "Les tieffelins"
+    "Espèce",
+    "Lignée",
+    "Peuple",
+    "Origine"
    ],
    "rep": 0,
-   "expl": "Drakéides (dragonborn).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
+   "src": "Player’s Handbook (2024)",
+   "expl": "L’édition 2024 parle d’« espèces » (species) ; l’héritage culturel passe désormais par l’historique du personnage.",
+   "id": "rac-072",
    "conf": "probable"
   },
   {
-   "id": "rac-005",
-   "concept": "rac-005",
-   "niveau": 2,
    "type": "qcm",
-   "q": "Dans D&D 5e, quelle race jouable porte une ascendance infernale ?",
-   "choix": [
-    "Les drakéides",
-    "Les halfelins",
-    "Les tieffelins",
-    "Les gnomes"
-   ],
-   "rep": 2,
-   "expl": "Tieffelins.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-006",
-   "concept": "rac-006",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race jouable est issue d’un humain et d’un elfe ?",
-   "choix": [
-    "Les demi-orques",
-    "Les gnomes",
-    "Les tieffelins",
-    "Les demi-elfes"
-   ],
-   "rep": 3,
-   "expl": "Demi-elfes.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-007",
-   "concept": "rac-007",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race jouable est issue d’un humain et d’un orque ?",
-   "choix": [
-    "Les gobelins",
-    "Les drakéides",
-    "Les demi-elfes",
-    "Les demi-orques"
-   ],
-   "rep": 3,
-   "expl": "Demi-orques.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-008",
-   "concept": "rac-008",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race jouable est petite, curieuse et douée pour l’invention ?",
-   "choix": [
-    "Les drakéides",
-    "Les nains",
-    "Les gnomes",
-    "Les elfes"
-   ],
-   "rep": 2,
-   "expl": "Gnomes. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-009",
-   "concept": "rac-009",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race est la plus répandue et polyvalente ?",
-   "choix": [
-    "Les humains",
-    "Les nains",
-    "Les gnomes",
-    "Les elfes"
-   ],
-   "rep": 0,
-   "expl": "Humains. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-010",
-   "concept": "rac-010",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle sous-race naine est robuste (bonus de Constitution) ?",
-   "choix": [
-    "Nain d’argile",
-    "Nain des collines ou des montagnes",
-    "Nain des cavernes",
-    "Nain de glace"
-   ],
-   "rep": 1,
-   "expl": "Hill dwarf, mountain dwarf.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-012",
-   "concept": "rac-012",
    "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle sous-race d’elfe est connue pour sa peau sombre et ses souterrains ?",
+   "q": "Lequel de ces peuples est devenu une espèce de base dans le Manuel des Joueurs de 2024 ?",
    "choix": [
-    "Drow",
-    "Haut-elfe",
-    "Elfe de mer",
-    "Elfe des bois"
+    "L’orque",
+    "Le demi-orque",
+    "Le kenku",
+    "Le tabaxi"
    ],
    "rep": 0,
-   "expl": "Drow. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "src": "Player’s Handbook (2024)",
+   "expl": "Le Manuel de 2024 propose aasimar, drakéide, nain, elfe, gnome, goliath, halfelin, humain, orque et tieffelin ; demi-elfes et demi-orques n’y sont plus des espèces à part.",
+   "id": "rac-073",
    "conf": "probable"
   },
   {
-   "id": "rac-013",
-   "concept": "rac-013",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans quel univers les drow vénèrent-ils Lolth ?",
-   "choix": [
-    "Greyhawk",
-    "Eberron",
-    "Dragonlance",
-    "Les Royaumes Oubliés"
-   ],
-   "rep": 3,
-   "expl": "Lolth est la Reine-Araignée.",
-   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-014",
-   "concept": "rac-014",
    "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle déesse est la divinité principale des drow ?",
+   "q": "Dans D&D 5e, quel trait permet à un halfelin de relancer un 1 obtenu au d20 ?",
    "choix": [
-    "Moradin",
-    "Gruumsh",
-    "Lolth",
-    "Corellon"
-   ],
-   "rep": 2,
-   "expl": "Lolth. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-015",
-   "concept": "rac-015",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel dieu est le créateur des elfes ?",
-   "choix": [
-    "Yondalla",
-    "Corellon Larethian",
-    "Moradin",
-    "Gruumsh"
-   ],
-   "rep": 1,
-   "expl": "Corellon. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-016",
-   "concept": "rac-016",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel dieu est le créateur des nains ?",
-   "choix": [
-    "Gruumsh",
-    "Yondalla",
-    "Moradin",
-    "Corellon"
-   ],
-   "rep": 2,
-   "expl": "Moradin. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-017",
-   "concept": "rac-017",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel dieu est le chef des orques ?",
-   "choix": [
-    "Gruumsh",
-    "Moradin",
-    "Bahamut",
-    "Yondalla"
-   ],
-   "rep": 0,
-   "expl": "Gruumsh, le Borgne.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-018",
-   "concept": "rac-018",
-   "niveau": 3,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel dieu-dragon platine est vénéré par les drakéides bienveillants ?",
-   "choix": [
-    "Gruumsh",
-    "Bahamut",
-    "Lolth",
-    "Tiamat"
-   ],
-   "rep": 1,
-   "expl": "Bahamut. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-019",
-   "concept": "rac-019",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Quelle race de Faerûn a des ailes d’ange ?",
-   "choix": [
-    "Les tieffelins",
-    "Les aasimars",
-    "Les genasi",
-    "Les tabaxi"
-   ],
-   "rep": 1,
-   "expl": "Aasimar. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-020",
-   "concept": "rac-020",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Quelle race est féline et curieuse (venant du Volo’s Guide) ?",
-   "choix": [
-    "Les aarakocra",
-    "Les kenku",
-    "Les tabaxi",
-    "Les firbolgs"
-   ],
-   "rep": 2,
-   "expl": "Tabaxi. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-021",
-   "concept": "rac-021",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race est un oiseau-humanoïde capable de voler ?",
-   "choix": [
-    "Les aarakocra",
-    "Les kenku",
-    "Les tortles",
-    "Les tabaxi"
-   ],
-   "rep": 0,
-   "expl": "Aarakocra.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-022",
-   "concept": "rac-022",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race est un corbeau humanoïde incapable de parler normalement ?",
-   "choix": [
-    "Les kenku",
-    "Les tabaxi",
-    "Les firbolgs",
-    "Les aarakocra"
-   ],
-   "rep": 0,
-   "expl": "Kenku. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-023",
-   "concept": "rac-023",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race est un géant des forêts bienveillant ?",
-   "choix": [
-    "Les bugbears",
-    "Les gobelins",
-    "Les orques",
-    "Les firbolgs"
-   ],
-   "rep": 3,
-   "expl": "Firbolgs. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-024",
-   "concept": "rac-024",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race est issue d’un des quatre éléments ?",
-   "choix": [
-    "Les kenku",
-    "Les genasi",
-    "Les tortles",
-    "Les tieffelins"
-   ],
-   "rep": 1,
-   "expl": "Genasi. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-025",
-   "concept": "rac-025",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race ressemble à une tortue humanoïde ?",
-   "choix": [
-    "Les tabaxi",
-    "Les tortles",
-    "Les firbolgs",
-    "Les genasi"
-   ],
-   "rep": 1,
-   "expl": "Tortles. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-026",
-   "concept": "rac-026",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Quelle race jouable de Faerûn est dotée d’une ascendance céleste (lumière radiante) ?",
-   "choix": [
-    "Les tieffelins",
-    "Les orques",
-    "Les kenku",
-    "Les aasimars"
-   ],
-   "rep": 3,
-   "expl": "Aasimars : lignée céleste.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-027",
-   "concept": "rac-027",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quelle race est connue pour sa chance naturelle ?",
-   "choix": [
-    "Les demi-orques",
-    "Les gnomes",
-    "Les halfelins",
-    "Les nains"
-   ],
-   "rep": 2,
-   "expl": "Chanceux (Lucky).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-028",
-   "concept": "rac-028",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel trait racial des demi-orques les empêche de tomber à 0 PV une fois par repos ?",
-   "choix": [
-    "Résilience naine",
-    "Esprit fey",
-    "Sang de dragon",
-    "Endurance implacable"
-   ],
-   "rep": 3,
-   "expl": "Relentless Endurance.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Demi-orque »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-029",
-   "concept": "rac-029",
-   "niveau": 2,
-   "type": "qcm",
-   "q": "Dans D&D 5e, quel trait racial des elfes les protège du sommeil magique ?",
-   "choix": [
-    "Ascendance féerique",
-    "Dons infernaux",
     "Chanceux",
-    "Résilience naine"
+    "Brave",
+    "Agilité halfeline",
+    "Discrétion naturelle"
    ],
    "rep": 0,
-   "expl": "Fey Ancestry.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "src": "Player’s Handbook (2024)",
+   "expl": "Chanceux : sur un 1 naturel à une attaque, un test ou une sauvegarde, le halfelin relance le dé et garde le nouveau résultat.",
+   "id": "rac-074",
    "conf": "probable"
   },
   {
-   "id": "rac-030",
-   "concept": "rac-030",
-   "niveau": 3,
    "type": "qcm",
-   "q": "Dans D&D 5e, les elfes n’ont pas besoin de dormir. Que font-ils à la place ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien d’heures dure la transe d’un elfe qui remplace le sommeil ?",
    "choix": [
-    "Un sommeil léger",
-    "Rien",
-    "Une transe de 4 heures",
-    "Une méditation de 8 heures"
+    "4",
+    "2",
+    "6",
+    "8"
    ],
-   "rep": 2,
-   "expl": "Trance. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "L’elfe médite 4 heures et bénéficie ensuite des avantages d’un repos long de 8 heures.",
+   "id": "rac-075",
    "conf": "probable"
   },
   {
-   "id": "rac-031",
-   "concept": "rac-031",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, les halfelins sont des géants.",
-   "rep": false,
-   "expl": "Ils sont petits.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-032",
-   "concept": "rac-032",
-   "niveau": 1,
-   "type": "vf",
-   "q": "Dans D&D 5e, les nains sont une race jouable.",
-   "rep": true,
-   "expl": "Nains. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-033",
-   "concept": "rac-033",
+   "type": "qcm",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les drakéides crachent du feu uniquement.",
-   "rep": false,
-   "expl": "Le souffle dépend de l’ascendance.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
+   "q": "Dans D&D 5e, quel est l’âge typique d’un elfe adulte selon le Manuel des Joueurs ?",
+   "choix": [
+    "Environ 100 ans",
+    "18 ans",
+    "50 ans",
+    "300 ans"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Un elfe atteint la maturité physique comme un humain, mais on ne le considère adulte qu’autour de 100 ans ; il peut vivre 750 ans.",
+   "id": "rac-076",
    "conf": "probable"
   },
   {
-   "id": "rac-034",
-   "concept": "rac-034",
+   "type": "qcm",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les tieffelins descendent de dragons.",
-   "rep": false,
-   "expl": "Ascendance infernale.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
+   "q": "Dans D&D 5e, quelle sous-race elfique a une vision dans le noir de 36 m mais souffre au soleil ?",
+   "choix": [
+    "Le drow",
+    "L’elfe des bois",
+    "Le haut-elfe",
+    "L’eladrin"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Le drow a une Vision dans le noir supérieure (36 m) et une Sensibilité au soleil ; il connaît Lumières dansantes, puis Lueurs féeriques et Ténèbres.",
+   "id": "rac-077",
    "conf": "probable"
   },
   {
-   "id": "rac-035",
-   "concept": "rac-035",
+   "type": "qcm",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les demi-orques sont des croisements humain-orque.",
-   "rep": true,
-   "expl": "Demi-orques.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Demi-orque »",
+   "q": "Dans D&D 5e, quel avantage le haut-elfe obtient-il de sa sous-race ?",
+   "choix": [
+    "Un sort mineur de magicien",
+    "Une vitesse de 10,5 m",
+    "La vision dans le noir supérieure",
+    "Une résistance au poison"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Le haut-elfe connaît un sort mineur de magicien et une langue supplémentaire ; l’elfe des bois, lui, court plus vite.",
+   "id": "rac-078",
    "conf": "probable"
   },
   {
-   "id": "rac-036",
-   "concept": "rac-036",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les gnomes sont plus grands que les humains.",
-   "rep": false,
-   "expl": "Petits. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Gnome »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-037",
-   "concept": "rac-037",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les nains vivent généralement plus de 300 ans.",
-   "rep": true,
-   "expl": "Environ 350 ans.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-038",
-   "concept": "rac-038",
+   "type": "qcm",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, les elfes vivent généralement moins de 100 ans.",
-   "rep": false,
-   "expl": "Faux : un elfe peut atteindre 750 ans.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "q": "Dans D&D 5e, quel trait permet à l’elfe des bois de passer inaperçu sous une légère pluie, la brume ou le feuillage ?",
+   "choix": [
+    "Cachette naturelle",
+    "Pas sylvestre",
+    "Discrétion naturelle",
+    "Ascendance féerique"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Cachette naturelle (mask of the wild) lui permet de se cacher quand il n’est que légèrement masqué par des phénomènes naturels.",
+   "id": "rac-079",
    "conf": "probable"
   },
   {
-   "id": "rac-039",
-   "concept": "rac-039",
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle vitesse de déplacement de base a un nain ?",
+   "choix": [
+    "7,5 m (25 pieds)",
+    "9 m (30 pieds)",
+    "6 m (20 pieds)",
+    "10,5 m (35 pieds)"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Le nain se déplace de 7,5 m, mais une armure lourde ne le ralentit jamais.",
+   "id": "rac-080",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, contre quoi la Résilience naine protège-t-elle ?",
+   "choix": [
+    "Le poison",
+    "La magie",
+    "Le feu",
+    "Les charmes"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Le nain a l’avantage aux sauvegardes contre le poison et résiste aux dégâts de poison.",
+   "id": "rac-081",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, les elfes vivent environ 80 ans.",
-   "rep": false,
-   "expl": "Plus de sept siècles.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
+   "q": "Dans D&D 5e, quelle sous-race naine reçoit des maîtrises d’armures légères et intermédiaires ?",
+   "choix": [
+    "Le nain des montagnes",
+    "Le nain des collines",
+    "Le duergar",
+    "Le nain des marais"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Le nain des montagnes gagne +2 en Force et ces maîtrises d’armure ; le nain des collines gagne +1 en Sagesse et des PV supplémentaires.",
+   "id": "rac-082",
    "conf": "probable"
   },
   {
-   "id": "rac-040",
-   "concept": "rac-040",
+   "type": "qcm",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les aarakocra peuvent voler.",
-   "rep": true,
-   "expl": "Aarakocra.",
-   "src": "Elemental Evil Player’s Companion (2015), « Aarakocra »",
+   "q": "Dans D&D 5e, quelle sous-race de halfelin se cache facilement derrière une créature plus grande ?",
+   "choix": [
+    "Pied-léger",
+    "Robuste",
+    "Fantôme",
+    "Lotus"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Le halfelin pied-léger a Discrétion naturelle : il peut se cacher derrière une créature au moins d’une taille supérieure.",
+   "id": "rac-083",
    "conf": "probable"
   },
   {
-   "id": "rac-041",
-   "concept": "rac-041",
+   "type": "qcm",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les kenku parlent librement.",
-   "rep": false,
-   "expl": "Ils imitent.",
-   "src": "Volo’s Guide to Monsters (2016), chap. 2 « Kenku »",
+   "q": "Dans D&D 5e, quel trait donne au gnome l’avantage aux sauvegardes d’Intelligence, de Sagesse et de Charisme contre la magie ?",
+   "choix": [
+    "Ruse gnome",
+    "Ténacité gnome",
+    "Chance gnome",
+    "Esprit gnome"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "La Ruse gnome rend les gnomes très résistants aux sorts qui visent l’esprit.",
+   "id": "rac-084",
    "conf": "probable"
   },
   {
-   "id": "rac-042",
-   "concept": "rac-042",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les kenku imitent des sons.",
-   "rep": true,
-   "expl": "Imitation.",
-   "src": "Volo’s Guide to Monsters (2016), chap. 2 « Kenku »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-043",
-   "concept": "rac-043",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les tabaxi sont des oiseaux.",
-   "rep": false,
-   "expl": "Félins. (voir la source)",
-   "src": "Volo’s Guide to Monsters (2016), chap. 2 « Tabaxi »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-044",
-   "concept": "rac-044",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les genasi sont liés aux éléments.",
-   "rep": true,
-   "expl": "Genasi. (voir la source)",
-   "src": "Elemental Evil Player’s Companion (2015), « Genasi »",
-   "conf": "probable"
-  },
-  {
-   "id": "rac-045",
-   "concept": "rac-045",
+   "type": "qcm",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Corellon est le créateur des nains.",
-   "rep": false,
-   "expl": "Des elfes.",
-   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "q": "Dans D&D 5e, quel gnome peut fabriquer de petits automates mécaniques ?",
+   "choix": [
+    "Le gnome des roches",
+    "Le gnome des forêts",
+    "Le gnome des profondeurs",
+    "Le gnome des sables"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Le gnome des roches a Bricoleur : il fabrique de petites boîtes à musique, jouets ou briquets mécaniques.",
+   "id": "rac-085",
    "conf": "probable"
   },
   {
-   "id": "rac-046",
-   "concept": "rac-046",
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien de compétences supplémentaires le demi-elfe maîtrise-t-il grâce à Polyvalence ?",
+   "choix": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Polyvalence (skill versatility) donne au demi-elfe deux compétences au choix, en plus de +2 Charisme et +1 à deux autres caractéristiques.",
+   "id": "rac-086",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel trait permet au drakéide de projeter une énergie destructrice selon son ascendance ?",
+   "choix": [
+    "Souffle",
+    "Présence terrifiante",
+    "Résistance draconique",
+    "Écailles"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "L’arme de souffle du drakéide (2d6 au niveau 1) dépend de la couleur de son ancêtre dragon ; il résiste aussi à ce type de dégâts.",
+   "id": "rac-087",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel type de dégâts un drakéide d’ascendance rouge souffle-t-il ?",
+   "choix": [
+    "Feu",
+    "Froid",
+    "Foudre",
+    "Acide"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Les drakéides rouges, d’or et d’airain soufflent du feu ; les bleus et bronze de la foudre ; les blancs et argent du froid.",
+   "id": "rac-088",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quel type de dégâts le tieffelin résiste-t-il ?",
+   "choix": [
+    "Feu",
+    "Froid",
+    "Nécrotique",
+    "Poison"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "La Résistance infernale protège le tieffelin des flammes ; il connaît aussi Thaumaturgie, puis Représailles infernales et Ténèbres.",
+   "id": "rac-089",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel est le bonus de caractéristique de l’humain standard ?",
+   "choix": [
+    "+1 à toutes les caractéristiques",
+    "+2 à une caractéristique",
+    "+2 Force et +1 Constitution",
+    "Aucun"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "L’humain standard gagne +1 partout ; la variante humaine gagne +1 à deux caractéristiques, une compétence et un don.",
+   "id": "rac-090",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, qu’obtient la variante humaine dès le niveau 1 ?",
+   "choix": [
+    "Un don",
+    "Un sort mineur",
+    "La vision dans le noir",
+    "Une résistance aux dégâts"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "C’est la seule race du Manuel des Joueurs qui reçoit un don dès la création, ce qui la rend très populaire.",
+   "id": "rac-091",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable du Guide de Volo peut doubler sa vitesse pendant un tour ?",
+   "choix": [
+    "Le tabaxi",
+    "L’aarakocra",
+    "Le kenku",
+    "Le firbolg"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Tabaxi »",
+   "expl": "Agilité féline : le tabaxi double sa vitesse pour un tour, puis doit rester un tour sans bouger pour recommencer.",
+   "id": "rac-092",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable ne peut s’exprimer qu’en imitant des sons et des voix entendus ?",
+   "choix": [
+    "Le kenku",
+    "Le tabaxi",
+    "Le triton",
+    "Le goliath"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Kenku »",
+   "expl": "Les kenku ont perdu leur voix (et leurs ailes) à cause d’une malédiction ; ils parlent en répétant ce qu’ils ont entendu.",
+   "id": "rac-093",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable peut voler dès le niveau 1, avec une vitesse de vol de 15 m ?",
+   "choix": [
+    "L’aarakocra",
+    "Le kenku",
+    "Le tabaxi",
+    "Le drakéide"
+   ],
+   "rep": 0,
+   "src": "Elemental Evil Player’s Companion (2015)",
+   "expl": "L’aarakocra, homme-oiseau, vole dès le départ, mais pas en armure intermédiaire ou lourde.",
+   "id": "rac-094",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable possède une carapace qui lui donne une CA naturelle de 17 ?",
+   "choix": [
+    "La tortle",
+    "Le loxodon",
+    "Le goliath",
+    "Le forgé"
+   ],
+   "rep": 0,
+   "src": "The Tortle Package (2017) ; Mordenkainen Presents: Monsters of the Multiverse (2022)",
+   "expl": "La tortle peut aussi se réfugier dans sa carapace pour se protéger, au prix de sa mobilité.",
+   "id": "rac-095",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, Gruumsh est un dieu des orques.",
-   "rep": true,
-   "expl": "Gruumsh. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), Annexe B « Divinités »",
+   "q": "Dans D&D 5e, quel peuple jouable d’Eberron partage son esprit avec une entité du plan des rêves ?",
+   "choix": [
+    "Les kalashtar",
+    "Les changelins",
+    "Les shifters",
+    "Les forgés"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019), « Kalashtar »",
+   "expl": "Chaque kalashtar est lié à un quori, esprit bienveillant de Dal Quor ; ils ont des pouvoirs télépathiques.",
+   "id": "rac-096",
    "conf": "probable"
   },
   {
-   "id": "rac-047",
-   "concept": "rac-047",
+   "type": "qcm",
    "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable aux traits d’éléphant vient du monde de Ravnica ?",
+   "choix": [
+    "Le loxodon",
+    "Le minotaure",
+    "Le védalken",
+    "Le centaure"
+   ],
+   "rep": 0,
+   "src": "Guildmasters’ Guide to Ravnica (2018)",
+   "expl": "Les loxodons, calmes et sages, ont une trompe préhensile et une peau épaisse ; ils viennent du Guildmasters’ Guide to Ravnica (2018).",
+   "id": "rac-097",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel peuple jouable de Theros ressemble à un lion humanoïde ?",
+   "choix": [
+    "Le léonin",
+    "Le tabaxi",
+    "Le satyre",
+    "Le minotaure"
+   ],
+   "rep": 0,
+   "src": "Mythic Odysseys of Theros (2020)",
+   "expl": "Le léonin, peuple fier des plaines de Theros, pousse un rugissement terrifiant.",
+   "id": "rac-098",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable de l’université de Strixhaven est un humanoïde-chouette ?",
+   "choix": [
+    "L’owlin",
+    "L’aarakocra",
+    "Le kenku",
+    "Le harengon"
+   ],
+   "rep": 0,
+   "src": "Strixhaven: A Curriculum of Chaos (2021)",
+   "expl": "L’owlin, apparu dans Strixhaven (2021), plane silencieusement et voit dans le noir.",
+   "id": "rac-099",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable a une ascendance céleste et peut soigner par imposition des mains ?",
+   "choix": [
+    "L’aasimar",
+    "Le tieffelin",
+    "Le génasi",
+    "Le firbolg"
+   ],
+   "rep": 0,
+   "src": "Volo’s Guide to Monsters (2016), « Aasimar »",
+   "expl": "L’aasimar porte une étincelle divine ; un guide angélique le conseille dans ses rêves.",
+   "id": "rac-100",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel célèbre rôdeur drow créé par R. A. Salvatore a quitté Menzoberranzan pour la surface ?",
+   "choix": [
+    "Drizzt Do’Urden",
+    "Jarlaxle Baenre",
+    "Zaknafein",
+    "Artemis Entreri"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Crystal Shard (TSR, 1988)",
+   "expl": "Drizzt Do’Urden apparaît pour la première fois dans The Crystal Shard (1988) ; il combat avec deux cimeterres, accompagné de la panthère Guenhwyvar.",
+   "id": "rac-101",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la panthère magique de Drizzt ?",
+   "choix": [
+    "Guenhwyvar",
+    "Bast",
+    "Ombrelune",
+    "Shadowfax"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Crystal Shard (TSR, 1988)",
+   "expl": "Guenhwyvar est invoquée grâce à une figurine d’onyx ; elle vient du Plan Astral.",
+   "id": "rac-102",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi nain est le père adoptif de Catti-brie et l’ami de Drizzt ?",
+   "choix": [
+    "Bruenor Battlehammer",
+    "Gimli",
+    "Moradin",
+    "Gundren Rockseeker"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, The Icewind Dale Trilogy (TSR, 1988-1990)",
+   "expl": "Bruenor Battlehammer, roi de Mithral Hall, est l’un des compagnons de Drizzt dans la saga d’Icewind Dale.",
+   "id": "rac-103",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Dragonlance, quel peuple de petite taille, curieux et voleur sans le vouloir, remplace les halfelins ?",
+   "choix": [
+    "Les kenders",
+    "Les gnomes",
+    "Les goblins",
+    "Les hobbits"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Tasslehoff Burrfoot est le kender le plus célèbre : il « emprunte » tout ce qui l’intéresse.",
+   "id": "rac-104",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la campagne télévisée Critical Role (Vox Machina), de quel peuple sont les jumeaux Vex’ahlia et Vax’ildan ?",
+   "choix": [
+    "Demi-elfes",
+    "Elfes des bois",
+    "Humains",
+    "Drows"
+   ],
+   "rep": 0,
+   "src": "Critical Role, campagne 1 (2015-2017) ; The Legend of Vox Machina (Amazon, 2022)",
+   "expl": "Vex et Vax sont des demi-elfes, de mère humaine et de père elfe ; ils sont rôdeuse et roublard.",
+   "id": "rac-105",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Critical Role (Vox Machina), de quel peuple est le barbare Grog Strongjaw ?",
+   "choix": [
+    "Goliath",
+    "Demi-orque",
+    "Humain",
+    "Drakéide"
+   ],
+   "rep": 0,
+   "src": "Critical Role, campagne 1 (2015-2017)",
+   "expl": "Grog est un goliath, chassé de son clan ; il forme un duo inséparable avec le gnome Scanlan.",
+   "id": "rac-106",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel dieu est le père des nains ?",
+   "choix": [
+    "Moradin",
+    "Corellon",
+    "Yondalla",
+    "Garl Glittergold"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), annexe B",
+   "expl": "Moradin, le Forgeron des âmes, a façonné les nains ; Corellon est le dieu des elfes, Yondalla des halfelins, Garl Glittergold des gnomes.",
+   "id": "rac-107",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quelle déesse veille sur les halfelins ?",
+   "choix": [
+    "Yondalla",
+    "Lolth",
+    "Mystra",
+    "Sehanine"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), annexe B",
+   "expl": "Yondalla, la Protectrice, garde les foyers et la prospérité des halfelins.",
+   "id": "rac-108",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quel peuple jouable n’a besoin ni de manger, ni de boire, ni de respirer, ni de dormir ?",
+   "choix": [
+    "Les forgés",
+    "Les kalashtar",
+    "Les changelins",
+    "Les tortles"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019), « Forgé »",
+   "expl": "Les forgés (warforged), constructions vivantes, n’ont pas ces besoins ; ils doivent tout de même se reposer six heures, conscients.",
+   "id": "rac-109",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable apprend Thaumaturgie grâce à son Héritage infernal ?",
+   "choix": [
+    "Le tieffelin",
+    "L’aasimar",
+    "Le drakéide",
+    "Le génasi du feu"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019), « Forgé »",
+   "expl": "L’Héritage infernal du tieffelin donne Thaumaturgie, puis Représailles infernales (niveau 3) et Ténèbres (niveau 5).",
+   "id": "rac-110",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans quel supplément de 2020 les règles permettent-elles de déplacer les bonus de caractéristique de sa race ?",
+   "choix": [
+    "Tasha’s Cauldron of Everything",
+    "Xanathar’s Guide to Everything",
+    "Volo’s Guide to Monsters",
+    "Eberron: Rising from the Last War"
+   ],
+   "rep": 0,
+   "src": "Tasha’s Cauldron of Everything (2020), chapitre 1",
+   "expl": "Tasha propose de « personnaliser son origine » : les bonus raciaux et maîtrises peuvent être réattribués, et la « lignée personnalisée » apparaît.",
+   "id": "rac-111",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel supplément de 2022 a regroupé et révisé une trentaine de peuples jouables ?",
+   "choix": [
+    "Mordenkainen Presents: Monsters of the Multiverse",
+    "Volo’s Guide to Monsters (édition révisée)",
+    "Fizban’s Treasury of Dragons",
+    "Bigby Presents: Glory of the Giants"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+   "expl": "Monsters of the Multiverse rassemble et met à jour les peuples du Guide de Volo, de Mordenkainen et d’autres suppléments.",
+   "id": "rac-112",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable de Spelljammer est une créature gélatineuse ?",
+   "choix": [
+    "Le plasmoïde",
+    "L’autognome",
+    "Le giff",
+    "Le hadozee"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "Le plasmoïde, amorphe, peut se glisser dans d’étroits passages ; Spelljammer (2022) ajoute aussi autognomes, giffs, hadozees, thri-kreen et elfes astraux.",
+   "id": "rac-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel peuple jouable de Spelljammer est un hippopotame humanoïde amateur d’armes à feu ?",
+   "choix": [
+    "Le giff",
+    "Le loxodon",
+    "Le hadozee",
+    "Le plasmoïde"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "Les giffs, militaires dans l’âme, adorent la poudre à canon ; ils ont la carrure d’un hippopotame.",
+   "id": "rac-114",
+   "conf": "probable"
+  },
+  {
    "type": "vf",
-   "q": "Dans D&D 5e, les humains ont toujours une vision dans le noir.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, une armure lourde ne réduit pas la vitesse d’un nain.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : la vitesse du nain (7,5 m) n’est jamais réduite par une armure lourde, même sans la Force requise.",
+   "id": "rac-115",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la magie peut endormir un elfe.",
    "rep": false,
-   "expl": "Pas de base.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Faux : grâce à l’Ascendance féerique, la magie ne peut pas endormir un elfe.",
+   "id": "rac-116",
    "conf": "probable"
   },
   {
-   "id": "rac-048",
-   "concept": "rac-048",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, les nains ont la vision dans le noir.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le halfelin peut traverser l’espace d’une créature plus grande que lui.",
    "rep": true,
-   "expl": "Vision dans le noir.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : l’Agilité halfeline lui permet de passer par l’espace de toute créature d’au moins une taille supérieure.",
+   "id": "rac-117",
    "conf": "probable"
   },
   {
-   "id": "rac-049",
-   "concept": "rac-049",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, les halfelins ont une taille moyenne de 2 m.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le drakéide a une vision dans le noir dans le Manuel des Joueurs de 2014.",
    "rep": false,
-   "expl": "Faux : ils mesurent environ 90 cm.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Faux : le drakéide de 2014 n’a pas de vision dans le noir ; elle lui a été ajoutée dans des versions plus récentes.",
+   "id": "rac-118",
    "conf": "probable"
   },
   {
-   "id": "rac-050",
-   "concept": "rac-050",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, les drow vivent près de la surface.",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le tieffelin du Manuel des Joueurs reçoit +2 en Charisme et +1 en Intelligence.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : ce sont les bonus du tieffelin de 2014, avant les règles de personnalisation de Tasha.",
+   "id": "rac-119",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un demi-orque peut rester à 1 PV une fois par repos long au lieu de tomber à 0.",
+   "rep": true,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : c’est son Endurance implacable, héritage de la ténacité orque ; elle se recharge après un repos long.",
+   "id": "rac-120",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les gnomes ont une vitesse de 9 m.",
    "rep": false,
-   "expl": "Dans l’Outreterre.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Faux : de petite taille, les gnomes se déplacent de 7,5 m (25 pieds), comme les halfelins.",
+   "id": "rac-121",
    "conf": "probable"
   },
   {
-   "id": "rac-051",
-   "concept": "rac-051",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, les drow vivent dans l’Outreterre.",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le drow peut lancer Ténèbres une fois par jour à partir du niveau 5.",
    "rep": true,
-   "expl": "Outreterre.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Vrai : la magie drow donne Lumières dansantes, puis Lueurs féeriques (niveau 3) et Ténèbres (niveau 5).",
+   "id": "rac-122",
    "conf": "probable"
   },
   {
-   "id": "rac-052",
-   "concept": "rac-052",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, les tortles ont une carapace.",
-   "rep": true,
-   "expl": "Tortles. (voir la source)",
-   "src": "The Tortle Package (2018), « Tortles »",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un nain vit en moyenne 80 ans.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Faux : les nains vivent environ 350 ans ; ils sont considérés comme jeunes jusqu’à 50 ans.",
+   "id": "rac-123",
    "conf": "probable"
   },
   {
-   "id": "rac-053",
-   "concept": "rac-053",
+   "type": "vf",
    "niveau": 2,
+   "q": "Dans D&D 5e, l’aarakocra peut voler en portant une armure lourde.",
+   "rep": false,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; SRD 5.1 (Wizards of the Coast, licence CC BY 4.0)",
+   "expl": "Faux : il ne peut pas voler en armure intermédiaire ou lourde.",
+   "id": "rac-124",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les tritons peuvent respirer l’air et l’eau.",
+   "rep": true,
+   "src": "Volo’s Guide to Monsters (2016), « Triton »",
+   "expl": "Vrai : les tritons sont amphibies et parlent aux bêtes aquatiques.",
+   "id": "rac-125",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les kenku ont gardé leurs ailes mais ne peuvent plus voler.",
+   "rep": false,
+   "src": "Volo’s Guide to Monsters (2016), « Kenku »",
+   "expl": "Faux : ils ont perdu leurs ailes, en même temps que leur voix, à cause d’une malédiction ancienne.",
+   "id": "rac-126",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le goliath résiste naturellement au grand froid et à l’altitude.",
+   "rep": true,
+   "src": "Volo’s Guide to Monsters (2016), « Kenku »",
+   "expl": "Vrai : son trait Né des montagnes l’acclimate au froid et à la haute altitude.",
+   "id": "rac-127",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le firbolg peut devenir invisible un court instant.",
+   "rep": true,
+   "src": "Volo’s Guide to Monsters (2016), « Kenku »",
+   "expl": "Vrai : Pas caché (hidden step) le rend invisible jusqu’à son prochain tour, une fois par repos court.",
+   "id": "rac-128",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le demi-elfe a la vision dans le noir.",
+   "rep": true,
+   "src": "Volo’s Guide to Monsters (2016), « Kenku »",
+   "expl": "Vrai : héritage de son parent elfe, il voit dans le noir à 18 m.",
+   "id": "rac-129",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans Dragonlance, les kenders sont craintifs et fuient le danger.",
+   "rep": false,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Faux : les kenders ignorent presque la peur, ce qui les pousse dans toutes sortes de situations périlleuses.",
+   "id": "rac-130",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans le Manuel des Joueurs de 2024, l’orque fait partie des espèces de base.",
+   "rep": true,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Vrai : l’orque remplace le demi-orque parmi les dix espèces du Manuel des Joueurs de 2024.",
+   "id": "rac-131",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le gnome des forêts peut parler aux petites bêtes.",
+   "rep": true,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Vrai : il connaît Illusion mineure et peut communiquer avec les petites bêtes (écureuils, oiseaux…).",
+   "id": "rac-132",
+   "conf": "probable"
+  },
+  {
    "type": "slider",
-   "q": "Dans D&D 5e, quelle est la vitesse de base d’un elfe, en mètres ?",
-   "min": 3,
-   "max": 18,
-   "pas": 1,
-   "unite": "m",
-   "tolerance": 0,
-   "rep": 9,
-   "expl": "30 pieds = 9 m.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "rac-054",
-   "concept": "rac-054",
    "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la vitesse de base d’un nain, en mètres ?",
-   "min": 3,
-   "max": 18,
-   "pas": 1,
-   "unite": "m",
-   "tolerance": 0,
-   "rep": 7,
-   "expl": "25 pieds ≈ 7,5 m.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "rac-055",
-   "concept": "rac-055",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel âge maximal atteint un elfe ?",
-   "min": 100,
-   "max": 1000,
-   "pas": 1,
-   "unite": "ans",
-   "tolerance": 22,
+   "q": "Dans D&D 5e, jusqu’à quel âge environ vit un elfe ?",
    "rep": 750,
-   "expl": "Environ 750 ans.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
-   "conf": "probable",
-   "tol_pct": 3
-  },
-  {
-   "id": "rac-056",
-   "concept": "rac-056",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel âge maximal atteint un nain ?",
    "min": 100,
-   "max": 600,
-   "pas": 1,
-   "unite": "ans",
-   "tolerance": 10,
-   "rep": 350,
-   "expl": "Environ 350 ans.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
-   "conf": "probable",
-   "tol_pct": 3
-  },
-  {
-   "id": "rac-057",
-   "concept": "rac-057",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel âge maximal atteint un humain ?",
-   "min": 40,
-   "max": 150,
-   "pas": 1,
+   "max": 1500,
+   "pas": 10,
    "unite": "ans",
    "tolerance": 0,
-   "rep": 80,
-   "expl": "Moins d’un siècle.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Player’s Handbook (2024)",
+   "expl": "Environ 750 ans, d’après le Manuel des Joueurs ; c’est le peuple le plus long-vivant de la liste de base.",
+   "id": "rac-133",
+   "conf": "probable"
   },
   {
-   "id": "rac-058",
-   "concept": "rac-058",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, quel âge maximal atteint un halfelin ?",
-   "min": 50,
-   "max": 300,
-   "pas": 1,
-   "unite": "ans",
-   "tolerance": 4,
-   "rep": 150,
-   "expl": "Environ 150 ans.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
-   "conf": "probable",
-   "tol_pct": 3
-  },
-  {
-   "id": "rac-059",
-   "concept": "rac-059",
    "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel âge maximal atteint un gnome ?",
-   "min": 100,
-   "max": 700,
-   "pas": 1,
-   "unite": "ans",
-   "tolerance": 15,
-   "rep": 500,
-   "expl": "Environ 500 ans.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Gnome »",
-   "conf": "probable",
-   "tol_pct": 3
-  },
-  {
-   "id": "rac-060",
-   "concept": "rac-060",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quel bonus de caractéristique donne la race humaine standard (à chaque caractéristique) ?",
-   "min": 0,
-   "max": 4,
-   "pas": 1,
-   "unite": "point",
+   "q": "Dans D&D 5e, quelle est la portée en mètres de la vision dans le noir standard (nain, elfe, demi-orque…) ?",
+   "rep": 18,
+   "min": 3,
+   "max": 60,
+   "pas": 3,
+   "unite": "m",
    "tolerance": 0,
-   "rep": 1,
-   "expl": "+1 partout.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Player’s Handbook (2024)",
+   "expl": "18 m (60 pieds) ; le drow et le duergar voient plus loin (36 m).",
+   "id": "rac-134",
+   "conf": "probable"
   },
   {
-   "id": "rac-061",
-   "concept": "rac-061",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, combien d’heures dure la transe d’un elfe ?",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien d’heures de « repos sans sommeil » un forgé doit-il prendre pour un repos long ?",
+   "rep": 6,
    "min": 1,
    "max": 12,
    "pas": 1,
    "unite": "heures",
    "tolerance": 0,
-   "rep": 4,
-   "expl": "Quatre heures.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe »",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Eberron: Rising from the Last War (2019), « Forgé »",
+   "expl": "Six heures d’inactivité, pendant lesquelles il reste conscient de ce qui l’entoure.",
+   "id": "rac-135",
+   "conf": "probable"
   },
   {
-   "id": "rac-062",
-   "concept": "rac-062",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, combien de races jouables le Manuel des Joueurs 2014 présente-t-il ?",
-   "min": 3,
+   "niveau": 3,
+   "q": "Dans D&D 5e, à quel niveau un drakéide inflige-t-il 3d6 avec son souffle (au lieu de 2d6) ?",
+   "rep": 6,
+   "min": 1,
    "max": 20,
    "pas": 1,
-   "unite": "races",
+   "unite": "niveau",
    "tolerance": 0,
-   "rep": 9,
-   "expl": "9 races (nain, elfe, halfelin, humain, drakéide, gnome, demi-elfe, demi-orque, tieffelin).",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races »",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Eberron: Rising from the Last War (2019), « Forgé »",
+   "expl": "Le souffle passe à 3d6 au niveau 6, 4d6 au niveau 11 et 5d6 au niveau 16.",
+   "id": "rac-136",
+   "conf": "probable"
   },
   {
-   "id": "rac-063",
-   "concept": "rac-063",
-   "niveau": 2,
    "type": "slider",
-   "q": "Dans D&D 5e, quelle est la portée de la vision dans le noir d’un nain, en pieds ?",
-   "min": 30,
-   "max": 120,
-   "pas": 1,
-   "unite": "pieds",
-   "tolerance": 0,
-   "rep": 60,
-   "expl": "60 pieds. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Nain »",
-   "conf": "probable",
-   "tol_pct": 0
-  },
-  {
-   "id": "rac-064",
-   "concept": "rac-064",
    "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la portée de la vision dans le noir d’un drow, en pieds ?",
-   "min": 30,
-   "max": 300,
+   "q": "Dans D&D 5e, en quelle année est paru le Guide de Volo des monstres, qui a ajouté de nombreux peuples jouables ?",
+   "rep": 2016,
+   "min": 2010,
+   "max": 2024,
    "pas": 1,
-   "unite": "pieds",
+   "unite": "année",
    "tolerance": 0,
-   "rep": 120,
-   "expl": "Vision dans le noir supérieure : 120 pieds.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Elfe, Drow »",
-   "conf": "probable",
-   "tol_pct": 0
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Le Guide de Volo (2016) a rendu jouables l’aasimar, le firbolg, le goliath, le kenku, l’homme-lézard, le tabaxi et le triton, entre autres.",
+   "id": "rac-137",
+   "conf": "probable"
   },
   {
-   "id": "rac-065",
-   "concept": "rac-065",
+   "type": "slider",
    "niveau": 3,
-   "type": "vf",
-   "q": "Dans D&D 5e, les drakéides ont des écailles.",
-   "rep": true,
-   "expl": "Ils ont une peau écailleuse.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Drakéide »",
+   "q": "Dans D&D 5e, combien de dragons différents propose la table d’ascendance draconique du drakéide ?",
+   "rep": 10,
+   "min": 5,
+   "max": 20,
+   "pas": 1,
+   "unite": "dragons",
+   "tolerance": 0,
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Dix ancêtres : les cinq chromatiques et les cinq métalliques, chacun avec son type de souffle.",
+   "id": "rac-138",
    "conf": "probable"
   },
   {
-   "id": "rac-066",
-   "concept": "rac-066",
+   "type": "slider",
    "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les demi-elfes ont la vision dans le noir.",
-   "rep": true,
-   "expl": "Vision dans le noir 60 pieds.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Demi-elfe »",
+   "q": "Dans quelle année est sorti le roman The Crystal Shard, première apparition de Drizzt ?",
+   "rep": 1988,
+   "min": 1974,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "R. A. Salvatore, The Crystal Shard (TSR, 1988)",
+   "expl": "The Crystal Shard (1988) ouvre la trilogie d’Icewind Dale de R. A. Salvatore.",
+   "id": "rac-139",
    "conf": "probable"
   },
   {
-   "id": "rac-067",
-   "concept": "rac-067",
-   "niveau": 2,
-   "type": "vf",
-   "q": "Dans D&D 5e, les gnomes sont une race jouable du Manuel des Joueurs.",
-   "rep": true,
-   "expl": "Gnomes. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Gnome »",
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans D&D 5e, quelle CA naturelle procure la carapace d’une tortle ?",
+   "rep": 17,
+   "min": 10,
+   "max": 22,
+   "pas": 1,
+   "unite": "CA",
+   "tolerance": 0,
+   "src": "The Tortle Package (2017)",
+   "expl": "La carapace de la tortle lui donne une CA de 17 sans armure, mais elle ne peut pas porter d’armure.",
+   "id": "rac-140",
    "conf": "probable"
   },
   {
-   "id": "rac-068",
-   "concept": "rac-068",
-   "niveau": 2,
    "type": "vf",
-   "q": "Dans D&D 5e, les tieffelins sont un croisement humain-dragon.",
+   "niveau": 2,
+   "q": "Dans D&D 5e, les halfelins du Manuel des Joueurs voient dans le noir.",
    "rep": false,
-   "expl": "Ascendance infernale.",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Tieffelin »",
+   "src": "The Tortle Package (2017)",
+   "expl": "Faux : contrairement aux nains, elfes et gnomes, les halfelins n’ont pas de vision dans le noir.",
+   "id": "rac-141",
    "conf": "probable"
   },
   {
-   "id": "rac-069",
-   "concept": "rac-069",
-   "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la vitesse de base d’un halfelin, en pieds ?",
-   "min": 10,
-   "max": 60,
-   "pas": 1,
-   "unite": "pieds",
-   "tolerance": 0,
-   "rep": 25,
-   "expl": "25 pieds. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Halfelin »",
-   "conf": "probable",
-   "tol_pct": 0
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le peuple jouable descendu de dragons, au souffle élémentaire, s’appelle le ____.",
+   "choix": [
+    "drakéide",
+    "génasi",
+    "kobold",
+    "tieffelin"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; Volo’s Guide to Monsters (2016)",
+   "expl": "Les drakéides portent l’héritage de dragons chromatiques ou métalliques ; leur souffle dépend de cet ancêtre.",
+   "id": "rac-142",
+   "conf": "probable"
   },
   {
-   "id": "rac-070",
-   "concept": "rac-070",
+   "type": "trou",
    "niveau": 2,
-   "type": "slider",
-   "q": "Dans D&D 5e, quelle est la vitesse de base d’un humain, en pieds ?",
-   "min": 10,
-   "max": 60,
-   "pas": 1,
-   "unite": "pieds",
-   "tolerance": 0,
-   "rep": 30,
-   "expl": "30 pieds. (voir la source)",
-   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Humain »",
-   "conf": "probable",
-   "tol_pct": 0
+   "q": "Dans D&D 5e, les elfes ne dorment pas : ils entrent en ____ pendant 4 heures.",
+   "choix": [
+    "transe",
+    "méditation profonde",
+    "rêverie",
+    "prière"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; Volo’s Guide to Monsters (2016)",
+   "expl": "La transe remplace le sommeil ; l’elfe reste à demi conscient de ce qui l’entoure.",
+   "id": "rac-143",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la sous-race naine des collines gagne +1 en ____.",
+   "choix": [
+    "Sagesse",
+    "Force",
+    "Charisme",
+    "Dextérité"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; Volo’s Guide to Monsters (2016)",
+   "expl": "Le nain des collines gagne +1 en Sagesse et la Robustesse naine (+1 PV par niveau).",
+   "id": "rac-144",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le halfelin ____ a une résistance au poison.",
+   "choix": [
+    "robuste",
+    "pied-léger",
+    "fantôme",
+    "des bois"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; Volo’s Guide to Monsters (2016)",
+   "expl": "Le halfelin robuste (stout) a l’avantage aux sauvegardes contre le poison et résiste à ses dégâts, comme un nain.",
+   "id": "rac-145",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le trait du nain qui l’aide à identifier l’origine d’une maçonnerie s’appelle Connaissance de la ____.",
+   "choix": [
+    "pierre",
+    "forge",
+    "roche",
+    "montagne"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; Volo’s Guide to Monsters (2016)",
+   "expl": "Grâce à Connaissance de la pierre (stonecunning), le nain double sa maîtrise pour les tests d’Histoire liés à la maçonnerie.",
+   "id": "rac-146",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le tieffelin porte souvent des cornes et une ____.",
+   "choix": [
+    "queue",
+    "crinière",
+    "carapace",
+    "paire d’ailes"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), chap. 2 « Races » ; Volo’s Guide to Monsters (2016)",
+   "expl": "Les tieffelins ont des cornes, une queue, des yeux sans pupilles et parfois une peau rouge, signes de leur héritage infernal.",
+   "id": "rac-147",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les drows vénèrent principalement Lolth, la Reine des ____.",
+   "choix": [
+    "araignées",
+    "ombres",
+    "abysses",
+    "ténèbres"
+   ],
+   "rep": 0,
+   "src": "Manuel des Joueurs 5e (2014), annexe B ; Out of the Abyss (2015)",
+   "expl": "Lolth, la Reine araignée, impose sa loi cruelle à Menzoberranzan et aux autres cités drows.",
+   "id": "rac-148",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La cité drow natale de Drizzt Do’Urden s’appelle ____.",
+   "choix": [
+    "Menzoberranzan",
+    "Gracklstugh",
+    "Blingdenstone",
+    "Mithral Hall"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, Homeland (TSR, 1990)",
+   "expl": "Menzoberranzan, la Cité des araignées, est dirigée par des maisons matriarcales dont la maison Baenre.",
+   "id": "rac-149",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Dans D&D 5e, le gnome des profondeurs s’appelle aussi ____.",
+   "choix": [
+    "svirfneblin",
+    "duergar",
+    "derro",
+    "drow"
+   ],
+   "rep": 0,
+   "src": "Elemental Evil Player’s Companion (2015) ; Mordenkainen’s Tome of Foes (2018)",
+   "expl": "Le svirfneblin vit dans l’Outreterre ; sa cité principale est Blingdenstone.",
+   "id": "rac-150",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le duergar est un ____ de l’Outreterre capable de grandir par magie.",
+   "choix": [
+    "nain",
+    "gnome",
+    "elfe",
+    "halfelin"
+   ],
+   "rep": 0,
+   "src": "Mordenkainen’s Tome of Foes (2018), « Duergar »",
+   "expl": "Le duergar, nain gris de l’Outreterre, peut devenir invisible ou grandir (Agrandissement) grâce à sa magie innée.",
+   "id": "rac-151",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le génasi du ____ résiste aux dégâts de feu.",
+   "choix": [
+    "feu",
+    "vent",
+    "sable",
+    "métal"
+   ],
+   "rep": 0,
+   "src": "Elemental Evil Player’s Companion (2015)",
+   "expl": "Chaque génasi hérite d’un élément : le génasi du feu résiste au feu, celui de l’eau respire sous l’eau, celui de l’air retient son souffle indéfiniment.",
+   "id": "rac-152",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Critical Role, le barde gnome de Vox Machina s’appelle ____ Shorthalt.",
+   "choix": [
+    "Scanlan",
+    "Pike",
+    "Percy",
+    "Grog"
+   ],
+   "rep": 0,
+   "src": "Critical Role, campagne 1 (2015-2017)",
+   "expl": "Scanlan Shorthalt, barde gnome, est l’un des membres les plus drôles de Vox Machina ; Pike Trickfoot est la clerc gnome.",
+   "id": "rac-153",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans Dragonlance, le demi-elfe chef des Compagnons de la Lance s’appelle ____ Demi-Elfe.",
+   "choix": [
+    "Tanis",
+    "Sturm",
+    "Raistlin",
+    "Caramon"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Tanis Demi-Elfe guide le groupe des Chroniques de Dragonlance, avec Sturm, Raistlin, Caramon, Flint, Tasslehoff et Goldmoon.",
+   "id": "rac-154",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le ____ est le peuple le plus répandu et le plus polyvalent du Manuel des Joueurs.",
+   "choix": [
+    "humain",
+    "elfe",
+    "nain",
+    "halfelin"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Les humains, ambitieux et à la vie courte, se trouvent partout dans les mondes de D&D.",
+   "id": "rac-155",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces peuples n’était pas jouable dans le Manuel des Joueurs de 2014 ?",
+   "choix": [
+    "Goliath",
+    "Gnome",
+    "Tieffelin",
+    "Demi-orque"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Le goliath est arrivé en 2015-2016 ; le gnome, le tieffelin et le demi-orque étaient dans le Manuel des Joueurs.",
+   "id": "rac-156",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces sous-races n’est pas une sous-race d’elfe ?",
+   "choix": [
+    "Pied-léger",
+    "Haut-elfe",
+    "Elfe des bois",
+    "Drow"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Pied-léger est une sous-race de halfelin.",
+   "id": "rac-157",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces peuples ne voit pas dans le noir ?",
+   "choix": [
+    "Humain",
+    "Nain",
+    "Demi-orque",
+    "Gnome"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "L’humain n’a pas de vision dans le noir ; nain, demi-orque et gnome en ont une.",
+   "id": "rac-158",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces dieux n’est pas le dieu principal d’un peuple jouable ?",
+   "choix": [
+    "Asmodeus",
+    "Moradin",
+    "Corellon",
+    "Yondalla"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Asmodeus est un archidiable, même si les tieffelins portent sa marque. Moradin, Corellon et Yondalla sont les dieux des nains, elfes et halfelins.",
+   "id": "rac-159",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces peuples ne vient pas d’Eberron ?",
+   "choix": [
+    "Loxodon",
+    "Changelin",
+    "Kalashtar",
+    "Shifter"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Le loxodon vient de Ravnica. Changelins, kalashtar et shifters sont des peuples d’Eberron.",
+   "id": "rac-160",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces peuples ne peut pas voler ou planer naturellement ?",
+   "choix": [
+    "Tabaxi",
+    "Aarakocra",
+    "Owlin",
+    "Fée"
+   ],
+   "rep": 0,
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Le tabaxi est un félin. L’aarakocra, l’owlin et la fée (peuple jouable) volent.",
+   "id": "rac-161",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces personnages n’est pas un drow ?",
+   "choix": [
+    "Bruenor Battlehammer",
+    "Drizzt Do’Urden",
+    "Jarlaxle Baenre",
+    "Zaknafein"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, saga de Drizzt",
+   "expl": "Bruenor est un nain. Drizzt, Jarlaxle et Zaknafein (le père de Drizzt) sont des drows.",
+   "id": "rac-162",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces peuples n’apparaît pas dans Spelljammer: Adventures in Space ?",
+   "choix": [
+    "Harengon",
+    "Giff",
+    "Hadozee",
+    "Autognome"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "Le harengon vient de Witchlight (2021). Giffs, hadozees et autognomes sont des peuples de Spelljammer (2022).",
+   "id": "rac-163",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces traits n’appartient pas au halfelin ?",
+   "choix": [
+    "Ruse gnome",
+    "Chanceux",
+    "Brave",
+    "Agilité halfeline"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "La Ruse gnome est un trait des gnomes ; les trois autres sont des traits de halfelin.",
+   "id": "rac-164",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces peuples n’est pas de petite taille ?",
+   "choix": [
+    "Goliath",
+    "Halfelin",
+    "Gnome",
+    "Kobold"
+   ],
+   "rep": 0,
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "Le goliath dépasse souvent 2 m ; halfelins, gnomes et kobolds sont de taille Petite.",
+   "id": "rac-165",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces membres de Vox Machina n’est pas un demi-elfe ?",
+   "choix": [
+    "Percy",
+    "Vex’ahlia",
+    "Vax’ildan",
+    "Keyleth"
+   ],
+   "rep": 0,
+   "src": "Critical Role, campagne 1 (2015-2017)",
+   "expl": "Percival de Rolo (Percy) est humain ; Vex, Vax et Keyleth sont demi-elfes.",
+   "id": "rac-166",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces peuples ne fait pas partie des dix espèces du Manuel des Joueurs de 2024 ?",
+   "choix": [
+    "Demi-elfe",
+    "Goliath",
+    "Aasimar",
+    "Orque"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook (2024)",
+   "expl": "Le demi-elfe n’est plus une espèce à part en 2024 ; le goliath, l’aasimar et l’orque en font partie.",
+   "id": "rac-167",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Lesquels de ces peuples sont jouables dans le Manuel des Joueurs de 2014 ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Drakéide",
+    "Tieffelin",
+    "Gnome",
+    "Tabaxi",
+    "Goliath"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook (2024)",
+   "expl": "Drakéide, tieffelin et gnome étaient dans le Manuel des Joueurs. Le tabaxi et le goliath sont arrivés ensuite.",
+   "id": "rac-168",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples ont la vision dans le noir supérieure (36 m) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Drow",
+    "Duergar",
+    "Svirfneblin",
+    "Humain",
+    "Halfelin"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Player’s Handbook (2024)",
+   "expl": "Les peuples de l’Outreterre voient plus loin dans le noir ; l’humain et le halfelin n’ont pas de vision dans le noir.",
+   "id": "rac-169",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces peuples viennent du Guide de Volo des monstres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Firbolg",
+    "Kenku",
+    "Tabaxi",
+    "Owlin",
+    "Plasmoïde"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Firbolg, kenku et tabaxi apparaissent dans le Guide de Volo (2016) ; l’owlin vient de Strixhaven et le plasmoïde de Spelljammer.",
+   "id": "rac-170",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels traits possède l’elfe du Manuel des Joueurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Transe",
+    "Ascendance féerique",
+    "Sens aiguisés",
+    "Chanceux",
+    "Endurance implacable"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Volo’s Guide to Monsters (2016)",
+   "expl": "Transe, Ascendance féerique et Sens aiguisés sont elfiques ; Chanceux est halfelin, Endurance implacable demi-orque.",
+   "id": "rac-171",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels personnages sont membres des Compagnons de la Lance (Dragonlance) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Raistlin",
+    "Tasslehoff",
+    "Sturm",
+    "Drizzt",
+    "Elminster"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Raistlin, Tasslehoff et Sturm sont des Compagnons de la Lance ; Drizzt et Elminster appartiennent aux Royaumes Oubliés.",
+   "id": "rac-172",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples jouables résistent au poison ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nain",
+    "Halfelin robuste",
+    "Elfe",
+    "Tieffelin",
+    "Humain"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "La Résilience naine et le halfelin robuste protègent du poison.",
+   "id": "rac-173",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples jouables sont liés aux plans élémentaires ou célestes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Génasi",
+    "Aasimar",
+    "Halfelin",
+    "Nain",
+    "Humain"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Margaret Weis et Tracy Hickman, Chroniques de Dragonlance (1984-1985)",
+   "expl": "Les génasi descendent de génies ou d’élémentaires, les aasimars d’êtres célestes.",
+   "id": "rac-174",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels peuples de Ravnica sont jouables en 5e ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Loxodon",
+    "Védalken",
+    "Hybride simic",
+    "Tortle",
+    "Kalashtar"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Guildmasters’ Guide to Ravnica (2018)",
+   "expl": "Le Guide de Ravnica (2018) propose centaures, gobelins, loxodons, minotaures, hybrides simic et védalkens.",
+   "id": "rac-175",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels membres de Vox Machina sont des gnomes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Scanlan",
+    "Pike",
+    "Grog",
+    "Percy",
+    "Vex’ahlia"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Critical Role, campagne 1 (2015-2017)",
+   "expl": "Scanlan (barde) et Pike (clerc) sont gnomes ; Grog est goliath, Percy humain et Vex demi-elfe.",
+   "id": "rac-176",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Lesquels de ces peuples sont de taille Petite ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Halfelin",
+    "Gnome",
+    "Kobold",
+    "Goliath",
+    "Drakéide"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Critical Role, campagne 1 (2015-2017)",
+   "expl": "Halfelins, gnomes et kobolds sont Petits ; goliaths et drakéides sont de taille Moyenne.",
+   "id": "rac-177",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces peuples par espérance de vie croissante (Manuel des Joueurs).",
+   "items": [
+    "Demi-orque",
+    "Humain",
+    "Halfelin",
+    "Nain",
+    "Elfe"
+   ],
+   "src": "Critical Role, campagne 1 (2015-2017)",
+   "expl": "Demi-orque : rarement plus de 75 ans ; humain : moins d’un siècle ; halfelin : vers 150 ans ; nain : 350 ans ; elfe : 750 ans.",
+   "id": "rac-178",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces suppléments par date de parution.",
+   "items": [
+    "Elemental Evil Player’s Companion",
+    "Volo’s Guide to Monsters",
+    "Mordenkainen’s Tome of Foes",
+    "Tasha’s Cauldron of Everything"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "2015, 2016, 2018 puis 2020 : chacun a ajouté ou modifié des peuples jouables.",
+   "id": "rac-179",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces peuples par vitesse croissante (Manuel des Joueurs).",
+   "items": [
+    "Nain",
+    "Humain",
+    "Elfe des bois"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "Nain 7,5 m, humain 9 m, elfe des bois 10,5 m.",
+   "id": "rac-180",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces dés de souffle du drakéide par niveau croissant.",
+   "items": [
+    "2d6",
+    "3d6",
+    "4d6",
+    "5d6"
+   ],
+   "src": "Catalogue des parutions de Wizards of the Coast",
+   "expl": "2d6 au niveau 1, 3d6 au 6, 4d6 au 11, 5d6 au 16.",
+   "id": "rac-181",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces romans de R. A. Salvatore par date de parution.",
+   "items": [
+    "The Crystal Shard",
+    "Homeland",
+    "The Orc King"
+   ],
+   "src": "Bibliographie de R. A. Salvatore (TSR, Wizards of the Coast)",
+   "expl": "The Crystal Shard (1988), Homeland (1990, la jeunesse de Drizzt), The Orc King (2007).",
+   "id": "rac-182",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces sorts innés du drow par niveau d’obtention.",
+   "items": [
+    "Lumières dansantes",
+    "Lueurs féeriques",
+    "Ténèbres"
+   ],
+   "src": "Bibliographie de R. A. Salvatore (TSR, Wizards of the Coast)",
+   "expl": "Lumières dansantes au niveau 1, Lueurs féeriques au niveau 3, Ténèbres au niveau 5.",
+   "id": "rac-183",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces sorts du tieffelin par niveau d’obtention.",
+   "items": [
+    "Thaumaturgie",
+    "Représailles infernales",
+    "Ténèbres"
+   ],
+   "src": "Bibliographie de R. A. Salvatore (TSR, Wizards of the Coast)",
+   "expl": "Thaumaturgie au niveau 1, Représailles infernales au niveau 3, Ténèbres au niveau 5.",
+   "id": "rac-184",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces univers par date de première parution de leurs peuples en 5e.",
+   "items": [
+    "Les Royaumes Oubliés (Manuel des Joueurs, 2014)",
+    "Ravnica (2018)",
+    "Theros (2020)",
+    "Strixhaven (2021)"
+   ],
+   "src": "Bibliographie de R. A. Salvatore (TSR, Wizards of the Coast)",
+   "expl": "Les peuples de base (2014), puis Ravnica (2018), Theros (2020) et Strixhaven (2021).",
+   "id": "rac-185",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces peuples du plus petit au plus grand en taille habituelle.",
+   "items": [
+    "Gnome",
+    "Nain",
+    "Humain",
+    "Goliath"
+   ],
+   "src": "Bibliographie de R. A. Salvatore (TSR, Wizards of the Coast)",
+   "expl": "Le gnome mesure environ 1 m, le nain 1,30 m, l’humain 1,70 m et le goliath plus de 2 m.",
+   "id": "rac-186",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la vie de Drizzt dans l’ordre.",
+   "items": [
+    "Naissance à Menzoberranzan",
+    "Fuite vers la surface",
+    "Arrivée à Icewind Dale",
+    "Amitié avec Bruenor à Mithral Hall"
+   ],
+   "src": "R. A. Salvatore, saga de Drizzt",
+   "expl": "Né dans la cité drow, Drizzt fuit vers la surface, s’installe dans le Valbise (Icewind Dale) puis aide Bruenor à reprendre Mithral Hall.",
+   "id": "rac-187",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque peuple à son dieu principal.",
+   "paires": [
+    [
+     "Nains",
+     "Moradin"
+    ],
+    [
+     "Elfes",
+     "Corellon"
+    ],
+    [
+     "Halfelins",
+     "Yondalla"
+    ],
+    [
+     "Gnomes",
+     "Garl Glittergold"
+    ]
+   ],
+   "src": "R. A. Salvatore, saga de Drizzt",
+   "expl": "Chaque peuple jouable a son dieu protecteur dans le Manuel des Joueurs.",
+   "id": "rac-188",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque peuple à son trait.",
+   "paires": [
+    [
+     "Halfelin",
+     "Chanceux"
+    ],
+    [
+     "Demi-orque",
+     "Endurance implacable"
+    ],
+    [
+     "Gnome",
+     "Ruse gnome"
+    ],
+    [
+     "Tabaxi",
+     "Agilité féline"
+    ]
+   ],
+   "src": "R. A. Salvatore, saga de Drizzt",
+   "expl": "Ces traits sont les plus emblématiques de chaque peuple.",
+   "id": "rac-189",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque drakéide à son type de souffle.",
+   "paires": [
+    [
+     "Rouge",
+     "Feu"
+    ],
+    [
+     "Bleu",
+     "Foudre"
+    ],
+    [
+     "Blanc",
+     "Froid"
+    ],
+    [
+     "Noir",
+     "Acide"
+    ],
+    [
+     "Vert",
+     "Poison"
+    ]
+   ],
+   "src": "R. A. Salvatore, saga de Drizzt",
+   "expl": "L’ancêtre dragon détermine le souffle et la résistance du drakéide.",
+   "id": "rac-190",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque peuple à son univers d’origine.",
+   "paires": [
+    [
+     "Kalashtar",
+     "Eberron"
+    ],
+    [
+     "Loxodon",
+     "Ravnica"
+    ],
+    [
+     "Léonin",
+     "Theros"
+    ],
+    [
+     "Owlin",
+     "Strixhaven"
+    ]
+   ],
+   "src": "R. A. Salvatore, saga de Drizzt",
+   "expl": "Ces peuples viennent de mondes de campagne différents.",
+   "id": "rac-191",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque génasi à son pouvoir.",
+   "paires": [
+    [
+     "Génasi de l’eau",
+     "Respire sous l’eau"
+    ],
+    [
+     "Génasi du feu",
+     "Résiste au feu"
+    ],
+    [
+     "Génasi de l’air",
+     "Retient son souffle indéfiniment"
+    ],
+    [
+     "Génasi de la terre",
+     "Ignore le terrain difficile de pierre"
+    ]
+   ],
+   "src": "Elemental Evil Player’s Companion (2015)",
+   "expl": "Les quatre génasi incarnent chacun un élément.",
+   "id": "rac-192",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque personnage à son peuple.",
+   "paires": [
+    [
+     "Drizzt",
+     "Drow"
+    ],
+    [
+     "Bruenor",
+     "Nain"
+    ],
+    [
+     "Tasslehoff",
+     "Kender"
+    ],
+    [
+     "Grog",
+     "Goliath"
+    ]
+   ],
+   "src": "Elemental Evil Player’s Companion (2015)",
+   "expl": "Héros de romans ou de parties filmées, ils ont marqué l’imaginaire des joueurs.",
+   "id": "rac-193",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque sous-race à son avantage.",
+   "paires": [
+    [
+     "Nain des montagnes",
+     "Armures légères et intermédiaires"
+    ],
+    [
+     "Haut-elfe",
+     "Sort mineur de magicien"
+    ],
+    [
+     "Elfe des bois",
+     "Vitesse accrue"
+    ],
+    [
+     "Gnome des roches",
+     "Bricoleur"
+    ]
+   ],
+   "src": "Elemental Evil Player’s Companion (2015)",
+   "expl": "Chaque sous-race affine les forces de sa race.",
+   "id": "rac-194",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque peuple à sa taille.",
+   "paires": [
+    [
+     "Halfelin",
+     "Petite"
+    ],
+    [
+     "Humain",
+     "Moyenne"
+    ],
+    [
+     "Goliath",
+     "Moyenne mais très grand"
+    ]
+   ],
+   "src": "Elemental Evil Player’s Companion (2015)",
+   "expl": "Le goliath reste « Moyen » en règles, mais compte comme Grand pour porter et pousser (Puissant gabarit).",
+   "id": "rac-195",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque peuple de Spelljammer à son apparence.",
+   "paires": [
+    [
+     "Giff",
+     "Hippopotame"
+    ],
+    [
+     "Hadozee",
+     "Singe planeur"
+    ],
+    [
+     "Plasmoïde",
+     "Gelée"
+    ],
+    [
+     "Thri-kreen",
+     "Insecte"
+    ]
+   ],
+   "src": "Spelljammer: Adventures in Space (2022)",
+   "expl": "Spelljammer (2022) a ajouté des peuples exotiques de l’Espace sauvage.",
+   "id": "rac-196",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque peuple d’Eberron à son trait.",
+   "paires": [
+    [
+     "Changelin",
+     "Change d’apparence"
+    ],
+    [
+     "Forgé",
+     "Construction vivante"
+    ],
+    [
+     "Kalashtar",
+     "Lié à un esprit des rêves"
+    ],
+    [
+     "Shifter",
+     "Bête intérieure"
+    ]
+   ],
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Les quatre peuples phares d’Eberron ont chacun une particularité qui les rend uniques dans ce monde de magie industrielle.",
+   "id": "rac-197",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis petit et chanceux\n2. J’aime le confort et les bons repas\n3. Je relance mes 1",
+   "choix": [
+    "Halfelin",
+    "Gnome",
+    "Kobold",
+    "Kender"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le halfelin est le héros discret par excellence : sa chance lui permet de relancer les 1 au d20.",
+   "id": "rac-198",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis né des montagnes\n2. Je mesure plus de 2 m\n3. L’Endurance de la pierre me protège",
+   "choix": [
+    "Goliath",
+    "Firbolg",
+    "Nain",
+    "Demi-orque"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le goliath est apparenté aux géants ; Endurance de la pierre lui permet de réduire les dégâts subis une fois par repos court.",
+   "id": "rac-199",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un oiseau humanoïde\n2. J’ai perdu mes ailes et ma voix\n3. Je répète les sons que j’entends",
+   "choix": [
+    "Kenku",
+    "Aarakocra",
+    "Owlin",
+    "Tabaxi"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le kenku, maudit, ne parle qu’en imitant.",
+   "id": "rac-200",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un elfe des profondeurs\n2. Ma déesse est une reine araignée\n3. La lumière du soleil me gêne",
+   "choix": [
+    "Drow",
+    "Duergar",
+    "Svirfneblin",
+    "Shadar-kai"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Les drows vivent dans l’Outreterre et servent Lolth.",
+   "id": "rac-201",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un félin curieux\n2. Je peux doubler ma vitesse\n3. Je viens du Guide de Volo",
+   "choix": [
+    "Tabaxi",
+    "Léonin",
+    "Harengon",
+    "Kenku"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le tabaxi adore les histoires et les objets curieux.",
+   "id": "rac-202",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une construction vivante\n2. Je suis né de la Dernière Guerre\n3. Je ne dors jamais",
+   "choix": [
+    "Forgé",
+    "Golem",
+    "Autognome",
+    "Homoncule"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le forgé (warforged) est un peuple jouable d’Eberron.",
+   "id": "rac-203",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un gnome des profondeurs\n2. Je vis à Blingdenstone\n3. Je me camoufle dans la roche",
+   "choix": [
+    "Svirfneblin",
+    "Duergar",
+    "Drow",
+    "Kobold"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "Le svirfneblin est un gnome discret de l’Outreterre.",
+   "id": "rac-204",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je descends d’un ange\n2. Un guide céleste me parle en rêve\n3. Mes mains soignent",
+   "choix": [
+    "Aasimar",
+    "Tieffelin",
+    "Génasi",
+    "Eladrin"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "L’aasimar porte une étincelle divine : il soigne par imposition des mains et peut révéler sa nature céleste.",
+   "id": "rac-205",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un reptile humanoïde à carapace\n2. Je porte ma maison sur le dos\n3. Ma carapace me donne une CA de 17",
+   "choix": [
+    "Tortle",
+    "Loxodon",
+    "Firbolg",
+    "Triton"
+   ],
+   "rep": 0,
+   "src": "Eberron: Rising from the Last War (2019)",
+   "expl": "La tortle aime voyager et reste toujours chez elle, dans sa carapace.",
+   "id": "rac-206",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un barde gnome\n2. J’appartiens à Vox Machina\n3. Mon nom de famille est Shorthalt",
+   "choix": [
+    "Scanlan",
+    "Pike",
+    "Grog",
+    "Percy"
+   ],
+   "rep": 0,
+   "src": "Critical Role, campagne 1 (2015-2017)",
+   "expl": "Scanlan Shorthalt, barde de Critical Role, est connu pour son humour.",
+   "id": "rac-207",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. J’ai des cornes et une queue\n2. Je résiste au feu\n3. Je porte un héritage infernal",
+   "choix": [
+    "Tieffelin",
+    "Drakéide",
+    "Génasi du feu",
+    "Aasimar"
+   ],
+   "rep": 0,
+   "src": "Critical Role, campagne 1 (2015-2017)",
+   "expl": "Le tieffelin descend d’humains liés aux fiélons.",
+   "id": "rac-208",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un rôdeur drow\n2. Je manie deux cimeterres\n3. Une panthère m’accompagne",
+   "choix": [
+    "Drizzt Do’Urden",
+    "Jarlaxle",
+    "Zaknafein",
+    "Artemis Entreri"
+   ],
+   "rep": 0,
+   "src": "R. A. Salvatore, saga de Drizzt",
+   "expl": "Drizzt est le héros le plus célèbre des romans des Royaumes Oubliés.",
+   "id": "rac-209",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels peuples jouables ont une forme de vol ou de planée ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Aarakocra",
+    "Owlin",
+    "Fée",
+    "Nain",
+    "Goliath"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "R. A. Salvatore, saga de Drizzt",
+   "expl": "L’aarakocra et la fée volent, l’owlin a une vitesse de vol ; le nain et le goliath restent au sol.",
+   "id": "rac-210",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels peuples vivent dans l’Outreterre selon les Royaumes Oubliés ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Drow",
+    "Duergar",
+    "Svirfneblin",
+    "Halfelin",
+    "Aarakocra"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Out of the Abyss (2015)",
+   "expl": "Drows, duergars et svirfneblins habitent l’Outreterre ; halfelins et aarakocras vivent en surface.",
+   "id": "rac-211",
+   "conf": "probable"
   }
  ],
  "sources": []

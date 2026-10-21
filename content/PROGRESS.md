@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**14 / 99 thèmes terminés — 2181 questions au total.**
+**15 / 99 thèmes terminés — 2183 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -20,8 +20,8 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 12 | Bêtes et monstruosités | 141 | 56 | 16 (8) | 14 | 9 | 11 | 11 | 8 | 8 | 8 | 51 % | 19/83/39 | 63 | terminé |
 | 13 | Golems, constructions et animés | 140 | 50 | 16 (7) | 14 | 11 | 11 | 11 | 10 | 9 | 8 | 47 % | 14/75/51 | 34 | terminé |
 | 14 | L’art du Maître du Jeu | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
-| 15 | Races jouables et peuples d’aventuriers | 69 | 29 | 26 (13) | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 80 % | 5/52/12 | 17 | base |
-| 16 | Classes de personnage et archétypes | 70 | 30 | 22 (12) | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 74 % | 8/39/23 | 49 | base |
+| 15 | Races jouables et peuples d’aventuriers | 141 | 44 | 19 (11) | 8 | 14 | 12 | 12 | 10 | 10 | 12 | 45 % | 11/97/33 | 34 | terminé |
+| 16 | Classes de personnage et archétypes | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 17 | Sorts célèbres et écoles de magie | 141 | 44 | 21 (12) | 11 | 15 | 11 | 11 | 10 | 9 | 9 | 46 % | 10/95/36 | 8 | terminé |
 | 18 | Dés, caractéristiques et mécaniques | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
 | 19 | Dieux, panthéons et plans d’existence | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
@@ -344,79 +344,9 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 - content/013/a.lm:58 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mord) — Dans D&D 5e, quel sort de niveau 4 crée un chien de garde invisible qui aboie et mord ?
 - content/013/b.lm:23 : ÉVIDENT ? vrai/faux peut-être tautologique (anim) — Dans D&D 5e, le sort Animation d’objets peut animer jusqu’à dix objets de taille Minuscule
 - golems-constructions : niveaux déséquilibrés [14, 75, 51]
-- rac-002 : explication absente ou trop courte
-- rac-003 : explication absente ou trop courte
-- rac-004 : explication absente ou trop courte
-- rac-005 : explication absente ou trop courte
-- rac-006 : explication absente ou trop courte
-- rac-006 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (elfe) — Dans D&D 5e, quelle race jouable est issue d’un humain et d’un elfe ?
-- rac-007 : explication absente ou trop courte
-- rac-007 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (orqu) — Dans D&D 5e, quelle race jouable est issue d’un humain et d’un orque ?
-- rac-008 : explication absente ou trop courte
-- rac-009 : explication absente ou trop courte
-- rac-010 : explication absente ou trop courte
-- rac-012 : explication absente ou trop courte
-- rac-013 : explication absente ou trop courte
-- rac-014 : explication absente ou trop courte
-- rac-015 : explication absente ou trop courte
-- rac-016 : explication absente ou trop courte
-- rac-017 : explication absente ou trop courte
-- rac-018 : explication absente ou trop courte
-- rac-019 : explication absente ou trop courte
-- rac-020 : explication absente ou trop courte
-- rac-021 : explication absente ou trop courte
-- rac-022 : explication absente ou trop courte
-- rac-023 : explication absente ou trop courte
-- rac-024 : explication absente ou trop courte
-- rac-025 : explication absente ou trop courte
-- rac-025 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (tort) — Dans D&D 5e, quelle race ressemble à une tortue humanoïde ?
-- rac-026 : explication absente ou trop courte
-- rac-027 : explication absente ou trop courte
-- rac-028 : explication absente ou trop courte
-- rac-029 : explication absente ou trop courte
-- rac-030 : explication absente ou trop courte
-- rac-031 : explication absente ou trop courte
-- rac-032 : explication absente ou trop courte
-- rac-033 : explication absente ou trop courte
-- rac-034 : explication absente ou trop courte
-- rac-035 : explication absente ou trop courte
-- rac-036 : explication absente ou trop courte
-- rac-037 : explication absente ou trop courte
-- rac-038 : explication absente ou trop courte
-- rac-039 : explication absente ou trop courte
-- rac-040 : explication absente ou trop courte
-- rac-041 : explication absente ou trop courte
-- rac-042 : explication absente ou trop courte
-- rac-043 : explication absente ou trop courte
-- rac-044 : explication absente ou trop courte
-- rac-045 : explication absente ou trop courte
-- rac-046 : explication absente ou trop courte
-- rac-047 : explication absente ou trop courte
-- rac-048 : explication absente ou trop courte
-- rac-049 : explication absente ou trop courte
-- rac-050 : explication absente ou trop courte
-- rac-051 : explication absente ou trop courte
-- rac-052 : explication absente ou trop courte
-- rac-053 : explication absente ou trop courte
-- rac-054 : explication absente ou trop courte
-- rac-055 : explication absente ou trop courte
-- rac-056 : explication absente ou trop courte
-- rac-057 : explication absente ou trop courte
-- rac-058 : explication absente ou trop courte
-- rac-059 : explication absente ou trop courte
-- rac-060 : explication absente ou trop courte
-- rac-061 : explication absente ou trop courte
-- rac-063 : explication absente ou trop courte
-- rac-065 : explication absente ou trop courte
-- rac-066 : explication absente ou trop courte
-- rac-067 : explication absente ou trop courte
-- rac-068 : explication absente ou trop courte
-- rac-069 : explication absente ou trop courte
-- rac-070 : explication absente ou trop courte
-- cla-017 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (bard) — Dans D&D 5e, quelle capacité du barde soutient ses alliés avec un dé ?
-- cla-018 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (mort, viva) — Dans D&D 5e, quelle capacité du clerc repousse les morts-vivants ?
-- cla-027 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (arti) — Dans D&D 5e, quelle classe d’artisan magique est introduite à partir du cadre Eberron ?
-- cla-038 : explication absente ou trop courte
+- content/015/c.lm:101 : ordre : critère de classement peu explicite
+- content/015/c.lm:103 : ordre : critère de classement peu explicite
+- races-dnd : niveaux déséquilibrés [11, 97, 33]
 - content/017/a.lm:45 : ÉVIDENT ? racine de la bonne réponse dans l’énoncé (lanc) — Dans D&D 5e, que risque un lanceur qui utilise Souhait pour autre chose que reproduire un 
 - content/017/a.lm:105 : ÉVIDENT ? vrai/faux peut-être tautologique (cont) — Dans D&D 5e, Contresort réussit automatiquement contre un sort de niveau 3 ou moins.
 - sorts-magie-dnd : niveaux déséquilibrés [10, 95, 36]
