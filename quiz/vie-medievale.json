@@ -1,0 +1,1992 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "vie-medievale",
+  "nom": "Vie quotidienne et métiers médiévaux",
+  "royaume": "Le Moyen Âge historique",
+  "icone": "chope",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel prévôt de Paris rassemble vers 1268 les règlements des métiers parisiens ?",
+   "choix": [
+    "Étienne Boileau",
+    "Étienne Marcel",
+    "Jean de Joinville",
+    "Hugues Aubriot"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Son Livre des métiers décrit une centaine de corporations sous le règne de Saint Louis.",
+   "id": "t060-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle pièce d’examen un compagnon doit-il réaliser pour accéder à la maîtrise ?",
+   "choix": [
+    "Un chef-d’œuvre",
+    "Un serment écrit",
+    "Un pèlerinage",
+    "Une enseigne peinte"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Le mot désignait d’abord cette pièce d’examen, avant de prendre son sens actuel.",
+   "id": "t060-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quel ordre progresse un artisan au sein d’un métier ?",
+   "choix": [
+    "Apprenti, compagnon, maître",
+    "Maître, compagnon, apprenti",
+    "Compagnon, apprenti, maître",
+    "Apprenti, maître, compagnon"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "L’apprentissage dure souvent plusieurs années chez un maître qui loge et nourrit l’apprenti.",
+   "id": "t060-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelait-on le boulanger dans le Paris médiéval ?",
+   "choix": [
+    "Le talemelier",
+    "Le panetier",
+    "Le meunier",
+    "Le fournier seul"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Le mot viendrait de « tamiser », car il blutait la farine.",
+   "id": "t060-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Pourquoi les tanneurs s’installaient-ils au bord des rivières ?",
+   "choix": [
+    "Ils avaient besoin d’eau et leurs odeurs gênaient",
+    "Pour pêcher pendant les pauses",
+    "Pour transporter le cuir en bateau",
+    "Pour éteindre les incendies"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Le tannage utilisait des écorces, de la chaux et même des excréments.",
+   "id": "t060-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plante fournit le bleu « pastel » qui enrichit la région de Toulouse ?",
+   "choix": [
+    "La guède",
+    "La garance",
+    "La gaude",
+    "L’indigo"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Ses boules de feuilles séchées, les cocagnes, ont donné l’expression « pays de cocagne ».",
+   "id": "t060-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle plante fournit aux teinturiers un rouge très recherché ?",
+   "choix": [
+    "La garance",
+    "La guède",
+    "Le safran",
+    "L’ortie"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Ses racines donnent un rouge solide, utilisé pour les draps de qualité.",
+   "id": "t060-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel artisan pose les fers sous les sabots des chevaux ?",
+   "choix": [
+    "Le maréchal-ferrant",
+    "Le bourrelier",
+    "Le charron",
+    "Le sellier"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Le mot « maréchal » désignait à l’origine celui qui soignait les chevaux.",
+   "id": "t060-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel architecte du 13e siècle laisse un carnet de dessins de bâtiments et de machines ?",
+   "choix": [
+    "Villard de Honnecourt",
+    "Pierre de Montreuil",
+    "Robert de Luzarches",
+    "Jean d’Orbais"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Son carnet, conservé à la BnF, montre aussi des animaux et des personnages.",
+   "id": "t060-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que gravaient les tailleurs de pierre sur les blocs qu’ils avaient taillés ?",
+   "choix": [
+    "Une marque personnelle",
+    "Leur prière préférée",
+    "Le prix de la pierre",
+    "Le nom du roi"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Ces marques de tâcheron permettaient de les payer à la pièce.",
+   "id": "t060-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle salle d’un monastère les moines copient-ils les manuscrits ?",
+   "choix": [
+    "Le scriptorium",
+    "Le réfectoire",
+    "Le cellier",
+    "Le chapitre"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Les copistes travaillent à la lumière du jour, souvent en silence.",
+   "id": "t060-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quoi écrit-on surtout les manuscrits médiévaux, avant le papier ?",
+   "choix": [
+    "Le parchemin",
+    "Le papyrus",
+    "La tablette d’argile",
+    "Le tissu"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "C’est une peau d’animal, mouton, chèvre ou veau, préparée et grattée.",
+   "id": "t060-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le parchemin le plus fin, fait de peau de veau ?",
+   "choix": [
+    "Le vélin",
+    "Le vellum de chèvre",
+    "Le papier de riz",
+    "Le palimpseste"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Il était réservé aux livres les plus luxueux.",
+   "id": "t060-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quelle pierre précieuse tire-t-on le bleu outremer des enlumineurs ?",
+   "choix": [
+    "Le lapis-lazuli",
+    "Le saphir",
+    "La turquoise",
+    "L’aigue-marine"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Il venait d’Afghanistan et coûtait parfois plus cher que l’or.",
+   "id": "t060-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on un manuscrit dont on a gratté le texte pour en écrire un nouveau ?",
+   "choix": [
+    "Un palimpseste",
+    "Un incunable",
+    "Un codex",
+    "Un rouleau"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Des techniques modernes permettent de lire le texte effacé.",
+   "id": "t060-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Sur quoi les convives posent-ils souvent leur viande lors des repas ?",
+   "choix": [
+    "Sur un épais morceau de pain",
+    "Sur une planche de chêne",
+    "Sur un plat d’étain",
+    "Sur une feuille de chou"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Imbibé de sauce, il était ensuite donné aux pauvres ou aux chiens.",
+   "id": "t060-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle boisson fermentée à base de céréales, sans houblon, boit-on au début du Moyen Âge ?",
+   "choix": [
+    "La cervoise",
+    "L’hypocras",
+    "Le cidre",
+    "L’hydromel seul"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Le houblon se répand à partir du 13e siècle et donne la bière.",
+   "id": "t060-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel vin sucré et épicé sert de boisson de fête aux tables riches ?",
+   "choix": [
+    "L’hypocras",
+    "La cervoise",
+    "Le vin de messe",
+    "La piquette"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "On y ajoute cannelle, gingembre et sucre, puis on le filtre dans une « manche ».",
+   "id": "t060-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel cuisinier des rois Charles V et Charles VI est associé au livre Le Viandier ?",
+   "choix": [
+    "Taillevent",
+    "Vatel",
+    "Carême",
+    "La Varenne"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Son vrai nom est Guillaume Tirel ; il sert les rois pendant plus de cinquante ans.",
+   "id": "t060-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel aliment ne pouvait-on pas trouver dans une cuisine européenne du Moyen Âge ?",
+   "choix": [
+    "La pomme de terre",
+    "Le chou",
+    "Les lentilles",
+    "Le poivre"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Elle vient d’Amérique et n’arrive en Europe qu’au 16e siècle.",
+   "id": "t060-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle épice, issue d’un crocus, est l’une des plus chères du Moyen Âge ?",
+   "choix": [
+    "Le safran",
+    "Le poivre",
+    "La cannelle",
+    "La muscade"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Il faut des milliers de fleurs pour un seul gramme.",
+   "id": "t060-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel aliment remplace la viande les jours maigres, comme le vendredi ?",
+   "choix": [
+    "Le poisson",
+    "Le fromage",
+    "Les œufs uniquement",
+    "Le pain blanc"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Pendant le carême, quarante jours avant Pâques, la viande est interdite.",
+   "id": "t060-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le repas principal, pris vers le milieu de la journée ?",
+   "choix": [
+    "Le dîner",
+    "Le souper",
+    "Le déjeuner du soir",
+    "La collation"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Le souper, plus léger, est pris le soir ; le sens des mots a changé depuis.",
+   "id": "t060-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles chaussures à pointe très allongée sont à la mode au 14e siècle ?",
+   "choix": [
+    "Les poulaines",
+    "Les sabots",
+    "Les galoches",
+    "Les escarpins"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Plus la pointe est longue, plus le rang social est élevé, selon les lois somptuaires.",
+   "id": "t060-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel large manteau ample et long est porté à la fin du Moyen Âge ?",
+   "choix": [
+    "La houppelande",
+    "Le gambison",
+    "La chainse",
+    "Le bliaut"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Ses manches peuvent traîner jusqu’au sol.",
+   "id": "t060-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Comment appelle-t-on les bains publics des villes médiévales ?",
+   "choix": [
+    "Les étuves",
+    "Les thermes",
+    "Les lavoirs",
+    "Les hammams royaux"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Paris en compte une trentaine à la fin du 13e siècle.",
+   "id": "t060-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec quoi s’éclaire-t-on le plus souvent dans les maisons modestes ?",
+   "choix": [
+    "Des chandelles de suif",
+    "Des bougies de cire",
+    "Des lampes à pétrole",
+    "Des torches électriques"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Le suif, de la graisse animale, fume et sent mauvais ; la cire est réservée aux riches et aux églises.",
+   "id": "t060-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quoi sont faits les murs du torchis ?",
+   "choix": [
+    "De terre et de paille sur du bois tressé",
+    "De pierres sèches empilées",
+    "De briques cuites au four",
+    "De rondins empilés et calfeutrés"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "On le retrouve dans les maisons à colombages.",
+   "id": "t060-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel manuscrit enluminé du 15e siècle montre les travaux des mois de l’année ?",
+   "choix": [
+    "Les Très Riches Heures",
+    "Le Livre de Kells",
+    "La Bible de Gutenberg",
+    "Le Codex Manesse"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Il est peint par les frères de Limbourg et conservé à Chantilly.",
+   "id": "t060-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle rotation des cultures se répand dans le nord de l’Europe médiévale ?",
+   "choix": [
+    "L’assolement triennal",
+    "L’assolement biennal seul",
+    "La monoculture",
+    "La culture sur brûlis"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Céréales d’hiver, céréales de printemps et jachère se succèdent sur trois ans.",
+   "id": "t060-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle invention permet au cheval de tirer plus fort sans s’étrangler ?",
+   "choix": [
+    "Le collier d’épaule",
+    "Le mors de bride",
+    "La selle à arçon",
+    "Le fer à cheval"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Le cheval remplace peu à peu le bœuf pour les labours, au nord de la France.",
+   "id": "t060-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de deniers vaut une livre dans le système monétaire médiéval ?",
+   "choix": [
+    "Deux cent quarante",
+    "Cent",
+    "Mille",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Une livre vaut vingt sous, et un sou douze deniers.",
+   "id": "t060-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi crée le gros tournois, une pièce d’argent de grande valeur, en 1266 ?",
+   "choix": [
+    "Saint Louis",
+    "Philippe Auguste",
+    "Philippe le Bel",
+    "Charles V"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "C’est l’une des monnaies les plus stables du Moyen Âge.",
+   "id": "t060-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ancien jeu de balle, joué entre villages, est un ancêtre du football et du rugby ?",
+   "choix": [
+    "La soule",
+    "Le jeu de paume",
+    "La crosse",
+    "Les quilles"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Les parties pouvaient durer des heures et faire de nombreux blessés.",
+   "id": "t060-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel jeu se jouait d’abord en frappant la balle avec la main, avant d’utiliser une raquette ?",
+   "choix": [
+    "Le jeu de paume",
+    "La soule",
+    "Le mail",
+    "Le criquet"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Il est l’ancêtre du tennis ; le mot « tennis » viendrait de « Tenez ! ».",
+   "id": "t060-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles disciplines forment le trivium, enseigné dans les écoles ?",
+   "choix": [
+    "Grammaire, rhétorique et dialectique",
+    "Arithmétique, géométrie et musique",
+    "Droit, médecine et théologie",
+    "Latin, grec et hébreu"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Le quadrivium regroupe arithmétique, géométrie, astronomie et musique.",
+   "id": "t060-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quelle unité de longueur sert à mesurer les tissus ?",
+   "choix": [
+    "L’aune",
+    "Le pied",
+    "La lieue",
+    "Le setier"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Sa longueur variait selon les villes, autour d’un mètre vingt à Paris.",
+   "id": "t060-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel signe peint ou sculpté permet de reconnaître une boutique dans les rues ?",
+   "choix": [
+    "L’enseigne",
+    "Le blason",
+    "La bannière",
+    "Le pavois"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Peu de gens savaient lire ; une image indiquait le métier.",
+   "id": "t060-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle fête populaire renverse l’ordre social le temps d’une journée, avec l’élection d’un faux pape ?",
+   "choix": [
+    "La fête des Fous",
+    "La Saint-Jean",
+    "La Toussaint",
+    "La Chandeleur"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "Les clercs s’y moquaient de la hiérarchie de l’Église ; elle fut peu à peu interdite.",
+   "id": "t060-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel outil des cuisines médiévales est encore rare à table ?",
+   "choix": [
+    "La fourchette",
+    "Le couteau",
+    "La cuillère",
+    "Le gobelet"
+   ],
+   "rep": 0,
+   "src": "R. Delort, La Vie au Moyen Âge (Seuil) ; É. Boileau, Le Livre des métiers (vers 1268) ; Le Viandier de Taillevent ; Le Ménagier de Paris (1393) ; BnF, « L’art d’aimer au Moyen Âge » et « Gastronomie médiévale »",
+   "expl": "On mange surtout avec les doigts, un couteau et une cuillère.",
+   "id": "t060-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Au Moyen Âge, on se lavait dans des bains publics appelés étuves.",
+   "rep": true,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Ils étaient aussi des lieux de rencontre, parfois mal famés.",
+   "id": "t060-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les tomates étaient courantes dans les cuisines médiévales.",
+   "rep": false,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Faux : elles viennent d’Amérique et arrivent en Europe au 16e siècle.",
+   "id": "t060-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les apprentis vivaient souvent chez leur maître.",
+   "rep": true,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Le contrat d’apprentissage fixait la durée et les obligations de chacun.",
+   "id": "t060-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le parchemin est fabriqué à partir de pâte de bois.",
+   "rep": false,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Faux : il est fait de peau animale ; le papier, lui, est d’abord fait de chiffons.",
+   "id": "t060-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le safran était une épice bon marché.",
+   "rep": false,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Faux : c’était l’une des plus chères, souvent falsifiée.",
+   "id": "t060-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Taillevent est le surnom de Guillaume Tirel.",
+   "rep": true,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Il commence comme simple garçon de cuisine avant de devenir premier cuisinier du roi.",
+   "id": "t060-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le dîner médiéval se prenait le soir.",
+   "rep": false,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Faux : il se prenait vers le milieu de la journée ; le souper était le repas du soir.",
+   "id": "t060-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La guède donne une teinture bleue.",
+   "rep": true,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Le commerce du pastel enrichit de grands marchands toulousains.",
+   "id": "t060-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les bougies de cire étaient réservées aux plus riches et aux églises.",
+   "rep": true,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Les familles modestes utilisaient des chandelles de suif ou des lampes à huile.",
+   "id": "t060-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le jeu de paume est l’ancêtre du tennis.",
+   "rep": true,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Il était très apprécié des rois, et se jouait aussi en salle.",
+   "id": "t060-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’assolement triennal laisse une terre au repos un an sur trois.",
+   "rep": true,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Cette jachère permet au sol de se reposer.",
+   "id": "t060-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les manuscrits étaient toujours écrits sur du papier.",
+   "rep": false,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Faux : on utilisait surtout le parchemin jusqu’à la fin du Moyen Âge.",
+   "id": "t060-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Une livre valait vingt sous.",
+   "rep": true,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; Le Ménagier de Paris",
+   "expl": "Ce système, hérité de Charlemagne, dure en Grande-Bretagne jusqu’en 1971.",
+   "id": "t060-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La fourchette était l’ustensile principal des repas.",
+   "rep": false,
+   "src": "R. Delort ; É. Boileau ; BnF",
+   "expl": "Faux : elle reste rare ; on mange avec un couteau, une cuillère et ses doigts.",
+   "id": "t060-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de sous vaut une livre ?",
+   "rep": 20,
+   "min": 10,
+   "max": 100,
+   "pas": 1,
+   "unite": "sous",
+   "tolerance": 0,
+   "src": "R. Delort ; É. Boileau ; BnF",
+   "expl": "Les comptes s’écrivaient en livres, sous et deniers.",
+   "id": "t060-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de deniers vaut un sou ?",
+   "rep": 12,
+   "min": 10,
+   "max": 20,
+   "pas": 1,
+   "unite": "deniers",
+   "tolerance": 0,
+   "src": "R. Delort ; É. Boileau ; BnF",
+   "expl": "Les pièces de denier étaient en argent, souvent de mauvaise qualité.",
+   "id": "t060-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année environ Étienne Boileau rédige-t-il le Livre des métiers ?",
+   "rep": 1268,
+   "min": 1200,
+   "max": 1350,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 2,
+   "src": "R. Delort ; É. Boileau ; BnF",
+   "expl": "Il est prévôt de Paris de 1261 à 1270, chargé de la police et de la justice.",
+   "id": "t060-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de jours dure le carême ?",
+   "rep": 40,
+   "min": 10,
+   "max": 60,
+   "pas": 1,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "R. Delort ; É. Boileau ; BnF",
+   "expl": "Il commence le mercredi des Cendres et finit à Pâques.",
+   "id": "t060-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année est rédigé Le Ménagier de Paris ?",
+   "rep": 1393,
+   "min": 1300,
+   "max": 1450,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "R. Delort ; É. Boileau ; BnF",
+   "expl": "Un vieux bourgeois y conseille sa jeune épouse sur la cuisine et la maison.",
+   "id": "t060-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien de disciplines compte le quadrivium ?",
+   "rep": 4,
+   "min": 2,
+   "max": 7,
+   "pas": 1,
+   "unite": "disciplines",
+   "tolerance": 0,
+   "src": "R. Delort ; É. Boileau ; BnF",
+   "expl": "Avec les trois du trivium, cela fait les sept arts libéraux.",
+   "id": "t060-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’années dure le cycle de l’assolement triennal ?",
+   "rep": 3,
+   "min": 1,
+   "max": 6,
+   "pas": 1,
+   "unite": "ans",
+   "tolerance": 0,
+   "src": "R. Delort ; É. Boileau ; BnF",
+   "expl": "Une même parcelle change de culture chaque année.",
+   "id": "t060-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Saint Louis crée-t-il le gros tournois ?",
+   "rep": 1266,
+   "min": 1200,
+   "max": 1350,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "R. Delort ; É. Boileau ; BnF",
+   "expl": "La pièce est frappée à Tours, d’où son nom.",
+   "id": "t060-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La pièce d’examen d’un compagnon s’appelle le ____.",
+   "choix": [
+    "chef-d’œuvre",
+    "brevet",
+    "diplôme",
+    "certificat"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Elle était jugée par les maîtres de la corporation.",
+   "id": "t060-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La salle où travaillent les moines copistes s’appelle le ____.",
+   "choix": [
+    "scriptorium",
+    "cellier",
+    "dortoir",
+    "cloître"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "On y trouve pupitres, encriers et plumes d’oie.",
+   "id": "t060-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La peau préparée pour écrire s’appelle le ____.",
+   "choix": [
+    "parchemin",
+    "papyrus",
+    "papier",
+    "velours"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Son nom vient de la ville de Pergame, en Asie Mineure.",
+   "id": "t060-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La coiffe à capuche portée au Moyen Âge s’appelle le ____.",
+   "choix": [
+    "chaperon",
+    "béret",
+    "turban",
+    "képi"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le petit Chaperon rouge doit son nom à cette coiffure.",
+   "id": "t060-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La boisson de céréales sans houblon s’appelle la ____.",
+   "choix": [
+    "cervoise",
+    "bière",
+    "chicha",
+    "cidre"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Les Gaulois la buvaient déjà avant les Romains.",
+   "id": "t060-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le vin épicé et sucré s’appelle l’____.",
+   "choix": [
+    "hypocras",
+    "hydromel",
+    "absinthe",
+    "ratafia"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Son nom viendrait du médecin grec Hippocrate.",
+   "id": "t060-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le cuisinier du roi Charles V s’appelle Taillevent ; son livre s’intitule Le ____.",
+   "choix": [
+    "Viandier",
+    "Ménagier",
+    "Cuisinier",
+    "Potager"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "On y trouve des recettes de sauces très épicées.",
+   "id": "t060-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les chaussures à pointe allongée s’appellent les ____.",
+   "choix": [
+    "poulaines",
+    "babouches",
+    "sandales",
+    "bottines"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le mot vient de « Pologne », d’où cette mode serait venue.",
+   "id": "t060-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les bains publics médiévaux s’appellent les ____.",
+   "choix": [
+    "étuves",
+    "thermes",
+    "piscines",
+    "lavoirs"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "On y prenait des bains de vapeur ou d’eau chaude dans des cuves.",
+   "id": "t060-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La plante du bleu pastel s’appelle la ____.",
+   "choix": [
+    "guède",
+    "garance",
+    "gaude",
+    "lavande"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "On la cultive encore un peu en Occitanie.",
+   "id": "t060-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La rotation des cultures sur trois ans s’appelle l’assolement ____.",
+   "choix": [
+    "triennal",
+    "biennal",
+    "annuel",
+    "trimestriel"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Elle augmente nettement les récoltes à partir du 11e siècle.",
+   "id": "t060-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’ancêtre du tennis s’appelle le jeu de ____.",
+   "choix": [
+    "paume",
+    "balle",
+    "main",
+    "volant"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "On le pratique encore dans quelques salles historiques.",
+   "id": "t060-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’ancien nom parisien du boulanger est le ____.",
+   "choix": [
+    "talemelier",
+    "panetier",
+    "meunier",
+    "fournier"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le boulanger vendait aussi du pain dans les rues, dans des paniers.",
+   "id": "t060-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces aliments n’existait pas en Europe au Moyen Âge ?",
+   "choix": [
+    "Le maïs",
+    "Le blé",
+    "Les fèves",
+    "Le chou"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le maïs vient d’Amérique et n’arrive en Europe qu’au 16e siècle.",
+   "id": "t060-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces vêtements n’est pas médiéval ?",
+   "choix": [
+    "Le jean",
+    "La houppelande",
+    "Le surcot",
+    "La chainse"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le jean apparaît au 19e siècle, aux États-Unis.",
+   "id": "t060-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces artisans ne travaille pas le métal ?",
+   "choix": [
+    "Le tanneur",
+    "Le forgeron",
+    "Le maréchal-ferrant",
+    "L’orfèvre"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le tanneur travaille le cuir, et non le métal.",
+   "id": "t060-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces disciplines n’appartient pas au trivium ?",
+   "choix": [
+    "L’arithmétique",
+    "La grammaire",
+    "La rhétorique",
+    "La dialectique"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "L’arithmétique fait partie du quadrivium.",
+   "id": "t060-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces pièces n’est pas une unité monétaire médiévale française ?",
+   "choix": [
+    "Le dollar",
+    "La livre",
+    "Le sou",
+    "Le denier"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le dollar n’apparaît qu’à l’époque moderne ; son nom vient du thaler allemand.",
+   "id": "t060-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces boissons n’est pas médiévale ?",
+   "choix": [
+    "Le café",
+    "La cervoise",
+    "L’hypocras",
+    "L’hydromel"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le café n’arrive en Europe qu’au 17e siècle.",
+   "id": "t060-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas médiéval ?",
+   "choix": [
+    "Le basket-ball",
+    "La soule",
+    "Le jeu de paume",
+    "Les quilles"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le basket-ball est inventé en 1891 par James Naismith.",
+   "id": "t060-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces matériaux ne sert pas à écrire ou à copier ?",
+   "choix": [
+    "Le torchis",
+    "Le parchemin",
+    "Le vélin",
+    "L’encre ferro-gallique"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le torchis sert à construire les murs des maisons.",
+   "id": "t060-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Laquelle de ces plantes ne sert pas à teindre ?",
+   "choix": [
+    "Le houblon",
+    "La guède",
+    "La garance",
+    "La gaude"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le houblon parfume et conserve la bière.",
+   "id": "t060-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces repas n’existe pas sous ce nom au Moyen Âge ?",
+   "choix": [
+    "Le brunch",
+    "Le dîner",
+    "Le souper",
+    "La collation"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le brunch est une invention anglaise du 19e siècle.",
+   "id": "t060-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels aliments venus d’Amérique étaient inconnus au Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Pomme de terre",
+    "Tomate",
+    "Maïs",
+    "Chocolat",
+    "Chou",
+    "Lentilles"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Ils arrivent en Europe après 1492, avec les voyages vers l’Amérique.",
+   "id": "t060-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels métiers travaillent le textile ou le cuir ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Tisserand",
+    "Teinturier",
+    "Tanneur",
+    "Foulon",
+    "Forgeron",
+    "Maçon"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le foulon assouplit et feutre les draps de laine.",
+   "id": "t060-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles disciplines forment les sept arts libéraux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Grammaire",
+    "Rhétorique",
+    "Arithmétique",
+    "Astronomie",
+    "Chimie",
+    "Biologie"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Ces disciplines préparent aux études de théologie, de droit et de médecine.",
+   "id": "t060-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles boissons boit-on au Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cervoise",
+    "Hypocras",
+    "Vin",
+    "Hydromel",
+    "Café",
+    "Thé"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le thé arrive en Europe au 17e siècle, comme le café.",
+   "id": "t060-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels outils et matériaux utilise l’enlumineur ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Parchemin",
+    "Feuille d’or",
+    "Lapis-lazuli",
+    "Plume d’oie",
+    "Stylo à bille",
+    "Peinture acrylique"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "L’or est posé sur une couche préparatoire, puis bruni.",
+   "id": "t060-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels vêtements portent les hommes et femmes du Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Cotte",
+    "Surcot",
+    "Houppelande",
+    "Chaperon",
+    "Jean",
+    "Tee-shirt"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Les tissus et les couleurs indiquent le rang social.",
+   "id": "t060-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels jeux sont pratiqués au Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Soule",
+    "Jeu de paume",
+    "Échecs",
+    "Dés",
+    "Basket-ball",
+    "Golf moderne"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "L’Église condamnait souvent les jeux de dés, liés aux paris.",
+   "id": "t060-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles épices sont prisées au Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Poivre",
+    "Safran",
+    "Cannelle",
+    "Gingembre",
+    "Vanille",
+    "Piment rouge"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Vanille et piment viennent d’Amérique, découverte à la fin du Moyen Âge.",
+   "id": "t060-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles plantes servent à la teinture ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Guède",
+    "Garance",
+    "Gaude",
+    "Houblon",
+    "Blé"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "La gaude donne un jaune lumineux, très solide à la lumière.",
+   "id": "t060-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels sources nous renseignent sur la cuisine médiévale ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Viandier",
+    "Le Ménagier de Paris",
+    "Le Livre des métiers",
+    "Les Très Riches Heures seulement"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Les Très Riches Heures montrent des scènes de repas, mais ne donnent pas de recettes.",
+   "id": "t060-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la carrière d’un artisan dans l’ordre.",
+   "items": [
+    "Apprenti",
+    "Compagnon",
+    "Chef-d’œuvre",
+    "Maître"
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Devenir maître coûte cher et devient de plus en plus difficile à la fin du Moyen Âge.",
+   "id": "t060-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces repas d’une journée médiévale dans l’ordre.",
+   "items": [
+    "Déjeuner du matin",
+    "Dîner",
+    "Souper"
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Les moines, eux, prennent souvent un seul repas en période de jeûne.",
+   "id": "t060-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la fabrication du parchemin dans l’ordre.",
+   "items": [
+    "Trempage de la peau dans la chaux",
+    "Épilage",
+    "Tension sur un cadre",
+    "Grattage et ponçage"
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "La peau tendue sèche en devenant fine et rigide.",
+   "id": "t060-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la fabrication d’un manuscrit dans l’ordre.",
+   "items": [
+    "Préparation du parchemin",
+    "Copie du texte",
+    "Enluminure",
+    "Reliure"
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Copistes et enlumineurs étaient souvent des personnes différentes.",
+   "id": "t060-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces unités monétaires de la plus petite à la plus grande.",
+   "items": [
+    "Denier",
+    "Sou",
+    "Livre"
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Un sou vaut douze deniers, une livre vingt sous.",
+   "id": "t060-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes de l’assolement triennal dans l’ordre, sur une même parcelle.",
+   "items": [
+    "Céréale d’hiver",
+    "Céréale de printemps",
+    "Jachère"
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Puis le cycle recommence, l’année suivante.",
+   "id": "t060-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la fabrication du pain dans l’ordre.",
+   "items": [
+    "Moudre le grain au moulin",
+    "Bluter la farine",
+    "Pétrir la pâte",
+    "Cuire au four banal"
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Le four banal appartient au seigneur, qui prélève une part.",
+   "id": "t060-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces œuvres et textes par date.",
+   "items": [
+    "Livre des métiers",
+    "Le Ménagier de Paris",
+    "Les Très Riches Heures"
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Vers 1268, 1393 et vers 1411-1416 pour le début des Très Riches Heures.",
+   "id": "t060-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces moments de l’année liturgique dans l’ordre, à partir de Noël.",
+   "items": [
+    "Noël",
+    "Chandeleur",
+    "Carême",
+    "Pâques"
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "La Chandeleur, le 2 février, se fête quarante jours après Noël.",
+   "id": "t060-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque artisan à son matériau.",
+   "paires": [
+    [
+     "Tanneur",
+     "Cuir"
+    ],
+    [
+     "Forgeron",
+     "Fer"
+    ],
+    [
+     "Tisserand",
+     "Laine ou lin"
+    ],
+    [
+     "Charpentier",
+     "Bois"
+    ]
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Chaque métier avait son quartier, souvent sa rue.",
+   "id": "t060-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque plante tinctoriale à sa couleur.",
+   "paires": [
+    [
+     "Guède",
+     "Bleu"
+    ],
+    [
+     "Garance",
+     "Rouge"
+    ],
+    [
+     "Gaude",
+     "Jaune"
+    ]
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "En mélangeant ces trois teintures, on obtient de nombreuses nuances.",
+   "id": "t060-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque repas à son moment.",
+   "paires": [
+    [
+     "Déjeuner",
+     "Matin"
+    ],
+    [
+     "Dîner",
+     "Midi"
+    ],
+    [
+     "Souper",
+     "Soir"
+    ]
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Les mots ont changé de sens au fil des siècles.",
+   "id": "t060-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque boisson à sa composition.",
+   "paires": [
+    [
+     "Cervoise",
+     "Céréales fermentées"
+    ],
+    [
+     "Hypocras",
+     "Vin épicé"
+    ],
+    [
+     "Hydromel",
+     "Miel fermenté"
+    ],
+    [
+     "Cidre",
+     "Pommes"
+    ]
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "On buvait souvent de l’alcool léger, l’eau étant parfois peu sûre.",
+   "id": "t060-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque monnaie à sa valeur.",
+   "paires": [
+    [
+     "Livre",
+     "Vingt sous"
+    ],
+    [
+     "Sou",
+     "Douze deniers"
+    ],
+    [
+     "Denier",
+     "Plus petite unité courante"
+    ]
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "On comptait aussi en oboles, des demi-deniers.",
+   "id": "t060-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque œuvre à son auteur.",
+   "paires": [
+    [
+     "Livre des métiers",
+     "Étienne Boileau"
+    ],
+    [
+     "Viandier",
+     "Taillevent"
+    ],
+    [
+     "Très Riches Heures",
+     "Frères de Limbourg"
+    ]
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Ces documents sont précieux pour connaître la vie quotidienne.",
+   "id": "t060-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque lieu à son activité.",
+   "paires": [
+    [
+     "Scriptorium",
+     "Copie"
+    ],
+    [
+     "Étuves",
+     "Bain"
+    ],
+    [
+     "Moulin",
+     "Mouture"
+    ],
+    [
+     "Four banal",
+     "Cuisson du pain"
+    ]
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "La vie médiévale s’organise autour de ces lieux communs.",
+   "id": "t060-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque vêtement à sa description.",
+   "paires": [
+    [
+     "Houppelande",
+     "Grand manteau ample"
+    ],
+    [
+     "Chaperon",
+     "Coiffe à capuche"
+    ],
+    [
+     "Poulaines",
+     "Chaussures pointues"
+    ]
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "La mode change beaucoup au 14e siècle, avec des vêtements plus ajustés.",
+   "id": "t060-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque art libéral à son objet.",
+   "paires": [
+    [
+     "Grammaire",
+     "La langue"
+    ],
+    [
+     "Rhétorique",
+     "L’art de convaincre"
+    ],
+    [
+     "Géométrie",
+     "La mesure de l’espace"
+    ],
+    [
+     "Astronomie",
+     "Le mouvement des astres"
+    ]
+   ],
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Les arts du langage forment le trivium, ceux du nombre le quadrivium.",
+   "id": "t060-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un prévôt\n2. J’ai écrit le Livre des métiers\n3. J’ai servi Saint Louis",
+   "choix": [
+    "Étienne Boileau",
+    "Étienne Marcel",
+    "Jean de Joinville",
+    "Taillevent"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Mon livre recense les statuts d’une centaine de métiers parisiens.",
+   "id": "t060-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un cuisinier\n2. J’ai servi Charles V\n3. On m’appelle Taillevent",
+   "choix": [
+    "Guillaume Tirel",
+    "Bernard Palissy",
+    "François Vatel",
+    "Antonin Carême"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Mon tombeau me représente avec trois marmites sur mon bouclier.",
+   "id": "t060-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un manuscrit\n2. Je montre les travaux des mois\n3. On me conserve à Chantilly",
+   "choix": [
+    "Les Très Riches Heures du duc de Berry",
+    "Le Livre de Kells",
+    "La Bible de Gutenberg",
+    "Le Codex Manesse"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Mes peintres sont morts avant de m’achever, sans doute de la peste.",
+   "id": "t060-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une plante\n2. Je donne du bleu\n3. J’ai enrichi Toulouse",
+   "choix": [
+    "La guède",
+    "La garance",
+    "L’indigo",
+    "La lavande"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "L’indigo venu des Indes m’a ensuite fait de l’ombre.",
+   "id": "t060-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un jeu\n2. On me joue avec une balle entre villages\n3. Je suis l’ancêtre du rugby",
+   "choix": [
+    "La soule",
+    "Le jeu de paume",
+    "Le mail",
+    "La crosse"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Les rois ont plusieurs fois tenté de m’interdire.",
+   "id": "t060-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une boisson\n2. Je suis faite de vin et d’épices\n3. Mon nom évoque un médecin grec",
+   "choix": [
+    "L’hypocras",
+    "La cervoise",
+    "Le vin chaud",
+    "L’hydromel"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "On me sert à la fin des banquets, pour aider la digestion, croyait-on.",
+   "id": "t060-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une peau\n2. On écrit sur moi\n3. Je viens d’un veau",
+   "choix": [
+    "Le vélin",
+    "Le papyrus",
+    "Le papier",
+    "Le palimpseste"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Les plus beaux manuscrits sont faits de moi.",
+   "id": "t060-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une chaussure\n2. Ma pointe est très longue\n3. Les lois limitent ma taille",
+   "choix": [
+    "La poulaine",
+    "Le sabot",
+    "L’escarpin",
+    "La babouche"
+   ],
+   "rep": 0,
+   "src": "R. Delort ; É. Boileau ; Taillevent ; BnF",
+   "expl": "Les plus nobles portaient des pointes rembourrées de mousse ou de crin.",
+   "id": "t060-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
