@@ -2,7 +2,7 @@
 
 Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (moins pour un thème étroit), 35–55 % de classiques (QCM + vrai/faux), au moins 12 vrai/faux et 8 questions de chaque nouveau format.
 
-**16 / 99 thèmes terminés — 2325 questions au total.**
+**17 / 99 thèmes terminés — 2466 questions au total.**
 
 | N° | Thème | Q | QCM | V/F (vrais) | Curs. | Trou | Intrus | Multi | Ordre | Assoc | Qui | Classiques | Niv. 1/2/3 | Sources | État |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -19,7 +19,7 @@ Généré par `python3 tools/lm_compile.py`. Cible : 140 questions par thème (m
 | 11 | Créatures marines et aquatiques | 141 | 56 | 16 (8) | 13 | 10 | 11 | 11 | 8 | 8 | 8 | 51 % | 17/78/46 | 56 | terminé |
 | 12 | Bêtes et monstruosités | 141 | 56 | 16 (8) | 14 | 9 | 11 | 11 | 8 | 8 | 8 | 51 % | 19/83/39 | 63 | terminé |
 | 13 | Golems, constructions et animés | 140 | 50 | 16 (7) | 14 | 11 | 11 | 11 | 10 | 9 | 8 | 47 % | 14/75/51 | 34 | terminé |
-| 14 | L’art du Maître du Jeu | 0 | 0 | 0 (0) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | – | 0/0/0 | 0 | à faire |
+| 14 | L’art du Maître du Jeu | 141 | 49 | 18 (9) | 8 | 14 | 11 | 10 | 10 | 10 | 11 | 48 % | 28/86/27 | 71 | terminé |
 | 15 | Races jouables et peuples d’aventuriers | 141 | 44 | 19 (11) | 8 | 14 | 12 | 12 | 10 | 10 | 12 | 45 % | 11/97/33 | 34 | terminé |
 | 16 | Classes de personnage et archétypes | 142 | 44 | 16 (9) | 8 | 18 | 11 | 12 | 12 | 11 | 10 | 42 % | 11/94/37 | 6 | terminé |
 | 17 | Sorts célèbres et écoles de magie | 141 | 44 | 21 (12) | 11 | 15 | 11 | 11 | 10 | 9 | 9 | 46 % | 10/95/36 | 8 | terminé |

@@ -1,0 +1,2292 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "art-du-mj",
+  "nom": "L’art du Maître du Jeu",
+  "royaume": "Règles et univers de D&D",
+  "icone": "parchemin",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quel DD le Guide du Maître associe-t-il à une tâche « difficile » ?",
+   "choix": [
+    "20",
+    "15",
+    "25",
+    "10"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8 « Diriger le jeu » ; Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Le barème va de 5 (très facile) à 30 (quasi impossible) : 10 facile, 15 moyen, 20 difficile, 25 très difficile.",
+   "id": "t014-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, quel DD correspond à une tâche « quasi impossible » ?",
+   "choix": [
+    "30",
+    "25",
+    "35",
+    "40"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8 « Diriger le jeu » ; Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Le barème du Guide du Maître s’arrête à 30 ; au-delà, mieux vaut dire que l’action échoue sans jet.",
+   "id": "t014-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, comment calcule-t-on la Perception passive d’un personnage ?",
+   "choix": [
+    "10 + les modificateurs du test",
+    "8 + son modificateur de Sagesse",
+    "Sa Sagesse divisée par deux",
+    "15 + son bonus de maîtrise"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8 « Diriger le jeu » ; Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Un score passif vaut 10 + tous les modificateurs du test ; l’avantage ajoute 5, le désavantage retire 5.",
+   "id": "t014-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans D&D 5e, de combien l’avantage augmente-t-il un score passif ?",
+   "choix": [
+    "5",
+    "2",
+    "3",
+    "10"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8 « Diriger le jeu » ; Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Le Manuel des Joueurs fixe à +5 l’effet de l’avantage sur un test passif, et à −5 celui du désavantage.",
+   "id": "t014-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans un test de groupe de D&D 5e, quand le groupe réussit-il ?",
+   "choix": [
+    "Si au moins la moitié réussit",
+    "Si tous réussissent",
+    "Si le meilleur réussit",
+    "Si personne n’obtient 1"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8 « Diriger le jeu » ; Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Le test de groupe permet aux plus doués de compenser les maladroits, par exemple pour se faufiler ensemble.",
+   "id": "t014-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Dans D&D 5e, quels sont les trois piliers de l’aventure ?",
+   "choix": [
+    "Combat, exploration, interaction sociale",
+    "Combat, magie et trésors",
+    "Donjons, villes et nature sauvage",
+    "Force, ruse et connaissances"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8 « Diriger le jeu » ; Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Le Manuel des Joueurs présente ces trois piliers dès son introduction ; une bonne séance les équilibre selon les goûts de la table.",
+   "id": "t014-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le Guide du Maître 5e (2014), combien de rencontres moyennes ou difficiles une journée d’aventure type compte-t-elle ?",
+   "choix": [
+    "6 à 8",
+    "1 à 2",
+    "3 à 4",
+    "10 à 12"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8 « Diriger le jeu » ; Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Le Guide du Maître estime qu’un groupe tient 6 à 8 rencontres moyennes ou difficiles, avec deux repos courts.",
+   "id": "t014-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans le Guide du Maître 5e (2014), par combien multiplie-t-on l’XP d’une rencontre contre 3 à 6 monstres pour juger sa difficulté ?",
+   "choix": [
+    "×2",
+    "×1,5",
+    "×2,5",
+    "×3"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8 « Diriger le jeu » ; Player’s Handbook 5e (2014), chap. 7",
+   "expl": "Le multiplicateur vaut ×1 pour un monstre, ×1,5 pour deux, ×2 pour 3 à 6, ×2,5 pour 7 à 10, ×3 pour 11 à 14, ×4 au-delà.",
+   "id": "t014-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, à quel compte d’initiative les actions de repaire se déclenchent-elles ?",
+   "choix": [
+    "20",
+    "1",
+    "10",
+    "0"
+   ],
+   "rep": 0,
+   "src": "Monster Manual 5e (2014), « Actions de repaire » et « Actions légendaires »",
+   "expl": "Le Manuel des Monstres place les actions de repaire au compte 20, en perdant les égalités.",
+   "id": "t014-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, combien d’actions légendaires un monstre légendaire a-t-il en général par round ?",
+   "choix": [
+    "3",
+    "1",
+    "2",
+    "5"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9 « Atelier du maître du donjon »",
+   "expl": "Il les dépense à la fin du tour des autres créatures et les récupère au début de son propre tour.",
+   "id": "t014-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans la règle optionnelle « réalisme brutal » du Guide du Maître, combien dure un repos long ?",
+   "choix": [
+    "7 jours",
+    "24 heures",
+    "8 heures",
+    "1 mois"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9 « Atelier du maître du donjon »",
+   "expl": "Le repos court passe alors à 8 heures : idéal pour une campagne d’horreur ou de survie.",
+   "id": "t014-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans la règle optionnelle « héroïsme épique » du Guide du Maître, combien dure un repos court ?",
+   "choix": [
+    "5 minutes",
+    "1 minute",
+    "10 minutes",
+    "1 heure"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9 « Atelier du maître du donjon »",
+   "expl": "Le repos long dure alors 1 heure : les héros récupèrent très vite.",
+   "id": "t014-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que donne la règle optionnelle de prise en tenaille du Guide du Maître 5e ?",
+   "choix": [
+    "L’avantage à l’attaque au corps à corps",
+    "+2 aux dégâts",
+    "Une attaque supplémentaire",
+    "La moitié de l’abri"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9 « Atelier du maître du donjon »",
+   "expl": "Deux alliés de part et d’autre d’un ennemi ont l’avantage contre lui ; beaucoup de MJ la jugent trop généreuse.",
+   "id": "t014-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle option du Guide du Maître 5e (2014) remplace le décompte de l’XP ?",
+   "choix": [
+    "Monter de niveau aux étapes clés de l’histoire",
+    "Monter d’un niveau après chaque combat",
+    "Monter quand le groupe trouve un objet magique",
+    "Monter quand un joueur obtient un 20 naturel"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9 « Atelier du maître du donjon »",
+   "expl": "Le groupe monte de niveau en atteignant des étapes de l’histoire : beaucoup de tables l’appellent « jalons » (milestones).",
+   "id": "t014-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le Guide du Maître 5e, en combien de parties le livre est-il divisé ?",
+   "choix": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9 « Atelier du maître du donjon »",
+   "expl": "Les trois parties sont « Maître des mondes », « Maître des aventures » et « Maître des règles ».",
+   "id": "t014-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans D&D 5e, qui décide d’accorder l’inspiration à un personnage ?",
+   "choix": [
+    "Le MJ",
+    "Le joueur à sa gauche",
+    "Le dé, sur un 20 naturel",
+    "Le plus haut niveau du groupe"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, Advanced Dungeons & Dragons Dungeon Masters Guide (TSR, 1979)",
+   "expl": "Le MJ l’accorde, souvent pour un bon jeu de rôle ; un personnage ne peut en avoir qu’une à la fois (règles 2014).",
+   "id": "t014-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "En quelle année paraît le premier Dungeon Masters Guide d’AD&D, signé Gary Gygax ?",
+   "choix": [
+    "1979",
+    "1974",
+    "1983",
+    "1977"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, Advanced Dungeons & Dragons Dungeon Masters Guide (TSR, 1979)",
+   "expl": "Il suit le Monster Manual (1977) et le Players Handbook (1978) : la trilogie fonde AD&D.",
+   "id": "t014-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment s’appelle le meneur de jeu dans L’Appel de Cthulhu ?",
+   "choix": [
+    "Le Gardien des Arcanes",
+    "Le Conteur",
+    "L’Arbitre",
+    "Le Narrateur"
+   ],
+   "rep": 0,
+   "src": "Sandy Petersen, Call of Cthulhu (Chaosium, 1981)",
+   "expl": "Le Keeper of Arcane Lore garde les secrets du Mythe ; Chaosium publie le jeu depuis 1981.",
+   "id": "t014-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle le meneur de jeu dans Vampire : la Mascarade ?",
+   "choix": [
+    "Le Conteur",
+    "Le Gardien",
+    "L’Arbitre",
+    "Le Prince"
+   ],
+   "rep": 0,
+   "src": "Mark Rein·Hagen, Vampire: The Masquerade (White Wolf, 1991)",
+   "expl": "Mark Rein·Hagen voulait un jeu centré sur le récit, d’où le Storyteller System (1991).",
+   "id": "t014-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment s’appelle le meneur de jeu dans Traveller ?",
+   "choix": [
+    "L’arbitre",
+    "Le Gardien",
+    "Le Conteur",
+    "Le capitaine"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, « Three Clue Rule », The Alexandrian (2008)",
+   "expl": "Le Referee de Traveller (Marc Miller, 1977) rappelle les arbitres des wargames d’où vient le jeu de rôle.",
+   "id": "t014-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon la « règle des trois indices » de Justin Alexander, combien d’indices faut-il prévoir pour chaque conclusion importante ?",
+   "choix": [
+    "Au moins 3",
+    "Exactement 1",
+    "Au moins 5",
+    "2, pas plus"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, « Three Clue Rule », The Alexandrian (2008)",
+   "expl": "Les joueurs rateront un indice, en ignoreront un autre et mal interpréteront le troisième : la redondance sauve l’enquête.",
+   "id": "t014-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel blog a popularisé la « règle des trois indices » ?",
+   "choix": [
+    "The Alexandrian",
+    "Sly Flourish",
+    "The Angry GM",
+    "Ars Ludi"
+   ],
+   "rep": 0,
+   "src": "Mike Shea, Return of the Lazy Dungeon Master (Sly Flourish, 2018)",
+   "expl": "Justin Alexander l’y a publiée en 2008 ; il l’a reprise dans son livre So You Want to Be a Game Master (2023).",
+   "id": "t014-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon Mike Shea (le « MJ paresseux »), par quoi faut-il commencer une séance ?",
+   "choix": [
+    "Un début percutant",
+    "Un récapitulatif écrit",
+    "Le choix des sorts",
+    "La montée de niveau"
+   ],
+   "rep": 0,
+   "src": "Mike Shea, Return of the Lazy Dungeon Master (Sly Flourish, 2018)",
+   "expl": "Le « strong start » plonge tout de suite les joueurs dans l’action ou un dilemme.",
+   "id": "t014-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien d’étapes compte la préparation de Return of the Lazy Dungeon Master ?",
+   "choix": [
+    "8",
+    "3",
+    "5",
+    "12"
+   ],
+   "rep": 0,
+   "src": "Mike Shea, Return of the Lazy Dungeon Master (Sly Flourish, 2018)",
+   "expl": "Revoir les personnages, début percutant, scènes, secrets et indices, lieux, PNJ, monstres, récompenses.",
+   "id": "t014-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Selon Mike Shea, combien de secrets et indices faut-il préparer par séance ?",
+   "choix": [
+    "10",
+    "3",
+    "5",
+    "20"
+   ],
+   "rep": 0,
+   "src": "Ben Robbins, « West Marches: Running Your Own », Ars Ludi (2007)",
+   "expl": "Ces secrets ne sont pas liés à un lieu : le MJ les place là où les joueurs vont, pour garder le récit souple.",
+   "id": "t014-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel style de campagne Ben Robbins a-t-il popularisé en 2007 ?",
+   "choix": [
+    "West Marches",
+    "Mégadonjon",
+    "Hexcrawl solo",
+    "Campagne en rails"
+   ],
+   "rep": 0,
+   "src": "Ben Robbins, « West Marches: Running Your Own », Ars Ludi (2007)",
+   "expl": "Un grand groupe de joueurs, des séances proposées par les joueurs, une région sauvage et un retour obligatoire en ville.",
+   "id": "t014-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans une campagne West Marches, où se termine chaque séance ?",
+   "choix": [
+    "En ville",
+    "Dans le donjon",
+    "Au même endroit que la séance suivante",
+    "Où le MJ le décide"
+   ],
+   "rep": 0,
+   "src": "Johnn Four, « Five Room Dungeons », Roleplaying Tips",
+   "expl": "Revenir en lieu sûr permet à n’importe quel groupe de partir la séance suivante, avec d’autres joueurs.",
+   "id": "t014-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le « donjon en cinq salles » de Johnn Four, que trouve-t-on dans la première salle ?",
+   "choix": [
+    "L’entrée et son gardien",
+    "Le boss final",
+    "La récompense",
+    "Un piège mortel"
+   ],
+   "rep": 0,
+   "src": "Johnn Four, « Five Room Dungeons », Roleplaying Tips",
+   "expl": "Puis viennent une énigme ou scène sociale, un piège ou revers, le grand combat et enfin la récompense ou révélation.",
+   "id": "t014-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le « donjon en cinq salles », que contient la quatrième salle ?",
+   "choix": [
+    "Le grand affrontement",
+    "L’entrée gardée",
+    "La récompense",
+    "Une énigme"
+   ],
+   "rep": 0,
+   "src": "Robin D. Laws, Robin’s Laws of Good Game Mastering (Steve Jackson Games, 2002)",
+   "expl": "Le climax arrive en quatrième position ; la cinquième salle livre récompense, révélation ou retournement.",
+   "id": "t014-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Combien de types de joueurs Robin D. Laws décrit-il dans Robin’s Laws of Good Game Mastering ?",
+   "choix": [
+    "7",
+    "4",
+    "5",
+    "10"
+   ],
+   "rep": 0,
+   "src": "Robin D. Laws, Robin’s Laws of Good Game Mastering (Steve Jackson Games, 2002)",
+   "expl": "Power gamer, butt-kicker, tacticien, spécialiste, acteur méthodique, conteur et joueur occasionnel.",
+   "id": "t014-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Chez Robin D. Laws, quel type de joueur cherche surtout à optimiser son personnage pour qu’il devienne plus puissant ?",
+   "choix": [
+    "Le power gamer",
+    "Le tacticien",
+    "Le spécialiste",
+    "Le conteur"
+   ],
+   "rep": 0,
+   "src": "John Stavropoulos, « X-Card: Safety Tools for Simulations and Role Playing Games » (2013)",
+   "expl": "Le power gamer aime les capacités et le matériel ; le tacticien préfère les défis logiques.",
+   "id": "t014-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qui a créé la carte X, outil de sécurité émotionnelle à la table ?",
+   "choix": [
+    "John Stavropoulos",
+    "Gary Gygax",
+    "Ron Edwards",
+    "Matthew Mercer"
+   ],
+   "rep": 0,
+   "src": "John Stavropoulos, « X-Card: Safety Tools for Simulations and Role Playing Games » (2013)",
+   "expl": "Un joueur touche la carte pour retirer un contenu sans avoir à se justifier.",
+   "id": "t014-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans quel livre Ron Edwards a-t-il proposé les « lignes et voiles » ?",
+   "choix": [
+    "Sex and Sorcery",
+    "Apocalypse World",
+    "Dungeon World",
+    "Fiasco"
+   ],
+   "rep": 0,
+   "src": "Ron Edwards, Sex and Sorcery (Adept Press, 2003)",
+   "expl": "Paru en 2003 pour Sorcerer : une ligne exclut un contenu, un voile le laisse hors champ.",
+   "id": "t014-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Avec les « lignes et voiles », que signifie un voile ?",
+   "choix": [
+    "Le contenu se passe hors champ",
+    "Le contenu est banni",
+    "Le joueur quitte la table",
+    "La scène est rejouée"
+   ],
+   "rep": 0,
+   "src": "Brie Beau Sheldon, Script Change RPG Toolbox",
+   "expl": "Le contenu existe dans l’histoire, mais on « coupe » la scène : le fondu au noir du cinéma.",
+   "id": "t014-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel outil de sécurité utilise les commandes d’un lecteur (pause, retour, avance rapide) ?",
+   "choix": [
+    "Script Change",
+    "La carte X",
+    "Les lignes et voiles",
+    "La carte O"
+   ],
+   "rep": 0,
+   "src": "Vincent et Meguey Baker, Apocalypse World (Lumpley Games, 2010)",
+   "expl": "Créé par Brie Beau Sheldon, il permet de mettre l’histoire en pause, de revenir en arrière ou de sauter une scène.",
+   "id": "t014-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans les jeux Propulsés par l’Apocalypse, que donne un résultat de 7 à 9 sur 2d6 ?",
+   "choix": [
+    "Une réussite avec complication",
+    "Un échec total",
+    "Une réussite parfaite",
+    "Un nouveau jet"
+   ],
+   "rep": 0,
+   "src": "Sage LaTorra et Adam Koebel, Dungeon World (2012)",
+   "expl": "Le 10+ est une pleine réussite, le 6 ou moins laisse le MJ faire un mouvement dur.",
+   "id": "t014-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Dungeon World, comment s’appellent les menaces que le MJ prépare et fait avancer ?",
+   "choix": [
+    "Les fronts",
+    "Les horloges",
+    "Les aspects",
+    "Les jalons"
+   ],
+   "rep": 0,
+   "src": "John Harper, Blades in the Dark (Evil Hat, 2017)",
+   "expl": "Chaque front regroupe des dangers et des présages funestes qui s’accomplissent si les héros n’agissent pas.",
+   "id": "t014-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans Blades in the Dark, quel outil visuel le MJ utilise-t-il pour suivre un danger ou un projet ?",
+   "choix": [
+    "L’horloge de progression",
+    "La piste de stress",
+    "L’arbre d’intrigue",
+    "La carte X"
+   ],
+   "rep": 0,
+   "src": "Fate Core System (Evil Hat Productions, 2013)",
+   "expl": "Un cercle découpé en 4, 6 ou 8 parts : on noircit une part à chaque avancée.",
+   "id": "t014-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Dans Fate, comment s’appellent les phrases qui décrivent un personnage et peuvent être invoquées ou contraintes ?",
+   "choix": [
+    "Les aspects",
+    "Les traits",
+    "Les liens",
+    "Les fronts"
+   ],
+   "rep": 0,
+   "src": "Matthew Colville, Running the Game (YouTube, depuis 2016) ; Critical Role (Geek & Sundry, 2015)",
+   "expl": "Un aspect comme « Toujours en retard » peut aider (invocation) ou causer des ennuis (contrainte) contre un point Fate.",
+   "id": "t014-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel MJ anime Critical Role depuis 2015 ?",
+   "choix": [
+    "Matthew Mercer",
+    "Brennan Lee Mulligan",
+    "Matthew Colville",
+    "Chris Perkins"
+   ],
+   "rep": 0,
+   "src": "Matthew Colville, Running the Game (YouTube, depuis 2016) ; Critical Role (Geek & Sundry, 2015)",
+   "expl": "Critical Role débute le 12 mars 2015 sur Geek & Sundry ; Mercer y est le MJ de la campagne principale.",
+   "id": "t014-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle série de vidéos de Matthew Colville conseille les MJ débutants ?",
+   "choix": [
+    "Running the Game",
+    "Dungeon Craft",
+    "Critical Role",
+    "Lazy DM"
+   ],
+   "rep": 0,
+   "src": "Matthew Colville, Running the Game (YouTube, depuis 2016) ; Critical Role (Geek & Sundry, 2015)",
+   "expl": "Running the Game commence en 2016 ; Colville fonde ensuite MCDM, qui publie Strongholds & Followers.",
+   "id": "t014-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel MJ anime Dimension 20 sur Dropout ?",
+   "choix": [
+    "Brennan Lee Mulligan",
+    "Matthew Mercer",
+    "Matthew Colville",
+    "Mike Shea"
+   ],
+   "rep": 0,
+   "src": "Casus Belli n° 1 (avril 1980)",
+   "expl": "Dimension 20 débute en 2018 ; Brennan Lee Mulligan y mène la plupart des saisons principales.",
+   "id": "t014-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel magazine français consacré au jeu de rôle naît en 1980 ?",
+   "choix": [
+    "Casus Belli",
+    "Dragon Magazine",
+    "Graal",
+    "Backstab"
+   ],
+   "rep": 0,
+   "src": "Casus Belli n° 1 (avril 1980)",
+   "expl": "Fondé par François Marcela-Froideval, Casus Belli a connu plusieurs éditeurs et existe toujours.",
+   "id": "t014-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que désigne la « séance zéro » ?",
+   "choix": [
+    "Une discussion préalable sur attentes et limites",
+    "Le tout premier combat de la campagne",
+    "Un épisode bonus hors campagne",
+    "La partie d’essai d’un nouveau joueur"
+   ],
+   "rep": 0,
+   "src": "Sly Flourish, « Session Zero » ; TTRPG Safety Toolkit (Kienna Shaw et Lauren Bryant-Monk, 2019)",
+   "expl": "On y crée souvent les personnages ensemble, on parle du ton, des sujets sensibles et du rythme des séances.",
+   "id": "t014-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que reproche-t-on à un MJ qui « met ses joueurs sur des rails » ?",
+   "choix": [
+    "Il ne laisse pas leurs choix compter",
+    "Il improvise trop",
+    "Il tue trop de personnages",
+    "Il joue trop vite"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023)",
+   "expl": "Le dirigisme (railroading) force une suite d’événements quels que soient les choix des joueurs.",
+   "id": "t014-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans le jargon du jeu de rôle, comment appelle-t-on une campagne où les joueurs explorent librement un monde sans intrigue imposée ?",
+   "choix": [
+    "Un bac à sable",
+    "Une campagne linéaire",
+    "Un one-shot",
+    "Une campagne en rails"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023)",
+   "expl": "Le bac à sable (sandbox) prépare des lieux et des factions plutôt qu’une suite de scènes.",
+   "id": "t014-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment appelle-t-on un immense donjon de nombreux niveaux, exploré pendant toute une campagne ?",
+   "choix": [
+    "Un mégadonjon",
+    "Un bac à sable",
+    "Un hexcrawl",
+    "Un donjon en cinq salles"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023)",
+   "expl": "Le château de Greyhawk de Gygax ou Montprofond (Undermountain) à Eauprofonde en sont des exemples célèbres.",
+   "id": "t014-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle technique narrative fait commencer l’histoire en pleine action ?",
+   "choix": [
+    "In medias res",
+    "Le flash-forward",
+    "Le deus ex machina",
+    "Le fusil de Tchekhov"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « in medias res »",
+   "expl": "Ouvrir in medias res évite une longue mise en place : les explications viendront plus tard.",
+   "id": "t014-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel principe d’improvisation, repris par beaucoup de MJ, consiste à accepter la proposition d’un joueur et à la prolonger ?",
+   "choix": [
+    "« Oui, et… »",
+    "« Non, mais… »",
+    "« Peut-être… »",
+    "« Et ensuite ? »"
+   ],
+   "rep": 0,
+   "src": "Keith Johnstone, Impro (1979), sur l’acceptation des propositions",
+   "expl": "Issu du théâtre d’improvisation, il pousse le MJ à bâtir sur les idées des joueurs plutôt qu’à les bloquer.",
+   "id": "t014-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le MJ peut accorder une réussite sans jet quand l’échec n’aurait aucune conséquence.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9 ; Dungeon Master’s Guide 5e (2014), chap. 8",
+   "expl": "Vrai : le Guide du Maître conseille de ne faire lancer les dés que lorsque l’issue est incertaine et que l’échec compte.",
+   "id": "t014-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Guide du Maître 5e interdit au MJ de modifier les règles du jeu.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9 ; Dungeon Master’s Guide 5e (2014), chap. 8",
+   "expl": "Faux : tout son chapitre 9 propose des règles optionnelles et encourage les règles maison.",
+   "id": "t014-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un 1 naturel sur un test de caractéristique n’est pas un échec automatique.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9 ; Dungeon Master’s Guide 5e (2014), chap. 8",
+   "expl": "Vrai : en 2014, le 1 et le 20 automatiques ne concernent que les jets d’attaque (et les jets contre la mort).",
+   "id": "t014-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, deux sources d’avantage permettent de lancer trois d20.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9 ; Dungeon Master’s Guide 5e (2014), chap. 8",
+   "expl": "Faux : l’avantage ne se cumule pas ; plusieurs sources donnent toujours deux d20.",
+   "id": "t014-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le MJ peut donner l’avantage ou le désavantage pour refléter les circonstances.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9 ; Dungeon Master’s Guide 5e (2014), chap. 8",
+   "expl": "Vrai : c’est l’outil le plus simple pour récompenser une bonne idée ou tenir compte d’une gêne.",
+   "id": "t014-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un test passif oblige le joueur à lancer un d20.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9 ; Dungeon Master’s Guide 5e (2014), chap. 8",
+   "expl": "Faux : le score passif ne demande aucun jet ; il sert quand le MJ veut tester discrètement ou éviter des jets répétés.",
+   "id": "t014-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, la Discrétion d’une créature cachée est comparée à la Perception passive de ceux qui pourraient la repérer.",
+   "rep": true,
+   "src": "Player’s Handbook 5e (2014), chap. 7 et 9 ; Dungeon Master’s Guide 5e (2014), chap. 8",
+   "expl": "Vrai : c’est l’usage le plus courant des scores passifs, sauf si quelqu’un cherche activement.",
+   "id": "t014-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Dans les règles de base de D&D 5e, un repos long dure 24 heures.",
+   "rep": false,
+   "src": "Monster Manual 5e (2014), « Créatures légendaires »",
+   "expl": "Faux : il dure au moins 8 heures, dont 6 de sommeil au maximum.",
+   "id": "t014-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Dans D&D 5e, un monstre légendaire ne peut utiliser ses actions légendaires que pendant son propre tour.",
+   "rep": false,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9 « Atelier du maître du donjon »",
+   "expl": "Faux : il les utilise à la fin du tour des autres créatures, ce qui lui permet d’agir plusieurs fois par round.",
+   "id": "t014-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Le Guide du Maître 5e propose une caractéristique optionnelle de Santé mentale.",
+   "rep": true,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9 « Atelier du maître du donjon »",
+   "expl": "Vrai : il propose aussi l’Honneur ; la Santé mentale convient aux campagnes d’horreur cosmique.",
+   "id": "t014-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Guide du Maître 5e oblige le MJ à dire aux joueurs les points de vie exacts des monstres.",
+   "rep": false,
+   "src": "Justin Alexander, « Three Clue Rule », The Alexandrian (2008)",
+   "expl": "Faux : aucune règle ne l’impose ; beaucoup de MJ se contentent de décrire l’état de la créature.",
+   "id": "t014-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Selon la règle des trois indices, chaque indice doit pouvoir mener seul à la bonne conclusion.",
+   "rep": true,
+   "src": "Vincent et Meguey Baker, Apocalypse World (Lumpley Games, 2010)",
+   "expl": "Vrai : les indices sont redondants, pour que l’enquête survive si les joueurs en ratent ou en comprennent mal deux.",
+   "id": "t014-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dans Apocalypse World, le MC (meneur) ne lance jamais les dés.",
+   "rep": true,
+   "src": "Ron Edwards, Sex and Sorcery (Adept Press, 2003)",
+   "expl": "Vrai : seuls les joueurs lancent 2d6 ; le MC répond par des mouvements selon leurs résultats.",
+   "id": "t014-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Avec les « lignes et voiles », une ligne désigne un contenu laissé hors champ.",
+   "rep": false,
+   "src": "John Stavropoulos, « X-Card » (2013)",
+   "expl": "Faux : c’est le voile ; une ligne exclut totalement le contenu de la partie.",
+   "id": "t014-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Avec la carte X, le joueur qui la touche doit expliquer pourquoi.",
+   "rep": false,
+   "src": "Robin D. Laws, Robin’s Laws of Good Game Mastering (Steve Jackson Games, 2002)",
+   "expl": "Faux : l’outil fonctionne justement parce qu’aucune justification n’est demandée.",
+   "id": "t014-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Selon Robin D. Laws, le « butt-kicker » veut surtout se battre et se défouler.",
+   "rep": true,
+   "src": "Critical Role, « About » ; Matthew Mercer, entretiens (2015)",
+   "expl": "Vrai : il veut des combats où son personnage peut cogner ; le MJ lui en prévoit régulièrement.",
+   "id": "t014-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Critical Role était d’abord une partie privée entre comédiens de doublage avant d’être diffusée.",
+   "rep": true,
+   "src": "Critical Role, « About » ; Matthew Mercer, entretiens (2015)",
+   "expl": "Vrai : ils jouaient à la maison depuis 2012 environ ; Geek & Sundry leur a proposé de diffuser la campagne en 2015.",
+   "id": "t014-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Dès son premier épisode diffusé, Critical Role utilisait les règles de Pathfinder.",
+   "rep": false,
+   "src": "Player’s Handbook 5e (2014), chap. 9 « Combat »",
+   "expl": "Faux : la partie privée avait commencé en Pathfinder, mais la diffusion s’est faite en D&D 5e.",
+   "id": "t014-067",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Dans D&D 5e, combien de secondes dure un round de combat ?",
+   "rep": 6,
+   "min": 1,
+   "max": 60,
+   "pas": 1,
+   "unite": "secondes",
+   "tolerance": 0,
+   "src": "Player’s Handbook 5e (2014), chap. 9 « Combat »",
+   "expl": "Un round dure 6 secondes : une minute de combat compte donc 10 rounds.",
+   "id": "t014-068",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Dans D&D 5e, combien de rounds de combat compte une minute ?",
+   "rep": 10,
+   "min": 1,
+   "max": 30,
+   "pas": 1,
+   "unite": "rounds",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 3 « Créer des rencontres »",
+   "expl": "10 rounds de 6 secondes : un sort d’une minute dure donc 10 rounds.",
+   "id": "t014-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans le Guide du Maître 5e (2014), quel est le seuil d’XP d’une rencontre « mortelle » pour un personnage de niveau 1 ?",
+   "rep": 100,
+   "min": 25,
+   "max": 300,
+   "pas": 25,
+   "unite": "XP",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 3 « Créer des rencontres »",
+   "expl": "Au niveau 1, les seuils sont 25 (facile), 50 (moyenne), 75 (difficile) et 100 (mortelle) par personnage.",
+   "id": "t014-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans le Guide du Maître 5e (2014), quel seuil d’XP marque une rencontre « difficile » pour un personnage de niveau 5 ?",
+   "rep": 750,
+   "min": 100,
+   "max": 1500,
+   "pas": 50,
+   "unite": "XP",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 3 « Créer des rencontres »",
+   "expl": "Au niveau 5 : 250 facile, 500 moyenne, 750 difficile, 1 100 mortelle.",
+   "id": "t014-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans le Guide du Maître 5e (2014), combien d’XP vaut une journée d’aventure pour un personnage de niveau 1 ?",
+   "rep": 300,
+   "min": 50,
+   "max": 1000,
+   "pas": 50,
+   "unite": "XP",
+   "tolerance": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 3 « Créer des rencontres »",
+   "expl": "Le tableau « XP par jour d’aventure » sert à répartir les rencontres entre deux repos longs.",
+   "id": "t014-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Dans le Guide du Maître 5e (2014), combien d’XP vaut une journée d’aventure pour un personnage de niveau 20 ?",
+   "rep": 40000,
+   "min": 10000,
+   "max": 60000,
+   "pas": 1000,
+   "unite": "XP",
+   "tolerance": 0,
+   "src": "Critical Role, épisode 1 « Arrival at Kraghammer » (12 mars 2015)",
+   "expl": "Le tableau monte de 300 XP au niveau 1 à 40 000 XP au niveau 20.",
+   "id": "t014-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année Critical Role est-elle diffusée pour la première fois ?",
+   "rep": 2015,
+   "min": 2005,
+   "max": 2025,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Casus Belli n° 1 (avril 1980)",
+   "expl": "Le premier épisode, « Arrival at Kraghammer », est diffusé le 12 mars 2015 sur Geek & Sundry.",
+   "id": "t014-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "En quelle année paraît le premier numéro du magazine français Casus Belli ?",
+   "rep": 1980,
+   "min": 1970,
+   "max": 2000,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "Casus Belli n° 1 (avril 1980)",
+   "expl": "Fondé par François Marcela-Froideval, il est d’abord consacré aux wargames autant qu’au jeu de rôle.",
+   "id": "t014-075",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans D&D 5e, le MJ cache ses notes et ses jets derrière son ____.",
+   "choix": [
+    "écran",
+    "rideau",
+    "pupitre",
+    "bouclier"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014) ; Monster Manual 5e (2014)",
+   "expl": "L’écran du MJ, en carton à plusieurs volets, rassemble aussi les tableaux de règles les plus utiles.",
+   "id": "t014-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, une créature légendaire peut transformer un jet de sauvegarde raté en réussite grâce à la ____ légendaire.",
+   "choix": [
+    "Résistance",
+    "Défense",
+    "Volonté",
+    "Fortune"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014) ; Monster Manual 5e (2014)",
+   "expl": "La Résistance légendaire s’utilise en général 3 fois par jour : elle protège les grands monstres des sorts qui les neutraliseraient d’un coup.",
+   "id": "t014-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Guide du Maître 5e propose des tables de ____ de courte durée, de longue durée et indéfinie.",
+   "choix": [
+    "folie",
+    "maladie",
+    "peur",
+    "malédiction"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014) ; Monster Manual 5e (2014)",
+   "expl": "Ces tables servent quand un personnage affronte l’horreur cosmique ou des magies qui dérangent l’esprit.",
+   "id": "t014-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les monstres ____ surgissent au hasard pendant l’exploration d’un donjon ou d’une région.",
+   "choix": [
+    "errants",
+    "nomades",
+    "perdus",
+    "voyageurs"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023) ; Sly Flourish, articles de conseils aux MJ",
+   "expl": "Les monstres errants (wandering monsters) rappellent aux joueurs que le temps passe et qu’il a un coût.",
+   "id": "t014-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le ____ consiste à forcer une suite d’événements, quels que soient les choix des joueurs.",
+   "choix": [
+    "dirigisme",
+    "réalisme",
+    "scénarisme",
+    "minimalisme"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023) ; Sly Flourish, articles de conseils aux MJ",
+   "expl": "Le dirigisme (railroading) prive les joueurs de leur influence sur l’histoire ; beaucoup de MJ préparent des situations plutôt que des intrigues.",
+   "id": "t014-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Un ____ est un scénario prévu pour une seule séance.",
+   "choix": [
+    "one-shot",
+    "cliffhanger",
+    "sandbox",
+    "crossover"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023) ; Sly Flourish, articles de conseils aux MJ",
+   "expl": "Le one-shot est idéal pour tester un jeu, faire découvrir le jeu de rôle ou remplacer une séance de campagne.",
+   "id": "t014-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Finir une séance sur un moment de suspense, c’est faire un ____.",
+   "choix": [
+    "cliffhanger",
+    "one-shot",
+    "flashback",
+    "crossover"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023) ; Sly Flourish, articles de conseils aux MJ",
+   "expl": "Le cliffhanger donne envie de revenir : les joueurs en parlent jusqu’à la séance suivante.",
+   "id": "t014-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Mener un combat sans figurines ni quadrillage, en décrivant tout, c’est jouer au théâtre de l’____.",
+   "choix": [
+    "esprit",
+    "instant",
+    "ombre",
+    "absurde"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023) ; Sly Flourish, articles de conseils aux MJ",
+   "expl": "Le théâtre de l’esprit (theater of the mind) est l’approche par défaut de D&D 5e ; la grille reste une option.",
+   "id": "t014-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le principe de l’____ en avant veut qu’un jet raté fasse avancer l’histoire autrement plutôt que de la bloquer.",
+   "choix": [
+    "échec",
+    "élan",
+    "saut",
+    "pas"
+   ],
+   "rep": 0,
+   "src": "François Truffaut, Hitchcock/Truffaut (1966) ; Encyclopædia Britannica, « Chekhov’s gun »",
+   "expl": "L’échec en avant (fail forward) évite qu’une porte non crochetée arrête toute l’aventure : on passe, mais à un prix.",
+   "id": "t014-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Un ____ est un objet que tout le monde cherche, mais qui sert surtout de moteur à l’intrigue.",
+   "choix": [
+    "MacGuffin",
+    "totem",
+    "talisman",
+    "sésame"
+   ],
+   "rep": 0,
+   "src": "François Truffaut, Hitchcock/Truffaut (1966) ; Encyclopædia Britannica, « Chekhov’s gun »",
+   "expl": "Alfred Hitchcock a popularisé le terme ; en jeu de rôle, la relique volée est souvent un MacGuffin.",
+   "id": "t014-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Selon le principe du fusil de ____, un élément montré au début doit servir plus tard.",
+   "choix": [
+    "Tchekhov",
+    "Hitchcock",
+    "Molière",
+    "Gygax"
+   ],
+   "rep": 0,
+   "src": "Vincent et Meguey Baker, Apocalypse World (Lumpley Games, 2010)",
+   "expl": "Le dramaturge russe Anton Tchekhov l’a formulé ; les MJ s’en servent pour semer des détails qui compteront.",
+   "id": "t014-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans les jeux Propulsés par l’____, le meneur répond aux jets des joueurs par des « mouvements ».",
+   "choix": [
+    "Apocalypse",
+    "Aventure",
+    "Abîme",
+    "Action"
+   ],
+   "rep": 0,
+   "src": "TTRPG Safety Toolkit (Kienna Shaw et Lauren Bryant-Monk, 2019)",
+   "expl": "Le label Powered by the Apocalypse regroupe les jeux dérivés d’Apocalypse World, comme Dungeon World ou Monsterhearts.",
+   "id": "t014-087",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces outils ne sert pas à la sécurité émotionnelle à la table ?",
+   "choix": [
+    "La règle des trois indices",
+    "La carte X",
+    "Les lignes et voiles",
+    "Script Change"
+   ],
+   "rep": 0,
+   "src": "Apocalypse World (2010) ; Fate Core System (Evil Hat Productions, 2013)",
+   "expl": "La règle des trois indices est une technique d’écriture de scénario d’enquête ; les trois autres protègent le confort des joueurs.",
+   "id": "t014-088",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux n’est pas Propulsé par l’Apocalypse ?",
+   "choix": [
+    "Fate",
+    "Dungeon World",
+    "Monsterhearts",
+    "Masks"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 3 et 8",
+   "expl": "Fate repose sur des dés Fudge et des aspects ; Dungeon World, Monsterhearts et Masks dérivent d’Apocalypse World.",
+   "id": "t014-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces difficultés n’est pas un seuil de rencontre du Guide du Maître 5e (2014) ?",
+   "choix": [
+    "Héroïque",
+    "Facile",
+    "Moyenne",
+    "Mortelle"
+   ],
+   "rep": 0,
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 3 et 8",
+   "expl": "Les quatre seuils sont facile, moyenne, difficile et mortelle.",
+   "id": "t014-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces DD n’apparaît pas dans le tableau des DD typiques du Guide du Maître ?",
+   "choix": [
+    "12",
+    "5",
+    "15",
+    "25"
+   ],
+   "rep": 0,
+   "src": "Mike Shea, Return of the Lazy Dungeon Master (Sly Flourish, 2018)",
+   "expl": "Le tableau va de 5 en 5 : 5, 10, 15, 20, 25 et 30. Un MJ peut bien sûr choisir un DD de 12.",
+   "id": "t014-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces étapes ne fait pas partie de la préparation de Mike Shea ?",
+   "choix": [
+    "Rédiger les dialogues mot à mot",
+    "Définir secrets et indices",
+    "Imaginer des lieux fantastiques",
+    "Préparer un début percutant"
+   ],
+   "rep": 0,
+   "src": "Robin D. Laws, Robin’s Laws of Good Game Mastering (2002) ; Richard Bartle, « Hearts, Clubs, Diamonds, Spades » (1996)",
+   "expl": "Mike Shea conseille au contraire de ne préparer que ce qui sert vraiment, et d’improviser les dialogues.",
+   "id": "t014-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces types de joueurs ne figure pas chez Robin D. Laws ?",
+   "choix": [
+    "L’explorateur",
+    "Le tacticien",
+    "Le spécialiste",
+    "L’acteur méthodique"
+   ],
+   "rep": 0,
+   "src": "Johnn Four, « Five Room Dungeons », Roleplaying Tips",
+   "expl": "L’explorateur vient de la typologie de Richard Bartle pour les jeux en ligne (1996).",
+   "id": "t014-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces salles n’appartient pas au donjon en cinq salles ?",
+   "choix": [
+    "La salle de repos",
+    "L’entrée gardée",
+    "Le piège ou revers",
+    "Le grand affrontement"
+   ],
+   "rep": 0,
+   "src": "Jason Morningstar, Fiasco (Bully Pulpit Games, 2009)",
+   "expl": "Les cinq salles : entrée et gardien, énigme ou scène sociale, piège ou revers, grand affrontement, récompense ou révélation.",
+   "id": "t014-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces jeux se joue sans meneur de jeu ?",
+   "choix": [
+    "Fiasco",
+    "Donjons & Dragons",
+    "L’Appel de Cthulhu",
+    "Vampire : la Mascarade"
+   ],
+   "rep": 0,
+   "src": "Monster Manual 5e (2014), « Fiches de monstres »",
+   "expl": "Dans Fiasco, les joueurs partagent la narration de plans ambitieux qui tournent mal.",
+   "id": "t014-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces éléments ne figure pas sur une fiche de monstre de D&D 5e ?",
+   "choix": [
+    "Le niveau de classe",
+    "La classe d’armure",
+    "Les points de vie",
+    "Le facteur de puissance"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023)",
+   "expl": "Un monstre a un FP, pas de niveau de classe ; la fiche indique aussi vitesse, caractéristiques, sens et actions.",
+   "id": "t014-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces termes ne désigne pas un style de campagne ?",
+   "choix": [
+    "L’initiative",
+    "Le bac à sable",
+    "Le mégadonjon",
+    "L’hexcrawl"
+   ],
+   "rep": 0,
+   "src": "TTRPG Safety Toolkit (2019)",
+   "expl": "L’initiative fixe l’ordre de jeu en combat ; les trois autres décrivent une manière d’organiser une campagne.",
+   "id": "t014-097",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels outils servent à la sécurité émotionnelle à la table ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Carte X",
+    "Lignes et voiles",
+    "Script Change",
+    "Règle des trois indices",
+    "Horloge de progression"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Apocalypse World (2010) ; Dungeon World (2012) ; Avery Alder, Monsterhearts (2012)",
+   "expl": "Ces outils se discutent en séance zéro et permettent de retirer ou d’adoucir un contenu pendant la partie.",
+   "id": "t014-098",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux sont Propulsés par l’Apocalypse ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Apocalypse World",
+    "Dungeon World",
+    "Monsterhearts",
+    "Fate",
+    "L’Appel de Cthulhu"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Mike Shea, Return of the Lazy Dungeon Master (2018)",
+   "expl": "Fate a son propre moteur, L’Appel de Cthulhu utilise des pourcentages.",
+   "id": "t014-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles étapes figurent dans la préparation de Return of the Lazy Dungeon Master ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Revoir les personnages",
+    "Début percutant",
+    "Secrets et indices",
+    "Écrire le dénouement",
+    "Fixer l’ordre des scènes"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Robin D. Laws, Robin’s Laws of Good Game Mastering (2002)",
+   "expl": "Mike Shea refuse justement de fixer le dénouement ou l’ordre des scènes : les joueurs décident.",
+   "id": "t014-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels types de joueurs Robin D. Laws décrit-il ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Power gamer",
+    "Tacticien",
+    "Conteur",
+    "Explorateur",
+    "Tueur"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9",
+   "expl": "Explorateur et tueur appartiennent à la typologie de Richard Bartle.",
+   "id": "t014-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles règles optionnelles figurent dans le Guide du Maître 5e (2014) ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Prise en tenaille",
+    "Réalisme brutal",
+    "Héroïsme épique",
+    "Points de mana",
+    "Jets cachés obligatoires"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8 « Utiliser les valeurs de caractéristique »",
+   "expl": "La 5e n’a pas de mana, et le Guide laisse le MJ libre de lancer ses dés à découvert ou derrière l’écran.",
+   "id": "t014-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Selon le Guide du Maître, quand faut-il demander un jet de dé ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Quand l’issue est incertaine",
+    "Quand l’échec a des conséquences",
+    "Pour une action banale sans enjeu",
+    "Quand la réussite est certaine"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Critical Role (2015) ; Dimension 20 (2018)",
+   "expl": "Sinon, le MJ décide simplement du résultat : le jeu gagne en rythme.",
+   "id": "t014-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels MJ animent une émission de jeu de rôle diffusée ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Matthew Mercer",
+    "Brennan Lee Mulligan",
+    "Gary Gygax",
+    "Ron Edwards"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Call of Cthulhu (1981) ; Vampire: The Masquerade (1991) ; Traveller (1977)",
+   "expl": "Gygax a créé D&D et Ron Edwards est un théoricien et auteur de jeux ; aucun n’anime de telle émission.",
+   "id": "t014-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels titres désignent le meneur de jeu dans certains jeux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Gardien des Arcanes",
+    "Conteur",
+    "Arbitre",
+    "Paladin",
+    "Druide"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "Sage LaTorra et Adam Koebel, Dungeon World (2012)",
+   "expl": "L’Appel de Cthulhu, Vampire et Traveller donnent chacun un nom particulier à leur meneur.",
+   "id": "t014-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels éléments composent un front dans Dungeon World ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Dangers",
+    "Présages funestes",
+    "Aspects",
+    "Points de destin"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "Ben Robbins, Microscope (Lame Mage Productions, 2011) ; Fiasco (2009)",
+   "expl": "Un front réunit des dangers, leurs présages funestes et une catastrophe imminente ; les aspects viennent de Fate.",
+   "id": "t014-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels jeux se jouent sans meneur de jeu ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fiasco",
+    "Microscope",
+    "Donjons & Dragons",
+    "Vampire : la Mascarade"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "TSR, catalogues de parution (1977-1979)",
+   "expl": "Microscope fait créer une histoire épique à plusieurs ; Fiasco raconte des plans foireux.",
+   "id": "t014-107",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces livres d’AD&D par date de parution.",
+   "items": [
+    "Monster Manual",
+    "Players Handbook",
+    "Dungeon Masters Guide"
+   ],
+   "src": "Traveller (1977) ; Call of Cthulhu (1981) ; Vampire (1991) ; Apocalypse World (2010)",
+   "expl": "Monster Manual en 1977, Players Handbook en 1978, Dungeon Masters Guide en 1979.",
+   "id": "t014-108",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces jeux par date de parution.",
+   "items": [
+    "Traveller",
+    "L’Appel de Cthulhu",
+    "Vampire : la Mascarade",
+    "Apocalypse World"
+   ],
+   "src": "Johnn Four, « Five Room Dungeons », Roleplaying Tips",
+   "expl": "1977, 1981, 1991 et 2010 : quatre jeux qui ont chacun renouvelé le rôle du meneur.",
+   "id": "t014-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe les salles du donjon en cinq salles dans l’ordre.",
+   "items": [
+    "Entrée et gardien",
+    "Énigme ou scène sociale",
+    "Piège ou revers",
+    "Grand affrontement",
+    "Récompense ou révélation"
+   ],
+   "src": "Mike Shea, Return of the Lazy Dungeon Master (2018)",
+   "expl": "La structure ressemble à un récit en cinq actes, du seuil à la révélation finale.",
+   "id": "t014-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la préparation de Mike Shea dans l’ordre.",
+   "items": [
+    "Revoir les personnages",
+    "Début percutant",
+    "Scènes possibles",
+    "Secrets et indices",
+    "Lieux fantastiques"
+   ],
+   "src": "Acquisitions Incorporated (Penny Arcade, 2008) ; Critical Role (2015) ; Dimension 20 (2018)",
+   "expl": "Viennent ensuite les PNJ importants, les monstres et les récompenses magiques.",
+   "id": "t014-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces émissions de jeu de rôle par date de début.",
+   "items": [
+    "Acquisitions Incorporated",
+    "Critical Role",
+    "Dimension 20"
+   ],
+   "src": "Player’s Handbook 5e (2014), chap. 8 et 9",
+   "expl": "2008 pour Acquisitions Incorporated (mené par Chris Perkins), 2015 pour Critical Role, 2018 pour Dimension 20.",
+   "id": "t014-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces durées par ordre croissant.",
+   "items": [
+    "Un round",
+    "Une minute",
+    "Un repos court",
+    "Un repos long"
+   ],
+   "src": "Dragon n° 1 (1976) ; Casus Belli n° 1 (1980) ; Dungeon n° 1 (1986)",
+   "expl": "6 secondes, 60 secondes, au moins 1 heure et au moins 8 heures.",
+   "id": "t014-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces magazines par date de création.",
+   "items": [
+    "Dragon",
+    "Casus Belli",
+    "Dungeon"
+   ],
+   "src": "Robin D. Laws (2002) ; Mike Shea (2018) ; Justin Alexander (2023)",
+   "expl": "Dragon paraît en 1976, Casus Belli en 1980 et Dungeon, consacré aux scénarios, en 1986.",
+   "id": "t014-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces livres de conseils aux MJ par date de parution.",
+   "items": [
+    "Robin’s Laws of Good Game Mastering",
+    "Return of the Lazy Dungeon Master",
+    "So You Want to Be a Game Master"
+   ],
+   "src": "Player’s Handbook 5e (2014), introduction « Comment jouer »",
+   "expl": "2002, 2018 puis 2023 : vingt ans de réflexion sur l’art de mener.",
+   "id": "t014-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe dans l’ordre les trois étapes du jeu décrites par le Manuel des Joueurs.",
+   "items": [
+    "Le MJ décrit la situation",
+    "Les joueurs disent ce qu’ils font",
+    "Le MJ raconte le résultat"
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9",
+   "expl": "Ce cycle se répète tout au long de la partie, en exploration comme en combat.",
+   "id": "t014-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces variantes de règles selon la durée du repos long, de la plus courte à la plus longue.",
+   "items": [
+    "Héroïsme épique",
+    "Règle standard",
+    "Réalisme brutal"
+   ],
+   "src": "Call of Cthulhu (1981) ; Vampire (1991) ; Traveller (1977) ; Apocalypse World (2010)",
+   "expl": "1 heure, 8 heures, puis 7 jours : de quoi régler le rythme et la dureté d’une campagne.",
+   "id": "t014-117",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque jeu au titre de son meneur.",
+   "paires": [
+    [
+     "L’Appel de Cthulhu",
+     "Gardien des Arcanes"
+    ],
+    [
+     "Vampire : la Mascarade",
+     "Conteur"
+    ],
+    [
+     "Traveller",
+     "Arbitre"
+    ],
+    [
+     "Apocalypse World",
+     "MC"
+    ]
+   ],
+   "src": "Stavropoulos (2013) ; Edwards (2003) ; Sheldon, Script Change",
+   "expl": "Chaque titre reflète l’esprit du jeu : gardien de secrets, conteur, arbitre ou maître de cérémonie.",
+   "id": "t014-118",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque outil de sécurité à son créateur.",
+   "paires": [
+    [
+     "Carte X",
+     "John Stavropoulos"
+    ],
+    [
+     "Lignes et voiles",
+     "Ron Edwards"
+    ],
+    [
+     "Script Change",
+     "Brie Beau Sheldon"
+    ]
+   ],
+   "src": "The Alexandrian ; Sly Flourish ; Ars Ludi ; Roleplaying Tips",
+   "expl": "Ces outils sont gratuits et très utilisés dans les conventions comme à la maison.",
+   "id": "t014-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque conseil à son auteur.",
+   "paires": [
+    [
+     "Règle des trois indices",
+     "Justin Alexander"
+    ],
+    [
+     "Début percutant",
+     "Mike Shea"
+    ],
+    [
+     "West Marches",
+     "Ben Robbins"
+    ],
+    [
+     "Donjon en cinq salles",
+     "Johnn Four"
+    ]
+   ],
+   "src": "Critical Role ; Dimension 20 ; Acquisitions Incorporated",
+   "expl": "Quatre auteurs de blogs dont les idées circulent sur toutes les tables.",
+   "id": "t014-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque MJ à son émission.",
+   "paires": [
+    [
+     "Matthew Mercer",
+     "Critical Role"
+    ],
+    [
+     "Brennan Lee Mulligan",
+     "Dimension 20"
+    ],
+    [
+     "Chris Perkins",
+     "Acquisitions Incorporated"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 8",
+   "expl": "Chris Perkins, longtemps concepteur chez Wizards of the Coast, mène Acquisitions Incorporated depuis 2008.",
+   "id": "t014-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque DD à sa difficulté.",
+   "paires": [
+    [
+     "5",
+     "Très facile"
+    ],
+    [
+     "10",
+     "Facile"
+    ],
+    [
+     "15",
+     "Moyenne"
+    ],
+    [
+     "20",
+     "Difficile"
+    ],
+    [
+     "25",
+     "Très difficile"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 3",
+   "expl": "Le barème se termine par 30, quasi impossible.",
+   "id": "t014-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque nombre de monstres à son multiplicateur d’XP.",
+   "paires": [
+    [
+     "1 monstre",
+     "×1"
+    ],
+    [
+     "2 monstres",
+     "×1,5"
+    ],
+    [
+     "3 à 6 monstres",
+     "×2"
+    ],
+    [
+     "7 à 10 monstres",
+     "×2,5"
+    ],
+    [
+     "15 monstres ou plus",
+     "×4"
+    ]
+   ],
+   "src": "Blades in the Dark (2017) ; Fate Core (2013) ; Dungeon World (2012)",
+   "expl": "Le multiplicateur reflète le danger des actions multiples ; il ne change pas l’XP réellement gagnée.",
+   "id": "t014-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque jeu à son mécanisme emblématique.",
+   "paires": [
+    [
+     "Blades in the Dark",
+     "Horloges de progression"
+    ],
+    [
+     "Fate",
+     "Aspects"
+    ],
+    [
+     "Dungeon World",
+     "Fronts"
+    ],
+    [
+     "D&D 5e",
+     "Avantage et désavantage"
+    ]
+   ],
+   "src": "Justin Alexander, So You Want to Be a Game Master (2023)",
+   "expl": "Chaque mécanisme a été repris par de nombreux MJ dans d’autres jeux.",
+   "id": "t014-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque terme de jargon à sa définition.",
+   "paires": [
+    [
+     "One-shot",
+     "Scénario en une séance"
+    ],
+    [
+     "Bac à sable",
+     "Monde ouvert sans intrigue imposée"
+    ],
+    [
+     "Dirigisme",
+     "Choix des joueurs ignorés"
+    ],
+    [
+     "Cliffhanger",
+     "Fin de séance en suspense"
+    ]
+   ],
+   "src": "Robin D. Laws, Robin’s Laws of Good Game Mastering (2002)",
+   "expl": "Ces mots reviennent sans cesse dans les conseils aux meneurs.",
+   "id": "t014-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque type de joueur à ce qu’il recherche.",
+   "paires": [
+    [
+     "Power gamer",
+     "Un personnage plus puissant"
+    ],
+    [
+     "Butt-kicker",
+     "Des combats"
+    ],
+    [
+     "Tacticien",
+     "Des défis logiques"
+    ],
+    [
+     "Acteur méthodique",
+     "Incarner son personnage"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), chap. 9",
+   "expl": "Robin D. Laws conseille de prévoir dans chaque séance quelque chose pour chaque type présent.",
+   "id": "t014-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque variante à la durée de son repos long.",
+   "paires": [
+    [
+     "Héroïsme épique",
+     "1 heure"
+    ],
+    [
+     "Règle standard",
+     "8 heures"
+    ],
+    [
+     "Réalisme brutal",
+     "7 jours"
+    ]
+   ],
+   "src": "Dungeon Master’s Guide 5e (2014), « Écran du MJ »",
+   "expl": "Le repos court suit : 5 minutes, 1 heure et 8 heures respectivement.",
+   "id": "t014-127",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un carton à plusieurs volets\n2. Je cache les jets du meneur\n3. Mes tableaux résument les règles",
+   "choix": [
+    "L’écran",
+    "Le grimoire",
+    "La fiche de personnage",
+    "Le plateau de jeu"
+   ],
+   "rep": 0,
+   "src": "John Stavropoulos, « X-Card » (2013)",
+   "expl": "L’écran existe depuis les débuts d’AD&D et accompagne la plupart des jeux de rôle.",
+   "id": "t014-128",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. On me touche sans se justifier\n2. Je retire un contenu de la partie\n3. John Stavropoulos m’a créée",
+   "choix": [
+    "La carte X",
+    "La carte O",
+    "Le voile",
+    "Le joker"
+   ],
+   "rep": 0,
+   "src": "Justin Alexander, The Alexandrian",
+   "expl": "La carte X est souvent posée au centre de la table, à portée de tous.",
+   "id": "t014-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. J’ai beaucoup écrit sur les scénarios d’enquête\n2. J’ai théorisé la conception par nœuds\n3. J’ai signé So You Want to Be a Game Master",
+   "choix": [
+    "Justin Alexander",
+    "Mike Shea",
+    "Matthew Colville",
+    "Robin D. Laws"
+   ],
+   "rep": 0,
+   "src": "Mike Shea, Sly Flourish",
+   "expl": "Sur son blog The Alexandrian, il a aussi formulé la règle des trois indices.",
+   "id": "t014-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un MJ et auteur\n2. Je prépare mes séances en huit étapes\n3. Mon site s’appelle Sly Flourish",
+   "choix": [
+    "Mike Shea",
+    "Justin Alexander",
+    "Ben Robbins",
+    "Johnn Four"
+   ],
+   "rep": 0,
+   "src": "Matthew Colville, Running the Game ; MCDM",
+   "expl": "Mike Shea est l’auteur de The Lazy Dungeon Master (2012) et de sa suite (2018).",
+   "id": "t014-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un auteur et vidéaste\n2. J’ai conseillé les MJ dans Running the Game\n3. J’ai fondé MCDM",
+   "choix": [
+    "Matthew Colville",
+    "Matthew Mercer",
+    "Chris Perkins",
+    "Mike Shea"
+   ],
+   "rep": 0,
+   "src": "Critical Role",
+   "expl": "MCDM publie notamment Strongholds & Followers et le jeu Draw Steel.",
+   "id": "t014-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis comédien de doublage\n2. J’ai créé le monde d’Exandria\n3. Je mène Critical Role",
+   "choix": [
+    "Matthew Mercer",
+    "Matthew Colville",
+    "Brennan Lee Mulligan",
+    "Chris Perkins"
+   ],
+   "rep": 0,
+   "src": "Gary Gygax, Dungeon Masters Guide (TSR, 1979)",
+   "expl": "Matthew Mercer prête aussi sa voix à de nombreux jeux vidéo et dessins animés.",
+   "id": "t014-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un livre de 1979\n2. Gary Gygax m’a écrit\n3. Je suis réservé au meneur d’AD&D",
+   "choix": [
+    "Dungeon Masters Guide",
+    "Monster Manual",
+    "Players Handbook",
+    "Deities & Demigods"
+   ],
+   "rep": 0,
+   "src": "Encyclopædia Britannica, « in medias res »",
+   "expl": "Il contient tables de trésors, règles de combat détaillées et conseils au meneur.",
+   "id": "t014-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une technique narrative\n2. Je fais commencer l’histoire en pleine action\n3. Mon nom est latin",
+   "choix": [
+    "In medias res",
+    "Deus ex machina",
+    "Flashback",
+    "Cliffhanger"
+   ],
+   "rep": 0,
+   "src": "Ben Robbins, Ars Ludi (2007)",
+   "expl": "L’expression vient d’Horace, qui louait Homère de plonger le lecteur « au milieu des choses ».",
+   "id": "t014-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un style de campagne\n2. Je suis né sur le blog Ars Ludi\n3. Chaque séance se termine en ville",
+   "choix": [
+    "West Marches",
+    "Bac à sable",
+    "Mégadonjon",
+    "Hexcrawl"
+   ],
+   "rep": 0,
+   "src": "Jason Morningstar, Fiasco (Bully Pulpit Games, 2009)",
+   "expl": "Le style West Marches a inspiré de nombreux serveurs Discord où des dizaines de joueurs partagent un monde.",
+   "id": "t014-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis un jeu sans meneur\n2. Je raconte des plans qui tournent mal\n3. Je me joue avec des d6 blancs et noirs",
+   "choix": [
+    "Fiasco",
+    "Microscope",
+    "Apocalypse World",
+    "Blades in the Dark"
+   ],
+   "rep": 0,
+   "src": "Sage LaTorra et Adam Koebel, Dungeon World (2012)",
+   "expl": "Fiasco s’inspire des films des frères Coen.",
+   "id": "t014-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 3,
+   "q": "Qui suis-je ?\n1. Je suis une menace dans Dungeon World\n2. J’avance par présages funestes\n3. Le MJ me prépare avant la campagne",
+   "choix": [
+    "Un front",
+    "Une horloge",
+    "Un aspect",
+    "Un mouvement"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), introduction ; Monster Manual 5e (2014), « Actions de repaire »",
+   "expl": "Si les héros n’interviennent pas, le front aboutit à sa catastrophe imminente.",
+   "id": "t014-138",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Dans le jeu de rôle, un PNJ est un personnage ____ joueur, incarné par le MJ.",
+   "choix": [
+    "non",
+    "anti",
+    "sans",
+    "hors"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), introduction ; Monster Manual 5e (2014), « Actions de repaire »",
+   "expl": "Les PNJ (personnages non joueurs) peuplent le monde : aubergistes, rivaux, commanditaires ou grands méchants.",
+   "id": "t014-139",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Dans D&D 5e, le MJ déclenche les actions de ____ d’un dragon chez lui au compte d’initiative 20.",
+   "choix": [
+    "repaire",
+    "légende",
+    "terrain",
+    "réaction"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), introduction ; Monster Manual 5e (2014), « Actions de repaire »",
+   "expl": "Les actions de repaire montrent que l’antre lui-même combat : secousses, gaz, ténèbres…",
+   "id": "t014-140",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces livres n’est pas destiné avant tout au meneur ?",
+   "choix": [
+    "Players Handbook",
+    "Dungeon Masters Guide",
+    "Monster Manual",
+    "Robin’s Laws of Good Game Mastering"
+   ],
+   "rep": 0,
+   "src": "Player’s Handbook 5e (2014), introduction ; Monster Manual 5e (2014), « Actions de repaire »",
+   "expl": "Le Players Handbook s’adresse aux joueurs ; les trois autres servent d’abord au MJ.",
+   "id": "t014-141",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
