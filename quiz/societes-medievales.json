@@ -1,0 +1,1979 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "societes-medievales",
+  "nom": "Les sociétés médiévales",
+  "royaume": "Le Moyen Âge historique",
+  "icone": "balance",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel évêque décrit vers 1030 une société divisée en trois ordres ?",
+   "choix": [
+    "Adalbéron de Laon",
+    "Bernard de Clairvaux",
+    "Suger",
+    "Fulbert de Chartres"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Ceux qui prient, ceux qui combattent et ceux qui travaillent forment un tout voulu par Dieu.",
+   "id": "t055-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on, en latin, « ceux qui combattent » dans le schéma des trois ordres ?",
+   "choix": [
+    "Les bellatores",
+    "Les oratores",
+    "Les laboratores",
+    "Les mercatores"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Les oratores prient, les laboratores travaillent la terre.",
+   "id": "t055-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’est-ce qu’un fief ?",
+   "choix": [
+    "Un bien confié à un vassal",
+    "Un impôt royal sur le sel",
+    "Un tribunal d’Église",
+    "Un village fortifié"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Le plus souvent une terre, en échange de l’aide militaire et du conseil.",
+   "id": "t055-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel rituel lie le vassal à son seigneur ?",
+   "choix": [
+    "L’hommage",
+    "L’adoubement",
+    "Le sacre",
+    "La bénédiction des armes"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Le vassal place ses mains jointes dans celles du seigneur et se déclare son homme.",
+   "id": "t055-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle obligation pèse sur le serf qui veut épouser une personne d’une autre seigneurie ?",
+   "choix": [
+    "Le formariage",
+    "La mainmorte",
+    "Le chevage",
+    "La corvée"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Il doit payer une taxe, car le seigneur perd ainsi un travailleur.",
+   "id": "t055-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on la petite taxe annuelle par tête payée par les serfs ?",
+   "choix": [
+    "Le chevage",
+    "La dîme",
+    "La gabelle",
+    "Le cens"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Quelques deniers suffisaient, mais elle marquait la condition servile.",
+   "id": "t055-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’est-ce que la corvée ?",
+   "choix": [
+    "Un travail gratuit dû au seigneur",
+    "Une taxe sur le vin",
+    "Une amende pour les retards",
+    "Un service religieux"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Les paysans labourent, moissonnent ou charrient pour la réserve du seigneur.",
+   "id": "t055-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on l’obligation d’utiliser le four, le moulin ou le pressoir du seigneur ?",
+   "choix": [
+    "Les banalités",
+    "Les corvées",
+    "Les franchises",
+    "Les droits de passage"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Le seigneur prélève une part de farine, de pain ou de vin à chaque usage.",
+   "id": "t055-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle part des récoltes la dîme prélève-t-elle en principe pour l’Église ?",
+   "choix": [
+    "Un dixième",
+    "Un quart",
+    "La moitié",
+    "Un vingtième"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Son nom vient du latin decima, « dixième ».",
+   "id": "t055-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel impôt médiéval porte sur le sel en France ?",
+   "choix": [
+    "La gabelle",
+    "La taille",
+    "Le cens",
+    "L’octroi"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Le sel est indispensable pour conserver les aliments ; l’impôt est très impopulaire.",
+   "id": "t055-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle une ville dont les habitants ont obtenu de leur seigneur le droit de s’administrer ?",
+   "choix": [
+    "Une commune",
+    "Une seigneurie",
+    "Une abbaye",
+    "Une baronnie"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Ses bourgeois élisent souvent leurs propres magistrats.",
+   "id": "t055-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les habitants libres d’une ville médiévale ?",
+   "choix": [
+    "Les bourgeois",
+    "Les vilains",
+    "Les serfs",
+    "Les manants"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Le mot vient de « bourg », la ville ; il désigne d’abord ceux qui y résident.",
+   "id": "t055-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle université, fondée vers 1088, passe pour la plus ancienne d’Europe ?",
+   "choix": [
+    "Bologne",
+    "Paris",
+    "Oxford",
+    "Salamanque"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Elle est célèbre pour l’étude du droit romain, redécouvert au 11e siècle.",
+   "id": "t055-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle abbaye bourguignonne, fondée en 910, devient la tête d’un immense réseau de monastères ?",
+   "choix": [
+    "Cluny",
+    "Cîteaux",
+    "Clairvaux",
+    "Vézelay"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Son église abbatiale fut longtemps la plus grande de la chrétienté.",
+   "id": "t055-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ordre monastique, fondé à Cîteaux en 1098, prône la simplicité et le travail manuel ?",
+   "choix": [
+    "Les cisterciens",
+    "Les clunisiens",
+    "Les chartreux",
+    "Les franciscains"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Bernard de Clairvaux en est la grande figure au 12e siècle.",
+   "id": "t055-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle règle organise la vie de la plupart des moines d’Occident ?",
+   "choix": [
+    "La règle de saint Benoît",
+    "La règle de saint Augustin",
+    "La règle de saint François",
+    "Le Code de Justinien"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Elle partage la journée entre prière, travail et lecture.",
+   "id": "t055-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel saint fonde un ordre de frères mendiants voués à la pauvreté, au début du 13e siècle ?",
+   "choix": [
+    "François d’Assise",
+    "Benoît de Nursie",
+    "Bernard de Clairvaux",
+    "Thomas d’Aquin"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Les franciscains vivent d’aumônes et prêchent dans les villes.",
+   "id": "t055-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel pape lance la première croisade, en 1095 ?",
+   "choix": [
+    "Urbain II",
+    "Grégoire VII",
+    "Innocent III",
+    "Boniface VIII"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Il prêche au concile de Clermont, en Auvergne.",
+   "id": "t055-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où l’empereur Henri IV s’humilie-t-il devant le pape Grégoire VII, en 1077 ?",
+   "choix": [
+    "À Canossa",
+    "À Rome",
+    "À Avignon",
+    "À Aix-la-Chapelle"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "« Aller à Canossa » signifie encore s’humilier devant un adversaire.",
+   "id": "t055-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel conflit oppose papes et empereurs au sujet de la nomination des évêques ?",
+   "choix": [
+    "La querelle des Investitures",
+    "Le Grand Schisme",
+    "La guerre de Cent Ans",
+    "La querelle des Universaux"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Le concordat de Worms, en 1122, y met fin.",
+   "id": "t055-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle ville les papes résident-ils pendant une grande partie du 14e siècle ?",
+   "choix": [
+    "Avignon",
+    "Lyon",
+    "Paris",
+    "Florence"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Le palais des papes y est construit de 1335 à 1364.",
+   "id": "t055-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on la période où deux, puis trois papes rivaux se disputent l’Église ?",
+   "choix": [
+    "Le Grand Schisme d’Occident",
+    "La querelle des Investitures",
+    "La Réforme",
+    "La captivité de Babylone"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Il dure de 1378 à 1417 et s’achève au concile de Constance.",
+   "id": "t055-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle épidémie tue entre un tiers et la moitié des Européens vers 1347-1352 ?",
+   "choix": [
+    "La peste noire",
+    "La lèpre",
+    "Le choléra",
+    "La variole"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Elle arrive par les navires génois venus de la mer Noire.",
+   "id": "t055-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom donne-t-on à la révolte paysanne de 1358 en Île-de-France ?",
+   "choix": [
+    "La Jacquerie",
+    "La révolte des Maillotins",
+    "La Grande Peur",
+    "La Fronde"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Les nobles appelaient les paysans « Jacques » par mépris.",
+   "id": "t055-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel chef mène la révolte des paysans anglais de 1381 ?",
+   "choix": [
+    "Wat Tyler",
+    "Robin des Bois",
+    "Jack Cade",
+    "John Ball seul"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Il est tué lors d’une rencontre avec le jeune roi Richard II.",
+   "id": "t055-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel texte limite le pouvoir du roi d’Angleterre Jean sans Terre en 1215 ?",
+   "choix": [
+    "La Grande Charte",
+    "La Bulle d’or",
+    "Le Domesday Book",
+    "La Pragmatique Sanction"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "On la cite souvent comme une étape vers les libertés modernes.",
+   "id": "t055-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel grand recensement des terres anglaises est ordonné par Guillaume le Conquérant ?",
+   "choix": [
+    "Le Domesday Book",
+    "La Grande Charte",
+    "Le Livre des métiers",
+    "La Chronique anglo-saxonne"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Il est achevé en 1086, vingt ans après la conquête.",
+   "id": "t055-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel roi réunit pour la première fois des États généraux, en 1302 ?",
+   "choix": [
+    "Philippe le Bel",
+    "Saint Louis",
+    "Philippe Auguste",
+    "Charles V"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Il cherche le soutien du royaume dans son conflit avec le pape.",
+   "id": "t055-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel traité de 843 partage l’empire de Charlemagne entre ses petits-fils ?",
+   "choix": [
+    "Le traité de Verdun",
+    "Le traité de Troyes",
+    "Le traité de Saint-Clair-sur-Epte",
+    "Le traité de Paris"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Il donne naissance à la Francie occidentale, ancêtre de la France.",
+   "id": "t055-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel chef viking reçoit le futur duché de Normandie en 911 ?",
+   "choix": [
+    "Rollon",
+    "Ragnar",
+    "Harald",
+    "Guillaume"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Il se fait baptiser et devient l’ancêtre de Guillaume le Conquérant.",
+   "id": "t055-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles grandes foires attirent les marchands de toute l’Europe aux 12e et 13e siècles ?",
+   "choix": [
+    "Les foires de Champagne",
+    "Les foires de Beaucaire",
+    "La foire du Lendit",
+    "Les foires de Lyon"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Elles se tiennent à tour de rôle à Troyes, Provins, Lagny et Bar-sur-Aube.",
+   "id": "t055-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle association de villes marchandes domine le commerce de la Baltique ?",
+   "choix": [
+    "La Hanse",
+    "La Ligue lombarde",
+    "La Sérénissime",
+    "La Commune"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Lübeck en est la capitale, Bruges et Londres ses grands comptoirs.",
+   "id": "t055-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel document permet de transférer de l’argent sans transporter de pièces ?",
+   "choix": [
+    "La lettre de change",
+    "La bulle papale",
+    "Le cartulaire",
+    "La charte de franchise"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Les banquiers italiens la développent pour le commerce lointain.",
+   "id": "t055-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel mouvement de l’Église tente, vers l’an mil, de limiter les violences des chevaliers ?",
+   "choix": [
+    "La paix de Dieu",
+    "La croisade des enfants",
+    "La réforme grégorienne seule",
+    "L’Inquisition"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Elle protège les clercs, les paysans et les biens d’Église.",
+   "id": "t055-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’est-ce qu’une ordalie ?",
+   "choix": [
+    "Un jugement par une épreuve physique",
+    "Un impôt sur les récoltes",
+    "Un pèlerinage obligatoire",
+    "Une prière du matin"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "On pense que Dieu protège l’innocent, par exemple face au fer rouge.",
+   "id": "t055-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel signe portent les pèlerins revenant de Saint-Jacques-de-Compostelle ?",
+   "choix": [
+    "Une coquille",
+    "Une palme",
+    "Une croix rouge",
+    "Un bâton fleuri"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "La coquille Saint-Jacques est encore le symbole du chemin.",
+   "id": "t055-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où vivent les malades atteints du « mal de saint Lazare », tenus à l’écart des villes ?",
+   "choix": [
+    "Dans les léproseries",
+    "Dans les hôtels-Dieu",
+    "Dans les monastères",
+    "Dans les universités"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "On les appelle aussi maladreries ; il en existait des milliers en France.",
+   "id": "t055-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel nom donne-t-on à l’office du soir, chanté au coucher du soleil ?",
+   "choix": [
+    "Les vêpres",
+    "Les matines",
+    "Les laudes",
+    "Les complies"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Les complies, plus tardives, terminent la journée de prière.",
+   "id": "t055-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel événement de 476 marque traditionnellement le début du Moyen Âge ?",
+   "choix": [
+    "La chute de l’Empire romain d’Occident",
+    "Le baptême de Clovis",
+    "Le couronnement de Charlemagne",
+    "La naissance de Mahomet"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "Le dernier empereur, Romulus Augustule, est déposé par Odoacre.",
+   "id": "t055-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel événement de 1453 est souvent retenu comme la fin du Moyen Âge ?",
+   "choix": [
+    "La prise de Constantinople",
+    "La découverte de l’Amérique",
+    "La mort de Jeanne d’Arc",
+    "L’invention de l’imprimerie"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff, La Civilisation de l’Occident médiéval (Arthaud) ; M. Bloch, La Société féodale (1939) ; G. Duby, Les Trois Ordres ou l’imaginaire du féodalisme (1978) ; BnF, « Le Moyen Âge en lumière »",
+   "expl": "D’autres historiens retiennent 1492 et le voyage de Christophe Colomb.",
+   "id": "t055-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un serf est un esclave qu’on peut vendre seul, sans sa terre.",
+   "rep": false,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Faux : il est attaché à la terre et à la seigneurie, mais n’est pas un esclave au sens antique.",
+   "id": "t055-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Un même chevalier pouvait être le vassal de plusieurs seigneurs.",
+   "rep": true,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "On distinguait alors un hommage « lige », prioritaire sur les autres.",
+   "id": "t055-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La dîme était versée à l’Église.",
+   "rep": true,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Elle servait en principe à entretenir le clergé et les pauvres.",
+   "id": "t055-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La gabelle portait sur le vin.",
+   "rep": false,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Faux : c’était l’impôt sur le sel, l’un des plus détestés du royaume.",
+   "id": "t055-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les moines vivent selon une règle commune.",
+   "rep": true,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Ils prononcent des vœux de pauvreté, de chasteté et d’obéissance.",
+   "id": "t055-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La peste noire arrive en Europe en 1347.",
+   "rep": true,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Elle débarque à Messine, en Sicile, à bord de galères génoises.",
+   "id": "t055-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les papes résident à Avignon pendant tout le Moyen Âge.",
+   "rep": false,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Faux : ils y résident surtout de 1309 à 1377.",
+   "id": "t055-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Grande Charte de 1215 abolit la monarchie anglaise.",
+   "rep": false,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Faux : elle limite le pouvoir du roi sans le supprimer.",
+   "id": "t055-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les bourgeois vivent dans les villes.",
+   "rep": true,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Marchands et artisans y obtiennent peu à peu des libertés.",
+   "id": "t055-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’université de Paris est plus ancienne que celle de Bologne.",
+   "rep": false,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Faux : Bologne est un peu plus ancienne, vers 1088 ; Paris se constitue vers 1200.",
+   "id": "t055-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Hanse est une ligue de villes marchandes.",
+   "rep": true,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Elle compte jusqu’à près de deux cents villes.",
+   "id": "t055-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le traité de Verdun partage l’empire carolingien en trois.",
+   "rep": true,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Lothaire, Louis le Germanique et Charles le Chauve se partagent l’héritage.",
+   "id": "t055-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les cisterciens recherchent le luxe et l’or dans leurs églises.",
+   "rep": false,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Faux : ils prônent la sobriété ; leurs églises sont dépouillées.",
+   "id": "t055-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La paix de Dieu interdit de s’en prendre aux clercs et aux paysans désarmés.",
+   "rep": true,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les chevaliers juraient sur des reliques de la respecter.",
+   "id": "t055-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Urbain II lance-t-il la première croisade ?",
+   "rep": 1095,
+   "min": 1000,
+   "max": 1200,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les croisés prennent Jérusalem en 1099, après un long et terrible siège.",
+   "id": "t055-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année l’abbaye de Cluny est-elle fondée ?",
+   "rep": 910,
+   "min": 800,
+   "max": 1100,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Elle dépend directement du pape, et non d’un seigneur local.",
+   "id": "t055-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année la Grande Charte est-elle accordée ?",
+   "rep": 1215,
+   "min": 1100,
+   "max": 1350,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Elle est signée près de Windsor, à Runnymede.",
+   "id": "t055-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année a lieu l’humiliation de Canossa ?",
+   "rep": 1077,
+   "min": 1000,
+   "max": 1200,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Henri IV attend trois jours dans la neige, pieds nus.",
+   "id": "t055-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Hugues Capet devient-il roi des Francs ?",
+   "rep": 987,
+   "min": 900,
+   "max": 1100,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Sa dynastie, directe puis par ses branches, règne jusqu’en 1848.",
+   "id": "t055-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année le traité de Verdun est-il signé ?",
+   "rep": 843,
+   "min": 750,
+   "max": 950,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Il est conclu trois ans après la mort de Louis le Pieux.",
+   "id": "t055-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année la Jacquerie éclate-t-elle ?",
+   "rep": 1358,
+   "min": 1300,
+   "max": 1450,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Elle est durement réprimée en quelques semaines.",
+   "id": "t055-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Rollon reçoit-il la Normandie ?",
+   "rep": 911,
+   "min": 800,
+   "max": 1066,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Le traité de Saint-Clair-sur-Epte lui cède la région de Rouen.",
+   "id": "t055-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le paysan attaché à la terre de son seigneur s’appelle un ____.",
+   "choix": [
+    "serf",
+    "vassal",
+    "bourgeois",
+    "clerc"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Son statut se transmet à ses enfants, jusqu’à un éventuel affranchissement.",
+   "id": "t055-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le bien concédé à un vassal s’appelle un ____.",
+   "choix": [
+    "fief",
+    "ban",
+    "cens",
+    "manse"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Le mot « féodalité » vient de ce terme, qui désigne aussi le domaine d’un vassal.",
+   "id": "t055-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’impôt sur le sel s’appelle la ____.",
+   "choix": [
+    "gabelle",
+    "taille",
+    "dîme",
+    "corvée"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les « faux-sauniers » faisaient la contrebande du sel.",
+   "id": "t055-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le dixième des récoltes versé à l’Église s’appelle la ____.",
+   "choix": [
+    "dîme",
+    "taille",
+    "gabelle",
+    "cens"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Elle est supprimée en France en 1789, avec les autres privilèges.",
+   "id": "t055-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’obligation d’utiliser le moulin du seigneur fait partie des ____.",
+   "choix": [
+    "banalités",
+    "corvées",
+    "franchises",
+    "dîmes"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Le mot « banal » signifiait d’abord « qui appartient au seigneur ».",
+   "id": "t055-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’abbaye fondée en 910 en Bourgogne s’appelle ____.",
+   "choix": [
+    "Cluny",
+    "Cîteaux",
+    "Fontenay",
+    "Vézelay"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Ses abbés conseillent les rois et les papes.",
+   "id": "t055-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les moines de Cîteaux s’appellent les ____.",
+   "choix": [
+    "cisterciens",
+    "clunisiens",
+    "chartreux",
+    "prémontrés"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Leur habit blanc les distingue des bénédictins vêtus de noir.",
+   "id": "t055-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La ligue des villes marchandes de la Baltique s’appelle la ____.",
+   "choix": [
+    "Hanse",
+    "Ligue",
+    "Guilde",
+    "Commune"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Le mot désigne d’abord un groupe de marchands.",
+   "id": "t055-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La révolte paysanne de 1358 s’appelle la ____.",
+   "choix": [
+    "Jacquerie",
+    "Fronde",
+    "Ligue",
+    "Croquanterie"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Son chef, Guillaume Carle, est exécuté par trahison.",
+   "id": "t055-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La charte anglaise de 1215 s’appelle la ____ Charte.",
+   "choix": [
+    "Grande",
+    "Sainte",
+    "Royale",
+    "Petite"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "On l’appelle aussi Magna Carta, en latin.",
+   "id": "t055-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le grand recensement anglais de 1086 s’appelle le ____ Book.",
+   "choix": [
+    "Domesday",
+    "Doom",
+    "Kings",
+    "Royal"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Son nom évoque le Jugement dernier, dont on ne peut faire appel.",
+   "id": "t055-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’épreuve qui juge par le feu ou l’eau s’appelle l’____.",
+   "choix": [
+    "ordalie",
+    "inquisition",
+    "amende",
+    "enquête"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "L’Église interdit aux clercs d’y participer en 1215, au concile de Latran.",
+   "id": "t055-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’évêque qui décrit les trois ordres s’appelle Adalbéron de ____.",
+   "choix": [
+    "Laon",
+    "Reims",
+    "Chartres",
+    "Cambrai"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Il écrit un poème satirique adressé au roi Robert le Pieux.",
+   "id": "t055-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces groupes n’est pas un des trois ordres ?",
+   "choix": [
+    "Les marchands",
+    "Ceux qui prient",
+    "Ceux qui combattent",
+    "Ceux qui travaillent"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les marchands, de plus en plus nombreux, ne trouvent pas leur place dans ce schéma.",
+   "id": "t055-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces impôts n’est pas seigneurial ou royal ?",
+   "choix": [
+    "La dîme",
+    "La taille",
+    "La gabelle",
+    "Le cens"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "La dîme est perçue par l’Église, les autres par le seigneur ou le roi.",
+   "id": "t055-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces ordres n’est pas monastique ou mendiant ?",
+   "choix": [
+    "Les Hospitaliers",
+    "Les cisterciens",
+    "Les franciscains",
+    "Les dominicains"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les Hospitaliers sont un ordre militaire, nés des croisades.",
+   "id": "t055-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces villes n’accueille pas de foire de Champagne ?",
+   "choix": [
+    "Lyon",
+    "Troyes",
+    "Provins",
+    "Lagny"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Bar-sur-Aube est la quatrième ville des foires.",
+   "id": "t055-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces obligations ne concerne pas les serfs ?",
+   "choix": [
+    "L’hommage",
+    "Le chevage",
+    "Le formariage",
+    "La mainmorte"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "L’hommage lie un vassal noble à son seigneur.",
+   "id": "t055-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces papes n’a pas lancé de croisade ?",
+   "choix": [
+    "Grégoire VII",
+    "Urbain II",
+    "Innocent III",
+    "Eugène III"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Grégoire VII l’envisage, mais c’est Urbain II qui lance la première.",
+   "id": "t055-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces événements n’a pas lieu au 14e siècle ?",
+   "choix": [
+    "La première croisade",
+    "La peste noire",
+    "La Jacquerie",
+    "Le Grand Schisme"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "La première croisade a lieu à la fin du 11e siècle.",
+   "id": "t055-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces universités n’est pas médiévale ?",
+   "choix": [
+    "Harvard",
+    "Bologne",
+    "Paris",
+    "Oxford"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Harvard est fondée en 1636, en Amérique.",
+   "id": "t055-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces offices n’est pas une heure canoniale ?",
+   "choix": [
+    "Les nones de midi",
+    "Les matines",
+    "Les laudes",
+    "Les vêpres"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "L’heure canoniale s’appelle « none », au singulier, vers trois heures de l’après-midi.",
+   "id": "t055-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces textes n’est pas anglais ?",
+   "choix": [
+    "Le traité de Verdun",
+    "La Grande Charte",
+    "Le Domesday Book",
+    "La Chronique anglo-saxonne"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Le traité de Verdun concerne l’empire carolingien.",
+   "id": "t055-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels groupes forment les trois ordres ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ceux qui prient",
+    "Ceux qui combattent",
+    "Ceux qui travaillent",
+    "Ceux qui commercent",
+    "Ceux qui gouvernent"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Ce schéma idéal justifie l’ordre social voulu par Dieu.",
+   "id": "t055-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles charges pèsent sur les paysans ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Corvée",
+    "Banalités",
+    "Dîme",
+    "Taille",
+    "Hommage",
+    "Adoubement"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Hommage et adoubement concernent la noblesse.",
+   "id": "t055-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels ordres religieux sont mendiants ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Franciscains",
+    "Dominicains",
+    "Carmes",
+    "Clunisiens",
+    "Cisterciens"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les mendiants vivent en ville, de dons, et prêchent.",
+   "id": "t055-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles grandes crises frappent le 14e siècle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Peste noire",
+    "Guerre de Cent Ans",
+    "Grand Schisme",
+    "Première croisade",
+    "Querelle des Investitures"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "On parle souvent d’un « automne du Moyen Âge ».",
+   "id": "t055-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels documents sont anglais ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Grande Charte",
+    "Domesday Book",
+    "Traité de Verdun",
+    "Bulle d’or"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "La Bulle d’or de 1356 règle l’élection de l’empereur germanique.",
+   "id": "t055-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles villes sont des centres marchands de la Hanse ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Lübeck",
+    "Hambourg",
+    "Dantzig",
+    "Florence",
+    "Avignon"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "La Hanse domine le commerce du hareng, du bois et des fourrures.",
+   "id": "t055-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles institutions apparaissent dans les villes médiévales ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Communes",
+    "Universités",
+    "Hôtels-Dieu",
+    "Fiefs",
+    "Monastères isolés"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les villes renaissent fortement à partir du 11e siècle.",
+   "id": "t055-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles dates sont proposées pour la fin du Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "1453",
+    "1492",
+    "476",
+    "800"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "476 marque le début, 800 le couronnement de Charlemagne.",
+   "id": "t055-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles heures canoniales existent ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Matines",
+    "Laudes",
+    "Vêpres",
+    "Complies",
+    "Midis",
+    "Aurores"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les moines se lèvent même la nuit pour chanter les matines.",
+   "id": "t055-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles révoltes populaires ont lieu au 14e siècle ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Jacquerie",
+    "Révolte de Wat Tyler",
+    "Fronde",
+    "Révolution française"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "La Fronde a lieu au 17e siècle, la Révolution au 18e.",
+   "id": "t055-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Chute de Rome",
+    "Couronnement de Charlemagne",
+    "Première croisade",
+    "Peste noire",
+    "Prise de Constantinople"
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "En 476, 800, 1095, 1347 et 1453 : près de mille ans d’histoire.",
+   "id": "t055-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du rituel féodal dans l’ordre.",
+   "items": [
+    "Hommage",
+    "Serment de fidélité",
+    "Investiture du fief"
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Le seigneur remet souvent une motte de terre ou une branche en symbole.",
+   "id": "t055-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces fondations par ordre chronologique.",
+   "items": [
+    "Cluny",
+    "Cîteaux",
+    "Ordre franciscain",
+    "Palais des papes d’Avignon"
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "910, 1098, 1209, puis 1335 pour le début du palais.",
+   "id": "t055-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements de l’histoire de l’Église dans l’ordre.",
+   "items": [
+    "Querelle des Investitures",
+    "Concordat de Worms",
+    "Papauté d’Avignon",
+    "Grand Schisme"
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "L’Église traverse plusieurs crises entre le 11e et le 15e siècle.",
+   "id": "t055-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces dynasties franques puis françaises par ordre chronologique.",
+   "items": [
+    "Mérovingiens",
+    "Carolingiens",
+    "Capétiens",
+    "Valois"
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les Valois, branche des Capétiens, montent sur le trône en 1328.",
+   "id": "t055-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces textes ou institutions anglaises par date.",
+   "items": [
+    "Domesday Book",
+    "Grande Charte",
+    "Révolte de Wat Tyler"
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "En 1086, 1215 et 1381 : trois moments clés de l’Angleterre médiévale.",
+   "id": "t055-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces heures canoniales dans l’ordre de la journée.",
+   "items": [
+    "Matines",
+    "Laudes",
+    "Sexte",
+    "Vêpres",
+    "Complies"
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "La journée des moines est rythmée par huit offices.",
+   "id": "t055-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la peste noire dans l’ordre.",
+   "items": [
+    "Épidémie en Asie centrale",
+    "Siège de Caffa",
+    "Arrivée en Sicile",
+    "Diffusion en Europe"
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "On raconte que des cadavres furent catapultés dans Caffa assiégée.",
+   "id": "t055-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces partages et traités par ordre chronologique.",
+   "items": [
+    "Traité de Verdun",
+    "Traité de Saint-Clair-sur-Epte",
+    "Concordat de Worms"
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "En 843, 911 et 1122 : des partages, des concessions et des compromis.",
+   "id": "t055-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque ordre à son rôle.",
+   "paires": [
+    [
+     "Oratores",
+     "Prier"
+    ],
+    [
+     "Bellatores",
+     "Combattre"
+    ],
+    [
+     "Laboratores",
+     "Travailler"
+    ]
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Adalbéron de Laon présente ces trois ordres comme complémentaires.",
+   "id": "t055-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque impôt à son objet.",
+   "paires": [
+    [
+     "Gabelle",
+     "Sel"
+    ],
+    [
+     "Dîme",
+     "Récoltes pour l’Église"
+    ],
+    [
+     "Chevage",
+     "Tête du serf"
+    ],
+    [
+     "Banalités",
+     "Moulin, four, pressoir"
+    ]
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les charges pesaient lourdement sur les paysans.",
+   "id": "t055-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque ordre religieux à son fondateur.",
+   "paires": [
+    [
+     "Franciscains",
+     "François d’Assise"
+    ],
+    [
+     "Dominicains",
+     "Dominique de Guzmán"
+    ],
+    [
+     "Bénédictins",
+     "Benoît de Nursie"
+    ]
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Ces ordres existent encore aujourd’hui dans le monde entier.",
+   "id": "t055-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque événement à son année.",
+   "paires": [
+    [
+     "Couronnement de Charlemagne",
+     "800"
+    ],
+    [
+     "Hugues Capet roi",
+     "987"
+    ],
+    [
+     "Première croisade",
+     "1095"
+    ],
+    [
+     "Grande Charte",
+     "1215"
+    ]
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Ces dates jalonnent l’histoire de l’Occident médiéval.",
+   "id": "t055-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à son rôle.",
+   "paires": [
+    [
+     "Cluny",
+     "Abbaye"
+    ],
+    [
+     "Bologne",
+     "Université"
+    ],
+    [
+     "Avignon",
+     "Résidence des papes"
+    ],
+    [
+     "Lübeck",
+     "Capitale de la Hanse"
+    ]
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Ces lieux étaient des centres de pouvoir et de savoir.",
+   "id": "t055-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque révolte à son pays.",
+   "paires": [
+    [
+     "Jacquerie",
+     "France"
+    ],
+    [
+     "Révolte de Wat Tyler",
+     "Angleterre"
+    ],
+    [
+     "Ciompi",
+     "Florence"
+    ]
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les Ciompi sont des ouvriers de la laine révoltés en 1378.",
+   "id": "t055-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque terme à sa définition.",
+   "paires": [
+    [
+     "Fief",
+     "Bien concédé"
+    ],
+    [
+     "Hommage",
+     "Rituel de vassalité"
+    ],
+    [
+     "Corvée",
+     "Travail gratuit"
+    ],
+    [
+     "Commune",
+     "Ville libre"
+    ]
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Ces mots constituent le vocabulaire de la société féodale.",
+   "id": "t055-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque roi à un acte.",
+   "paires": [
+    [
+     "Philippe le Bel",
+     "États généraux"
+    ],
+    [
+     "Guillaume le Conquérant",
+     "Domesday Book"
+    ],
+    [
+     "Jean sans Terre",
+     "Grande Charte"
+    ]
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les rois renforcent peu à peu leur pouvoir face aux grands.",
+   "id": "t055-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque historien à son ouvrage.",
+   "paires": [
+    [
+     "Marc Bloch",
+     "La Société féodale"
+    ],
+    [
+     "Georges Duby",
+     "Les Trois Ordres"
+    ],
+    [
+     "Jacques Le Goff",
+     "La Civilisation de l’Occident médiéval"
+    ]
+   ],
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Ces historiens français ont renouvelé l’étude du Moyen Âge.",
+   "id": "t055-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une abbaye\n2. On m’a fondée en 910\n3. Mon église était immense",
+   "choix": [
+    "Cluny",
+    "Cîteaux",
+    "Clairvaux",
+    "Saint-Denis"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Je ne dépendais que du pape, et non des seigneurs ou des évêques voisins.",
+   "id": "t055-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une révolte\n2. J’éclate en 1358\n3. Les nobles me méprisent",
+   "choix": [
+    "La Jacquerie",
+    "La révolte des Ciompi",
+    "La Fronde",
+    "La Grande Peur"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Mon nom vient du surnom donné aux paysans.",
+   "id": "t055-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une épidémie\n2. Je tue un tiers de l’Europe\n3. J’arrive en 1347",
+   "choix": [
+    "La peste noire",
+    "La lèpre",
+    "La variole",
+    "Le choléra"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Les rats et leurs puces ont joué un grand rôle dans ma diffusion.",
+   "id": "t055-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un texte\n2. Je limite le roi anglais\n3. Je date de 1215",
+   "choix": [
+    "La Grande Charte",
+    "Le Domesday Book",
+    "La Bulle d’or",
+    "Le traité de Verdun"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Quatre exemplaires originaux me sont parvenus.",
+   "id": "t055-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville\n2. J’ai accueilli les papes\n3. J’ai un palais célèbre",
+   "choix": [
+    "Avignon",
+    "Rome",
+    "Lyon",
+    "Canossa"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Mon pont, inachevé, est aussi très connu.",
+   "id": "t055-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un pape\n2. J’ai lancé la première croisade\n3. J’ai prêché à Clermont",
+   "choix": [
+    "Urbain II",
+    "Grégoire VII",
+    "Innocent III",
+    "Boniface VIII"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Mon appel déclenche aussi la croisade populaire de Pierre l’Ermite.",
+   "id": "t055-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un saint\n2. J’ai fondé un ordre pauvre\n3. Je parlais aux oiseaux",
+   "choix": [
+    "François d’Assise",
+    "Dominique",
+    "Benoît",
+    "Bernard"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "On m’a canonisé deux ans seulement après ma mort.",
+   "id": "t055-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un chef viking\n2. On m’a donné la Normandie\n3. Je suis l’ancêtre d’un conquérant",
+   "choix": [
+    "Rollon",
+    "Ragnar",
+    "Harald",
+    "Erik le Rouge"
+   ],
+   "rep": 0,
+   "src": "J. Le Goff ; M. Bloch ; G. Duby",
+   "expl": "Je me suis fait baptiser sous le nom de Robert.",
+   "id": "t055-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
