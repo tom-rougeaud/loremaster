@@ -1,0 +1,2292 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "geographie-terre-du-milieu",
+  "nom": "Géographie de la Terre du Milieu",
+  "royaume": "Terres de Tolkien",
+  "icone": "boussole",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle région, à l’est du Brandevin, est protégée par une très haute haie ?",
+   "choix": [
+    "Le Pays de Bouc",
+    "Le Quartier Ouest",
+    "Les Hauts des Galgals",
+    "La Vieille Forêt"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Les Brandebouc y vivent, protégés de la Vieille Forêt par la Haie Haute.",
+   "id": "t026-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle bourgade est la capitale de la Comté et le siège de son maire ?",
+   "choix": [
+    "Grand’Cave",
+    "Hobbitebourg",
+    "Bourg-de-Touque",
+    "Lézeau"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Michel Delving (Grand’Cave) se trouve dans le Quartier Ouest, sur les Blancs Coteaux.",
+   "id": "t026-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle chaîne de montagnes sépare l’Eriador des terres de l’Anduin ?",
+   "choix": [
+    "Les Monts Brumeux",
+    "Les Montagnes Blanches",
+    "Les Montagnes Bleues",
+    "Les Montagnes Grises"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Les Elfes les appellent Hithaeglir ; la Moria est creusée sous elles.",
+   "id": "t026-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle chaîne s’étend d’ouest en est au sud du Rohan, jusqu’à Minas Tirith ?",
+   "choix": [
+    "Les Montagnes Blanches",
+    "Les Monts Brumeux",
+    "Les Montagnes de Cendre",
+    "Les Monts de Fer"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Ered Nimrais en elfique ; les feux d’alarme du Gondor brillent sur leurs sommets.",
+   "id": "t026-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles montagnes ferment le Mordor à l’ouest et au sud ?",
+   "choix": [
+    "Les Montagnes de l’Ombre",
+    "Les Montagnes de Cendre",
+    "Les Monts Brumeux",
+    "Les Montagnes Grises"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Les Ephel Dúath ; le col de Cirith Ungol les franchit au-dessus de Minas Morgul.",
+   "id": "t026-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelles montagnes ferment le Mordor au nord ?",
+   "choix": [
+    "Les Montagnes de Cendre",
+    "Les Montagnes de l’Ombre",
+    "Les Montagnes Blanches",
+    "Les Monts de Fer"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Les Ered Lithui rejoignent les Ephel Dúath à la Porte Noire.",
+   "id": "t026-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle tour Sauron a-t-il bâtie au Mordor ?",
+   "choix": [
+    "Barad-dûr",
+    "Orthanc",
+    "Cirith Ungol",
+    "Minas Morgul"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "La Tour Sombre s’effondre au moment où l’Anneau est détruit.",
+   "id": "t026-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la grande porte qui ferme le nord du Mordor ?",
+   "choix": [
+    "Le Morannon",
+    "Le Cirith Gorgor",
+    "L’Udûn",
+    "L’Isenmouthe"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "La Porte Noire ferme le défilé de Cirith Gorgor ; l’armée de l’Ouest y livre sa dernière bataille.",
+   "id": "t026-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle cité fut la première capitale du Gondor, de part et d’autre de l’Anduin ?",
+   "choix": [
+    "Osgiliath",
+    "Minas Tirith",
+    "Pelargir",
+    "Dol Amroth"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "La « Citadelle des Étoiles » est en ruine au moment de la Guerre de l’Anneau.",
+   "id": "t026-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel était l’ancien nom de Minas Tirith ?",
+   "choix": [
+    "Minas Anor",
+    "Minas Ithil",
+    "Osgiliath",
+    "Annúminas"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "« Tour du Soleil couchant » ; elle devient « Tour de Garde » face à Minas Morgul.",
+   "id": "t026-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel était l’ancien nom de Minas Morgul ?",
+   "choix": [
+    "Minas Ithil",
+    "Minas Anor",
+    "Barad-dûr",
+    "Dol Guldur"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "« Tour de la Lune », prise par les Nazgûl en 2002 du Troisième Âge.",
+   "id": "t026-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel était le nom du Rohan avant qu’il soit donné à Eorl ?",
+   "choix": [
+    "Calenardhon",
+    "Eriador",
+    "Rhovanion",
+    "Anórien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Le Gondor l’offre aux Éothéod après leur aide décisive au Champ du Celebrant.",
+   "id": "t026-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels géants de pierre se dressent sur l’Anduin, au nord du lac Nen Hithoel ?",
+   "choix": [
+    "L’Argonath",
+    "Les Galgals",
+    "Les Drúedain",
+    "Les Huorns"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Ces Piliers des Rois marquaient l’ancienne frontière nord du Gondor.",
+   "id": "t026-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Qui représentent les statues de l’Argonath ?",
+   "choix": [
+    "Isildur et Anárion",
+    "Elendil et Gil-galad",
+    "Eorl et Cirion",
+    "Elros et Elrond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Les deux fils d’Elendil lèvent la main gauche en signe d’avertissement.",
+   "id": "t026-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles chutes la Communauté doit-elle éviter en quittant le lac Nen Hithoel ?",
+   "choix": [
+    "Les chutes de Rauros",
+    "Les chutes de Nimrodel",
+    "Les chutes de Henneth Annûn",
+    "Les chutes du Brandevin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Le corps de Boromir, dans une barque funéraire, les franchit vers la mer.",
+   "id": "t026-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle grande forêt s’étend à l’est des Monts Brumeux, au-delà de l’Anduin ?",
+   "choix": [
+    "La Forêt Noire",
+    "Fangorn",
+    "La Vieille Forêt",
+    "La Lothlórien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "C’est la plus vaste forêt du nord ; Thranduil règne dans sa partie nord-est.",
+   "id": "t026-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forteresse de la Forêt Noire a servi de repaire au Nécromancien ?",
+   "choix": [
+    "Dol Guldur",
+    "Barad-dûr",
+    "Carn Dûm",
+    "Minas Morgul"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Le Nécromancien n’était autre que Sauron, chassé de là par le Conseil blanc.",
+   "id": "t026-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forêt des Ents s’étend au pied sud des Monts Brumeux ?",
+   "choix": [
+    "Fangorn",
+    "La Forêt Noire",
+    "La Lothlórien",
+    "La forêt de Drúadan"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Elle porte le nom elfique de Sylvebarbe, le plus vieil Ent.",
+   "id": "t026-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment s’appelle la cité dans les arbres des seigneurs de la Lórien ?",
+   "choix": [
+    "Caras Galadhon",
+    "Menegroth",
+    "Imladris",
+    "Edhellond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Les Galadhrim vivent sur des plates-formes (flets) dans les mallorns.",
+   "id": "t026-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelles sont les trois Montagnes de la Moria ?",
+   "choix": [
+    "Caradhras, Celebdil et Fanuidhol",
+    "Méthedras, Gundabad et Caradhras",
+    "Mindolluin, Erebor et Orodruin",
+    "Amon Hen, Amon Lhaw et Amon Sûl"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Le Rubicorne, la Pointe d’Argent et Tête-Nuageuse, en traduction.",
+   "id": "t026-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel lac sacré des Nains se trouve dans la vallée de Dimrill, devant la Moria ?",
+   "choix": [
+    "Kheled-zâram",
+    "Nen Hithoel",
+    "Núrnen",
+    "Evendim"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Dans ce « lac Miroir », Durin vit une couronne d’étoiles se refléter au-dessus de sa tête.",
+   "id": "t026-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels marécages, où flottent des visages pâles, ont englouti une partie de la plaine de la Dagorlad ?",
+   "choix": [
+    "Les Marais des Morts",
+    "Les Champs aux Iris",
+    "Le Nindalf",
+    "Le Long Marais"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Des visages pâles semblent flotter sous l’eau ; Gollum y guide Frodon et Sam.",
+   "id": "t026-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle citadelle garde l’entrée du Gouffre de Helm ?",
+   "choix": [
+    "Fort-le-Cor",
+    "Dunharrow",
+    "Edoras",
+    "Isengard"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Le Hornburg doit son nom au cor de Helm Poing-de-Marteau, dont le son terrifiait les ennemis.",
+   "id": "t026-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelles grottes du Gouffre de Helm émerveillent Gimli ?",
+   "choix": [
+    "Aglarond",
+    "Henneth Annûn",
+    "Sammath Naur",
+    "Kheled-zâram"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Les Cavernes scintillantes ; après la guerre, Gimli y fonde une colonie de Nains.",
+   "id": "t026-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel port du sud abrite les corsaires ennemis du Gondor ?",
+   "choix": [
+    "Umbar",
+    "Pelargir",
+    "Dol Amroth",
+    "Edhellond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Ancien port de Númenor, il est devenu le repaire de pirates alliés de Sauron.",
+   "id": "t026-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quelle région viennent les Suderons et leurs mûmakil ?",
+   "choix": [
+    "Le Harad",
+    "Le Rhûn",
+    "Le Pays de Dun",
+    "L’Angmar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Les « Suderons » combattent sur le Pelennor montés sur leurs grands olifants.",
+   "id": "t026-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "De quelle région de l’est viennent les Orientaux ?",
+   "choix": [
+    "Le Rhûn",
+    "Le Harad",
+    "L’Eriador",
+    "Le Lindon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Ces peuples, souvent alliés à Sauron, vivent autour de la mer de Rhûn.",
+   "id": "t026-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel royaume fondé par Elendil au nord a été ruiné par le Roi-Sorcier d’Angmar ?",
+   "choix": [
+    "L’Arnor",
+    "Le Gondor",
+    "Le Rohan",
+    "Le Lindon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Divisé en trois royaumes, l’Arnor s’effondre ; ses héritiers deviennent les Rôdeurs du Nord.",
+   "id": "t026-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle était la capitale du royaume d’Angmar ?",
+   "choix": [
+    "Carn Dûm",
+    "Fornost",
+    "Dol Guldur",
+    "Gundabad"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Le Roi-Sorcier y régnait au Troisième Âge, au nord des Monts Brumeux.",
+   "id": "t026-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel port princier du Gondor est gouverné par Imrahil ?",
+   "choix": [
+    "Dol Amroth",
+    "Pelargir",
+    "Umbar",
+    "Osgiliath"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Ses chevaliers au cygne d’argent se battent sur les Champs du Pelennor.",
+   "id": "t026-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quel grand port fluvial du Gondor Aragorn reprend-il aux corsaires ?",
+   "choix": [
+    "Pelargir",
+    "Dol Amroth",
+    "Osgiliath",
+    "Edhellond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Avec l’Armée des Morts, il s’empare de leurs navires et remonte l’Anduin.",
+   "id": "t026-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle forêt abrite les Hommes sauvages qui guident les Rohirrim vers Minas Tirith ?",
+   "choix": [
+    "La forêt de Drúadan",
+    "Fangorn",
+    "La Forêt Noire",
+    "La Vieille Forêt"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Leur chef, Ghân-buri-Ghân, leur montre une route oubliée qui évite l’ennemi.",
+   "id": "t026-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel refuge des rôdeurs d’Ithilien se cache derrière une cascade ?",
+   "choix": [
+    "Henneth Annûn",
+    "Cirith Ungol",
+    "Amon Hen",
+    "Aglarond"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "La « Fenêtre du Couchant » est le repaire de Faramir.",
+   "id": "t026-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Où Bilbo et les nains rencontrent-ils les trois créatures changées en pierre par l’aube ?",
+   "choix": [
+    "Dans les bois à l’est de Bree",
+    "Dans la Forêt Noire",
+    "Sous les Monts Brumeux",
+    "Dans la Vieille Forêt"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Sur la route de Fondcombe ; les trois trolls pétrifiés y sont encore dans Le Seigneur des Anneaux.",
+   "id": "t026-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville humaine se dresse au pied de la Montagne Solitaire ?",
+   "choix": [
+    "Dale",
+    "Esgaroth",
+    "Bree",
+    "Edoras"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Détruite par Smaug, elle est rebâtie par Bard.",
+   "id": "t026-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville est bâtie sur pilotis au milieu du Long Lac ?",
+   "choix": [
+    "Esgaroth",
+    "Dale",
+    "Pelargir",
+    "Bree"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "La ville du Lac commerce avec les Elfes de la Forêt Noire.",
+   "id": "t026-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle mer intérieure se trouve au sud du Mordor ?",
+   "choix": [
+    "La mer de Núrnen",
+    "La mer de Rhûn",
+    "Le Nen Hithoel",
+    "Le lac Evendim"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Des esclaves cultivent les terres du Nurn pour nourrir les armées de Sauron.",
+   "id": "t026-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel col mène au Mordor en passant par l’antre d’Arachné ?",
+   "choix": [
+    "Cirith Ungol",
+    "Cirith Gorgor",
+    "La Trouée du Rohan",
+    "Le col du Caradhras"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Gollum espère y livrer les hobbits à l’araignée et récupérer l’Anneau.",
+   "id": "t026-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plaine s’étend devant les murs de Minas Tirith ?",
+   "choix": [
+    "Les Champs du Pelennor",
+    "La Dagorlad",
+    "Le Celebrant",
+    "Les Champs aux Iris"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "La plus grande bataille de la Guerre de l’Anneau s’y déroule.",
+   "id": "t026-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment s’appelle le mur qui entoure les Champs du Pelennor ?",
+   "choix": [
+    "Le Rammas Echor",
+    "La Haie Haute",
+    "Le Mur de Helm",
+    "Le Morannon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Ce long rempart est percé par l’armée de Minas Morgul au début du siège.",
+   "id": "t026-040",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quelle cité était la capitale de l’Arthedain, au nord ?",
+   "choix": [
+    "Fornost",
+    "Annúminas",
+    "Carn Dûm",
+    "Tharbad"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Fornost Erain, « Norbourg des Rois », tombe en 1974 du Troisième Âge.",
+   "id": "t026-041",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels tertres hantés se trouvent entre la Vieille Forêt et Bree ?",
+   "choix": [
+    "Les Hauts des Galgals",
+    "Les Landes d’Etten",
+    "Les Collines de Fer",
+    "Les Emyn Muil"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Un Être des Galgals y capture les hobbits ; Tom Bombadil les délivre.",
+   "id": "t026-042",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Quels gués voient deux batailles entre le Rohan et Saruman ?",
+   "choix": [
+    "Les Gués de l’Isen",
+    "Les gués de la Bruinen",
+    "Le Sarn Ford",
+    "Le gué d’Osgiliath"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Le fils de Théoden, Théodred, y meurt lors de la première.",
+   "id": "t026-043",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Comment s’appelle la vallée d’Isengard ?",
+   "choix": [
+    "Nan Curunír",
+    "Nan Tathren",
+    "Imladris",
+    "Harrowdale"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "« Vallée du Magicien » : Saruman y a abattu la plupart des arbres.",
+   "id": "t026-044",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle plaine désolée s’étend devant la Porte Noire ?",
+   "choix": [
+    "La Dagorlad",
+    "Le Pelennor",
+    "L’Anfalas",
+    "Le Westemnet"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Champ de la Dernière Alliance, elle est devenue un désert de cendres.",
+   "id": "t026-045",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "Sur quelle colline de Lothlórien Aragorn et Arwen se sont-ils fiancés ?",
+   "choix": [
+    "Cerin Amroth",
+    "Amon Hen",
+    "Caras Galadhon",
+    "Amon Sûl"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Aragorn y revient avec Frodon et semble alors revoir ce souvenir.",
+   "id": "t026-046",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel large passage sépare les Monts Brumeux des Montagnes Blanches ?",
+   "choix": [
+    "La Trouée du Rohan",
+    "Le col de Cirith Ungol",
+    "Le défilé du Caradhras",
+    "La Porte Noire"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Isengard en garde l’entrée : celui qui la tient contrôle la route entre l’Eriador et le Rohan.",
+   "id": "t026-047",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 3,
+   "q": "De quel mont du nord venait Golfimbul, chef orque vaincu par un hobbit ?",
+   "choix": [
+    "Le mont Gram",
+    "Le mont Gundabad",
+    "Le Caradhras",
+    "Le Méthedras"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Selon la légende, Bullroarer Touque lui fit voler la tête dans un terrier de lapin : le golf était inventé.",
+   "id": "t026-048",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Dans quelle grande région de l’ouest de la Terre du Milieu se trouve la Comté ?",
+   "choix": [
+    "L’Eriador",
+    "Le Rhovanion",
+    "L’Ithilien",
+    "Le Calenardhon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "L’Eriador s’étend entre les Montagnes Bleues et les Monts Brumeux.",
+   "id": "t026-049",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle rivière de Lórien porte le nom d’une elfe dont Legolas chante l’histoire ?",
+   "choix": [
+    "La Nimrodel",
+    "Le Celebrant",
+    "La Bruinen",
+    "L’Isen"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "L’eau de la rivière semble laver la fatigue des voyageurs.",
+   "id": "t026-050",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel refuge de montagne, au-dessus d’Edoras, mène aux Chemins des Morts ?",
+   "choix": [
+    "Dunharrow",
+    "Fort-le-Cor",
+    "Aglarond",
+    "Meduseld"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), cartes et appendices ; Karen Wynn Fonstad, The Atlas of Middle-earth (1981, rév. 1991)",
+   "expl": "Les Rohirrim s’y rassemblent avant de partir pour le Gondor.",
+   "id": "t026-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Comté est divisée en quatre Quartiers.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Vrai : Nord, Sud, Est et Ouest ; le Pays de Bouc et la Marche de l’Ouest s’y ajoutent ensuite.",
+   "id": "t026-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Fondcombe se trouve dans la Comté.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Faux : la vallée d’Elrond se cache au pied des Monts Brumeux, loin à l’est de la Comté.",
+   "id": "t026-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Rohan a été offert aux Éothéod par le Gondor.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Vrai : l’intendant Cirion le donne à Eorl le Jeune pour le remercier de son aide.",
+   "id": "t026-054",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Minas Tirith est la capitale du Rohan.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Faux : c’est la capitale du Gondor ; celle du Rohan est Edoras.",
+   "id": "t026-055",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Moria est une cité naine creusée sous les Monts Brumeux.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Vrai : Khazad-dûm, le « Gouffre des Nains », est le plus grand royaume de Durin.",
+   "id": "t026-056",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "L’Anduin se jette dans la mer tout au nord de la Terre du Milieu.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Faux : il coule vers le sud et se jette dans la baie de Belfalas, au-delà de Pelargir.",
+   "id": "t026-057",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Isengard se trouve à l’extrémité sud des Monts Brumeux.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Vrai : la tour d’Orthanc se dresse au pied du Méthedras, dernier sommet de la chaîne.",
+   "id": "t026-058",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La Lothlórien se trouve à l’ouest des Monts Brumeux.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Faux : elle se trouve à l’est, entre les montagnes et l’Anduin.",
+   "id": "t026-059",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Terres Immortelles se trouvent à l’ouest, au-delà de la mer.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Vrai : depuis la chute de Númenor, seuls les navires elfiques peuvent y aller.",
+   "id": "t026-060",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Osgiliath est intacte au moment de la Guerre de l’Anneau.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Faux : elle est en ruine depuis des siècles, et Boromir et Faramir s’y battent pour tenir le fleuve.",
+   "id": "t026-061",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "À Bree, Hommes et hobbits vivent côte à côte.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Vrai : c’est l’un des rares lieux où les deux peuples vivent ensemble.",
+   "id": "t026-062",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La Forêt Noire se trouve au cœur du Rohan.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Faux : elle se trouve au nord-est, au-delà de l’Anduin ; le Rohan touche plutôt Fangorn.",
+   "id": "t026-063",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Les Monts de Fer abritent des Nains apparentés à ceux d’Erebor.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Vrai : Dáin Pied-d’Acier en vient avec son armée lors de la Bataille des Cinq Armées.",
+   "id": "t026-064",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Le Gondor se trouve au nord de l’Arnor.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Faux : l’Arnor était le royaume du Nord, le Gondor celui du Sud.",
+   "id": "t026-065",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 3,
+   "q": "Après la guerre, la Forêt Noire prend un nom elfique qui signifie « bois des feuilles vertes ».",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Vrai : Eryn Lasgalen, une fois Dol Guldur détruite.",
+   "id": "t026-066",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les Havres Gris se trouvent sur la côte est de la Terre du Milieu.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Faux : ils se trouvent à l’ouest, dans le golfe de Lune, face à la mer.",
+   "id": "t026-067",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "Minas Tirith est adossée au mont Mindolluin.",
+   "rep": true,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Vrai : la cité est taillée dans un éperon de la montagne.",
+   "id": "t026-068",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 2,
+   "q": "La Comté a été fondée par Bilbo.",
+   "rep": false,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Faux : elle a été fondée par les frères Marcho et Blanco, en 1601 du Troisième Âge.",
+   "id": "t026-069",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de niveaux compte la cité de Minas Tirith ?",
+   "rep": 7,
+   "min": 3,
+   "max": 12,
+   "pas": 1,
+   "unite": "niveaux",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Sept cercles de murailles, chacun avec sa porte, jusqu’à la Citadelle.",
+   "id": "t026-070",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Quelle hauteur la tour d’Orthanc atteint-elle, en pieds ?",
+   "rep": 500,
+   "min": 100,
+   "max": 1000,
+   "pas": 50,
+   "unite": "pieds",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Environ 150 mètres de pierre noire, impossible à briser.",
+   "id": "t026-071",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "À combien de pieds au-dessus de la Grande Porte s’élève la Citadelle de Minas Tirith ?",
+   "rep": 700,
+   "min": 100,
+   "max": 1500,
+   "pas": 50,
+   "unite": "pieds",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Environ 210 mètres : le dernier niveau domine tout le Pelennor.",
+   "id": "t026-072",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de Quartiers compte la Comté ?",
+   "rep": 4,
+   "min": 2,
+   "max": 8,
+   "pas": 1,
+   "unite": "Quartiers",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Le nom anglais « Farthing » désigne justement un quart.",
+   "id": "t026-073",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année du Troisième Âge la Comté est-elle fondée ?",
+   "rep": 1601,
+   "min": 1000,
+   "max": 2000,
+   "pas": 1,
+   "unite": "T.A.",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Cette année devient l’an 1 du Comput de la Comté.",
+   "id": "t026-074",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année du Troisième Âge Eorl reçoit-il le Calenardhon, qui devient le Rohan ?",
+   "rep": 2510,
+   "min": 2000,
+   "max": 3000,
+   "pas": 1,
+   "unite": "T.A.",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Après la bataille du Champ du Celebrant, Eorl prête un serment d’amitié éternelle au Gondor.",
+   "id": "t026-075",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 1,
+   "q": "Combien de sommets forment les Montagnes de la Moria ?",
+   "rep": 3,
+   "min": 1,
+   "max": 7,
+   "pas": 1,
+   "unite": "sommets",
+   "tolerance": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955), prologue et appendices",
+   "expl": "Caradhras, Celebdil et Fanuidhol entourent la vallée de Dimrill.",
+   "id": "t026-076",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La cité de Minas ____, « tour de garde », est la capitale du Gondor.",
+   "choix": [
+    "Tirith",
+    "Morgul",
+    "Ithil",
+    "Arnor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Elle fait face à Minas Morgul, de l’autre côté de l’Anduin.",
+   "id": "t026-077",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le grand fleuve qui traverse la Terre du Milieu du nord au sud s’appelle l’____.",
+   "choix": [
+    "Anduin",
+    "Isen",
+    "Brandevin",
+    "Bruinen"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Le « Grand Fleuve » sépare les terres de l’ouest du Rhovanion et du Mordor.",
+   "id": "t026-078",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La Comté est bordée à l’est par la rivière ____.",
+   "choix": [
+    "Brandevin",
+    "Bruinen",
+    "Isen",
+    "Nimrodel"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "On la traverse au Pont du Brandevin ou par le bac de Bucklebury.",
+   "id": "t026-079",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le palais d’or d’Edoras s’appelle ____.",
+   "choix": [
+    "Meduseld",
+    "Orthanc",
+    "Henneth Annûn",
+    "Dunharrow"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Son toit de chaume doré se voit de très loin dans la plaine.",
+   "id": "t026-080",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La tour noire de Saruman, à Isengard, s’appelle ____.",
+   "choix": [
+    "Orthanc",
+    "Barad-dûr",
+    "Meduseld",
+    "Cirith Ungol"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Bâtie par les Hommes de Númenor, elle résiste même à la colère des Ents.",
+   "id": "t026-081",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Fondcombe porte le nom elfique d’____.",
+   "choix": [
+    "Imladris",
+    "Mithlond",
+    "Lindon",
+    "Eregion"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "« Vallée profonde et fendue » : elle est fondée par Elrond au Deuxième Âge.",
+   "id": "t026-082",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Les Havres Gris s’appellent en elfique ____.",
+   "choix": [
+    "Mithlond",
+    "Imladris",
+    "Edhellond",
+    "Lindon"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Círdan le Charpentier y construit les navires qui partent vers l’Ouest.",
+   "id": "t026-083",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Avant que l’Ombre ne s’y étende, la Forêt Noire s’appelait Vert-Bois le ____.",
+   "choix": [
+    "Grand",
+    "Vieux",
+    "Haut",
+    "Clair"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Greenwood the Great, en anglais ; Dol Guldur l’a peu à peu assombrie.",
+   "id": "t026-084",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "Le volcan Orodruin est aussi appelé la Montagne du ____.",
+   "choix": [
+    "Destin",
+    "Feu",
+    "Sang",
+    "Malheur"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Sauron y a forgé l’Anneau unique dans les Chambres du Feu (Sammath Naur).",
+   "id": "t026-085",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le Pays de Bouc est protégé de la Vieille Forêt par une longue ____.",
+   "choix": [
+    "haie",
+    "muraille",
+    "palissade",
+    "tranchée"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "La Haie Haute s’étend sur des kilomètres le long de la forêt.",
+   "id": "t026-086",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La capitale du Rohan, ____, se dresse sur une colline verte au pied des montagnes.",
+   "choix": [
+    "Edoras",
+    "Dunharrow",
+    "Isengard",
+    "Aldburg"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Elle est bâtie par Brego, le fils d’Eorl.",
+   "id": "t026-087",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La grande forteresse du Rohan s’appelle le Gouffre de ____.",
+   "choix": [
+    "Helm",
+    "Eorl",
+    "Théoden",
+    "Brego"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Elle porte le nom de Helm Poing-de-Marteau, roi légendaire du Rohan.",
+   "id": "t026-088",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "Au bord du Nen Hithoel se dressent l’Amon Hen à l’ouest et l’Amon ____ à l’est.",
+   "choix": [
+    "Lhaw",
+    "Sûl",
+    "Rûdh",
+    "Anwar"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "La colline de la Vue et celle de l’Ouïe ; l’île de Tol Brandir est entre les deux.",
+   "id": "t026-089",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces noms n’est pas un Quartier de la Comté ?",
+   "choix": [
+    "Le Quartier du Centre",
+    "Le Quartier Nord",
+    "Le Quartier Sud",
+    "Le Quartier Est"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Il y a quatre Quartiers : Nord, Sud, Est et Ouest.",
+   "id": "t026-090",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces sommets n’est pas une Montagne de la Moria ?",
+   "choix": [
+    "Le Méthedras",
+    "Le Caradhras",
+    "Le Celebdil",
+    "Le Fanuidhol"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Le Méthedras est le dernier pic au sud des Monts Brumeux, au-dessus d’Isengard.",
+   "id": "t026-091",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Laquelle de ces cités n’appartient pas au Gondor ?",
+   "choix": [
+    "Edoras",
+    "Pelargir",
+    "Dol Amroth",
+    "Osgiliath"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Edoras est la capitale du Rohan, au pied des Montagnes Blanches.",
+   "id": "t026-092",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux ne se trouve pas au Mordor ?",
+   "choix": [
+    "Fangorn",
+    "Gorgoroth",
+    "Udûn",
+    "Barad-dûr"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Fangorn est la forêt des Ents, à l’ouest de l’Anduin.",
+   "id": "t026-093",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux n’est pas une forêt ?",
+   "choix": [
+    "La Dagorlad",
+    "Fangorn",
+    "La Vieille Forêt",
+    "La Lothlórien"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "La Dagorlad est une plaine désolée devant le Morannon.",
+   "id": "t026-094",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces noms n’est pas un cours d’eau ?",
+   "choix": [
+    "Le Caradhras",
+    "L’Anduin",
+    "L’Isen",
+    "La Bruinen"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Le Caradhras est la montagne qui repousse la Communauté sous la neige.",
+   "id": "t026-095",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces pays n’est pas un royaume des Hommes ?",
+   "choix": [
+    "La Lothlórien",
+    "Le Gondor",
+    "Le Rohan",
+    "L’Arnor"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "La Lothlórien est le pays des Elfes de Galadriel.",
+   "id": "t026-096",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces régions n’est pas une province du Gondor ?",
+   "choix": [
+    "L’Eriador",
+    "L’Ithilien",
+    "L’Anórien",
+    "Le Lebennin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "L’Eriador est la grande région du nord-ouest, où se trouve la Comté.",
+   "id": "t026-097",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux ne se trouve pas dans la Comté ?",
+   "choix": [
+    "Bree",
+    "Hobbitebourg",
+    "Grand’Cave",
+    "Lézeau"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Bree se trouve à l’est, au-delà des Hauts des Galgals.",
+   "id": "t026-098",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces lieux ne borde pas l’Anduin ?",
+   "choix": [
+    "Edoras",
+    "Osgiliath",
+    "Pelargir",
+    "Les Champs aux Iris"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Edoras se trouve au pied des Montagnes Blanches, loin du fleuve.",
+   "id": "t026-099",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels sont des Quartiers de la Comté ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Quartier Nord",
+    "Quartier Sud",
+    "Quartier Ouest",
+    "Pays de Dun",
+    "Rhûn"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Le Pays de Dun est à l’ouest du Rohan, le Rhûn tout à l’est.",
+   "id": "t026-100",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles chaînes de montagnes entourent le Mordor ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Ephel Dúath",
+    "Ered Lithui",
+    "Ered Luin",
+    "Monts Brumeux",
+    "Ered Mithrin"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Les Montagnes de l’Ombre et les Montagnes de Cendre se rejoignent au nord-ouest.",
+   "id": "t026-101",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles cités appartiennent au Gondor ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Minas Tirith",
+    "Osgiliath",
+    "Pelargir",
+    "Edoras",
+    "Bree"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Edoras est au Rohan, Bree en Eriador, loin au nord-ouest.",
+   "id": "t026-102",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux se trouvent au Rohan ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Edoras",
+    "Le Gouffre de Helm",
+    "Dunharrow",
+    "Fondcombe",
+    "Dol Amroth"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Fondcombe est en Eriador, Dol Amroth sur la côte du Gondor.",
+   "id": "t026-103",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Dans quelles forêts les arbres sont-ils éveillés et conscients ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fangorn",
+    "La Vieille Forêt",
+    "La Lothlórien",
+    "La forêt de Drúadan",
+    "Les Trollshaws"
+   ],
+   "reps": [
+    0,
+    1
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Les Ents et les Huorns vivent à Fangorn ; le Vieil Homme Saule règne sur la Vieille Forêt.",
+   "id": "t026-104",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux sont des cités ou royaumes des Nains ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Khazad-dûm",
+    "Erebor",
+    "Les Monts de Fer",
+    "Dale",
+    "Esgaroth"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Dale et Esgaroth sont des villes humaines, voisines d’Erebor.",
+   "id": "t026-105",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux se trouvent à l’est des Monts Brumeux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "La Lothlórien",
+    "La Forêt Noire",
+    "Erebor",
+    "Fondcombe",
+    "La Comté"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Fondcombe est juste à l’ouest des montagnes, au pied du col du Haut.",
+   "id": "t026-106",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles régions menacent le Gondor au sud et à l’est ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Le Harad",
+    "Umbar",
+    "Le Rhûn",
+    "Le Rohan",
+    "Dol Amroth"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Le Rohan et Dol Amroth sont les fidèles alliés du Gondor.",
+   "id": "t026-107",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quels lieux sont des refuges elfiques ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Fondcombe",
+    "La Lothlórien",
+    "Les Havres Gris",
+    "Bree",
+    "Edoras"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Bree et Edoras sont des cités humaines, sans présence elfique durable.",
+   "id": "t026-108",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels lieux se trouvent au Mordor ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Barad-dûr",
+    "Le Gorgoroth",
+    "La tour de Cirith Ungol",
+    "La Dagorlad",
+    "Osgiliath"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "La Dagorlad s’étend devant le Mordor, Osgiliath en Gondor.",
+   "id": "t026-109",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la Communauté du nord au sud.",
+   "items": [
+    "Fondcombe",
+    "La Moria",
+    "La Lothlórien",
+    "Les chutes de Rauros"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "La Communauté descend toujours vers le sud, en suivant les montagnes puis le fleuve.",
+   "id": "t026-110",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces lieux de l’Anduin du nord au sud.",
+   "items": [
+    "Les Champs aux Iris",
+    "Les chutes de Rauros",
+    "Osgiliath",
+    "Pelargir"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Le fleuve coule vers le sud jusqu’à la baie de Belfalas.",
+   "id": "t026-111",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces lieux de Minas Tirith du bas vers le haut.",
+   "items": [
+    "La Grande Porte",
+    "Les Maisons de Guérison",
+    "La Cour de la Fontaine"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Les Maisons de Guérison sont au sixième cercle, la Cour de la Fontaine dans la Citadelle.",
+   "id": "t026-112",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces étapes de la route de Frodon, de l’ouest à l’est.",
+   "items": [
+    "Hobbitebourg",
+    "Le Pays de Bouc",
+    "Bree",
+    "Le Mont Venteux",
+    "Fondcombe"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "C’est la route suivie par Frodon et ses amis dans le premier livre.",
+   "id": "t026-113",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces régions du nord au sud.",
+   "items": [
+    "L’Angmar",
+    "Le Rohan",
+    "Le Gondor",
+    "Le Harad"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955) ; Karen Wynn Fonstad, The Atlas of Middle-earth (1991)",
+   "expl": "Du royaume du Roi-Sorcier jusqu’aux terres des Suderons.",
+   "id": "t026-114",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces lieux du nord de la carte, de l’ouest à l’est.",
+   "items": [
+    "Les Havres Gris",
+    "La Comté",
+    "Fondcombe",
+    "La Forêt Noire",
+    "Erebor"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings, appendices A et B",
+   "expl": "C’est l’axe de la plupart des voyages de Bilbo et de Frodon.",
+   "id": "t026-115",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces événements par ordre chronologique.",
+   "items": [
+    "Fondation de la Comté",
+    "Don du Rohan à Eorl",
+    "Bataille d’Azanulbizar",
+    "Mort de Smaug"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "1601, 2510, 2799 et 2941 du Troisième Âge.",
+   "id": "t026-116",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du voyage de Frodon et Sam dans l’ordre.",
+   "items": [
+    "Les Emyn Muil",
+    "Les Marais des Morts",
+    "Le Morannon",
+    "L’Ithilien",
+    "Cirith Ungol"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Devant la Porte Noire infranchissable, Gollum les guide vers le sud.",
+   "id": "t026-117",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étendues d’eau du nord au sud.",
+   "items": [
+    "La baie de Forochel",
+    "Le Nen Hithoel",
+    "La mer de Núrnen"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "La baie de Forochel est prise par les glaces ; Núrnen est au sud du Mordor.",
+   "id": "t026-118",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces lieux du Rohan et du Gondor, de l’ouest à l’est.",
+   "items": [
+    "Les Gués de l’Isen",
+    "Le Gouffre de Helm",
+    "Edoras",
+    "Minas Tirith"
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "De la frontière d’Isengard jusqu’à la capitale du Gondor.",
+   "id": "t026-119",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque cité à son peuple.",
+   "paires": [
+    [
+     "Edoras",
+     "Rohirrim"
+    ],
+    [
+     "Minas Tirith",
+     "Hommes du Gondor"
+    ],
+    [
+     "Khazad-dûm",
+     "Nains"
+    ],
+    [
+     "Caras Galadhon",
+     "Elfes"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Chaque peuple a sa manière de bâtir : halls de bois, cités de pierre, salles souterraines, maisons dans les arbres.",
+   "id": "t026-120",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à son ancien nom.",
+   "paires": [
+    [
+     "Minas Tirith",
+     "Minas Anor"
+    ],
+    [
+     "Minas Morgul",
+     "Minas Ithil"
+    ],
+    [
+     "Rohan",
+     "Calenardhon"
+    ],
+    [
+     "Forêt Noire",
+     "Vert-Bois le Grand"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les noms changent quand l’histoire change le visage des lieux.",
+   "id": "t026-121",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à son nom elfique.",
+   "paires": [
+    [
+     "Fondcombe",
+     "Imladris"
+    ],
+    [
+     "Havres Gris",
+     "Mithlond"
+    ],
+    [
+     "Monts Brumeux",
+     "Hithaeglir"
+    ],
+    [
+     "Montagnes Blanches",
+     "Ered Nimrais"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Tolkien donne souvent deux noms : l’un traduit, l’autre en sindarin.",
+   "id": "t026-122",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque forteresse à son maître pendant la guerre.",
+   "paires": [
+    [
+     "Orthanc",
+     "Saruman"
+    ],
+    [
+     "Barad-dûr",
+     "Sauron"
+    ],
+    [
+     "Minas Morgul",
+     "Le Roi-Sorcier"
+    ],
+    [
+     "Meduseld",
+     "Théoden"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Meduseld est le palais royal du Rohan, à Edoras.",
+   "id": "t026-123",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque région à ses habitants.",
+   "paires": [
+    [
+     "Harad",
+     "Haradrim"
+    ],
+    [
+     "Rhûn",
+     "Orientaux"
+    ],
+    [
+     "Umbar",
+     "Corsaires"
+    ],
+    [
+     "Pays de Dun",
+     "Hommes de Dun"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les Hommes de Dun haïssent le Rohan, qui occupe des terres qu’ils estiment leurs.",
+   "id": "t026-124",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque rivière à sa région.",
+   "paires": [
+    [
+     "Brandevin",
+     "La Comté"
+    ],
+    [
+     "Isen",
+     "Le Rohan"
+    ],
+    [
+     "Bruinen",
+     "Fondcombe"
+    ],
+    [
+     "Celebrant",
+     "La Lothlórien"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les rivières servent souvent de frontières dans la Terre du Milieu.",
+   "id": "t026-125",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque sommet à ce qu’il domine.",
+   "paires": [
+    [
+     "Mindolluin",
+     "Minas Tirith"
+    ],
+    [
+     "Méthedras",
+     "Isengard"
+    ],
+    [
+     "Caradhras",
+     "Les portes de la Moria"
+    ],
+    [
+     "Dwimorberg",
+     "Les Chemins des Morts"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Le Dwimorberg, la « Montagne hantée », s’élève au-dessus de Dunharrow.",
+   "id": "t026-126",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque lieu à l’événement qui s’y déroule.",
+   "paires": [
+    [
+     "Amon Hen",
+     "Mort de Boromir"
+    ],
+    [
+     "Mont Venteux",
+     "Frodon poignardé"
+    ],
+    [
+     "Pont de Khazad-dûm",
+     "Chute de Gandalf"
+    ],
+    [
+     "Gué de la Bruinen",
+     "Crue contre les Nazgûl"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Chaque lieu de la carte garde la trace d’un épisode marquant.",
+   "id": "t026-127",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque bataille à son lieu.",
+   "paires": [
+    [
+     "Champs du Pelennor",
+     "Devant Minas Tirith"
+    ],
+    [
+     "Dagorlad",
+     "Devant la Porte Noire"
+    ],
+    [
+     "Fort-le-Cor",
+     "Rohan"
+    ],
+    [
+     "Bataille des Cinq Armées",
+     "Erebor"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "La Dagorlad a vu la Dernière Alliance vaincre l’armée de Sauron.",
+   "id": "t026-128",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à sa particularité.",
+   "paires": [
+    [
+     "Henneth Annûn",
+     "Grotte derrière une cascade"
+    ],
+    [
+     "Argonath",
+     "Statues de rois"
+    ],
+    [
+     "Rauros",
+     "Grandes chutes"
+    ],
+    [
+     "Aglarond",
+     "Grottes scintillantes"
+    ]
+   ],
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Tolkien aimait les paysages grandioses, souvent inspirés de lieux réels.",
+   "id": "t026-129",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un volcan\n2. Je me trouve au Mordor\n3. L’Anneau y est né et y disparaît",
+   "choix": [
+    "La Montagne du Destin",
+    "Le Caradhras",
+    "Erebor",
+    "Le Mindolluin"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Ses éruptions obéissent à la volonté de Sauron.",
+   "id": "t026-130",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une cité\n2. J’ai sept niveaux\n3. Je garde l’Arbre Blanc",
+   "choix": [
+    "Minas Tirith",
+    "Osgiliath",
+    "Edoras",
+    "Dol Amroth"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "L’Arbre Blanc est mort, mais Aragorn en trouve un rejeton dans la montagne.",
+   "id": "t026-131",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une forêt\n2. Mes arbres marchent\n3. Sylvebarbe y vit",
+   "choix": [
+    "Fangorn",
+    "La Lothlórien",
+    "La Forêt Noire",
+    "La Vieille Forêt"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les Ents y vivent depuis les Jours anciens, mais les Ents-femmes ont disparu.",
+   "id": "t026-132",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une cité naine\n2. Un Balrog m’a vidée\n3. On y entre en disant « ami »",
+   "choix": [
+    "La Moria",
+    "Erebor",
+    "Les Monts de Fer",
+    "Gundabad"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les Nains y avaient creusé trop profond, en quête de mithril.",
+   "id": "t026-133",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une tour noire\n2. On ne peut me briser\n3. Un magicien y règne",
+   "choix": [
+    "Orthanc",
+    "Barad-dûr",
+    "Minas Morgul",
+    "Cirith Ungol"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les Ents inondent Isengard mais ne peuvent rien contre la tour.",
+   "id": "t026-134",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une vallée cachée\n2. J’abrite la Dernière Maison Simple\n3. Elrond y règne",
+   "choix": [
+    "Fondcombe",
+    "La Lothlórien",
+    "Les Havres Gris",
+    "Dunharrow"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Bilbo y passe ses dernières années en Terre du Milieu.",
+   "id": "t026-135",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville en ruine\n2. J’étais la capitale du Gondor\n3. Le Grand Fleuve me coupe en deux",
+   "choix": [
+    "Osgiliath",
+    "Pelargir",
+    "Minas Morgul",
+    "Fornost"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Son dôme abritait autrefois la principale palantír du Gondor.",
+   "id": "t026-136",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis un village\n2. Hommes et hobbits y vivent\n3. Mon auberge est le Poney Fringant",
+   "choix": [
+    "Bree",
+    "Hobbitebourg",
+    "Dale",
+    "Esgaroth"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Bree est un carrefour de routes où l’on apprend toutes les nouvelles.",
+   "id": "t026-137",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un pays\n2. Mes habitants vivent à cheval\n3. On m’appelait Calenardhon",
+   "choix": [
+    "Le Rohan",
+    "Le Gondor",
+    "L’Arnor",
+    "Le Harad"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Les Rohirrim descendent des Éothéod, venus du nord.",
+   "id": "t026-138",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un port\n2. Les Elfes partent de chez moi\n3. Círdan m’a bâti",
+   "choix": [
+    "Les Havres Gris",
+    "Pelargir",
+    "Umbar",
+    "Dol Amroth"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Frodon, Bilbo et Gandalf y embarquent à la fin du récit.",
+   "id": "t026-139",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 1,
+   "q": "Qui suis-je ?\n1. Je suis une forêt\n2. Mes arbres ont des feuilles d’or\n3. Une dame elfique y règne",
+   "choix": [
+    "La Lothlórien",
+    "Fangorn",
+    "La Forêt Noire",
+    "La Vieille Forêt"
+   ],
+   "rep": 0,
+   "src": "J. R. R. Tolkien, The Lord of the Rings (1954-1955)",
+   "expl": "Le temps semble s’y écouler autrement que dans le reste du monde.",
+   "id": "t026-140",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
