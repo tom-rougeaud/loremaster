@@ -1,0 +1,1987 @@
+{
+ "schema": "quiz-bestiaire/1",
+ "theme": {
+  "id": "medecine-medievale",
+  "nom": "Médecine, alchimie et croyances médiévales",
+  "royaume": "Le Moyen Âge historique",
+  "icone": "alambic",
+  "sombre": false
+ },
+ "legende": {
+  "niveau": "1 Apprenti, 2 Aventurier, 3 Maître",
+  "slider": "bonne réponse si |réponse − rep| ≤ tolerance",
+  "conf": "probable = rédigé de mémoire avec sources ; à auditer"
+ },
+ "questions": [
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Selon la médecine médiévale, combien d’humeurs composent le corps ?",
+   "choix": [
+    "Quatre",
+    "Deux",
+    "Sept",
+    "Douze"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Sang, flegme, bile jaune et bile noire doivent rester en équilibre.",
+   "id": "t062-001",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels médecins de l’Antiquité inspirent la théorie des humeurs ?",
+   "choix": [
+    "Hippocrate et Galien",
+    "Platon et Aristote",
+    "Pline et Sénèque",
+    "Euclide et Archimède"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Leurs écrits, traduits et commentés, font autorité pendant plus de mille ans.",
+   "id": "t062-002",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel tempérament correspond à un excès de bile noire ?",
+   "choix": [
+    "Mélancolique",
+    "Sanguin",
+    "Colérique",
+    "Flegmatique"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Le mot grec « melankholia » signifie justement « bile noire ».",
+   "id": "t062-003",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel tempérament correspond à un excès de bile jaune ?",
+   "choix": [
+    "Colérique",
+    "Mélancolique",
+    "Sanguin",
+    "Flegmatique"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Le colérique est réputé vif, ambitieux et emporté.",
+   "id": "t062-004",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel traitement très courant consiste à retirer du sang au malade ?",
+   "choix": [
+    "La saignée",
+    "La ventouse sèche",
+    "Le clystère",
+    "La purge"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "On pensait ainsi rétablir l’équilibre des humeurs.",
+   "id": "t062-005",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Qu’examine le médecin médiéval dans un flacon de verre appelé matula ?",
+   "choix": [
+    "L’urine",
+    "Le sang",
+    "La salive",
+    "Les larmes"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "La couleur, l’odeur et même le goût de l’urine guident le diagnostic.",
+   "id": "t062-006",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel savant persan écrit le Canon de la médecine, enseigné en Europe pendant des siècles ?",
+   "choix": [
+    "Avicenne",
+    "Averroès",
+    "Rhazès",
+    "Maïmonide"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Traduit en latin au 12e siècle, il reste un manuel de référence jusqu’au 17e.",
+   "id": "t062-007",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville d’Italie du Sud abrite une célèbre école de médecine dès le 10e siècle ?",
+   "choix": [
+    "Salerne",
+    "Bologne",
+    "Padoue",
+    "Naples"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Elle accueille même des femmes médecins, comme Trotula.",
+   "id": "t062-008",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle faculté de médecine du sud de la France reçoit ses statuts en 1220 ?",
+   "choix": [
+    "Montpellier",
+    "Toulouse",
+    "Avignon",
+    "Marseille"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Elle est aujourd’hui la plus ancienne faculté de médecine en activité au monde.",
+   "id": "t062-009",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel hôpital fondé au 15e siècle en Bourgogne est célèbre pour ses toits vernissés ?",
+   "choix": [
+    "Les Hospices de Beaune",
+    "L’Hôtel-Dieu de Paris",
+    "L’hôpital Saint-Jean d’Angers",
+    "La Charité de Lyon"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Le chancelier Nicolas Rolin le fonde en 1443 pour les pauvres.",
+   "id": "t062-010",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel chirurgien d’Avignon écrit en 1363 une Grande Chirurgie restée célèbre ?",
+   "choix": [
+    "Guy de Chauliac",
+    "Ambroise Paré",
+    "Henri de Mondeville",
+    "Lanfranc de Milan"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Médecin des papes, il soigne les malades de la peste noire et décrit ses symptômes.",
+   "id": "t062-011",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels artisans pratiquent les petites opérations, comme les saignées et l’arrachage des dents ?",
+   "choix": [
+    "Les barbiers-chirurgiens",
+    "Les apothicaires",
+    "Les herboristes",
+    "Les médecins d’université"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Les médecins diplômés jugent souvent ces travaux manuels indignes d’eux.",
+   "id": "t062-012",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle ville impose dès 1377 un isolement obligatoire aux voyageurs venus de zones infectées ?",
+   "choix": [
+    "Raguse",
+    "Venise",
+    "Marseille",
+    "Gênes"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Raguse, l’actuelle Dubrovnik, impose d’abord trente jours ; on passe ensuite à quarante, d’où le mot « quarantaine ».",
+   "id": "t062-013",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel costume, souvent associé à la peste noire, date en réalité du 17e siècle ?",
+   "choix": [
+    "Le masque à bec du médecin",
+    "La robe noire du prêtre",
+    "Le capuchon du moine",
+    "Le tablier du barbier"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Le bec, rempli d’herbes, devait filtrer l’air « corrompu ».",
+   "id": "t062-014",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quels pénitents parcourent l’Europe en se fouettant pendant la peste de 1348 ?",
+   "choix": [
+    "Les flagellants",
+    "Les cathares",
+    "Les béguines",
+    "Les franciscains"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Le pape finit par condamner ces processions.",
+   "id": "t062-015",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel champignon du seigle provoque le « mal des ardents » ?",
+   "choix": [
+    "L’ergot",
+    "Le mildiou",
+    "La rouille",
+    "L’oïdium"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "L’empoisonnement brûle les membres et peut provoquer hallucinations et gangrène.",
+   "id": "t062-016",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel ordre religieux soigne les malades du « mal des ardents » ?",
+   "choix": [
+    "Les Antonins",
+    "Les Templiers",
+    "Les cisterciens",
+    "Les chartreux"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Leur abbaye, dans le Dauphiné, attire des milliers de malades.",
+   "id": "t062-017",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel objet sonore les lépreux devaient-ils agiter pour signaler leur présence ?",
+   "choix": [
+    "Une crécelle ou une cliquette",
+    "Une cloche d’église",
+    "Une trompe",
+    "Un tambour"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Ils avaient aussi souvent un vêtement distinctif et devaient éviter les puits publics.",
+   "id": "t062-018",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle maladie les rois de France et d’Angleterre étaient-ils censés guérir par le toucher ?",
+   "choix": [
+    "Les écrouelles",
+    "La lèpre",
+    "La peste",
+    "La rage"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Il s’agit d’une forme de tuberculose des ganglions du cou.",
+   "id": "t062-019",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel historien français étudie ce pouvoir de guérison dans Les Rois thaumaturges ?",
+   "choix": [
+    "Marc Bloch",
+    "Jacques Le Goff",
+    "Georges Duby",
+    "Fernand Braudel"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Le livre paraît en 1924 et renouvelle l’histoire des croyances.",
+   "id": "t062-020",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel remède antique, composé de dizaines d’ingrédients dont la chair de vipère, passe pour un antidote universel ?",
+   "choix": [
+    "La thériaque",
+    "L’hypocras",
+    "L’élixir de jouvence",
+    "Le laudanum"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Venise est longtemps réputée pour la fabrication de la meilleure thériaque.",
+   "id": "t062-021",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on le jardin de plantes médicinales d’un monastère ?",
+   "choix": [
+    "Le jardin des simples",
+    "Le potager royal",
+    "Le verger des moines",
+    "Le jardin d’agrément"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Les « simples » sont des plantes utilisées seules comme remèdes.",
+   "id": "t062-022",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que cherchent avant tout les alchimistes ?",
+   "choix": [
+    "La pierre philosophale",
+    "Le mouvement perpétuel",
+    "La quadrature du cercle",
+    "La source du Nil"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Elle permettrait de changer les métaux vils en or et de prolonger la vie.",
+   "id": "t062-023",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment les alchimistes appellent-ils le passage d’un métal vil à un métal noble ?",
+   "choix": [
+    "La transmutation",
+    "La sublimation",
+    "La distillation",
+    "La fusion"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Les alchimistes rêvent surtout de transformer le plomb ou le mercure en or.",
+   "id": "t062-024",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel four alchimique entretient une chaleur douce et constante ?",
+   "choix": [
+    "L’athanor",
+    "L’alambic",
+    "Le creuset",
+    "La cornue"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Son nom vient de l’arabe al-tannur, le four.",
+   "id": "t062-025",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel appareil de distillation porte un nom venu de l’arabe ?",
+   "choix": [
+    "L’alambic",
+    "L’athanor",
+    "Le pélican",
+    "L’œuf philosophique"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Les alchimistes arabes perfectionnent la distillation, qui permet ensuite de produire l’alcool.",
+   "id": "t062-026",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel alchimiste arabe, connu en latin sous le nom de Geber, est l’un des pères de la chimie ?",
+   "choix": [
+    "Jabir ibn Hayyan",
+    "Avicenne",
+    "Al-Khwarizmi",
+    "Ibn Sina"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Une grande partie des textes qui lui sont attribués datent en réalité de plusieurs siècles.",
+   "id": "t062-027",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel écrivain public parisien du 14e siècle est devenu, par la légende, un célèbre alchimiste ?",
+   "choix": [
+    "Nicolas Flamel",
+    "Jacques Cœur",
+    "Roger Bacon",
+    "Albert le Grand"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Il était riche et généreux ; on a ensuite expliqué sa fortune par la pierre philosophale.",
+   "id": "t062-028",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel serpent qui se mord la queue symbolise le cycle éternel chez les alchimistes ?",
+   "choix": [
+    "L’ouroboros",
+    "Le basilic",
+    "La vouivre",
+    "Le léviathan"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Il représente l’unité de la matière, qui se transforme sans fin.",
+   "id": "t062-029",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle première étape du Grand Œuvre est symbolisée par la couleur noire ?",
+   "choix": [
+    "La nigredo",
+    "L’albedo",
+    "La rubedo",
+    "La citrinitas"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "La matière doit d’abord être décomposée, avant d’être purifiée.",
+   "id": "t062-030",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 1,
+   "q": "Quel mélange d’acides peut dissoudre l’or ?",
+   "choix": [
+    "L’eau régale",
+    "L’eau-forte",
+    "Le vitriol seul",
+    "L’eau de vie"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Son nom vient de sa capacité à dissoudre le « roi des métaux ».",
+   "id": "t062-031",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel saint guérisseur de la peste est souvent représenté avec un chien qui lui apporte du pain ?",
+   "choix": [
+    "Saint Roch",
+    "Saint Sébastien",
+    "Saint Antoine",
+    "Saint Martin"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Il montre souvent la plaie de sa cuisse, signe de la maladie.",
+   "id": "t062-032",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel saint martyr, percé de flèches, est invoqué contre la peste ?",
+   "choix": [
+    "Saint Sébastien",
+    "Saint Roch",
+    "Saint Georges",
+    "Saint Maurice"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "On comparait la peste à des flèches envoyées par Dieu.",
+   "id": "t062-033",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel lieu de l’au-delà, entre le Paradis et l’Enfer, prend une grande importance au 12e siècle ?",
+   "choix": [
+    "Le Purgatoire",
+    "Les Limbes",
+    "Le Tartare",
+    "Le Shéol"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Les âmes y expient leurs fautes avant d’accéder au Paradis.",
+   "id": "t062-034",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle peinture murale montre les morts entraînant les vivants de tous rangs ?",
+   "choix": [
+    "La danse macabre",
+    "Le Jugement dernier",
+    "La Cène",
+    "La Pietà"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Celle du cimetière des Innocents, à Paris, date de 1424 ; il en reste une à La Chaise-Dieu.",
+   "id": "t062-035",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Comment appelle-t-on les sculptures funéraires montrant un cadavre en décomposition ?",
+   "choix": [
+    "Des transis",
+    "Des gisants dorés",
+    "Des priants",
+    "Des atlantes"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Ils rappellent la vanité de la vie et la nécessité de préparer sa mort.",
+   "id": "t062-036",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quel petit livre enseigne, au 15e siècle, comment bien mourir ?",
+   "choix": [
+    "L’Ars moriendi",
+    "Le Ménagier de Paris",
+    "Le Livre des métiers",
+    "Le Roman de la Rose"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Ses gravures montrent les tentations du diable au chevet du mourant.",
+   "id": "t062-037",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle image montre les signes astrologiques gouvernant chaque partie du corps ?",
+   "choix": [
+    "L’homme zodiacal",
+    "L’homme de Vitruve",
+    "L’écorché",
+    "L’arbre de vie"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Les médecins consultaient la position de la lune avant une saignée.",
+   "id": "t062-038",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Quelle croyance sur l’an mil est aujourd’hui considérée par les historiens comme largement exagérée ?",
+   "choix": [
+    "Une grande terreur de la fin du monde",
+    "Le début des croisades",
+    "La construction de cathédrales",
+    "Le baptême de la Pologne"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Ces « terreurs de l’an mil » sont surtout une invention d’historiens du 19e siècle.",
+   "id": "t062-039",
+   "conf": "probable"
+  },
+  {
+   "type": "qcm",
+   "niveau": 2,
+   "q": "Que déposait-on dans une église pour remercier un saint d’une guérison ?",
+   "choix": [
+    "Un ex-voto",
+    "Un reliquaire",
+    "Un bréviaire",
+    "Un missel"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart, La Médecine médiévale dans le cadre parisien (Fayard) ; M. Bloch, Les Rois thaumaturges (1924) ; J. Le Goff, La Naissance du Purgatoire (1981) ; BnF, « Alchimie » (exposition virtuelle) ; Bibliothèque interuniversitaire de santé",
+   "expl": "Il pouvait s’agir d’un membre de cire, d’une béquille ou d’un petit tableau.",
+   "id": "t062-040",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Pour les médecins médiévaux, la maladie vient souvent d’un déséquilibre des humeurs.",
+   "rep": true,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le traitement cherche donc à évacuer l’humeur en excès.",
+   "id": "t062-041",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les médecins de la peste noire portaient déjà le célèbre masque à bec.",
+   "rep": false,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Faux : ce costume est décrit pour la première fois au 17e siècle.",
+   "id": "t062-042",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Avicenne était un médecin persan.",
+   "rep": true,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Il écrit en arabe, la langue savante du monde musulman.",
+   "id": "t062-043",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La faculté de médecine de Montpellier existe encore aujourd’hui.",
+   "rep": true,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Rabelais y a étudié, puis enseigné, au 16e siècle.",
+   "id": "t062-044",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le mal des ardents est causé par un champignon du seigle.",
+   "rep": true,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On l’appelle aujourd’hui l’ergotisme ; il frappe surtout lors des disettes.",
+   "id": "t062-045",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les alchimistes ont réussi à transformer le plomb en or.",
+   "rep": false,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Faux : aucune transmutation n’a jamais été démontrée.",
+   "id": "t062-046",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "L’alambic sert à fondre les métaux.",
+   "rep": false,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Faux : il sert à distiller ; on fond les métaux dans un creuset.",
+   "id": "t062-047",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Nicolas Flamel a réellement existé.",
+   "rep": true,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Il était écrivain public et libraire à Paris, mort en 1418.",
+   "id": "t062-048",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les rois de France prétendaient guérir les écrouelles.",
+   "rep": true,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le jour du sacre, le roi touchait des centaines de malades.",
+   "id": "t062-049",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les hommes de l’an mil vivaient tous dans la terreur de la fin du monde.",
+   "rep": false,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Faux : les sources de l’époque montrent peu de traces de cette panique générale.",
+   "id": "t062-050",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Les barbiers pratiquaient aussi des soins médicaux.",
+   "rep": true,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Ils saignaient, posaient des ventouses, soignaient les plaies et arrachaient les dents.",
+   "id": "t062-051",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "La thériaque contenait de la chair de vipère.",
+   "rep": true,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On pensait que le venin, bien préparé, combattait les autres poisons.",
+   "id": "t062-052",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Saint Roch est invoqué contre les maux de dents.",
+   "rep": false,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Faux : il est invoqué contre la peste ; c’est sainte Apolline qui protège des maux de dents.",
+   "id": "t062-053",
+   "conf": "probable"
+  },
+  {
+   "type": "vf",
+   "niveau": 1,
+   "q": "Le Purgatoire est une invention du 20e siècle.",
+   "rep": false,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff",
+   "expl": "Faux : la croyance se précise dans l’Église au 12e siècle.",
+   "id": "t062-054",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 2,
+   "q": "Combien d’humeurs compte la médecine médiévale ?",
+   "rep": 4,
+   "min": 2,
+   "max": 8,
+   "pas": 1,
+   "unite": "humeurs",
+   "tolerance": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff",
+   "expl": "Chaque humeur est liée à un élément et à une saison.",
+   "id": "t062-055",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "Combien de jours dure une quarantaine ?",
+   "rep": 40,
+   "min": 7,
+   "max": 60,
+   "pas": 1,
+   "unite": "jours",
+   "tolerance": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff",
+   "expl": "Le chiffre rappelle aussi les quarante jours du carême.",
+   "id": "t062-056",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Raguse impose-t-elle la première mise à l’écart des voyageurs ?",
+   "rep": 1377,
+   "min": 1300,
+   "max": 1450,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff",
+   "expl": "La mesure vise à empêcher la peste d’entrer dans la ville.",
+   "id": "t062-057",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année sont fondés les Hospices de Beaune ?",
+   "rep": 1443,
+   "min": 1350,
+   "max": 1500,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff",
+   "expl": "Ils accueillent des malades jusqu’en 1971.",
+   "id": "t062-058",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année la faculté de médecine de Montpellier reçoit-elle ses statuts ?",
+   "rep": 1220,
+   "min": 1100,
+   "max": 1350,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff",
+   "expl": "Ils sont accordés par un légat du pape, le cardinal Conrad.",
+   "id": "t062-059",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année Guy de Chauliac achève-t-il sa Grande Chirurgie ?",
+   "rep": 1363,
+   "min": 1250,
+   "max": 1450,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff",
+   "expl": "L’ouvrage est utilisé pendant plus de deux siècles.",
+   "id": "t062-060",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année paraît Les Rois thaumaturges de Marc Bloch ?",
+   "rep": 1924,
+   "min": 1890,
+   "max": 1960,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff",
+   "expl": "Marc Bloch, résistant, est fusillé par les nazis en 1944.",
+   "id": "t062-061",
+   "conf": "probable"
+  },
+  {
+   "type": "slider",
+   "niveau": 3,
+   "q": "En quelle année est peinte la danse macabre du cimetière des Innocents ?",
+   "rep": 1424,
+   "min": 1350,
+   "max": 1500,
+   "pas": 1,
+   "unite": "année",
+   "tolerance": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff",
+   "expl": "Elle est détruite au 17e siècle, mais connue par des gravures.",
+   "id": "t062-062",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 1,
+   "q": "La théorie médicale médiévale repose sur quatre ____.",
+   "choix": [
+    "humeurs",
+    "éléments",
+    "organes",
+    "planètes"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On les appelle humeurs, car ce sont des liquides du corps.",
+   "id": "t062-063",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’excès de bile noire rend ____.",
+   "choix": [
+    "mélancolique",
+    "colérique",
+    "sanguin",
+    "flegmatique"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On décrit le mélancolique comme triste, rêveur et introverti.",
+   "id": "t062-064",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le médecin persan auteur du Canon s’appelle ____.",
+   "choix": [
+    "Avicenne",
+    "Averroès",
+    "Galien",
+    "Rhazès"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Son nom arabe est Ibn Sina ; il vit de 980 à 1037.",
+   "id": "t062-065",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le flacon où l’on examine l’urine s’appelle la ____.",
+   "choix": [
+    "matula",
+    "fiole",
+    "cornue",
+    "aiguière"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Elle devient le symbole du médecin dans les images médiévales.",
+   "id": "t062-066",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le chancelier qui fonde les Hospices de Beaune s’appelle Nicolas ____.",
+   "choix": [
+    "Rolin",
+    "Flamel",
+    "Fouquet",
+    "Oresme"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Il était le chancelier du duc de Bourgogne Philippe le Bon.",
+   "id": "t062-067",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le champignon du « mal des ardents » s’appelle l’____.",
+   "choix": [
+    "ergot",
+    "oïdium",
+    "mildiou",
+    "amadou"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le seigle contaminé était consommé en temps de disette.",
+   "id": "t062-068",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La maladie que les rois guérissent par le toucher s’appelle les ____.",
+   "choix": [
+    "écrouelles",
+    "pustules",
+    "fièvres",
+    "ulcères"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le roi prononçait une formule en traçant un signe de croix.",
+   "id": "t062-069",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "L’antidote universel à la chair de vipère s’appelle la ____.",
+   "choix": [
+    "thériaque",
+    "panacée",
+    "mithridate",
+    "jouvence"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Son nom vient du grec thêr, la bête sauvage.",
+   "id": "t062-070",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La pierre des alchimistes s’appelle la pierre ____.",
+   "choix": [
+    "philosophale",
+    "précieuse",
+    "magique",
+    "sacrée"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On la décrit souvent comme une poudre rouge.",
+   "id": "t062-071",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le four des alchimistes s’appelle l’____.",
+   "choix": [
+    "athanor",
+    "alambic",
+    "creuset",
+    "âtre"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On y place l’œuf philosophique pendant de longues semaines.",
+   "id": "t062-072",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "Le serpent qui se mord la queue s’appelle l’____.",
+   "choix": [
+    "ouroboros",
+    "amphisbène",
+    "basilic",
+    "hydre"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le symbole remonte à l’Égypte antique et passe par les alchimistes grecs.",
+   "id": "t062-073",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 2,
+   "q": "La peinture où les morts entraînent les vivants s’appelle la danse ____.",
+   "choix": [
+    "macabre",
+    "des morts",
+    "funèbre",
+    "noire"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Rois, papes et paysans y sont égaux face à la mort.",
+   "id": "t062-074",
+   "conf": "probable"
+  },
+  {
+   "type": "trou",
+   "niveau": 3,
+   "q": "L’écrivain public devenu alchimiste par la légende s’appelle Nicolas ____.",
+   "choix": [
+    "Flamel",
+    "Fouquet",
+    "Oresme",
+    "Cœur"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Sa maison, rue de Montmorency, serait la plus ancienne de Paris.",
+   "id": "t062-075",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 1,
+   "q": "Lequel de ces mots n’est pas une humeur ?",
+   "choix": [
+    "Le cœur",
+    "Le sang",
+    "Le flegme",
+    "La bile noire"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le cœur est un organe, et non un liquide du corps.",
+   "id": "t062-076",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces savants n’est pas un médecin ?",
+   "choix": [
+    "Jabir ibn Hayyan",
+    "Avicenne",
+    "Galien",
+    "Guy de Chauliac"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Jabir ibn Hayyan est surtout connu comme alchimiste.",
+   "id": "t062-077",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces instruments n’est pas alchimique ?",
+   "choix": [
+    "La matula",
+    "L’alambic",
+    "L’athanor",
+    "Le creuset"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "La matula sert à examiner l’urine des malades.",
+   "id": "t062-078",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces villes n’abrite pas une grande école de médecine médiévale ?",
+   "choix": [
+    "Venise",
+    "Salerne",
+    "Montpellier",
+    "Paris"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Venise est célèbre pour son commerce et sa thériaque, pas pour une école de médecine.",
+   "id": "t062-079",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces saints n’est pas invoqué contre la peste ?",
+   "choix": [
+    "Saint Nicolas",
+    "Saint Roch",
+    "Saint Sébastien",
+    "Saint Charles Borromée"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Saint Nicolas protège surtout les enfants et les marins.",
+   "id": "t062-080",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Laquelle de ces étapes n’appartient pas au Grand Œuvre ?",
+   "choix": [
+    "La cristallisation verte",
+    "La nigredo",
+    "L’albedo",
+    "La rubedo"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Les trois couleurs principales sont le noir, le blanc et le rouge.",
+   "id": "t062-081",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces tempéraments n’existe pas dans la théorie des humeurs ?",
+   "choix": [
+    "Nerveux",
+    "Sanguin",
+    "Colérique",
+    "Mélancolique"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le tempérament « nerveux » est une invention plus tardive.",
+   "id": "t062-082",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces traitements n’est pas médiéval ?",
+   "choix": [
+    "La vaccination",
+    "La saignée",
+    "Le clystère",
+    "La purge"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "La vaccination apparaît à la fin du 18e siècle, avec Edward Jenner.",
+   "id": "t062-083",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 3,
+   "q": "Lequel de ces mots ne vient pas de l’arabe ?",
+   "choix": [
+    "Thériaque",
+    "Alambic",
+    "Élixir",
+    "Alcool"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Thériaque vient du grec ; les trois autres viennent de l’arabe.",
+   "id": "t062-084",
+   "conf": "probable"
+  },
+  {
+   "type": "intrus",
+   "niveau": 2,
+   "q": "Lequel de ces objets ne rappelle pas la mort ?",
+   "choix": [
+    "Le reliquaire d’or",
+    "Le transi",
+    "La danse macabre",
+    "L’Ars moriendi"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le reliquaire contient des restes de saints, objets de vénération.",
+   "id": "t062-085",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 1,
+   "q": "Quelles humeurs composent le corps selon la médecine médiévale ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sang",
+    "Flegme",
+    "Bile jaune",
+    "Bile noire",
+    "Lymphe",
+    "Sueur"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Chacune est liée à un tempérament, à une saison et à un élément.",
+   "id": "t062-086",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels lieux sont des centres médicaux médiévaux ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Salerne",
+    "Montpellier",
+    "Hôtel-Dieu de Paris",
+    "Hospices de Beaune",
+    "Versailles",
+    "Louvre"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "L’Hôtel-Dieu de Paris est fondé au 7e siècle.",
+   "id": "t062-087",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels instruments utilisent les alchimistes ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Alambic",
+    "Athanor",
+    "Creuset",
+    "Cornue",
+    "Matula",
+    "Bistouri électrique"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Ces instruments passent ensuite dans les laboratoires de chimie.",
+   "id": "t062-088",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels saints sont invoqués contre les maladies ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Saint Roch",
+    "Saint Sébastien",
+    "Saint Antoine",
+    "Saint Louis",
+    "Saint Denis"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Chaque saint guérisseur a sa spécialité.",
+   "id": "t062-089",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles étapes composent le Grand Œuvre ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Nigredo",
+    "Albedo",
+    "Rubedo",
+    "Fusion froide",
+    "Électrolyse"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le noir, le blanc et le rouge marquent la transformation de la matière.",
+   "id": "t062-090",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quelles images rappellent la mort ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Danse macabre",
+    "Transi",
+    "Ars moriendi",
+    "Ex-voto",
+    "Homme zodiacal"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On les regroupe sous l’expression latine memento mori, « souviens-toi que tu mourras ».",
+   "id": "t062-091",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 2,
+   "q": "Quels savants viennent du monde musulman ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Avicenne",
+    "Jabir ibn Hayyan",
+    "Rhazès",
+    "Galien",
+    "Guy de Chauliac"
+   ],
+   "reps": [
+    0,
+    1,
+    2
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Leurs œuvres, traduites en latin, nourrissent la science occidentale.",
+   "id": "t062-092",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quelles maladies marquent le Moyen Âge ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Peste",
+    "Lèpre",
+    "Mal des ardents",
+    "Écrouelles",
+    "Covid",
+    "Grippe espagnole"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "La grippe espagnole frappe en 1918, la Covid-19 en 2020.",
+   "id": "t062-093",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels mots français viennent de l’arabe ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Alambic",
+    "Élixir",
+    "Alcool",
+    "Chimie",
+    "Thériaque",
+    "Mélancolie"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le mot « chimie » vient de l’arabe al-kimiya, qui a aussi donné « alchimie ».",
+   "id": "t062-094",
+   "conf": "probable"
+  },
+  {
+   "type": "multi",
+   "niveau": 3,
+   "q": "Quels tempéraments existent dans la théorie des humeurs ? (plusieurs bonnes réponses)",
+   "choix": [
+    "Sanguin",
+    "Flegmatique",
+    "Colérique",
+    "Mélancolique",
+    "Nerveux",
+    "Lymphatique moderne"
+   ],
+   "reps": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Ces tempéraments décrivent le caractère autant que la santé.",
+   "id": "t062-095",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 1,
+   "q": "Classe ces savants de la médecine par ordre chronologique.",
+   "items": [
+    "Hippocrate",
+    "Galien",
+    "Avicenne",
+    "Guy de Chauliac"
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "De la Grèce antique au 14e siècle, le savoir médical se transmet et s’enrichit.",
+   "id": "t062-096",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces étapes du Grand Œuvre dans l’ordre.",
+   "items": [
+    "Nigredo",
+    "Albedo",
+    "Rubedo"
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "La matière passe du noir au blanc, puis au rouge.",
+   "id": "t062-097",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces fondations par ordre chronologique.",
+   "items": [
+    "Hôtel-Dieu de Paris",
+    "Faculté de Montpellier",
+    "Hospices de Beaune"
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "En 651, 1220 et 1443 : huit siècles d’histoire hospitalière.",
+   "id": "t062-098",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’une distillation dans l’ordre.",
+   "items": [
+    "Chauffer le liquide",
+    "Les vapeurs montent",
+    "Elles se refroidissent",
+    "Le distillat coule"
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On obtient ainsi des « eaux » de plus en plus pures.",
+   "id": "t062-099",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes d’une consultation médicale médiévale dans l’ordre.",
+   "items": [
+    "Examen de l’urine",
+    "Consultation des astres",
+    "Diagnostic des humeurs",
+    "Saignée ou purge"
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le médecin choisissait le jour de la saignée selon la lune.",
+   "id": "t062-100",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 2,
+   "q": "Classe ces textes ou œuvres par date.",
+   "items": [
+    "Canon d’Avicenne",
+    "Grande Chirurgie de Guy de Chauliac",
+    "Danse macabre des Innocents",
+    "Ars moriendi imprimé"
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Début du 11e siècle, 1363, 1424, puis vers 1450-1470.",
+   "id": "t062-101",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes de la peste de 1348 dans l’ordre.",
+   "items": [
+    "Arrivée de la peste",
+    "Processions de flagellants",
+    "Mesures de quarantaine",
+    "Recul de l’épidémie"
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "La peste revient ensuite régulièrement pendant trois siècles.",
+   "id": "t062-102",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces étapes du toucher royal dans l’ordre.",
+   "items": [
+    "Le sacre du roi",
+    "Les malades se présentent",
+    "Le roi les touche",
+    "Il prononce une formule"
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "La formule disait : « Le roi te touche, Dieu te guérit ».",
+   "id": "t062-103",
+   "conf": "probable"
+  },
+  {
+   "type": "ordre",
+   "niveau": 3,
+   "q": "Classe ces lieux de l’au-delà selon la croyance, du plus bas au plus haut.",
+   "items": [
+    "Enfer",
+    "Purgatoire",
+    "Paradis"
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Dante décrit ce même trajet dans la Divine Comédie.",
+   "id": "t062-104",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 1,
+   "q": "Associe chaque humeur à son tempérament.",
+   "paires": [
+    [
+     "Sang",
+     "Sanguin"
+    ],
+    [
+     "Flegme",
+     "Flegmatique"
+    ],
+    [
+     "Bile jaune",
+     "Colérique"
+    ],
+    [
+     "Bile noire",
+     "Mélancolique"
+    ]
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Ces mots sont restés dans notre vocabulaire.",
+   "id": "t062-105",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque saint à son attribut.",
+   "paires": [
+    [
+     "Saint Roch",
+     "Chien"
+    ],
+    [
+     "Saint Sébastien",
+     "Flèches"
+    ],
+    [
+     "Saint Antoine",
+     "Cochon"
+    ]
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Les Antonins élevaient des cochons qui circulaient librement dans les villes.",
+   "id": "t062-106",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque instrument à son usage.",
+   "paires": [
+    [
+     "Alambic",
+     "Distiller"
+    ],
+    [
+     "Athanor",
+     "Chauffer longtemps"
+    ],
+    [
+     "Matula",
+     "Examiner l’urine"
+    ],
+    [
+     "Creuset",
+     "Fondre les métaux"
+    ]
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Médecine et alchimie partagent certains instruments.",
+   "id": "t062-107",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque savant à son œuvre.",
+   "paires": [
+    [
+     "Avicenne",
+     "Canon de la médecine"
+    ],
+    [
+     "Guy de Chauliac",
+     "Grande Chirurgie"
+    ],
+    [
+     "Marc Bloch",
+     "Les Rois thaumaturges"
+    ],
+    [
+     "Jacques Le Goff",
+     "La Naissance du Purgatoire"
+    ]
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Ces livres sont des références sur la médecine et les croyances.",
+   "id": "t062-108",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque maladie à sa cause ou à son remède supposé.",
+   "paires": [
+    [
+     "Écrouelles",
+     "Toucher royal"
+    ],
+    [
+     "Mal des ardents",
+     "Ergot du seigle"
+    ],
+    [
+     "Peste",
+     "Quarantaine"
+    ]
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On ignorait encore l’existence des microbes.",
+   "id": "t062-109",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque couleur du Grand Œuvre à son étape.",
+   "paires": [
+    [
+     "Noir",
+     "Nigredo"
+    ],
+    [
+     "Blanc",
+     "Albedo"
+    ],
+    [
+     "Rouge",
+     "Rubedo"
+    ]
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Une étape jaune, la citrinitas, est parfois ajoutée.",
+   "id": "t062-110",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 2,
+   "q": "Associe chaque lieu à sa fonction.",
+   "paires": [
+    [
+     "Hôtel-Dieu",
+     "Hôpital"
+    ],
+    [
+     "Léproserie",
+     "Isolement des lépreux"
+    ],
+    [
+     "Jardin des simples",
+     "Plantes médicinales"
+    ]
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Les monastères jouent un grand rôle dans les soins.",
+   "id": "t062-111",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque mot à sa langue d’origine.",
+   "paires": [
+    [
+     "Alambic",
+     "Arabe"
+    ],
+    [
+     "Thériaque",
+     "Grec"
+    ],
+    [
+     "Quarantaine",
+     "Italien"
+    ]
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Le vocabulaire médical mêle plusieurs langues anciennes.",
+   "id": "t062-112",
+   "conf": "probable"
+  },
+  {
+   "type": "assoc",
+   "niveau": 3,
+   "q": "Associe chaque image funéraire à sa description.",
+   "paires": [
+    [
+     "Transi",
+     "Cadavre sculpté"
+    ],
+    [
+     "Gisant",
+     "Défunt allongé"
+    ],
+    [
+     "Priant",
+     "Défunt à genoux"
+    ]
+   ],
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Ces sculptures ornent les tombeaux des puissants.",
+   "id": "t062-113",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un médecin\n2. Je suis persan\n3. Mon Canon a été enseigné en Europe",
+   "choix": [
+    "Avicenne",
+    "Averroès",
+    "Galien",
+    "Rhazès"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "J’ai aussi écrit sur la philosophie, l’astronomie et la musique.",
+   "id": "t062-114",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une ville\n2. J’ai inventé la quarantaine\n3. On m’appelle aujourd’hui Dubrovnik",
+   "choix": [
+    "Raguse",
+    "Venise",
+    "Gênes",
+    "Split"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "J’étais une république maritime rivale de Venise.",
+   "id": "t062-115",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un hôpital\n2. On m’a fondé en 1443\n3. Mes toits sont colorés",
+   "choix": [
+    "Les Hospices de Beaune",
+    "L’Hôtel-Dieu de Paris",
+    "La Salpêtrière",
+    "Les Invalides"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Une vente de vins aux enchères célèbre m’est encore consacrée.",
+   "id": "t062-116",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une pierre\n2. Je change le plomb en or\n3. Je donne la longue vie",
+   "choix": [
+    "La pierre philosophale",
+    "Le bézoard",
+    "La pierre de lune",
+    "L’escarboucle"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Les romans de Harry Potter m’ont rendue célèbre auprès des enfants.",
+   "id": "t062-117",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un appareil\n2. Mon nom vient de l’arabe\n3. Je sers à distiller",
+   "choix": [
+    "L’alambic",
+    "L’athanor",
+    "La cornue",
+    "Le creuset"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "On m’utilise encore pour produire des eaux-de-vie.",
+   "id": "t062-118",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un saint\n2. Un chien m’a nourri\n3. On m’invoque contre la peste",
+   "choix": [
+    "Saint Roch",
+    "Saint Sébastien",
+    "Saint Antoine",
+    "Saint Hubert"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "Je suis né à Montpellier, au 14e siècle.",
+   "id": "t062-119",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis une maladie\n2. Je viens du seigle\n3. On m’appelle le feu sacré",
+   "choix": [
+    "Le mal des ardents",
+    "La peste",
+    "La lèpre",
+    "La rage"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "J’aurais inspiré certaines visions du peintre Jérôme Bosch.",
+   "id": "t062-120",
+   "conf": "probable"
+  },
+  {
+   "type": "qui",
+   "niveau": 2,
+   "q": "Qui suis-je ?\n1. Je suis un lieu\n2. Je suis entre le Ciel et l’Enfer\n3. On m’y purifie de ses fautes",
+   "choix": [
+    "Le Purgatoire",
+    "Les Limbes",
+    "L’Éden",
+    "Le Sheol"
+   ],
+   "rep": 0,
+   "src": "D. Jacquart ; M. Bloch ; J. Le Goff ; BnF",
+   "expl": "La prière des vivants peut, dit-on, abréger mon séjour.",
+   "id": "t062-121",
+   "conf": "probable"
+  }
+ ],
+ "sources": []
+}
