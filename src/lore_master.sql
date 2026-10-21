@@ -52,6 +52,19 @@ create table if not exists public.lm_results (
 );
 create index if not exists lm_results_teacher_idx on public.lm_results (teacher_hash, played_at desc);
 
+-- v1.10 : nouveau mode « melee » (Mêlée entre amis, sans MJ). La contrainte d’origine n’autorise que
+-- solo / duel / boss : on la remplace (sans risque si le script est relancé).
+do $$
+declare c text;
+begin
+  for c in select conname from pg_constraint
+            where conrelid = 'public.lm_rooms'::regclass and contype = 'c' and pg_get_constraintdef(oid) like '%mode%'
+  loop
+    execute 'alter table public.lm_rooms drop constraint ' || quote_ident(c);
+  end loop;
+  alter table public.lm_rooms add constraint lm_rooms_mode_check check (mode in ('solo','duel','boss','melee'));
+end $$;
+
 -- Tables fermées : aucun accès direct depuis les pages
 alter table public.lm_rooms   enable row level security;
 alter table public.lm_players enable row level security;
@@ -93,7 +106,7 @@ begin
   if (select count(*) from lm_rooms) >= 3000 then
     return json_build_object('ok', false, 'err', 'too_many_rooms');
   end if;
-  if p_mode not in ('solo','duel','boss') then p_mode := 'duel'; end if;
+  if p_mode not in ('solo','duel','boss','melee') then p_mode := 'duel'; end if;
   loop
     i := i + 1;
     v_code := upper(lpad(to_hex(floor(random() * 65536)::int), 4, '0'));
@@ -135,7 +148,7 @@ declare r lm_rooms;
 begin
   update lm_rooms set last_seen = now(),
          status = coalesce(case when p_status in ('open','playing','ended') then p_status end, status),
-         mode   = coalesce(case when p_mode in ('solo','duel','boss') then p_mode end, mode)
+         mode   = coalesce(case when p_mode in ('solo','duel','boss','melee') then p_mode end, mode)
    where code = upper(p_code) and host_token = p_token
   returning * into r;
   if not found then return json_build_object('ok', false, 'err', 'not_found'); end if;

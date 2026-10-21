@@ -95,6 +95,7 @@ $("ps-go").addEventListener("click",function(){
   var c=checkPseudo($("ps-in").value);
   if(!c.ok){psErr(c.why);return;}
   var cfg=lmConfig();if(!cfg||cfg.bad){psErr("Le jeu en ligne n’est pas encore configuré par ton MJ. Tu peux t’entraîner seul en attendant.");return;}
+  if(MEL.pending){MEL.create(c.p,this);return;}
   var b=this;b.disabled=true;b.textContent="Connexion…";
   var sess=store.get("sess",null),pid=sess&&sess.code===CODE&&Date.now()-sess.at<3*3600e3?sess.pid:null;
   joinRoom(CODE,c.p,pid).catch(function(e){psErr(e.message);}).then(function(){b.disabled=false;b.textContent="Entrer dans le donjon";});
@@ -113,6 +114,7 @@ function joinRoom(code,pseudo,pid){
   return rpc("lm_join",{p_code:code,p_pseudo:pseudo,p_player:pid}).then(function(r){
     if(!r||!r.ok)throw new Error(JOIN_ERR[r&&r.err]||"Impossible d’entrer dans le donjon.");
     S.host=false;S.code=code;S.pid=r.id;S.pseudo=r.pseudo;S.mode=r.mode;S.team=-1;S.score=0;
+    S.melee=r.mode==="melee";if(S.melee){S.mode="solo";S.mel={th:null,nq:MEL_NQ[1],rd:false};MEL.pick=false;S.lastHost=Date.now();S.hostWarn=false;}
     store.set("pseudo",r.pseudo);store.set("sess",{code:code,pid:r.id,pseudo:r.pseudo,at:Date.now()});
     if(S.ch){S.ch.close();S.ch=null;}
     return openChannel(code,onMsg,onNet);
@@ -120,6 +122,7 @@ function joinRoom(code,pseudo,pid){
     S.ch=ch;S.phase="lobby";
     $("m-leave").classList.remove("hidden");
     hello();renderLobby();show("s-lobby");
+    if(S.melee)setTimeout(melSendMp,400);
     clearInterval(S.ping);S.ping=setInterval(ping,40000);
   });
 }
@@ -134,11 +137,12 @@ function ping(){
   }).catch(function(){});
 }
 function leaveRoom(manual){
+  if(MEL.eng)MEL.stop();
   if(S.ch){S.ch.send({t:"bye",id:S.pid});var c=S.ch;setTimeout(function(){c.close();},300);}
   if(S.pid&&manual&&!S.host)rpc("lm_leave",{p_player:S.pid}).catch(function(){});
   S.host=false;
   clearInterval(S.ping);clearInterval(S.timer);
-  S.ch=null;S.phase=null;if(manual){store.del("sess");S.pid=null;}
+  S.ch=null;S.phase=null;S.melee=false;S.mel=null;MEL.pick=false;MEL.pending=false;if(manual){store.del("sess");S.pid=null;}
   $("m-leave").classList.add("hidden");
   CODE="";renderSlots();show("s-code");
 }
@@ -162,7 +166,9 @@ function sendAns(m){if(S.ch){m.id=S.pid;S.ch.send(m);}}
 function onMsg(m){
   if(!m||typeof m!=="object")return;
   if(!S.ch)return;   /* donjon quittée : on ignore les derniers messages en route */
+  if(MEL.eng&&MEL_IN[m.t]){melRecv(m);return;}   /* mêlée : le créateur reçoit les messages des autres */
   if(m.to&&m.to!==S.pid)return;
+  if(S.melee&&(m.t==="lb"||m.t==="hb"||m.t==="q"||m.t==="rv"||m.t==="cd"||m.t==="en"||m.t==="wt")){S.lastHost=Date.now();S.hostWarn=false;}
   if(m.t==="q"||m.t==="rv"||m.t==="cd"||m.t==="en"||m.t==="ru"||m.t==="dv")markActive();
   switch(m.t){
     case "lb":S.lb=m;S.mode=m.m;var me=(m.pl||[]).filter(function(x){return x[0]===S.pid;})[0];if(me)S.team=me[2];
@@ -192,10 +198,11 @@ function onMsg(m){
     case "no":
       if(m.why==="full"){kicked(JOIN_ERR.full);}
       else if(m.why==="pseudo"){leaveRoom(true);gotoPseudo();psErr(JOIN_ERR.pseudo_taken);}
+      else if(m.why==="started")kicked("La mêlée a déjà commencé : demande au créateur de lancer une revanche.");
       else if(m.why==="hostmode")kicked("Ce code ne fonctionne qu’en mode « Les Aventuriers VS le MJ ».");
       else kicked(JOIN_ERR.ended);
       break;
-    case "x":kicked("Le donjon a été fermé par le MJ. Merci d’avoir joué !");break;
+    case "x":kicked(S.melee?"Le créateur a fermé la mêlée. Merci d’avoir joué !":"Le donjon a été fermé par le MJ. Merci d’avoir joué !");break;
     case "rh":hello();break;
   }
 }
@@ -204,6 +211,7 @@ function onMsg(m){
 var KID_SVG='<svg class="ill" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 8 100 22v34c0 29-17 46-40 56C37 102 20 85 20 56V22z" fill="var(--ac,#6A4B8A)" stroke="var(--ink,#3B2A1A)" stroke-width="4" stroke-linejoin="round"/><path d="M60 8v104C37 102 20 85 20 56V22z" fill="rgba(255,255,255,.14)"/><path d="M60 34v46M44 52h32" stroke="#F3E6C4" stroke-width="7" stroke-linecap="round"/><circle cx="60" cy="52" r="3" fill="#F3E6C4"/></svg>';
 var LOBBY_T=null;
 function renderLobby(){
+  if(S.melee){melRenderLobby();return;}
   if(DRAGGING){clearTimeout(LOBBY_T);LOBBY_T=setTimeout(renderLobby,80);return;}
   var lb=S.lb,n=lb?(lb.pl||[]).length:0;
   $("lb-me").textContent=S.host?"Vous jouez en tant que MJ":S.pseudo+" · donjon "+S.code;
@@ -260,7 +268,7 @@ function showQuestion(q,done){
   if(S.host&&q.hd>0)q.start=Math.min(q.end-1000,q.start+q.hd);
   $("q-n").textContent=(q.i+1)+" / "+q.N;
   $("q-sc").textContent=fmtInt(S.score)+" pts";
-  $("q-tag").innerHTML=pubTag(q);try{var tc=themeColor(q.id);$("s-q").style.setProperty("--tc",tc);$("s-rv").style.setProperty("--tc",tc);}catch(e){}
+  $("q-tag").innerHTML=pubTag(q)+(q.dbl?'<span class="tag t-sun">Points doublés !</span>':"");try{var tc=themeColor(q.id);$("s-q").style.setProperty("--tc",tc);$("s-rv").style.setProperty("--tc",tc);}catch(e){}
   $("q-txt").innerHTML='<div class="q-st">'+rt(q.q)+"</div>";
   $("q-txt").classList.remove("hasfig");
   $("q-sent").classList.add("hidden");$("q-sent").classList.remove("late");
@@ -476,7 +484,12 @@ function showReveal(m){
   }
   x+='<div class="center muted small" style="margin-top:.6rem">'+(S.host?"":"Score : <b>"+fmtInt(S.score)+" pts</b> · ")+m.rate+" % des aventuriers ont trouvé</div>";
   $("rv-extra").innerHTML=x;
-  $("rv-wait").classList.remove("hidden");$("rv-next").classList.add("hidden");
+  $("rv-wait").classList.remove("hidden");$("rv-next").classList.add("hidden");$("mel-nx").classList.add("hidden");
+  if(S.melee&&m.lbd){
+    $("rv-extra").innerHTML+=melBoard(m);S.melRv=m;
+    $("rv-wait").classList.add("hidden");$("mel-nx").classList.remove("hidden");
+    var mb=$("mel-next");mb.disabled=false;mb.textContent=m.last?"Voir le podium":"Question suivante";
+  }
   show("s-rv");
   revealFx(st,pts);
 }
@@ -502,7 +515,8 @@ function showEnd(m){
   }else me='<div class="muted">Partie terminée.</div>';
   $("end-me").innerHTML=me;
   $("end-prog").innerHTML="";
-  $("end-wait").textContent="Reste ici : si le MJ relance une partie, tu y entres directement.";
+  if(S.melee){if(S.mel)S.mel.rd=false;$("end-wait").innerHTML='<button type="button" class="btn btn-go" id="end-rm">Revanche</button><br>Tous les joueurs reviennent dans le salon, avec leur thème.';}
+  else $("end-wait").textContent="Reste ici : si le MJ relance une partie, tu y entres directement.";
   show("s-end");
   playPodium($("end-pod"),null,!PREF.sound);
   if(r&&S.awarded!==(S.round||0)){

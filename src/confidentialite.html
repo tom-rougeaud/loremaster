@@ -37,6 +37,7 @@ td:last-child{border-radius:0 12px 12px 0}
       <tr><th>Donnée</th><th>Où ?</th><th>Durée</th></tr>
       <tr><td>Code du donjon, mode de jeu</td><td>Base de données Supabase de l’éditeur de l’outil</td><td>Effacé 4 h après la dernière activité, ou dès la fermeture de la salle</td></tr>
       <tr><td>Nom d’aventurier du joueur</td><td>Même base (pour limiter le donjon à 30 et éviter les doublons)</td><td>Effacé avec le donjon</td></tr>
+      <tr><td>Mêlée entre amis (sans MJ)</td><td>Même base : code de la salle et pseudos, comme pour un donjon. Les thèmes choisis, les réponses et les scores ne passent que d’un téléphone à l’autre en direct, sans être enregistrés ; le téléphone du créateur fait tourner la partie.</td><td>Effacé avec la salle (fermeture ou 4 h d’inactivité)</td></tr>
       <tr><td>Bilan de partie (noms d’aventurier, scores, taux de réussite)</td><td>Même base, rattaché à la « clé du MJ » (enregistrée sous forme hachée, donc illisible)</td><td>30 jours, puis effacement automatique</td></tr>
       <tr><td>Réponses pendant le jeu, alerte « page quittée »</td><td>Transmises en direct au MJ (canal temps réel), jamais enregistrées dans la base</td><td>Le temps de la partie</td></tr>
       <tr><td>Fiche d’aventurier (points, badges), apparence, réglages</td><td>Uniquement dans le navigateur de l’appareil</td><td>Jusqu’à ce que le joueur l’efface (bouton « Effacer mes données »)</td></tr>
